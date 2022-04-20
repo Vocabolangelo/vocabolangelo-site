@@ -6,6 +6,27 @@
 <#vocabolangelo>
     a skos:Concept ;
     skos:prefLabel "Vocabolangelo"@it ;
+    skos:altLabel "Angelario"@it ;
+    skos:altLabel "Dizionangelo"@it ;
     skos:definition "Documento strutturato che cataloga e definisce parole, non riportate in un normale vocabolario, inventate da persone ordinarie."@it ;
     skos:example "Il vocabolangelo contiene molte parole divertenti."@it ;
+    dct:creator "Angelo Filaseta" .
+
+<#angelario>
+    a skos:Concept ;
+    skos:prefLabel "Angelario"@it ;
+    skos:altLabel "Vocabolangelo"@it ;
+    skos:altLabel "Dizionangelo"@it ;
+    skos:definition "Un altro modo di definire il Vocabolangelo."@it ;
+    skos:note "Angelario è stato il primo nome del Vocabolangelo" ;
+    skos:example "L'angelario e il vocabolangelo sono la stessa cosa."@it ;
+    dct:creator "Angelo Filaseta" .
+
+<#dizionangelo>
+    a skos:Concept ;
+    skos:prefLabel "Dizionangelo"@it ;
+    skos:altLabel "Vocabolangelo"@it ;
+    skos:altLabel "Angelario"@it ;
+    skos:definition "Un altro modo di definire il Vocabolangelo."@it ;
+    skos:example "Il dizionangelo e il vocabolangelo sono la stessa cosa."@it ;
     dct:creator "Angelo Filaseta" .
