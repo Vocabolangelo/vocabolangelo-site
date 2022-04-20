@@ -1,3 +1,3 @@
-# repository-template
+# vocabolangelo-rdf
 
-Repository Template with a ready ``.gitattributes`` and a ready [pre-commit configuration](https://pre-commit.com/hooks.html).
+Il Vocabolangelo è un documento strutturato che cataloga e definisce parole, non riportate in un normale vocabolario, inventate da persone ordinarie.
