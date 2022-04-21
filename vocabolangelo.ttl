@@ -45,3 +45,17 @@
     skos:definition "Una bevanda composta da caffé e salsa agrodolce."@it ;
     skos:example "L'agroffè non mi piace molto."@it ;
     dct:creator "Angelo Filaseta" .
+
+<#alfaca>
+    a skos:Concept ;
+    skos:prefLabel "Alfaca"@it ;
+    skos:definition "L'esemplare alfa di un alpaca, ossia quello che occupa il rango sociale più alto nel suo bregge."@it ;
+    skos:example "Guarda quanto è fiero! Deve essere un alfaca."@it ;
+    dct:creator "Angelo Filaseta" .
+
+<#bregge>
+    a skos:Concept ;
+    skos:prefLabel "Bregge"@it ;
+    skos:definition "Un gruppo di animali della stessa specie che può essere sia un branco che un gregge."@it ;
+    skos:example "Gli alpaca possono far parte di un bregge."@it ;
+    dct:creator "Lorenzo Pertosa" .
