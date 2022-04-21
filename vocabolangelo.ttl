@@ -18,7 +18,7 @@
     skos:altLabel "Vocabolangelo"@it ;
     skos:altLabel "Dizionangelo"@it ;
     skos:definition "Un altro modo di definire il Vocabolangelo."@it ;
-    skos:note "Angelario è stato il primo nome del Vocabolangelo" ;
+    skos:note "Angelario è stato il primo nome del Vocabolangelo." ;
     skos:example "L'angelario e il vocabolangelo sono la stessa cosa."@it ;
     dct:creator "Angelo Filaseta" .
 
@@ -29,4 +29,19 @@
     skos:altLabel "Angelario"@it ;
     skos:definition "Un altro modo di definire il Vocabolangelo."@it ;
     skos:example "Il dizionangelo e il vocabolangelo sono la stessa cosa."@it ;
+    dct:creator "Angelo Filaseta" .
+
+<#acquorica>
+    a skos:Concept ;
+    skos:prefLabel "Acquorica"@it ;
+    skos:definition "Una bevanda composta da cafferillo e tè alla pesca. Questo mix è in grado di annullare tutti i sapori, simulando quello dell’acqua."@it ;
+    skos:example "Hai mai provato questa bevanda? Ha il sapore dell'acqua ma non è acqua!"@it ;
+    skos:note "Il nome deriva dalla fusione delle parole \"Acqua\" e \"Calorica\""@it ;
+    dct:creator "Angelo Filaseta" .
+
+<#agroffè>
+    a skos:Concept ;
+    skos:prefLabel "Agroffè"@it ;
+    skos:definition "Una bevanda composta da caffé e salsa agrodolce."@it ;
+    skos:example "L'agroffè non mi piace molto."@it ;
     dct:creator "Angelo Filaseta" .
