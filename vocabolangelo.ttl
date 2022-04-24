@@ -129,3 +129,17 @@
     skos:definition "Qualcosa che è composto di tanti giri."@it ;
     skos:example "Questa molla è veramente avvoltinosa."@it ;
     dct:creator "Angelo Filaseta" .
+
+<#amalgamangelo>
+    a skos:Concept ;
+    skos:prefLabel "Amalgamangelo"@it ;
+    skos:definition "Miscuglio eterogeneo di persone che girano intorno ad un individuo di nome Angelo."@it ;
+    skos:example "Mi sento oppresso da quest'amalgamangelo..."@it ;
+    dct:creator "Sam" .
+
+<#angelesimo>
+    a skos:Concept ;
+    skos:prefLabel "Angelesimo"@it ;
+    skos:definition "Una religione fondata da Angelo. Quando si muore si viene reincarnati in dinosauri su un pianeta non ben specificato. La stazza del dinosauro è direttamente proporzionale a quanto si è stati inetti, malvagi e spregevoli durante la vita terrena."@it ;
+    skos:example "Io credo nell'Angelesimo. Diventerò il Re dei dinosauri!"@it ;
+    dct:creator "Lorenzo Pertosa" .
