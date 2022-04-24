@@ -200,3 +200,47 @@
     skos:definition "Un metodo di scrittura utilizzato per scrivere in italiano con l’alfabeto coreano."@it ;
     skos:example "Io e la mia ragazza ci scriviamo sempre dei messaggi molto carini in coreliano."@it ;
     dct:creator "Giorgia Savo" .
+
+<#falsevolezza>
+    a skos:Concept ;
+    skos:prefLabel "Falsevolezza"@it ;
+    skos:definition "Sinonimo di falsità."@it ;
+    skos:example "Sta dicendo solo falsevolezze da quando è qui."@it ;
+    dct:creator "Angelo Filaseta" .
+
+<#fetiscista>
+    a skos:Concept ;
+    skos:prefLabel "Fetiscista"@it ;
+    skos:definition "Chi segue la pratica del feticismo verso lo sport dello Sci."@it ;
+    skos:example "Mio zio è un fetiscista."@it ;
+    dct:creator "Alexandru Bragari" .
+
+<#fremitoso>
+    a skos:Concept ;
+    skos:prefLabel "Fremitoso"@it ;
+    skos:definition "Un modo di comportarsi che risulta molto agitato a causa di un sentimento intenso."@it ;
+    skos:example "Oggi mi sento molto fremitoso, forse sono innamorato."@it ;
+    dct:creator "Angelo Filaseta" .
+
+<#frisbeedina>
+    a skos:Concept ;
+    skos:prefLabel "Frisbeedina"@it ;
+    skos:definition "Una piadina cucinata troppo, che risulta troppo dura e croccante, a tratti anche bruciata."@it ;
+    skos:example "Non cuocerla troppo, non voglio una frisbeedina."@it ;
+    dct:creator "Angelo Filaseta" .
+
+<#fuore>
+    a skos:Concept ;
+    skos:prefLabel "Fuore"@it ;
+    skos:definition "Un cuore su un fiore."@it ;
+    skos:definition "Il cuore di un fiore."@it ;
+    skos:definition "Un fiore col cuore."@it ;
+    skos:example "Oggi mio figlio ha disegnato un fuore molto carino."@it ;
+    dct:creator "Giorgia Savo" .
+
+<#fusorangelo>
+    a skos:Concept ;
+    skos:prefLabel "Fusorangelo"@it ;
+    skos:definition "Una legge dell’universo che permette alle persone e agli oggetti di viaggiare nel tempo utilizzando il “bug dei meridiani”."@it ;
+    skos:example "Posso recuperare il sonno grazie al fusorangelo."@it ;
+    dct:creator "Angelo Filaseta" .
