@@ -143,3 +143,10 @@
     skos:definition "Una religione fondata da Angelo. Quando si muore si viene reincarnati in dinosauri su un pianeta non ben specificato. La stazza del dinosauro è direttamente proporzionale a quanto si è stati inetti, malvagi e spregevoli durante la vita terrena."@it ;
     skos:example "Io credo nell'Angelesimo. Diventerò il Re dei dinosauri!"@it ;
     dct:creator "Lorenzo Pertosa" .
+
+<#biribì>
+    a skos:Concept ;
+    skos:prefLabel "Biribì"@it ;
+    skos:definition "Un posto in cui delle persone che stanno per morire vanno in veste di turisti."@it ;
+    skos:example "Tra qualche giorno morirò... Passerò i miei ultimi giorni al biribì."@it ;
+    dct:creator "Angelo Filaseta" .
