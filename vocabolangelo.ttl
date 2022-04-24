@@ -59,3 +59,73 @@
     skos:definition "Un gruppo di animali della stessa specie che può essere sia un branco che un gregge."@it ;
     skos:example "Gli alpaca possono far parte di un bregge."@it ;
     dct:creator "Lorenzo Pertosa" .
+
+<#balbizia>
+    a skos:Concept ;
+    skos:prefLabel "Balbizia"@it ;
+    skos:definition "Equivalente di balbuzia, ma utilizzabile solo su entità che soffrono di calvizia."@it ;
+    skos:example "Nicola soffre di balbizia."@it ;
+    dct:creator "Nicole Battaglino" .
+
+<#cardiota>
+    a skos:Concept ;
+    skos:prefLabel "Cardiota"@it ;
+    skos:definition "Equivalente ad idiota, ma utilizzabile solo su entità che hanno problemi cardiaci."@it ;
+    skos:example "Luca è proprio un cardiota!"@it ;
+    dct:creator "Giorgia Savo" .
+
+<#domanica>
+    a skos:Concept ;
+    skos:prefLabel "Domanica"@it ;
+    skos:definition "Il giorno seguente a oggi, ma utilizzabile solo se il giorno seguente è Domenica."@it ;
+    skos:example "Ci vediamo domanica."@it ;
+    dct:creator "Alexandru Bragari" .
+
+<#brovedì>
+    a skos:Concept ;
+    skos:prefLabel "Brovedì"@it ;
+    skos:definition "Il nome di un giorno della settimana aggiuntivo. Brovedì può essere utilizzato per rendere variabile il numero di giorni in una settimana. Brovedì può esserci o non esserci. Le regole di quando come e dove piazzare Brovedì non sono formalizzate."@it ;
+    skos:example "Vorrei tanto esistesse il brovedì, ci sarebbe molto più tempo!"@it ;
+    dct:creator "Alexandru Bragari" .
+
+<#tretro>
+    a skos:Concept ;
+    skos:prefLabel "Tretro"@it ;
+    skos:definition "Un mezzo di trasporto che può essere definito sia come un treno che come una metro."@it ;
+    skos:example "Se non ti sbrighi perderemo il tretro!"@it ;
+    dct:creator "Angelo Filaseta" .
+
+<#canillo>
+    a skos:Concept ;
+    skos:prefLabel "Canillo"@it ;
+    skos:definition "Un cane che è stato addestrato per svolgere delle gare di corsa."@it ;
+    skos:example "Il mio canillo è il più veloce del mondo."@it ;
+    dct:creator "Angelo Filaseta" .
+
+<#capannolo>
+    a skos:Concept ;
+    skos:prefLabel "Capannolo"@it ;
+    skos:definition "Equivalente di capanno, ma utilizzabile solo se all'interno vi sono solo imbacazioni."@it ;
+    skos:example "Ho lasciato la mia barca al capannolo."@it ;
+    dct:creator "Lorenzo Pertosa" .
+
+<#incrociatoria>
+    a skos:Concept ;
+    skos:prefLabel "Incrociatoria"@it ;
+    skos:definition "Incrocio a raso molto pericoloso mascherato da rotatoria."@it ;
+    skos:example "Ieri sono quasi morto a quell'incrociatoria."@it ;
+    dct:creator "Lorenzo Pertosa" .
+
+<#angelata>
+    a skos:Concept ;
+    skos:prefLabel "Angelata"@it ;
+    skos:definition "Un'azione stupida che porta quasi sicuramente a brutte conseguenze e che viene compiuta solo per divertimento."@it ;
+    skos:example "Scavalcare quel muro sarebbe proprio un'angelata."@it ;
+    dct:creator "Lorenzo Pertosa" .
+
+<#avvoltinoso>
+    a skos:Concept ;
+    skos:prefLabel "Avvoltinoso"@it ;
+    skos:definition "Qualcosa che è composto di tanti giri."@it ;
+    skos:example "Questa molla è veramente avvoltinosa."@it ;
+    dct:creator "Angelo Filaseta" .
