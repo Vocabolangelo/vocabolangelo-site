@@ -150,3 +150,53 @@
     skos:definition "Un posto in cui delle persone che stanno per morire vanno in veste di turisti."@it ;
     skos:example "Tra qualche giorno morirò... Passerò i miei ultimi giorni al biribì."@it ;
     dct:creator "Angelo Filaseta" .
+
+<#caffemilla>
+    a skos:Concept ;
+    skos:prefLabel "Caffemilla"@it ;
+    skos:definition "Un caffè (di qualsiasi tipo) aromatizzato alla camomilla."@it ;
+    skos:example "La caffemilla non mi piace."@it ;
+    dct:creator "Angelo Filaseta" .
+
+<#cafferillo>
+    a skos:Concept ;
+    skos:prefLabel "Cafferillo"@it ;
+    skos:definition "Una variante di caffè mischiato con sciroppo di mirtillo. Come per il normale caffè è possibile crearlo in diverse varianti (macchiato, corretto, shackerato, etc.)."@it ;
+    skos:example "Amo il cafferillo, lo prendo sempre senza zucchero."@it ;
+    dct:creator "Angelo Filaseta" .
+
+<#canillodromo>
+    a skos:Concept ;
+    skos:prefLabel "Canillodromo"@it ;
+    skos:definition "Struttura adibita alle corse dei Canilli. Come in un normale ippodromo è possibile scommettere sui cani che vincono per cercare di guadaganre soldi."@it ;
+    skos:example "Ieri ho perso una fortuna al canillodromo."@it ;
+    dct:creator "Angelo Filaseta" .
+
+<#cedrancia>
+    a skos:Concept ;
+    skos:prefLabel "Cedrancia"@it ;
+    skos:definition "Una bevanda che si ottiene mischiando insieme la cedrata e una qualsiasi aranciata."@it ;
+    skos:example "Stasera mi andrebbe proprio una cedrancia."@it ;
+    dct:creator "Angelo Filaseta" .
+
+
+<#coecrita>
+    a skos:Concept ;
+    skos:prefLabel "Coecrita"@it ;
+    skos:definition "Una persona ipocrita, sarcasticamente non coerente."@it ;
+    skos:example "Parlare con te è inutile, sei un coecrita!"@it ;
+    dct:creator "Angelo Filaseta" .
+
+<#complinsulto>
+    a skos:Concept ;
+    skos:prefLabel "Complinsulto"@it ;
+    skos:definition "Un’affermazione che non si capisce bene se sia un complimento o un insulto."@it ;
+    skos:example "Parlare con te è inutile, sei un coecrita!"@it ;
+    dct:creator "Angelo Filaseta" .
+
+<#coreliano>
+    a skos:Concept ;
+    skos:prefLabel "Coreliano"@it ;
+    skos:definition "Un metodo di scrittura utilizzato per scrivere in italiano con l’alfabeto coreano."@it ;
+    skos:example "Io e la mia ragazza ci scriviamo sempre dei messaggi molto carini in coreliano."@it ;
+    dct:creator "Giorgia Savo" .
