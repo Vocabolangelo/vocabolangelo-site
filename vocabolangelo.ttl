@@ -1,7 +1,62 @@
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rel: <http://purl.org/vocab/relationship> .
+
+# Person Individuals
+
+<#filaseta-angelo>
+    a foaf:Person ;
+    foaf:firstName "Angelo" ;
+    foaf:lastName "Filaseta" ;
+    foaf:nick "Ange" ;
+    rel:friendOf <#savo-giorgia> , <#bragari-alexandru> , <#battaglino-nicole> , <#omiccioli-riccardo> ,<#pertosa-lorenzo> , <#timpano-sam> ;
+    rel:lifePartnerOf <#savo-giorgia> .
+
+<#savo-giorgia>
+    a foaf:Person ;
+    foaf:firstName "Giorgia" ;
+    foaf:lastName "Savo" ;
+    foaf:nick "GioGio" ;
+    rel:friendOf <#bragari-alexandru> , <#battaglino-nicole> , <#omiccioli-riccardo> , <#pertosa-lorenzo>, <#timpano-sam> .
+
+<#bragari-alexandru>
+    a foaf:Person ;
+    foaf:firstName "Alexandru" ;
+    foaf:lastName "Bragari" ;
+    foaf:nick "Sasha" ;
+    rel:friendOf <#battaglino-nicole> , <#omiccioli-riccardo> , <#pertosa-lorenzo> , <#timpano-sam> .
+
+<#battaglino-nicole>
+    a foaf:Person ;
+    foaf:firstName "Nicole" ;
+    foaf:lastName "Battaglino" ;
+    foaf:nick "Batta" ;
+    rel:friendOf <#pertosa-lorenzo> , <#timpano-sam> , <#omiccioli-riccardo>  ;
+    rel:lifePartnerOf <#omiccioli-riccardo> .
+
+<#omiccioli-riccardo>
+    a foaf:Person ;
+    foaf:firstName "Riccardo" ;
+    foaf:lastName "Omiccioli" ;
+    foaf:nick "Miccio" ;
+    rel:friendOf <#pertosa-lorenzo> , <#timpano-sam> .
+
+<#pertosa-lorenzo>
+    a foaf:Person ;
+    foaf:firstName "Lorenzo" ;
+    foaf:lastName "Pertosa" ;
+    foaf:nick "P" ;
+    rel:friendOf <#timpano-sam> .
+
+<#timpano-sam>
+    a foaf:Person ;
+    foaf:lastName "Timpano" ;
+    foaf:nick "Sam" .
+
+# Vocabolangelo Words Individuals
 
 <#vocabolangelo>
     a skos:Concept ;
@@ -10,7 +65,7 @@
     skos:altLabel "Dizionangelo"@it ;
     skos:definition "Documento strutturato che cataloga e definisce parole, non riportate in un normale vocabolario, inventate da persone ordinarie."@it ;
     skos:example "Il vocabolangelo contiene molte parole divertenti."@it ;
-    dct:creator "Filaseta Angelo" .
+    dct:creator <#filaseta-angelo> .
 
 <#angelario>
     a skos:Concept ;
@@ -20,7 +75,7 @@
     skos:definition "Un altro modo di definire il Vocabolangelo."@it ;
     skos:note "Angelario è stato il primo nome del Vocabolangelo." ;
     skos:example "L'angelario e il vocabolangelo sono la stessa cosa."@it ;
-    dct:creator "Filaseta Angelo" .
+    dct:creator <#filaseta-angelo> .
 
 <#dizionangelo>
     a skos:Concept ;
@@ -29,7 +84,7 @@
     skos:altLabel "Angelario"@it ;
     skos:definition "Un altro modo di definire il Vocabolangelo."@it ;
     skos:example "Il dizionangelo e il vocabolangelo sono la stessa cosa."@it ;
-    dct:creator "Filaseta Angelo" .
+    dct:creator <#filaseta-angelo> .
 
 <#acquorica>
     a skos:Concept ;
@@ -37,147 +92,147 @@
     skos:definition "Una bevanda composta da cafferillo e tè alla pesca. Questo mix è in grado di annullare tutti i sapori, simulando quello dell’acqua."@it ;
     skos:example "Hai mai provato questa bevanda? Ha il sapore dell'acqua ma non è acqua!"@it ;
     skos:note "Il nome deriva dalla fusione delle parole \"Acqua\" e \"Calorica\""@it ;
-    dct:creator "Filaseta Angelo" .
+    dct:creator <#filaseta-angelo> .
 
 <#agroffè>
     a skos:Concept ;
     skos:prefLabel "Agroffè"@it ;
     skos:definition "Una bevanda composta da caffé e salsa agrodolce."@it ;
     skos:example "L'agroffè non mi piace molto."@it ;
-    dct:creator "Filaseta Angelo" .
+    dct:creator <#filaseta-angelo> .
 
 <#alfaca>
     a skos:Concept ;
     skos:prefLabel "Alfaca"@it ;
     skos:definition "L'esemplare alfa di un alpaca, ossia quello che occupa il rango sociale più alto nel suo bregge."@it ;
     skos:example "Guarda quanto è fiero! Deve essere un alfaca."@it ;
-    dct:creator "Filaseta Angelo" .
+    dct:creator <#filaseta-angelo> .
 
 <#bregge>
     a skos:Concept ;
     skos:prefLabel "Bregge"@it ;
     skos:definition "Un gruppo di animali della stessa specie che può essere sia un branco che un gregge."@it ;
     skos:example "Gli alpaca possono far parte di un bregge."@it ;
-    dct:creator "Lorenzo Pertosa" .
+    dct:creator <#pertosa-lorenzo> .
 
 <#balbizia>
     a skos:Concept ;
     skos:prefLabel "Balbizia"@it ;
     skos:definition "Equivalente di balbuzia, ma utilizzabile solo su entità che soffrono di calvizia."@it ;
     skos:example "Nicola soffre di balbizia."@it ;
-    dct:creator "Battaglino Nicole" .
+    dct:creator <#battaglino-nicole> .
 
 <#cardiota>
     a skos:Concept ;
     skos:prefLabel "Cardiota"@it ;
     skos:definition "Equivalente ad idiota, ma utilizzabile solo su entità che hanno problemi cardiaci."@it ;
     skos:example "Luca è proprio un cardiota!"@it ;
-    dct:creator "Savo Giorgia" .
+    dct:creator <#savo-giorgia> .
 
 <#domanica>
     a skos:Concept ;
     skos:prefLabel "Domanica"@it ;
     skos:definition "Il giorno seguente a oggi, ma utilizzabile solo se il giorno seguente è Domenica."@it ;
     skos:example "Ci vediamo domanica."@it ;
-    dct:creator "Alexandru Bragari" .
+    dct:creator <#bragari-alexandru> .
 
 <#brovedì>
     a skos:Concept ;
     skos:prefLabel "Brovedì"@it ;
     skos:definition "Il nome di un giorno della settimana aggiuntivo. Brovedì può essere utilizzato per rendere variabile il numero di giorni in una settimana. Brovedì può esserci o non esserci. Le regole di quando come e dove piazzare Brovedì non sono formalizzate."@it ;
     skos:example "Vorrei tanto esistesse il brovedì, ci sarebbe molto più tempo!"@it ;
-    dct:creator "Alexandru Bragari" .
+    dct:creator <#bragari-alexandru> .
 
 <#tretro>
     a skos:Concept ;
     skos:prefLabel "Tretro"@it ;
     skos:definition "Un mezzo di trasporto che può essere definito sia come un treno che come una metro."@it ;
     skos:example "Se non ti sbrighi perderemo il tretro!"@it ;
-    dct:creator "Filaseta Angelo" .
+    dct:creator <#filaseta-angelo> .
 
 <#canillo>
     a skos:Concept ;
     skos:prefLabel "Canillo"@it ;
     skos:definition "Un cane che è stato addestrato per svolgere delle gare di corsa."@it ;
     skos:example "Il mio canillo è il più veloce del mondo."@it ;
-    dct:creator "Filaseta Angelo" .
+    dct:creator <#filaseta-angelo> .
 
 <#capannolo>
     a skos:Concept ;
     skos:prefLabel "Capannolo"@it ;
     skos:definition "Equivalente di capanno, ma utilizzabile solo se all'interno vi sono solo imbacazioni."@it ;
     skos:example "Ho lasciato la mia barca al capannolo."@it ;
-    dct:creator "Lorenzo Pertosa" .
+    dct:creator <#pertosa-lorenzo> .
 
 <#incrociatoria>
     a skos:Concept ;
     skos:prefLabel "Incrociatoria"@it ;
     skos:definition "Incrocio a raso molto pericoloso mascherato da rotatoria."@it ;
     skos:example "Ieri sono quasi morto a quell'incrociatoria."@it ;
-    dct:creator "Lorenzo Pertosa" .
+    dct:creator <#pertosa-lorenzo> .
 
 <#angelata>
     a skos:Concept ;
     skos:prefLabel "Angelata"@it ;
     skos:definition "Un'azione stupida che porta quasi sicuramente a brutte conseguenze e che viene compiuta solo per divertimento."@it ;
     skos:example "Scavalcare quel muro sarebbe proprio un'angelata."@it ;
-    dct:creator "Lorenzo Pertosa" .
+    dct:creator <#pertosa-lorenzo> .
 
 <#avvoltinoso>
     a skos:Concept ;
     skos:prefLabel "Avvoltinoso"@it ;
     skos:definition "Qualcosa che è composto di tanti giri."@it ;
     skos:example "Questa molla è veramente avvoltinosa."@it ;
-    dct:creator "Filaseta Angelo" .
+    dct:creator <#filaseta-angelo> .
 
 <#amalgamangelo>
     a skos:Concept ;
     skos:prefLabel "Amalgamangelo"@it ;
     skos:definition "Miscuglio eterogeneo di persone che girano intorno ad un individuo di nome Angelo."@it ;
     skos:example "Mi sento oppresso da quest'amalgamangelo..."@it ;
-    dct:creator "Sam" .
+    dct:creator <#timpano-sam> .
 
 <#angelesimo>
     a skos:Concept ;
     skos:prefLabel "Angelesimo"@it ;
     skos:definition "Una religione fondata da Angelo. Quando si muore si viene reincarnati in dinosauri su un pianeta non ben specificato. La stazza del dinosauro è direttamente proporzionale a quanto si è stati inetti, malvagi e spregevoli durante la vita terrena."@it ;
     skos:example "Io credo nell'Angelesimo. Diventerò il Re dei dinosauri!"@it ;
-    dct:creator "Lorenzo Pertosa" .
+    dct:creator <#pertosa-lorenzo> .
 
 <#biribì>
     a skos:Concept ;
     skos:prefLabel "Biribì"@it ;
     skos:definition "Un posto in cui delle persone che stanno per morire vanno in veste di turisti."@it ;
     skos:example "Tra qualche giorno morirò... Passerò i miei ultimi giorni al biribì."@it ;
-    dct:creator "Filaseta Angelo" .
+    dct:creator <#filaseta-angelo> .
 
 <#caffemilla>
     a skos:Concept ;
     skos:prefLabel "Caffemilla"@it ;
     skos:definition "Un caffè (di qualsiasi tipo) aromatizzato alla camomilla."@it ;
     skos:example "La caffemilla non mi piace."@it ;
-    dct:creator "Filaseta Angelo" .
+    dct:creator <#filaseta-angelo> .
 
 <#cafferillo>
     a skos:Concept ;
     skos:prefLabel "Cafferillo"@it ;
     skos:definition "Una variante di caffè mischiato con sciroppo di mirtillo. Come per il normale caffè è possibile crearlo in diverse varianti (macchiato, corretto, shackerato, etc.)."@it ;
     skos:example "Amo il cafferillo, lo prendo sempre senza zucchero."@it ;
-    dct:creator "Filaseta Angelo" .
+    dct:creator <#filaseta-angelo> .
 
 <#canillodromo>
     a skos:Concept ;
     skos:prefLabel "Canillodromo"@it ;
     skos:definition "Struttura adibita alle corse dei Canilli. Come in un normale ippodromo è possibile scommettere sui cani che vincono per cercare di guadaganre soldi."@it ;
     skos:example "Ieri ho perso una fortuna al canillodromo."@it ;
-    dct:creator "Filaseta Angelo" .
+    dct:creator <#filaseta-angelo> .
 
 <#cedrancia>
     a skos:Concept ;
     skos:prefLabel "Cedrancia"@it ;
     skos:definition "Una bevanda che si ottiene mischiando insieme la cedrata e una qualsiasi aranciata."@it ;
     skos:example "Stasera mi andrebbe proprio una cedrancia."@it ;
-    dct:creator "Filaseta Angelo" .
+    dct:creator <#filaseta-angelo> .
 
 
 <#coecrita>
@@ -185,49 +240,49 @@
     skos:prefLabel "Coecrita"@it ;
     skos:definition "Una persona ipocrita, sarcasticamente non coerente."@it ;
     skos:example "Parlare con te è inutile, sei un coecrita!"@it ;
-    dct:creator "Filaseta Angelo" .
+    dct:creator <#filaseta-angelo> .
 
 <#complinsulto>
     a skos:Concept ;
     skos:prefLabel "Complinsulto"@it ;
     skos:definition "Un’affermazione che non si capisce bene se sia un complimento o un insulto."@it ;
     skos:example "Parlare con te è inutile, sei un coecrita!"@it ;
-    dct:creator "Filaseta Angelo" .
+    dct:creator <#filaseta-angelo> .
 
 <#coreliano>
     a skos:Concept ;
     skos:prefLabel "Coreliano"@it ;
     skos:definition "Un metodo di scrittura utilizzato per scrivere in italiano con l’alfabeto coreano."@it ;
     skos:example "Io e la mia ragazza ci scriviamo sempre dei messaggi molto carini in coreliano."@it ;
-    dct:creator "Savo Giorgia" .
+    dct:creator <#savo-giorgia> .
 
 <#falsevolezza>
     a skos:Concept ;
     skos:prefLabel "Falsevolezza"@it ;
     skos:definition "Sinonimo di falsità."@it ;
     skos:example "Sta dicendo solo falsevolezze da quando è qui."@it ;
-    dct:creator "Filaseta Angelo" .
+    dct:creator <#filaseta-angelo> .
 
 <#fetiscista>
     a skos:Concept ;
     skos:prefLabel "Fetiscista"@it ;
     skos:definition "Chi segue la pratica del feticismo verso lo sport dello Sci."@it ;
     skos:example "Mio zio è un fetiscista."@it ;
-    dct:creator "Alexandru Bragari" .
+    dct:creator <#bragari-alexandru> .
 
 <#fremitoso>
     a skos:Concept ;
     skos:prefLabel "Fremitoso"@it ;
     skos:definition "Un modo di comportarsi che risulta molto agitato a causa di un sentimento intenso."@it ;
     skos:example "Oggi mi sento molto fremitoso, forse sono innamorato."@it ;
-    dct:creator "Filaseta Angelo" .
+    dct:creator <#filaseta-angelo> .
 
 <#frisbeedina>
     a skos:Concept ;
     skos:prefLabel "Frisbeedina"@it ;
     skos:definition "Una piadina cucinata troppo, che risulta troppo dura e croccante, a tratti anche bruciata."@it ;
     skos:example "Non cuocerla troppo, non voglio una frisbeedina."@it ;
-    dct:creator "Filaseta Angelo" .
+    dct:creator <#filaseta-angelo> .
 
 <#fuore>
     a skos:Concept ;
@@ -236,28 +291,28 @@
     skos:definition "Il cuore di un fiore."@it ;
     skos:definition "Un fiore col cuore."@it ;
     skos:example "Oggi mio figlio ha disegnato un fuore molto carino."@it ;
-    dct:creator "Savo Giorgia" .
+    dct:creator <#savo-giorgia> .
 
 <#fusorangelo>
     a skos:Concept ;
     skos:prefLabel "Fusorangelo"@it ;
     skos:definition "Una legge dell’universo che permette alle persone e agli oggetti di viaggiare nel tempo utilizzando il “bug dei meridiani”."@it ;
     skos:example "Posso recuperare il sonno grazie al fusorangelo."@it ;
-    dct:creator "Filaseta Angelo" .
+    dct:creator <#filaseta-angelo> .
 
 <#incazzabbiato>
     a skos:Concept ;
     skos:prefLabel "Incazzabbiato"@it ;
     skos:definition "Sinonimo di infastidito, incavolato, arrabbiato ma non così tanto."@it ;
     skos:example "Sono incazzabbiato con lei perché non capisce quello che voglio dire."@it ;
-    dct:creator "Filaseta Angelo" .
+    dct:creator <#filaseta-angelo> .
 
 <#oscuretra>
     a skos:Concept ;
     skos:prefLabel "Oscuretra"@it ;
     skos:definition "L’oscurità all’interno dell’uretra."@it ;
     skos:example "Un medico oggi ha detto: <<Serve più luce, c'è troppa oscuretra!>>"@it ;
-    dct:creator "Lorenzo Pertosa" .
+    dct:creator <#pertosa-lorenzo> .
 
 <#proprostata>
     a skos:Concept ;
@@ -276,21 +331,21 @@
     skos:prefLabel "Rototandoria"@it ;
     skos:definition "Sinonimo di rotatoria, rotonda."@it ;
     skos:example "Ieri un tizio ha preso la rototandoria al contrario ed è morto."@it ;
-    dct:creator "Filaseta Angelo" .
+    dct:creator <#filaseta-angelo> .
 
 <#sbadigliese>
     a skos:Concept ;
     skos:prefLabel "Sbadigliese"@it ;
     skos:definition "La lingua che si parla quando si prova a parlare mentre si sbadiglia."@it ;
     skos:example "Non ho capito molto, prova a non parlare in sbadigliese."@it ;
-    dct:creator "Filaseta Angelo" .
+    dct:creator <#filaseta-angelo> .
 
 <#scorciatroia>
     a skos:Concept ;
     skos:prefLabel "Scorciatroia"@it ;
     skos:definition "Un percorso che, tra due località, risulta sembrare più breve della strada più importante, ma è in realtà più lunga."@it ;
     skos:example "Sapevo che era una scorciatroia! Ora faremo in ritardo..."@it ;
-    dct:creator "Filaseta Angelo" .
+    dct:creator <#filaseta-angelo> .
 
 <#singhiozzutto>
     a skos:Concept ;
@@ -303,32 +358,32 @@
     skos:prefLabel "Sparatroia"@it ;
     skos:definition "Quando c’è una sparatoria in cui molta gente spara a caso."@it ;
     skos:example "Ho perso l'uso dell'occhio destro a causa di una sparatroia."@it ;
-    dct:creator "Filaseta Angelo" .
+    dct:creator <#filaseta-angelo> .
 
 <#stancoso>
     a skos:Concept ;
     skos:prefLabel "Stancoso"@it ;
     skos:definition "Sinonimo di stanco, assonnato."@it ;
     skos:example "Non dormo da due giorni, sono stancoso."@it ;
-    dct:creator "Filaseta Angelo" .
+    dct:creator <#filaseta-angelo> .
 
 <#stravoloso>
     a skos:Concept ;
     skos:prefLabel "Stravoloso"@it ;
     skos:definition "Sinonimo di favoloso, ma più in grande. Simile a strabiliante, incredibile."@it ;
     skos:example "Domani Mia si sposa! Stravoloso!"@it ;
-    dct:creator "Filaseta Angelo" .
+    dct:creator <#filaseta-angelo> .
 
 <#stroia>
     a skos:Concept ;
     skos:prefLabel "Stroia"@it ;
     skos:definition "Una persona che è contemporaneamente sia stronza che troia."@it ;
     skos:example "Quella lì sta sempre vicina al mio ragazzo, è proprio una stroia!"@it ;
-    dct:creator "Battaglino Nicole" .
+    dct:creator <#battaglino-nicole> .
 
 <#stupendoso>
     a skos:Concept ;
     skos:prefLabel "Stupendoso"@it ;
     skos:definition "Sinonimo di stupendo."@it ;
     skos:example "Quel ragazzo è stupendoso."@it ;
-    dct:creator "Filaseta Angelo" .
+    dct:creator <#filaseta-angelo> .
