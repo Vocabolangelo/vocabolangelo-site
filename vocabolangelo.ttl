@@ -443,3 +443,31 @@
     skos:definition "Che occupa, in una serie, reale o ipotetica, il posto corrispondente al numero zero o, in senso più generico, prima dell’inizio."@it ;
     skos:example "Sono arrivato zeresimo."@it ;
     dct:creator <#filaseta-angelo> .
+
+<#arsenzio>
+    a skos:Concept ;
+    skos:prefLabel "Arsenzio"@it ;
+    skos:definition "Assenzio con dentro arsenico."@it ;
+    skos:example "Stasera mi faccio un bicchierino di Arsenzio."@it ;
+    dct:creator <#bragari-alexandru> .
+
+<#piedofilo>
+    a skos:Concept ;
+    skos:prefLabel "Piedofilo"@it ;
+    skos:definition "Un pedofilo che è anche feticista dei piedi."@it ;
+    skos:example "Stai attento, quello è un piedofilo."@it ;
+    dct:creator <#bragari-alexandru> .
+
+<#mussulnano>
+    a skos:Concept ;
+    skos:prefLabel "Mussulnano"@it ;
+    skos:definition "Un mussulmano nano."@it ;
+    skos:example "Quel ragazzo è un mussulnano."@it ;
+    dct:creator <#omiccioli-riccardo> .
+
+<#regola-arbitroia>
+    a skos:Concept ;
+    skos:prefLabel "Regola arbitroia"@it ;
+    skos:definition "Una regola arbitraria che per qualche ragione sconosciuta in realtà funziona sempre."@it ;
+    skos:example "Il risultato è insapettato, questa deve essere una regola arbitroia."@it ;
+    dct:creator <#omiccioli-riccardo> .
