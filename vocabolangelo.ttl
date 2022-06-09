@@ -13,6 +13,7 @@
     foaf:lastName "Filaseta" ;
     foaf:nick "Ange" ;
     rel:friendOf <#savo-giorgia> , <#bragari-alexandru> , <#battaglino-nicole> , <#omiccioli-riccardo> ,<#pertosa-lorenzo> , <#timpano-sam> ;
+    rel:closeFriendOf <#ribaudo-sofia> ;
     rel:lifePartnerOf <#savo-giorgia> .
 
 <#savo-giorgia>
@@ -20,21 +21,21 @@
     foaf:firstName "Giorgia" ;
     foaf:lastName "Savo" ;
     foaf:nick "GioGio" ;
-    rel:friendOf <#bragari-alexandru> , <#battaglino-nicole> , <#omiccioli-riccardo> , <#pertosa-lorenzo>, <#timpano-sam> .
+    rel:friendOf <#bragari-alexandru> , <#battaglino-nicole> , <#omiccioli-riccardo> , <#pertosa-lorenzo>, <#timpano-sam> , <#ribaudo-sofia> .
 
 <#bragari-alexandru>
     a foaf:Person ;
     foaf:firstName "Alexandru" ;
     foaf:lastName "Bragari" ;
     foaf:nick "Sasha" ;
-    rel:friendOf <#battaglino-nicole> , <#omiccioli-riccardo> , <#pertosa-lorenzo> , <#timpano-sam> .
+    rel:friendOf <#battaglino-nicole> , <#omiccioli-riccardo> , <#pertosa-lorenzo> , <#timpano-sam> , <#ribaudo-sofia> .
 
 <#battaglino-nicole>
     a foaf:Person ;
     foaf:firstName "Nicole" ;
     foaf:lastName "Battaglino" ;
     foaf:nick "Batta" ;
-    rel:friendOf <#pertosa-lorenzo> , <#timpano-sam> , <#omiccioli-riccardo>  ;
+    rel:friendOf <#pertosa-lorenzo> , <#timpano-sam> , <#omiccioli-riccardo> , <#ribaudo-sofia> ;
     rel:lifePartnerOf <#omiccioli-riccardo> .
 
 <#omiccioli-riccardo>
@@ -42,19 +43,25 @@
     foaf:firstName "Riccardo" ;
     foaf:lastName "Omiccioli" ;
     foaf:nick "Miccio" ;
-    rel:friendOf <#pertosa-lorenzo> , <#timpano-sam> .
+    rel:friendOf <#pertosa-lorenzo> , <#timpano-sam> , <#ribaudo-sofia> .
 
 <#pertosa-lorenzo>
     a foaf:Person ;
     foaf:firstName "Lorenzo" ;
     foaf:lastName "Pertosa" ;
     foaf:nick "P" ;
-    rel:friendOf <#timpano-sam> .
+    rel:friendOf <#timpano-sam> , <#ribaudo-sofia> .
 
 <#timpano-sam>
     a foaf:Person ;
     foaf:lastName "Timpano" ;
-    foaf:nick "Sam" .
+    foaf:nick "Sam" ;
+    rel:friendOf <#ribaudo-sofia> .
+
+<#ribaudo-sofia>
+    a foaf:Person ;
+    foaf:firstName "Sofia" ;
+    foaf:lastName "Ribaudo" .
 
 # Vocabolangelo Words Individuals
 
@@ -387,3 +394,24 @@
     skos:definition "Sinonimo di stupendo."@it ;
     skos:example "Quel ragazzo è stupendoso."@it ;
     dct:creator <#filaseta-angelo> .
+
+<#tardivare>
+    a skos:Concept ;
+    skos:prefLabel "Tardivare"@it ;
+    skos:definition "Arrivare, ma tardi."@it ;
+    skos:example "Non possiamo tardivare proprio oggi!"@it ;
+    dct:creator <#filaseta-angelo> .
+
+<#tiramirillo>
+    a skos:Concept ;
+    skos:prefLabel "Tiramirillo"@it ;
+    skos:definition "Un tiramisù regolare, ma il caffè utilizzato nel procedimento è rimpiazzato dal cafferillo."@it ;
+    skos:example "Dato che oggi è festa ho preprato un tiramirillo."@it ;
+    dct:creator <#filaseta-angelo> .
+
+<#trocatrice>
+    a skos:Concept ;
+    skos:prefLabel "Trocatrice"@it ;
+    skos:definition "Una persona che trucca le persone ma fornisce loro anche della droga. Sia la vendita legale che lo spaccio valgono per l’utilizzo di questa parola."@it ;
+    skos:example "Ho rimediato due grammi dalla trocatrice."@it ;
+    dct:creator <#ribaudo-sofia> .
