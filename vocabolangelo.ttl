@@ -244,3 +244,35 @@
     skos:definition "Una legge dell’universo che permette alle persone e agli oggetti di viaggiare nel tempo utilizzando il “bug dei meridiani”."@it ;
     skos:example "Posso recuperare il sonno grazie al fusorangelo."@it ;
     dct:creator "Angelo Filaseta" .
+
+<#incazzabbiato>
+    a skos:Concept ;
+    skos:prefLabel "Incazzabbiato"@it ;
+    skos:definition "Sinonimo di infastidito, incavolato, arrabbiato ma non così tanto."@it ;
+    skos:example "Sono incazzabbiato con lei perché non capisce quello che voglio dire."@it ;
+    dct:creator "Angelo Filaseta" .
+
+<#oscuretra>
+    a skos:Concept ;
+    skos:prefLabel "Oscuretra"@it ;
+    skos:definition "L’oscurità all’interno dell’uretra."@it ;
+    skos:example "Un medico oggi ha detto: <<Serve più luce, c'è troppa oscuretra!>>"@it ;
+    dct:creator "Lorenzo Pertosa" .
+
+<#proprostata>
+    a skos:Concept ;
+    skos:prefLabel "Proprostata"@it ;
+    skos:definition "Proposta che viene fatta da una persona A ad una persona B, la quale deve possedere una prostata. Se accettata A ottiene la prostata di B."@it ;
+    skos:example "Oggi Alessandra mi ha fatto una proprostrata... Ho paura."@it .
+
+<#roletano>
+    a skos:Concept ;
+    skos:prefLabel "Roletano"@it ;
+    skos:definition "Una persona che dimostra caratteristiche ibride associabili sia a chi viene da Roma che da Napoli."@it ;
+    skos:example "Ciro è proprio un Roletano."@it .
+
+<#rototandoria>
+    a skos:Concept ;
+    skos:prefLabel "Rototandoria"@it ;
+    skos:definition "Sinonimo di rotatoria, rotonda."@it ;
+    skos:example "Ieri un tizio ha preso la rototandoria al contrario ed è morto."@it .
