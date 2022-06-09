@@ -415,3 +415,31 @@
     skos:definition "Una persona che trucca le persone ma fornisce loro anche della droga. Sia la vendita legale che lo spaccio valgono per l’utilizzo di questa parola."@it ;
     skos:example "Ho rimediato due grammi dalla trocatrice."@it ;
     dct:creator <#ribaudo-sofia> .
+
+<#uovograna>
+    a skos:Concept ;
+    skos:prefLabel "Uovograna"@it ;
+    skos:definition "Albume cotto con sopra semi di melograno."@it ;
+    skos:example "Oggi mi sono mangiato un uovograna."@it ;
+    dct:creator <#filaseta-angelo> .
+
+<#urlatto>
+    a skos:Concept ;
+    skos:prefLabel "Urlatto"@it ;
+    skos:definition "Un gatto che urla."@it ;
+    skos:example "Sotto casa mia ci sono degli urlatti."@it ;
+    dct:creator <#pertosa-lorenzo> .
+
+<#yoguovo>
+    a skos:Concept ;
+    skos:prefLabel "Yoguovo"@it ;
+    skos:definition "Yogurt (di qualsiasi tipo) sopra albume d’uovo cotto. La prima volta che è stato testato lo yogurt era alla pesca."@it ;
+    skos:example "Lo yoguovo fa schifo."@it ;
+    dct:creator <#filaseta-angelo> .
+
+<#zeresimo>
+    a skos:Concept ;
+    skos:prefLabel "Zeresimo"@it ;
+    skos:definition "Che occupa, in una serie, reale o ipotetica, il posto corrispondente al numero zero o, in senso più generico, prima dell’inizio."@it ;
+    skos:example "Sono arrivato zeresimo."@it ;
+    dct:creator <#filaseta-angelo> .
