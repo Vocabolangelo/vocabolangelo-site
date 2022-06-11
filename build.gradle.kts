@@ -6,5 +6,5 @@
  */
 
 tasks.register<Exec>("test"){
-    commandLine("turtle", "--validate", "vocabolangelo.ttl")
+    commandLine("turtle", "--validate", "_data/vocabolangelo.ttl")
 }
