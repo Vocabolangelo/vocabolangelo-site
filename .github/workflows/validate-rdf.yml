@@ -15,4 +15,4 @@ jobs:
       - name: Validate RDF
         uses: vemonet/jena-riot-action@v3.14
         with:
-          input: vocabolangelo.ttl
+          input: _data/vocabolangelo.ttl
