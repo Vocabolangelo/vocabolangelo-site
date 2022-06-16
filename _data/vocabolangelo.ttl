@@ -64,6 +64,13 @@ vocang:ribaudoSofia
     foaf:firstName "Sofia" ;
     foaf:lastName "Ribaudo" .
 
+vocang:talmiAlessandro
+    a foaf:Person ;
+    foaf:firstName "Alessandro" ;
+    foaf:lastName "Talmi" ;
+    foaf:nick "Dizi" ;
+    rel:friendOf vocang:filasetaAngelo, vocang:bragariAlexandru .
+
 # Vocabolangelo Words Individuals
 
 vocang:vocabolangelo
@@ -472,3 +479,17 @@ vocang:regolaArbitroia
     skos:definition "Una regola arbitraria che per qualche ragione sconosciuta in realtà funziona sempre."@it ;
     skos:example "Il risultato è inaspettato, questa deve essere una regola arbitroia."@it ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:serraiolo
+    a skos:Concept ;
+    skos:prefLabel "Serraiolo"@it ;
+    skos:definition "Il gestore di una serra."@it ;
+    skos:example "Il serraiolo oggi non ha voglia di lavorare."@it ;
+    dct:creator vocang:talmiAlessandro .
+
+vocang:squarciatroia
+    a skos:Concept ;
+    skos:prefLabel "Squarciatroia"@it ;
+    skos:definition "Un modo alternativo e più dispregiativo per identificare una scorciatroia."@it ;
+    skos:example "Mannaggia a quella squarciatroia!"@it ;
+    dct:creator vocang:talmiAlessandro .
