@@ -515,3 +515,10 @@ vocang:coscionchetta
     skos:definition "Conca che si crea tra la coscia e la vita in determinate condizioni dovute alla postura che si assume."@it ;
     skos:example "Hai una coscionchetta davvero carina!"@it ;
     dct:creator vocang:ribaudoSofia .
+
+vocang:vibridi
+    a skos:Concept ;
+    skos:prefLabel "Vibridi"@it ;
+    skos:definition "Sensazione circoscritta al diaframma simile ai brividi ma che include solo parte relativa alla stimolazione senza il classico movimento che ne consegue."@it ;
+    skos:example "Stare così in alto mi fa venire i vibridi..."@it ;
+    dct:creator vocang:orlandoNicola .
