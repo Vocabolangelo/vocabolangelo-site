@@ -522,3 +522,17 @@ vocang:vibridi
     skos:definition "Sensazione circoscritta al diaframma simile ai brividi ma che include solo parte relativa alla stimolazione senza il classico movimento che ne consegue."@it ;
     skos:example "Stare così in alto mi fa venire i vibridi..."@it ;
     dct:creator vocang:orlandoNicola .
+
+vocang:contanegrino
+    a skos:Concept ;
+    skos:prefLabel "Contanegrino"@it ;
+    skos:definition "Contadino con la carnagione scura."@it ;
+    skos:example "Mio zio è un contanegrino."@it ;
+    dct:creator vocang:talmiAlessandro .
+
+vocang:tempoglia
+    a skos:Concept ;
+    skos:prefLabel "Tempoglia"@it ;
+    skos:definition "Concetto rapido utilizzato da persone svogliate per indicare sia il tempo che la voglia. Generalmente viene utilizzato per indicare la mancanza di entrambi."@it ;
+    skos:example "Non ho tempoglia di studiare."@it ;
+    dct:creator vocang:talmiAlessandro .
