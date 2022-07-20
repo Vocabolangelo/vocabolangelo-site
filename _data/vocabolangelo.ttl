@@ -536,3 +536,17 @@ vocang:tempoglia
     skos:definition "Concetto rapido utilizzato da persone svogliate per indicare sia il tempo che la voglia. Generalmente viene utilizzato per indicare la mancanza di entrambi."@it ;
     skos:example "Non ho tempoglia di studiare."@it ;
     dct:creator vocang:talmiAlessandro .
+
+vocang:angurianesimo
+    a skos:Concept ;
+    skos:prefLabel "Angurianesimo"@it ;
+    skos:definition "Un tipo di dieta molto più valida di quella vegetariana o vegana. Consiste nel mangiare circa 7kg di anguria al giorno, bucce e semi inclusi. I semi di anguria sono ricchi di vitamine, sali minerali e più contengono più proteine della carne. Inoltre si avrà a disposizione il 100% del ferro necessario in un giorno, cosa che invece i vegani e vegetariani devono integrare con le pillole."@it ;
+    skos:example "Ho cominciato un nuovo tipo di dieta, si chiama angurianesimo."@it ;
+    dct:creator vocang:bragariAlexandru .
+
+vocang:ispettrore
+    a skos:Concept ;
+    skos:prefLabel "Ispettrore"@it ;
+    skos:definition "Istruttore di palestra che ha anche il ruolo di ispettore e multa chi non si allena."@it ;
+    skos:example "Oggi l'isprettrore mi ha fatto una multa..."@it ;
+    dct:creator vocang:bragariAlexandru .
