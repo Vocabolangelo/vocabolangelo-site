@@ -550,3 +550,24 @@ vocang:ispettrore
     skos:definition "Istruttore di palestra che ha anche il ruolo di ispettore e multa chi non si allena."@it ;
     skos:example "Oggi l'isprettrore mi ha fatto una multa..."@it ;
     dct:creator vocang:bragariAlexandru .
+
+vocang:esplisciata
+    a skos:Concept ;
+    skos:prefLabel "Esplisciata"@it ;
+    skos:definition "Esplorazione atta a pisciare."@it ;
+    skos:example "Io e Lorenzo andiamo in eslisciata."@it ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:negatica
+    a skos:Concept ;
+    skos:prefLabel "Negàtico"@it ;
+    skos:definition "Quando si risulta negativi al test del Covid 19 e ci si trova nel circolo polare artico."@it ;
+    skos:example "Sono negatico!"@it ;
+    dct:creator vocang:bragariAlexandru .
+
+vocang:autovalaggio
+    a skos:Concept ;
+    skos:prefLabel "Autovalaggio"@it ;
+    skos:definition "Pulizia dell'auto attraverso l'umidità dell'aria."@it ;
+    skos:example "Visto che splendore? Tutto merito dell'autovalaggio."@it ;
+    dct:creator vocang:filasetaAngelo .
