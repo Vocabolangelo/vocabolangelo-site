@@ -79,6 +79,13 @@ vocang:orlandoNicola
     rel:closeFriendOf vocang:bragariAlexandru ;
     rel:friendOf vocang:talmiAlessandro, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo .
 
+vocang:fanaraGiuliano
+    a foaf:Person ;
+    foaf:firstName "Giuliano" ;
+    foaf:lastName "Fanara" ;
+    foaf:nick "Jiuj" ;
+    rel:friendOf vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo .
+
 # Vocabolangelo Words Individuals
 
 vocang:vocabolangelo
@@ -347,7 +354,8 @@ vocang:roletano
     a skos:Concept ;
     skos:prefLabel "Roletano"@it ;
     skos:definition "Una persona che dimostra caratteristiche ibride associabili sia a chi viene da Roma che da Napoli."@it ;
-    skos:example "Ciro è proprio un Roletano."@it .
+    skos:example "Ciro è proprio un Roletano."@it ;
+    dct:creator vocang:fanaraGiuliano .
 
 vocang:rototandoria
     a skos:Concept ;
