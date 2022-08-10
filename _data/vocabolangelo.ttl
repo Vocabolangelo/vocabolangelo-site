@@ -635,3 +635,10 @@ vocang:tappembramento
     skos:definition "Assembramento fatto su un tappeto di comodità suprema."@it ;
     skos:example "Il piano per stasera è di fare un bel tappembramento."@it ;
     dct:creator vocang:suscaMatteo .
+
+vocang:abbecedangelo
+    a skos:Concept ;
+    skos:prefLabel "Abbecedangelo"@it ;
+    skos:definition "Abbecedario per insegnare le parole del Vocabolangelo."@it ;
+    skos:example "Insegnerò le parole del vocabolangelo a mio figlio grazie all'abbecedangelo."@it ;
+    dct:creator vocang:minoccheriAlessandra .
