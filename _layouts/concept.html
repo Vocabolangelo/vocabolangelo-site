@@ -32,9 +32,11 @@ rdf_prefix_path: "_data/prefixes.sparql"
         </a>
     {% endfor %}
 
-    </br></br>
-
-    <a href="index.html">
-        Torna alla lista delle parole
-    </a>
+    <h5> Parole correlate: </h5>
+    {% assign correlated = page.rdf | rdf_property: 'skos:related', nil, true %}
+    {% for w in correlated %}
+        <a href="{{ w.page_url }}">
+            {{ w }}
+        </a>
+    {% endfor %}
 </body>
