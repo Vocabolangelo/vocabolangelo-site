@@ -31,6 +31,13 @@ rdf_prefix_path: "_data/prefixes.sparql"
             {{ c | rdf_property: 'foaf:lastName' }} {{ c | rdf_property: 'foaf:firstName' }}
         </a>
     {% endfor %}
+    <h5> Parole correlate: </h5>
+    {% assign correlated = page.rdf | rdf_property: 'skos:related', nil, true %}
+    {% for w in correlated %}
+        <a href="{{ w.page_url }}">
+            {{ w }}
+        </a>
+    {% endfor %}
 
     </br></br>
 
