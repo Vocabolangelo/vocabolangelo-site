@@ -608,9 +608,16 @@ vocang:coscino
     skos:example "Che dolore... Meno male che ho un coscino."@it ;
     dct:creator vocang:savoGiorgia .
 
-vocang:coscino
+vocang:limonalbero
     a skos:Concept ;
-    skos:prefLabel "Coscino"@it ;
-    skos:definition "Cuscino messo sulle cosce al fine di alleviare i dolori del ciclo."@it ;
-    skos:example "Che dolore... Meno male che ho un coscino."@it ;
-    dct:creator vocang:savoGiorgia .
+    skos:prefLabel "Limonalbero"@it ;
+    skos:definition "Grafo non orientato e non pesato utilizzato per rappresentare chi ha baciato chi (archi) in un gruppo di persone (nodi)."@it ;
+    skos:example "Stasera facciamo il limonalbero della nostra compagnia, se vieni proviamo a completarlo!"@it ;
+    dct:creator vocang:ribaudoSofia .
+
+vocang:tappembramento
+    a skos:Concept ;
+    skos:prefLabel "Tappembramento"@it ;
+    skos:definition "Assembramento fatto su un tappeto di comodità suprema."@it ;
+    skos:example "Il piano per stasera è di fare un bel tappembramento."@it ;
+    dct:creator vocang:suscaMatteo .
