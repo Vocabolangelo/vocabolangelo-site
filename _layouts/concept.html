@@ -2,5 +2,24 @@
 rdf_prefix_path: "_data/prefixes.sparql"
 ---
 
-<h1> {{ page.rdf }} </h1>
-<h3> Parola </h3>
+<h1> {{ page.rdf | rdf_property: 'skos:prefLabel' }} </h1>
+
+<h3> Definizione: </h3>
+{% assign definitionSet = page.rdf | rdf_property: 'skos:definition', nil, true %}
+{% for definition in definitionSet %}
+    <p>{{ definition }}</p>
+{% endfor %}
+
+<h4> Esempi: </h4>
+{% assign exampleSet = page.rdf | rdf_property: 'skos:example', nil, true %}
+{% for example in exampleSet %}
+    <p>"{{ example }}"</p>
+{% endfor %}
+
+<h4> Autore: </h4>
+{% assign creators = page.rdf | rdf_property: 'dct:creator', nil, true %}
+{% for c in creators %}
+    <a href="{{ c.page_url }}">
+        {{ c | rdf_property: 'foaf:lastName' }} {{ c | rdf_property: 'foaf:firstName' }}
+    </a>
+{% endfor %}

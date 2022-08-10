@@ -64,6 +64,21 @@ vocang:ribaudoSofia
     foaf:firstName "Sofia" ;
     foaf:lastName "Ribaudo" .
 
+vocang:talmiAlessandro
+    a foaf:Person ;
+    foaf:firstName "Alessandro" ;
+    foaf:lastName "Talmi" ;
+    foaf:nick "Dizi" ;
+    rel:friendOf vocang:filasetaAngelo, vocang:bragariAlexandru .
+
+vocang:orlandoNicola
+    a foaf:Person ;
+    foaf:firstName "Nicola" ;
+    foaf:lastName "Orlando" ;
+    foaf:nick "Orla" ;
+    rel:closeFriendOf vocang:bragariAlexandru ;
+    rel:friendOf vocang:talmiAlessandro, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo .
+
 # Vocabolangelo Words Individuals
 
 vocang:vocabolangelo
@@ -470,5 +485,89 @@ vocang:regolaArbitroia
     a skos:Concept ;
     skos:prefLabel "Regola arbitroia"@it ;
     skos:definition "Una regola arbitraria che per qualche ragione sconosciuta in realtà funziona sempre."@it ;
-    skos:example "Il risultato è insapettato, questa deve essere una regola arbitroia."@it ;
+    skos:example "Il risultato è inaspettato, questa deve essere una regola arbitroia."@it ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:serraiolo
+    a skos:Concept ;
+    skos:prefLabel "Serraiolo"@it ;
+    skos:definition "Il gestore di una serra."@it ;
+    skos:example "Il serraiolo oggi non ha voglia di lavorare."@it ;
+    dct:creator vocang:talmiAlessandro .
+
+vocang:squarciatroia
+    a skos:Concept ;
+    skos:prefLabel "Squarciatroia"@it ;
+    skos:definition "Un modo alternativo e più dispregiativo per identificare una scorciatroia."@it ;
+    skos:example "Mannaggia a quella squarciatroia!"@it ;
+    dct:creator vocang:talmiAlessandro .
+
+vocang:scontante
+    a skos:Concept ;
+    skos:prefLabel "Scontante"@it ;
+    skos:definition "Pagamento effettuato in contanti di importo misero ai fini di evitare le tasse imposte dallo stato."@it ;
+    skos:example "Sono povero, pago con lo scontante."@it ;
+    dct:creator vocang:orlandoNicola .
+
+vocang:coscionchetta
+    a skos:Concept ;
+    skos:prefLabel "Coscionchetta"@it ;
+    skos:definition "Conca che si crea tra la coscia e la vita in determinate condizioni dovute alla postura che si assume."@it ;
+    skos:example "Hai una coscionchetta davvero carina!"@it ;
+    dct:creator vocang:ribaudoSofia .
+
+vocang:vibridi
+    a skos:Concept ;
+    skos:prefLabel "Vibridi"@it ;
+    skos:definition "Sensazione circoscritta al diaframma simile ai brividi ma che include solo parte relativa alla stimolazione senza il classico movimento che ne consegue."@it ;
+    skos:example "Stare così in alto mi fa venire i vibridi..."@it ;
+    dct:creator vocang:orlandoNicola .
+
+vocang:contanegrino
+    a skos:Concept ;
+    skos:prefLabel "Contanegrino"@it ;
+    skos:definition "Contadino con la carnagione scura."@it ;
+    skos:example "Mio zio è un contanegrino."@it ;
+    dct:creator vocang:talmiAlessandro .
+
+vocang:tempoglia
+    a skos:Concept ;
+    skos:prefLabel "Tempoglia"@it ;
+    skos:definition "Concetto rapido utilizzato da persone svogliate per indicare sia il tempo che la voglia. Generalmente viene utilizzato per indicare la mancanza di entrambi."@it ;
+    skos:example "Non ho tempoglia di studiare."@it ;
+    dct:creator vocang:talmiAlessandro .
+
+vocang:angurianesimo
+    a skos:Concept ;
+    skos:prefLabel "Angurianesimo"@it ;
+    skos:definition "Un tipo di dieta molto più valida di quella vegetariana o vegana. Consiste nel mangiare circa 7kg di anguria al giorno, bucce e semi inclusi. I semi di anguria sono ricchi di vitamine, sali minerali e più contengono più proteine della carne. Inoltre si avrà a disposizione il 100% del ferro necessario in un giorno, cosa che invece i vegani e vegetariani devono integrare con le pillole."@it ;
+    skos:example "Ho cominciato un nuovo tipo di dieta, si chiama angurianesimo."@it ;
+    dct:creator vocang:bragariAlexandru .
+
+vocang:ispettrore
+    a skos:Concept ;
+    skos:prefLabel "Ispettrore"@it ;
+    skos:definition "Istruttore di palestra che ha anche il ruolo di ispettore e multa chi non si allena."@it ;
+    skos:example "Oggi l'isprettrore mi ha fatto una multa..."@it ;
+    dct:creator vocang:bragariAlexandru .
+
+vocang:esplisciata
+    a skos:Concept ;
+    skos:prefLabel "Esplisciata"@it ;
+    skos:definition "Esplorazione atta a pisciare."@it ;
+    skos:example "Io e Lorenzo andiamo in eslisciata."@it ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:negatica
+    a skos:Concept ;
+    skos:prefLabel "Negàtico"@it ;
+    skos:definition "Quando si risulta negativi al test del Covid 19 e ci si trova nel circolo polare artico."@it ;
+    skos:example "Sono negatico!"@it ;
+    dct:creator vocang:bragariAlexandru .
+
+vocang:autovalaggio
+    a skos:Concept ;
+    skos:prefLabel "Autovalaggio"@it ;
+    skos:definition "Pulizia dell'auto attraverso l'umidità dell'aria."@it ;
+    skos:example "Visto che splendore? Tutto merito dell'autovalaggio."@it ;
+    dct:creator vocang:filasetaAngelo .
