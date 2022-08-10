@@ -571,3 +571,17 @@ vocang:autovalaggio
     skos:definition "Pulizia dell'auto attraverso l'umidità dell'aria."@it ;
     skos:example "Visto che splendore? Tutto merito dell'autovalaggio."@it ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:trashetto
+    a skos:Concept ;
+    skos:prefLabel "Trashetto"@it ;
+    skos:definition "Un biglietto di auguri fatto a mano in cui sono rappresentati eventi divertenti riguardanti la vita del festeggiato."@it ;
+    skos:example "Il trashetto di Nicola è il più bello di tutti."@it ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:coscino
+    a skos:Concept ;
+    skos:prefLabel "Coscino"@it ;
+    skos:definition "Cuscino messo sulle cosce al fine di alleviare i dolori del ciclo."@it ;
+    skos:example "Che dolore... Meno male che ho un coscino."@it ;
+    dct:creator vocang:savoGiorgia .
