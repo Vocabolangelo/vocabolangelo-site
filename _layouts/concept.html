@@ -44,7 +44,7 @@ rdf_prefix_path: "_data/prefixes.sparql"
     {% assign correlated = page.rdf | rdf_property: 'skos:related', nil, true %}
     {% for w in correlated %}
         <a href="{{ w.page_url }}">
-            {{ w }}
+            {{ w | rdf_property: 'skos:prefLabel' }}
         </a>
     {% endfor %}
 </body>
