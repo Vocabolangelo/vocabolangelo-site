@@ -93,6 +93,12 @@ vocang:suscaMatteo
     foaf:lastName "Susca" ;
     rel:friendOf vocang:fanaraGiuliano, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo .
 
+vocang:minoccheriAlessandra
+    a foaf:Person ;
+    foaf:firstName "Alessandra" ;
+    foaf:lastName "Minoccheri" ;
+    rel:friendOf vocang:fanaraGiuliano, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo .
+
 # Vocabolangelo Words Individuals
 
 vocang:vocabolangelo
@@ -355,7 +361,8 @@ vocang:proprostata
     a skos:Concept ;
     skos:prefLabel "Proprostata"@it ;
     skos:definition "Proposta che viene fatta da una persona A ad una persona B, la quale deve possedere una prostata. Se accettata A ottiene la prostata di B."@it ;
-    skos:example "Oggi Alessandra mi ha fatto una proprostrata... Ho paura."@it .
+    skos:example "Oggi Alessandra mi ha fatto una proprostrata... Ho paura."@it ;
+    dct:creator vocang:minoccheriAlessandra .
 
 vocang:roletano
     a skos:Concept ;
@@ -593,6 +600,13 @@ vocang:trashetto
     skos:definition "Un biglietto di auguri fatto a mano in cui sono rappresentati eventi divertenti riguardanti la vita del festeggiato."@it ;
     skos:example "Il trashetto di Nicola è il più bello di tutti."@it ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:coscino
+    a skos:Concept ;
+    skos:prefLabel "Coscino"@it ;
+    skos:definition "Cuscino messo sulle cosce al fine di alleviare i dolori del ciclo."@it ;
+    skos:example "Che dolore... Meno male che ho un coscino."@it ;
+    dct:creator vocang:savoGiorgia .
 
 vocang:coscino
     a skos:Concept ;
