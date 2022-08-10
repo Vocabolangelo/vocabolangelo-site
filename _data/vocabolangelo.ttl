@@ -186,12 +186,26 @@ vocang:cardiota
     skos:example "Luca è proprio un cardiota!"@it ;
     dct:creator vocang:savoGiorgia .
 
+vocang:cedrangelo
+    a skos:Concept ;
+    skos:prefLabel "Cedrangelo"@it ;
+    skos:definition "Della cedrata bevuta in presenza di Angelo Filaseta."@it ;
+    skos:example "Questa cedrangelo è proprio dissetante!"@it ;
+    dct:creator vocang:filasetaAngelo .
+
 vocang:domanica
     a skos:Concept ;
     skos:prefLabel "Domanica"@it ;
     skos:definition "Il giorno seguente a oggi, ma utilizzabile solo se il giorno seguente è Domenica."@it ;
     skos:example "Ci vediamo domanica."@it ;
     dct:creator vocang:bragariAlexandru .
+
+vocang:dopodomanica
+a skos:Concept ;
+skos:prefLabel "Dopodomanica"@it ;
+skos:definition "Il giorno seguente a domanica, utilizzabile solo se il giorno seguente è Domenica per riferirsi a lunedì."@it ;
+skos:example "Domanica ho un impegno, possiamo vederci dopodomanica ?"@it ;
+dct:creator vocang:bragariAlexandru .
 
 vocang:brovedì
     a skos:Concept ;
