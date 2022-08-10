@@ -80,6 +80,13 @@ vocang:orlandoNicola
     rel:closeFriendOf vocang:bragariAlexandru ;
     rel:friendOf vocang:talmiAlessandro, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo .
 
+vocang:adantiMatteo
+    a foaf:Person ;
+    foaf:firstName "Matteo" ;
+    foaf:lastName "Adanti" ;
+    foaf:nick "Adant" ;
+    rel:friendOf vocang:bragariAlexandru, vocang:orlandoNicola .
+
 vocang:fanaraGiuliano
     a foaf:Person ;
     foaf:firstName "Giuliano" ;
@@ -150,6 +157,13 @@ vocang:alfaca
     skos:definition "L'esemplare alfa di un alpaca, ossia quello che occupa il rango sociale più alto nel suo bregge."@it ;
     skos:example "Guarda quanto è fiero! Deve essere un alfaca."@it ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:allefanza
+    a skos:Concept ;
+    skos:prefLabel "Allefanza"@it ;
+    skos:definition "Rapporto di alleanza non del tutto bidirezionale."@it ;
+    skos:example "Instauriamo un'allefanza in questa partita? Ci alleiamo contro tutti ma quando mi va posso ucciderti."@it ;
+    dct:creator vocang:adantiMatteo .
 
 vocang:bregge
     a skos:Concept ;
@@ -621,10 +635,3 @@ vocang:tappembramento
     skos:definition "Assembramento fatto su un tappeto di comodità suprema."@it ;
     skos:example "Il piano per stasera è di fare un bel tappembramento."@it ;
     dct:creator vocang:suscaMatteo .
-
-vocang:abbecedangelo
-    a skos:Concept ;
-    skos:prefLabel "Abbecedangelo"@it ;
-    skos:definition "Abbecedario per insegnare le parole del Vocabolangelo."@it ;
-    skos:example "Insegnerò le parole del vocabolangelo a mio figlio grazie all'abbecedangelo."@it ;
-    dct:creator vocang:minoccheriAlessandra .
