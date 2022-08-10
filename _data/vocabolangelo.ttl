@@ -198,6 +198,7 @@ vocang:domanica
     skos:prefLabel "Domanica"@it ;
     skos:definition "Il giorno seguente a oggi, ma utilizzabile solo se il giorno seguente è Domenica."@it ;
     skos:example "Ci vediamo domanica."@it ;
+    skos:related vocang:dopodomanica ;
     dct:creator vocang:bragariAlexandru .
 
 vocang:dopodomanica
@@ -205,6 +206,7 @@ a skos:Concept ;
 skos:prefLabel "Dopodomanica"@it ;
 skos:definition "Il giorno seguente a domanica, utilizzabile solo se il giorno seguente è Domenica per riferirsi a lunedì."@it ;
 skos:example "Domanica ho un impegno, possiamo vederci dopodomanica ?"@it ;
+skos:related vocang:domanica ;
 dct:creator vocang:bragariAlexandru .
 
 vocang:brovedì
