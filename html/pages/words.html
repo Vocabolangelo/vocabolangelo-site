@@ -12,14 +12,31 @@ rdf_prefix_path: "_data/prefixes.sparql"
           $("#header").load("/html/elements/header.html");
         });
     </script>
-    <title>Vocabolangelo</title>
+    <title>Vocabolangelo - Parole</title>
 </head>
 
 <body>
 
     <div id="header"></div>
 
-    <h1>Homepage del Vocabolangelo</h1>
-    <p>Lavori in corso, presto qui ci sarà qualcosa di incredibile.</p>
-    <p>Il gioco.</p>
+    <h1> Parole del Vocabolangelo </h1>
+
+    {%assign query =
+        'SELECT ?word ?label
+            WHERE {
+                ?word rdf:type skos:Concept.
+                ?word skos:prefLabel ?label.
+            }
+            ORDER BY ?label'
+    %}
+    {% assign resultset = page.rdf | sparql_query: query %}
+    <ul>
+        {% for result in resultset %}
+        <li>
+            <a href="{{ result.word.page_url }}">
+                {{ result.label }}
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
 </body>
