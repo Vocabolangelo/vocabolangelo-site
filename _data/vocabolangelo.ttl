@@ -55,6 +55,7 @@ vocang:pertosaLorenzo
 
 vocang:timpanoSam
     a foaf:Person ;
+    foaf:firstName "Sam" ;
     foaf:lastName "Timpano" ;
     foaf:nick "Sam" ;
     rel:friendOf vocang:ribaudoSofia .
@@ -85,6 +86,12 @@ vocang:fanaraGiuliano
     foaf:lastName "Fanara" ;
     foaf:nick "Jiuj" ;
     rel:friendOf vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo .
+
+vocang:suscaMatteo
+    a foaf:Person ;
+    foaf:firstName "Matteo" ;
+    foaf:lastName "Susca" ;
+    rel:friendOf vocang:fanaraGiuliano, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo .
 
 # Vocabolangelo Words Individuals
 
@@ -262,7 +269,7 @@ vocang:cedrancia
     skos:prefLabel "Cedrancia"@it ;
     skos:definition "Una bevanda che si ottiene mischiando insieme la cedrata e una qualsiasi aranciata."@it ;
     skos:example "Stasera mi andrebbe proprio una cedrancia."@it ;
-    dct:creator vocang:filasetaAngelo .
+    dct:creator vocang:suscaMatteo .
 
 
 vocang:coecrita
