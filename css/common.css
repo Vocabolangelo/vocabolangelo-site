@@ -1,4 +1,12 @@
 .bi-vocabolangelo {
     color: white;
-    font-size: 2rem
+    font-size: 2rem;
+}
+
+.zoom {
+    transition: transform 1s;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
 }
