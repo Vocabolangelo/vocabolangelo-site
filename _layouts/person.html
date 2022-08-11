@@ -19,6 +19,31 @@ rdf_prefix_path: "_data/prefixes.sparql"
     <div id="header"></div>
 
     <h1> {{ lastName | rdf_property: 'foaf:lastName' }} {{ firstName | rdf_property: 'foaf:firstName' }} </h1>
-    <h3> {{ nickName | rdf_property: 'foaf:nick' }} </h3>
 
+	{% assign nick = nickName | rdf_property: 'foaf:nick' %}
+	{% if nick %}
+	<h3>{{ nick }}</h3>
+	{% endif %}
+
+	{% assign cr = page.rdf | rdf_get %}
+	{% assign query =  'SELECT ?word ?label ?l2
+                            WHERE {
+                                ?word rdf:type skos:Concept.
+                                ?word skos:prefLabel ?label.
+                                ?word dct:creator ?l2.
+					        }
+					        ORDER BY ?label'
+	%}
+	{% assign resultset = page.rdf | sparql_query: query %}
+	{% if resultset %}<ul>
+		{% for result in resultset %}
+			{% if cr == result.l2 %}
+				<li>
+					<a href='{{ result.word.page_url }}'>{{ result.label }}</a>
+				</li>
+			{% endif %}
+		{% endfor %}</ul>
+	{% else %}
+	<p> Questa persona non ha ancora inventato parole (il gioco) </p>
+	{% endif %}
 </body>
