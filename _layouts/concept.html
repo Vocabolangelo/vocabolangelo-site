@@ -2,6 +2,8 @@
 rdf_prefix_path: "_data/prefixes.sparql"
 ---
 
+{% assign prefLabel = page.rdf | rdf_property: 'skos:prefLabel' %}
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,13 +14,13 @@ rdf_prefix_path: "_data/prefixes.sparql"
           $("#header").load("html/elements/header.html");
         });
     </script>
-    <title> {{ page.rdf | rdf_property: 'skos:prefLabel' }} </title>
+    <title> {{ prefLabel }} </title>
 </head>
 
 <body>
     <div id="header"></div>
 
-    <h1> {{ page.rdf | rdf_property: 'skos:prefLabel' }} </h1>
+    <h1> prefLabel </h1>
 
     {% assign definitionSet = page.rdf | rdf_property: 'skos:definition', nil, true %}
 	{% if definitionSet %}
@@ -61,5 +63,4 @@ rdf_prefix_path: "_data/prefixes.sparql"
             {{ w | rdf_property: 'skos:prefLabel' }}
         </a>
     {% endfor %}
-
 </body>

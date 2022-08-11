@@ -2,6 +2,9 @@
 rdf_prefix_path: "_data/prefixes.sparql"
 ---
 
+{% assign lastName = page.rdf | rdf_property: 'foaf:lastName', nil, true %}
+{% assign firstName = page.rdf | rdf_property: 'foaf:firstName', nil, true %}
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,13 +15,13 @@ rdf_prefix_path: "_data/prefixes.sparql"
           $("#header").load("html/elements/header.html");
         });
     </script>
-    <title>Vocabolangelo - {{ lastName | rdf_property: 'foaf:lastName' }} {{ firstName | rdf_property: 'foaf:firstName' }} </title>
+    <title>Vocabolangelo - {{ lastName }} {{ firstName }} </title>
 </head>
 
 <body>
     <div id="header"></div>
 
-    <h1> {{ lastName | rdf_property: 'foaf:lastName' }} {{ firstName | rdf_property: 'foaf:firstName' }} </h1>
+    <h1> {{ lastName }} {{ firstName }} </h1>
 
 	{% assign nick = nickName | rdf_property: 'foaf:nick' %}
 	{% if nick %}
@@ -26,24 +29,26 @@ rdf_prefix_path: "_data/prefixes.sparql"
 	{% endif %}
 
 	{% assign cr = page.rdf | rdf_get %}
-	{% assign query =  'SELECT ?word ?label ?l2
+	{% assign query =  'SELECT ?word ?label ?creator
                             WHERE {
                                 ?word rdf:type skos:Concept.
                                 ?word skos:prefLabel ?label.
-                                ?word dct:creator ?l2.
-					        }
-					        ORDER BY ?label'
+                                ?word dct:creator ?creator.
+					}
+					ORDER BY ?label'
 	%}
 	{% assign resultset = page.rdf | sparql_query: query %}
-	{% if resultset %}<ul>
+	{% if resultset %}
+    <ul>
 		{% for result in resultset %}
-			{% if cr == result.l2 %}
+			{% if cr == result.creator %}
 				<li>
 					<a href='{{ result.word.page_url }}'>{{ result.label }}</a>
 				</li>
 			{% endif %}
-		{% endfor %}</ul>
+		{% endfor %}
+    </ul>
 	{% else %}
-	<p> Questa persona non ha ancora inventato parole (il gioco) </p>
+	<p> Questa persona non ha ancora inventato parole. Ma quindi è davvero un creator? </p>
 	{% endif %}
 </body>
