@@ -13,6 +13,7 @@ rdf_prefix_path: "_data/prefixes.sparql"
     <script>
         $(function(){
           $("#header").load("html/elements/header.html");
+          $("#footer").load("html/elements/header.html");
         });
     </script>
     <title>Vocabolangelo - {{ lastName }} {{ firstName }} </title>
@@ -51,4 +52,5 @@ rdf_prefix_path: "_data/prefixes.sparql"
 	{% else %}
 	<p> Questa persona non ha ancora inventato parole. Ma quindi è davvero un creator? </p>
 	{% endif %}
+    <div id="footer"></div>
 </body>

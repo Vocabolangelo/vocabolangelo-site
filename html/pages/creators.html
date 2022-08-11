@@ -10,6 +10,7 @@ rdf_prefix_path: "_data/prefixes.sparql"
     <script>
         $(function(){
           $("#header").load("/html/elements/header.html");
+          $("#header").load("/html/elements/footer.html");
         });
     </script>
     <title>Vocabolangelo - Creators</title>
@@ -40,4 +41,7 @@ rdf_prefix_path: "_data/prefixes.sparql"
         </li>
         {% endfor %}
     </ul>
+
+    <div id="footer"></div>
+
 </body>

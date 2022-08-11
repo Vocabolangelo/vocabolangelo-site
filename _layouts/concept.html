@@ -11,7 +11,8 @@ rdf_prefix_path: "_data/prefixes.sparql"
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script>
         $(function(){
-          $("#header").load("html/elements/header.html");
+            $("#header").load("html/elements/header.html");
+            $("#footer").load("html/elements/footer.html");
         });
     </script>
     <title> {{ prefLabel }} </title>
@@ -63,4 +64,5 @@ rdf_prefix_path: "_data/prefixes.sparql"
             {{ w | rdf_property: 'skos:prefLabel' }}
         </a>
     {% endfor %}
+    <div id="footer"></div>
 </body>
