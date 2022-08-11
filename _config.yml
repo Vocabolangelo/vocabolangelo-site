@@ -1,8 +1,16 @@
 baseurl: ""
 url: "http://example.org"
 
+exclude:
+    - gradle*
+    - settins.gradle.kts
+    - build.gradle.kts
+    - Gemfile
+    - Procfile
+    - README.md
+
 plugins:
-   - jekyll-rdf
+    - jekyll-rdf
 
 # Jekyll RDF settings
 jekyll_rdf:
