@@ -36,7 +36,7 @@ vocang:battaglinoNicole
     foaf:firstName "Nicole" ;
     foaf:lastName "Battaglino" ;
     foaf:nick "Batta" ;
-    rel:friendOf vocang:pertosaLorenzo , vocang:timpanoSam , vocang:omiccioliRiccardo , vocang:ribaudoSofia ;
+    rel:friendOf vocang:pertosaLorenzo , vocang:timpanoSam , vocang:ribaudoSofia ;
     rel:lifePartnerOf vocang:omiccioliRiccardo .
 
 vocang:omiccioliRiccardo
