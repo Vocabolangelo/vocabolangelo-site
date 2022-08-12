@@ -6,6 +6,7 @@ rdf_prefix_path: "_data/prefixes.sparql"
 
 <head>
     <meta charset="UTF-8">
+    {% include head-common.html %}
     <title>Grafico delle Amicizie</title>
     <script src="https://cdn.jsdelivr.net/npm/@hpcc-js/wasm/dist/index.min.js"></script>
     <script>
@@ -46,6 +47,7 @@ rdf_prefix_path: "_data/prefixes.sparql"
 </head>
 
 <body>
+    {% include header.html %}
     <div>
         {%assign query =
             'SELECT ?creator ?firstName ?lastName
@@ -206,6 +208,7 @@ rdf_prefix_path: "_data/prefixes.sparql"
         </div>
     </noscript>
     <button type="button" onclick="get_text_from_input_file()">Try it</button>
+    {% include footer.html %}
 </body>
 
 </html>
