@@ -1,0 +1,182 @@
+---
+rdf_prefix_path: "_data/prefixes.sparql"
+---
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    {% include head-common.html %}
+    <title>Grafico delle Amicizie</title>
+    <script src="https://cdn.jsdelivr.net/npm/@hpcc-js/wasm/dist/index.min.js"></script>
+    <script>
+        var hpccWasm = window["@hpcc-js/wasm"];
+    </script>
+</head>
+
+<body>
+    {% include header.html %}
+    <!-- what to put before the graph?Anyway not this as it's printed with <noscript> if javascript is disabled
+    <div>
+        {%assign query =
+            'SELECT ?creator ?firstName ?lastName
+                WHERE {
+                    ?creator rdf:type foaf:Person.
+                    ?creator foaf:firstName ?firstName.
+                    ?creator foaf:lastName ?lastName.
+
+                }
+                ORDER BY ?lastName'
+        %}
+        {% assign personSet = page.rdf | sparql_query: query %}
+        
+        {% for p1 in personSet %}
+ 
+            <p>
+                "{{ p1.firstName }} {{ p1.lastName }}"
+                {% assign friendlist = p1.creator | rdf_property: 'rel:friendOf', nil, true %}
+                {% if friendlist %}  
+                -- {
+                    {% assign booltemp = "true" %}
+                    {% for f in friendlist %}
+                        {% if booltemp == "true" %}
+                            {% assign booltemp = "false" %}
+                        {% else %}
+                            --
+                        {% endif %}
+                        "{{f | rdf_property: 'foaf:firstName', nil, true}} {{f | rdf_property: 'foaf:lastName', nil, true}}"
+                    {% endfor %}
+                    }
+                {% endif %}
+                
+                
+            </p>
+        {% endfor %}
+    </div>-->
+    <div id="placeholder"></div>
+    <div id="placeholder2"></div>
+    <script>
+        //this is only an example
+        const dot = `
+        strict graph mici {
+            fontname="Helvetica, Arial,sans-serif"
+            node [fontname="Helvetica,Arial,sans-serif"]
+            edge [fontname="Helvetica,Arial,sans-serif"]
+            "Angelo Filaseta" -- { "Giorgia Savo" -- "Alexandru Bragari" -- "Nicole Battaglino" -- "Riccardo Omiccioli" -- "Lorenzo Pertosa" -- "Sam Timpano" -- "Sofia Ribaudo" -- "Giorgia Savo" };
+                "Giorgia Savo" -- { "Alexandru Bragari" -- "Nicole Battaglino" -- "Riccardo Omiccioli" -- "Lorenzo Pertosa" -- "Sam Timpano" -- "Sofia Ribaudo" };
+                "Alexandru Bragari" -- { "Nicole Battaglino" -- "Riccardo Omiccioli" -- "Lorenzo Pertosa" -- "Sam Timpano" -- "Sofia Ribaudo" };
+                "Nicole Battaglino" -- { "Lorenzo Pertosa" -- "Sam Timpano" -- "Riccardo Omiccioli" -- "Sofia Ribaudo" -- "Riccardo Omiccioli" };
+                "Riccardo Omiccioli" -- { "Lorenzo Pertosa" -- "Sam Timpano" -- "Sofia Ribaudo" };
+                "Lorenzo Pertosa" -- { "Sam Timpano" -- "Sofia Ribaudo" };
+                "Sam Timpano" -- { "Sofia Ribaudo" };
+                "Sofia Ribaudo";
+                "Alessandro Talmi" -- { "Angelo Filaseta" -- "Alexandru Bragari" };
+                "Nicola Orlando" -- { "Alexandru Bragari" -- "Alessandro Talmi" -- "Sofia Ribaudo" -- "Sam Timpano" -- "Lorenzo Pertosa" -- "Riccardo Omiccioli" -- "Nicole Battaglino" -- "Giorgia Savo" -- "Angelo Filaseta" };
+                "Matteo Adanti" -- { "Alexandru Bragari" -- "Nicola Orlando" };
+                "Giuliano Fanara" -- { "Nicola Orlando" -- "Sofia Ribaudo" -- "Sam Timpano" -- "Lorenzo Pertosa" -- "Riccardo Omiccioli" -- "Nicole Battaglino" -- "Giorgia Savo" -- "Angelo Filaseta" };
+                "Matteo Susca" -- { "Giuliano Fanara" -- "Nicola Orlando" -- "Sofia Ribaudo" -- "Sam Timpano" -- "Lorenzo Pertosa" -- "Riccardo Omiccioli" -- "Nicole Battaglino" -- "Giorgia Savo" -- "Angelo Filaseta" };
+                "Alessandra Minoccheri" -- { "Giuliano Fanara" -- "Nicola Orlando" -- "Sofia Ribaudo" -- "Sam Timpano" -- "Lorenzo Pertosa" -- "Riccardo Omiccioli" -- "Nicole Battaglino" -- "Giorgia Savo" -- "Angelo Filaseta" };
+        }
+
+        `;
+        const dot2 = `
+        strict graph mici2 {
+            fontname="Helvetica, Arial,sans-serif"
+            node [fontname="Helvetica,Arial,sans-serif"]
+            edge [fontname="Helvetica,Arial,sans-serif"]
+{%assign query =
+'SELECT ?creator ?firstName ?lastName
+    WHERE {
+        ?creator rdf:type foaf:Person.
+        ?creator foaf:firstName ?firstName.
+        ?creator foaf:lastName ?lastName.
+
+    }
+    ORDER BY ?lastName'
+%}
+{% assign personSet = page.rdf | sparql_query: query %}
+
+{% for p1 in personSet %}
+
+    
+        "{{ p1.firstName }} {{ p1.lastName }}"
+        {% assign friendlist = p1.creator | rdf_property: 'rel:friendOf', nil, true %}
+        {% if friendlist %}  
+        -- {
+            {% assign booltemp = "true" %}
+            {% for f in friendlist %}
+                {% if booltemp == "true" %}
+                    {% assign booltemp = "false" %}
+                {% else %}
+                    --
+                {% endif %}
+                "{{f | rdf_property: 'foaf:firstName', nil, true}} {{f | rdf_property: 'foaf:lastName', nil, true}}"
+            {% endfor %}
+            }
+        {% endif %};
+        
+        
+    
+{% endfor %}
+        }
+        `;
+
+        // Asynchronous call to layout
+        hpccWasm.graphviz.layout(dot2, "svg", "dot").then(svg => {
+            const div = document.getElementById("placeholder");
+            div.innerHTML = svg;
+        });
+        /* this is for placeholder2
+        hpccWasm.graphvizSync().then(graphviz => {
+            const div = document.getElementById("placeholder2");
+            // Synchronous call to layout
+            div.innerHTML = graphviz.layout(dot, "svg", "dot");
+        }); */
+    </script>
+    <noscript>
+        <div>
+            <p>Please enable JavaScript to view the image of the graph.</p>
+        </div>
+        
+        <div>
+            {%assign query =
+                'SELECT ?creator ?firstName ?lastName
+                    WHERE {
+                        ?creator rdf:type foaf:Person.
+                        ?creator foaf:firstName ?firstName.
+                        ?creator foaf:lastName ?lastName.
+                
+                    }
+                    ORDER BY ?lastName'
+            %}
+            {% assign personSet = page.rdf | sparql_query: query %}
+            
+            {% for p1 in personSet %}
+            
+                <p>
+                "{{ p1.firstName }} {{ p1.lastName }}"
+                {% assign friendlist = p1.creator | rdf_property: 'rel:friendOf', nil, true %}
+                {% if friendlist %}  
+                -- {
+                    {% assign booltemp = "true" %}
+                    {% for f in friendlist %}
+                        {% if booltemp == "true" %}
+                            {% assign booltemp = "false" %}
+                        {% else %}
+                            --
+                        {% endif %}
+                        "{{f | rdf_property: 'foaf:firstName', nil, true}} {{f | rdf_property: 'foaf:lastName', nil, true}}"
+                    {% endfor %}
+                    }
+                {% endif %}
+                </p>
+                        
+                        
+                    
+            {% endfor %}
+        </div>
+    </noscript>
+    {% include footer.html %}
+</body>
+
+</html>
