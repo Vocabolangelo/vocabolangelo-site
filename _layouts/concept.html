@@ -11,49 +11,50 @@ rdf_prefix_path: "_data/prefixes.sparql"
 
 <body>
     {% include header.html %}
-
-    <h1> {{prefLabel}} </h1>
-
-    {% assign definitionSet = page.rdf | rdf_property: 'skos:definition', nil, true %}
-	{% if definitionSet %}
-    <h3> Definizione: </h3>
-	{% else %}
-    <h3> Non ci sono definizioni lemao </h3>
-	{% endif %}
-    {% for definition in definitionSet %}
-        <p>{{ definition }}</p>
-    {% endfor %}
-
-    {% assign exampleSet = page.rdf | rdf_property: 'skos:example', nil, true %}
-	{% if exampleSet %}
-    <h4> Esempi: </h4>
-	{% else %}
-    <h4> Non ci sono esempi =( </h4>
-	{% endif %}
-    {% for example in exampleSet %}
-        <p>"{{ example }}"</p>
-    {% endfor %}
-
-    {% assign creators = page.rdf | rdf_property: 'dct:creator', nil, true %}
-	{% if creators %}
-    <h4> Autore: </h4>
-	{% else %}
-	<h4>Autore sconosciuto</h4>
-	{% endif %}
-	{% for c in creators %}
-        <a href="{{ c.page_url }}">
-            {{ c | rdf_property: 'foaf:lastName' }} {{ c | rdf_property: 'foaf:firstName' }}
-        </a>
-    {% endfor %}
-	</br></br>
-    {% assign correlated = page.rdf | rdf_property: 'skos:related', nil, true %}
-    {% if correlated %}
-    <h5 style="display:inline"> Parole correlate: </h5>
-	{% endif %}
-	{% for w in correlated %}
-        <a href="{{ w.page_url }}" style="dispaly:inline">
-            {{ w | rdf_property: 'skos:prefLabel' }}
-        </a>
-    {% endfor %}
+    <div class="p-5">
+        <h1 class="mb-3"> {{prefLabel}} </h1>
+        
+        {% assign definitionSet = page.rdf | rdf_property: 'skos:definition', nil, true %}
+        {% if definitionSet %}
+            <h3 class="m-0"> Definizione: </h3>
+        {% else %}
+            <h3 class="m-0"> Non ci sono definizioni lemao </h3>
+        {% endif %}
+        {% for definition in definitionSet %}
+            <p>{{ definition }}</p>
+        {% endfor %}
+        
+        {% assign exampleSet = page.rdf | rdf_property: 'skos:example', nil, true %}
+        {% if exampleSet %}
+            <h4 class="m-0"> Esempi: </h4>
+        {% else %}
+            <h4 class="m-0"> Non ci sono esempi =( </h4>
+        {% endif %}
+        {% for example in exampleSet %}
+            <p>"{{ example }}"</p>
+        {% endfor %}
+        
+        {% assign creators = page.rdf | rdf_property: 'dct:creator', nil, true %}
+        {% if creators %}
+            <h4 class="m-0"> Autore: </h4>
+        {% else %}
+            <h4 class="m-0">Autore sconosciuto</h4>
+        {% endif %}
+        {% for c in creators %}
+            <a href="{{ c.page_url }}">
+                {{ c | rdf_property: 'foaf:lastName' }} {{ c | rdf_property: 'foaf:firstName' }}
+            </a>
+        {% endfor %}
+        </br></br>
+        {% assign correlated = page.rdf | rdf_property: 'skos:related', nil, true %}
+        {% if correlated %}
+            <h5 style="display:inline"> Parole correlate: </h5>
+        {% endif %}
+        {% for w in correlated %}
+            <a href="{{ w.page_url }}" style="dispaly:inline">
+                {{ w | rdf_property: 'skos:prefLabel' }}
+            </a>
+        {% endfor %}
+    </div>
     {% include footer.html %}
 </body>
