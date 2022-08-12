@@ -12,49 +12,48 @@ rdf_prefix_path: "_data/prefixes.sparql"
 
 <body>
     {% include header.html %}
-    <h1> {{ lastName }} {{ firstName }} </h1>
-
-	{% assign nick = nickName | rdf_property: 'foaf:nick' %}
-	{% if nick %}
-	<h3>{{ nick }}</h3>
-	{% endif %}
-
-	{% assign cr = page.rdf | rdf_get %}
-	{% assign query =  'SELECT ?word ?label ?creator
-                            WHERE {
-                                ?word rdf:type skos:Concept.
-                                ?word skos:prefLabel ?label.
-                                ?word dct:creator ?creator.
-					}
-					ORDER BY ?label'
-	%}
-	{% assign resultset = page.rdf | sparql_query: query %}
-	{% if resultset %}
-    <ul>
-		{% for result in resultset %}
-			{% if cr == result.creator %}
+	<main>
+		<h1> {{ lastName }} {{ firstName }} </h1>
+		{% assign nick = nickName | rdf_property: 'foaf:nick' %}
+		{% if nick %}
+			<h3>{{ nick }}</h3>
+		{% endif %}
+		{% assign cr = page.rdf | rdf_get %}
+		{% assign query =  'SELECT ?word ?label ?creator
+			WHERE {
+				?word rdf:type skos:Concept.
+				?word skos:prefLabel ?label.
+				?word dct:creator ?creator.
+			}
+			ORDER BY ?label'
+		%}
+		{% assign resultset = page.rdf | sparql_query: query %}
+		{% if resultset %}
+			<ul>
+				{% for result in resultset %}
+					{% if cr == result.creator %}
+						<li>
+							<a href='{{ result.word.page_url }}'>{{ result.label }}</a>
+						</li>
+					{% endif %}
+				{% endfor %}
+			</ul>
+		{% else %}
+			<p> Questa persona non ha ancora inventato parole. Ma quindi è davvero un creator? </p>
+		{% endif %}
+		{% assign friendlist = page.rdf | rdf_property: 'rel:friendOf', nil, true %}
+		{% if friendlist %}
+		<!--  to uncomment when friends will become bidirectional or another system will be used
+			<h3>Amici</h3>
+			<ul>
+				{% for friend in friendlist %}
 				<li>
-					<a href='{{ result.word.page_url }}'>{{ result.label }}</a>
+					<a href='{{ friend.page_url }}'>{{ friend | rdf_property: 'foaf:lastName', nil, true }} {{ friend | rdf_property: 'foaf:firstName', nil, true }}</a>
 				</li>
-			{% endif %}
-		{% endfor %}
-    </ul>
-	{% else %}
-	<p> Questa persona non ha ancora inventato parole. Ma quindi è davvero un creator? </p>
-	{% endif %}
-	{% assign friendlist = page.rdf | rdf_property: 'rel:friendOf', nil, true %}
-	{% if friendlist %}
-	<!--  to uncomment when friends will become bidirectional or another system will be used
-	<h3>Amici</h3>
-	<ul>
-		{% for friend in friendlist %}
-			<li>
-				<a href='{{ friend.page_url }}'>{{ friend | rdf_property: 'foaf:lastName', nil, true }} {{ friend | rdf_property: 'foaf:firstName', nil, true }}</a>
-
-			</li>
-		{% endfor %}
-	</ul>
-	-->
-	{% endif %}
-    {% include footer.html %}
+				{% endfor %}
+			</ul>
+		-->
+		{% endif %}
+	</main>
+	{% include footer.html %}
 </body>
