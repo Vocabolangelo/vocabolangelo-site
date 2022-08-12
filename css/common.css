@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+main {
+    box-sizing: border-box;
+    padding: 5%;
+    min-height: 86%;
+}
+
 .bi-vocabolangelo {
     color: white;
     font-size: 2rem;
