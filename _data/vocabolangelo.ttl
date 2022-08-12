@@ -384,7 +384,7 @@ vocang:oscuretra
     a skos:Concept ;
     skos:prefLabel "Oscuretra"@it ;
     skos:definition "L’oscurità all’interno dell’uretra."@it ;
-    skos:example "Un medico oggi ha detto: <<Serve più luce, c'è troppa oscuretra!"@it ;
+    skos:example "Un medico oggi ha detto: «Serve più luce, c'è troppa oscuretra!»"@it ;
     dct:creator vocang:pertosaLorenzo .
 
 vocang:proprostata
