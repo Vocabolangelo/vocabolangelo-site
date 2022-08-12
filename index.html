@@ -9,11 +9,11 @@
         .done(function( response ) {
             response.forEach(function(contributor){
                 $("#contributors").append(`
-                <div class="col px-5">
+                <div class="col-md-4 align-content-center px-5">
                     <a href="`+ contributor["url"]+`">
                         <img class="img-thumbnail" alt="` + contributor["login"] + ` Avatar" src="` + contributor["avatar_url"] + `">
                     </a>
-                    <p class="pt-2"> <strong>` + contributor["login"] + `</strong> </p>
+                    <p class="text-center pt-2"> <strong>` + contributor["login"] + `</strong> </p>
                 </div>
                 `)
             })
@@ -31,6 +31,8 @@
         <h4 class="py-3 mx-5">
             Il Vocabolangelo è un documento strutturato che cataloga e definisce parole, non riportate in un normale vocabolario, inventate da persone ordinarie.
         </h4>
+        <img class="img-fluid w-25" src="/img/logo.png" alt="Vocabolangelo Logo"></img>
+        </br>
         <a href="/vocabolangelo.html">
             Cerca il Vocabolangelo nel Vocabolangelo
         </a>
@@ -40,15 +42,17 @@
         <h1>
             Chi contribuisce?
         </h1>
-        <h5 class="py-3 mx-5">
+        <h5 class="py-3">
             Il Vocabolangelo è un progetto open source su
             <a href="https://github.com/AngeloFilaseta/vocabolangelo-rdf">
                 GitHub
             </a>
             .
         </h5>
-        <div class="row px-5 pt-2" id="contributors">
+        <div class="container">
+            <div class="row" id="contributors">
 
+            </div>
         </div>
     </div>
 
