@@ -12,42 +12,11 @@ rdf_prefix_path: "_data/prefixes.sparql"
     <script>
         var hpccWasm = window["@hpcc-js/wasm"];
     </script>
-    <script>
-        function get_text_from_input_file(){
-            console.log("entra")
-    var text = "";
-
-
-    var f = new File("_layouts/vocalb.ttl", "text/turtle");
-    f.open('r');
-    text = text + f.read();
-    f.close();
-    text = text.replace('\n', ' ');
-    //use regex to take only the text before "# Vocabolangelo Words Individuals"
-    text = text.match(/^.*# Vocabolangelo Words Individuals/);
-    //split text by "." 
-    text = text[0].split(".");
-    //add "." to the end of each element of the array in javascript!
-    for (var i = 0; i < len(text); i++) {
-        text[i] = text[i] + ".";
-    }
-    
-    i = len(text) - 1;
-    while (i >= 0){
-        if (len(text[i]) < 9){
-            text.pop(i);
-        }else if (text[i].match(/vocang:/) == [] || text[i].match(/vocang:/) == null || text[i].match(/vocang:/) == {}){
-            text.pop(i);
-        i = i - 1;
-        }
-    }
-    return text;
-}
-    </script>
 </head>
 
 <body>
     {% include header.html %}
+    <!-- what to put before the graph?Anyway not this as it's printed with <noscript> if javascript is disabled
     <div>
         {%assign query =
             'SELECT ?creator ?firstName ?lastName
@@ -83,7 +52,7 @@ rdf_prefix_path: "_data/prefixes.sparql"
                 
             </p>
         {% endfor %}
-    </div>
+    </div>-->
     <div id="placeholder"></div>
     <div id="placeholder2"></div>
     <script>
