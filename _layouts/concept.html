@@ -11,9 +11,8 @@ rdf_prefix_path: "_data/prefixes.sparql"
 
 <body>
     {% include header.html %}
-    <div class="p-5">
+    <main>
         <h1 class="mb-3"> {{prefLabel}} </h1>
-        
         {% assign definitionSet = page.rdf | rdf_property: 'skos:definition', nil, true %}
         {% if definitionSet %}
             <h3 class="m-0"> Definizione: </h3>
@@ -23,7 +22,6 @@ rdf_prefix_path: "_data/prefixes.sparql"
         {% for definition in definitionSet %}
             <p>{{ definition }}</p>
         {% endfor %}
-        
         {% assign exampleSet = page.rdf | rdf_property: 'skos:example', nil, true %}
         {% if exampleSet %}
             <h4 class="m-0"> Esempi: </h4>
@@ -33,7 +31,6 @@ rdf_prefix_path: "_data/prefixes.sparql"
         {% for example in exampleSet %}
             <p>"{{ example }}"</p>
         {% endfor %}
-        
         {% assign creators = page.rdf | rdf_property: 'dct:creator', nil, true %}
         {% if creators %}
             <h4 class="m-0"> Autore: </h4>
@@ -55,6 +52,6 @@ rdf_prefix_path: "_data/prefixes.sparql"
                 {{ w | rdf_property: 'skos:prefLabel' }}
             </a>
         {% endfor %}
-    </div>
+    </main>
     {% include footer.html %}
 </body>

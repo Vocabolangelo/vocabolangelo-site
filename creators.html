@@ -8,31 +8,28 @@ rdf_prefix_path: "_data/prefixes.sparql"
 </head>
 
 <body>
-
     {% include header.html %}
-
-    <h1> Creators del Vocabolangelo </h1>
-
-    {%assign query =
-        'SELECT ?creator ?firstName ?lastName
+    <main>
+        <h1> Creators del Vocabolangelo </h1>
+        {%assign query =
+            'SELECT ?creator ?firstName ?lastName
             WHERE {
                 ?creator rdf:type foaf:Person.
                 ?creator foaf:firstName ?firstName.
                 ?creator foaf:lastName ?lastName.
             }
             ORDER BY ?lastName'
-    %}
-    {% assign resultset = page.rdf | sparql_query: query %}
-    <ul>
-        {% for result in resultset %}
-        <li>
-            <a href="{{ result.creator.page_url }}">
-                {{ result.lastName }} {{ result.firstName }}
-            </a>
-        </li>
-        {% endfor %}
-    </ul>
-
+        %}
+        {% assign resultset = page.rdf | sparql_query: query %}
+        <ul>
+            {% for result in resultset %}
+                <li>
+                    <a href="{{ result.creator.page_url }}">
+                        {{ result.lastName }} {{ result.firstName }}
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+    </main>
     {% include footer.html %}
-
 </body>
