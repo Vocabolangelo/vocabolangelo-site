@@ -44,7 +44,7 @@ rdf_prefix_path: "_data/prefixes.sparql"
 	{% endif %}
 	{% assign friendlist = page.rdf | rdf_property: 'rel:friendOf', nil, true %}
 	{% if friendlist %}
-	<!--  to uncomment when friends will become bidirection or another system will be used
+	<!--  to uncomment when friends will become bidirectional or another system will be used
 	<h3>Amici</h3>
 	<ul>
 		{% for friend in friendlist %}
