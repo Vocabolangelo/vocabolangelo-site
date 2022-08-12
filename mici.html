@@ -1,3 +1,6 @@
+---
+rdf_prefix_path: "_data/prefixes.sparql"
+---
 <!DOCTYPE html>
 <html>
 
@@ -8,12 +11,81 @@
     <script>
         var hpccWasm = window["@hpcc-js/wasm"];
     </script>
+    <script>
+        function get_text_from_input_file(){
+            console.log("entra")
+    var text = "";
+
+
+    var f = new File("_layouts/vocalb.ttl", "text/turtle");
+    f.open('r');
+    text = text + f.read();
+    f.close();
+    text = text.replace('\n', ' ');
+    //use regex to take only the text before "# Vocabolangelo Words Individuals"
+    text = text.match(/^.*# Vocabolangelo Words Individuals/);
+    //split text by "." 
+    text = text[0].split(".");
+    //add "." to the end of each element of the array in javascript!
+    for (var i = 0; i < len(text); i++) {
+        text[i] = text[i] + ".";
+    }
+    
+    i = len(text) - 1;
+    while (i >= 0){
+        if (len(text[i]) < 9){
+            text.pop(i);
+        }else if (text[i].match(/vocang:/) == [] || text[i].match(/vocang:/) == null || text[i].match(/vocang:/) == {}){
+            text.pop(i);
+        i = i - 1;
+        }
+    }
+    return text;
+}
+    </script>
 </head>
 
 <body>
+    <div>
+        {%assign query =
+            'SELECT ?creator ?firstName ?lastName
+                WHERE {
+                    ?creator rdf:type foaf:Person.
+                    ?creator foaf:firstName ?firstName.
+                    ?creator foaf:lastName ?lastName.
+
+                }
+                ORDER BY ?lastName'
+        %}
+        {% assign personSet = page.rdf | sparql_query: query %}
+        
+        {% for p1 in personSet %}
+ 
+            <p>
+                "{{ p1.firstName }} {{ p1.lastName }}"
+                {% assign friendlist = p1.creator | rdf_property: 'rel:friendOf', nil, true %}
+                {% if friendlist %}  
+                -- {
+                    {% assign booltemp = "true" %}
+                    {% for f in friendlist %}
+                        {% if booltemp == "true" %}
+                            {% assign booltemp = "false" %}
+                        {% else %}
+                            --
+                        {% endif %}
+                        "{{f | rdf_property: 'foaf:firstName', nil, true}} {{f | rdf_property: 'foaf:lastName', nil, true}}"
+                    {% endfor %}
+                    }
+                {% endif %}
+                
+                
+            </p>
+        {% endfor %}
+    </div>
     <div id="placeholder"></div>
-    <!--<div id="placeholder2"></div>-->
+    <div id="placeholder2"></div>
     <script>
+        //this is only an example
         const dot = `
         strict graph mici {
             fontname="Helvetica, Arial,sans-serif"
@@ -36,9 +108,50 @@
         }
 
         `;
+        const dot2 = `
+        strict graph mici2 {
+            fontname="Helvetica, Arial,sans-serif"
+            node [fontname="Helvetica,Arial,sans-serif"]
+            edge [fontname="Helvetica,Arial,sans-serif"]
+{%assign query =
+'SELECT ?creator ?firstName ?lastName
+    WHERE {
+        ?creator rdf:type foaf:Person.
+        ?creator foaf:firstName ?firstName.
+        ?creator foaf:lastName ?lastName.
+
+    }
+    ORDER BY ?lastName'
+%}
+{% assign personSet = page.rdf | sparql_query: query %}
+
+{% for p1 in personSet %}
+
+    
+        "{{ p1.firstName }} {{ p1.lastName }}"
+        {% assign friendlist = p1.creator | rdf_property: 'rel:friendOf', nil, true %}
+        {% if friendlist %}  
+        -- {
+            {% assign booltemp = "true" %}
+            {% for f in friendlist %}
+                {% if booltemp == "true" %}
+                    {% assign booltemp = "false" %}
+                {% else %}
+                    --
+                {% endif %}
+                "{{f | rdf_property: 'foaf:firstName', nil, true}} {{f | rdf_property: 'foaf:lastName', nil, true}}"
+            {% endfor %}
+            }
+        {% endif %};
+        
+        
+    
+{% endfor %}
+        }
+        `;
 
         // Asynchronous call to layout
-        hpccWasm.graphviz.layout(dot, "svg", "dot").then(svg => {
+        hpccWasm.graphviz.layout(dot2, "svg", "dot").then(svg => {
             const div = document.getElementById("placeholder");
             div.innerHTML = svg;
         });
@@ -49,7 +162,50 @@
             div.innerHTML = graphviz.layout(dot, "svg", "dot");
         }); */
     </script>
-
+    <noscript>
+        <div>
+            <p>Please enable JavaScript to view the image of the graph.</p>
+        </div>
+        
+        <div>
+            {%assign query =
+                'SELECT ?creator ?firstName ?lastName
+                    WHERE {
+                        ?creator rdf:type foaf:Person.
+                        ?creator foaf:firstName ?firstName.
+                        ?creator foaf:lastName ?lastName.
+                
+                    }
+                    ORDER BY ?lastName'
+            %}
+            {% assign personSet = page.rdf | sparql_query: query %}
+            
+            {% for p1 in personSet %}
+            
+                <p>
+                "{{ p1.firstName }} {{ p1.lastName }}"
+                {% assign friendlist = p1.creator | rdf_property: 'rel:friendOf', nil, true %}
+                {% if friendlist %}  
+                -- {
+                    {% assign booltemp = "true" %}
+                    {% for f in friendlist %}
+                        {% if booltemp == "true" %}
+                            {% assign booltemp = "false" %}
+                        {% else %}
+                            --
+                        {% endif %}
+                        "{{f | rdf_property: 'foaf:firstName', nil, true}} {{f | rdf_property: 'foaf:lastName', nil, true}}"
+                    {% endfor %}
+                    }
+                {% endif %}
+                </p>
+                        
+                        
+                    
+            {% endfor %}
+        </div>
+    </noscript>
+    <button type="button" onclick="get_text_from_input_file()">Try it</button>
 </body>
 
 </html>
