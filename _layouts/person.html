@@ -42,5 +42,19 @@ rdf_prefix_path: "_data/prefixes.sparql"
 	{% else %}
 	<p> Questa persona non ha ancora inventato parole. Ma quindi è davvero un creator? </p>
 	{% endif %}
+	{% assign friendlist = page.rdf | rdf_property: 'rel:friendOf', nil, true %}
+	{% if friendlist %}
+	<!--  to uncomment when friends will become bidirection or another system will be used
+	<h3>Amici</h3>
+	<ul>
+		{% for friend in friendlist %}
+			<li>
+				<a href='{{ friend.page_url }}'>{{ friend | rdf_property: 'foaf:lastName', nil, true }} {{ friend | rdf_property: 'foaf:firstName', nil, true }}</a>
+
+			</li>
+		{% endfor %}
+	</ul>
+	-->
+	{% endif %}
     {% include footer.html %}
 </body>
