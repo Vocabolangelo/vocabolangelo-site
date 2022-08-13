@@ -1,10 +1,18 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix rel: <http://purl.org/vocab/relationship> .
+@prefix rel: <http://purl.org/vocab/relationship/> .
 @prefix vocang: <http://example.org/> .
+
+vocang:VocabolangeloRDF
+    a owl:Ontology ;
+    owl:imports <http://purl.org/vocab/relationship/> ;
+    rdfs:label "Vocabolangelo RDF" ;
+    rdfs:comment "Un'ontologia creata per il Vocabolangelo, utilizzata per memorizzare le parole,  definizion, persone, relazioni etc."@it ;
+    rdfs:seeAlso "https://github.com/AngeloFilaseta/vocabolangelo-rdf" .
 
 # Person Individuals
 
