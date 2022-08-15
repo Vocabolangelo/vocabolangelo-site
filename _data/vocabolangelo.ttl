@@ -557,8 +557,8 @@ vocang:squarciatroia
 vocang:scontante
     a skos:Concept ;
     skos:prefLabel "Scontante"@it ;
-    skos:definition "Pagamento effettuato in contanti di importo misero ai fini di evitare le tasse imposte dallo stato."@it ;
-    skos:example "Sono povero, pago con lo scontante."@it ;
+    skos:definition "Pagamento effettuato in contanti di importo misero ai fini di evitare le tasse imposte dallo stato."@it, "Sconto su un importo sostanziale offerto dal negoziante a condizione di effettuare un pagamento in contanti per consentire al negoziante stesso di non pagare tasse allo stato su quell'importo"@it;
+    skos:example "Sono povero, pago con lo scontante."@it, "Sono 1400€ se paghi col bancomat, 1200€ con lo scontante"@it;
     dct:creator vocang:orlandoNicola .
 
 vocang:coscionchetta
