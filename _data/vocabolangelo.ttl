@@ -715,3 +715,11 @@ vocang:scalinfame
     skos:example "Ho quasi distrutto l'auto per colpa di uno scalinfame."@it ;
     dct:created "2022-08-12" ;
     dct:creator vocang:nardiniArianna .
+
+vocang:lesante
+    a skos:Concept ;
+    skos:prefLabel "Lesante"@it ;
+    skos:definition "Non facilmente classificabile tra leggero e pesante."@it ;
+    skos:example "Questo scudo è lesante, sono confuso."@it ;
+    dct:created "2022-08-12" ;
+    dct:creator vocang:paoliMichele .
