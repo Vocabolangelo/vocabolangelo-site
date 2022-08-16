@@ -723,3 +723,11 @@ vocang:lesante
     skos:example "Questo scudo è lesante, sono confuso."@it ;
     dct:created "2022-08-12" ;
     dct:creator vocang:paoliMichele .
+
+vocang:poccante
+    a skos:Concept ;
+    skos:prefLabel "Poccante"@it ;
+    skos:definition "Un sapore che ci si aspetta essere molto piccante ma che alla fine non lo è quasi per niente"@it ;
+    skos:example "Questo Kebab è poccante."@it ;
+    dct:created "2022-08-13" ;
+    dct:creator vocang:omiccioliRiccardo .
