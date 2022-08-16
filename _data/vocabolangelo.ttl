@@ -9,9 +9,10 @@
 
 vocang:VocabolangeloRDF
     a owl:Ontology ;
-    owl:imports <http://purl.org/vocab/relationship/> ;
+    # Momentary solution, as http://purl.org/vocab/relationship certificate is not updated...
+    owl:imports <https://raw.githubusercontent.com/AngeloFilaseta/vocabolangelo-rdf/master/_data/rel-vocab-20100607.rdf> ;
     rdfs:label "Vocabolangelo RDF" ;
-    rdfs:comment "Un'ontologia creata per il Vocabolangelo, utilizzata per memorizzare le parole,  definizion, persone, relazioni etc."@it ;
+    rdfs:comment "Un'ontologia creata per il Vocabolangelo, utilizzata per memorizzare le parole,  definizioni, persone, relazioni etc."@it ;
     rdfs:seeAlso "https://github.com/AngeloFilaseta/vocabolangelo-rdf" .
 
 # Properties
