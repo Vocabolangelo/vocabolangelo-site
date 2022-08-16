@@ -1,4 +1,6 @@
 _data/vocabolangelo-inferred.xml
+_data/vocabolangelo-merged.ttl
+_data/catalog-*.xml
 
 # Created by https://www.toptal.com/developers/gitignore/api/linux,macos,gradle,windows,visualstudiocode,archlinuxpackages,jekyll
 # Edit at https://www.toptal.com/developers/gitignore?templates=linux,macos,gradle,windows,visualstudiocode,archlinuxpackages,jekyll
