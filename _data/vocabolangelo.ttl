@@ -748,15 +748,6 @@ vocang:uragago
     dct:created "2022-08-15" ;
     dct:creator vocang:pertosaLorenzo .
 
-
-vocang:uragago
-    a skos:Concept ;
-    skos:prefLabel "Uragago"@it ;
-    skos:definition "Una tempesta di aghi di pino."@it ;
-    skos:example "Per colpa dell'uragago oggi ho quasi perso la vista."@it ;
-    dct:created "2022-08-15" ;
-    dct:creator vocang:pertosaLorenzo .
-
 vocang:semirissa
     a skos:Concept ;
     skos:prefLabel "Semirissa"@it ;
