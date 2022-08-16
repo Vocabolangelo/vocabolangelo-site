@@ -127,6 +127,12 @@ vocang:bdeouiEddy
     foaf:nick "Eddy" ;
     rel:friendOf vocang:nardiniArianna, vocang:minoccheriAlessandra, vocang:suscaMatteo, vocang:fanaraGiuliano, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:bragariAlexandru, vocang:savoGiorgia, vocang:filasetaAngelo .
 
+vocang:paoliMichele
+    a foaf:Person ;
+    foaf:firstName "Michele" ;
+    foaf:lastName "Paoli" ;
+    rel:friendOf vocang:nardiniArianna, vocang:minoccheriAlessandra, vocang:suscaMatteo, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:bragariAlexandru, vocang:filasetaAngelo .
+
 # Vocabolangelo Words Individuals
 
 vocang:vocabolangelo
@@ -685,4 +691,11 @@ vocang:cappucciccia
     skos:prefLabel "Cappucciccia"@it ;
     skos:definition "Salsiccia imbevuta nel cappuccino."@it ;
     skos:example "Non voglio mai mangiare una cappucciccia in vita mia."@it ;
-    dct:creator vocang:nardiniArianna , vocang:bdeouiEddy.
+    dct:creator vocang:nardiniArianna, vocang:bdeouiEddy .
+
+vocang:spiazio
+    a skos:Concept ;
+    skos:prefLabel "Spiazio"@it ;
+    skos:definition "Uno spiazzato estremamente spazioso."@it ;
+    skos:example "Questo spiazio è ancora più grande di quello che immaginassi!."@it ;
+    dct:creator vocang:pertosaLorenzo, vocang:paoliMichele .
