@@ -161,6 +161,7 @@ rdf_prefix_path: "_data/prefixes.sparql"
         strict graph mici2 {
             fontname="Helvetica, Arial,sans-serif"
             node [fontname="Helvetica,Arial,sans-serif"]
+
             edge [fontname="Helvetica,Arial,sans-serif"]
 {%assign query =
 'SELECT ?creator ?firstName ?lastName
@@ -199,8 +200,60 @@ rdf_prefix_path: "_data/prefixes.sparql"
         }
         `;
 
+        const dir_mici = `
+        strict graph mici_dir {
+            fontname="Helvetica, Arial,sans-serif"
+            node [fontname="Helvetica,Arial,sans-serif"]
+            edge [fontname="Helvetica,Arial,sans-serif",style=bold, dir=none];
+
+{%assign query =
+'SELECT ?creator ?firstName ?lastName
+    WHERE {
+        ?creator rdf:type foaf:Person.
+        ?creator foaf:firstName ?firstName.
+        ?creator foaf:lastName ?lastName.
+
+    }
+    ORDER BY ?lastName'
+%}
+{% assign personSet = page.rdf | sparql_query: query %}
+
+{% for p1 in personSet %}
+
+    
+        "{{ p1.creator.page_url }}" [label="{{ p1.firstName }} {{ p1.lastName }}", URL="{{ p1.creator.page_url }}" tooltip=""];
+{% endfor %}
+
+
+{% for p1 in personSet %}
+{% assign boolNoFriends = true %}
+        {% assign friendlist = p1.creator | rdf_property: 'rel:friendOf', nil, true %}
+        {% if friendlist %}
+            {% assign boolNoFriends = false %}
+            {% for f in friendlist %}
+            	
+            	"{{ p1.creator.page_url }}" -> "{{ f.page_url }}";
+            {% endfor %}
+		
+        {% endif %}
+        {% assign unrealSet = p1.creator | rdf_property: 'rel:unpaidFriendOf', nil, true %}
+        {% if unrealSet %}
+            {% assign boolNoFriends = false %}
+			{% for uf in unrealSet %}
+
+            	"{{ p1.creator.page_url }}" -> "{{ uf.page_url }}" [style=dotted, dir=yes];
+            {% endfor %}
+
+		{% endif %}
+   		{% if boolNoFriends == true %}
+			"{{ p1.creator.page_url }}";
+		{% endif %}
+{% endfor %}
+        }
+        `;
+
         // Asynchronous call to layout
-        hpccWasm.graphviz.layout(dot2, "svg", "dot").then(svg => {
+        hpccWasm.graphviz.layout(dir_mici, "svg", "dot").then(svg => {
             const div = document.getElementById("placeholder");
             div.innerHTML = svg;
         });
