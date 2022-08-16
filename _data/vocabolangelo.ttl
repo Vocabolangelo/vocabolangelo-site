@@ -705,4 +705,5 @@ vocang:grandino
     skos:prefLabel "Grandino"@it ;
     skos:definition "Un gradino estremamente alto."@it ;
     skos:example "Se cascassi da quel grandino morirei per colpa dei danni da caduta."@it ;
+    dct:created "2022-08-12" ;
     dct:creator vocang:omiccioliRiccardo .
