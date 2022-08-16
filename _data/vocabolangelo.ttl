@@ -114,6 +114,12 @@ vocang:minoccheriAlessandra
     foaf:lastName "Minoccheri" ;
     rel:friendOf vocang:fanaraGiuliano, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo .
 
+ vocang:nardiniArianna
+    a foaf:Person ;
+    foaf:firstName "Arianna" ;
+    foaf:lastName "Nardini" ;
+    rel:friendOf vocang:minoccheriAlessandra, vocang:suscaMatteo, vocang:fanaraGiuliano, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:bragariAlexandru, vocang:savoGiorgia, vocang:filasetaAngelo .
+
 # Vocabolangelo Words Individuals
 
 vocang:vocabolangelo
@@ -666,3 +672,10 @@ vocang:abbecedangelo
     skos:definition "Abbecedario per insegnare le parole del Vocabolangelo."@it ;
     skos:example "Insegnerò le parole del vocabolangelo a mio figlio grazie all'abbecedangelo."@it ;
     dct:creator vocang:minoccheriAlessandra .
+
+vocang:cappucciccia
+    a skos:Concept ;
+    skos:prefLabel "Cappucciccia"@it ;
+    skos:definition "Salsiccia imbevuta nel cappuccino."@it ;
+    skos:example "Non voglio mai mangiare una cappucciccia in vita mia."@it ;
+    dct:creator vocang:nardiniArianna .
