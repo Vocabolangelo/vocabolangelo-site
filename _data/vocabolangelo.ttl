@@ -707,3 +707,11 @@ vocang:grandino
     skos:example "Se cascassi da quel grandino morirei per colpa dei danni da caduta."@it ;
     dct:created "2022-08-12" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:scalinfame
+    a skos:Concept ;
+    skos:prefLabel "Scalinfame"@it ;
+    skos:definition "Scalino particolarmente infame che si presta a non essere visto."@it ;
+    skos:example "Ho quasi distrutto l'auto per colpa di uno scalinfame."@it ;
+    dct:created "2022-08-12" ;
+    dct:creator vocang:nardiniArianna .
