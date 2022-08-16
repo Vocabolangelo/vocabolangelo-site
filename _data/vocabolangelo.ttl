@@ -727,7 +727,23 @@ vocang:lesante
 vocang:poccante
     a skos:Concept ;
     skos:prefLabel "Poccante"@it ;
-    skos:definition "Un sapore che ci si aspetta essere molto piccante ma che alla fine non lo è quasi per niente"@it ;
+    skos:definition "Un sapore che ci si aspetta essere molto piccante ma che alla fine non lo è quasi per niente."@it ;
     skos:example "Questo Kebab è poccante."@it ;
-    dct:created "2022-08-13" ;
+    dct:created "2022-08-15" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:notticcia
+    a skos:Concept ;
+    skos:prefLabel "Notticcia"@it ;
+    skos:definition "Una brutta notte con incubi annessi per aver assistito al consumo di una rossiccia con aggiunte strane che non hanno senso."@it ;
+    skos:example "Ho passato una notticcia veramente orrenda."@it ;
+    dct:created "2022-08-15" ;
+    dct:creator vocang:bragariAlexandru .
+
+vocang:uragago
+    a skos:Concept ;
+    skos:prefLabel "Uragago"@it ;
+    skos:definition "Una tempesta di aghi di pino."@it ;
+    skos:example "Per colpa dell'uragago oggi ho quasi perso la vista."@it ;
+    dct:created "2022-08-15" ;
+    dct:creator vocang:pertosaLorenzo .
