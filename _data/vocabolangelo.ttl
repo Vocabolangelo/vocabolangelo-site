@@ -699,3 +699,10 @@ vocang:spiazio
     skos:definition "Uno spiazzato estremamente spazioso."@it ;
     skos:example "Questo spiazio è ancora più grande di quello che immaginassi!."@it ;
     dct:creator vocang:pertosaLorenzo, vocang:paoliMichele .
+
+vocang:grandino
+    a skos:Concept ;
+    skos:prefLabel "Grandino"@it ;
+    skos:definition "Un gradino estremamente alto."@it ;
+    skos:example "Se cascassi da quel grandino morirei per colpa dei danni da caduta."@it ;
+    dct:creator vocang:omiccioliRiccardo .
