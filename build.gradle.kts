@@ -5,6 +5,26 @@
  * Learn more about Gradle by exploring our samples at https://docs.gradle.org/7.4.1/samples
  */
 
-tasks.register<Exec>("test"){
-    commandLine("turtle", "--validate", "_data/vocabolangelo.ttl")
+import java.io.ByteArrayOutputStream
+
+val dataFolder = "_data"
+val originalFileName = "vocabolangelo.ttl"
+val inferredFileName = "vocabolangelo-inferred.xml"
+
+fun filePath(fileName: String) = dataFolder + File.separator + fileName
+
+val originalFilePath = filePath(originalFileName)
+val inferredFilePath = filePath(inferredFileName)
+
+tasks.register<Exec>("test") {
+    commandLine("turtle", "--validate", originalFilePath)
+}
+
+tasks.register("infer") {
+    doLast{
+        val outputText: String = ByteArrayOutputStream().use { outputStream ->
+            "Il gioco"
+        }
+        File(inferredFilePath).writeText(outputText)
+    }
 }
