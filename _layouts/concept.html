@@ -33,13 +33,13 @@ rdf_prefix_path: "_data/prefixes.sparql"
         {% for example in exampleSet %}
             <p>"{{ example }}"</p>
         {% endfor %}
-        {% assign creators = page.rdf | rdf_property: 'dct:creator', nil, true %}
-        {% if creators %}
+        {% assign authors = page.rdf | rdf_property: 'dct:creator', nil, true %}
+        {% if authors %}
             <h4 class="m-0"> Autore: </h4>
         {% else %}
             <h4 class="m-0">Autore sconosciuto</h4>
         {% endif %}
-        {% for c in creators %}
+        {% for c in authors %}
             <a href="{{ c.page_url }}">
                 {{ c | rdf_property: 'foaf:lastName' }} {{ c | rdf_property: 'foaf:firstName' }}
             </a>
