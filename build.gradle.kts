@@ -24,7 +24,6 @@ tasks.register<Exec>("test") {
 
 tasks.register("infer") {
     doLast{
-<<<<<<< HEAD
         try {
             val inferredText: String = ByteArrayOutputStream().use { outputStream ->
                 exec{
@@ -46,13 +45,5 @@ tasks.register("infer") {
         } finally {
             File(inferredFilePath).delete()
         }
-=======
-        val outputStream = ByteArrayOutputStream()
-        exec{
-            commandLine("pellet", "extract", originalFilePath)
-            standardOutput = outputStream
-        }
-        File(inferredFilePath).writeText(outputStream.toString())
->>>>>>> 8330a32 (added infer task logic)
     }
 }
