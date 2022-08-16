@@ -14,6 +14,16 @@ vocang:VocabolangeloRDF
     rdfs:comment "Un'ontologia creata per il Vocabolangelo, utilizzata per memorizzare le parole,  definizion, persone, relazioni etc."@it ;
     rdfs:seeAlso "https://github.com/AngeloFilaseta/vocabolangelo-rdf" .
 
+# Properties
+
+vocang:unpaidFriendOf
+    a owl:ObjectProperty ;
+    rdfs:subPropertyOf foaf:knows ;
+    rdfs:domain foaf:Person ;
+    rdfs:range foaf:Person ;
+    rdfs:label "Unpaid friend of", "Amico non ricambiato"@it;
+    rdfs:comment "Property to be used when the person specified in the domain is friend with the person specified in the range, but the friendship is not mutual.", "Proprietà da utilizzare quando la persona specificata nel dominio è amica di quella specificata nel range, ma l'amicizia non è ricambiata."@it .
+
 # Person Individuals
 
 vocang:filasetaAngelo
@@ -106,7 +116,8 @@ vocang:suscaMatteo
     a foaf:Person ;
     foaf:firstName "Matteo" ;
     foaf:lastName "Susca" ;
-    rel:friendOf vocang:fanaraGiuliano, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo .
+    rel:friendOf vocang:fanaraGiuliano, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo ;
+    vocang:unpaidFriendOf vocang:battaglinoNicole, vocang:minoccheriAlessandra .
 
 vocang:minoccheriAlessandra
     a foaf:Person ;
