@@ -16,22 +16,23 @@ rdf_prefix_path: "_data/prefixes.sparql"
 		<h1> {{ lastName }} {{ firstName }} </h1>
 		{% assign nick = nickName | rdf_property: 'foaf:nick' %}
 		{% if nick %}
-			<h3>{{ nick }}</h3>
+			<h3 class="pb-2">{{ nick }}</h3>
 		{% endif %}
 		{% assign cr = page.rdf | rdf_get %}
-		{% assign query =  'SELECT ?word ?label ?creator
+		{% assign query =  'SELECT ?word ?label ?author
 			WHERE {
 				?word rdf:type skos:Concept.
 				?word skos:prefLabel ?label.
-				?word dct:creator ?creator.
+				?word dct:creator ?author.
 			}
 			ORDER BY ?label'
 		%}
 		{% assign resultset = page.rdf | sparql_query: query %}
 		{% if resultset %}
+		<h5> Parole inventate: </h5>
 			<ul>
 				{% for result in resultset %}
-					{% if cr == result.creator %}
+					{% if cr == result.author %}
 						<li>
 							<a href='{{ result.word.page_url }}'>{{ result.label }}</a>
 						</li>
@@ -39,7 +40,7 @@ rdf_prefix_path: "_data/prefixes.sparql"
 				{% endfor %}
 			</ul>
 		{% else %}
-			<p> Questa persona non ha ancora inventato parole. Ma quindi è davvero un creator? </p>
+			<p> Questa persona non ha ancora inventato parole. Ma quindi è davvero un autore? </p>
 		{% endif %}
 		{% assign friendlist = page.rdf | rdf_property: 'rel:friendOf', nil, true %}
 		{% if friendlist %}

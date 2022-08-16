@@ -19,23 +19,23 @@ rdf_prefix_path: "_data/prefixes.sparql"
     <!-- what to put before the graph?Anyway not this as it's printed with <noscript> if javascript is disabled
     <div>
         {%assign query =
-            'SELECT ?creator ?firstName ?lastName
+            'SELECT ?author ?firstName ?lastName
                 WHERE {
-                    ?creator rdf:type foaf:Person.
-                    ?creator foaf:firstName ?firstName.
-                    ?creator foaf:lastName ?lastName.
+                    ?author rdf:type foaf:Person.
+                    ?author foaf:firstName ?firstName.
+                    ?author foaf:lastName ?lastName.
 
                 }
                 ORDER BY ?lastName'
         %}
         {% assign personSet = page.rdf | sparql_query: query %}
-        
+
         {% for p1 in personSet %}
- 
+
             <p>
                 "{{ p1.firstName }} {{ p1.lastName }}"
-                {% assign friendlist = p1.creator | rdf_property: 'rel:friendOf', nil, true %}
-                {% if friendlist %}  
+                {% assign friendlist = p1.author | rdf_property: 'rel:friendOf', nil, true %}
+                {% if friendlist %}
                 -- {
                     {% assign booltemp = "true" %}
                     {% for f in friendlist %}
@@ -48,8 +48,8 @@ rdf_prefix_path: "_data/prefixes.sparql"
                     {% endfor %}
                     }
                 {% endif %}
-                
-                
+
+
             </p>
         {% endfor %}
     </div>-->
@@ -164,11 +164,11 @@ rdf_prefix_path: "_data/prefixes.sparql"
 
             edge [fontname="Helvetica,Arial,sans-serif"]
 {%assign query =
-'SELECT ?creator ?firstName ?lastName
+'SELECT ?author ?firstName ?lastName
     WHERE {
-        ?creator rdf:type foaf:Person.
-        ?creator foaf:firstName ?firstName.
-        ?creator foaf:lastName ?lastName.
+        ?author rdf:type foaf:Person.
+        ?author foaf:firstName ?firstName.
+        ?author foaf:lastName ?lastName.
 
     }
     ORDER BY ?lastName'
@@ -177,10 +177,10 @@ rdf_prefix_path: "_data/prefixes.sparql"
 
 {% for p1 in personSet %}
 
-    
+
         "{{ p1.firstName }} {{ p1.lastName }}"
-        {% assign friendlist = p1.creator | rdf_property: 'rel:friendOf', nil, true %}
-        {% if friendlist %}  
+        {% assign friendlist = p1.author | rdf_property: 'rel:friendOf', nil, true %}
+        {% if friendlist %}
         -- {
             {% assign booltemp = "true" %}
             {% for f in friendlist %}
@@ -193,9 +193,9 @@ rdf_prefix_path: "_data/prefixes.sparql"
             {% endfor %}
             }
         {% endif %};
-        
-        
-    
+
+
+
 {% endfor %}
         }
         `;
@@ -268,26 +268,26 @@ rdf_prefix_path: "_data/prefixes.sparql"
         <div>
             <p>Please enable JavaScript to view the image of the graph.</p>
         </div>
-        
+
         <div>
             {%assign query =
-                'SELECT ?creator ?firstName ?lastName
+                'SELECT ?author ?firstName ?lastName
                     WHERE {
-                        ?creator rdf:type foaf:Person.
-                        ?creator foaf:firstName ?firstName.
-                        ?creator foaf:lastName ?lastName.
-                
+                        ?author rdf:type foaf:Person.
+                        ?author foaf:firstName ?firstName.
+                        ?author foaf:lastName ?lastName.
+
                     }
                     ORDER BY ?lastName'
             %}
             {% assign personSet = page.rdf | sparql_query: query %}
-            
+
             {% for p1 in personSet %}
-            
+
                 <p>
                 "{{ p1.firstName }} {{ p1.lastName }}"
-                {% assign friendlist = p1.creator | rdf_property: 'rel:friendOf', nil, true %}
-                {% if friendlist %}  
+                {% assign friendlist = p1.author | rdf_property: 'rel:friendOf', nil, true %}
+                {% if friendlist %}
                 -- {
                     {% assign booltemp = "true" %}
                     {% for f in friendlist %}
@@ -301,9 +301,9 @@ rdf_prefix_path: "_data/prefixes.sparql"
                     }
                 {% endif %}
                 </p>
-                        
-                        
-                    
+
+
+
             {% endfor %}
         </div>
     </noscript>

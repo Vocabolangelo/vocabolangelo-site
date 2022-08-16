@@ -4,19 +4,19 @@ rdf_prefix_path: "_data/prefixes.sparql"
 
 <head>
     {% include head-common.html %}
-    <title>Vocabolangelo - Creators</title>
+    <title>Vocabolangelo - Autori</title>
 </head>
 
 <body>
     {% include header.html %}
     <main>
-        <h1> Creators del Vocabolangelo </h1>
+        <h1> Autori del Vocabolangelo </h1>
         {%assign query =
-            'SELECT ?creator ?firstName ?lastName
+            'SELECT ?author ?firstName ?lastName
             WHERE {
-                ?creator rdf:type foaf:Person.
-                ?creator foaf:firstName ?firstName.
-                ?creator foaf:lastName ?lastName.
+                ?author rdf:type foaf:Person.
+                ?author foaf:firstName ?firstName.
+                ?author foaf:lastName ?lastName.
             }
             ORDER BY ?lastName'
         %}
@@ -24,7 +24,7 @@ rdf_prefix_path: "_data/prefixes.sparql"
         <ul>
             {% for result in resultset %}
                 <li>
-                    <a href="{{ result.creator.page_url }}">
+                    <a href="{{ result.author.page_url }}">
                         {{ result.lastName }} {{ result.firstName }}
                     </a>
                 </li>
