@@ -22,9 +22,11 @@ tasks.register<Exec>("test") {
 
 tasks.register("infer") {
     doLast{
-        val outputText: String = ByteArrayOutputStream().use { outputStream ->
-            "Il gioco"
+        val outputStream = ByteArrayOutputStream()
+        exec{
+            commandLine("pellet", "extract", originalFilePath)
+            standardOutput = outputStream
         }
-        File(inferredFilePath).writeText(outputText)
+        File(inferredFilePath).writeText(outputStream.toString())
     }
 }
