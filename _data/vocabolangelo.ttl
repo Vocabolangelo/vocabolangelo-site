@@ -120,6 +120,13 @@ vocang:minoccheriAlessandra
     foaf:lastName "Nardini" ;
     rel:friendOf vocang:minoccheriAlessandra, vocang:suscaMatteo, vocang:fanaraGiuliano, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:bragariAlexandru, vocang:savoGiorgia, vocang:filasetaAngelo .
 
+vocang:bdeouiEddy
+    a foaf:Person ;
+    foaf:firstName "Eddy" ;
+    foaf:lastName "Bdeoui" ;
+    foaf:nick "Eddy" ;
+    rel:friendOf vocang:nardiniArianna, vocang:minoccheriAlessandra, vocang:suscaMatteo, vocang:fanaraGiuliano, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:bragariAlexandru, vocang:savoGiorgia, vocang:filasetaAngelo .
+
 # Vocabolangelo Words Individuals
 
 vocang:vocabolangelo
@@ -678,4 +685,4 @@ vocang:cappucciccia
     skos:prefLabel "Cappucciccia"@it ;
     skos:definition "Salsiccia imbevuta nel cappuccino."@it ;
     skos:example "Non voglio mai mangiare una cappucciccia in vita mia."@it ;
-    dct:creator vocang:nardiniArianna .
+    dct:creator vocang:nardiniArianna , vocang:bdeouiEddy.
