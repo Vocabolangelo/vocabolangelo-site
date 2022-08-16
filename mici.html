@@ -201,7 +201,7 @@ rdf_prefix_path: "_data/prefixes.sparql"
         `;
 
         const dir_mici = `
-        strict graph mici_dir {
+        digraph mici_dir {
             fontname="Helvetica, Arial,sans-serif"
             node [fontname="Helvetica,Arial,sans-serif"]
             edge [fontname="Helvetica,Arial,sans-serif",style=bold, dir=none];
@@ -226,28 +226,27 @@ rdf_prefix_path: "_data/prefixes.sparql"
 
 
 {% for p1 in personSet %}
-{% assign boolNoFriends = true %}
-        {% assign friendlist = p1.creator | rdf_property: 'rel:friendOf', nil, true %}
-        {% if friendlist %}
-            {% assign boolNoFriends = false %}
-            {% for f in friendlist %}
+	{% assign boolNoFriends = true %}
+    {% assign friendlist = p1.creator | rdf_property: 'rel:friendOf', nil, true %}
+    {% if friendlist %}
+    	{% assign boolNoFriends = false %}
+    	{% for f in friendlist %}
             	
-            	"{{ p1.creator.page_url }}" -> "{{ f.page_url }}";
-            {% endfor %}
+          	"{{ p1.creator.page_url }}" -> "{{ f.page_url }}";
+        {% endfor %}
 		
-        {% endif %}
-        {% assign unrealSet = p1.creator | rdf_property: 'rel:unpaidFriendOf', nil, true %}
-        {% if unrealSet %}
-            {% assign boolNoFriends = false %}
-			{% for uf in unrealSet %}
-
+	{% endif %}
+    {% assign unrealSet = p1.creator | rdf_property: 'rel:unpaidFriendOf', nil, true %}
+    {% if unrealSet %}
+    	{% assign boolNoFriends = false %}
+		{% for uf in unrealSet %}
             	"{{ p1.creator.page_url }}" -> "{{ uf.page_url }}" [style=dotted, dir=yes];
-            {% endfor %}
+		{% endfor %}
 
-		{% endif %}
-   		{% if boolNoFriends == true %}
-			"{{ p1.creator.page_url }}";
-		{% endif %}
+	{% endif %}
+   	{% if boolNoFriends == true %}
+		"{{ p1.creator.page_url }}";
+	{% endif %}
 {% endfor %}
         }
         `;
