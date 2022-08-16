@@ -16,7 +16,7 @@ rdf_prefix_path: "_data/prefixes.sparql"
 		<h1> {{ lastName }} {{ firstName }} </h1>
 		{% assign nick = nickName | rdf_property: 'foaf:nick' %}
 		{% if nick %}
-			<h3>{{ nick }}</h3>
+			<h3 class="pb-2">{{ nick }}</h3>
 		{% endif %}
 		{% assign cr = page.rdf | rdf_get %}
 		{% assign query =  'SELECT ?word ?label ?creator
@@ -29,6 +29,7 @@ rdf_prefix_path: "_data/prefixes.sparql"
 		%}
 		{% assign resultset = page.rdf | sparql_query: query %}
 		{% if resultset %}
+		<h5> Parole inventate: </h5>
 			<ul>
 				{% for result in resultset %}
 					{% if cr == result.creator %}

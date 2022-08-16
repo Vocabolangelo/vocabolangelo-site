@@ -19,12 +19,14 @@ rdf_prefix_path: "_data/prefixes.sparql"
         {% else %}
             <h3 class="m-0"> Non ci sono definizioni lemao </h3>
         {% endif %}
+        <ol class="m-0 py-2">
         {% for definition in definitionSet %}
-            <p>{{ definition }}</p>
+            <li class="py-2">{{ definition }}</li>
         {% endfor %}
+        </ol>
         {% assign exampleSet = page.rdf | rdf_property: 'skos:example', nil, true %}
         {% if exampleSet %}
-            <h4 class="m-0"> Esempi: </h4>
+            <h4 class="m-0 pb-2"> Esempi: </h4>
         {% else %}
             <h4 class="m-0"> Non ci sono esempi =( </h4>
         {% endif %}

@@ -14,6 +14,10 @@ main {
     font-size: 2rem;
 }
 
+ol > li::marker {
+    font-weight: bold;
+}
+
 .zoom {
     transition: transform 1s;
 }
