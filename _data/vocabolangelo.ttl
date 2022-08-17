@@ -32,7 +32,7 @@ vocang:filasetaAngelo
     foaf:firstName "Angelo" ;
     foaf:lastName "Filaseta" ;
     foaf:nick "Ange" ;
-    rel:friendOf vocang:savoGiorgia , vocang:bragariAlexandru , vocang:battaglinoNicole , vocang:omiccioliRiccardo ,vocang:pertosaLorenzo , vocang:timpanoSam ;
+    rel:friendOf  vocang:bragariAlexandru , vocang:battaglinoNicole , vocang:omiccioliRiccardo ,vocang:pertosaLorenzo , vocang:timpanoSam ;
     rel:closeFriendOf vocang:ribaudoSofia ;
     rel:lifePartnerOf vocang:savoGiorgia .
 
