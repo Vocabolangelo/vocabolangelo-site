@@ -20,7 +20,7 @@ rdf_prefix_path: "_data/prefixes.sparql"
     <div id="placeholder"></div>
     <div id="placeholder2"></div>
     <script>
-	//complete example 
+	//complete static example 
 	const ex3=`
 	digraph regexp {
  fontname="Helvetica,Arial,sans-serif"
@@ -98,72 +98,6 @@ rdf_prefix_path: "_data/prefixes.sparql"
  n18 -> n7;
 }
 `;
-        //this is only an example
-        const dot = `
-        strict graph undirected_graph_mici {
-            fontname="Helvetica, Arial,sans-serif"
-            node [fontname="Helvetica,Arial,sans-serif"]
-            edge [fontname="Helvetica,Arial,sans-serif"]
-            "Angelo Filaseta" -- { "Giorgia Savo" -- "Alexandru Bragari" -- "Nicole Battaglino" -- "Riccardo Omiccioli" -- "Lorenzo Pertosa" -- "Sam Timpano" -- "Sofia Ribaudo" -- "Giorgia Savo" };
-                "Giorgia Savo" -- { "Alexandru Bragari" -- "Nicole Battaglino" -- "Riccardo Omiccioli" -- "Lorenzo Pertosa" -- "Sam Timpano" -- "Sofia Ribaudo" };
-                "Alexandru Bragari" -- { "Nicole Battaglino" -- "Riccardo Omiccioli" -- "Lorenzo Pertosa" -- "Sam Timpano" -- "Sofia Ribaudo" };
-                "Nicole Battaglino" -- { "Lorenzo Pertosa" -- "Sam Timpano" -- "Riccardo Omiccioli" -- "Sofia Ribaudo" -- "Riccardo Omiccioli" };
-                "Riccardo Omiccioli" -- { "Lorenzo Pertosa" -- "Sam Timpano" -- "Sofia Ribaudo" };
-                "Lorenzo Pertosa" -- { "Sam Timpano" -- "Sofia Ribaudo" };
-                "Sam Timpano" -- { "Sofia Ribaudo" };
-                "Sofia Ribaudo";
-                "Alessandro Talmi" -- { "Angelo Filaseta" -- "Alexandru Bragari" };
-                "Nicola Orlando" -- { "Alexandru Bragari" -- "Alessandro Talmi" -- "Sofia Ribaudo" -- "Sam Timpano" -- "Lorenzo Pertosa" -- "Riccardo Omiccioli" -- "Nicole Battaglino" -- "Giorgia Savo" -- "Angelo Filaseta" };
-                "Matteo Adanti" -- { "Alexandru Bragari" -- "Nicola Orlando" };
-                "Giuliano Fanara" -- { "Nicola Orlando" -- "Sofia Ribaudo" -- "Sam Timpano" -- "Lorenzo Pertosa" -- "Riccardo Omiccioli" -- "Nicole Battaglino" -- "Giorgia Savo" -- "Angelo Filaseta" };
-                "Matteo Susca" -- { "Giuliano Fanara" -- "Nicola Orlando" -- "Sofia Ribaudo" -- "Sam Timpano" -- "Lorenzo Pertosa" -- "Riccardo Omiccioli" -- "Nicole Battaglino" -- "Giorgia Savo" -- "Angelo Filaseta" };
-                "Alessandra Minoccheri" -- { "Giuliano Fanara" -- "Nicola Orlando" -- "Sofia Ribaudo" -- "Sam Timpano" -- "Lorenzo Pertosa" -- "Riccardo Omiccioli" -- "Nicole Battaglino" -- "Giorgia Savo" -- "Angelo Filaseta" };
-        }
-
-        `;
-        const dot2 = `
-        strict graph mici2 {
-            fontname="Helvetica, Arial,sans-serif"
-            node [fontname="Helvetica,Arial,sans-serif"]
-
-            edge [fontname="Helvetica,Arial,sans-serif"]
-{%assign query =
-'SELECT ?author ?firstName ?lastName
-    WHERE {
-        ?author rdf:type foaf:Person.
-        ?author foaf:firstName ?firstName.
-        ?author foaf:lastName ?lastName.
-
-    }
-    ORDER BY ?lastName'
-%}
-{% assign personSet = page.rdf | sparql_query: query %}
-
-{% for p1 in personSet %}
-
-
-        "{{ p1.firstName }} {{ p1.lastName }}"
-        {% assign friendlist = p1.author | rdf_property: 'rel:friendOf', nil, true %}
-        {% if friendlist %}
-        -- {
-            {% assign booltemp = "true" %}
-            {% for f in friendlist %}
-                {% if booltemp == "true" %}
-                    {% assign booltemp = "false" %}
-                {% else %}
-                    --
-                {% endif %}
-                "{{f | rdf_property: 'foaf:firstName', nil, true}} {{f | rdf_property: 'foaf:lastName', nil, true}}"
-            {% endfor %}
-            }
-        {% endif %};
-
-
-
-{% endfor %}
-        }
-        `;
-
         const dir_mici = `
         digraph mici_dir {
             fontname="Helvetica, Arial,sans-serif"
