@@ -104,7 +104,14 @@ vocang:adantiMatteo
     foaf:firstName "Matteo" ;
     foaf:lastName "Adanti" ;
     foaf:nick "Adant" ;
-    rel:friendOf vocang:bragariAlexandru, vocang:orlandoNicola .
+    rel:friendOf vocang:bragariAlexandru, vocang:orlandoNicola vocang:bdeouiEddy .
+
+vocang:pescaraGianluca
+    a foaf:Person ;
+    foaf:firstName "Gianluca" ;
+    foaf:lastName "Pescara" ;
+    foaf:nick "Pesca" ;
+	rel:friendOf vocang:adantiMatteo,vocang:bragariAlexandru, vocang:orlandoNicola, vocang:bdeouiEddy .
 
 vocang:fanaraGiuliano
     a foaf:Person ;
@@ -202,7 +209,15 @@ vocang:allefanza
     skos:prefLabel "Allefanza"@it ;
     skos:definition "Rapporto di alleanza non del tutto bidirezionale."@it ;
     skos:example "Instauriamo un'allefanza in questa partita? Ci alleiamo contro tutti ma quando mi va posso ucciderti."@it ;
-    dct:creator vocang:adantiMatteo .
+	skos:related vocang:fanz;
+    dct:creator vocang:adantiMatteo, vocang:gianlucaPescara .
+
+vocang:fanz
+	a skos:Concept ;
+	skos:prefLabel "Fanz"@it ;
+	skos:definition "Un fan estremamente entusiasta di esserlo."@it ;
+	skos:example "Io sono un tuo fanz!"@it ;
+	skos:related vocang:allefanza ;
 
 vocang:bregge
     a skos:Concept ;
