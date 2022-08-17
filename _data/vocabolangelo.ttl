@@ -217,7 +217,7 @@ vocang:fanz
 	skos:prefLabel "Fanz"@it ;
 	skos:definition "Un fan estremamente entusiasta di esserlo."@it ;
 	skos:example "Io sono un tuo fanz!"@it ;
-	skos:related vocang:allefanza ;
+	skos:related vocang:allefanza .
 
 vocang:bregge
     a skos:Concept ;
