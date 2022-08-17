@@ -32,7 +32,7 @@ vocang:filasetaAngelo
     foaf:firstName "Angelo" ;
     foaf:lastName "Filaseta" ;
     foaf:nick "Ange" ;
-    rel:friendOf vocang:savoGiorgia , vocang:bragariAlexandru , vocang:battaglinoNicole , vocang:omiccioliRiccardo ,vocang:pertosaLorenzo , vocang:timpanoSam ;
+    rel:friendOf  vocang:bragariAlexandru , vocang:battaglinoNicole , vocang:omiccioliRiccardo ,vocang:pertosaLorenzo , vocang:timpanoSam ;
     rel:closeFriendOf vocang:ribaudoSofia ;
     rel:lifePartnerOf vocang:savoGiorgia .
 
@@ -104,7 +104,14 @@ vocang:adantiMatteo
     foaf:firstName "Matteo" ;
     foaf:lastName "Adanti" ;
     foaf:nick "Adant" ;
-    rel:friendOf vocang:bragariAlexandru, vocang:orlandoNicola .
+    rel:friendOf vocang:bragariAlexandru, vocang:orlandoNicola, vocang:bdeouiEddy .
+
+vocang:pescaraGianluca
+    a foaf:Person ;
+    foaf:firstName "Gianluca" ;
+    foaf:lastName "Pescara" ;
+    foaf:nick "Pesca" ;
+	rel:friendOf vocang:adantiMatteo, vocang:bragariAlexandru, vocang:orlandoNicola, vocang:bdeouiEddy .
 
 vocang:fanaraGiuliano
     a foaf:Person ;
@@ -117,7 +124,7 @@ vocang:suscaMatteo
     a foaf:Person ;
     foaf:firstName "Matteo" ;
     foaf:lastName "Susca" ;
-    rel:friendOf vocang:fanaraGiuliano, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo ;
+    rel:friendOf vocang:fanaraGiuliano, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo, vocang:minoccheriAlessandra ;
     vocang:unpaidFriendOf vocang:battaglinoNicole, vocang:minoccheriAlessandra .
 
 vocang:minoccheriAlessandra
@@ -202,7 +209,15 @@ vocang:allefanza
     skos:prefLabel "Allefanza"@it ;
     skos:definition "Rapporto di alleanza non del tutto bidirezionale."@it ;
     skos:example "Instauriamo un'allefanza in questa partita? Ci alleiamo contro tutti ma quando mi va posso ucciderti."@it ;
-    dct:creator vocang:adantiMatteo .
+	skos:related vocang:fanz;
+    dct:creator vocang:adantiMatteo, vocang:gianlucaPescara .
+
+vocang:fanz
+	a skos:Concept ;
+	skos:prefLabel "Fanz"@it ;
+	skos:definition "Un fan estremamente entusiasta di esserlo."@it ;
+	skos:example "Io sono un tuo fanz!"@it ;
+	skos:related vocang:allefanza .
 
 vocang:bregge
     a skos:Concept ;
@@ -767,3 +782,11 @@ vocang:semirissa
     skos:example "Oggi a quella semirissa sono quasi morto."@it ;
     dct:created "2022-08-15" ;
     dct:creator vocang:bdeouiEddy .
+
+vocang:farza
+    a skos:Concept ;
+    skos:prefLabel "Farza"@it ;
+    skos:definition "Parole che assume sia il significato di \"farsa\" che si \"falsa\"."@it ;
+    skos:example "Sei una persona farza."@it , "Questa recita è tutta una farza."@it;
+    dct:created "2022-08-17" ;
+    dct:creator vocang:savoGiorgia .

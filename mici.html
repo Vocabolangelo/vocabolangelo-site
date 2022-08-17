@@ -1,5 +1,5 @@
 ---
-rdf_prefix_path: "_data/prefixes.sparql"
+rdf_prefix_path: "_data/prefixes.sparql" 
 ---
 <!DOCTYPE html>
 <html>
@@ -16,47 +16,11 @@ rdf_prefix_path: "_data/prefixes.sparql"
 
 <body>
     {% include header.html %}
-    <!-- what to put before the graph?Anyway not this as it's printed with <noscript> if javascript is disabled
-    <div>
-        {%assign query =
-            'SELECT ?author ?firstName ?lastName
-                WHERE {
-                    ?author rdf:type foaf:Person.
-                    ?author foaf:firstName ?firstName.
-                    ?author foaf:lastName ?lastName.
-
-                }
-                ORDER BY ?lastName'
-        %}
-        {% assign personSet = page.rdf | sparql_query: query %}
-
-        {% for p1 in personSet %}
-
-            <p>
-                "{{ p1.firstName }} {{ p1.lastName }}"
-                {% assign friendlist = p1.author | rdf_property: 'rel:friendOf', nil, true %}
-                {% if friendlist %}
-                -- {
-                    {% assign booltemp = "true" %}
-                    {% for f in friendlist %}
-                        {% if booltemp == "true" %}
-                            {% assign booltemp = "false" %}
-                        {% else %}
-                            --
-                        {% endif %}
-                        "{{f | rdf_property: 'foaf:firstName', nil, true}} {{f | rdf_property: 'foaf:lastName', nil, true}}"
-                    {% endfor %}
-                    }
-                {% endif %}
-
-
-            </p>
-        {% endfor %}
-    </div>-->
+    <!-- what to put before the graph?-->
     <div id="placeholder"></div>
     <div id="placeholder2"></div>
     <script>
-	//complete example 
+	//complete static example 
 	const ex3=`
 	digraph regexp {
  fontname="Helvetica,Arial,sans-serif"
@@ -134,85 +98,18 @@ rdf_prefix_path: "_data/prefixes.sparql"
  n18 -> n7;
 }
 `;
-        //this is only an example
-        const dot = `
-        strict graph undirected_graph_mici {
+        const dir_mici = `
+        digraph mici_dir {
             fontname="Helvetica, Arial,sans-serif"
             node [fontname="Helvetica,Arial,sans-serif"]
-            edge [fontname="Helvetica,Arial,sans-serif"]
-            "Angelo Filaseta" -- { "Giorgia Savo" -- "Alexandru Bragari" -- "Nicole Battaglino" -- "Riccardo Omiccioli" -- "Lorenzo Pertosa" -- "Sam Timpano" -- "Sofia Ribaudo" -- "Giorgia Savo" };
-                "Giorgia Savo" -- { "Alexandru Bragari" -- "Nicole Battaglino" -- "Riccardo Omiccioli" -- "Lorenzo Pertosa" -- "Sam Timpano" -- "Sofia Ribaudo" };
-                "Alexandru Bragari" -- { "Nicole Battaglino" -- "Riccardo Omiccioli" -- "Lorenzo Pertosa" -- "Sam Timpano" -- "Sofia Ribaudo" };
-                "Nicole Battaglino" -- { "Lorenzo Pertosa" -- "Sam Timpano" -- "Riccardo Omiccioli" -- "Sofia Ribaudo" -- "Riccardo Omiccioli" };
-                "Riccardo Omiccioli" -- { "Lorenzo Pertosa" -- "Sam Timpano" -- "Sofia Ribaudo" };
-                "Lorenzo Pertosa" -- { "Sam Timpano" -- "Sofia Ribaudo" };
-                "Sam Timpano" -- { "Sofia Ribaudo" };
-                "Sofia Ribaudo";
-                "Alessandro Talmi" -- { "Angelo Filaseta" -- "Alexandru Bragari" };
-                "Nicola Orlando" -- { "Alexandru Bragari" -- "Alessandro Talmi" -- "Sofia Ribaudo" -- "Sam Timpano" -- "Lorenzo Pertosa" -- "Riccardo Omiccioli" -- "Nicole Battaglino" -- "Giorgia Savo" -- "Angelo Filaseta" };
-                "Matteo Adanti" -- { "Alexandru Bragari" -- "Nicola Orlando" };
-                "Giuliano Fanara" -- { "Nicola Orlando" -- "Sofia Ribaudo" -- "Sam Timpano" -- "Lorenzo Pertosa" -- "Riccardo Omiccioli" -- "Nicole Battaglino" -- "Giorgia Savo" -- "Angelo Filaseta" };
-                "Matteo Susca" -- { "Giuliano Fanara" -- "Nicola Orlando" -- "Sofia Ribaudo" -- "Sam Timpano" -- "Lorenzo Pertosa" -- "Riccardo Omiccioli" -- "Nicole Battaglino" -- "Giorgia Savo" -- "Angelo Filaseta" };
-                "Alessandra Minoccheri" -- { "Giuliano Fanara" -- "Nicola Orlando" -- "Sofia Ribaudo" -- "Sam Timpano" -- "Lorenzo Pertosa" -- "Riccardo Omiccioli" -- "Nicole Battaglino" -- "Giorgia Savo" -- "Angelo Filaseta" };
-        }
+            edge [fontname="Helvetica,Arial,sans-serif",style="", dir=none];
 
-        `;
-        const dot2 = `
-        strict graph mici2 {
-            fontname="Helvetica, Arial,sans-serif"
-            node [fontname="Helvetica,Arial,sans-serif"]
-
-            edge [fontname="Helvetica,Arial,sans-serif"]
 {%assign query =
-'SELECT ?author ?firstName ?lastName
+'SELECT ?author ?firstName ?lastName 
     WHERE {
         ?author rdf:type foaf:Person.
         ?author foaf:firstName ?firstName.
         ?author foaf:lastName ?lastName.
-
-    }
-    ORDER BY ?lastName'
-%}
-{% assign personSet = page.rdf | sparql_query: query %}
-
-{% for p1 in personSet %}
-
-
-        "{{ p1.firstName }} {{ p1.lastName }}"
-        {% assign friendlist = p1.author | rdf_property: 'rel:friendOf', nil, true %}
-        {% if friendlist %}
-        -- {
-            {% assign booltemp = "true" %}
-            {% for f in friendlist %}
-                {% if booltemp == "true" %}
-                    {% assign booltemp = "false" %}
-                {% else %}
-                    --
-                {% endif %}
-                "{{f | rdf_property: 'foaf:firstName', nil, true}} {{f | rdf_property: 'foaf:lastName', nil, true}}"
-            {% endfor %}
-            }
-        {% endif %};
-
-
-
-{% endfor %}
-        }
-        `;
-
-        const dir_mici = `
-        strict graph mici_dir {
-            fontname="Helvetica, Arial,sans-serif"
-            node [fontname="Helvetica,Arial,sans-serif"]
-            edge [fontname="Helvetica,Arial,sans-serif",style=bold, dir=none];
-
-{%assign query =
-'SELECT ?creator ?firstName ?lastName
-    WHERE {
-        ?creator rdf:type foaf:Person.
-        ?creator foaf:firstName ?firstName.
-        ?creator foaf:lastName ?lastName.
-
     }
     ORDER BY ?lastName'
 %}
@@ -221,32 +118,50 @@ rdf_prefix_path: "_data/prefixes.sparql"
 {% for p1 in personSet %}
 
     
-        "{{ p1.creator.page_url }}" [label="{{ p1.firstName }} {{ p1.lastName }}", URL="{{ p1.creator.page_url }}" tooltip=""];
+        "{{ p1.author.page_url }}" [label="{{ p1.firstName }} {{ p1.lastName }}", URL="{{ p1.author.page_url }}" tooltip=""];
 {% endfor %}
-
 
 {% for p1 in personSet %}
 {% assign boolNoFriends = true %}
-        {% assign friendlist = p1.creator | rdf_property: 'rel:friendOf', nil, true %}
+        {% assign friendlist = p1.author | rdf_property: 'rel:friendOf', nil, true %}
+		{% assign bbfSet = p1.author | rdf_property: 'rel:closeFriendOf', nil, true %}
+		{% assign loveSet = p1.author | rdf_property: 'rel:lifePartnerOf', nil, true %}
+        {% if friendlist or bbfSet or loveSet%}
+			{% assign boolNoFriends = false %}
+		{% endif %}
         {% if friendlist %}
             {% assign boolNoFriends = false %}
+         	{% assign unrealSet = p1.author | rdf_property: 'vocang:unpaidFriendOf', nil, true %}
             {% for f in friendlist %}
-            	
-            	"{{ p1.creator.page_url }}" -> "{{ f.page_url }}";
+				{% assign boolUnreal = false %}
+				{% if unrealSet %}
+					{% for uf in unrealSet %}
+						{% if f.page_url == uf.page_url %}
+							{% assign boolUnreal = true %}
+						{% endif %}
+					{% endfor %}
+					{% if boolUnreal == true%}
+						//stampare dotted
+            			"{{ p1.author.page_url }}" -> "{{ f.page_url }}" [style=dotted, penwidth=2.2, dir=yes];
+					{% else %}
+						//stampare non dotted(normale)
+            			"{{ p1.author.page_url }}" -> "{{ f.page_url }}";
+					{% endif %}
+       			{% else %}
+					//stampo amico e basta
+            		"{{ p1.author.page_url }}" -> "{{ f.page_url }}";
+				{% endif %}
             {% endfor %}
-		
-        {% endif %}
-        {% assign unrealSet = p1.creator | rdf_property: 'rel:unpaidFriendOf', nil, true %}
-        {% if unrealSet %}
-            {% assign boolNoFriends = false %}
-			{% for uf in unrealSet %}
 
-            	"{{ p1.creator.page_url }}" -> "{{ uf.page_url }}" [style=dotted, dir=yes];
-            {% endfor %}
-
-		{% endif %}
+		{% endif %}   	
+		{% for f in bbfSet %}
+            "{{ p1.author.page_url }}" -> "{{ f.page_url }}" [style=bold, penwidth=2.2, dir=none, color=green];
+		{% endfor %}
+		{% for f in loveSet %}
+            "{{ p1.author.page_url }}" -> "{{ f.page_url }}" [style=bold, penwidth=2.1, dir=none, color=red];
+		{% endfor %}
    		{% if boolNoFriends == true %}
-			"{{ p1.creator.page_url }}";
+			"{{ p1.author.page_url }}";
 		{% endif %}
 {% endfor %}
         }
@@ -270,41 +185,60 @@ rdf_prefix_path: "_data/prefixes.sparql"
         </div>
 
         <div>
-            {%assign query =
-                'SELECT ?author ?firstName ?lastName
-                    WHERE {
-                        ?author rdf:type foaf:Person.
-                        ?author foaf:firstName ?firstName.
-                        ?author foaf:lastName ?lastName.
+{%assign query =
+'SELECT ?author ?firstName ?lastName 
+    WHERE {
+        ?author rdf:type foaf:Person.
+        ?author foaf:firstName ?firstName.
+        ?author foaf:lastName ?lastName.
+    }
+    ORDER BY ?lastName'
+%}
+{% assign personSet = page.rdf | sparql_query: query %}
 
-                    }
-                    ORDER BY ?lastName'
-            %}
-            {% assign personSet = page.rdf | sparql_query: query %}
+{% for p1 in personSet %}
 
-            {% for p1 in personSet %}
+    
+        "{{ p1.author.page_url }}" [label="{{ p1.firstName }} {{ p1.lastName }}", URL="{{ p1.author.page_url }}" tooltip=""];
+{% endfor %}
 
-                <p>
-                "{{ p1.firstName }} {{ p1.lastName }}"
-                {% assign friendlist = p1.author | rdf_property: 'rel:friendOf', nil, true %}
-                {% if friendlist %}
-                -- {
-                    {% assign booltemp = "true" %}
-                    {% for f in friendlist %}
-                        {% if booltemp == "true" %}
-                            {% assign booltemp = "false" %}
-                        {% else %}
-                            --
-                        {% endif %}
-                        "{{f | rdf_property: 'foaf:firstName', nil, true}} {{f | rdf_property: 'foaf:lastName', nil, true}}"
-                    {% endfor %}
-                    }
-                {% endif %}
-                </p>
-
-
-
+{% for p1 in personSet %}
+{% assign boolNoFriends = true %}
+        {% assign friendlist = p1.author | rdf_property: 'rel:friendOf', nil, true %}
+        {% if friendlist %}
+            {% assign boolNoFriends = false %}
+         	{% assign unrealSet = p1.author | rdf_property: 'vocang:unpaidFriendOf', nil, true %}
+            {% for f in friendlist %}
+				{% if unrealSet %}
+					{% assign boolUnreal = false%}
+					{% for uf in unrealSet %}
+						{% if f.page_url == uf.page_url %}
+							{% assign boolUnreal = true %}
+						{% endif %}
+					{% endfor %}
+					{% if boolUnreal == true%}
+						//stampare dotted
+            			"{{ p1.author.page_url }}" -- "{{ f.page_url }}" [style=dotted, penwidth=2.2, dir=yes];
+					{% else %}
+						//stampare non dotted(normale)
+            			"{{ p1.author.page_url }}" -- "{{ f.page_url }}";
+					{% endif %}
+       			{% else %}
+					//stampo amico e basta
+            		"{{ p1.author.page_url }}" -- "{{ f.page_url }}";
+				{% endif %}
             {% endfor %}
+
+		{% endif %}   	
+		
+   		{% if boolNoFriends == true %}
+			"{{ p1.author.page_url }}";
+		{% endif %}
+{% endfor %}
+          </p>
+
+
+
         </div>
     </noscript>
     {% include footer.html %}
