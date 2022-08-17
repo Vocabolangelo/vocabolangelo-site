@@ -1,5 +1,5 @@
 ---
-rdf_prefix_path: "_data/prefixes.sparql"
+rdf_prefix_path: "_data/prefixes.sparql" 
 ---
 <!DOCTYPE html>
 <html>
@@ -16,43 +16,7 @@ rdf_prefix_path: "_data/prefixes.sparql"
 
 <body>
     {% include header.html %}
-    <!-- what to put before the graph?Anyway not this as it's printed with <noscript> if javascript is disabled
-    <div>
-        {%assign query =
-            'SELECT ?author ?firstName ?lastName
-                WHERE {
-                    ?author rdf:type foaf:Person.
-                    ?author foaf:firstName ?firstName.
-                    ?author foaf:lastName ?lastName.
-
-                }
-                ORDER BY ?lastName'
-        %}
-        {% assign personSet = page.rdf | sparql_query: query %}
-
-        {% for p1 in personSet %}
-
-            <p>
-                "{{ p1.firstName }} {{ p1.lastName }}"
-                {% assign friendlist = p1.author | rdf_property: 'rel:friendOf', nil, true %}
-                {% if friendlist %}
-                -- {
-                    {% assign booltemp = "true" %}
-                    {% for f in friendlist %}
-                        {% if booltemp == "true" %}
-                            {% assign booltemp = "false" %}
-                        {% else %}
-                            --
-                        {% endif %}
-                        "{{f | rdf_property: 'foaf:firstName', nil, true}} {{f | rdf_property: 'foaf:lastName', nil, true}}"
-                    {% endfor %}
-                    }
-                {% endif %}
-
-
-            </p>
-        {% endfor %}
-    </div>-->
+    <!-- what to put before the graph?-->
     <div id="placeholder"></div>
     <div id="placeholder2"></div>
     <script>
@@ -204,15 +168,14 @@ rdf_prefix_path: "_data/prefixes.sparql"
         digraph mici_dir {
             fontname="Helvetica, Arial,sans-serif"
             node [fontname="Helvetica,Arial,sans-serif"]
-            edge [fontname="Helvetica,Arial,sans-serif",style=bold, dir=none];
+            edge [fontname="Helvetica,Arial,sans-serif",style="", dir=none];
 
 {%assign query =
-'SELECT ?author ?firstName ?lastName
+'SELECT ?author ?firstName ?lastName 
     WHERE {
         ?author rdf:type foaf:Person.
         ?author foaf:firstName ?firstName.
         ?author foaf:lastName ?lastName.
-
     }
     ORDER BY ?lastName'
 %}
@@ -224,27 +187,35 @@ rdf_prefix_path: "_data/prefixes.sparql"
         "{{ p1.author.page_url }}" [label="{{ p1.firstName }} {{ p1.lastName }}", URL="{{ p1.author.page_url }}" tooltip=""];
 {% endfor %}
 
-
 {% for p1 in personSet %}
 {% assign boolNoFriends = true %}
         {% assign friendlist = p1.author | rdf_property: 'rel:friendOf', nil, true %}
         {% if friendlist %}
             {% assign boolNoFriends = false %}
+         	{% assign unrealSet = p1.author | rdf_property: 'vocang:unpaidFriendOf', nil, true %}
             {% for f in friendlist %}
-            	
-            	"{{ p1.author.page_url }}" -> "{{ f.page_url }}";
+				{% if unrealSet %}
+					{% assign boolUnreal = false%}
+					{% for uf in unrealSet %}
+						{% if f.page_url == uf.page_url %}
+							{% assign boolUnreal = true %}
+						{% endif %}
+					{% endfor %}
+					{% if boolUnreal == true%}
+						//stampare dotted
+            			"{{ p1.author.page_url }}" -> "{{ f.page_url }}" [style=dotted, penwidth=2.2, dir=yes];
+					{% else %}
+						//stampare non dotted(normale)
+            			"{{ p1.author.page_url }}" -> "{{ f.page_url }}";
+					{% endif %}
+       			{% else %}
+					//stampo amico e basta
+            		"{{ p1.author.page_url }}" -> "{{ f.page_url }}";
+				{% endif %}
             {% endfor %}
+
+		{% endif %}   	
 		
-        {% endif %}
-        {% assign unrealSet = p1.author | rdf_property: 'vocang:unpaidFriendOf', nil, true %}
-        {% if unrealSet %}
-            {% assign boolNoFriends = false %}
-			{% for uf in unrealSet %}
-
-            	"{{ p1.author.page_url }}" -> "{{ uf.page_url }}" [style=dotted, dir=yes];
-            {% endfor %}
-
-		{% endif %}
    		{% if boolNoFriends == true %}
 			"{{ p1.author.page_url }}";
 		{% endif %}
