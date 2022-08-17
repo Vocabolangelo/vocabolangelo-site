@@ -117,7 +117,7 @@ vocang:suscaMatteo
     a foaf:Person ;
     foaf:firstName "Matteo" ;
     foaf:lastName "Susca" ;
-    rel:friendOf vocang:fanaraGiuliano, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo vocang:minoccheriAlessandra ;
+    rel:friendOf vocang:fanaraGiuliano, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo, vocang:minoccheriAlessandra ;
     vocang:unpaidFriendOf vocang:battaglinoNicole, vocang:minoccheriAlessandra .
 
 vocang:minoccheriAlessandra
