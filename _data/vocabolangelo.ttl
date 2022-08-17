@@ -104,14 +104,14 @@ vocang:adantiMatteo
     foaf:firstName "Matteo" ;
     foaf:lastName "Adanti" ;
     foaf:nick "Adant" ;
-    rel:friendOf vocang:bragariAlexandru, vocang:orlandoNicola vocang:bdeouiEddy .
+    rel:friendOf vocang:bragariAlexandru, vocang:orlandoNicola, vocang:bdeouiEddy .
 
 vocang:pescaraGianluca
     a foaf:Person ;
     foaf:firstName "Gianluca" ;
     foaf:lastName "Pescara" ;
     foaf:nick "Pesca" ;
-	rel:friendOf vocang:adantiMatteo,vocang:bragariAlexandru, vocang:orlandoNicola, vocang:bdeouiEddy .
+	rel:friendOf vocang:adantiMatteo, vocang:bragariAlexandru, vocang:orlandoNicola, vocang:bdeouiEddy .
 
 vocang:fanaraGiuliano
     a foaf:Person ;
