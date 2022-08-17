@@ -767,3 +767,11 @@ vocang:semirissa
     skos:example "Oggi a quella semirissa sono quasi morto."@it ;
     dct:created "2022-08-15" ;
     dct:creator vocang:bdeouiEddy .
+
+vocang:farza
+    a skos:Concept ;
+    skos:prefLabel "Farza"@it ;
+    skos:definition "Parole che assume sia il significato di \"farsa\" che si \"falsa\"."@it ;
+    skos:example "Sei una persona farza."@it , "Questa recita è tutta una farza."@it;
+    dct:created "2022-08-17" ;
+    dct:creator vocang:savoGiorgia .
