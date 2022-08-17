@@ -175,37 +175,57 @@ rdf_prefix_path: "_data/prefixes.sparql"
         </div>
 
         <div>
-            {%assign query =
-                'SELECT ?author ?firstName ?lastName
-                    WHERE {
-                        ?author rdf:type foaf:Person.
-                        ?author foaf:firstName ?firstName.
-                        ?author foaf:lastName ?lastName.
+{%assign query =
+'SELECT ?author ?firstName ?lastName 
+    WHERE {
+        ?author rdf:type foaf:Person.
+        ?author foaf:firstName ?firstName.
+        ?author foaf:lastName ?lastName.
+    }
+    ORDER BY ?lastName'
+%}
+{% assign personSet = page.rdf | sparql_query: query %}
 
-                    }
-                    ORDER BY ?lastName'
-            %}
-            {% assign personSet = page.rdf | sparql_query: query %}
+{% for p1 in personSet %}
 
-            {% for p1 in personSet %}
+    
+        "{{ p1.author.page_url }}" [label="{{ p1.firstName }} {{ p1.lastName }}", URL="{{ p1.author.page_url }}" tooltip=""];
+{% endfor %}
 
-                <p>
-                "{{ p1.firstName }} {{ p1.lastName }}"
-                {% assign friendlist = p1.author | rdf_property: 'rel:friendOf', nil, true %}
-                {% if friendlist %}
-                -- {
-                    {% assign booltemp = "true" %}
-                    {% for f in friendlist %}
-                        {% if booltemp == "true" %}
-                            {% assign booltemp = "false" %}
-                        {% else %}
-                            --
-                        {% endif %}
-                        "{{f | rdf_property: 'foaf:firstName', nil, true}} {{f | rdf_property: 'foaf:lastName', nil, true}}"
-                    {% endfor %}
-                    }
-                {% endif %}
-                </p>
+{% for p1 in personSet %}
+{% assign boolNoFriends = true %}
+        {% assign friendlist = p1.author | rdf_property: 'rel:friendOf', nil, true %}
+        {% if friendlist %}
+            {% assign boolNoFriends = false %}
+         	{% assign unrealSet = p1.author | rdf_property: 'vocang:unpaidFriendOf', nil, true %}
+            {% for f in friendlist %}
+				{% if unrealSet %}
+					{% assign boolUnreal = false%}
+					{% for uf in unrealSet %}
+						{% if f.page_url == uf.page_url %}
+							{% assign boolUnreal = true %}
+						{% endif %}
+					{% endfor %}
+					{% if boolUnreal == true%}
+						//stampare dotted
+            			"{{ p1.author.page_url }}" -> "{{ f.page_url }}" [style=dotted, penwidth=2.2, dir=yes];
+					{% else %}
+						//stampare non dotted(normale)
+            			"{{ p1.author.page_url }}" -> "{{ f.page_url }}";
+					{% endif %}
+       			{% else %}
+					//stampo amico e basta
+            		"{{ p1.author.page_url }}" -> "{{ f.page_url }}";
+				{% endif %}
+            {% endfor %}
+
+		{% endif %}   	
+		
+   		{% if boolNoFriends == true %}
+			"{{ p1.author.page_url }}";
+		{% endif %}
+{% endfor %}
+          </p>
 
 
 
