@@ -124,12 +124,17 @@ rdf_prefix_path: "_data/prefixes.sparql"
 {% for p1 in personSet %}
 {% assign boolNoFriends = true %}
         {% assign friendlist = p1.author | rdf_property: 'rel:friendOf', nil, true %}
+		{% assign bbfSet = p1.author | rdf_property: 'rel:closeFriendOf', nil, true %}
+		{% assign loveSet = p1.author | rdf_property: 'rel:lifePartnerOf', nil, true %}
+        {% if friendlist or bbfSet or loveSet%}
+			{% assign boolNoFriends = false %}
+		{% endif %}
         {% if friendlist %}
             {% assign boolNoFriends = false %}
          	{% assign unrealSet = p1.author | rdf_property: 'vocang:unpaidFriendOf', nil, true %}
             {% for f in friendlist %}
+				{% assign boolUnreal = false %}
 				{% if unrealSet %}
-					{% assign boolUnreal = false%}
 					{% for uf in unrealSet %}
 						{% if f.page_url == uf.page_url %}
 							{% assign boolUnreal = true %}
@@ -149,7 +154,12 @@ rdf_prefix_path: "_data/prefixes.sparql"
             {% endfor %}
 
 		{% endif %}   	
-		
+		{% for f in bbfSet %}
+            "{{ p1.author.page_url }}" -> "{{ f.page_url }}" [style=bold, penwidth=2.2, dir=none, color=green];
+		{% endfor %}
+		{% for f in loveSet %}
+            "{{ p1.author.page_url }}" -> "{{ f.page_url }}" [style=bold, penwidth=2.1, dir=none, color=red];
+		{% endfor %}
    		{% if boolNoFriends == true %}
 			"{{ p1.author.page_url }}";
 		{% endif %}
@@ -208,14 +218,14 @@ rdf_prefix_path: "_data/prefixes.sparql"
 					{% endfor %}
 					{% if boolUnreal == true%}
 						//stampare dotted
-            			"{{ p1.author.page_url }}" -> "{{ f.page_url }}" [style=dotted, penwidth=2.2, dir=yes];
+            			"{{ p1.author.page_url }}" -- "{{ f.page_url }}" [style=dotted, penwidth=2.2, dir=yes];
 					{% else %}
 						//stampare non dotted(normale)
-            			"{{ p1.author.page_url }}" -> "{{ f.page_url }}";
+            			"{{ p1.author.page_url }}" -- "{{ f.page_url }}";
 					{% endif %}
        			{% else %}
 					//stampo amico e basta
-            		"{{ p1.author.page_url }}" -> "{{ f.page_url }}";
+            		"{{ p1.author.page_url }}" -- "{{ f.page_url }}";
 				{% endif %}
             {% endfor %}
 
