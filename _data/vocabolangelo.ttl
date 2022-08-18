@@ -161,6 +161,7 @@ vocang:vocabolangelo
     skos:altLabel "Dizionangelo"@it ;
     skos:definition "Documento strutturato che cataloga e definisce parole, non riportate in un normale vocabolario, inventate da persone ordinarie."@it ;
     skos:example "Il vocabolangelo contiene molte parole divertenti."@it ;
+
     dct:creator vocang:filasetaAngelo .
 
 vocang:angelario
@@ -171,6 +172,7 @@ vocang:angelario
     skos:definition "Un altro modo di definire il Vocabolangelo."@it ;
     skos:note "Angelario è stato il primo nome del Vocabolangelo." ;
     skos:example "L'angelario e il vocabolangelo sono la stessa cosa."@it ;
+    skos:related vocang:vocabolangelo ;
     dct:creator vocang:filasetaAngelo .
 
 vocang:dizionangelo
@@ -180,6 +182,7 @@ vocang:dizionangelo
     skos:altLabel "Angelario"@it ;
     skos:definition "Un altro modo di definire il Vocabolangelo."@it ;
     skos:example "Il dizionangelo e il vocabolangelo sono la stessa cosa."@it ;
+    skos:related vocang:vocabolangelo ;
     dct:creator vocang:filasetaAngelo .
 
 vocang:acquorica
@@ -188,6 +191,7 @@ vocang:acquorica
     skos:definition "Una bevanda composta da cafferillo e tè alla pesca. Questo mix è in grado di annullare tutti i sapori, simulando quello dell’acqua."@it ;
     skos:example "Hai mai provato questa bevanda? Ha il sapore dell'acqua ma non è acqua!"@it ;
     skos:note "Il nome deriva dalla fusione delle parole \"Acqua\" e \"Calorica\""@it ;
+    skos:related vocang:cafferillo ;
     dct:creator vocang:filasetaAngelo .
 
 vocang:agroffè
@@ -282,6 +286,7 @@ vocang:canillo
     skos:prefLabel "Canillo"@it ;
     skos:definition "Un cane che è stato addestrato per svolgere delle gare di corsa."@it ;
     skos:example "Il mio canillo è il più veloce del mondo."@it ;
+    skos:related vocang:canillodromo ;
     dct:creator vocang:filasetaAngelo .
 
 vocang:capannolo
@@ -352,6 +357,7 @@ vocang:canillodromo
     skos:prefLabel "Canillodromo"@it ;
     skos:definition "Struttura adibita alle corse dei Canilli. Come in un normale ippodromo è possibile scommettere sui cani che vincono per cercare di guadaganre soldi."@it ;
     skos:example "Ieri ho perso una fortuna al canillodromo."@it ;
+    skos:related vocang:canillo ;
     dct:creator vocang:filasetaAngelo .
 
 vocang:cedrancia
@@ -529,6 +535,7 @@ vocang:tiramirillo
     skos:prefLabel "Tiramirillo"@it ;
     skos:definition "Un tiramisù regolare, ma il caffè utilizzato nel procedimento è rimpiazzato dal cafferillo."@it ;
     skos:example "Dato che oggi è festa ho preprato un tiramirillo."@it ;
+    skos:related vocang:cafferillo ;
     dct:creator vocang:filasetaAngelo .
 
 vocang:trocatrice
@@ -606,6 +613,7 @@ vocang:squarciatroia
     skos:prefLabel "Squarciatroia"@it ;
     skos:definition "Un modo alternativo e più dispregiativo per identificare una scorciatroia."@it ;
     skos:example "Mannaggia a quella squarciatroia!"@it ;
+    skos:related vocang:scorciatroia ;
     dct:creator vocang:talmiAlessandro .
 
 vocang:scontante
@@ -711,6 +719,7 @@ vocang:abbecedangelo
     skos:prefLabel "Abbecedangelo"@it ;
     skos:definition "Abbecedario per insegnare le parole del Vocabolangelo."@it ;
     skos:example "Insegnerò le parole del vocabolangelo a mio figlio grazie all'abbecedangelo."@it ;
+    skos:related vocang:vocabolangelo ;
     dct:creator vocang:minoccheriAlessandra .
 
 vocang:cappucciccia
