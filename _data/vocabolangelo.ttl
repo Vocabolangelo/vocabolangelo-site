@@ -835,14 +835,6 @@ vocang:pronaccia
     dct:created "2022-08-24" ;
     dct:creator vocang:savoGiorgia .
 
-vocang:pronaccia
-    a skos:Concept ;
-    skos:prefLabel "Pronaccia"@it ;
-    skos:definition "Un’affermazione che non si capisce bene se sia una promessa o una minaccia."@it ;
-    skos:example "Oggi mi hanno detto \"Stasera muori.\", una vera e propria pronaccia."@it;
-    dct:created "2022-08-24" ;
-    dct:creator vocang:savoGiorgia .
-
 vocang:piedina
     a skos:Concept ;
     skos:prefLabel "Piedina"@it ;
