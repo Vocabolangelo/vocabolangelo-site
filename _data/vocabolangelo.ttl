@@ -799,3 +799,11 @@ vocang:farza
     skos:example "Sei una persona farza."@it , "Questa recita è tutta una farza."@it;
     dct:created "2022-08-17" ;
     dct:creator vocang:savoGiorgia .
+
+vocang:overmind
+    a skos:Concept ;
+    skos:prefLabel "Overmind"@it ;
+    skos:definition "Quando nel gioco da tavolo \"The Mind\" si completa il gioco e si prosegue ai livelli successivi, andando oltre ai limiti imposti."@it ;
+    skos:example "Siamo in overmind, la tensione è alle stelle."@it;
+    dct:created "2022-08-15" ;
+    dct:creator vocang:orlandoNicola .
