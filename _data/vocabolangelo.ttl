@@ -807,3 +807,27 @@ vocang:overmind
     skos:example "Siamo in overmind, la tensione è alle stelle."@it;
     dct:created "2022-08-15" ;
     dct:creator vocang:orlandoNicola .
+
+vocang:pronaccia
+    a skos:Concept ;
+    skos:prefLabel "Pronaccia"@it ;
+    skos:definition "Un’affermazione che non si capisce bene se sia una promessa o una minaccia."@it ;
+    skos:example "Oggi mi hanno detto \"Stasera muori.\", una vera e propria pronaccia."@it;
+    dct:created "2022-08-24" ;
+    dct:creator vocang:savoGiorgia .
+
+vocang:pronaccia
+    a skos:Concept ;
+    skos:prefLabel "Pronaccia"@it ;
+    skos:definition "Un’affermazione che non si capisce bene se sia una promessa o una minaccia."@it ;
+    skos:example "Oggi mi hanno detto \"Stasera muori.\", una vera e propria pronaccia."@it;
+    dct:created "2022-08-24" ;
+    dct:creator vocang:savoGiorgia .
+
+vocang:piedina
+    a skos:Concept ;
+    skos:prefLabel "Piedina"@it ;
+    skos:definition "Piadina realizzata utilizzando i calli dei piedi delle persone come condimento."@it ;
+    skos:example "Ieri mi hanno fatto un quanto te la rischi e ho perso, ho dovuto mangiare una piedina..."@it;
+    dct:created "2022-08-24" ;
+    dct:creator vocang:filasetaAngelo .
