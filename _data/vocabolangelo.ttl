@@ -835,6 +835,14 @@ vocang:pronaccia
     dct:created "2022-08-24" ;
     dct:creator vocang:savoGiorgia .
 
+vocang:pronaccia
+    a skos:Concept ;
+    skos:prefLabel "Pronaccia"@it ;
+    skos:definition "Un’affermazione che non si capisce bene se sia una promessa o una minaccia."@it ;
+    skos:example "Oggi mi hanno detto \"Stasera muori.\", una vera e propria pronaccia."@it;
+    dct:created "2022-08-24" ;
+    dct:creator vocang:savoGiorgia .
+
 vocang:piedina
     a skos:Concept ;
     skos:prefLabel "Piedina"@it ;
@@ -842,92 +850,3 @@ vocang:piedina
     skos:example "Ieri mi hanno fatto un quanto te la rischi e ho perso, ho dovuto mangiare una piedina..."@it;
     dct:created "2022-08-24" ;
     dct:creator vocang:filasetaAngelo .
-
-vocang:piedina
-    a skos:Concept ;
-    skos:prefLabel "Piedina"@it ;
-    skos:definition "Piadina realizzata utilizzando i calli dei piedi delle persone come condimento."@it ;
-    skos:example "Ieri mi hanno fatto un quanto te la rischi e ho perso, ho dovuto mangiare una piedina..."@it;
-    dct:created "2022-08-24" ;
-    dct:creator vocang:filasetaAngelo .
-
-vocang:burrigliata
-    a skos:Concept ;
-    skos:prefLabel "Burrigliata"@it ;
-    skos:definition "Una grigliata in cui sono anche presenti dei burrito."@it ;
-    skos:example "Venerdì ci sei alla burrigliata?"@it;
-    dct:created "2022-08-24" ;
-    dct:creator vocang:bdeouiEddy .
-
-vocang:griglito
-    a skos:Concept ;
-    skos:prefLabel "Griglito"@it ;
-    skos:definition "Sinonimo maschile di Burrigliata."@it ;
-    skos:example "Venerdì ci sei al griglito?"@it;
-    dct:created "2022-08-24" ;
-    scot:synonym vocang:burrigliata ;
-    dct:creator vocang:bdeouiEddy .
-
-vocang:balborbottare
-    a skos:Concept ;
-    skos:prefLabel "Balborbottare"@it ;
-    skos:definition "Balbettare sotto voce, borbottando."@it ;
-    skos:example "Ho visto dei bambini prendere in giro il loro amichetto perché balborbottava."@it;
-    dct:created "2022-08-30" ;
-    dct:creator vocang:mordacchiniCecilia .
-
-vocang:fraldo
-    a skos:Concept ;
-    skos:prefLabel "Fraldo"@it ;
-    skos:definition "Utilizzato per indicare qualcosa che è sia caldo che freddo."@it ;
-    skos:example "Oggi è un po' fraldiccio."@it;
-    dct:created "2022-08-27" ;
-    dct:creator vocang:omiccioliRiccardo .
-
-vocang:piripizia
-    a skos:Concept ;
-    skos:prefLabel "Piripizia"@it ;
-    skos:definition "Una perizia pericolosa."@it ;
-    skos:example "Oggi quel tizio ha fatto una piripizia."@it;
-    dct:created "2022-08-27" ;
-    dct:creator vocang:omiccioliRiccardo , vocang:bragariAlexandru .
-
-vocang:sacrofago
-    a skos:Concept ;
-    skos:prefLabel "Sacrofago"@it ;
-    skos:definition "Un individuo che mangia oggetti religiosi (crocifissi, santini, bibbie etc.)."@it ;
-    skos:example "Ho paura che mio marito stia diventando un sacrofago... Non trovo più il mio santino di Padre Pio."@it;
-    dct:created "2022-08-27" ;
-    dct:creator vocang:omiccioliRiccardo , vocang:bragariAlexandru .
-
-vocang:dissennatorte
-    a skos:Concept ;
-    skos:prefLabel "Dissennatorte"@it ;
-    skos:definition "Un dissennatore che assorbe il sapore delle torte."@it ;
-    skos:example "Ho sognato un dissennatorte è stato orribile."@it;
-    dct:created "2022-08-26" ;
-    dct:creator vocang:ribaudoSofia , vocang:bdeouiEddy .
-
-vocang:camarella
-    a skos:Concept ;
-    skos:prefLabel "Camarella"@it ;
-    skos:definition "Caramella che solitamente viene mangiata dai cammelli."@it ;
-    skos:example "A me le camarelle distruggono i denti."@it;
-    dct:created "2022-08-25" ;
-    dct:creator vocang:bragariAlexandru , vocang:pertosaLorenzo .
-
-vocang:camaleono
-    a skos:Concept ;
-    skos:prefLabel "Camaleono"@it ;
-    skos:definition "Un camaleonte che si nasconde senza mimetizzarsi."@it ;
-    skos:example "Guarda che tenero quel camaleononcino che cerca di nascondersi."@it;
-    dct:created "2022-08-30" ;
-    dct:creator vocang:bragariAlexandru , vocang:savoGiorgia .
-
-vocang:canama
-    a skos:Concept ;
-    skos:prefLabel "Canama"@it ;
-    skos:definition "La canama vorrebbe essere marijuana ma ha un destino più triste. Si tratta di tutta quella canapa che viene prodotta per cercano di convincere (fallendo miseramente) l'italiano medio a legalizzare. Viene utilizzata in modi non convenzionali, per esempio provando a creare della carta igienica in grado di alleviare i dolori post intervento alle emorroidi."@it ;
-    skos:example "Ho visto un cartellone sponsorizzare l'uso della canama oggi."@it;
-    dct:created "2022-08-26" ;
-    dct:creator vocang:nardiniArianna , vocang:pupitaAlberto .
