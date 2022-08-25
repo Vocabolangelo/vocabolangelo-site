@@ -3,6 +3,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix scot: <http://rdfs.org/scot/ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rel: <http://purl.org/vocab/relationship/> .
 @prefix vocang: <http://example.org/> .
@@ -24,6 +25,10 @@ vocang:unpaidFriendOf
     rdfs:range foaf:Person ;
     rdfs:label "Unpaid friend of", "Amico non ricambiato"@it;
     rdfs:comment "Property to be used when the person specified in the domain is friend with the person specified in the range, but the friendship is not mutual.", "Proprietà da utilizzare quando la persona specificata nel dominio è amica di quella specificata nel range, ma l'amicizia non è ricambiata."@it .
+
+scot:synonym
+    a owl:SymmetricProperty ;
+    rdfs:subPropertyOf skos:related.
 
 # Person Individuals
 
@@ -161,7 +166,6 @@ vocang:vocabolangelo
     skos:altLabel "Dizionangelo"@it ;
     skos:definition "Documento strutturato che cataloga e definisce parole, non riportate in un normale vocabolario, inventate da persone ordinarie."@it ;
     skos:example "Il vocabolangelo contiene molte parole divertenti."@it ;
-
     dct:creator vocang:filasetaAngelo .
 
 vocang:angelario
@@ -831,3 +835,28 @@ vocang:piedina
     skos:example "Ieri mi hanno fatto un quanto te la rischi e ho perso, ho dovuto mangiare una piedina..."@it;
     dct:created "2022-08-24" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:piedina
+    a skos:Concept ;
+    skos:prefLabel "Piedina"@it ;
+    skos:definition "Piadina realizzata utilizzando i calli dei piedi delle persone come condimento."@it ;
+    skos:example "Ieri mi hanno fatto un quanto te la rischi e ho perso, ho dovuto mangiare una piedina..."@it;
+    dct:created "2022-08-24" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:burrigliata
+    a skos:Concept ;
+    skos:prefLabel "Burrigliata"@it ;
+    skos:definition "Una grigliata in cui sono anche presenti dei burrito."@it ;
+    skos:example "Venerdì ci sei alla burrigliata?"@it;
+    dct:created "2022-08-24" ;
+    dct:creator vocang:bdeouiEddy .
+
+vocang:griglito
+    a skos:Concept ;
+    skos:prefLabel "Griglito"@it ;
+    skos:definition "Sinonimo maschile di Burrigliata."@it ;
+    skos:example "Venerdì ci sei al griglito?"@it;
+    dct:created "2022-08-24" ;
+    scot:synonym vocang:burrigliata ;
+    dct:creator vocang:bdeouiEddy .
