@@ -874,3 +874,11 @@ vocang:griglito
     dct:created "2022-08-24" ;
     scot:synonym vocang:burrigliata ;
     dct:creator vocang:bdeouiEddy .
+
+vocang:balborbottare
+    a skos:Concept ;
+    skos:prefLabel "Balborbottare"@it ;
+    skos:definition "Balbettare sotto voce, borbottando."@it ;
+    skos:example "Ho visto dei bambini prendere in giro il loro amichetto perché balborbottava."@it;
+    dct:created "2022-08-30" ;
+    dct:creator vocang:mordacchiniCecilia .
