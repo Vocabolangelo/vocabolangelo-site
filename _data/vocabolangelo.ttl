@@ -891,3 +891,19 @@ vocang:piripizia
     skos:example "Oggi quel tizio ha fatto una piripizia."@it;
     dct:created "2022-08-27" ;
     dct:creator vocang:omiccioliRiccardo , vocang:bragariAlexandru .
+
+vocang:sacrofago
+    a skos:Concept ;
+    skos:prefLabel "Sacrofago"@it ;
+    skos:definition "Un individuo che mangia oggetti religiosi (crocifissi, santini, bibbie etc.)."@it ;
+    skos:example "Ho paura che mio marito stia diventando un sacrofago... Non trovo più il mio santino di Padre Pio."@it;
+    dct:created "2022-08-27" ;
+    dct:creator vocang:omiccioliRiccardo , vocang:bragariAlexandru .
+
+vocang:dissennatorte
+    a skos:Concept ;
+    skos:prefLabel "Dissennatorte"@it ;
+    skos:definition "Un dissennatore che assorbe il sapore delle torte."@it ;
+    skos:example "Ho sognato un dissennatorte è stato orribile."@it;
+    dct:created "2022-08-26" ;
+    dct:creator vocang:ribaudoSofia , vocang:bdeouiEddy .
