@@ -821,8 +821,17 @@ vocang:farza
 vocang:overmind
     a skos:Concept ;
     skos:prefLabel "Overmind"@it ;
-    skos:definition "Quando nel gioco da tavolo \"The Mind\" si completa il gioco e si prosegue ai livelli successivi, andando oltre ai limiti imposti."@it ;
+    skos:definition "Quando nel gioco da tavolo \"The Mind\", 3 o 4 giocatori completano il gioco e proseguono ai livelli successivi, andando oltre ai limiti imposti, ma non ancora superando il livello 12. In quel caso si parlerebbe di Hypermind."@it ;
     skos:example "Siamo in overmind, la tensione è alle stelle."@it;
+    skos:related vocang:hypermind ;
+    dct:created "2022-08-15" ;
+    dct:creator vocang:orlandoNicola .
+
+vocang:hypermind
+    a skos:Concept ;
+    skos:prefLabel "Hypermind"@it ;
+    skos:definition "Quando nel gioco da tavolo \"The Mind\", indipendentemente dal numero di giocatori, si arriva oltre il livello 12, andando oltre il limite imposto."@it ;
+    skos:example "Siamo in hypermind, non credevo fosse possibile. Pensavano tutti fosse solo una leggenda."@it;
     dct:created "2022-08-15" ;
     dct:creator vocang:orlandoNicola .
 
