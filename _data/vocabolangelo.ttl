@@ -157,6 +157,13 @@ vocang:paoliMichele
     foaf:lastName "Paoli" ;
     rel:friendOf vocang:nardiniArianna, vocang:minoccheriAlessandra, vocang:suscaMatteo, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:bragariAlexandru, vocang:filasetaAngelo .
 
+vocang:mordacchiniCecilia
+    a foaf:Person ;
+    foaf:firstName "Cecilia" ;
+    foaf:lastName "Mordacchini" ;
+    rel:friendOf vocang:filasetaAngelo, vocang:savoGiorgia, vocang:bragariAlexandru, vocang:battaglinoNicole, vocang:omiccioliRiccardo, vocang:pertosaLorenzo, vocang:ribaudoSofia, vocang:orlandoNicola, vocang:fanaraGiuliano, vocang:nardiniArianna, vocang:bdeouiEddy, vocang:suscaMatteo ;
+    rel:lifePartnerOf vocang:timpanoSam.
+
 # Vocabolangelo Words Individuals
 
 vocang:vocabolangelo
