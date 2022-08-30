@@ -922,3 +922,19 @@ vocang:camarella
     skos:example "A me le camarelle distruggono i denti."@it;
     dct:created "2022-08-25" ;
     dct:creator vocang:bragariAlexandru , vocang:pertosaLorenzo .
+
+vocang:camaleono
+    a skos:Concept ;
+    skos:prefLabel "Camaleono"@it ;
+    skos:definition "Un camaleonte che si nasconde senza mimetizzarsi."@it ;
+    skos:example "Guarda che tenero quel camaleononcino che cerca di nascondersi."@it;
+    dct:created "2022-08-30" ;
+    dct:creator vocang:bragariAlexandru , vocang:savoGiorgia .
+
+vocang:canama
+    a skos:Concept ;
+    skos:prefLabel "Canama"@it ;
+    skos:definition "La canama vorrebbe essere marijuana ma ha un destino più triste. Si tratta di tutta quella canapa che viene prodotta per cercano di convincere (fallendo miseramente) l'italiano medio a legalizzare. Viene utilizzata in modi non convenzionali, per esempio provando a creare della carta igienica in grado di alleviare i dolori post intervento alle emorroidi."@it ;
+    skos:example "Ho visto un cartellone sponsorizzare l'uso della canama oggi."@it;
+    dct:created "2022-08-26" ;
+    dct:creator vocang:nardiniArianna , vocang:pupitaAlberto .
