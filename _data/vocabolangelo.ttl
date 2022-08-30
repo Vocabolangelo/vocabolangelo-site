@@ -875,3 +875,19 @@ vocang:balborbottare
     skos:example "Ho visto dei bambini prendere in giro il loro amichetto perché balborbottava."@it;
     dct:created "2022-08-30" ;
     dct:creator vocang:mordacchiniCecilia .
+
+vocang:fraldo
+    a skos:Concept ;
+    skos:prefLabel "Fraldo"@it ;
+    skos:definition "Utilizzato per indicare qualcosa che è sia caldo che freddo."@it ;
+    skos:example "Oggi è un po' fraldiccio."@it;
+    dct:created "2022-08-27" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:piripizia
+    a skos:Concept ;
+    skos:prefLabel "Piripizia"@it ;
+    skos:definition "Una perizia pericolosa."@it ;
+    skos:example "Oggi quel tizio ha fatto una piripizia."@it;
+    dct:created "2022-08-27" ;
+    dct:creator vocang:omiccioliRiccardo , vocang:bragariAlexandru .
