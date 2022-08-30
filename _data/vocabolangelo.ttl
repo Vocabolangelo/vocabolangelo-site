@@ -914,3 +914,11 @@ vocang:dissennatorte
     skos:example "Ho sognato un dissennatorte è stato orribile."@it;
     dct:created "2022-08-26" ;
     dct:creator vocang:ribaudoSofia , vocang:bdeouiEddy .
+
+vocang:camarella
+    a skos:Concept ;
+    skos:prefLabel "Camarella"@it ;
+    skos:definition "Caramella che solitamente viene mangiata dai cammelli."@it ;
+    skos:example "A me le camarelle distruggono i denti."@it;
+    dct:created "2022-08-25" ;
+    dct:creator vocang:bragariAlexandru , vocang:pertosaLorenzo .
