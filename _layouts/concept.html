@@ -39,21 +39,29 @@ rdf_prefix_path: "_data/prefixes.sparql"
         {% else %}
             <h4 class="m-0">Autore sconosciuto</h4>
         {% endif %}
+        <ul class="m-0 py-2">
         {% for c in authors %}
-            <a href="{{ c.page_url }}">
-                {{ c | rdf_property: 'foaf:lastName' }} {{ c | rdf_property: 'foaf:firstName' }}
-            </a>
+            <li>
+                <a href="{{ c.page_url }}">
+                    {{ c | rdf_property: 'foaf:lastName' }} {{ c | rdf_property: 'foaf:firstName' }}
+                </a>
+            </li>
         {% endfor %}
+        </ul>
         </br></br>
         {% assign correlated = page.rdf | rdf_property: 'skos:related', nil, true %}
         {% if correlated %}
             <h5 style="display:inline"> Parole correlate: </h5>
         {% endif %}
+        <ul>
         {% for w in correlated %}
-            <a href="{{ w.page_url }}" style="dispaly:inline">
-                {{ w | rdf_property: 'skos:prefLabel' }}
-            </a>
+            <li>
+                <a href="{{ w.page_url }}" style="dispaly:inline">
+                    {{ w | rdf_property: 'skos:prefLabel' }}
+                </a>
+            </li>
         {% endfor %}
+        </ul>
     </main>
     {% include footer.html %}
 </body>
