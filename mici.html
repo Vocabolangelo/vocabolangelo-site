@@ -115,6 +115,26 @@ rdf_prefix_path: "_data/prefixes.sparql"
 %}
 {% assign personSet = page.rdf | sparql_query: query %}
 
+{% for p1 in personSet %}
+     "{{ p1.author.page_url }}" [label="{{ p1.firstName }} {{ p1.lastName }}", URL="{{ p1.author.page_url }}" tooltip=""];
+{% endfor %}
+{% for p1 in personSet %}
+    {% assign friendlist = p1.author | rdf_property: 'rel:friendOf', nil, true %}
+	{% assign bbfSet = p1.author | rdf_property: 'rel:closeFriendOf', nil, true %}
+	{% assign loveSet = p1.author | rdf_property: 'rel:lifePartnerOf', nil, true %}
+    {% assign unrealSet = p1.author | rdf_property: 'vocang:unpaidFriendOf', nil, true %}
+	{% if unrealSet %}
+		//this is directed so it can be printed for sure
+		{% for uf in unrealSet %}
+        	"{{ p1.author.page_url }}" -> "{{ uf.page_url }}" [style=dotted, penwidth=1.8, dir=yes];
+		{% endfor %}
+    {% else if friendlist or bbfSet or loveSet or unrealSet %}
+		//will be printed later, just checking if has no relationships
+	{% else %}
+		//no friends
+		"{{ p1.author.page_url }}";
+	{% endif %}
+{% endfor %}
 
 {%assign query2 =
 'SELECT ?a ?alast ?b ?blast 
@@ -122,6 +142,12 @@ rdf_prefix_path: "_data/prefixes.sparql"
         ?a rdf:type foaf:Person.
 		?a foaf:lastName ?alast.
         ?a rel:friendOf ?b.
+		OPTIONAL {
+			?a rel:closeFriendOf ?b.
+		}
+		OPTIONAL {
+			?a rel:lifePartnerOf ?b.
+		}
 		?b foaf:lastName ?blast.
 		FILTER (?blast>?alast) 
     }
@@ -131,57 +157,47 @@ rdf_prefix_path: "_data/prefixes.sparql"
 %}
 {% assign relSet = page.rdf | sparql_query: query2 %}
 {% for t in relSet %}
-// {{t.a.page_url}} {{t.b.page_url}}
-{% endfor %}
-{% for p1 in personSet %}
-
-    
-        "{{ p1.author.page_url }}" [label="{{ p1.firstName }} {{ p1.lastName }}", URL="{{ p1.author.page_url }}" tooltip=""];
+	"{{t.a.page_url}}" -> "{{t.b.page_url}}";
 {% endfor %}
 
-{% for p1 in personSet %}
-{% assign boolNoFriends = true %}
-        {% assign friendlist = p1.author | rdf_property: 'rel:friendOf', nil, true %}
-		{% assign bbfSet = p1.author | rdf_property: 'rel:closeFriendOf', nil, true %}
-		{% assign loveSet = p1.author | rdf_property: 'rel:lifePartnerOf', nil, true %}
-        {% if friendlist or bbfSet or loveSet%}
-			{% assign boolNoFriends = false %}
-		{% endif %}
-        {% if friendlist %}
-            {% assign boolNoFriends = false %}
-         	{% assign unrealSet = p1.author | rdf_property: 'vocang:unpaidFriendOf', nil, true %}
-            {% for f in friendlist %}
-				{% assign boolUnreal = false %}
-				{% if unrealSet %}
-					{% for uf in unrealSet %}
-						{% if f.page_url == uf.page_url %}
-							{% assign boolUnreal = true %}
-						{% endif %}
-					{% endfor %}
-					{% if boolUnreal == true%}
-						//stampare dotted
-            			"{{ p1.author.page_url }}" -> "{{ f.page_url }}" [style=dotted, penwidth=2.2, dir=yes];
-					{% else %}
-						//stampare non dotted(normale)
-            			"{{ p1.author.page_url }}" -> "{{ f.page_url }}";
-					{% endif %}
-       			{% else %}
-					//stampo amico e basta
-            		"{{ p1.author.page_url }}" -> "{{ f.page_url }}";
-				{% endif %}
-            {% endfor %}
 
-		{% endif %}   	
-		{% for f in bbfSet %}
-            "{{ p1.author.page_url }}" -> "{{ f.page_url }}" [style=bold, penwidth=2.2, dir=none, color=green];
-		{% endfor %}
-		{% for f in loveSet %}
-            "{{ p1.author.page_url }}" -> "{{ f.page_url }}" [style=bold, penwidth=2.1, dir=none, color=red];
-		{% endfor %}
-   		{% if boolNoFriends == true %}
-			"{{ p1.author.page_url }}";
-		{% endif %}
+
+{%assign query3 =
+'SELECT ?a ?alast ?b ?blast 
+    WHERE {
+        ?a rdf:type foaf:Person.
+		?a foaf:lastName ?alast.
+        ?a rel:closeFriendOf ?b.
+		?b foaf:lastName ?blast.
+		FILTER (?blast>?alast) 
+    }
+	
+	ORDER BY ?alast
+    '
+%}
+{% assign closeRelSet = page.rdf | sparql_query: query3 %}
+{% for t in closeRelSet %}
+	"{{t.a.page_url}}" -> "{{t.b.page_url}}" [style=bold, penwidth=2.2, dir=none, color=green];
 {% endfor %}
+
+{%assign query4 =
+'SELECT ?a ?alast ?b ?blast 
+    WHERE {
+        ?a rdf:type foaf:Person.
+		?a foaf:lastName ?alast.
+        ?a rel:lifePartnerOf ?b.
+		?b foaf:lastName ?blast.
+		FILTER (?blast>?alast) 
+    }
+	
+	ORDER BY ?alast
+    '
+%}
+{% assign loveRelSet = page.rdf | sparql_query: query4 %}
+{% for t in loveRelSet %}
+	"{{t.a.page_url}}" -> "{{t.b.page_url}}" [style=bold, penwidth=2.1, dir=none, color=red];
+{% endfor %}
+
         }
         `;
 
