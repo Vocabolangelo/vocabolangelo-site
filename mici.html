@@ -115,6 +115,24 @@ rdf_prefix_path: "_data/prefixes.sparql"
 %}
 {% assign personSet = page.rdf | sparql_query: query %}
 
+
+{%assign query2 =
+'SELECT ?a ?alast ?b ?blast 
+    WHERE {
+        ?a rdf:type foaf:Person.
+		?a foaf:lastName ?alast.
+        ?a rel:friendOf ?b.
+		?b foaf:lastName ?blast.
+		FILTER (?blast>?alast) 
+    }
+	
+	ORDER BY ?alast
+    '
+%}
+{% assign relSet = page.rdf | sparql_query: query2 %}
+{% for t in relSet %}
+// {{t.a.page_url}} {{t.b.page_url}}
+{% endfor %}
 {% for p1 in personSet %}
 
     
