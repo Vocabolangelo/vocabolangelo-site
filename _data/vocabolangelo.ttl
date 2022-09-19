@@ -980,5 +980,21 @@ vocang:caffoncello
     skos:prefLabel "Caffoncello"@it ;
     skos:definition "Caffè e Limoncello mischiati insieme in un'unica bevanda."@it ;
     skos:example "Il caffoncello mi fa venire una certa acidità allo stomaco."@it;
-    dct:created "2022-09-16" ;
+    dct:created "2022-09-12" ;
     dct:creator vocang:bragariAlexandru, vocang:orlandoNicola, vocang:battaglinoNicole .
+
+vocang:cartetta
+    a skos:Concept ;
+    skos:prefLabel "Cartetta"@it ;
+    skos:definition "Una tetta che appare più grossa di quello che realmente è perché imbottita con della carta igienica."@it ;
+    skos:example "Sembra tutta soba sua, invece quelle sono solo cartette."@it;
+    dct:created "2022-09-12" ;
+    dct:creator vocang:savoGiorgia .
+
+vocang:sportiera
+    a skos:Concept ;
+    skos:prefLabel "Sportiera"@it ;
+    skos:definition "Lo sportello molto grande di un'automobile, talmente tanto che sembra una porta."@it ;
+    skos:example "Vorrei sbattere fortissimo quella sportiera e sentire quanto rumore fa."@it;
+    dct:created "2022-09-12" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
