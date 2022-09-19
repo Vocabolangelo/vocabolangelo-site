@@ -947,3 +947,21 @@ vocang:canama
     skos:example "Ho visto un cartellone sponsorizzare l'uso della canama oggi."@it;
     dct:created "2022-08-26" ;
     dct:creator vocang:nardiniArianna , vocang:pupitaAlberto .
+
+vocang:pandiminia
+    a skos:Concept ;
+    skos:prefLabel "Pandiminia"@it ;
+    skos:definition "Una pandemia di Minions che scoppia su Via Flaminia."@it ;
+    skos:example "Dobbiamo per forza prendere l'autostrada a causa della pandiminia."@it;
+    dct:created "2022-09-18" ;
+    dct:creator vocang:bragariAlexandru .
+
+
+vocang:cortatoria
+    a skos:Concept ;
+    skos:prefLabel "Cortatoria"@it ;
+    skos:definition "L'opposto di una scorciatroia, ovvero una scorciatoia talmente efficiente che sembra rompere le leggi della fisica."@it ;
+    skos:example "Mario è partito un'ora dopo di me eppure è arrivato prima, deve aver preso una cortatoria."@it, "Il treno ha recuperato un'ora di ritardo in 10 minuti, ha sicuramente usato una cortatoria"@it;
+    dct:created "2022-09-18" ;
+    skos:related vocang:scorciatroia, vocang:squarciatroia ;
+    dct:creator vocang:omiccioliRiccardo .
