@@ -998,3 +998,19 @@ vocang:sportiera
     skos:example "Vorrei sbattere fortissimo quella sportiera e sentire quanto rumore fa."@it;
     dct:created "2022-09-12" ;
     dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
+
+vocang:leblu
+    a skos:Concept ;
+    skos:prefLabel "Leblu"@it ;
+    skos:definition "Un fuoco originato dalla carbonella che risulta grande e blu."@it ;
+    skos:example "Potrei fissare il leblu per sempre, ma rischierei di scottarmi."@it;
+    dct:created "2022-09-10" ;
+    dct:creator vocang:orlandoNicola.
+
+vocang:umbriaco
+    a skos:Concept ;
+    skos:prefLabel "Umbriaco"@it ;
+    skos:definition "Un'abitante della regione Umbria ubriaco."@it ;
+    skos:example "Il tuo amico perugino è umbriaco."@it;
+    dct:created "2022-09-09" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
