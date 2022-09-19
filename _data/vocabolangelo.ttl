@@ -1014,3 +1014,11 @@ vocang:umbriaco
     skos:example "Il tuo amico perugino è umbriaco."@it;
     dct:created "2022-09-09" ;
     dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
+
+vocang:sazioletto
+    a skos:Concept ;
+    skos:prefLabel "Sazioletto"@it ;
+    skos:definition "Il fazzoletto che viene utilizzato per pulirsi la bocca dopo un abbondante pasto che ha reso sazi."@it ;
+    skos:example "Ahhh che mangiata! Mi passeresti il sazioletto per pulirmi?."@it;
+    dct:created "2022-08-31" ;
+    dct:creator vocang:omiccioliRiccardo .
