@@ -965,3 +965,20 @@ vocang:cortatoria
     dct:created "2022-09-18" ;
     skos:related vocang:scorciatroia, vocang:squarciatroia ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:bibiribì
+    a skos:Concept ;
+    skos:prefLabel "Bibiribì"@it ;
+    skos:definition "Business Intelligence applicata ai Biribì."@it ;
+    skos:example "Servirebbe creare un sistema di Bibiribì, riusciremmo ad aumentare notevolmente il fatturato."@it;
+    dct:created "2022-09-16" ;
+    skos:related vocang:biribì ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:caffoncello
+    a skos:Concept ;
+    skos:prefLabel "Caffoncello"@it ;
+    skos:definition "Caffè e Limoncello mischiati insieme in un'unica bevanda."@it ;
+    skos:example "Il caffoncello mi fa venire una certa acidità allo stomaco."@it;
+    dct:created "2022-09-16" ;
+    dct:creator vocang:bragariAlexandru, vocang:orlandoNicola, vocang:battaglinoNicole .
