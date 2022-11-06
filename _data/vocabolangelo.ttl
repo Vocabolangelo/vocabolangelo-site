@@ -1110,3 +1110,19 @@ vocang:addiato
     skos:example "Dato che sei tu l'addiato, devi fare tu il discorso."@it;
     dct:created "2022-10-21" ;
     dct:creator vocang:minoccheriAlessandra .
+
+vocang:comaEllittico
+    a skos:Concept ;
+    skos:prefLabel "Coma Ellittico"@it ;
+    skos:definition "Quando si beve talmente tanto che la concezione dello spazio risulta molto distorta."@it ;
+    skos:example "Ti prego aiutami credo di star per andare in coma ellittico."@it;
+    dct:created "2022-10-22" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:amorto
+    a skos:Concept ;
+    skos:prefLabel "Amorto"@it ;
+    skos:definition "Un amico morto. Il termine è utilizzabile solo se l'amicizia si è instaurata quando almeno una delle due parti era già morta."@it ;
+    skos:example "Posso portare il mio amorto alla festa?"@it;
+    dct:created "2022-10-26" ;
+    dct:creator vocang:pertosaLorenzo .
