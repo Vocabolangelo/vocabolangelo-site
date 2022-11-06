@@ -171,7 +171,7 @@ vocang:pupitaAlberto
     rel:friendOf vocang:battaglinoNicole, vocang:bdeouiEddy, vocang:bragariAlexandru, vocang:fanaraGiuliano, vocang:filasetaAngelo, vocang:minoccheriAlessandra, vocang:omiccioliRiccardo, vocang:orlandoNicola, vocang:paoliMichele, vocang:pertosaLorenzo, vocang:ribaudoSofia, vocang:savoGiorgia,vocang:suscaMatteo, vocang:timpanoSam ;
     rel:lifePartnerOf vocang:nardiniArianna.
 
-vocang:giovanniBianchini
+vocang:bianchiniGiovanni
     a foaf:Person ;
     foaf:firstName "Giovanni" ;
     foaf:lastName "Bianchini" ;
@@ -1037,3 +1037,28 @@ vocang:proferrone
     skos:example "Il tizio che ci insegna Web è un proferrone."@it;
     dct:created "2022-09-20" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:canuro
+    a skos:Concept ;
+    skos:prefLabel "Canuro"@it ;
+    skos:definition "Caffè con dentro del cianuro."@it ;
+    skos:example "Oggi mi andrebbe tantissimo di bere del canuro."@it;
+    dct:created "2022-09-20" ;
+    dct:creator vocang:bianchiniGiovanni .
+
+
+vocang:stancoffè
+    a skos:Concept ;
+    skos:prefLabel "Stancoffè"@it ;
+    skos:definition "Un caffè che si prende quando si è particolarmente stanchi o assonnati per cercare di svegliarsi."@it ;
+    skos:example "Questa notte ho dormito veramente male e adesso sono assonnato, mi ci vorrebbe proprio uno stancoffè."@it;
+    dct:created "2022-09-21" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:messagfo
+    a skos:Concept ;
+    skos:prefLabel "Messagfo"@it ;
+    skos:definition "Un messaggio che doveva essere molto figo ma che a causa di agenti esterni, per esempio un correttore automatico, perde l'effetto desiderato."@it ;
+    skos:example "Doveva far ridere tutti ma è semplicemente uscito un messagfo."@it;
+    dct:created "2022-09-24" ;
+    dct:creator vocang:bragariAlexandru .
