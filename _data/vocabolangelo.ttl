@@ -1142,3 +1142,19 @@ vocang:nolletico
     skos:example "Ti prego, il nolletico no!."@it;
     dct:created "2022-10-28" ;
     dct:creator vocang:savoGiorgia .
+
+vocang:fragagliato
+    a skos:Concept ;
+    skos:prefLabel "Fragagliato"@it ;
+    skos:definition "Traduzione di 'frunk' ovvero bagaglio anteriore di un'auto."@it ;
+    skos:example "Puoi metterlo nel fragagliato."@it;
+    dct:created "2022-10-28" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:trashiba
+    a skos:Concept ;
+    skos:prefLabel "Trashiba"@it ;
+    skos:definition "Un cane della razza shiba che viene trascinato dal padrone che lo tiene al guinzaglio e slitta sul pavimento liscio."@it ;
+    skos:example "Voglio quel Trashiba. Anzi ne voglio 2."@it;
+    dct:created "2022-10-30" ;
+    dct:creator vocang:filasetaAngelo .
