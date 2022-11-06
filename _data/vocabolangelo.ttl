@@ -1078,3 +1078,19 @@ vocang:orgiario
     skos:example "Smettila di orlare, mi dai fastidio."@it;
     dct:created "2022-10-07" ;
     dct:creator vocang:pertosaLorenzo , vocang:omiccioliRiccardo .
+
+ vocang:buggatto
+    a skos:Concept ;
+    skos:prefLabel "Buggatto"@it ;
+    skos:definition "Quando in un videogioco avviene un bug che coinvolge un gatto."@it ;
+    skos:example "Tutti i gatti nel videogioco Stray sono in realtà buggatti se si buggano."@it;
+    dct:created "2022-10-11" ;
+    dct:creator vocang:savoGiorgia .
+
+vocang:dimenticatroio
+    a skos:Concept ;
+    skos:prefLabel "Dimenticatroio"@it ;
+    skos:definition "Un posto nel cervello dove nascondere le troiate fatte nella propria vita in modo da sperare di poterle dimenticare."@it ;
+    skos:example "Che figura... La metto nel dimenticatroio."@it;
+    dct:created "2022-10-20" ;
+    dct:creator vocang:omiccioliRiccardo .
