@@ -1094,3 +1094,19 @@ vocang:dimenticatroio
     skos:example "Che figura... La metto nel dimenticatroio."@it;
     dct:created "2022-10-20" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:inzaccare
+    a skos:Concept ;
+    skos:prefLabel "Inzaccare"@it ;
+    skos:definition "Essere incazzati per qualcosa che viene richiesto da un terzo, con poco preavviso e con una deadline vicina."@it ;
+    skos:example "Oggi Anna mi ha fatto davvero inzaccare con quella richiesta."@it;
+    dct:created "2022-10-21" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:addiato
+    a skos:Concept ;
+    skos:prefLabel "Addiato"@it ;
+    skos:definition "Una persona alla quale si vule dire addio prima che parta e se ne vada da qualche parte per un po', forse per sempre."@it ;
+    skos:example "Dato che sei tu l'addiato, devi fare tu il discorso."@it;
+    dct:created "2022-10-21" ;
+    dct:creator vocang:minoccheriAlessandra .
