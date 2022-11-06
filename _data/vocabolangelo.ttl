@@ -1158,3 +1158,19 @@ vocang:trashiba
     skos:example "Voglio quel Trashiba. Anzi ne voglio 2."@it;
     dct:created "2022-10-30" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:aporta
+    a skos:Concept ;
+    skos:prefLabel "Aporta"@it ;
+    skos:definition "Una porta sempre aperta."@it ;
+    skos:example "In casa mia c'è almeno un'aporta."@it;
+    dct:created "2022-11-01" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:caratterrore
+    a skos:Concept ;
+    skos:prefLabel "Caratterrore"@it ;
+    skos:definition "Un carattere che è in realtà un errore."@it ;
+    skos:example "Caratterrare."@it;
+    dct:created "2022-11-03" ;
+    dct:creator vocang:bragariAlexandru .
