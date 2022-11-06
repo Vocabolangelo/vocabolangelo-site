@@ -171,6 +171,13 @@ vocang:pupitaAlberto
     rel:friendOf vocang:battaglinoNicole, vocang:bdeouiEddy, vocang:bragariAlexandru, vocang:fanaraGiuliano, vocang:filasetaAngelo, vocang:minoccheriAlessandra, vocang:omiccioliRiccardo, vocang:orlandoNicola, vocang:paoliMichele, vocang:pertosaLorenzo, vocang:ribaudoSofia, vocang:savoGiorgia,vocang:suscaMatteo, vocang:timpanoSam ;
     rel:lifePartnerOf vocang:nardiniArianna.
 
+vocang:giovanniBianchini
+    a foaf:Person ;
+    foaf:firstName "Giovanni" ;
+    foaf:lastName "Bianchini" ;
+    rel:friendOf vocang:pupitaAlberto, vocang:battaglinoNicole, vocang:bdeouiEddy, vocang:bragariAlexandru, vocang:fanaraGiuliano, vocang:filasetaAngelo, vocang:nardiniArianna, vocang:omiccioliRiccardo, vocang:orlandoNicola, vocang:paoliMichele, vocang:pertosaLorenzo, vocang:ribaudoSofia, vocang:savoGiorgia,vocang:suscaMatteo, vocang:timpanoSam ;
+    rel:lifePartnerOf vocang:minoccheriAlessandra.
+
 # Vocabolangelo Words Individuals
 
 vocang:vocabolangelo
@@ -1022,3 +1029,11 @@ vocang:sazioletto
     skos:example "Ahhh che mangiata! Mi passeresti il sazioletto per pulirmi?."@it;
     dct:created "2022-08-31" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:proferrone
+    a skos:Concept ;
+    skos:prefLabel "Proferrone"@it ;
+    skos:definition "Un professore di origini meridionali facilmente determinabile dall'accento del parlato."@it ;
+    skos:example "Il tizio che ci insegna Web è un proferrone."@it;
+    dct:created "2022-09-20" ;
+    dct:creator vocang:pertosaLorenzo .
