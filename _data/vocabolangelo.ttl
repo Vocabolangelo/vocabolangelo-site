@@ -1062,3 +1062,19 @@ vocang:messagfo
     skos:example "Doveva far ridere tutti ma è semplicemente uscito un messagfo."@it;
     dct:created "2022-09-24" ;
     dct:creator vocang:bragariAlexandru .
+
+vocang:orgiario
+    a skos:Concept ;
+    skos:prefLabel "Orgiario"@it ;
+    skos:definition "Un calendario utilizzato per segnare esclusivamente le orgie."@it ;
+    skos:example "Aspetta un attimo, fammi controllare sul mio orgiario..."@it;
+    dct:created "2022-09-25" ;
+    dct:creator vocang:minoccheriAlessandra .
+
+ vocang:orlare
+    a skos:Concept ;
+    skos:prefLabel "Orlare"@it ;
+    skos:definition "Urlare imitando la voce di qualcuno che ha \"Orlando\" come cognome."@it ;
+    skos:example "Smettila di orlare, mi dai fastidio."@it;
+    dct:created "2022-10-07" ;
+    dct:creator vocang:pertosaLorenzo , vocang:omiccioliRiccardo .
