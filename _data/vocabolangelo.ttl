@@ -1126,3 +1126,19 @@ vocang:amorto
     skos:example "Posso portare il mio amorto alla festa?"@it;
     dct:created "2022-10-26" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:pegogo
+    a skos:Concept ;
+    skos:prefLabel "Pegogo"@it ;
+    skos:definition "Il peggio che continua a succedere ripetutamente."@it ;
+    skos:example "Non poteva andare pegogo."@it;
+    dct:created "2022-10-28" ;
+    dct:creator vocang:pertosaLorenzo , vocang:filasetaAngelo .
+
+vocang:nolletico
+    a skos:Concept ;
+    skos:prefLabel "Nolletico"@it ;
+    skos:definition "Il solletico che non si vuole ricevere."@it ;
+    skos:example "Ti prego, il nolletico no!."@it;
+    dct:created "2022-10-28" ;
+    dct:creator vocang:savoGiorgia .
