@@ -1230,3 +1230,11 @@ vocang:acquesca
     skos:example "Non capisco perché questo strumento su Pokèmon Bianco si chiami \"Acqua Fresca\" e non Acquesca."@it;
     dct:created "2022-11-08" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:defficiente
+    a skos:Concept ;
+    skos:prefLabel "Defficiente"@it ;
+    skos:definition "Una persona che riesce a dire cose stupide in modo efficiente, ovvero in pochissimo tempo."@it ;
+    skos:example "Matteo è proprio un defficiente."@it ;
+    dct:created "2022-11-17" ;
+    dct:creator vocang:omiccioliRiccardo .
