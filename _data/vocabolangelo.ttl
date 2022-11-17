@@ -1206,3 +1206,27 @@ vocang:babarucchiere
     skos:example "Oggi vado a farmi fare un taglio da quel babarucchiere in centro."@it;
     dct:created "2022-11-14" ;
     dct:creator vocang:bragariAlexandru .
+
+vocang:origasmo
+    a skos:Concept ;
+    skos:prefLabel "Origasmo"@it ;
+    skos:definition "Un origami a sfondo sessuale."@it , "Un origami talmente bello che provoca un orgasmo."@it ;
+    skos:example "Oggi vado alla mostra degli origasmi."@it;
+    dct:created "2022-11-13" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
+
+vocang:mortiversitario
+    a skos:Concept ;
+    skos:prefLabel "Mortiversitario"@it ;
+    skos:definition "Una persona che si immatricola in una facoltà con lo scopo di morire e garantire la laurea ad honorem a tutti gli altri iscritti."@it ;
+    skos:example "Siamo veramente fortunati, al nostro anno si è iscritto un mortiversitario."@it;
+    dct:created "2022-11-10" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:acquesca
+    a skos:Concept ;
+    skos:prefLabel "Acquesca"@it ;
+    skos:definition "Acqua fresca."@it ;
+    skos:example "Non capisco perché questo strumento su Pokèmon Bianco si chiami \"Acqua Fresca\" e non Acquesca."@it;
+    dct:created "2022-11-08" ;
+    dct:creator vocang:omiccioliRiccardo .
