@@ -1190,3 +1190,19 @@ vocang:insavolata
     skos:example "Nicola ordina solo insavolate ai ristoranti."@it;
     dct:created "2022-10-21" ;
     dct:creator vocang:bragariAlexandru .
+
+vocang:culpo
+    a skos:Concept ;
+    skos:prefLabel "Culpo"@it ;
+    skos:definition "Sinonimo di balzo, colpo, stolzo, ma utilizzato in un contesto per cui la paura che lo ha causato è del tutto infondata."@it ;
+    skos:example "Madonna, mi è preso un culpo, meno male che era solo un buggatto."@it;
+    dct:created "2022-11-17" ;
+    dct:creator vocang:bragariAlexandru, vocang:omiccioliRiccardo .
+
+vocang:babarucchiere
+    a skos:Concept ;
+    skos:prefLabel "Babarucchiere"@it ;
+    skos:definition "Un parruchiere balbuziente."@it ;
+    skos:example "Oggi vado a farmi fare un taglio da quel babarucchiere in centro."@it;
+    dct:created "2022-11-14" ;
+    dct:creator vocang:bragariAlexandru .
