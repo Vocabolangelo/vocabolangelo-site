@@ -1238,3 +1238,11 @@ vocang:defficiente
     skos:example "Matteo è proprio un defficiente."@it ;
     dct:created "2022-11-17" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:vivicidio
+    a skos:Concept ;
+    skos:prefLabel "Vivicidio"@it ;
+    skos:definition "Un suicidio vissuto al massimo delle sue potenzialità."@it ;
+    skos:example "Stasera commetto un vivicidio."@it ;
+    dct:created "2022-11-18" ;
+    dct:creator vocang:bragariAlexandru .
