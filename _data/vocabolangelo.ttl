@@ -1318,3 +1318,8 @@ vocang:ilGiocoVerde
     a vocang:Game ;
     skos:prefLabel "Il gioco verde"@it ;
     skos:definition "Il gioco verde ha le stesse identiche regole del gioco, ma si può perdere solo leggendo la scritta \"Il gioco\" su un foglietto verde."@it .
+
+vocang:ocoiGli
+    a vocang:Game ;
+    skos:prefLabel "ocoig lI"@it ;
+    skos:definition "ocoig lI ha le stesse identiche regole del gioco, ma si può perdere solo mentre ci si sta muovendo all'indietro rispetto al proprio sistema di riferimento."@it .
