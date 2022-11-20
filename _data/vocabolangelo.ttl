@@ -16,6 +16,10 @@ vocang:VocabolangeloRDF
     rdfs:comment "Un'ontologia creata per il Vocabolangelo, utilizzata per memorizzare le parole,  definizioni, persone, relazioni etc."@it ;
     rdfs:seeAlso "https://github.com/AngeloFilaseta/vocabolangelo-rdf" .
 
+# Classes
+
+vocang:Game a owl:Class .
+
 # Properties
 
 vocang:unpaidFriendOf
@@ -1255,3 +1259,12 @@ vocang:decafferillo
     dct:created "2022-11-20" ;
     dct:creator vocang:orlandoNicola ;
     skos:related vocang:cafferillo .
+
+vocang:ilGioco
+    a vocang:Game ;
+    skos:prefLabel "Il Gioco"@it ;
+    skos:definition """
+    Il Gioco è un gioco che, per definizione, non si può vincere.
+    Coloro che vi prendono parte cercano di non perdere per più tempo possibile.
+    Chi pensa al gioco perde istantaneamente. Il Gioco si può perdere ogni 30 minuti.
+    """@it .
