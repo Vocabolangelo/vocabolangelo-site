@@ -1246,3 +1246,12 @@ vocang:vivicidio
     skos:example "Stasera commetto un vivicidio."@it ;
     dct:created "2022-11-18" ;
     dct:creator vocang:bragariAlexandru .
+
+vocang:decafferillo
+    a skos:Concept ;
+    skos:prefLabel "Decafferillo"@it ;
+    skos:definition "Un Cafferillo ma in versione decaffeinata."@it ;
+    skos:example "Non voglio agitarmi, prenderò un decafferillo."@it ;
+    dct:created "2022-11-20" ;
+    dct:creator vocang:orlandoNicola ;
+    skos:related vocang:cafferillo .
