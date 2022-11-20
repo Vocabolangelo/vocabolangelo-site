@@ -1311,5 +1311,5 @@ vocang:ilGiocoSupremo
     skos:definition """
     Perdendo il gioco supremo si perdono tutti i giochi (passati, presenti e futuri) contemporaneamente.
     I giochi con condizioni speciali, come il megagioco, non possono essere persi di nuovo.
-    Il gioco supremo si può perdere ogni 30 minuti come il gioco.
+    Il gioco supremo si può perdere ogni ora.
     """@it .
