@@ -1273,3 +1273,16 @@ vocang:ilMinigioco
     a vocang:Game ;
     skos:prefLabel "Il minigioco"@it ;
     skos:definition "Il minigioco ha le stesse identiche regole del gioco, ma si può perdere ogni 3 minuti."@it .
+
+vocang:ilMegaGioco
+    a vocang:Game ;
+    skos:prefLabel "Il megagioco"@it ;
+    skos:definition "Il megagioco ha le stesse identiche regole del gioco, ma può essere perso una sola volta in tutta la vita."@it .
+
+vocang:ilGrandeGioco
+    a vocang:Game ;
+    skos:prefLabel "Il grande gioco"@it ;
+    skos:definition """
+    Il grande gioco viene perso con le stesse modalità del gioco, ma solamente dopo aver bevuto un Negroni o un Negroni sbagliato.
+    È dibattuto se l'Americano valga come drink valido per perdere il grande gioco.
+    """@it .
