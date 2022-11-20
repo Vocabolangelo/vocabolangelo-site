@@ -1264,9 +1264,9 @@ vocang:ilGioco
     a vocang:Game ;
     skos:prefLabel "Il gioco"@it ;
     skos:definition """
-    Il Gioco è un gioco che, per definizione, non si può vincere.
+    Il gioco è un gioco che, per definizione, non si può vincere.
     Coloro che vi prendono parte cercano di non perdere per più tempo possibile.
-    Chi pensa al gioco perde istantaneamente. Il Gioco si può perdere ogni 30 minuti.
+    Chi pensa al gioco perde istantaneamente. Il gioco si può perdere ogni 30 minuti.
     """@it .
 
 vocang:ilMinigioco
