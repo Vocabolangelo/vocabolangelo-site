@@ -1,0 +1,34 @@
+---
+rdf_prefix_path: "_data/prefixes.sparql"
+---
+
+<head>
+    {% include head-common.html %}
+    <title>Vocabolangelo - Giochi</title>
+</head>
+
+<body>
+    {% include header.html %}
+    <main>
+        <h1> Catalogo dei giochi </h1>
+        {%assign query =
+            'SELECT ?word ?label
+            WHERE {
+                ?word rdf:type vocang:Game.
+                ?word skos:prefLabel ?label.
+            }
+            ORDER BY ?label'
+        %}
+        {% assign resultset = page.rdf | sparql_query: query %}
+        <ul>
+            {% for result in resultset %}
+                <li>
+                    <a href="{{ result.word.page_url }}">
+                        {{ result.label }}
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+    </main>
+    {% include footer.html %}
+</body>
