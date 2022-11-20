@@ -1262,9 +1262,14 @@ vocang:decafferillo
 
 vocang:ilGioco
     a vocang:Game ;
-    skos:prefLabel "Il Gioco"@it ;
+    skos:prefLabel "Il gioco"@it ;
     skos:definition """
     Il Gioco è un gioco che, per definizione, non si può vincere.
     Coloro che vi prendono parte cercano di non perdere per più tempo possibile.
     Chi pensa al gioco perde istantaneamente. Il Gioco si può perdere ogni 30 minuti.
     """@it .
+
+vocang:ilMinigioco
+    a vocang:Game ;
+    skos:prefLabel "Il minigioco"@it ;
+    skos:definition "Il minigioco ha le stesse identiche regole del gioco, ma si può perdere ogni 3 minuti."@it .
