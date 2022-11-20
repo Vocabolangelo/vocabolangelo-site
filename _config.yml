@@ -19,3 +19,4 @@ jekyll_rdf:
     class_template_mappings:
         "http://www.w3.org/2004/02/skos/core#Concept": "concept"
         "http://xmlns.com/foaf/0.1/Person": "author"
+        "http://example.org/Game" : "game"
