@@ -1295,3 +1295,12 @@ vocang:ilMicroGioco
     Come tutti gli altri giochi, tuttavia, non si può decidere di vincere.
     Il microgioco non possiede un cooldown.
     """@it .
+
+vocang:lUltraGioco
+    a vocang:Game ;
+    skos:prefLabel "L'ultragioco"@it ;
+    skos:definition """
+    L'ultragioco può essere perso solo da chi trascende.
+    La definizione è di libera interpretazione.
+    Si presuppone che chi muore perde l'ultragioco.
+    """@it .
