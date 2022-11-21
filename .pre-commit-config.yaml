@@ -18,10 +18,10 @@ repos:
   - id: trailing-whitespace # trims trailing whitespace.
 
 - repo: https://github.com/compilerla/conventional-pre-commit
-    rev: v2.1.1
-    hooks:
-      - id: conventional-pre-commit
-        stages: [commit-msg]
+  rev: v2.1.1
+  hooks:
+  - id: conventional-pre-commit # conventional-pre-commit hook.
+    stages: [commit-msg]
         
 - repo: https://github.com/IamTheFij/docker-pre-commit
   rev: v2.1.0
