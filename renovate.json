@@ -1,0 +1,6 @@
+{
+  "extends": [":semanticCommits"]
+  "pre-commit": {
+    "enabled": true
+  }
+}
