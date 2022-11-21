@@ -24,7 +24,7 @@ repos:
     stages: [commit-msg]
 
 - repo: https://github.com/IamTheFij/docker-pre-commit
-  rev: v2.1.0
+  rev: v2.1.1
   hooks:
   - id: docker-compose-check # checks that docker-compose files are valid.#
 
