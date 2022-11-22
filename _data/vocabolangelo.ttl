@@ -1347,3 +1347,11 @@ vocang:artificiarto
     skos:example "Se avessi un artificiarto mi sentirei molto simile ad un robot."@it ;
     dct:created "2022-11-22" ;
     dct:creator vocang:paoliMichele .
+
+vocang:buonana
+    a skos:Concept ;
+    skos:prefLabel "Buonana"@it ;
+    skos:definition "Una banana molto buona."@it ;
+    skos:example "Oggi ho mangiato una buonana, caspita se era ricca di potassio!"@it,  "Giuliano è andato in cucina per prendere un caffè ma è tornato con una buonana."@it;
+    dct:created "2022-11-22" ;
+    dct:creator vocang:fanaraGiuliano .
