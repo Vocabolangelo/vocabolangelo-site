@@ -1331,3 +1331,11 @@ vocang:innamuoramento
     skos:example "Non mi sono mai innamorato, ma forse un giorno mi innamuorerò."@it ;
     dct:created "2022-11-21" ;
     dct:creator vocang:bragariAlexandru .
+
+vocang:fallaceo
+    a skos:Concept ;
+    skos:prefLabel "Fallaceo"@it ;
+    skos:definition "Ricco di falle logiche, privo di senso logico."@it ;
+    skos:example "Questo ragionamento è molto fallaceo."@it ;
+    dct:created "2022-11-21" ;
+    dct:creator vocang:filasetaAngelo .
