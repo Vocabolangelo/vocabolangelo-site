@@ -1323,3 +1323,43 @@ vocang:ocoiGli
     a vocang:Game ;
     skos:prefLabel "ocoig lI"@it ;
     skos:definition "ocoig lI ha le stesse identiche regole del gioco, ma si può perdere solo mentre ci si sta muovendo all'indietro rispetto al proprio sistema di riferimento."@it .
+
+vocang:innamuoramento
+    a skos:Concept ;
+    skos:prefLabel "Innamuoramento"@it ;
+    skos:definition "L'innamoramento vissuto da una persona deceduta."@it ;
+    skos:example "Non mi sono mai innamorato, ma forse un giorno mi innamuorerò."@it ;
+    dct:created "2022-11-21" ;
+    dct:creator vocang:bragariAlexandru .
+
+vocang:fallaceo
+    a skos:Concept ;
+    skos:prefLabel "Fallaceo"@it ;
+    skos:definition "Ricco di falle logiche, privo di senso logico."@it ;
+    skos:example "Questo ragionamento è molto fallaceo."@it ;
+    dct:created "2022-11-21" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:artificiarto
+    a skos:Concept ;
+    skos:prefLabel "Artificiarto"@it ;
+    skos:definition "Un arto artificiale, una protesi per rimpiazzare un arto mancante."@it ;
+    skos:example "Se avessi un artificiarto mi sentirei molto simile ad un robot."@it ;
+    dct:created "2022-11-22" ;
+    dct:creator vocang:paoliMichele .
+
+vocang:buonana
+    a skos:Concept ;
+    skos:prefLabel "Buonana"@it ;
+    skos:definition "Una banana molto buona."@it ;
+    skos:example "Oggi ho mangiato una buonana, caspita se era ricca di potassio!"@it,  "Giuliano è andato in cucina per prendere un caffè ma è tornato con una buonana."@it;
+    dct:created "2022-11-22" ;
+    dct:creator vocang:fanaraGiuliano .
+
+vocang:scrivamia
+    a skos:Concept ;
+    skos:prefLabel "Scrivamia"@it ;
+    skos:definition "Una scrivania posseduta solo e solamente da chi utilizza la parola."@it ;
+    skos:example "Questa scrivamia non è tua."@it;
+    dct:created "2022-11-22" ;
+    dct:creator vocang:nardiniArianna .
