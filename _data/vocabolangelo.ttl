@@ -1323,3 +1323,11 @@ vocang:ocoiGli
     a vocang:Game ;
     skos:prefLabel "ocoig lI"@it ;
     skos:definition "ocoig lI ha le stesse identiche regole del gioco, ma si può perdere solo mentre ci si sta muovendo all'indietro rispetto al proprio sistema di riferimento."@it .
+
+vocang:innamuoramento
+    a skos:Concept ;
+    skos:prefLabel "Innamuoramento"@it ;
+    skos:definition "L'innamoramento vissuto da una persona deceduta."@it ;
+    skos:example "Non mi sono mai innamorato, ma forse un giorno mi innamuorerò."@it ;
+    dct:created "2022-11-21" ;
+    dct:creator vocang:bragariAlexandru .
