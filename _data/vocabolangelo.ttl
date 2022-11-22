@@ -1339,3 +1339,11 @@ vocang:fallaceo
     skos:example "Questo ragionamento è molto fallaceo."@it ;
     dct:created "2022-11-21" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:artificiarto
+    a skos:Concept ;
+    skos:prefLabel "Artificiarto"@it ;
+    skos:definition "Un arto artificiale, una protesi per rimpiazzare un arto mancante."@it ;
+    skos:example "Se avessi un artificiarto mi sentirei molto simile ad un robot."@it ;
+    dct:created "2022-11-22" ;
+    dct:creator vocang:paoliMichele .
