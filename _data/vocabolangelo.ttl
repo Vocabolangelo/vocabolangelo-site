@@ -16,6 +16,10 @@ vocang:VocabolangeloRDF
     rdfs:comment "Un'ontologia creata per il Vocabolangelo, utilizzata per memorizzare le parole,  definizioni, persone, relazioni etc."@it ;
     rdfs:seeAlso "https://github.com/AngeloFilaseta/vocabolangelo-rdf" .
 
+# Classes
+
+vocang:Game a owl:Class .
+
 # Properties
 
 vocang:unpaidFriendOf
@@ -170,6 +174,13 @@ vocang:pupitaAlberto
     foaf:lastName "Pupita" ;
     rel:friendOf vocang:battaglinoNicole, vocang:bdeouiEddy, vocang:bragariAlexandru, vocang:fanaraGiuliano, vocang:filasetaAngelo, vocang:minoccheriAlessandra, vocang:omiccioliRiccardo, vocang:orlandoNicola, vocang:paoliMichele, vocang:pertosaLorenzo, vocang:ribaudoSofia, vocang:savoGiorgia,vocang:suscaMatteo, vocang:timpanoSam ;
     rel:lifePartnerOf vocang:nardiniArianna.
+
+vocang:bianchiniGiovanni
+    a foaf:Person ;
+    foaf:firstName "Giovanni" ;
+    foaf:lastName "Bianchini" ;
+    rel:friendOf vocang:pupitaAlberto, vocang:battaglinoNicole, vocang:bdeouiEddy, vocang:bragariAlexandru, vocang:fanaraGiuliano, vocang:filasetaAngelo, vocang:nardiniArianna, vocang:omiccioliRiccardo, vocang:orlandoNicola, vocang:paoliMichele, vocang:pertosaLorenzo, vocang:ribaudoSofia, vocang:savoGiorgia,vocang:suscaMatteo, vocang:timpanoSam ;
+    rel:lifePartnerOf vocang:minoccheriAlessandra.
 
 # Vocabolangelo Words Individuals
 

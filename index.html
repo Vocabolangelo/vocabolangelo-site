@@ -1,4 +1,5 @@
 ---
+rdf_prefix_path: "_data/prefixes.sparql"
 ---
 
 <head>
@@ -36,6 +37,20 @@
         <a href="/vocabolangelo.html">
             Cerca il Vocabolangelo nel Vocabolangelo
         </a>
+    </div>
+    <div class="pb-3 text-center">
+        {% assign query = 'SELECT (count(distinct ?word) as ?wordCount)
+            WHERE {
+                ?word rdf:type skos:Concept.
+            }'
+        %}
+        {% assign resultset = page.rdf | sparql_query: query %}
+        {% for result in resultset %}
+			<h1> {{ result.wordCount }} </h1>
+		{% endfor %}
+        <h4 class="py-3 mx-5 text-center">
+            Sono le parole all'interno del Vocabolangelo. Anche la tua parola può essere aggiunta!
+        </h4>
     </div>
     <div class="pb-3 text-center">
         <h1>
