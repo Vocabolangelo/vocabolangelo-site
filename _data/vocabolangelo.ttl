@@ -1376,3 +1376,11 @@ vocang:starnutisciare
     skos:example "Starnutisciare è pericoloso, rischi di sporcare tutto."@it;
     dct:created "2022-11-24" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:birragarino
+    a skos:Concept ;
+    skos:prefLabel "Birragarino"@it ;
+    skos:definition "Bagarino che vende la birra fuori dagli eventi a prezzi esorbitanti."@it ;
+    skos:example "Non capisco perché le persone vanno da quel birragarino."@it;
+    dct:created "2022-11-24" ;
+    dct:creator vocang:pertosaLorenzo .
