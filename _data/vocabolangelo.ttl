@@ -1368,3 +1368,11 @@ vocang:criminese
     skos:example "Ho paura di andare a Rimini, è pieno di criminesi."@it;
     dct:created "2022-11-24" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:starnutisciare
+    a skos:Concept ;
+    skos:prefLabel "Starnutisciare"@it ;
+    skos:definition "L'atto della minzione quando avviene in contemporanea ad uno starnuto."@it ;
+    skos:example "Starnutisciare è pericoloso, rischi di sporcare tutto."@it;
+    dct:created "2022-11-24" ;
+    dct:creator vocang:pertosaLorenzo .
