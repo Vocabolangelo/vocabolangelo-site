@@ -1022,3 +1022,341 @@ vocang:sazioletto
     skos:example "Ahhh che mangiata! Mi passeresti il sazioletto per pulirmi?."@it;
     dct:created "2022-08-31" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:proferrone
+    a skos:Concept ;
+    skos:prefLabel "Proferrone"@it ;
+    skos:definition "Un professore di origini meridionali facilmente determinabile dall'accento del parlato."@it ;
+    skos:example "Il tizio che ci insegna Web è un proferrone."@it;
+    dct:created "2022-09-20" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:canuro
+    a skos:Concept ;
+    skos:prefLabel "Canuro"@it ;
+    skos:definition "Caffè con dentro del cianuro."@it ;
+    skos:example "Oggi mi andrebbe tantissimo di bere del canuro."@it;
+    dct:created "2022-09-20" ;
+    dct:creator vocang:bianchiniGiovanni .
+
+
+vocang:stancoffè
+    a skos:Concept ;
+    skos:prefLabel "Stancoffè"@it ;
+    skos:definition "Un caffè che si prende quando si è particolarmente stanchi o assonnati per cercare di svegliarsi."@it ;
+    skos:example "Questa notte ho dormito veramente male e adesso sono assonnato, mi ci vorrebbe proprio uno stancoffè."@it;
+    dct:created "2022-09-21" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:messagfo
+    a skos:Concept ;
+    skos:prefLabel "Messagfo"@it ;
+    skos:definition "Un messaggio che doveva essere molto figo ma che a causa di agenti esterni, per esempio un correttore automatico, perde l'effetto desiderato."@it ;
+    skos:example "Doveva far ridere tutti ma è semplicemente uscito un messagfo."@it;
+    dct:created "2022-09-24" ;
+    dct:creator vocang:bragariAlexandru .
+
+vocang:orgiario
+    a skos:Concept ;
+    skos:prefLabel "Orgiario"@it ;
+    skos:definition "Un calendario utilizzato per segnare esclusivamente le orgie."@it ;
+    skos:example "Aspetta un attimo, fammi controllare sul mio orgiario..."@it;
+    dct:created "2022-09-25" ;
+    dct:creator vocang:minoccheriAlessandra .
+
+ vocang:orlare
+    a skos:Concept ;
+    skos:prefLabel "Orlare"@it ;
+    skos:definition "Urlare imitando la voce di qualcuno che ha \"Orlando\" come cognome."@it ;
+    skos:example "Smettila di orlare, mi dai fastidio."@it;
+    dct:created "2022-10-07" ;
+    dct:creator vocang:pertosaLorenzo , vocang:omiccioliRiccardo .
+
+ vocang:buggatto
+    a skos:Concept ;
+    skos:prefLabel "Buggatto"@it ;
+    skos:definition "Quando in un videogioco avviene un bug che coinvolge un gatto."@it ;
+    skos:example "Tutti i gatti nel videogioco Stray sono in realtà buggatti se si buggano."@it;
+    dct:created "2022-10-11" ;
+    dct:creator vocang:savoGiorgia .
+
+vocang:dimenticatroio
+    a skos:Concept ;
+    skos:prefLabel "Dimenticatroio"@it ;
+    skos:definition "Un posto nel cervello dove nascondere le troiate fatte nella propria vita in modo da sperare di poterle dimenticare."@it ;
+    skos:example "Che figura... La metto nel dimenticatroio."@it;
+    dct:created "2022-10-20" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:inzaccare
+    a skos:Concept ;
+    skos:prefLabel "Inzaccare"@it ;
+    skos:definition "Essere incazzati per qualcosa che viene richiesto da un terzo, con poco preavviso e con una deadline vicina."@it ;
+    skos:example "Oggi Anna mi ha fatto davvero inzaccare con quella richiesta."@it;
+    dct:created "2022-10-21" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:addiato
+    a skos:Concept ;
+    skos:prefLabel "Addiato"@it ;
+    skos:definition "Una persona alla quale si vule dire addio prima che parta e se ne vada da qualche parte per un po', forse per sempre."@it ;
+    skos:example "Dato che sei tu l'addiato, devi fare tu il discorso."@it;
+    dct:created "2022-10-21" ;
+    dct:creator vocang:minoccheriAlessandra .
+
+vocang:comaEllittico
+    a skos:Concept ;
+    skos:prefLabel "Coma Ellittico"@it ;
+    skos:definition "Quando si beve talmente tanto che la concezione dello spazio risulta molto distorta."@it ;
+    skos:example "Ti prego aiutami credo di star per andare in coma ellittico."@it;
+    dct:created "2022-10-22" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:amorto
+    a skos:Concept ;
+    skos:prefLabel "Amorto"@it ;
+    skos:definition "Un amico morto. Il termine è utilizzabile solo se l'amicizia si è instaurata quando almeno una delle due parti era già morta."@it ;
+    skos:example "Posso portare il mio amorto alla festa?"@it;
+    dct:created "2022-10-26" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:pegogo
+    a skos:Concept ;
+    skos:prefLabel "Pegogo"@it ;
+    skos:definition "Il peggio che continua a succedere ripetutamente."@it ;
+    skos:example "Non poteva andare pegogo."@it;
+    dct:created "2022-10-28" ;
+    dct:creator vocang:pertosaLorenzo , vocang:filasetaAngelo .
+
+vocang:nolletico
+    a skos:Concept ;
+    skos:prefLabel "Nolletico"@it ;
+    skos:definition "Il solletico che non si vuole ricevere."@it ;
+    skos:example "Ti prego, il nolletico no!."@it;
+    dct:created "2022-10-28" ;
+    dct:creator vocang:savoGiorgia .
+
+vocang:fragagliato
+    a skos:Concept ;
+    skos:prefLabel "Fragagliato"@it ;
+    skos:definition "Traduzione di 'frunk' ovvero bagaglio anteriore di un'auto."@it ;
+    skos:example "Puoi metterlo nel fragagliato."@it;
+    dct:created "2022-10-28" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:trashiba
+    a skos:Concept ;
+    skos:prefLabel "Trashiba"@it ;
+    skos:definition "Un cane della razza shiba che viene trascinato dal padrone che lo tiene al guinzaglio e slitta sul pavimento liscio."@it ;
+    skos:example "Voglio quel Trashiba. Anzi ne voglio 2."@it;
+    dct:created "2022-10-30" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:aporta
+    a skos:Concept ;
+    skos:prefLabel "Aporta"@it ;
+    skos:definition "Una porta sempre aperta."@it ;
+    skos:example "In casa mia c'è almeno un'aporta."@it;
+    dct:created "2022-11-01" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:caratterrore
+    a skos:Concept ;
+    skos:prefLabel "Caratterrore"@it ;
+    skos:definition "Un carattere che è in realtà un errore."@it ;
+    skos:example "Caratterrare."@it;
+    dct:created "2022-11-03" ;
+    dct:creator vocang:bragariAlexandru .
+
+vocang:avvogatto
+    a skos:Concept ;
+    skos:prefLabel "Avvogatto"@it ;
+    skos:definition "Un avvocato per gatti."@it ;
+    skos:example "Kiri, ti serve un avvogatto."@it;
+    dct:created "2022-11-04" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:insavolata
+    a skos:Concept ;
+    skos:prefLabel "Insavolata"@it ;
+    skos:definition "Un'instalata piccante. Un'instalata alla diavola."@it ;
+    skos:example "Nicola ordina solo insavolate ai ristoranti."@it;
+    dct:created "2022-10-21" ;
+    dct:creator vocang:bragariAlexandru .
+
+vocang:culpo
+    a skos:Concept ;
+    skos:prefLabel "Culpo"@it ;
+    skos:definition "Sinonimo di balzo, colpo, stolzo, ma utilizzato in un contesto per cui la paura che lo ha causato è del tutto infondata."@it ;
+    skos:example "Madonna, mi è preso un culpo, meno male che era solo un buggatto."@it;
+    dct:created "2022-11-17" ;
+    dct:creator vocang:bragariAlexandru, vocang:omiccioliRiccardo .
+
+vocang:babarucchiere
+    a skos:Concept ;
+    skos:prefLabel "Babarucchiere"@it ;
+    skos:definition "Un parruchiere balbuziente."@it ;
+    skos:example "Oggi vado a farmi fare un taglio da quel babarucchiere in centro."@it;
+    dct:created "2022-11-14" ;
+    dct:creator vocang:bragariAlexandru .
+
+vocang:origasmo
+    a skos:Concept ;
+    skos:prefLabel "Origasmo"@it ;
+    skos:definition "Un origami a sfondo sessuale."@it , "Un origami talmente bello che provoca un orgasmo."@it ;
+    skos:example "Oggi vado alla mostra degli origasmi."@it;
+    dct:created "2022-11-13" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
+
+vocang:mortiversitario
+    a skos:Concept ;
+    skos:prefLabel "Mortiversitario"@it ;
+    skos:definition "Una persona che si immatricola in una facoltà con lo scopo di morire e garantire la laurea ad honorem a tutti gli altri iscritti."@it ;
+    skos:example "Siamo veramente fortunati, al nostro anno si è iscritto un mortiversitario."@it;
+    dct:created "2022-11-10" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:acquesca
+    a skos:Concept ;
+    skos:prefLabel "Acquesca"@it ;
+    skos:definition "Acqua fresca."@it ;
+    skos:example "Non capisco perché questo strumento su Pokèmon Bianco si chiami \"Acqua Fresca\" e non Acquesca."@it;
+    dct:created "2022-11-08" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:defficiente
+    a skos:Concept ;
+    skos:prefLabel "Defficiente"@it ;
+    skos:definition "Una persona che riesce a dire cose stupide in modo efficiente, ovvero in pochissimo tempo."@it ;
+    skos:example "Matteo è proprio un defficiente."@it ;
+    dct:created "2022-11-17" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:vivicidio
+    a skos:Concept ;
+    skos:prefLabel "Vivicidio"@it ;
+    skos:definition "Un suicidio vissuto al massimo delle sue potenzialità."@it ;
+    skos:example "Stasera commetto un vivicidio."@it ;
+    dct:created "2022-11-18" ;
+    dct:creator vocang:bragariAlexandru .
+
+vocang:decafferillo
+    a skos:Concept ;
+    skos:prefLabel "Decafferillo"@it ;
+    skos:definition "Un Cafferillo ma in versione decaffeinata."@it ;
+    skos:example "Non voglio agitarmi, prenderò un decafferillo."@it ;
+    dct:created "2022-11-20" ;
+    dct:creator vocang:orlandoNicola ;
+    skos:related vocang:cafferillo .
+
+vocang:ilGioco
+    a vocang:Game ;
+    skos:prefLabel "Il gioco"@it ;
+    skos:definition """
+    Il gioco è un gioco che, per definizione, non si può vincere.
+    Coloro che vi prendono parte cercano di non perdere per più tempo possibile.
+    Chi pensa al gioco perde istantaneamente. Il gioco si può perdere ogni 30 minuti.
+    """@it .
+
+vocang:ilMinigioco
+    a vocang:Game ;
+    skos:prefLabel "Il minigioco"@it ;
+    skos:definition "Il minigioco ha le stesse identiche regole del gioco, ma si può perdere ogni 3 minuti."@it .
+
+vocang:ilMegaGioco
+    a vocang:Game ;
+    skos:prefLabel "Il megagioco"@it ;
+    skos:definition "Il megagioco ha le stesse identiche regole del gioco, ma può essere perso una sola volta in tutta la vita."@it .
+
+vocang:ilGrandeGioco
+    a vocang:Game ;
+    skos:prefLabel "Il grande gioco"@it ;
+    skos:definition """
+    Il grande gioco viene perso con le stesse modalità del gioco, ma solamente dopo aver bevuto un Negroni o un Negroni sbagliato.
+    È dibattuto se l'Americano valga come drink valido per perdere il grande gioco.
+    """@it .
+
+vocang:ilMicroGioco
+    a vocang:Game ;
+    skos:prefLabel "Il microgioco"@it ;
+    skos:definition """
+    Il microgioco è un gioco che si può decidere di non perdere.
+    Come tutti gli altri giochi, tuttavia, non si può decidere di vincere.
+    Il microgioco non possiede un cooldown.
+    """@it .
+
+vocang:lUltraGioco
+    a vocang:Game ;
+    skos:prefLabel "L'ultragioco"@it ;
+    skos:definition """
+    L'ultragioco può essere perso solo da chi trascende.
+    La definizione è di libera interpretazione.
+    Si presuppone che chi muore perde l'ultragioco.
+    """@it .
+
+vocang:ilGiocoSupremo
+    a vocang:Game ;
+    skos:prefLabel "Il gioco supremo"@it ;
+    skos:definition """
+    Perdendo il gioco supremo si perdono tutti i giochi (passati, presenti e futuri) contemporaneamente.
+    I giochi con condizioni speciali, come il megagioco, non possono essere persi di nuovo.
+    Il gioco supremo si può perdere ogni ora.
+    """@it .
+
+vocang:ilGiocoVerde
+    a vocang:Game ;
+    skos:prefLabel "Il gioco verde"@it ;
+    skos:definition "Il gioco verde ha le stesse identiche regole del gioco, ma si può perdere solo leggendo la scritta \"Il gioco\" su un foglietto verde."@it .
+
+vocang:ocoiGli
+    a vocang:Game ;
+    skos:prefLabel "ocoig lI"@it ;
+    skos:definition "ocoig lI ha le stesse identiche regole del gioco, ma si può perdere solo mentre ci si sta muovendo all'indietro rispetto al proprio sistema di riferimento."@it .
+
+vocang:innamuoramento
+    a skos:Concept ;
+    skos:prefLabel "Innamuoramento"@it ;
+    skos:definition "L'innamoramento vissuto da una persona deceduta."@it ;
+    skos:example "Non mi sono mai innamorato, ma forse un giorno mi innamuorerò."@it ;
+    dct:created "2022-11-21" ;
+    dct:creator vocang:bragariAlexandru .
+
+vocang:fallaceo
+    a skos:Concept ;
+    skos:prefLabel "Fallaceo"@it ;
+    skos:definition "Ricco di falle logiche, privo di senso logico."@it ;
+    skos:example "Questo ragionamento è molto fallaceo."@it ;
+    dct:created "2022-11-21" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:artificiarto
+    a skos:Concept ;
+    skos:prefLabel "Artificiarto"@it ;
+    skos:definition "Un arto artificiale, una protesi per rimpiazzare un arto mancante."@it ;
+    skos:example "Se avessi un artificiarto mi sentirei molto simile ad un robot."@it ;
+    dct:created "2022-11-22" ;
+    dct:creator vocang:paoliMichele .
+
+vocang:buonana
+    a skos:Concept ;
+    skos:prefLabel "Buonana"@it ;
+    skos:definition "Una banana molto buona."@it ;
+    skos:example "Oggi ho mangiato una buonana, caspita se era ricca di potassio!"@it,  "Giuliano è andato in cucina per prendere un caffè ma è tornato con una buonana."@it;
+    dct:created "2022-11-22" ;
+    dct:creator vocang:fanaraGiuliano .
+
+vocang:scrivamia
+    a skos:Concept ;
+    skos:prefLabel "Scrivamia"@it ;
+    skos:definition "Una scrivania posseduta solo e solamente da chi utilizza la parola."@it ;
+    skos:example "Questa scrivamia non è tua."@it;
+    dct:created "2022-11-22" ;
+    dct:creator vocang:nardiniArianna .
+
+vocang:escire
+    a skos:Concept ;
+    skos:prefLabel "Escire"@it ;
+    skos:definition "Uscire, ma da una autostrada."@it ;
+    skos:example "Mi sono scordato di escire, farò alla prossima."@it;
+    dct:created "2022-11-24" ;
+    dct:creator vocang:pertosaLorenzo, vocang:orlandoNicola .
