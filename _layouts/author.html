@@ -12,7 +12,7 @@ rdf_prefix_path: "_data/prefixes.sparql"
 
 <body>
     {% include header.html %}
-	<main>
+	<main class="px-5 pt-5">
 		<h1> {{ lastName }} {{ firstName }} </h1>
 		{% assign nick = nickName | rdf_property: 'foaf:nick' %}
 		{% if nick %}
