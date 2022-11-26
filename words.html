@@ -1,5 +1,6 @@
 ---
 rdf_prefix_path: "_data/prefixes.sparql"
+letters: ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
 ---
 
 <head>
@@ -12,24 +13,28 @@ rdf_prefix_path: "_data/prefixes.sparql"
     {% include header.html %}
     <main class="px-5 py-5">
         <h1> Parole del Vocabolangelo </h1>
-        {%assign query =
-            'SELECT ?word ?label
-            WHERE {
-                ?word rdf:type skos:Concept.
-                ?word skos:prefLabel ?label.
-            }
-            ORDER BY ?label'
-        %}
-        {% assign resultset = page.rdf | sparql_query: query %}
-        <ul>
-            {% for result in resultset %}
-                <li>
-                    <a href="{{ result.word.page_url }}">
-                        {{ result.label }}
-                    </a>
-                </li>
-            {% endfor %}
-        </ul>
+        {% for letter in page.letters %}
+            {%assign query =
+                'SELECT ?word ?label
+                WHERE {
+                    ?word rdf:type skos:Concept.
+                    ?word skos:prefLabel ?label.
+                    FILTER( strStarts( ?label, "' | append: {{letter}} | append: '")).
+                }
+                ORDER BY ?label'
+            %}
+            {% assign resultset = page.rdf | sparql_query: query %}
+            <h3> {{letter}}</h3>
+            <ul>
+                {% for result in resultset %}
+                    <li>
+                        <a href="{{ result.word.page_url }}">
+                            {{ result.label }}
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        {% endfor %}
     </main>
     {% include footer.html %}
 </body>
