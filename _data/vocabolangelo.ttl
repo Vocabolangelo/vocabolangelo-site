@@ -1396,11 +1396,18 @@ vocang:birragarino
     dct:created "2022-11-24" ;
     dct:creator vocang:pertosaLorenzo .
 
-
 vocang:notta
     a skos:Concept ;
     skos:prefLabel "Notta"@it ;
     skos:definition "Momento nel tempo che può essere considerato sia giorno che notte."@it ;
     skos:example "Questa notta mentre Alberto dormiva Giuliano faceva colazione con il kebab."@it;
+    dct:created "2022-11-26" ;
+    dct:creator vocang:fanaraGiuliano .
+
+vocang:comumista
+    a skos:Concept ;
+    skos:prefLabel "Comumista"@it ;
+    skos:definition "Una canna composta da erba e tabacco, fumata e girata esclusivamente da persone il cui orientamento politico tende all'estrema sinistra."@it ;
+    skos:example "Giuliano e Luca si sono rollati una comumista durante la lezione di linguistica."@it;
     dct:created "2022-11-26" ;
     dct:creator vocang:fanaraGiuliano .
