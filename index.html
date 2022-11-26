@@ -4,6 +4,7 @@ rdf_prefix_path: "_data/prefixes.sparql"
 
 <head>
     {% include head-common.html %}
+    <link rel="stylesheet" href="/css/index.css">
     <title>Vocabolangelo</title>
     <script>
         $.get("https://api.github.com/repos/AngeloFilaseta/vocabolangelo-rdf/contributors")
@@ -25,7 +26,7 @@ rdf_prefix_path: "_data/prefixes.sparql"
 <body>
     {% include header.html %}
     <main>
-        <div class="py-5 text-center">
+        <div class="py-4 text-center">
             <h1>
                 Cos'è il Vocabolangelo?
             </h1>
@@ -38,7 +39,7 @@ rdf_prefix_path: "_data/prefixes.sparql"
             Cerca il Vocabolangelo nel Vocabolangelo
         </a>
     </div>
-    <div class="pb-3 text-center">
+    <div class="text-bg-dark py-5 mt-2 text-center">
         {% assign query = 'SELECT (count(distinct ?word) as ?wordCount)
             WHERE {
                 ?word rdf:type skos:Concept.
@@ -46,13 +47,40 @@ rdf_prefix_path: "_data/prefixes.sparql"
         %}
         {% assign resultset = page.rdf | sparql_query: query %}
         {% for result in resultset %}
-			<h1> {{ result.wordCount }} </h1>
+			<p class="counter"> {{ result.wordCount }} </p>
 		{% endfor %}
-        <h4 class="py-3 mx-5 text-center">
+        <h4 class="py-3 text-center">
             Sono le parole all'interno del Vocabolangelo. Anche la tua parola può essere aggiunta!
         </h4>
     </div>
-    <div class="pb-3 text-center">
+    <div class="py-5 text-center">
+        <h1>
+            Il Vocabolangelo contiene anche un catalogo di giochi
+        </h1>
+        <h4 class="py-3 mx-5">
+            Anche se non è l'obiettivo principale del vocabolangelo, sono catalogati anche alcuni giochi che potresti trovare interessanti.
+        </h4>
+        <a href="/ilGioco">
+            Scopri il gioco
+        </a>
+    </div>
+
+    <div class="container-fluid text-bg-dark text-center py-5">
+        <div class="row">
+            <div class="col-lg-8 px-5">
+                <h1 class="py-2">
+                    Vuoi proporre una nuova parola?
+                </h1>
+                <h4 class="pt-4">Entra nel nostro server di Discord e proponi la tua parola nel canale apposito.</h4>
+                <p class="py-3"> #📖vocabolangelo </p>
+            </div>
+            <div class="col-lg-4">
+                <iframe src="https://discord.com/widget?id=685220367970992223&theme=dark" width="350" height="300" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div class="py-5 text-center">
         <h1>
             Chi contribuisce?
         </h1>
