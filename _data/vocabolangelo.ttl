@@ -1395,3 +1395,12 @@ vocang:birragarino
     skos:example "Non capisco perché le persone vanno da quel birragarino."@it;
     dct:created "2022-11-24" ;
     dct:creator vocang:pertosaLorenzo .
+
+
+vocang:notta
+    a skos:Concept ;
+    skos:prefLabel "Notta"@it ;
+    skos:definition "Momento nel tempo che può essere considerato sia giorno che notte."@it ;
+    skos:example "Questa notta mentre Alberto dormiva Giuliano faceva colazione con il kebab."@it;
+    dct:created "2022-11-26" ;
+    dct:creator vocang:fanaraGiuliano .
