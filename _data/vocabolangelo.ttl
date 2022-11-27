@@ -1418,3 +1418,11 @@ vocang:comumista
     skos:example "Giuliano e Luca si sono rollati una comumista durante la lezione di linguistica."@it;
     dct:created "2022-11-26" ;
     dct:creator vocang:fanaraGiuliano .
+
+vocang:nuocitudine
+    a skos:Concept ;
+    skos:prefLabel "Nuocitudine"@it ;
+    skos:definition "Situazione di potenziale pericolo per te e per chi ti sta intorno."@it ;
+    skos:example "La consegna del progetto andrà bene, non vedo nuocitudini."@it;
+    dct:created "2022-11-26" ;
+    dct:creator vocang:rossiLuca .
