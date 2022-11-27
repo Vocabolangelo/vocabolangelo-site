@@ -182,6 +182,13 @@ vocang:bianchiniGiovanni
     rel:friendOf vocang:pupitaAlberto, vocang:battaglinoNicole, vocang:bdeouiEddy, vocang:bragariAlexandru, vocang:fanaraGiuliano, vocang:filasetaAngelo, vocang:nardiniArianna, vocang:omiccioliRiccardo, vocang:orlandoNicola, vocang:paoliMichele, vocang:pertosaLorenzo, vocang:ribaudoSofia, vocang:savoGiorgia,vocang:suscaMatteo, vocang:timpanoSam ;
     rel:lifePartnerOf vocang:minoccheriAlessandra.
 
+vocang:rossiLuca
+    a foaf:Person ;
+    foaf:firstName "Luca" ;
+    foaf:lastName "Rossi" ;
+    rel:friendOf vocang:orlandoNicola, vocang:talmiAlessandro, vocang:omiccioliRiccardo, vocang:bragariAlexandru, vocang:filasetaAngelo .
+
+
 # Vocabolangelo Words Individuals
 
 vocang:vocabolangelo
