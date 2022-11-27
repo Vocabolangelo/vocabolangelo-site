@@ -25,7 +25,8 @@ rdf_prefix_path: "_data/prefixes.sparql"
             Cerca il Vocabolangelo nel Vocabolangelo
         </a>
     </div>
-    <div class="text-bg-dark py-5 mt-2 text-center">
+    <div class="spacer curve-0 flip"></div>
+    <div class="container-fluid text-bg-dark text-center">
         {% assign query = 'SELECT (count(distinct ?word) as ?wordCount)
             WHERE {
                 ?word rdf:type skos:Concept.
@@ -33,25 +34,28 @@ rdf_prefix_path: "_data/prefixes.sparql"
         %}
         {% assign resultset = page.rdf | sparql_query: query %}
         {% for result in resultset %}
-			<p class="counter"> {{ result.wordCount }} </p>
-		{% endfor %}
-        <h4 class="py-3 text-center">
-            Sono le parole all'interno del Vocabolangelo. Anche la tua parola può essere aggiunta!
-        </h4>
+        <div class="row">
+            <p class="counter"> {{ result.wordCount }} </p>
+            {% endfor %}
+            <h4>
+                Sono le parole all'interno del Vocabolangelo. Puntiamo a raggiungere le 1000 parole!
+            </h4>
+        </div>
     </div>
-    <div class="py-5 text-center">
+    <div class="spacer curve-0"></div>
+    <div class="text-center">
         <h1>
             Il Vocabolangelo contiene anche un catalogo di giochi
         </h1>
-        <h4 class="py-3 mx-5">
+        <h4 class="mx-5">
             Anche se non è l'obiettivo principale del vocabolangelo, sono catalogati anche alcuni giochi che potresti trovare interessanti.
         </h4>
         <a href="/ilGioco">
             Scopri il gioco
         </a>
     </div>
-
-    <div class="container-fluid text-bg-dark text-center py-5">
+    <div class="spacer curve-0 flip"></div>
+    <div class="container-fluid text-bg-dark text-center">
         <div class="row">
             <div class="col-lg-8 px-5">
                 <h1 class="py-2">
@@ -65,8 +69,8 @@ rdf_prefix_path: "_data/prefixes.sparql"
             </div>
         </div>
     </div>
-
-    <div class="py-5 text-center">
+    <div class="spacer curve-0"></div>
+    <div class="text-center">
         <h1>
             Chi contribuisce?
         </h1>
