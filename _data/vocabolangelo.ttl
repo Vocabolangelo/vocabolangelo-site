@@ -1440,3 +1440,11 @@ vocang:gestiomale
     skos:definition "Un gioco gestionale, gestito intenzionalmente male."@it ;
     skos:example "The Sims è un gestiomale, visto che mi diverto ad uccidere i sim."@it;
     dct:creator vocang:orlandoNicola, vocang:pertosaLorenzo .
+
+vocang:orinadosso
+    a skos:Concept ;
+    skos:prefLabel "Orinadosso"@it ;
+    skos:definition "Paradosso creatosi durante la scelta dell'orinatoio da utilizzare in cui nessuna delle scelte possibili è consigliata e/o corretta"@it ;
+    skos:example "Quel bagno è progettato davvero male, si è verificato un orinadosso"@it;
+    dct:created "2022-11-27" ;
+    dct:creator vocang:suscaMatteo .
