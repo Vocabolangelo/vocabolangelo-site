@@ -1433,3 +1433,10 @@ vocang:froggia
     skos:definition "La pioggia fredda che quando entra in contatto con la pelle di una persona le fa provare una sensazione di disagio e fastidio, al punto che sembra arrivare alle ossa."@it ;
     skos:example "Questa froggia mi farà prendere un malanno."@it;
     dct:creator vocang:savoGiorgia .
+
+vocang:gestiomale
+    a skos:Concept ;
+    skos:prefLabel "Gestiomale"@it ;
+    skos:definition "Un gioco gestionale, gestito intenzionalmente male."@it ;
+    skos:example "The Sims è un gestiomale, visto che mi diverto ad uccidere i sim."@it;
+    dct:creator vocang:orlandoNicola, vocang:pertosaLorenzo .
