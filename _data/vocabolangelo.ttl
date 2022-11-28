@@ -1426,3 +1426,10 @@ vocang:nuocitudine
     skos:example "La consegna del progetto andrà bene, non vedo nuocitudini."@it;
     dct:created "2022-11-26" ;
     dct:creator vocang:rossiLuca .
+
+vocang:froggia
+    a skos:Concept ;
+    skos:prefLabel "Froggia"@it ;
+    skos:definition "La pioggia fredda che quando entra in contatto con la pelle di una persona le fa provare una sensazione di disagio e fastidio, al punto che sembra arrivare alle ossa."@it ;
+    skos:example "Questa froggia mi farà prendere un malanno."@it;
+    dct:creator vocang:savoGiorgia .
