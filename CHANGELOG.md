@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.1.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v1.0.0...v1.1.0) (2022-12-01)
+
+
+### Features
+
+* **concept:** add ghiaccimi ([34710b0](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/34710b05288325653490af08b459e51c54cb9fdf))
+* **concept:** add obesatto ([deef1ad](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/deef1ad3c75726412bbdd4710cf432a0930970ae))
+* **concept:** add orinodosso ([7be9dc9](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/7be9dc9cf222859c51e024cf8ac230161df415ec))
+
+
+### Bug Fixes
+
+* **concept:** add date to gestiomale ([7724c04](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/7724c04a5f1353af1760e69a410a15f38c717baf))
+
 ## 1.0.0 (2022-11-28)
 
 
