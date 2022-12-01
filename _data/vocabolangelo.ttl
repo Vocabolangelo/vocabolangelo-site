@@ -1449,3 +1449,12 @@ vocang:orinadosso
     skos:example "Quel bagno è progettato davvero male, si è verificato un orinadosso"@it;
     dct:created "2022-11-27" ;
     dct:creator vocang:suscaMatteo .
+
+vocang:obesatto
+    a skos:Concept ;
+    skos:prefLabel "Obesatto"@it ;
+    skos:definition "Un gatto estremamente obeso."@it ;
+    skos:example "Su Instagram continuano a arrivarmi reel di obesatti, son carini ma fan fatica a muoversi!"@it;
+    dct:created "2022-11-29" ;
+    dct:creator vocang:battaglinoNicole .
+
