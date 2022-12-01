@@ -1439,6 +1439,7 @@ vocang:gestiomale
     skos:prefLabel "Gestiomale"@it ;
     skos:definition "Un gioco gestionale, gestito intenzionalmente male."@it ;
     skos:example "The Sims è un gestiomale, visto che mi diverto ad uccidere i sim."@it;
+    dct:created "2022-11-28" ;
     dct:creator vocang:orlandoNicola, vocang:pertosaLorenzo .
 
 vocang:orinadosso
