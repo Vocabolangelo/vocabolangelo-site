@@ -1481,3 +1481,11 @@ vocang:sburuccia
     skos:example "Non vorrei mai bere da una sburuccia."@it;
     dct:created "2022-12-03" ;
     dct:creator vocang:fanaraGiuliano .
+
+vocang:famaloso
+    a skos:Concept ;
+    skos:prefLabel "Famaloso"@it ;
+    skos:definition "La sensazione di dolore e fastidio causata da una ferita generica."@it ;
+    skos:example "Mi sono tagliato nel dito con un foglio di carta ed è famaloso"@it;
+    dct:created "2022-12-03" ;
+    dct:creator vocang:omiccioliRiccardo .
