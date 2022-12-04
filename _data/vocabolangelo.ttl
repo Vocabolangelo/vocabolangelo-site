@@ -1473,3 +1473,11 @@ vocang:prenare
     skos:example "Ho prenato proprio ieri sera, è stato sublime."@it;
     dct:created "2022-11-30" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:sburuccia
+    a skos:Concept ;
+    skos:prefLabel "Sburuccia"@it ;
+    skos:definition "Una cannuccia utilizzata per risucchiare liquidi di ambigua provenienza."@it ;
+    skos:example "Non vorrei mai bere da una sburuccia."@it;
+    dct:created "2022-12-03" ;
+    dct:creator vocang:fanaraGiuliano .
