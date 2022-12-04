@@ -1497,3 +1497,13 @@ vocang:perischio
     skos:example "A lavoro i miei colleghi sono quasi tutti perischi."@it;
     dct:created "2022-12-03" ;
     dct:creator vocang:suscaMatteo, vocang:orlandoNicola .
+
+vocang:pomigioco
+    a skos:Concept ;
+    skos:prefLabel "Pomigioco"@it ;
+    skos:definition "Un cabinato delle sale giochi molto grosso in cui si può entrare. Chi ci entra lo fa principalmente per limonare."@it ;
+    skos:example "Ieri Alessandra mi ha chiesto di entrare in quel pomigioco... Purtroppo non ho afferrato."@it;
+    dct:created "2022-12-02" ;
+    dct:creator vocang:pertosaLorenzo .
+
+
