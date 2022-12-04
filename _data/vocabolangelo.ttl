@@ -1521,3 +1521,11 @@ vocang:domadonna
     skos:example "Non esistono domande stupide, ogni domanda è una domadonna."@it;
     dct:created "2022-12-02" ;
     dct:creator vocang:nardiniArianna .
+
+vocang:palattia
+    a skos:Concept ;
+    skos:prefLabel "Palattia"@it ;
+    skos:definition "Una malattia che ti rende poco sveglio."@it ;
+    skos:example "Lorenzo mi ha attaccato la palattia, mi sento proprio coglione."@it;
+    dct:created "2022-11-27" ;
+    dct:creator vocang:bragariAlexandru, vocang:battaglinoNicole .
