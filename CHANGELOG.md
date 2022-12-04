@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.2.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v1.1.0...v1.2.0) (2022-12-04)
+
+
+### Features
+
+* **concept:** add domadonna ([f10a9a5](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/f10a9a5b9205ec9d90047bad29cff5168100740f))
+* **concept:** add famaloso ([bd4c453](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/bd4c4539d4b4d6010fbee38150577b664f3208d6))
+* **concept:** add palattia ([16ab461](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/16ab4614e120e5d18e9503dc05f2fbb28545e35f))
+* **concept:** add perischio ([b3efa99](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/b3efa991ac2a6b1e696370e02349b88bcce763dd))
+* **concept:** add pomigioco ([e86d497](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/e86d4975d153d1121d7f85dd04fa1c1349fbd47a))
+* **concept:** add prenare ([60b5813](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/60b5813cd8a922f5723a34f8b3316a52f5f99931))
+* **concept:** add sburuccia ([a907891](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/a907891eda34c93039a9ccad9a1a22c009b4c531))
+* **concept:** add tracover ([df85bb2](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/df85bb23c0605190d9aa370c19e74d4910d68302))
+
+
+### Bug Fixes
+
+* **site:** repo link updated ([7d0063b](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/7d0063b3267631573ac4fb2cb0d68b6e6744dfee))
+
 ## [1.1.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v1.0.0...v1.1.0) (2022-12-01)
 
 
