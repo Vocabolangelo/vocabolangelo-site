@@ -1513,3 +1513,11 @@ vocang:tracover
     skos:example "Andare a Napoli con la tracover non è una buona idea."@it;
     dct:created "2022-12-02" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:domadonna
+    a skos:Concept ;
+    skos:prefLabel "Domadonna"@it ;
+    skos:definition "Una domanda estremamente importante."@it ;
+    skos:example "Non esistono domande stupide, ogni domanda è una domadonna."@it;
+    dct:created "2022-12-02" ;
+    dct:creator vocang:nardiniArianna .
