@@ -1,4 +1,4 @@
-$.get("https://api.github.com/repos/AngeloFilaseta/vocabolangelo-rdf/contributors")
+$.get("https://github.com/Vocabolangelo/vocabolangelo-rdf/contributors")
 .done(function( response ) {
     response.forEach(function(contributor){
         $("#contributors").append(`
