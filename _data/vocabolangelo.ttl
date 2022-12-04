@@ -1506,4 +1506,10 @@ vocang:pomigioco
     dct:created "2022-12-02" ;
     dct:creator vocang:pertosaLorenzo .
 
-
+vocang:tracover
+    a skos:Concept ;
+    skos:prefLabel "Tracover"@it ;
+    skos:definition "Una cover per smartphone che ha degli appositi gancetti per permettere di tenere il telefono come una tracolla."@it ;
+    skos:example "Andare a Napoli con la tracover non è una buona idea."@it;
+    dct:created "2022-12-02" ;
+    dct:creator vocang:filasetaAngelo .
