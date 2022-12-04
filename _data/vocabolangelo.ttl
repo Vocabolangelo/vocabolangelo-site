@@ -1465,3 +1465,11 @@ vocang:ghiaccimi
     skos:example "D'estate non c'è niente di meglio che ordinare il ghiaccimi all'All You Can Eat!"@it;
     dct:created "2022-11-30" ;
     dct:creator vocang:orlandoNicola .
+
+vocang:prenare
+    a skos:Concept ;
+    skos:prefLabel "Prenare"@it ;
+    skos:definition "Evitare di pranzare recuperando il pasto perso a cena."@it ;
+    skos:example "Ho prenato proprio ieri sera, è stato sublime."@it;
+    dct:created "2022-11-30" ;
+    dct:creator vocang:pertosaLorenzo .
