@@ -6,7 +6,7 @@
 @prefix scot: <http://rdfs.org/scot/ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rel: <http://purl.org/vocab/relationship/> .
-@prefix vocang: <http://example.org/> .
+@prefix vocang: <http://vocabolangelo.org/> .
 
 vocang:VocabolangeloRDF
     a owl:Ontology ;
