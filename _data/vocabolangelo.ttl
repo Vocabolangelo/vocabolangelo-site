@@ -1529,3 +1529,11 @@ vocang:palattia
     skos:example "Lorenzo mi ha attaccato la palattia, mi sento proprio coglione."@it;
     dct:created "2022-11-27" ;
     dct:creator vocang:bragariAlexandru, vocang:battaglinoNicole .
+
+vocang:avita
+    a skos:Concept ;
+    skos:prefLabel "Avita"@it ;
+    skos:definition "Assenza di vita."@it ;
+    skos:example "Novembre è un mese pieno di avita."@it;
+    dct:created "2022-12-06" ;
+    dct:creator vocang:filasetaAngelo, vocang:nardiniArianna .
