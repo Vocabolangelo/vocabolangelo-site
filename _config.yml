@@ -1,5 +1,5 @@
 baseurl: ""
-url: "http://example.org"
+url: "http://www.vocabolangelo.org"
 
 exclude:
     - gradle*

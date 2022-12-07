@@ -1,0 +1,67 @@
+---
+rdf_prefix_path: "_data/prefixes.sparql"
+---
+
+{% assign prefLabel = page.rdf | rdf_property: 'skos:prefLabel' %}
+
+<head>
+    <title> {{ prefLabel }} </title>
+    {% include head_common.html %}
+</head>
+
+<body>
+    {% include header.html %}
+    <main>
+        <h1> {{prefLabel}} </h1>
+        {% assign definitionSet = page.rdf | rdf_property: 'skos:definition', nil, true %}
+        {% if definitionSet %}
+            <h3> Definizione: </h3>
+        {% else %}
+            <h3> Non ci sono definizioni lemao </h3>
+        {% endif %}
+        <ol>
+        {% for definition in definitionSet %}
+            <li>{{ definition }}</li>
+        {% endfor %}
+        </ol>
+        {% assign exampleSet = page.rdf | rdf_property: 'skos:example', nil, true %}
+        {% if exampleSet %}
+            <h4> Esempi: </h4>
+        {% else %}
+            <h4> Non ci sono esempi =( </h4>
+        {% endif %}
+        {% for example in exampleSet %}
+            <p>"{{ example }}"</p>
+        {% endfor %}
+        {% assign authors = page.rdf | rdf_property: 'dct:creator', nil, true %}
+        {% if authors %}
+            <h4> Autore: </h4>
+        {% else %}
+            <h4>Autore sconosciuto</h4>
+        {% endif %}
+        <ul>
+        {% for c in authors %}
+            <li>
+                <a href="{{ c.page_url }}">
+                    {{ c | rdf_property: 'foaf:lastName' }} {{ c | rdf_property: 'foaf:firstName' }}
+                </a>
+            </li>
+        {% endfor %}
+        </ul>
+        </br></br>
+        {% assign correlated = page.rdf | rdf_property: 'skos:related', nil, true %}
+        {% if correlated %}
+            <h5 style="display:inline"> Parole correlate: </h5>
+        {% endif %}
+        <ul>
+        {% for w in correlated %}
+            <li>
+                <a href="{{ w.page_url }}" style="dispaly:inline">
+                    {{ w | rdf_property: 'skos:prefLabel' }}
+                </a>
+            </li>
+        {% endfor %}
+        </ul>
+    </main>
+    {% include footer.html %}
+</body>
