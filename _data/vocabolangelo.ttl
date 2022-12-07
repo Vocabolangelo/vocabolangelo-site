@@ -1545,3 +1545,11 @@ vocang:fortegato
     skos:example "Sono anni che mi sfascio di Negroni per avere un Fortegato e tutto ciò che ho ottenuto sono perdere il Grande Gioco e una cirrosi, ma non mi arrendo!"@it ;
     dct:created "2022-12-06" ;
     dct:creator vocang:pertosaLorenzo, vocang:omiccioliRiccardo .
+
+vocang:gigatto
+    a skos:Concept ;
+    skos:prefLabel "Gigatto"@it ;
+    skos:definition "Un gatto molto grande."@it ;
+    skos:example "Obesatti e gigatti si somigliano molto, un gigatto tuttavia non è necessariamente obeso."@it ;
+    dct:created "2022-12-07" ;
+    dct:creator vocang:omiccioliRiccardo .
