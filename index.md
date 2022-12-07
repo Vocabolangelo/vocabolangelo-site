@@ -1,5 +1,7 @@
 ---
+rdf_prefix_path: "_data/prefixes.sparql"
 ---
+
 <!--
 	Story by HTML5 UP
 	html5up.net | @ajlkn
@@ -13,13 +15,12 @@
 	<body class="is-preload">
 	{% include header.html %}
 		<div id="wrapper" class="divided">
-			{% include sections/1.html %}
-			{% include sections/2.html %}
-			{% include sections/3.html %}
-			{% include sections/4.html %}
-			{% include sections/5.html %}
-			{% include sections/6.html %}
-			{% include sections/7.html %}
+			{% include sections/intro.html %}
+			{% include sections/counter.html %}
+			{% include sections/games.html %}
+			{% include sections/discord.html %}
+			{% include sections/rules.html %}
+			{% include sections/form.html %}
 			{% include footer.html %}
 		</div>
 	{% include script_common.html %}
