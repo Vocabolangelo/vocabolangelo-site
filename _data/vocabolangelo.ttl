@@ -1553,3 +1553,12 @@ vocang:gigatto
     skos:example "Obesatti e gigatti si somigliano molto, un gigatto tuttavia non è necessariamente obeso."@it ;
     dct:created "2022-12-07" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:parolangelo
+    a skos:Concept ;
+    skos:prefLabel "Parolangelo"@it ;
+    skos:definition "Una parola presente all'interno del Vocabolangelo."@it ;
+    skos:example "Il vocabolangelo è pieno di parolangelo interessanti!"@it ;
+    skos:related vocang:vocabolangelo, vocang:dizionangelo, vocang:angelario ;
+    dct:created "2022-12-07" ;
+    dct:creator vocang:nardiniArianna .
