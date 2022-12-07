@@ -1537,3 +1537,11 @@ vocang:avita
     skos:example "Novembre è un mese pieno di avita."@it;
     dct:created "2022-12-06" ;
     dct:creator vocang:filasetaAngelo, vocang:nardiniArianna .
+
+vocang:fortegato
+    a skos:Concept ;
+    skos:prefLabel "Fortegato"@it ;
+    skos:definition "Un fegato divenuto più forte in seguito a sua parziale distruzione dovuta a cause varie e successiva rigenerazione."@it ;
+    skos:example "Sono anni che mi sfascio di Negroni per avere un Fortegato e tutto ciò che ho ottenuto sono perdere il Grande Gioco e una cirrosi, ma non mi arrendo!"@it ;
+    dct:created "2022-12-06" ;
+    dct:creator vocang:pertosaLorenzo, vocang:omiccioliRiccardo .
