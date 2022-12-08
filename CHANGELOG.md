@@ -1,5 +1,22 @@
 # Changelog
 
+## [2.1.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v2.0.0...v2.1.0) (2022-12-08)
+
+
+### Features
+
+* **concept:** add copertosa ([8abd07f](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/8abd07f490ef265118b9fc546061ae8f1e6c4625))
+* **concept:** add dibirì ([e986310](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/e98631065ae307a313c28171785e349f969ff698))
+* **concept:** add notale ([44c77ac](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/44c77ac7e611b53da120acab2b793736277fdc54))
+* **site:** add navbar ([8911d31](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/8911d31b9eefe76f90f63878790c199fe7b24164))
+
+
+### Bug Fixes
+
+* **concept:** add related to dibirì ([2d20c77](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/2d20c77b3049d76b977e75bd62d6e707a8803b5d))
+* **site:** display only letters available in authors and word pages ([dbc1da8](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/dbc1da851deec3ca0020d0f75fd65c9cf030a062))
+* **site:** fix authors page typo ([6bd1caf](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/6bd1cafad3ef95bdf5dce9e353ce3bc4c4ecce28))
+
 ## [2.0.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v1.2.0...v2.0.0) (2022-12-08)
 
 
