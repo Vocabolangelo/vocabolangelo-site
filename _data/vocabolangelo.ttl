@@ -1587,3 +1587,11 @@ vocang:notale
     skos:example "Vorrei tanto che questo non fosse un Notale."@it ;
     dct:created "2022-12-08" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:copertosa
+    a skos:Concept ;
+    skos:prefLabel "Copertosa"@it ;
+    skos:definition "L'atto eseguito da parte di una persona che si mette sopra un'altra o la abbraccia al fine di scaldarla."@it ;
+    skos:example "Lorenzo ho freddo, abbracciami e fammi da copertosa."@it ;
+    dct:created "2022-12-06" ;
+    dct:creator vocang:filasetaAngelo .
