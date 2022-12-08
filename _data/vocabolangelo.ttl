@@ -1570,3 +1570,11 @@ vocang:oltatto
     skos:example "I neonati hanno un ottimo oltatto, infatti il loro olfatto è perfettamente sviluppato e identico a quello di un adulto, e sono molto sensibili al dolore."@it ;
     dct:created "2022-12-07" ;
     dct:creator vocang:nardiniArianna .
+
+vocang:dibiri
+    a skos:Concept ;
+    skos:prefLabel "Dibirì"@it ;
+    skos:definition "Database su cio sono memorizzati tutti i visitatori di un biribì."@it ;
+    skos:example "Abbiamo sempre una copia di backup dei nostri dibirì."@it ;
+    dct:created "2022-12-08" ;
+    dct:creator vocang:bragariAlexandru, vocang:omiccioliRiccardo .
