@@ -1,7 +1,7 @@
 <html>
     <head>
         {% include title_tag.md title = include.title  %}
-        {% include head_common.html %}
+        {% include head_common.md %}
     </head>
     <body class="is-preload">
         <main id="wrapper" class="divided">
@@ -11,8 +11,8 @@
                     <div class="index align-left"> {{content}} </div>
                 </div>
             </section>
-            {% include footer.html %}
+            {% include footer.md %}
         </main>
-        {% include script_common.html %}
+        {% include script_common.md %}
     </body>
 </html>
