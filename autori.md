@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Autori
-subtitle: Tutti i giochi del vocabolangelo sono elencati in questa pagina.
+subtitle: Tutti gli autori del vocabolangelo sono elencati in questa pagina.
 rdf_prefix_path: "_data/prefixes.sparql"
 ---
 
