@@ -1562,3 +1562,11 @@ vocang:parolangelo
     skos:related vocang:vocabolangelo, vocang:dizionangelo, vocang:angelario ;
     dct:created "2022-12-07" ;
     dct:creator vocang:nardiniArianna .
+
+vocang:oltatto
+    a skos:Concept ;
+    skos:prefLabel "Oltatto"@it ;
+    skos:definition "La percezione dei sensi tatto e olfatto insieme."@it ;
+    skos:example "I neonati hanno un ottimo oltatto, infatti il loro olfatto è perfettamente sviluppato e identico a quello di un adulto, e sono molto sensibili al dolore."@it ;
+    dct:created "2022-12-07" ;
+    dct:creator vocang:nardiniArianna .
