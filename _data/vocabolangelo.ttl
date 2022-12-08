@@ -1579,3 +1579,11 @@ vocang:dibirì
     dct:created "2022-12-08" ;
     skos:related vocang:biribì ;
     dct:creator vocang:bragariAlexandru, vocang:omiccioliRiccardo .
+
+vocang:notale
+    a skos:Concept ;
+    skos:prefLabel "Notale"@it ;
+    skos:definition "Un Natale triste, privo di decorazioni e felicità, o comunque di spirito natalizio in generale."@it ;
+    skos:example "Vorrei tanto che questo non fosse un Notale."@it ;
+    dct:created "2022-12-08" ;
+    dct:creator vocang:filasetaAngelo .
