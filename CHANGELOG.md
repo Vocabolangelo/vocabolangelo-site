@@ -1,5 +1,34 @@
 # Changelog
 
+## [2.0.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v1.2.0...v2.0.0) (2022-12-08)
+
+
+### ⚠ BREAKING CHANGES
+
+* **concept:** add Oltatto
+
+### Features
+
+* **concept:** add avita ([eda1108](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/eda11086fa97a5311775e886c082989ee50cd7fe))
+* **concept:** add fortegato ([b1089e4](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/b1089e47988725f9bf1f447e5ee279ef57c3f490))
+* **concept:** add gigatto ([c9ec131](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/c9ec1319b6322b369c5118bd71f58caec35d21f3))
+* **concept:** add Oltatto ([a8c4b41](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/a8c4b4110ca96f9b5aa26dc09494456a82f5bda1))
+* **concept:** add parolangelo ([d787716](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/d787716e371934803220de5146dfa37878ebfbba))
+* **site:** add footer info ([b22ec8f](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/b22ec8f6249ef68798d2cdcc7ca82c512b7c059f))
+* **site:** add image and link to index ([c683195](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/c683195673ffb7de0497687c394d789d0c20e15e))
+* **site:** add index info ([84121dd](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/84121dd97c34f6343a61569fe241ca4a73b3f531))
+* **site:** add layout and little improvements ([372bb8c](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/372bb8c9d445e6674a708881b1329beef9bf1a83))
+* **site:** add new story site layout ([9872c97](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/9872c970305cb9d38e812676bec90dba2622a389))
+* **site:** add pages ([72d2c35](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/72d2c35a1dd29f1d23d40ec1a71c5f98aa28bffa))
+* **site:** divide sections ([7edc0d0](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/7edc0d05e6610bc67574eaf82e3119d98c239036))
+* **site:** finish layouts ([8a792f9](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/8a792f94591ed7eecda6108873e597ff58faa042))
+
+
+### Bug Fixes
+
+* **prefix:** correct vocang prefix ([530fbd2](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/530fbd2791ad6b332529dd7098eca8867524f193))
+* **site:** location on generated file is correct ([9b4178e](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/9b4178e3a99e7f546d38557b816ed6edbc646795))
+
 ## [1.2.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v1.1.0...v1.2.0) (2022-12-04)
 
 
