@@ -2,7 +2,6 @@
 layout: default
 title: Parolangelo
 subtitle: Tutte le parole del vocabolangelo sono elencate in questa pagina.
-rdf_prefix_path: "_data/prefixes.sparql"
 ---
 
 {% for letter in site.letters %}

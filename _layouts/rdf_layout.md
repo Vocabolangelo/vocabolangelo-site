@@ -1,7 +1,3 @@
----
-rdf_prefix_path: "_data/prefixes.sparql"
----
-
 {% assign type = page.rdf | rdf_property: 'rdf:type' | strip %}
 {% if type == 'http://www.w3.org/2004/02/skos/core#Concept' %}
     {% assign title = page.rdf | rdf_property: 'skos:prefLabel' %}

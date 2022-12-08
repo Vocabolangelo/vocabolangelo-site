@@ -1,7 +1,3 @@
----
-rdf_prefix_path: "_data/prefixes.sparql"
----
-
 <!--
 	Story by HTML5 UP
 	html5up.net | @ajlkn
