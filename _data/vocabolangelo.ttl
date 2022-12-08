@@ -1571,10 +1571,11 @@ vocang:oltatto
     dct:created "2022-12-07" ;
     dct:creator vocang:nardiniArianna .
 
-vocang:dibiri
+vocang:dibirì
     a skos:Concept ;
     skos:prefLabel "Dibirì"@it ;
     skos:definition "Database su cio sono memorizzati tutti i visitatori di un biribì."@it ;
     skos:example "Abbiamo sempre una copia di backup dei nostri dibirì."@it ;
     dct:created "2022-12-08" ;
+    skos:related vocang:biribì ;
     dct:creator vocang:bragariAlexandru, vocang:omiccioliRiccardo .
