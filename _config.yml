@@ -1,5 +1,5 @@
 baseurl: "/"
-url: "http://www.vocabolangelo.org"
+url: "http://www.vocabolangelo.org/"
 
 exclude:
     - gradle*
@@ -15,8 +15,8 @@ plugins:
 # Jekyll RDF settings
 jekyll_rdf:
     path: "_data/vocabolangelo.ttl"
-    default_template: "default"
+    default_template: "rdf/default"
     class_template_mappings:
-        "http://www.w3.org/2004/02/skos/core#Concept": "concept"
-        "http://xmlns.com/foaf/0.1/Person": "author"
-        "http://www.vocabolangelo.org/Game" : "game"
+        "http://www.w3.org/2004/02/skos/core#Concept": "rdf/concept"
+        "http://xmlns.com/foaf/0.1/Person": "rdf/author"
+        "http://www.vocabolangelo.org/Game" : "rdf/game"
