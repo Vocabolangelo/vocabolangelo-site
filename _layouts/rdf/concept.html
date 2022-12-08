@@ -60,7 +60,7 @@ layout: rdf_layout
         <ul>
         {% for w in correlated %}
             <li>
-                <a href="{{ w.page_url }}" style="dispaly:inline">
+                <a href="{{ w.page_url }}" style="display:inline">
                     {{ w | rdf_property: 'skos:prefLabel' }}
                 </a>
             </li>

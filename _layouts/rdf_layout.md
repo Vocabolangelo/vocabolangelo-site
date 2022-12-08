@@ -15,21 +15,4 @@ rdf_prefix_path: "_data/prefixes.sparql"
     {% assign subtitle = nick %}
 {% endif %}
 
-<html>
-    <head>
-        {% include title_tag.md title = title  %}
-        {% include head_common.html %}
-    </head>
-    <body class="is-preload">
-        <main id="wrapper" class="divided">
-            <section class="wrapper style1 align-center">
-                <div class="inner">
-                    {% include header_tag.md title = title subtitle = subtitle %}
-                    <div class="index align-left"> {{content}} </div>
-                </div>
-            </section>
-            {% include footer.html %}
-        </main>
-        {% include script_common.html %}
-    </body>
-</html>
+{% include layout.md title = title subtitle = subtitle %}
