@@ -6,9 +6,7 @@
             }'
         %}
         {% assign resultset = page.rdf | sparql_query: query %}
-        {% for result in resultset %}
-        <h2> {{ result.wordCount }} </h2>
-        {% endfor %}
+        <h2> {{ resultset[0].wordCount }} </h2>
         <p>Sono le parole all'interno del Vocabolangelo. Puntiamo a raggiungere le 1000 parole.</p>
         <ul class="actions stacked">
             <li><a href="#" class="button"> Collabora </a></li>

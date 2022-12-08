@@ -4,58 +4,65 @@ rdf_prefix_path: "_data/prefixes.sparql"
 
 {% assign lastName = page.rdf | rdf_property: 'foaf:lastName', nil, true %}
 {% assign firstName = page.rdf | rdf_property: 'foaf:firstName', nil, true %}
+{% assign nick = nickName | rdf_property: 'foaf:nick' %}
 
-<head>
+<html>
+	<head>
 
-    <title>{{ lastName }} {{ firstName }} - Vocabolangelo</title>
-	{% include head_common.html %}
-</head>
+		<title>{{ lastName }} {{ firstName }} - Vocabolangelo</title>
+		{% include head_common.html %}
+	</head>
 
-<body>
-    {% include header.html %}
-	<main class="px-5 pt-5">
-		<h1> {{ lastName }} {{ firstName }} </h1>
-		{% assign nick = nickName | rdf_property: 'foaf:nick' %}
-		{% if nick %}
-			<h3 class="pb-2">{{ nick }}</h3>
-		{% endif %}
-		{% assign cr = page.rdf | rdf_get %}
-		{% assign query =  'SELECT ?word ?label ?author
-			WHERE {
-				?word rdf:type skos:Concept.
-				?word skos:prefLabel ?label.
-				?word dct:creator ?author.
-			}
-			ORDER BY ?label'
-		%}
-		{% assign resultset = page.rdf | sparql_query: query %}
-		{% if resultset %}
-		<h5> Parole inventate: </h5>
-			<ul>
-				{% for result in resultset %}
-					{% if cr == result.author %}
-						<li>
-							<a href='{{ result.word.page_url }}'>{{ result.label }}</a>
-						</li>
+	<body class="is-preload">
+        <div id="wrapper" class="divided">
+			<section class="wrapper style1 align-center">
+                <div class="inner">
+					<header>
+						<h1> {{ lastName }} {{ firstName }} </h1>
+						{% if nick %}
+							<p> {{nick}} </p>
+						{% endif %}
+					</header>
+					<div class="index align-left">
+					{% assign cr = page.rdf | rdf_get %}
+					{% assign query =  'SELECT ?word ?label ?author
+						WHERE {
+							?word rdf:type skos:Concept.
+							?word skos:prefLabel ?label.
+							?word dct:creator ?author.
+						}
+						ORDER BY ?label'
+					%}
+					{% assign resultset = page.rdf | sparql_query: query %}
+					{% if resultset %}
+						<section>
+                            <header>
+                                <h3> Parole inventate </h3>
+                            </header>
+                            <div class="content">
+                                <ul>
+									{% for result in resultset %}
+										{% if cr == result.author %}
+											<li>
+												<a href='{{ result.word.page_url }}'>{{ result.label }}</a>
+											</li>
+										{% endif %}
+									{% endfor %}
+								</ul>
+                            </div>
+                        </section>
+						<section>
+                            <header>
+                                <h3> Numero di parole </h3>
+                            </header>
+                            <div class="content">
+                                <p> {{ resultset.size }} </p>
+                            </div>
+                        </section>
 					{% endif %}
-				{% endfor %}
-			</ul>
-		{% else %}
-			<p> Questa persona non ha ancora inventato parole. Ma quindi è davvero un autore? </p>
-		{% endif %}
-		{% assign friendlist = page.rdf | rdf_property: 'rel:friendOf', nil, true %}
-		{% if friendlist %}
-		<!--  to uncomment when friends will become bidirectional or another system will be used
-			<h3>Amici</h3>
-			<ul>
-				{% for friend in friendlist %}
-				<li>
-					<a href='{{ friend.page_url }}'>{{ friend | rdf_property: 'foaf:lastName', nil, true }} {{ friend | rdf_property: 'foaf:firstName', nil, true }}</a>
-				</li>
-				{% endfor %}
-			</ul>
-		-->
-		{% endif %}
-	</main>
-	{% include footer.html %}
-</body>
+				</div>
+			</section>
+			{% include footer.html %}
+		</div>
+	</body>
+</html>
