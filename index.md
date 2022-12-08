@@ -18,7 +18,6 @@
 			{% include sections/games.md %}
 			{% include sections/discord.md %}
 			{% include sections/rules.md %}
-			{% include sections/form.md %}
 			{% include footer.md %}
 		</div>
 	{% include script_common.md %}

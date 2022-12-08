@@ -3,10 +3,10 @@
         <h1>Il Vocabolangelo</h1>
         <p class="major">Il Vocabolangelo è un documento strutturato che cataloga e definisce parole (o parolangelo) inventate da persone ordinarie, e quindi non riportate in un normale vocabolario.</p>
         <ul class="actions stacked">
-            <li><a href="#first" class="button big wide smooth-scroll-middle">Scopri le parolangelo</a></li>
+            <li><a href="/parole" class="button big wide smooth-scroll-middle">Scopri le parolangelo</a></li>
         </ul>
     </div>
     <div class="image">
-        <img src="images/banner.jpg" alt="" />
+        <img src="images/vocabolangelo.png" alt="Vocabolangelo Logo" />
     </div>
 </section>

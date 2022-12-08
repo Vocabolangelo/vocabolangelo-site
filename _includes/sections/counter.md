@@ -9,10 +9,10 @@
         <h2> {{ resultset[0].wordCount }} </h2>
         <p>Sono le parole all'interno del Vocabolangelo. Puntiamo a raggiungere le 1000 parole.</p>
         <ul class="actions stacked">
-            <li><a href="#" class="button"> Collabora </a></li>
+            <li><a href="https://github.com/Vocabolangelo/" class="button"> Collabora </a></li>
         </ul>
     </div>
     <div class="image">
-        <img src="images/spotlight01.jpg" alt="" />
+        <img src="images/math.jpg" alt="Matematica" />
     </div>
 </section>
