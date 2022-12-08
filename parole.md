@@ -15,10 +15,11 @@ subtitle: Tutte le parole del vocabolangelo sono elencate in questa pagina.
     ORDER BY ?label'
 %}
 {% assign resultset = page.rdf | sparql_query: query %}
+{% assign resultsetSize = resultset | size %}
+{% if resultsetSize != 0 %}
 <section>
     <header> <h2> {{ letter }} </h2> </header>
     <div class="content">
-    {% if resultset %}
         <ul>
         {% for result in resultset %}
             <li>
@@ -28,7 +29,7 @@ subtitle: Tutte le parole del vocabolangelo sono elencate in questa pagina.
             </li>
         {% endfor %}
         </ul>
-    {% endif %}
     </div>
 </section>
+{% endif %}
 {% endfor %}

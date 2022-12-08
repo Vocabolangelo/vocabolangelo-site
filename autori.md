@@ -17,10 +17,11 @@ rdf_prefix_path: "_data/prefixes.sparql"
     ORDER BY ?lastName'
 %}
 {% assign resultset = page.rdf | sparql_query: query %}
+{% assign resultsetSize = resultset | size %}
+{% if resultsetSize != 0 %}
 <section>
     <header> <h2> {{ letter }} </h2> </header>
     <div class="content">
-    {% if resultset %}
         <ul>
         {% for result in resultset %}
             <li>
@@ -30,7 +31,7 @@ rdf_prefix_path: "_data/prefixes.sparql"
             </li>
         {% endfor %}
         </ul>
-    {% endif %}
     </div>
 </section>
+{% endif %}
 {% endfor %}
