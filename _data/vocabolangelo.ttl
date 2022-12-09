@@ -1621,3 +1621,13 @@ vocang:pistacchiamento
         "Ti apro con un pistacchiamento come un pistacchio."@it ;
     dct:created "2022-12-09" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:pistaggio
+    a skos:Concept ;
+    skos:prefLabel "Pistaggio"@it ;
+    skos:definition "Sinonimo di pistacchiamento."@it ;
+    skos:example "Mario è stato vittima di un pistaggio di gruppo a causa delle sue opinioni controverse."@it,
+        "Ti apro con un pistaggio come un pistacchio."@it ;
+    dct:created "2022-12-09" ;
+    dct:synonym vocang:pistacchiamento ;
+    dct:creator vocang:omiccioliRiccardo .
