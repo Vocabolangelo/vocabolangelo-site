@@ -1595,3 +1595,12 @@ vocang:copertosa
     skos:example "Lorenzo ho freddo, abbracciami e fammi da copertosa."@it ;
     dct:created "2022-12-06" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:tristabbiato
+    a skos:Concept ;
+    skos:prefLabel "Tristabbiato"@it ;
+    skos:definition "Essere contemporaneamente tristi e arrabbiati."@it ;
+    skos:example "Mi ha lasiato, sono tristabbiato."@it ;
+    dct:created "2022-12-08" ;
+    skos:related vocang:incazzabbiato ;
+    dct:creator vocang:pertosaLorenzo, vocang:omiccioliRiccardo .
