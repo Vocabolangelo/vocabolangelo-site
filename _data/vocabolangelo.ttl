@@ -1612,3 +1612,12 @@ vocang:febbrene
     skos:example "Ho 41 di temperatura ma non mi sento male, evidentemente ho la febbrene."@it ;
     dct:created "2022-12-08" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:pistacchiamento
+    a skos:Concept ;
+    skos:prefLabel "Pistacchiamento"@it ;
+    skos:definition "Pestaggio di una persona effettuato utilizzando dei pistacchi."@it ;
+    skos:example "Mario è stato vittima di un pistacchiamento di gruppo a causa delle sue opinioni controverse."@it,
+        "Ti apro con un pistacchiamento come un pistacchio."@it ;
+    dct:created "2022-12-09" ;
+    dct:creator vocang:omiccioliRiccardo .
