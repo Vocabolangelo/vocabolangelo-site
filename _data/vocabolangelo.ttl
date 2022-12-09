@@ -1604,3 +1604,11 @@ vocang:tristabbiato
     dct:created "2022-12-08" ;
     skos:related vocang:incazzabbiato ;
     dct:creator vocang:pertosaLorenzo, vocang:omiccioliRiccardo .
+
+vocang:febbrene
+    a skos:Concept ;
+    skos:prefLabel "Febbrene"@it ;
+    skos:definition "Una febbre più alta del normale ma che fa comunque sentire bene."@it ;
+    skos:example "Ho 41 di temperatura ma non mi sento male, evidentemente ho la febbrene."@it ;
+    dct:created "2022-12-08" ;
+    dct:creator vocang:pertosaLorenzo .
