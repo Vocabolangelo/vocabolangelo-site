@@ -1631,3 +1631,11 @@ vocang:pistaggio
     dct:created "2022-12-09" ;
     dct:synonym vocang:pistacchiamento ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:calligrafite
+    a skos:Concept ;
+    skos:prefLabel "Calligrafite"@it ;
+    skos:definition "Calligrafia prodotta dall'utilizzo di una matita anziché dalla penna."@it ;
+    skos:example "Mamma mi ha sempre detto che ho un'ottima calligrafite, ma una pessima calligrafia."@it ;
+    dct:created "2022-12-10" ;
+    dct:creator vocang:minoccheriAlessandra, vocang:suscaMatteo .
