@@ -1655,3 +1655,11 @@ vocang:genomiccio
     skos:example "C'è stato un genomiccio nel gruppo di Riccardo a causa dell'ira del professore a cui hanno consegnato il progetto."@it ;
     dct:created "2022-12-12" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:acquaffè
+    a skos:Concept ;
+    skos:prefLabel "Acquaffè"@it ;
+    skos:definition "Un caffè dal gusto poco intenso."@it ;
+    skos:example "Questo acquaffè ha un sapore decisamente annacquato."@it ;
+    dct:created "2022-12-12" ;
+    dct:creator vocang:omiccioliRiccardo .
