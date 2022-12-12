@@ -1647,3 +1647,11 @@ vocang:bestemmiatoria
     skos:example "A seguito della cattiva notizia ricevuta si è scatenata una bestemmiatoria alla quale tutti i presenti hanno partecipato."@it ;
     dct:created "2022-12-12" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:genomiccio
+    a skos:Concept ;
+    skos:prefLabel "Genomiccio"@it ;
+    skos:definition "Strage commessa ai danni di elementi si un gruppo di cui si fa parte."@it ;
+    skos:example "C'è stato un genomiccio nel gruppo di Riccardo a causa dell'ira del professore a cui hanno consegnato il progetto."@it ;
+    dct:created "2022-12-12" ;
+    dct:creator vocang:pertosaLorenzo .
