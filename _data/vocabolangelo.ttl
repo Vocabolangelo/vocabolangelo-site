@@ -1663,3 +1663,11 @@ vocang:acquaffè
     skos:example "Questo acquaffè ha un sapore decisamente annacquato."@it ;
     dct:created "2022-12-12" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:controrabbia
+    a skos:Concept ;
+    skos:prefLabel "Controrabbia"@it ;
+    skos:definition "Il sentimento di rabbia che si prova verso qualcuno che è contrarrabbiato con te."@it ;
+    skos:example "Sono incavolato con Marco dato che lui ce l'ha con me, la mia controrabbia sta per esplodere."@it ;
+    dct:created "2022-12-12" ;
+    dct:creator vocang:pertosaLorenzo .
