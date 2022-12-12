@@ -1639,3 +1639,11 @@ vocang:calligrafite
     skos:example "Mamma mi ha sempre detto che ho un'ottima calligrafite, ma una pessima calligrafia."@it ;
     dct:created "2022-12-10" ;
     dct:creator vocang:minoccheriAlessandra, vocang:suscaMatteo .
+
+vocang:bestemmiatoria
+    a skos:Concept ;
+    skos:prefLabel "Bestemmiatoria"@it ;
+    skos:definition "Situazione caotica nella quale le persone coinvolte enunciano ripetute e casuali bestemmie a causa di una situazione di disagio e/o rabbia."@it ;
+    skos:example "A seguito della cattiva notizia ricevuta si è scatenata una bestemmiatoria alla quale tutti i presenti hanno partecipato."@it ;
+    dct:created "2022-12-12" ;
+    dct:creator vocang:omiccioliRiccardo .
