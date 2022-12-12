@@ -1671,3 +1671,11 @@ vocang:controrabbia
     skos:example "Sono incavolato con Marco dato che lui ce l'ha con me, la mia controrabbia sta per esplodere."@it ;
     dct:created "2022-12-12" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:avodandolo
+    a skos:Concept ;
+    skos:prefLabel "Avodandolo"@it ;
+    skos:definition "Un avocado che viene inserito nel contesto per un motivo diverso dall'essere mangiato."@it ;
+    skos:example "Voglio mettere un avodandolo vicino al nome di Francesca in rubrica perché mi ricorda lei."@it ;
+    dct:created "2022-12-10" ;
+    dct:creator vocang:filasetaAngelo .
