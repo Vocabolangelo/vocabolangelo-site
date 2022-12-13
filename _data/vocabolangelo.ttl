@@ -5,13 +5,12 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix scot: <http://rdfs.org/scot/ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix rel: <http://purl.org/vocab/relationship/> .
+@prefix rel: <http://www.perceive.net/schemas/20021119/relationship/#> .
 @prefix vocang: <http://www.vocabolangelo.org/> .
 
 vocang:VocabolangeloRDF
     a owl:Ontology ;
-    # Momentary solution, as http://purl.org/vocab/relationship certificate is not updated...
-    owl:imports <https://raw.githubusercontent.com/AngeloFilaseta/vocabolangelo-rdf/master/_data/rel-vocab-20100607.rdf> ;
+    owl:imports <http://www.perceive.net/schemas/20021119/relationship/relationship.rdf> ;
     rdfs:label "Vocabolangelo RDF" ;
     rdfs:comment "Un'ontologia creata per il Vocabolangelo, utilizzata per memorizzare le parole,  definizioni, persone, relazioni etc."@it ;
     rdfs:seeAlso "https://github.com/AngeloFilaseta/vocabolangelo-rdf" .
@@ -41,9 +40,8 @@ vocang:filasetaAngelo
     foaf:firstName "Angelo" ;
     foaf:lastName "Filaseta" ;
     foaf:nick "Ange" ;
-    rel:friendOf  vocang:bragariAlexandru , vocang:battaglinoNicole , vocang:omiccioliRiccardo ,vocang:pertosaLorenzo , vocang:timpanoSam ;
-    rel:closeFriendOf vocang:ribaudoSofia ;
-    rel:lifePartnerOf vocang:savoGiorgia .
+    rel:friendOf vocang:bragariAlexandru , vocang:battaglinoNicole , vocang:omiccioliRiccardo , vocang:pertosaLorenzo , vocang:timpanoSam , vocang:ribaudoSofia ;
+    rel:spouseOf vocang:savoGiorgia .
 
 vocang:savoGiorgia
     a foaf:Person ;
@@ -65,7 +63,7 @@ vocang:battaglinoNicole
     foaf:lastName "Battaglino" ;
     foaf:nick "Batta" ;
     rel:friendOf vocang:pertosaLorenzo , vocang:timpanoSam , vocang:ribaudoSofia ;
-    rel:lifePartnerOf vocang:omiccioliRiccardo .
+    rel:spouseOf vocang:omiccioliRiccardo .
 
 vocang:omiccioliRiccardo
     a foaf:Person ;
@@ -105,8 +103,7 @@ vocang:orlandoNicola
     foaf:firstName "Nicola" ;
     foaf:lastName "Orlando" ;
     foaf:nick "Orla" ;
-    rel:closeFriendOf vocang:bragariAlexandru ;
-    rel:friendOf vocang:talmiAlessandro, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo .
+    rel:friendOf vocang:bragariAlexandru, vocang:talmiAlessandro, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo .
 
 vocang:adantiMatteo
     a foaf:Person ;
@@ -166,21 +163,21 @@ vocang:mordacchiniCecilia
     foaf:firstName "Cecilia" ;
     foaf:lastName "Mordacchini" ;
     rel:friendOf vocang:filasetaAngelo, vocang:savoGiorgia, vocang:bragariAlexandru, vocang:battaglinoNicole, vocang:omiccioliRiccardo, vocang:pertosaLorenzo, vocang:ribaudoSofia, vocang:orlandoNicola, vocang:fanaraGiuliano, vocang:nardiniArianna, vocang:bdeouiEddy, vocang:suscaMatteo ;
-    rel:lifePartnerOf vocang:timpanoSam.
+    rel:spouseOf vocang:timpanoSam.
 
 vocang:pupitaAlberto
     a foaf:Person ;
     foaf:firstName "Alberto" ;
     foaf:lastName "Pupita" ;
     rel:friendOf vocang:battaglinoNicole, vocang:bdeouiEddy, vocang:bragariAlexandru, vocang:fanaraGiuliano, vocang:filasetaAngelo, vocang:minoccheriAlessandra, vocang:omiccioliRiccardo, vocang:orlandoNicola, vocang:paoliMichele, vocang:pertosaLorenzo, vocang:ribaudoSofia, vocang:savoGiorgia,vocang:suscaMatteo, vocang:timpanoSam ;
-    rel:lifePartnerOf vocang:nardiniArianna.
+    rel:spouseOf vocang:nardiniArianna.
 
 vocang:bianchiniGiovanni
     a foaf:Person ;
     foaf:firstName "Giovanni" ;
     foaf:lastName "Bianchini" ;
     rel:friendOf vocang:pupitaAlberto, vocang:battaglinoNicole, vocang:bdeouiEddy, vocang:bragariAlexandru, vocang:fanaraGiuliano, vocang:filasetaAngelo, vocang:nardiniArianna, vocang:omiccioliRiccardo, vocang:orlandoNicola, vocang:paoliMichele, vocang:pertosaLorenzo, vocang:ribaudoSofia, vocang:savoGiorgia,vocang:suscaMatteo, vocang:timpanoSam ;
-    rel:lifePartnerOf vocang:minoccheriAlessandra.
+    rel:spouseOf vocang:minoccheriAlessandra.
 
 vocang:rossiLuca
     a foaf:Person ;
