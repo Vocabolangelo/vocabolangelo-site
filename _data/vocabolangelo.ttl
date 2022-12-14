@@ -1676,3 +1676,11 @@ vocang:avodandolo
     skos:example "Voglio mettere un avodandolo vicino al nome di Francesca in rubrica perché mi ricorda lei."@it ;
     dct:created "2022-12-10" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:vocaboladmin
+    a skos:Concept ;
+    skos:prefLabel "Vocaboladmin"@it ;
+    skos:definition "Un Amministratore del Vocabolangelo, ossia una figura in grado di apportare modifiche senza chiedere il permesso al codice sorgente del Vocabolangelo."@it ;
+    skos:example "Per diventare un vocaboladmin dovrai prima contribuire al vocabolangelo e ottenere il riconoscimento degli altri vocaboladmin."@it ;
+    dct:created "2022-12-14" ;
+    dct:creator vocang:omiccioliRiccardo .
