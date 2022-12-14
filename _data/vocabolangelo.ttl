@@ -1690,6 +1690,6 @@ vocang:fabriangolo
     a skos:Concept ;
     skos:prefLabel "Fabriangolo"@it ;
     skos:definition "Zona di Fabriano in cui i cellulari non prendono e i GPS impazziscono"@it ;
-    skos:example "Scusa, non ho potuto rispondere, ero in un fabriangolo."@it ;
+    skos:example "Scusa, non ho potuto rispondere, ero nel fabriangolo."@it ;
     dct:created "2022-12-14" ;
     dct:creator vocang:pertosaLorenzo .
