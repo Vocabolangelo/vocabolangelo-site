@@ -12,6 +12,7 @@ layout: rdf_layout
 	}
 	ORDER BY ?label'
 %}
+{% assign wordCount = 0 %}
 {% assign resultset = page.rdf | sparql_query: query %}
 {% if resultset %}
 <section>
@@ -22,6 +23,7 @@ layout: rdf_layout
 		<ul>
 			{% for result in resultset %}
 				{% if cr == result.author %}
+				{% assign wordCount = wordCount | plus: 1 %}
 					<li>
 						<a href='{{ result.word.page_url }}'>{{ result.label }}</a>
 					</li>
@@ -32,10 +34,14 @@ layout: rdf_layout
 </section>
 <section>
 	<header>
-		<h3> Numero di parole </h3>
+		<h3> Contribuzione </h3>
 	</header>
 	<div class="content">
-		<p> {{ resultset.size }} </p>
+	{% if wordCount == 1 %}
+		<p> {{ wordCount }} parola inventata. </p>
+	{% else %}
+		<p> {{ wordCount }} parole inventate. </p>
+	{% endif %}
 	</div>
 </section>
 {% endif %}
