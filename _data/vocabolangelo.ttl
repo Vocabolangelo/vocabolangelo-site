@@ -1683,4 +1683,13 @@ vocang:vocaboladmin
     skos:definition "Un Amministratore del Vocabolangelo, ossia una figura in grado di apportare modifiche senza chiedere il permesso al codice sorgente del Vocabolangelo."@it ;
     skos:example "Per diventare un vocaboladmin dovrai prima contribuire al vocabolangelo e ottenere il riconoscimento degli altri vocaboladmin."@it ;
     dct:created "2022-12-14" ;
+    skos:related vocang:vocabolangelo ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:fabriangolo
+    a skos:Concept ;
+    skos:prefLabel "Fabriangolo"@it ;
+    skos:definition "Zona di Fabriano in cui i cellulari non prendono e i GPS impazziscono"@it ;
+    skos:example "Scusa, non ho potuto rispondere, ero in un fabriangolo."@it ;
+    dct:created "2022-12-14" ;
+    dct:creator vocang:pertosaLorenzo .
