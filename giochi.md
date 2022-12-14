@@ -20,7 +20,7 @@ rdf_prefix_path: "_data/prefixes.sparql"
     <ul>
     {% for result in resultset %}
         <li>
-            <a href="{{ result.word.page_url }}">
+            <a href="{{ result.game.page_url }}">
                 {{ result.label }}
             </a>
         </li>
