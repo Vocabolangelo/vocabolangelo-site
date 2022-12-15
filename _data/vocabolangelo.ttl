@@ -1689,7 +1689,15 @@ vocang:vocaboladmin
 vocang:fabriangolo
     a skos:Concept ;
     skos:prefLabel "Fabriangolo"@it ;
-    skos:definition "Zona di Fabriano in cui i cellulari non prendono e i GPS impazziscono"@it ;
+    skos:definition "Zona di Fabriano in cui i cellulari non prendono e i GPS impazziscono."@it ;
     skos:example "Scusa, non ho potuto rispondere, ero nel fabriangolo."@it ;
     dct:created "2022-12-14" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:stupidariano
+    a skos:Concept ;
+    skos:prefLabel "Stupidariano"@it ;
+    skos:definition "Persona principalmente vegetariana, ma che si cibano anche di animali stupidi quali pesci e volatili."@it ;
+    skos:example "Mia madre non mangia la carne di maiale ma il pollo si. È stupidariana."@it ;
+    dct:created "2022-12-15" ;
+    dct:creator vocang:bragariAlexandru, vocang:omiccioliRiccardo .
