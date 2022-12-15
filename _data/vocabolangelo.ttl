@@ -1701,3 +1701,14 @@ vocang:stupidariano
     skos:example "Mia madre non mangia la carne di maiale ma il pollo si. È stupidariana."@it ;
     dct:created "2022-12-15" ;
     dct:creator vocang:bragariAlexandru, vocang:omiccioliRiccardo .
+
+
+vocang:collagna
+    a skos:Concept ;
+    skos:prefLabel "Collagna"@it ;
+    skos:definition
+        "Collina piuttosto alta che può essere confusa per una montagna."@it,
+        "Collina sulla quale ci si lamenta, ci si può lagnare."@it ;
+    skos:example "Quella collagna è piuttosto alta!"@it , "Mi sono rotto di questa vita, voglio rifugiarmi su una collagna!";
+    dct:created "2022-12-15" ;
+    dct:creator vocang:battaglinoNicole .
