@@ -1719,3 +1719,11 @@ vocang:carichezza
     skos:example "Oggi sono pieno di energie, sento la carichezza!";
     dct:created "2022-12-15" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:inevece
+    a skos:Concept ;
+    skos:prefLabel "Inevece"@it ;
+    skos:definition "Avverbio che potenzia l'affermazione precedente anziché proporre un controesempio."@it ;
+    skos:example "Questo esempio è molto bello, inevece è anche molto bello!";
+    dct:created "2022-12-15" ;
+    dct:creator vocang:bragariAlexandru .
