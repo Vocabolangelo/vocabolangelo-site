@@ -1,5 +1,35 @@
 # Changelog
 
+## [2.2.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v2.1.0...v2.2.0) (2022-12-15)
+
+
+### Features
+
+* **concept:** add acquaffè ([9236fe5](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/9236fe5af254a659f08b5f5f4986b31b1e75ffcf))
+* **concept:** add avodandolo ([c2f5796](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/c2f5796e2bf766c5856e3d76a7dc1a5802a71265))
+* **concept:** add bestemmiatoria ([08ce0ad](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/08ce0ad80667371e3c374718104c75c2bf17a66b))
+* **concept:** add calligrafite ([e4f1d1a](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/e4f1d1a2b2f006ce46a13f5f07168cd72036ea41))
+* **concept:** add carichezza ([5a78a53](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/5a78a5377930fe658d2bfa5c78d1e826b1383e4e))
+* **concept:** add collagna ([da582e5](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/da582e51added1945543a75058c86ce44a5e8589))
+* **concept:** add controrabbia ([5f89645](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/5f8964531414a494f649d3d275e63e622039c50a))
+* **concept:** add fabriangolo ([365bc26](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/365bc26bf8eaf6313131ddf21294ab8b06e93892))
+* **concept:** add febbrene ([35e3cec](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/35e3cec87d03b3b463e5f4663743dbe05bb54327))
+* **concept:** add genomiccio ([d7d6734](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/d7d67344f98757fdb06ee4aca48e1e429a93a7b1))
+* **concept:** add inevece ([fc4d5c5](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/fc4d5c5c7e98d0fa4e68f4038455ce064f7d3e02))
+* **concept:** add pistacchiamento ([9744ea7](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/9744ea7bd8b40adeccd11de5a4a30bdf9c4a402f))
+* **concept:** add pistaggio ([0629b39](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/0629b3991a08f68d48eea48c27ebc21489b44200))
+* **concept:** add stupidariano ([a41d92e](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/a41d92e3605554418f4fd69ac2253b50f50b5bb9))
+* **concept:** add tristabbiato ([04d9797](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/04d979762bd20f79177f9020e502717d8c59229f))
+* **concept:** add vocaboladmin ([c67ec13](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/c67ec13dad66ca2e793c9032717d9805337ea8bb))
+* **site:** add generic rule ([834bb01](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/834bb0191e0c7048eb938093da7bb52bfef75154))
+
+
+### Bug Fixes
+
+* **concept:** fabriangolo example typo ([a66b6c0](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/a66b6c0eeba7b40e4c51e44b326f38857c12e92f))
+* **site:** fix games broken link ([ccd36e5](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/ccd36e542d078ce7e4af7bf5ddbd2a9d9bcbe0ca))
+* **site:** word count in author page ([e85fb19](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/e85fb1963463ff9e4bae540942e06353272a7c80))
+
 ## [2.1.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v2.0.0...v2.1.0) (2022-12-08)
 
 
