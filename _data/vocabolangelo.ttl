@@ -1702,7 +1702,6 @@ vocang:stupidariano
     dct:created "2022-12-15" ;
     dct:creator vocang:bragariAlexandru, vocang:omiccioliRiccardo .
 
-
 vocang:collagna
     a skos:Concept ;
     skos:prefLabel "Collagna"@it ;
@@ -1712,3 +1711,11 @@ vocang:collagna
     skos:example "Quella collagna è piuttosto alta!"@it , "Mi sono rotto di questa vita, voglio rifugiarmi su una collagna!";
     dct:created "2022-12-15" ;
     dct:creator vocang:battaglinoNicole .
+
+vocang:carichezza
+    a skos:Concept ;
+    skos:prefLabel "Carichezza"@it ;
+    skos:definition "Sensazione di energia che fa riferimento al fatto di sentirsi carichi."@it ;
+    skos:example "Oggi sono pieno di energie, sento la carichezza!";
+    dct:created "2022-12-15" ;
+    dct:creator vocang:pertosaLorenzo .
