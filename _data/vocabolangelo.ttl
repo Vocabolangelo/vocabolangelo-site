@@ -1778,3 +1778,10 @@ vocang:cafferettaa
     skos:example "La cafferetta è una versione alternativa del cafferillo... Ma anche della moretta!";
     dct:created "2022-12-18" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:falconafrica
+    a skos:Concept ;
+    skos:prefLabel "Falconafrica"@it ;
+    skos:definition "Nome alternativo per la città di Falconara derivante dalla grande presenza di abitanti proveniente dal nord Africa."@it ;
+    skos:example "Sono sceso dall'autobus l'altro giorno e mi sembrava di trovarmi in un suk del Marocco, d'altronde ero a Falconafrica";
+    dct:created "2022-12-17" .
