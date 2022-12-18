@@ -80,6 +80,7 @@ vocang:pertosaLorenzo
     foaf:firstName "Lorenzo" ;
     foaf:lastName "Pertosa" ;
     foaf:nick "P" ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/pertosaLorenzo.jpg" ;
     rel:friendOf vocang:timpanoSam , vocang:ribaudoSofia .
 
 vocang:timpanoSam
@@ -106,6 +107,7 @@ vocang:orlandoNicola
     foaf:firstName "Nicola" ;
     foaf:lastName "Orlando" ;
     foaf:nick "Orla" ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/orlandoNicola.jpg" ;
     rel:friendOf vocang:bragariAlexandru, vocang:talmiAlessandro, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo .
 
 vocang:adantiMatteo
@@ -1775,4 +1777,4 @@ vocang:cafferettaa
     skos:definition "Ricetta della moretta fanese eseguita utilizzando il cafferillo al posto del normale caffè."@it ;
     skos:example "La cafferetta è una versione alternativa del cafferillo... Ma anche della moretta!";
     dct:created "2022-12-18" ;
-    dct:creator  vocang:filasetaAngelo .
+    dct:creator vocang:filasetaAngelo .
