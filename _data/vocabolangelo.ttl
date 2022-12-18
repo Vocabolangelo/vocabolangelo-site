@@ -1760,3 +1760,11 @@ vocang:afame
     dct:created "2022-12-17" ;
     skos:related vocang:avita ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:cuccorema
+    a skos:Concept ;
+    skos:prefLabel "Cuccorema"@it ;
+    skos:definition "Teorema universale dell'esistenza secondo cui se un ragazzo si fidanza, da quel momento risulta più attraente agli occhi delle altre persone (soprattutto se del sesso opposto) anche se fino a quel momento non era affatto così."@it ;
+    skos:example "Anche se non è possibile dimostrarlo, io credo che il cuccorema funzioni sempre.";
+    dct:created "2022-12-18" ;
+    dct:creator  vocang:filasetaAngelo , vocang:pertosaLorenzo .
