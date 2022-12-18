@@ -1,5 +1,23 @@
 # Changelog
 
+## [3.0.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v2.2.0...v3.0.0) (2022-12-18)
+
+
+### ⚠ BREAKING CHANGES
+
+* **site:** image support
+
+### Features
+
+* **concept:** add afame ([f46a4da](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/f46a4dad7711ab0c070d4ca0c8eae4fb69eac7c8))
+* **concept:** add elasticazzo ([a71885b](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/a71885b9bf20106cb3ed2271da1d8c2381c5fa38))
+* **concept:** add image to ghiaccimi ([cf78c6a](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/cf78c6a0318361cf6b74fc4c415b88eaf1491a5a))
+* **concept:** add prepuzzo ([4b11cbc](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/4b11cbc3d46c314de25acf38829f777b3f560455))
+* **image:** add filassetaAngelo and savoGiorgia images ([173a2fd](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/173a2fd2d7554558250ef1c4d94a09018d75470f))
+* **image:** add ghiaccimi image ([c9fd372](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/c9fd372ddc827423d63027be4e2806412a171b07))
+* **site:** add image support to author page ([f0dc837](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/f0dc837e6fd3ad7ed4ce1b92a36bef4501762094))
+* **site:** image support ([eee2721](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/eee272119078c40da128c669d849ac874c09c71e))
+
 ## [2.2.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v2.1.0...v2.2.0) (2022-12-15)
 
 
