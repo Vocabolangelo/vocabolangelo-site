@@ -1745,3 +1745,12 @@ vocang:prepuzzo
     dct:created "2022-12-14" ;
     skos:related vocang:elasticazzo, vocang:oscuretra ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:afame
+    a skos:Concept ;
+    skos:prefLabel "Afame"@it ;
+    skos:definition "Assenza di fame."@it ;
+    skos:example " L'afame non è assolutamente un problema mondiale.";
+    dct:created "2022-12-17" ;
+    skos:related vocang:avita ;
+    dct:creator vocang:filasetaAngelo .
