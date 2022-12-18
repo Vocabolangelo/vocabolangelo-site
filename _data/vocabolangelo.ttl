@@ -1461,7 +1461,7 @@ vocang:ghiaccimi
     skos:prefLabel "Ghiaccimi"@it ;
     skos:definition "Sashimi servito con abbondante ghiaccio."@it ;
     skos:example "D'estate non c'è niente di meglio che ordinare il ghiaccimi all'All You Can Eat!"@it ;
-    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/ghiaccimi.jpg" ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/ghiaccimi.jpg" ;
     dct:created "2022-11-30" ;
     dct:creator vocang:orlandoNicola .
 

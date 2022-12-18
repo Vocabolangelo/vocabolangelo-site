@@ -2,7 +2,7 @@
 rdf_prefix_path: "_data/prefixes.sparql"
 layout: rdf_layout
 ---
-
+{% assign prefLabel = page.rdf | rdf_property: 'skos:prefLabel' %}
 {% assign definitionSet = page.rdf | rdf_property: 'skos:definition', nil, true %}
 {% if definitionSet %}
 <section>
@@ -45,6 +45,23 @@ layout: rdf_layout
                     {{ c | rdf_property: 'foaf:lastName' }} {{ c | rdf_property: 'foaf:firstName' }}
                 </a>
             </li>
+        {% endfor %}
+        </ul>
+    </div>
+</section>
+{% endif %}
+{% assign images = page.rdf | rdf_property: 'schema:image', nil, true %}
+{% if authors %}
+<section>
+    <header>
+        <h3>Immagini</h3>
+    </header>
+    <div class="content">
+        <ul>
+        {% for i in images %}
+            <span style="width: 60%; z-index: 0;" class="image left">
+                <img src="{{ i }}" alt="{{ prefLabel }}'s Images">
+            </span>
         {% endfor %}
         </ul>
     </div>
