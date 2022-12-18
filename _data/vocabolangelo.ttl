@@ -3,6 +3,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
 @prefix scot: <http://rdfs.org/scot/ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rel: <http://www.perceive.net/schemas/20021119/relationship/#> .
@@ -293,12 +294,12 @@ vocang:domanica
     dct:creator vocang:bragariAlexandru .
 
 vocang:dopodomanica
-a skos:Concept ;
-skos:prefLabel "Dopodomanica"@it ;
-skos:definition "Il giorno seguente a domanica, utilizzabile solo se il giorno seguente è Domenica per riferirsi a lunedì."@it ;
-skos:example "Domanica ho un impegno, possiamo vederci dopodomanica ?"@it ;
-skos:related vocang:domanica ;
-dct:creator vocang:bragariAlexandru .
+    a skos:Concept ;
+    skos:prefLabel "Dopodomanica"@it ;
+    skos:definition "Il giorno seguente a domanica, utilizzabile solo se il giorno seguente è Domenica per riferirsi a lunedì."@it ;
+    skos:example "Domanica ho un impegno, possiamo vederci dopodomanica ?"@it ;
+    skos:related vocang:domanica ;
+    dct:creator vocang:bragariAlexandru .
 
 vocang:brovedì
     a skos:Concept ;
@@ -1459,7 +1460,8 @@ vocang:ghiaccimi
     a skos:Concept ;
     skos:prefLabel "Ghiaccimi"@it ;
     skos:definition "Sashimi servito con abbondante ghiaccio."@it ;
-    skos:example "D'estate non c'è niente di meglio che ordinare il ghiaccimi all'All You Can Eat!"@it;
+    skos:example "D'estate non c'è niente di meglio che ordinare il ghiaccimi all'All You Can Eat!"@it ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/ghiaccimi.jpg" ;
     dct:created "2022-11-30" ;
     dct:creator vocang:orlandoNicola .
 
