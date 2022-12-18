@@ -597,6 +597,7 @@ vocang:urlatto
     skos:prefLabel "Urlatto"@it ;
     skos:definition "Un gatto che urla."@it ;
     skos:example "Sotto casa mia ci sono degli urlatti."@it ;
+     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/urlatto.jpg" ;
     dct:creator vocang:pertosaLorenzo .
 
 vocang:yoguovo
@@ -682,6 +683,7 @@ vocang:contanegrino
     skos:prefLabel "Contanegrino"@it ;
     skos:definition "Contadino con la carnagione scura."@it ;
     skos:example "Mio zio è un contanegrino."@it ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/contanegrino.jpg" ;
     dct:creator vocang:talmiAlessandro .
 
 vocang:tempoglia
@@ -696,6 +698,7 @@ vocang:angurianesimo
     skos:prefLabel "Angurianesimo"@it ;
     skos:definition "Un tipo di dieta molto più valida di quella vegetariana o vegana. Consiste nel mangiare circa 7kg di anguria al giorno, bucce e semi inclusi. I semi di anguria sono ricchi di vitamine, sali minerali e più contengono più proteine della carne. Inoltre si avrà a disposizione il 100% del ferro necessario in un giorno, cosa che invece i vegani e vegetariani devono integrare con le pillole."@it ;
     skos:example "Ho cominciato un nuovo tipo di dieta, si chiama angurianesimo."@it ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/uovograna.jpg" ;
     dct:creator vocang:bragariAlexandru .
 
 vocang:ispettrore
@@ -1791,7 +1794,7 @@ vocang:evidenziarello
     skos:prefLabel "Evidenziarello"@it ;
     skos:definition "Un articolo di cancelleria dato dall'unione di un evidenziatore e di un pennarello incollati tra loro."@it ;
     skos:example "Per risparmiare tempo durante lo studio ho creato un evidenziarello";
-    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/evidenziarello.jpeg" ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/evidenziarello.jpg" ;
     dct:created "2022-12-18" ;
     dct:creator vocang:pertosaLorenzo .
 
