@@ -1728,7 +1728,6 @@ vocang:inevece
     dct:created "2022-12-15" ;
     dct:creator vocang:bragariAlexandru .
 
-
 vocang:elasticazzo
     a skos:Concept ;
     skos:prefLabel "Elasticazzo"@it ;
@@ -1736,3 +1735,13 @@ vocang:elasticazzo
     skos:example "Il suo elasticazzo è impressionante, sembra davvero un elastico!";
     dct:created "2022-12-14" ;
     dct:creator vocang:omiccioliRiccardo, vocang:nardiniArianna .
+
+
+vocang:prepuzzo
+    a skos:Concept ;
+    skos:prefLabel "Prepuzzo"@it ;
+    skos:definition "Un prepuzio che emana un cattivo odore."@it ;
+    skos:example "Trovo che il prepuzzo sia una cosa molto poco sexy in un uomo.";
+    dct:created "2022-12-14" ;
+    skos:related vocang:elasticazzo, vocang:oscuretra ;
+    dct:creator vocang:omiccioliRiccardo .
