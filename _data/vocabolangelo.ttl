@@ -322,6 +322,7 @@ vocang:canillo
     skos:prefLabel "Canillo"@it ;
     skos:definition "Un cane che è stato addestrato per svolgere delle gare di corsa."@it ;
     skos:example "Il mio canillo è il più veloce del mondo."@it ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/canillo.jpg" ;
     skos:related vocang:canillodromo ;
     dct:creator vocang:filasetaAngelo .
 
@@ -516,6 +517,7 @@ vocang:scorciatroia
     skos:prefLabel "Scorciatroia"@it ;
     skos:definition "Un percorso che, tra due località, risulta sembrare più breve della strada più importante, ma è in realtà più lunga."@it ;
     skos:example "Sapevo che era una scorciatroia! Ora faremo in ritardo..."@it ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/scorciatroia.jpg" ;
     dct:creator vocang:filasetaAngelo .
 
 vocang:singhiozzutto
