@@ -1794,3 +1794,11 @@ vocang:evidenziarello
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/evidenziarello.jpeg" ;
     dct:created "2022-12-18" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:fermodoio
+    a skos:Concept ;
+    skos:prefLabel "Fermodoio"@it ;
+    skos:definition "Un corridoio molto corto nel quale non è possibile appunto correre."@it ;
+    skos:example "Ho fatto rimuovere dalla mia casa quel fermodoio.";
+    dct:created "2022-12-18" ;
+    dct:creator vocang:omiccioliRiccardo .
