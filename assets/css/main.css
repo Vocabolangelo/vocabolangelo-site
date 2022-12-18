@@ -2640,8 +2640,13 @@ input, select, textarea {
 		}
 
 		.image.left, .image.right {
-			width: 40%;
-			max-width: 20rem;
+			width: 50%;
+		}
+
+		@media (max-width:720px) {
+			.image.left, .image.right {
+				width: 100%;
+			}
 		}
 
 			.image.left img, .image.right img {
