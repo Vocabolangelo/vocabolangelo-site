@@ -1727,3 +1727,12 @@ vocang:inevece
     skos:example "Questo esempio è molto bello, inevece è anche molto bello!";
     dct:created "2022-12-15" ;
     dct:creator vocang:bragariAlexandru .
+
+
+vocang:elasticazzo
+    a skos:Concept ;
+    skos:prefLabel "Elasticazzo"@it ;
+    skos:definition "Un pene molto flessibile."@it ;
+    skos:example "Il suo elasticazzo è impressionante, sembra davvero un elastico!";
+    dct:created "2022-12-14" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:nardiniArianna .
