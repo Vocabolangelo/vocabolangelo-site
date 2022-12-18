@@ -12,6 +12,23 @@ layout: rdf_layout
 	}
 	ORDER BY ?label'
 %}
+{% assign images = page.rdf | rdf_property: 'schema:image', nil, true %}
+{% if images %}
+<section>
+    <header>
+        <h3>Foto</h3>
+    </header>
+    <div class="content">
+        <ul>
+        {% for i in images %}
+            <span class="image left">
+                <img style="border-radius: 50%;" src="{{ i }}" alt="{{ prefLabel }}'s Image">
+            </span>
+        {% endfor %}
+        </ul>
+    </div>
+</section>
+{% endif %}
 {% assign wordCount = 0 %}
 {% assign resultset = page.rdf | sparql_query: query %}
 {% if resultset %}

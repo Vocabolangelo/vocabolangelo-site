@@ -41,6 +41,7 @@ vocang:filasetaAngelo
     foaf:firstName "Angelo" ;
     foaf:lastName "Filaseta" ;
     foaf:nick "Ange" ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/filasetaAngelo.jpeg" ;
     rel:friendOf vocang:bragariAlexandru , vocang:battaglinoNicole , vocang:omiccioliRiccardo , vocang:pertosaLorenzo , vocang:timpanoSam , vocang:ribaudoSofia ;
     rel:spouseOf vocang:savoGiorgia .
 
@@ -49,6 +50,7 @@ vocang:savoGiorgia
     foaf:firstName "Giorgia" ;
     foaf:lastName "Savo" ;
     foaf:nick "GioGio" ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/savoGiorgia.jpg" ;
     rel:friendOf vocang:bragariAlexandru , vocang:battaglinoNicole , vocang:omiccioliRiccardo , vocang:pertosaLorenzo, vocang:timpanoSam , vocang:ribaudoSofia .
 
 vocang:bragariAlexandru

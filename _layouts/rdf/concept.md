@@ -51,7 +51,7 @@ layout: rdf_layout
 </section>
 {% endif %}
 {% assign images = page.rdf | rdf_property: 'schema:image', nil, true %}
-{% if authors %}
+{% if images %}
 <section>
     <header>
         <h3>Immagini</h3>
@@ -59,8 +59,8 @@ layout: rdf_layout
     <div class="content">
         <ul>
         {% for i in images %}
-            <span style="width: 60%; z-index: 0;" class="image left">
-                <img src="{{ i }}" alt="{{ prefLabel }}'s Images">
+            <span class="image left">
+                <img src="{{ i }}" alt="Profile Image">
             </span>
         {% endfor %}
         </ul>
