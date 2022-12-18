@@ -1805,3 +1805,11 @@ vocang:fermodoio
     skos:example "Ho fatto rimuovere dalla mia casa quel fermodoio.";
     dct:created "2022-12-18" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:buguardo
+    a skos:Concept ;
+    skos:prefLabel "Buguardo"@it ;
+    skos:definition "Una persona che dice una bugia appositamente solo perché offeso e permaloso."@it ;
+    skos:example "\"Sono arrabbiato con te\" \"Non è vero sei un buguardo!\"";
+    dct:created "2022-12-18" ;
+    dct:creator vocang:filasetaAngelo .
