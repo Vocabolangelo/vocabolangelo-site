@@ -1785,3 +1785,12 @@ vocang:falconafrica
     skos:definition "Nome alternativo per la città di Falconara derivante dalla grande presenza di abitanti proveniente dal nord Africa."@it ;
     skos:example "Sono sceso dall'autobus l'altro giorno e mi sembrava di trovarmi in un suk del Marocco, d'altronde ero a Falconafrica";
     dct:created "2022-12-17" .
+
+vocang:evidenziarello
+    a skos:Concept ;
+    skos:prefLabel "Evidenziarello"@it ;
+    skos:definition "Un articolo di cancelleria dato dall'unione di un evidenziatore e di un pennarello incollati tra loro."@it ;
+    skos:example "Per risparmiare tempo durante lo studio ho creato un evidenziarello";
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/evidenziarello.jpeg" ;
+    dct:created "2022-12-18" ;
+    dct:creator vocang:pertosaLorenzo .
