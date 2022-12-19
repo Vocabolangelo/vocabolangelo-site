@@ -1828,4 +1828,14 @@ vocang:baguettile
     skos:definition "Baguette dura o congelata utilizzata come proiettile per ferire qualcuno."@it ;
     skos:example "Finiti i colpi di cannone l'esercito francese fece ricorso ai baguettili devastando gli avversari."@it ;
     dct:created "2022-12-18" ;
+    skos:related vocang:franceficina ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:Manganuette
+    a skos:Concept ;
+    skos:prefLabel "Manganuette"@it ;
+    skos:definition "Baguettile utilizzata come oggetto contundente."@it ;
+    skos:example "Quei maledetti sbirri francesi hanno usato dei manganuette contro quelle persone di colore."@it ;
+    skos:related vocang:baguettile, vocang:franceficina ;
+    dct:created "2022-12-18" ;
+    dct:creator vocang:orlandoNicola .
