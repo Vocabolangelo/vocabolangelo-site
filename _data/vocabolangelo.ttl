@@ -1821,3 +1821,11 @@ vocang:franceficina
     skos:example "Il panettiere mi ha venduto per sbaglio una baguette ma io odio le odio, per rappresaglia sto per compiere una franceficina."@it ;
     dct:created "2022-12-18" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:baguettile
+    a skos:Concept ;
+    skos:prefLabel "Baguettile"@it ;
+    skos:definition "Baguette dura o congelata utilizzata come proiettile per ferire qualcuno."@it ;
+    skos:example "Finiti i colpi di cannone l'esercito francese fece ricorso ai baguettili devastando gli avversari."@it ;
+    dct:created "2022-12-18" ;
+    dct:creator vocang:omiccioliRiccardo .
