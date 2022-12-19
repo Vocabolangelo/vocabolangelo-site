@@ -1813,3 +1813,11 @@ vocang:buguardo
     skos:example "\"Sono arrabbiato con te\" \"Non è vero sei un buguardo!\"";
     dct:created "2022-12-18" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:franceficina
+    a skos:Concept ;
+    skos:prefLabel "Franceficina"@it ;
+    skos:definition "Carneficina di francesi"@it ;
+    skos:example "Il panettiere mi ha venduto per sbaglio una baguette ma io odio le odio, per rappresaglia sto per compiere una franceficina."@it ;
+    dct:created "2022-12-18" ;
+    dct:creator vocang:pertosaLorenzo .
