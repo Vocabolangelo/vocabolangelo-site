@@ -1880,4 +1880,14 @@ vocang:cafferimilla
     skos:definition "Bevanda ottenuta mischiando cafferillo e camomilla."@it ;
     skos:example "Se vuoi agitarti e calmarti allo stesso tempo, basta che ti prepari una cafferimilla."@it ;
     dct:created "2022-12-19" ;
+    skos:related vocang:cafferillo ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:orzillo
+    a skos:Concept ;
+    skos:prefLabel "Orzillo"@it ;
+    skos:definition "Una variante di caffè mischiato con sciroppo di mirtillo."@it ;
+    skos:example "Preferisco il cafferillo all'orzillo."@it ;
+    dct:created "2022-12-21" ;
+    skos:related vocang:cafferillo ;
+    dct:creator vocang:filasetaAngelo .
