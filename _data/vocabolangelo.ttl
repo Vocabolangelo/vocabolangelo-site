@@ -1846,6 +1846,7 @@ vocang:contamontenegrino
     skos:definition "Contadino con la carnagione scura montenegrino (abitante del Montenegro). Sostanzialmente una specializzaione del contanegrino."@it;
     skos:example "Mio zio è un contamontenegrino."@it ;
     skos:related vocang:contanegrino ;
+    dct:created "2022-12-19" ;
     dct:creator vocang:pertosaLorenzo, vocang:omiccioliRiccardo .
 
 vocang:marenegrino
@@ -1854,6 +1855,7 @@ vocang:marenegrino
     skos:definition "Guardia di carnagione scura il cui mestiere è controllare le spiagge di notte."@it ;
     skos:example "Mio zio è un marenegrino."@it, "Ieri notte mi sono sdraiato su un lettino in spiaggia, quando improvvisamente un marenegrino mi ha puntato una torcia in faccia, non l'ho visto arrivare!"@it;
     skos:related vocang:contanegrino, vocang:contamontenegrino ;
+    dct:created "2022-12-19" ;
     dct:creator vocang:pertosaLorenzo, vocang:omiccioliRiccardo .
 
 vocang:bresciamella
@@ -1861,6 +1863,7 @@ vocang:bresciamella
     skos:prefLabel "Bresciamella"@it ;
     skos:definition "Besciamella cucinata nella città di Brescia."@it ;
     skos:example "La bresciamella è generalmente più buona della normale besciamella."@it ;
+    dct:created "2022-12-20" ;
     dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
 
 vocang:sboccaffè
@@ -1868,12 +1871,13 @@ vocang:sboccaffè
     skos:prefLabel "Sboccaffè"@it ;
     skos:definition "Bevanda ottenuta mischiando caffè, succo di limone e sale, assunta a scopo emetico."@it ;
     skos:example "Quel coecrita di Sasha ha mangiato le bacche che crescono in quel cespuglio, gli preparo subito uno sboccaffè per fargli la lavanda gastrica."@it ;
+    dct:created "2022-12-19" ;
     dct:creator vocang:pertosaLorenzo .
-
 
 vocang:cafferimilla
     a skos:Concept ;
     skos:prefLabel "Cafferimilla"@it ;
     skos:definition "Bevanda ottenuta mischiando cafferillo e camomilla."@it ;
     skos:example "Se vuoi agitarti e calmarti allo stesso tempo, basta che ti prepari una cafferimilla."@it ;
+    dct:created "2022-12-19" ;
     dct:creator vocang:pertosaLorenzo .
