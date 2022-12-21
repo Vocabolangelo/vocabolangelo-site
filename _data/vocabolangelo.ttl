@@ -1862,3 +1862,18 @@ vocang:bresciamella
     skos:definition "Besciamella cucinata nella città di Brescia."@it ;
     skos:example "La bresciamella è generalmente più buona della normale besciamella."@it ;
     dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
+
+vocang:sboccaffè
+    a skos:Concept ;
+    skos:prefLabel "Sboccaffè"@it ;
+    skos:definition "Bevanda ottenuta mischiando caffè, succo di limone e sale, assunta a scopo emetico."@it ;
+    skos:example "Quel coecrita di Sasha ha mangiato le bacche che crescono in quel cespuglio, gli preparo subito uno sboccaffè per fargli la lavanda gastrica."@it ;
+    dct:creator vocang:pertosaLorenzo .
+
+
+vocang:cafferimilla
+    a skos:Concept ;
+    skos:prefLabel "Cafferimilla"@it ;
+    skos:definition "Bevanda ottenuta mischiando cafferillo e camomilla."@it ;
+    skos:example "Se vuoi agitarti e calmarti allo stesso tempo, basta che ti prepari una cafferimilla."@it ;
+    dct:creator vocang:pertosaLorenzo .
