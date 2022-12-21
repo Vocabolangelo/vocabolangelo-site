@@ -1855,3 +1855,10 @@ vocang:marenegrino
     skos:example "Mio zio è un marenegrino."@it ;
     skos:related vocang:contanegrino, vocang:contamontenegrino ;
     dct:creator vocang:pertosaLorenzo, vocang:omiccioliRiccardo .
+
+vocang:bresciamella
+    a skos:Concept ;
+    skos:prefLabel "Bresciamella"@it ;
+    skos:definition "Besciamella cucinata nella città di Brescia."@it ;
+    skos:example "La bresciamella è generalmente più buona della normale besciamella."@it ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
