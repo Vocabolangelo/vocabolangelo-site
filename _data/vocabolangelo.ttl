@@ -1839,3 +1839,11 @@ vocang:manganuette
     skos:related vocang:baguettile, vocang:franceficina ;
     dct:created "2022-12-18" ;
     dct:creator vocang:orlandoNicola .
+
+vocang:contamontenegrino
+    a skos:Concept ;
+    skos:prefLabel "Contamontenegrino"@it ;
+    skos:definition "Contadino con la carnagione scura montenegrino (abitante del Montenegro). Sostanzialmente una specializzaione del contanegrino."@it;
+    skos:example "Mio zio è un contamontenegrino."@it ;
+    skos:related vocang:contanegrino ;
+    dct:creator vocang:pertosaLorenzo, vocang:omiccioliRiccardo .
