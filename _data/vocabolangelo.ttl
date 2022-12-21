@@ -1852,7 +1852,7 @@ vocang:marenegrino
     a skos:Concept ;
     skos:prefLabel "Marenegrino"@it ;
     skos:definition "Guardia di carnagione scura il cui mestiere è controllare le spiagge di notte."@it ;
-    skos:example "Mio zio è un marenegrino."@it ;
+    skos:example "Mio zio è un marenegrino."@it, "Ieri notte mi sono sdraiato su un lettino in spiaggia, quando improvvisamente un marenegrino mi ha puntato una torcia in faccia, non l'ho visto arrivare!"@it;
     skos:related vocang:contanegrino, vocang:contamontenegrino ;
     dct:creator vocang:pertosaLorenzo, vocang:omiccioliRiccardo .
 
