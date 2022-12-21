@@ -1847,3 +1847,11 @@ vocang:contamontenegrino
     skos:example "Mio zio è un contamontenegrino."@it ;
     skos:related vocang:contanegrino ;
     dct:creator vocang:pertosaLorenzo, vocang:omiccioliRiccardo .
+
+vocang:marenegrino
+    a skos:Concept ;
+    skos:prefLabel "Marenegrino"@it ;
+    skos:definition "Guardia di carnagione scura il cui mestiere è controllare le spiagge di notte."@it ;
+    skos:example "Mio zio è un marenegrino."@it ;
+    skos:related vocang:contanegrino, vocang:contamontenegrino ;
+    dct:creator vocang:pertosaLorenzo, vocang:omiccioliRiccardo .
