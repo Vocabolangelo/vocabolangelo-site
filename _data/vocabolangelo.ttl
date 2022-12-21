@@ -681,10 +681,10 @@ vocang:vibridi
 vocang:contanegrino
     a skos:Concept ;
     skos:prefLabel "Contanegrino"@it ;
-    skos:definition "Contadino con la carnagione scura."@it ;
+    skos:definition "Contadino con la carnagione scura."@it, "Contadino montenegrino (abitante del Montenegro)."@it ;
     skos:example "Mio zio è un contanegrino."@it ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/contanegrino.jpg" ;
-    dct:creator vocang:talmiAlessandro .
+    dct:creator vocang:talmiAlessandro, vocang:pertosaLorenzo, vocang:omiccioliRiccardo .
 
 vocang:tempoglia
     a skos:Concept ;
@@ -1831,7 +1831,7 @@ vocang:baguettile
     skos:related vocang:franceficina ;
     dct:creator vocang:omiccioliRiccardo .
 
-vocang:Manganuette
+vocang:manganuette
     a skos:Concept ;
     skos:prefLabel "Manganuette"@it ;
     skos:definition "Baguettile utilizzata come oggetto contundente."@it ;
