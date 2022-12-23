@@ -1891,3 +1891,20 @@ vocang:orzillo
     dct:created "2022-12-21" ;
     skos:related vocang:cafferillo ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:orzillo
+    a skos:Concept ;
+    skos:prefLabel "Orzillo"@it ;
+    skos:definition "Una variante di caffè mischiato con sciroppo di mirtillo."@it ;
+    skos:example "Preferisco il cafferillo all'orzillo."@it ;
+    dct:created "2022-12-21" ;
+    skos:related vocang:cafferillo ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:coppinovia
+    a skos:Concept ;
+    skos:prefLabel "Coppinovia"@it ;
+    skos:definition "Una seggiovia che appena lascia a destinazione un soggetto lo colpisce in modo violento alla nuca."@it ;
+    skos:example "Stavo scendendo dall'impianto quando improvvisamente ho sentito un colpo dietro la testa. Fu a quel punto che realizzai di aver preso una coppinovia."@it ;
+    dct:created "2022-12-23" ;
+    dct:creator vocang:pertosaLorenzo .
