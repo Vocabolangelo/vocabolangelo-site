@@ -1916,3 +1916,11 @@ vocang:laggatto
     skos:example "Il mio laggatto non riesce mai a catturare animali."@it ;
     dct:created "2022-12-23" ;
     dct:creator vocang:orlandoNicola .
+
+vocang:kebabbo
+    a skos:Concept ;
+    skos:prefLabel "Kebabbo"@it ;
+    skos:definition "Un kebabbaro che possiede almeno un figlio."@it ;
+    skos:example "In università invidiano tutti il pranzo che il mio kebabbo mi prepara."@it ;
+    dct:created "2022-12-23" ;
+    dct:creator vocang:omiccioliRiccardo , vocang:orlandoNicola .
