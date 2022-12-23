@@ -1924,3 +1924,11 @@ vocang:kebabbo
     skos:example "In università invidiano tutti il pranzo che il mio kebabbo mi prepara."@it ;
     dct:created "2022-12-23" ;
     dct:creator vocang:omiccioliRiccardo , vocang:orlandoNicola .
+
+vocang:spreferito
+    a skos:Concept ;
+    skos:prefLabel "Spreferito"@it ;
+    skos:definition "Il contrario di preferito"@it, "Qualcosa che si odia, che si disprezza, che non è di gradimento."@it ;
+    skos:example "Le olive sono il mio cibo spreferito."@it ;
+    dct:created "2022-12-23" ;
+    dct:creator vocang:omiccioliRiccardo .
