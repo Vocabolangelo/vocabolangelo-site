@@ -1930,5 +1930,14 @@ vocang:spreferito
     skos:prefLabel "Spreferito"@it ;
     skos:definition "Il contrario di preferito"@it, "Qualcosa che si odia, che si disprezza, che non è di gradimento."@it ;
     skos:example "Le olive sono il mio cibo spreferito."@it ;
-    dct:created "2022-12-23" ;
+    dct:created "2022-12-22" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:merenzare
+    a skos:Concept ;
+    skos:prefLabel "Merenzare"@it ;
+    skos:definition "Pranzare tardi, ovvero nel pomeriggio, orario nel quale di solito si fa merenda. Simile a prenare ma nel pomeriggio."@it ;
+    skos:example "Questa mattina sono stato impegnato quindi ho merenzato alle 16:30."@it ;
+    dct:created "2022-12-21" ;
+    skos:related vocang:prenare ;
     dct:creator vocang:omiccioliRiccardo .
