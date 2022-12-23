@@ -1908,3 +1908,11 @@ vocang:coppinovia
     skos:example "Stavo scendendo dall'impianto quando improvvisamente ho sentito un colpo dietro la testa. Fu a quel punto che realizzai di aver preso una coppinovia."@it ;
     dct:created "2022-12-23" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:laggatto
+    a skos:Concept ;
+    skos:prefLabel "Laggatto"@it ;
+    skos:definition "Un gatto che possiede dei pessimi riflessi."@it ;
+    skos:example "Il mio laggatto non riesce mai a catturare animali."@it ;
+    dct:created "2022-12-23" ;
+    dct:creator vocang:orlandoNicola .
