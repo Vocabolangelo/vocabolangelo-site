@@ -58,7 +58,7 @@ vocang:bragariAlexandru
     foaf:firstName "Alexandru" ;
     foaf:lastName "Bragari" ;
     foaf:nick "Sasha" ;
-    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/bragariAlexandru.jpeg" ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/bragariAlexandru.jpg" ;
     rel:friendOf vocang:battaglinoNicole , vocang:omiccioliRiccardo , vocang:pertosaLorenzo , vocang:timpanoSam , vocang:ribaudoSofia .
 
 vocang:battaglinoNicole
