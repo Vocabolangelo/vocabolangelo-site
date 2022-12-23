@@ -1,5 +1,41 @@
 # Changelog
 
+## [3.1.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v3.0.0...v3.1.0) (2022-12-23)
+
+
+### Features
+
+* **concept:** add baguettile ([930dc5e](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/930dc5e6ef4d240b81040be9e708f0ec74f8bedd))
+* **concept:** add bresciamella ([0ba36ae](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/0ba36ae8e3994b28247cab937f4287545884cd86))
+* **concept:** add buguardo ([8d40222](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/8d4022235dccad25d4d263f46005f7b41b8df3db))
+* **concept:** add cafferetta ([b8e01bb](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/b8e01bb9c61ae00dea6eceb7f3e4aa5db9ad38cb))
+* **concept:** add contamontenegrino ([b987b43](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/b987b43f2542cb98af6349e1812d58128929e709))
+* **concept:** add coppinovia ([af6b715](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/af6b715ec112a457a5af7100832add26624eb56b))
+* **concept:** add cuccorema ([0a858b9](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/0a858b978cb6ed82212804f24976ec0570510468))
+* **concept:** add evidenziarello ([17e4764](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/17e4764a7643965ac42faba64393c44f23c20f41))
+* **concept:** add falconafrica ([f148c98](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/f148c98e8b586b9cd7ca337279c1eae1eac2133e))
+* **concept:** add fermodio ([9bd3433](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/9bd3433ba0a05682311fa6547e252a7ced2caf6e))
+* **concept:** add franceficina ([4ce6544](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/4ce65444f2c402eeb2c3b59f5f17cda19076ae80))
+* **concept:** add kebabbo ([21fa57c](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/21fa57cc3519be0dcea42b6e33a14f439d060701))
+* **concept:** add laggatto ([fd1c850](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/fd1c850ad6c02c2e828f20e38ef303f86d2b36ce))
+* **concept:** add manganuette ([2ebe3e1](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/2ebe3e1a3603677c40c47eddaede328f41591ef0))
+* **concept:** add marenegrino ([87f6609](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/87f660991d2184410cfa62a698873b91a7eaf64a))
+* **concept:** add merenzare ([d414fba](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/d414fba98a2dd818dd2e7f8b65ba3ae1e384f5db))
+* **concept:** add new definition to contanegrino ([3fad0f9](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/3fad0f93851c57fb5d0adb35da95ffd83133f077))
+* **concept:** add orzillo ([9e856d6](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/9e856d6b1bcbdd521b52066eff653e01d5fa6717))
+* **concept:** add sboccaffè and cafferimilla ([9ff2b63](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/9ff2b6343a8c241acffcefa2bdc3b5f0a6bf2d6a))
+* **concept:** add spreferito ([b6409b6](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/b6409b6d143de74b97815ed1ea992172df934c3e))
+* **site:** add authors section ([e73e3cf](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/e73e3cf00b3586fab9a7186a75c449e8cebb4663))
+* **site:** add metamodel section ([bc5ed18](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/bc5ed1822a1dcfe361184b1f79c252a8ccbbcd66))
+* **site:** add new sections to index ([4a15a8d](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/4a15a8d21f539c92a9eed32457435deb65b3ce66))
+* **site:** add pertosaLorenzo and orlandoNicola propic ([718bf64](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/718bf64d0e7aeda34d3a6bb45410708824feaa8b))
+
+
+### Bug Fixes
+
+* **concept:** add missing dates ([88e526b](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/88e526bcb9dc4bf5fe02789d11b63287e9d2c64e))
+* **person:** typo in bragariAlexandru image ([8eec151](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/8eec1510671ba578419e4f85be73d40f0901b3e3))
+
 ## [3.0.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v2.2.0...v3.0.0) (2022-12-18)
 
 
