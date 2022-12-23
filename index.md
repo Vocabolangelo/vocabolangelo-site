@@ -1,4 +1,5 @@
 ---
+rdf_prefix_path: "_data/prefixes.sparql"
 ---
 <!--
 	Story by HTML5 UP
@@ -17,7 +18,9 @@
 			{% include sections/counter.md %}
 			{% include sections/games.md %}
 			{% include sections/discord.md %}
+			{% include sections/gallery.md %}
 			{% include sections/rules.md %}
+			{% include sections/metamodel.md %}
 			{% include footer.md %}
 		</div>
 	{% include script_common.md %}
