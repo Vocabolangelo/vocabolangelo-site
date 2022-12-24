@@ -94,7 +94,8 @@ vocang:timpanoSam
 vocang:ribaudoSofia
     a foaf:Person ;
     foaf:firstName "Sofia" ;
-    foaf:lastName "Ribaudo" .
+    foaf:lastName "Ribaudo" ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/ribaudoSofia.jpg" .
 
 vocang:talmiAlessandro
     a foaf:Person ;
