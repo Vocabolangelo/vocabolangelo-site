@@ -1976,3 +1976,12 @@ vocang:natalè
     skos:example "Quest'anno è stato strano festeggiare con un Natalè."@it ;
     dct:created "2022-12-25" ;
     dct:creator vocang:bdeouiEddy .
+
+vocang:nataleddy
+    a skos:Concept ;
+    skos:prefLabel "Nataleddy"@it ;
+    skos:definition "Un Narghilè preparato e utilizzato nel giorno di Natale utilizzato ad una festa in un contesto privato tra amici."@it ;
+    skos:example "Quest'anno è stato strano festeggiare con un nataleddy tutti insieme."@it ;
+    dct:created "2022-12-25" ;
+    skos:related vocang:narghileddy , vocang:natalè ;
+    dct:creator vocang:filasetaAngelo .
