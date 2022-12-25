@@ -1944,3 +1944,11 @@ vocang:merenzare
     dct:created "2022-12-21" ;
     skos:related vocang:prenare ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:birliardo
+    a skos:Concept ;
+    skos:prefLabel "Birliardo"@it ;
+    skos:definition "Gioco simile al beer pong ma con un tavolo da biliardo. Ad ogni palla in buca la squadra avversaria beve un alcolico."@it ;
+    skos:example "A capodanno pensavamo di giocare a birliardo."@it ;
+    dct:created "2022-12-22" ;
+    dct:creator vocang:omiccioliRiccardo .
