@@ -1952,3 +1952,11 @@ vocang:birliardo
     skos:example "A capodanno pensavamo di giocare a birliardo."@it ;
     dct:created "2022-12-22" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:ritardabile
+    a skos:Concept ;
+    skos:prefLabel "Ritardabile"@it ;
+    skos:definition "Una persona che presenta sia una disabilità fisica che una mentale."@it ;
+    skos:example "Mio cugino è nato ritardabile."@it ;
+    dct:created "2022-12-24" ;
+    dct:creator vocang:fanaraGiuliano .
