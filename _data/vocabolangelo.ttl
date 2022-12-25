@@ -66,6 +66,7 @@ vocang:battaglinoNicole
     foaf:firstName "Nicole" ;
     foaf:lastName "Battaglino" ;
     foaf:nick "Batta" ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/battaglinoNicole.jpg" ;
     rel:friendOf vocang:pertosaLorenzo , vocang:timpanoSam , vocang:ribaudoSofia ;
     rel:spouseOf vocang:omiccioliRiccardo .
 
