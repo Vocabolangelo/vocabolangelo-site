@@ -1968,3 +1968,11 @@ vocang:narghileddy
     skos:example "Non posso assolutamente mancare al narghileddy questo weekend."@it ;
     dct:created "2022-11-04" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:natalè
+    a skos:Concept ;
+    skos:prefLabel "Natalè"@it ;
+    skos:definition "Un Narghilè preparato e utilizzato nel giorno di Natale."@it ;
+    skos:example "Quest'anno è stato strano festeggiare con un Natalè."@it ;
+    dct:created "2022-12-25" ;
+    dct:creator vocang:bdeouiEddy .
