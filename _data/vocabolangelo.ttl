@@ -1960,3 +1960,11 @@ vocang:ritardabile
     skos:example "Mio cugino è nato ritardabile."@it ;
     dct:created "2022-12-24" ;
     dct:creator vocang:fanaraGiuliano .
+
+vocang:narghileddy
+    a skos:Concept ;
+    skos:prefLabel "Narghileddy"@it ;
+    skos:definition "Un narghilè utilizzato ad una festa in un contesto privato tra amici."@it ;
+    skos:example "Non posso assolutamente mancare al narghileddy questo weekend."@it ;
+    dct:created "2022-11-04" ;
+    dct:creator vocang:pertosaLorenzo .
