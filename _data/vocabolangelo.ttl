@@ -1985,3 +1985,20 @@ vocang:nataleddy
     dct:created "2022-12-25" ;
     skos:related vocang:narghileddy , vocang:natalè ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:preggia
+    a skos:Concept ;
+    skos:prefLabel "Preggia"@it ;
+    skos:definition "Una prigione molto grande, che sembra quasi una reggia."@it ;
+    skos:example "Non sarebbe poi così male finire in una preggia."@it ;
+    dct:created "2022-12-27" ;
+    dct:creator vocang:bragariAlexandru , vocang:battaglinoNicole .
+
+vocang:reggione
+    a skos:Concept ;
+    skos:prefLabel "Reggione"@it ;
+    skos:definition "Sinonimo di preggia."@it ;
+    skos:example "Non sarebbe poi così male finire in reggione."@it ;
+    dct:created "2022-12-27" ;
+    scot:synonym vocang:preggia ;
+    dct:creator vocang:bragariAlexandru , vocang:battaglinoNicole .
