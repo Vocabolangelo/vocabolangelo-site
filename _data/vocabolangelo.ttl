@@ -2010,3 +2010,12 @@ vocang:griglissa
     skos:example "Angelo ha detto di preferire la maionese al ketchup mentre mangiava lo spiedino, così la grigliata in campagna si è trasformata in una griglissa."@it ;
     dct:created "2022-12-28" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:semigriglissa
+    a skos:Concept ;
+    skos:prefLabel "Semigriglissa"@it ;
+    skos:definition "Una grigliata in cui avviene una semirissa."@it ;
+    skos:example "Angelo ha detto di preferire la maionese al ketchup mentre mangiava lo spiedino, così la grigliata in campagna si è trasformata in una semigriglissa, dato che ha deciso di non contrattaccare."@it ;
+    dct:created "2022-12-28" ;
+    skos:related vocang:griglissa , vocang:semirissa ;
+    dct:creator vocang:filasetaAngelo .
