@@ -2020,7 +2020,6 @@ vocang:semigriglissa
     skos:related vocang:griglissa , vocang:semirissa ;
     dct:creator vocang:filasetaAngelo .
 
-
 vocang:cacanzina
     a skos:Concept ;
     skos:prefLabel "Cacanzina"@it ;
@@ -2028,3 +2027,11 @@ vocang:cacanzina
     skos:example "Ho fatto una cacanzina a Napoli, mi hanno rubato l'orologio."@it ;
     dct:created "2022-12-28" ;
     dct:creator vocang:fanaraGiuliano .
+
+vocang:piedoccola
+    a skos:Concept ;
+    skos:prefLabel "Piedoccola"@it ;
+    skos:definition "Una coccola eseguita utilizzando solo i piedi."@it ;
+    skos:example "Amo le piedoccole di Nicole."@it ;
+    dct:created "2022-12-27" ;
+    dct:creator vocang:pertosaLorenzo .
