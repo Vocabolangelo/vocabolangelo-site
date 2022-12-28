@@ -2058,3 +2058,11 @@ vocang:sigaffe
     skos:example "Sasha è caduto e ha fatto una sigaffe."@it ;
     dct:created "2022-12-27" ;
     dct:creator vocang:pertosaLorenzo , vocang:filasetaAngelo .
+
+vocang:annangelo
+    a skos:Concept ;
+    skos:prefLabel "Annangelo"@it ;
+    skos:definition "Termine alternativo per riferisi ad un anno."@it ;
+    skos:example "Felice annangelo nuovo!"@it ;
+    dct:created "2022-12-28" ;
+    dct:creator vocang:deRosaLeonardo .
