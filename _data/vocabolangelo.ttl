@@ -2035,3 +2035,20 @@ vocang:piedoccola
     skos:example "Amo le piedoccole di Nicole."@it ;
     dct:created "2022-12-27" ;
     dct:creator vocang:pertosaLorenzo .
+
+
+vocang:piedoccola
+    a skos:Concept ;
+    skos:prefLabel "Piedoccola"@it ;
+    skos:definition "Una coccola eseguita utilizzando solo i piedi."@it ;
+    skos:example "Amo le piedoccole di Nicole."@it ;
+    dct:created "2022-12-27" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:sigaffe
+    a skos:Concept ;
+    skos:prefLabel "Sigaffe"@it ;
+    skos:definition "Una gaffe che si fa mentre si sta fumando."@it ;
+    skos:example "Sasha è caduto e ha fatto una sigaffe."@it ;
+    dct:created "2022-12-27" ;
+    dct:creator vocang:pertosaLorenzo , vocang:filasetaAngelo .
