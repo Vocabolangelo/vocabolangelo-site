@@ -193,6 +193,12 @@ vocang:rossiLuca
     foaf:lastName "Rossi" ;
     rel:friendOf vocang:orlandoNicola, vocang:talmiAlessandro, vocang:omiccioliRiccardo, vocang:bragariAlexandru, vocang:filasetaAngelo .
 
+vocang:deRosaLeonardo
+    a foaf:Person ;
+    foaf:firstName "Leonardo" ;
+    foaf:lastName "De Rosa" ;
+    foaf:nick "Leo the 2nd" ;
+    rel:friendOf vocang:filasetaAngelo , vocang:paoliMichele , vocang:pertosaLorenzo .
 
 # Vocabolangelo Words Individuals
 
