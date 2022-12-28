@@ -2002,3 +2002,11 @@ vocang:reggione
     dct:created "2022-12-27" ;
     scot:synonym vocang:preggia ;
     dct:creator vocang:bragariAlexandru , vocang:battaglinoNicole .
+
+vocang:griglissa
+    a skos:Concept ;
+    skos:prefLabel "Griglissa"@it ;
+    skos:definition "Una grigliata in cui avviene una rissa."@it ;
+    skos:example "Angelo ha detto di preferire la maionese al ketchup mentre mangiava lo spiedino, così la grigliata in campagna si è trasformata in una griglissa."@it ;
+    dct:created "2022-12-28" ;
+    dct:creator vocang:pertosaLorenzo .
