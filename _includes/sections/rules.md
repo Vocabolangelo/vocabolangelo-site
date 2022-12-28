@@ -6,12 +6,18 @@
             <section>
                 <span class="icon style2 major fa-star"></span>
                 <h3>Innovativa</h3>
-                <p>La parola non deve già esistere nella lingua italiana.</p>
+                <p>
+                La parola non deve già esistere nella lingua italiana. <br>
+                È comunque possibile creare parole che siano sinonimi di parole italiane.
+                </p>
             </section>
             <section>
                 <span class="icon solid style2 major fa-gem"></span>
                 <h3>Compatta</h3>
-                <p>La parola non può contenere spazi.</p>
+                <p>
+                La parola non deve contenere spazi.
+                Parole divise con un separatore come il trattino (-) potrebbero essere prese in considerazione.
+                </p>
             </section>
             <section>
                 <span class="icon solid style2 major fa-comment-dots"></span>
@@ -22,6 +28,11 @@
                 <span class="icon solid style2 major fa-recycle"></span>
                 <h3>Generica</h3>
                 <p>La parola non deve riferirsi ad un individuo o ad un oggetto particolare in maniera troppo specifica.</p>
+            </section>
+            <section>
+                <span class="icon solid style2 major fa-skull-crossbones"></span>
+                <h3>Anti-Angelo</h3>
+                <p>È preferibile che la nuova parola non termini con "angelo".</p>
             </section>
         </div>
     </div>
