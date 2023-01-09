@@ -30,9 +30,19 @@
                 <p>La parola non deve riferirsi ad un individuo o ad un oggetto particolare in maniera troppo specifica.</p>
             </section>
             <section>
+                <span class="icon solid style2 major fa-ghost"></span>
+                <h3>Semplice</h3>
+                <p>La parola deve essere proposta nella sua forma più semplice, ad esempio al singolare in caso di sostantivo, all'infinito in caso di verbo, etc.</p>
+            </section>
+            <section>
                 <span class="icon solid style2 major fa-skull-crossbones"></span>
                 <h3>Anti-Angelo</h3>
-                <p>È preferibile che la nuova parola non termini con "angelo".</p>
+                <p>È preferibile che la nuova parola non termini con "angelo". Alcuni casi sono comunque presi in considerazione.</p>
+            </section>
+            <section>
+                <span class="icon solid style2 major fa-question"></span>
+                <h3>Assente</h3>
+                <p>Nel caso in cui la nuova parola sia una mancanza importante della lingua italiana, alcune regole possono essere infrante per favorirne l'inserimento.</p>
             </section>
         </div>
     </div>
