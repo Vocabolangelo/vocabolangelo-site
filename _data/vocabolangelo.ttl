@@ -2140,3 +2140,12 @@ vocang:aperigina
     skos:example "Sono stato punto da un'aperigina."@it ;
     dct:created "2023-01-01" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:pienante
+    a skos:Concept ;
+    skos:prefLabel "Pienante"@it ;
+    lexinfo:pronunciation "Piè • nan • te"@it ;
+    skos:definition "Qualcosa che rende pieno e soddisfatto, in qualsiasi modo, non solo in termini culinari."@it ;
+    skos:example "Quel cioccolatino mi ha reso veramente pienante."@it ;
+    dct:created "2023-01-02" ;
+    dct:creator vocang:savoGiorgia .
