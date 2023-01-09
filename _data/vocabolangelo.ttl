@@ -2320,3 +2320,21 @@ vocang:rivoluzionacaso
     skos:example "Durante il colpo di stato in Uruguay il leader del partito è morto, così hanno preso un rivoluzionacaso per strada e l'hanno eletto presidente."@it ;
     dct:created "2023-01-09" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:ziera
+    a skos:Concept ;
+    skos:prefLabel "Ziera"@it ;
+    lexinfo:pronunciation "/zié • ro/"@it ;
+    skos:definition "Soggetto rivoluzionario per caso, che si ritrova senza cognizione di ciò che sta compiendo."@it ;
+    skos:example "Durante il colpo di stato in Uruguay il leader del partito è morto, così hanno preso un rivoluzionacaso per strada e l'hanno eletto presidente."@it ;
+    dct:created "2023-01-09" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:ziere
+    a skos:Concept ;
+    skos:prefLabel "Ziere"@it ;
+    lexinfo:pronunciation "/zié • re/"@it ;
+    skos:definition "Zio che coltiva e mantiene pere."@it ;
+    skos:example "Andiamo a trovare ziere Thomas."@it ;
+    dct:created "2023-01-08" ;
+    dct:creator vocang:bragariAlexandru .
