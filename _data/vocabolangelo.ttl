@@ -2248,3 +2248,12 @@ vocang:olfattorgasmo
     skos:example "Annusarti mi causa sempre degli olfattorgasmi assurdi!"@it ;
     dct:created "2023-01-06" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:moroviglioso
+    a skos:Concept ;
+    skos:prefLabel "Moroviglioso"@it ;
+    lexinfo:pronunciation "/mo • ro • vi • glió • so/"@it ;
+    skos:definition "Complimento che si può fare solo al proprio partner; indica che la persona a cui è diretto è una meraviglia."@it ;
+    skos:example "Ti ho scelto proprio bene! Sei moroviglioso!"@it ;
+    dct:created "2023-01-07" ;
+    dct:creator vocang:filasetaAngelo .
