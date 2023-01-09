@@ -383,7 +383,7 @@ vocang:angelesimo
 vocang:biribì
     a skos:Concept ;
     skos:prefLabel "Biribì"@it ;
-    lexinfo:pronunciation "Bi • ri • bì"@it ;
+    lexinfo:pronunciation "/bi • ri • bì/"@it ;
     skos:definition "Un posto in cui delle persone che stanno per morire vanno in veste di turisti."@it ;
     skos:example "Tra qualche giorno morirò... Passerò i miei ultimi giorni al biribì."@it ;
     dct:creator vocang:filasetaAngelo , vocang:battaglinoNicole, vocang:bragariAlexandru .
@@ -2072,7 +2072,7 @@ vocang:annangelo
 vocang:percodio
     a skos:Concept ;
     skos:prefLabel "Percodio"@it ;
-    lexinfo:pronunciation "Per • co • dìo"@it ;
+    lexinfo:pronunciation "/per • co • dìo/"@it ;
     skos:definition "Forma di cortesia utilizzata per chiedere qualcosa, simile a \"per piacere\", ma blasfemo."@it ;
     skos:example "Percodio, ti togli da lì?"@it ;
     dct:created "2022-12-29" ;
@@ -2081,7 +2081,7 @@ vocang:percodio
 vocang:tettorale
     a skos:Concept ;
     skos:prefLabel "Tettorale"@it ;
-    lexinfo:pronunciation "Tet • to • rà • le"@it ;
+    lexinfo:pronunciation "/tet • to • rà • le/"@it ;
     skos:definition "Pettorale estremamente grosso, spesso perché allenato, al punto da sembrare un seno."@it ;
     skos:example "A volte vorrei avere dei tettorali enormi."@it ;
     dct:created "2022-12-29" ;
@@ -2090,7 +2090,7 @@ vocang:tettorale
 vocang:ceffèfobico
     a skos:Concept ;
     skos:prefLabel "Ceffefobico"@it ;
-    lexinfo:pronunciation "Cef • fe • fo • bì •co"@it ;
+    lexinfo:pronunciation "/cef • fe • fo • bì •co/"@it ;
     skos:definition "Una sostanza che non si riesce a mescolare con il caffè."@it ;
     skos:example "Il latte di mandorla è caffèfobico."@it ;
     dct:created "2022-12-31" ;
@@ -2099,7 +2099,7 @@ vocang:ceffèfobico
 vocang:gaccione
     a skos:Concept ;
     skos:prefLabel "Gaccione"@it ;
-    lexinfo:pronunciation "Gac • ciò • ne"@it ;
+    lexinfo:pronunciation "/gac • ciò • ne/"@it ;
     skos:definition "Un gatto che si comporta come un piccione, girovagando a caso e muovendo il capo in mood compulsivo."@it ;
     skos:example "Vedere un gaccione per la prima volta è una strana esperienza."@it ;
     dct:created "2022-12-31" ;
@@ -2108,7 +2108,7 @@ vocang:gaccione
 vocang:kebabbolazione
     a skos:Concept ;
     skos:prefLabel "Kebbabbolazione"@it ;
-    lexinfo:pronunciation "Keb • bab • bo • la • zió • ne"@it ;
+    lexinfo:pronunciation "/keb • bab • bo • la • zió • ne/"@it ;
     skos:definition "Colazione preparata da un kebabbo."@it ;
     skos:example "La kebabbolazione di stamattina non è stata male."@it ;
     skos:related vocang:kebabbo ;
@@ -2118,7 +2118,7 @@ vocang:kebabbolazione
 vocang:verdine
     a skos:Concept ;
     skos:prefLabel "Verdine"@it ;
-    lexinfo:pronunciation "Vér • di • ne"@it ;
+    lexinfo:pronunciation "/vér • di • ne/"@it ;
     skos:definition "Persona che non ha ancora mai visto il colore verde in tutta la sua vita."@it ;
     skos:example "Hai presente Marco? È ancora verdine."@it ;
     dct:created "2023-01-01" ;
@@ -2127,7 +2127,7 @@ vocang:verdine
 vocang:fendinobbia
     a skos:Concept ;
     skos:prefLabel "Fendinobbia"@it ;
-    lexinfo:pronunciation "Fen • di • nób • bia"@it ;
+    lexinfo:pronunciation "/fen • di • nób • bia/"@it ;
     skos:definition "Un fendinebbia che si tiene acceso senza che ci sia la nebbia, spesso al solo scopo di mettersi in mostra."@it ;
     skos:example "Quello spaccone con l'Audi ha messo i fendinobbia."@it ;
     dct:created "2023-01-01" ;
@@ -2136,7 +2136,7 @@ vocang:fendinobbia
 vocang:aperigina
     a skos:Concept ;
     skos:prefLabel "Aperigina"@it ;
-    lexinfo:pronunciation "A • pe • ri • gì • na"@it ;
+    lexinfo:pronunciation "/a • pe • ri • gì • na/"@it ;
     skos:definition "Ape che vive nelle vicinanze di Parigi."@it, "Ape nata in Francia."@it ;
     skos:example "Sono stato punto da un'aperigina."@it ;
     dct:created "2023-01-01" ;
@@ -2145,7 +2145,7 @@ vocang:aperigina
 vocang:pienante
     a skos:Concept ;
     skos:prefLabel "Pienante"@it ;
-    lexinfo:pronunciation "Piè • nan • te"@it ;
+    lexinfo:pronunciation "/piè • nan • te/"@it ;
     skos:definition "Qualcosa che rende pieno e soddisfatto, in qualsiasi modo, non solo in termini culinari."@it ;
     skos:example "Quel cioccolatino mi ha reso veramente pienante."@it ;
     dct:created "2023-01-02" ;
@@ -2154,7 +2154,7 @@ vocang:pienante
 vocang:nebbioccia
     a skos:Concept ;
     skos:prefLabel "Nebbioccia"@it ;
-    lexinfo:pronunciation "Neb • bióc • cia"@it ;
+    lexinfo:pronunciation "/neb • bióc • cia/"@it ;
     skos:definition "Doccia fatta tramite l'umidità ambientale o direttamente grazie alla nebbia."@it ;
     skos:example "Dovevo lavarmi ma per fare prima sono uscito e mi sono fatto una nebbioccia."@it ;
     dct:created "2023-01-03" ;
@@ -2163,7 +2163,7 @@ vocang:nebbioccia
 vocang:starnunghiozzo
     a skos:Concept ;
     skos:prefLabel "Starnunghiozzo"@it ;
-    lexinfo:pronunciation "Star • nun • ghióz • zo"@it ;
+    lexinfo:pronunciation "/star • nun • ghióz • zo/"@it ;
     skos:definition "Starnuto che viene durante un attacco di singhiozzo."@it ;
     skos:example "Gli starnunghiozzi sono molto soddisfacenti."@it ;
     dct:created "2023-01-03" ;
@@ -2172,7 +2172,7 @@ vocang:starnunghiozzo
 vocang:letico
     a skos:Concept ;
     skos:prefLabel "Letico"@it ;
-    lexinfo:pronunciation "Lé • ti • co"@it ;
+    lexinfo:pronunciation "/lé • ti • co/"@it ;
     skos:definition "Solletico che si desidera ricevere."@it ;
     skos:example "Non capisco come sia possibile ma esistono persone a cui piace il letico."@it ;
     dct:created "2023-01-04" ;
@@ -2190,8 +2190,17 @@ vocang:sparniare
 vocang:ravello
     a skos:Concept ;
     skos:prefLabel "Ravello"@it ;
-    lexinfo:pronunciation "Ra • vèl • lo"@it ;
+    lexinfo:pronunciation "/ra • vèl • lo/"@it ;
     skos:definition "Un ravanello veramente piccolo."@it ;
     skos:example "Devi mangiare parecchi ravelli per essere sazio."@it ;
     dct:created "2023-01-04" ;
     dct:creator vocang:fanaraGiuliano .
+
+vocang:reguagno
+    a skos:Concept ;
+    skos:prefLabel "Reguagno"@it ;
+    lexinfo:pronunciation "/re • guà • gno/"@it ;
+    skos:definition "Guadagno monetario di un soggetto dovuto alla dimenticanza della richiesta di pagamento di un terzo."@it ;
+    skos:example "Non mi hanno chiesto di pagare per il regalo, ho avuto un reguagno."@it ;
+    dct:created "2023-01-05" ;
+    dct:creator vocang:filasetaAngelo .
