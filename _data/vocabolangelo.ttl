@@ -2087,12 +2087,12 @@ vocang:tettorale
     dct:created "2022-12-29" ;
     dct:creator vocang:omiccioliRiccardo .
 
-vocang:ceffèfobico
+vocang:caffefobico
     a skos:Concept ;
-    skos:prefLabel "Ceffefobico"@it ;
-    lexinfo:pronunciation "/cef • fe • fo • bì •co/"@it ;
+    skos:prefLabel "Caffefobico"@it ;
+    lexinfo:pronunciation "/caf • fe • fo • bì • co/"@it ;
     skos:definition "Una sostanza che non si riesce a mescolare con il caffè."@it ;
-    skos:example "Il latte di mandorla è caffèfobico."@it ;
+    skos:example "Il latte di mandorla è caffefobico."@it ;
     dct:created "2022-12-31" ;
     dct:creator vocang:omiccioliRiccardo, vocang:bragariAlexandru .
 
@@ -2107,8 +2107,8 @@ vocang:gaccione
 
 vocang:kebabbolazione
     a skos:Concept ;
-    skos:prefLabel "Kebbabbolazione"@it ;
-    lexinfo:pronunciation "/keb • bab • bo • la • zió • ne/"@it ;
+    skos:prefLabel "Kebabbolazione"@it ;
+    lexinfo:pronunciation "/ke • bab • bo • la • zió • ne/"@it ;
     skos:definition "Colazione preparata da un kebabbo."@it ;
     skos:example "La kebabbolazione di stamattina non è stata male."@it ;
     skos:related vocang:kebabbo ;
