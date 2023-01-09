@@ -2338,3 +2338,12 @@ vocang:ziere
     skos:example "Andiamo a trovare ziere Thomas."@it ;
     dct:created "2023-01-08" ;
     dct:creator vocang:bragariAlexandru .
+
+vocang:cognonimo
+    a skos:Concept ;
+    skos:prefLabel "Cognonimo"@it ;
+    lexinfo:pronunciation "/co • gnò • ni • mo/"@it ;
+    skos:definition "Che ha cognome identico."@it, "Ciascuna delle persone che si trovano in rapporto di cognonimia."@it ;
+    skos:example "Luca è un mio cognonimo."@it ;
+    dct:created "2023-01-09" ;
+    dct:creator vocang:bragariAlexandru .
