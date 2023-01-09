@@ -2347,3 +2347,13 @@ vocang:cognonimo
     skos:example "Luca è un mio cognonimo."@it ;
     dct:created "2023-01-09" ;
     dct:creator vocang:bragariAlexandru .
+
+vocang:cognonimia
+    a skos:Concept ;
+    skos:prefLabel "Cognonimia"@it ;
+    lexinfo:pronunciation "/co • gno • ni • mìa/"@it ;
+    skos:definition "Il fatto di avere lo stesso cognome. Simile all'omonimia ma solo per quanto riguarda il cognome."@it ;
+    skos:example "Luca Rossi e  Marco Rossi sono un classico esempio di cognonimia."@it ;
+    skos:related vocang:cognonimo ;
+    dct:created "2023-01-09" ;
+    dct:creator vocang:filasetaAngelo, vocang:bragariAlexandru .
