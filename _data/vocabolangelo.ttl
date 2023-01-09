@@ -208,6 +208,7 @@ vocang:vocabolangelo
     skos:prefLabel "Vocabolangelo"@it ;
     skos:altLabel "Angelario"@it ;
     skos:altLabel "Dizionangelo"@it ;
+    lexinfo:pronunciation "/vo • ca • bo • làn • ge • lo/"@it ;
     skos:definition "Documento strutturato che cataloga e definisce parole, non riportate in un normale vocabolario, inventate da persone ordinarie."@it ;
     skos:example "Il vocabolangelo contiene molte parole divertenti."@it ;
     dct:creator vocang:filasetaAngelo .
@@ -215,6 +216,7 @@ vocang:vocabolangelo
 vocang:angelario
     a skos:Concept ;
     skos:prefLabel "Angelario"@it ;
+    lexinfo:pronunciation "/àn • ge • la • rio/"@it ;
     skos:altLabel "Vocabolangelo"@it ;
     skos:altLabel "Dizionangelo"@it ;
     skos:definition "Un altro modo di definire il Vocabolangelo."@it ;
@@ -228,6 +230,7 @@ vocang:dizionangelo
     skos:prefLabel "Dizionangelo"@it ;
     skos:altLabel "Vocabolangelo"@it ;
     skos:altLabel "Angelario"@it ;
+    lexinfo:pronunciation "/di • zio • nàn • ge • lo/"@it ;
     skos:definition "Un altro modo di definire il Vocabolangelo."@it ;
     skos:example "Il dizionangelo e il vocabolangelo sono la stessa cosa."@it ;
     skos:related vocang:vocabolangelo ;
@@ -236,6 +239,7 @@ vocang:dizionangelo
 vocang:acquorica
     a skos:Concept ;
     skos:prefLabel "Acquorica"@it ;
+    lexinfo:pronunciation "/ac • quò • ri • ca/"@it ;
     skos:definition "Una bevanda composta da cafferillo e tè alla pesca. Questo mix è in grado di annullare tutti i sapori, simulando quello dell’acqua."@it ;
     skos:example "Hai mai provato questa bevanda? Ha il sapore dell'acqua ma non è acqua!"@it ;
     skos:note "Il nome deriva dalla fusione delle parole \"Acqua\" e \"Calorica\""@it ;
@@ -245,6 +249,7 @@ vocang:acquorica
 vocang:agroffè
     a skos:Concept ;
     skos:prefLabel "Agroffè"@it ;
+    lexinfo:pronunciation "/a • grof • fè/"@it ;
     skos:definition "Una bevanda composta da caffé e salsa agrodolce."@it ;
     skos:example "L'agroffè non mi piace molto."@it ;
     dct:creator vocang:filasetaAngelo .
@@ -252,6 +257,7 @@ vocang:agroffè
 vocang:alfaca
     a skos:Concept ;
     skos:prefLabel "Alfaca"@it ;
+    lexinfo:pronunciation "/àl • fa • ca/"@it ;
     skos:definition "L'esemplare alfa di un alpaca, ossia quello che occupa il rango sociale più alto nel suo bregge."@it ;
     skos:example "Guarda quanto è fiero! Deve essere un alfaca."@it ;
     dct:creator vocang:filasetaAngelo .
@@ -259,6 +265,7 @@ vocang:alfaca
 vocang:allefanza
     a skos:Concept ;
     skos:prefLabel "Allefanza"@it ;
+    lexinfo:pronunciation "/al • le • fàn • za/"@it ;
     skos:definition "Rapporto di alleanza non del tutto bidirezionale."@it ;
     skos:example "Instauriamo un'allefanza in questa partita? Ci alleiamo contro tutti ma quando mi va posso ucciderti."@it ;
 	skos:related vocang:fanz;
@@ -267,6 +274,7 @@ vocang:allefanza
 vocang:fanz
 	a skos:Concept ;
 	skos:prefLabel "Fanz"@it ;
+    lexinfo:pronunciation "/fànz/"@it ;
 	skos:definition "Un fan estremamente entusiasta di esserlo."@it ;
 	skos:example "Io sono un tuo fanz!"@it ;
 	skos:related vocang:allefanza .
@@ -274,6 +282,7 @@ vocang:fanz
 vocang:bregge
     a skos:Concept ;
     skos:prefLabel "Bregge"@it ;
+    lexinfo:pronunciation "/brég • ge/"@it ;
     skos:definition "Un gruppo di animali della stessa specie che può essere sia un branco che un gregge."@it ;
     skos:example "Gli alpaca possono far parte di un bregge."@it ;
     dct:creator vocang:pertosaLorenzo .
@@ -281,6 +290,7 @@ vocang:bregge
 vocang:balbizia
     a skos:Concept ;
     skos:prefLabel "Balbizia"@it ;
+    lexinfo:pronunciation "/bal • bì • zia/"@it ;
     skos:definition "Equivalente di balbuzia, ma utilizzabile solo su entità che soffrono di calvizia."@it ;
     skos:example "Nicola soffre di balbizia."@it ;
     dct:creator vocang:battaglinoNicole .
@@ -288,20 +298,15 @@ vocang:balbizia
 vocang:cardiota
     a skos:Concept ;
     skos:prefLabel "Cardiota"@it ;
-    skos:definition "Equivalente ad idiota, ma utilizzabile solo su entità che hanno problemi cardiaci."@it ;
+    lexinfo:pronunciation "/car • diò • ta/"@it ;
+    skos:definition "Sinonimo di idiota, ma utilizzabile solo su soggetti che hanno problemi cardiaci."@it ;
     skos:example "Luca è proprio un cardiota!"@it ;
     dct:creator vocang:savoGiorgia .
-
-vocang:cedrangelo
-    a skos:Concept ;
-    skos:prefLabel "Cedrangelo"@it ;
-    skos:definition "Della cedrata bevuta in presenza di Angelo Filaseta."@it ;
-    skos:example "Questa cedrangelo è proprio dissetante!"@it ;
-    dct:creator vocang:filasetaAngelo .
 
 vocang:domanica
     a skos:Concept ;
     skos:prefLabel "Domanica"@it ;
+    lexinfo:pronunciation "/do • mà • ni • ca/"@it ;
     skos:definition "Il giorno seguente a oggi, ma utilizzabile solo se il giorno seguente è Domenica."@it ;
     skos:example "Ci vediamo domanica."@it ;
     skos:related vocang:dopodomanica ;
@@ -310,6 +315,7 @@ vocang:domanica
 vocang:dopodomanica
     a skos:Concept ;
     skos:prefLabel "Dopodomanica"@it ;
+    lexinfo:pronunciation "/do • po • do • mà • ni • ca/"@it ;
     skos:definition "Il giorno seguente a domanica, utilizzabile solo se il giorno seguente è Domenica per riferirsi a lunedì."@it ;
     skos:example "Domanica ho un impegno, possiamo vederci dopodomanica ?"@it ;
     skos:related vocang:domanica ;
@@ -318,6 +324,7 @@ vocang:dopodomanica
 vocang:brovedì
     a skos:Concept ;
     skos:prefLabel "Brovedì"@it ;
+    lexinfo:pronunciation "/bro • ve • dì/"@it ;
     skos:definition "Il nome di un giorno della settimana aggiuntivo. Brovedì può essere utilizzato per rendere variabile il numero di giorni in una settimana. Brovedì può esserci o non esserci. Le regole di quando come e dove piazzare Brovedì non sono formalizzate."@it ;
     skos:example "Vorrei tanto esistesse il brovedì, ci sarebbe molto più tempo!"@it ;
     dct:creator vocang:bragariAlexandru .
@@ -325,6 +332,7 @@ vocang:brovedì
 vocang:tretro
     a skos:Concept ;
     skos:prefLabel "Tretro"@it ;
+    lexinfo:pronunciation "/trè • tro/"@it ;
     skos:definition "Un mezzo di trasporto che può essere definito sia come un treno che come una metro."@it ;
     skos:example "Se non ti sbrighi perderemo il tretro!"@it ;
     dct:creator vocang:filasetaAngelo .
@@ -332,6 +340,7 @@ vocang:tretro
 vocang:canillo
     a skos:Concept ;
     skos:prefLabel "Canillo"@it ;
+    lexinfo:pronunciation "/ca • nìl • lo/"@it ;
     skos:definition "Un cane che è stato addestrato per svolgere delle gare di corsa."@it ;
     skos:example "Il mio canillo è il più veloce del mondo."@it ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/canillo.jpg" ;
@@ -341,6 +350,7 @@ vocang:canillo
 vocang:capannolo
     a skos:Concept ;
     skos:prefLabel "Capannolo"@it ;
+    lexinfo:pronunciation "/ca • pan • nò • lo/"@it ;
     skos:definition "Equivalente di capanno, ma utilizzabile solo se all'interno vi sono solo imbacazioni."@it ;
     skos:example "Ho lasciato la mia barca al capannolo."@it ;
     dct:creator vocang:pertosaLorenzo .
@@ -348,6 +358,7 @@ vocang:capannolo
 vocang:incrociatoria
     a skos:Concept ;
     skos:prefLabel "Incrociatoria"@it ;
+    lexinfo:pronunciation "/in • cro • cia • tò • ria/"@it ;
     skos:definition "Incrocio a raso molto pericoloso mascherato da rotatoria."@it ;
     skos:example "Ieri sono quasi morto a quell'incrociatoria."@it ;
     dct:creator vocang:pertosaLorenzo .
@@ -355,6 +366,7 @@ vocang:incrociatoria
 vocang:angelata
     a skos:Concept ;
     skos:prefLabel "Angelata"@it ;
+    lexinfo:pronunciation "/an • ge • là • ta/"@it ;
     skos:definition "Un'azione stupida che porta quasi sicuramente a brutte conseguenze e che viene compiuta solo per divertimento."@it ;
     skos:example "Scavalcare quel muro sarebbe proprio un'angelata."@it ;
     dct:creator vocang:pertosaLorenzo .
