@@ -2284,3 +2284,12 @@ vocang:pippodromo
     skos:example "È da un po' che non andiamo al pippodromo a buttare soldi."@it ;
     dct:created "2023-01-08" ;
     dct:creator vocang:savoGiorgia .
+
+vocang:broscaiolo
+    a skos:Concept ;
+    skos:prefLabel "Broscaiolo"@it ;
+    lexinfo:pronunciation "/bro • sca • ió • lo/"@it ;
+    skos:definition "Un boscaiolo particolarmente simpatico e aperto con tutti."@it ;
+    skos:example "Hai presente Marco? Lui è proprio un broscaiolo."@it ;
+    dct:created "2023-01-08" ;
+    dct:creator vocang:filasetaAngelo .
