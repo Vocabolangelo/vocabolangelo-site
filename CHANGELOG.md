@@ -1,5 +1,65 @@
 # Changelog
 
+## [3.2.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v3.1.0...v3.2.0) (2023-01-09)
+
+
+### Features
+
+* **concept:** add annangelo ([7f30324](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/7f30324df0f2d7f05e84d4014d9ea11a5a2c1bc5))
+* **concept:** add aperigina ([bd63e8a](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/bd63e8a43a26410dbc8e93cb0e531cb0505deb75))
+* **concept:** add arabiniere ([dc2e209](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/dc2e209c9e24eb80165bba2b0d5d0dbe3f5f228a))
+* **concept:** add birliardo ([f4e5b1c](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/f4e5b1c78adb42d67250f1f38f70c229eeca4e14))
+* **concept:** add broscaiolo ([c78046e](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/c78046ed2e553d99efd9baf679b98e34a93ff808))
+* **concept:** add cacanzina ([5515108](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/551510886488383f3e981374e4dca40b2450dcc2))
+* **concept:** add ceffefobico ([b0af38d](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/b0af38d8776d4b90a7cc12dc6fa13ea10387b7d4))
+* **concept:** add cognonimia ([88c52fa](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/88c52fa11aa0bcf16c0569d958421483b4e32a54))
+* **concept:** add cognonimo ([aaf32cf](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/aaf32cf6fc49726f728251cf49bb6b8b8c17dfc1))
+* **concept:** add duraz ([db9a03e](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/db9a03ee2ad47daa2fef087b027fbfdc81d99080))
+* **concept:** add fendinobbia ([e38d952](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/e38d952e7c74c7047b0041afd99847abc4336e01))
+* **concept:** add gaccione ([c67c63a](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/c67c63a0e4d4763cc35106bd285b71ae6af3f929))
+* **concept:** add griglissa ([285f961](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/285f961a60f220eee19099f466d9734f5b0429ee))
+* **concept:** add kebabbolazione ([c460529](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/c4605297d4de71c2b2b54be1f34f43a79d19ade6))
+* **concept:** add letico ([1c4f492](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/1c4f492d0bbb3d153bf92b6c7e552e7b35228739))
+* **concept:** add moroviglioso ([e11ac44](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/e11ac441286ed35065fe2b120eebba820f12028d))
+* **concept:** add napoletone ([539c294](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/539c294c3938122aa2715d0a006a95e056a15959))
+* **concept:** add narghileddy ([3c4a630](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/3c4a630c646a7956e0ce44cb515c86069b60ef49))
+* **concept:** add natalè ([7869ee4](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/7869ee404a4440022b720e7f6ff1a0b2821bc501))
+* **concept:** add nataleddy ([af6f5e6](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/af6f5e6793b2fe383fef5f75dd580b0dc805ab32))
+* **concept:** add nerarabiniere ([d848af6](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/d848af62e120ebd3f0ae887d1eac7afb6c451405))
+* **concept:** add nerobiniere ([80cbc20](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/80cbc20837de9867e350740a62b302383a2b0bb8))
+* **concept:** add olfattorgasmo ([5e8a171](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/5e8a1712b02523a30b8bce3563e5e424b61c6312))
+* **concept:** add percodio ([d6a06f1](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/d6a06f1f30dedfe242da32ceba68cff54bc14dc0))
+* **concept:** add pianino ([e7ea96c](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/e7ea96c1697c58eb936fc416408a4d8ad98cffe4))
+* **concept:** add piedoccola ([bfb7e06](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/bfb7e06fb5f8916836d138a4d796f341cd097de9))
+* **concept:** add pienante ([6d4df3d](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/6d4df3dfd4d9aba94458622d5840dadb9ca40261))
+* **concept:** add pippodromo ([574f84a](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/574f84aaaa0ead907030ab9ee19d6a22624d07d3))
+* **concept:** add preggia and reggione ([1c1e51c](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/1c1e51c8ac6c44da2275faf812142f2e7be2c27f))
+* **concept:** add ravello ([b3c2c32](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/b3c2c32ddf449709ec12498b086e8d1e69276d9b))
+* **concept:** add reguagno ([40ac39c](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/40ac39cb7751542dd616b2fe68ad2665cc2af6db))
+* **concept:** add ritardabile ([402460c](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/402460c3c145e87d7e1aa9054b51f6a9ec4bf231))
+* **concept:** add rivoluzionacaso ([9a18d27](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/9a18d274a1a1c3a089adb9a67594e799387a65c2))
+* **concept:** add semigriglissa ([b78d3d6](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/b78d3d6107b04d89067c980618c71dd40a82411e))
+* **concept:** add sessiera ([100ee1f](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/100ee1fe1f090bd40301cf27a24587f862b6b55f))
+* **concept:** add sigaffe ([271328d](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/271328d08507eddb082ab99a3d493fe7da761f78))
+* **concept:** add soono ([89ed683](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/89ed68354e9b4384d222fa7ddcbb6c080c28189e))
+* **concept:** add sparniare ([417c3b1](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/417c3b1f9489d39f8aa2518be8809051d509e100))
+* **concept:** add starnunghiozzo ([c8581a1](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/c8581a1608b2c181c041bc11c46fce12576a2ea6))
+* **concept:** add tettorale ([1d606b6](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/1d606b6a2f8caa0c334e43487602849f1005ecd4))
+* **concept:** add trocca ([0e747ea](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/0e747ea3b33f1becbc0b91c3288dd624d66a8225))
+* **concept:** add verdine ([1ebdc19](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/1ebdc19a2455043e66ca3475cfb3ffb31177a9b5))
+* **concept:** add ziere ([94ecd13](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/94ecd13cc36dbe36c53f0b73008c6a38a28ed07e))
+* **person:** add Leonardo De Rosa ([83de324](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/83de324ee8ef92ddd34baef02e47f21282623155))
+* **rule:** add anti-angelo rule ([37f8790](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/37f8790b52113f3b03e4eb6ab298a58262b59c00))
+* **rule:** add simple and missing rule ([bb6297c](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/bb6297cd103edd729dbf1756ca7baabdd51f676e))
+
+
+### Bug Fixes
+
+* **concept:** change author of biribì ([332645d](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/332645d19f6dd921c8ae091c1c65e704010d8e55))
+* **concept:** change author of percodio ([e535e1b](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/e535e1b90fd4f6677755f393fe2bc12724abae52))
+* **concept:** fix kebabbolazione author ([15efa85](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/15efa85f818a5209fafe7ccfd0833c4fcf1283a5))
+* **concept:** typo in kebabbolazione label and caffefobico label ([c88516f](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/c88516ff9fdec24a40fb9e0e050bf6265c69fb4b))
+
 ## [3.1.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v3.0.0...v3.1.0) (2022-12-23)
 
 
