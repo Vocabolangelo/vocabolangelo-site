@@ -2231,3 +2231,11 @@ vocang:sessiera
     skos:example "Questa partita è andata molto male... Se non altro però abbiamo la sessiera."@it ;
     dct:created "2023-01-05" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:napoletone
+    a skos:Concept ;
+    skos:prefLabel "Napoletone"@it ;
+    lexinfo:pronunciation "/na • po • le • tó • ne/"@it ;
+    skos:definition "Nel gioco \"Scopone scientifico\" si tratta di una possibile situazione a fine partita. Si può verificare se si ottiene una napula composta da tutte le carte di denari eccetto una. In alcune varianti del gioco, il napoletone fa perdere automaticamente la partita a chi lo conquista."@it ;
+    skos:example "Questa partita è andata fin troppo bene... Abbiamo fatto napoletone!"@it ;
+    dct:creator vocang:pertosaLorenzo .
