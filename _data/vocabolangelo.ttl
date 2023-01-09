@@ -2131,3 +2131,12 @@ vocang:fendinobbia
     skos:example "Quello spaccone con l'Audi ha messo i fendinobbia."@it ;
     dct:created "2023-01-01" ;
     dct:creator vocang:omiccioliRiccardo , vocang:battaglinoNicole .
+
+vocang:aperigina
+    a skos:Concept ;
+    skos:prefLabel "Aperigina"@it ;
+    lexinfo:pronunciation "A • pe • ri • gì • na"@it ;
+    skos:definition "Ape che vive nelle vicinanze di Parigi."@it, "Ape nata in Francia."@it ;
+    skos:example "Sono stato punto da un'aperigina."@it ;
+    dct:created "2023-01-01" ;
+    dct:creator vocang:omiccioliRiccardo .
