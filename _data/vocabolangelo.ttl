@@ -2159,3 +2159,12 @@ vocang:nebbioccia
     skos:example "Dovevo lavarmi ma per fare prima sono uscito e mi sono fatto una nebbioccia."@it ;
     dct:created "2023-01-03" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:starnunghiozzo
+    a skos:Concept ;
+    skos:prefLabel "Starnunghiozzo"@it ;
+    lexinfo:pronunciation "Star • nun • ghióz • zo"@it ;
+    skos:definition "Starnuto che viene durante un attacco di singhiozzo."@it ;
+    skos:example "Gli starnunghiozzi sono molto soddisfacenti."@it ;
+    dct:created "2023-01-03" ;
+    dct:creator vocang:omiccioliRiccardo .
