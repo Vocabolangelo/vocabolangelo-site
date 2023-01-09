@@ -2217,8 +2217,17 @@ vocang:soono
 vocang:duraz
     a skos:Concept ;
     skos:prefLabel "Duraz"@it ;
-    lexinfo:pronunciation "/Dù • raz/"@it ;
+    lexinfo:pronunciation "/dù • raz/"@it ;
     skos:definition "Sostantivo utilizzato per indicare un soggetto particolarmente brontolone."@it ;
     skos:example "Il picco Tommy oggi mi sta facendo veramente arrabbiare, non fa altro che lamentarsi... È proprio un duraz."@it ;
     dct:created "2023-01-05" ;
     dct:creator vocang:fanaraGiuliano .
+
+vocang:sessiera
+    a skos:Concept ;
+    skos:prefLabel "Sessiera"@it ;
+    lexinfo:pronunciation "/ses • sié • ra/"@it ;
+    skos:definition "Nel gioco \"Scopone scientifico\" si tratta di un punto immaginario e di consolazione. Si può ricevere ottenendo tutti i 6 in una partita in cui gli avversari hanno ottenuto tutti i 7."@it ;
+    skos:example "Questa partita è andata molto male... Se non altro però abbiamo la sessiera."@it ;
+    dct:created "2023-01-05" ;
+    dct:creator vocang:omiccioliRiccardo .
