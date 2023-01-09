@@ -2275,3 +2275,12 @@ vocang:arabiniere
     skos:example "Mio zio è un arabiniere."@it ;
     dct:created "2023-01-08" ;
     dct:creator vocang:pertosaLorenzo, vocang:omiccioliRiccardo .
+
+vocang:pippodromo
+    a skos:Concept ;
+    skos:prefLabel "Pippodromo"@it ;
+    lexinfo:pronunciation "/pip • pò • dro • mo/"@it ;
+    skos:definition "Luogo ludico dove dei drogati, sui quali si può scommettere, gareggiano in una corsa."@it ;
+    skos:example "È da un po' che non andiamo al pippodromo a buttare soldi."@it ;
+    dct:created "2023-01-08" ;
+    dct:creator vocang:savoGiorgia .
