@@ -2150,3 +2150,12 @@ vocang:pienante
     skos:example "Quel cioccolatino mi ha reso veramente pienante."@it ;
     dct:created "2023-01-02" ;
     dct:creator vocang:savoGiorgia .
+
+vocang:nebbioccia
+    a skos:Concept ;
+    skos:prefLabel "Nebbioccia"@it ;
+    lexinfo:pronunciation "Neb • bióc • cia"@it ;
+    skos:definition "Doccia fatta tramite l'umidità ambientale o direttamente grazie alla nebbia."@it ;
+    skos:example "Dovevo lavarmi ma per fare prima sono uscito e mi sono fatto una nebbioccia."@it ;
+    dct:created "2023-01-03" ;
+    dct:creator vocang:pertosaLorenzo .
