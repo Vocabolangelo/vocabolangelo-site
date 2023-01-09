@@ -2213,3 +2213,12 @@ vocang:soono
     skos:example "Soono più forte."@it ;
     dct:created "2023-01-05" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:duraz
+    a skos:Concept ;
+    skos:prefLabel "Duraz"@it ;
+    lexinfo:pronunciation "/Dù • raz/"@it ;
+    skos:definition "Sostantivo utilizzato per indicare un soggetto particolarmente brontolone."@it ;
+    skos:example "Il picco Tommy oggi mi sta facendo veramente arrabbiare, non fa altro che lamentarsi... È proprio un duraz."@it ;
+    dct:created "2023-01-05" ;
+    dct:creator vocang:fanaraGiuliano .
