@@ -2204,3 +2204,12 @@ vocang:reguagno
     skos:example "Non mi hanno chiesto di pagare per il regalo, ho avuto un reguagno."@it ;
     dct:created "2023-01-05" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:soono
+    a skos:Concept ;
+    skos:prefLabel "Soono"@it ;
+    lexinfo:pronunciation "/sò • ono/"@it ;
+    skos:definition "Coniugazione del verbo essere al tempo imperativo presente della prima persona singolare, utilizzabile per imporsi qualcosa."@it ;
+    skos:example "Soono più forte."@it ;
+    dct:created "2023-01-05" ;
+    dct:creator vocang:filasetaAngelo .
