@@ -2239,3 +2239,12 @@ vocang:napoletone
     skos:definition "Nel gioco \"Scopone scientifico\" si tratta di una possibile situazione a fine partita. Si può verificare se si ottiene una napula composta da tutte le carte di denari eccetto una. In alcune varianti del gioco, il napoletone fa perdere automaticamente la partita a chi lo conquista."@it ;
     skos:example "Questa partita è andata fin troppo bene... Abbiamo fatto napoletone!"@it ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:olfattorgasmo
+    a skos:Concept ;
+    skos:prefLabel "Olfattorgasmo"@it ;
+    lexinfo:pronunciation "/ol • fat • tor • gàs • mo/"@it ;
+    skos:definition "Sensazione molto piacevole causata dall'aver annusato una sostanza o un oggetto dall'odore particolarmente piacevole o nostalgico."@it ;
+    skos:example "Annusarti mi causa sempre degli olfattorgasmi assurdi!"@it ;
+    dct:created "2023-01-06" ;
+    dct:creator vocang:omiccioliRiccardo .
