@@ -2111,6 +2111,7 @@ vocang:kebabbolazione
     lexinfo:pronunciation "Keb • bab • bo • la • zió • ne"@it ;
     skos:definition "Colazione preparata da un kebabbo."@it ;
     skos:example "La kebabbolazione di stamattina non è stata male."@it ;
+    skos:related vocang:kebabbo ;
     dct:created "2023-01-01" ;
     dct:creator vocang:omiccioliRiccardo .
 
