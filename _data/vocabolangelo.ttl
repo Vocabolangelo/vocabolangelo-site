@@ -2257,3 +2257,12 @@ vocang:moroviglioso
     skos:example "Ti ho scelto proprio bene! Sei moroviglioso!"@it ;
     dct:created "2023-01-07" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:nerobiniere
+    a skos:Concept ;
+    skos:prefLabel "Nerobiniere"@it ;
+    lexinfo:pronunciation "/ne • ro • bi • niè • re/"@it ;
+    skos:definition "Carabiniere la cui carnagione è scura."@it ;
+    skos:example "Mio zio è un nerobiniere!"@it ;
+    dct:created "2023-01-08" ;
+    dct:creator vocang:pertosaLorenzo .
