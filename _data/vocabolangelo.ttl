@@ -385,7 +385,7 @@ vocang:biribì
     skos:prefLabel "Biribì"@it ;
     skos:definition "Un posto in cui delle persone che stanno per morire vanno in veste di turisti."@it ;
     skos:example "Tra qualche giorno morirò... Passerò i miei ultimi giorni al biribì."@it ;
-    dct:creator vocang:filasetaAngelo .
+    dct:creator vocang:filasetaAngelo , vocang:battaglinoNicole, vocang:bragariAlexandru .
 
 vocang:caffemilla
     a skos:Concept ;
