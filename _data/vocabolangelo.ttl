@@ -2311,3 +2311,12 @@ vocang:nerarabiniere
     skos:example "Mio zio è un nerarabiniere."@it ;
     dct:created "2023-01-09" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:rivoluzionacaso
+    a skos:Concept ;
+    skos:prefLabel "Rivoluzionacaso"@it ;
+    lexinfo:pronunciation "/ri • vo • lu • zio • na • cà • so/"@it ;
+    skos:definition "Soggetto rivoluzionario per caso, che si ritrova senza cognizione di ciò che sta compiendo."@it ;
+    skos:example "Durante il colpo di stato in Uruguay il leader del partito è morto, così hanno preso un rivoluzionacaso per strada e l'hanno eletto presidente."@it ;
+    dct:created "2023-01-09" ;
+    dct:creator vocang:pertosaLorenzo .
