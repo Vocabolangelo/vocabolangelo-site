@@ -2266,3 +2266,12 @@ vocang:nerobiniere
     skos:example "Mio zio è un nerobiniere!"@it ;
     dct:created "2023-01-08" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:arabiniere
+    a skos:Concept ;
+    skos:prefLabel "Arabiniere"@it ;
+    lexinfo:pronunciation "/a • ra • bi • niè • re/"@it ;
+    skos:definition "Carabiniere di cultura islamica."@it ;
+    skos:example "Mio zio è un arabiniere."@it ;
+    dct:created "2023-01-08" ;
+    dct:creator vocang:pertosaLorenzo, vocang:omiccioliRiccardo .
