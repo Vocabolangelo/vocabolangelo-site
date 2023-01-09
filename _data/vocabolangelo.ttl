@@ -2177,3 +2177,12 @@ vocang:letico
     skos:example "Non capisco come sia possibile ma esistono persone a cui piace il letico."@it ;
     dct:created "2023-01-04" ;
     dct:creator vocang:filasetaAngelo, vocang:savoGiorgia .
+
+vocang:sparniare
+    a skos:Concept ;
+    skos:prefLabel "Sparniare"@it ;
+    lexinfo:pronunciation "Spar • nià • re"@it ;
+    skos:definition "Cliccare pulsanti a caso erroneamente causando danni nell'apparecchio che si sta utilizzando."@it ;
+    skos:example "Ho sparniato l'auto di Angelo, ma non volevo giuro!."@it ;
+    dct:created "2023-01-04" ;
+    dct:creator vocang:filasetaAngelo .
