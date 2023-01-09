@@ -2093,5 +2093,14 @@ vocang:ceffèfobico
     lexinfo:pronunciation "Cef • fe • fo • bì •co"@it ;
     skos:definition "Una sostanza che non si riesce a mescolare con il caffè."@it ;
     skos:example "Il latte di mandorla è caffèfobico."@it ;
-    dct:created "2022-12-29" ;
+    dct:created "2022-12-31" ;
     dct:creator vocang:omiccioliRiccardo, vocang:bragariAlexandru .
+
+vocang:gaccione
+    a skos:Concept ;
+    skos:prefLabel "Gaccione"@it ;
+    lexinfo:pronunciation "Gac • ciò • ne"@it ;
+    skos:definition "Un gatto che si comporta come un piccione, girovagando a caso e muovendo il capo in mood compulsivo."@it ;
+    skos:example "Vedere un gaccione per la prima volta è una strana esperienza."@it ;
+    dct:created "2022-12-31" ;
+    dct:creator vocang:pertosaLorenzo .
