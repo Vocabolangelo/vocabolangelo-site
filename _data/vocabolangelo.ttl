@@ -2113,3 +2113,12 @@ vocang:kebabbolazione
     skos:example "La kebabbolazione di stamattina non è stata male."@it ;
     dct:created "2023-01-01" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:verdine
+    a skos:Concept ;
+    skos:prefLabel "Verdine"@it ;
+    lexinfo:pronunciation "Vér • di • ne"@it ;
+    skos:definition "Persona che non ha ancora mai visto il colore verde in tutta la sua vita."@it ;
+    skos:example "Hai presente Marco? È ancora verdine."@it ;
+    dct:created "2023-01-01" ;
+    dct:creator vocang:omiccioliRiccardo .
