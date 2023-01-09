@@ -2104,3 +2104,12 @@ vocang:gaccione
     skos:example "Vedere un gaccione per la prima volta è una strana esperienza."@it ;
     dct:created "2022-12-31" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:kebabbolazione
+    a skos:Concept ;
+    skos:prefLabel "Kebbabbolazione"@it ;
+    lexinfo:pronunciation "Keb • bab • bo • la • zió • ne"@it ;
+    skos:definition "Colazione preparata da un kebabbo."@it ;
+    skos:example "La kebabbolazione di stamattina non è stata male."@it ;
+    dct:created "2023-01-01" ;
+    dct:creator vocang:omiccioliRiccardo .
