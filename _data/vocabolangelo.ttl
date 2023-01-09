@@ -2302,3 +2302,12 @@ vocang:pianino
     skos:example "Volevo un panino ma non avevo il pane. Ho risolto facendomi un pianino."@it ;
     dct:created "2023-01-08" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:nerarabiniere
+    a skos:Concept ;
+    skos:prefLabel "Nerarabiniere"@it ;
+    lexinfo:pronunciation "/ne • ra • ra • bi • niè • re/"@it ;
+    skos:definition "Carabiniere di cultura islamica la cui carnagione è scura."@it ;
+    skos:example "Mio zio è un nerarabiniere."@it ;
+    dct:created "2023-01-09" ;
+    dct:creator vocang:filasetaAngelo .
