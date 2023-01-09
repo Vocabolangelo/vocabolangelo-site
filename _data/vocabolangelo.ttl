@@ -2122,3 +2122,12 @@ vocang:verdine
     skos:example "Hai presente Marco? È ancora verdine."@it ;
     dct:created "2023-01-01" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:fendinobbia
+    a skos:Concept ;
+    skos:prefLabel "Fendinobbia"@it ;
+    lexinfo:pronunciation "Fen • di • nób • bia"@it ;
+    skos:definition "Un fendinebbia che si tiene acceso senza che ci sia la nebbia, spesso al solo scopo di mettersi in mostra."@it ;
+    skos:example "Quello spaccone con l'Audi ha messo i fendinobbia."@it ;
+    dct:created "2023-01-01" ;
+    dct:creator vocang:omiccioliRiccardo , vocang:battaglinoNicole .
