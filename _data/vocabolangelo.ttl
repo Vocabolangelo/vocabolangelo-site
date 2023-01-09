@@ -2113,7 +2113,7 @@ vocang:kebabbolazione
     skos:example "La kebabbolazione di stamattina non è stata male."@it ;
     skos:related vocang:kebabbo ;
     dct:created "2023-01-01" ;
-    dct:creator vocang:omiccioliRiccardo .
+    dct:creator vocang:pertosaLorenzo .
 
 vocang:verdine
     a skos:Concept ;
