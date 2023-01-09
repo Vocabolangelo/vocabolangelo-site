@@ -2086,3 +2086,12 @@ vocang:tettorale
     skos:example "A volte vorrei avere dei tettorali enormi."@it ;
     dct:created "2022-12-29" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:ceffèfobico
+    a skos:Concept ;
+    skos:prefLabel "Ceffefobico"@it ;
+    lexinfo:pronunciation "Cef • fe • fo • bì •co"@it ;
+    skos:definition "Una sostanza che non si riesce a mescolare con il caffè."@it ;
+    skos:example "Il latte di mandorla è caffèfobico."@it ;
+    dct:created "2022-12-29" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:bragariAlexandru .
