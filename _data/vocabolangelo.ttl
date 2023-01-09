@@ -2075,4 +2075,4 @@ vocang:percodio
     skos:definition "Forma di cortesia utilizzata per chiedere qualcosa, simile a \"per piacere\", ma blasfemo."@it ;
     skos:example "Percodio, ti togli da lì?"@it ;
     dct:created "2022-12-29" ;
-    dct:creator vocang:orlandoNicola .
+    dct:creator vocang:minoccheriAlessandra, vocang:battaglinoNicole .
