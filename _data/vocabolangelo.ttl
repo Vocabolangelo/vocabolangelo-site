@@ -2293,3 +2293,12 @@ vocang:broscaiolo
     skos:example "Hai presente Marco? Lui è proprio un broscaiolo."@it ;
     dct:created "2023-01-08" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:pianino
+    a skos:Concept ;
+    skos:prefLabel "Pianino"@it ;
+    lexinfo:pronunciation "/pia • nì • no/"@it ;
+    skos:definition "Panino nel quale le due fette di pane vengono sostituite con due piadine."@it ;
+    skos:example "Volevo un panino ma non avevo il pane. Ho risolto facendomi un pianino."@it ;
+    dct:created "2023-01-08" ;
+    dct:creator vocang:omiccioliRiccardo .
