@@ -8,7 +8,7 @@
     {% assign lastName = page.rdf | rdf_property: 'foaf:lastName' %}
     {% assign firstName = page.rdf | rdf_property: 'foaf:firstName' %}
     {% assign nick = nickName | rdf_property: 'foaf:nick' %}
-    {% assign title = lastName | append: " " | append: firstName %}
+    {% assign title =  firstName | append: " " | append: lastName %}
     {% assign subtitle = nick %}
 {% endif %}
 
