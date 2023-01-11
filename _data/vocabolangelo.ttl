@@ -2441,8 +2441,17 @@ vocang:trocca
 vocang:tabbella
     a skos:Concept ;
     skos:prefLabel "Tabbella"@it ;
-    lexinfo:pronunciation "/tab • bel • la/"@it ;
+    lexinfo:pronunciation "/tab • bèl • la/"@it ;
     skos:definition "Tabella realizzata molto bene, di facile lettura e in generale ben costruita."@it ;
-    skos:example "Nella relazione che ho preparato per quell'esame ho dovuto schematizzare il lavoro e mi è venuto molto bene, tant'è che ho realizzato una tabbella! !"@it ;
+    skos:example "Nella relazione che ho preparato per quell'esame ho dovuto schematizzare il lavoro e mi è venuto molto bene, tant'è che ho realizzato una tabbella!"@it ;
     dct:created "2023-01-10" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:anticorpolo
+    a skos:Concept ;
+    skos:prefLabel "Anticorpolo"@it ;
+    lexinfo:pronunciation "/an • ti • còr • po • lo/"@it ;
+    skos:definition "Un anticorpo che decide di sparire perché si è stancato di aspettare l'agente patogeno che lo ha fatto arrivare la prima volta."@it ;
+    skos:example "Spero che i miei anticorpi non diventino tutti anticorpoli nel giro di breve..."@it ;
+    dct:created "2023-12-24" ;
+    dct:creator vocang:filasetaAngelo .
