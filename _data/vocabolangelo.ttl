@@ -2437,3 +2437,12 @@ vocang:trocca
     skos:example "Sparisci dalla mia vita, lurica trocca!"@it ;
     dct:created "2023-01-09" ;
     dct:creator vocang:pertosaLorenzo, vocang:deRosaLeonardo .
+
+vocang:tabbella
+    a skos:Concept ;
+    skos:prefLabel "Tabbella"@it ;
+    lexinfo:pronunciation "/tab • bel • la/"@it ;
+    skos:definition "Tabella realizzata molto bene, di facile lettura e in generale ben costruita."@it ;
+    skos:example "Nella relazione che ho preparato per quell'esame ho dovuto schematizzare il lavoro e mi è venuto molto bene, tant'è che ho realizzato una tabbella! !"@it ;
+    dct:created "2023-01-10" ;
+    dct:creator vocang:pertosaLorenzo .
