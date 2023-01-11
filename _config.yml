@@ -8,6 +8,8 @@ exclude:
     - Gemfile
     - Procfile
     - README.md
+    - LICENSE
+    - CHANGELOG.md
 
 plugins:
     - jekyll-rdf
