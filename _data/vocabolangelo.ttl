@@ -646,6 +646,7 @@ vocang:uovograna
     lexinfo:pronunciation "/uo • vo • gra • na/"@it ;
     skos:definition "Albume cotto con sopra semi di melograno."@it ;
     skos:example "Oggi mi sono mangiato un uovograna."@it ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/uovograna.jpg" ;
     dct:creator vocang:filasetaAngelo .
 
 vocang:urlatto
@@ -654,7 +655,7 @@ vocang:urlatto
     lexinfo:pronunciation "/Ur • lat • to/"@it ;
     skos:definition "Gatto che urla."@it ;
     skos:example "Sotto casa mia ci sono degli urlatti."@it ;
-     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/urlatto.jpg" ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/urlatto.jpg" ;
     dct:creator vocang:pertosaLorenzo .
 
 vocang:yoguovo
