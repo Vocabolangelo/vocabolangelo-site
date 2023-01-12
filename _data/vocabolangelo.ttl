@@ -1003,6 +1003,7 @@ vocang:balborbottare
 vocang:fraldo
     a skos:Concept ;
     skos:prefLabel "Fraldo"@it ;
+    lexinfo:pronunciation "/fral • do/"@it ;
     skos:definition "Utilizzato per indicare qualcosa che è sia caldo che freddo."@it ;
     skos:example "Oggi è un po' fraldiccio."@it;
     dct:created "2022-08-27" ;
@@ -1011,6 +1012,7 @@ vocang:fraldo
 vocang:piripizia
     a skos:Concept ;
     skos:prefLabel "Piripizia"@it ;
+    lexinfo:pronunciation "/pi • ri • pi • zia/"@it ;
     skos:definition "Una perizia pericolosa."@it ;
     skos:example "Oggi quel tizio ha fatto una piripizia."@it;
     dct:created "2022-08-27" ;
@@ -1019,6 +1021,7 @@ vocang:piripizia
 vocang:sacrofago
     a skos:Concept ;
     skos:prefLabel "Sacrofago"@it ;
+    lexinfo:pronunciation "/sa • cro • fa • go/"@it ;
     skos:definition "Un individuo che mangia oggetti religiosi (crocifissi, santini, bibbie etc.)."@it ;
     skos:example "Ho paura che mio marito stia diventando un sacrofago... Non trovo più il mio santino di Padre Pio."@it;
     dct:created "2022-08-27" ;
@@ -1027,6 +1030,7 @@ vocang:sacrofago
 vocang:dissennatorte
     a skos:Concept ;
     skos:prefLabel "Dissennatorte"@it ;
+    lexinfo:pronunciation "/dis • sen • na • tor • te/"@it ;
     skos:definition "Un dissennatore che assorbe il sapore delle torte."@it ;
     skos:example "Ho sognato un dissennatorte è stato orribile."@it;
     dct:created "2022-08-26" ;
@@ -1035,6 +1039,7 @@ vocang:dissennatorte
 vocang:camarella
     a skos:Concept ;
     skos:prefLabel "Camarella"@it ;
+    lexinfo:pronunciation "/ca • ma • rel • la/"@it ;
     skos:definition "Caramella che solitamente viene mangiata dai cammelli."@it ;
     skos:example "A me le camarelle distruggono i denti."@it;
     dct:created "2022-08-25" ;
@@ -1043,6 +1048,7 @@ vocang:camarella
 vocang:camaleono
     a skos:Concept ;
     skos:prefLabel "Camaleono"@it ;
+    lexinfo:pronunciation "/ca • ma • le • ò • no/"@it ;
     skos:definition "Un camaleonte che si nasconde senza mimetizzarsi."@it ;
     skos:example "Guarda che tenero quel camaleononcino che cerca di nascondersi."@it;
     dct:created "2022-08-30" ;
@@ -1051,6 +1057,7 @@ vocang:camaleono
 vocang:canama
     a skos:Concept ;
     skos:prefLabel "Canama"@it ;
+    lexinfo:pronunciation "/ca • na • ma/"@it ;
     skos:definition "La canama vorrebbe essere marijuana ma ha un destino più triste. Si tratta di tutta quella canapa che viene prodotta per cercano di convincere (fallendo miseramente) l'italiano medio a legalizzare. Viene utilizzata in modi non convenzionali, per esempio provando a creare della carta igienica in grado di alleviare i dolori post intervento alle emorroidi."@it ;
     skos:example "Ho visto un cartellone sponsorizzare l'uso della canama oggi."@it;
     dct:created "2022-08-26" ;
@@ -1059,6 +1066,7 @@ vocang:canama
 vocang:pandiminia
     a skos:Concept ;
     skos:prefLabel "Pandiminia"@it ;
+    lexinfo:pronunciation "/pan • di • mi • nia/"@it ;
     skos:definition "Una pandemia di Minions che scoppia su Via Flaminia."@it ;
     skos:example "Dobbiamo per forza prendere l'autostrada a causa della pandiminia."@it;
     dct:created "2022-09-18" ;
@@ -1068,6 +1076,7 @@ vocang:pandiminia
 vocang:cortatoria
     a skos:Concept ;
     skos:prefLabel "Cortatoria"@it ;
+    lexinfo:pronunciation "/cor • ta • to • ria/"@it ;
     skos:definition "L'opposto di una scorciatroia, ovvero una scorciatoia talmente efficiente che sembra rompere le leggi della fisica."@it ;
     skos:example "Mario è partito un'ora dopo di me eppure è arrivato prima, deve aver preso una cortatoria."@it, "Il treno ha recuperato un'ora di ritardo in 10 minuti, ha sicuramente usato una cortatoria"@it;
     dct:created "2022-09-18" ;
@@ -1077,6 +1086,7 @@ vocang:cortatoria
 vocang:bibiribì
     a skos:Concept ;
     skos:prefLabel "Bibiribì"@it ;
+    lexinfo:pronunciation "/bi • bi • ri • bì/"@it ;
     skos:definition "Business Intelligence applicata ai Biribì."@it ;
     skos:example "Servirebbe creare un sistema di Bibiribì, riusciremmo ad aumentare notevolmente il fatturato."@it;
     dct:created "2022-09-16" ;
@@ -1086,6 +1096,7 @@ vocang:bibiribì
 vocang:caffoncello
     a skos:Concept ;
     skos:prefLabel "Caffoncello"@it ;
+    lexinfo:pronunciation "/caf • fon • cel • lo/"@it ;
     skos:definition "Caffè e Limoncello mischiati insieme in un'unica bevanda."@it ;
     skos:example "Il caffoncello mi fa venire una certa acidità allo stomaco."@it;
     dct:created "2022-09-12" ;
@@ -1094,6 +1105,7 @@ vocang:caffoncello
 vocang:cartetta
     a skos:Concept ;
     skos:prefLabel "Cartetta"@it ;
+    lexinfo:pronunciation "/car • tet • ta/"@it ;
     skos:definition "Una tetta che appare più grossa di quello che realmente è perché imbottita con della carta igienica."@it ;
     skos:example "Sembra tutta soba sua, invece quelle sono solo cartette."@it;
     dct:created "2022-09-12" ;
@@ -1102,6 +1114,7 @@ vocang:cartetta
 vocang:sportiera
     a skos:Concept ;
     skos:prefLabel "Sportiera"@it ;
+    lexinfo:pronunciation "/spor • tie • ra/"@it ;
     skos:definition "Lo sportello molto grande di un'automobile, talmente tanto che sembra una porta."@it ;
     skos:example "Vorrei sbattere fortissimo quella sportiera e sentire quanto rumore fa."@it;
     dct:created "2022-09-12" ;
@@ -1110,6 +1123,7 @@ vocang:sportiera
 vocang:leblu
     a skos:Concept ;
     skos:prefLabel "Leblu"@it ;
+    lexinfo:pronunciation "/le • blu/"@it ;
     skos:definition "Un fuoco originato dalla carbonella che risulta grande e blu."@it ;
     skos:example "Potrei fissare il leblu per sempre, ma rischierei di scottarmi."@it;
     dct:created "2022-09-10" ;
@@ -1118,6 +1132,7 @@ vocang:leblu
 vocang:umbriaco
     a skos:Concept ;
     skos:prefLabel "Umbriaco"@it ;
+    lexinfo:pronunciation "/um • bri • à • co/"@it ;
     skos:definition "Un'abitante della regione Umbria ubriaco."@it ;
     skos:example "Il tuo amico perugino è umbriaco."@it;
     dct:created "2022-09-09" ;
@@ -1126,6 +1141,7 @@ vocang:umbriaco
 vocang:sazioletto
     a skos:Concept ;
     skos:prefLabel "Sazioletto"@it ;
+    lexinfo:pronunciation "/sa • zio • let • to/"@it ;
     skos:definition "Il fazzoletto che viene utilizzato per pulirsi la bocca dopo un abbondante pasto che ha reso sazi."@it ;
     skos:example "Ahhh che mangiata! Mi passeresti il sazioletto per pulirmi?."@it;
     dct:created "2022-08-31" ;
@@ -1134,6 +1150,7 @@ vocang:sazioletto
 vocang:proferrone
     a skos:Concept ;
     skos:prefLabel "Proferrone"@it ;
+    lexinfo:pronunciation "/pro • fer • ro • ne/"@it ;
     skos:definition "Un professore di origini meridionali facilmente determinabile dall'accento del parlato."@it ;
     skos:example "Il tizio che ci insegna Web è un proferrone."@it;
     dct:created "2022-09-20" ;
@@ -1142,6 +1159,7 @@ vocang:proferrone
 vocang:canuro
     a skos:Concept ;
     skos:prefLabel "Canuro"@it ;
+    lexinfo:pronunciation "/ca • nu • ro/"@it ;
     skos:definition "Caffè con dentro del cianuro."@it ;
     skos:example "Oggi mi andrebbe tantissimo di bere del canuro."@it;
     dct:created "2022-09-20" ;
@@ -1151,6 +1169,7 @@ vocang:canuro
 vocang:stancoffè
     a skos:Concept ;
     skos:prefLabel "Stancoffè"@it ;
+    lexinfo:pronunciation "/stan • cof • fè/"@it ;
     skos:definition "Un caffè che si prende quando si è particolarmente stanchi o assonnati per cercare di svegliarsi."@it ;
     skos:example "Questa notte ho dormito veramente male e adesso sono assonnato, mi ci vorrebbe proprio uno stancoffè."@it;
     dct:created "2022-09-21" ;
@@ -1159,6 +1178,7 @@ vocang:stancoffè
 vocang:messagfo
     a skos:Concept ;
     skos:prefLabel "Messagfo"@it ;
+    lexinfo:pronunciation "/mes • sag • fo/"@it ;
     skos:definition "Un messaggio che doveva essere molto figo ma che a causa di agenti esterni, per esempio un correttore automatico, perde l'effetto desiderato."@it ;
     skos:example "Doveva far ridere tutti ma è semplicemente uscito un messagfo."@it;
     dct:created "2022-09-24" ;
@@ -1167,6 +1187,7 @@ vocang:messagfo
 vocang:orgiario
     a skos:Concept ;
     skos:prefLabel "Orgiario"@it ;
+    lexinfo:pronunciation "/or • gia • rio/"@it ;
     skos:definition "Un calendario utilizzato per segnare esclusivamente le orgie."@it ;
     skos:example "Aspetta un attimo, fammi controllare sul mio orgiario..."@it;
     dct:created "2022-09-25" ;
@@ -1175,6 +1196,7 @@ vocang:orgiario
  vocang:orlare
     a skos:Concept ;
     skos:prefLabel "Orlare"@it ;
+    lexinfo:pronunciation "/or • la • re/"@it ;
     skos:definition "Urlare imitando la voce di qualcuno che ha \"Orlando\" come cognome."@it ;
     skos:example "Smettila di orlare, mi dai fastidio."@it;
     dct:created "2022-10-07" ;
@@ -1183,6 +1205,7 @@ vocang:orgiario
  vocang:buggatto
     a skos:Concept ;
     skos:prefLabel "Buggatto"@it ;
+    lexinfo:pronunciation "/bug • gat • to/"@it ;
     skos:definition "Quando in un videogioco avviene un bug che coinvolge un gatto."@it ;
     skos:example "Tutti i gatti nel videogioco Stray sono in realtà buggatti se si buggano."@it;
     dct:created "2022-10-11" ;
@@ -1191,6 +1214,7 @@ vocang:orgiario
 vocang:dimenticatroio
     a skos:Concept ;
     skos:prefLabel "Dimenticatroio"@it ;
+    lexinfo:pronunciation "/di • men • ti • ca • tro • io/"@it ;
     skos:definition "Un posto nel cervello dove nascondere le troiate fatte nella propria vita in modo da sperare di poterle dimenticare."@it ;
     skos:example "Che figura... La metto nel dimenticatroio."@it;
     dct:created "2022-10-20" ;
@@ -1199,6 +1223,7 @@ vocang:dimenticatroio
 vocang:inzaccare
     a skos:Concept ;
     skos:prefLabel "Inzaccare"@it ;
+    lexinfo:pronunciation "/in • zac • ca • re/"@it ;
     skos:definition "Essere incazzati per qualcosa che viene richiesto da un terzo, con poco preavviso e con una deadline vicina."@it ;
     skos:example "Oggi Anna mi ha fatto davvero inzaccare con quella richiesta."@it;
     dct:created "2022-10-21" ;
@@ -1207,22 +1232,16 @@ vocang:inzaccare
 vocang:addiato
     a skos:Concept ;
     skos:prefLabel "Addiato"@it ;
+    lexinfo:pronunciation "/ad • di • à • to/"@it ;
     skos:definition "Una persona alla quale si vule dire addio prima che parta e se ne vada da qualche parte per un po', forse per sempre."@it ;
     skos:example "Dato che sei tu l'addiato, devi fare tu il discorso."@it;
     dct:created "2022-10-21" ;
     dct:creator vocang:minoccheriAlessandra .
 
-vocang:comaEllittico
-    a skos:Concept ;
-    skos:prefLabel "Coma Ellittico"@it ;
-    skos:definition "Quando si beve talmente tanto che la concezione dello spazio risulta molto distorta."@it ;
-    skos:example "Ti prego aiutami credo di star per andare in coma ellittico."@it;
-    dct:created "2022-10-22" ;
-    dct:creator vocang:omiccioliRiccardo .
-
 vocang:amorto
     a skos:Concept ;
     skos:prefLabel "Amorto"@it ;
+    lexinfo:pronunciation "/a • mor • to/"@it ;
     skos:definition "Un amico morto. Il termine è utilizzabile solo se l'amicizia si è instaurata quando almeno una delle due parti era già morta."@it ;
     skos:example "Posso portare il mio amorto alla festa?"@it;
     dct:created "2022-10-26" ;
@@ -1231,6 +1250,7 @@ vocang:amorto
 vocang:pegogo
     a skos:Concept ;
     skos:prefLabel "Pegogo"@it ;
+    lexinfo:pronunciation "/pe • go • go/"@it ;
     skos:definition "Il peggio che continua a succedere ripetutamente."@it ;
     skos:example "Non poteva andare pegogo."@it;
     dct:created "2022-10-28" ;
@@ -1239,6 +1259,7 @@ vocang:pegogo
 vocang:nolletico
     a skos:Concept ;
     skos:prefLabel "Nolletico"@it ;
+    lexinfo:pronunciation "/nol • le • ti • co/"@it ;
     skos:definition "Il solletico che non si vuole ricevere."@it ;
     skos:example "Ti prego, il nolletico no!."@it;
     dct:created "2022-10-28" ;
@@ -1247,6 +1268,7 @@ vocang:nolletico
 vocang:fragagliato
     a skos:Concept ;
     skos:prefLabel "Fragagliato"@it ;
+    lexinfo:pronunciation "/fra • ga • glia • to/"@it ;
     skos:definition "Traduzione di 'frunk' ovvero bagaglio anteriore di un'auto."@it ;
     skos:example "Puoi metterlo nel fragagliato."@it;
     dct:created "2022-10-28" ;
@@ -1255,6 +1277,7 @@ vocang:fragagliato
 vocang:trashiba
     a skos:Concept ;
     skos:prefLabel "Trashiba"@it ;
+    lexinfo:pronunciation "/tra • shi • ba/"@it ;
     skos:definition "Un cane della razza shiba che viene trascinato dal padrone che lo tiene al guinzaglio e slitta sul pavimento liscio."@it ;
     skos:example "Voglio quel Trashiba. Anzi ne voglio 2."@it;
     dct:created "2022-10-30" ;
@@ -1263,6 +1286,7 @@ vocang:trashiba
 vocang:aporta
     a skos:Concept ;
     skos:prefLabel "Aporta"@it ;
+    lexinfo:pronunciation "/a • por • ta/"@it ;
     skos:definition "Una porta sempre aperta."@it ;
     skos:example "In casa mia c'è almeno un'aporta."@it;
     dct:created "2022-11-01" ;
@@ -1271,6 +1295,7 @@ vocang:aporta
 vocang:caratterrore
     a skos:Concept ;
     skos:prefLabel "Caratterrore"@it ;
+    lexinfo:pronunciation "/ca • rat • ter • ro • re/"@it ;
     skos:definition "Un carattere che è in realtà un errore."@it ;
     skos:example "Caratterrare."@it;
     dct:created "2022-11-03" ;
@@ -1279,6 +1304,7 @@ vocang:caratterrore
 vocang:avvogatto
     a skos:Concept ;
     skos:prefLabel "Avvogatto"@it ;
+    lexinfo:pronunciation "/av • vo • gat • to/"@it ;
     skos:definition "Un avvocato per gatti."@it ;
     skos:example "Kiri, ti serve un avvogatto."@it;
     dct:created "2022-11-04" ;
@@ -1287,6 +1313,7 @@ vocang:avvogatto
 vocang:insavolata
     a skos:Concept ;
     skos:prefLabel "Insavolata"@it ;
+    lexinfo:pronunciation "/in • sa • vo • la • ta/"@it ;
     skos:definition "Un'instalata piccante. Un'instalata alla diavola."@it ;
     skos:example "Nicola ordina solo insavolate ai ristoranti."@it;
     dct:created "2022-10-21" ;
@@ -1295,6 +1322,7 @@ vocang:insavolata
 vocang:culpo
     a skos:Concept ;
     skos:prefLabel "Culpo"@it ;
+    lexinfo:pronunciation "/cul • po/"@it ;
     skos:definition "Sinonimo di balzo, colpo, stolzo, ma utilizzato in un contesto per cui la paura che lo ha causato è del tutto infondata."@it ;
     skos:example "Madonna, mi è preso un culpo, meno male che era solo un buggatto."@it;
     dct:created "2022-11-17" ;
@@ -1303,6 +1331,7 @@ vocang:culpo
 vocang:babarucchiere
     a skos:Concept ;
     skos:prefLabel "Babarucchiere"@it ;
+    lexinfo:pronunciation "/ba • ba • ruc • chie • re/"@it ;
     skos:definition "Un parruchiere balbuziente."@it ;
     skos:example "Oggi vado a farmi fare un taglio da quel babarucchiere in centro."@it;
     dct:created "2022-11-14" ;
@@ -1311,6 +1340,7 @@ vocang:babarucchiere
 vocang:origasmo
     a skos:Concept ;
     skos:prefLabel "Origasmo"@it ;
+    lexinfo:pronunciation "/o • ri • gas • mo/"@it ;
     skos:definition "Un origami a sfondo sessuale."@it , "Un origami talmente bello che provoca un orgasmo."@it ;
     skos:example "Oggi vado alla mostra degli origasmi."@it;
     dct:created "2022-11-13" ;
@@ -1319,6 +1349,7 @@ vocang:origasmo
 vocang:mortiversitario
     a skos:Concept ;
     skos:prefLabel "Mortiversitario"@it ;
+    lexinfo:pronunciation "/mor • ti • ver • si • ta • rio/"@it ;
     skos:definition "Una persona che si immatricola in una facoltà con lo scopo di morire e garantire la laurea ad honorem a tutti gli altri iscritti."@it ;
     skos:example "Siamo veramente fortunati, al nostro anno si è iscritto un mortiversitario."@it;
     dct:created "2022-11-10" ;
@@ -1327,6 +1358,7 @@ vocang:mortiversitario
 vocang:acquesca
     a skos:Concept ;
     skos:prefLabel "Acquesca"@it ;
+    lexinfo:pronunciation "/ac • ques • ca/"@it ;
     skos:definition "Acqua fresca."@it ;
     skos:example "Non capisco perché questo strumento su Pokèmon Bianco si chiami \"Acqua Fresca\" e non Acquesca."@it;
     dct:created "2022-11-08" ;
@@ -1335,6 +1367,7 @@ vocang:acquesca
 vocang:defficiente
     a skos:Concept ;
     skos:prefLabel "Defficiente"@it ;
+    lexinfo:pronunciation "/def • fi • cien • te/"@it ;
     skos:definition "Una persona che riesce a dire cose stupide in modo efficiente, ovvero in pochissimo tempo."@it ;
     skos:example "Matteo è proprio un defficiente."@it ;
     dct:created "2022-11-17" ;
@@ -1343,6 +1376,7 @@ vocang:defficiente
 vocang:vivicidio
     a skos:Concept ;
     skos:prefLabel "Vivicidio"@it ;
+    lexinfo:pronunciation "/vi • vi • ci • dio/"@it ;
     skos:definition "Un suicidio vissuto al massimo delle sue potenzialità."@it ;
     skos:example "Stasera commetto un vivicidio."@it ;
     dct:created "2022-11-18" ;
@@ -1351,6 +1385,7 @@ vocang:vivicidio
 vocang:decafferillo
     a skos:Concept ;
     skos:prefLabel "Decafferillo"@it ;
+    lexinfo:pronunciation "/de • caf • fe • ril • lo/"@it ;
     skos:definition "Un Cafferillo ma in versione decaffeinata."@it ;
     skos:example "Non voglio agitarmi, prenderò un decafferillo."@it ;
     dct:created "2022-11-20" ;
@@ -1424,6 +1459,7 @@ vocang:ocoiGli
 vocang:innamuoramento
     a skos:Concept ;
     skos:prefLabel "Innamuoramento"@it ;
+    lexinfo:pronunciation "/in • na • muo • ra • men • to/"@it ;
     skos:definition "L'innamoramento vissuto da una persona deceduta."@it ;
     skos:example "Non mi sono mai innamorato, ma forse un giorno mi innamuorerò."@it ;
     dct:created "2022-11-21" ;
@@ -1432,6 +1468,7 @@ vocang:innamuoramento
 vocang:fallaceo
     a skos:Concept ;
     skos:prefLabel "Fallaceo"@it ;
+    lexinfo:pronunciation "/fal • la • ce • o/"@it ;
     skos:definition "Ricco di falle logiche, privo di senso logico."@it ;
     skos:example "Questo ragionamento è molto fallaceo."@it ;
     dct:created "2022-11-21" ;
@@ -1440,6 +1477,7 @@ vocang:fallaceo
 vocang:artificiarto
     a skos:Concept ;
     skos:prefLabel "Artificiarto"@it ;
+    lexinfo:pronunciation "/ar • ti • fi • ciar • to/"@it ;
     skos:definition "Un arto artificiale, una protesi per rimpiazzare un arto mancante."@it ;
     skos:example "Se avessi un artificiarto mi sentirei molto simile ad un robot."@it ;
     dct:created "2022-11-22" ;
@@ -1448,6 +1486,7 @@ vocang:artificiarto
 vocang:buonana
     a skos:Concept ;
     skos:prefLabel "Buonana"@it ;
+    lexinfo:pronunciation "/buo • na • na/"@it ;
     skos:definition "Una banana molto buona."@it ;
     skos:example "Oggi ho mangiato una buonana, caspita se era ricca di potassio!"@it,  "Giuliano è andato in cucina per prendere un caffè ma è tornato con una buonana."@it;
     dct:created "2022-11-22" ;
@@ -1456,6 +1495,7 @@ vocang:buonana
 vocang:scrivamia
     a skos:Concept ;
     skos:prefLabel "Scrivamia"@it ;
+    lexinfo:pronunciation "/scri • va • mì • a/"@it ;
     skos:definition "Una scrivania posseduta solo e solamente da chi utilizza la parola."@it ;
     skos:example "Questa scrivamia non è tua."@it;
     dct:created "2022-11-22" ;
@@ -1464,6 +1504,7 @@ vocang:scrivamia
 vocang:escire
     a skos:Concept ;
     skos:prefLabel "Escire"@it ;
+    lexinfo:pronunciation "/e • sci • re/"@it ;
     skos:definition "Uscire, ma da una autostrada."@it ;
     skos:example "Mi sono scordato di escire, farò alla prossima."@it;
     dct:created "2022-11-24" ;
@@ -1472,6 +1513,7 @@ vocang:escire
 vocang:criminese
     a skos:Concept ;
     skos:prefLabel "Criminese"@it ;
+    lexinfo:pronunciation "/cri • mi • ne • se/"@it ;
     skos:definition "Abitante della città di Rimini che commette un crimine."@it ;
     skos:example "Ho paura di andare a Rimini, è pieno di criminesi."@it;
     dct:created "2022-11-24" ;
@@ -1480,6 +1522,7 @@ vocang:criminese
 vocang:starnutisciare
     a skos:Concept ;
     skos:prefLabel "Starnutisciare"@it ;
+    lexinfo:pronunciation "/star • nu • ti • scia • re/"@it ;
     skos:definition "L'atto della minzione quando avviene in contemporanea ad uno starnuto."@it ;
     skos:example "Starnutisciare è pericoloso, rischi di sporcare tutto."@it;
     dct:created "2022-11-24" ;
@@ -1488,6 +1531,7 @@ vocang:starnutisciare
 vocang:birragarino
     a skos:Concept ;
     skos:prefLabel "Birragarino"@it ;
+    lexinfo:pronunciation "/bir • ra • ga • ri • no/"@it ;
     skos:definition "Bagarino che vende la birra fuori dagli eventi a prezzi esorbitanti."@it ;
     skos:example "Non capisco perché le persone vanno da quel birragarino."@it;
     dct:created "2022-11-24" ;
@@ -1496,6 +1540,7 @@ vocang:birragarino
 vocang:notta
     a skos:Concept ;
     skos:prefLabel "Notta"@it ;
+    lexinfo:pronunciation "/not • ta/"@it ;
     skos:definition "Momento nel tempo che può essere considerato sia giorno che notte."@it ;
     skos:example "Questa notta mentre Alberto dormiva Giuliano faceva colazione con il kebab."@it;
     dct:created "2022-11-26" ;
@@ -1504,6 +1549,7 @@ vocang:notta
 vocang:comumista
     a skos:Concept ;
     skos:prefLabel "Comumista"@it ;
+    lexinfo:pronunciation "/co • mu • mis • ta/"@it ;
     skos:definition "Una canna composta da erba e tabacco, fumata e girata esclusivamente da persone il cui orientamento politico tende all'estrema sinistra."@it ;
     skos:example "Giuliano e Luca si sono rollati una comumista durante la lezione di linguistica."@it;
     dct:created "2022-11-26" ;
@@ -1512,6 +1558,7 @@ vocang:comumista
 vocang:nuocitudine
     a skos:Concept ;
     skos:prefLabel "Nuocitudine"@it ;
+    lexinfo:pronunciation "/nuo • ci • tu • di • ne/"@it ;
     skos:definition "Situazione di potenziale pericolo per te e per chi ti sta intorno."@it ;
     skos:example "La consegna del progetto andrà bene, non vedo nuocitudini."@it;
     dct:created "2022-11-26" ;
@@ -1520,6 +1567,7 @@ vocang:nuocitudine
 vocang:froggia
     a skos:Concept ;
     skos:prefLabel "Froggia"@it ;
+    lexinfo:pronunciation "/frog • gia/"@it ;
     skos:definition "La pioggia fredda che quando entra in contatto con la pelle di una persona le fa provare una sensazione di disagio e fastidio, al punto che sembra arrivare alle ossa."@it ;
     skos:example "Questa froggia mi farà prendere un malanno."@it;
     dct:creator vocang:savoGiorgia .
@@ -1527,6 +1575,7 @@ vocang:froggia
 vocang:gestiomale
     a skos:Concept ;
     skos:prefLabel "Gestiomale"@it ;
+    lexinfo:pronunciation "/ges • tio • ma • le/"@it ;
     skos:definition "Un gioco gestionale, gestito intenzionalmente male."@it ;
     skos:example "The Sims è un gestiomale, visto che mi diverto ad uccidere i sim."@it;
     dct:created "2022-11-28" ;
@@ -1535,6 +1584,7 @@ vocang:gestiomale
 vocang:orinadosso
     a skos:Concept ;
     skos:prefLabel "Orinadosso"@it ;
+    lexinfo:pronunciation "/o • ri • na • dos • so/"@it ;
     skos:definition "Paradosso creatosi durante la scelta dell'orinatoio da utilizzare in cui nessuna delle scelte possibili è consigliata e/o corretta"@it ;
     skos:example "Quel bagno è progettato davvero male, si è verificato un orinadosso"@it;
     dct:created "2022-11-27" ;
@@ -1543,6 +1593,7 @@ vocang:orinadosso
 vocang:obesatto
     a skos:Concept ;
     skos:prefLabel "Obesatto"@it ;
+    lexinfo:pronunciation "/o • be • sat • to/"@it ;
     skos:definition "Un gatto estremamente obeso."@it ;
     skos:example "Su Instagram continuano a arrivarmi reel di obesatti, son carini ma fan fatica a muoversi!"@it;
     dct:created "2022-11-29" ;
@@ -1551,6 +1602,7 @@ vocang:obesatto
 vocang:ghiaccimi
     a skos:Concept ;
     skos:prefLabel "Ghiaccimi"@it ;
+    lexinfo:pronunciation "/giac • ci • mi/"@it ;
     skos:definition "Sashimi servito con abbondante ghiaccio."@it ;
     skos:example "D'estate non c'è niente di meglio che ordinare il ghiaccimi all'All You Can Eat!"@it ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/ghiaccimi.jpg" ;
@@ -1560,6 +1612,7 @@ vocang:ghiaccimi
 vocang:prenare
     a skos:Concept ;
     skos:prefLabel "Prenare"@it ;
+    lexinfo:pronunciation "/pre • na • re/"@it ;
     skos:definition "Evitare di pranzare recuperando il pasto perso a cena."@it ;
     skos:example "Ho prenato proprio ieri sera, è stato sublime."@it;
     dct:created "2022-11-30" ;
@@ -1568,6 +1621,7 @@ vocang:prenare
 vocang:sburuccia
     a skos:Concept ;
     skos:prefLabel "Sburuccia"@it ;
+    lexinfo:pronunciation "/sbu • ruc • cia/"@it ;
     skos:definition "Una cannuccia utilizzata per risucchiare liquidi di ambigua provenienza."@it ;
     skos:example "Non vorrei mai bere da una sburuccia."@it;
     dct:created "2022-12-03" ;
@@ -1576,6 +1630,7 @@ vocang:sburuccia
 vocang:famaloso
     a skos:Concept ;
     skos:prefLabel "Famaloso"@it ;
+    lexinfo:pronunciation "/fa • ma • lo • so/"@it ;
     skos:definition "La sensazione di dolore e fastidio causata da una ferita generica."@it ;
     skos:example "Mi sono tagliato nel dito con un foglio di carta ed è famaloso."@it;
     dct:created "2022-12-03" ;
@@ -1584,6 +1639,7 @@ vocang:famaloso
 vocang:perischio
     a skos:Concept ;
     skos:prefLabel "Perischio"@it ;
+    lexinfo:pronunciation "/pe • ris • chio/"@it ;
     skos:definition "Una persona che non avrebbe dovuto ottenere la qualifica di perito."@it ;
     skos:example "A lavoro i miei colleghi sono quasi tutti perischi."@it;
     dct:created "2022-12-03" ;
@@ -1592,6 +1648,7 @@ vocang:perischio
 vocang:pomigioco
     a skos:Concept ;
     skos:prefLabel "Pomigioco"@it ;
+    lexinfo:pronunciation "/po • mi • gio • co/"@it ;
     skos:definition "Un cabinato delle sale giochi molto grosso in cui si può entrare. Chi ci entra lo fa principalmente per limonare."@it ;
     skos:example "Ieri Alessandra mi ha chiesto di entrare in quel pomigioco... Purtroppo non ho afferrato."@it;
     dct:created "2022-12-02" ;
@@ -1600,6 +1657,7 @@ vocang:pomigioco
 vocang:tracover
     a skos:Concept ;
     skos:prefLabel "Tracover"@it ;
+    lexinfo:pronunciation "/tra • co • ver/"@it ;
     skos:definition "Una cover per smartphone che ha degli appositi gancetti per permettere di tenere il telefono come una tracolla."@it ;
     skos:example "Andare a Napoli con la tracover non è una buona idea."@it;
     dct:created "2022-12-02" ;
@@ -1608,6 +1666,7 @@ vocang:tracover
 vocang:domadonna
     a skos:Concept ;
     skos:prefLabel "Domadonna"@it ;
+    lexinfo:pronunciation "/do • ma • don • na/"@it ;
     skos:definition "Una domanda estremamente importante."@it ;
     skos:example "Non esistono domande stupide, ogni domanda è una domadonna."@it;
     dct:created "2022-12-02" ;
@@ -1616,6 +1675,7 @@ vocang:domadonna
 vocang:palattia
     a skos:Concept ;
     skos:prefLabel "Palattia"@it ;
+    lexinfo:pronunciation "/pa • lat • ti • a/"@it ;
     skos:definition "Una malattia che ti rende poco sveglio."@it ;
     skos:example "Lorenzo mi ha attaccato la palattia, mi sento proprio coglione."@it;
     dct:created "2022-11-27" ;
@@ -1624,6 +1684,7 @@ vocang:palattia
 vocang:avita
     a skos:Concept ;
     skos:prefLabel "Avita"@it ;
+    lexinfo:pronunciation "/a • vi • ta/"@it ;
     skos:definition "Assenza di vita."@it ;
     skos:example "Novembre è un mese pieno di avita."@it;
     dct:created "2022-12-06" ;
@@ -1632,6 +1693,7 @@ vocang:avita
 vocang:fortegato
     a skos:Concept ;
     skos:prefLabel "Fortegato"@it ;
+    lexinfo:pronunciation "/for • te • ga • to/"@it ;
     skos:definition "Un fegato divenuto più forte in seguito a sua parziale distruzione dovuta a cause varie e successiva rigenerazione."@it ;
     skos:example "Sono anni che mi sfascio di Negroni per avere un Fortegato e tutto ciò che ho ottenuto sono perdere il Grande Gioco e una cirrosi, ma non mi arrendo!"@it ;
     dct:created "2022-12-06" ;
@@ -1640,6 +1702,7 @@ vocang:fortegato
 vocang:gigatto
     a skos:Concept ;
     skos:prefLabel "Gigatto"@it ;
+    lexinfo:pronunciation "/gi • gat • to/"@it ;
     skos:definition "Un gatto molto grande."@it ;
     skos:example "Obesatti e gigatti si somigliano molto, un gigatto tuttavia non è necessariamente obeso."@it ;
     dct:created "2022-12-07" ;
@@ -1648,6 +1711,7 @@ vocang:gigatto
 vocang:parolangelo
     a skos:Concept ;
     skos:prefLabel "Parolangelo"@it ;
+    lexinfo:pronunciation "/pa • ro • lan • ge • lo/"@it ;
     skos:definition "Una parola presente all'interno del Vocabolangelo."@it ;
     skos:example "Il vocabolangelo è pieno di parolangelo interessanti!"@it ;
     skos:related vocang:vocabolangelo, vocang:dizionangelo, vocang:angelario ;
@@ -1657,6 +1721,7 @@ vocang:parolangelo
 vocang:oltatto
     a skos:Concept ;
     skos:prefLabel "Oltatto"@it ;
+    lexinfo:pronunciation "/ol • tat • to/"@it ;
     skos:definition "La percezione dei sensi tatto e olfatto insieme."@it ;
     skos:example "I neonati hanno un ottimo oltatto, infatti il loro olfatto è perfettamente sviluppato e identico a quello di un adulto, e sono molto sensibili al dolore."@it ;
     dct:created "2022-12-07" ;
@@ -1665,6 +1730,7 @@ vocang:oltatto
 vocang:dibirì
     a skos:Concept ;
     skos:prefLabel "Dibirì"@it ;
+    lexinfo:pronunciation "/di • bi • rì/"@it ;
     skos:definition "Database su cio sono memorizzati tutti i visitatori di un biribì."@it ;
     skos:example "Abbiamo sempre una copia di backup dei nostri dibirì."@it ;
     dct:created "2022-12-08" ;
@@ -1674,6 +1740,7 @@ vocang:dibirì
 vocang:notale
     a skos:Concept ;
     skos:prefLabel "Notale"@it ;
+    lexinfo:pronunciation "/no • ta • le/"@it ;
     skos:definition "Un Natale triste, privo di decorazioni e felicità, o comunque di spirito natalizio in generale."@it ;
     skos:example "Vorrei tanto che questo non fosse un Notale."@it ;
     dct:created "2022-12-08" ;
@@ -1682,6 +1749,7 @@ vocang:notale
 vocang:copertosa
     a skos:Concept ;
     skos:prefLabel "Copertosa"@it ;
+    lexinfo:pronunciation "/co • per • to • sa/"@it ;
     skos:definition "L'atto eseguito da parte di una persona che si mette sopra un'altra o la abbraccia al fine di scaldarla."@it ;
     skos:example "Lorenzo ho freddo, abbracciami e fammi da copertosa."@it ;
     dct:created "2022-12-06" ;
@@ -1690,6 +1758,7 @@ vocang:copertosa
 vocang:tristabbiato
     a skos:Concept ;
     skos:prefLabel "Tristabbiato"@it ;
+    lexinfo:pronunciation "/tris • tab • bia • to/"@it ;
     skos:definition "Essere contemporaneamente tristi e arrabbiati."@it ;
     skos:example "Mi ha lasiato, sono tristabbiato."@it ;
     dct:created "2022-12-08" ;
@@ -1699,6 +1768,7 @@ vocang:tristabbiato
 vocang:febbrene
     a skos:Concept ;
     skos:prefLabel "Febbrene"@it ;
+    lexinfo:pronunciation "/feb • bre • ne/"@it ;
     skos:definition "Una febbre più alta del normale ma che fa comunque sentire bene."@it ;
     skos:example "Ho 41 di temperatura ma non mi sento male, evidentemente ho la febbrene."@it ;
     dct:created "2022-12-08" ;
@@ -1707,6 +1777,7 @@ vocang:febbrene
 vocang:pistacchiamento
     a skos:Concept ;
     skos:prefLabel "Pistacchiamento"@it ;
+    lexinfo:pronunciation "/pis • tac • chia • men • to/"@it ;
     skos:definition "Pestaggio di una persona effettuato utilizzando dei pistacchi."@it ;
     skos:example "Mario è stato vittima di un pistacchiamento di gruppo a causa delle sue opinioni controverse."@it,
         "Ti apro con un pistacchiamento come un pistacchio."@it ;
@@ -1716,6 +1787,7 @@ vocang:pistacchiamento
 vocang:pistaggio
     a skos:Concept ;
     skos:prefLabel "Pistaggio"@it ;
+    lexinfo:pronunciation "/pis • tag • gio/"@it ;
     skos:definition "Sinonimo di pistacchiamento."@it ;
     skos:example "Mario è stato vittima di un pistaggio di gruppo a causa delle sue opinioni controverse."@it,
         "Ti apro con un pistaggio come un pistacchio."@it ;
@@ -1726,6 +1798,7 @@ vocang:pistaggio
 vocang:calligrafite
     a skos:Concept ;
     skos:prefLabel "Calligrafite"@it ;
+    lexinfo:pronunciation "/cal • li • gra • fi • te/"@it ;
     skos:definition "Calligrafia prodotta dall'utilizzo di una matita anziché dalla penna."@it ;
     skos:example "Mamma mi ha sempre detto che ho un'ottima calligrafite, ma una pessima calligrafia."@it ;
     dct:created "2022-12-10" ;
@@ -1734,6 +1807,7 @@ vocang:calligrafite
 vocang:bestemmiatoria
     a skos:Concept ;
     skos:prefLabel "Bestemmiatoria"@it ;
+    lexinfo:pronunciation "/bes • tem • mia • to • ria/"@it ;
     skos:definition "Situazione caotica nella quale le persone coinvolte enunciano ripetute e casuali bestemmie a causa di una situazione di disagio e/o rabbia."@it ;
     skos:example "A seguito della cattiva notizia ricevuta si è scatenata una bestemmiatoria alla quale tutti i presenti hanno partecipato."@it ;
     dct:created "2022-12-12" ;
@@ -1742,6 +1816,7 @@ vocang:bestemmiatoria
 vocang:genomiccio
     a skos:Concept ;
     skos:prefLabel "Genomiccio"@it ;
+    lexinfo:pronunciation "/ge • no • mic • cio/"@it ;
     skos:definition "Strage commessa ai danni di elementi si un gruppo di cui si fa parte."@it ;
     skos:example "C'è stato un genomiccio nel gruppo di Riccardo a causa dell'ira del professore a cui hanno consegnato il progetto."@it ;
     dct:created "2022-12-12" ;
@@ -1750,6 +1825,7 @@ vocang:genomiccio
 vocang:acquaffè
     a skos:Concept ;
     skos:prefLabel "Acquaffè"@it ;
+    lexinfo:pronunciation "/ac • quaf • fè/"@it ;
     skos:definition "Un caffè dal gusto poco intenso."@it ;
     skos:example "Questo acquaffè ha un sapore decisamente annacquato."@it ;
     dct:created "2022-12-12" ;
@@ -1758,7 +1834,8 @@ vocang:acquaffè
 vocang:controrabbia
     a skos:Concept ;
     skos:prefLabel "Controrabbia"@it ;
-    skos:definition "Il sentimento di rabbia che si prova verso qualcuno che è contrarrabbiato con te."@it ;
+    lexinfo:pronunciation "/con • tro • rab • bia/"@it ;
+    skos:definition "Il sentimento di rabbia che un soggetto prova verso qualcuno che è arrabbiato a sua volta con lui."@it ;
     skos:example "Sono incavolato con Marco dato che lui ce l'ha con me, la mia controrabbia sta per esplodere."@it ;
     dct:created "2022-12-12" ;
     dct:creator vocang:pertosaLorenzo .
@@ -1766,6 +1843,7 @@ vocang:controrabbia
 vocang:avodandolo
     a skos:Concept ;
     skos:prefLabel "Avodandolo"@it ;
+    lexinfo:pronunciation "/a • vo • dan • do • lo/"@it ;
     skos:definition "Un avocado che viene inserito nel contesto per un motivo diverso dall'essere mangiato."@it ;
     skos:example "Voglio mettere un avodandolo vicino al nome di Francesca in rubrica perché mi ricorda lei."@it ;
     dct:created "2022-12-10" ;
@@ -1774,6 +1852,7 @@ vocang:avodandolo
 vocang:vocaboladmin
     a skos:Concept ;
     skos:prefLabel "Vocaboladmin"@it ;
+    lexinfo:pronunciation "/vo • ca • bo • lad • min/"@it ;
     skos:definition "Un Amministratore del Vocabolangelo, ossia una figura in grado di apportare modifiche senza chiedere il permesso al codice sorgente del Vocabolangelo."@it ;
     skos:example "Per diventare un vocaboladmin dovrai prima contribuire al vocabolangelo e ottenere il riconoscimento degli altri vocaboladmin."@it ;
     dct:created "2022-12-14" ;
@@ -1783,6 +1862,7 @@ vocang:vocaboladmin
 vocang:fabriangolo
     a skos:Concept ;
     skos:prefLabel "Fabriangolo"@it ;
+    lexinfo:pronunciation "/fa • bri • an • go • lo/"@it ;
     skos:definition "Zona di Fabriano in cui i cellulari non prendono e i GPS impazziscono."@it ;
     skos:example "Scusa, non ho potuto rispondere, ero nel fabriangolo."@it ;
     dct:created "2022-12-14" ;
@@ -1791,6 +1871,7 @@ vocang:fabriangolo
 vocang:stupidariano
     a skos:Concept ;
     skos:prefLabel "Stupidariano"@it ;
+    lexinfo:pronunciation "/stu • pi • da • ria • no/"@it ;
     skos:definition "Persona principalmente vegetariana, ma che si cibano anche di animali stupidi quali pesci e volatili."@it ;
     skos:example "Mia madre non mangia la carne di maiale ma il pollo si. È stupidariana."@it ;
     dct:created "2022-12-15" ;
@@ -1799,6 +1880,7 @@ vocang:stupidariano
 vocang:collagna
     a skos:Concept ;
     skos:prefLabel "Collagna"@it ;
+    lexinfo:pronunciation "/col • la • gna/"@it ;
     skos:definition
         "Collina piuttosto alta che può essere confusa per una montagna."@it,
         "Collina sulla quale ci si lamenta, ci si può lagnare."@it ;
@@ -1809,6 +1891,7 @@ vocang:collagna
 vocang:carichezza
     a skos:Concept ;
     skos:prefLabel "Carichezza"@it ;
+    lexinfo:pronunciation "/ca • ri • chez • za/"@it ;
     skos:definition "Sensazione di energia che fa riferimento al fatto di sentirsi carichi."@it ;
     skos:example "Oggi sono pieno di energie, sento la carichezza!";
     dct:created "2022-12-15" ;
@@ -1817,6 +1900,7 @@ vocang:carichezza
 vocang:inevece
     a skos:Concept ;
     skos:prefLabel "Inevece"@it ;
+    lexinfo:pronunciation "/i • ne • ve • ce/"@it ;
     skos:definition "Avverbio che potenzia l'affermazione precedente anziché proporre un controesempio."@it ;
     skos:example "Questo esempio è molto bello, inevece è anche molto bello!";
     dct:created "2022-12-15" ;
@@ -1825,6 +1909,7 @@ vocang:inevece
 vocang:elasticazzo
     a skos:Concept ;
     skos:prefLabel "Elasticazzo"@it ;
+    lexinfo:pronunciation "/e • las • ti • caz • zo/"@it ;
     skos:definition "Un pene molto flessibile."@it ;
     skos:example "Il suo elasticazzo è impressionante, sembra davvero un elastico!";
     dct:created "2022-12-14" ;
@@ -1834,6 +1919,7 @@ vocang:elasticazzo
 vocang:prepuzzo
     a skos:Concept ;
     skos:prefLabel "Prepuzzo"@it ;
+    lexinfo:pronunciation "/pre • puz • zo/"@it ;
     skos:definition "Un prepuzio che emana un cattivo odore."@it ;
     skos:example "Trovo che il prepuzzo sia una cosa molto poco sexy in un uomo.";
     dct:created "2022-12-14" ;
@@ -1843,6 +1929,7 @@ vocang:prepuzzo
 vocang:afame
     a skos:Concept ;
     skos:prefLabel "Afame"@it ;
+    lexinfo:pronunciation "/a • fa • me/"@it ;
     skos:definition "Assenza di fame."@it ;
     skos:example " L'afame non è assolutamente un problema mondiale.";
     dct:created "2022-12-17" ;
@@ -1852,6 +1939,7 @@ vocang:afame
 vocang:cuccorema
     a skos:Concept ;
     skos:prefLabel "Cuccorema"@it ;
+    lexinfo:pronunciation "/cuc • co • re • ma/"@it ;
     skos:definition "Teorema universale dell'esistenza secondo cui se un ragazzo si fidanza, da quel momento risulta più attraente agli occhi delle altre persone (soprattutto se del sesso opposto) anche se fino a quel momento non era affatto così."@it ;
     skos:example "Anche se non è possibile dimostrarlo, io credo che il cuccorema funzioni sempre.";
     dct:created "2022-12-18" ;
@@ -1860,6 +1948,7 @@ vocang:cuccorema
 vocang:cafferettaa
     a skos:Concept ;
     skos:prefLabel "Cafferetta"@it ;
+    lexinfo:pronunciation "/caf • fe • ret • ta/"@it ;
     skos:definition "Ricetta della moretta fanese eseguita utilizzando il cafferillo al posto del normale caffè."@it ;
     skos:example "La cafferetta è una versione alternativa del cafferillo... Ma anche della moretta!";
     dct:created "2022-12-18" ;
@@ -1868,6 +1957,7 @@ vocang:cafferettaa
 vocang:falconafrica
     a skos:Concept ;
     skos:prefLabel "Falconafrica"@it ;
+    lexinfo:pronunciation "/fal • con • a • fri • ca/"@it ;
     skos:definition "Nome alternativo per la città di Falconara derivante dalla grande presenza di abitanti proveniente dal nord Africa."@it ;
     skos:example "Sono sceso dall'autobus l'altro giorno e mi sembrava di trovarmi in un suk del Marocco, d'altronde ero a Falconafrica";
     dct:created "2022-12-17" .
@@ -1875,6 +1965,7 @@ vocang:falconafrica
 vocang:evidenziarello
     a skos:Concept ;
     skos:prefLabel "Evidenziarello"@it ;
+    lexinfo:pronunciation "/e • vi • den • zia • rel • lo/"@it ;
     skos:definition "Un articolo di cancelleria dato dall'unione di un evidenziatore e di un pennarello incollati tra loro."@it ;
     skos:example "Per risparmiare tempo durante lo studio ho creato un evidenziarello";
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/evidenziarello.jpg" ;
@@ -1884,6 +1975,7 @@ vocang:evidenziarello
 vocang:fermodoio
     a skos:Concept ;
     skos:prefLabel "Fermodoio"@it ;
+    lexinfo:pronunciation "/fer • mo • do • io/"@it ;
     skos:definition "Un corridoio molto corto nel quale non è possibile appunto correre."@it ;
     skos:example "Ho fatto rimuovere dalla mia casa quel fermodoio.";
     dct:created "2022-12-18" ;
@@ -1892,6 +1984,7 @@ vocang:fermodoio
 vocang:buguardo
     a skos:Concept ;
     skos:prefLabel "Buguardo"@it ;
+    lexinfo:pronunciation "/bu • guar • do/"@it ;
     skos:definition "Una persona che dice una bugia appositamente solo perché offeso e permaloso."@it ;
     skos:example "\"Sono arrabbiato con te\" \"Non è vero sei un buguardo!\"";
     dct:created "2022-12-18" ;
@@ -1900,6 +1993,7 @@ vocang:buguardo
 vocang:franceficina
     a skos:Concept ;
     skos:prefLabel "Franceficina"@it ;
+    lexinfo:pronunciation "/fran • ce • fi • ci • na/"@it ;
     skos:definition "Carneficina di francesi"@it ;
     skos:example "Il panettiere mi ha venduto per sbaglio una baguette ma io odio le odio, per rappresaglia sto per compiere una franceficina."@it ;
     dct:created "2022-12-18" ;
@@ -1908,6 +2002,7 @@ vocang:franceficina
 vocang:baguettile
     a skos:Concept ;
     skos:prefLabel "Baguettile"@it ;
+    lexinfo:pronunciation "/ba • guet • ti • le/"@it ;
     skos:definition "Baguette dura o congelata utilizzata come proiettile per ferire qualcuno."@it ;
     skos:example "Finiti i colpi di cannone l'esercito francese fece ricorso ai baguettili devastando gli avversari."@it ;
     dct:created "2022-12-18" ;
@@ -1917,6 +2012,7 @@ vocang:baguettile
 vocang:manganuette
     a skos:Concept ;
     skos:prefLabel "Manganuette"@it ;
+    lexinfo:pronunciation "/man • ga • nuet • te/"@it ;
     skos:definition "Baguettile utilizzata come oggetto contundente."@it ;
     skos:example "Quei maledetti sbirri francesi hanno usato dei manganuette contro quelle persone di colore."@it ;
     skos:related vocang:baguettile, vocang:franceficina ;
@@ -1926,6 +2022,7 @@ vocang:manganuette
 vocang:contamontenegrino
     a skos:Concept ;
     skos:prefLabel "Contamontenegrino"@it ;
+    lexinfo:pronunciation "/con • ta • mon • te • ne • gri • no/"@it ;
     skos:definition "Contadino con la carnagione scura montenegrino (abitante del Montenegro). Sostanzialmente una specializzaione del contanegrino."@it;
     skos:example "Mio zio è un contamontenegrino."@it ;
     skos:related vocang:contanegrino ;
@@ -1935,6 +2032,7 @@ vocang:contamontenegrino
 vocang:marenegrino
     a skos:Concept ;
     skos:prefLabel "Marenegrino"@it ;
+    lexinfo:pronunciation "/ma • re • ne • gri • no/"@it ;
     skos:definition "Guardia di carnagione scura il cui mestiere è controllare le spiagge di notte."@it ;
     skos:example "Mio zio è un marenegrino."@it, "Ieri notte mi sono sdraiato su un lettino in spiaggia, quando improvvisamente un marenegrino mi ha puntato una torcia in faccia, non l'ho visto arrivare!"@it;
     skos:related vocang:contanegrino, vocang:contamontenegrino ;
@@ -1944,6 +2042,7 @@ vocang:marenegrino
 vocang:bresciamella
     a skos:Concept ;
     skos:prefLabel "Bresciamella"@it ;
+    lexinfo:pronunciation "/bre • scia • mel • la/"@it ;
     skos:definition "Besciamella cucinata nella città di Brescia."@it ;
     skos:example "La bresciamella è generalmente più buona della normale besciamella."@it ;
     dct:created "2022-12-20" ;
@@ -1952,6 +2051,7 @@ vocang:bresciamella
 vocang:sboccaffè
     a skos:Concept ;
     skos:prefLabel "Sboccaffè"@it ;
+    lexinfo:pronunciation "/sboc • caf • fè/"@it ;
     skos:definition "Bevanda ottenuta mischiando caffè, succo di limone e sale, assunta a scopo emetico."@it ;
     skos:example "Quel coecrita di Sasha ha mangiato le bacche che crescono in quel cespuglio, gli preparo subito uno sboccaffè per fargli la lavanda gastrica."@it ;
     dct:created "2022-12-19" ;
@@ -1960,6 +2060,7 @@ vocang:sboccaffè
 vocang:cafferimilla
     a skos:Concept ;
     skos:prefLabel "Cafferimilla"@it ;
+    lexinfo:pronunciation "/caf • fe • ri • mil • la/"@it ;
     skos:definition "Bevanda ottenuta mischiando cafferillo e camomilla."@it ;
     skos:example "Se vuoi agitarti e calmarti allo stesso tempo, basta che ti prepari una cafferimilla."@it ;
     dct:created "2022-12-19" ;
@@ -1969,15 +2070,7 @@ vocang:cafferimilla
 vocang:orzillo
     a skos:Concept ;
     skos:prefLabel "Orzillo"@it ;
-    skos:definition "Una variante di caffè mischiato con sciroppo di mirtillo."@it ;
-    skos:example "Preferisco il cafferillo all'orzillo."@it ;
-    dct:created "2022-12-21" ;
-    skos:related vocang:cafferillo ;
-    dct:creator vocang:filasetaAngelo .
-
-vocang:orzillo
-    a skos:Concept ;
-    skos:prefLabel "Orzillo"@it ;
+    lexinfo:pronunciation "/or • zil • lo/"@it ;
     skos:definition "Una variante di caffè mischiato con sciroppo di mirtillo."@it ;
     skos:example "Preferisco il cafferillo all'orzillo."@it ;
     dct:created "2022-12-21" ;
@@ -1987,6 +2080,7 @@ vocang:orzillo
 vocang:coppinovia
     a skos:Concept ;
     skos:prefLabel "Coppinovia"@it ;
+    lexinfo:pronunciation "/cop • pi • no • vi • a/"@it ;
     skos:definition "Una seggiovia che appena lascia a destinazione un soggetto lo colpisce in modo violento alla nuca."@it ;
     skos:example "Stavo scendendo dall'impianto quando improvvisamente ho sentito un colpo dietro la testa. Fu a quel punto che realizzai di aver preso una coppinovia."@it ;
     dct:created "2022-12-23" ;
@@ -1995,6 +2089,7 @@ vocang:coppinovia
 vocang:laggatto
     a skos:Concept ;
     skos:prefLabel "Laggatto"@it ;
+    lexinfo:pronunciation "/lag • gat • to/"@it ;
     skos:definition "Un gatto che possiede dei pessimi riflessi."@it ;
     skos:example "Il mio laggatto non riesce mai a catturare animali."@it ;
     dct:created "2022-12-23" ;
@@ -2003,6 +2098,7 @@ vocang:laggatto
 vocang:kebabbo
     a skos:Concept ;
     skos:prefLabel "Kebabbo"@it ;
+    lexinfo:pronunciation "/ke • bab • bo/"@it ;
     skos:definition "Un kebabbaro che possiede almeno un figlio."@it ;
     skos:example "In università invidiano tutti il pranzo che il mio kebabbo mi prepara."@it ;
     dct:created "2022-12-23" ;
@@ -2011,6 +2107,7 @@ vocang:kebabbo
 vocang:spreferito
     a skos:Concept ;
     skos:prefLabel "Spreferito"@it ;
+    lexinfo:pronunciation "/spre • fe • ri • to/"@it ;
     skos:definition "Il contrario di preferito"@it, "Qualcosa che si odia, che si disprezza, che non è di gradimento."@it ;
     skos:example "Le olive sono il mio cibo spreferito."@it ;
     dct:created "2022-12-22" ;
@@ -2019,6 +2116,7 @@ vocang:spreferito
 vocang:merenzare
     a skos:Concept ;
     skos:prefLabel "Merenzare"@it ;
+    lexinfo:pronunciation "/me • ren • za • re/"@it ;
     skos:definition "Pranzare tardi, ovvero nel pomeriggio, orario nel quale di solito si fa merenda. Simile a prenare ma nel pomeriggio."@it ;
     skos:example "Questa mattina sono stato impegnato quindi ho merenzato alle 16:30."@it ;
     dct:created "2022-12-21" ;
@@ -2028,6 +2126,7 @@ vocang:merenzare
 vocang:birliardo
     a skos:Concept ;
     skos:prefLabel "Birliardo"@it ;
+    lexinfo:pronunciation "/bir • liar • do/"@it ;
     skos:definition "Gioco simile al beer pong ma con un tavolo da biliardo. Ad ogni palla in buca la squadra avversaria beve un alcolico."@it ;
     skos:example "A capodanno pensavamo di giocare a birliardo."@it ;
     dct:created "2022-12-22" ;
@@ -2036,6 +2135,7 @@ vocang:birliardo
 vocang:ritardabile
     a skos:Concept ;
     skos:prefLabel "Ritardabile"@it ;
+    lexinfo:pronunciation "/ri • tar • da • bi • le/"@it ;
     skos:definition "Una persona che presenta sia una disabilità fisica che una mentale."@it ;
     skos:example "Mio cugino è nato ritardabile."@it ;
     dct:created "2022-12-24" ;
@@ -2044,6 +2144,7 @@ vocang:ritardabile
 vocang:narghileddy
     a skos:Concept ;
     skos:prefLabel "Narghileddy"@it ;
+    lexinfo:pronunciation "/nar • ghi • led • dy/"@it ;
     skos:definition "Un narghilè utilizzato ad una festa in un contesto privato tra amici."@it ;
     skos:example "Non posso assolutamente mancare al narghileddy questo weekend."@it ;
     dct:created "2022-11-04" ;
@@ -2052,6 +2153,7 @@ vocang:narghileddy
 vocang:natalè
     a skos:Concept ;
     skos:prefLabel "Natalè"@it ;
+    lexinfo:pronunciation "/na • ta • lè/"@it ;
     skos:definition "Un Narghilè preparato e utilizzato nel giorno di Natale."@it ;
     skos:example "Quest'anno è stato strano festeggiare con un Natalè."@it ;
     dct:created "2022-12-25" ;
@@ -2060,6 +2162,7 @@ vocang:natalè
 vocang:nataleddy
     a skos:Concept ;
     skos:prefLabel "Nataleddy"@it ;
+    lexinfo:pronunciation "/na • ta • led • dy/"@it ;
     skos:definition "Un Narghilè preparato e utilizzato nel giorno di Natale utilizzato ad una festa in un contesto privato tra amici."@it ;
     skos:example "Quest'anno è stato strano festeggiare con un nataleddy tutti insieme."@it ;
     dct:created "2022-12-25" ;
@@ -2069,6 +2172,7 @@ vocang:nataleddy
 vocang:preggia
     a skos:Concept ;
     skos:prefLabel "Preggia"@it ;
+    lexinfo:pronunciation "/preg • gia/"@it ;
     skos:definition "Una prigione molto grande, che sembra quasi una reggia."@it ;
     skos:example "Non sarebbe poi così male finire in una preggia."@it ;
     dct:created "2022-12-27" ;
@@ -2077,6 +2181,7 @@ vocang:preggia
 vocang:reggione
     a skos:Concept ;
     skos:prefLabel "Reggione"@it ;
+    lexinfo:pronunciation "/reg • gio • be/"@it ;
     skos:definition "Sinonimo di preggia."@it ;
     skos:example "Non sarebbe poi così male finire in reggione."@it ;
     dct:created "2022-12-27" ;
@@ -2086,6 +2191,7 @@ vocang:reggione
 vocang:griglissa
     a skos:Concept ;
     skos:prefLabel "Griglissa"@it ;
+    lexinfo:pronunciation "/gri • glis • sa/"@it ;
     skos:definition "Una grigliata in cui avviene una rissa."@it ;
     skos:example "Angelo ha detto di preferire la maionese al ketchup mentre mangiava lo spiedino, così la grigliata in campagna si è trasformata in una griglissa."@it ;
     dct:created "2022-12-28" ;
@@ -2094,6 +2200,7 @@ vocang:griglissa
 vocang:semigriglissa
     a skos:Concept ;
     skos:prefLabel "Semigriglissa"@it ;
+    lexinfo:pronunciation "/se • mi • gri • glis • sa/"@it ;
     skos:definition "Una grigliata in cui avviene una semirissa."@it ;
     skos:example "Angelo ha detto di preferire la maionese al ketchup mentre mangiava lo spiedino, così la grigliata in campagna si è trasformata in una semigriglissa, dato che ha deciso di non contrattaccare."@it ;
     dct:created "2022-12-28" ;
@@ -2103,6 +2210,7 @@ vocang:semigriglissa
 vocang:cacanzina
     a skos:Concept ;
     skos:prefLabel "Cacanzina"@it ;
+    lexinfo:pronunciation "/ca • can • zi • na/"@it ;
     skos:definition "Una breve vacanza che non è stata gradita."@it ;
     skos:example "Ho fatto una cacanzina a Napoli, mi hanno rubato l'orologio."@it ;
     dct:created "2022-12-28" ;
@@ -2111,15 +2219,7 @@ vocang:cacanzina
 vocang:piedoccola
     a skos:Concept ;
     skos:prefLabel "Piedoccola"@it ;
-    skos:definition "Una coccola eseguita utilizzando solo i piedi."@it ;
-    skos:example "Amo le piedoccole di Nicole."@it ;
-    dct:created "2022-12-27" ;
-    dct:creator vocang:pertosaLorenzo .
-
-
-vocang:piedoccola
-    a skos:Concept ;
-    skos:prefLabel "Piedoccola"@it ;
+    lexinfo:pronunciation "/pie • doc • co • la/"@it ;
     skos:definition "Una coccola eseguita utilizzando solo i piedi."@it ;
     skos:example "Amo le piedoccole di Nicole."@it ;
     dct:created "2022-12-27" ;
@@ -2128,6 +2228,7 @@ vocang:piedoccola
 vocang:sigaffe
     a skos:Concept ;
     skos:prefLabel "Sigaffe"@it ;
+    lexinfo:pronunciation "/si • gaf • fe/"@it ;
     skos:definition "Una gaffe che si fa mentre si sta fumando."@it ;
     skos:example "Sasha è caduto e ha fatto una sigaffe."@it ;
     dct:created "2022-12-27" ;
@@ -2136,6 +2237,7 @@ vocang:sigaffe
 vocang:annangelo
     a skos:Concept ;
     skos:prefLabel "Annangelo"@it ;
+    lexinfo:pronunciation "/an • nan • ge • lo/"@it ;
     skos:definition "Termine alternativo per riferisi ad un anno."@it ;
     skos:example "Felice annangelo nuovo!"@it ;
     dct:created "2022-12-28" ;
