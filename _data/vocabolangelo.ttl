@@ -2556,5 +2556,14 @@ vocang:anticorpolo
     lexinfo:pronunciation "/an • ti • còr • po • lo/"@it ;
     skos:definition "Un anticorpo che decide di sparire perché si è stancato di aspettare l'agente patogeno che lo ha fatto arrivare la prima volta."@it ;
     skos:example "Spero che i miei anticorpi non diventino tutti anticorpoli nel giro di breve..."@it ;
-    dct:created "2023-12-24" ;
+    dct:created "2022-12-24" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:zabuccino
+    a skos:Concept ;
+    skos:prefLabel "Zabuccino"@it ;
+    lexinfo:pronunciation "/za • buc • cì • no/"@it ;
+    skos:definition "Cappuccino con l'aggiunta di zabaione."@it ;
+    skos:example "I nostri amici romani desideravano tanto uno zabuccino ma non sono riusciti ad ottenerlo."@it ;
+    dct:created "2023-01-11" ;
+    dct:creator vocang:savoGiorgia .
