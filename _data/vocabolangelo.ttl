@@ -2578,3 +2578,12 @@ vocang:fidanzalbero
     skos:related vocang:amoralbero , vocang:limonalbero;
     dct:created "2023-01-12" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:diecione
+    a skos:Concept ;
+    skos:prefLabel "Diecione"@it ;
+    lexinfo:pronunciation "/die • ció • ne/"@it ;
+    skos:definition "Unità di misura utilizzata per misurare il numero di flessioni lampo rimanenti nel gioco \"10 Flessioni Lampo\". Un diecione equivale a 10 flessioni."@it ;
+    skos:example "Mi mancano due diecioni per rimanere in pari con gli altri."@it ;
+    dct:created "2023-01-11" ;
+    dct:creator vocang:suscaMatteo .
