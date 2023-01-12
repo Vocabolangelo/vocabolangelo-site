@@ -824,7 +824,7 @@ vocang:coscino
 vocang:limonalbero
     a skos:Concept ;
     skos:prefLabel "Limonalbero"@it ;
-    lexinfo:pronunciation "/li • mo • nal • be • ro/"@it ;
+    lexinfo:pronunciation "/li • mo • nàl • be • ro/"@it ;
     skos:definition "Grafo non orientato e non pesato utilizzato per rappresentare chi ha baciato chi (archi) in un gruppo di persone (nodi)."@it ;
     skos:example "Stasera facciamo il limonalbero della nostra compagnia, se vieni proviamo a completarlo!"@it ;
     dct:creator vocang:ribaudoSofia .
@@ -2558,3 +2558,13 @@ vocang:zabuccino
     skos:example "I nostri amici romani desideravano tanto uno zabuccino ma non sono riusciti ad ottenerlo."@it ;
     dct:created "2023-01-11" ;
     dct:creator vocang:savoGiorgia .
+
+vocang:amoralbero
+    a skos:Concept ;
+    skos:prefLabel "Amoralbero"@it ;
+    lexinfo:pronunciation "/a • mo • ràl • be • ro/"@it ;
+    skos:definition "Grafo non orientato e non pesato utilizzato per rappresentare chi ha avuto rapporti sessuali con chi (archi) in un gruppo di persone (nodi)."@it ;
+    skos:example "Stasera facciamo l'amoralbero della nostra compagnia, potremmo scoprire cose assurde..."@it ;
+    skos:related vocang:limonalbero ;
+    dct:created "2023-01-12" ;
+    dct:creator vocang:filasetaAngelo .
