@@ -2568,3 +2568,13 @@ vocang:amoralbero
     skos:related vocang:limonalbero ;
     dct:created "2023-01-12" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:fidanzalbero
+    a skos:Concept ;
+    skos:prefLabel "Fidanzalbero"@it ;
+    lexinfo:pronunciation "/fi • dan • zàl • be • ro/"@it ;
+    skos:definition "Grafo non orientato e non pesato utilizzato per rappresentare chi è stato fidanzato con chi (archi) in un gruppo di persone (nodi)."@it ;
+    skos:example "Stasera facciamo il fidanzalbero della nostra compagnia, anche se è un po' scontato."@it ;
+    skos:related vocang:amoralbero , vocang:limonalbero;
+    dct:created "2023-01-12" ;
+    dct:creator vocang:filasetaAngelo .
