@@ -2596,3 +2596,12 @@ vocang:medigatto
     skos:example "Nicola si è sentito poco bene e il suo medico non è stato utile, così abbiamo utilizzato un medigatto per curarlo e ha funzionato."@it ;
     dct:created "2023-01-12" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:postrunzolato
+    a skos:Concept ;
+    skos:prefLabel "Postrunzolato"@it ;
+    lexinfo:pronunciation "/po • strun • zo • là • to"@it ;
+    skos:definition "Una regola particolarmente negativa e, in quanto tecnicamente postulato, non dimostrabile."@it ;
+    skos:example "Odio il fatto che per due punti possa passare una sola linea! Più che un postulato è un postrunzolato."@it ;
+    dct:created "2023-01-12" ;
+    dct:creator vocang:pertosaLorenzo , vocang:omiccioliRiccardo .
