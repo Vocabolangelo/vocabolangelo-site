@@ -2587,3 +2587,12 @@ vocang:diecione
     skos:example "Mi mancano due diecioni per rimanere in pari con gli altri."@it ;
     dct:created "2023-01-11" ;
     dct:creator vocang:suscaMatteo .
+
+vocang:medigatto
+    a skos:Concept ;
+    skos:prefLabel "Medigatto"@it ;
+    lexinfo:pronunciation "/me • di • gàt • to"@it ;
+    skos:definition "Gatto in grado di curare persone e altri gatti. In altre parole un gatto impiegabile in terapia."@it ;
+    skos:example "Nicola si è sentito poco bene e il suo medico non è stato utile, così abbiamo utilizzato un medigatto per curarlo e ha funzionato."@it ;
+    dct:created "2023-01-12" ;
+    dct:creator vocang:pertosaLorenzo .
