@@ -241,7 +241,7 @@ vocang:acquorica
     skos:prefLabel "Acquorica"@it ;
     lexinfo:pronunciation "/ac • quò • ri • ca/"@it ;
     skos:definition "Una bevanda composta da cafferillo e tè alla pesca. Questo mix è in grado di annullare tutti i sapori, simulando quello dell’acqua."@it ;
-    skos:example "Hai mai provato questa bevanda? Ha il sapore dell'acqua ma non è acqua!"@it ;
+    skos:example "Hai mai provato questa bevanda? Ha il sapore dell'acqua ma non è acqua! Si chiama Acquorica."@it ;
     skos:note "Il nome deriva dalla fusione delle parole \"Acqua\" e \"Calorica\""@it ;
     skos:related vocang:cafferillo ;
     dct:creator vocang:filasetaAngelo .
@@ -2668,3 +2668,12 @@ vocang:svenimenzione
     skos:example "Ho sentito una forte sensazione di svenimenzione. Meno male che ora ho la colazione gratis."@it ;
     dct:created "2023-01-15" ;
     dct:creator vocang:savoGiorgia .
+
+vocang:svenagofobimento
+    a skos:Concept ;
+    skos:prefLabel "Svenagofobimento"@it ;
+    lexinfo:pronunciation "/sve • na • go • fo • bi • mén • to/"@it ;
+    skos:definition "Svenimento che avviene durante un prelievo di sangue, dovuto all'agofobia."@it ;
+    skos:example "Speriamo di avere pochi svenagofobimenti oggi."@it ;
+    dct:created "2023-01-15" ;
+    dct:creator vocang:savoGiorgia , vocang:minoccheriAlessandra .
