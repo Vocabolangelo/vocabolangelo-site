@@ -2650,3 +2650,12 @@ vocang:oraritardo
     skos:example "Sarei dovuto arrivare al lavoro alle 12:30, ma sono arrivato alle 12:45, proprio come avevo previsto. Sono in oraritardo."@it ;
     dct:created "2023-01-15" ;
     dct:creator vocang:timpanoSam .
+
+vocang:ritardorario
+    a skos:Concept ;
+    skos:prefLabel "Ritardorario"@it ;
+    lexinfo:pronunciation "/• ri • tar • do • rà • rio/"@it ;
+    skos:definition "Ritardo causato dal fuso orario."@it ;
+    skos:example "Mi ero scordato che qui il fuso orario è diverso, scusatemi tanto per il mio ritardorario..."@it ;
+    dct:created "2023-01-15" ;
+    dct:creator vocang:timpanoSam .
