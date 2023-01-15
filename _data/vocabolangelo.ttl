@@ -2641,3 +2641,12 @@ vocang:canediorlo
     skos:example "Sono andato al supermercato e ho comprato dei canederli sottovuoto, come previsto facevano schifo: erano in realtà canediorli."@it ;
     dct:created "2023-01-13" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:oraritardo
+    a skos:Concept ;
+    skos:prefLabel "Oraritardo"@it ;
+    lexinfo:pronunciation "/o • ra • ri • tàr • do/"@it ;
+    skos:definition "Conclusione posteriore al termine fissato di una azione che risulta meno sollecita del previsto, ma che risulta perfettamente in orario rispetto alle aspettative di chi la ha previsto."@it ;
+    skos:example "Sarei dovuto arrivare al lavoro alle 12:30, ma sono arrivato alle 12:45, proprio come avevo previsto. Sono in oraritardo."@it ;
+    dct:created "2023-01-15" ;
+    dct:creator vocang:timpanoSam .
