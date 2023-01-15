@@ -2686,3 +2686,11 @@ vocang:miniatore
     skos:example "I miniatori sono avvantaggiati nel loro lavoro perché riescono a entrare in spazi strettissimi."@it ;
     dct:created "2023-01-14" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:kusky
+    a skos:Concept ;
+    skos:prefLabel "Kusky"@it ;
+    skos:definition "Un husky molto imbranato e distratto, che tende a cadere spesso."@it ;
+    skos:example "Ieri il mio kusky è quasi morto per le scale."@it ;
+    dct:created "2023-01-14" ;
+    dct:creator vocang:orlandoNicola .
