@@ -2703,3 +2703,12 @@ vocang:ambunero
     skos:example "Spesso gli ambuneri posso venderti oggetti utili a buon prezzo."@it ;
     dct:created "2023-01-14" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:psichedelica
+    a skos:Concept ;
+    skos:prefLabel "Psichedelica"@it ;
+    lexinfo:pronunciation "/psi • che • dè • li • ca/"@it ;
+    skos:definition "Il gioco a forma di elica luminoso che i venditori ambulanti cercano di vendere nelle piazze o comunque nei luoghi molto spaziosi."@it ;
+    skos:example "In piazza di Spagna oggi era pieno di psichedeliche."@it ;
+    dct:created "2023-01-14" ;
+    dct:creator vocang:pertosaLorenzo , vocang:paoliMichele .
