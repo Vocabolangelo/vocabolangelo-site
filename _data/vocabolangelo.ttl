@@ -2623,3 +2623,12 @@ vocang:piecere
     skos:example "Adoro leggere ma piecere mi piace ancora di più."@it ;
     dct:created "2023-01-13" ;
     dct:creator vocang:bragariAlexandru .
+
+vocang:librorifero
+    a skos:Concept ;
+    skos:prefLabel "Librorifero"@it ;
+    lexinfo:pronunciation "/li • bro • rì • fe • ro/"@it ;
+    skos:definition "Vecchio frigorifero non funzionante e adibito a libreria."@it ;
+    skos:example "Il mio frigo si è rotto, così ne ho approfittato per costruire un librorifero."@it ;
+    dct:created "2023-01-13" ;
+    dct:creator vocang:nardiniArianna .
