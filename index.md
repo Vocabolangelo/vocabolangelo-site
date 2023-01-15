@@ -21,6 +21,7 @@ rdf_prefix_path: "_data/prefixes.sparql"
 			{% include sections/gallery.md %}
 			{% include sections/rules.md %}
 			{% include sections/metamodel.md %}
+			{% include sections/rdf.md %}
 			{% include footer.md %}
 		</div>
 	{% include script_common.md %}
