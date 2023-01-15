@@ -2677,3 +2677,12 @@ vocang:svenagofobimento
     skos:example "Speriamo di avere pochi svenagofobimenti oggi."@it ;
     dct:created "2023-01-15" ;
     dct:creator vocang:savoGiorgia , vocang:minoccheriAlessandra .
+
+vocang:miniatore
+    a skos:Concept ;
+    skos:prefLabel "Miniatore"@it ;
+    lexinfo:pronunciation "/mi • nia • tó • re/"@it ;
+    skos:definition "Minatore molto piccolo, sia esso una rappresentazione in scala di una vera persona o un soggetto affetto da nanismo."@it ;
+    skos:example "I miniatori sono avvantaggiati nel loro lavoro perché riescono a entrare in spazi strettissimi."@it ;
+    dct:created "2023-01-14" ;
+    dct:creator vocang:filasetaAngelo .
