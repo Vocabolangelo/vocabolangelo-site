@@ -8,7 +8,7 @@
 @prefix scot: <http://rdfs.org/scot/ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rel: <http://www.perceive.net/schemas/20021119/relationship/#> .
-@prefix vocang: <http://www.vocabolangelo.org/> .
+@prefix vocang: <http://www.vocabolangelo.org/schema#> .
 
 vocang:VocabolangeloRDF
     a owl:Ontology ;

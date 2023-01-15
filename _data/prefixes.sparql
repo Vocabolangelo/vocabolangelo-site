@@ -7,4 +7,4 @@ PREFIX schema: <https://schema.org/>
 PREFIX scot: <http://rdfs.org/scot/ns#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX rel: <http://purl.org/vocab/relationship/>
-PREFIX vocang: <http://www.vocabolangelo.org/>
+PREFIX vocang: <http://www.vocabolangelo.org/schema#>
