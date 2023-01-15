@@ -2694,3 +2694,12 @@ vocang:kusky
     skos:example "Ieri il mio kusky è quasi morto per le scale."@it ;
     dct:created "2023-01-14" ;
     dct:creator vocang:orlandoNicola .
+
+vocang:ambunero
+    a skos:Concept ;
+    skos:prefLabel "Ambunero"@it ;
+    lexinfo:pronunciation "/am • bu • nè • ro/"@it ;
+    skos:definition "Una persona di colore ambulante."@it ;
+    skos:example "Spesso gli ambuneri posso venderti oggetti utili a buon prezzo."@it ;
+    dct:created "2023-01-14" ;
+    dct:creator vocang:pertosaLorenzo .
