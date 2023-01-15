@@ -2721,3 +2721,12 @@ vocang:proccione
     skos:example "Vicino a quei bidoni trovo sempre dei proccioni."@it ;
     dct:created "2023-01-14" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:micizia
+    a skos:Concept ;
+    skos:prefLabel "Micizia"@it ;
+    lexinfo:pronunciation "/mi • cì • zia/"@it ;
+    skos:definition "Amicizia instaurata con un gatto."@it ;
+    skos:example "Ieri ho coccolato un gatto per strada e abbiamo fatto micizia."@it ;
+    dct:created "2023-01-14" ;
+    dct:creator vocang:omiccioliRiccardo , vocang:battaglinoNicole .
