@@ -2712,3 +2712,12 @@ vocang:psichedelica
     skos:example "In piazza di Spagna oggi era pieno di psichedeliche."@it ;
     dct:created "2023-01-14" ;
     dct:creator vocang:pertosaLorenzo , vocang:paoliMichele .
+
+vocang:proccione
+    a skos:Concept ;
+    skos:prefLabel "Proccione"@it ;
+    lexinfo:pronunciation "/proc • ció • ne/"@it ;
+    skos:definition "Procione grasso."@it ;
+    skos:example "Vicino a quei bidoni trovo sempre dei proccioni."@it ;
+    dct:created "2023-01-14" ;
+    dct:creator vocang:omiccioliRiccardo .
