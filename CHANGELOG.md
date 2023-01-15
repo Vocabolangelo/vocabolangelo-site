@@ -1,5 +1,22 @@
 # Changelog
 
+## [3.4.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v3.3.0...v3.4.0) (2023-01-15)
+
+
+### Features
+
+* **concept:** add ambunero ([2d263cb](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/2d263cb3593df1f7523396ad4bf3f7b668502ea5))
+* **concept:** add kusky ([d1bffb5](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/d1bffb58fdd9d92ffe10f3ce39835703a3b28bda))
+* **concept:** add micizia ([c2dc0fc](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/c2dc0fcebf2a8e47196816cb1f9bc32e549786c3))
+* **concept:** add miniatore ([f214892](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/f2148921472f83afba31fd5dc9c85fb88e4e3902))
+* **concept:** add proccione ([8f31654](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/8f31654b36283d015fceba2c7e282b1fd097dc86))
+* **concept:** add psichedelica ([6869755](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/68697552dc5e5fea340a8b117aef9bf7cb5594a5))
+
+
+### Bug Fixes
+
+* **site:** correct alt typo ([5ea7764](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/5ea77648fb910a12331f8e46acae4dfc58a4422d))
+
 ## [3.3.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v3.2.0...v3.3.0) (2023-01-15)
 
 
