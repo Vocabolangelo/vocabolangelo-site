@@ -9,6 +9,6 @@
         </ul>
     </div>
     <div class="image">
-        <img src="images/connection.jpg" alt="Conncessioni" />
+        <img src="images/connection.jpg" alt="Connessioni" />
     </div>
 </section>
