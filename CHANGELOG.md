@@ -1,5 +1,34 @@
 # Changelog
 
+## [3.3.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v3.2.0...v3.3.0) (2023-01-15)
+
+
+### Features
+
+* **concept:** add amoralbero ([286b5b4](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/286b5b49649d0d04f44bbfcc651b4a54b539d178))
+* **concept:** add anticorpolo ([8a9ecdb](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/8a9ecdb3d9b425a41e3bf89eb4630ef4164fee27))
+* **concept:** add canediorlo ([4c319d3](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/4c319d3d83f8a4e6a8f432bd0058e812411f0d3a))
+* **concept:** add diecione ([e25a31c](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/e25a31cf37adef99b36b3a5ae55bae5782feeb6e))
+* **concept:** add fidanzalbero ([65d6984](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/65d6984149a537183e991c20bb7baa542577100c))
+* **concept:** add formigiano ([f0551f7](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/f0551f7456308dcef57e4d954c3452c861b6f011))
+* **concept:** add librorifero ([d960f74](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/d960f74b9863ee67005b0de4b5708f758bd427ef))
+* **concept:** add medigatto ([7740483](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/774048349179e735dbf27e0c535b1e623ac43c73))
+* **concept:** add oraritardo ([c2d1777](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/c2d1777068de71ca5516a1d519a50083769eaee7))
+* **concept:** add piecere ([37d923d](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/37d923d0dc744a5f304f9409409f23ae6f66bffc))
+* **concept:** add postrunzolato ([dff177f](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/dff177f5c64a4471d627f89ec6eefc90903971f5))
+* **concept:** add ritardorario ([5f170eb](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/5f170eb834374a0a87aa934325aabe0adf4ea2f8))
+* **concept:** add svenagofobimento ([44e7110](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/44e7110872541087be29e59f34c4ff73c868752b))
+* **concept:** add svenimenzione ([c471661](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/c47166133bea281b45e8d014dad7a82d3bf04c87))
+* **concept:** add tabbella ([518cb6c](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/518cb6cc28a5548232b3fcb137afeead8840eeec))
+* **concept:** add zabuccino ([8712fe5](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/8712fe5fdca8be00e97cea9502f8845d1dcba92a))
+* **site:** add rdf section ([7593642](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/75936420d386bcd4dd57a155a842519054206a03))
+* **site:** add schema to site ([2a282be](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/2a282beb6cd62838aa35669df76af66ced9ed612))
+
+
+### Bug Fixes
+
+* **concept:** removed weird ziera concept ([60a50a5](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/60a50a57e89431cd3965dda9e4581855932136d4))
+
 ## [3.2.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v3.1.0...v3.2.0) (2023-01-09)
 
 
