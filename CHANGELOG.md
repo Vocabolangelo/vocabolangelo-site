@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.4.1](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v3.4.0...v3.4.1) (2023-01-17)
+
+
+### Bug Fixes
+
+* **prefix:** change vocang prefix as it broke all the site ([26cfebc](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/26cfebc04d44d793fa725eec8bf4e0943bf636cb))
+
 ## [3.4.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v3.3.0...v3.4.0) (2023-01-15)
 
 
