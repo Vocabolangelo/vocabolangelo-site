@@ -2730,3 +2730,11 @@ vocang:micizia
     skos:example "Ieri ho coccolato un gatto per strada e abbiamo fatto micizia."@it ;
     dct:created "2023-01-14" ;
     dct:creator vocang:omiccioliRiccardo , vocang:battaglinoNicole .
+
+vocang:netflixata
+    a skos:Concept ;
+    skos:prefLabel "Netflixata"@it ;
+    skos:definition "Strategia di marketing estremamente sbagliata che si traduce in un ulteriore perdita a fronte di problemi con le entrate."@it ;
+    skos:example "Lo abbiamo licenziato a causa di quella immensa netflixata."@it ;
+    dct:created "2023-01-16" ;
+    dct:creator vocang:filasetaAngelo .
