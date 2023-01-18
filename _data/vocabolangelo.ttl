@@ -2747,3 +2747,12 @@ vocang:attaccatoio
     skos:example "Vorrei far montare un attaccatoio nel mio bagno."@it ;
     dct:created "2023-01-18" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:bestemmiotica
+    a skos:Concept ;
+    skos:prefLabel "Bestemmiotica"@it ;
+    lexinfo:pronunciation "/bes • tem • miò • ti • ca/"@it ;
+    skos:definition "La semiotica delle bestemmie."@it ;
+    skos:example "All'Università studierò bestemmiotica."@it ;
+    dct:created "2023-01-16" ;
+    dct:creator vocang:minoccheriAlessandra .
