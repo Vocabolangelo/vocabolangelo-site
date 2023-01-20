@@ -2765,3 +2765,12 @@ vocang:pubblino
     skos:example "Ieri ho fatto un pubblino alla mia ragazza per la prima volta."@it ;
     dct:created "2023-01-20" ;
     dct:creator vocang:fanaraGiuliano .
+
+vocang:vocangelare
+    a skos:Concept ;
+    skos:prefLabel "Vocangelare"@it ;
+    lexinfo:pronunciation "/vo • can • ge • là • re/"@it ;
+    skos:definition "Il processo di inventare parole che verranno inserite all'interno del vocabolangelo."@it ;
+    skos:example "Vocangelare deve essere una cosa che viene dal cuore."@it ;
+    dct:created "2023-01-20" ;
+    dct:creator vocang:fanaraGiuliano, vocang:savoGiorgia .
