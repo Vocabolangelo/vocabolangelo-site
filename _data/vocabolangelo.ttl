@@ -2836,3 +2836,13 @@ vocang:laggugliare
     skos:example "La connessione fa schifo, sto laggugliando."@it ;
     dct:created "2022-12-17" ;
     dct:creator vocang:bragariAlexandru .
+
+vocang:lagguglia
+    a skos:Concept ;
+    skos:prefLabel "Lagguglia"@it ;
+    lexinfo:pronunciation "/lag • gù • glia/"@it ;
+    skos:definition "Area non meglio identificata del sud Italia dove, a causa dello smaltimento illegale dei rifiuti, è facile incorrere in intossicazioni tali da portare a disturbi motori."@it ;
+    skos:example "Volevo andare a ballare in Puglia ma improvvisamente, una volta arrivato sul posto, ho iniziato a muovermi a scatti e a sbavare. Evidentemente mi trovavo in lagguglia."@it ;
+    dct:created "2023-01-11" ;
+    skos:related vocang:laggugliare ;
+    dct:creator vocang:pertosaLorenzo .
