@@ -201,6 +201,13 @@ vocang:deRosaLeonardo
     foaf:nick "Leo the 2nd" ;
     rel:friendOf vocang:filasetaAngelo , vocang:paoliMichele , vocang:pertosaLorenzo .
 
+vocang:savoGianmarco
+    a foaf:Person ;
+    foaf:firstName "Gianmarco" ;
+    foaf:lastName "Savo" ;
+    rel:friendOf vocang:fanaraGiuliano, vocang:timpanoSam, vocang:filasetaAngelo, vocang:mordacchiniCecilia ;
+    rel:siblingOf vocang:savoGiorgia .
+
 # Vocabolangelo Words Individuals
 
 vocang:vocabolangelo
