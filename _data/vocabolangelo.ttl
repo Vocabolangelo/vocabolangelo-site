@@ -2762,7 +2762,8 @@ vocang:pubblino
     skos:prefLabel "Pubblino"@it ;
     lexinfo:pronunciation "/pub • blì • no/"@it ;
     skos:definition "Atto di masturbazione femminile che avviene in un luogo pubblico."@it ;
-    skos:example "Ieri ho fatto un pubblino alla mia ragazza per la prima volta."@it ;
+    skos:example "Ieri ho fatto un pubblino alla mia ragazza per la prima volta."@it,
+        "La cosa più pericolosa che ho fatto? Un pubblino in autostrada a 150 km/h."@it ;
     dct:created "2023-01-20" ;
     dct:creator vocang:fanaraGiuliano .
 
@@ -2774,3 +2775,12 @@ vocang:vocangelare
     skos:example "Vocangelare deve essere una cosa che viene dal cuore."@it ;
     dct:created "2023-01-20" ;
     dct:creator vocang:fanaraGiuliano, vocang:savoGiorgia .
+
+vocang:pavolo
+    a skos:Concept ;
+    skos:prefLabel "Pavolo"@it ;
+    lexinfo:pronunciation "/pà • vo • lo/"@it ;
+    skos:definition "In un'esclamazione è un mix delle due parole \"palle\" e \"cavolo\", solitamente utilizzato per lamentarsi di qualcosa."@it ;
+    skos:example "Che pavolo! Devo rifare tutto da capo!"@it ;
+    dct:created "2023-01-20" ;
+    dct:creator vocang:battaglinoNicole .
