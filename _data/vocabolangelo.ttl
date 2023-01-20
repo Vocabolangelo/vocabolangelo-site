@@ -2818,3 +2818,12 @@ vocang:noonare
     skos:example "Gli ho detto no, ma è riuscito a noonarmi."@it ;
     dct:created "2022-09-25" ;
     dct:creator vocang:pupitaAlberto .
+
+vocang:rimpiatto
+    a skos:Concept ;
+    skos:prefLabel "Rimpiatto"@it ;
+    lexinfo:pronunciation "/rim • piàt • to/"@it ;
+    skos:definition "Piatto che ne sostituisce un altro rotto in precedenza."@it ;
+    skos:example "Oh... Mi spiace che le si sia rotto il piatto. Ecco a lei un rimpiatto."@it ;
+    dct:created "2023-01-20" ;
+    dct:creator vocang:savoGianmarco , vocang:savoGiorgia .
