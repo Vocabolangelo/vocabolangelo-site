@@ -2793,3 +2793,12 @@ vocang:risparmiamento
     skos:example "Questo mese ho avuto un risparmiamento in bolletta."@it ;
     dct:created "2023-01-20" ;
     dct:creator vocang:minoccheriAlessandra , vocang:omiccioliRiccardo .
+
+vocang:riscambiamento
+    a skos:Concept ;
+    skos:prefLabel "Riscambiamento"@it ;
+    lexinfo:pronunciation "/ris • cam • bia • mén • to/"@it ;
+    skos:definition "Riscaldamento dovuto al cambiamento climatico."@it ;
+    skos:example "I ghiacciai si stanno sciogliendo a causa del riscambiamento."@it ;
+    dct:created "2023-01-20" ;
+    dct:creator vocang:minoccheriAlessandra , vocang:omiccioliRiccardo .
