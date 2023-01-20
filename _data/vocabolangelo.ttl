@@ -2756,3 +2756,12 @@ vocang:bestemmiotica
     skos:example "All'Università studierò bestemmiotica."@it ;
     dct:created "2023-01-16" ;
     dct:creator vocang:minoccheriAlessandra .
+
+vocang:pubblino
+    a skos:Concept ;
+    skos:prefLabel "Pubblino"@it ;
+    lexinfo:pronunciation "/pub • blì • no/"@it ;
+    skos:definition "Atto di masturbazione femminile che avviene in un luogo pubblico."@it ;
+    skos:example "Ieri ho fatto un pubblino alla mia ragazza per la prima volta."@it ;
+    dct:created "2023-01-20" ;
+    dct:creator vocang:fanaraGiuliano .
