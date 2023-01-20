@@ -2784,3 +2784,12 @@ vocang:pavolo
     skos:example "Che pavolo! Devo rifare tutto da capo!"@it ;
     dct:created "2023-01-20" ;
     dct:creator vocang:battaglinoNicole .
+
+vocang:risparmiamento
+    a skos:Concept ;
+    skos:prefLabel "Risparmiamento"@it ;
+    lexinfo:pronunciation "/ris • par • mia • mén • to/"@it ;
+    skos:definition "Risparmio attuato sul riscaldamento."@it ;
+    skos:example "Questo mese ho avuto un risparmiamento in bolletta."@it ;
+    dct:created "2023-01-20" ;
+    dct:creator vocang:minoccheriAlessandra , vocang:omiccioliRiccardo .
