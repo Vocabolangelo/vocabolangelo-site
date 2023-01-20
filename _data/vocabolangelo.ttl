@@ -2802,3 +2802,12 @@ vocang:riscambiamento
     skos:example "I ghiacciai si stanno sciogliendo a causa del riscambiamento."@it ;
     dct:created "2023-01-20" ;
     dct:creator vocang:minoccheriAlessandra , vocang:omiccioliRiccardo .
+
+vocang:noonare
+    a skos:Concept ;
+    skos:prefLabel "Noonare"@it ;
+    lexinfo:pronunciation "/no • ò • na • re/"@it ;
+    skos:definition "Rispondere ad un No con un No."@it ;
+    skos:example "Gli ho detto no, ma è riuscito a noonarmi."@it ;
+    dct:created "2022-09-25" ;
+    dct:creator vocang:pupitaAlberto .
