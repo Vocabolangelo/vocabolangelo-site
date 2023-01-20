@@ -2827,3 +2827,12 @@ vocang:rimpiatto
     skos:example "Oh... Mi spiace che le si sia rotto il piatto. Ecco a lei un rimpiatto."@it ;
     dct:created "2023-01-20" ;
     dct:creator vocang:savoGianmarco , vocang:savoGiorgia .
+
+vocang:laggugliare
+    a skos:Concept ;
+    skos:prefLabel "Laggugliare"@it ;
+    lexinfo:pronunciation "/lag • gu • glià • re/"@it ;
+    skos:definition "Incorrere in ritardo o in interruzioni momentanee nella trasmissione di immagini, video o qualsiasi altro tipo di dato proveniente da Internet e diretto verso la regione Puglia."@it ;
+    skos:example "La connessione fa schifo, sto laggugliando."@it ;
+    dct:created "2022-12-17" ;
+    dct:creator vocang:bragariAlexandru .
