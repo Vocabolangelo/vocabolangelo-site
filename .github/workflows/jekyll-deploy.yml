@@ -1,6 +1,9 @@
 name: Jekyll Deploy
 
 on:
+  push:
+    tags:
+    - 'v*'
   workflow_run:
     workflows: ["Validate RDF"]
     branches:
