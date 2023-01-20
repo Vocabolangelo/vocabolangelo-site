@@ -7,8 +7,8 @@
                 <span class="icon style2 major fa-star"></span>
                 <h3>Innovativa</h3>
                 <p>
-                La parola non deve già esistere nella lingua italiana. <br>
-                È comunque possibile creare parole che siano sinonimi di parole italiane.
+                La coppia parola-definizione non deve già esistere nella lingua italiana.<br>
+                È quindi possibile creare sinonimi di parole italiane o definizioni alternative.
                 </p>
             </section>
             <section>
