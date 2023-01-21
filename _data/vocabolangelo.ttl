@@ -31,9 +31,19 @@ vocang:unpaidFriendOf
     rdfs:label "Unpaid friend of", "Amico non ricambiato"@it;
     rdfs:comment "Property to be used when the person specified in the domain is friend with the person specified in the range, but the friendship is not mutual.", "Proprietà da utilizzare quando la persona specificata nel dominio è amica di quella specificata nel range, ma l'amicizia non è ricambiata."@it .
 
-scot:synonym
-    a owl:SymmetricProperty ;
-    rdfs:subPropertyOf skos:related.
+scot:synonym a owl:SymmetricProperty ;
+    rdfs:subPropertyOf skos:related .
+
+rel:friendOf a owl:SymmetricProperty ;
+    rdfs:subPropertyOf foaf:knows .
+
+rel:spouseOf a owl:SymmetricProperty ;
+    rdfs:subPropertyOf foaf:knows .
+
+rel:siblingOf a owl:SymmetricProperty ;
+    rdfs:subPropertyOf foaf:knows .
+
+skos:related a owl:SymmetricProperty .
 
 # Person Individuals
 
