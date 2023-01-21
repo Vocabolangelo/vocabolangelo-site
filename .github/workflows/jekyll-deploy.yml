@@ -17,6 +17,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gems-
       - run: cp _data/vocabolangelo.ttl schema
+      - run: ./infer.sh
       - uses:  helaili/jekyll-action@v2
         with:
           token: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
