@@ -25,7 +25,7 @@ defaults:
 
 # Jekyll RDF settings
 jekyll_rdf:
-    path: "_data/vocabolangelo.ttl"
+    path: "_data/vocabolangelo-merged.ttl"
     default_template: "rdf/default"
     class_template_mappings:
         "http://www.w3.org/2004/02/skos/core#Concept": "rdf/concept"
