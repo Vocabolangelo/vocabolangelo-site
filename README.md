@@ -16,7 +16,7 @@ Il Vocabolangelo è un documento strutturato che cataloga e definisce parole, no
 To run the project in local just execute the command:
 
 ```console
-bundle exec jekyll serve
+bundle exec jekyll serve --config _config.yml,_dev.yml
 ```
 
 All the prerequisites can be found [here](https://jekyllrb.com/docs/installation/). A Jekyll quickstart guide can also be found [here](https://jekyllrb.com/docs/).
