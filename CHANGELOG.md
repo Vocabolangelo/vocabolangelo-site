@@ -1,5 +1,31 @@
 # Changelog
 
+## [3.5.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v3.4.1...v3.5.0) (2023-01-21)
+
+
+### Features
+
+* **concept:** add amiagolanti ([cdd659f](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/cdd659f822ef06ce18193941f2f687033a6f8f66))
+* **concept:** add attaccatoio ([8aa3286](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/8aa3286441de6c43c3fce10e59bd5132eff47d85))
+* **concept:** add bestemmiotica ([95d546e](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/95d546e1915a7bac7c96feab24fc03dbd64e11d8))
+* **concept:** add lagguglia ([6525830](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/652583077c0cfb5ecf8dd7afaaf9c085171c4a87))
+* **concept:** add laggugliare ([175cf80](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/175cf8080100211d3c69383ff6b37943e2a11297))
+* **concept:** add netflixata ([548ff3d](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/548ff3d38a5d3a02f5eddc68bf2e33683b41744e))
+* **concept:** add noonare ([d565eb4](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/d565eb4984cf45f8844a80f1c8832eceacbceb18))
+* **concept:** add pavolo ([1d6026a](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/1d6026a19bb4f00c7ce343c28cae17898efd7b38))
+* **concept:** add pubblino ([ac4d297](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/ac4d297bc677ac586acf952e6a4cf25201711b46))
+* **concept:** add rimpiatto ([b63ff3d](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/b63ff3d688d89d031fe6f69559450f2abf0366a4))
+* **concept:** add riscambiamento ([e85fca4](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/e85fca4dd6c1a8f029a91f5fe1d61e7fb93ac140))
+* **concept:** add risparmiamento ([65b0f96](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/65b0f9638eabd90673fad4545a529ee4f490a88c))
+* **concept:** add vocangelare ([6f4c813](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/6f4c81338ee6d5fbdebd49e7ce2009dd3a6f8a03))
+* **person:** add Gianmarco Savo ([8464fb9](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/8464fb958caa919858b4ca1c09032be99edde65e))
+
+
+### Bug Fixes
+
+* **ci:** jekyll build start only on tags ([06a2c51](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/06a2c51628fb6ebb9c0cf9c5ece3f9ae1cdfbe6f))
+* **rule:** edit innovative rule to include different definitions ([01c6008](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/01c600810a82df8e9125312046f3cdcf170096c8))
+
 ## [3.4.1](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v3.4.0...v3.4.1) (2023-01-17)
 
 
