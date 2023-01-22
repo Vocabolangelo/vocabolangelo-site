@@ -2865,3 +2865,12 @@ vocang:amiagolanti
     skos:example "Ho visto due amiagolanti nella notte, o avuto paura."@it ;
     dct:created "2023-01-21" ;
     dct:creator vocang:savoGiorgia .
+
+vocang:miagolatto
+    a skos:Concept ;
+    skos:prefLabel "Miagolatto"@it ;
+    lexinfo:pronunciation "/mia • go • làt • to/"@it ;
+    skos:definition "Gatto che miagola in maniera carina."@it ;
+    skos:example "Su Instagram ho visto video di miagolatti bellissimi."@it ;
+    dct:created "2023-01-21" ;
+    dct:creator vocang:omiccioliRiccardo .
