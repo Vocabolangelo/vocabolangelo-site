@@ -2874,3 +2874,13 @@ vocang:miagolatto
     skos:example "Su Instagram ho visto video di miagolatti bellissimi."@it ;
     dct:created "2023-01-21" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:pergamela
+    a skos:Concept ;
+    skos:prefLabel "Pergamela"@it ;
+    lexinfo:pronunciation "/per • ga • mè • la/"@it ;
+    skos:definition "Mela srotolata completamente, il cui spessore è molto fino."@it ;
+    skos:example "La pergamela viene spesso utilizzata per decorare i piatti."@it ;
+    schema:video "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/videos/vocabolangelo/pergamela.mp4" ;
+    dct:created "2023-01-24" ;
+    dct:creator vocang:orlandoNicola .
