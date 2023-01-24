@@ -2884,3 +2884,12 @@ vocang:pergamela
     schema:video "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/videos/vocabolangelo/pergamela.mp4" ;
     dct:created "2023-01-24" ;
     dct:creator vocang:orlandoNicola .
+
+vocang:esplorezione
+    a skos:Concept ;
+    skos:prefLabel "Esplorezione"@it ;
+    lexinfo:pronunciation "/es • plo • re • zió • ne/"@it ;
+    skos:definition "Un'esplorazione sessualmente eccitante."@it ;
+    skos:example "Mi strusciavo con Maria Francesca mentre mi calavo nella grotta. Ne è uscita un'ottima esplorezione."@it ;
+    dct:created "2023-01-21" ;
+    dct:creator vocang:omiccioliRiccardo , vocang:pertosaLorenzo .
