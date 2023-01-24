@@ -58,9 +58,29 @@ layout: rdf_layout
     </header>
     <div class="content">
         <ul>
-        {% for i in images %}
+        {% for url in images %}
             <span class="image left">
-                <img src="{{ i }}" alt="Profile Image">
+                <img src="{{ url }}" alt="Parolangelo Image">
+            </span>
+        {% endfor %}
+        </ul>
+    </div>
+</section>
+{% endif %}
+{% assign videos = page.rdf | rdf_property: 'schema:video', nil, true %}
+{% if videos %}
+<section>
+    <header>
+        <h3>Video</h3>
+    </header>
+    <div class="content">
+        <ul>
+        {% for url in videos %}
+            <span class="image left">
+                <video width="50%" height="auto" autoplay muted loop>
+                    <source src="{{ url }}" type="video/mp4">
+                    Non supportato.
+                </video>
             </span>
         {% endfor %}
         </ul>
