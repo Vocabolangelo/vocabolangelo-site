@@ -2920,3 +2920,12 @@ vocang:colanzo
     skos:example "Mi sono svegliato tardi, mi faccio un bel colanzo con latte e cereali."@it ;
     dct:created "2023-01-21" ;
     dct:creator vocang:ribaudoSofia .
+
+vocang:strabicio
+    a skos:Concept ;
+    skos:prefLabel "Strabicio"@it ;
+    lexinfo:pronunciation "/stra • bì • cio/"@it ;
+    skos:definition "Un gatto strabico."@it ;
+    skos:example "Quello strabicio sbatte contro ogni muro, poverino..."@it ;
+    dct:created "2023-01-25" ;
+    dct:creator vocang:pertosaLorenzo .
