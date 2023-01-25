@@ -2902,3 +2902,12 @@ vocang:pulicio
     skos:example "Ho visto un gatto farsi un bagno e asciugarsi con l'asciugamano, è così raro vedere un pulicio!"@it ;
     dct:created "2023-01-25" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:omnicio
+    a skos:Concept ;
+    skos:prefLabel "Omnicio"@it ;
+    lexinfo:pronunciation "/om • nì • cio/"@it ;
+    skos:definition "Un gatto che è definibile con ogni sostantivo che descrive un gatto presente all'interno del vocabolangelo."@it ;
+    skos:example "Ho dovuto abbassare lo sguardo e tapparmi le orecchie quando ho visto passare quell'omnicio: era talmente fantastico da sembrare una divinità."@it ;
+    dct:created "2023-01-25" ;
+    dct:creator vocang:pertosaLorenzo, vocang:filasetaAngelo .
