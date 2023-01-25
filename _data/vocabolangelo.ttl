@@ -2893,3 +2893,12 @@ vocang:esplorezione
     skos:example "Mi strusciavo con Maria Francesca mentre mi calavo nella grotta. Ne è uscita un'ottima esplorezione."@it ;
     dct:created "2023-01-21" ;
     dct:creator vocang:omiccioliRiccardo , vocang:pertosaLorenzo .
+
+vocang:pulicio
+    a skos:Concept ;
+    skos:prefLabel "Pulicio"@it ;
+    lexinfo:pronunciation "/pu • lì • cio/"@it ;
+    skos:definition "Un gatto estremamente pulito."@it ;
+    skos:example "Ho visto un gatto farsi un bagno e asciugarsi con l'asciugamano, è così raro vedere un pulicio!"@it ;
+    dct:created "2023-01-25" ;
+    dct:creator vocang:pertosaLorenzo .
