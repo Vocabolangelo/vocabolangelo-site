@@ -2938,3 +2938,11 @@ vocang:grattilletico
     skos:example "Nicole mi ha fatto il grattilletico sulla schiena."@it ;
     dct:created "2023-01-21" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:pocapon
+    a skos:Concept ;
+    skos:prefLabel "Pocapon"@it ;
+    skos:definition "Persona con poco senso del ritmo."@it ;
+    skos:example "Non diventerai mai un musicista, sei solo un pocapon."@it ;
+    dct:created "2023-01-21" ;
+    dct:creator vocang:omiccioliRiccardo .
