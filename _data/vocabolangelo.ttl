@@ -2911,3 +2911,12 @@ vocang:omnicio
     skos:example "Ho dovuto abbassare lo sguardo e tapparmi le orecchie quando ho visto passare quell'omnicio: era talmente fantastico da sembrare una divinità."@it ;
     dct:created "2023-01-25" ;
     dct:creator vocang:pertosaLorenzo, vocang:filasetaAngelo .
+
+vocang:colanzo
+    a skos:Concept ;
+    skos:prefLabel "Colanzo"@it ;
+    lexinfo:pronunciation "/co • làn • zo/"@it ;
+    skos:definition "Connubio tra colazione e pranzo, simile ad un brunch ma molto meno organizzato."@it ;
+    skos:example "Mi sono svegliato tardi, mi faccio un bel colanzo con latte e cereali."@it ;
+    dct:created "2023-01-21" ;
+    dct:creator vocang:ribaudoSofia .
