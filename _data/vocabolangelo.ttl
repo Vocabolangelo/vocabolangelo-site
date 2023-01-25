@@ -2929,3 +2929,12 @@ vocang:strabicio
     skos:example "Quello strabicio sbatte contro ogni muro, poverino..."@it ;
     dct:created "2023-01-25" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:grattilletico
+    a skos:Concept ;
+    skos:prefLabel "Grattilletico"@it ;
+    lexinfo:pronunciation "/grat • til • le • ti • co/"@it ;
+    skos:definition "Solletico causato da una grattata."@it ;
+    skos:example "Nicole mi ha fatto il grattilletico sulla schiena."@it ;
+    dct:created "2023-01-21" ;
+    dct:creator vocang:omiccioliRiccardo .
