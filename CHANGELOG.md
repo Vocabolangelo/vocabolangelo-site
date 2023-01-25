@@ -1,5 +1,23 @@
 # Changelog
 
+## [3.6.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v3.5.0...v3.6.0) (2023-01-25)
+
+
+### Features
+
+* **concept:** add colanzo ([4e31a18](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/4e31a18d84054de512a72b97150e8b699c3077bc))
+* **concept:** add esplorezione ([d79f459](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/d79f4595935691587367a791a1d96c9551e7ca8a))
+* **concept:** add grattilletico ([39f700d](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/39f700d7db39e521475b93df85ba66839a949f85))
+* **concept:** add miagolatto ([86be09c](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/86be09c3941d93ff3f46720ae0f05f7f958306ca))
+* **concept:** add omnicio ([f387667](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/f38766762da43efe39414c3fac28848446589e70))
+* **concept:** add pergamela ([86f185c](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/86f185c2827743095587c086fc01fcab538fce7e))
+* **concept:** add pocapon ([82ecbb3](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/82ecbb315075700987bb80f4f8bd98ee6d626f40))
+* **concept:** add pulicio ([d61b050](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/d61b0505012246299c1e12b9dd8a89aeb12dcd56))
+* **concept:** add strabicio ([0439e83](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/0439e836b95ceb19c97a544149e9b31b558377be))
+* **site:** add data page to site ([de28937](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/de28937bccf54e0d15dadbd4f611a44a9059e234))
+* **site:** add video section to concept page ([b226f2d](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/b226f2d5bccee076d5dc067a6a0019687516b5d2))
+* **video:** add pergamela video ([21d8ffb](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/21d8ffb67d09c442fbf98830e3c673c3561abaaf))
+
 ## [3.5.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v3.4.1...v3.5.0) (2023-01-21)
 
 
