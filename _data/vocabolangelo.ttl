@@ -3109,3 +3109,11 @@ vocang:groggare
     skos:example "Se continua a groggare così finirà in coma etilico."@it ;
     dct:created "2023-01-28" ;
     dct:creator vocang:minoccheriAlessandra .
+
+vocang:squirtavetri
+    a skos:Concept ;
+    skos:prefLabel "Squirtavetri"@it ;
+    lexinfo:pronunciation "/squir • ta • vé • tri/"@it ;
+    skos:definition "Sistema che in un automobile aziona uno spruzzo di acqua diretto sul parabrezza, ma ad ogni azionamento si sente il suono di una donna che geme fragorosamente."@it ;
+    skos:example "Ogni volta che aziono gli squirtavetri mi viene da ridere."@it ;
+    dct:creator vocang:minoccheriAlessandra .
