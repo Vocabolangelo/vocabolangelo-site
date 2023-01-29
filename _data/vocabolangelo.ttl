@@ -3056,3 +3056,12 @@ vocang:disabilabilità
     skos:related vocang:disabilabile ;
     dct:created "2023-01-28" ;
     dct:creator vocang:pertosaLorenzo, vocang:suscaMatteo .
+
+vocang:katello
+    a skos:Concept ;
+    skos:prefLabel "Katello"@it ;
+    lexinfo:pronunciation "/ka • tèl • lo/"@it ;
+    skos:definition "Katana utilizzata al posto o come un coltello."@it ;
+    skos:example "Lorenzo ha tagliato quel guanciale utilizzando un katello ed è riuscito a farlo male."@it ;
+    dct:created "2023-01-28" ;
+    dct:creator vocang:bdeouiEddy .
