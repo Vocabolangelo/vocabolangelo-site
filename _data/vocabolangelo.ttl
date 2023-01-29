@@ -386,6 +386,7 @@ vocang:incrociatoria
     lexinfo:pronunciation "/in • cro • cia • tò • ria/"@it ;
     skos:definition "Incrocio a raso molto pericoloso mascherato da rotatoria."@it ;
     skos:example "Ieri sono quasi morto a quell'incrociatoria."@it ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/incrociatoria.jpg" ;
     dct:creator vocang:pertosaLorenzo .
 
 vocang:angelata
