@@ -2994,3 +2994,11 @@ vocang:neurolce
     skos:example "Le mandorle sono neurolci."@it ;
     dct:created "2023-01-27" ;
     dct:creator vocang:omiccioliRiccardo, vocang:bragariAlexandru .
+
+vocang:birrileal
+    a skos:Concept ;
+    skos:prefLabel "Birilleal"@it ;
+    skos:definition "Foto postata sul social network BeReal in cui compare almeno un birillo."@it ;
+    skos:example "Ero in autostrada e ho preso in pieno un cantiere a lato della strada, sono sceso e ho fatto un birilleal."@it ;
+    dct:created "2023-01-27" ;
+    dct:creator vocang:pertosaLorenzo .
