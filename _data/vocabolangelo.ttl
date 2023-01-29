@@ -423,7 +423,7 @@ vocang:biribì
 vocang:caffemilla
     a skos:Concept ;
     skos:prefLabel "Caffemilla"@it ;
-    lexinfo:pronunciation "/caf • fe • mil • la/"@it ;
+    lexinfo:pronunciation "/caf • fe • mìl • la/"@it ;
     skos:definition "Un caffè (di qualsiasi tipo) aromatizzato alla camomilla."@it ;
     skos:example "La caffemilla non mi piace."@it ;
     dct:creator vocang:filasetaAngelo .
@@ -3002,3 +3002,12 @@ vocang:birrileal
     skos:example "Ero in autostrada e ho preso in pieno un cantiere a lato della strada, sono sceso e ho fatto un birilleal."@it ;
     dct:created "2023-01-27" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:caffomilla
+    a skos:Concept ;
+    skos:prefLabel "Caffomilla"@it ;
+    lexinfo:pronunciation "/caf • fo • mìl • la/"@it ;
+    skos:definition "Caffè realizzato utilizzando della camomilla al posto dell'acqua."@it ;
+    skos:example "Non ho idea di che effetto possa farmi la caffomilla sinceramente..."@it ;
+    dct:created "2023-01-27" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:orlandoNicola .
