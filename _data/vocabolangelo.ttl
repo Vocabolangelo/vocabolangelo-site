@@ -3029,3 +3029,13 @@ vocang:negrozio
     skos:example "Sotto casa mia c'è un negrozio molto conveniente."@it ;
     dct:created "2023-01-28" ;
     dct:creator vocang:suscaMatteo .
+
+vocang:pisnello
+    a skos:Concept ;
+    skos:prefLabel "Pisnello"@it ;
+    lexinfo:pronunciation "/pi • /ṣnèl • lo/"@it ;
+    skos:definition "Pene la cui lunghezza risulta nella media o superiore, ma il cui diametro (da eretto) risulta inferiore a 2.8cm."@it ;
+    skos:example "I pisnelli possono essere carini, ma c'è chi preferisce altro."@it ;
+    dct:created "2023-01-28" ;
+    dct:creator vocang:orlandoNicola .
+
