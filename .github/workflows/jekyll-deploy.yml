@@ -24,6 +24,7 @@ jobs:
           distribution: 'zulu'
           java-version: '8'
       - run: cp _data/vocabolangelo.ttl schema
+      - run: cp _data/vocabolangelo-merged.ttl schema-inferred
       - run: ./infer.sh
       - uses:  helaili/jekyll-action@v2
         with:
