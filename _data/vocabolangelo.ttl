@@ -3011,3 +3011,12 @@ vocang:caffomilla
     skos:example "Non ho idea di che effetto possa farmi la caffomilla sinceramente..."@it ;
     dct:created "2023-01-27" ;
     dct:creator vocang:omiccioliRiccardo, vocang:orlandoNicola .
+
+vocang:papaziente
+    a skos:Concept ;
+    skos:prefLabel "Papaziente"@it ;
+    lexinfo:pronunciation "/pa • pa • zièn • te/"@it ;
+    skos:definition "Persona affetta da una malattia, molto paziente."@it ;
+    skos:example "Il nostro ospedale è molto tranquillo, per fortuna ci sono parecchi papazienti."@it ;
+    dct:created "2023-01-28" ;
+    dct:creator vocang:bdeouiEddy, vocang:pertosaLorenzo .
