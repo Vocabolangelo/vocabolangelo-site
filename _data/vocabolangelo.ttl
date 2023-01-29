@@ -2965,3 +2965,13 @@ vocang:agambicio
     skos:example "Gli agambichi non sono molto stabili, ma a volte funzionano abbastanza bene."@it ;
     dct:created "2023-01-25" ;
     dct:creator vocang:bragariAlexandru .
+
+vocang:ambionimo
+    a skos:Concept ;
+    skos:prefLabel "Ambionimo"@it ;
+    lexinfo:pronunciation "/am • biò· • ni • mo/"@it ;
+    skos:definition "Una persona che ha rispettivamente il nome uguale al cognome di un'altra."@it ;
+    skos:example "Il professore era parecchio confuso nel registrare il voto di Alexandru in quanto due ragazzi ambionimi partecipavano allo stesso esame."@it ;
+    dct:created "2023-01-27" ;
+    skos:related vocang:cognonimo ;
+    dct:creator vocang:omiccioliRiccardo .
