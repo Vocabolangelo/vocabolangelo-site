@@ -2,6 +2,7 @@ baseurl: "/"
 url: "http://www.vocabolangelo.org/"
 
 exclude:
+    - build
     - gradle*
     - settins.gradle.kts
     - build.gradle.kts
