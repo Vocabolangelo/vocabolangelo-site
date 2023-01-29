@@ -3041,9 +3041,18 @@ vocang:pisnello
 vocang:disabilabile
     a skos:Concept ;
     skos:prefLabel "Disabilabile"@it ;
-    lexinfo:pronunciation "/di • sa • bi • la • bi • le/"@it ;
+    lexinfo:pronunciation "/di • ṣa • bi • là • bi • le/"@it ;
     skos:definition "Persona che può essere resa disabile mentalmente in particolari circostanze."@it ;
     skos:example "Matteo ha schioccato le dita davanti a Lorenzo e gli è venuto un attacco ischemico transitorio: abbiamo constatato che è disabilabile."@it ;
     dct:created "2023-01-28" ;
     dct:creator vocang:pertosaLorenzo, vocang:suscaMatteo .
 
+vocang:disabilabilità
+    a skos:Concept ;
+    skos:prefLabel "Disabilabilità"@it ;
+    lexinfo:pronunciation "/di • ṣa • bi • là • bi • li • tà/"@it ;
+    skos:definition "Condizione dell'essere disabilabile."@it ;
+    skos:example "Matteo ha schioccato le dita davanti a Lorenzo e gli è venuto un attacco ischemico transitorio: abbiamo constatato che si tratta di disabilabilità."@it ;
+    skos:related vocang:disabilabile ;
+    dct:created "2023-01-28" ;
+    dct:creator vocang:pertosaLorenzo, vocang:suscaMatteo .
