@@ -3091,3 +3091,12 @@ vocang:notturbino
     skos:example "Sono stato svegliato nel cuore della notte dal notturbino che ritirava la spazzatura davanti casa."@it ;
     dct:created "2023-01-28" ;
     dct:creator vocang:omiccioliRiccardo, vocang:orlandoNicola .
+
+vocang:nerdgasmo
+    a skos:Concept ;
+    skos:prefLabel "Nerdgasmo"@it ;
+    lexinfo:pronunciation "/nerd • gàs • mo/"@it ;
+    skos:definition "Qualsiasi cosa classificabile per nerd che provoca uno stato di eccitazione paragonabile all'orgasmo."@it ;
+    skos:example "Ho appena avuto un nerdgasmo scartando quella action figure perfetta."@it ;
+    dct:created "2023-01-29" ;
+    dct:creator vocang:radicchiGiovanni .
