@@ -852,6 +852,7 @@ vocang:limonalbero
     lexinfo:pronunciation "/li • mo • nàl • be • ro/"@it ;
     skos:definition "Grafo non orientato e non pesato utilizzato per rappresentare chi ha baciato chi (archi) in un gruppo di persone (nodi)."@it ;
     skos:example "Stasera facciamo il limonalbero della nostra compagnia, se vieni proviamo a completarlo!"@it ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/limonalbero.jpg" ;
     dct:creator vocang:ribaudoSofia .
 
 vocang:tappembramento
