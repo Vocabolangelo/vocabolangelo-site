@@ -3100,3 +3100,12 @@ vocang:nerdgasmo
     skos:example "Ho appena avuto un nerdgasmo scartando quella action figure perfetta."@it ;
     dct:created "2023-01-29" ;
     dct:creator vocang:radicchiGiovanni .
+
+vocang:groggare
+    a skos:Concept ;
+    skos:prefLabel "Groggare"@it ;
+    lexinfo:pronunciation "/grog • à • re/"@it ;
+    skos:definition "Bere del grog con l'intento di ubriacarsi pesantemente."@it ;
+    skos:example "Se continua a groggare così finirà in coma etilico."@it ;
+    dct:created "2023-01-28" ;
+    dct:creator vocang:minoccheriAlessandra .
