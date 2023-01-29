@@ -3074,3 +3074,12 @@ vocang:sbremblo
     skos:example "Segna 2 sullo sbremblo, se lo fai vinceremo."@it ;
     dct:created "2023-01-28" ;
     dct:creator vocang:minoccheriAlessandra .
+
+vocang:notturbino
+    a skos:Concept ;
+    skos:prefLabel "Notturbino"@it ;
+    lexinfo:pronunciation "/not • tur • bì • no/"@it ;
+    skos:definition "Netturbino che raccoglie i rifiuti solamente di notte."@it ;
+    skos:example "Sono stato svegliato nel cuore della notte dal notturbino che ritirava la spazzatura davanti casa."@it ;
+    dct:created "2023-01-28" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:orlandoNicola .
