@@ -2981,8 +2981,16 @@ vocang:biambionimo
     skos:prefLabel "Biambionimo"@it ;
     lexinfo:pronunciation "/bi • am • biò· • ni • mo/"@it ;
     skos:definition "Una persona che ha rispettivamente il nome uguale al cognome e il cognome uguale al nome di un'altra."@it ;
-    skos:example "L'amicizia nata tra Alexandru Orlando e Orlando Alexandru è stata inizialmente causata dal loro essere biambionimi"@it ;
+    skos:example "L'amicizia nata tra Alexandru Orlando e Orlando Alexandru è stata inizialmente causata dal loro essere biambionimi."@it ;
     dct:created "2023-01-27" ;
     skos:related vocang:ambionimo ;
     dct:creator vocang:orlandoNicola .
 
+vocang:neurolce
+    a skos:Concept ;
+    skos:prefLabel "Neurolce"@it ;
+    lexinfo:pronunciation "/ne • u • ról • ce/"@it ;
+    skos:definition "Un gusto né dolce né salato."@it ;
+    skos:example "Le mandorle sono neurolci."@it ;
+    dct:created "2023-01-27" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:bragariAlexandru .
