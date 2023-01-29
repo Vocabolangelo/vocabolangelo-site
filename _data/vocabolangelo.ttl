@@ -2948,12 +2948,20 @@ vocang:pocapon
     dct:created "2023-01-21" ;
     dct:creator vocang:omiccioliRiccardo .
 
-
 vocang:agambicio
     a skos:Concept ;
     skos:prefLabel "Agambicio"@it ;
     lexinfo:pronunciation "/a • gam • bì • cio/"@it ;
     skos:definition "Amico senza gambe."@it ;
     skos:example "L'amicizia che ho con Gianmarco è molto preziosa, anche se è un po' difficile a volte stare ai bisogni di un agambicio."@it ;
+    dct:created "2023-01-25" ;
+    dct:creator vocang:bragariAlexandru .
+
+vocang:agambicio
+    a skos:Concept ;
+    skos:prefLabel "Agambico"@it ;
+    lexinfo:pronunciation "/a • gam • bì • co/"@it ;
+    skos:definition "Lombrico utilizzato come aggancio."@it ;
+    skos:example "Gli agambichi non sono molto stabili, ma a volte funzionano abbastanza bene."@it ;
     dct:created "2023-01-25" ;
     dct:creator vocang:bragariAlexandru .
