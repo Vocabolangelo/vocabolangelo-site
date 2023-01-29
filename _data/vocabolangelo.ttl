@@ -3020,3 +3020,12 @@ vocang:papaziente
     skos:example "Il nostro ospedale è molto tranquillo, per fortuna ci sono parecchi papazienti."@it ;
     dct:created "2023-01-28" ;
     dct:creator vocang:bdeouiEddy, vocang:pertosaLorenzo .
+
+vocang:negrozio
+    a skos:Concept ;
+    skos:prefLabel "Negrozio"@it ;
+    lexinfo:pronunciation "/ne • grò • zio/"@it ;
+    skos:definition "Negozio in cui lavorano persone provenienti da sotto l'equatore."@it ;
+    skos:example "Sotto casa mia c'è un negrozio molto conveniente."@it ;
+    dct:created "2023-01-28" ;
+    dct:creator vocang:suscaMatteo .
