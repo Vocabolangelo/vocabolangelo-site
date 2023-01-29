@@ -156,6 +156,7 @@ vocang:minoccheriAlessandra
     a foaf:Person ;
     foaf:firstName "Alessandra" ;
     foaf:lastName "Minoccheri" ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/minoccheriAlessandra.jpg" ;
     rel:friendOf vocang:fanaraGiuliano, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo .
 
  vocang:nardiniArianna
