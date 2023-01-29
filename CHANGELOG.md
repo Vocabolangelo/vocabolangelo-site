@@ -1,5 +1,38 @@
 # Changelog
 
+## [3.7.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v3.6.0...v3.7.0) (2023-01-29)
+
+
+### Features
+
+* **concept:** add agambicio ([07caf75](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/07caf7549fab763fadd6b26fee67286cea58c892))
+* **concept:** add agambico ([5f37a3f](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/5f37a3fc9369de298e8218302ce50f74462cd5d8))
+* **concept:** add ambionimo ([960efbd](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/960efbde3696e0d965abb3590771a47f81133680))
+* **concept:** add biambionimo ([1270a6c](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/1270a6c38ac1c369055a0f24ff252e82e4667aea))
+* **concept:** add birilleal ([3fa381b](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/3fa381b0c0dee0c59f9563abf74def187c79b551))
+* **concept:** add caffomilla ([cfb81a9](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/cfb81a981f355df139da168d6a38c0011919c60d))
+* **concept:** add disabilabile ([5f39c34](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/5f39c34ecba166c2b6a86bda57f16b2a3db56afa))
+* **concept:** add disabilabilità ([32c06e0](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/32c06e0c6cf29638a15ce080db3115119952b559))
+* **concept:** add groggare ([772301e](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/772301ecc8fae37d6222f43fb2b90ba73cec730d))
+* **concept:** add katello ([7a66667](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/7a6666724b020dc9921bdbe8b7f2915ee15a670b))
+* **concept:** add negrozio ([7f399ee](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/7f399eed5a4a67cabc0850496718d36ac8aa7562))
+* **concept:** add nerdgasmo ([b5e729e](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/b5e729e91b3e942a3d18b8e6863525726594ef2e))
+* **concept:** add neurolce ([90a684b](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/90a684b8080fdb7ce503d2f173920d35fb273107))
+* **concept:** add notturbino ([31a53fb](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/31a53fbb9056789d4df716978f02916af9e96ab1))
+* **concept:** add papaziente ([fed9421](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/fed94219828530fecb89360f2fe10e98ff483b16))
+* **concept:** add pisnello ([5010a03](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/5010a03cab76417cc3cd0b6222d06db527af24ee))
+* **concept:** add related to omnicio ([80fe042](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/80fe042bfadb5a89fa5397d9a17cea7578cdbd5b))
+* **concept:** add sbremblo ([f235be3](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/f235be3ac8c4e0b8628f3273de586522ae91ec87))
+* **concept:** add squirtavetri ([01c4895](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/01c4895720db45091f9d92243e97035b547d83b0))
+* **image:** add incrociatoria image ([18d66fb](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/18d66fb3fb59b749bcfd1ee731def24bdc1d3b86))
+* **image:** add limonalbero image ([b645707](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/b64570799d62f9830ea41f9c2de7e3e4da32d701))
+* **person:** add Giovanni Radicchi ([2a7a4f8](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/2a7a4f8123b3405a8a637a61e194f3d898c92d3b))
+
+
+### Bug Fixes
+
+* **concept:** remove uovograna image from angurianesimo ([19c7478](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/19c7478919d122b736ffd41943ee6032be76bd34))
+
 ## [3.6.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v3.5.0...v3.6.0) (2023-01-25)
 
 
