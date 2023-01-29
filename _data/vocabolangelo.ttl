@@ -787,7 +787,6 @@ vocang:angurianesimo
     lexinfo:pronunciation "/an • gu • ria • ne • si • mo/"@it ;
     skos:definition "Un tipo di dieta molto più valida di quella vegetariana o vegana. Consiste nel mangiare circa 7kg di anguria al giorno, bucce e semi inclusi. I semi di anguria sono ricchi di vitamine, sali minerali e più contengono più proteine della carne. Inoltre si avrà a disposizione il 100% del ferro necessario in un giorno, cosa che invece i vegani e vegetariani devono integrare con le pillole."@it ;
     skos:example "Ho cominciato un nuovo tipo di dieta, si chiama angurianesimo."@it ;
-    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/uovograna.jpg" ;
     dct:creator vocang:bragariAlexandru .
 
 vocang:ispettrore
