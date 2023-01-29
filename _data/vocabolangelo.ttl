@@ -218,6 +218,14 @@ vocang:savoGianmarco
     rel:friendOf vocang:fanaraGiuliano, vocang:timpanoSam, vocang:filasetaAngelo, vocang:mordacchiniCecilia ;
     rel:siblingOf vocang:savoGiorgia .
 
+vocang:radicchiGiovanni
+    a foaf:Person ;
+    foaf:firstName "Giovanni" ;
+    foaf:lastName "Radicchi" ;
+    foaf:nick "Rad" ;
+    rel:friendOf vocang:bianchiniGiovanni, vocang:pupitaAlberto, vocang:bdeouiEddy, vocang:nardiniArianna, vocang:minoccheriAlessandra, vocang:suscaMatteo, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:ribaudoSofia, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:bragariAlexandru, vocang:filasetaAngelo .
+
+
 # Vocabolangelo Words Individuals
 
 vocang:vocabolangelo
