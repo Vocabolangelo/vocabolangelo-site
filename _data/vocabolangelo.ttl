@@ -3065,3 +3065,12 @@ vocang:katello
     skos:example "Lorenzo ha tagliato quel guanciale utilizzando un katello ed è riuscito a farlo male."@it ;
     dct:created "2023-01-28" ;
     dct:creator vocang:bdeouiEddy .
+
+vocang:sbremblo
+    a skos:Concept ;
+    skos:prefLabel "Sbremblo"@it ;
+    lexinfo:pronunciation "/sbrém • blo/"@it ;
+    skos:definition "Oggetto di cartone che dispone di una rotella numerata, utilizzato nel gioco da tavolo Dixit per votare la carta decisa."@it ;
+    skos:example "Segna 2 sullo sbremblo, se lo fai vinceremo."@it ;
+    dct:created "2023-01-28" ;
+    dct:creator vocang:minoccheriAlessandra .
