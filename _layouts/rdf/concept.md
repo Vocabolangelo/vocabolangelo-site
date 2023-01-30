@@ -87,6 +87,25 @@ layout: rdf_layout
     </div>
 </section>
 {% endif %}
+{% assign synonims = page.rdf | rdf_property: 'scot:synonym', nil, true %}
+{% if synonims %}
+<section>
+    <header>
+        <h3>Sinonimi</h3>
+    </header>
+    <div class="content">
+        <ul>
+        {% for s in synonims %}
+            <li>
+                <a href="{{ s.page_url }}" style="display:inline">
+                    {{ s | rdf_property: 'skos:prefLabel' }}
+                </a>
+            </li>
+        {% endfor %}
+        </ul>
+    </div>
+</section>
+{% endif %}
 {% assign correlated = page.rdf | rdf_property: 'skos:related', nil, true %}
 {% if correlated %}
 <section>
