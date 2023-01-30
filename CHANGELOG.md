@@ -1,5 +1,22 @@
 # Changelog
 
+## [4.0.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v3.7.0...v4.0.0) (2023-01-30)
+
+
+### ⚠ BREAKING CHANGES
+
+* **build:** add chmod to infer script
+
+### Features
+
+* **image:** add minoccheriAlessandra image ([b8acfcf](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/b8acfcfb92330239bb0db20223aaa9775ed0f247))
+
+
+### Bug Fixes
+
+* **build:** add chmod to infer script ([4a998fc](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/4a998fc632a2adbcc37b8d606c77029d39a013c4))
+* **ci:** move cp after infer ([d525402](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/d525402f7d3ab60044f552ffb2fb25862cf6b40f))
+
 ## [3.7.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v3.6.0...v3.7.0) (2023-01-29)
 
 
