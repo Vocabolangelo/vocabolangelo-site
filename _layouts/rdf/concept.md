@@ -136,3 +136,21 @@ layout: rdf_layout
     </div>
 </section>
 {% endif %}
+{% assign notes = page.rdf | rdf_property: 'skos:note', nil, true %}
+{% if notes %}
+<section>
+    <header>
+        <h3>Note e Curiosità</h3>
+    </header>
+    <div class="content">
+        <ul>
+        {% for n in notes %}
+            <li>
+                <p>{{ n }}</p>
+            </li>
+        {% endfor %}
+        </ul>
+    </div>
+</section>
+{% endif %}
+
