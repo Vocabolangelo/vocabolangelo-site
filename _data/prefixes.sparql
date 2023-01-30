@@ -6,5 +6,5 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX scot: <http://rdfs.org/scot/ns#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-PREFIX rel: <http://purl.org/vocab/relationship/>
+PREFIX rel: <http://www.perceive.net/schemas/20021119/relationship/#>
 PREFIX vocang: <http://www.vocabolangelo.org/>
