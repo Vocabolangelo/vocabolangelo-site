@@ -51,7 +51,7 @@ layout: rdf_layout
 </section>
 <section>
 	<header>
-		<h3> Contribuzione </h3>
+		<h3> Contributo </h3>
 	</header>
 	<div class="content">
 	{% if wordCount == 1 %}
@@ -60,5 +60,46 @@ layout: rdf_layout
 		<p> {{ wordCount }} parole inventate. </p>
 	{% endif %}
 	</div>
+</section>
+{% endif %}
+
+{% assign partners = page.rdf | rdf_property: 'rel:spouseOf', nil, true  %}
+{% if partners %}
+<section>
+    <header>
+        <h3>Partner</h3>
+    </header>
+    <div class="content">
+        <ul>
+        {% for p in partners %}
+				{% assign firstName = p | rdf_property: 'foaf:firstName', nil, true %}
+				{% assign lastName = p | rdf_property: 'foaf:lastName', nil, true %}
+			<li>
+				<a href='{{ f.page_url }}'>{{ firstName }} {{ lastName }}</a>
+			</li>
+        {% endfor %}
+        </ul>
+    </div>
+</section>
+{% endif %}
+{% assign paidFriends = page.rdf | rdf_property: 'rel:friendOf', nil, true %}
+{% assign unpaidFriends = page.rdf | rdf_property: 'vocang:unpaidFriendOf', nil, true %}
+{% assign friends = paidFriends | push: unpaidFriends %}
+{% if friends %}
+<section>
+    <header>
+        <h3>Amici</h3>
+    </header>
+    <div class="content">
+        <ul>
+        {% for f in friends %}
+				{% assign firstName = f | rdf_property: 'foaf:firstName', nil, true %}
+				{% assign lastName = f | rdf_property: 'foaf:lastName', nil, true %}
+			<li>
+				<a href='{{ f.page_url }}'>{{ firstName }} {{ lastName }}</a>
+			</li>
+        {% endfor %}
+        </ul>
+    </div>
 </section>
 {% endif %}
