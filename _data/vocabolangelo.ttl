@@ -2944,11 +2944,11 @@ vocang:strabicio
 vocang:grattilletico
     a skos:Concept ;
     skos:prefLabel "Grattilletico"@it ;
-    lexinfo:pronunciation "/grat • til • le • ti • co/"@it ;
+    lexinfo:pronunciation "/grat • til • lé • ti • co/"@it ;
     skos:definition "Solletico causato da una grattata."@it ;
     skos:example "Nicole mi ha fatto il grattilletico sulla schiena."@it ;
     dct:created "2023-01-21" ;
-    dct:creator vocang:omiccioliRiccardo .
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
 
 vocang:pocapon
     a skos:Concept ;
