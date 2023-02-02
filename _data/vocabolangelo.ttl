@@ -3128,3 +3128,13 @@ vocang:nevificiale
     skos:definition "Neve artificiale."@it ;
     skos:example "Quest'anno è stato caldo e hanno dovuto mettere la nevificiale nelle piste da sci."@it ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:pataproletariato
+    a skos:Concept ;
+    skos:prefLabel "Pataproletariato"@it ;
+    lexinfo:pronunciation "/Pa • ta • pro • le • ta • rià • to/"@it ;
+    skos:definition "La condizione di un gruppo di patapon sfruttati come degli schiavi per mano d'opera a basso costo."@it ;
+    skos:example "Uno spettro si aggira per Patapolis, quello del pataproletariato... La rivoluzione è vicina!"@it ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/pataproletariato.png" ;
+    dct:creator vocang:pertosaLorenzo .
+
