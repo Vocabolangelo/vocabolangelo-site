@@ -3120,3 +3120,11 @@ vocang:squirtavetri
     skos:definition "Sistema che in un automobile aziona uno spruzzo di acqua diretto sul parabrezza, ma ad ogni azionamento si sente il suono di una donna che geme fragorosamente."@it ;
     skos:example "Ogni volta che aziono gli squirtavetri mi viene da ridere."@it ;
     dct:creator vocang:minoccheriAlessandra .
+
+vocang:nevificiale
+    a skos:Concept ;
+    skos:prefLabel "Nevificiale"@it ;
+    lexinfo:pronunciation "/ne • vi • fi • cià • le/"@it ;
+    skos:definition "Neve artificiale."@it ;
+    skos:example "Quest'anno è stato caldo e hanno dovuto mettere la nevificiale nelle piste da sci."@it ;
+    dct:creator vocang:omiccioliRiccardo .
