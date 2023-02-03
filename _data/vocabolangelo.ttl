@@ -3138,7 +3138,6 @@ vocang:pataproletariato
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/pataproletariato.png" ;
     dct:creator vocang:pertosaLorenzo .
 
-
 vocang:termosifumano
     a skos:Concept ;
     skos:prefLabel "Termosifumano"@it ;
@@ -3146,3 +3145,11 @@ vocang:termosifumano
     skos:definition "Una persona molto calda che viene utilizzata da un altro individuo per scaldarsi."@it ;
     skos:example "Nicola ha sempre caldo, è un ottimo termosifumano."@it ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:scogliosi
+    a skos:Concept ;
+    skos:prefLabel "Scogliosi"@it ;
+    lexinfo:pronunciation "/sco • gliò • ṣi/"@it ;
+    skos:definition "Condizione di durezza intesa in senso mentale, assegnabile a individui altrimenti definibili come \"rigidi\" fino all'eccesso."@it ;
+    skos:example "Il padre di Marco quando lui compì 4 anni lo lasciò in una foresta con un coltello intimandogli di sopravvivere, come puoi capire si tratta di un soggetto con una grave scogliosi."@it ;
+    dct:creator vocang:pertosaLorenzo .
