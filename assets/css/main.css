@@ -116,40 +116,32 @@ input, select, textarea {
 /* Type */
 
 	html {
-		font-size: 18pt;
+		font-size: 19pt;
 	}
 
-		@media screen and (max-width: 1680px) {
+	@media screen and (max-width: 1680px) {
 
-			html {
-				font-size: 14pt;
-			}
-
+		html {
+			font-size: 16pt;
 		}
 
-		@media screen and (max-width: 1280px) {
+	}
 
-			html {
-				font-size: 12pt;
-			}
+	@media screen and (max-width: 1280px) {
 
+		html {
+			font-size: 15pt;
 		}
 
-		@media screen and (max-width: 736px) {
+	}
 
-			html {
-				font-size: 11pt;
-			}
+	@media screen and (max-width: 736px) {
 
+		html {
+			font-size: 14pt;
 		}
 
-		@media screen and (max-width: 360px) {
-
-			html {
-				font-size: 10pt;
-			}
-
-		}
+	}
 
 	body {
 		background-color: #ffffff;
