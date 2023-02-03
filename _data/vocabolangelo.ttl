@@ -3135,6 +3135,7 @@ vocang:nevificiale
     lexinfo:pronunciation "/ne • vi • fi • cià • le/"@it ;
     skos:definition "Neve artificiale."@it ;
     skos:example "Quest'anno è stato caldo e hanno dovuto mettere la nevificiale nelle piste da sci."@it ;
+    dct:created "2023-01-31" ;
     dct:creator vocang:omiccioliRiccardo .
 
 vocang:pataproletariato
@@ -3144,6 +3145,7 @@ vocang:pataproletariato
     skos:definition "La condizione di un gruppo di patapon sfruttati come degli schiavi per mano d'opera a basso costo."@it ;
     skos:example "Uno spettro si aggira per Patapolis, quello del pataproletariato... La rivoluzione è vicina!"@it ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/pataproletariato.png" ;
+    dct:created "2023-02-01" ;
     dct:creator vocang:pertosaLorenzo .
 
 vocang:termosifumano
@@ -3152,6 +3154,7 @@ vocang:termosifumano
     lexinfo:pronunciation "/ter • mo • si • fu • mà • no/"@it ;
     skos:definition "Una persona molto calda che viene utilizzata da un altro individuo per scaldarsi."@it ;
     skos:example "Nicola ha sempre caldo, è un ottimo termosifumano."@it ;
+    dct:created "2023-02-03" ;
     dct:creator vocang:omiccioliRiccardo .
 
 vocang:scogliosi
@@ -3160,6 +3163,7 @@ vocang:scogliosi
     lexinfo:pronunciation "/sco • gliò • ṣi/"@it ;
     skos:definition "Condizione di durezza intesa in senso mentale, assegnabile a individui altrimenti definibili come \"rigidi\" fino all'eccesso."@it ;
     skos:example "Il padre di Marco quando lui compì 4 anni lo lasciò in una foresta con un coltello intimandogli di sopravvivere, come puoi capire si tratta di un soggetto con una grave scogliosi."@it ;
+    dct:created "2023-02-03" ;
     dct:creator vocang:pertosaLorenzo .
 
 vocang:loncino
@@ -3168,6 +3172,7 @@ vocang:loncino
     lexinfo:pronunciation "/lon • cì • no/"@it ;
     skos:definition "Aggettivo associato ad una distanza che non rende vantaggioso l'utilizzo di un mezzo di trasporto ma è comunque troppo lontana per poterci andare a piedi."@it ;
     skos:example "Potremmo andare a piedi a cas di Nicole... Oppure in auto... Non so decidermi, quel posto è loncino."@it ;
+    dct:created "2023-02-02" ;
     dct:creator vocang:omiccioliRiccardo .
 
 vocang:cinesuo
