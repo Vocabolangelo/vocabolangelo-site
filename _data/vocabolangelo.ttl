@@ -3169,3 +3169,12 @@ vocang:loncino
     skos:definition "Aggettivo associato ad una distanza che non rende vantaggioso l'utilizzo di un mezzo di trasporto ma è comunque troppo lontana per poterci andare a piedi."@it ;
     skos:example "Potremmo andare a piedi a cas di Nicole... Oppure in auto... Non so decidermi, quel posto è loncino."@it ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:cinesuo
+    a skos:Concept ;
+    skos:prefLabel "Cinesuo"@it ;
+    lexinfo:pronunciation "/ci • né • su • o/"@it ;
+    skos:definition "Sinonimo di cinese."@it ;
+    skos:example "Il mio amico è cinesuo."@it ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/cinesuo.jpg" ;
+    dct:creator vocang:bensellamSelma .
