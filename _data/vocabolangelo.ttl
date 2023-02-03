@@ -3132,9 +3132,17 @@ vocang:nevificiale
 vocang:pataproletariato
     a skos:Concept ;
     skos:prefLabel "Pataproletariato"@it ;
-    lexinfo:pronunciation "/Pa • ta • pro • le • ta • rià • to/"@it ;
+    lexinfo:pronunciation "/pa • ta • pro • le • ta • rià • to/"@it ;
     skos:definition "La condizione di un gruppo di patapon sfruttati come degli schiavi per mano d'opera a basso costo."@it ;
     skos:example "Uno spettro si aggira per Patapolis, quello del pataproletariato... La rivoluzione è vicina!"@it ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/pataproletariato.png" ;
     dct:creator vocang:pertosaLorenzo .
 
+
+vocang:termosifumano
+    a skos:Concept ;
+    skos:prefLabel "Termosifumano"@it ;
+    lexinfo:pronunciation "/ter • mo • si • fu • mà • no/"@it ;
+    skos:definition "Una persona molto calda che viene utilizzata da un altro individuo per scaldarsi."@it ;
+    skos:example "Nicola ha sempre caldo, è un ottimo termosifumano."@it ;
+    dct:creator vocang:omiccioliRiccardo .
