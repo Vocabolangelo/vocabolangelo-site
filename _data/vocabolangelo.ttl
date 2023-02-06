@@ -3197,11 +3197,14 @@ vocang:bewolla
     a skos:Concept ;
     skos:prefLabel "Bewolla"@it ;
     skos:definition "Un atto di non permesso dalla società in quanto viola principi morali che sono ormai instaurati da tanto tempo."@it ;
-    skos:example "Non puoi entrare in una chiesa senza maglietta, è una cosa troppo Bewolla."@it ;
+    skos:example "Non puoi entrare in una chiesa senza maglietta, è una cosa troppo bewolla."@it ;
     dct:created "2023-02-05" ;
     dct:creator vocang:filasetaAngelo .
 
-
-
-
-
+vocang:wondabarabba
+    a skos:Concept ;
+    skos:prefLabel "Wondabarabba"@it ;
+    skos:definition "Versione mitologica del personaggio di Barabba il quale, secondo tale interpretazione, è in grado di influenzare la votazione politica delle persone tramite la sua musica. Tale figura è talvolta inserita all'interno di storie per bambini al fine di spaventarli per farli comportare bene."@it ;
+    skos:example "Fai il bravo con i tuoi amichetti, altrimenti quando sarai grande verrà Wondabarabba e ti farà votare la Meloni!"@it ;
+    dct:created "2023-02-05" ;
+    dct:creator vocang:pertosaLorenzo, vocang:bragariAlexandru .
