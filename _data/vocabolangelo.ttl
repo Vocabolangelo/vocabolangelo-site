@@ -3183,3 +3183,12 @@ vocang:cinesuo
     skos:example "Il mio amico è cinesuo."@it ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/cinesuo.jpg" ;
     dct:creator vocang:bensellamSelma .
+
+vocang:fangobili
+    a skos:Concept ;
+    skos:prefLabel "Fangobili"@it ;
+    lexinfo:pronunciation "/fan • go • bì • li/"@it ;
+    skos:definition "Fango che ha pressoché la stessa consistenza delle sabbie mobili."@it ;
+    skos:example "L'auto mi è rimasta incagliata nel fangobili."@it ;
+    dct:created "2023-02-04" ;
+    dct:creator vocang:bragariAlexandru .
