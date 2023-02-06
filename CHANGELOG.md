@@ -1,5 +1,34 @@
 # Changelog
 
+## [4.1.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v4.0.0...v4.1.0) (2023-02-06)
+
+
+### Features
+
+* **concept:** add bewolla ([b740737](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/b74073750dc73f00014d5be8d9008e93fa03bb59))
+* **concept:** add cinesuo ([d692299](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/d69229975448a12d16f1babc7e43997181372c85))
+* **concept:** add fangobili ([11c96a4](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/11c96a48325ece979314caf7adcc43303a18e57d))
+* **concept:** add loncino ([aa0a8a9](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/aa0a8a9cbea64966b83c9b49e897cdc51829c799))
+* **concept:** add nevificiale ([8600748](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/8600748e342369a9cab02673355158adbebe9dfe))
+* **concept:** add pataproletariato ([e441dfa](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/e441dfa5b8a4aa2ccff1221a9d54806ad1f0b71f))
+* **concept:** add scogliosi ([cfff90b](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/cfff90b6835b89d9a946860d26ce8bf06d414477))
+* **concept:** add termosifumano ([b700500](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/b7005003804357b299fc0975209ccfb26dccb533))
+* **concept:** add tettonicista ([006642a](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/006642a30c7a7cc96de70d5f9bb522373dcc7658))
+* **concept:** add wondabarabba ([736afeb](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/736afeb8395e8f3151709eaff13ec54e681288d0))
+* **image:** add bensellamSelma image ([327389a](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/327389a724ce39c3fa92f22ba80d970a52b9340f))
+* **image:** add cinesuo image ([b879fd5](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/b879fd548ee08787edd25cc6a86504fdcf37b784))
+* **image:** add pataproletariato image ([d0641a9](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/d0641a9b0afd49c707adc67c82cc7be34f787f29))
+* **person:** add Selma Bensellam ([8e68280](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/8e682802f50e54be78a3a3503051db9d1fe502da))
+* **site:** add friends and partners to author page ([fd8408a](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/fd8408a0982c39ad3dc02ba4223788187c51cbf2))
+* **site:** add notes section to concept page ([9b21c4c](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/9b21c4c4459c5b2f6a505ca03169080e77561b68))
+* **site:** add synonims section to concept page ([714816b](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/714816be7fcd47b9c4163314039ba2e6c3755756))
+
+
+### Bug Fixes
+
+* **person:** remove minoccheriAlessandra from suscaMatteo friends ([32c3ff1](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/32c3ff1ef52c1377adbe1386e2f3629819fbf238))
+* **prefix:** change rel prefix in sparql ([8a16cd7](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/8a16cd7592e9384147d282f045b1f9bcea8716af))
+
 ## [4.0.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v3.7.0...v4.0.0) (2023-01-30)
 
 
