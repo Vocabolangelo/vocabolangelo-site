@@ -3223,3 +3223,12 @@ vocang:tettonicista
     skos:example " Alessandro ha un fetish per le tette molto grosse e i tettorali, evidentemente è un tettonicista."@it ;
     dct:created "2023-02-05" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:brughiere
+    a skos:Concept ;
+    skos:prefLabel "Brughiere"@it ;
+    lexinfo:pronunciation "/bru • ghiè • ra/"@it ;
+    skos:definition "Individuo che comanda una brughiera."@it ;
+    skos:example "Stefano poteva essere un brughiere ma ha scelto di essere un semplice re"@it ;
+    dct:created "2023-02-07" ;
+    dct:creator vocang:bragariAlexandru, vocang:omiccioliRiccardo .
