@@ -246,7 +246,7 @@ vocang:scattoniAlessandra
     foaf:firstName "Alessandra" ;
     foaf:lastName "Scattoni" ;
     rel:spouseOf vocang:pertosaLorenzo ;
-    rel:friendOf vocang:ribaudoSofia, vocang:savoGianmarco, vocang:bianchiniGiovanni, vocang:pupitaAlberto, vocang:bdeouiEddy, vocang:savoGiorgia, vocang:filasetaAngelo, vocang:bragariAlexandru, vocang:battaglinoNicole, vocang:nardiniArianna, vocang:minoccheriAlessandra, vocang:fanaraGiuliano, vocang:mordacchiniCecilia, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo .
+    rel:friendOf vocang:bianchiniGiovanni, vocang:filasetaAngelo, vocang:bragariAlexandru, vocang:battaglinoNicole, vocang:nardiniArianna, vocang:pupitaAlberto, vocang:minoccheriAlessandra, vocang:orlandoNicola, vocang:omiccioliRiccardo .
 
 # Vocabolangelo Words Individuals
 
@@ -3266,3 +3266,13 @@ vocang:promemuoria
     skos:example "Ho aggiunto un promemuoria al mio calendario per la prossima settimana. Mi lancerò da 5000 metri di quota senza paracadute."@it ;
     dct:created "2023-02-07" ;
     dct:creator vocang:orlandoNicola, vocang:battaglinoNicole .
+
+vocang:cervellamente
+    a skos:Concept ;
+    skos:prefLabel "Cervellamente"@it ;
+    lexinfo:pronunciation "/cer • vel • la • mén • te/"@it ;
+    skos:definition "In modo intelligente, sinonimo di intelligentemente."@it ;
+    skos:example "Ho agito cervellamente: quando ho visto Lorenzo prendere la 220 gli ho dato una mazzata con la scopa per staccarlo dalla presa."@it ;
+    dct:created "2023-02-07" ;
+    skos:note "Questa è la prima parola inventata da Alessandra che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
+    dct:creator vocang:scattoniAlessandra .
