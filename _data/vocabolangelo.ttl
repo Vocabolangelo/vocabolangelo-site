@@ -3351,3 +3351,14 @@ vocang:angelosoficamente
     skos:example "Devi pensare più angelosoficamente per capire il modo in cui parla Angelo."@it;
     dct:created "2023-02-07" ;
     dct:creator vocang:minoccheriAlessandra .
+
+
+vocang:ugualivo
+    a skos:Concept ;
+    skos:prefLabel "Ugualivo"@it ;
+    lexinfo:pronunciation "/u • gua • lì • vo/"@it ;
+    skos:definition "Un oggetto che ha una forma e a volte anche un utilizzo diverso da un altro e che viene quindi utilizzato come sostituto."@it ;
+    skos:example "Non mi hanno dato tutti i perni di quella libreria quindi mi sono dovuto arrangiare con delle viti, un'ottimo ugualivo."@it;
+    dct:created "2023-02-07" ;
+    skos:note "La parola è nata proprio a causa dell'esempio riportato." ;
+    dct:creator vocang:filasetaAngelo .
