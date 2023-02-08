@@ -1,5 +1,28 @@
 # Changelog
 
+## [4.2.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v4.1.0...v4.2.0) (2023-02-08)
+
+
+### Features
+
+* **concept:** add acrobatto ([9a44d1c](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/9a44d1cdbd553aecbd855809e968ca87c543bfb1))
+* **concept:** add angelistica ([9dd7a8d](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/9dd7a8dec1d4501da666f9a2f57edb4d7425fdf9))
+* **concept:** add angelosoficamente ([a8f900e](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/a8f900ea66ef7e8759fe760c9358dae843734c7e))
+* **concept:** add basilicarsi ([259ceb1](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/259ceb1731dc6b455333e718fcbf3174cfaf37cc))
+* **concept:** add brughiere ([6425f8c](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/6425f8c1cf611da04c7e05ed26c7029217e77b3b))
+* **concept:** add brugoliere ([b74eafa](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/b74eafaaca97d1e6e5663e31457c01b39544c7fd))
+* **concept:** add cervellamente ([7b37569](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/7b37569a696efc3a5b841d0706592ea3dff5dd87))
+* **concept:** add filmometario ([b096725](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/b096725b767a694e6f06cf0410f6dc6935a2687e))
+* **concept:** add nanino ([b72b72f](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/b72b72fe25671a231c6ad7d15bbb9173ba2f0f02))
+* **concept:** add pataporn ([83104b8](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/83104b85a7099000c6f8c3a57e34797ac2ff1cb3))
+* **concept:** add promemuoria ([ebfcc3d](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/ebfcc3dda13e57bce6a3aa0b4f5619e54dbebf18))
+* **concept:** add pulsone ([a6be11b](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/a6be11b712fabd8815959909dfdccfc986edccd4))
+* **concept:** add squirtela ([606f506](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/606f5062970b7163fc7fb64b9262062fe42148fc))
+* **concept:** add ugualivo ([2e3399f](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/2e3399fda5fd95bdf32c9d3454c11f0609d15635))
+* **image:** add timpanoSam image ([7fdaf27](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/7fdaf2773d5a316183c6010d8644983cf7592ad8))
+* **person:** add rosatelliAnna ([fb578cd](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/fb578cd00c2cc7e8602306e00ed4f388fcbd1200))
+* **person:** add scattoniAlessandra ([b9abb9d](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/b9abb9d8032b1031ab0ac5b8a499eeffc326b00b))
+
 ## [4.1.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v4.0.0...v4.1.0) (2023-02-06)
 
 
