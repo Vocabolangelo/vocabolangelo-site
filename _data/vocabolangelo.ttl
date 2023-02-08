@@ -3342,3 +3342,12 @@ vocang:angelistica
     dct:created "2023-02-07" ;
     skos:note "Questa è la prima parola inventata da Anna che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
     dct:creator vocang:rosatelliAnna .
+
+vocang:angelosoficamente
+    a skos:Concept ;
+    skos:prefLabel "Angelosoficamente"@it ;
+    lexinfo:pronunciation "/an • ge • lo • so • fi • ca • mén • te/"@it ;
+    skos:definition "La filosofia delle parole di lingua italiana reinterpretate secondo il pensiero contenuto all'interno del Vocabolangelo."@it ;
+    skos:example "Devi pensare più angelosoficamente per capire il modo in cui parla Angelo."@it;
+    dct:created "2023-02-07" ;
+    dct:creator vocang:minoccheriAlessandra .
