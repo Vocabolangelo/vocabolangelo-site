@@ -3229,6 +3229,15 @@ vocang:brughiere
     skos:prefLabel "Brughiere"@it ;
     lexinfo:pronunciation "/bru • ghiè • ra/"@it ;
     skos:definition "Individuo che comanda una brughiera."@it ;
-    skos:example "Stefano poteva essere un brughiere ma ha scelto di essere un semplice re"@it ;
+    skos:example "Stefano poteva essere un brughiere ma ha scelto di essere un semplice re."@it ;
     dct:created "2023-02-07" ;
     dct:creator vocang:bragariAlexandru, vocang:omiccioliRiccardo .
+
+vocang:pulsone
+    a skos:Concept ;
+    skos:prefLabel "Pulsone"@it ;
+    lexinfo:pronunciation "/pul • só • ne/"@it ;
+    skos:definition "Un pulsante aggiunto esternamente su una fotocamera che in maniera meccanica preme il pulsante di scatto allo scadere di un certo periodo di tempo."@it ;
+    skos:example "Quando sarete in posa premerò il pulsone per fare una foto automatica."@it ;
+    dct:created "2023-02-07" ;
+    dct:creator vocang:bragariAlexandru .
