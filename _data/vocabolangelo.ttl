@@ -3312,5 +3312,14 @@ vocang:basilicarsi
     lexinfo:pronunciation "/ba • si • li • càr • si/"@it ;
     skos:definition "Verbo riflessivo utilizzato come incitamento verso il basilico al fine di fargli compiere il suo lavoro."@it ;
     skos:example "Forza! Basilicati! Ho tanta fame!"@it ;
-    skos:note "La parola è stata utilizzata dall'autrice innumerevoli volte prima di diventare effettivamente una parolangelo." ;
+    skos:note "La parola è stata utilizzata dall'autrice innumerevoli volte nella sua vita quotidiana prima di diventare effettivamente una parolangelo." ;
     dct:creator vocang:bensellamSelma .
+
+vocang:brugoliere
+    a skos:Concept ;
+    skos:prefLabel "Brugoliere"@it ;
+    lexinfo:pronunciation "/bru • go • liè • re/"@it ;
+    skos:definition "Una persona che fa mestiere molto tecnico ma che è anche in grado di fare numeri di magia o di intrattenimento da circo utilizzando i vari arnesi di cui dispone (come brugole e cacciaviti) al fine di intrattenere le persone."@it ;
+    skos:example "Al compleanno di mio figlio ci sarà il brugoliere che viene sempre ad aggiustare il mio lavandino quando perde."@it ;
+    dct:created "2023-02-08" ;
+    dct:creator vocang:filasetaAngelo .
