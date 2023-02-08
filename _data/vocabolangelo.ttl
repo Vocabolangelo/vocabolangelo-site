@@ -3298,10 +3298,19 @@ vocang:squirtela
 
 vocang:acrobatto
     a skos:Concept ;
-    skos:prefLabel "acrobatto"@it ;
+    skos:prefLabel "Acrobatto"@it ;
     lexinfo:pronunciation "/a • cro • bàt • to/"@it ;
     skos:definition "Gatto che esegue acrobazie e tende ad arrampicarsi in posti pericolosi."@it ;
     skos:example "Quell'acrobatto si credeva veramente capace, invece poi sono arrivati i pompieri."@it ;
     dct:created "2023-02-07" ;
     skos:related vocang:omnicio ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:basilicarsi
+    a skos:Concept ;
+    skos:prefLabel "Basilicarsi"@it ;
+    lexinfo:pronunciation "/ba • si • li • càr • si/"@it ;
+    skos:definition "Verbo riflessivo utilizzato come incitamento verso il basilico al fine di fargli compiere il suo lavoro."@it ;
+    skos:example "Forza! Basilicati! Ho tanta fame!"@it ;
+    skos:note "La parola è stata utilizzata dall'autrice innumerevoli volte prima di diventare effettivamente una parolangelo." ;
+    dct:creator vocang:bensellamSelma .
