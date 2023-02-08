@@ -3276,3 +3276,12 @@ vocang:cervellamente
     dct:created "2023-02-07" ;
     skos:note "Questa è la prima parola inventata da Alessandra che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
     dct:creator vocang:scattoniAlessandra .
+
+vocang:filmometario
+    a skos:Concept ;
+    skos:prefLabel "Filmometario"@it ;
+    lexinfo:pronunciation "/fil • mo • me • tà • rio/"@it ;
+    skos:definition "Film documentario."@it ;
+    skos:example "Hai visto quel famoso filmometario su Taylow Swift?"@it ;
+    dct:created "2023-02-07" ;
+    dct:creator vocang:orlandoNicola .
