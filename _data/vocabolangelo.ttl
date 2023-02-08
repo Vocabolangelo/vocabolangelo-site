@@ -3332,3 +3332,13 @@ vocang:pataporn
     dct:created "2023-02-08" ;
     skos:note "La parola nasce come un riferimento alla serie di videogiochi per Play Station Portable (PSP) Patapon." ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:angelistica
+    a skos:Concept ;
+    skos:prefLabel "Angelistica"@it ;
+    lexinfo:pronunciation "/an • ge • lì • sti • ca/"@it ;
+    skos:definition "La branca della linguistica che studia il vocabolangelo."@it ;
+    skos:example "Prima o poi uscirà all'università un corso di angelistica, me lo sento!"@it;
+    dct:created "2023-02-07" ;
+    skos:note "Questa è la prima parola inventata da Anna che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
+    dct:creator vocang:rosatelliAnna .
