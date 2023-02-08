@@ -3285,3 +3285,13 @@ vocang:filmometario
     skos:example "Hai visto quel famoso filmometario su Taylow Swift?"@it ;
     dct:created "2023-02-07" ;
     dct:creator vocang:orlandoNicola .
+
+vocang:squirtela
+    a skos:Concept ;
+    skos:prefLabel "Squirtela"@it ;
+    lexinfo:pronunciation "/squir • té • la/"@it ;
+    skos:definition "Ragnatela sparata o spruzzata da un ragno. Non si possono chiamare in questo modo le ragnatele statiche utilizzate dai ragni come casa, ma solo quelle che il ragno ha lanciato da poco."@it ;
+    skos:example "Quel ragno ha lanciato quella squirtela lontanissimo! Potrebbe catturare gli insetti come fa un camaleonte."@it ;
+    dct:created "2023-02-07" ;
+    skos:note "La parola è nata dopo aver visionato il video di un ragno che per ragioni ignote sparava ragnatele in modo carino." ;
+    dct:creator vocang:omiccioliRiccardo .
