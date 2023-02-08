@@ -241,6 +241,13 @@ vocang:rosatelliAnna
     rel:spouseOf vocang:suscaMatteo ;
     rel:friendOf vocang:ribaudoSofia, vocang:savoGianmarco, vocang:bianchiniGiovanni, vocang:pupitaAlberto, vocang:bdeouiEddy, vocang:savoGiorgia, vocang:filasetaAngelo, vocang:bragariAlexandru, vocang:battaglinoNicole, vocang:nardiniArianna, vocang:minoccheriAlessandra, vocang:fanaraGiuliano, vocang:mordacchiniCecilia, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo .
 
+vocang:scattoniAlessandra
+    a foaf:Person ;
+    foaf:firstName "Alessandra" ;
+    foaf:lastName "Scattoni" ;
+    rel:spouseOf vocang:pertosaLorenzo ;
+    rel:friendOf vocang:ribaudoSofia, vocang:savoGianmarco, vocang:bianchiniGiovanni, vocang:pupitaAlberto, vocang:bdeouiEddy, vocang:savoGiorgia, vocang:filasetaAngelo, vocang:bragariAlexandru, vocang:battaglinoNicole, vocang:nardiniArianna, vocang:minoccheriAlessandra, vocang:fanaraGiuliano, vocang:mordacchiniCecilia, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo .
+
 # Vocabolangelo Words Individuals
 
 vocang:vocabolangelo
