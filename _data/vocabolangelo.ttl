@@ -101,6 +101,7 @@ vocang:timpanoSam
     foaf:firstName "Sam" ;
     foaf:lastName "Timpano" ;
     foaf:nick "Sam" ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/timpanoSam.jpg" ;
     rel:friendOf vocang:ribaudoSofia .
 
 vocang:ribaudoSofia
