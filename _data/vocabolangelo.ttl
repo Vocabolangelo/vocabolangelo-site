@@ -234,6 +234,12 @@ vocang:bensellamSelma
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/bensellamSelma.jpg" ;
     rel:friendOf vocang:ribaudoSofia, vocang:filasetaAngelo .
 
+vocang:rosatelliAnna
+    a foaf:Person ;
+    foaf:firstName "Anna" ;
+    foaf:lastName "Rosatelli" ;
+    rel:spouseOf vocang:suscaMatteo ;
+    rel:friendOf vocang:ribaudoSofia, vocang:savoGianmarco, vocang:bianchiniGiovanni, vocang:pupitaAlberto, vocang:bdeouiEddy, vocang:savoGiorgia, vocang:filasetaAngelo, vocang:bragariAlexandru, vocang:battaglinoNicole, vocang:nardiniArianna, vocang:minoccheriAlessandra, vocang:fanaraGiuliano, vocang:mordacchiniCecilia, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo .
 
 # Vocabolangelo Words Individuals
 
