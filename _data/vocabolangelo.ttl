@@ -3237,7 +3237,16 @@ vocang:pulsone
     a skos:Concept ;
     skos:prefLabel "Pulsone"@it ;
     lexinfo:pronunciation "/pul • só • ne/"@it ;
-    skos:definition "Un pulsante aggiunto esternamente su una fotocamera che in maniera meccanica preme il pulsante di scatto allo scadere di un certo periodo di tempo."@it ;
+    skos:definition "Un pulsante aggiunto esternamente su un oggetto che in maniera meccanica preme un pulsante già esistente allo scadere di un certo periodo di tempo."@it ;
     skos:example "Quando sarete in posa premerò il pulsone per fare una foto automatica."@it ;
+    dct:created "2023-02-07" ;
+    dct:creator vocang:bragariAlexandru .
+
+vocang:nanino
+    a skos:Concept ;
+    skos:prefLabel "Nanino"@it ;
+    lexinfo:pronunciation "/na • nì • no/"@it ;
+    skos:definition "Bambino molto basso."@it ;
+    skos:example "Ho quasi bestato per sbaglio quel nanino."@it ;
     dct:created "2023-02-07" ;
     dct:creator vocang:bragariAlexandru .
