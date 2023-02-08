@@ -3295,3 +3295,13 @@ vocang:squirtela
     dct:created "2023-02-07" ;
     skos:note "La parola è nata dopo aver visionato il video di un ragno che per ragioni ignote sparava ragnatele in modo carino." ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:acrobatto
+    a skos:Concept ;
+    skos:prefLabel "acrobatto"@it ;
+    lexinfo:pronunciation "/a • cro • bàt • to/"@it ;
+    skos:definition "Gatto che esegue acrobazie e tende ad arrampicarsi in posti pericolosi."@it ;
+    skos:example "Quell'acrobatto si credeva veramente capace, invece poi sono arrivati i pompieri."@it ;
+    dct:created "2023-02-07" ;
+    skos:related vocang:omnicio ;
+    dct:creator vocang:omiccioliRiccardo .
