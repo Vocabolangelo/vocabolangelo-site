@@ -246,6 +246,7 @@ vocang:scattoniAlessandra
     a foaf:Person ;
     foaf:firstName "Alessandra" ;
     foaf:lastName "Scattoni" ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/scattoniAlessandra.jpg" ;
     rel:spouseOf vocang:pertosaLorenzo ;
     rel:friendOf vocang:bianchiniGiovanni, vocang:filasetaAngelo, vocang:bragariAlexandru, vocang:battaglinoNicole, vocang:nardiniArianna, vocang:pupitaAlberto, vocang:minoccheriAlessandra, vocang:orlandoNicola, vocang:omiccioliRiccardo .
 
