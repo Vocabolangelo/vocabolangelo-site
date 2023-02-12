@@ -3354,7 +3354,6 @@ vocang:angelosoficamente
     dct:created "2023-02-07" ;
     dct:creator vocang:minoccheriAlessandra .
 
-
 vocang:ugualivo
     a skos:Concept ;
     skos:prefLabel "Ugualivo"@it ;
@@ -3364,3 +3363,13 @@ vocang:ugualivo
     dct:created "2023-02-07" ;
     skos:note "La parola è nata proprio a causa dell'esempio riportato." ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:brodino
+    a skos:Concept ;
+    skos:prefLabel "Brodino"@it ;
+    lexinfo:pronunciation "/bro • dì • no/"@it ;
+    skos:definition "Un dinosauro molto amichevole, un vero amico della preistoria."@it ;
+    skos:example "Ti presento Sauro, il mio brodino."@it;
+    dct:created "2023-02-11" ;
+    skos:note "La parola trae spunto dal linguaggio giovanile, in cui gli amici vengono chiamati utilizzando termini come \"fra\" e \"bro\"." ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
