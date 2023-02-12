@@ -3373,3 +3373,12 @@ vocang:brodino
     dct:created "2023-02-11" ;
     skos:note "La parola trae spunto dal linguaggio giovanile, in cui gli amici vengono chiamati utilizzando termini come \"fra\" e \"bro\"." ;
     dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
+
+vocang:bassismo
+    a skos:Concept ;
+    skos:prefLabel "Bassismo"@it ;
+    lexinfo:pronunciation "/bas • sìs • smo/"@it ;
+    skos:definition "Idea preconcetta che porta alla discriminazione verso chi è basso."@it ;
+    skos:example "Il bassismo è in aumento tra le ragazze della nostra generazione."@it;
+    dct:created "2023-02-11" ;
+    dct:creator vocang:filasetaAngelo .
