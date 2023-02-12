@@ -3391,3 +3391,12 @@ vocang:telefomando
     skos:example "Il telecomando della tv è troppo distante e non ho voglia di alzarmi, userò il telefomando."@it;
     dct:created "2023-02-10" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:recigalo
+    a skos:Concept ;
+    skos:prefLabel "Recigalo"@it ;
+    lexinfo:pronunciation "/re • ci • gà • lo/"@it ;
+    skos:definition "Un regalo riciclato."@it ;
+    skos:example "Farò un recigalo ai miei parenti."@it;
+    dct:created "2023-02-10" ;
+    dct:creator vocang:omiccioliRiccardo .
