@@ -1,5 +1,23 @@
 # Changelog
 
+## [4.3.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v4.2.0...v4.3.0) (2023-02-12)
+
+
+### Features
+
+* **concept:** add bassismo ([c43f9ad](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/c43f9ad4c1936384341e4aea91170f21ed490d12))
+* **concept:** add brodino ([a4706d7](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/a4706d7d9a821da8940427969aa5b9c7006f74db))
+* **concept:** add iubikeyavare ([b7a4e6a](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/b7a4e6ac75ef4fdae74055ec36012c5899edfe06))
+* **concept:** add recigalo ([3e1c8eb](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/3e1c8eb4eb9ff404c88c90becdeae97ef3d32038))
+* **concept:** add sprike ([12045a2](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/12045a2e6ac889faad791049aa730348f0526b9a))
+* **concept:** add telefomando ([99ffe3c](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/99ffe3cc9cbc2c289c0654d1a491b16f39c6a7fb))
+* **image:** add scattoniAlessandra image ([9259be0](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/9259be0f97f32f86b82bd2cac763b62aaa7cd5fe))
+
+
+### Bug Fixes
+
+* **concept:** remove amalgamangelo ([f459a92](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/f459a92dd7700573ac29af840b7e34d9c1172103))
+
 ## [4.2.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v4.1.0...v4.2.0) (2023-02-08)
 
 
