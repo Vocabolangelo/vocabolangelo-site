@@ -3401,3 +3401,12 @@ vocang:recigalo
     dct:created "2023-02-10" ;
     skos:note "Il nome alternativo che era stato proposto era \"reciclato\", ma ha perso in maniera clamorosa in un sondaggio.";
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:sprike
+    a skos:Concept ;
+    skos:prefLabel "Sprike"@it ;
+    skos:definition "Uno spare particolare nel bowling. Il giocatore riesce a colpire tutti i birilli rimanenti in due lanci durante un frame, ma il primo tiro risulta un gutter."@it ;
+    skos:example "Maledizione, ho fatto uno sprike, potevo farlo prima un tiro del genere!"@it;
+    dct:created "2023-02-09" ;
+    dct:creator vocang:filasetaAngelo .
+    
