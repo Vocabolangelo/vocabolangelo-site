@@ -432,7 +432,7 @@ vocang:avvoltinoso
 vocang:angelesimo
     a skos:Concept ;
     skos:prefLabel "Angelesimo"@it ;
-    lexinfo:pronunciation "/an • ge • le • si • mo/"@it ;
+    lexinfo:pronunciation "/an • ge • lé • ṣi • mo/"@it ;
     skos:definition "Una religione immaginaria fondata sul principio della reincarnazione. Quando si muore si viene reincarnati in dinosauri su un pianeta non ben specificato. La stazza del dinosauro è direttamente proporzionale a quanto si è stati inetti, malvagi e spregevoli durante la vita terrena."@it ;
     skos:example "Io credo nell'Angelesimo. Diventerò il Re dei dinosauri!"@it ;
     dct:creator vocang:pertosaLorenzo .
@@ -456,7 +456,7 @@ vocang:caffemilla
 vocang:cafferillo
     a skos:Concept ;
     skos:prefLabel "Cafferillo"@it ;
-    lexinfo:pronunciation "/caf • fe • ril • lo/"@it ;
+    lexinfo:pronunciation "/caf • fe • rìl • lo/"@it ;
     skos:definition "Una variante di caffè mischiato con sciroppo di mirtillo. Come per il normale caffè è possibile crearlo in diverse varianti (macchiato, corretto, shackerato, etc.)."@it ;
     skos:example "Amo il cafferillo, lo prendo sempre senza zucchero."@it ;
     dct:creator vocang:filasetaAngelo .
@@ -464,7 +464,7 @@ vocang:cafferillo
 vocang:canillodromo
     a skos:Concept ;
     skos:prefLabel "Canillodromo"@it ;
-    lexinfo:pronunciation "/ca • nil • lo • dro • mo/"@it ;
+    lexinfo:pronunciation "/ca • nil • lò • dro • mo/"@it ;
     skos:definition "Struttura adibita alle corse dei Canilli. Come in un normale ippodromo è possibile scommettere sui cani che vincono per cercare di guadaganre soldi."@it ;
     skos:example "Ieri ho perso una fortuna al canillodromo."@it ;
     skos:related vocang:canillo ;
@@ -473,7 +473,7 @@ vocang:canillodromo
 vocang:cedrancia
     a skos:Concept ;
     skos:prefLabel "Cedrancia"@it ;
-    lexinfo:pronunciation "/ce • dran • cia/"@it ;
+    lexinfo:pronunciation "/ce • dràn • cia/"@it ;
     skos:definition "Una bevanda che si ottiene mischiando insieme la cedrata e una qualsiasi aranciata."@it ;
     skos:example "Stasera mi andrebbe proprio una cedrancia."@it ;
     dct:creator vocang:suscaMatteo .
@@ -482,7 +482,7 @@ vocang:cedrancia
 vocang:coecrita
     a skos:Concept ;
     skos:prefLabel "Coecrita"@it ;
-    lexinfo:pronunciation "/co • e • cri • ta/"@it ;
+    lexinfo:pronunciation "/co • é • cri • ta/"@it ;
     skos:definition "Una persona ipocrita, sarcasticamente non coerente."@it ;
     skos:example "Parlare con te è inutile, sei un coecrita!"@it ;
     dct:creator vocang:filasetaAngelo .
@@ -490,7 +490,7 @@ vocang:coecrita
 vocang:complinsulto
     a skos:Concept ;
     skos:prefLabel "Complinsulto"@it ;
-    lexinfo:pronunciation "/com • plin • sul • to/"@it ;
+    lexinfo:pronunciation "/com • plin • sùl • to/"@it ;
     skos:definition "Un’affermazione che non si capisce bene se sia un complimento o un insulto."@it ;
     skos:example "Parlare con te è inutile, sei un coecrita!"@it ;
     dct:creator vocang:filasetaAngelo .
@@ -498,7 +498,7 @@ vocang:complinsulto
 vocang:coreliano
     a skos:Concept ;
     skos:prefLabel "Coreliano"@it ;
-    lexinfo:pronunciation "/co • re • lia • no/"@it ;
+    lexinfo:pronunciation "/co • re • lià • no/"@it ;
     skos:definition "Un metodo di scrittura utilizzato per scrivere in italiano con l’alfabeto coreano."@it ;
     skos:example "Io e la mia ragazza ci scriviamo sempre dei messaggi molto carini in coreliano."@it ;
     dct:creator vocang:savoGiorgia .
@@ -506,7 +506,7 @@ vocang:coreliano
 vocang:falsevolezza
     a skos:Concept ;
     skos:prefLabel "Falsevolezza"@it ;
-    lexinfo:pronunciation "/fal • se • vo • lez • za/"@it ;
+    lexinfo:pronunciation "/fal • se • vo • léz • za/"@it ;
     skos:definition "Sinonimo di falsità."@it ;
     skos:example "Sta dicendo solo falsevolezze da quando è qui."@it ;
     dct:creator vocang:filasetaAngelo .
@@ -514,7 +514,7 @@ vocang:falsevolezza
 vocang:fetiscista
     a skos:Concept ;
     skos:prefLabel "Fetiscista"@it ;
-    lexinfo:pronunciation "/fe • ti • sci • sta/"@it ;
+    lexinfo:pronunciation "/fe • ti • scì • sta/"@it ;
     skos:definition "Chi segue la pratica del feticismo verso lo sport dello Sci."@it ;
     skos:example "Mio zio è un fetiscista."@it ;
     dct:creator vocang:bragariAlexandru .
@@ -522,7 +522,7 @@ vocang:fetiscista
 vocang:fremitoso
     a skos:Concept ;
     skos:prefLabel "Fremitoso"@it ;
-    lexinfo:pronunciation "/fre • mi • to • so/"@it ;
+    lexinfo:pronunciation "/fre • mi • tó • ṣo/"@it ;
     skos:definition "Un modo di comportarsi che risulta molto agitato a causa di un sentimento intenso."@it ;
     skos:example "Oggi mi sento molto fremitoso, forse sono innamorato."@it ;
     dct:creator vocang:filasetaAngelo .
@@ -530,7 +530,7 @@ vocang:fremitoso
 vocang:frisbidina
     a skos:Concept ;
     skos:prefLabel "Frisbidina"@it ;
-    lexinfo:pronunciation "/fri • sbi • di • na/"@it ;
+    lexinfo:pronunciation "/fri • sbi • dì • na/"@it ;
     skos:definition "Una piadina cucinata troppo, che risulta troppo dura e croccante, a tratti anche bruciata."@it ;
     skos:example "Non cuocerla troppo, non voglio una frisbidina."@it ;
     dct:creator vocang:filasetaAngelo .
@@ -538,7 +538,7 @@ vocang:frisbidina
 vocang:fuore
     a skos:Concept ;
     skos:prefLabel "Fuore"@it ;
-    lexinfo:pronunciation "/fuo • re/"@it ;
+    lexinfo:pronunciation "/fuò • re/"@it ;
     skos:definition "Un cuore su un fiore."@it ;
     skos:definition "Il cuore di un fiore."@it ;
     skos:definition "Un fiore col cuore."@it ;
@@ -548,7 +548,7 @@ vocang:fuore
 vocang:fusorangelo
     a skos:Concept ;
     skos:prefLabel "Fusorangelo"@it ;
-    lexinfo:pronunciation "/fu • so • ran • ge • lo/"@it ;
+    lexinfo:pronunciation "/fu • so • ràn • ge • lo/"@it ;
     skos:definition "Una legge dell’universo che permette alle persone e agli oggetti di viaggiare nel tempo utilizzando il “bug dei meridiani”."@it ;
     skos:example "Posso recuperare il sonno grazie al fusorangelo."@it ;
     dct:creator vocang:filasetaAngelo .
@@ -556,7 +556,7 @@ vocang:fusorangelo
 vocang:incazzabbiato
     a skos:Concept ;
     skos:prefLabel "Incazzabbiato"@it ;
-    lexinfo:pronunciation "/in • caz • zab • bia • to/"@it ;
+    lexinfo:pronunciation "/in • caz • zab • bià • to/"@it ;
     skos:definition "Sinonimo di infastidito, incavolato, arrabbiato ma non così tanto."@it ;
     skos:example "Sono incazzabbiato con lei perché non capisce quello che voglio dire."@it ;
     dct:creator vocang:filasetaAngelo .
@@ -564,7 +564,7 @@ vocang:incazzabbiato
 vocang:oscuretra
     a skos:Concept ;
     skos:prefLabel "Oscuretra"@it ;
-    lexinfo:pronunciation "/os • cu • re • tra/"@it ;
+    lexinfo:pronunciation "/os • c • rè • tra/"@it ;
     skos:definition "L’oscurità all’interno dell’uretra."@it ;
     skos:example "Un medico oggi ha detto: «Serve più luce, c'è troppa oscuretra!»"@it ;
     dct:creator vocang:pertosaLorenzo .
@@ -572,7 +572,7 @@ vocang:oscuretra
 vocang:proprostata
     a skos:Concept ;
     skos:prefLabel "Proprostata"@it ;
-    lexinfo:pronunciation "/pro • pro • sta • ta/"@it ;
+    lexinfo:pronunciation "/pro • prò • sta • ta/"@it ;
     skos:definition "Proposta che viene fatta da una persona A ad una persona B, la quale deve possedere una prostata. Se accettata A ottiene la prostata di B."@it ;
     skos:example "Oggi Alessandra mi ha fatto una proprostrata... Ho paura."@it ;
     dct:creator vocang:minoccheriAlessandra .
@@ -580,7 +580,7 @@ vocang:proprostata
 vocang:roletano
     a skos:Concept ;
     skos:prefLabel "Roletano"@it ;
-    lexinfo:pronunciation "/ro • le • ta • no/"@it ;
+    lexinfo:pronunciation "/ro • le • tà • no/"@it ;
     skos:definition "Una persona che dimostra caratteristiche ibride associabili sia a chi viene da Roma che da Napoli."@it ;
     skos:example "Ciro è proprio un Roletano."@it ;
     dct:creator vocang:fanaraGiuliano .
@@ -588,7 +588,7 @@ vocang:roletano
 vocang:rototandoria
     a skos:Concept ;
     skos:prefLabel "Rototandoria"@it ;
-    lexinfo:pronunciation "/ro • to • tan • do • ria/"@it ;
+    lexinfo:pronunciation "/ro • to • tan • dò • ria/"@it ;
     skos:definition "Sinonimo di rotatoria, rotonda."@it ;
     skos:example "Ieri un tizio ha preso la rototandoria al contrario ed è morto."@it ;
     dct:creator vocang:filasetaAngelo .
@@ -596,7 +596,7 @@ vocang:rototandoria
 vocang:sbadigliese
     a skos:Concept ;
     skos:prefLabel "Sbadigliese"@it ;
-    lexinfo:pronunciation "/sba • di • glie • se/"@it ;
+    lexinfo:pronunciation "/sba • di • glié • se/"@it ;
     skos:definition "La lingua che si parla quando si prova a parlare mentre si sbadiglia."@it ;
     skos:example "Non ho capito molto, prova a non parlare in sbadigliese."@it ;
     dct:creator vocang:filasetaAngelo .
@@ -604,7 +604,7 @@ vocang:sbadigliese
 vocang:scorciatroia
     a skos:Concept ;
     skos:prefLabel "Scorciatroia"@it ;
-    lexinfo:pronunciation "/scor • cia • tro • ia/"@it ;
+    lexinfo:pronunciation "/scor • cia • trò • ia/"@it ;
     skos:definition "Un percorso che, tra due località, risulta sembrare più breve della strada più importante, ma è in realtà più lunga."@it ;
     skos:example "Sapevo che era una scorciatroia! Ora faremo in ritardo..."@it ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/scorciatroia.jpg" ;
@@ -613,14 +613,14 @@ vocang:scorciatroia
 vocang:singhiozzutto
     a skos:Concept ;
     skos:prefLabel "Singhiozzutto"@it ;
-    lexinfo:pronunciation "/sin • gioz • zu • to/"@it ;
+    lexinfo:pronunciation "/sin • gioz • zù • to/"@it ;
     skos:definition "Un rutto che esce mentre si ha anche un colpo di singhiozzo."@it ;
     skos:example "Ieri Nicole ha fatto un singhiozzutto e non riuscivo a smettere di ridere."@it .
 
 vocang:sparatroia
     a skos:Concept ;
     skos:prefLabel "Sparatroia"@it ;
-    lexinfo:pronunciation "/spa • ra • tro • ia/"@it ;
+    lexinfo:pronunciation "/spa • ra • trò • ia/"@it ;
     skos:definition "Quando c’è una sparatoria in cui molta gente spara a caso."@it ;
     skos:example "Ho perso l'uso dell'occhio destro a causa di una sparatroia."@it ;
     dct:creator vocang:filasetaAngelo .
