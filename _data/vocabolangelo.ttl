@@ -3399,4 +3399,5 @@ vocang:recigalo
     skos:definition "Un regalo riciclato."@it ;
     skos:example "Farò un recigalo ai miei parenti."@it;
     dct:created "2023-02-10" ;
+    skos:note "Il nome alternativo che era stato proposto era \"reciclato\", ma ha perso in maniera clamorosa in un sondaggio.";
     dct:creator vocang:omiccioliRiccardo .
