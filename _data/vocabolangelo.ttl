@@ -424,18 +424,10 @@ vocang:angelata
 vocang:avvoltinoso
     a skos:Concept ;
     skos:prefLabel "Avvoltinoso"@it ;
-    lexinfo:pronunciation "/av • vol • ti • no • so/"@it ;
+    lexinfo:pronunciation "/av • vol • ti • nó • so/"@it ;
     skos:definition "Qualcosa che è composto di tanti giri."@it ;
     skos:example "Questa molla è veramente avvoltinosa."@it ;
     dct:creator vocang:filasetaAngelo .
-
-vocang:amalgamangelo
-    a skos:Concept ;
-    skos:prefLabel "Amalgamangelo"@it ;
-    lexinfo:pronunciation "/a • mal • ga • man • ge • lo/"@it ;
-    skos:definition "Miscuglio eterogeneo di persone che girano intorno ad un individuo di nome Angelo."@it ;
-    skos:example "Mi sento oppresso da quest'amalgamangelo..."@it ;
-    dct:creator vocang:timpanoSam .
 
 vocang:angelesimo
     a skos:Concept ;
@@ -3417,3 +3409,12 @@ vocang:iubikeyavare
     skos:example "Io e Nicole ci scambiamo i nudini ogni tanto. Iubikeyavare rende il processo molto più sicuro."@it;
     dct:created "2023-02-09" ;
     dct:creator vocang:filasetaAngelo, vocang:orlandoNicola, vocang:pertosaLorenzo .
+
+vocang:mandarizza
+    a skos:Concept ;
+    skos:prefLabel "Mandarizza"@it ;
+    lexinfo:pronunciation "/man • da • rìz • za/"@it ;
+    skos:definition "Pizza a base margherita condita con il mandarino."@it ;
+    skos:example "Tutti conoscono la pizza hawaiana ma scommetto che nessuno di voi ha provato la mandarizza."@it;
+    dct:created "2023-02-09" ;
+    dct:creator vocang:omiccioliRiccardo .
