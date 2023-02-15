@@ -3427,3 +3427,14 @@ vocang:fortusame
     skos:example "Se ho studiato per ingegneria del software? No, tanto è un fortusame."@it;
     dct:created "2023-02-14" ;
     dct:creator vocang:suscaMatteo .
+
+vocang:variegatto
+    a skos:Concept ;
+    skos:prefLabel "Variegatto"@it ;
+    lexinfo:pronunciation "/va • rie • gàt • to/"@it ;
+    skos:definition "Gatto meticcio."@it ;
+    skos:example "Molti gatti sono variegatti."@it;
+    dct:created "2023-02-14" ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/variegatto.jpg" ;
+    skos:related vocang:omnicio ;
+    dct:creator vocang:filasetaAngelo .
