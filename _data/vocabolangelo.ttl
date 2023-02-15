@@ -3418,3 +3418,12 @@ vocang:mandarizza
     skos:example "Tutti conoscono la pizza hawaiana ma scommetto che nessuno di voi ha provato la mandarizza."@it;
     dct:created "2023-02-09" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:fortusame
+    a skos:Concept ;
+    skos:prefLabel "Fortusame"@it ;
+    lexinfo:pronunciation "/for • tù· • sa • me/"@it ;
+    skos:definition "Esame in cui la fortuna ha un peso maggiore della preparazione dello studente nel determinarne l'esito."@it ;
+    skos:example "Se ho studiato per ingegneria del software? No, tanto è un fortusame."@it;
+    dct:created "2023-02-14" ;
+    dct:creator vocang:suscaMatteo .
