@@ -3439,7 +3439,6 @@ vocang:variegatto
     skos:related vocang:omnicio ;
     dct:creator vocang:filasetaAngelo .
 
-
 vocang:ostevia
     a skos:Concept ;
     skos:prefLabel "Ostevia"@it ;
@@ -3448,3 +3447,13 @@ vocang:ostevia
     skos:example "Di solito prendo il caffé nero, ma oggi voglio fare il pazzo e provare l'ostevia."@it;
     dct:created "2023-02-12" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:biribibino
+    a skos:Concept ;
+    skos:prefLabel "Biribibino"@it ;
+    lexinfo:pronunciation "/bi • ri • bi • bì • no/"@it ;
+    skos:definition "Bambino che soggiornà all'interno di un biribì."@it;
+    skos:example "Guarda quei biribibini come saltellano felici, non si rendono conto di essere a pochi passi dalla morte..."@it;
+    dct:created "2023-02-12" ;
+    dct:creator vocang:pertosaLorenzo .
+
