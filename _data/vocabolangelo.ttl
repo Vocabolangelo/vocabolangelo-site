@@ -3465,3 +3465,12 @@ vocang:tristento
     skos:example "Mia moglie mi ha lasciato per un'altro ma ho trovato 500 euro per terra... Mi sento tristento."@it;
     dct:created "2023-02-12" ;
     dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
+
+vocang:peneroncino
+    a skos:Concept ;
+    skos:prefLabel "Peneroncino"@it ;
+    lexinfo:pronunciation "/pe • ne • ron • cì • no/"@it ;
+    skos:definition "Pene irritato dalla capsaicina."@it;
+    skos:example "Quel ragazzo voleva provare qualcosa di nuovo, ma ha solo ottenuto un peneroncino."@it;
+    dct:created "2023-02-12" ;
+    dct:creator vocang:orlandoNicola, vocang:bianchiniGiovanni .
