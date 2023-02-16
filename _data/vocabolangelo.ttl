@@ -3483,3 +3483,12 @@ vocang:peneroncino
     skos:example "Quel ragazzo voleva provare qualcosa di nuovo, ma ha solo ottenuto un peneroncino."@it;
     dct:created "2023-02-12" ;
     dct:creator vocang:orlandoNicola, vocang:bianchiniGiovanni .
+
+vocang:invempatia
+    a skos:Concept ;
+    skos:prefLabel "Invempatia"@it ;
+    lexinfo:pronunciation "/in • vem • pa • tì • a/"@it ;
+    skos:definition "Scambio di emozioni tra due persone in maniera voluta o meno."@it;
+    skos:example "o ho avuto una pessima giornata e a P è andato tutto bene, ma io sono felice e lui è triste. Dev'essere un caso di invempatia."@it;
+    dct:created "2023-02-12" ;
+    dct:creator vocang:orlandoNicola, vocang:pertosaLorenzo, vocang:durazziMarco .
