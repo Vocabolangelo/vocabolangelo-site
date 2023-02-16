@@ -3457,3 +3457,11 @@ vocang:biribibino
     dct:created "2023-02-12" ;
     dct:creator vocang:pertosaLorenzo .
 
+vocang:tristento
+    a skos:Concept ;
+    skos:prefLabel "Tristento"@it ;
+    lexinfo:pronunciation "/tris • tèn • to/"@it ;
+    skos:definition "Sensazione composta da tristezza e contentezza allo stesso tempo."@it;
+    skos:example "Mia moglie mi ha lasciato per un'altro ma ho trovato 500 euro per terra... Mi sento tristento."@it;
+    dct:created "2023-02-12" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
