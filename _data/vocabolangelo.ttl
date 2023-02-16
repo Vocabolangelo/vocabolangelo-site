@@ -3588,12 +3588,20 @@ vocang:chiappello
     dct:created "2023-02-13" ;
     dct:creator vocang:rosatelliAnna, vocang:durazziMarco, vocang:battaglinoNicole .
 
-
 vocang:fotoprofigo
     a skos:Concept ;
     skos:prefLabel "Fotoprofigo"@it ;
     lexinfo:pronunciation "/fo • to • pro • fi • go/"@it ;
     skos:definition "Una foto profilo in cui il soggetto risulta particolarmente bello e attraente."@it;
-    skos:example "Guarda che fotoprofigo, non la cambierò mai più"@it;
+    skos:example "Guarda che fotoprofigo, non la cambierò mai più."@it;
     dct:created "2023-02-12" ;
     dct:creator vocang:bianchiniGiovanni .
+
+vocang:unriaco
+    a skos:Concept ;
+    skos:prefLabel "Unriaco"@it ;
+    lexinfo:pronunciation "/un • ri • à • co/"@it ;
+    skos:definition "Una persona ubriaca che ha problemi di incontinenza e che di conseguenza si trova spesso in bagno."@it;
+    skos:example "Angelo non è stato molto partecipe alla festa. Era unriaco, ogni 3 minuti doveva andare in bagno!"@it;
+    dct:created "2023-02-13" ;
+    dct:creator vocang:filasetaAngelo .
