@@ -3564,8 +3564,17 @@ vocang:pizzozza
 vocang:omeopartito
     a skos:Concept ;
     skos:prefLabel "Omeopartito"@it ;
-    lexinfo:pronunciation "/o • me • o • par • tì • to"@it ;
+    lexinfo:pronunciation "/o • me • o • par • tì • to/"@it ;
     skos:definition "Partito politico che possiede punti favoreli all'omeopatia all'interno del programma."@it;
     skos:example "Vuoi votare loro? Sei pazzo? Quello è un omeopartito!"@it;
     dct:created "2023-02-12" ;
     dct:creator vocang:orlandoNicola, vocang:durazziMarco .
+
+vocang:generifico
+    a skos:Concept ;
+    skos:prefLabel "Generifico"@it ;
+    lexinfo:pronunciation "/ge • ne • rì • fi • co/"@it ;
+    skos:definition "Qualcosa di molto generico ma anche molto specifico."@it;
+    skos:example "Quali sono i paesi che usano una qualche salsa nei piatti ma solo a parte? È un po' generifica come domanda"@it;
+    dct:created "2023-02-14" ;
+    dct:creator vocang:mordacchiniCecilia .
