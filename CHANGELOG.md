@@ -1,5 +1,35 @@
 # Changelog
 
+## [4.4.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v4.3.0...v4.4.0) (2023-02-16)
+
+
+### Features
+
+* **concept:** add bambinichino ([7e310fa](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/7e310fa92f85745c02d74098dd1ee31347fe8246))
+* **concept:** add biribibino ([4621f2b](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/4621f2b449e4970b4f1b1fa3b230fe5385c4a9ac))
+* **concept:** add bouquerigami ([029eec8](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/029eec8119943896fec1c4db5ce5315b2d69730c))
+* **concept:** add chiappello ([1836636](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/18366360e5cd69ee42a2b92424c0f6290a328aa2))
+* **concept:** add fiorigami ([8d391cb](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/8d391cbe7f6f77f58cc8a152eb26cf1c88474bbc))
+* **concept:** add fortusame ([6509d65](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/6509d65859412930d432c7c91bacdb0dca5afd51))
+* **concept:** add fotoprofigo ([6d15c79](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/6d15c79b4d4f546204bcf0c470b842e49f7b84c8))
+* **concept:** add generifico ([1dba563](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/1dba56310ec2fde6866228b19e583865f233a37e))
+* **concept:** add invempatia ([78b50fd](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/78b50fdd3fb54ce689c9572b765f8b64be3e3807))
+* **concept:** add omeopartito ([fd5e506](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/fd5e5061c4c9fc8def783f15a152ef7f6b1ca162))
+* **concept:** add ostevia ([1ca30e6](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/1ca30e68439ebea86af2cd605dbd6f6a3923eb5c))
+* **concept:** add peneroncino ([1861748](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/186174842d3c4993902a47a61a614914fa37f43b))
+* **concept:** add pizzozza ([3f10f88](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/3f10f8877d51838cbbb5cf63e00278398b64ee63))
+* **concept:** add sbrambellare ([9327762](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/932776241d590788b81917fb972ec062dbd28320))
+* **concept:** add stelleologo ([7332e95](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/7332e95b4b96e7945f258e8d49ec046a29770a40))
+* **concept:** add stromba ([6d531cc](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/6d531cc0f25023a05f49f4aa106abe2bd8c58fea))
+* **concept:** add tristento ([994603b](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/994603b49b10d0c49356982b393956f513618756))
+* **concept:** add unriaco ([f803a0d](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/f803a0dac69e810ae9e70a15bcc370bbc4859077))
+* **concept:** add variegatto ([8cfd8b5](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/8cfd8b5fcd59bfb1eff1e4c058c38a182ebecd1d))
+* **image:** add bambinichino image ([1ea3c13](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/1ea3c139f863f39803f0d3bb0ef0045c9a233428))
+* **image:** add bouquerigami image ([eba4ea2](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/eba4ea255b8ca54e739fb02d9f518560d69da526))
+* **image:** add durazziMarco image ([7686b53](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/7686b53835d7bedae8af4bbb8adfed8b07bd3062))
+* **image:** add variegatto image ([4bcfc1d](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/4bcfc1d6e168e4f63b000eb160a7abdd9b93bdb7))
+* **person:** add durazziMarco ([d8bc5d6](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/d8bc5d632b04c71267d91d0e08aebf234412f6a6))
+
 ## [4.3.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v4.2.0...v4.3.0) (2023-02-12)
 
 
