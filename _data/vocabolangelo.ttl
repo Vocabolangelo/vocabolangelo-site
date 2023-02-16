@@ -3632,7 +3632,16 @@ vocang:traumatto
     a skos:Concept ;
     skos:prefLabel "Traumatto"@it ;
     lexinfo:pronunciation "/trau • màt • to/"@it ;
-    skos:definition "Gatto che in passato ha subito un trauma"@it;
+    skos:definition "Gatto che in passato ha subito un trauma."@it;
     skos:example "Da quando la veterinaria ha suonato quel campanello, Kiri è diventato un traumatto."@it;
     dct:created "2023-02-16" ;
     dct:creator vocang:savoGiorgia .
+
+vocang:lemingo
+    a skos:Concept ;
+    skos:prefLabel "Lemingo"@it ;
+    lexinfo:pronunciation "/le • mìn • go/"@it ;
+    skos:definition "Un fenicottero che compie azioni divertenti e suscita ilarità."@it;
+    skos:example "Allo zoo abbiamo visto un lemingo che ballava a ritmo di musica!"@it;
+    dct:created "2023-02-16" ;
+    dct:creator vocang:ribaudoSofia, vocang:filasetaAngelo .
