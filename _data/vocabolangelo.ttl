@@ -3627,3 +3627,12 @@ vocang:olded
     skos:example "Dovresti cambiare questo schifo di olded e prenderti un TV 4K!"@it;
     dct:created "2023-02-12" ;
     dct:creator vocang:salhiSamir, vocang:suscaMatteo .
+
+vocang:traumatto
+    a skos:Concept ;
+    skos:prefLabel "Traumatto"@it ;
+    lexinfo:pronunciation "/trau • màt • to/"@it ;
+    skos:definition "Gatto che in passato ha subito un trauma"@it;
+    skos:example "Da quando la veterinaria ha suonato quel campanello, Kiri è diventato un traumatto."@it;
+    dct:created "2023-02-16" ;
+    dct:creator vocang:savoGiorgia .
