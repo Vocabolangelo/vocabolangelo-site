@@ -3560,3 +3560,12 @@ vocang:pizzozza
     skos:example "Ho ordinato una pizzozza con pancetta, patatine, salame piccante, salsiccia."@it;
     dct:created "2023-02-15" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:omeopartito
+    a skos:Concept ;
+    skos:prefLabel "Omeopartito"@it ;
+    lexinfo:pronunciation "/o • me • o • par • tì • to"@it ;
+    skos:definition "Partito politico che possiede punti favoreli all'omeopatia all'interno del programma."@it;
+    skos:example "Vuoi votare loro? Sei pazzo? Quello è un omeopartito!"@it;
+    dct:created "2023-02-12" ;
+    dct:creator vocang:orlandoNicola, vocang:durazziMarco .
