@@ -3517,7 +3517,19 @@ vocang:fiorigami
     a skos:Concept ;
     skos:prefLabel "Fiorigami"@it ;
     lexinfo:pronunciation "/fio • ri • gà • mi/"@it ;
-    skos:definition " Origami di un fiore."@it;
+    skos:definition "Origami di un fiore."@it;
     skos:example "Che gentiluomo che è Lorenzo, mi ha regalato un fiorigami."@it;
     dct:created "2023-02-14" ;
+    skos:related vocang:origasmo ; 
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:bouquerigami
+    a skos:Concept ;
+    skos:prefLabel "Bouquerigami"@it ;
+    skos:definition "Un bouquet di fiorigami."@it;
+    skos:example "Il mio ragazzo mi ha regalato un bouquerigami per San Valentino."@it;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/bouquerigami.jpg" ;
+    dct:created "2023-02-14" ;
+    skos:note "La parola nasce dopo il regalo di un bouquerigami da parte di un altro autore del Vocabolangelo alla sua ragazza.";
+    skos:related vocang:origasmo, vocang:fiorigami ; 
+    dct:creator vocang:battaglinoNicole .
