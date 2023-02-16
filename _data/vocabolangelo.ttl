@@ -3619,3 +3619,11 @@ vocang:diskoraoke
     skos:example "L'altra sera Nicola è stato portato a forza in discoteca ma non si è perso d'animo: è andato dal DJ e ha organizzato una serata diskoraoke!"@it;
     dct:created "2023-02-16" ;
     dct:creator vocang:pertosaLorenzo, vocang:omiccioliRiccardo .
+
+vocang:olded
+    a skos:Concept ;
+    skos:prefLabel "Olded"@it ;
+    skos:definition "Uno schermo oled molto vecchio."@it;
+    skos:example "Dovresti cambiare questo schifo di olded e prenderti un TV 4K!"@it;
+    dct:created "2023-02-12" ;
+    dct:creator vocang:salhiSamir, vocang:suscaMatteo .
