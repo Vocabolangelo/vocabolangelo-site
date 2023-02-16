@@ -3575,6 +3575,16 @@ vocang:generifico
     skos:prefLabel "Generifico"@it ;
     lexinfo:pronunciation "/ge • ne • rì • fi • co/"@it ;
     skos:definition "Qualcosa di molto generico ma anche molto specifico."@it;
-    skos:example "Quali sono i paesi che usano una qualche salsa nei piatti ma solo a parte? È un po' generifica come domanda"@it;
+    skos:example "Quali sono i paesi che usano una qualche salsa nei piatti ma solo a parte? È un po' generifica come domanda."@it;
     dct:created "2023-02-14" ;
     dct:creator vocang:mordacchiniCecilia .
+
+vocang:chiappello
+    a skos:Concept ;
+    skos:prefLabel "Chiappello"@it ;
+    lexinfo:pronunciation "/chiap • pel • lo/"@it ;
+    skos:definition "Capello che durante una doccia finisce tra le natiche."@it;
+    skos:example "Odio i chiappelli, danno troppo fastidio!"@it;
+    dct:created "2023-02-13" ;
+    dct:creator vocang:rosatelliAnna, vocang:durazziMarco, vocang:battaglinoNicole .
+
