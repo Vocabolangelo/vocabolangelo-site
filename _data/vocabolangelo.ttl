@@ -3503,3 +3503,12 @@ vocang:bambinichino
     dct:created "2023-02-13" ;
     skos:note "Menzione di onore al professore di emergenze dell'autore per la creazione della parola.";
     dct:creator vocang:pertosaLorenzo .
+
+vocang:stromba
+    a skos:Concept ;
+    skos:prefLabel "Strombra"@it ;
+    lexinfo:pronunciation "/stróm • ba/"@it ;
+    skos:definition "Tromba (sia lo strumento che la tromba da stadio) che produce suoni particolarmente cacofonici e fastidiosi."@it;
+    skos:example "Non riesco più a sopportare la mia vicina. Suona la stromba."@it, "Maledetti tifosi. Hanno suonato la stromba per tutto il pomeriggio."@it;
+    dct:created "2023-02-14" ;
+    dct:creator vocang:omiccioliRiccardo .
