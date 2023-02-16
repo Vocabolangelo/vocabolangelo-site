@@ -3605,3 +3605,11 @@ vocang:unriaco
     skos:example "Angelo non è stato molto partecipe alla festa. Era unriaco, ogni 3 minuti doveva andare in bagno!"@it;
     dct:created "2023-02-13" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:diskoraoke
+    a skos:Concept ;
+    skos:prefLabel "Diskoraoke"@it ;
+    skos:definition "Particolare tipo di festa organizzata in discoteca in cui si utilizza il karaoke."@it;
+    skos:example "L'altra sera Nicola è stato portato a forza in discoteca ma non si è perso d'animo: è andato dal DJ e ha organizzato una serata diskoraoke!"@it;
+    dct:created "2023-02-16" ;
+    dct:creator vocang:pertosaLorenzo, vocang:omiccioliRiccardo .
