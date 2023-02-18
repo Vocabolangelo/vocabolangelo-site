@@ -3697,6 +3697,15 @@ vocang:mitigatto
     skos:definition "Gatto molto pacifico, capace di influenzare con la sua serenità e diplomazia anche i gatti attorno a lui."@it;
     skos:example "Felix è un proprio un mitigatto: l'altro giorno è riuscito a riappacificare i gatti dei miei vicini."@it;
     dct:created "2023-02-17" ;
-    skos:note "Questa è la prima parola inventata da Alisa che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
+    skos:note "Questa è la prima parola inventata da Alisa che è entrata nel Vocabolangelo, grazie e congratulazioni."@it ;
     skos:related vocang:omnicio ;
     dct:creator vocang:bragariAlisa .
+
+vocang:istruttevole
+    a skos:Concept ;
+    skos:prefLabel "Istruttevole"@it ;
+    lexinfo:pronunciation "/is • trut • té • vo • le/"@it ;
+    skos:definition "Persona molto propensa ad imparare."@it;
+    skos:example "Sono una persona istruttevole e mi piace studiare dato che imparo facilmente."@it;
+    dct:created "2023-02-17" ;
+    dct:creator vocang:bragariAlexandru .
