@@ -1,5 +1,26 @@
 # Changelog
 
+## [4.6.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v4.5.0...v4.6.0) (2023-02-18)
+
+
+### Features
+
+* **concept:** add cadaveroe ([960d90e](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/960d90e7f0f0f29e29412b6f2c3c141d9e5d2fbe))
+* **concept:** add cadaveroico ([4806698](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/480669867e80f3228c4ad63c3ec80f8eec31562b))
+* **concept:** add guidante ([deee941](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/deee9418414891ea0a9962d028f0ca6d642d3c9f))
+* **concept:** add micidio ([f0a40cd](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/f0a40cdb880723ccb33d7868472fce7c1e11b085))
+* **concept:** add moketta ([3c74536](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/3c74536d7da1906390563f05bd2cbe677e42752d))
+* **concept:** add spagghista ([7f59d44](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/7f59d44317e302fc1a617f7fcc1f5f127e7e3d01))
+* **image:** add bragariAlisa image ([1cce9a8](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/1cce9a8e60f92716940ada59c5569b307a0dee15))
+* **image:** add tronettiElisa image ([b3bf7cb](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/b3bf7cb3fc6aece6ca14cd90bcdfaa234c69df5a))
+* **person:** add tronettiElisa ([94f6d56](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/94f6d561cabedab43d1a7fbd2158e32ee294843c))
+* **related:** add related cafferillo to cafferetta ([aeab6b8](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/aeab6b833677cd826fd6b848bf46567d76ac221c))
+
+
+### Bug Fixes
+
+* **concept:** remove typo in genomiccio ([1c1dd3d](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/1c1dd3da7b6045b68565d00d7d9f70f5b6468b83))
+
 ## [4.5.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v4.4.0...v4.5.0) (2023-02-18)
 
 
