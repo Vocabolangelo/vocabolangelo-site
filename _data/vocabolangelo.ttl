@@ -3805,3 +3805,12 @@ vocang:banofico
     skos:example "Sono 459 euro ma se vuole accettiamo anche banofici."@it, "Devo ancora darti 11 banane, appena torno a casa vado sul sito e ti faccio un banofico."@it;
     dct:created "2023-02-18" ;
     dct:creator vocang:omiccioliRiccardo, vocang:minoccheriAlessandra .
+
+vocang:ingordicio
+    a skos:Concept ;
+    skos:prefLabel "Ingordicio"@it ;
+    lexinfo:pronunciation "/in • gor • dì • cio/"@it ;
+    skos:definition "Gatto estremamente vorace."@it;
+    skos:example "L'altro giorno ho dato da mangiare al mio urlatto e non solo si è finita tutto, ma ha divorato anche la ciotola e un pezzo di muro, è proprio un'ingordicio!"@it;
+    dct:created "2023-02-18" ;
+    dct:creator vocang:pertosaLorenzo .
