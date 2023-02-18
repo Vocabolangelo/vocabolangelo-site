@@ -3749,3 +3749,21 @@ vocang:spagghista
     skos:example "Giorgia è una spagghista, spesso spacca gli spaghetti in due per mostrare il suo credo agli altri."@it;
     dct:created "2023-02-18" ;
     dct:creator vocang:ribaudoSofia .
+
+vocang:spagghista
+    a skos:Concept ;
+    skos:prefLabel "Spagghista"@it ;
+    lexinfo:pronunciation "/spag • ghìs • ta/"@it ;
+    skos:definition "Individuo che considera gli spaghetti come una tipologia di pasta inferiore rispetto a tutte le altre, al punto da ritenere che non abbiano alcun merito a esistere."@it;
+    skos:example "Giorgia è una spagghista, spesso spacca gli spaghetti in due per mostrare il suo credo agli altri."@it;
+    dct:created "2023-02-18" ;
+    dct:creator vocang:ribaudoSofia .
+
+vocang:micidio
+    a skos:Concept ;
+    skos:prefLabel "Micidio"@it ;
+    lexinfo:pronunciation "/mi • cì • dio/"@it ;
+    skos:definition "Soppressione della vita di un gatto da parte di un essere umano o di un altro gatto."@it;
+    skos:example "Abbiamo trovato Furby senza vita sanguinante per strada... Era già freddo quando siamo arrivati. È sicuramente avvenuto un micidio."@it;
+    dct:created "2023-02-18" ;
+    dct:creator vocang:filasetaAngelo .
