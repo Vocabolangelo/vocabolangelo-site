@@ -3776,3 +3776,12 @@ vocang:cadaveroe
     skos:example "Il personaggio raffigurato in quel quadro è un cadaveroe."@it;
     dct:created "2023-02-18" ;
     dct:creator vocang:minoccheriAlessandra, vocang:rosatelliAnna, vocang:nardiniArianna .
+
+vocang:cadaveroico
+    a skos:Concept ;
+    skos:prefLabel "Cadaveroico"@it ;
+    lexinfo:pronunciation "/ca • da • ve • ròi • co/"@it ;
+    skos:definition "Quel che rappresenta un segno di virtù luminosa e di fermezza inamovibile, degno di un cadaveore, ovvero un eroe che purtroppo non è più tra noi."@it;
+    skos:example "Il personaggio raffigurato in quel quadro è morto in maniera cadaveroica."@it;
+    dct:created "2023-02-18" ;
+    dct:creator vocang:minoccheriAlessandra, vocang:rosatelliAnna, vocang:nardiniArianna .
