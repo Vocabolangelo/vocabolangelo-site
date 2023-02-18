@@ -264,6 +264,11 @@ vocang:salhiSamir
     foaf:lastName "Salhi" ;
     foaf:nick "Sammy" .
 
+vocang:bragariAlisa
+    a foaf:Person ;
+    foaf:firstName "Alisa" ;
+    foaf:lastName "Bragari" ;
+    rel:siblingOf vocang:bragariAlexandru .
 
 # Vocabolangelo Words Individuals
 
