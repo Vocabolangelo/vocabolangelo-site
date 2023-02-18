@@ -3814,3 +3814,12 @@ vocang:ingordicio
     skos:example "L'altro giorno ho dato da mangiare al mio urlatto e non solo si è finita tutto, ma ha divorato anche la ciotola e un pezzo di muro, è proprio un'ingordicio!"@it;
     dct:created "2023-02-18" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:ansiazzo
+    a skos:Concept ;
+    skos:prefLabel "Ansiazzo"@it ;
+    lexinfo:pronunciation "/an • siàz • zo"@it ;
+    skos:definition "Ragazzo ansioso senza un motivo ben preciso, di natura."@it;
+    skos:example "Lorenzo ha ansia perchè deve uscire a incontrare un suo vecchio amico. È veramente un ansiazzo."@it;
+    dct:created "2023-02-18" ;
+    dct:creator vocang:pertosaLorenzo .
