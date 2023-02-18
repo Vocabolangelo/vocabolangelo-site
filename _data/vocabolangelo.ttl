@@ -1267,10 +1267,10 @@ vocang:orgiario
  vocang:buggatto
     a skos:Concept ;
     skos:prefLabel "Buggatto"@it ;
-    lexinfo:pronunciation "/bug • gat • to/"@it ;
-    skos:definition "Quando in un videogioco avviene un bug che coinvolge un gatto."@it ;
+    skos:definition "Un gatto con problemi dovuti a bug all'interno di un videogioco."@it ;
     skos:example "Tutti i gatti nel videogioco Stray sono in realtà buggatti se si buggano."@it;
     dct:created "2022-10-11" ;
+    skos:related vocang:omnicio ;
     dct:creator vocang:savoGiorgia .
 
 vocang:dimenticatroio
@@ -2952,7 +2952,7 @@ vocang:omnicio
     a skos:Concept ;
     skos:prefLabel "Omnicio"@it ;
     lexinfo:pronunciation "/om • nì • cio/"@it ;
-    skos:definition "Un gatto che è definibile con ogni sostantivo che descrive un gatto presente all'interno del vocabolangelo."@it ;
+    skos:definition "Un gatto che è definibile con ogni sostantivo che descrive un gatto presente all'interno del Vocabolangelo. In altre parole un gatto buggatto che urla all'interno di un videogioco e che in passato ha subito un trauma, meticcio, strabico, molto grande, obeso, molto pacifico, estremamente carino, capace di influenzare con la sua serenità e diplomazia anche i gatti attorno a lui, capace di eseguire acrobazie, tende ad arrampicarsi in posti pericolosi, miagola in maniera carina ed è in grado di curare persone e altri gatti."@it ;
     skos:example "Ho dovuto abbassare lo sguardo e tapparmi le orecchie quando ho visto passare quell'omnicio: era talmente fantastico da sembrare una divinità."@it ;
     dct:created "2023-01-25" ;
     skos:related vocang:strabicio, vocang:avvogatto , vocang:urlatto, vocang:gigatto , vocang:medigatto, vocang:obesatto , vocang:pulicio, vocang:miagolatto ;
@@ -3002,7 +3002,7 @@ vocang:agambicio
     dct:created "2023-01-25" ;
     dct:creator vocang:bragariAlexandru .
 
-vocang:agambicio
+vocang:agambico
     a skos:Concept ;
     skos:prefLabel "Agambico"@it ;
     lexinfo:pronunciation "/a • gam • bì • co/"@it ;
@@ -3640,6 +3640,7 @@ vocang:traumatto
     skos:definition "Gatto che in passato ha subito un trauma."@it;
     skos:example "Da quando la veterinaria ha suonato quel campanello, Kiri è diventato un traumatto."@it;
     dct:created "2023-02-16" ;
+    skos:related vocang:omnicio ;
     dct:creator vocang:savoGiorgia .
 
 vocang:lemingo
