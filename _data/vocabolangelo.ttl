@@ -2015,7 +2015,7 @@ vocang:cuccorema
     dct:created "2022-12-18" ;
     dct:creator  vocang:filasetaAngelo , vocang:pertosaLorenzo .
 
-vocang:cafferettaa
+vocang:cafferetta
     a skos:Concept ;
     skos:prefLabel "Cafferetta"@it ;
     lexinfo:pronunciation "/caf • fe • ret • ta/"@it ;
@@ -3784,4 +3784,14 @@ vocang:cadaveroico
     skos:definition "Quel che rappresenta un segno di virtù luminosa e di fermezza inamovibile, degno di un cadaveore, ovvero un eroe che purtroppo non è più tra noi."@it;
     skos:example "Il personaggio raffigurato in quel quadro è morto in maniera cadaveroica."@it;
     dct:created "2023-02-18" ;
+    skos:related vocang:cadaveroe ;
     dct:creator vocang:minoccheriAlessandra, vocang:rosatelliAnna, vocang:nardiniArianna .
+
+vocang:moketta
+    a skos:Concept ;
+    skos:prefLabel "Moketta"@it ;
+    skos:definition "Moretta fanese realizzata utilizzando caffé della moka."@it;
+    skos:example "Sinceramente preferisco la moketta alla moretta fatta col caffé della macchinetta."@it;
+    dct:created "2023-02-18" ;
+    skos:related vocang:cafferetta ;
+    dct:creator vocang:ribaudoSofia .
