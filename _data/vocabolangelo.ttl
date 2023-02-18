@@ -268,6 +268,7 @@ vocang:bragariAlisa
     a foaf:Person ;
     foaf:firstName "Alisa" ;
     foaf:lastName "Bragari" ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/bragariAlisa.jpg" ;
     rel:siblingOf vocang:bragariAlexandru .
 
 # Vocabolangelo Words Individuals
@@ -3711,6 +3712,17 @@ vocang:istruttevole
     skos:example "Sono una persona istruttevole e mi piace studiare dato che imparo facilmente."@it;
     dct:created "2023-02-17" ;
     dct:creator vocang:bragariAlexandru .
+
+vocang:surigatto
+    a skos:Concept ;
+    skos:prefLabel "Surigatto"@it ;
+    lexinfo:pronunciation "/su • ri • gàt • to/"@it ;
+    skos:definition "Un felino che presenta vaghe somiglianze con un suricato."@it;
+    skos:example "Mi fa troppo ridere il tuo surigatto."@it;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/surigatto.jpg" ;
+    dct:created "2023-02-18" ;
+    skos:related vocang:omnicio ;
+    dct:creator vocang:nardiniArianna .
 
 vocang:surigatto
     a skos:Concept ;
