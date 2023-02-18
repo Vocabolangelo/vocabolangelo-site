@@ -3655,3 +3655,12 @@ vocang:bartello
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/bartello.jpg" ;
     dct:created "2023-02-18" ;
     dct:creator vocang:ribaudoSofia, vocang:filasetaAngelo .
+
+vocang:sbiribillo
+    a skos:Concept ;
+    skos:prefLabel "Sbiribillo"@it ;
+    lexinfo:pronunciation "/sbi • ri • bìl • lo/"@it ;
+    skos:definition "Un ragazzo simpatico ma un po' eccentrico."@it;
+    skos:example "Voglio tanto bene a Eddy, ma a volte non capisco proprio dei suoi comportamenti strani. È proprio uno sbiribillo."@it;
+    dct:created "2023-02-18" ;
+    dct:creator vocang:ribaudoSofia .
