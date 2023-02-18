@@ -1887,7 +1887,7 @@ vocang:genomiccio
     a skos:Concept ;
     skos:prefLabel "Genomiccio"@it ;
     lexinfo:pronunciation "/ge • no • mic • cio/"@it ;
-    skos:definition "Strage commessa ai danni di elementi si un gruppo di cui si fa parte."@it ;
+    skos:definition "Strage commessa ai danni di elementi di un gruppo di cui si fa parte."@it ;
     skos:example "C'è stato un genomiccio nel gruppo di Riccardo a causa dell'ira del professore a cui hanno consegnato il progetto."@it ;
     dct:created "2022-12-12" ;
     dct:creator vocang:pertosaLorenzo .
