@@ -3689,3 +3689,14 @@ vocang:brivibridi
     dct:created "2023-02-17" ;
     skos:related vocang:vibridi ;
     dct:creator vocang:filasetaAngelo, vocang:ribaudoSofia .
+
+vocang:mitigatto
+    a skos:Concept ;
+    skos:prefLabel "Mitigatto"@it ;
+    lexinfo:pronunciation "/mi • ti • gàt • to/"@it ;
+    skos:definition "Gatto molto pacifico, capace di influenzare con la sua serenità e diplomazia anche i gatti attorno a lui."@it;
+    skos:example "Felix è un proprio un mitigatto: l'altro giorno è riuscito a riappacificare i gatti dei miei vicini."@it;
+    dct:created "2023-02-17" ;
+    skos:note "Questa è la prima parola inventata da Alisa che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
+    skos:related vocang:omnicio ;
+    dct:creator vocang:bragariAlisa .
