@@ -1,5 +1,31 @@
 # Changelog
 
+## [4.5.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v4.4.0...v4.5.0) (2023-02-18)
+
+
+### Features
+
+* **concept:** add bartello ([d520043](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/d520043501768d0fe647c1e28cd70adc5944beb4))
+* **concept:** add brivibridi ([3978541](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/39785411486e14a4be2fe43e1b22bc28e45adc65))
+* **concept:** add diskoraoke ([c703a9e](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/c703a9ebd283a820e4cfa3a24b2b1255a95b0d53))
+* **concept:** add istruttevole ([0a2adea](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/0a2adeaaec2a49eb6f7addd4b01e8c75ca1df1ec))
+* **concept:** add lemingo ([615b5ae](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/615b5ae0d9c57919de6a8a2d61db553f54edc63a))
+* **concept:** add mitigatto ([661b2f7](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/661b2f73e046af637482045aca629ec3649065cd))
+* **concept:** add olded ([e188a44](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/e188a44bfa38bd33aacf82af526a852e93088470))
+* **concept:** add sbiribillo ([5c38520](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/5c38520c7d6ad4e638cb8a8fc8037f5aa62c115b))
+* **concept:** add sbiribirillo ([9f74d28](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/9f74d28480719820375a00104b098101a608244a))
+* **concept:** add surigatto ([ba89d57](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/ba89d570403de7350d59b8bf6dca56ecbbd575ff))
+* **concept:** add traumatto ([8f065d4](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/8f065d49c600319ae3e1f6ca1bc7b6d5fd419c40))
+* **image:** add bartello Image ([f9499d1](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/f9499d1e27ca5f8b6b9c582f067dfdd320172b59))
+* **image:** add surigatto image ([b10f54a](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/b10f54a9997b52ac7ab8a093f7fc438c6d29995a))
+* **person:** add bragariAlisa ([18e7aef](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/18e7aefc4462f62237ad07611666b1af5251cf86))
+* **person:** add salhiSamir ([29d7881](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/29d78817c1f9467589e9bb60fb2f63bff31de9b0))
+
+
+### Bug Fixes
+
+* **concept:** adjust stelleologo definition ([f1db53b](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/f1db53bd38ae6c0ad8552e9b6132ce41fd002616))
+
 ## [4.4.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v4.3.0...v4.4.0) (2023-02-16)
 
 
