@@ -3735,8 +3735,17 @@ vocang:guidante
     a skos:Concept ;
     skos:prefLabel "Guidante"@it ;
     lexinfo:pronunciation "/gui • dàn • te/"@it ;
-    skos:definition "Meotod alternativo per riferirsi al volante della macchina."@it;
+    skos:definition "Metodo alternativo per riferirsi al volante della macchina."@it;
     skos:example "Per guidare senza sbandare è necessario maneggiare accuratamente il guidante.."@it;
     dct:created "2023-02-18" ;
     skos:note "Questa è la prima parola inventata da Elisa che è entrata nel Vocabolangelo, grazie e congratulazioni."@it ;
     dct:creator vocang:tronettiElisa .
+
+vocang:spagghista
+    a skos:Concept ;
+    skos:prefLabel "Spagghista"@it ;
+    lexinfo:pronunciation "/spag • ghìs • ta/"@it ;
+    skos:definition "Individuo che considera gli spaghetti come una tipologia di pasta inferiore rispetto a tutte le altre, al punto da ritenere che non abbiano alcun merito a esistere."@it;
+    skos:example "Giorgia è una spagghista, spesso spacca gli spaghetti in due per mostrare il suo credo agli altri."@it;
+    dct:created "2023-02-18" ;
+    dct:creator vocang:ribaudoSofia .
