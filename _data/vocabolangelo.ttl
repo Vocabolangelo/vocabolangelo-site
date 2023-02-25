@@ -3878,3 +3878,12 @@ vocang:spalmaggio
     skos:example "Ci serve dello spalmaggio per questa ricetta."@it;
     dct:created "2023-02-24" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:paradicio
+    a skos:Concept ;
+    skos:prefLabel "Paradicio"@it ;
+    lexinfo:pronunciation "/pa • ra • dì • cio/"@it ;
+    skos:definition "Tipo di paradosso che si riferisce all'impossibilità di accostare aggettivi discordanti  tra loro nella descrizione dell'omnicio."@it;
+    skos:example "L'esisenza dell'omnicio è un paradicio."@it;
+    dct:created "2023-02-24" ;
+    dct:creator vocang:omiccioliRiccardo .
