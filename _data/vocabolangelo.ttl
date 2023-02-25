@@ -3905,3 +3905,12 @@ vocang:famigliaggio
     skos:example "I Filaseta mi hanno davvero fatto arrabbiare, prendo la mazza e vado a compiere un famigliaggio."@it;
     dct:created "2023-02-18" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:orgasno
+    a skos:Concept ;
+    skos:prefLabel "Orgasno"@it ;
+    lexinfo:pronunciation "/or • gas • nò/"@it ;
+    skos:definition "Orgasmo negato intenzionalmente sul più bello."@it;
+    skos:example "Il mio nuovo ragazzo ha scoperto strano kink, ieri ha provato per la prima volta un orgasno. Stranamente lo ha amato!"@it;
+    dct:created "2023-02-18" ;
+    dct:creator vocang:omiccioliRiccardo .
