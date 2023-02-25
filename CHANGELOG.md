@@ -1,5 +1,35 @@
 # Changelog
 
+## [4.7.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v4.6.0...v4.7.0) (2023-02-25)
+
+
+### Features
+
+* **concept:** add ansiazzo ([3102d0b](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/3102d0bad5dee1ec0600ceef7ac29c594fc7d408))
+* **concept:** add arrogato ([7b38483](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/7b384836e311bd99aba53b9d80ede3d502bdeb79))
+* **concept:** add arrogatto ([83a1e8e](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/83a1e8ed71cce07bee00d70c0f2ba0df362c5420))
+* **concept:** add banofico ([f592df0](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/f592df074face8031483c97f307741cbd5e3266e))
+* **concept:** add borraccella ([74d5c3d](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/74d5c3d4a195cdb6d8252ba6e485ebb1b6f2e6e0))
+* **concept:** add borsaggio ([f1052d5](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/f1052d575fd06d8d7d1f247551334ae812838ea8))
+* **concept:** add briciolaio ([5bf7906](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/5bf79060131ec0c1026e64041233a16eec3522b3))
+* **concept:** add famigliaggio ([a51d766](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/a51d766256ed0fe485f8f3f2d087323ad4c544cf))
+* **concept:** add filmoccole ([a6e8db9](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/a6e8db9e5076223ab92295d1f80a07eb7802fff8))
+* **concept:** add ingordicio ([06fed3a](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/06fed3ab17740adcbf919db994c1e743bc4e7b40))
+* **concept:** add ombelichino ([b738b4d](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/b738b4dc8d525a4878340d4cbe524b1b71579e02))
+* **concept:** add orgasno ([fbb6e63](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/fbb6e63f833fa32ddfcd047596447c3ee4eb0bff))
+* **concept:** add paradicio ([0339c1a](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/0339c1abe841c153bca1c5d6ffc1faa9ca8f7446))
+* **concept:** add patatonzo ([19c0acc](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/19c0accea7f1b8d176d0081c1db2379a8813d326))
+* **concept:** add pisellicottero ([73c65f4](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/73c65f4d2044652d8095dbcef84e032988922417))
+* **concept:** add sognomoto ([180734f](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/180734f04579819e07b154f920eec420848c8a3a))
+* **concept:** add spalmaggio ([03604e9](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/03604e9d3ab4c8efacafa42ff8286394ce561119))
+* **image:** add ingargiolaAndrea image ([2280040](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/22800406a1b3937259dde0e46a3daf62a70f5bb5))
+* **person:** add sanchiPiero ([7d07d38](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/7d07d382e558940ec03afe2c2da19d3bf969ca94))
+
+
+### Bug Fixes
+
+* **site:** partner link now works ([18dd1ee](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/18dd1ee32b08c950a77682192698a13d2473660b))
+
 ## [4.6.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v4.5.0...v4.6.0) (2023-02-18)
 
 
