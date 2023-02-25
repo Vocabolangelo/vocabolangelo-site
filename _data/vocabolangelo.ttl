@@ -3923,3 +3923,12 @@ vocang:borsaggio
     skos:example "L'unico modo per sconfiggere Nicola in uno scontro senza sforzarsi troppo è compiere un borsaggio: vedrai quanto è facile dargliele così!"@it;
     dct:created "2023-02-19" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:briciolaio
+    a skos:Concept ;
+    skos:prefLabel "Briciolaio"@it ;
+    lexinfo:pronunciation "/bri • cio • là • io/"@it ;
+    skos:definition "Superficie ricca di briciole."@it;
+    skos:example "Guarda questa coperta, che schifo! È un briciolaio."@it;
+    dct:created "2023-02-24" ;
+    dct:creator vocang:battaglinoNicole .
