@@ -53,7 +53,7 @@ vocang:filasetaAngelo
     foaf:lastName "Filaseta" ;
     foaf:nick "Ange" ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/filasetaAngelo.jpeg" ;
-    rel:friendOf vocang:tronettiElisa, vocang:salhiSamir, vocang:bragariAlexandru , vocang:battaglinoNicole , vocang:omiccioliRiccardo , vocang:pertosaLorenzo , vocang:timpanoSam , vocang:ribaudoSofia ;
+    rel:friendOf vocang:sanchiPiero, vocang:tronettiElisa, vocang:salhiSamir, vocang:bragariAlexandru , vocang:battaglinoNicole , vocang:omiccioliRiccardo , vocang:pertosaLorenzo , vocang:timpanoSam , vocang:ribaudoSofia ;
     rel:spouseOf vocang:savoGiorgia .
 
 vocang:savoGiorgia
@@ -70,7 +70,7 @@ vocang:bragariAlexandru
     foaf:lastName "Bragari" ;
     foaf:nick "Sasha" ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/bragariAlexandru.jpg" ;
-    rel:friendOf vocang:tronettiElisa, vocang:salhiSamir, vocang:battaglinoNicole , vocang:omiccioliRiccardo , vocang:pertosaLorenzo , vocang:timpanoSam , vocang:ribaudoSofia .
+    rel:friendOf vocang:sanchiPiero, vocang:tronettiElisa, vocang:salhiSamir, vocang:battaglinoNicole , vocang:omiccioliRiccardo , vocang:pertosaLorenzo , vocang:timpanoSam , vocang:ribaudoSofia .
 
 vocang:battaglinoNicole
     a foaf:Person ;
@@ -78,7 +78,7 @@ vocang:battaglinoNicole
     foaf:lastName "Battaglino" ;
     foaf:nick "Batta" ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/battaglinoNicole.jpg" ;
-    rel:friendOf vocang:salhiSamir, vocang:pertosaLorenzo , vocang:timpanoSam , vocang:ribaudoSofia ;
+    rel:friendOf vocang:sanchiPiero, vocang:salhiSamir, vocang:pertosaLorenzo , vocang:timpanoSam , vocang:ribaudoSofia ;
     rel:spouseOf vocang:omiccioliRiccardo .
 
 vocang:omiccioliRiccardo
@@ -86,7 +86,7 @@ vocang:omiccioliRiccardo
     foaf:firstName "Riccardo" ;
     foaf:lastName "Omiccioli" ;
     foaf:nick "Miccio" ;
-    rel:friendOf vocang:tronettiElisa, vocang:salhiSamir, vocang:pertosaLorenzo , vocang:timpanoSam , vocang:ribaudoSofia .
+    rel:friendOf vocang:sanchiPiero, vocang:tronettiElisa, vocang:salhiSamir, vocang:pertosaLorenzo , vocang:timpanoSam , vocang:ribaudoSofia .
 
 vocang:pertosaLorenzo
     a foaf:Person ;
@@ -94,7 +94,7 @@ vocang:pertosaLorenzo
     foaf:lastName "Pertosa" ;
     foaf:nick "P" ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/pertosaLorenzo.jpg" ;
-    rel:friendOf vocang:salhiSamir, vocang:timpanoSam , vocang:ribaudoSofia .
+    rel:friendOf vocang:sanchiPiero, vocang:salhiSamir, vocang:timpanoSam , vocang:ribaudoSofia .
 
 vocang:timpanoSam
     a foaf:Person ;
@@ -108,14 +108,15 @@ vocang:ribaudoSofia
     a foaf:Person ;
     foaf:firstName "Sofia" ;
     foaf:lastName "Ribaudo" ;
-    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/ribaudoSofia.jpg" .
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/ribaudoSofia.jpg" ;
+    rel:friendOf vocang:sanchiPiero .
 
 vocang:talmiAlessandro
     a foaf:Person ;
     foaf:firstName "Alessandro" ;
     foaf:lastName "Talmi" ;
     foaf:nick "Dizi" ;
-    rel:friendOf vocang:filasetaAngelo, vocang:bragariAlexandru .
+    rel:friendOf vocang:sanchiPiero, vocang:filasetaAngelo, vocang:bragariAlexandru .
 
 vocang:orlandoNicola
     a foaf:Person ;
@@ -123,7 +124,7 @@ vocang:orlandoNicola
     foaf:lastName "Orlando" ;
     foaf:nick "Orla" ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/orlandoNicola.jpg" ;
-    rel:friendOf vocang:tronettiElisa, vocang:salhiSamir, vocang:durazziMarco, vocang:bragariAlexandru, vocang:talmiAlessandro, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo .
+    rel:friendOf vocang:sanchiPiero, vocang:tronettiElisa, vocang:salhiSamir, vocang:durazziMarco, vocang:bragariAlexandru, vocang:talmiAlessandro, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo .
 
 vocang:adantiMatteo
     a foaf:Person ;
@@ -204,7 +205,7 @@ vocang:rossiLuca
     a foaf:Person ;
     foaf:firstName "Luca" ;
     foaf:lastName "Rossi" ;
-    rel:friendOf vocang:tronettiElisa, vocang:orlandoNicola, vocang:talmiAlessandro, vocang:omiccioliRiccardo, vocang:bragariAlexandru, vocang:filasetaAngelo .
+    rel:friendOf vocang:sanchiPiero, vocang:tronettiElisa, vocang:orlandoNicola, vocang:talmiAlessandro, vocang:omiccioliRiccardo, vocang:bragariAlexandru, vocang:filasetaAngelo .
 
 vocang:deRosaLeonardo
     a foaf:Person ;
@@ -225,7 +226,7 @@ vocang:radicchiGiovanni
     foaf:firstName "Giovanni" ;
     foaf:lastName "Radicchi" ;
     foaf:nick "Rad" ;
-    rel:friendOf vocang:bianchiniGiovanni, vocang:pupitaAlberto, vocang:bdeouiEddy, vocang:nardiniArianna, vocang:minoccheriAlessandra, vocang:suscaMatteo, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:bragariAlexandru, vocang:filasetaAngelo .
+    rel:friendOf vocang:sanchiPiero, vocang:bianchiniGiovanni, vocang:pupitaAlberto, vocang:bdeouiEddy, vocang:nardiniArianna, vocang:minoccheriAlessandra, vocang:suscaMatteo, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:bragariAlexandru, vocang:filasetaAngelo .
 
 vocang:bensellamSelma
     a foaf:Person ;
@@ -256,7 +257,7 @@ vocang:durazziMarco
     foaf:lastName "Durazzi" ;
     foaf:nick "Duraz" ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/durazziMarco.jpg" ;
-    rel:friendOf vocang:salhiSamir, vocang:rosatelliAnna, vocang:radicchiGiovanni, vocang:bianchiniGiovanni, vocang:pupitaAlberto,  vocang:mordacchiniCecilia, vocang:bdeouiEddy, vocang:bragariAlexandru, vocang:filasetaAngelo, vocang:savoGiorgia, vocang:battaglinoNicole, vocang:omiccioliRiccardo, vocang:pertosaLorenzo, vocang:timpanoSam, vocang:ribaudoSofia .
+    rel:friendOf vocang:sanchiPiero, vocang:salhiSamir, vocang:rosatelliAnna, vocang:radicchiGiovanni, vocang:bianchiniGiovanni, vocang:pupitaAlberto,  vocang:mordacchiniCecilia, vocang:bdeouiEddy, vocang:bragariAlexandru, vocang:filasetaAngelo, vocang:savoGiorgia, vocang:battaglinoNicole, vocang:omiccioliRiccardo, vocang:pertosaLorenzo, vocang:timpanoSam, vocang:ribaudoSofia .
 
 vocang:salhiSamir
     a foaf:Person ;
@@ -276,6 +277,7 @@ vocang:tronettiElisa
     foaf:firstName "Elisa" ;
     foaf:lastName "Tronetti" ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/tronettiElisa.jpg" ;
+    rel:friendOf vocang:sanchiPiero ;
     rel:spouseOf vocang:talmiAlessandro .
 
 vocang:ingargiolaAndrea
@@ -284,6 +286,11 @@ vocang:ingargiolaAndrea
     foaf:lastName "Ingargiola" ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/ingargiolaAndrea.jpg" ;
     rel:friendOf vocang:filasetaAngelo, vocang:tronettiElisa .
+
+vocang:sanchiPiero
+    a foaf:Person ;
+    foaf:firstName "Piero" ;
+    foaf:lastName "Sanchi" .
 
 # Vocabolangelo Words Individuals
 
