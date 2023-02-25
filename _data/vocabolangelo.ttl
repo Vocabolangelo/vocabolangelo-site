@@ -3885,5 +3885,14 @@ vocang:paradicio
     lexinfo:pronunciation "/pa • ra • dì • cio/"@it ;
     skos:definition "Tipo di paradosso che si riferisce all'impossibilità di accostare aggettivi discordanti  tra loro nella descrizione dell'omnicio."@it;
     skos:example "L'esisenza dell'omnicio è un paradicio."@it;
-    dct:created "2023-02-24" ;
+    dct:created "2023-02-20" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:sognomoto
+    a skos:Concept ;
+    skos:prefLabel "Sognomoto"@it ;
+    lexinfo:pronunciation "/so • gno • mò • to/"@it ;
+    skos:definition "Sensazione che si prova quando si pensa di aver sentito un terremoto appena dopo essersi svegliati da un sogno."@it;
+    skos:example "Ho sentito una scossa fortissima appena mi sono svegliato. Per fortuna era solo un sognomoto e non è successo nulla."@it;
+    dct:created "2023-02-18" ;
     dct:creator vocang:omiccioliRiccardo .
