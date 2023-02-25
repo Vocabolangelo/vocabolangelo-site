@@ -3862,3 +3862,12 @@ vocang:arrogato
     skos:example "Guarda quant'è contento di aver vinto quel caso; che arrogato."@it;
     dct:created "2023-02-25" ;
     dct:creator vocang:orlandoNicola .
+
+vocang:spalmaggio
+    a skos:Concept ;
+    skos:prefLabel "Spalmaggio"@it ;
+    lexinfo:pronunciation "/spal • màg • gio/"@it ;
+    skos:definition "Formaggio spalmabile."@it;
+    skos:example "Ci serve dello spalmaggio per questa ricetta."@it;
+    dct:created "2023-02-24" ;
+    dct:creator vocang:omiccioliRiccardo .
