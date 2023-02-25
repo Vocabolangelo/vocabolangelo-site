@@ -3896,3 +3896,12 @@ vocang:sognomoto
     skos:example "Ho sentito una scossa fortissima appena mi sono svegliato. Per fortuna era solo un sognomoto e non è successo nulla."@it;
     dct:created "2023-02-18" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:famigliaggio
+    a skos:Concept ;
+    skos:prefLabel "Famigliaggio"@it ;
+    lexinfo:pronunciation "/fa • mi • gliàg • gio/"@it ;
+    skos:definition "Pestaggio perpetrato ai danni di un'intera famiglia."@it;
+    skos:example "I Filaseta mi hanno davvero fatto arrabbiare, prendo la mazza e vado a compiere un famigliaggio."@it;
+    dct:created "2023-02-18" ;
+    dct:creator vocang:pertosaLorenzo .
