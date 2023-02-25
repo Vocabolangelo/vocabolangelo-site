@@ -3914,3 +3914,12 @@ vocang:orgasno
     skos:example "Il mio nuovo ragazzo ha scoperto strano kink, ieri ha provato per la prima volta un orgasno. Stranamente lo ha amato!"@it;
     dct:created "2023-02-18" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:borsaggio
+    a skos:Concept ;
+    skos:prefLabel "Borsaggio"@it ;
+    lexinfo:pronunciation "/bor • sàg • gio/"@it ;
+    skos:definition "Pestaggio operato tramite l'utilizzo di una borsa dell'acqua calda come arma."@it;
+    skos:example "L'unico modo per sconfiggere Nicola in uno scontro senza sforzarsi troppo è compiere un borsaggio: vedrai quanto è facile dargliele così!"@it;
+    dct:created "2023-02-19" ;
+    dct:creator vocang:pertosaLorenzo .
