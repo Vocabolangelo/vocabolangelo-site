@@ -3941,3 +3941,12 @@ vocang:filmoccole
     skos:example "Ci siamo fatti delle filmoccole stupende mentre guardavamo \"Il Grande Lebowski\""@it;
     dct:created "2023-02-24" ;
     dct:creator vocang:battaglinoNicole .
+
+vocang:pisellicottero
+    a skos:Concept ;
+    skos:prefLabel "Pisellicottero"@it ;
+    lexinfo:pronunciation "/pi • sel • li • còt • te • ro/"@it ;
+    skos:definition "Azione compiuta da un essere vivente di sesso maschile, il quale con movimenti particolari del bacino riesce a fare il cosiddetto \"elicottero con il pene\"."@it;
+    skos:example "Gianfrancesco sa fare benissimo il pisellicottero."@it;
+    dct:created "2023-02-23" ;
+    dct:creator vocang:bianchiniGiovanni .
