@@ -75,7 +75,7 @@ layout: rdf_layout
 				{% assign firstName = p | rdf_property: 'foaf:firstName', nil, true %}
 				{% assign lastName = p | rdf_property: 'foaf:lastName', nil, true %}
 			<li>
-				<a href='{{ f.page_url }}'>{{ firstName }} {{ lastName }}</a>
+				<a href='{{ p.page_url }}'>{{ firstName }} {{ lastName }}</a>
 			</li>
         {% endfor %}
         </ul>
