@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.7.1](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v4.7.0...v4.7.1) (2023-02-27)
+
+
+### Bug Fixes
+
+* **concept:** paradicio correctly attribution ([4df59a5](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/4df59a52fa431b636619ff1d04ca8b001b720cbb))
+
 ## [4.7.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v4.6.0...v4.7.0) (2023-02-25)
 
 
