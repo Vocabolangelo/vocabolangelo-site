@@ -3886,7 +3886,7 @@ vocang:paradicio
     skos:definition "Tipo di paradosso che si riferisce all'impossibilità di accostare aggettivi discordanti  tra loro nella descrizione dell'omnicio."@it;
     skos:example "L'esisenza dell'omnicio è un paradicio."@it;
     dct:created "2023-02-20" ;
-    dct:creator vocang:omiccioliRiccardo .
+    dct:creator vocang:sanchiPiero .
 
 vocang:sognomoto
     a skos:Concept ;
