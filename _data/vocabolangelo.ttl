@@ -3995,3 +3995,12 @@ vocang:prolulunga
     skos:example "La mia console portatile si scarica in fretta, se vogliamo giocare a Patapon nel controsoffito ci servirà una prolulunga."@it;
     dct:created "2023-03-04" ;
     dct:creator vocang:omiccioliRiccardo, vocang:pertosaLorenzo .
+
+vocang:tellulare
+    a skos:Concept ;
+    skos:prefLabel "Tellulare"@it ;
+    lexinfo:pronunciation "/tel • lu • là • re/"@it ;
+    skos:definition "Un telefono cellulare dotato di un motore così potente da generare una vibrazione tale da provocare movimenti tellurici."@it;
+    skos:example "Le persone con disabilità visive potrebbero trovare utile l'utilizzo di un tellulare."@it;
+    dct:created "2023-03-04" ;
+    dct:creator vocang:orlandoNicola, vocang:ribaudoSofia, vocang:pertosaLorenzo .
