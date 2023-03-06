@@ -3968,3 +3968,12 @@ vocang:ombelichino
     skos:example "L'ex di Marianna le ha fatto un ombelichino, ed era pure convinto!"@it;
     dct:created "2023-02-18" ;
     dct:creator vocang:minoccheriAlessandra .
+
+vocang:qualipatata
+    a skos:Concept ;
+    skos:prefLabel "Qualipatata"@it ;
+    lexinfo:pronunciation "/qua • li • pa • tà • ta/"@it ;
+    skos:definition "Qualità carente o inferiore alla media che può essere attribuita a un determinato elemento."@it;
+    skos:example "Era evidente che la merce offerta in quel negozio fosse di qualipatata. Non valeva assolutamente il prezzo richiesto."@it;
+    dct:created "2023-03-05" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:orlandoNicola .
