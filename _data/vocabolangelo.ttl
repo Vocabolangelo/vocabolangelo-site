@@ -4022,3 +4022,12 @@ vocang:brebbia
     skos:example "Che brebbia, meno male che a breve mi faccio un bagno caldo."@it;
     dct:created "2023-03-03" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:fregola
+    a skos:Concept ;
+    skos:prefLabel "Fregola"@it ;
+    lexinfo:pronunciation "/fre • go • la/"@it ;
+    skos:definition "Regola instaurata al fine di imbrogliare qualcuno."@it;
+    skos:example "Alcuni datori di lavoro pervertiti dovrebbero essere denunciati per le fregole che impongono..."@it;
+    dct:created "2023-03-03" ;
+    dct:creator vocang:bragariAlexandru .
