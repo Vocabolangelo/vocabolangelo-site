@@ -3986,3 +3986,12 @@ vocang:tovaglione
     skos:example "È sempre una buona idea fornire un tovaglione a Lorenzo, non è molto bravo a mangiare."@it;
     dct:created "2023-03-05" ;
     dct:creator vocang:orlandoNicola .
+
+vocang:prolulunga
+    a skos:Concept ;
+    skos:prefLabel "Prolulunga"@it ;
+    lexinfo:pronunciation "/pro • lu • lùn • ga/"@it ;
+    skos:definition "Prolunga elettrica molto lunga."@it;
+    skos:example "La mia console portatile si scarica in fretta, se vogliamo giocare a Patapon nel controsoffito ci servirà una prolulunga."@it;
+    dct:created "2023-03-04" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:pertosaLorenzo .
