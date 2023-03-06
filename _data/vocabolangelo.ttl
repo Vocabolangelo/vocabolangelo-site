@@ -4004,3 +4004,12 @@ vocang:tellulare
     skos:example "Le persone con disabilità visive potrebbero trovare utile l'utilizzo di un tellulare."@it;
     dct:created "2023-03-04" ;
     dct:creator vocang:orlandoNicola, vocang:ribaudoSofia, vocang:pertosaLorenzo .
+
+vocang:ravioletti
+    a skos:Concept ;
+    skos:prefLabel "Ravioletto"@it ;
+    lexinfo:pronunciation "/ra • vio • lèt • to/"@it ;
+    skos:definition "Raviolo a forma di spaghetoi, simile ad un bucatino ripieno."@it;
+    skos:example "Oggi ho una gran voglia di ravioletti."@it;
+    dct:created "2023-03-04" ;
+    dct:creator vocang:ribaudoSofia .
