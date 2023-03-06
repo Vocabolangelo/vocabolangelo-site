@@ -4013,3 +4013,12 @@ vocang:ravioletti
     skos:example "Oggi ho una gran voglia di ravioletti."@it;
     dct:created "2023-03-04" ;
     dct:creator vocang:ribaudoSofia .
+
+vocang:brebbia
+    a skos:Concept ;
+    skos:prefLabel "Brebbia"@it ;
+    lexinfo:pronunciation "/brèb • bia/"@it ;
+    skos:definition "Rabbia intensa ma dalla durata molto breve."@it;
+    skos:example "Che brebbia, meno male che a breve mi faccio un bagno caldo."@it;
+    dct:created "2023-03-03" ;
+    dct:creator vocang:omiccioliRiccardo .
