@@ -3977,3 +3977,12 @@ vocang:qualipatata
     skos:example "Era evidente che la merce offerta in quel negozio fosse di qualipatata. Non valeva assolutamente il prezzo richiesto."@it;
     dct:created "2023-03-05" ;
     dct:creator vocang:omiccioliRiccardo, vocang:orlandoNicola .
+
+vocang:tovaglione
+    a skos:Concept ;
+    skos:prefLabel "Tovaglione"@it ;
+    lexinfo:pronunciation "/to • va • glió • ne/"@it ;
+    skos:definition "Tovagliolo molto grande usato al fine di non sporcarsi mentre si mangia."@it;
+    skos:example "È sempre una buona idea fornire un tovaglione a Lorenzo, non è molto bravo a mangiare."@it;
+    dct:created "2023-03-05" ;
+    dct:creator vocang:orlandoNicola .
