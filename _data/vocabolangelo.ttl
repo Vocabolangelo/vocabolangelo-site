@@ -4031,3 +4031,12 @@ vocang:fregola
     skos:example "Alcuni datori di lavoro pervertiti dovrebbero essere denunciati per le fregole che impongono..."@it;
     dct:created "2023-03-03" ;
     dct:creator vocang:bragariAlexandru .
+
+vocang:moridere
+    a skos:Concept ;
+    skos:prefLabel "Moridere"@it ;
+    lexinfo:pronunciation "/mo • rì • de • re/"@it ;
+    skos:definition "Morire dal ridere."@it;
+    skos:example "Ogni volta che Giancarlo parla in quel modo c'è da moridere."@it;
+    dct:created "2023-03-03" ;
+    dct:creator vocang:orlandoNicola, vocang:pertosaLorenzo .
