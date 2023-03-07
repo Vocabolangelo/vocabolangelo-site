@@ -4140,9 +4140,17 @@ vocang:daltonare
 vocang:geomicolo
     a skos:Concept ;
     skos:prefLabel "Geomicolo"@it ;
-    lexinfo:pronunciation "/ge • o • mì • co lo/"@it ;
+    lexinfo:pronunciation "/ge • o • mì • co • lo/"@it ;
     skos:definition "Una configurazione di percorsi tracciati secondo schemi geometrici e disposti in modo da creare una struttura reticolare."@it ;
     skos:example "Venezia è tutta un geomicolo."@it ;
     dct:created "2023-03-06" ;
     dct:creator vocang:minoccheriAlessandra .
  
+ vocang:complecamento
+    a skos:Concept ;
+    skos:prefLabel "Complecamento"@it ;
+    lexinfo:pronunciation "/com • ple • cà • men • to/"@it ;
+    skos:definition "Completamento di una procedura complicata."@it ;
+    skos:example "Dopo il completamento della procedura complicata, si è finalmente raggiunto il risultato desiderato."@it ;
+    dct:created "2023-03-03" ;
+    dct:creator vocang:suscaMatteo, vocang:rosatelliAnna .
