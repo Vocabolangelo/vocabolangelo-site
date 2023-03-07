@@ -4057,3 +4057,11 @@ vocang:handicarrello
     skos:example "In tv ho visto un americano obeso di 3 quintali, faceva una passeggiata utilizzando un handicarrello."@it;
     dct:created "2023-03-02" ;
     dct:creator vocang:salhiSamir .
+
+vocang:bereallo
+    a skos:Concept ;
+    skos:prefLabel "Bereallo"@it ;
+    skos:definition "Sinonimo di Birilleal"@it;
+    skos:example "Ero in autostrada e ho preso in pieno un cantiere a lato della strada, sono sceso e ho fatto un bereallo."@it;
+    dct:created "2023-03-02" ;
+    dct:creator vocang:suscaMatteo .
