@@ -4109,3 +4109,22 @@ vocang:handicartello
     skos:related vocang:handicappello , vocang:handicarrello;
     dct:created "2023-02-27" ;
     dct:creator vocang:salhiSamir .
+
+vocang:patabro
+    a skos:Concept ;
+    skos:prefLabel "Patabro"@it ;
+    lexinfo:pronunciation "/pà • ta • bro/"@it ;
+    skos:definition "Un amico stretto con il quale si gioca al videogioco Patapon."@it ;
+    skos:example "Sasha Lorenzo e Orla sono i miei patabro! Insieme riusciamo a smontare l'ultima fortezza in meno di due minuti!"@it ;
+    dct:created "2023-02-26" ;
+    dct:creator vocang:pertosaLorenzo .
+
+
+vocang:macroscopio
+    a skos:Concept ;
+    skos:prefLabel "Macroscopio"@it ;
+    lexinfo:pronunciation "/ma • cro • scò • pio/"@it ;
+    skos:definition "Un dispositivo ottico impiegato per osservare oggetti di grandi dimensioni in scala ridotta. Lo stesso risultato può essere ottenuto utilizzando un binocolo al contrario."@it ;
+    skos:example "Tua madre è talmente grossa che per guardarla bisogna usare un macroscopio"@it, "Questo monumento è talmente imponente che per guardarlo senza girare la testa è necessario utilizzare un macroscopio"@it ;
+    dct:created "2023-02-25" ;
+    dct:creator vocang:omiccioliRiccardo .
