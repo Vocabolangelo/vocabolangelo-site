@@ -4069,7 +4069,7 @@ vocang:bereallo
 vocang:ploftwist
     a skos:Concept ;
     skos:prefLabel "Plof-twist"@it ;
-    skos:definition "Una flatulenza apparentemente gassosa che invece si manifesta in forma solida."@it;
+    skos:definition "Una flatulenza apparentemente gassosa che invece si manifesta in forma liquida."@it;
     skos:example "La cena con gli amici si è rivelata un disastro quando uno dei commensali ha involontariamente emesso una flatulenza rumorosa. \"Scusate\", ha detto, \"In realtà è un plof-twist\"."@it;
     dct:created "2023-03-01" ;
     dct:creator vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole .
