@@ -4040,3 +4040,12 @@ vocang:moridere
     skos:example "Ogni volta che Giancarlo parla in quel modo c'è da moridere."@it;
     dct:created "2023-03-03" ;
     dct:creator vocang:orlandoNicola, vocang:pertosaLorenzo .
+
+vocang:negroia
+    a skos:Concept ;
+    skos:prefLabel "Negroia"@it ;
+    lexinfo:pronunciation "/ne • gró • ia/"@it ;
+    skos:definition "Persona di colore che prepara alimenti contenenti soia."@it;
+    skos:example "Quel negroia è bravissimo, ci vado quasi tutti i giorni visto che sono flexetariano."@it;
+    dct:created "2023-03-03" ;
+    dct:creator vocang:bragariAlexandru .
