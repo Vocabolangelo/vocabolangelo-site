@@ -4063,6 +4063,7 @@ vocang:bereallo
     skos:prefLabel "Bereallo"@it ;
     skos:definition "Sinonimo di Birilleal."@it;
     skos:example "Ero in autostrada e ho preso in pieno un cantiere a lato della strada, sono sceso e ho fatto un bereallo."@it;
+    skos:synonym vocang:birilleal ;
     dct:created "2023-03-02" ;
     dct:creator vocang:suscaMatteo .
 
@@ -4081,3 +4082,12 @@ vocang:playmix
     skos:example "Per la laurea di Angelo abbiamo realizzato una playmix. Ci divertiremo un mondo a ballare!"@it;
     dct:created "2023-03-01" ;
     dct:creator vocang:rosatelliAnna .
+
+vocang:neutraffè
+    a skos:Concept ;
+    skos:prefLabel "Neutraffè"@it ;
+    lexinfo:pronunciation "/neu • traf • fè/"@it ;
+    skos:definition "Caffè contenente una sostanza depressiva o sedativa disciolta all'interno."@it;
+    skos:example "Mi chiedo cosa possa succedere mischiando neutraffè ed acqorica."@it;
+    dct:created "2023-03-01" ;
+    dct:creator vocang:pertosaLorenzo .
