@@ -4119,7 +4119,6 @@ vocang:patabro
     dct:created "2023-02-26" ;
     dct:creator vocang:pertosaLorenzo .
 
-
 vocang:macroscopio
     a skos:Concept ;
     skos:prefLabel "Macroscopio"@it ;
@@ -4128,3 +4127,12 @@ vocang:macroscopio
     skos:example "Tua madre è talmente grossa che per guardarla bisogna usare un macroscopio"@it, "Questo monumento è talmente imponente che per guardarlo senza girare la testa è necessario utilizzare un macroscopio"@it ;
     dct:created "2023-02-25" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:daltonare
+    a skos:Concept ;
+    skos:prefLabel "Daltonare"@it ;
+    lexinfo:pronunciation "/dal • to • na • re/"@it ;
+    skos:definition "La condizione di essere affetti da daltonismo, limitata esclusivamente ad un'azione o ad un breve periodo di tempo."@it ;
+    skos:example "Ero sicuro di aver preso quello viola, non quello blu. Evidentemente ho daltonato."@it ;
+    dct:created "2023-03-06" ;
+    dct:creator vocang:orlandoNicola .
