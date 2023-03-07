@@ -4061,7 +4061,15 @@ vocang:handicarrello
 vocang:bereallo
     a skos:Concept ;
     skos:prefLabel "Bereallo"@it ;
-    skos:definition "Sinonimo di Birilleal"@it;
+    skos:definition "Sinonimo di Birilleal."@it;
     skos:example "Ero in autostrada e ho preso in pieno un cantiere a lato della strada, sono sceso e ho fatto un bereallo."@it;
     dct:created "2023-03-02" ;
     dct:creator vocang:suscaMatteo .
+
+vocang:ploftwist
+    a skos:Concept ;
+    skos:prefLabel "Plof-twist"@it ;
+    skos:definition "Una flatulenza apparentemente gassosa che invece si manifesta in forma solida."@it;
+    skos:example "La cena con gli amici si è rivelata un disastro quando uno dei commensali ha involontariamente emesso una flatulenza rumorosa. \"Scusate\", ha detto, \"In realtà è un plof-twist\"."@it;
+    dct:created "2023-03-01" ;
+    dct:creator vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole .
