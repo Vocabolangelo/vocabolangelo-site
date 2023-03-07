@@ -4131,7 +4131,7 @@ vocang:macroscopio
 vocang:daltonare
     a skos:Concept ;
     skos:prefLabel "Daltonare"@it ;
-    lexinfo:pronunciation "/dal • to • na • re/"@it ;
+    lexinfo:pronunciation "/dal • to • nà • re/"@it ;
     skos:definition "La condizione di essere affetti da daltonismo, limitata esclusivamente ad un'azione o ad un breve periodo di tempo."@it ;
     skos:example "Ero sicuro di aver preso quello viola, non quello blu. Evidentemente ho daltonato."@it ;
     dct:created "2023-03-06" ;
