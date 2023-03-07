@@ -1,5 +1,38 @@
 # Changelog
 
+## [4.8.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v4.7.1...v4.8.0) (2023-03-07)
+
+
+### Features
+
+* **concept:** add bereallo ([951b9f6](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/951b9f6a6a535b199b1e847b0c1ed118d120693c))
+* **concept:** add brebbia ([ae64d8f](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/ae64d8fe19cd48d3d17d212551faac220cb0c053))
+* **concept:** add complecamento ([068799f](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/068799f6dc4130e677d8bd453cfeb44d0ce0951e))
+* **concept:** add daltonare ([536c59c](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/536c59cfb19c1402610d613b47641aac4f7a7951))
+* **concept:** add fregola ([ed62219](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/ed62219a0c725ce047e03fd1d307156fce7e31f0))
+* **concept:** add geomicolo ([1022de0](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/1022de0085bb2518ceb78d7d1ed1120637ad93dd))
+* **concept:** add handicappello ([68fe879](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/68fe879ca17d6449c369da32455e8d42f0bccd6a))
+* **concept:** add handicarrello ([5410b54](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/5410b54f53ad1fffc385ece7dcf12a7e023defd4))
+* **concept:** add handicartello ([ea54966](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/ea549663be649f78c542fbe74e164ad2188fedd9))
+* **concept:** add macroscopio ([26a4718](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/26a4718ef240f9c3b849f4a705685f361663b90c))
+* **concept:** add moridere ([da1138f](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/da1138f6484c959894c640b5cc649fd2f2545ea1))
+* **concept:** add negroia ([daaff97](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/daaff97ad83545d6958a3f7b3d4369e458cae68f))
+* **concept:** add neutraffè ([1479b5e](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/1479b5e1b7c5b81cf399e42931097800faf996ab))
+* **concept:** add playmix ([a9c860b](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/a9c860b11bce4e990f302d07eaa3a5605bad0605))
+* **concept:** add plof-twist ([4af6a69](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/4af6a692198a03d7462854dff20448e9da93008c))
+* **concept:** add prolulunga ([9ca0765](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/9ca076557aab3610d08f2dd7d5be1b3852d1b3ff))
+* **concept:** add qualipatata ([0bfd570](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/0bfd5704dd8ca55dfeb079175a18bbc5be9a4242))
+* **concept:** add ravioletto ([3d215f4](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/3d215f418298143423093b35c18ddced352e5ce7))
+* **concept:** add tellulare ([74b6e1f](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/74b6e1fdf7550cf126626b76ca9e8e90914f541b))
+* **concept:** add tovaglione ([9991533](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/9991533b4cf30eee2343b4d2c556f7bbebfd8615))
+* **definition:** add additional def to bartello ([626e82c](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/626e82cd12e288e7ef73b2f0cc463ffd9c249fb6))
+* **image:** add another bartello image ([92b992b](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/92b992b1966e743fe8f356f3c4c1ce541f41747f))
+
+
+### Bug Fixes
+
+* **concept:** add missing accent to daltonare ([309ba8a](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/309ba8adfdc0f4f3d83d1889e9d95f24b1cf84a0))
+
 ## [4.7.1](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v4.7.0...v4.7.1) (2023-02-27)
 
 
