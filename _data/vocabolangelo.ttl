@@ -3682,7 +3682,7 @@ vocang:bartello
     lexinfo:pronunciation "/bar • tèl • lo/"@it ;
     skos:definition "Metodo alternativo per riferirsi ad un singolo elemento della famiglia animale Sphyrnidae, ossia uno squalo martello."@it , "Cartello o insegna luminosa che si pone fuori da un bar per attirare la clientela."@it ; 
     skos:example "All'acquario abbiamo visto un bartello. Faceva molta paura!"@it, "Guarda quel bartello come luccica! Andiamo lì ragazzi!"@it ;
-    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/bartello.jpg" ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/bartello.jpg", "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/bartello_1.jpg" ;
     dct:created "2023-02-18" ;
     dct:creator vocang:ribaudoSofia, vocang:filasetaAngelo .
 
