@@ -4097,5 +4097,15 @@ vocang:handicappello
     skos:prefLabel "Handicappello"@it ;
     skos:definition "Un cappello dotato di una tasca interna destinata a contenere un Contrassegno Unificato Disabili Europeo."@it;
     skos:example "Oggi pensavo di aver perso il mio cude, invece era nel mio handicappello!"@it;
+    skos:related vocang:handicarrello;
+    dct:created "2023-02-27" ;
+    dct:creator vocang:salhiSamir .
+
+vocang:handicartello
+    a skos:Concept ;
+    skos:prefLabel "Handicartello"@it ;
+    skos:definition "Un'insegna che indica un'area di parcheggio riservata esclusivamente alle persone con disabilità."@it;
+    skos:example "Non puoi parcheggiare qua, non vedi l'handicartello?"@it;
+    skos:related vocang:handicappello , vocang:handicarrello;
     dct:created "2023-02-27" ;
     dct:creator vocang:salhiSamir .
