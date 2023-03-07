@@ -3064,7 +3064,7 @@ vocang:neurolce
     dct:created "2023-01-27" ;
     dct:creator vocang:omiccioliRiccardo, vocang:bragariAlexandru .
 
-vocang:birrileal
+vocang:birilleal
     a skos:Concept ;
     skos:prefLabel "Birilleal"@it ;
     skos:definition "Foto postata sul social network BeReal in cui compare almeno un birillo."@it ;
@@ -4049,3 +4049,11 @@ vocang:negroia
     skos:example "Quel negroia è bravissimo, ci vado quasi tutti i giorni visto che sono flexetariano."@it;
     dct:created "2023-03-03" ;
     dct:creator vocang:bragariAlexandru .
+
+vocang:handicarrello
+    a skos:Concept ;
+    skos:prefLabel "Handicarrello"@it ;
+    skos:definition "Veicolo a tre ruote impiegato da individui affetti da limitazioni motorie per agevolare il loro spostamento."@it;
+    skos:example "In tv ho visto un americano obeso di 3 quintali, faceva una passeggiata utilizzando un handicarrello."@it;
+    dct:created "2023-03-02" ;
+    dct:creator vocang:salhiSamir .
