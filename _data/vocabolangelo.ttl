@@ -4136,3 +4136,13 @@ vocang:daltonare
     skos:example "Ero sicuro di aver preso quello viola, non quello blu. Evidentemente ho daltonato."@it ;
     dct:created "2023-03-06" ;
     dct:creator vocang:orlandoNicola .
+
+vocang:geomicolo
+    a skos:Concept ;
+    skos:prefLabel "Geomicolo"@it ;
+    lexinfo:pronunciation "/ge • o • mì • co lo/"@it ;
+    skos:definition "Una configurazione di percorsi tracciati secondo schemi geometrici e disposti in modo da creare una struttura reticolare."@it ;
+    skos:example "Venezia è tutta un geomicolo."@it ;
+    dct:created "2023-03-06" ;
+    dct:creator vocang:minoccheriAlessandra .
+ 
