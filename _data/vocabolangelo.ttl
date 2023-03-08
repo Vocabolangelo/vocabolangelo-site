@@ -3684,7 +3684,7 @@ vocang:bartello
     skos:example "All'acquario abbiamo visto un bartello. Faceva molta paura!"@it, "Guarda quel bartello come luccica! Andiamo lì ragazzi!"@it ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/bartello.jpg", "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/bartello_1.jpg" ;
     dct:created "2023-02-18" ;
-    dct:creator vocang:ribaudoSofia, vocang:filasetaAngelo .
+    dct:creator vocang:ribaudoSofia, vocang:filasetaAngelo, vocang:omiccioliRiccardo .
 
 vocang:sbiribillo
     a skos:Concept ;
