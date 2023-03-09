@@ -787,7 +787,7 @@ vocang:arbitroio
     a skos:Concept ;
     skos:prefLabel "Arbitroio"@it ;
     lexinfo:pronunciation "/ar • bi • tro • io/"@it ;
-    skos:definition "Qualcosac che per qualche ragione sconosciuta non funziona sempre anche se dovrebbe."@it ;
+    skos:definition "Qualcosa che per qualche ragione sconosciuta non funziona sempre anche se dovrebbe."@it ;
     skos:example "Il risultato è inaspettato, questa deve essere una regola arbitroia."@it ;
     dct:creator vocang:omiccioliRiccardo .
 
