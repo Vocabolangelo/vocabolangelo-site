@@ -1877,7 +1877,7 @@ vocang:pistaggio
     skos:example "Mario è stato vittima di un pistaggio di gruppo a causa delle sue opinioni controverse."@it,
         "Ti apro con un pistaggio come un pistacchio."@it ;
     dct:created "2022-12-09" ;
-    dct:synonym vocang:pistacchiamento ;
+    scot:synonym vocang:pistacchiamento ;
     dct:creator vocang:omiccioliRiccardo .
 
 vocang:calligrafite
@@ -4063,7 +4063,7 @@ vocang:bereallo
     skos:prefLabel "Bereallo"@it ;
     skos:definition "Sinonimo di Birilleal."@it;
     skos:example "Ero in autostrada e ho preso in pieno un cantiere a lato della strada, sono sceso e ho fatto un bereallo."@it;
-    skos:synonym vocang:birilleal ;
+    scot:synonym vocang:birilleal ;
     dct:created "2023-03-02" ;
     dct:creator vocang:suscaMatteo .
 
