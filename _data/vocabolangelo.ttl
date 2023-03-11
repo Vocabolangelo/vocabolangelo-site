@@ -941,7 +941,6 @@ vocang:abbecedangelo
 vocang:cappucciccia
     a skos:Concept ;
     skos:prefLabel "Cappucciccia"@it ;
-
     lexinfo:pronunciation "/cap • puc • cic • cia/"@it ;
     skos:definition "Salsiccia imbevuta nel cappuccino."@it ;
     skos:example "Non voglio mai mangiare una cappucciccia in vita mia."@it ;
@@ -4179,3 +4178,14 @@ vocang:geomicolo
     skos:example "La polizia ha rinvenuto il corpo e ha subito sospettato che la causa della morte fosse attribuibile ad un cappuccido."@it ;
     dct:created "2023-03-10" ;
     dct:creator vocang:pertosaLorenzo .
+
+ vocang:cappurillo
+    a skos:Concept ;
+    skos:prefLabel "Cappurillo"@it ;
+    lexinfo:pronunciation "/cap • pu • rìl • lo/"@it ;
+    skos:definition "Un cappuccino in cui l'ingrediente del caffè è rimpiazzato con il cafferillo."@it ;
+    skos:example "Il cappurillo risulta molto più pesante del cafferillo, ma personalmente apprezzo molto di più il suo gusto."@it ;
+    skos:related vocang:cafferillo ;
+    dct:created "2023-03-11" ;
+    dct:creator vocang:filasetaAngelo .
+
