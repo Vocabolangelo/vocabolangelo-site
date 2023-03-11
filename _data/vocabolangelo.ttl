@@ -4228,3 +4228,12 @@ vocang:geomicolo
     skos:example "Mio fratello ha cercato di usare una chiave inglese come martello, ma alla fine è stato costretto a comprare un nuovo strumento per riparare il danno causato dalla sua strumentisvoglia."@it ;
     dct:created "2023-03-08" ;
     dct:creator vocang:omiccioliRiccardo, vocang:chatGPT .
+
+ vocang:oncolotto
+    a skos:Concept ;
+    skos:prefLabel "Oncolotto"@it ;
+    lexinfo:pronunciation "/on • co • lòt • to/"@it ;
+    skos:definition "Termine denigratorio/dispregiativo utilizzato verso una persona malata di tumore."@it ;
+    skos:example "Quell'oncolotto augurava il cancro a tutti in chat globale su quel gioco di ruolo, ma alla fine l'ha preso lui."@it ;
+    dct:created "2023-03-10" ;
+    dct:creator vocang:orlandoNicola, vocang:bermucaMorena .
