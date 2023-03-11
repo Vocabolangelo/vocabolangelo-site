@@ -4204,3 +4204,14 @@ vocang:geomicolo
     skos:example "Ho scritto la password sbagliata per la quinta volta di fila, perché non avevo notato che avevo attivato il caps lock e stavo scrivendo un capslockello."@it ;
     dct:created "2023-03-08" ;
     dct:creator vocang:omiccioliRiccardo, vocang:chatGPT .
+
+ vocang:mattinasso
+    a skos:Concept ;
+    skos:prefLabel "Mattinasso"@it ;
+    lexinfo:pronunciation "/mat • ti • nàs • so/"@it ;
+    skos:definition "Sensazione di fastidio o irritazione che si prova quando si viene svegliati in modo inaspettato e rumoroso al mattino presto. Questa situazione può essere causata da lavori in corso, rumori provenienti da vicini poco rispettosi o altri fattori esterni che disturbano il sonno e causano una sensazione di stress e tensione al risveglio."@it ;
+    skos:example "Stamattina mi sono svegliato con un forte mattinasso dovuto ai lavori in corso nella strada, non sono riuscito a riprendere sonno e ora sono stanco e irritato."@it ;
+    dct:created "2023-03-08" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:chatGPT .
+
+
