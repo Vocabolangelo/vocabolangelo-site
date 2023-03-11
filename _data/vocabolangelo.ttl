@@ -4170,3 +4170,12 @@ vocang:geomicolo
     skos:example "Questa è stata un'autentica settinana per me: tra il lavoro, gli impegni familiari e sociali, ho appena avuto il tempo di respirare! Sembra passata in un attimo, ma allo stesso tempo mi sembra di aver vissuto mille esperienze diverse."@it ;
     dct:created "2023-03-10" ;
     dct:creator vocang:omiccioliRiccardo .
+
+ vocang:cappuccido
+    a skos:Concept ;
+    skos:prefLabel "Cappuccido"@it ;
+    lexinfo:pronunciation "/cap • puc • cì • do/"@it ;
+    skos:definition "Un cappuccino avvelenato."@it ;
+    skos:example "La polizia ha rinvenuto il corpo e ha subito sospettato che la causa della morte fosse attribuibile ad un cappuccido."@it ;
+    dct:created "2023-03-10" ;
+    dct:creator vocang:pertosaLorenzo .
