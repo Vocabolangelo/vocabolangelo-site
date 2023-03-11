@@ -1,5 +1,30 @@
 # Changelog
 
+## [4.9.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v4.8.0...v4.9.0) (2023-03-11)
+
+
+### Features
+
+* **ArtificalIntelligence:** add ChatGPT ([d8f50ee](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/d8f50ee5399c25a2ed48956c056194a4847cad99))
+* **concept:** add babubì ([fd9f53f](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/fd9f53fd9de7e42d11c34b9c27b6998734bb5629))
+* **concept:** add baburibì ([c6c3aa2](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/c6c3aa2c4295b8b9a2e851116c1f0c4673cd5dca))
+* **concept:** add cappuccido ([65e9c76](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/65e9c767a7452d626495121dbda7dd1ae7b7e338))
+* **concept:** add cappurillo ([f4b0f19](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/f4b0f19d2aa27adb3ca6b8635686aa15f46ffce7))
+* **concept:** add capslockello ([f5caaf9](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/f5caaf99adc15904a521e01df8fed1e0c642a2ec))
+* **concept:** add gradiro ([3dd0133](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/3dd01330ae155f059f933de43f6fd3634198b060))
+* **concept:** add mattinasso ([7894a03](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/7894a0366faab2218ccc604b1e0e04264f94ad03))
+* **concept:** add oncolotto ([15027a8](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/15027a8b92ee955d6cd8f61955b87a55d721acec))
+* **concept:** add settinana ([361b188](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/361b188fa7b9701512cd1658f0b4fa64e8bfa3f2))
+* **concept:** add strumentisvoglia ([ac2cd52](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/ac2cd5215dc9a7771dd6204e5e884723ab1b3aae))
+* **person:** add bermucaMorena ([b540a17](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/b540a17973c0aa637f106e108f46ab58a4a516b2))
+* **site:** add disclaimer ([fc1383b](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/fc1383b6f2934887e8eb3918a65dd18f67f23712))
+
+
+### Bug Fixes
+
+* **concept:** correct arbitroio definition ([fc19ac6](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/fc19ac648c205d26c387824a1dd5d37b6d4277a6))
+* **concept:** correct synonim prefix ([3c87132](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/3c87132ad7a7dd8c7399d61fd8179df7f8c3d8bb))
+
 ## [4.8.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v4.7.1...v4.8.0) (2023-03-07)
 
 
