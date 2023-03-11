@@ -293,6 +293,12 @@ vocang:sanchiPiero
     foaf:firstName "Piero" ;
     foaf:lastName "Sanchi" .
 
+vocang:bermucaMorena
+    a foaf:Person ;
+    foaf:firstName "Morena" ;
+    foaf:lastName "Bermuca" ;
+    rel:friendOf vocang:orlandoNicola .
+
 # Other Author Individuals
 
 vocang:chatGPT
