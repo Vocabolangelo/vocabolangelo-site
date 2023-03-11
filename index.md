@@ -13,6 +13,7 @@ rdf_prefix_path: "_data/prefixes.sparql"
 	</head>
 	<body class="is-preload">
 	{% include header.md %}
+	{% include disclaimer.md %}
 		<div id="wrapper" class="divided">
 			{% include sections/intro.md %}
 			{% include sections/counter.md %}
