@@ -4161,3 +4161,12 @@ vocang:geomicolo
     skos:example "Dopo il completamento della procedura complicata, si è finalmente raggiunto il risultato desiderato."@it ;
     dct:created "2023-03-03" ;
     dct:creator vocang:suscaMatteo, vocang:rosatelliAnna .
+
+ vocang:settinana
+    a skos:Concept ;
+    skos:prefLabel "Settinana"@it ;
+    lexinfo:pronunciation "/set • ti • nà • na/"@it ;
+    skos:definition "Settimana caratterizzata da una particolare brevità, che pare scorrere con celerità, anche a causa dell'abbondanza di impegni e avvenimenti che la rendono densa ed intensa."@it ;
+    skos:example "Questa è stata un'autentica settinana per me: tra il lavoro, gli impegni familiari e sociali, ho appena avuto il tempo di respirare! Sembra passata in un attimo, ma allo stesso tempo mi sembra di aver vissuto mille esperienze diverse."@it ;
+    dct:created "2023-03-10" ;
+    dct:creator vocang:omiccioliRiccardo .
