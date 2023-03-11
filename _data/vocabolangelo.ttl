@@ -4187,3 +4187,12 @@ vocang:geomicolo
     skos:example "La mia amica è così dolce e carina, è proprio una babubi quando parla con la sua voce acuta e ha quel sorriso sempre stampato sul viso."@it ;
     dct:created "2023-03-08" ;
     dct:creator vocang:filasetaAngelo .
+
+ vocang:baburibì
+    a skos:Concept ;
+    skos:prefLabel "Baburibì"@it ;
+    lexinfo:pronunciation "/ba • bu • ri • bi/"@it ;
+    skos:definition "Una babubi che soggiorna in un biribì."@it ;
+    skos:example "Povera baburibì, è così bella, gentile, e si comporta così ingenuamente. Non ha ancora realizzato che presto il cancro la porterà via..."@it ;
+    dct:created "2023-03-08" ;
+    dct:creator vocang:filasetaAngelo .
