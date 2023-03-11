@@ -2937,12 +2937,12 @@ vocang:lagguglia
     skos:related vocang:laggugliare ;
     dct:creator vocang:pertosaLorenzo .
 
-vocang:amiagolanti
+vocang:amiagolante
     a skos:Concept ;
-    skos:prefLabel "Amiagolanti"@it ;
+    skos:prefLabel "Amiagolante"@it ;
     lexinfo:pronunciation "/a • mia • go • làn • ti/"@it ;
-    skos:definition "La luce riflessa sugli occhi dei gatti al buio."@it ;
-    skos:example "Ho visto due amiagolanti nella notte, o avuto paura."@it ;
+    skos:definition "Occhio di gatto nel buio che risulta molto luminoso a causa del riflesso causato da una fonte di luce."@it ;
+    skos:example "Ho visto due amiagolanti nella notte, ho molta paura perché inizialmente non avevo capito fosse Kiri."@it ;
     dct:created "2023-01-21" ;
     dct:creator vocang:savoGiorgia .
 
