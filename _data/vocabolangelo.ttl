@@ -4235,6 +4235,7 @@ vocang:geomicolo
     lexinfo:pronunciation "/on • co • lòt • to/"@it ;
     skos:definition "Termine denigratorio/dispregiativo utilizzato verso una persona malata di tumore."@it ;
     skos:example "Quell'oncolotto augurava il cancro a tutti in chat globale su quel gioco di ruolo, ma alla fine l'ha preso lui."@it ;
+    skos:note "Questa è la prima parola inventata da Morena che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
     dct:created "2023-03-10" ;
     dct:creator vocang:orlandoNicola, vocang:bermucaMorena .
 
