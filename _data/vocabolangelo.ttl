@@ -4237,3 +4237,12 @@ vocang:geomicolo
     skos:example "Quell'oncolotto augurava il cancro a tutti in chat globale su quel gioco di ruolo, ma alla fine l'ha preso lui."@it ;
     dct:created "2023-03-10" ;
     dct:creator vocang:orlandoNicola, vocang:bermucaMorena .
+
+ vocang:gradiro
+    a skos:Concept ;
+    skos:prefLabel "Gradiro"@it ;
+    lexinfo:pronunciation "/gra • dì • ro/"@it ;
+    skos:definition "Grattino gradito."@it ;
+    skos:example "Avrei tanto bisogno di gradiri per rilassarmi...  Non c'è nessuno che vuole farmeli?"@it ;
+    dct:created "2023-03-09" ;
+    dct:creator vocang:bragariAlexandru, vocang:battaglinoNicole .
