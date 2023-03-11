@@ -4179,13 +4179,11 @@ vocang:geomicolo
     dct:created "2023-03-10" ;
     dct:creator vocang:pertosaLorenzo .
 
- vocang:cappurillo
+ vocang:babubì
     a skos:Concept ;
-    skos:prefLabel "Cappurillo"@it ;
-    lexinfo:pronunciation "/cap • pu • rìl • lo/"@it ;
-    skos:definition "Un cappuccino in cui l'ingrediente del caffè è rimpiazzato con il cafferillo."@it ;
-    skos:example "Il cappurillo risulta molto più pesante del cafferillo, ma personalmente apprezzo molto di più il suo gusto."@it ;
-    skos:related vocang:cafferillo ;
-    dct:created "2023-03-11" ;
+    skos:prefLabel "Babubì"@it ;
+    lexinfo:pronunciation "/ba • bu • bi/"@it ;
+    skos:definition "Una ragazza molto gentile che utilizza un modo di parlare e un comportamento simili a quelli di una bambina."@it ;
+    skos:example "La mia amica è così dolce e carina, è proprio una babubi quando parla con la sua voce acuta e ha quel sorriso sempre stampato sul viso."@it ;
+    dct:created "2023-03-08" ;
     dct:creator vocang:filasetaAngelo .
-
