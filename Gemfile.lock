@@ -230,7 +230,7 @@ GEM
     tilt (2.0.10)
     unicode-display_width (1.8.0)
     unicode-types (1.7.0)
-    webrick (1.7.0)
+    webrick (1.8.1)
 
 PLATFORMS
   ruby
