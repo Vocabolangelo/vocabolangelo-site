@@ -4619,3 +4619,12 @@ vocang:coscista
     skos:example "I coscisti sono veramente bravi. Sono in grado di identificare in quale posizione della coscia si trovano le varie note musicali!";
     dct:created "2023-03-18" ;
     dct:creator vocang:rosatelliAnna, vocang:nardiniArianna, vocang:orlandoNicola .
+
+vocang:fintomo
+    a skos:Concept ;
+    skos:prefLabel "Fintomo"@it ;
+    lexinfo:pronunciation "/fìn • to • mo/"@it ;
+    skos:definition "Un sintomo simulato, senza basi mediche, al fine di ingannare gli altri circa la presenza di una malattia inesistente."@it ;
+    skos:example "Ogni tanto non vado a scuola grazie ai fintomi dell'influenza.";
+    dct:created "2023-03-12" ;
+    dct:creator vocang:orlandoNicola .
