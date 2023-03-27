@@ -4327,3 +4327,11 @@ vocang:geomicolo
     skos:example "Avrei dovuto ascoltare il mio istinto e optare per la strumentisvoglia, invece di acquistare al bricock questo cacciavite che si è piegato in due mentre stavo avvitando la terza vite."@it ;
     dct:created "2023-03-17" ;
     dct:creator vocang:omiccioliRiccardo .
+
+ vocang:minello
+    a skos:Concept ;
+    skos:prefLabel "Minello"@it ;
+    skos:definition "Un anello di piccole dimensioni."@it ;
+    skos:example "Ho comprato un bel minello per la mia nipotina, le piacerà sicuramente."@it, "Il minello che mi hai regalato mi sta perfettamente al dito mignolo."@it ;
+    dct:created "2023-03-17" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
