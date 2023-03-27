@@ -4618,6 +4618,7 @@ vocang:coscista
     skos:definition "Persona che suona il cosciofono."@it ;
     skos:example "I coscisti sono veramente bravi. Sono in grado di identificare in quale posizione della coscia si trovano le varie note musicali!";
     dct:created "2023-03-18" ;
+    skos:related vocang:cosciofono ;
     dct:creator vocang:rosatelliAnna, vocang:nardiniArianna, vocang:orlandoNicola .
 
 vocang:fintomo
