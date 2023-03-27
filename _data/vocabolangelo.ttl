@@ -4463,3 +4463,12 @@ vocang:geomicolo
     skos:definition "Bambino residente nelle immediate vicinanze, il quale tende ad arrecare disturbo alla quiete pubblica attraverso attività ludiche rumorose o grida."@it ;
     skos:example "Lorenzo stava dormendo quando ha sentito delle urla infantili fuori, cosicchè ha preso la carabina ad aria compressa ed è uscito ad impallinare i bambinicini" ;
     dct:creator vocang:scattoniAlessandra, vocang:pertosaLorenzo .
+
+ vocang:kebabbilogia
+    a skos:Concept ;
+    skos:prefLabel "Kebabbilogia"@it ;
+    skos:definition "Business Intelligence applicata alla kebabbologia."@it ;
+    skos:example "Grazie al sistema di kababbilogia che creeremo saremo in grado di fornire i migliori kebab a tutte le nostre catene in base ai gusti delle persone in quelle zone del mondo."@it ;
+    dct:created "2023-03-27" ;
+    skos:related vocang:kebabbologia , vocang:kebabbologo ;
+    dct:creator vocang:filasetaAngelo .
