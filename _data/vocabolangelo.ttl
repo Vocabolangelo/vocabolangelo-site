@@ -4446,3 +4446,12 @@ vocang:geomicolo
     skos:example "Lo sanno ben poche persone ma Raja ama la kebabbologia. Solo dopo anni di sperimentazioni è riuscito a sviluppare la sua salsa piccante segreta."@it ;
     dct:created "2023-03-24" ;
     dct:creator vocang:pertosaLorenzo .
+
+ vocang:kebabbologo
+    a skos:Concept ;
+    skos:prefLabel "Kebabbologo"@it ;
+    skos:definition "Scienziato che si occupa principalmente di kebabbologia."@it ;
+    skos:example "Lo sanno ben poche persone ma Raja è un kebabbologo. Solo dopo anni di sperimentazioni è riuscito a sviluppare la sua salsa piccante segreta."@it ;
+    dct:created "2023-03-24" ;
+    skos:related vocang:kebabbologia ;
+    dct:creator vocang:pertosaLorenzo .
