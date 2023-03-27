@@ -4455,3 +4455,11 @@ vocang:geomicolo
     dct:created "2023-03-24" ;
     skos:related vocang:kebabbologia ;
     dct:creator vocang:pertosaLorenzo .
+
+ vocang:bambinicino
+    a skos:Concept ;
+    skos:prefLabel "Bambinicino"@it ;
+    lexinfo:pronunciation "/bam • bi • ni • cì • no/"@it ;
+    skos:definition "Bambino residente nelle immediate vicinanze, il quale tende ad arrecare disturbo alla quiete pubblica attraverso attività ludiche rumorose o grida."@it ;
+    skos:example "Lorenzo stava dormendo quando ha sentito delle urla infantili fuori, cosicchè ha preso la carabina ad aria compressa ed è uscito ad impallinare i bambinicini" ;
+    dct:creator vocang:scattoniAlessandra, vocang:pertosaLorenzo .
