@@ -4292,3 +4292,13 @@ vocang:geomicolo
     skos:example "Avevo pochi ingredienti quindi oggi ho mangiato un delizioso insalamix con ceci, carote, mais e tonno, il tutto condito con olio extravergine d'oliva e aceto balsamico."@it ;
     dct:created "2023-03-14" ;
     dct:creator vocang:omiccioliRiccardo .
+
+ vocang:pizzotto
+    a skos:Concept ;
+    skos:prefLabel "Pizzotto"@it ;
+    lexinfo:pronunciation "/piz • zòt • to/"@it ;
+    skos:definition "Una pizza che presenta una consistenza molto dura e croccante in modo eccessivo, risultando difficile da masticare e digerire."@it ;
+    skos:example "Non so se andare a mangiare la pizza da Mario stasera, l'ultima volta che ci sono stato il loro nuovo forno ha cotto le pizze troppo a lungo e sono diventate tutte dei pizzotti."@it ;
+    skos:related vocang:frisbidina ;
+    dct:created "2023-03-14" ;
+    dct:creator vocang:omiccioliRiccardo .
