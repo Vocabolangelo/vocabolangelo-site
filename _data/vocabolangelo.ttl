@@ -4178,7 +4178,7 @@ vocang:geomicolo
     dct:created "2023-03-06" ;
     dct:creator vocang:minoccheriAlessandra .
  
- vocang:complecamento
+vocang:complecamento
     a skos:Concept ;
     skos:prefLabel "Complecamento"@it ;
     lexinfo:pronunciation "/com • ple • cà • men • to/"@it ;
@@ -4187,7 +4187,7 @@ vocang:geomicolo
     dct:created "2023-03-03" ;
     dct:creator vocang:suscaMatteo, vocang:rosatelliAnna .
 
- vocang:settinana
+vocang:settinana
     a skos:Concept ;
     skos:prefLabel "Settinana"@it ;
     lexinfo:pronunciation "/set • ti • nà • na/"@it ;
@@ -4196,7 +4196,7 @@ vocang:geomicolo
     dct:created "2023-03-10" ;
     dct:creator vocang:omiccioliRiccardo .
 
- vocang:cappuccido
+vocang:cappuccido
     a skos:Concept ;
     skos:prefLabel "Cappuccido"@it ;
     lexinfo:pronunciation "/cap • puc • cì • do/"@it ;
@@ -4205,7 +4205,7 @@ vocang:geomicolo
     dct:created "2023-03-10" ;
     dct:creator vocang:pertosaLorenzo .
 
- vocang:babubì
+vocang:babubì
     a skos:Concept ;
     skos:prefLabel "Babubì"@it ;
     lexinfo:pronunciation "/ba • bu • bi/"@it ;
@@ -4214,7 +4214,7 @@ vocang:geomicolo
     dct:created "2023-03-08" ;
     dct:creator vocang:filasetaAngelo .
 
- vocang:baburibì
+vocang:baburibì
     a skos:Concept ;
     skos:prefLabel "Baburibì"@it ;
     lexinfo:pronunciation "/ba • bu • ri • bi/"@it ;
@@ -4223,7 +4223,7 @@ vocang:geomicolo
     dct:created "2023-03-08" ;
     dct:creator vocang:filasetaAngelo .
 
- vocang:capslockello
+vocang:capslockello
     a skos:Concept ;
     skos:prefLabel "Capslockello"@it ;
     skos:definition "Una parola scritta con la prima lettera minuscola e tutte le altre lettere in maiuscolo, a causa dell'attivazione involontaria del tasto \"Caps Lock\" sulla tastiera del computer o del dispositivo utilizzato per la digitazione. Questo tipo di errore di battitura è abbastanza comune, soprattutto quando si digita in modo distratto o si ha fretta."@it ;
@@ -4231,7 +4231,7 @@ vocang:geomicolo
     dct:created "2023-03-08" ;
     dct:creator vocang:omiccioliRiccardo, vocang:chatGPT .
 
- vocang:mattinasso
+vocang:mattinasso
     a skos:Concept ;
     skos:prefLabel "Mattinasso"@it ;
     lexinfo:pronunciation "/mat • ti • nàs • so/"@it ;
@@ -4240,7 +4240,7 @@ vocang:geomicolo
     dct:created "2023-03-08" ;
     dct:creator vocang:omiccioliRiccardo, vocang:chatGPT .
 
- vocang:strumentisvoglia
+vocang:strumentisvoglia
     a skos:Concept ;
     skos:prefLabel "Strumentisvoglia"@it ;
     lexinfo:pronunciation "/mat • ti • nàs • so/"@it ;
@@ -4249,7 +4249,7 @@ vocang:geomicolo
     dct:created "2023-03-08" ;
     dct:creator vocang:omiccioliRiccardo, vocang:chatGPT .
 
- vocang:oncolotto
+vocang:oncolotto
     a skos:Concept ;
     skos:prefLabel "Oncolotto"@it ;
     lexinfo:pronunciation "/on • co • lòt • to/"@it ;
@@ -4259,7 +4259,7 @@ vocang:geomicolo
     dct:created "2023-03-10" ;
     dct:creator vocang:orlandoNicola, vocang:bermucaMorena .
 
- vocang:gradiro
+vocang:gradiro
     a skos:Concept ;
     skos:prefLabel "Gradiro"@it ;
     lexinfo:pronunciation "/gra • dì • ro/"@it ;
@@ -4268,7 +4268,7 @@ vocang:geomicolo
     dct:created "2023-03-09" ;
     dct:creator vocang:bragariAlexandru, vocang:battaglinoNicole .
 
- vocang:cerebricanto
+vocang:cerebricanto
     a skos:Concept ;
     skos:prefLabel "Cerebricanto"@it ;
     lexinfo:pronunciation "/ce • re • bri • càn • to/"@it ;
@@ -4277,7 +4277,7 @@ vocang:geomicolo
     dct:created "2023-03-11" ;
     dct:creator vocang:omiccioliRiccardo, vocang:chatGPT .
 
- vocang:gappuccino
+vocang:gappuccino
     a skos:Concept ;
     skos:prefLabel "Gappuccino"@it ;
     lexinfo:pronunciation "/gap • puc • cì • no/"@it ;
@@ -4287,7 +4287,7 @@ vocang:geomicolo
     dct:created "2023-03-09" ;
     dct:creator vocang:omiccioliRiccardo .
 
- vocang:bibigliettino
+vocang:bibigliettino
     a skos:Concept ;
     skos:prefLabel "Bibiglietto"@it ;
     lexinfo:pronunciation "/bi • bi • gliét • to/"@it ;
@@ -4296,7 +4296,7 @@ vocang:geomicolo
     dct:created "2023-03-11" ;
     dct:creator vocang:pertosaLorenzo .
 
- vocang:operatroia
+vocang:operatroia
     a skos:Concept ;
     skos:prefLabel "Operatroia"@it ;
     lexinfo:pronunciation "/o • pe • ra • trò • ia/"@it ;
@@ -4305,7 +4305,7 @@ vocang:geomicolo
     dct:created "2023-03-12" ;
     dct:creator vocang:omiccioliRiccardo .
 
- vocang:insalamix
+vocang:insalamix
     a skos:Concept ;
     skos:prefLabel "Insalamix"@it ;
     skos:definition "Un piatto composto da un mix di verdure e legumi cotti o crudi dove l'insalata non è un ingredente obbligatorio. Talvolta vengono anche aggiunti tonno in scatola e semi oleosi per arricchire la varietà di sapori e le consistenze."@it ;
@@ -4313,7 +4313,7 @@ vocang:geomicolo
     dct:created "2023-03-14" ;
     dct:creator vocang:omiccioliRiccardo .
 
- vocang:pizzotto
+vocang:pizzotto
     a skos:Concept ;
     skos:prefLabel "Pizzotto"@it ;
     lexinfo:pronunciation "/piz • zòt • to/"@it ;
@@ -4323,7 +4323,7 @@ vocang:geomicolo
     dct:created "2023-03-14" ;
     dct:creator vocang:omiccioliRiccardo .
 
- vocang:meka
+vocang:meka
     a skos:Concept ;
     skos:prefLabel "Meka"@it ;
     skos:definition "Una moka dalle grandi dimensioni, in grado di preparare una quantità di caffè superiore alle 12 tazzine in una sola volta."@it ;
@@ -4332,7 +4332,7 @@ vocang:geomicolo
     dct:created "2023-03-15" ;
     dct:creator vocang:omiccioliRiccardo, vocang:pertosaLorenzo .
 
- vocang:cedrink
+vocang:cedrink
     a skos:Concept ;
     skos:prefLabel "Cedrink"@it ;
     skos:definition "Una bevanda o drink che contiene cedrata o cedro, spesso utilizzata come ingrediente per conferire un sapore fresco e agrumato alla miscela."@it ;
@@ -4340,7 +4340,7 @@ vocang:geomicolo
     dct:created "2023-03-16" ;
     dct:creator vocang:omiccioliRiccardo .
 
- vocang:bricock
+vocang:bricock
     a skos:Concept ;
     skos:prefLabel "Bricock"@it ;
     skos:definition "Un negozio di bricolage e fai da te che vende articoli a bassissimo costo, anche se di pessima qualità. Questo termine può riferirsi anche al reparto fai da te presente nei supermercati o altri negozi che vendono principalmente prodotti non correlati. L'obiettivo di un bricock è offrire soluzioni economiche per i lavori domestici fai da te, facendo credere di aver apparentemente acquistato lo strumento adeguato, ma che in realtà si rivela inadatto."@it ;
@@ -4348,7 +4348,7 @@ vocang:geomicolo
     dct:created "2023-03-17" ;
     dct:creator vocang:omiccioliRiccardo .
 
- vocang:minello
+vocang:minello
     a skos:Concept ;
     skos:prefLabel "Minello"@it ;
     lexinfo:pronunciation "/mi • nèl • lo/"@it ;
@@ -4357,7 +4357,7 @@ vocang:geomicolo
     dct:created "2023-03-17" ;
     dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
 
- vocang:limonello
+vocang:limonello
     a skos:Concept ;
     skos:prefLabel "Limonello"@it ;
     lexinfo:pronunciation "/li • mo • nèl • lo/"@it ;
@@ -4366,7 +4366,7 @@ vocang:geomicolo
     dct:created "2023-03-17" ;
     dct:creator vocang:omiccioliRiccardo, vocang:bragariAlexandru .
 
- vocang:pompinazione
+vocang:pompinazione
     a skos:Concept ;
     skos:prefLabel "Pompinazione"@it ;
     lexinfo:pronunciation "/pom • pi • na • zió • ne/"@it ;
@@ -4375,7 +4375,7 @@ vocang:geomicolo
     dct:created "2023-03-18" ;
     dct:creator vocang:pertosaLorenzo .
 
- vocang:pennanerillo
+vocang:pennanerillo
     a skos:Concept ;
     skos:prefLabel "Pennanerillo"@it ;
     lexinfo:pronunciation "/pen • na • ne • rìl • lo/"@it ;
@@ -4384,7 +4384,7 @@ vocang:geomicolo
     dct:created "2023-03-18" ;
     dct:creator vocang:filasetaAngelo .
 
- vocang:termosifino
+vocang:termosifino
     a skos:Concept ;
     skos:prefLabel "Termosifino"@it ;
     lexinfo:pronunciation "/ter • mo • si • fì • no/"@it ;
@@ -4394,7 +4394,7 @@ vocang:geomicolo
     dct:created "2023-03-18" ;
     dct:creator vocang:omiccioliRiccardo .
 
- vocang:mucchiotto
+vocang:mucchiotto
     a skos:Concept ;
     skos:prefLabel "Mucchiotto"@it ;
     lexinfo:pronunciation "/muc • chiòt • to/"@it ;
@@ -4403,7 +4403,7 @@ vocang:geomicolo
     dct:created "2023-03-18" ;
     dct:creator vocang:ribaudoSofia .
 
- vocang:violare
+vocang:violare
     a skos:Concept ;
     skos:prefLabel "Violare"@it ;
     lexinfo:pronunciation "/vio • là • re/"@it ;
@@ -4412,7 +4412,7 @@ vocang:geomicolo
     dct:created "2023-03-19" ;
     dct:creator vocang:pertosaLorenzo, vocang:minoccheriAlessandra .
 
- vocang:biconare
+vocang:biconare
     a skos:Concept ;
     skos:prefLabel "Biconare"@it ;
     lexinfo:pronunciation "/bi • co • nà • re/"@it ;
@@ -4421,7 +4421,7 @@ vocang:geomicolo
     dct:created "2023-03-22" ;
     dct:creator vocang:pertosaLorenzo, vocang:scattoniAlessandra .
 
- vocang:antistamicio
+vocang:antistamicio
     a skos:Concept ;
     skos:prefLabel "Antistamicio"@it ;
     lexinfo:pronunciation "/an • ti • sta • mì • cio/"@it ;
@@ -4430,7 +4430,7 @@ vocang:geomicolo
     dct:created "2023-03-23" ;
     dct:creator vocang:nardiniArianna .
 
- vocang:nutriscere
+vocang:nutriscere
     a skos:Concept ;
     skos:prefLabel "Nutriscere"@it ;
     lexinfo:pronunciation "/nu • trì • sce • re/"@it ;
@@ -4439,7 +4439,7 @@ vocang:geomicolo
     dct:created "2023-03-24" ;
     dct:creator vocang:badialiLorenzo, vocang:houshanSoheil .
 
- vocang:kebabbologia
+vocang:kebabbologia
     a skos:Concept ;
     skos:prefLabel "Kebabbologia"@it ;
     skos:definition "Scienza che si occupa della formulazione dei kebab e del raccogliere dati sulle preferenze e gusti delle persone a riguardo."@it ;
@@ -4447,7 +4447,7 @@ vocang:geomicolo
     dct:created "2023-03-24" ;
     dct:creator vocang:pertosaLorenzo .
 
- vocang:kebabbologo
+vocang:kebabbologo
     a skos:Concept ;
     skos:prefLabel "Kebabbologo"@it ;
     skos:definition "Scienziato che si occupa principalmente di kebabbologia."@it ;
@@ -4456,7 +4456,7 @@ vocang:geomicolo
     skos:related vocang:kebabbologia ;
     dct:creator vocang:pertosaLorenzo .
 
- vocang:bambinicino
+vocang:bambinicino
     a skos:Concept ;
     skos:prefLabel "Bambinicino"@it ;
     lexinfo:pronunciation "/bam • bi • ni • cì • no/"@it ;
@@ -4464,7 +4464,7 @@ vocang:geomicolo
     skos:example "Lorenzo stava dormendo quando ha sentito delle urla infantili fuori, cosicchè ha preso la carabina ad aria compressa ed è uscito ad impallinare i bambinicini" ;
     dct:creator vocang:scattoniAlessandra, vocang:pertosaLorenzo .
 
- vocang:kebabbilogia
+vocang:kebabbilogia
     a skos:Concept ;
     skos:prefLabel "Kebabbilogia"@it ;
     skos:definition "Business Intelligence applicata alla kebabbologia."@it ;
@@ -4473,10 +4473,25 @@ vocang:geomicolo
     skos:related vocang:kebabbologia , vocang:kebabbologo ;
     dct:creator vocang:filasetaAngelo .
 
- vocang:nefischio
+vocang:nefischio
     a skos:Concept ;
     skos:prefLabel "Nefischio"@it ;
     lexinfo:pronunciation "/ne • fìs • chio/"@it ;
     skos:definition "Suono emesso da una o più persone quando qualcuno scivola su uno strato di ghiaccio o neve mezza sciolta, generalmente di natura comica."@it ;
     skos:example "Camminavo allegramente per strada quando ho sentito un nefischio, mi sono girato sperando fosse tutto apposto e ho visto Riccardo per terra e Nicole che rideva." ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:polpanino
+    a skos:Concept ;
+    skos:prefLabel "Polpanino"@it ;
+    lexinfo:pronunciation "/pol • pa • nì • no/"@it ;
+    skos:definition "Panino contenente tra i suoi ingredienti del polpo."@it ;
+    skos:example "Il polpanino dello street food era incredibilmente buono." ;
+    dct:creator vocang:minoccheriAlessandra .
+vocang:polpanino
+    a skos:Concept ;
+    skos:prefLabel "Polpanino"@it ;
+    lexinfo:pronunciation "/pol • pa • nì • no/"@it ;
+    skos:definition "Panino contenente tra i suoi ingredienti del polpo."@it ;
+    skos:example "Il polpanino dello street food era incredibilmente buono." ;
+    dct:creator vocang:minoccheriAlessandra .
