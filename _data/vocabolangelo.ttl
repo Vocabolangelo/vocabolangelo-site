@@ -4284,3 +4284,11 @@ vocang:geomicolo
     skos:example "Diana si è impegnata a fondo per prepararsi per la sua nuova parte, studiando il copione, imparando nuove abilità e collaborando con il regista per creare un personaggio credibile e coinvolgente sul grande schermo. E' proprio un'operatroia."@it ;
     dct:created "2023-03-12" ;
     dct:creator vocang:omiccioliRiccardo .
+
+ vocang:insalamix
+    a skos:Concept ;
+    skos:prefLabel "Insalamix"@it ;
+    skos:definition "Un piatto composto da un mix di verdure e legumi cotti o crudi dove l'insalata non è un ingredente obbligatorio. Talvolta vengono anche aggiunti tonno in scatola e semi oleosi per arricchire la varietà di sapori e le consistenze."@it ;
+    skos:example "Avevo pochi ingredienti quindi oggi ho mangiato un delizioso insalamix con ceci, carote, mais e tonno, il tutto condito con olio extravergine d'oliva e aceto balsamico."@it ;
+    dct:created "2023-03-14" ;
+    dct:creator vocang:omiccioliRiccardo .
