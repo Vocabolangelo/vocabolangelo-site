@@ -41,7 +41,12 @@ layout: rdf_layout
         <ul>
         {% for c in authors %}
             <li>
+            {% assign link = c | rdf_property: 'schema:url', nil, true %}
+                {% if link %}
+                <a href="{{ link }}">
+                {% else %}
                 <a href="{{ c.page_url }}">
+                {% endif %}
                     {{ c | rdf_property: 'foaf:lastName' }} {{ c | rdf_property: 'foaf:firstName' }}
                 </a>
             </li>
