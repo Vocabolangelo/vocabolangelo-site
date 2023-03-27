@@ -4593,4 +4593,11 @@ vocang:maomettere
     dct:created "2023-03-27" ;
     dct:creator vocang:bragariAlexandru .
 
-
+vocang:maomare
+    a skos:Concept ;
+    skos:prefLabel "Maomare"@it ;
+    lexinfo:pronunciation "/ma • o • mà • re/"@it ;
+    skos:definition "L'atto di amputare le mani di un individuo, spesso utilizzata al fine di sanzionare un furto commesso in paesi con limitate opportunità di istruzione e cultura."@it ;
+    skos:example "L'uso della pratica del maomare è stata fortemente criticata dalle organizzazioni internazionali per i diritti umani, che hanno espresso preoccupazione per la violazione dei diritti fondamentali degli individui sottoposti a questa forma di sanzione punitiva.";
+    dct:created "2023-03-27" ;
+    dct:creator vocang:omiccioliRiccardo .
