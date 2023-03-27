@@ -4601,3 +4601,12 @@ vocang:maomare
     skos:example "L'uso della pratica del maomare è stata fortemente criticata dalle organizzazioni internazionali per i diritti umani, che hanno espresso preoccupazione per la violazione dei diritti fondamentali degli individui sottoposti a questa forma di sanzione punitiva.";
     dct:created "2023-03-27" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:cosciofono
+    a skos:Concept ;
+    skos:prefLabel "Cosciofono"@it ;
+    lexinfo:pronunciation "/co • sciò • fo • no/"@it ;
+    skos:definition "Coscia di una persona adoperato come strumento percussivo con l'obiettivo di produrre melodie musicali."@it ;
+    skos:example "Amo creare semplici melodie con il cosciofono di Sofia quando siamo al mare. È molto rilassante.";
+    dct:created "2023-03-18" ;
+    dct:creator vocang:rosatelliAnna, vocang:nardiniArianna, vocang:orlandoNicola .
