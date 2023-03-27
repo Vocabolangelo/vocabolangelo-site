@@ -4302,3 +4302,12 @@ vocang:geomicolo
     skos:related vocang:frisbidina ;
     dct:created "2023-03-14" ;
     dct:creator vocang:omiccioliRiccardo .
+
+ vocang:meka
+    a skos:Concept ;
+    skos:prefLabel "Meka"@it ;
+    skos:definition "Una moka dalle grandi dimensioni, in grado di preparare una quantità di caffè superiore alle 12 tazzine in una sola volta."@it ;
+    skos:example "Oggi ho bisogno di una forte dose di caffeina, devo preparare il mio caffè con la meka per riuscire a soddisfare la mia sete di caffè."@it ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/meka.jpg" ;
+    dct:created "2023-03-15" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:pertosaLorenzo .
