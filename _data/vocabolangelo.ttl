@@ -4319,3 +4319,11 @@ vocang:geomicolo
     skos:example "Ho provato un nuovo cocktail al bar ieri sera, si chiamava \"Cedrink Surprise\" ed era composto da cedrata, gin, succo di lime e una spruzzata di soda. Era fresco e molto dissetante!"@it ;
     dct:created "2023-03-16" ;
     dct:creator vocang:omiccioliRiccardo .
+
+ vocang:bricock
+    a skos:Concept ;
+    skos:prefLabel "Bricock"@it ;
+    skos:definition "Un negozio di bricolage e fai da te che vende articoli a bassissimo costo, anche se di pessima qualità. Questo termine può riferirsi anche al reparto fai da te presente nei supermercati o altri negozi che vendono principalmente prodotti non correlati. L'obiettivo di un bricock è offrire soluzioni economiche per i lavori domestici fai da te, facendo credere di aver apparentemente acquistato lo strumento adeguato, ma che in realtà si rivela inadatto."@it ;
+    skos:example "Avrei dovuto ascoltare il mio istinto e optare per la strumentisvoglia, invece di acquistare al bricock questo cacciavite che si è piegato in due mentre stavo avvitando la terza vite."@it ;
+    dct:created "2023-03-17" ;
+    dct:creator vocang:omiccioliRiccardo .
