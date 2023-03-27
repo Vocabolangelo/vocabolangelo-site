@@ -4647,3 +4647,12 @@ vocang:apostolangelo
     skos:example "L'apostolangelo è la mia vocazione. Sogno un mondo in cui tutti possano divertirsi utilizzando le parolangelo che più amano.";
     dct:created "2023-03-17" ;
     dct:creator vocang:rosatelliAnna .
+
+vocang:podiologo
+    a skos:Concept ;
+    skos:prefLabel "Podiologo"@it ;
+    lexinfo:pronunciation "/po • diò • lo • go/"@it ;
+    skos:definition "Un individuo che nutre una particolare affinità per i piedi e che, conseguentemente, si dedica alla costruzione dei podi sui quali i vincitori delle gare potranno camminare."@it ;
+    skos:example "Gianmarco è il podiologo che più si è distinto per la sua maestria nella costruzione di podi di ogni tipo, garantendo ai vincitori delle gare una piattaforma stabile e sicura su cui celebrare le loro vittorie.";
+    dct:created "2023-03-22" ;
+    dct:creator vocang:bragariAlexandru .
