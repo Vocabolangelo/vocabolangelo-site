@@ -325,7 +325,8 @@ vocang:houshanSoheil
 
 vocang:chatGPT
     a modsci:ArtificialIntelligence ;
-    foaf:firstName "ChatGPT".
+    foaf:firstName "ChatGPT" ;
+    schema:url "https://openai.com/blog/chatgpt" .
 
 # Vocabolangelo Words Individuals
 
@@ -4639,6 +4640,7 @@ vocang:nemiccio
     skos:definition "Asino di natura ostile, incline a ragliare e calciare frequentemente."@it ;
     skos:example "Quel ciuco è sempre furioso e non ha nessun motivo valido per esserlo. Se la situazione non migliora sono abbastanza sicuro che quel nemiccio finirà nella polenta della cena entro qualche giorno."@it ;
     dct:created "2023-03-25" ;
+    skos:related vocang:nemicio ;
     dct:creator vocang:suscaMatteo, vocang:battaglinoNicole, vocang:orlandoNicola .
 
 vocang:apostolangelo
