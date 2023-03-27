@@ -4497,3 +4497,10 @@ vocang:nemicio
     skos:example "Dietro al ristorante cinese è pieno di nemici selvatici a cui è meglio non avvicinarsi." ;
     skos:related vocang:omnicio ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:patatopon
+    a skos:Concept ;
+    skos:prefLabel "Patatopon"@it ;
+    skos:definition "Un patapon molto carino."@it ;
+    skos:example "Esistono patapon molto brutti, come i dekapon, ma per fortuna ci sono anche dei patatopon. Mi piacerebbe tanto avere dei loro peluche." ;
+    dct:creator vocang:omiccioliRiccardo .
