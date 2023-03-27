@@ -4561,7 +4561,7 @@ vocang:schiavosauro
     skos:prefLabel "Schiavosauro"@it ;
     lexinfo:pronunciation "/schia • vo • sàu • ro/"@it ;
     skos:definition "Dinosauro utilizzato per trasportare carichi pesanti o per essere cavalcato."@it ;
-    skos:example "Su quel videogioco è possibile cavalcare dinosauri per muoversi più velocemente nella mappa. Gli schiarosauri sono molto amati dalla community, ma essendo molto costosi e non è facile reperirli." ;
+    skos:example "Su quel videogioco è possibile cavalcare dinosauri per muoversi più velocemente nella mappa. Gli schiavosauri sono molto amati dalla community, ma essendo molto costosi e non è facile reperirli." ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/schiavosauro.jpg" ;
     dct:created "2023-03-17" ;
     dct:creator vocang:filasetaAngelo, vocang:orlandoNicola .
