@@ -4247,3 +4247,12 @@ vocang:geomicolo
     skos:example "Avrei tanto bisogno di gradiri per rilassarmi...  Non c'è nessuno che vuole farmeli?"@it ;
     dct:created "2023-03-09" ;
     dct:creator vocang:bragariAlexandru, vocang:battaglinoNicole .
+
+ vocang:cerebricanto
+    a skos:Concept ;
+    skos:prefLabel "Cerebricanto"@it ;
+    lexinfo:pronunciation "/ce • re • bri • càn • to/"@it ;
+    skos:definition "Condizione mentale in cui un individuo ripete continuamente una canzone nella sua mente, spesso in modo involontario e senza controllo."@it ;
+    skos:example "Dopo aver sentito la canzone in loop per ore, ho capito di essere vittima di un caso di cerebricanto."@it ;
+    dct:created "2023-03-11" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:chatGPT .
