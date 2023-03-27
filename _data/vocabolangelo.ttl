@@ -4311,3 +4311,11 @@ vocang:geomicolo
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/meka.jpg" ;
     dct:created "2023-03-15" ;
     dct:creator vocang:omiccioliRiccardo, vocang:pertosaLorenzo .
+
+ vocang:cedrink
+    a skos:Concept ;
+    skos:prefLabel "Cedrink"@it ;
+    skos:definition "Una bevanda o drink che contiene cedrata o cedro, spesso utilizzata come ingrediente per conferire un sapore fresco e agrumato alla miscela."@it ;
+    skos:example "Ho provato un nuovo cocktail al bar ieri sera, si chiamava \"Cedrink Surprise\" ed era composto da cedrata, gin, succo di lime e una spruzzata di soda. Era fresco e molto dissetante!"@it ;
+    dct:created "2023-03-16" ;
+    dct:creator vocang:omiccioliRiccardo .
