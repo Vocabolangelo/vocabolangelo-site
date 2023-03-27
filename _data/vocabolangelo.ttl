@@ -4610,3 +4610,12 @@ vocang:cosciofono
     skos:example "Amo creare semplici melodie con il cosciofono di Sofia quando siamo al mare. È molto rilassante.";
     dct:created "2023-03-18" ;
     dct:creator vocang:rosatelliAnna, vocang:nardiniArianna, vocang:orlandoNicola .
+
+vocang:coscista
+    a skos:Concept ;
+    skos:prefLabel "Coscista"@it ;
+    lexinfo:pronunciation "/co • scì • sta/"@it ;
+    skos:definition "Persona che suona il cosciofono."@it ;
+    skos:example "I coscisti sono veramente bravi. Sono in grado di identificare in quale posizione della coscia si trovano le varie note musicali!";
+    dct:created "2023-03-18" ;
+    dct:creator vocang:rosatelliAnna, vocang:nardiniArianna, vocang:orlandoNicola .
