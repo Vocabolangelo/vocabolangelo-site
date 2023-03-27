@@ -4528,3 +4528,12 @@ vocang:treggia
     skos:example "Ho creato una treggia, è esteticamente molto bella ma d'inverno fa un po' freddo." ;
     dct:created "2023-03-24" ;
     dct:creator vocang:omiccioliRiccardo, vocang:omiccioliRiccardo .
+
+vocang:fuamare
+    a skos:Concept ;
+    skos:prefLabel "Fuamare"@it ;
+    lexinfo:pronunciation "/fua • mà • re/"@it ;
+    skos:definition "Amare il fumo."@it ;
+    skos:example "Amo sedermi sulla terrazza e guardare la città mentre fumo la mia sigaretta preferita. So che fuamare è sbagliato, ma è molto difficile smettere." ;
+    dct:created "2023-03-19" ;
+    dct:creator vocang:timpanoSam .
