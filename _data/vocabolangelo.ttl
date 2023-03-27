@@ -4382,3 +4382,12 @@ vocang:geomicolo
     skos:example "Io e la mia ragazza amiamo darci i morsi giocosi a vicenda, ma quando le ho detto che sarei uscito a giocare a calcetto coi miei amici il giorno del nostro anniversario o ricevuto il mucchiotto più forte della mia vita."@it ;
     dct:created "2023-03-18" ;
     dct:creator vocang:ribaudoSofia .
+
+ vocang:violare
+    a skos:Concept ;
+    skos:prefLabel "Violare"@it ;
+    lexinfo:pronunciation "/vio • là • re/"@it ;
+    skos:definition "Atto che consiste nel dipingere qualcosa del colore viola."@it ;
+    skos:example "L'altro giorno ho violato Nicola, stava veramente bene con tutta quella vernice addosso!"@it ;
+    dct:created "2023-03-19" ;
+    dct:creator vocang:pertosaLorenzo, vocang:minoccheriAlessandra .
