@@ -4479,6 +4479,7 @@ vocang:nefischio
     lexinfo:pronunciation "/ne • fìs • chio/"@it ;
     skos:definition "Suono emesso da una o più persone quando qualcuno scivola su uno strato di ghiaccio o neve mezza sciolta, generalmente di natura comica."@it ;
     skos:example "Camminavo allegramente per strada quando ho sentito un nefischio, mi sono girato sperando fosse tutto apposto e ho visto Riccardo per terra e Nicole che rideva." ;
+    dct:created "2023-03-14" ;
     dct:creator vocang:pertosaLorenzo .
 
 vocang:polpanino
@@ -4487,6 +4488,7 @@ vocang:polpanino
     lexinfo:pronunciation "/pol • pa • nì • no/"@it ;
     skos:definition "Panino contenente tra i suoi ingredienti del polpo."@it ;
     skos:example "Il polpanino dello street food era incredibilmente buono." ;
+    dct:created "2023-03-26" ;
     dct:creator vocang:minoccheriAlessandra .
 
 vocang:nemicio
@@ -4496,6 +4498,7 @@ vocang:nemicio
     skos:definition "Gatto molto ostile che ha la tendenza di graffiare mordere e soffiare."@it ;
     skos:example "Dietro al ristorante cinese è pieno di nemici selvatici a cui è meglio non avvicinarsi." ;
     skos:related vocang:omnicio ;
+    dct:created "2023-03-25" ;
     dct:creator vocang:omiccioliRiccardo .
 
 vocang:patatopon
@@ -4503,4 +4506,5 @@ vocang:patatopon
     skos:prefLabel "Patatopon"@it ;
     skos:definition "Un patapon molto carino."@it ;
     skos:example "Esistono patapon molto brutti, come i dekapon, ma per fortuna ci sono anche dei patatopon. Mi piacerebbe tanto avere dei loro peluche." ;
+    dct:created "2023-03-24" ;
     dct:creator vocang:omiccioliRiccardo .
