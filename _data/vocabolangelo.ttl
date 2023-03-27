@@ -4275,3 +4275,12 @@ vocang:geomicolo
     skos:example "La mia ragazza per san valentino mi ha regalato una giara piena di bibiglietti."@it ;
     dct:created "2023-03-11" ;
     dct:creator vocang:pertosaLorenzo .
+
+ vocang:operatroia
+    a skos:Concept ;
+    skos:prefLabel "Operatroia"@it ;
+    lexinfo:pronunciation "/o • pe • ra • trò • ia/"@it ;
+    skos:definition "Un sex worker o comunque una persona solitamente di sesso femminile che lavora in ambito pornografico, e che si distingue per il suo elevato livello di impegno o dedizione nel soddisfare le esigenze dei propri clienti."@it ;
+    skos:example "Diana si è impegnata a fondo per prepararsi per la sua nuova parte, studiando il copione, imparando nuove abilità e collaborando con il regista per creare un personaggio credibile e coinvolgente sul grande schermo. E' proprio un'operatroia."@it ;
+    dct:created "2023-03-12" ;
+    dct:creator vocang:omiccioliRiccardo .
