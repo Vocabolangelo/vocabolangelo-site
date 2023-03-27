@@ -4537,3 +4537,12 @@ vocang:fuamare
     skos:example "Amo sedermi sulla terrazza e guardare la città mentre fumo la mia sigaretta preferita. So che fuamare è sbagliato, ma è molto difficile smettere." ;
     dct:created "2023-03-19" ;
     dct:creator vocang:timpanoSam .
+
+vocang:patatanatomia
+    a skos:Concept ;
+    skos:prefLabel "Patatanatomia"@it ;
+    lexinfo:pronunciation "/pa • ta  • ta • na • to • mì • a/"@it ;
+    skos:definition "Anatomia patologica."@it ;
+    skos:example "La patatanatomia è la branca della medicina che si occupa dello studio delle malattie a livello microscopico e macroscopico." ;
+    dct:created "2023-03-17" ;
+    dct:creator vocang:rosatelliAnna, vocang:battaglinoNicole .
