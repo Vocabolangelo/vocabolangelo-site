@@ -4430,3 +4430,12 @@ vocang:geomicolo
     skos:example "Matteo ha deciso di usare l'antistamicio per curare la sua allergia, ma oltre a non aver alcun miglioramento significativo ora la sua poltrona è diventata il posto preferito del gatto e spesso si ritrova a doversi sedere sul pavimento."@it ;
     dct:created "2023-03-23" ;
     dct:creator vocang:nardiniArianna .
+
+ vocang:nutriscere
+    a skos:Concept ;
+    skos:prefLabel "Nutriscere"@it ;
+    lexinfo:pronunciation "/nu • trì • sce • re/"@it ;
+    skos:definition "Emissione di un rumore simile al nitrito di un cavallo da parte chi si nutre."@it ;
+    skos:example "Guarda questo paziente come si nutrisce, è proprio migliorato!"@it ;
+    dct:created "2023-03-24" ;
+    dct:creator vocang:badialiLorenzo, vocang:houshanSoheil .
