@@ -4546,3 +4546,12 @@ vocang:patatanatomia
     skos:example "La patatanatomia è la branca della medicina che si occupa dello studio delle malattie a livello microscopico e macroscopico." ;
     dct:created "2023-03-17" ;
     dct:creator vocang:rosatelliAnna, vocang:battaglinoNicole .
+
+vocang:egostitichezza
+    a skos:Concept ;
+    skos:prefLabel "Egostitichezza"@it ;
+    lexinfo:pronunciation "/e • go • sti  • ti • chéz • za /"@it ;
+    skos:definition "Carenza di ego."@it ;
+    skos:example "Oggi non mi sento per niente bella, probabilmente soffro di egostitichezza." ;
+    dct:created "2023-03-17" ;
+    dct:creator vocang:nardiniArianna .
