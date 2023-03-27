@@ -4391,3 +4391,12 @@ vocang:geomicolo
     skos:example "L'altro giorno ho violato Nicola, stava veramente bene con tutta quella vernice addosso!"@it ;
     dct:created "2023-03-19" ;
     dct:creator vocang:pertosaLorenzo, vocang:minoccheriAlessandra .
+
+ vocang:biconare
+    a skos:Concept ;
+    skos:prefLabel "Biconare"@it ;
+    lexinfo:pronunciation "/bi • co • nà • re/"@it ;
+    skos:definition "Azione che consiste nel provocare eccitazione sessuale nel proprio partner infilando il proprio membro, le dita o qualunque altro oggeto nel suo ombelico."@it ;
+    skos:example "L'altra sera volevo far eccitare Arianna, così l'ho biconata. Le piace molto, anche se ogni tanto lo trovo un po' strano."@it ;
+    dct:created "2023-03-22" ;
+    dct:creator vocang:pertosaLorenzo, vocang:scattoniAlessandra .
