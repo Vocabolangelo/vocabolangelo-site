@@ -310,6 +310,7 @@ vocang:badialiLorenzo
     a foaf:Person ;
     foaf:firstName "Lorenzo" ;
     foaf:lastName "Badiali" ;
+    foaf:nick "Loxy" ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/badialiLorenzo.jpg" ;
     rel:friendOf vocang:pertosaLorenzo .
 
@@ -317,6 +318,7 @@ vocang:houshanSoheil
     a foaf:Person ;
     foaf:firstName "Soheil" ;
     foaf:lastName "Houshan" ;
+    foaf:nick "Sosso" ;
     rel:friendOf vocang:pertosaLorenzo, vocang:badialiLorenzo.
 
 # Other Author Individuals
