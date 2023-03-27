@@ -4349,8 +4349,17 @@ vocang:geomicolo
  vocang:pompinazione
     a skos:Concept ;
     skos:prefLabel "Pompinazione"@it ;
-    lexinfo:pronunciation "/pom • pi • na • zio • ne/"@it ;
+    lexinfo:pronunciation "/pom • pi • na • zió • ne/"@it ;
     skos:definition "Colazione servita mentre viene erogato del sesso orale al consumatore di sesso biologico maschile."@it ;
     skos:example "Sarebbe bello ricevere una pompinazione all'interno di questo biribì, ma a nessuno interessa di noi."@it ;
     dct:created "2023-03-18" ;
     dct:creator vocang:pertosaLorenzo .
+
+ vocang:pennanerillo
+    a skos:Concept ;
+    skos:prefLabel "Pennanerillo"@it ;
+    lexinfo:pronunciation "/pen • na • ne • rìl • lo/"@it ;
+    skos:definition "Pennarello utilizzato per segnare il proprio nome sui bicchieri ad una festa o in un contesto in cui è presente molta gente."@it ;
+    skos:example "Mi sono scordato di portare un pennanerillo alla mia festa di compleanno e abbiamo dovuto utilizzare una quantità industriale di bicchiere perché erano tutti schizzinosi. Dato lo stato del nostro limonalbero non lo avrei mai creduto possibile."@it ;
+    dct:created "2023-03-18" ;
+    dct:creator vocang:filasetaAngelo .
