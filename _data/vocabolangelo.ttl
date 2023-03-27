@@ -4638,3 +4638,12 @@ vocang:nemiccio
     skos:example "Quel ciuco è sempre furioso e non ha nessun motivo valido per esserlo. Se la situazione non migliora sono abbastanza sicuro che quel nemiccio finirà nella polenta della cena entro qualche giorno.";
     dct:created "2023-03-25" ;
     dct:creator vocang:suscaMatteo, vocang:battaglinoNicole, vocang:orlandoNicola .
+
+vocang:apostolangelo
+    a skos:Concept ;
+    skos:prefLabel "Apostolangelo"@it ;
+    lexinfo:pronunciation "/a • po • sto • làn • ge • lo/"@it ;
+    skos:definition "L'opera di chi dedica tutto sé stesso alla missione di diffondere e promuovere l'utilizzo delle parolangelo."@it ;
+    skos:example "L'apostolangelo è la mia vocazione. Sogno un mondo in cui tutti possano divertirsi utilizzando le parolangelo che più amano.";
+    dct:created "2023-03-17" ;
+    dct:creator vocang:rosatelliAnna .
