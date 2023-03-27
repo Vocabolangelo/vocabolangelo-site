@@ -4574,3 +4574,12 @@ vocang:stroiata
     skos:example "Ancora ricordo quella volta che nel gioco Catan ho accettato quello scambio per poi finire malamente derubato dalla stessa persona. Quella è stata veramente una sporca stroiata. È per motivi come questo che non riesco più a fidarmi di nessuno.";
     dct:created "2023-03-25" ;
     dct:creator vocang:orlandoNicola, vocang:bragariAlexandru .
+
+vocang:pannocchiaro
+    a skos:Concept ;
+    skos:prefLabel "Pannocchiaro"@it ;
+    lexinfo:pronunciation "/pan • noc • chià • ro/"@it ;
+    skos:definition "Colui che griglia le pannocchie, le impiega in cucina o ne fa vendita, e che si occupa esclusivamente di quell'alimento."@it ;
+    skos:example "Ero alla ricerca di un bravo pannocchiaro per il mio ristorante di specialità di mais, e finalmente ho trovato un fornitore che seleziona solo le pannocchie più fresche e le griglia alla perfezione per i nostri clienti esigenti.";
+    dct:created "2023-03-27" ;
+    dct:creator vocang:ribaudoSofia .
