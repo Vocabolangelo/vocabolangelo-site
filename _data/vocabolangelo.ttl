@@ -4629,3 +4629,12 @@ vocang:fintomo
     skos:example "Ogni tanto non vado a scuola grazie ai fintomi dell'influenza.";
     dct:created "2023-03-12" ;
     dct:creator vocang:orlandoNicola .
+
+vocang:nemiccio
+    a skos:Concept ;
+    skos:prefLabel "Nemiccio"@it ;
+    lexinfo:pronunciation "/ne • mìc • cio/"@it ;
+    skos:definition "Asino di natura ostile, incline a ragliare e calciare frequentemente."@it ;
+    skos:example "Quel ciuco è sempre furioso e non ha nessun motivo valido per esserlo. Se la situazione non migliora sono abbastanza sicuro che quel nemiccio finirà nella polenta della cena entro qualche giorno.";
+    dct:created "2023-03-25" ;
+    dct:creator vocang:suscaMatteo, vocang:battaglinoNicole, vocang:orlandoNicola .
