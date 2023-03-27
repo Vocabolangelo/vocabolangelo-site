@@ -4363,3 +4363,13 @@ vocang:geomicolo
     skos:example "Mi sono scordato di portare un pennanerillo alla mia festa di compleanno e abbiamo dovuto utilizzare una quantità industriale di bicchiere perché erano tutti schizzinosi. Dato lo stato del nostro limonalbero non lo avrei mai creduto possibile."@it ;
     dct:created "2023-03-18" ;
     dct:creator vocang:filasetaAngelo .
+
+ vocang:termosifino
+    a skos:Concept ;
+    skos:prefLabel "Termosifino"@it ;
+    lexinfo:pronunciation "/ter • mo • si • fì • no/"@it ;
+    skos:definition "Un termosifone molto stretto e piccolo che risulta non adeguato per riscaldare la stanza nel quale si colloca."@it ;
+    skos:example "In casa mia hanno installato un termosifino per riscaldare una stanza da 90 metri quadrati. Farò causa all'azienda responsabile."@it ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/termosifino.jpg" ;
+    dct:created "2023-03-18" ;
+    dct:creator vocang:omiccioliRiccardo .
