@@ -299,6 +299,13 @@ vocang:bermucaMorena
     foaf:lastName "Bermuca" ;
     rel:friendOf vocang:orlandoNicola .
 
+vocang:badialiLorenzo
+    a foaf:Person ;
+    foaf:firstName "Lorenzo" ;
+    foaf:lastName "Badiali" ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/badialiLorenzo.jpg" ;
+    rel:friendOf vocang:pertosaLorenzo .
+
 # Other Author Individuals
 
 vocang:chatGPT
@@ -4400,7 +4407,6 @@ vocang:geomicolo
     skos:example "L'altra sera volevo far eccitare Arianna, così l'ho biconata. Le piace molto, anche se ogni tanto lo trovo un po' strano."@it ;
     dct:created "2023-03-22" ;
     dct:creator vocang:pertosaLorenzo, vocang:scattoniAlessandra .
-
 
  vocang:antistamicio
     a skos:Concept ;
