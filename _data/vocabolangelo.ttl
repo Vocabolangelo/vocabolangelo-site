@@ -4519,3 +4519,12 @@ vocang:aranciallo
     skos:note "#FFD200 è l'esadecimale rappresentativo di questo colore." ;
     dct:created "2023-03-24" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:treggia
+    a skos:Concept ;
+    skos:prefLabel "Treggia"@it ;
+    lexinfo:pronunciation "/trég • gia/"@it ;
+    skos:definition "Una reggia situata su un terrazzo o un balcone."@it ;
+    skos:example "Ho creato una treggia, è esteticamente molto bella ma d'inverno fa un po' freddo." ;
+    dct:created "2023-03-24" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:omiccioliRiccardo .
