@@ -4256,3 +4256,13 @@ vocang:geomicolo
     skos:example "Dopo aver sentito la canzone in loop per ore, ho capito di essere vittima di un caso di cerebricanto."@it ;
     dct:created "2023-03-11" ;
     dct:creator vocang:omiccioliRiccardo, vocang:chatGPT .
+
+ vocang:gappuccino
+    a skos:Concept ;
+    skos:prefLabel "Gappuccino"@it ;
+    lexinfo:pronunciation "/gap • puc • cì • no/"@it ;
+    skos:definition "Un cappuccino adornato da un disegno di un gatto realizzato tramite l'arte del latte."@it ;
+    skos:example "La barista del mio bar in università è una vera gattara, amo i gappuccini che realizza cogni mattina."@it ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/gappuccino.jpg" ;
+    dct:created "2023-03-09" ;
+    dct:creator vocang:omiccioliRiccardo .
