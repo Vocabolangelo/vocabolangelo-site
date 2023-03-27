@@ -4565,3 +4565,12 @@ vocang:schiavosauro
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/schiavosauro.jpg" ;
     dct:created "2023-03-17" ;
     dct:creator vocang:filasetaAngelo, vocang:orlandoNicola .
+
+vocang:stroiata
+    a skos:Concept ;
+    skos:prefLabel "Stroiata"@it ;
+    lexinfo:pronunciation "/stro • ià • ta/"@it ;
+    skos:definition "Azione turpe o disonesta effettuata da una persona inetta, infida, malvagia e spregevole."@it ;
+    skos:example "Ancora ricordo quella volta che nel gioco Catan ho accettato quello scambio per poi finire malamente derubato dalla stessa persona. Quella è stata veramente una sporca stroiata. È per motivi come questo che non riesco più a fidarmi di nessuno.";
+    dct:created "2023-03-25" ;
+    dct:creator vocang:orlandoNicola, vocang:bragariAlexandru .
