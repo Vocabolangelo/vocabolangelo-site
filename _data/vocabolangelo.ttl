@@ -4331,7 +4331,17 @@ vocang:geomicolo
  vocang:minello
     a skos:Concept ;
     skos:prefLabel "Minello"@it ;
+    lexinfo:pronunciation "/mi • nèl • lo/"@it ;
     skos:definition "Un anello di piccole dimensioni."@it ;
     skos:example "Ho comprato un bel minello per la mia nipotina, le piacerà sicuramente."@it, "Il minello che mi hai regalato mi sta perfettamente al dito mignolo."@it ;
     dct:created "2023-03-17" ;
     dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
+
+ vocang:limonello
+    a skos:Concept ;
+    skos:prefLabel "Limonello"@it ;
+    lexinfo:pronunciation "/li • mo • nèl • lo/"@it ;
+    skos:definition "Drink composto principalmente da limoncello, il quale viene servito in cubetti ghiacciati da far sciogliere mentre si sta limonando un'altra persona."@it ;
+    skos:example "Ieri sera ho preso un limonello con Nicole. È stato molto eccitante anche se al quinto round mi girava un po' la testa."@it ;
+    dct:created "2023-03-17" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:bragariAlexandru .
