@@ -318,7 +318,6 @@ vocang:houshanSoheil
     foaf:firstName "Soheil" ;
     foaf:lastName "Houshan" ;
     rel:friendOf vocang:pertosaLorenzo, vocang:badialiLorenzo.
- 
 
 # Other Author Individuals
 
@@ -4439,3 +4438,11 @@ vocang:geomicolo
     skos:example "Guarda questo paziente come si nutrisce, è proprio migliorato!"@it ;
     dct:created "2023-03-24" ;
     dct:creator vocang:badialiLorenzo, vocang:houshanSoheil .
+
+ vocang:kebabbologia
+    a skos:Concept ;
+    skos:prefLabel "Kebabbologia"@it ;
+    skos:definition "Scienza che si occupa della formulazione dei kebab e del raccogliere dati sulle preferenze e gusti delle persone a riguardo."@it ;
+    skos:example "Lo sanno ben poche persone ma Raja ama la kebabbologia. Solo dopo anni di sperimentazioni è riuscito a sviluppare la sua salsa piccante segreta."@it ;
+    dct:created "2023-03-24" ;
+    dct:creator vocang:pertosaLorenzo .
