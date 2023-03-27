@@ -4508,3 +4508,14 @@ vocang:patatopon
     skos:example "Esistono patapon molto brutti, come i dekapon, ma per fortuna ci sono anche dei patatopon. Mi piacerebbe tanto avere dei loro peluche." ;
     dct:created "2023-03-24" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:aranciallo
+    a skos:Concept ;
+    skos:prefLabel "Aranciallo"@it ;
+    lexinfo:pronunciation "/a • ran • ciàl • lo/"@it ;
+    skos:definition "Un colore a metà tra l'arancione e il giallo."@it ;
+    skos:example "La mia ragazza mi ha chiesto di prenderle questo trucco di colore aranciallo." ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/aranciallo.png" ;
+    skos:note "#FFD200 è l'esadecimale rappresentativo di questo colore." ;
+    dct:created "2023-03-24" ;
+    dct:creator vocang:omiccioliRiccardo .
