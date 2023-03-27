@@ -4345,3 +4345,12 @@ vocang:geomicolo
     skos:example "Ieri sera ho preso un limonello con Nicole. È stato molto eccitante anche se al quinto round mi girava un po' la testa."@it ;
     dct:created "2023-03-17" ;
     dct:creator vocang:omiccioliRiccardo, vocang:bragariAlexandru .
+
+ vocang:pompinazione
+    a skos:Concept ;
+    skos:prefLabel "Pompinazione"@it ;
+    lexinfo:pronunciation "/pom • pi • na • zio • ne/"@it ;
+    skos:definition "Colazione servita mentre viene erogato del sesso orale al consumatore di sesso biologico maschile."@it ;
+    skos:example "Sarebbe bello ricevere una pompinazione all'interno di questo biribì, ma a nessuno interessa di noi."@it ;
+    dct:created "2023-03-18" ;
+    dct:creator vocang:pertosaLorenzo .
