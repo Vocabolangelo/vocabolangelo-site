@@ -4583,3 +4583,14 @@ vocang:pannocchiaro
     skos:example "Ero alla ricerca di un bravo pannocchiaro per il mio ristorante di specialità di mais, e finalmente ho trovato un fornitore che seleziona solo le pannocchie più fresche e le griglia alla perfezione per i nostri clienti esigenti.";
     dct:created "2023-03-27" ;
     dct:creator vocang:ribaudoSofia .
+
+vocang:maomettere
+    a skos:Concept ;
+    skos:prefLabel "Maomettere"@it ;
+    lexinfo:pronunciation "/ma • o • mét • te • re/"@it ;
+    skos:definition "L'azione di manipolare un oggetto o un'informazione, compiuta da individui che svolgono il ruolo di profeti religiosi."@it ;
+    skos:example "I frati cappuccini in quella chiesa volevano far credere ai fedeli che la vergine Maria apparisse davanti all'altare come per miracolo. Avevano addirittura maomesso delle registrazioni per risultare più credibili. Sono stati denunciati e ora passano il tempo nella cappella della prigione.";
+    dct:created "2023-03-27" ;
+    dct:creator vocang:bragariAlexandru .
+
+
