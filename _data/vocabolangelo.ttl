@@ -2003,7 +2003,7 @@ vocang:collagna
     skos:definition
         "Collina piuttosto alta che può essere confusa per una montagna."@it,
         "Collina sulla quale ci si lamenta, ci si può lagnare."@it ;
-    skos:example "Quella collagna è piuttosto alta!"@it , "Mi sono rotto di questa vita, voglio rifugiarmi su una collagna!";
+    skos:example "Quella collagna è piuttosto alta!"@it , "Mi sono rotto di questa vita, voglio rifugiarmi su una collagna!"@it ;
     dct:created "2022-12-15" ;
     dct:creator vocang:battaglinoNicole .
 
@@ -2012,7 +2012,7 @@ vocang:carichezza
     skos:prefLabel "Carichezza"@it ;
     lexinfo:pronunciation "/ca • ri • chez • za/"@it ;
     skos:definition "Sensazione di energia che fa riferimento al fatto di sentirsi carichi."@it ;
-    skos:example "Oggi sono pieno di energie, sento la carichezza!";
+    skos:example "Oggi sono pieno di energie, sento la carichezza!"@it ;
     dct:created "2022-12-15" ;
     dct:creator vocang:pertosaLorenzo .
 
@@ -2021,7 +2021,7 @@ vocang:inevece
     skos:prefLabel "Inevece"@it ;
     lexinfo:pronunciation "/i • ne • ve • ce/"@it ;
     skos:definition "Avverbio che potenzia l'affermazione precedente anziché proporre un controesempio."@it ;
-    skos:example "Questo esempio è molto bello, inevece è anche molto bello!";
+    skos:example "Questo esempio è molto bello, inevece è anche molto bello!"@it ;
     dct:created "2022-12-15" ;
     dct:creator vocang:bragariAlexandru .
 
@@ -2030,7 +2030,7 @@ vocang:elasticazzo
     skos:prefLabel "Elasticazzo"@it ;
     lexinfo:pronunciation "/e • las • ti • caz • zo/"@it ;
     skos:definition "Un pene molto flessibile."@it ;
-    skos:example "Il suo elasticazzo è impressionante, sembra davvero un elastico!";
+    skos:example "Il suo elasticazzo è impressionante, sembra davvero un elastico!"@it ;
     dct:created "2022-12-14" ;
     dct:creator vocang:omiccioliRiccardo, vocang:nardiniArianna .
 
@@ -2040,7 +2040,7 @@ vocang:prepuzzo
     skos:prefLabel "Prepuzzo"@it ;
     lexinfo:pronunciation "/pre • puz • zo/"@it ;
     skos:definition "Un prepuzio che emana un cattivo odore."@it ;
-    skos:example "Trovo che il prepuzzo sia una cosa molto poco sexy in un uomo.";
+    skos:example "Trovo che il prepuzzo sia una cosa molto poco sexy in un uomo."@it ;
     dct:created "2022-12-14" ;
     skos:related vocang:elasticazzo, vocang:oscuretra ;
     dct:creator vocang:omiccioliRiccardo .
@@ -2050,7 +2050,7 @@ vocang:afame
     skos:prefLabel "Afame"@it ;
     lexinfo:pronunciation "/a • fa • me/"@it ;
     skos:definition "Assenza di fame."@it ;
-    skos:example " L'afame non è assolutamente un problema mondiale.";
+    skos:example " L'afame non è assolutamente un problema mondiale."@it ;
     dct:created "2022-12-17" ;
     skos:related vocang:avita ;
     dct:creator vocang:filasetaAngelo .
@@ -2060,7 +2060,7 @@ vocang:cuccorema
     skos:prefLabel "Cuccorema"@it ;
     lexinfo:pronunciation "/cuc • co • re • ma/"@it ;
     skos:definition "Teorema universale dell'esistenza secondo cui se un ragazzo si fidanza, da quel momento risulta più attraente agli occhi delle altre persone (soprattutto se del sesso opposto) anche se fino a quel momento non era affatto così."@it ;
-    skos:example "Anche se non è possibile dimostrarlo, io credo che il cuccorema funzioni sempre.";
+    skos:example "Anche se non è possibile dimostrarlo, io credo che il cuccorema funzioni sempre."@it ;
     dct:created "2022-12-18" ;
     dct:creator  vocang:filasetaAngelo , vocang:pertosaLorenzo .
 
@@ -2069,7 +2069,7 @@ vocang:cafferetta
     skos:prefLabel "Cafferetta"@it ;
     lexinfo:pronunciation "/caf • fe • ret • ta/"@it ;
     skos:definition "Ricetta della moretta fanese eseguita utilizzando il cafferillo al posto del normale caffè."@it ;
-    skos:example "La cafferetta è una versione alternativa del cafferillo... Ma anche della moretta!";
+    skos:example "La cafferetta è una versione alternativa del cafferillo... Ma anche della moretta!"@it ;
     dct:created "2022-12-18" ;
     dct:creator vocang:filasetaAngelo .
 
@@ -2078,7 +2078,7 @@ vocang:falconafrica
     skos:prefLabel "Falconafrica"@it ;
     lexinfo:pronunciation "/fal • con • a • fri • ca/"@it ;
     skos:definition "Nome alternativo per la città di Falconara derivante dalla grande presenza di abitanti proveniente dal nord Africa."@it ;
-    skos:example "Sono sceso dall'autobus l'altro giorno e mi sembrava di trovarmi in un suk del Marocco, d'altronde ero a Falconafrica";
+    skos:example "Sono sceso dall'autobus l'altro giorno e mi sembrava di trovarmi in un suk del Marocco, d'altronde ero a Falconafrica"@it ;
     dct:created "2022-12-17" .
 
 vocang:evidenziarello
@@ -2086,7 +2086,7 @@ vocang:evidenziarello
     skos:prefLabel "Evidenziarello"@it ;
     lexinfo:pronunciation "/e • vi • den • zia • rel • lo/"@it ;
     skos:definition "Un articolo di cancelleria dato dall'unione di un evidenziatore e di un pennarello incollati tra loro."@it ;
-    skos:example "Per risparmiare tempo durante lo studio ho creato un evidenziarello";
+    skos:example "Per risparmiare tempo durante lo studio ho creato un evidenziarello"@it ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/evidenziarello.jpg" ;
     dct:created "2022-12-18" ;
     dct:creator vocang:pertosaLorenzo .
@@ -2096,7 +2096,7 @@ vocang:fermodoio
     skos:prefLabel "Fermodoio"@it ;
     lexinfo:pronunciation "/fer • mo • do • io/"@it ;
     skos:definition "Un corridoio molto corto nel quale non è possibile appunto correre."@it ;
-    skos:example "Ho fatto rimuovere dalla mia casa quel fermodoio.";
+    skos:example "Ho fatto rimuovere dalla mia casa quel fermodoio."@it ;
     dct:created "2022-12-18" ;
     dct:creator vocang:omiccioliRiccardo .
 
@@ -2105,7 +2105,7 @@ vocang:buguardo
     skos:prefLabel "Buguardo"@it ;
     lexinfo:pronunciation "/bu • guar • do/"@it ;
     skos:definition "Una persona che dice una bugia appositamente solo perché offeso e permaloso."@it ;
-    skos:example "\"Sono arrabbiato con te\" \"Non è vero sei un buguardo!\"";
+    skos:example "\"Sono arrabbiato con te\" \"Non è vero sei un buguardo!\""@it ;
     dct:created "2022-12-18" ;
     dct:creator vocang:filasetaAngelo .
 
@@ -4573,7 +4573,7 @@ vocang:stroiata
     skos:prefLabel "Stroiata"@it ;
     lexinfo:pronunciation "/stro • ià • ta/"@it ;
     skos:definition "Azione turpe o disonesta effettuata da una persona inetta, infida, malvagia e spregevole."@it ;
-    skos:example "Ancora ricordo quella volta che nel gioco Catan ho accettato quello scambio per poi finire malamente derubato dalla stessa persona. Quella è stata veramente una sporca stroiata. È per motivi come questo che non riesco più a fidarmi di nessuno.";
+    skos:example "Ancora ricordo quella volta che nel gioco Catan ho accettato quello scambio per poi finire malamente derubato dalla stessa persona. Quella è stata veramente una sporca stroiata. È per motivi come questo che non riesco più a fidarmi di nessuno."@it;
     dct:created "2023-03-25" ;
     dct:creator vocang:orlandoNicola, vocang:bragariAlexandru .
 
@@ -4582,7 +4582,7 @@ vocang:pannocchiaro
     skos:prefLabel "Pannocchiaro"@it ;
     lexinfo:pronunciation "/pan • noc • chià • ro/"@it ;
     skos:definition "Colui che griglia le pannocchie, le impiega in cucina o ne fa vendita, e che si occupa esclusivamente di quell'alimento."@it ;
-    skos:example "Ero alla ricerca di un bravo pannocchiaro per il mio ristorante di specialità di mais, e finalmente ho trovato un fornitore che seleziona solo le pannocchie più fresche e le griglia alla perfezione per i nostri clienti esigenti.";
+    skos:example "Ero alla ricerca di un bravo pannocchiaro per il mio ristorante di specialità di mais, e finalmente ho trovato un fornitore che seleziona solo le pannocchie più fresche e le griglia alla perfezione per i nostri clienti esigenti."@it ;
     dct:created "2023-03-27" ;
     dct:creator vocang:ribaudoSofia .
 
@@ -4591,7 +4591,7 @@ vocang:maomettere
     skos:prefLabel "Maomettere"@it ;
     lexinfo:pronunciation "/ma • o • mét • te • re/"@it ;
     skos:definition "L'azione di manipolare un oggetto o un'informazione, compiuta da individui che svolgono il ruolo di profeti religiosi."@it ;
-    skos:example "I frati cappuccini in quella chiesa volevano far credere ai fedeli che la vergine Maria apparisse davanti all'altare come per miracolo. Avevano addirittura maomesso delle registrazioni per risultare più credibili. Sono stati denunciati e ora passano il tempo nella cappella della prigione.";
+    skos:example "I frati cappuccini in quella chiesa volevano far credere ai fedeli che la vergine Maria apparisse davanti all'altare come per miracolo. Avevano addirittura maomesso delle registrazioni per risultare più credibili. Sono stati denunciati e ora passano il tempo nella cappella della prigione."@it ;
     dct:created "2023-03-27" ;
     dct:creator vocang:bragariAlexandru .
 
@@ -4600,7 +4600,7 @@ vocang:maomare
     skos:prefLabel "Maomare"@it ;
     lexinfo:pronunciation "/ma • o • mà • re/"@it ;
     skos:definition "L'atto di amputare le mani di un individuo, spesso utilizzata al fine di sanzionare un furto commesso in paesi con limitate opportunità di istruzione e cultura."@it ;
-    skos:example "L'uso della pratica del maomare è stata fortemente criticata dalle organizzazioni internazionali per i diritti umani, che hanno espresso preoccupazione per la violazione dei diritti fondamentali degli individui sottoposti a questa forma di sanzione punitiva.";
+    skos:example "L'uso della pratica del maomare è stata fortemente criticata dalle organizzazioni internazionali per i diritti umani, che hanno espresso preoccupazione per la violazione dei diritti fondamentali degli individui sottoposti a questa forma di sanzione punitiva."@it ;
     dct:created "2023-03-27" ;
     dct:creator vocang:omiccioliRiccardo .
 
@@ -4609,7 +4609,7 @@ vocang:cosciofono
     skos:prefLabel "Cosciofono"@it ;
     lexinfo:pronunciation "/co • sciò • fo • no/"@it ;
     skos:definition "Coscia di una persona adoperato come strumento percussivo con l'obiettivo di produrre melodie musicali."@it ;
-    skos:example "Amo creare semplici melodie con il cosciofono di Sofia quando siamo al mare. È molto rilassante.";
+    skos:example "Amo creare semplici melodie con il cosciofono di Sofia quando siamo al mare. È molto rilassante."@it ;
     dct:created "2023-03-18" ;
     dct:creator vocang:rosatelliAnna, vocang:nardiniArianna, vocang:orlandoNicola .
 
@@ -4618,7 +4618,7 @@ vocang:coscista
     skos:prefLabel "Coscista"@it ;
     lexinfo:pronunciation "/co • scì • sta/"@it ;
     skos:definition "Persona che suona il cosciofono."@it ;
-    skos:example "I coscisti sono veramente bravi. Sono in grado di identificare in quale posizione della coscia si trovano le varie note musicali!";
+    skos:example "I coscisti sono veramente bravi. Sono in grado di identificare in quale posizione della coscia si trovano le varie note musicali!"@it ;
     dct:created "2023-03-18" ;
     skos:related vocang:cosciofono ;
     dct:creator vocang:rosatelliAnna, vocang:nardiniArianna, vocang:orlandoNicola .
@@ -4628,7 +4628,7 @@ vocang:fintomo
     skos:prefLabel "Fintomo"@it ;
     lexinfo:pronunciation "/fìn • to • mo/"@it ;
     skos:definition "Un sintomo simulato, senza basi mediche, al fine di ingannare gli altri circa la presenza di una malattia inesistente."@it ;
-    skos:example "Ogni tanto non vado a scuola grazie ai fintomi dell'influenza.";
+    skos:example "Ogni tanto non vado a scuola grazie ai fintomi dell'influenza."@it ;
     dct:created "2023-03-12" ;
     dct:creator vocang:orlandoNicola .
 
@@ -4637,7 +4637,7 @@ vocang:nemiccio
     skos:prefLabel "Nemiccio"@it ;
     lexinfo:pronunciation "/ne • mìc • cio/"@it ;
     skos:definition "Asino di natura ostile, incline a ragliare e calciare frequentemente."@it ;
-    skos:example "Quel ciuco è sempre furioso e non ha nessun motivo valido per esserlo. Se la situazione non migliora sono abbastanza sicuro che quel nemiccio finirà nella polenta della cena entro qualche giorno.";
+    skos:example "Quel ciuco è sempre furioso e non ha nessun motivo valido per esserlo. Se la situazione non migliora sono abbastanza sicuro che quel nemiccio finirà nella polenta della cena entro qualche giorno."@it ;
     dct:created "2023-03-25" ;
     dct:creator vocang:suscaMatteo, vocang:battaglinoNicole, vocang:orlandoNicola .
 
@@ -4646,7 +4646,7 @@ vocang:apostolangelo
     skos:prefLabel "Apostolangelo"@it ;
     lexinfo:pronunciation "/a • po • sto • làn • ge • lo/"@it ;
     skos:definition "L'opera di chi dedica tutto sé stesso alla missione di diffondere e promuovere l'utilizzo delle parolangelo."@it ;
-    skos:example "L'apostolangelo è la mia vocazione. Sogno un mondo in cui tutti possano divertirsi utilizzando le parolangelo che più amano.";
+    skos:example "L'apostolangelo è la mia vocazione. Sogno un mondo in cui tutti possano divertirsi utilizzando le parolangelo che più amano."@it ;
     dct:created "2023-03-17" ;
     dct:creator vocang:rosatelliAnna .
 
@@ -4655,6 +4655,6 @@ vocang:podiologo
     skos:prefLabel "Podiologo"@it ;
     lexinfo:pronunciation "/po • diò • lo • go/"@it ;
     skos:definition "Un individuo che nutre una particolare affinità per i piedi e che, conseguentemente, si dedica alla costruzione dei podi sui quali i vincitori delle gare potranno camminare."@it ;
-    skos:example "Gianmarco è il podiologo che più si è distinto per la sua maestria nella costruzione di podi di ogni tipo, garantendo ai vincitori delle gare una piattaforma stabile e sicura su cui celebrare le loro vittorie.";
+    skos:example "Gianmarco è il podiologo che più si è distinto per la sua maestria nella costruzione di podi di ogni tipo, garantendo ai vincitori delle gare una piattaforma stabile e sicura su cui celebrare le loro vittorie."@it ;
     dct:created "2023-03-22" ;
     dct:creator vocang:bragariAlexandru .
