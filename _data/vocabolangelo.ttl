@@ -4373,3 +4373,12 @@ vocang:geomicolo
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/termosifino.jpg" ;
     dct:created "2023-03-18" ;
     dct:creator vocang:omiccioliRiccardo .
+
+ vocang:mucchiotto
+    a skos:Concept ;
+    skos:prefLabel "Mucchiotto"@it ;
+    lexinfo:pronunciation "/muc • chiòt • to/"@it ;
+    skos:definition "Un morso così aggressivo che lascia un segno simile a quello di un succhiotto sulla pelle di chi lo riceve."@it ;
+    skos:example "Io e la mia ragazza amiamo darci i morsi giocosi a vicenda, ma quando le ho detto che sarei uscito a giocare a calcetto coi miei amici il giorno del nostro anniversario o ricevuto il mucchiotto più forte della mia vita."@it ;
+    dct:created "2023-03-18" ;
+    dct:creator vocang:ribaudoSofia .
