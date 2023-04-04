@@ -4688,3 +4688,12 @@ vocang:raggirula
     skos:example "La raggirula che vieta l'utilizzo di ChatGPT in Italia è facilmente aggirabile grazie all'utilizzo di una VPN, che consente agli utenti di accedere al servizio senza alcuna restrizione."@it ;
     dct:created "2023-04-01" ;
     dct:creator vocang:omiccioliRiccardo, vocang:filasetaAngelo, vocang:chatGPT .
+
+vocang:conacidio
+    a skos:Concept ;
+    skos:prefLabel "Conacidio"@it ;
+    lexinfo:pronunciation "/co • na • cì • dio/"@it ;
+    skos:definition "Un omicidio compiuto utilizzando almeno un elemento fra i seguenti: un filo di nylon, un pezzo di ghiaccio o un pezzo di nastro adesivo."@it ;
+    skos:example "Trovare il colpevole di un conacidio in generale è più difficile."@it ;
+    dct:created "2023-03-31" ;
+    dct:creator vocang:filasetaAngelo .
