@@ -4667,6 +4667,15 @@ vocang:vocaboliere
     lexinfo:pronunciation "/vo • ca • bo • liè • re/"@it ;
     skos:definition "Un individuo che ha inventato almeno una parolangelo nel corso della sua vita."@it ;
     skos:example "Tutti i vocaboladmin sono anche vocabolieri."@it, "Grazie all'apostolangelo il numero di vocabolieri crescerà!" ;
-    skos:related vocang:vocaboladmin, vocang:vocabolangelo, vocang:angelario, vocang:parolangelo, vocang:apostolangelo, vocang:dizionangelo .
+    skos:related vocang:vocaboladmin, vocang:vocabolangelo, vocang:angelario, vocang:parolangelo, vocang:apostolangelo, vocang:dizionangelo ;
     dct:created "2023-04-02" ;
-    dct:creator vocang:filasetaAngelo vocang:omiccioliRiccardo .
+    dct:creator vocang:filasetaAngelo, vocang:omiccioliRiccardo .
+
+vocang:permasoleso
+    a skos:Concept ;
+    skos:prefLabel "Permasoleso"@it ;
+    lexinfo:pronunciation "/per • ma • so • lé • ṣo/"@it ;
+    skos:definition "Una persona estremamente vulnerabile ed emotivamente fragile, che reagisce in modo sproporzionato e finisce devastata da ogni minima forma di attacco o offesa, lasciando cicatrici profonde e durature nella sua psiche e nel suo spirito."@it ;
+    skos:example "Marco continua ad andare dallo psicologo ma ha ammesso anche quest'ultimo che quasi non riesce ad interpellarlo a causa del suo essere permasoleso." ;
+    dct:created "2023-04-01" ;
+    dct:creator vocang:durazziMarco .
