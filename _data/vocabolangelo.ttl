@@ -4736,3 +4736,13 @@ vocang:vocabolangelare
     skos:related vocang:vocaboladmin, vocang:vocabolangelo, vocang:angelario, vocang:parolangelo, vocang:apostolangelo, vocang:dizionangelo, vocang:vocaboliere, vocang:vocabolangelare ;
     dct:created "2023-03-29" ;
     dct:creator vocang:rosatelliAnna .
+
+vocang:risottimo
+    a skos:Concept ;
+    skos:prefLabel "Risottimo"@it ;
+    lexinfo:pronunciation "/ri • sòt • ti • mo/"@it ;
+    skos:definition "Un ottimo risotto."@it ;
+    skos:example "Wow sai cucinare davvero bene. È proprio un risottimo."@it ;
+    skos:related vocang:buonana ;
+    dct:created "2023-03-29" ;
+    dct:creator vocang:suscaMatteo .
