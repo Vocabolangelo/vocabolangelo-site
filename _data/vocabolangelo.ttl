@@ -4783,3 +4783,13 @@ vocang:portabilare
     skos:note "Alcuni esempi di portabilari sono il portafoglio, il cellulare, gli occhiali da vista."@it ;
     dct:created "2023-04-03" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:accebilare
+    a skos:Concept ;
+    skos:prefLabel "Accebilare"@it ;
+    lexinfo:pronunciation "/ac • ce • bi • là • re/"@it ;
+    skos:definition "Oggetto che  non risulta essenziale ma che è comunque molto utile in particolari circostanze."@it ;
+    skos:example "La lista degli accebilari è importante ma non vitale per quanto riguarda l'organizzazione di un viaggio. Se ci si scorda di uno di questi oggetti si potrebbero sempre comprare."@it ;
+    skos:note "Alcuni esempi di oggetti includono ad esempio ombrelli, Kway e occhiali da sole."@it ;
+    dct:created "2023-04-03" ;
+    dct:creator vocang:filasetaAngelo .
