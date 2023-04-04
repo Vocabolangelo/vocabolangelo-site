@@ -4804,3 +4804,12 @@ vocang:rotatatoria
     dct:created "2023-04-01" ;
     skos:related vocang:incrociatoria ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:superficometro
+    a skos:Concept ;
+    skos:prefLabel "Superficometro"@it ;
+    lexinfo:pronunciation "/su • per • fi • cò • me • tro/"@it ;
+    skos:definition "Una superficie piana e verticale, spesso un muro o una porta, su cui vengono segnate le altezze di un gruppo ristretto di persone. Questa superficie può essere utilizzata per tenere traccia delle altezze delle persone che frequentano un determinato luogo o per registrare l'altezza di un gruppo di persone per fini statistici, di ricerca o di mero intrattenimento."@it ;
+    skos:example "In palestra, il coach ha messo un superficometro per tenere traccia dell'altezza dei suoi atleti."@it ;
+    dct:created "2023-04-01" ;
+    dct:creator vocang:filasetaAngelo, vocang:durazziMarco, vocang:battaglinoNicole, vocang:omiccioliRiccardo, vocang:chatGPT .
