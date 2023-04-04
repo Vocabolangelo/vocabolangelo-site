@@ -4820,6 +4820,7 @@ vocang:scarbattare
     lexinfo:pronunciation "/scar • bat • tà • re/"@it ;
     skos:definition "Il gesto compiuto per indossare una scarpa in modo non convenzionale, simile all'indossare una ciabatta, al fine di dirigersi velocemente in un luogo."@it ;
     skos:example "Dovevo buttare l'immondizia quindi ho scarbattato e sono uscito per farlo."@it ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/superficometro.jpg" ;
     dct:created "2023-04-01" ;
     dct:creator vocang:omiccioliRiccardo .
 
@@ -4829,5 +4830,6 @@ vocang:velletreno
     lexinfo:pronunciation "/vel • le • trè • no/"@it ;
     skos:definition "Un treno che si dirige verso la stazione del comune di Velletri."@it ;
     skos:example "Il velletreno sta arrivando proprio ora al binario 18 a Roma Termini. Quel binario fa schifo, ti conviene correre perché è molto distante da qui."@it ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/velletreno.jpg" ;
     dct:created "2023-04-04" ;
     dct:creator vocang:filasetaAngelo .
