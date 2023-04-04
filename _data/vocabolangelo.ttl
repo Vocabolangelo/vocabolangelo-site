@@ -4707,3 +4707,13 @@ vocang:domicidio
     skos:related vocang:conacidio ;
     dct:created "2023-03-31" ;
     dct:creator vocang:filasetaAngelo, vocang:pertosaLorenzo .
+
+
+vocang:pisonnolino
+    a skos:Concept ;
+    skos:prefLabel "Pisonnolino"@it ;
+    lexinfo:pronunciation "/pis • son • no • li • no/"@it ;
+    skos:definition "Pisolino che si trasforma in un sonno profondo e più lungo del dovuto."@it ;
+    skos:example "Avevo un appuntamento con Rebecca ma ho fatto un pisonnolino. Spero non mi odi."@it ;
+    dct:created "2023-03-31" ;
+    dct:creator vocang:minoccheriAlessandra .
