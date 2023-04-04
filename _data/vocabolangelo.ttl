@@ -4842,3 +4842,12 @@ vocang:biscordo
     skos:example "Il figlio di Melany si è scordato completamente di me nonostante sia venuto a trovarlo la settimana scorsa."@it ;
     dct:created "2023-03-29" ;
     dct:creator vocang:pertosaLorenzo, vocang:scattoniAlessandra .
+
+vocang:postoletta
+    a skos:Concept ;
+    skos:prefLabel "Postoletta"@it ;
+    lexinfo:pronunciation "/pos • to • lét • ta/"@it ;
+    skos:definition "Cotoletta accuratamente preparata, incartata e spedita tramite il servizio postale."@it ;
+    skos:example "Sono arrivate le postolette in ritardo, potrebbero essere marce... Non sono sicuro di voler fare la grigliata."@it ;
+    dct:created "2023-03-27" ;
+    dct:creator vocang:pertosaLorenzo .
