@@ -4774,3 +4774,12 @@ vocang:falsagggio
     dct:created "2023-03-27" ;
     dct:creator vocang:suscaMatteo .
 
+vocang:portabilare
+    a skos:Concept ;
+    skos:prefLabel "Portabilare"@it ;
+    lexinfo:pronunciation "/por • ta • bi • là • re/"@it ;
+    skos:definition "Oggetto che viene generalmente portato sempre con sé in ogni momento, luogo e circostanza."@it ;
+    skos:example "La lista dei portabilari è quella più importante da spuntare completamente quando ci si prepara per un viaggio. Scordare anche solo uno di quegli oggetti potrebbe essere non così piacevole."@it ;
+    skos:note "Alcuni esempi di portabilari sono il portafoglio, il cellulare, gli occhiali da vista."@it ;
+    dct:created "2023-04-03" ;
+    dct:creator vocang:filasetaAngelo .
