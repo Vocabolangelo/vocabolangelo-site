@@ -4746,3 +4746,13 @@ vocang:risottimo
     skos:related vocang:buonana ;
     dct:created "2023-03-29" ;
     dct:creator vocang:suscaMatteo .
+
+
+vocang:veggenteggiare
+    a skos:Concept ;
+    skos:prefLabel "Veggenteggiare"@it ;
+    lexinfo:pronunciation "/veg • gen • teg • già • re/"@it ;
+    skos:definition "La serie di azioni e processi che svolge un veggente mediante i quali è in grado di leggere e  prevedere il futuro."@it ;
+    skos:example "Quella signora alla fiera ha veggenteggiato un po' prima di rivelarmi che diventerò ricco da far schifo."@it ;
+    dct:created "2023-03-27" ;
+    dct:creator vocang:rosatelliAnna .
