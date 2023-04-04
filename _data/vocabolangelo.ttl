@@ -4726,3 +4726,13 @@ vocang:vocabolangelare
     skos:related vocang:vocaboladmin, vocang:vocabolangelo, vocang:angelario, vocang:parolangelo, vocang:apostolangelo, vocang:dizionangelo, vocang:vocaboliere ;
     dct:created "2023-03-29" ;
     dct:creator vocang:rosatelliAnna .
+
+vocang:vocabolangelare
+    a skos:Concept ;
+    skos:prefLabel "Vocabolangelizzare"@it ;
+    lexinfo:pronunciation "/vo • ca • bo • lan • ge • liz • zà • re/"@it ;
+    skos:definition "L'atto di creare nuove parolangelo attraverso un flusso di pensieri."@it ;
+    skos:example "Vocabolangelizzare è molto divertente, ma anche molto utile. Spesso mancano parole per indicare qualcosa in modo rapido."@it ;
+    skos:related vocang:vocaboladmin, vocang:vocabolangelo, vocang:angelario, vocang:parolangelo, vocang:apostolangelo, vocang:dizionangelo, vocang:vocaboliere, vocang:vocabolangelare ;
+    dct:created "2023-03-29" ;
+    dct:creator vocang:rosatelliAnna .
