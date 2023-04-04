@@ -4765,3 +4765,12 @@ vocang:asessare
     dct:created "2023-03-27" ;
     dct:creator vocang:timpanoSam .
 
+vocang:falsagggio
+    a skos:Concept ;
+    skos:prefLabel "Falsaggio"@it ;
+    lexinfo:pronunciation "/fal • sàg • gio/"@it ;
+    skos:definition "Richiesta di un assaggio di una pietanza con la consapevolezza di averla già assaggiata non molto tempo prima ed effettuata con la speranza che la persona a cui viene sottoposta se ne sia dimenticata."@it ;
+    skos:example "Ho ottenuto un falsaggio della pizza di Nicole, per fortuna non si è accorta di nulla."@it ;
+    dct:created "2023-03-27" ;
+    dct:creator vocang:suscaMatteo .
+
