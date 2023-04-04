@@ -4697,3 +4697,13 @@ vocang:conacidio
     skos:example "Trovare il colpevole di un conacidio in generale è più difficile."@it ;
     dct:created "2023-03-31" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:domicidio
+    a skos:Concept ;
+    skos:prefLabel "Domicidio"@it ;
+    lexinfo:pronunciation "/do • mi • cì • dio/"@it ;
+    skos:definition "Omicidio che avviene in un domicilio."@it ;
+    skos:example "Trovare il colpevole di un domicidio in generale non è difficile."@it ;
+    skos:related vocang:conacidio ;
+    dct:created "2023-03-31" ;
+    dct:creator vocang:filasetaAngelo, vocang:pertosaLorenzo .
