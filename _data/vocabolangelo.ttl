@@ -4679,3 +4679,12 @@ vocang:permasoleso
     skos:example "Marco continua ad andare dallo psicologo ma ha ammesso anche quest'ultimo che quasi non riesce ad interpellarlo a causa del suo essere permasoleso." ;
     dct:created "2023-04-01" ;
     dct:creator vocang:durazziMarco .
+
+vocang:raggirula
+    a skos:Concept ;
+    skos:prefLabel "Raggirula"@it ;
+    lexinfo:pronunciation "/rag • gì • ru • la/"@it ;
+    skos:definition "Una regola, un obbligo o un vincolo imposto che è progettato per essere seguito ma che può essere facilmente aggirato o eluso attraverso l'inganno, l'astuzia o la manipolazione. La raggirula appare come un ostacolo formale al raggiungimento di un obiettivo, ma in realtà può essere facilmente superata attraverso l'uso di trucchi o sotterfugi."@it ;
+    skos:example "La raggirula che vieta l'utilizzo di ChatGPT in Italia è facilmente aggirabile grazie all'utilizzo di una VPN, che consente agli utenti di accedere al servizio senza alcuna restrizione."@it ;
+    dct:created "2023-04-01" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:filasetaAngelo, vocang:chatGPT .
