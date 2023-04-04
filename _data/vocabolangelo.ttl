@@ -4708,7 +4708,6 @@ vocang:domicidio
     dct:created "2023-03-31" ;
     dct:creator vocang:filasetaAngelo, vocang:pertosaLorenzo .
 
-
 vocang:pisonnolino
     a skos:Concept ;
     skos:prefLabel "Pisonnolino"@it ;
@@ -4717,3 +4716,13 @@ vocang:pisonnolino
     skos:example "Avevo un appuntamento con Rebecca ma ho fatto un pisonnolino. Spero non mi odi."@it ;
     dct:created "2023-03-31" ;
     dct:creator vocang:minoccheriAlessandra .
+
+vocang:vocabolangelare
+    a skos:Concept ;
+    skos:prefLabel "Vocabolangelare"@it ;
+    lexinfo:pronunciation "/vo • ca • bo • lan • ge • là • re/"@it ;
+    skos:definition "Svolgere mansioni relative al Vocabolangelo."@it ;
+    skos:example "Ogni volta che la community propone nuove parole i vocaboladmin si mettono subito a vocabolangelare."@it ;
+    skos:related vocang:vocaboladmin, vocang:vocabolangelo, vocang:angelario, vocang:parolangelo, vocang:apostolangelo, vocang:dizionangelo, vocang:vocaboliere ;
+    dct:created "2023-03-29" ;
+    dct:creator vocang:rosatelliAnna .
