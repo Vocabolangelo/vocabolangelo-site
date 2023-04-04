@@ -1,5 +1,39 @@
 # Changelog
 
+## [4.11.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v4.10.0...v4.11.0) (2023-04-04)
+
+
+### Features
+
+* **concept:** add accebilare ([9948a2c](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/9948a2c0f2e7815114c46825a7a2fdfbfb0dfcba))
+* **concept:** add asessare ([f83b19c](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/f83b19cf7ccbd34fe71342f02d79434bd1e79aa0))
+* **concept:** add biscordo ([e49e433](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/e49e4330198519a2c5b2a157c8c5fb5a457d3e5a))
+* **concept:** add conacidio ([3b5eb1f](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/3b5eb1f1f30889124a15ea0b96a4e05e833f63ba))
+* **concept:** add domicidio ([e283f28](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/e283f28529f9b8bb3c93589f675a30e272593527))
+* **concept:** add falsaggio ([c6e8dda](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/c6e8dda35ae01465168839db87257047104645c0))
+* **concept:** add permasoleso ([74a7f67](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/74a7f67cd987da38fae5b6738988ff942fa5ad30))
+* **concept:** add pisonnolino ([0af27dd](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/0af27dd189e8742a969fbb8d4b887a218a7c4953))
+* **concept:** add portabilare ([46b54c0](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/46b54c02c5762ef431e9e1b04fd35a9edecdb799))
+* **concept:** add postoletta ([e11a5da](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/e11a5da11dd94f076f18c3ed094b6d59150b6782))
+* **concept:** add raggirula ([3bf5946](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/3bf594668d56e684b58453ff3018df62e0ed9417))
+* **concept:** add risottimo ([e0050fd](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/e0050fdbd2f7afb57d7e8a72d618904cc7c83f6e))
+* **concept:** add rotatatoria ([05bfa02](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/05bfa029b6466bf2bd5a1b43df0c29f3ecec057e))
+* **concept:** add scarbattare ([20b78b0](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/20b78b06e48993194bc1316cc3661133228d27aa))
+* **concept:** add superficometro ([08c05f2](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/08c05f2a6b6926bda3d4bb0790a37004cee2fd4f))
+* **concept:** add veggenteggiare ([24a6a70](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/24a6a70493b3893e1b843c9b064093b935b90803))
+* **concept:** add velletreno ([9149d6e](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/9149d6ef2b3d2a171b18495e4b92a3e9b6946dca))
+* **concept:** add vocabolangelare ([8fcc65f](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/8fcc65f37d3d00dbcac5f41c643931c75ea3e676))
+* **concept:** add vocabolangelizzare ([79865e5](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/79865e5944190e90836a097f0b928e22fce5023a))
+* **concept:** add vocaboliere ([ecb6cd5](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/ecb6cd5955e0bcc4b54125abf27cea4bb0e8c205))
+* **image:** add superficometro ([14dc8e5](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/14dc8e5e8ba38819800c865ed0e4559dd8062bb5))
+* **image:** add velletreno ([d41304d](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/d41304d44d3ffedc9ca36a1b8c9f3610f542433b))
+
+
+### Bug Fixes
+
+* **concept:** correct bewolla definition ([6c84633](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/6c846338a8c81e747109cbb2d4b40fc8c71d686f))
+* **concept:** maomare -&gt; manomare ([4f20aa1](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/4f20aa1eacf27e1dcd1cc24939db7b27833bed2c))
+
 ## [4.10.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v4.9.0...v4.10.0) (2023-03-27)
 
 
