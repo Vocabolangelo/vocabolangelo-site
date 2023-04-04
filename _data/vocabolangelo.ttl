@@ -3282,7 +3282,7 @@ vocang:fangobili
 vocang:bewolla
     a skos:Concept ;
     skos:prefLabel "Bewolla"@it ;
-    skos:definition "Un atto di non permesso dalla società in quanto viola principi morali che sono ormai instaurati da tanto tempo."@it ;
+    skos:definition "Un atto non permesso dalla società in quanto viola principi morali che sono ormai instaurati da tanto tempo."@it ;
     skos:example "Non puoi entrare in una chiesa senza maglietta, è una cosa troppo bewolla."@it ;
     dct:created "2023-02-05" ;
     dct:creator vocang:filasetaAngelo .
