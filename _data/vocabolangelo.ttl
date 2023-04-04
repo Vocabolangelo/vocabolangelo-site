@@ -4660,3 +4660,13 @@ vocang:podiologo
     skos:example "Gianmarco è il podiologo che più si è distinto per la sua maestria nella costruzione di podi di ogni tipo, garantendo ai vincitori delle gare una piattaforma stabile e sicura su cui celebrare le loro vittorie."@it ;
     dct:created "2023-03-22" ;
     dct:creator vocang:bragariAlexandru .
+
+vocang:vocaboliere
+    a skos:Concept ;
+    skos:prefLabel "Vocaboliere"@it ;
+    lexinfo:pronunciation "/vo • ca • bo • liè • re/"@it ;
+    skos:definition "Un individuo che ha inventato almeno una parolangelo nel corso della sua vita."@it ;
+    skos:example "Tutti i vocaboladmin sono anche vocabolieri."@it, "Grazie all'apostolangelo il numero di vocabolieri crescerà!" ;
+    skos:related vocang:vocaboladmin, vocang:vocabolangelo, vocang:angelario, vocang:parolangelo, vocang:apostolangelo, vocang:dizionangelo .
+    dct:created "2023-04-02" ;
+    dct:creator vocang:filasetaAngelo vocang:omiccioliRiccardo .
