@@ -4977,7 +4977,15 @@ vocang:birredì
     a skos:Concept ;
     skos:prefLabel "Birredì"@it ;
     lexinfo:pronunciation "/bir • re • dì/"@it ;
-    skos:definition "una giornata, non necessariamente legata a un giorno specifico della settimana, in cui l'attività principale consiste nel consumo di birra in compagnia o solitudine." ;
+    skos:definition "Una giornata, non necessariamente legata a un giorno specifico della settimana, in cui l'attività principale consiste nel consumo di birra in compagnia o solitudine." ;
     skos:example "Non vedo l'ora che arrivi il prossimo birredì per gustare una birra fresca con gli amici dopo una lunga settimana di lavoro."@it ;
     dct:created "2023-04-13" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:beerabiglia
+    a skos:Concept ;
+    skos:prefLabel "Beerabiglia"@it ;
+    skos:definition "Una birra di alta qualità, dal sapore intenso e piacevole, capace di soddisfare i palati più esigenti. Si tratta di una bevanda che si distingue per la sua raffinatezza e la sua capacità di creare esperienze sensoriali indimenticabili." ;
+    skos:example "La beerabiglia, con il suo gusto intenso e il suo profumo invitante, rappresenta l'eccellenza delle birre artigianali. La sua schiuma cremosa e persistente, il suo colore dorato e la sua texture morbida la rendono un vero piacere per il palato. Va gustata fredda, a una temperatura ideale di 4-6°C, mentre si ammira lo spettacolo mozzafiato del tramonto, per un'esperienza sensoriale completa."@it ;
+    dct:created "2023-04-13" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:chatGPT .
