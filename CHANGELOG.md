@@ -1,5 +1,33 @@
 # Changelog
 
+## [4.12.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v4.11.0...v4.12.0) (2023-04-14)
+
+
+### Features
+
+* **concept:** add beerabiglia ([9cef78a](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/9cef78a009d2b44281fc0e9b1a9cbce1d54cb4bf))
+* **concept:** add beeribì ([160e1ca](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/160e1ca9045b0c9ab20e8ae9a306914e59d5b3d8))
+* **concept:** add biribico ([1e9284f](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/1e9284fcf2113806225c2c11159cafde62a513d3))
+* **concept:** add birredì ([e5fc160](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/e5fc160e34827d04b0c0e45022ddf22d57455add))
+* **concept:** add italinano ([1f0aaee](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/1f0aaee88c81f51e8023415ad1b4608ffdee6017))
+* **concept:** add ligattropo ([9b4da53](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/9b4da53de00cf48391b0ed2843bc289d089c6f04))
+* **concept:** add mimeticcio ([527820e](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/527820e3c56c2a9f075cb8e19d9be94e083d759a))
+* **concept:** add networkink ([01d04b3](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/01d04b313366c4c89cf9ca81d0824158b258adef))
+* **concept:** add podomido ([e81ae43](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/e81ae43eff63acd1cfb03578323d9fa5a6cb892c))
+* **concept:** add preservadito ([594faea](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/594faeac401dfdc9919e1d6484cc6d81f6c9d8d6))
+* **concept:** add sabbiasso ([822ce15](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/822ce15d0ab422fdd8376f829d6eadebcd118f78))
+* **concept:** add sgatto ([28f666f](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/28f666f1906bffacb5fbbaa266685f2690e536ab))
+* **concept:** add soffiozzotto ([c3f0235](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/c3f02354cb95dd41f71248df6feb2ea5fde75597))
+* **concept:** add tirchiocidio ([22d785c](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/22d785c486e0e8533b0b6f0a2236f0587eda63a7))
+* **concept:** add tirchiocinio ([64e38aa](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/64e38aaa27618104e882193c4c92fa7efd12cb0b))
+* **concept:** add vuovo ([af8dad3](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/af8dad3345da0a9dd2d459092a62acf419d1739b))
+* **image:** add preservadito ([ce0a713](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/ce0a71313a9daa36ecd3a4ae62bb79f5dd6b341d))
+
+
+### Bug Fixes
+
+* **concept:** tirchiocidio authors is now correct ([e3f1dd5](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/e3f1dd54d56c4a6e2690105a04661a4ede7558bf))
+
 ## [4.11.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v4.10.0...v4.11.0) (2023-04-04)
 
 
