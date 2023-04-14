@@ -4851,3 +4851,12 @@ vocang:postoletta
     skos:example "Sono arrivate le postolette in ritardo, potrebbero essere marce... Non sono sicuro di voler fare la grigliata."@it ;
     dct:created "2023-03-27" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:biribico
+    a skos:Concept ;
+    skos:prefLabel "Biribico"@it ;
+    lexinfo:pronunciation "/bi • ri • bì • co/"@it ;
+    skos:definition "Persona che si fa amica durante un soggiorno in un biribì."@it ;
+    skos:example "I biribici ci sono davvero per te fino all'ultimo momento."@it ;
+    dct:created "2023-04-05" ;
+    dct:creator vocang:savoGiorgia .
