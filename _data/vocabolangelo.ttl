@@ -4963,3 +4963,12 @@ vocang:vuovo
     skos:example "Qualcuno deve avermi fatto uno scherzo. nel mio frigo ci sono un sacco di vuova. Volevo farmi una carbonara ma ho solo degli inutili gusci."@it ;
     dct:created "2023-04-12" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:beeribì
+    a skos:Concept ;
+    skos:prefLabel "Beeribì"@it ;
+    skos:definition "Un biribì che tra le altre cose serve dell'ottima birra artigianale." ;
+    skos:example "Se devo finire in un biribì, allora sarebbe ideale se fosse un beeribì. Voglio andarmene completamente sbronzo."@it ;
+    skos:related vocang:biribì ;
+    dct:created "2023-04-13" ;
+    dct:creator vocang:omiccioliRiccardo .
