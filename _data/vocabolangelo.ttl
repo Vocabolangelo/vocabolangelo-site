@@ -4972,3 +4972,12 @@ vocang:beeribì
     skos:related vocang:biribì ;
     dct:created "2023-04-13" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:birredì
+    a skos:Concept ;
+    skos:prefLabel "Birredì"@it ;
+    lexinfo:pronunciation "/bir • re • dì/"@it ;
+    skos:definition "una giornata, non necessariamente legata a un giorno specifico della settimana, in cui l'attività principale consiste nel consumo di birra in compagnia o solitudine." ;
+    skos:example "Non vedo l'ora che arrivi il prossimo birredì per gustare una birra fresca con gli amici dopo una lunga settimana di lavoro."@it ;
+    dct:created "2023-04-13" ;
+    dct:creator vocang:omiccioliRiccardo .
