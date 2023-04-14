@@ -4860,3 +4860,12 @@ vocang:biribico
     skos:example "I biribici ci sono davvero per te fino all'ultimo momento."@it ;
     dct:created "2023-04-05" ;
     dct:creator vocang:savoGiorgia .
+
+vocang:mimetìccio
+    a skos:Concept ;
+    skos:prefLabel "Mimetìccio"@it ;
+    lexinfo:pronunciation "/mi • me • tìc • cio/"@it ;
+    skos:definition "Animale di razza meticcia, quest'ultima frutto di selezione artificiale o naturale, il quale tende a mimetizzarsi nel suo habitat per via del proprio colore."@it ;
+    skos:example "I mimeticci più pericolosi sono quelli che dispongono di armi velenose."@it ;
+    dct:created "2023-04-07" ;
+    dct:creator vocang:minoccheriAlessandra, vocang:orlandoNicola, vocang:pertosaLorenzo .
