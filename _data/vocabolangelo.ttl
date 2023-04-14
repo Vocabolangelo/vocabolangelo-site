@@ -4943,5 +4943,14 @@ vocang:preservadito
     lexinfo:pronunciation "/pre • ser • va • dì • to/"@it ;
     skos:definition "Guaina sottile in gomma naturale o sintetica, da applicare su un dito al fine di non lasciare impronte digitali su una superficie." ;
     skos:example "Ho ordinato un ricambio trasparente per la scocca della mia console e a quanto pare costava meno includere sei preservaditi che dei guanti per evitare di lasciare impronte all'interno."@it ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/preservadito.jpg" ;
     dct:created "2023-04-08" ;
     dct:creator vocang:orlandoNicola .
+
+vocang:networkink
+    a skos:Concept ;
+    skos:prefLabel "Networkink"@it ;
+    skos:definition "Passione intensa per la progettazione, l'implementazione e la gestione delle infrastrutture di rete. Questa passione si esprime attraverso un forte interesse per le tecnologie di rete, la conoscenza delle migliori pratiche di gestione della rete e l'entusiasmo nel risolvere le sfide tecniche che possono sorgere nell'implementazione di una rete complessa." ;
+    skos:example "Da quando ho scoperto il networkink, non posso fare a meno di passare ore a configurare, testare e ottimizzare la mia rete domestica."@it ;
+    dct:created "2023-04-12" ;
+    dct:creator vocang:orlandoNicola, vocang:chatGPT .
