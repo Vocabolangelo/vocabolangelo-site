@@ -4907,3 +4907,12 @@ vocang:soffiozzotto
     skos:example "Sembra una cavolata, ma ti giuro che ogni volta che il mio ragazzo mi fa i soffiozzotti mi passa subito il singhiozzo!"@it ;
     dct:created "2023-04-09" ;
     dct:creator vocang:filasetaAngelo, vocang:savoGiorgia .
+
+vocang:sabbiasso
+    a skos:Concept ;
+    skos:prefLabel "Sabbiasso"@it ;
+    lexinfo:pronunciation "/sab • biàs • so/"@it ;
+    skos:definition "Un sasso dal volume relativamente esiguo, tipicamente presente in grandi quantità su una qualsiasi spiaggia e che presenta somiglianze morfologiche con un granello di sabbia, ma risulta comunque più grosso." ;
+    skos:example "Odio i sabbiassi, camminarci sopra è molto fastidioso e qualche volta anche doloroso."@it ;
+    dct:created "2023-04-09" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
