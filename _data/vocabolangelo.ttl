@@ -4869,3 +4869,12 @@ vocang:mimetìccio
     skos:example "I mimeticci più pericolosi sono quelli che dispongono di armi velenose."@it ;
     dct:created "2023-04-07" ;
     dct:creator vocang:minoccheriAlessandra, vocang:orlandoNicola, vocang:pertosaLorenzo .
+
+vocang:sgatto
+    a skos:Concept ;
+    skos:prefLabel "Sgatto"@it ;
+    lexinfo:pronunciation "/sgàt • to/"@it ;
+    skos:definition "Movimento improvviso fatto solitamente da felini quando si spaventano."@it ;
+    skos:example "Kiri ha fatto uno sgatto quando ha sentito quella pentola cadere."@it ;
+    dct:created "2023-04-08" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
