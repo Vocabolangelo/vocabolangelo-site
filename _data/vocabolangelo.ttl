@@ -4954,3 +4954,12 @@ vocang:networkink
     skos:example "Da quando ho scoperto il networkink, non posso fare a meno di passare ore a configurare, testare e ottimizzare la mia rete domestica."@it ;
     dct:created "2023-04-12" ;
     dct:creator vocang:orlandoNicola, vocang:chatGPT .
+
+vocang:vuovo
+    a skos:Concept ;
+    skos:prefLabel "Vuovo"@it ;
+    lexinfo:pronunciation "/vuò • vo/"@it ;
+    skos:definition "Uovo vuoto all'interno poichè svuotato del contenuto o perchè strutturalmente difettoso." ;
+    skos:example "Qualcuno deve avermi fatto uno scherzo. nel mio frigo ci sono un sacco di vuova. Volevo farmi una carbonara ma ho solo degli inutili gusci."@it ;
+    dct:created "2023-04-12" ;
+    dct:creator vocang:pertosaLorenzo .
