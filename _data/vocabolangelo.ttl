@@ -4912,7 +4912,7 @@ vocang:sabbiasso
     a skos:Concept ;
     skos:prefLabel "Sabbiasso"@it ;
     lexinfo:pronunciation "/sab • biàs • so/"@it ;
-    skos:definition "Un sasso dal volume relativamente esiguo, tipicamente presente in grandi quantità su una qualsiasi spiaggia e che presenta somiglianze morfologiche con un granello di sabbia, ma risulta comunque più grosso." ;
+    skos:definition "Un sasso dal volume relativamente esiguo, tipicamente presente in grandi quantità su una qualsiasi spiaggia e che presenta somiglianze morfologiche con un granello di sabbia, ma risulta comunque più grosso."@it ;
     skos:example "Odio i sabbiassi, camminarci sopra è molto fastidioso e qualche volta anche doloroso."@it ;
     dct:created "2023-04-09" ;
     dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
@@ -4921,7 +4921,7 @@ vocang:italinano
     a skos:Concept ;
     skos:prefLabel "Italinano"@it ;
     lexinfo:pronunciation "/i • ta • li • nà • no/"@it ;
-    skos:definition "Una persona molto bassa di nazionalità italiana." ;
+    skos:definition "Una persona molto bassa di nazionalità italiana."@it ;
     skos:example "Marco è un italinano, ama la pizza e gli spaghetti ma a volte non gli concedono di fare le giostre."@it ;
     skos:related vocang:mussulmano ;
     dct:created "2023-04-08" ;
@@ -4931,7 +4931,7 @@ vocang:ligattropo
     a skos:Concept ;
     skos:prefLabel "Ligattropo"@it ;
     lexinfo:pronunciation "/li • gàt • tro • po/"@it ;
-    skos:definition "Creatura mitologica dalle sembianze umane che, nelle notti di luna piena, si trasforma in un gatto. Ha la capacità, tramite un suo morso o graffio, di convertire gli esseri umani in ligattropi." ;
+    skos:definition "Creatura mitologica dalle sembianze umane che, nelle notti di luna piena, si trasforma in un gatto. Ha la capacità, tramite un suo morso o graffio, di convertire gli esseri umani in ligattropi."@it ;
     skos:example "Mi è stato detto che il paese in cui stiamo ha una leggenda sul ligrattropo, una creatura misteriosa che si trasforma in gatto durante la luna piena e può convertire gli umani in altre creature simili."@it ;
     skos:related vocang:omnicio ;
     dct:created "2023-04-11" ;
@@ -4941,7 +4941,7 @@ vocang:preservadito
     a skos:Concept ;
     skos:prefLabel "Preservadito"@it ;
     lexinfo:pronunciation "/pre • ser • va • dì • to/"@it ;
-    skos:definition "Guaina sottile in gomma naturale o sintetica, da applicare su un dito al fine di non lasciare impronte digitali su una superficie." ;
+    skos:definition "Guaina sottile in gomma naturale o sintetica, da applicare su un dito al fine di non lasciare impronte digitali su una superficie."@it ;
     skos:example "Ho ordinato un ricambio trasparente per la scocca della mia console e a quanto pare costava meno includere sei preservaditi che dei guanti per evitare di lasciare impronte all'interno."@it ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/preservadito.jpg" ;
     dct:created "2023-04-08" ;
@@ -4950,7 +4950,7 @@ vocang:preservadito
 vocang:networkink
     a skos:Concept ;
     skos:prefLabel "Networkink"@it ;
-    skos:definition "Passione intensa per la progettazione, l'implementazione e la gestione delle infrastrutture di rete. Questa passione si esprime attraverso un forte interesse per le tecnologie di rete, la conoscenza delle migliori pratiche di gestione della rete e l'entusiasmo nel risolvere le sfide tecniche che possono sorgere nell'implementazione di una rete complessa." ;
+    skos:definition "Passione intensa per la progettazione, l'implementazione e la gestione delle infrastrutture di rete. Questa passione si esprime attraverso un forte interesse per le tecnologie di rete, la conoscenza delle migliori pratiche di gestione della rete e l'entusiasmo nel risolvere le sfide tecniche che possono sorgere nell'implementazione di una rete complessa."@it ;
     skos:example "Da quando ho scoperto il networkink, non posso fare a meno di passare ore a configurare, testare e ottimizzare la mia rete domestica."@it ;
     dct:created "2023-04-12" ;
     dct:creator vocang:orlandoNicola, vocang:chatGPT .
@@ -4959,7 +4959,7 @@ vocang:vuovo
     a skos:Concept ;
     skos:prefLabel "Vuovo"@it ;
     lexinfo:pronunciation "/vuò • vo/"@it ;
-    skos:definition "Uovo vuoto all'interno poichè svuotato del contenuto o perchè strutturalmente difettoso." ;
+    skos:definition "Uovo vuoto all'interno poichè svuotato del contenuto o perchè strutturalmente difettoso."@it ;
     skos:example "Qualcuno deve avermi fatto uno scherzo. nel mio frigo ci sono un sacco di vuova. Volevo farmi una carbonara ma ho solo degli inutili gusci."@it ;
     dct:created "2023-04-12" ;
     dct:creator vocang:pertosaLorenzo .
@@ -4967,7 +4967,7 @@ vocang:vuovo
 vocang:beeribì
     a skos:Concept ;
     skos:prefLabel "Beeribì"@it ;
-    skos:definition "Un biribì che tra le altre cose serve dell'ottima birra artigianale." ;
+    skos:definition "Un biribì che tra le altre cose serve dell'ottima birra artigianale."@it ;
     skos:example "Se devo finire in un biribì, allora sarebbe ideale se fosse un beeribì. Voglio andarmene completamente sbronzo."@it ;
     skos:related vocang:biribì ;
     dct:created "2023-04-13" ;
@@ -4977,7 +4977,7 @@ vocang:birredì
     a skos:Concept ;
     skos:prefLabel "Birredì"@it ;
     lexinfo:pronunciation "/bir • re • dì/"@it ;
-    skos:definition "Una giornata, non necessariamente legata a un giorno specifico della settimana, in cui l'attività principale consiste nel consumo di birra in compagnia o solitudine." ;
+    skos:definition "Una giornata, non necessariamente legata a un giorno specifico della settimana, in cui l'attività principale consiste nel consumo di birra in compagnia o solitudine."@it ;
     skos:example "Non vedo l'ora che arrivi il prossimo birredì per gustare una birra fresca con gli amici dopo una lunga settimana di lavoro."@it ;
     dct:created "2023-04-13" ;
     dct:creator vocang:omiccioliRiccardo .
@@ -4985,7 +4985,7 @@ vocang:birredì
 vocang:beerabiglia
     a skos:Concept ;
     skos:prefLabel "Beerabiglia"@it ;
-    skos:definition "Una birra di alta qualità, dal sapore intenso e piacevole, capace di soddisfare i palati più esigenti. Si tratta di una bevanda che si distingue per la sua raffinatezza e la sua capacità di creare esperienze sensoriali indimenticabili." ;
+    skos:definition "Una birra di alta qualità, dal sapore intenso e piacevole, capace di soddisfare i palati più esigenti. Si tratta di una bevanda che si distingue per la sua raffinatezza e la sua capacità di creare esperienze sensoriali indimenticabili."@it ;
     skos:example "La beerabiglia, con il suo gusto intenso e il suo profumo invitante, rappresenta l'eccellenza delle birre artigianali. La sua schiuma cremosa e persistente, il suo colore dorato e la sua texture morbida la rendono un vero piacere per il palato. Va gustata fredda, a una temperatura ideale di 4-6°C, mentre si ammira lo spettacolo mozzafiato del tramonto, per un'esperienza sensoriale completa."@it ;
     dct:created "2023-04-13" ;
     dct:creator vocang:omiccioliRiccardo, vocang:chatGPT .
@@ -4994,8 +4994,17 @@ vocang:tirchiocidio
     a skos:Concept ;
     skos:prefLabel "Tirchiocidio"@it ;
     lexinfo:pronunciation "/tir • chio • cì • dio/"@it ;
-    skos:definition "Omicidio compiuto ai danni di una persona molto avara, la quale spesso e volentieri aveva lo scopo di ereditare specifici beni materiali." ;
+    skos:definition "Omicidio compiuto ai danni di una persona molto avara, la quale spesso e volentieri aveva lo scopo di ereditare specifici beni materiali."@it ;
     skos:example "È brutto da dire ma il tirchiocidio di Jacopo ha giovato a diverse persone. Nessuno voleva che i soldi andassero a lui."@it ;
     dct:created "2023-04-13" ;
     skos:related vocang:conacidio, vocang:domicidio ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:tirchiocinio
+    a skos:Concept ;
+    skos:prefLabel "Tirchiocinio"@it ;
+    lexinfo:pronunciation "/tir • chio • cì • nio/"@it ;
+    skos:definition "Tirocinio molto pesante in termini di ore o fatica necessaria, che fornisce pochi crediti o comunque una pessima retribuzione."@it ;
+    skos:example "Matteo ha accettato il tirchiocinio ma se n'è subito pentito. Non riesce ad arrivare a fine mese ed è sempre stanco."@it ;
+    dct:created "2023-04-05" ;
+    dct:creator vocang:suscaMatteo, vocang:omiccioliRiccardo .
