@@ -4916,3 +4916,13 @@ vocang:sabbiasso
     skos:example "Odio i sabbiassi, camminarci sopra è molto fastidioso e qualche volta anche doloroso."@it ;
     dct:created "2023-04-09" ;
     dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
+
+vocang:italinano
+    a skos:Concept ;
+    skos:prefLabel "Italinano"@it ;
+    lexinfo:pronunciation "/i • ta • li • nà • no/"@it ;
+    skos:definition "Una persona molto bassa di nazionalità italiana." ;
+    skos:example "Marco è un italinano, ama la pizza e gli spaghetti ma a volte non gli concedono di fare le giostre."@it ;
+    skos:related vocang:mussulmano ;
+    dct:created "2023-04-08" ;
+    dct:creator vocang:timpanoSam .
