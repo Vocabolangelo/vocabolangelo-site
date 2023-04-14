@@ -4989,3 +4989,13 @@ vocang:beerabiglia
     skos:example "La beerabiglia, con il suo gusto intenso e il suo profumo invitante, rappresenta l'eccellenza delle birre artigianali. La sua schiuma cremosa e persistente, il suo colore dorato e la sua texture morbida la rendono un vero piacere per il palato. Va gustata fredda, a una temperatura ideale di 4-6°C, mentre si ammira lo spettacolo mozzafiato del tramonto, per un'esperienza sensoriale completa."@it ;
     dct:created "2023-04-13" ;
     dct:creator vocang:omiccioliRiccardo, vocang:chatGPT .
+
+vocang:tirchiocidio
+    a skos:Concept ;
+    skos:prefLabel "Tirchiocidio"@it ;
+    lexinfo:pronunciation "/tir • chio • cì • dio/"@it ;
+    skos:definition "Omicidio compiuto ai danni di una persona molto avara, la quale spesso e volentieri aveva lo scopo di ereditare specifici beni materiali." ;
+    skos:example "È brutto da dire ma il tirchiocidio di Jacopo ha giovato a diverse persone. Nessuno voleva che i soldi andassero a lui."@it ;
+    dct:created "2023-04-13" ;
+    skos:related vocang:conacidio, vocang:domicidio ;
+    dct:creator vocang:omiccioliRiccardo, vocang:chatGPT .
