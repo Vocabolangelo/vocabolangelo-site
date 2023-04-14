@@ -4936,3 +4936,12 @@ vocang:ligattropo
     skos:related vocang:omnicio ;
     dct:created "2023-04-11" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:preservadito
+    a skos:Concept ;
+    skos:prefLabel "Preservadito"@it ;
+    lexinfo:pronunciation "/pre • ser • va • dì • to/"@it ;
+    skos:definition "Guaina sottile in gomma naturale o sintetica, da applicare su un dito al fine di non lasciare impronte digitali su una superficie." ;
+    skos:example "Ho ordinato un ricambio trasparente per la scocca della mia console e a quanto pare costava meno includere sei preservaditi che dei guanti per evitare di lasciare impronte all'interno."@it ;
+    dct:created "2023-04-08" ;
+    dct:creator vocang:orlandoNicola .
