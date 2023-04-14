@@ -4998,4 +4998,4 @@ vocang:tirchiocidio
     skos:example "È brutto da dire ma il tirchiocidio di Jacopo ha giovato a diverse persone. Nessuno voleva che i soldi andassero a lui."@it ;
     dct:created "2023-04-13" ;
     skos:related vocang:conacidio, vocang:domicidio ;
-    dct:creator vocang:omiccioliRiccardo, vocang:chatGPT .
+    dct:creator vocang:pertosaLorenzo .
