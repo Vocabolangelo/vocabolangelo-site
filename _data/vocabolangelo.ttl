@@ -5008,3 +5008,13 @@ vocang:tirchiocinio
     skos:example "Matteo ha accettato il tirchiocinio ma se n'è subito pentito. Non riesce ad arrivare a fine mese ed è sempre stanco."@it ;
     dct:created "2023-04-05" ;
     dct:creator vocang:suscaMatteo, vocang:omiccioliRiccardo .
+
+
+vocang:scappatroia
+    a skos:Concept ;
+    skos:prefLabel "Scappatroia"@it ;
+    lexinfo:pronunciation "/scap • pa • trò • ia/"@it ;
+    skos:definition "Possibile via di fuga o soluzione a una problematica qualunque che però, se attuata, finisce col peggiorare solamente la situazione."@it ;
+    skos:example "Marco non si è presentato all'altare, ma Gisella l'ha ritrovato e riempito di botte. Scappare dal matrimonio si è rivelata una gran bella scappatroia!"@it ;
+    dct:created "2023-04-19" ;
+    dct:creator vocang:pertosaLorenzo .
