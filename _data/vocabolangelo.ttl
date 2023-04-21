@@ -4727,7 +4727,7 @@ vocang:vocabolangelare
     dct:created "2023-03-29" ;
     dct:creator vocang:rosatelliAnna .
 
-vocang:vocabolangelare
+vocang:vocabolangelizzare
     a skos:Concept ;
     skos:prefLabel "Vocabolangelizzare"@it ;
     lexinfo:pronunciation "/vo • ca • bo • lan • ge • liz • zà • re/"@it ;
@@ -5034,5 +5034,6 @@ vocang:festabolangelo
     lexinfo:pronunciation "/fes • ta • bo • làn • ge • lo/"@it ;
     skos:definition "Festa a tema in cui chi viene invitato deve vestirsi come una parolangelo."@it ;
     skos:example "Per il grande traguardo di 1000 parole verrà organizzata una festabolangelo in cui tutti i vocabolieri verranno invitati!"@it ;
+    skos:related vocang:vocaboladmin, vocang:vocabolangelo, vocang:angelario, vocang:parolangelo, vocang:apostolangelo, vocang:dizionangelo, vocang:vocaboliere, vocang:vocabolangelare, vocang:vocabolangelizzare ;
     dct:created "2023-04-15" ;
     dct:creator vocang:omiccioliRiccardo , vocang:filasetaAngelo .
