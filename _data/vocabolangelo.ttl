@@ -5018,3 +5018,12 @@ vocang:scappatroia
     skos:example "Marco non si è presentato all'altare, ma Gisella l'ha ritrovato e riempito di botte. Scappare dal matrimonio si è rivelata una gran bella scappatroia!"@it ;
     dct:created "2023-04-19" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:pornoattrite
+    a skos:Concept ;
+    skos:prefLabel "Pornoattrite"@it ;
+    lexinfo:pronunciation "/por • no • at • trì • te/"@it ;
+    skos:definition "Attrice nell'ambito pornografico che non utilizza nessun tipo di lubrificante."@it ;
+    skos:example "Lucia è una pornoattrite. Non sono in molti quelli disponibili a registrare con lei perché hanno paura di farsi male."@it ;
+    dct:created "2023-04-14" ;
+    dct:creator vocang:omiccioliRiccardo , vocang:orlandoNicola .
