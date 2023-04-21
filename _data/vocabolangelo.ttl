@@ -5037,3 +5037,12 @@ vocang:festabolangelo
     skos:related vocang:vocaboladmin, vocang:vocabolangelo, vocang:angelario, vocang:parolangelo, vocang:apostolangelo, vocang:dizionangelo, vocang:vocaboliere, vocang:vocabolangelare, vocang:vocabolangelizzare ;
     dct:created "2023-04-15" ;
     dct:creator vocang:omiccioliRiccardo , vocang:filasetaAngelo .
+
+vocang:equivocabolo
+    a skos:Concept ;
+    skos:prefLabel "Equivocabolo"@it ;
+    lexinfo:pronunciation "/e • qui • vo • cà • bo • lo/"@it ;
+    skos:definition "Parola che a causa del contesto o situazione in cui si utilizza sembra avere un significato ma che invece ne ha uno completamente diverso."@it ;
+    skos:example "Scusa non avevo capito intendessi questo, la prossima volta magari non usare equivocabili."@it ;
+    dct:created "2023-04-15" ;
+    dct:creator vocang:omiccioliRiccardo .
