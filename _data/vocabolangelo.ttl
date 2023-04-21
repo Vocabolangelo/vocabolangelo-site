@@ -5027,3 +5027,12 @@ vocang:pornoattrite
     skos:example "Lucia è una pornoattrite. Non sono in molti quelli disponibili a registrare con lei perché hanno paura di farsi male."@it ;
     dct:created "2023-04-14" ;
     dct:creator vocang:omiccioliRiccardo , vocang:orlandoNicola .
+
+vocang:festabolangelo
+    a skos:Concept ;
+    skos:prefLabel "Festabolangelo"@it ;
+    lexinfo:pronunciation "/fes • ta • bo • làn • ge • lo/"@it ;
+    skos:definition "Festa a tema in cui chi viene invitato deve vestirsi come una parolangelo."@it ;
+    skos:example "Per il grande traguardo di 1000 parole verrà organizzata una festabolangelo in cui tutti i vocabolieri verranno invitati!"@it ;
+    dct:created "2023-04-15" ;
+    dct:creator vocang:omiccioliRiccardo , vocang:filasetaAngelo .
