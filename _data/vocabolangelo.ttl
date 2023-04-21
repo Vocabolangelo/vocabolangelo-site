@@ -2250,7 +2250,7 @@ vocang:birliardo
     skos:definition "Gioco simile al beer pong ma con un tavolo da biliardo. Ad ogni palla in buca la squadra avversaria beve un alcolico."@it ;
     skos:example "A capodanno pensavamo di giocare a birliardo."@it ;
     dct:created "2022-12-22" ;
-    dct:creator vocang:omiccioliRiccardo .
+    dct:creator vocang:omiccioliRiccardo , vocang:battaglinoNicole .
 
 vocang:ritardabile
     a skos:Concept ;
@@ -3912,7 +3912,7 @@ vocang:spalmaggio
     skos:definition "Formaggio spalmabile."@it;
     skos:example "Ci serve dello spalmaggio per questa ricetta."@it;
     dct:created "2023-02-24" ;
-    dct:creator vocang:omiccioliRiccardo .
+    dct:creator vocang:omiccioliRiccardo , vocang:battaglinoNicole .
 
 vocang:paradicio
     a skos:Concept ;
