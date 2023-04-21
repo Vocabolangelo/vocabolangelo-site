@@ -5046,3 +5046,12 @@ vocang:equivocabolo
     skos:example "Scusa non avevo capito intendessi questo, la prossima volta magari non usare equivocabili."@it ;
     dct:created "2023-04-15" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:ramadanare
+    a skos:Concept ;
+    skos:prefLabel "Ramadanare"@it ;
+    lexinfo:pronunciation "/ra • ma • da • nà • re/"@it ;
+    skos:definition "L'atto di praticare il digiuno (Sawm) durante il Ramadan."@it ;
+    skos:example "Selma ha finito di ramadanare e stamattina si è scofanata l'intera dispensa piena di dolci."@it ;
+    dct:created "2023-04-21" ;
+    dct:creator vocang:filasetaAngelo .
