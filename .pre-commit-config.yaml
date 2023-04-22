@@ -17,7 +17,7 @@ repos:
   - id: trailing-whitespace # trims trailing whitespace.
 
 - repo: https://github.com/compilerla/conventional-pre-commit
-  rev: v2.1.1
+  rev: v2.2.0
   hooks:
   - id: conventional-pre-commit # conventional-pre-commit hook.
     stages: [commit-msg]
