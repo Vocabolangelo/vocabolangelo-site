@@ -1,9 +1,9 @@
-@import 'libs/vars';
-@import 'libs/functions';
-@import 'libs/mixins';
-@import 'libs/vendor';
-@import 'libs/breakpoints';
-@import 'libs/html-grid';
+@import 'vars';
+@import 'functions';
+@import 'mixins';
+@import 'vendor';
+@import 'breakpoints';
+@import 'html-grid';
 @import 'fontawesome-all.min.css';
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i');
 
@@ -156,30 +156,30 @@
 
 // Base.
 
-	@import 'base/reset';
-	@import 'base/page';
-	@import 'base/typography';
+	@import 'reset';
+	@import 'page';
+	@import 'typography';
 
 // Component.
 
-	@import 'components/row';
-	@import 'components/box';
-	@import 'components/button';
-	@import 'components/form';
-	@import 'components/icon';
-	@import 'components/image';
-	@import 'components/list';
-	@import 'components/actions';
-	@import 'components/icons';
-	@import 'components/section';
-	@import 'components/table';
-	@import 'components/banner';
-	@import 'components/spotlight';
-	@import 'components/gallery';
-	@import 'components/wrapper';
-	@import 'components/items';
-	@import 'components/index';
+	@import 'row';
+	@import 'box';
+	@import 'button';
+	@import 'form';
+	@import 'icon';
+	@import 'image';
+	@import 'list';
+	@import 'actions';
+	@import 'icons';
+	@import 'section';
+	@import 'table';
+	@import 'banner';
+	@import 'spotlight';
+	@import 'gallery';
+	@import 'wrapper';
+	@import 'items';
+	@import 'index';
 
 // Layout.
 
-	@import 'layout/wrapper';
+	@import 'wrapper';
