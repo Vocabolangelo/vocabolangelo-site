@@ -1,5 +1,16 @@
 # Changelog
 
+## [4.13.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v4.12.0...v4.13.0) (2023-04-25)
+
+
+### Features
+
+* **concept:** add equivocabolo ([d772dc2](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/d772dc2a0d2e7325c4a6bd18896b675f3866da48))
+* **concept:** add festabolangelo ([ff937e5](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/ff937e5169f5e7af48f33b5407612f2cc13911e4))
+* **concept:** add pornoattrite ([65114be](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/65114be6a9791d927524cc78d3a5ebd84131b0a7))
+* **concept:** add ramadanare ([afe2c71](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/afe2c71fc214a52755e285f3cbb6484f3d998a99))
+* **concept:** add scappatroia ([422f56f](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/422f56f0372edff587c06eb6b3d3363c4509311e))
+
 ## [4.12.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v4.11.0...v4.12.0) (2023-04-14)
 
 
