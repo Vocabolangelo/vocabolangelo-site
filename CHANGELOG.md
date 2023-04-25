@@ -1,5 +1,16 @@
 # Changelog
 
+## [5.0.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v4.13.0...v5.0.0) (2023-04-25)
+
+
+### ⚠ BREAKING CHANGES
+
+* **site:** migrate to React framework
+
+### Code Refactoring
+
+* **site:** migrate to React framework ([7f28c26](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/7f28c26cdc2b182da4ca69920d8a059a6338f97d))
+
 ## [4.13.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v4.12.0...v4.13.0) (2023-04-25)
 
 
