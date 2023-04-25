@@ -1,0 +1,22 @@
+#disclaimer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    font-size: 14px;
+    z-index: 999
+}
+
+#disclaimer > h3 {
+    color: white;
+}
+
+#disclaimer-btn {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
