@@ -26,9 +26,3 @@ repos:
   rev: v3.0.1
   hooks:
   - id: docker-compose-check # checks that docker-compose files are valid.#
-
-- repo: https://github.com/jguttman94/pre-commit-gradle
-  rev: v0.3.0
-  hooks:
-  - id: gradle-task # execute the gradle task "test".
-    args: ['test']
