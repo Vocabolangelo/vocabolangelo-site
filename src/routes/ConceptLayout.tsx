@@ -88,7 +88,7 @@ function Creators(props: ConceptSubLayoutProps){
                 title={"Vocabolieri"}
                 content={<List
                     isOrdered={false}
-                    list={props.concept.creators()}
+                    list={props.concept.personCreators()}
                     elementKey={creator =>  creatorId(creator)}
                     elementLink={creator => `/vocabolieri/${creatorId(creator)}`}
                     elementContent={creator => <p>{creator.firstName} {creator.lastName}</p>}

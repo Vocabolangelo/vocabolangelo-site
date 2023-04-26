@@ -29,10 +29,12 @@ export class Person extends RDFNamedNode {
     constructor(node: NamedNode){
         super(node)
         this._firstName = requireNotNull(
-            RDFStore.store.MapAnyToValue(node, foaf.namespace("firstName"), undefined)
+            RDFStore.store.MapAnyToValue(node, foaf.namespace("firstName"), undefined),
+            `foaf:firstName can not be null for node ${node.uri}`
         )
         this._lastName = requireNotNull(
-            RDFStore.store.MapAnyToValue(node, foaf.namespace("lastName"), undefined)
+            RDFStore.store.MapAnyToValue(node, foaf.namespace("lastName"), undefined),
+            `foaf:lastName can not be null for node ${node.uri}`
         )
         this._nick = RDFStore.store.MapAnyToValue(node, foaf.namespace("nick"), undefined)
         this._images = RDFStore.store.MapEachToValue(node, schema.namespace("image"), undefined)

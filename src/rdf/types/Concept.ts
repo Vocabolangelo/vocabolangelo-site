@@ -2,7 +2,7 @@ import {RDFNamedNode} from "../RDFNamedNode";
 import {NamedNode} from "rdflib"
 import {Quad_Subject} from "rdflib/lib/tf-types";
 import {RDFStore} from "../RDFStore";
-import {dct, lexinfo, schema, skos} from "../prefixes";
+import {dct, foaf, lexinfo, rdf, schema, skos} from "../prefixes";
 import "../extensions/storeExtensions"
 import {Person} from "./Person";
 import {requireNotNull} from "../../util/requireNotNull";
@@ -75,13 +75,15 @@ export class Concept extends RDFNamedNode {
         return this._examples
     }
 
-    public get creators(): () => Person[] {
+    public get personCreators(): () => Person[] {
         let subj = this.node
         return function() : Person[] {
-            return RDFStore.store.MapEach(
+            return RDFStore.store.CollectEach(
                 subj,
                 dct.namespace("creator"),
                 undefined,
+                (node) =>
+                    (RDFStore.store.any(node, undefined, foaf.namespace("Person")) !== null),
                 (node) => new Person(node)
             )
         }

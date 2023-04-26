@@ -6,8 +6,6 @@ import {RDFStore} from "../RDFStore";
 declare module 'rdflib' {
     interface Store {
 
-        // @ts-ignore
-        // @ts-ignore
         /**
          * Map the resulting array of NamedNode retrieved using the "each" function and map them to instances of T
          * using a mapping function.
@@ -69,6 +67,25 @@ declare module 'rdflib' {
             p: Quad_Predicate | undefined,
             o: Quad_Object | undefined
         ): string | null
+
+        /**
+         * Map the resulting array of NamedNode retrieved using the "each" function and map them to instances of T
+         * using a mapping function, but only if filterFunction is valid for each object.
+         * @template T
+         * @param {Quad_Subject} [s=undefined] the Quad_Subject.
+         * @param {Quad_Predicate} [p=undefined] the Quad_Predicate.
+         * @param {Quad_Object} [o=undefined] the Quad_Object.
+         * @param filterFunction a Filtering function from a NamedNode to a boolean.
+         * @param mappingFunction a Mapping function from a NamedNode to a generic T.
+         * @returns {T[]}
+         */
+        CollectEach<T>(
+            s: Quad_Subject | undefined,
+            p: Quad_Predicate | undefined,
+            o: Quad_Object | undefined,
+            filterFunction: (node: NamedNode) => boolean,
+            mappingFunction: (node: NamedNode) => T
+        ): T[];
     }
 }
 
@@ -78,7 +95,7 @@ Store.prototype.MapEach = function<T>(
     o: Quad_Object | undefined,
     mappingFunction: (node: NamedNode) => T
 ): T[] {
-    return this.each(s, p, o).map(node=> mappingFunction(node as NamedNode))
+    return this.CollectEach(s, p, o, (node) => true, mappingFunction)
 }
 
 Store.prototype.MapEachToValue = function (
@@ -105,4 +122,16 @@ Store.prototype.MapAnyToValue = function (
     o: Quad_Object | undefined
 ): string | null {
     return this.MapAny(s, p, o, (node) => node.value)
+}
+
+Store.prototype.CollectEach = function<T> (
+    s: Quad_Subject | undefined,
+    p: Quad_Predicate | undefined,
+    o: Quad_Object | undefined,
+    filterFunction: (node: NamedNode) => boolean,
+    mappingFunction: (node: NamedNode) => T
+): T[] {
+    return this.each(s, p, o)
+        .filter(node => filterFunction(node as NamedNode))
+        .map(node=> mappingFunction(node as NamedNode))
 }

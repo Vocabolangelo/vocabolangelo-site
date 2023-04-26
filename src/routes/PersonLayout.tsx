@@ -128,7 +128,7 @@ function ConceptsCreated(props: PersonSubLayoutProps){
 
 function Contribution(props: PersonSubLayoutProps){
     let concepts = props.person.creatorOf()()
-    let soloConceptsCount = concepts.filter(c => c.creators().length === 1).length
+    let soloConceptsCount = concepts.filter(c => c.personCreators().length === 1).length
     return <ConditionalComponent
         condition={() => concepts?.length > 0}
         component={
