@@ -1,5 +1,23 @@
 # Changelog
 
+## [5.1.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v5.0.0...v5.1.0) (2023-04-26)
+
+
+### Features
+
+* **site:** add 404 page ([bd895ed](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/bd895edc7bb3a112760edab795df0031d3dd5af9))
+
+
+### Bug Fixes
+
+* **ci:** add npm install to deploy ([f3627c8](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/f3627c86cbbe12f18cd5704d8d9d53961657b855))
+* **site:** add nickname to PersonLayout page ([41070d9](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/41070d9ac13ca799f211dc97485e8b3273b4af29))
+* **site:** AlphabeticList does not display unused letter anymore ([5f09dd6](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/5f09dd6d7533bfe633d1dc3b3a7ea23992597050))
+* **site:** creator now returns only persons ([e599094](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/e5990943b0f390f2a981c4b11324971685994a8f))
+* **site:** move CNAME to public ([a438dd8](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/a438dd80d670435f0e211e2fd99e5f0f35c46ad2))
+* **site:** ontology link restore ([50fb18a](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/50fb18a6d508c125b889907fe0b0749ce9a4d32e))
+* **site:** solve subtitle bug in DefaultLayout ([ee62758](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/ee62758857bb0f39dfe51abfee89c1d4bbcd6b98))
+
 ## [5.0.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v4.13.0...v5.0.0) (2023-04-25)
 
 
