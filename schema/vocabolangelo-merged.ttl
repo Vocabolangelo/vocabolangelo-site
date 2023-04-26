@@ -3,7 +3,6 @@
 <http://www.vocabolangelo.org/VocabolangeloRDF> <http://www.w3.org/2000/01/rdf-schema#label> "Vocabolangelo RDF" .
 <http://www.vocabolangelo.org/VocabolangeloRDF> <http://www.w3.org/2000/01/rdf-schema#comment> "Un'ontologia creata per il Vocabolangelo, utilizzata per memorizzare le parole,  definizioni, persone, relazioni etc."@it .
 <http://www.vocabolangelo.org/VocabolangeloRDF> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://github.com/AngeloFilaseta/vocabolangelo-rdf" .
-<http://www.vocabolangelo.org/Game> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.vocabolangelo.org/unpaidFriendOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://www.vocabolangelo.org/unpaidFriendOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://xmlns.com/foaf/0.1/knows> .
 <http://www.vocabolangelo.org/unpaidFriendOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
@@ -1380,33 +1379,6 @@
 <http://www.vocabolangelo.org/decafferillo> <http://purl.org/dc/terms/created> "2022-11-20" .
 <http://www.vocabolangelo.org/decafferillo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/orlandoNicola> .
 <http://www.vocabolangelo.org/decafferillo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/cafferillo> .
-<http://www.vocabolangelo.org/ilGioco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Game> .
-<http://www.vocabolangelo.org/ilGioco> <http://www.w3.org/2004/02/skos/core#prefLabel> "Il gioco"@it .
-<http://www.vocabolangelo.org/ilGioco> <http://www.w3.org/2004/02/skos/core#definition> "\n    Il gioco è un gioco che, per definizione, non si può vincere.\n    Coloro che vi prendono parte cercano di non perdere per più tempo possibile.\n    Chi pensa al gioco perde istantaneamente. Il gioco si può perdere ogni 30 minuti.\n    "@it .
-<http://www.vocabolangelo.org/ilMinigioco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Game> .
-<http://www.vocabolangelo.org/ilMinigioco> <http://www.w3.org/2004/02/skos/core#prefLabel> "Il minigioco"@it .
-<http://www.vocabolangelo.org/ilMinigioco> <http://www.w3.org/2004/02/skos/core#definition> "Il minigioco ha le stesse identiche regole del gioco, ma si può perdere ogni 3 minuti."@it .
-<http://www.vocabolangelo.org/ilMegaGioco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Game> .
-<http://www.vocabolangelo.org/ilMegaGioco> <http://www.w3.org/2004/02/skos/core#prefLabel> "Il megagioco"@it .
-<http://www.vocabolangelo.org/ilMegaGioco> <http://www.w3.org/2004/02/skos/core#definition> "Il megagioco ha le stesse identiche regole del gioco, ma può essere perso una sola volta in tutta la vita."@it .
-<http://www.vocabolangelo.org/ilGrandeGioco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Game> .
-<http://www.vocabolangelo.org/ilGrandeGioco> <http://www.w3.org/2004/02/skos/core#prefLabel> "Il grande gioco"@it .
-<http://www.vocabolangelo.org/ilGrandeGioco> <http://www.w3.org/2004/02/skos/core#definition> "\n    Il grande gioco viene perso con le stesse modalità del gioco, ma solamente dopo aver bevuto un Negroni o un Negroni sbagliato.\n    È dibattuto se l'Americano valga come drink valido per perdere il grande gioco.\n    "@it .
-<http://www.vocabolangelo.org/ilMicroGioco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Game> .
-<http://www.vocabolangelo.org/ilMicroGioco> <http://www.w3.org/2004/02/skos/core#prefLabel> "Il microgioco"@it .
-<http://www.vocabolangelo.org/ilMicroGioco> <http://www.w3.org/2004/02/skos/core#definition> "\n    Il microgioco è un gioco che si può decidere di non perdere.\n    Come tutti gli altri giochi, tuttavia, non si può decidere di vincere.\n    Il microgioco non possiede un cooldown.\n    "@it .
-<http://www.vocabolangelo.org/lUltraGioco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Game> .
-<http://www.vocabolangelo.org/lUltraGioco> <http://www.w3.org/2004/02/skos/core#prefLabel> "L'ultragioco"@it .
-<http://www.vocabolangelo.org/lUltraGioco> <http://www.w3.org/2004/02/skos/core#definition> "\n    L'ultragioco può essere perso solo da chi trascende.\n    La definizione è di libera interpretazione.\n    Si presuppone che chi muore perde l'ultragioco.\n    "@it .
-<http://www.vocabolangelo.org/ilGiocoSupremo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Game> .
-<http://www.vocabolangelo.org/ilGiocoSupremo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Il gioco supremo"@it .
-<http://www.vocabolangelo.org/ilGiocoSupremo> <http://www.w3.org/2004/02/skos/core#definition> "\n    Perdendo il gioco supremo si perdono tutti i giochi (passati, presenti e futuri) contemporaneamente.\n    I giochi con condizioni speciali, come il megagioco, non possono essere persi di nuovo.\n    Il gioco supremo si può perdere ogni ora.\n    "@it .
-<http://www.vocabolangelo.org/ilGiocoVerde> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Game> .
-<http://www.vocabolangelo.org/ilGiocoVerde> <http://www.w3.org/2004/02/skos/core#prefLabel> "Il gioco verde"@it .
-<http://www.vocabolangelo.org/ilGiocoVerde> <http://www.w3.org/2004/02/skos/core#definition> "Il gioco verde ha le stesse identiche regole del gioco, ma si può perdere solo leggendo la scritta \"Il gioco\" su un foglietto verde."@it .
-<http://www.vocabolangelo.org/ocoiGli> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Game> .
-<http://www.vocabolangelo.org/ocoiGli> <http://www.w3.org/2004/02/skos/core#prefLabel> "ocoig lI"@it .
-<http://www.vocabolangelo.org/ocoiGli> <http://www.w3.org/2004/02/skos/core#definition> "ocoig lI ha le stesse identiche regole del gioco, ma si può perdere solo mentre ci si sta muovendo all'indietro rispetto al proprio sistema di riferimento."@it .
 <http://www.vocabolangelo.org/innamuoramento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/innamuoramento> <http://www.w3.org/2004/02/skos/core#prefLabel> "Innamuoramento"@it .
 <http://www.vocabolangelo.org/innamuoramento> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/in • na • muo • ra • men • to/"@it .
@@ -4331,7 +4303,6 @@
 <http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.vocabolangelo.org/urlatto> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/omnicio> .
 <http://www.vocabolangelo.org/urlatto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.vocabolangelo.org/ocoiGli> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Game> .
 <http://www.vocabolangelo.org/allefanza> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/fanz> .
 <http://www.vocabolangelo.org/allefanza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.perceive.net/schemas/20021119/relationship/#siblingOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://xmlns.com/foaf/0.1/knows> .
@@ -4992,7 +4963,6 @@
 <http://www.vocabolangelo.org/origasmo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/bouquerigami> .
 <http://www.vocabolangelo.org/origasmo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/vocangelare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.vocabolangelo.org/lUltraGioco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Game> .
 <http://www.vocabolangelo.org/buonana> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/risottimo> .
 <http://www.vocabolangelo.org/buonana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/oncolotto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -5066,7 +5036,6 @@
 <http://rdfs.org/scot/ns#synonym> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#SymmetricProperty> .
 <http://rdfs.org/scot/ns#synonym> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://www.vocabolangelo.org/diskoraoke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.vocabolangelo.org/ilGrandeGioco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Game> .
 <http://www.vocabolangelo.org/capslockello> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/bartello> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/notale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -5289,7 +5258,6 @@
 <http://www.vocabolangelo.org/manganuette> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/franceficina> .
 <http://www.vocabolangelo.org/manganuette> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/baguettile> .
 <http://www.vocabolangelo.org/manganuette> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.vocabolangelo.org/ilMegaGioco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Game> .
 <http://www.vocabolangelo.org/piedina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/fabriangolo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/micidio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -5427,7 +5395,6 @@
 <http://www.vocabolangelo.org/suscaMatteo> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/ribaudoSofia> .
 <http://www.vocabolangelo.org/suscaMatteo> <http://www.vocabolangelo.org/unpaidFriendOf> <http://www.vocabolangelo.org/battaglinoNicole> .
 <http://www.vocabolangelo.org/patatanatomia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.vocabolangelo.org/ilMicroGioco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Game> .
 <http://www.vocabolangelo.org/fidanzalbero> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/amoralbero> .
 <http://www.vocabolangelo.org/fidanzalbero> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/limonalbero> .
 <http://www.vocabolangelo.org/fidanzalbero> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -5484,7 +5451,6 @@
 <http://www.vocabolangelo.org/orinadosso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.w3.org/2002/07/owl#Nothing> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3.org/2002/07/owl#Nothing> .
 <http://www.w3.org/2002/07/owl#Nothing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.w3.org/2002/07/owl#Nothing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.vocabolangelo.org/Game> .
 <http://www.w3.org/2002/07/owl#Nothing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/skgo/modsci#ArtificialIntelligence> .
 <http://www.w3.org/2002/07/owl#Nothing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/0.1/Person> .
 <http://www.w3.org/2002/07/owl#Nothing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -5837,9 +5803,6 @@
 <http://www.vocabolangelo.org/bianchiniGiovanni> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/nardiniArianna> .
 <http://www.vocabolangelo.org/bianchiniGiovanni> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/minoccheriAlessandra> .
 <http://www.vocabolangelo.org/bianchiniGiovanni> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/filasetaAngelo> .
-<http://www.vocabolangelo.org/Game> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.vocabolangelo.org/Game> .
-<http://www.vocabolangelo.org/Game> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
-<http://www.vocabolangelo.org/Game> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.vocabolangelo.org/loncino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/trocca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/bricock> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -5941,7 +5904,6 @@
 <http://www.vocabolangelo.org/cadaveroe> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/cadaveroico> .
 <http://www.vocabolangelo.org/cadaveroe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/miniatore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.vocabolangelo.org/ilMinigioco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Game> .
 <http://www.vocabolangelo.org/fallaceo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/mandarizza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/ispettrore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -6073,7 +6035,6 @@
 <http://www.vocabolangelo.org/limonello> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/antistamicio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/brugoliere> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.vocabolangelo.org/ilGiocoVerde> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Game> .
 <http://www.vocabolangelo.org/tettonicista> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/baguettile> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/franceficina> .
 <http://www.vocabolangelo.org/baguettile> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/manganuette> .
@@ -6173,7 +6134,6 @@
 <http://www.vocabolangelo.org/pippodromo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/nerdgasmo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/fusorangelo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.vocabolangelo.org/ilGioco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Game> .
 <http://www.vocabolangelo.org/generifico> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/stromba> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/postoletta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -6273,4 +6233,3 @@
 <http://www.vocabolangelo.org/tettorale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/oscuretra> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/prepuzzo> .
 <http://www.vocabolangelo.org/oscuretra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.vocabolangelo.org/ilGiocoSupremo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Game> .

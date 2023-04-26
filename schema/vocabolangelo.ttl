@@ -18,10 +18,6 @@ vocang:VocabolangeloRDF
     rdfs:comment "Un'ontologia creata per il Vocabolangelo, utilizzata per memorizzare le parole,  definizioni, persone, relazioni etc."@it ;
     rdfs:seeAlso "https://github.com/AngeloFilaseta/vocabolangelo-rdf" .
 
-# Classes
-
-vocang:Game a owl:Class .
-
 # Properties
 
 vocang:unpaidFriendOf
@@ -1511,70 +1507,6 @@ vocang:decafferillo
     dct:created "2022-11-20" ;
     dct:creator vocang:orlandoNicola ;
     skos:related vocang:cafferillo .
-
-vocang:ilGioco
-    a vocang:Game ;
-    skos:prefLabel "Il gioco"@it ;
-    skos:definition """
-    Il gioco è un gioco che, per definizione, non si può vincere.
-    Coloro che vi prendono parte cercano di non perdere per più tempo possibile.
-    Chi pensa al gioco perde istantaneamente. Il gioco si può perdere ogni 30 minuti.
-    """@it .
-
-vocang:ilMinigioco
-    a vocang:Game ;
-    skos:prefLabel "Il minigioco"@it ;
-    skos:definition "Il minigioco ha le stesse identiche regole del gioco, ma si può perdere ogni 3 minuti."@it .
-
-vocang:ilMegaGioco
-    a vocang:Game ;
-    skos:prefLabel "Il megagioco"@it ;
-    skos:definition "Il megagioco ha le stesse identiche regole del gioco, ma può essere perso una sola volta in tutta la vita."@it .
-
-vocang:ilGrandeGioco
-    a vocang:Game ;
-    skos:prefLabel "Il grande gioco"@it ;
-    skos:definition """
-    Il grande gioco viene perso con le stesse modalità del gioco, ma solamente dopo aver bevuto un Negroni o un Negroni sbagliato.
-    È dibattuto se l'Americano valga come drink valido per perdere il grande gioco.
-    """@it .
-
-vocang:ilMicroGioco
-    a vocang:Game ;
-    skos:prefLabel "Il microgioco"@it ;
-    skos:definition """
-    Il microgioco è un gioco che si può decidere di non perdere.
-    Come tutti gli altri giochi, tuttavia, non si può decidere di vincere.
-    Il microgioco non possiede un cooldown.
-    """@it .
-
-vocang:lUltraGioco
-    a vocang:Game ;
-    skos:prefLabel "L'ultragioco"@it ;
-    skos:definition """
-    L'ultragioco può essere perso solo da chi trascende.
-    La definizione è di libera interpretazione.
-    Si presuppone che chi muore perde l'ultragioco.
-    """@it .
-
-vocang:ilGiocoSupremo
-    a vocang:Game ;
-    skos:prefLabel "Il gioco supremo"@it ;
-    skos:definition """
-    Perdendo il gioco supremo si perdono tutti i giochi (passati, presenti e futuri) contemporaneamente.
-    I giochi con condizioni speciali, come il megagioco, non possono essere persi di nuovo.
-    Il gioco supremo si può perdere ogni ora.
-    """@it .
-
-vocang:ilGiocoVerde
-    a vocang:Game ;
-    skos:prefLabel "Il gioco verde"@it ;
-    skos:definition "Il gioco verde ha le stesse identiche regole del gioco, ma si può perdere solo leggendo la scritta \"Il gioco\" su un foglietto verde."@it .
-
-vocang:ocoiGli
-    a vocang:Game ;
-    skos:prefLabel "ocoig lI"@it ;
-    skos:definition "ocoig lI ha le stesse identiche regole del gioco, ma si può perdere solo mentre ci si sta muovendo all'indietro rispetto al proprio sistema di riferimento."@it .
 
 vocang:innamuoramento
     a skos:Concept ;
@@ -3480,7 +3412,7 @@ vocang:sprike
     skos:example "Maledizione, ho fatto uno sprike, potevo farlo prima un tiro del genere!"@it;
     dct:created "2023-02-09" ;
     dct:creator vocang:filasetaAngelo .
-    
+
 vocang:iubikeyavare
     a skos:Concept ;
     skos:prefLabel "Iubikeyavare"@it ;
@@ -3590,7 +3522,7 @@ vocang:fiorigami
     skos:definition "Origami di un fiore."@it;
     skos:example "Che gentiluomo che è Lorenzo, mi ha regalato un fiorigami."@it;
     dct:created "2023-02-14" ;
-    skos:related vocang:origasmo ; 
+    skos:related vocang:origasmo ;
     dct:creator vocang:omiccioliRiccardo .
 
 vocang:bouquerigami
@@ -3601,7 +3533,7 @@ vocang:bouquerigami
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/bouquerigami.jpg" ;
     dct:created "2023-02-14" ;
     skos:note "La parola nasce dopo il regalo di un bouquerigami da parte di un altro autore del Vocabolangelo alla sua ragazza.";
-    skos:related vocang:origasmo, vocang:fiorigami ; 
+    skos:related vocang:origasmo, vocang:fiorigami ;
     dct:creator vocang:battaglinoNicole .
 
 vocang:stelleologo
@@ -3715,7 +3647,7 @@ vocang:bartello
     a skos:Concept ;
     skos:prefLabel "Bartello"@it ;
     lexinfo:pronunciation "/bar • tèl • lo/"@it ;
-    skos:definition "Metodo alternativo per riferirsi ad un singolo elemento della famiglia animale Sphyrnidae, ossia uno squalo martello."@it , "Cartello o insegna luminosa che si pone fuori da un bar per attirare la clientela."@it ; 
+    skos:definition "Metodo alternativo per riferirsi ad un singolo elemento della famiglia animale Sphyrnidae, ossia uno squalo martello."@it , "Cartello o insegna luminosa che si pone fuori da un bar per attirare la clientela."@it ;
     skos:example "All'acquario abbiamo visto un bartello. Faceva molta paura!"@it, "Guarda quel bartello come luccica! Andiamo lì ragazzi!"@it ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/bartello.jpg", "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/bartello_1.jpg" ;
     dct:created "2023-02-18" ;
@@ -4180,7 +4112,7 @@ vocang:geomicolo
     skos:example "Venezia è tutta un geomicolo."@it ;
     dct:created "2023-03-06" ;
     dct:creator vocang:minoccheriAlessandra .
- 
+
 vocang:complecamento
     a skos:Concept ;
     skos:prefLabel "Complecamento"@it ;
