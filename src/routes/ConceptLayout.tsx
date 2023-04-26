@@ -128,6 +128,7 @@ function Videos(props: ConceptSubLayoutProps){
                 title={'Video'}
                 content={
                     <List
+                        listStyle={'none'}
                         isOrdered={false}
                         list={props.concept.videos}
                         elementKey={() =>  (videosKeyCount += 1).toString()}
