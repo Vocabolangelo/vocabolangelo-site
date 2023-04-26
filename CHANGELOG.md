@@ -1,5 +1,12 @@
 # Changelog
 
+## [5.2.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v5.1.0...v5.2.0) (2023-04-26)
+
+
+### Features
+
+* **site:** add Dashboard ([5e0c7fb](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/5e0c7fb31c3d61c7cf30ea35ef5fd8881c66cfa6))
+
 ## [5.1.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v5.0.0...v5.1.0) (2023-04-26)
 
 
