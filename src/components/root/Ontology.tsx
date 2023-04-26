@@ -9,7 +9,7 @@ export default function Ontology() {
                         Le parole e gli autori sono individui utilizzabili in qualsiasi applicazione per il Web Semantico.
                     </p>
                     <ul className="actions stacked">
-                        <li><a href="/schema#" className="button">Link all'Ontologia</a></li>
+                        <li><a href="/schema/vocabolangelo.ttl" className="button">Link all'Ontologia</a></li>
                     </ul>
                 </div>
                 <div className="image">
