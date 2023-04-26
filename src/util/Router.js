@@ -5,6 +5,7 @@ import {ConceptLayout} from "../routes/ConceptLayout";
 import React from "react";
 import Vocabolieri, {VOCABOLIERI_ROUTE} from "../routes/Vocabolieri";
 import {PersonLayout} from "../routes/PersonLayout";
+import {Page404} from "../Page404";
 
 export const router = createBrowserRouter([
     {
@@ -27,4 +28,8 @@ export const router = createBrowserRouter([
         path: `${VOCABOLIERI_ROUTE}/:personId`,
         element: <PersonLayout />
     },
+    {
+        path: `*`,
+        element: <Page404/>
+    }
 ]);

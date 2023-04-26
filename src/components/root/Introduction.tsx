@@ -1,3 +1,5 @@
+import {PAROLANGELO_ROUTE} from "../../routes/Parolangelo";
+
 export default function Introduction() {
     return (
         <>
@@ -9,13 +11,11 @@ export default function Introduction() {
                         Il Vocabolangelo è un documento strutturato che cataloga e definisce parole (o parolangelo)
                         inventate da persone ordinarie, e quindi non riportate in un normale vocabolario.
                     </p>
-                    <ul className="actions stacked">
-                        <li>
-                            <a href="/parole" className="button big wide smooth-scroll-middle">
-                                Scopri le parolangelo
-                            </a>
-                        </li>
-                    </ul>
+                    <div className="actions stacked">
+                        <a href={PAROLANGELO_ROUTE} className="button big wide smooth-scroll-middle">
+                            Scopri le parolangelo
+                        </a>
+                    </div>
                 </div>
                 <div className="image">
                     <img src="/images/vocabolangelo.png" alt="Vocabolangelo Logo"/>
