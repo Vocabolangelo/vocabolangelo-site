@@ -9,18 +9,20 @@ interface AlphabeticListProps<T> extends ListProps<T>{
 export function AlphabeticList<T>(props: AlphabeticListProps<T>) {
     const {list, elementKey, elementContent, elementLink, alphabeticStrategy} = props;
     const alphabet: string[] = "abcdefghijklmnopqrstuvwxyz".split("");
+
+    function subListForLetter(letter: string): T[] {
+        return list.filter(obj => alphabeticStrategy(obj, letter))
+    }
+
     return <>
-        {alphabet.map(
-            letter => {
-                let sublist = list.filter(obj => alphabeticStrategy(obj, letter))
-                return <section key={letter}>
-                    <header><h2>{letter.toUpperCase()}</h2></header>
-                    <ul>
-                        {listItems(sublist, elementKey, elementContent, elementLink)}
-                    </ul>
-                </section>
-            })
-        }
+        {alphabet.filter((letter) => subListForLetter(letter).length > 0).map((letter) => {
+            return <section key={letter}>
+                <header><h2>{letter.toUpperCase()}</h2></header>
+                <ul>
+                    {listItems(subListForLetter(letter), elementKey, elementContent, elementLink)}
+                </ul>
+            </section>
+        })}
     </>
 }
 
