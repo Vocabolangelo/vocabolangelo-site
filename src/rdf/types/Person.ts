@@ -4,6 +4,7 @@ import {dct, foaf, rel, schema} from '../prefixes'
 import {RDFStore} from '../RDFStore'
 import {requireNotNull} from '../../util/requireNotNull'
 import {Concept} from './Concept'
+import {RDFTriple} from '../RDFTriple'
 
 /**
  * Class representing a http://xmlns.com/foaf/0.1/Person.
@@ -29,15 +30,15 @@ export class Person extends RDFNamedNode {
     constructor(node: NamedNode){
         super(node)
         this._firstName = requireNotNull(
-            RDFStore.store.MapAnyToValue(node, foaf.namespace('firstName'), undefined),
+            RDFStore.store.MapAnyToValue(new RDFTriple(node, foaf.namespace('firstName'), undefined)),
             `foaf:firstName can not be null for node ${node.uri}`
         )
         this._lastName = requireNotNull(
-            RDFStore.store.MapAnyToValue(node, foaf.namespace('lastName'), undefined),
+            RDFStore.store.MapAnyToValue(new RDFTriple(node, foaf.namespace('lastName'), undefined)),
             `foaf:lastName can not be null for node ${node.uri}`
         )
-        this._nick = RDFStore.store.MapAnyToValue(node, foaf.namespace('nick'), undefined)
-        this._images = RDFStore.store.MapEachToValue(node, schema.namespace('image'), undefined)
+        this._nick = RDFStore.store.MapAnyToValue(new RDFTriple(node, foaf.namespace('nick'), undefined))
+        this._images = RDFStore.store.MapEachToValue(new RDFTriple(node, schema.namespace('image'), undefined))
     }
 
     public get firstName(): string {
@@ -68,9 +69,7 @@ export class Person extends RDFNamedNode {
         const subj = this.node
         return function (): Person[]{
             return RDFStore.store.MapEach(
-                subj,
-                rel.namespace('friendOf'),
-                undefined,
+                new RDFTriple(subj, rel.namespace('friendOf'), undefined),
                 (node) => new Person(node)
             )
         }
@@ -80,9 +79,7 @@ export class Person extends RDFNamedNode {
         const subj = this.node
         return function (): Person[] {
             return RDFStore.store.MapEach(
-                subj,
-                rel.namespace('spouseOf'),
-                undefined,
+                new RDFTriple(subj, rel.namespace('spouseOf'), undefined),
                 (node) => new Person(node)
             )
         }
@@ -92,9 +89,7 @@ export class Person extends RDFNamedNode {
         const subj = this.node
         return function (): Concept[] {
             return RDFStore.store.MapEach(
-                undefined,
-                dct.namespace('creator'),
-                subj,
+                new RDFTriple(undefined, dct.namespace('creator'), subj),
                 (node) => new Concept(node)
             )
         }

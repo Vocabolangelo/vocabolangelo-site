@@ -6,6 +6,7 @@ import {dct, foaf, lexinfo, schema, skos} from '../prefixes'
 import '../extensions/storeExtensions'
 import {Person} from './Person'
 import {requireNotNull} from '../../util/requireNotNull'
+import {RDFTriple} from '../RDFTriple'
 
 /**
  * Class representing a http://www.w3.org/2004/02/skos/core#Concept.
@@ -47,16 +48,30 @@ export class Concept extends RDFNamedNode {
     constructor(node: NamedNode){
         super(node)
         const quadSubj = this.node as Quad_Subject
-        this._prefLabel = requireNotNull(
-            RDFStore.store.MapAnyToValue(quadSubj, skos.namespace('prefLabel'), undefined)
+        this._prefLabel = requireNotNull(RDFStore.store.MapAnyToValue(
+            new RDFTriple(quadSubj, skos.namespace('prefLabel'), undefined)
+        ))
+        this._pronunciation = RDFStore.store.MapAnyToValue(
+            new RDFTriple(quadSubj, lexinfo.namespace('pronunciation'), undefined)
         )
-        this._pronunciation = RDFStore.store.MapAnyToValue(quadSubj, lexinfo.namespace('pronunciation'), undefined)
-        this._definitions = RDFStore.store.MapEachToValue(quadSubj, skos.namespace('definition'), undefined)
-        this._examples = RDFStore.store.MapEachToValue(quadSubj, skos.namespace('example'), undefined)
-        this._images = RDFStore.store.MapEachToValue(quadSubj, schema.namespace('image'), undefined)
-        this._videos = RDFStore.store.MapEachToValue(quadSubj, schema.namespace('video'), undefined)
-        this._created = RDFStore.store.MapAnyToValue(quadSubj, dct.namespace('created'), undefined)
-        this._notes = RDFStore.store.MapEachToValue(quadSubj, skos.namespace('note'), undefined)
+        this._definitions = RDFStore.store.MapEachToValue(
+            new RDFTriple(quadSubj, skos.namespace('definition'), undefined)
+        )
+        this._examples = RDFStore.store.MapEachToValue(
+            new RDFTriple(quadSubj, skos.namespace('example'), undefined)
+        )
+        this._images = RDFStore.store.MapEachToValue(
+            new RDFTriple(quadSubj, schema.namespace('image'), undefined)
+        )
+        this._videos = RDFStore.store.MapEachToValue(
+            new RDFTriple(quadSubj, schema.namespace('video'), undefined)
+        )
+        this._created = RDFStore.store.MapAnyToValue(
+            new RDFTriple(quadSubj, dct.namespace('created'), undefined)
+        )
+        this._notes = RDFStore.store.MapEachToValue(
+            new RDFTriple(quadSubj, skos.namespace('note'), undefined)
+        )
     }
 
     public get prefLabel(): string {
@@ -79,9 +94,7 @@ export class Concept extends RDFNamedNode {
         const subj = this.node
         return function() : Person[] {
             return RDFStore.store.CollectEach(
-                subj,
-                dct.namespace('creator'),
-                undefined,
+                new RDFTriple(subj, dct.namespace('creator'), undefined),
                 (node) =>
                     (RDFStore.store.any(node, undefined, foaf.namespace('Person')) !== null),
                 (node) => new Person(node)
@@ -101,9 +114,7 @@ export class Concept extends RDFNamedNode {
         const subj = this.node
         return function() : Concept[] {
             return RDFStore.store.MapEach(
-                subj,
-                schema.namespace('synonym'),
-                undefined,
+                new RDFTriple(subj, schema.namespace('synonym'), undefined),
                 (node) => new Concept(node)
             )
         }
@@ -113,9 +124,7 @@ export class Concept extends RDFNamedNode {
         const subj = this.node
         return function() : Concept[] {
             return RDFStore.store.MapEach(
-                subj,
-                schema.namespace('synonym'),
-                undefined,
+                new RDFTriple(subj, schema.namespace('synonym'), undefined),
                 (node) => new Concept(node)
             )
         }
