@@ -18,7 +18,8 @@ export default function CreatorCounter() {
                 <div className="content">
                     <h1> {creatorCount} </h1>
                     <p>
-                        Sono i <Link to={`${PAROLANGELO_ROUTE}/vocaboliere`}>vocabolieri</Link> del Vocabolangelo.<br/>
+                        Sono i <Link to={`${PAROLANGELO_ROUTE}/vocaboliere`}>vocabolieri</Link> del
+                        <strong> Vocabolangelo.</strong>. <br/>
                         Grazie all&apos; <Link to={`${PAROLANGELO_ROUTE}/apostolangelo`}>
                             apostolangelo
                         </Link> un giorno questo numero sarà molto più alto.

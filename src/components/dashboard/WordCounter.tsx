@@ -25,7 +25,7 @@ export default function WordCounter() {
                     <p>
                         Sono le <Link to={`${PAROLANGELO_ROUTE}/parolangelo`}>
                             parolangelo
-                        </Link> all&apos;interno del Vocabolangelo.<br/>
+                        </Link> all&apos;interno del <strong> Vocabolangelo</strong>.<br/>
                         Quando ci saranno grandi traguardi tutti i <Link to={`${PAROLANGELO_ROUTE}/vocaboliere`}>
                             vocabolieri
                         </Link> festeggeranno in qualche modo, ad esempio con un <Link to={`${PAROLANGELO_ROUTE}/festabolangelo`}>
