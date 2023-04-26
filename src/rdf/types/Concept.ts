@@ -1,11 +1,11 @@
-import {RDFNamedNode} from "../RDFNamedNode";
-import {NamedNode} from "rdflib"
-import {Quad_Subject} from "rdflib/lib/tf-types";
-import {RDFStore} from "../RDFStore";
-import {dct, foaf, lexinfo, schema, skos} from "../prefixes";
-import "../extensions/storeExtensions"
-import {Person} from "./Person";
-import {requireNotNull} from "../../util/requireNotNull";
+import {RDFNamedNode} from '../RDFNamedNode'
+import {NamedNode} from 'rdflib'
+import {Quad_Subject} from 'rdflib/lib/tf-types'
+import {RDFStore} from '../RDFStore'
+import {dct, foaf, lexinfo, schema, skos} from '../prefixes'
+import '../extensions/storeExtensions'
+import {Person} from './Person'
+import {requireNotNull} from '../../util/requireNotNull'
 
 /**
  * Class representing a http://www.w3.org/2004/02/skos/core#Concept.
@@ -14,50 +14,50 @@ export class Concept extends RDFNamedNode {
     /**
      * Mapping of http://www.w3.org/2004/02/skos/core#prefLabel.
      */
-    private readonly _prefLabel: string ;
+    private readonly _prefLabel: string 
     /**
      * Mapping of http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation
      */
-    private readonly _pronunciation: string | null ;
+    private readonly _pronunciation: string | null 
     /**
      * Mapping of http://www.w3.org/2004/02/skos/core#definition.
      */
-    private readonly _definitions: string[] ;
+    private readonly _definitions: string[] 
     /**
      * Mapping of http://www.w3.org/2004/02/skos/core#example.
      */
-    private readonly _examples: string[] ;
+    private readonly _examples: string[] 
     /**
      * Mapping of https://schema.org/image.
      */
-    private readonly _images: string[] ;
+    private readonly _images: string[] 
     /**
      * Mapping of https://schema.org/video.
      */
-    private readonly _videos: string[] ;
+    private readonly _videos: string[] 
     /**
      * Mapping of http://purl.org/dc/terms/created.
      */
-    private readonly _created: string | null ;
+    private readonly _created: string | null 
     /**
      * Mapping of http://www.w3.org/2004/02/skos/core##related.
      */
-    private readonly _notes: string[] ;
+    private readonly _notes: string[] 
 
     constructor(node: NamedNode){
         super(node)
-        let quadSubj = this.node as Quad_Subject
+        const quadSubj = this.node as Quad_Subject
         this._prefLabel = requireNotNull(
-            RDFStore.store.MapAnyToValue(quadSubj, skos.namespace("prefLabel"), undefined)
+            RDFStore.store.MapAnyToValue(quadSubj, skos.namespace('prefLabel'), undefined)
         )
-        this._pronunciation = RDFStore.store.MapAnyToValue(quadSubj, lexinfo.namespace("pronunciation"), undefined)
-        this._definitions = RDFStore.store.MapEachToValue(quadSubj, skos.namespace("definition"), undefined)
-        this._examples = RDFStore.store.MapEachToValue(quadSubj, skos.namespace("example"), undefined)
-        this._images = RDFStore.store.MapEachToValue(quadSubj, schema.namespace("image"), undefined)
-        this._videos = RDFStore.store.MapEachToValue(quadSubj, schema.namespace("video"), undefined)
-        this._created = RDFStore.store.MapAnyToValue(quadSubj, dct.namespace("created"), undefined)
-        this._notes = RDFStore.store.MapEachToValue(quadSubj, skos.namespace("note"), undefined)
-    };
+        this._pronunciation = RDFStore.store.MapAnyToValue(quadSubj, lexinfo.namespace('pronunciation'), undefined)
+        this._definitions = RDFStore.store.MapEachToValue(quadSubj, skos.namespace('definition'), undefined)
+        this._examples = RDFStore.store.MapEachToValue(quadSubj, skos.namespace('example'), undefined)
+        this._images = RDFStore.store.MapEachToValue(quadSubj, schema.namespace('image'), undefined)
+        this._videos = RDFStore.store.MapEachToValue(quadSubj, schema.namespace('video'), undefined)
+        this._created = RDFStore.store.MapAnyToValue(quadSubj, dct.namespace('created'), undefined)
+        this._notes = RDFStore.store.MapEachToValue(quadSubj, skos.namespace('note'), undefined)
+    }
 
     public get prefLabel(): string {
         return this._prefLabel
@@ -76,14 +76,14 @@ export class Concept extends RDFNamedNode {
     }
 
     public get personCreators(): () => Person[] {
-        let subj = this.node
+        const subj = this.node
         return function() : Person[] {
             return RDFStore.store.CollectEach(
                 subj,
-                dct.namespace("creator"),
+                dct.namespace('creator'),
                 undefined,
                 (node) =>
-                    (RDFStore.store.any(node, undefined, foaf.namespace("Person")) !== null),
+                    (RDFStore.store.any(node, undefined, foaf.namespace('Person')) !== null),
                 (node) => new Person(node)
             )
         }
@@ -98,11 +98,11 @@ export class Concept extends RDFNamedNode {
     }
 
     public get synonyms(): () => Concept[] {
-        let subj = this.node
+        const subj = this.node
         return function() : Concept[] {
             return RDFStore.store.MapEach(
                 subj,
-                schema.namespace("synonym"),
+                schema.namespace('synonym'),
                 undefined,
                 (node) => new Concept(node)
             )
@@ -110,11 +110,11 @@ export class Concept extends RDFNamedNode {
     }
 
     public get related(): () => Concept[] {
-        let subj = this.node
+        const subj = this.node
         return function() : Concept[] {
             return RDFStore.store.MapEach(
                 subj,
-                schema.namespace("synonym"),
+                schema.namespace('synonym'),
                 undefined,
                 (node) => new Concept(node)
             )
@@ -130,7 +130,7 @@ export class Concept extends RDFNamedNode {
     }
 
     public static async all(): Promise<Concept[]>{
-        let nodes = await RDFNamedNode.ofType(skos.namespace("Concept"))
+        const nodes = await RDFNamedNode.ofType(skos.namespace('Concept'))
         return nodes.map((node) => new Concept(node))
     }
 

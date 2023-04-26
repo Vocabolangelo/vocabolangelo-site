@@ -5,17 +5,17 @@ export default function Ontology() {
                 <div className="content">
                     <h2>Ontologia OWL</h2>
                     <p>
-                        Il vocabolangelo è un'ontologia OWL.<br/>
+                        Il vocabolangelo è un&apos;ontologia OWL.<br/>
                         Le parole e gli autori sono individui utilizzabili in qualsiasi applicazione per il Web Semantico.
                     </p>
                     <ul className="actions stacked">
-                        <li><a href="/schema/vocabolangelo.ttl" className="button">Link all'Ontologia</a></li>
+                        <li><a href="/schema/vocabolangelo.ttl" className="button">Link all&apos;Ontologia</a></li>
                     </ul>
                 </div>
                 <div className="image">
-                    <img src="images/connection.jpg" alt="Connessioni"/>
+                    <img src="/images/connection.jpg" alt="Connessioni"/>
                 </div>
             </section>
         </>
-    );
+    )
 }

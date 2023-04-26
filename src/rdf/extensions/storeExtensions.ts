@@ -1,7 +1,7 @@
-import {Store} from "rdflib";
-import {Quad_Object, Quad_Predicate, Quad_Subject} from "rdflib/lib/tf-types";
-import {NamedNode} from "rdflib"
-import {RDFStore} from "../RDFStore";
+import {Store} from 'rdflib'
+import {Quad_Object, Quad_Predicate, Quad_Subject} from 'rdflib/lib/tf-types'
+import {NamedNode} from 'rdflib'
+import {RDFStore} from '../RDFStore'
 
 declare module 'rdflib' {
     interface Store {
@@ -95,7 +95,7 @@ Store.prototype.MapEach = function<T>(
     o: Quad_Object | undefined,
     mappingFunction: (node: NamedNode) => T
 ): T[] {
-    return this.CollectEach(s, p, o, (node) => true, mappingFunction)
+    return this.CollectEach(s, p, o, () => true, mappingFunction)
 }
 
 Store.prototype.MapEachToValue = function (
@@ -106,13 +106,13 @@ Store.prototype.MapEachToValue = function (
     return this.MapEach(s, p, o, (node) => node.value)
 }
 
-Store.prototype.MapAny = function<T> (
+Store.prototype.MapAny = function MapAny<T> (
     s: Quad_Subject | undefined,
     p: Quad_Predicate | undefined,
     o: Quad_Object | undefined,
     mappingFunction: (node: NamedNode) => T
 ): T | null {
-    let value = RDFStore.store.any(s, p, o)
+    const value = RDFStore.store.any(s, p, o)
     return value === null ? null : mappingFunction(value as NamedNode)
 }
 

@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 interface GalleryElementProps {
     imageTitle: string;
@@ -18,11 +18,11 @@ export const GalleryElement: React.FC<GalleryElementProps> = ({ imageTitle, imag
                     <h2>{imageTitle}</h2>
                     <div className="actions fixed">
                         <span className="button small">
-                        {buttonText}
-                    </span>
+                            {buttonText}
+                        </span>
                     </div>
                 </div>
             </article>
         </>
-    );
+    )
 }

@@ -1,15 +1,15 @@
-import {createBrowserRouter} from "react-router-dom";
-import Root from "../routes/Root";
-import Parolangelo, {PAROLANGELO_ROUTE} from "../routes/Parolangelo";
-import {ConceptLayout} from "../routes/ConceptLayout";
-import React from "react";
-import Vocabolieri, {VOCABOLIERI_ROUTE} from "../routes/Vocabolieri";
-import {PersonLayout} from "../routes/PersonLayout";
-import {Page404} from "../Page404";
+import {createBrowserRouter} from 'react-router-dom'
+import Root from '../routes/Root'
+import Parolangelo, {PAROLANGELO_ROUTE} from '../routes/Parolangelo'
+import {ConceptLayout} from '../routes/ConceptLayout'
+import React from 'react'
+import Vocabolieri, {VOCABOLIERI_ROUTE} from '../routes/Vocabolieri'
+import {PersonLayout} from '../routes/PersonLayout'
+import {Page404} from '../Page404'
 
 export const router = createBrowserRouter([
     {
-        path: "/",
+        path: '/',
         element: <Root/>,
     },
     {
@@ -29,7 +29,7 @@ export const router = createBrowserRouter([
         element: <PersonLayout />
     },
     {
-        path: `*`,
+        path: '*',
         element: <Page404/>
     }
-]);
+])

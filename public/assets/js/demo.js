@@ -8,11 +8,11 @@
 
 (function($) {
 
-	var $window = $(window);
+    var $window = $(window)
 
-	// Styles.
-		$(
-			'<style>' +
+    // Styles.
+    $(
+        '<style>' +
 				'.demo-animate-all:not(.gallery), .demo-animate-all:not(.gallery) *, .demo-animate-all:not(.gallery) *:before, .demo-animate-all:not(.gallery) *:after { transition: all 0.5s ease-in-out; }' +
 				'.demo-controls .property .classes { display: none; }' +
 				'.demo-controls .property[data-requires] { display: none; }' +
@@ -32,48 +32,48 @@
 					'100% { opacity: 0; }' +
 				'}' +
 			'</style>'
-		).appendTo($('head'));
+    ).appendTo($('head'))
 
-	// Functions.
-		$.fn.demo_controls = function(styles, userOptions) {
+    // Functions.
+    $.fn.demo_controls = function(styles, userOptions) {
 
-			var $this = $(this),
-				$styleProperty, $stylePropertyClasses,
-				$controls, $x, $y, $z,
-				options,
-				current, i, j, k, s, n, count;
+        var $this = $(this),
+            $styleProperty, $stylePropertyClasses,
+            $controls, $x, $y, $z,
+            options,
+            current, i, j, k, s, n, count
 
-			// No elements?
-				if (this.length == 0)
-					return $this;
+        // No elements?
+        if (this.length == 0)
+            return $this
 
-			// Multiple elements?
-				if (this.length > 1) {
+        // Multiple elements?
+        if (this.length > 1) {
 
-					for (var i=0; i < this.length; i++)
-						$(this[i]).demo_controls(styles, userOptions);
+            for (var i=0; i < this.length; i++)
+                $(this[i]).demo_controls(styles, userOptions)
 
-					return $this;
+            return $this
 
-				}
+        }
 
-			// Options.
-				options = $.extend({
-					target: null,
-					palette: true
-				}, userOptions);
+        // Options.
+        options = $.extend({
+            target: null,
+            palette: true
+        }, userOptions)
 
-			// Controls.
-				if (styles) {
+        // Controls.
+        if (styles) {
 
-					$controls = $(
-						'<span class="demo-controls">' +
+            $controls = $(
+                '<span class="demo-controls">' +
 							'<span class="property" data-name="style">' +
 								'<a href="#" class="title tooltip">style</a>' +
 								'<span class="classes"></span>' + (options.palette ? ', ' : ' ') +
 							'</span>' +
 							(options.palette ?
-								'<span class="property active" data-name="scheme">' +
+							    '<span class="property active" data-name="scheme">' +
 									'<a href="#" class="title">scheme</a>' +
 									'<span class="classes">' +
 										'<span data-class="-" class="active">default</span>' +
@@ -93,17 +93,17 @@
 										'<span data-class="color7">color7</span>' +
 									'</span>, ' +
 								'</span>'
-							: '') +
+							    : '') +
 						'</span>'
-					);
+            )
 
-				}
-				else {
+        }
+        else {
 
-					$controls = $(
-						'<span class="demo-controls">' +
+            $controls = $(
+                '<span class="demo-controls">' +
 							(options.palette ?
-								'<span class="property active" data-name="scheme">' +
+							    '<span class="property active" data-name="scheme">' +
 									'<a href="#" class="title">scheme</a>' +
 									'<span class="classes">' +
 										'<span data-class="-" class="active">default</span>' +
@@ -123,441 +123,441 @@
 										'<span data-class="color7">color7</span>' +
 									'</span>' +
 								'</span>'
-							: '') +
+							    : '') +
 						'</span>'
-					);
+            )
 
-				}
+        }
 
-			// Target.
-				switch (options.target) {
+        // Target.
+        switch (options.target) {
 
-					case 'previous':
-						$this.prev().find('.demo-controls').replaceWith($controls);
-						break;
+        case 'previous':
+            $this.prev().find('.demo-controls').replaceWith($controls)
+            break
 
-					default:
-						$this.find('.demo-controls').replaceWith($controls);
-						break;
+        default:
+            $this.find('.demo-controls').replaceWith($controls)
+            break
 
-				}
+        }
 
-			// Styles.
-				if (styles) {
+        // Styles.
+        if (styles) {
 
-					$styleProperty = $controls.find('.property[data-name="style"]');
-					$stylePropertyClasses = $styleProperty.children('.classes');
+            $styleProperty = $controls.find('.property[data-name="style"]')
+            $stylePropertyClasses = $styleProperty.children('.classes')
 
-					for (i in styles) {
+            for (i in styles) {
 
-						current = false;
-						count = Object.keys(styles[i]).length;
-						n = 1;
+                current = false
+                count = Object.keys(styles[i]).length
+                n = 1
 
-						// Add to style property.
-							$x = $('<span data-class="' + i + '">, ' + i + '</span>')
-								.appendTo($stylePropertyClasses);
+                // Add to style property.
+                $x = $('<span data-class="' + i + '">, ' + i + '</span>')
+                    .appendTo($stylePropertyClasses)
 
-							if ($this.hasClass(i)) {
+                if ($this.hasClass(i)) {
 
-								$x.addClass('active');
-								current = true;
+                    $x.addClass('active')
+                    current = true
 
-							}
+                }
 
-						// Step through properties.
-							for (j in styles[i]) {
+                // Step through properties.
+                for (j in styles[i]) {
 
-								$x = $(
-									'<span class="property" data-name="' + j + '" data-requires="' + i + '">' +
+                    $x = $(
+                        '<span class="property" data-name="' + j + '" data-requires="' + i + '">' +
 										(n == count ? '<span>and </span>' : '') +
 										'<a href="#" class="title">' + j + '</a>' +
 										'<span class="classes">' +
 										'</span>' + (n < count ? ', ' : '') +
 									'</span>'
-								).appendTo($controls);
+                    ).appendTo($controls)
 
-								$y = $x.children('.classes');
+                    $y = $x.children('.classes')
 
-								if (current)
-									$x.addClass('active');
+                    if (current)
+                        $x.addClass('active')
 
-								for (k in styles[i][j]) {
+                    for (k in styles[i][j]) {
 
-									$z = $('<span data-class="' + k + '">, ' + styles[i][j][k].replace('*', '') + '</span>')
-										.appendTo($y);
+                        $z = $('<span data-class="' + k + '">, ' + styles[i][j][k].replace('*', '') + '</span>')
+                            .appendTo($y)
 
-									if (styles[i][j][k].substr(-1, 1) == '*')
-										$z.addClass('default');
+                        if (styles[i][j][k].substr(-1, 1) == '*')
+                            $z.addClass('default')
 
-									if (current
+                        if (current
 									&&	$this.hasClass(k))
-										$z.addClass('active');
+                            $z.addClass('active')
 
-								}
+                    }
 
-								n++;
+                    n++
 
-							}
+                }
 
-					}
+            }
 
-				}
+        }
 
-			// Events.
-				$controls.on('click', 'a', function(event) {
-					event.preventDefault();
-				});
+        // Events.
+        $controls.on('click', 'a', function(event) {
+            event.preventDefault()
+        })
 
-				$controls.on('click', '.property.active', function(event) {
+        $controls.on('click', '.property.active', function(event) {
 
-					var $property = $(this);
-					var $classes = $property.find('.classes > *');
-					var $current = $classes.filter('.active');
-					var $next;
+            var $property = $(this)
+            var $classes = $property.find('.classes > *')
+            var $current = $classes.filter('.active')
+            var $next
 
-					// Determine next.
-						if ($current.length == 0
+            // Determine next.
+            if ($current.length == 0
 						||	$current.index() == $classes.length - 1)
-							$next = $classes.first();
-						else
-							$next = $current.next();
+                $next = $classes.first()
+            else
+                $next = $current.next()
 
-					// Turn on animate all.
-						$this.addClass('demo-animate-all');
+            // Turn on animate all.
+            $this.addClass('demo-animate-all')
 
-					// Deactivate current.
-						$current.removeClass('active');
-						$this.removeClass($current.data('class'));
+            // Deactivate current.
+            $current.removeClass('active')
+            $this.removeClass($current.data('class'))
 
-					// Activate next.
-						$next.addClass('active');
-						$this.addClass($next.data('class'));
+            // Activate next.
+            $next.addClass('active')
+            $this.addClass($next.data('class'))
 
-					// Turn off animate all.
-						setTimeout(function() {
-							$this.removeClass('demo-animate-all');
-						}, 500);
+            // Turn off animate all.
+            setTimeout(function() {
+                $this.removeClass('demo-animate-all')
+            }, 500)
 
-				});
+        })
 
-				$controls.on('click', '.property[data-name="style"]', function(event) {
+        $controls.on('click', '.property[data-name="style"]', function(event) {
 
-					var $property = $(this);
-					var $classes = $property.find('.classes > *');
-					var $current = $classes.filter('.active');
-					var $next;
+            var $property = $(this)
+            var $classes = $property.find('.classes > *')
+            var $current = $classes.filter('.active')
+            var $next
 
-					// Determine next.
-						if ($current.length == 0
+            // Determine next.
+            if ($current.length == 0
 						||	$current.index() == $classes.length - 1)
-							$next = $classes.first();
-						else
-							$next = $current.next();
+                $next = $classes.first()
+            else
+                $next = $current.next()
 
-					// Turn on animate all.
-						$this.addClass('demo-animate-all');
+            // Turn on animate all.
+            $this.addClass('demo-animate-all')
 
-					// Deactivate current.
-						$current.removeClass('active');
-						$this.removeClass($current.data('class'));
+            // Deactivate current.
+            $current.removeClass('active')
+            $this.removeClass($current.data('class'))
 
-						$controls.find('.property[data-requires="' + $current.data('class') + '"]')
-							.removeClass('active');
+            $controls.find('.property[data-requires="' + $current.data('class') + '"]')
+                .removeClass('active')
 
-						$controls.find('.property[data-requires="' + $current.data('class') + '"] > .classes > .active').each(function() {
+            $controls.find('.property[data-requires="' + $current.data('class') + '"] > .classes > .active').each(function() {
 
-							$(this).removeClass('active');
+                $(this).removeClass('active')
 
-							if ($(this).data('class') != '-')
-								$this.removeClass($(this).data('class'));
+                if ($(this).data('class') != '-')
+                    $this.removeClass($(this).data('class'))
 
-						});
+            })
 
-					// Activate next.
-						$next.addClass('active');
-						$this.addClass($next.data('class'));
+            // Activate next.
+            $next.addClass('active')
+            $this.addClass($next.data('class'))
 
-						$controls.find('.property[data-requires="' + $next.data('class') + '"]')
-							.addClass('active');
+            $controls.find('.property[data-requires="' + $next.data('class') + '"]')
+                .addClass('active')
 
-						$controls.find('.property[data-requires="' + $next.data('class') + '"] > .classes > .default').each(function() {
+            $controls.find('.property[data-requires="' + $next.data('class') + '"] > .classes > .default').each(function() {
 
-							$(this).addClass('active');
+                $(this).addClass('active')
 
-							if ($(this).data('class') != '-')
-								$this.addClass($(this).data('class'));
+                if ($(this).data('class') != '-')
+                    $this.addClass($(this).data('class'))
 
-						});
+            })
 
-					// Turn off animate all.
-						setTimeout(function() {
-							$this.removeClass('demo-animate-all');
-						}, 500);
+            // Turn off animate all.
+            setTimeout(function() {
+                $this.removeClass('demo-animate-all')
+            }, 500)
 
-				});
+        })
 
-		};
+    }
 
-	// Elements.
+    // Elements.
 
-		// Wrappers.
-			$('.wrapper').demo_controls(null, {
-				palette: true
-			});
+    // Wrappers.
+    $('.wrapper').demo_controls(null, {
+        palette: true
+    })
 
-		// Banner.
-			$('.banner').demo_controls({
-				style1: {
-					'size': {
-						'-': 'normal',
-						'fullscreen': 'fullscreen*'
-					},
-					'orientation': {
-						'orient-left': 'left*',
-						'orient-right': 'right'
-					},
-					'content alignment': {
-						'content-align-left': 'left*',
-						'content-align-center': 'center',
-						'content-align-right': 'right'
-					},
-					'image position': {
-						'image-position-left': 'left',
-						'image-position-center': 'center*',
-						'image-position-right': 'right'
-					}
-				},
-				style2: {
-					'size': {
-						'-': 'normal',
-						'fullscreen': 'fullscreen*'
-					},
-					'orientation': {
-						'orient-left': 'left',
-						'orient-center': 'center*',
-						'orient-right': 'right'
-					},
-					'content alignment': {
-						'content-align-left': 'left',
-						'content-align-center': 'center*',
-						'content-align-right': 'right'
-					},
-					'image position': {
-						'image-position-left': 'left',
-						'image-position-center': 'center*',
-						'image-position-right': 'right'
-					}
-				},
-				style3: {
-					'size': {
-						'-': 'normal',
-						'fullscreen': 'fullscreen*'
-					},
-					'orientation': {
-						'orient-left': 'left',
-						'orient-right': 'right*'
-					},
-					'content alignment': {
-						'content-align-left': 'left*',
-						'content-align-center': 'center',
-						'content-align-right': 'right'
-					},
-					'image position': {
-						'image-position-left': 'left',
-						'image-position-center': 'center*',
-						'image-position-right': 'right'
-					}
-				},
-				style4: {
-					'size': {
-						'-': 'normal',
-						'fullscreen': 'fullscreen*'
-					},
-					'phone type': {
-						'iphone': 'iphone*',
-						'android': 'android'
-					},
-					'orientation': {
-						'orient-left': 'left',
-						'orient-right': 'right*'
-					},
-					'content alignment': {
-						'content-align-left': 'left*',
-						'content-align-center': 'center',
-						'content-align-right': 'right'
-					},
-					'image position': {
-						'image-position-left': 'left',
-						'image-position-center': 'center*',
-						'image-position-right': 'right'
-					}
-				},
-				style5: {
-					'size': {
-						'-': 'normal',
-						'fullscreen': 'fullscreen*'
-					},
-					'content alignment': {
-						'content-align-left': 'left',
-						'content-align-center': 'center*',
-						'content-align-right': 'right'
-					},
-					'image position': {
-						'image-position-left': 'left',
-						'image-position-center': 'center*',
-						'image-position-right': 'right'
-					}
-				}
-			});
+    // Banner.
+    $('.banner').demo_controls({
+        style1: {
+            'size': {
+                '-': 'normal',
+                'fullscreen': 'fullscreen*'
+            },
+            'orientation': {
+                'orient-left': 'left*',
+                'orient-right': 'right'
+            },
+            'content alignment': {
+                'content-align-left': 'left*',
+                'content-align-center': 'center',
+                'content-align-right': 'right'
+            },
+            'image position': {
+                'image-position-left': 'left',
+                'image-position-center': 'center*',
+                'image-position-right': 'right'
+            }
+        },
+        style2: {
+            'size': {
+                '-': 'normal',
+                'fullscreen': 'fullscreen*'
+            },
+            'orientation': {
+                'orient-left': 'left',
+                'orient-center': 'center*',
+                'orient-right': 'right'
+            },
+            'content alignment': {
+                'content-align-left': 'left',
+                'content-align-center': 'center*',
+                'content-align-right': 'right'
+            },
+            'image position': {
+                'image-position-left': 'left',
+                'image-position-center': 'center*',
+                'image-position-right': 'right'
+            }
+        },
+        style3: {
+            'size': {
+                '-': 'normal',
+                'fullscreen': 'fullscreen*'
+            },
+            'orientation': {
+                'orient-left': 'left',
+                'orient-right': 'right*'
+            },
+            'content alignment': {
+                'content-align-left': 'left*',
+                'content-align-center': 'center',
+                'content-align-right': 'right'
+            },
+            'image position': {
+                'image-position-left': 'left',
+                'image-position-center': 'center*',
+                'image-position-right': 'right'
+            }
+        },
+        style4: {
+            'size': {
+                '-': 'normal',
+                'fullscreen': 'fullscreen*'
+            },
+            'phone type': {
+                'iphone': 'iphone*',
+                'android': 'android'
+            },
+            'orientation': {
+                'orient-left': 'left',
+                'orient-right': 'right*'
+            },
+            'content alignment': {
+                'content-align-left': 'left*',
+                'content-align-center': 'center',
+                'content-align-right': 'right'
+            },
+            'image position': {
+                'image-position-left': 'left',
+                'image-position-center': 'center*',
+                'image-position-right': 'right'
+            }
+        },
+        style5: {
+            'size': {
+                '-': 'normal',
+                'fullscreen': 'fullscreen*'
+            },
+            'content alignment': {
+                'content-align-left': 'left',
+                'content-align-center': 'center*',
+                'content-align-right': 'right'
+            },
+            'image position': {
+                'image-position-left': 'left',
+                'image-position-center': 'center*',
+                'image-position-right': 'right'
+            }
+        }
+    })
 
-		// Spotlight.
-			$('.spotlight').demo_controls({
-				style1: {
-					'orientation': {
-						'orient-left': 'left',
-						'orient-right': 'right*'
-					},
-					'content alignment': {
-						'content-align-left': 'left*',
-						'content-align-center': 'center',
-						'content-align-right': 'right'
-					},
-					'image position': {
-						'image-position-left': 'left*',
-						'image-position-center': 'center',
-						'image-position-right': 'right'
-					}
-				},
-				style2: {
-					'orientation': {
-						'orient-left': 'left',
-						'orient-right': 'right*'
-					},
-					'content alignment': {
-						'content-align-left': 'left*',
-						'content-align-center': 'center',
-						'content-align-right': 'right'
-					},
-					'image position': {
-						'image-position-left': 'left',
-						'image-position-center': 'center*',
-						'image-position-right': 'right'
-					}
-				},
-				style3: {
-					'phone type': {
-						'iphone': 'iphone*',
-						'android': 'android'
-					},
-					'orientation': {
-						'orient-left': 'left',
-						'orient-right': 'right*'
-					},
-					'content alignment': {
-						'content-align-left': 'left*',
-						'content-align-center': 'center',
-						'content-align-right': 'right'
-					},
-					'image position': {
-						'image-position-left': 'left',
-						'image-position-center': 'center*',
-						'image-position-right': 'right'
-					}
-				},
-				style4: {
-					'size': {
-						'-size': 'normal',
-						'fullscreen': 'fullscreen*',
-						'halfscreen': 'halfscreen'
-					},
-					'orientation': {
-						'orient-left': 'left*',
-						'orient-center': 'center',
-						'orient-right': 'right'
-					},
-					'content alignment': {
-						'content-align-left': 'left*',
-						'content-align-center': 'center',
-						'content-align-right': 'right'
-					},
-					'image position': {
-						'image-position-left': 'left',
-						'image-position-center': 'center*',
-						'image-position-right': 'right'
-					}
-				},
-				style5: {
-					'size': {
-						'-size': 'normal',
-						'fullscreen': 'fullscreen*',
-						'halfscreen': 'halfscreen'
-					},
-					'orientation': {
-						'orient-left': 'left*',
-						'orient-center': 'center',
-						'orient-right': 'right'
-					},
-					'content alignment': {
-						'content-align-left': 'left*',
-						'content-align-center': 'center',
-						'content-align-right': 'right'
-					},
-					'image position': {
-						'image-position-left': 'left',
-						'image-position-center': 'center*',
-						'image-position-right': 'right'
-					}
-				},
-			});
+    // Spotlight.
+    $('.spotlight').demo_controls({
+        style1: {
+            'orientation': {
+                'orient-left': 'left',
+                'orient-right': 'right*'
+            },
+            'content alignment': {
+                'content-align-left': 'left*',
+                'content-align-center': 'center',
+                'content-align-right': 'right'
+            },
+            'image position': {
+                'image-position-left': 'left*',
+                'image-position-center': 'center',
+                'image-position-right': 'right'
+            }
+        },
+        style2: {
+            'orientation': {
+                'orient-left': 'left',
+                'orient-right': 'right*'
+            },
+            'content alignment': {
+                'content-align-left': 'left*',
+                'content-align-center': 'center',
+                'content-align-right': 'right'
+            },
+            'image position': {
+                'image-position-left': 'left',
+                'image-position-center': 'center*',
+                'image-position-right': 'right'
+            }
+        },
+        style3: {
+            'phone type': {
+                'iphone': 'iphone*',
+                'android': 'android'
+            },
+            'orientation': {
+                'orient-left': 'left',
+                'orient-right': 'right*'
+            },
+            'content alignment': {
+                'content-align-left': 'left*',
+                'content-align-center': 'center',
+                'content-align-right': 'right'
+            },
+            'image position': {
+                'image-position-left': 'left',
+                'image-position-center': 'center*',
+                'image-position-right': 'right'
+            }
+        },
+        style4: {
+            'size': {
+                '-size': 'normal',
+                'fullscreen': 'fullscreen*',
+                'halfscreen': 'halfscreen'
+            },
+            'orientation': {
+                'orient-left': 'left*',
+                'orient-center': 'center',
+                'orient-right': 'right'
+            },
+            'content alignment': {
+                'content-align-left': 'left*',
+                'content-align-center': 'center',
+                'content-align-right': 'right'
+            },
+            'image position': {
+                'image-position-left': 'left',
+                'image-position-center': 'center*',
+                'image-position-right': 'right'
+            }
+        },
+        style5: {
+            'size': {
+                '-size': 'normal',
+                'fullscreen': 'fullscreen*',
+                'halfscreen': 'halfscreen'
+            },
+            'orientation': {
+                'orient-left': 'left*',
+                'orient-center': 'center',
+                'orient-right': 'right'
+            },
+            'content alignment': {
+                'content-align-left': 'left*',
+                'content-align-center': 'center',
+                'content-align-right': 'right'
+            },
+            'image position': {
+                'image-position-left': 'left',
+                'image-position-center': 'center*',
+                'image-position-right': 'right'
+            }
+        },
+    })
 
-		// Gallery.
-			$('.gallery').demo_controls({
-				style1: {
-					'size': {
-						'small': 'small',
-						'medium': 'medium*',
-						'big': 'big'
-					}
-				},
-				style2: {
-					'size': {
-						'small': 'small',
-						'medium': 'medium*',
-						'big': 'big'
-					}
-				},
-			}, {
-				target: 'previous',
-				palette: false
-			});
+    // Gallery.
+    $('.gallery').demo_controls({
+        style1: {
+            'size': {
+                'small': 'small',
+                'medium': 'medium*',
+                'big': 'big'
+            }
+        },
+        style2: {
+            'size': {
+                'small': 'small',
+                'medium': 'medium*',
+                'big': 'big'
+            }
+        },
+    }, {
+        target: 'previous',
+        palette: false
+    })
 
-		// Items.
-			$('.items').demo_controls({
-				style1: {
-					'size': {
-						'small': 'small',
-						'medium': 'medium*',
-						'big': 'big'
-					}
-				},
-				style2: {
-					'size': {
-						'small': 'small',
-						'medium': 'medium*',
-						'big': 'big'
-					}
-				},
-				style3: {
-					'size': {
-						'small': 'small',
-						'medium': 'medium*',
-						'big': 'big'
-					}
-				}
-			}, {
-				target: 'previous',
-				palette: false
-			});
+    // Items.
+    $('.items').demo_controls({
+        style1: {
+            'size': {
+                'small': 'small',
+                'medium': 'medium*',
+                'big': 'big'
+            }
+        },
+        style2: {
+            'size': {
+                'small': 'small',
+                'medium': 'medium*',
+                'big': 'big'
+            }
+        },
+        style3: {
+            'size': {
+                'small': 'small',
+                'medium': 'medium*',
+                'big': 'big'
+            }
+        }
+    }, {
+        target: 'previous',
+        palette: false
+    })
 
-})(jQuery);
+})(jQuery)

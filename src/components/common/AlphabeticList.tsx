@@ -1,14 +1,14 @@
-import {listItems} from "./ListItem";
-import React from "react";
-import {ListProps} from "./ListProps";
+import {listItems} from './ListItem'
+import React from 'react'
+import {ListProps} from './ListProps'
 
 interface AlphabeticListProps<T> extends ListProps<T>{
     alphabeticStrategy: (node: T, letter: string) => boolean
 }
 
 export function AlphabeticList<T>(props: AlphabeticListProps<T>) {
-    const {list, elementKey, elementContent, elementLink, alphabeticStrategy} = props;
-    const alphabet: string[] = "abcdefghijklmnopqrstuvwxyz".split("");
+    const {list, elementKey, elementContent, elementLink, alphabeticStrategy} = props
+    const alphabet: string[] = 'abcdefghijklmnopqrstuvwxyz'.split('')
 
     function subListForLetter(letter: string): T[] {
         return list.filter(obj => alphabeticStrategy(obj, letter))

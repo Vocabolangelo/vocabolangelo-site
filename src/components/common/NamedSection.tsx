@@ -15,5 +15,5 @@ export function NamedSection(props: NamedSectionProps) {
                 </div>
             </section>
         </>
-    );
+    )
 }

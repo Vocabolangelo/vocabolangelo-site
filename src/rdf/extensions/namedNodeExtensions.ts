@@ -1,5 +1,5 @@
-import {NamedNode} from "rdflib";
-import {Prefix} from "../Prefix";
+import {NamedNode} from 'rdflib'
+import {Prefix} from '../Prefix'
 
 declare module 'rdflib' {
     interface NamedNode {

@@ -5,7 +5,7 @@
  * @param {string} additionalInfo an additional description of the Error.
  * return {T}
  */
-export function requireNotNull<T>(t: T | null, additionalInfo: string = ""): T {
+export function requireNotNull<T>(t: T | null, additionalInfo = ''): T {
     if(t !== null) {
         return t
     }

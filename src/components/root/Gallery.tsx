@@ -1,12 +1,12 @@
-import {GalleryElement} from "../common/GalleryElement";
-import {Link} from "react-router-dom";
-import {VOCABOLIERI_ROUTE} from "../../routes/Vocabolieri";
-import {Person} from "../../rdf/types/Person";
-import {useEffect, useState} from "react";
-import {vocang} from "../../rdf/prefixes";
+import {GalleryElement} from '../common/GalleryElement'
+import {Link} from 'react-router-dom'
+import {VOCABOLIERI_ROUTE} from '../../routes/Vocabolieri'
+import {Person} from '../../rdf/types/Person'
+import {useEffect, useState} from 'react'
+import {vocang} from '../../rdf/prefixes'
 
 export default function Gallery() {
-    let [peopleWithImages, setPeopleWithImages] = useState<Person[]>([])
+    const [peopleWithImages, setPeopleWithImages] = useState<Person[]>([])
 
     useEffect(() => {
         Person.all().then(people => {
@@ -31,9 +31,9 @@ export default function Gallery() {
                         imageHref={`${VOCABOLIERI_ROUTE}/${p.node.RelativeUri(vocang)}`}
                         imageSrc={p.images[0]}
                         imageAlt={p.fullName()}
-                        buttonText={"Vai alla pagina"}/>
+                        buttonText={'Vai alla pagina'}/>
                 )}
             </div>
         </section>
-);
+    )
 }

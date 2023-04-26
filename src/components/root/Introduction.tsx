@@ -1,4 +1,4 @@
-import {PAROLANGELO_ROUTE} from "../../routes/Parolangelo";
+import {PAROLANGELO_ROUTE} from '../../routes/Parolangelo'
 
 export default function Introduction() {
     return (
@@ -22,5 +22,5 @@ export default function Introduction() {
                 </div>
             </section>
         </>
-    );
+    )
 }

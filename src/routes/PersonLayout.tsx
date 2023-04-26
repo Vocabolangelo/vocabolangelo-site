@@ -1,19 +1,19 @@
-import React, {useEffect, useState} from "react";
-import {useParams} from "react-router-dom";
-import {RDFStore} from "../rdf/RDFStore";
-import {vocang} from "../rdf/prefixes";
-import DefaultLayout from "../components/common/DefaultLayout";
-import {Person} from "../rdf/types/Person";
-import ConditionalComponent from "../components/common/conditional/ConditionalComponent";
-import {NamedSection} from "../components/common/NamedSection";
-import {List} from "../components/common/List";
-import {PAROLANGELO_ROUTE} from "./Parolangelo";
-import {VOCABOLIERI_ROUTE} from "./Vocabolieri";
+import React, {useEffect, useState} from 'react'
+import {useParams} from 'react-router-dom'
+import {RDFStore} from '../rdf/RDFStore'
+import {vocang} from '../rdf/prefixes'
+import DefaultLayout from '../components/common/DefaultLayout'
+import {Person} from '../rdf/types/Person'
+import ConditionalComponent from '../components/common/conditional/ConditionalComponent'
+import {NamedSection} from '../components/common/NamedSection'
+import {List} from '../components/common/List'
+import {PAROLANGELO_ROUTE} from './Parolangelo'
+import {VOCABOLIERI_ROUTE} from './Vocabolieri'
 
 export function PersonLayout() {
 
     const [person, setPerson] =
-        useState<Person | undefined>(undefined);
+        useState<Person | undefined>(undefined)
     const params = useParams()
 
     useEffect(() => {
@@ -56,41 +56,41 @@ interface PersonSubLayoutProps {
 }
 
 function Friends(props: PersonSubLayoutProps){
-    let friends = props.person.friends().sort(
+    const friends = props.person.friends().sort(
         (a, b) => a.lastName.localeCompare(b.lastName)
     )
     return <ConditionalComponent
         condition={() => friends?.length > 0}
         component={
-        <NamedSection
-            title={"Amici"}
-            content={
-                <List
-                    isOrdered={false}
-                    list={friends}
-                    elementKey={p => p.node.RelativeUri(vocang)}
-                    elementContent={p => {
-                        if (p.node.uri !== props.person.node.uri ) {
-                            return <p>{p.fullName(true)}</p>
-                        } else {
-                            return <></>
-                        }
-                    }}
-                    elementLink={p =>`${VOCABOLIERI_ROUTE}/${p.node.RelativeUri(vocang)}`}
-                />
-            }
-        />
-    }/>
+            <NamedSection
+                title={'Amici'}
+                content={
+                    <List
+                        isOrdered={false}
+                        list={friends}
+                        elementKey={p => p.node.RelativeUri(vocang)}
+                        elementContent={p => {
+                            if (p.node.uri !== props.person.node.uri ) {
+                                return <p>{p.fullName(true)}</p>
+                            } else {
+                                return <></>
+                            }
+                        }}
+                        elementLink={p =>`${VOCABOLIERI_ROUTE}/${p.node.RelativeUri(vocang)}`}
+                    />
+                }
+            />
+        }/>
 }
 function Partners(props: PersonSubLayoutProps){
-    let partners = props.person.partners().sort(
+    const partners = props.person.partners().sort(
         (a, b) => a.lastName.localeCompare(b.lastName)
     )
     return <ConditionalComponent
         condition={() => partners?.length > 0}
         component={
             <NamedSection
-                title={"Partner"}
+                title={'Partner'}
                 content={
                     <List
                         isOrdered={false}
@@ -105,14 +105,14 @@ function Partners(props: PersonSubLayoutProps){
 }
 
 function ConceptsCreated(props: PersonSubLayoutProps){
-    let concepts = props.person.creatorOf()().sort(
+    const concepts = props.person.creatorOf()().sort(
         (a, b) => a.prefLabel.localeCompare(b.prefLabel)
     )
     return <ConditionalComponent
         condition={() => concepts?.length > 0}
         component={
             <NamedSection
-                title={"Parolangelo create"}
+                title={'Parolangelo create'}
                 content={
                     <List
                         isOrdered={false}
@@ -127,40 +127,40 @@ function ConceptsCreated(props: PersonSubLayoutProps){
 }
 
 function Contribution(props: PersonSubLayoutProps){
-    let concepts = props.person.creatorOf()()
-    let soloConceptsCount = concepts.filter(c => c.personCreators().length === 1).length
+    const concepts = props.person.creatorOf()()
+    const soloConceptsCount = concepts.filter(c => c.personCreators().length === 1).length
     return <ConditionalComponent
         condition={() => concepts?.length > 0}
         component={
             <NamedSection
-                title={"Contributo"}
+                title={'Contributo'}
                 content={
-                <>
-                    <p>Da solo ho inventato: <strong>{soloConceptsCount}</strong> parolangelo.</p>
-                    <p>Insieme ad altri ho inventato:
-                        <strong>{concepts.length - soloConceptsCount}</strong> parolangelo.
-                    </p>
-                    <p>In totale ho inventato: <strong>{concepts.length}</strong> parolangelo.</p>
-                </>
+                    <>
+                        <p>Da solo ho inventato: <strong>{soloConceptsCount}</strong> parolangelo.</p>
+                        <p>Insieme ad altri ho inventato:
+                            <strong>{concepts.length - soloConceptsCount}</strong> parolangelo.
+                        </p>
+                        <p>In totale ho inventato: <strong>{concepts.length}</strong> parolangelo.</p>
+                    </>
                 }
             />
         }/>
 }
 
 function Images(props: PersonSubLayoutProps) {
-    let images = props.person.images
+    const images = props.person.images
     return <ConditionalComponent
         condition={() => images?.length > 0}
         component={
             <NamedSection
-                title={"Foto"}
+                title={'Foto'}
                 content={
                     <List
-                        listStyle={"none"}
+                        listStyle={'none'}
                         isOrdered={false}
                         list={images}
                         elementKey={i => i}
-                        elementContent={i => <img style={{borderRadius:"50%", maxWidth:"25vw"}} src={i} alt={ props.person.fullName()}/>}
+                        elementContent={i => <img style={{borderRadius:'50%', maxWidth:'25vw'}} src={i} alt={ props.person.fullName()}/>}
                     />
                 }
             />

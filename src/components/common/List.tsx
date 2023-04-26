@@ -1,6 +1,6 @@
-import {listItems} from "./ListItem";
-import React from "react";
-import {ListProps} from "./ListProps";
+import {listItems} from './ListItem'
+import React from 'react'
+import {ListProps} from './ListProps'
 
 interface MaybeOrderedListProps<T> extends ListProps<T>{
     isOrdered : boolean
@@ -8,7 +8,7 @@ interface MaybeOrderedListProps<T> extends ListProps<T>{
 }
 
 export function List<T>(props: MaybeOrderedListProps<T>) {
-    const {list, elementKey, elementContent, elementLink, isOrdered, listStyle} = props;
+    const {list, elementKey, elementContent, elementLink, isOrdered, listStyle} = props
 
     if(isOrdered) {
         return <ol style={{listStyle: listStyle}}>{listItems(list, elementKey, elementContent, elementLink)}</ol>

@@ -1,10 +1,10 @@
-import Introduction from "../components/root/Introduction";
-import WordCounter from "../components/root/WordCounter";
-import Disclaimer from "../components/root/Disclaimer";
-import Milestone from "../components/root/Milestone";
-import Ontology from "../components/root/Ontology";
-import Header from "../components/common/Header";
-import Footer from "../components/common/Footer";
+import Introduction from '../components/root/Introduction'
+import WordCounter from '../components/root/WordCounter'
+import Disclaimer from '../components/root/Disclaimer'
+import Milestone from '../components/root/Milestone'
+import Ontology from '../components/root/Ontology'
+import Header from '../components/common/Header'
+import Footer from '../components/common/Footer'
 
 export default function Root() {
     return (
@@ -36,5 +36,5 @@ export default function Root() {
             <Ontology/>
             <Footer/>
         </>
-    );
+    )
 }
