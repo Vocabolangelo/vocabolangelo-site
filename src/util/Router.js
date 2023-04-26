@@ -6,6 +6,7 @@ import React from 'react'
 import Vocabolieri, {VOCABOLIERI_ROUTE} from '../routes/Vocabolieri'
 import {PersonLayout} from '../routes/PersonLayout'
 import {Page404} from '../Page404'
+import Dashboard, {DASHBOARD_ROUTE} from '../routes/Dashboard'
 
 export const router = createBrowserRouter([
     {
@@ -13,7 +14,7 @@ export const router = createBrowserRouter([
         element: <Root/>,
     },
     {
-        path: `${PAROLANGELO_ROUTE}`,
+        path: PAROLANGELO_ROUTE,
         element: <Parolangelo/>,
     },
     {
@@ -21,12 +22,16 @@ export const router = createBrowserRouter([
         element: <ConceptLayout />
     },
     {
-        path: `${VOCABOLIERI_ROUTE}`,
+        path: VOCABOLIERI_ROUTE,
         element: <Vocabolieri/>,
     },
     {
         path: `${VOCABOLIERI_ROUTE}/:personId`,
         element: <PersonLayout />
+    },
+    {
+        path: DASHBOARD_ROUTE,
+        element: <Dashboard />
     },
     {
         path: '*',

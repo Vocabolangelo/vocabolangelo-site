@@ -1,5 +1,7 @@
 import {useEffect, useState} from 'react'
 import {Concept} from '../../rdf/types/Concept'
+import {PAROLANGELO_ROUTE} from '../../routes/Parolangelo'
+import {Link} from 'react-router-dom'
 
 export default function WordCounter() {
     const [wordCount, setWordCount] = useState(0)
@@ -10,13 +12,27 @@ export default function WordCounter() {
         })
     }, [])
 
+    function highestMultipleOf500(num : number): number {
+        return Math.ceil(num / 500) * 500
+    }
+
     return (
         <>
             <section className="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
                 id="first">
                 <div className="content">
                     <h1> {wordCount} </h1>
-                    <p>Sono le parole all&apos;interno del Vocabolangelo. Puntiamo a raggiungere le 1000 parole.</p>
+                    <p>
+                        Sono le <Link to={`${PAROLANGELO_ROUTE}/parolangelo`}>
+                            parolangelo
+                        </Link> all&apos;interno del Vocabolangelo.<br/>
+                        Quando ci saranno grandi traguardi tutti i <Link to={`${PAROLANGELO_ROUTE}/vocaboliere`}>
+                            vocabolieri
+                        </Link> festeggeranno in qualche modo, ad esempio con un <Link to={`${PAROLANGELO_ROUTE}/festabolangelo`}>
+                            festabolangelo
+                        </Link>.<br/>
+                        Al momento puntiamo a raggiungere le <strong>{highestMultipleOf500(wordCount)}</strong> parolangelo!
+                    </p>
                     <ul className="actions stacked">
                         <li>
                             <a href="https://github.com/Vocabolangelo/" className="button">

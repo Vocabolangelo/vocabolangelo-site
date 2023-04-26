@@ -1,6 +1,9 @@
 import {Link} from 'react-router-dom'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import { faHome, faBook, faFeather } from '@fortawesome/free-solid-svg-icons'
+import { faHome, faBook, faFeather, faBarChart } from '@fortawesome/free-solid-svg-icons'
+import {DASHBOARD_ROUTE} from '../../routes/Dashboard'
+import {VOCABOLIERI_ROUTE} from '../../routes/Vocabolieri'
+import {PAROLANGELO_ROUTE} from '../../routes/Parolangelo'
 export default function Header() {
     return <header style={{backgroundColor: 'black'}} className="is-preload">
         <div id="wrapper" className="divided">
@@ -19,13 +22,18 @@ export default function Header() {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to={'/parolangelo'} className="button primary">
+                                    <Link to={PAROLANGELO_ROUTE} className="button primary">
                                         <FontAwesomeIcon icon={faBook} color="white" size="lg"/> Parolangelo
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to={'/vocabolieri'} className="button primary">
+                                    <Link to={VOCABOLIERI_ROUTE} className="button primary">
                                         <FontAwesomeIcon icon={faFeather} color="white" size="lg"/>  Vocabolieri
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to={DASHBOARD_ROUTE} className="button primary">
+                                        <FontAwesomeIcon icon={faBarChart} color="white" size="lg"/>  Dashboard
                                     </Link>
                                 </li>
                             </ul>
