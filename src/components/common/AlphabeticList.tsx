@@ -25,4 +25,3 @@ export function AlphabeticList<T>(props: AlphabeticListProps<T>) {
         })}
     </>
 }
-

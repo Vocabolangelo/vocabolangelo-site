@@ -2,7 +2,7 @@ import {RDFNamedNode} from "../RDFNamedNode";
 import {NamedNode} from "rdflib"
 import {Quad_Subject} from "rdflib/lib/tf-types";
 import {RDFStore} from "../RDFStore";
-import {dct, foaf, lexinfo, rdf, schema, skos} from "../prefixes";
+import {dct, foaf, lexinfo, schema, skos} from "../prefixes";
 import "../extensions/storeExtensions"
 import {Person} from "./Person";
 import {requireNotNull} from "../../util/requireNotNull";
@@ -135,4 +135,3 @@ export class Concept extends RDFNamedNode {
     }
 
 }
-

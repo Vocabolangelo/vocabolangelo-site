@@ -16,4 +16,3 @@ export function List<T>(props: MaybeOrderedListProps<T>) {
         return <ul style={{listStyle: listStyle}}>{listItems(list, elementKey, elementContent, elementLink)}</ul>
     }
 }
-

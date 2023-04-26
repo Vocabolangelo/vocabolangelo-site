@@ -17,8 +17,3 @@ export function NamedSection(props: NamedSectionProps) {
         </>
     );
 }
-
-
-
-
-

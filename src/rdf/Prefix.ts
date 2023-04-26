@@ -8,4 +8,3 @@ export class Prefix {
         return Namespace(this.uri)
     }
 }
-

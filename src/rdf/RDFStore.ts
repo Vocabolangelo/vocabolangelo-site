@@ -11,6 +11,10 @@ const INFERRED_TTL_LOCATION = `/schema/vocabolangelo-merged.ttl`
 const TTL_LOCATION = `/schema/vocabolangelo.ttl`
 export class RDFStore {
 
+    /**
+     * Initialize the RDFStore object by retrieving the TTL file with a GET request.
+     * First try with the inferred file obtained by the CI. If it fails use the normal file.
+     */
     public static initialize(): void {
         RDFStore.retrieveTTL(INFERRED_TTL_LOCATION, () => {
             RDFStore.retrieveTTL(TTL_LOCATION, () =>
@@ -63,6 +67,3 @@ export class RDFStore {
 }
 
 RDFStore.initialize()
-
-
-

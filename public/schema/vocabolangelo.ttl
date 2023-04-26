@@ -3412,7 +3412,7 @@ vocang:sprike
     skos:example "Maledizione, ho fatto uno sprike, potevo farlo prima un tiro del genere!"@it;
     dct:created "2023-02-09" ;
     dct:creator vocang:filasetaAngelo .
-    
+
 vocang:iubikeyavare
     a skos:Concept ;
     skos:prefLabel "Iubikeyavare"@it ;
@@ -3522,7 +3522,7 @@ vocang:fiorigami
     skos:definition "Origami di un fiore."@it;
     skos:example "Che gentiluomo che è Lorenzo, mi ha regalato un fiorigami."@it;
     dct:created "2023-02-14" ;
-    skos:related vocang:origasmo ; 
+    skos:related vocang:origasmo ;
     dct:creator vocang:omiccioliRiccardo .
 
 vocang:bouquerigami
@@ -3533,7 +3533,7 @@ vocang:bouquerigami
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/bouquerigami.jpg" ;
     dct:created "2023-02-14" ;
     skos:note "La parola nasce dopo il regalo di un bouquerigami da parte di un altro autore del Vocabolangelo alla sua ragazza.";
-    skos:related vocang:origasmo, vocang:fiorigami ; 
+    skos:related vocang:origasmo, vocang:fiorigami ;
     dct:creator vocang:battaglinoNicole .
 
 vocang:stelleologo
@@ -3647,7 +3647,7 @@ vocang:bartello
     a skos:Concept ;
     skos:prefLabel "Bartello"@it ;
     lexinfo:pronunciation "/bar • tèl • lo/"@it ;
-    skos:definition "Metodo alternativo per riferirsi ad un singolo elemento della famiglia animale Sphyrnidae, ossia uno squalo martello."@it , "Cartello o insegna luminosa che si pone fuori da un bar per attirare la clientela."@it ; 
+    skos:definition "Metodo alternativo per riferirsi ad un singolo elemento della famiglia animale Sphyrnidae, ossia uno squalo martello."@it , "Cartello o insegna luminosa che si pone fuori da un bar per attirare la clientela."@it ;
     skos:example "All'acquario abbiamo visto un bartello. Faceva molta paura!"@it, "Guarda quel bartello come luccica! Andiamo lì ragazzi!"@it ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/bartello.jpg", "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/bartello_1.jpg" ;
     dct:created "2023-02-18" ;
@@ -4112,7 +4112,7 @@ vocang:geomicolo
     skos:example "Venezia è tutta un geomicolo."@it ;
     dct:created "2023-03-06" ;
     dct:creator vocang:minoccheriAlessandra .
- 
+
 vocang:complecamento
     a skos:Concept ;
     skos:prefLabel "Complecamento"@it ;

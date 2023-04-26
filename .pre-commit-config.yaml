@@ -26,3 +26,22 @@ repos:
   rev: v3.0.1
   hooks:
   - id: docker-compose-check # checks that docker-compose files are valid.#
+
+- repo: https://github.com/Lucas-C/pre-commit-hooks-nodejs
+  rev: v1.1.2
+  hooks:
+    - id: htmlhint
+    - id: markdown-toc
+
+- repo: https://github.com/Lucas-C/pre-commit-hooks-lxml
+  sha: v1.1.0
+  hooks:
+    - id: forbid-html-img-without-alt-text
+    - id: forbid-non-std-html-attributes
+    - id: html-tags-blacklist
+    - id: html-attributes-blacklist
+
+- repo: https://github.com/Lucas-C/pre-commit-hooks-java
+  sha: 1.3.10
+  hooks:
+    - id: validate-html

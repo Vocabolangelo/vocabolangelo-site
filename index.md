@@ -1,5 +1,5 @@
 ---
-rdf_prefix_path: "_data/prefixes.sparql"
+rdf_prefix_path: _data/prefixes.sparql
 ---
 <!--
 	Story by HTML5 UP

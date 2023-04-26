@@ -105,4 +105,3 @@ export class Person extends RDFNamedNode {
         return nodes.map((node) => new Person(node))
     }
 }
-

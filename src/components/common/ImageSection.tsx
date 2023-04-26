@@ -14,4 +14,3 @@ export function ImageSection(props: ImageSectionProps) {
         </div>
     </section>
 }
-

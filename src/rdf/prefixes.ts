@@ -13,4 +13,3 @@ export const scot: Prefix = new Prefix("http://rdfs.org/scot/ns#")
 export const skos: Prefix = new Prefix("http://www.w3.org/2004/02/skos/core#")
 export const vocang: Prefix = new Prefix("http://www.vocabolangelo.org/")
 export const xsd: Prefix = new Prefix("http://www.w3.org/2001/XMLSchema#")
-
