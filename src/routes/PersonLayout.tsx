@@ -30,7 +30,7 @@ export function PersonLayout() {
             component={
                 <DefaultLayout
                     title={person.fullName()}
-                    subtitle={null}
+                    subtitle={person.nick}
                     content = {
                         <>
                             {person.images !== null ?
