@@ -17,7 +17,7 @@ export default function DefaultLayout(props: DefaultLayoutProps) {
                 <div className="inner">
                     <header>
                         <h1>{title}</h1>
-                        {subtitle !== null ? <p>subtitle</p> : <></>}
+                        {subtitle !== null ? <p> {subtitle} </p> : <></>}
                     </header>
                     <div className="index align-left"> {content} </div>
                 </div>
