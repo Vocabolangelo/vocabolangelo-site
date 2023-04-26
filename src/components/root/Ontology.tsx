@@ -5,8 +5,8 @@ export default function Ontology() {
                 <div className="content">
                     <h2>Ontologia OWL</h2>
                     <p>
-                        Il vocabolangelo è un&apos;ontologia OWL.<br/>
-                        Le parole e gli autori sono individui utilizzabili in qualsiasi applicazione per il Web Semantico.
+                        Il Vocabolangelo è un&apos;<strong>ontologia OWL</strong>.<br/>
+                        Le parolangelo e i vocabolieri sono individui utilizzabili in qualsiasi applicazione per il Web Semantico.<br/>
                     </p>
                     <ul className="actions stacked">
                         <li><a href="/schema/vocabolangelo.ttl" className="button">Link all&apos;Ontologia</a></li>
