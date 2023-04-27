@@ -15,35 +15,35 @@ export class Concept extends RDFNamedNode {
     /**
      * Mapping of http://www.w3.org/2004/02/skos/core#prefLabel.
      */
-    private readonly _prefLabel: string 
+    private readonly _prefLabel: string
     /**
      * Mapping of http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation
      */
-    private readonly _pronunciation: string | null 
+    private readonly _pronunciation: string | null
     /**
      * Mapping of http://www.w3.org/2004/02/skos/core#definition.
      */
-    private readonly _definitions: string[] 
+    private readonly _definitions: string[]
     /**
      * Mapping of http://www.w3.org/2004/02/skos/core#example.
      */
-    private readonly _examples: string[] 
+    private readonly _examples: string[]
     /**
      * Mapping of https://schema.org/image.
      */
-    private readonly _images: string[] 
+    private readonly _images: string[]
     /**
      * Mapping of https://schema.org/video.
      */
-    private readonly _videos: string[] 
+    private readonly _videos: string[]
     /**
      * Mapping of http://purl.org/dc/terms/created.
      */
-    private readonly _created: string | null 
+    private readonly _created: string | null
     /**
      * Mapping of http://www.w3.org/2004/02/skos/core##related.
      */
-    private readonly _notes: string[] 
+    private readonly _notes: string[]
 
     constructor(node: NamedNode){
         super(node)

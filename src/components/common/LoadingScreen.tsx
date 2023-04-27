@@ -4,7 +4,7 @@ import {RDFStore} from '../../rdf/RDFStore'
 
 const pulse = keyframes`
   0% {
-   
+
   }
   50% {
     opacity: 1;

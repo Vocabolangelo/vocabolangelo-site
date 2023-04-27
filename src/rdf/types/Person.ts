@@ -13,11 +13,11 @@ export class Person extends RDFNamedNode {
     /**
      * Mapping of http://xmlns.com/foaf/0.1/firstName.
      */
-    private readonly _firstName: string 
+    private readonly _firstName: string
     /**
      * Mapping of http://xmlns.com/foaf/0.1/lastName.
      */
-    private readonly _lastName: string 
+    private readonly _lastName: string
     /**
      * Mapping of http://xmlns.com/foaf/0.1/nickname.
      */
