@@ -1,5 +1,18 @@
 # Changelog
 
+## [5.3.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v5.2.0...v5.3.0) (2023-04-27)
+
+
+### Features
+
+* **concept:** add bugture ([b9ca9bb](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/b9ca9bba1a180f05191ac2214fa65c2c06570c89))
+* **concept:** add caffedrillo ([b12f1c4](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/b12f1c421c0dde281759bfe1566e241309d82f2a))
+* **concept:** add frudino ([ad79aef](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/ad79aeff786251e9737d51c2320ec9bc28c23ec5))
+* **concept:** add graminchia ([b81657f](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/b81657fc488cc9a47ef13b70ce11690619e54c70))
+* **site:** add Leaderboard ([89ae575](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/89ae5751faa4565fa4cdfb912f2dc283d4e6304d))
+* **site:** add loading screen ([27edc6f](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/27edc6f9f668fb02d2e71926e0dcb83528ff6a27))
+* **site:** add loading screen to router ([51bcedc](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/51bcedcd6b16a1db7e621a2a27cdc8ba6a581acf))
+
 ## [5.2.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v5.1.0...v5.2.0) (2023-04-26)
 
 
