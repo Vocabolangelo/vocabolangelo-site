@@ -102,6 +102,14 @@ export class Concept extends RDFNamedNode {
         }
     }
 
+    public get personCreatorsCount(): number {
+        return RDFStore.store.CollectEach(
+            new RDFTriple(this.node, dct.namespace('creator'), undefined),
+            (node) => (RDFStore.store.any(node, undefined, foaf.namespace('Person')) !== null),
+            () => 1
+        ).reduce((a, b) => a + b, 0)
+    }
+
     public get images(): string[] {
         return this._images
     }

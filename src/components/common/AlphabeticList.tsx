@@ -7,11 +7,15 @@ interface AlphabeticListProps<T> extends ListProps<T>{
 }
 
 export function AlphabeticList<T>(props: AlphabeticListProps<T>) {
-    const {list, elementKey, elementContent, elementLink, alphabeticStrategy} = props
     const alphabet: string[] = 'abcdefghijklmnopqrstuvwxyz'.split('')
 
     function subListForLetter(letter: string): T[] {
-        return list.filter(obj => alphabeticStrategy(obj, letter))
+        return props.list
+            .filter(obj => props.alphabeticStrategy(obj, letter))
+            .filter(obj => props.searchFilterStrategy !== undefined && props.searchString !== undefined
+                ? props.searchFilterStrategy(obj, props.searchString)
+                : true
+            )
     }
 
     return <>
@@ -19,7 +23,12 @@ export function AlphabeticList<T>(props: AlphabeticListProps<T>) {
             return <section key={letter}>
                 <header><h2>{letter.toUpperCase()}</h2></header>
                 <ul>
-                    {listItems(subListForLetter(letter), elementKey, elementContent, elementLink)}
+                    {listItems(
+                        subListForLetter(letter),
+                        props.elementKey,
+                        props.elementContent,
+                        props.elementLink
+                    )}
                 </ul>
             </section>
         })}
