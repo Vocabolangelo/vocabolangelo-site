@@ -1413,7 +1413,7 @@ vocang:caratterrore
     skos:prefLabel "Caratterrore"@it ;
     lexinfo:pronunciation "/ca • rat • ter • ro • re/"@it ;
     skos:definition "Un carattere che è in realtà un errore."@it ;
-    skos:example "Caratterrare."@it;
+    skos:example "Sì, l'auto-correzione del telefono che ti cambia la parola 'caffè' in 'caffèrillo' può sembrare un errore, ma in realtà è un'esclusiva funzionalità di quel sistema. È un caratterrore!"@it;
     dct:created "2022-11-03" ;
     dct:creator vocang:bragariAlexandru .
 
@@ -5005,3 +5005,14 @@ vocang:graminchia
     skos:example "La casa in campagna di Germano è stata sopraffatta da una gramincia, stava pensando di dare fuoco a tutto."@it ;
     dct:created "2023-04-25" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:bugture
+    a skos:Concept ;
+    skos:prefLabel "Bugture"@it ;
+    skos:definition "Sinonimo di caratterrore."@it ;
+    skos:example "Sì, l'auto-correzione del telefono che ti cambia la parola 'caffè' in 'caffèrillo' può sembrare un errore, ma in realtà è un'esclusiva funzionalità di quel sistema. È un bugture!"@it ;
+    dct:created "2023-04-26" ;
+    scot:synonym vocang:caratterrore ;
+    dct:creator vocang:omiccioliRiccardo .
+
+
