@@ -5015,4 +5015,11 @@ vocang:bugture
     scot:synonym vocang:caratterrore ;
     dct:creator vocang:omiccioliRiccardo .
 
-
+vocang:caffedrillo
+    a skos:Concept ;
+    skos:prefLabel "Caffedrillo"@it ;
+    lexinfo:pronunciation "/caf • fe • drìl • lo/"@it ;
+    skos:definition "Un individuo affetto da un'ossessione nei confronti del caffè e che ne consuma in modo compulsivo."@it ;
+    skos:example "Riccardo è diventato un caffedrillo, spero vivamente si faccia aiutare da un esperto."@it ;
+    dct:created "2023-04-26" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:filasetaAngelo .
