@@ -4996,3 +4996,12 @@ vocang:frudino
     skos:example "Al matrimonio abbiamo mangiato degli ottimi frudini."@it ;
     dct:created "2023-04-22" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:graminchia
+    a skos:Concept ;
+    skos:prefLabel "Graminchia"@it ;
+    lexinfo:pronunciation "/gra • mìn • chia/"@it ;
+    skos:definition "Qualsiasi genere di vegetazione invasiva che abbia raggiunto un'elevata crescita."@it ;
+    skos:example "La casa in campagna di Germano è stata sopraffatta da una gramincia, stava pensando di dare fuoco a tutto."@it ;
+    dct:created "2023-04-25" ;
+    dct:creator vocang:pertosaLorenzo .
