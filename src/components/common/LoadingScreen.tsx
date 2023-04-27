@@ -1,16 +1,16 @@
 import React, { useState, useEffect } from 'react'
 import styled, { keyframes } from 'styled-components'
+import {RDFStore} from '../../rdf/RDFStore'
 
 const pulse = keyframes`
   0% {
-    opacity: 0.2;
+   
   }
   50% {
     opacity: 1;
-    transform: scale(1.2);
+    transform: scale(1.1);
   }
   100% {
-    opacity: 0.2;
   }
 `
 
@@ -24,30 +24,33 @@ const LoadingScreenContainer = styled.div`
 
 const Letter = styled.h1`
   font-family: 'Sriracha', cursive;
-  font-size: 5rem;
+  font-size: 4rem;
   color: black;
   text-transform: uppercase;
-  animation: ${pulse} 1s infinite;
+  animation: ${pulse} 0.75s infinite;
 `
 
 export default function LoadingScreen() {
-    const [letter, setLetter] = useState('A')
+    const [isStoreEmpty, setIsStoreEmpty] = useState(true)
 
     useEffect(() => {
         const interval = setInterval(() => {
-            const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-            const randomLetter = alphabet[Math.floor(Math.random() * alphabet.length)]
-            setLetter(randomLetter)
-        }, 500)
-
+            if(RDFStore.store.statements.length !== 0) {
+                setIsStoreEmpty(false)
+            }
+        }, 100)
         return () => {
             clearInterval(interval)
         }
     }, [])
 
-    return (
-        <LoadingScreenContainer>
-            <Letter>{letter}.</Letter>
-        </LoadingScreenContainer>
-    )
+    if(isStoreEmpty) {
+        return (
+            <LoadingScreenContainer>
+                <Letter>A.</Letter>
+            </LoadingScreenContainer>
+        )
+    } else {
+        return <></>
+    }
 }

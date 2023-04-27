@@ -7,8 +7,9 @@ import Vocabolieri, {VOCABOLIERI_ROUTE} from '../routes/Vocabolieri'
 import {PersonLayout} from '../routes/PersonLayout'
 import {Page404} from '../Page404'
 import Dashboard, {DASHBOARD_ROUTE} from '../routes/Dashboard'
+import LoadingScreen from '../components/common/LoadingScreen'
 
-export const router = createBrowserRouter([
+export const defaultRouter = createBrowserRouter([
     {
         path: '/',
         element: <Root/>,
@@ -36,5 +37,12 @@ export const router = createBrowserRouter([
     {
         path: '*',
         element: <Page404/>
+    }
+])
+
+export const loadingRouter = createBrowserRouter([
+    {
+        path: '*',
+        element: <LoadingScreen/>
     }
 ])
