@@ -1302,7 +1302,7 @@
 <http://www.vocabolangelo.org/caratterrore> <http://www.w3.org/2004/02/skos/core#prefLabel> "Caratterrore"@it .
 <http://www.vocabolangelo.org/caratterrore> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/ca • rat • ter • ro • re/"@it .
 <http://www.vocabolangelo.org/caratterrore> <http://www.w3.org/2004/02/skos/core#definition> "Un carattere che è in realtà un errore."@it .
-<http://www.vocabolangelo.org/caratterrore> <http://www.w3.org/2004/02/skos/core#example> "Caratterrare."@it .
+<http://www.vocabolangelo.org/caratterrore> <http://www.w3.org/2004/02/skos/core#example> "Sì, l'auto-correzione del telefono che ti cambia la parola 'caffè' in 'caffèrillo' può sembrare un errore, ma in realtà è un'esclusiva funzionalità di quel sistema. È un caratterrore!"@it .
 <http://www.vocabolangelo.org/caratterrore> <http://purl.org/dc/terms/created> "2022-11-03" .
 <http://www.vocabolangelo.org/caratterrore> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/bragariAlexandru> .
 <http://www.vocabolangelo.org/avvogatto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -4283,6 +4283,35 @@
 <http://www.vocabolangelo.org/ramadanare> <http://www.w3.org/2004/02/skos/core#example> "Selma ha finito di ramadanare e stamattina si è scofanata l'intera dispensa piena di dolci."@it .
 <http://www.vocabolangelo.org/ramadanare> <http://purl.org/dc/terms/created> "2023-04-21" .
 <http://www.vocabolangelo.org/ramadanare> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
+<http://www.vocabolangelo.org/frudino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/frudino> <http://www.w3.org/2004/02/skos/core#prefLabel> "Frudino"@it .
+<http://www.vocabolangelo.org/frudino> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/fru • dì • no/"@it .
+<http://www.vocabolangelo.org/frudino> <http://www.w3.org/2004/02/skos/core#definition> "Spiedino di frutta."@it .
+<http://www.vocabolangelo.org/frudino> <http://www.w3.org/2004/02/skos/core#example> "Al matrimonio abbiamo mangiato degli ottimi frudini."@it .
+<http://www.vocabolangelo.org/frudino> <http://purl.org/dc/terms/created> "2023-04-22" .
+<http://www.vocabolangelo.org/frudino> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
+<http://www.vocabolangelo.org/graminchia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/graminchia> <http://www.w3.org/2004/02/skos/core#prefLabel> "Graminchia"@it .
+<http://www.vocabolangelo.org/graminchia> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/gra • mìn • chia/"@it .
+<http://www.vocabolangelo.org/graminchia> <http://www.w3.org/2004/02/skos/core#definition> "Qualsiasi genere di vegetazione invasiva che abbia raggiunto un'elevata crescita."@it .
+<http://www.vocabolangelo.org/graminchia> <http://www.w3.org/2004/02/skos/core#example> "La casa in campagna di Germano è stata sopraffatta da una gramincia, stava pensando di dare fuoco a tutto."@it .
+<http://www.vocabolangelo.org/graminchia> <http://purl.org/dc/terms/created> "2023-04-25" .
+<http://www.vocabolangelo.org/graminchia> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/bugture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/bugture> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bugture"@it .
+<http://www.vocabolangelo.org/bugture> <http://www.w3.org/2004/02/skos/core#definition> "Sinonimo di caratterrore."@it .
+<http://www.vocabolangelo.org/bugture> <http://www.w3.org/2004/02/skos/core#example> "Sì, l'auto-correzione del telefono che ti cambia la parola 'caffè' in 'caffèrillo' può sembrare un errore, ma in realtà è un'esclusiva funzionalità di quel sistema. È un bugture!"@it .
+<http://www.vocabolangelo.org/bugture> <http://purl.org/dc/terms/created> "2023-04-26" .
+<http://www.vocabolangelo.org/bugture> <http://rdfs.org/scot/ns#synonym> <http://www.vocabolangelo.org/caratterrore> .
+<http://www.vocabolangelo.org/bugture> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
+<http://www.vocabolangelo.org/caffedrillo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/caffedrillo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Caffedrillo"@it .
+<http://www.vocabolangelo.org/caffedrillo> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/caf • fe • drìl • lo/"@it .
+<http://www.vocabolangelo.org/caffedrillo> <http://www.w3.org/2004/02/skos/core#definition> "Un individuo affetto da un'ossessione nei confronti del caffè e che ne consuma in modo compulsivo."@it .
+<http://www.vocabolangelo.org/caffedrillo> <http://www.w3.org/2004/02/skos/core#example> "Riccardo è diventato un caffedrillo, spero vivamente si faccia aiutare da un esperto."@it .
+<http://www.vocabolangelo.org/caffedrillo> <http://purl.org/dc/terms/created> "2023-04-26" .
+<http://www.vocabolangelo.org/caffedrillo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
+<http://www.vocabolangelo.org/caffedrillo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
 <http://www.vocabolangelo.org/noonare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/fregola> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/tardivare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -4678,6 +4707,7 @@
 <http://www.vocabolangelo.org/fuore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/inzaccare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/rivoluzionacaso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/frudino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/anticorpolo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/svenimenzione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/coscista> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/cosciofono> .
@@ -4944,6 +4974,8 @@
 <http://www.vocabolangelo.org/vocabolangelizzare> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/dizionangelo> .
 <http://www.vocabolangelo.org/vocabolangelizzare> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboliere> .
 <http://www.vocabolangelo.org/patatopon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/caratterrore> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/bugture> .
+<http://www.vocabolangelo.org/caratterrore> <http://rdfs.org/scot/ns#synonym> <http://www.vocabolangelo.org/bugture> .
 <http://www.vocabolangelo.org/caratterrore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/avodandolo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/vocabolangelare> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/parolangelo> .
@@ -5162,6 +5194,7 @@
 <http://www.vocabolangelo.org/cappuccido> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/sprike> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/treggia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/caffedrillo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/controrabbia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/istruttevole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/stelleologo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -5415,6 +5448,7 @@
 <http://www.vocabolangelo.org/tronettiElisa> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/sanchiPiero> .
 <http://www.vocabolangelo.org/tronettiElisa> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/omiccioliRiccardo> .
 <http://www.vocabolangelo.org/tronettiElisa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://www.vocabolangelo.org/graminchia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/schiavosauro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/ravioletti> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/cadaveroico> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/cadaveroe> .
@@ -5883,6 +5917,9 @@
 <http://www.vocabolangelo.org/chatGPT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/skgo/modsci#ArtificialIntelligence> .
 <http://www.vocabolangelo.org/canediorlo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/gradiro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/bugture> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/caratterrore> .
+<http://www.vocabolangelo.org/bugture> <http://rdfs.org/scot/ns#synonym> <http://www.vocabolangelo.org/caratterrore> .
+<http://www.vocabolangelo.org/bugture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/telefomando> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/perischio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/strabicio> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/omnicio> .

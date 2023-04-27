@@ -1413,7 +1413,7 @@ vocang:caratterrore
     skos:prefLabel "Caratterrore"@it ;
     lexinfo:pronunciation "/ca • rat • ter • ro • re/"@it ;
     skos:definition "Un carattere che è in realtà un errore."@it ;
-    skos:example "Caratterrare."@it;
+    skos:example "Sì, l'auto-correzione del telefono che ti cambia la parola 'caffè' in 'caffèrillo' può sembrare un errore, ma in realtà è un'esclusiva funzionalità di quel sistema. È un caratterrore!"@it;
     dct:created "2022-11-03" ;
     dct:creator vocang:bragariAlexandru .
 
@@ -4987,3 +4987,39 @@ vocang:ramadanare
     skos:example "Selma ha finito di ramadanare e stamattina si è scofanata l'intera dispensa piena di dolci."@it ;
     dct:created "2023-04-21" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:frudino
+    a skos:Concept ;
+    skos:prefLabel "Frudino"@it ;
+    lexinfo:pronunciation "/fru • dì • no/"@it ;
+    skos:definition "Spiedino di frutta."@it ;
+    skos:example "Al matrimonio abbiamo mangiato degli ottimi frudini."@it ;
+    dct:created "2023-04-22" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:graminchia
+    a skos:Concept ;
+    skos:prefLabel "Graminchia"@it ;
+    lexinfo:pronunciation "/gra • mìn • chia/"@it ;
+    skos:definition "Qualsiasi genere di vegetazione invasiva che abbia raggiunto un'elevata crescita."@it ;
+    skos:example "La casa in campagna di Germano è stata sopraffatta da una gramincia, stava pensando di dare fuoco a tutto."@it ;
+    dct:created "2023-04-25" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:bugture
+    a skos:Concept ;
+    skos:prefLabel "Bugture"@it ;
+    skos:definition "Sinonimo di caratterrore."@it ;
+    skos:example "Sì, l'auto-correzione del telefono che ti cambia la parola 'caffè' in 'caffèrillo' può sembrare un errore, ma in realtà è un'esclusiva funzionalità di quel sistema. È un bugture!"@it ;
+    dct:created "2023-04-26" ;
+    scot:synonym vocang:caratterrore ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:caffedrillo
+    a skos:Concept ;
+    skos:prefLabel "Caffedrillo"@it ;
+    lexinfo:pronunciation "/caf • fe • drìl • lo/"@it ;
+    skos:definition "Un individuo affetto da un'ossessione nei confronti del caffè e che ne consuma in modo compulsivo."@it ;
+    skos:example "Riccardo è diventato un caffedrillo, spero vivamente si faccia aiutare da un esperto."@it ;
+    dct:created "2023-04-26" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:filasetaAngelo .
