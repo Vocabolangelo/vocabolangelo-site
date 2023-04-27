@@ -1,5 +1,14 @@
 # Changelog
 
+## [5.4.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v5.3.0...v5.4.0) (2023-04-27)
+
+
+### Features
+
+* **site:** add working search bar ([6e658c3](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/6e658c3fd914b6dd144c217444550b68b664048c))
+* **site:** add working search bar ([86407b1](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/86407b101b7cb79cba3bed8bbfa9e2de6e7d2b30))
+* **site:** add working search bar to vocabolieri page ([d2803bb](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/d2803bb1e6b645f21fc22c8f6e0e60281c65108a))
+
 ## [5.3.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v5.2.0...v5.3.0) (2023-04-27)
 
 
