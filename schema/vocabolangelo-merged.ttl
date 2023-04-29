@@ -4312,6 +4312,20 @@
 <http://www.vocabolangelo.org/caffedrillo> <http://purl.org/dc/terms/created> "2023-04-26" .
 <http://www.vocabolangelo.org/caffedrillo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
 <http://www.vocabolangelo.org/caffedrillo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
+<http://www.vocabolangelo.org/angeloco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/angeloco> <http://www.w3.org/2004/02/skos/core#prefLabel> "Angeloco"@it .
+<http://www.vocabolangelo.org/angeloco> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/an • ge • lò • co/"@it .
+<http://www.vocabolangelo.org/angeloco> <http://www.w3.org/2004/02/skos/core#definition> "Un qualsiasi tipo di gioco, che sia sotto forma di videogioco o di gioco da tavolo o di altra natura, che includa come elemento principale il Vocabolangelo."@it .
+<http://www.vocabolangelo.org/angeloco> <http://www.w3.org/2004/02/skos/core#example> "Ti sfido a questo angeloco, vediamo chi ne uscirà vincitore!"@it .
+<http://www.vocabolangelo.org/angeloco> <http://purl.org/dc/terms/created> "2023-04-28" .
+<http://www.vocabolangelo.org/angeloco> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
+<http://www.vocabolangelo.org/angeloco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/angeloco> <http://www.w3.org/2004/02/skos/core#prefLabel> "Frettolangelo"@it .
+<http://www.vocabolangelo.org/angeloco> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/fret • to • làn • ge • lo/"@it .
+<http://www.vocabolangelo.org/angeloco> <http://www.w3.org/2004/02/skos/core#definition> "Un Angeloco che consiste nel nominare più parole del vocabolangelo possibili entro un quantitativo limitato di tempo."@it .
+<http://www.vocabolangelo.org/angeloco> <http://www.w3.org/2004/02/skos/core#example> "Ho fatto un punteggio di 69 nel frettolangelo ieri!"@it .
+<http://www.vocabolangelo.org/angeloco> <http://purl.org/dc/terms/created> "2023-04-28" .
+<http://www.vocabolangelo.org/angeloco> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
 <http://www.vocabolangelo.org/noonare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/fregola> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/tardivare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -5932,6 +5946,7 @@
 <http://www.vocabolangelo.org/avvogatto> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/omnicio> .
 <http://www.vocabolangelo.org/avvogatto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/pegogo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/angeloco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/librorifero> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/unriaco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/grandino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
