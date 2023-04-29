@@ -5033,4 +5033,11 @@ vocang:angeloco
     dct:created "2023-04-28" ;
     dct:creator vocang:filasetaAngelo .
 
-
+vocang:angeloco
+    a skos:Concept ;
+    skos:prefLabel "Frettolangelo"@it ;
+    lexinfo:pronunciation "/fret • to • làn • ge • lo/"@it ;
+    skos:definition "Un Angeloco che consiste nel nominare più parole del vocabolangelo possibili entro un quantitativo limitato di tempo."@it ;
+    skos:example "Ho fatto un punteggio di 69 nel frettolangelo ieri!"@it ;
+    dct:created "2023-04-28" ;
+    dct:creator vocang:filasetaAngelo .
