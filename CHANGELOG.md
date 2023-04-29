@@ -1,5 +1,27 @@
 # Changelog
 
+## [5.5.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v5.4.0...v5.5.0) (2023-04-29)
+
+
+### Features
+
+* **concept:** add angeloco ([925e707](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/925e7077f611fa44d13c6f3577db317b1e7a423a))
+* **concept:** add frettolangelo ([d528d88](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/d528d880968a21601f214388d7db240d1743ce1e))
+* **image:** add images for games spotlight ([3028517](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/3028517ddff255edba58337b6fa70a4f4fbb08c5))
+* **site:** add Banner component ([398b27c](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/398b27c8a32babe671aa338b8423cc2eaf105033))
+* **site:** add Games component ([65a5d88](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/65a5d88f8ed7562a16725a91b86f968852fcb44b))
+* **site:** add Games to router and header ([7a1c224](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/7a1c224b6b7550d55b8fb0e6269ce9512f209814))
+* **site:** add Spotlight component ([fdf0820](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/fdf082062403985ac967e37789e4af5a9ff06720))
+* **site:** add two spotlight to present games ([514d146](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/514d14671d38f366e4275d02f22a18071628b98b))
+* **site:** add working frettolangelo game ([e4b0e60](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/e4b0e60f504bb180c99d0a9da4e83f48c06b6c15))
+* **site:** format fretollangelo page ([bddd272](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/bddd2722f0db555735c177c84578ea25cbef5b35))
+* **site:** migrate Introduction to Banner component ([dd81c37](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/dd81c377ad9e475972655107f2eeb03bf7f369d8))
+
+
+### Bug Fixes
+
+* **site:** Frettolangelo Spotlight now redirect correctly ([8b52715](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/8b52715c4ad9642ada64117d2ccb8bfeb8471a84))
+
 ## [5.4.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v5.3.0...v5.4.0) (2023-04-27)
 
 
