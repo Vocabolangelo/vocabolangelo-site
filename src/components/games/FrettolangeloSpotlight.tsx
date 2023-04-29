@@ -17,7 +17,7 @@ export default function FrettolangeloSpotlight() {
             metterà alla prova la vostra memoria e la vostra capacità di stare sotto pressione.
         </p>
         <div className="actions stacked">
-            <a href={`${GAMES_ROUTE}/frettolangelo`} className="button">Gioca</a>
+            <Link to={`${GAMES_ROUTE}/frettolangelo`} className="button"> Gioca </Link>
         </div>
     </Spotlight>
 }
