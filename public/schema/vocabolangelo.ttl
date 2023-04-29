@@ -5023,3 +5023,14 @@ vocang:caffedrillo
     skos:example "Riccardo è diventato un caffedrillo, spero vivamente si faccia aiutare da un esperto."@it ;
     dct:created "2023-04-26" ;
     dct:creator vocang:omiccioliRiccardo, vocang:filasetaAngelo .
+
+vocang:angeloco
+    a skos:Concept ;
+    skos:prefLabel "Angeloco"@it ;
+    lexinfo:pronunciation "/an • ge • lò • co/"@it ;
+    skos:definition "Un qualsiasi tipo di gioco, che sia sotto forma di videogioco o di gioco da tavolo o di altra natura, che includa come elemento principale il Vocabolangelo."@it ;
+    skos:example "Ti sfido a questo angeloco, vediamo chi ne uscirà vincitore!"@it ;
+    dct:created "2023-04-28" ;
+    dct:creator vocang:filasetaAngelo .
+
+
