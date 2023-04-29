@@ -52,26 +52,30 @@ export default function Frettolangelo() {
 
     return <>
         <Header/>
-        <div>
-            <h1>{timeRemaining} secondi rimanenti</h1>
-            <p>Il timer partirà dopo aver inserito la prima parolangelo corretta.</p>
-            <form>
-                <label>
-                    Digita una parolangelo:
-                    <input type="text" value={typedWord} onChange={handleInputChange} disabled={isInputDisabled}/>
-                </label>
-            </form>
-            {timeRemaining === 0 && <h2>Punteggio finale: {guessedWords.length}</h2>}
-            {guessedWords.length > 0 && <>
-                <h5>Parolangelo indovinate:</h5>
-                <List
-                    isOrdered={false}
-                    list={guessedWords}
-                    elementKey={(c) => c}
-                    elementContent={(c) => <p> {c} </p>}
-                />
-            </>}
-        </div>
+        <section className="wrapper style1 align-left">
+            <div className="inner">
+                <div>
+                    <h1>{timeRemaining} secondi rimanenti</h1>
+                    <p>Il timer partirà dopo aver inserito la prima parolangelo corretta.</p>
+                    <form>
+                        <label>
+                            Digita una parolangelo:
+                            <input type="text" value={typedWord} onChange={handleInputChange} disabled={isInputDisabled}/>
+                        </label>
+                    </form>
+                    {timeRemaining === 0 && <h2>Punteggio finale: {guessedWords.length}</h2>}
+                    {guessedWords.length > 0 && <>
+                        <h5>Parolangelo indovinate:</h5>
+                        <List
+                            isOrdered={false}
+                            list={guessedWords}
+                            elementKey={(c) => c}
+                            elementContent={(c) => <p> {c} </p>}
+                        />
+                    </>}
+                </div>
+            </div>
+        </section>
         <Footer/>
     </>
 }
