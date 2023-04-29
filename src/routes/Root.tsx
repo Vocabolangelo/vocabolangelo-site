@@ -1,4 +1,4 @@
-import Introduction from '../components/root/Introduction'
+import MainBanner from '../components/root/MainBanner'
 import Disclaimer from '../components/root/Disclaimer'
 import OriginSpotlight from '../components/root/OriginSpotlight'
 import OntologySpotlight from '../components/root/OntologySpotlight'
@@ -10,7 +10,7 @@ export default function Root() {
         <>
             <div id="wrapper" className="divided">
                 <Header/>
-                <Introduction/>
+                <MainBanner/>
                 <OriginSpotlight/>
                 <OntologySpotlight/>
                 <Footer/>
