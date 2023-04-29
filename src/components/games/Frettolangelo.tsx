@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import {Concept} from '../../rdf/types/Concept'
 import {List} from '../common/List'
-import DefaultLayout from '../common/DefaultLayout'
 import Header from '../common/Header'
 import Footer from '../common/Footer'
 
