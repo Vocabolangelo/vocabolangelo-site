@@ -8,6 +8,8 @@ import {PersonLayout} from '../routes/PersonLayout'
 import {Page404} from '../Page404'
 import Dashboard, {DASHBOARD_ROUTE} from '../routes/Dashboard'
 import LoadingScreen from '../components/common/LoadingScreen'
+import Frettolangelo from '../components/games/Frettolangelo'
+import Games, {GAMES_ROUTE} from '../routes/Games'
 
 export const defaultRouter = createBrowserRouter([
     {
@@ -33,6 +35,14 @@ export const defaultRouter = createBrowserRouter([
     {
         path: DASHBOARD_ROUTE,
         element: <Dashboard />
+    },
+    {
+        path: GAMES_ROUTE,
+        element: <Games/>
+    },
+    {
+        path: `${GAMES_ROUTE}/frettolangelo`,
+        element: <Frettolangelo/>
     },
     {
         path: '*',

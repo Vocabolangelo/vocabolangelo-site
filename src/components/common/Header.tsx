@@ -1,9 +1,10 @@
 import {Link} from 'react-router-dom'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import { faHome, faBook, faFeather, faBarChart } from '@fortawesome/free-solid-svg-icons'
+import { faHome, faBook, faFeather, faBarChart, faGamepad } from '@fortawesome/free-solid-svg-icons'
 import {DASHBOARD_ROUTE} from '../../routes/Dashboard'
 import {VOCABOLIERI_ROUTE} from '../../routes/Vocabolieri'
 import {PAROLANGELO_ROUTE} from '../../routes/Parolangelo'
+import {GAMES_ROUTE} from '../../routes/Games'
 export default function Header() {
     return <header style={{backgroundColor: 'black'}} className="is-preload">
         <div id="wrapper" className="divided">
@@ -16,7 +17,6 @@ export default function Header() {
                         <div className="content">
                             <ul className="actions">
                                 <li>
-
                                     <Link to={'/'} className="button primary">
                                         <FontAwesomeIcon icon={faHome} color="white" size="lg"/>  Home
                                     </Link>
@@ -34,6 +34,11 @@ export default function Header() {
                                 <li>
                                     <Link to={DASHBOARD_ROUTE} className="button primary">
                                         <FontAwesomeIcon icon={faBarChart} color="white" size="lg"/>  Dashboard
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to={GAMES_ROUTE} className="button primary">
+                                        <FontAwesomeIcon icon={faGamepad} color="white" size="lg"/>  Angelochi
                                     </Link>
                                 </li>
                             </ul>
