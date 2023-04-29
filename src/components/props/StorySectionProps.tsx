@@ -1,9 +1,9 @@
 import React from 'react'
 
 /**
- * Props of a Spotlight
+ * Props of a Section of the STORY Layout.
  */
-export default interface SpotlightProps {
+export default interface StorySectionProps {
     style: number
     optionalModifiers?: string[]
     imageUrl: string
