@@ -1,6 +1,6 @@
 import Introduction from '../components/root/Introduction'
 import Disclaimer from '../components/root/Disclaimer'
-import Milestone from '../components/root/Milestone'
+import Origins from '../components/root/Origins'
 import Ontology from '../components/root/Ontology'
 import Header from '../components/common/Header'
 import Footer from '../components/common/Footer'
@@ -11,7 +11,7 @@ export default function Root() {
             <div id="wrapper" className="divided">
                 <Header/>
                 <Introduction/>
-                <Milestone/>
+                <Origins/>
                 <Ontology/>
                 <Footer/>
             </div>

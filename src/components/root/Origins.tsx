@@ -1,7 +1,7 @@
 import {Link} from 'react-router-dom'
 import {PAROLANGELO_ROUTE} from '../../routes/Parolangelo'
 
-export default function Milestone() {
+export default function Origins() {
     return (
         <>
             <section className="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
