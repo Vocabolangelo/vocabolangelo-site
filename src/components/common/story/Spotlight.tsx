@@ -4,7 +4,7 @@
  */
 export default function Spotlight(props: SpotlightProps) {
     const {style, optionalModifiers, content, imageUrl, imageAlt} = props
-    return <section className={`spotlight style${style} ${optionalModifiers?.map(m => m)}`}>
+    return <section className={`spotlight style${style} ${optionalModifiers?.map(m => `${m} `)}`}>
         <div className="content">
             {content}
         </div>

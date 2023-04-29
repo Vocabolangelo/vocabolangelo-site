@@ -1,7 +1,7 @@
 import Introduction from '../components/root/Introduction'
 import Disclaimer from '../components/root/Disclaimer'
-import Origins from '../components/root/Origins'
-import Ontology from '../components/root/Ontology'
+import OriginSpotlight from '../components/root/OriginSpotlight'
+import OntologySpotlight from '../components/root/OntologySpotlight'
 import Header from '../components/common/Header'
 import Footer from '../components/common/Footer'
 
@@ -11,8 +11,8 @@ export default function Root() {
             <div id="wrapper" className="divided">
                 <Header/>
                 <Introduction/>
-                <Origins/>
-                <Ontology/>
+                <OriginSpotlight/>
+                <OntologySpotlight/>
                 <Footer/>
             </div>
             <Disclaimer/>
