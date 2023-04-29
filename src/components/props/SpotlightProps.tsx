@@ -1,10 +1,12 @@
+import React from 'react'
+
 /**
  * Props of a Spotlight
  */
-interface SpotlightProps {
+export default interface SpotlightProps {
     style: number
     optionalModifiers?: string[]
-    content: JSX.Element
     imageUrl: string
     imageAlt: string
+    children?: React.ReactNode;
 }
