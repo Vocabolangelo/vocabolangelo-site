@@ -8,9 +8,9 @@ export default function Ontology() {
                         Il Vocabolangelo è un&apos;<strong>ontologia OWL</strong>.<br/>
                         Le parolangelo e i vocabolieri sono individui utilizzabili in qualsiasi applicazione per il Web Semantico.<br/>
                     </p>
-                    <ul className="actions stacked">
-                        <li><a href="/schema/vocabolangelo.ttl" className="button">Link all&apos;Ontologia</a></li>
-                    </ul>
+                    <div className="actions stacked">
+                        <a href="/schema/vocabolangelo.ttl" className="button">Link all&apos;Ontologia</a>
+                    </div>
                 </div>
                 <div className="image">
                     <img src="/images/connection.jpg" alt="Connessioni"/>
