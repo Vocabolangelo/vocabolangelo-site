@@ -23,8 +23,9 @@ export default function Parolangelo() {
     }
 
     function searchFilterStrategy(concept: Concept, str: string): boolean {
-        return concept.prefLabel.toLowerCase().includes(str) ||
-            concept.definitions.find(d => d.toLowerCase().includes(str)) !== undefined
+        const strLowerCase = str.toLowerCase()
+        return concept.prefLabel.toLowerCase().includes(strLowerCase) ||
+            concept.definitions.find(d => d.toLowerCase().includes(strLowerCase)) !== undefined
     }
 
     return <>
