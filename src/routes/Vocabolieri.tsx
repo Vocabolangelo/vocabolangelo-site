@@ -1,9 +1,10 @@
 import React, {useEffect, useState} from 'react'
 import {Person} from '../rdf/types/Person'
 import {vocang} from '../rdf/prefixes'
-import DefaultLayout from '../components/common/DefaultLayout'
+import Wrapper from '../components/common/story/Wrapper'
 import {AlphabeticList} from '../components/common/AlphabeticList'
 import SearchBar from '../components/common/SearchBar'
+import InnerWrapper from '../components/common/story/InnerWrapper'
 
 export const VOCABOLIERI_ROUTE = '/vocabolieri'
 
@@ -27,24 +28,25 @@ export default function Vocabolieri(){
         return person.fullName().toLowerCase().includes(str.toLowerCase())
     }
 
-    return <DefaultLayout
-        title={'Vocabolieri'}
-        subtitle={
-            'Ogni Vocaboliere ha inventato almeno una Parolangelo in tutto l\'arco della sua vita.' +
-            'Non è ancora stato dimostrato che inventare parolangelo allunghi la vita ma ci stiamo lavorando.'
-        }
-        content={<>
-            <SearchBar onSearch={(search) => setSearchValue(search)}/>
-            <AlphabeticList
-                list={people}
-                elementKey={person => person.relativeUri(vocang)}
-                elementContent={person => <p>{person.lastName} {person.firstName}</p>}
-                elementLink={person => '/vocabolieri/' + person.relativeUri(vocang)}
-                searchString={searchValue}
-                searchFilterStrategy={searchFilterStrategy}
-                alphabeticStrategy={alphabeticStrategy}
-            />
-        </>
-        }
-    />
+    return <Wrapper>
+        <InnerWrapper style={1}>
+            <header>
+                <h1>Vocabolieri</h1>
+                <p> Ogni Vocaboliere ha inventato almeno una Parolangelo in tutto l&apos;arco della sua vita. </p>
+                <p> Non è ancora stato dimostrato che inventare parolangelo allunghi la vita ma ci stiamo lavorando.</p>
+                <SearchBar onSearch={(search) => setSearchValue(search)}/>
+            </header>
+            <div className="index align-left">
+                <AlphabeticList
+                    list={people}
+                    elementKey={person => person.relativeUri(vocang)}
+                    elementContent={person => <p>{person.lastName} {person.firstName}</p>}
+                    elementLink={person => '/vocabolieri/' + person.relativeUri(vocang)}
+                    searchString={searchValue}
+                    searchFilterStrategy={searchFilterStrategy}
+                    alphabeticStrategy={alphabeticStrategy}
+                />
+            </div>
+        </InnerWrapper>
+    </Wrapper>
 }

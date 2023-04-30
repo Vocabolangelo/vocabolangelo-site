@@ -1,11 +1,10 @@
-import ChildrenProps from './ChildrenProps'
+import StoryProps from './StoryProps'
 
 /**
  * Props of a Section of the STORY Layout.
  */
-export default interface StorySectionProps extends ChildrenProps {
+export default interface StorySectionProps extends StoryProps {
     style: number
-    optionalModifiers?: string[]
-    imageUrl: string
-    imageAlt: string
+    imageUrl?: string
+    imageAlt?: string
 }
