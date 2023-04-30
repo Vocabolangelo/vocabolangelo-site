@@ -1,14 +1,11 @@
-import Header from '../components/common/Header'
-import Footer from '../components/common/Footer'
 import FrettolangeloSpotlight from '../components/games/FrettolangeloSpotlight'
 import GamesSpotlight from '../components/games/GamesSpotlight'
+import {Main} from '../components/common/Main'
 
 export const GAMES_ROUTE = '/angelochi'
 export default function Games() {
-    return <div id="wrapper" className="divided">
-        <Header/>
+    return <Main>
         <GamesSpotlight/>
         <FrettolangeloSpotlight/>
-        <Footer/>
-    </div>
+    </Main>
 }

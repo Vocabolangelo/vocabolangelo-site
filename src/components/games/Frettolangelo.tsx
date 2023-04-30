@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import {Concept} from '../../rdf/types/Concept'
 import {List} from '../common/List'
-import Header from '../common/Header'
-import Footer from '../common/Footer'
+import {Main} from '../common/Main'
 
 /**
  * A concept guessing game with a timer and a final score.
@@ -50,8 +49,7 @@ export default function Frettolangelo() {
         }
     }
 
-    return <>
-        <Header/>
+    return <Main>
         <section className="wrapper style1 align-left">
             <div className="inner">
                 <div>
@@ -76,6 +74,5 @@ export default function Frettolangelo() {
                 </div>
             </div>
         </section>
-        <Footer/>
-    </>
+    </Main>
 }
