@@ -24,7 +24,7 @@ export default function Vocabolieri(){
     }
 
     function searchFilterStrategy(person: Person, str: string): boolean {
-        return person.fullName().toLowerCase().includes(str)
+        return person.fullName().toLowerCase().includes(str.toLowerCase())
     }
 
     return <DefaultLayout
