@@ -4,10 +4,11 @@ import {useParams} from 'react-router-dom'
 import {Concept} from '../rdf/types/Concept'
 import {RDFStore} from '../rdf/RDFStore'
 import {vocang} from '../rdf/prefixes'
-import DefaultLayout from '../components/common/DefaultLayout'
+import Wrapper from '../components/common/story/Wrapper'
 import {List} from '../components/common/List'
 import {Person} from '../rdf/types/Person'
 import ConditionalComponent from '../components/common/conditional/ConditionalComponent'
+import InnerWrapper from '../components/common/story/InnerWrapper'
 
 export function ConceptLayout() {
 
@@ -24,27 +25,25 @@ export function ConceptLayout() {
     }, [params.conceptId])
 
     if(concept !== undefined) {
-        return (
-            <>
-                <DefaultLayout
-                    title={concept.prefLabel}
-                    subtitle={concept.pronunciation}
-                    content = {
-                        <>
-                            <Definitions concept={concept}/>
-                            <Examples concept={concept}/>
-                            <Images concept={concept}/>
-                            <Videos concept={concept}/>
-                            <Synonyms concept={concept}/>
-                            <Related concept={concept}/>
-                            <Note concept={concept}/>
-                            <Created concept={concept}/>
-                            <Creators concept={concept}/>
-                        </>
-                    }
-                />
-            </>
-        )
+        return <Wrapper optionalModifiers={['divided']}>
+            <InnerWrapper style={1}>
+                <header>
+                    <h1>{concept.prefLabel}</h1>
+                    <p>{concept.pronunciation}</p>
+                </header>
+                <div className="index align-left">
+                    <Definitions concept={concept}/>
+                    <Examples concept={concept}/>
+                    <Images concept={concept}/>
+                    <Videos concept={concept}/>
+                    <Synonyms concept={concept}/>
+                    <Related concept={concept}/>
+                    <Note concept={concept}/>
+                    <Created concept={concept}/>
+                    <Creators concept={concept}/>
+                </div>
+            </InnerWrapper>
+        </Wrapper>
     } else {
         return <></>
     }
