@@ -148,7 +148,7 @@ export class Concept extends RDFNamedNode {
 
     public static async all(): Promise<Concept[]>{
         const nodes = await RDFNamedNode.ofType(skos.namespace('Concept'))
-        return nodes.map((node) => new Concept(node))
+        return nodes.map((node) => new Concept(node.node))
     }
 
 }

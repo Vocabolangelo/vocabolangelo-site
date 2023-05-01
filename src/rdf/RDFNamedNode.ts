@@ -16,9 +16,14 @@ export class RDFNamedNode {
         return this.node.RelativeUri(prefix)
     }
 
-    static ofType(namedNode: Quad_Object): Promise<NamedNode[]> {
-        return RDFStore.safeCall<NamedNode[]>((store) => {
-            return store.each(undefined, rdf.namespace('type'), namedNode) as NamedNode[]
+    /**
+     * Retrieve all the Nodes of a certain type.
+     * @param namedNode
+     */
+    static ofType(namedNode: Quad_Object): Promise<RDFNamedNode[]> {
+        return RDFStore.safeCall<RDFNamedNode[]>((store) => {
+            return store.each(undefined, rdf.namespace('type'), namedNode)
+                .map(node => new RDFNamedNode(node as NamedNode))
         })
     }
 }
