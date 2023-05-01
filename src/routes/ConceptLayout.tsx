@@ -184,7 +184,7 @@ function OtherConcept(props: OtherConceptProps){
 
 function Synonyms(props: ConceptSubLayoutProps){
     return <OtherConcept
-        title={'Sinonimi'}
+        title={'Parolangelo Sinonimi'}
         condition={() => props.concept.synonyms().length > 0}
         list={props.concept.synonyms()}
     />
@@ -192,7 +192,7 @@ function Synonyms(props: ConceptSubLayoutProps){
 
 function Related(props: ConceptSubLayoutProps){
     return <OtherConcept
-        title={'Correllate'}
+        title={'Parolangelo Correllate'}
         condition={() => props.concept.related()?.length > 0}
         list={props.concept.related()}
     />

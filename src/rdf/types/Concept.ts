@@ -2,7 +2,7 @@ import {RDFNamedNode} from '../RDFNamedNode'
 import {NamedNode} from 'rdflib'
 import {Quad_Subject} from 'rdflib/lib/tf-types'
 import {RDFStore} from '../RDFStore'
-import {dct, foaf, lexinfo, schema, skos} from '../prefixes'
+import {dct, foaf, lexinfo, schema, scot, skos} from '../prefixes'
 import '../extensions/storeExtensions'
 import {Person} from './Person'
 import {requireNotNull} from '../../util/requireNotNull'
@@ -122,7 +122,7 @@ export class Concept extends RDFNamedNode {
         const subj = this.node
         return function() : Concept[] {
             return RDFStore.store.MapEach(
-                new RDFTriple(subj, schema.namespace('synonym'), undefined),
+                new RDFTriple(subj, scot.namespace('synonym'), undefined),
                 (node) => new Concept(node)
             )
         }
@@ -132,7 +132,7 @@ export class Concept extends RDFNamedNode {
         const subj = this.node
         return function() : Concept[] {
             return RDFStore.store.MapEach(
-                new RDFTriple(subj, schema.namespace('synonym'), undefined),
+                new RDFTriple(subj, skos.namespace('related'), undefined),
                 (node) => new Concept(node)
             )
         }
