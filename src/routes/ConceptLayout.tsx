@@ -148,7 +148,7 @@ function Videos(props: ConceptSubLayoutProps){
 
 function Created(props: ConceptSubLayoutProps){
     return <ConditionalComponent
-        condition={() => props.concept.created !== undefined}
+        condition={() => props.concept.created !== null}
         component={
             <NamedSection
                 title={'Data di creazione'}
