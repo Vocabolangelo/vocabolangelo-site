@@ -1,5 +1,14 @@
 # Changelog
 
+## [5.5.1](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v5.5.0...v5.5.1) (2023-05-01)
+
+
+### Bug Fixes
+
+* **site:** add build config to generate 404 equal to index ([11dce95](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/11dce9595e8b117045202b01cf54bf11e9409110))
+* **site:** fix search bar ([3e5d859](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/3e5d859e5fabf774ad7bc3a945c227eea5ed49ea))
+* **site:** fix vocabolieri search bar ([6d5f4f1](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/6d5f4f1d005cd1bfd9ba635b0b0490dcdd6e9363))
+
 ## [5.5.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v5.4.0...v5.5.0) (2023-04-29)
 
 
