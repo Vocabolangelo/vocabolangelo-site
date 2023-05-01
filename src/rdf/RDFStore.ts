@@ -9,6 +9,10 @@ const check_time = 100
 
 const INFERRED_TTL_LOCATION = '/schema/vocabolangelo-merged.ttl'
 const TTL_LOCATION = '/schema/vocabolangelo.ttl'
+
+/**
+ * Singleton class used to access the single Store instance of the App.
+ */
 export class RDFStore {
 
     /**
@@ -39,6 +43,9 @@ export class RDFStore {
             .catch(() => failCallback())
     }
 
+    /**
+     * @returns {Store} the Store instance.
+     */
     public static get store(): Store {
         return _rdfStore
     }
@@ -55,6 +62,10 @@ export class RDFStore {
         }
     }
 
+    /**
+     * Execute an operation on the Store, but only after assuring that data are loaded.
+     * @param fun a handler that is launched on the Store asynchronously.
+     */
     static async safeCall<T>(fun: (rdfStore: Store) => T): Promise<T> {
         const result = await RDFStore.checkStore()
         if(result) {
