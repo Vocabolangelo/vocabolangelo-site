@@ -54,24 +54,21 @@ function Friends(props: PersonSubLayoutProps){
         (a, b) => a.lastName.localeCompare(b.lastName)
     )
     return <ConditionalComponent condition={() => friends?.length > 0}>
-        <NamedSection
-            title={'Amici'}
-            content={
-                <List
-                    isOrdered={false}
-                    list={friends}
-                    elementKey={p => p.node.RelativeUri(vocang)}
-                    elementContent={p => {
-                        if (p.node.uri !== props.person.node.uri ) {
-                            return <p>{p.fullName(true)}</p>
-                        } else {
-                            return <></>
-                        }
-                    }}
-                    elementLink={p =>`${VOCABOLIERI_ROUTE}/${p.node.RelativeUri(vocang)}`}
-                />
-            }
-        />
+        <NamedSection title={'Amici'}>
+            <List
+                isOrdered={false}
+                list={friends}
+                elementKey={p => p.node.RelativeUri(vocang)}
+                elementContent={p => {
+                    if (p.node.uri !== props.person.node.uri ) {
+                        return <p>{p.fullName(true)}</p>
+                    } else {
+                        return <></>
+                    }
+                }}
+                elementLink={p =>`${VOCABOLIERI_ROUTE}/${p.node.RelativeUri(vocang)}`}
+            />
+        </NamedSection>
     </ConditionalComponent>
 }
 function Partners(props: PersonSubLayoutProps){
@@ -79,18 +76,15 @@ function Partners(props: PersonSubLayoutProps){
         (a, b) => a.lastName.localeCompare(b.lastName)
     )
     return <ConditionalComponent condition={() => partners?.length > 0}>
-        <NamedSection
-            title={'Partner'}
-            content={
-                <List
-                    isOrdered={false}
-                    list={partners}
-                    elementKey={p => p.node.RelativeUri(vocang)}
-                    elementContent={p => <p>{p.fullName()}</p>}
-                    elementLink={p =>`${VOCABOLIERI_ROUTE}/${p.node.RelativeUri(vocang)}`}
-                />
-            }
-        />
+        <NamedSection title={'Partner'}>
+            <List
+                isOrdered={false}
+                list={partners}
+                elementKey={p => p.node.RelativeUri(vocang)}
+                elementContent={p => <p>{p.fullName()}</p>}
+                elementLink={p =>`${VOCABOLIERI_ROUTE}/${p.node.RelativeUri(vocang)}`}
+            />
+        </NamedSection>
     </ConditionalComponent>
 }
 
@@ -99,18 +93,15 @@ function ConceptsCreated(props: PersonSubLayoutProps){
         (a, b) => a.prefLabel.localeCompare(b.prefLabel)
     )
     return <ConditionalComponent condition={() => concepts?.length > 0}>
-        <NamedSection
-            title={'Parolangelo create'}
-            content={
-                <List
-                    isOrdered={false}
-                    list={concepts}
-                    elementKey={c => c.node.RelativeUri(vocang)}
-                    elementContent={c => <p>{c.prefLabel}</p>}
-                    elementLink={c =>`${PAROLANGELO_ROUTE}/${c.node.RelativeUri(vocang)}`}
-                />
-            }
-        />
+        <NamedSection title={'Parolangelo create'}>
+            <List
+                isOrdered={false}
+                list={concepts}
+                elementKey={c => c.node.RelativeUri(vocang)}
+                elementContent={c => <p>{c.prefLabel}</p>}
+                elementLink={c =>`${PAROLANGELO_ROUTE}/${c.node.RelativeUri(vocang)}`}
+            />
+        </NamedSection>
     </ConditionalComponent>
 }
 
@@ -118,35 +109,27 @@ function Contribution(props: PersonSubLayoutProps){
     const concepts = props.person.creatorOf()()
     const soloConceptsCount = concepts.filter(c => c.personCreators().length === 1).length
     return <ConditionalComponent condition={() => concepts?.length > 0}>
-        <NamedSection
-            title={'Contributo'}
-            content={
-                <>
-                    <p>Da solo ho inventato: <strong>{soloConceptsCount}</strong> parolangelo.</p>
-                    <p>Insieme ad altri ho inventato:
-                        <strong>{concepts.length - soloConceptsCount}</strong> parolangelo.
-                    </p>
-                    <p>In totale ho inventato: <strong>{concepts.length}</strong> parolangelo.</p>
-                </>
-            }
-        />
+        <NamedSection title={'Contributo'}>
+            <p>Da solo ho inventato: <strong>{soloConceptsCount}</strong> parolangelo.</p>
+            <p>Insieme ad altri ho inventato:
+                <strong>{concepts.length - soloConceptsCount}</strong> parolangelo.
+            </p>
+            <p>In totale ho inventato: <strong>{concepts.length}</strong> parolangelo.</p>
+        </NamedSection>
     </ConditionalComponent>
 }
 
 function Images(props: PersonSubLayoutProps) {
     const images = props.person.images
     return <ConditionalComponent condition={() => images?.length > 0}>
-        <NamedSection
-            title={'Foto'}
-            content={
-                <List
-                    listStyle={'none'}
-                    isOrdered={false}
-                    list={images}
-                    elementKey={i => i}
-                    elementContent={i => <img style={{borderRadius:'50%', maxWidth:'25vw'}} src={i} alt={ props.person.fullName()}/>}
-                />
-            }
-        />
+        <NamedSection title={'Foto'}>
+            <List
+                listStyle={'none'}
+                isOrdered={false}
+                list={images}
+                elementKey={i => i}
+                elementContent={i => <img style={{borderRadius:'50%', maxWidth:'25vw'}} src={i} alt={ props.person.fullName()}/>}
+            />
+        </NamedSection>
     </ConditionalComponent>
 }

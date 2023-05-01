@@ -1,19 +1,15 @@
-interface NamedSectionProps{
+import ChildrenProps from '../props/ChildrenProps'
+
+interface NamedSectionProps extends ChildrenProps {
     title: string
-    content: JSX.Element
 }
 export function NamedSection(props: NamedSectionProps) {
-    const {title, content} = props
-    return (
-        <>
-            <section>
-                <header>
-                    <h3>{title}</h3>
-                </header>
-                <div className="content">
-                    {content}
-                </div>
-            </section>
-        </>
-    )
+    return <section>
+        <header>
+            <h3>{props.title}</h3>
+        </header>
+        <div className="content">
+            {props.children}
+        </div>
+    </section>
 }
