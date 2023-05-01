@@ -2,13 +2,14 @@ import React, {useEffect, useState} from 'react'
 import {useParams} from 'react-router-dom'
 import {RDFStore} from '../rdf/RDFStore'
 import {vocang} from '../rdf/prefixes'
-import DefaultLayout from '../components/common/DefaultLayout'
+import Wrapper from '../components/common/story/Wrapper'
 import {Person} from '../rdf/types/Person'
 import ConditionalComponent from '../components/common/conditional/ConditionalComponent'
 import {NamedSection} from '../components/common/NamedSection'
 import {List} from '../components/common/List'
 import {PAROLANGELO_ROUTE} from './Parolangelo'
 import {VOCABOLIERI_ROUTE} from './Vocabolieri'
+import InnerWrapper from '../components/common/story/InnerWrapper'
 
 export function PersonLayout() {
 
@@ -28,23 +29,21 @@ export function PersonLayout() {
         return <ConditionalComponent
             condition={() => person !== undefined}
             component={
-                <DefaultLayout
-                    title={person.fullName()}
-                    subtitle={person.nick}
-                    content = {
-                        <>
-                            {person.images !== null ?
-                                <Images person={person}/>
-                                :
-                                <></>
-                            }
+                <Wrapper>
+                    <InnerWrapper style={1}>
+                        <header>
+                            <h1> {person.fullName()} </h1>
+                            {person.nick !== undefined && <p>{person.nick}</p>}
+                        </header>
+                        <div className="index align-left">
+                            <Images person={person}/>
                             <Contribution person={person}/>
                             <Friends person={person}/>
                             <Partners person={person}/>
                             <ConceptsCreated person={person}/>
-                        </>
-                    }
-                />
+                        </div>
+                    </InnerWrapper>
+                </Wrapper>
             }
         />
     } else {
