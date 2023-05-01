@@ -68,18 +68,16 @@ function Definitions(props: ConceptSubLayoutProps){
 
 function Examples(props: ConceptSubLayoutProps){
     let exampleKeyCount = 0
-    return <ConditionalComponent
-        condition={() => props.concept.examples?.length > 0} component={
-            <NamedSection
-                title={'Esempi'}
-                content={<List
-                    isOrdered={false}
-                    list={props.concept.examples}
-                    elementKey={() =>  (exampleKeyCount += 1).toString()}
-                    elementContent={ex => <p>{ex}</p>}
-                />}
-            />
-        }/>
+    return <ConditionalComponent condition={() => props.concept.examples?.length > 0}>
+        <NamedSection title={'Esempi'}
+            content={<List
+                isOrdered={false}
+                list={props.concept.examples}
+                elementKey={() =>  (exampleKeyCount += 1).toString()}
+                elementContent={ex => <p>{ex}</p>}
+            />}
+        />
+    </ConditionalComponent>
 }
 function Creators(props: ConceptSubLayoutProps){
     const creatorId = (creator: Person) => creator.node.RelativeUri(vocang)
@@ -97,65 +95,56 @@ function Creators(props: ConceptSubLayoutProps){
 
 function Images(props: ConceptSubLayoutProps){
     let imageKetCount = 0
-    return <ConditionalComponent
-        condition={() => props.concept.images?.length > 0}
-        component={
-            <NamedSection
-                title={'Immagini'}
-                content={<List
-                    listStyle={'none'}
-                    isOrdered={false}
-                    list={props.concept.images}
-                    elementKey={() =>  (imageKetCount += 1).toString()}
-                    elementContent={image =>
-                        <span className="image left">
-                            <img src={image} alt={props.concept.prefLabel}/>
-                        </span>
-                    }
-                />}
-            />
-        }
-    />
+    return <ConditionalComponent condition={() => props.concept.images?.length > 0}>
+        <NamedSection
+            title={'Immagini'}
+            content={<List
+                listStyle={'none'}
+                isOrdered={false}
+                list={props.concept.images}
+                elementKey={() =>  (imageKetCount += 1).toString()}
+                elementContent={image =>
+                    <span className="image left">
+                        <img src={image} alt={props.concept.prefLabel}/>
+                    </span>
+                }
+            />}
+        />
+    </ConditionalComponent>
 }
 
 function Videos(props: ConceptSubLayoutProps){
     let videosKeyCount = 0
-    return <ConditionalComponent
-        condition={() => props.concept.videos?.length > 0}
-        component={
-            <NamedSection
-                title={'Video'}
-                content={
-                    <List
-                        listStyle={'none'}
-                        isOrdered={false}
-                        list={props.concept.videos}
-                        elementKey={() =>  (videosKeyCount += 1).toString()}
-                        elementContent={video =>
-                            <span className="image left">
-                                <video width="50%" height="auto" autoPlay muted loop>
-                                    <source src={video} type="video/mp4"/>
-                                    Riproduzione del video non supportata dal tuo browser.
-                                </video>
-                            </span>
-                        }
-                    />
-                }
-            />
-        }
-    />
+    return <ConditionalComponent condition={() => props.concept.videos?.length > 0}>
+        <NamedSection
+            title={'Video'}
+            content={
+                <List
+                    listStyle={'none'}
+                    isOrdered={false}
+                    list={props.concept.videos}
+                    elementKey={() =>  (videosKeyCount += 1).toString()}
+                    elementContent={video =>
+                        <span className="image left">
+                            <video width="50%" height="auto" autoPlay muted loop>
+                                <source src={video} type="video/mp4"/>
+                                Riproduzione del video non supportata dal tuo browser.
+                            </video>
+                        </span>
+                    }
+                />
+            }
+        />
+    </ConditionalComponent>
 }
 
 function Created(props: ConceptSubLayoutProps){
-    return <ConditionalComponent
-        condition={() => props.concept.created !== null}
-        component={
-            <NamedSection
-                title={'Data di creazione'}
-                content={<p>{props.concept.created}</p>}
-            />
-        }
-    />
+    return <ConditionalComponent condition={() => props.concept.created !== null}>
+        <NamedSection
+            title={'Data di creazione'}
+            content={<p>{props.concept.created}</p>}
+        />
+    </ConditionalComponent>
 }
 
 interface OtherConceptProps {
@@ -165,21 +154,18 @@ interface OtherConceptProps {
 }
 function OtherConcept(props: OtherConceptProps){
     const conceptId = (concept: Concept) => concept.node.RelativeUri(vocang)
-    return <ConditionalComponent
-        condition={props.condition}
-        component={
-            <NamedSection
-                title={props.title}
-                content={<List
-                    isOrdered={false}
-                    list={props.list}
-                    elementKey={concept => conceptId(concept)}
-                    elementLink={concept => `/parolangelo/${conceptId(concept)}`}
-                    elementContent={concept => <p>{concept.prefLabel}</p>}
-                />}
-            />
-        }
-    />
+    return <ConditionalComponent condition={props.condition}>
+        <NamedSection
+            title={props.title}
+            content={<List
+                isOrdered={false}
+                list={props.list}
+                elementKey={concept => conceptId(concept)}
+                elementLink={concept => `/parolangelo/${conceptId(concept)}`}
+                elementContent={concept => <p>{concept.prefLabel}</p>}
+            />}
+        />
+    </ConditionalComponent>
 }
 
 function Synonyms(props: ConceptSubLayoutProps){
@@ -200,18 +186,15 @@ function Related(props: ConceptSubLayoutProps){
 
 function Note(props: ConceptSubLayoutProps){
     let notesKey = 0
-    return <ConditionalComponent
-        condition={() => props.concept.notes?.length > 0}
-        component={
-            <NamedSection
-                title={'Note'}
-                content={<List
-                    isOrdered={false}
-                    list={props.concept.notes}
-                    elementKey={() => (notesKey += 1).toString()}
-                    elementContent={note => <p>{note}</p>}
-                />}
-            />
-        }
-    />
+    return <ConditionalComponent condition={() => props.concept.notes?.length > 0}>
+        <NamedSection
+            title={'Note'}
+            content={<List
+                isOrdered={false}
+                list={props.concept.notes}
+                elementKey={() => (notesKey += 1).toString()}
+                elementContent={note => <p>{note}</p>}
+            />}
+        />
+    </ConditionalComponent>
 }

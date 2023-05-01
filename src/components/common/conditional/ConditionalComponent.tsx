@@ -1,14 +1,13 @@
 import React from 'react'
+import ChildrenProps from '../../props/ChildrenProps'
 
-interface ConditionalComponentProps {
-    condition: () => boolean;
-    component: JSX.Element
+interface ConditionalComponentProps extends ChildrenProps{
+    condition: () => boolean
 }
 
 export default function ConditionalComponent(props: ConditionalComponentProps) {
-    const {condition, component} = props
-    if(condition()) {
-        return component
+    if(props.condition()) {
+        return <> {props.children} </>
     } else {
         return <></>
     }
