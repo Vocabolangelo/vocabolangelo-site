@@ -1,15 +1,14 @@
 import {Link} from 'react-router-dom'
 import {PAROLANGELO_ROUTE} from '../../routes/Parolangelo'
-import Spotlight from '../common/story/Spotlight'
+import Banner from '../common/story/Banner'
 
 export default function GamesSpotlight() {
-    return <Spotlight
-        style = {1}
-        optionalModifiers = {['orient-right', 'content-align-left', 'image-position-center', 'onscroll-image-fade-in']}
+    return <Banner
+        style={1}
+        optionalModifiers={['orient-left', 'content-align-left', 'image-position-right', 'fullscreen', 'onload-image-fade-in', 'onload-content-fade-right']}
         imageUrl={'/images/game.jpg'}
-        imageAlt={'Videogioco'}
-    >
-        <h2>Angelochi</h2>
+        imageAlt={'Videogioco'}>
+        <h1>Angelochi</h1>
         <p className={'major'}>
             Il Vocabolangelo dispone di una raccolta di Angelochi.<br/>
         </p>
@@ -17,5 +16,5 @@ export default function GamesSpotlight() {
             <strong>Fun fact:</strong> Se incontrate dei bug durante il gioco mentre avrete a che fare con
             dei gatti, questi ultimi sono in realtà dei <Link to={`${PAROLANGELO_ROUTE}/buggatto`}> buggatti</Link>.
         </p>
-    </Spotlight>
+    </Banner>
 }
