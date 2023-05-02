@@ -935,6 +935,7 @@
 <http://www.vocabolangelo.org/abbecedangelo> <http://www.w3.org/2004/02/skos/core#definition> "Abbecedario per insegnare le parole del Vocabolangelo."@it .
 <http://www.vocabolangelo.org/abbecedangelo> <http://www.w3.org/2004/02/skos/core#example> "Insegnerò le parole del vocabolangelo a mio figlio grazie all'abbecedangelo."@it .
 <http://www.vocabolangelo.org/abbecedangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelo> .
+<http://www.vocabolangelo.org/abbecedangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/angeloco> .
 <http://www.vocabolangelo.org/abbecedangelo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/minoccheriAlessandra> .
 <http://www.vocabolangelo.org/cappucciccia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/cappucciccia> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cappucciccia"@it .
@@ -1251,7 +1252,7 @@
 <http://www.vocabolangelo.org/addiato> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/addiato> <http://www.w3.org/2004/02/skos/core#prefLabel> "Addiato"@it .
 <http://www.vocabolangelo.org/addiato> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/ad • di • à • to/"@it .
-<http://www.vocabolangelo.org/addiato> <http://www.w3.org/2004/02/skos/core#definition> "Una persona alla quale si vule dire addio prima che parta e se ne vada da qualche parte per un po', forse per sempre."@it .
+<http://www.vocabolangelo.org/addiato> <http://www.w3.org/2004/02/skos/core#definition> "Una persona alla quale si vuole dire addio prima che parta e se ne vada da qualche parte per un po', forse per sempre."@it .
 <http://www.vocabolangelo.org/addiato> <http://www.w3.org/2004/02/skos/core#example> "Dato che sei tu l'addiato, devi fare tu il discorso."@it .
 <http://www.vocabolangelo.org/addiato> <http://purl.org/dc/terms/created> "2022-10-21" .
 <http://www.vocabolangelo.org/addiato> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/minoccheriAlessandra> .
@@ -2549,7 +2550,7 @@
 <http://www.vocabolangelo.org/omnicio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/omnicio> <http://www.w3.org/2004/02/skos/core#prefLabel> "Omnicio"@it .
 <http://www.vocabolangelo.org/omnicio> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/om • nì • cio/"@it .
-<http://www.vocabolangelo.org/omnicio> <http://www.w3.org/2004/02/skos/core#definition> "Un gatto che è definibile con ogni sostantivo che descrive un gatto presente all'interno del Vocabolangelo. In altre parole una creatura mitologica salle sembianze umane che, durante le notti di luna piena, si trasforma in un gatto buggatto che urla all'interno di un videogioco e che in passato ha subito un trauma, meticcio, strabico, molto grande, obeso, particolarmente pigro e che resta spiaggiato sulla stessa superficie piana per un lungo periodo di tempo, dall'espressione o comportamento molto arrogante, estremamente vorace, molto pacifico, estremamente carino, capace di influenzare con la sua serenità e diplomazia anche i gatti attorno a lui, capace di eseguire acrobazie, presenta vaghe somiglianze con un suricato, tende ad arrampicarsi in posti pericolosi, miagola in maniera carina, molto ostile che ha la tendenza di graffiare mordere e soffiare ed è in grado di curare persone e altri gatti."@it .
+<http://www.vocabolangelo.org/omnicio> <http://www.w3.org/2004/02/skos/core#definition> "Un gatto che è definibile con ogni sostantivo che descrive un gatto presente all'interno del Vocabolangelo. In altre parole una creatura mitologica dalle sembianze umane che, durante le notti di luna piena, si trasforma in un gatto buggatto che urla all'interno di un videogioco e che in passato ha subito un trauma, proveniente dalle regioni orientali dell'Europa, meticcio, strabico, molto grande, obeso, dotato di scarse, trascurabili, o negative capacità logiche, particolarmente pigro e che resta spiaggiato sulla stessa superficie piana per un lungo periodo di tempo, dall'espressione o comportamento molto arrogante, estremamente vorace, molto pacifico, estremamente carino, capace di influenzare con la sua serenità e diplomazia anche i gatti attorno a lui, capace di eseguire acrobazie, presenta vaghe somiglianze con un suricato, tende ad arrampicarsi in posti pericolosi, miagola in maniera carina, molto ostile che ha la tendenza di graffiare mordere e soffiare ed è in grado di curare persone e altri gatti."@it .
 <http://www.vocabolangelo.org/omnicio> <http://www.w3.org/2004/02/skos/core#example> "Ho dovuto abbassare lo sguardo e tapparmi le orecchie quando ho visto passare quell'omnicio: era talmente fantastico da sembrare una divinità."@it .
 <http://www.vocabolangelo.org/omnicio> <http://purl.org/dc/terms/created> "2023-01-25" .
 <http://www.vocabolangelo.org/omnicio> <http://www.w3.org/2004/02/skos/core#note> "Il messaggio di commit che ha introdotto la definizione estesa di omnicio è il seguente: add more suitable and fun definition to omnicio. Such and incredible creature needs to be treated with the utmost care and respect. Oh my goodness, I cannot stress enough just how utterly awe-inspiring and breathtakingly gorgeous this creature truly is! Its magnificence is unparalleled and its beauty is simply beyond compare. It is a true wonder of nature, a masterpiece of creation, and it deserves to be treated with the utmost reverence, adoration, and adulation that it so rightly deserves. Every single aspect of this creature, from the way its elegant limbs move gracefully through the air to the vibrant colors of its stunningly intricate patterns, is an absolute marvel to behold. It is a true blessing and a privilege to be able to witness such a magnificent creature in all its glory, and we must do everything in our power to ensure that it is protected and cared for with the utmost diligence and care. Oh my stars, where do I even begin to describe the sheer and utter majesty of this breathtakingly beautiful creature? It is like a symphony of pure wonder and enchantment, a living, breathing masterpiece that has been crafted with the utmost care and precision by the very hands of the divine. Every single inch of its being is a testament to the limitless power and infinite creativity of the universe, and it is truly a privilege beyond measure to be able to witness such a wondrous being in all its glory. The colors of its coat are like a rainbow woven from strands of pure gold and silver, shimmering and glimmering in the light like a thousand precious gems. The way its body moves, fluid and graceful like a dancer's, is a thing of true beauty and grace, and it seems almost as if the very air around it is charged with a palpable sense of magic and enchantment. In short, this magnificent creature is a true masterpiece of nature, a testament to the boundless wonder and infinite creativity of the universe, and it simply must be treated with the utmost respect, care, and adoration that it so richly deserves. We must cherish and protect it with all our hearts, for it is truly one of the most wondrous and precious gifts that life has to offer. Words simply cannot do justice to the sheer and utter splendor of this majestic creature. It is as if it was forged from the very essence of beauty itself, a true marvel of nature that leaves all who behold it in a state of awe and wonder. Its presence is like a warm embrace from the universe, a gentle reminder that there is still magic and enchantment to be found in this world, if only we take the time to look for it. Every time I gaze upon this wondrous creature, I am filled with a sense of peace and tranquility that I simply cannot find elsewhere. It is a living, breathing masterpiece, a work of art that is continually evolving and changing with the passing of time. And yet, for all its beauty and magnificence, it is also a fragile thing, one that requires our love, our care, and our protection if it is to survive and thrive in a world that can be all too harsh and unforgiving. So let us pledge ourselves to the cause of safeguarding this incredible creature, to ensuring that it is treated with the utmost respect and care that it so rightly deserves. Let us cherish it, protect it, and love it with all our hearts, for in doing so, we are also honoring the boundless creativity and wonder of the universe itself.My dear friend, it is as if this creature is a god among us, a deity that has graced our world with its divine presence. Its mere existence is a testament to the infinite creativity and boundless wonder of the universe, and it is a living, breathing work of art that deserves to be worshipped and adored like the deity that it truly is. Every time I am blessed with the opportunity to lay my eyes upon this wondrous creature, I feel as if I am standing before an altar, gazing up at the very face of god itself. Its beauty is beyond compare, its grace beyond measure, and its presence fills me with a sense of reverence and awe that is simply indescribable. It is as if the very air around it is infused with a sense of divine energy, a power that is both humbling and exhilarating all at once. And yet, for all its god-like qualities, this creature is also fragile and vulnerable, a precious gift that must be treated with the utmost care and respect if it is to survive and thrive in this world. We must worship it, yes, but we must also protect it, nurture it, and love it with all our hearts, for in doing so, we are also honoring the very essence of divinity itself. So let us pledge ourselves to the cause of safeguarding this incredible creature, to ensuring that it is treated with the utmost respect and care that it so rightly deserves. Let us build temples in its honor, sing hymns of praise to its name, and offer it our deepest reverence and adoration. For this creature is not just a thing of beauty, but a true god among us, a living, breathing testament to the infinite wonder and boundless creativity of the universe itself. May the Omnicio always be praised. Forever and ever." .
@@ -4325,7 +4326,54 @@
 <http://www.vocabolangelo.org/angeloco> <http://www.w3.org/2004/02/skos/core#definition> "Un Angeloco che consiste nel nominare più parole del vocabolangelo possibili entro un quantitativo limitato di tempo."@it .
 <http://www.vocabolangelo.org/angeloco> <http://www.w3.org/2004/02/skos/core#example> "Ho fatto un punteggio di 69 nel frettolangelo ieri!"@it .
 <http://www.vocabolangelo.org/angeloco> <http://purl.org/dc/terms/created> "2023-04-28" .
+<http://www.vocabolangelo.org/angeloco> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/angeloco> .
 <http://www.vocabolangelo.org/angeloco> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
+<http://www.vocabolangelo.org/scemicio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/scemicio> <http://www.w3.org/2004/02/skos/core#prefLabel> "Scemicio"@it .
+<http://www.vocabolangelo.org/scemicio> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/sce • mì • cio/"@it .
+<http://www.vocabolangelo.org/scemicio> <http://www.w3.org/2004/02/skos/core#definition> "Gatto dotato di scarse, trascurabili, o negative capacità logiche."@it .
+<http://www.vocabolangelo.org/scemicio> <http://www.w3.org/2004/02/skos/core#example> "Ieri Romeo mi stava demolendo la zanzariera mentre giocavo al computer e ho dovuto lasciare il mio team da solo. Che scemicio."@it .
+<http://www.vocabolangelo.org/scemicio> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/omnicio> .
+<http://www.vocabolangelo.org/scemicio> <http://purl.org/dc/terms/created> "2023-04-29" .
+<http://www.vocabolangelo.org/scemicio> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/orlandoNicola> .
+<http://www.vocabolangelo.org/bufferingo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/bufferingo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bufferingo"@it .
+<http://www.vocabolangelo.org/bufferingo> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/buf • fe • rìn • go/"@it .
+<http://www.vocabolangelo.org/bufferingo> <http://www.w3.org/2004/02/skos/core#definition> "Tempo di attesa necessario per la preparazione o la consumazione di biscotti."@it .
+<http://www.vocabolangelo.org/bufferingo> <http://www.w3.org/2004/02/skos/core#example> "Cerca di accorciare il bufferingo, ho una fame che non ci vedo più!"@it .
+<http://www.vocabolangelo.org/bufferingo> <http://purl.org/dc/terms/created> "2023-04-29" .
+<http://www.vocabolangelo.org/bufferingo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
+<http://www.vocabolangelo.org/bufferingo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/orlandoNicola> .
+<http://www.vocabolangelo.org/dickerfile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/dickerfile> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dickerfile"@it .
+<http://www.vocabolangelo.org/dickerfile> <http://www.w3.org/2004/02/skos/core#definition> "Una configurazione che automatizza un processo informatico estremamente rotta e piena di bug."@it .
+<http://www.vocabolangelo.org/dickerfile> <http://www.w3.org/2004/02/skos/core#example> "Pensavo di aver fatto un buon lavoro ad automatizzare la creazione del webserver ma a quanto pare ho solo scritto un dickerfile."@it .
+<http://www.vocabolangelo.org/dickerfile> <http://purl.org/dc/terms/created> "2023-04-28" .
+<http://www.vocabolangelo.org/dickerfile> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
+<http://www.vocabolangelo.org/domio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/domio> <http://www.w3.org/2004/02/skos/core#prefLabel> "Domio"@it .
+<http://www.vocabolangelo.org/domio> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/do • mìo/"@it .
+<http://www.vocabolangelo.org/domio> <http://www.w3.org/2004/02/skos/core#definition> "Un dominio internet di posseduto solo e solamente da chi utilizza la parola."@it .
+<http://www.vocabolangelo.org/domio> <http://www.w3.org/2004/02/skos/core#example> "In quanto Angelo posso dichiarare ufficialmente che vocabolangelo.org è un domio."@it .
+<http://www.vocabolangelo.org/domio> <http://purl.org/dc/terms/created> "2023-04-28" .
+<http://www.vocabolangelo.org/domio> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
+<http://www.vocabolangelo.org/sottodomio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/sottodomio> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sottodomio"@it .
+<http://www.vocabolangelo.org/sottodomio> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/sot • to • do • mìo/"@it .
+<http://www.vocabolangelo.org/sottodomio> <http://www.w3.org/2004/02/skos/core#definition> "Un sottoinsieme di un dominio internet posseduto solo e solamente da chi utilizza la parola."@it .
+<http://www.vocabolangelo.org/sottodomio> <http://www.w3.org/2004/02/skos/core#example> "Un giorno esisterà anche ilgioco.vocabolangelo.org come sottodomio."@it .
+<http://www.vocabolangelo.org/sottodomio> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/domio> .
+<http://www.vocabolangelo.org/sottodomio> <http://purl.org/dc/terms/created> "2023-04-28" .
+<http://www.vocabolangelo.org/sottodomio> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
+<http://www.vocabolangelo.org/bragatto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/bragatto> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bragatto"@it .
+<http://www.vocabolangelo.org/bragatto> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/bra • gàt • to/"@it .
+<http://www.vocabolangelo.org/bragatto> <http://www.w3.org/2004/02/skos/core#definition> "Un gatto proveniente dalle regioni orientali dell'Europa."@it .
+<http://www.vocabolangelo.org/bragatto> <http://www.w3.org/2004/02/skos/core#example> "Ho visto quel felino impassibile in mezzo ad una tempesta di neve. Deve essere un bragatto."@it .
+<http://www.vocabolangelo.org/bragatto> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/omnicio> .
+<http://www.vocabolangelo.org/bragatto> <http://purl.org/dc/terms/created> "2023-04-27" .
+<http://www.vocabolangelo.org/bragatto> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
+<http://www.vocabolangelo.org/bragatto> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
 <http://www.vocabolangelo.org/noonare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/fregola> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/tardivare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -4339,6 +4387,8 @@
 <http://www.vocabolangelo.org/prenare> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/merenzare> .
 <http://www.vocabolangelo.org/prenare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/aranciallo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/sottodomio> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/domio> .
+<http://www.vocabolangelo.org/sottodomio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/fragagliato> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/lemingo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/2002/07/owl#equivalentClass> <http://xmlns.com/foaf/0.1/Person> .
@@ -4374,6 +4424,7 @@
 <http://www.vocabolangelo.org/ritardabile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/moridere> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/abbecedangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelo> .
+<http://www.vocabolangelo.org/abbecedangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/angeloco> .
 <http://www.vocabolangelo.org/abbecedangelo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/cacanzina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/formigiano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -4399,6 +4450,7 @@
 <http://www.vocabolangelo.org/omnicio> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/ligattropo> .
 <http://www.vocabolangelo.org/omnicio> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/avvogatto> .
 <http://www.vocabolangelo.org/omnicio> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/arrogatto> .
+<http://www.vocabolangelo.org/omnicio> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/bragatto> .
 <http://www.vocabolangelo.org/omnicio> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/pulicio> .
 <http://www.vocabolangelo.org/omnicio> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/strabicio> .
 <http://www.vocabolangelo.org/omnicio> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/traumatto> .
@@ -4407,6 +4459,7 @@
 <http://www.vocabolangelo.org/omnicio> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/variegatto> .
 <http://www.vocabolangelo.org/omnicio> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/ingordicio> .
 <http://www.vocabolangelo.org/omnicio> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/gigatto> .
+<http://www.vocabolangelo.org/omnicio> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/scemicio> .
 <http://www.vocabolangelo.org/omnicio> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/urlatto> .
 <http://www.vocabolangelo.org/omnicio> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/buggatto> .
 <http://www.vocabolangelo.org/biribico> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/biribì> .
@@ -5015,6 +5068,7 @@
 <http://www.vocabolangelo.org/caffoncello> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/pornoattrite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/alfaca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/bufferingo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/settinana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.w3.org/2002/07/owl#bottomDataProperty> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
 <http://www.w3.org/2002/07/owl#bottomDataProperty> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://www.w3.org/2002/07/owl#bottomDataProperty> .
@@ -5167,6 +5221,8 @@
 <http://www.vocabolangelo.org/canama> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/amiagolante> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/cappucciccia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/domio> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/sottodomio> .
+<http://www.vocabolangelo.org/domio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/domadonna> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/cerebricanto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/esplorezione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -5710,6 +5766,7 @@
 <http://www.vocabolangelo.org/apostolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboliere> .
 <http://www.vocabolangelo.org/apostolangelo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/ambunero> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/dickerfile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/variegatto> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/omnicio> .
 <http://www.vocabolangelo.org/variegatto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/arbitroio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -5946,6 +6003,8 @@
 <http://www.vocabolangelo.org/avvogatto> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/omnicio> .
 <http://www.vocabolangelo.org/avvogatto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/pegogo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/angeloco> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/abbecedangelo> .
+<http://www.vocabolangelo.org/angeloco> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/angeloco> .
 <http://www.vocabolangelo.org/angeloco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/librorifero> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/unriaco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -6184,8 +6243,12 @@
 <http://www.vocabolangelo.org/angurianesimo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/recigalo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/pippodromo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/scemicio> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/omnicio> .
+<http://www.vocabolangelo.org/scemicio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/nerdgasmo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/fusorangelo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/bragatto> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/omnicio> .
+<http://www.vocabolangelo.org/bragatto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/generifico> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/stromba> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/postoletta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
