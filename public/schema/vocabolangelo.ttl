@@ -960,7 +960,7 @@ vocang:abbecedangelo
     lexinfo:pronunciation "/ab • be • ce • dan • ge • lo/"@it ;
     skos:definition "Abbecedario per insegnare le parole del Vocabolangelo."@it ;
     skos:example "Insegnerò le parole del vocabolangelo a mio figlio grazie all'abbecedangelo."@it ;
-    skos:related vocang:vocabolangelo ;
+    skos:related vocang:vocabolangelo, vocang:angeloco ;
     dct:creator vocang:minoccheriAlessandra .
 
 vocang:cappucciccia
@@ -5040,6 +5040,7 @@ vocang:angeloco
     skos:definition "Un Angeloco che consiste nel nominare più parole del vocabolangelo possibili entro un quantitativo limitato di tempo."@it ;
     skos:example "Ho fatto un punteggio di 69 nel frettolangelo ieri!"@it ;
     dct:created "2023-04-28" ;
+    skos:related vocang:angeloco ;
     dct:creator vocang:filasetaAngelo .
 
 vocang:scemicio
