@@ -5069,3 +5069,12 @@ vocang:dickerfile
     skos:example "Pensavo di aver fatto un buon lavoro ad automatizzare la creazione del webserver ma a quanto pare ho solo scritto un dickerfile."@it ;
     dct:created "2023-04-28" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:domio
+    a skos:Concept ;
+    skos:prefLabel "Domio"@it ;
+    lexinfo:pronunciation "/do • mìo/"@it ;
+    skos:definition "Un dominio internet di posseduto solo e solamente da chi utilizza la parola."@it ;
+    skos:example "In quanto Angelo posso dichiarare ufficialmente che vocabolangelo.org è un domio."@it ;
+    dct:created "2023-04-28" ;
+    dct:creator vocang:omiccioliRiccardo .
