@@ -5061,3 +5061,11 @@ vocang:bufferingo
     skos:example "Cerca di accorciare il bufferingo, ho una fame che non ci vedo più!"@it ;
     dct:created "2023-04-29" ;
     dct:creator vocang:filasetaAngelo, vocang:orlandoNicola .
+
+vocang:dickerfile
+    a skos:Concept ;
+    skos:prefLabel "Dickerfile"@it ;
+    skos:definition "Una configurazione che automatizza un processo informatico estremamente rotta e piena di bug."@it ;
+    skos:example "Pensavo di aver fatto un buon lavoro ad automatizzare la creazione del webserver ma a quanto pare ho solo scritto un dickerfile."@it ;
+    dct:created "2023-04-28" ;
+    dct:creator vocang:omiccioliRiccardo .
