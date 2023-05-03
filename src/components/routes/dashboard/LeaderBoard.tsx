@@ -1,16 +1,18 @@
 import {Person} from '../../../rdf/types/Person'
-import {Link} from 'react-router-dom'
-import {VOCABOLIERI_ROUTE} from '../vocabolieri/Vocabolieri'
 import {vocang} from '../../../rdf/prefixes'
 import {Concept} from '../../../rdf/types/Concept'
 import {useEffect, useState} from 'react'
+import {decimalFormat} from '../../../util/decimalFormat'
+import PersonProps from '../../props/PersonProps'
+import {Link} from 'react-router-dom'
+import {VOCABOLIERI_ROUTE} from '../vocabolieri/Vocabolieri'
+import {RDFNamedNode} from '../../../rdf/RDFNamedNode'
 
-interface PersonEntryProps {
-    person: Person
-}
 export default function LeaderBoard() {
-    function absoluteComparator(a:Person, b:Person) {
-        return absoluteContribution(b.creatorOf()()) - absoluteContribution(a.creatorOf()())
+    function absoluteComparator(a:RDFNamedNode, b:RDFNamedNode) {
+        return absoluteContribution(
+            new Person(b.node).creatorOf()()) - absoluteContribution(new Person(a.node).creatorOf()()
+        )
     }
 
     const [concepts, setConcepts] = useState<Concept[]>([])
@@ -25,30 +27,30 @@ export default function LeaderBoard() {
         })
     }, [])
 
-    function decimalFormat(n: number) {
-        return n.toLocaleString(undefined, {maximumFractionDigits:2})
-    }
-
     function percentageOfConceptLength(n: number) {
-        return decimalFormat(n / concepts.length * 100)
+        return decimalFormat(n / concepts.length * 100, 2)
     }
 
-    function absoluteContribution(c: Concept[]) {
+    function absoluteContribution(c: RDFNamedNode[]) {
         return c.length
     }
-
-    function relativeContribution(c: Concept[]) {
-        return c.map(c => 1 / c.personCreators().length).reduce( (x,y) => x+y, 0)
+    function relativeContribution(c: RDFNamedNode[]) {
+        return c.map(c => 1 / new Concept(c.node).personCreators().length).reduce( (x,y) => x+y, 0)
     }
 
-    function PersonEntry(props: PersonEntryProps){
-        const p = props.person
-        const creatorOf = p.creatorOf()()
+    function LeaderBoardEntry(props: PersonProps){
+        const person = props.person
+        const creatorOf = person.creatorOf()()
+
         return <tr>
-            <td><Link to={`${VOCABOLIERI_ROUTE}/${p.relativeUri(vocang)}`}>{p.fullName()}</Link></td>
+            <td>
+                <Link to={`${VOCABOLIERI_ROUTE}/${person.relativeUri(vocang)}`}>
+                    {person.fullName()}
+                </Link>
+            </td>
             <td>{absoluteContribution(creatorOf)}</td>
             <td>{percentageOfConceptLength(absoluteContribution(creatorOf))}%</td>
-            <td>{decimalFormat(relativeContribution(creatorOf))}</td>
+            <td>{decimalFormat(relativeContribution(creatorOf),2)}</td>
             <td>{percentageOfConceptLength(relativeContribution(creatorOf))}%</td>
         </tr>
     }
@@ -89,8 +91,8 @@ export default function LeaderBoard() {
                     <tbody>
                         {people
                             .sort(absoluteComparator)
-                            .map(person => {
-                                return <PersonEntry key={person.relativeUri(vocang)} person={person}/>
+                            .map((person, index) => {
+                                return <LeaderBoardEntry key={index} person={person}/>
                             })
                         }
                     </tbody>

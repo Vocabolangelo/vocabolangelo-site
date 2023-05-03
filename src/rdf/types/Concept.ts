@@ -4,7 +4,6 @@ import {Quad_Subject} from 'rdflib/lib/tf-types'
 import {RDFStore} from '../RDFStore'
 import {dct, foaf, lexinfo, schema, scot, skos} from '../prefixes'
 import '../extensions/storeExtensions'
-import {Person} from './Person'
 import {requireNotNull} from '../../util/requireNotNull'
 import {RDFTriple} from '../RDFTriple'
 
@@ -90,24 +89,16 @@ export class Concept extends RDFNamedNode {
         return this._examples
     }
 
-    public get personCreators(): () => Person[] {
+    public get personCreators(): () => RDFNamedNode[] {
         const subj = this.node
-        return function() : Person[] {
+        return function() : RDFNamedNode[] {
             return RDFStore.store.CollectEach(
                 new RDFTriple(subj, dct.namespace('creator'), undefined),
                 (node) =>
                     (RDFStore.store.any(node, undefined, foaf.namespace('Person')) !== null),
-                (node) => new Person(node)
+                (node) => new RDFNamedNode(node)
             )
         }
-    }
-
-    public get personCreatorsCount(): number {
-        return RDFStore.store.CollectEach(
-            new RDFTriple(this.node, dct.namespace('creator'), undefined),
-            (node) => (RDFStore.store.any(node, undefined, foaf.namespace('Person')) !== null),
-            () => 1
-        ).reduce((a, b) => a + b, 0)
     }
 
     public get images(): string[] {

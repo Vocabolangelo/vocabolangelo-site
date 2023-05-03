@@ -3,7 +3,6 @@ import {NamedNode} from 'rdflib'
 import {dct, foaf, rel, schema} from '../prefixes'
 import {RDFStore} from '../RDFStore'
 import {requireNotNull} from '../../util/requireNotNull'
-import {Concept} from './Concept'
 import {RDFTriple} from '../RDFTriple'
 
 /**
@@ -85,12 +84,12 @@ export class Person extends RDFNamedNode {
         }
     }
 
-    public creatorOf(): () => Concept[] {
+    public creatorOf(): () => RDFNamedNode[] {
         const subj = this.node
-        return function (): Concept[] {
+        return function (): RDFNamedNode[] {
             return RDFStore.store.MapEach(
                 new RDFTriple(undefined, dct.namespace('creator'), subj),
-                (node) => new Concept(node)
+                (node) => new RDFNamedNode(node)
             )
         }
     }

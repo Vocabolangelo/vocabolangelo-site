@@ -10,6 +10,7 @@ import {List} from '../../common/List'
 import {PAROLANGELO_ROUTE} from '../parolangelo/Parolangelo'
 import {VOCABOLIERI_ROUTE} from './Vocabolieri'
 import InnerWrapper from '../../common/story/InnerWrapper'
+import {Concept} from '../../../rdf/types/Concept'
 
 export function PersonLayout() {
 
@@ -87,9 +88,9 @@ function Partners(props: PersonSubLayoutProps){
 }
 
 function ConceptsCreated(props: PersonSubLayoutProps){
-    const concepts = props.person.creatorOf()().sort(
-        (a, b) => a.prefLabel.localeCompare(b.prefLabel)
-    )
+    const concepts = props.person.creatorOf()()
+        .map((node) => new Concept(node.node))
+        .sort((a, b) => a.prefLabel.localeCompare(b.prefLabel))
     return <ConditionalComponent condition={() => concepts?.length > 0}>
         <NamedSection title={'Parolangelo create'}>
             <List
@@ -104,7 +105,9 @@ function ConceptsCreated(props: PersonSubLayoutProps){
 
 function Contribution(props: PersonSubLayoutProps){
     const concepts = props.person.creatorOf()()
-    const soloConceptsCount = concepts.filter(c => c.personCreators().length === 1).length
+    const soloConceptsCount = concepts.filter(
+        c => new Concept(c.node).personCreators().length === 1
+    ).length
     return <ConditionalComponent condition={() => concepts?.length > 0}>
         <NamedSection title={'Contributo'}>
             <p>Da solo ho inventato: <strong>{soloConceptsCount}</strong> parolangelo.</p>

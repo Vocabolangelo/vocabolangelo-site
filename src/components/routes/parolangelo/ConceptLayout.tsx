@@ -79,7 +79,7 @@ function Creators(props: ConceptSubLayoutProps){
     return <NamedSection title={'Vocabolieri'}>
         <List
             isOrdered={false}
-            list={props.concept.personCreators()}
+            list={props.concept.personCreators().map((node) => new Person(node.node))}
             elementLink={creator => `/vocabolieri/${creatorId(creator)}`}
             elementContent={creator => <p>{creator.firstName} {creator.lastName}</p>}
         />
