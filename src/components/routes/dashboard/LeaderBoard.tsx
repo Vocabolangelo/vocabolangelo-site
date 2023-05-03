@@ -1,8 +1,8 @@
-import {Person} from '../../rdf/types/Person'
+import {Person} from '../../../rdf/types/Person'
 import {Link} from 'react-router-dom'
-import {VOCABOLIERI_ROUTE} from '../routes/Vocabolieri'
-import {vocang} from '../../rdf/prefixes'
-import {Concept} from '../../rdf/types/Concept'
+import {VOCABOLIERI_ROUTE} from '../Vocabolieri'
+import {vocang} from '../../../rdf/prefixes'
+import {Concept} from '../../../rdf/types/Concept'
 import {useEffect, useState} from 'react'
 
 interface PersonEntryProps {

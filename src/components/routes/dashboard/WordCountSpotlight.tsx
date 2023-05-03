@@ -1,8 +1,8 @@
 import {useEffect, useState} from 'react'
-import {Concept} from '../../rdf/types/Concept'
-import {PAROLANGELO_ROUTE} from '../routes/Parolangelo'
+import {Concept} from '../../../rdf/types/Concept'
+import {PAROLANGELO_ROUTE} from '../Parolangelo'
 import {Link} from 'react-router-dom'
-import Spotlight from '../common/story/Spotlight'
+import Spotlight from '../../common/story/Spotlight'
 
 export default function WordCountSpotlight() {
     const [wordCount, setWordCount] = useState(0)

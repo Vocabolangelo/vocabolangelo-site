@@ -2,7 +2,7 @@ import ChildrenProps from '../props/ChildrenProps'
 import React from 'react'
 import Header from './Header'
 import Footer from './Footer'
-import Disclaimer from '../root/Disclaimer'
+import Disclaimer from '../routes/root/Disclaimer'
 
 /**
  * Top level component that include a Navbar and a Footer.

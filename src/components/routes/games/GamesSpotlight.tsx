@@ -1,6 +1,6 @@
 import {Link} from 'react-router-dom'
-import {PAROLANGELO_ROUTE} from '../routes/Parolangelo'
-import Banner from '../common/story/Banner'
+import {PAROLANGELO_ROUTE} from '../Parolangelo'
+import Banner from '../../common/story/Banner'
 
 export default function GamesSpotlight() {
     return <Banner

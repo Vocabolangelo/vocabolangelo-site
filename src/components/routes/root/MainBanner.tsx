@@ -1,6 +1,6 @@
-import {PAROLANGELO_ROUTE} from '../routes/Parolangelo'
+import {PAROLANGELO_ROUTE} from '../Parolangelo'
 import {Link} from 'react-router-dom'
-import Banner from '../common/story/Banner'
+import Banner from '../../common/story/Banner'
 
 export default function MainBanner() {
     return <Banner

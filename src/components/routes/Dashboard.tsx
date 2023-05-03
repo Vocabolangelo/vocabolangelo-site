@@ -1,6 +1,6 @@
-import WordCountSpotlight from '../dashboard/WordCountSpotlight'
-import CreatorCountSpotlight from '../dashboard/CreatorCountSpotlight'
-import LeaderBoard from '../dashboard/LeaderBoard'
+import WordCountSpotlight from './dashboard/WordCountSpotlight'
+import CreatorCountSpotlight from './dashboard/CreatorCountSpotlight'
+import LeaderBoard from './dashboard/LeaderBoard'
 import React from 'react'
 import {Main} from '../common/Main'
 

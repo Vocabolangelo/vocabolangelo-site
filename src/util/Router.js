@@ -8,7 +8,7 @@ import {PersonLayout} from '../components/routes/PersonLayout'
 import {Page404} from '../Page404'
 import Dashboard, {DASHBOARD_ROUTE} from '../components/routes/Dashboard'
 import LoadingScreen from '../components/common/LoadingScreen'
-import Frettolangelo from '../components/games/Frettolangelo'
+import Frettolangelo from '../components/routes/games/Frettolangelo'
 import Games, {GAMES_ROUTE} from '../components/routes/Games'
 
 export const defaultRouter = createBrowserRouter([

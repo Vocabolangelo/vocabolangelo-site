@@ -1,4 +1,4 @@
-import Spotlight from '../common/story/Spotlight'
+import Spotlight from '../../common/story/Spotlight'
 
 /**
  * Spotlight Component that presents the fact that the Vocabolangelo is an Ontology.
