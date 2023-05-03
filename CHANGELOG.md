@@ -18,8 +18,8 @@
 * **concept:** add frettolangelo ([d528d88](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/d528d880968a21601f214388d7db240d1743ce1e))
 * **image:** add images for games spotlight ([3028517](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/3028517ddff255edba58337b6fa70a4f4fbb08c5))
 * **site:** add Banner component ([398b27c](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/398b27c8a32babe671aa338b8423cc2eaf105033))
-* **site:** add Games component ([65a5d88](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/65a5d88f8ed7562a16725a91b86f968852fcb44b))
-* **site:** add Games to router and header ([7a1c224](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/7a1c224b6b7550d55b8fb0e6269ce9512f209814))
+* **site:** add AngelochiIndex component ([65a5d88](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/65a5d88f8ed7562a16725a91b86f968852fcb44b))
+* **site:** add AngelochiIndex to router and header ([7a1c224](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/7a1c224b6b7550d55b8fb0e6269ce9512f209814))
 * **site:** add Spotlight component ([fdf0820](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/fdf082062403985ac967e37789e4af5a9ff06720))
 * **site:** add two spotlight to present games ([514d146](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/514d14671d38f366e4275d02f22a18071628b98b))
 * **site:** add working frettolangelo game ([e4b0e60](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/e4b0e60f504bb180c99d0a9da4e83f48c06b6c15))
@@ -58,7 +58,7 @@
 
 ### Features
 
-* **site:** add Dashboard ([5e0c7fb](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/5e0c7fb31c3d61c7cf30ea35ef5fd8881c66cfa6))
+* **site:** add DashboardIndex ([5e0c7fb](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/5e0c7fb31c3d61c7cf30ea35ef5fd8881c66cfa6))
 
 ## [5.1.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v5.0.0...v5.1.0) (2023-04-26)
 

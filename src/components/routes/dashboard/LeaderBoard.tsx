@@ -1,6 +1,6 @@
 import {Person} from '../../../rdf/types/Person'
 import {Link} from 'react-router-dom'
-import {VOCABOLIERI_ROUTE} from '../Vocabolieri'
+import {VOCABOLIERI_ROUTE} from '../vocabolieri/Vocabolieri'
 import {vocang} from '../../../rdf/prefixes'
 import {Concept} from '../../../rdf/types/Concept'
 import {useEffect, useState} from 'react'

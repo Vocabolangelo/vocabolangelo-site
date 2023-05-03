@@ -1,20 +1,20 @@
 import {createBrowserRouter} from 'react-router-dom'
-import Root from '../components/routes/Root'
-import Parolangelo, {PAROLANGELO_ROUTE} from '../components/routes/Parolangelo'
-import {ConceptLayout} from '../components/routes/ConceptLayout'
+import RootIndex from '../components/routes/root/RootIndex'
+import Parolangelo, {PAROLANGELO_ROUTE} from '../components/routes/parolangelo/Parolangelo'
+import {ConceptLayout} from '../components/routes/parolangelo/ConceptLayout'
 import React from 'react'
-import Vocabolieri, {VOCABOLIERI_ROUTE} from '../components/routes/Vocabolieri'
-import {PersonLayout} from '../components/routes/PersonLayout'
+import Vocabolieri, {VOCABOLIERI_ROUTE} from '../components/routes/vocabolieri/Vocabolieri'
+import {PersonLayout} from '../components/routes/vocabolieri/PersonLayout'
 import {Page404} from '../Page404'
-import Dashboard, {DASHBOARD_ROUTE} from '../components/routes/Dashboard'
+import DashboardIndex, {DASHBOARD_ROUTE} from '../components/routes/dashboard/DashboardIndex'
 import LoadingScreen from '../components/common/LoadingScreen'
-import Frettolangelo from '../components/routes/games/Frettolangelo'
-import Games, {GAMES_ROUTE} from '../components/routes/Games'
+import Frettolangelo from '../components/routes/angelochi/Frettolangelo'
+import AngelochiIndex, {GAMES_ROUTE} from '../components/routes/angelochi/AngelochiIndex'
 
 export const defaultRouter = createBrowserRouter([
     {
         path: '/',
-        element: <Root/>,
+        element: <RootIndex/>,
     },
     {
         path: PAROLANGELO_ROUTE,
@@ -34,11 +34,11 @@ export const defaultRouter = createBrowserRouter([
     },
     {
         path: DASHBOARD_ROUTE,
-        element: <Dashboard />
+        element: <DashboardIndex />
     },
     {
         path: GAMES_ROUTE,
-        element: <Games/>
+        element: <AngelochiIndex/>
     },
     {
         path: `${GAMES_ROUTE}/frettolangelo`,

@@ -1,6 +1,6 @@
 import {Link} from 'react-router-dom'
-import {PAROLANGELO_ROUTE} from '../Parolangelo'
-import {GAMES_ROUTE} from '../Games'
+import {PAROLANGELO_ROUTE} from '../parolangelo/Parolangelo'
+import {GAMES_ROUTE} from './AngelochiIndex'
 import Spotlight from '../../common/story/Spotlight'
 
 export default function FrettolangeloSpotlight() {

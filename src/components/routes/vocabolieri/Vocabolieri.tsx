@@ -1,10 +1,10 @@
 import React, {useEffect, useState} from 'react'
-import {Person} from '../../rdf/types/Person'
-import {vocang} from '../../rdf/prefixes'
-import Wrapper from '../common/story/Wrapper'
-import {AlphabeticList} from '../common/AlphabeticList'
-import SearchBar from '../common/SearchBar'
-import InnerWrapper from '../common/story/InnerWrapper'
+import {Person} from '../../../rdf/types/Person'
+import {vocang} from '../../../rdf/prefixes'
+import Wrapper from '../../common/story/Wrapper'
+import {AlphabeticList} from '../../common/AlphabeticList'
+import SearchBar from '../../common/SearchBar'
+import InnerWrapper from '../../common/story/InnerWrapper'
 
 export const VOCABOLIERI_ROUTE = '/vocabolieri'
 

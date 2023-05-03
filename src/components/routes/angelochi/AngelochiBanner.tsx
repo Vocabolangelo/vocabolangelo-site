@@ -1,8 +1,8 @@
 import {Link} from 'react-router-dom'
-import {PAROLANGELO_ROUTE} from '../Parolangelo'
+import {PAROLANGELO_ROUTE} from '../parolangelo/Parolangelo'
 import Banner from '../../common/story/Banner'
 
-export default function GamesSpotlight() {
+export default function AngelochiBanner() {
     return <Banner
         style={1}
         optionalModifiers={['orient-left', 'content-align-left', 'image-position-right', 'fullscreen', 'onload-image-fade-in', 'onload-content-fade-right']}
