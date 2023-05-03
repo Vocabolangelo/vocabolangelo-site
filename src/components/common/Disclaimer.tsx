@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react'
 
 export default function Disclaimer() {
 
-    const [isDisclaimerVisible, setIsDisclaimerVisible] = useState(true)
+    const [isDisclaimerVisible, setIsDisclaimerVisible] = useState(false)
 
     useEffect(() => {
         setIsDisclaimerVisible(localStorage.getItem('disclaimerAccepted') !== 'yes')
