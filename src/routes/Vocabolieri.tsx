@@ -39,9 +39,8 @@ export default function Vocabolieri(){
             <div className="index align-left">
                 <AlphabeticList
                     list={people}
-                    elementKey={person => person.relativeUri(vocang)}
                     elementContent={person => <p>{person.lastName} {person.firstName}</p>}
-                    elementLink={person => VOCABOLIERI_ROUTE + person.relativeUri(vocang)}
+                    elementLink={person => VOCABOLIERI_ROUTE + '/' + person.relativeUri(vocang)}
                     searchString={searchValue}
                     searchFilterStrategy={searchFilterStrategy}
                     alphabeticStrategy={alphabeticStrategy}

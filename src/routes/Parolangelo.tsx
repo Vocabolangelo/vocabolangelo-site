@@ -43,9 +43,8 @@ export default function Parolangelo() {
             <div className="index align-left">
                 <AlphabeticList
                     list={concepts}
-                    elementKey={concept => concept.relativeUri(vocang)}
                     elementContent={concept => <> {concept.prefLabel} </>}
-                    elementLink={concept => PAROLANGELO_ROUTE + concept.relativeUri(vocang)}
+                    elementLink={concept => PAROLANGELO_ROUTE + '/' + concept.relativeUri(vocang)}
                     searchString={searchValue}
                     searchFilterStrategy={searchFilterStrategy}
                     alphabeticStrategy={alphabeticStrategy}

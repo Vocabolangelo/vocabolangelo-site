@@ -58,7 +58,6 @@ function Friends(props: PersonSubLayoutProps){
             <List
                 isOrdered={false}
                 list={friends}
-                elementKey={p => p.node.RelativeUri(vocang)}
                 elementContent={p => {
                     if (p.node.uri !== props.person.node.uri ) {
                         return <p>{p.fullName(true)}</p>
@@ -80,7 +79,6 @@ function Partners(props: PersonSubLayoutProps){
             <List
                 isOrdered={false}
                 list={partners}
-                elementKey={p => p.node.RelativeUri(vocang)}
                 elementContent={p => <p>{p.fullName()}</p>}
                 elementLink={p =>`${VOCABOLIERI_ROUTE}/${p.node.RelativeUri(vocang)}`}
             />
@@ -97,7 +95,6 @@ function ConceptsCreated(props: PersonSubLayoutProps){
             <List
                 isOrdered={false}
                 list={concepts}
-                elementKey={c => c.node.RelativeUri(vocang)}
                 elementContent={c => <p>{c.prefLabel}</p>}
                 elementLink={c =>`${PAROLANGELO_ROUTE}/${c.node.RelativeUri(vocang)}`}
             />
@@ -127,7 +124,6 @@ function Images(props: PersonSubLayoutProps) {
                 listStyle={'none'}
                 isOrdered={false}
                 list={images}
-                elementKey={i => i}
                 elementContent={i => <img style={{borderRadius:'50%', maxWidth:'25vw'}} src={i} alt={ props.person.fullName()}/>}
             />
         </NamedSection>

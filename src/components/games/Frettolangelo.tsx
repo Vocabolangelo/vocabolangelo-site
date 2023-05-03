@@ -67,7 +67,6 @@ export default function Frettolangelo() {
                         <List
                             isOrdered={false}
                             list={guessedWords}
-                            elementKey={(c) => c}
                             elementContent={(c) => <p> {c} </p>}
                         />
                     </>}

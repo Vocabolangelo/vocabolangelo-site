@@ -25,7 +25,6 @@ export function AlphabeticList<T>(props: AlphabeticListProps<T>) {
                 <List
                     isOrdered={false}
                     list={subListForLetter(letter)}
-                    elementKey={props.elementKey}
                     elementContent={props.elementContent}
                     elementLink={props.elementLink}
                 />
