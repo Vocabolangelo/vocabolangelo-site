@@ -38,7 +38,7 @@ export default function Parolangelo() {
                     Chiunque può creare nuove parolangelo proporre nuove definizioni ed esempi,
                     o fornire materiale mediatico in grado di arricchire questo archivio.
                 </p>
-                <SearchBar onSearch={(search) => setSearchValue(search)}/>
+                <SearchBar handle={(search: string) => setSearchValue(search)}/>
             </header>
             <div className="index align-left">
                 <AlphabeticList

@@ -121,7 +121,7 @@ function Images(props: PersonSubLayoutProps) {
     return <ConditionalComponent condition={() => images?.length > 0}>
         <NamedSection title={'Foto'}>
             <List
-                listStyle={'none'}
+                styleNone={true}
                 isOrdered={false}
                 list={images}
                 elementContent={i => <img style={{borderRadius:'50%', maxWidth:'25vw'}} src={i} alt={ props.person.fullName()}/>}

@@ -5,6 +5,7 @@ import {DASHBOARD_ROUTE} from '../routes/dashboard/DashboardIndex'
 import {VOCABOLIERI_ROUTE} from '../routes/vocabolieri/Vocabolieri'
 import {PAROLANGELO_ROUTE} from '../routes/parolangelo/Parolangelo'
 import {GAMES_ROUTE} from '../routes/angelochi/AngelochiIndex'
+
 export default function Header() {
     return <header style={{backgroundColor: 'black'}} className="is-preload">
         <div id="wrapper" className="divided">

@@ -1,10 +1,6 @@
 import React from 'react'
-import {ListProps} from './ListProps'
 import {List} from './List'
-
-interface AlphabeticListProps<T> extends ListProps<T>{
-    alphabeticStrategy: (node: T, letter: string) => boolean
-}
+import AlphabeticListProps from '../props/AlphabeticListProps'
 
 export function AlphabeticList<T>(props: AlphabeticListProps<T>) {
     const alphabet: string[] = 'abcdefghijklmnopqrstuvwxyz'.split('')

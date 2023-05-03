@@ -1,9 +1,6 @@
-import ChildrenProps from '../props/ChildrenProps'
+import TitleProps from '../props/TitleProps'
 
-interface NamedSectionProps extends ChildrenProps {
-    title: string
-}
-export function NamedSection(props: NamedSectionProps) {
+export function NamedSection(props: TitleProps) {
     return <section>
         <header>
             <h3>{props.title}</h3>

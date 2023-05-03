@@ -34,7 +34,7 @@ export default function Vocabolieri(){
                 <h1>Vocabolieri</h1>
                 <p> Ogni Vocaboliere ha inventato almeno una Parolangelo in tutto l&apos;arco della sua vita. </p>
                 <p> Non è ancora stato dimostrato che inventare parolangelo allunghi la vita ma ci stiamo lavorando.</p>
-                <SearchBar onSearch={(search) => setSearchValue(search)}/>
+                <SearchBar handle={(search) => setSearchValue(search)}/>
             </header>
             <div className="index align-left">
                 <AlphabeticList

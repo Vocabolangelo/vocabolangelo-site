@@ -90,7 +90,7 @@ function Images(props: ConceptSubLayoutProps){
     return <ConditionalComponent condition={() => props.concept.images?.length > 0}>
         <NamedSection title={'Immagini'}>
             <List
-                listStyle={'none'}
+                styleNone={true}
                 isOrdered={false}
                 list={props.concept.images}
                 elementContent={image =>
@@ -107,7 +107,7 @@ function Videos(props: ConceptSubLayoutProps){
     return <ConditionalComponent condition={() => props.concept.videos?.length > 0}>
         <NamedSection title={'Video'}>
             <List
-                listStyle={'none'}
+                styleNone={true}
                 isOrdered={false}
                 list={props.concept.videos}
                 elementContent={video =>

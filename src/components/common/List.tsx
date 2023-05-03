@@ -1,15 +1,11 @@
 import React from 'react'
-import {ListProps} from './ListProps'
+import {ListProps} from '../props/ListProps'
 import {Link} from 'react-router-dom'
-
-interface MaybeOrderedListProps<T> extends ListProps<T>{
-    isOrdered : boolean
-    listStyle?: string
-}
+import IsOrderedListProps from '../props/IsOrderedListProps'
 
 
-export function List<T>(props: MaybeOrderedListProps<T>) {
-    const {list, elementContent, elementLink, isOrdered, listStyle} = props
+export function List<T>(props: IsOrderedListProps<T>) {
+    const {list, elementContent, elementLink, isOrdered, styleNone} = props
 
     function listItems<T>(
         list: T[],
@@ -28,8 +24,8 @@ export function List<T>(props: MaybeOrderedListProps<T>) {
 
 
     if(isOrdered) {
-        return <ol style={{listStyle: listStyle}}>{listItems(list, elementContent, elementLink)}</ol>
+        return <ol>{listItems(list, elementContent, elementLink)}</ol>
     } else {
-        return <ul style={{listStyle: listStyle}}>{listItems(list, elementContent, elementLink)}</ul>
+        return <ul style={{listStyle: styleNone ? 'none' : ''}}>{listItems(list, elementContent, elementLink)}</ul>
     }
 }

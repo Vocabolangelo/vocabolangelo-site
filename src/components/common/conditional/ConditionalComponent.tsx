@@ -1,11 +1,7 @@
 import React from 'react'
-import ChildrenProps from '../../props/ChildrenProps'
+import CheckConditionProps from '../../props/CheckConditionProps'
 
-interface ConditionalComponentProps extends ChildrenProps{
-    condition: () => boolean
-}
-
-export default function ConditionalComponent(props: ConditionalComponentProps) {
+export default function ConditionalComponent(props: CheckConditionProps) {
     if(props.condition()) {
         return <> {props.children} </>
     } else {

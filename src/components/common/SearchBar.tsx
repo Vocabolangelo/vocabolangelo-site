@@ -1,15 +1,12 @@
 import React, { useState } from 'react'
+import HandleProps from '../props/HandleProps'
 
-interface SearchBarProps {
-    onSearch: (searchTerm: string) => void;
-}
-
-export default function SearchBar(props: SearchBarProps) {
+export default function SearchBar(props: HandleProps<string>) {
     const [searchTerm, setSearchTerm] = useState('')
 
     function handleInputChange(event: React.ChangeEvent<HTMLInputElement>) {
         setSearchTerm(event.target.value)
-        props.onSearch(event.target.value)
+        props.handle(event.target.value)
     }
 
     return (
