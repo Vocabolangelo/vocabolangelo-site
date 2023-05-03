@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom'
-import {PAROLANGELO_ROUTE} from './routes/Parolangelo'
+import {PAROLANGELO_ROUTE} from './components/routes/Parolangelo'
 import Header from './components/common/Header'
 import Footer from './components/common/Footer'
 import Spotlight from './components/common/story/Spotlight'

@@ -1,15 +1,15 @@
 import {createBrowserRouter} from 'react-router-dom'
-import Root from '../routes/Root'
-import Parolangelo, {PAROLANGELO_ROUTE} from '../routes/Parolangelo'
-import {ConceptLayout} from '../routes/ConceptLayout'
+import Root from '../components/routes/Root'
+import Parolangelo, {PAROLANGELO_ROUTE} from '../components/routes/Parolangelo'
+import {ConceptLayout} from '../components/routes/ConceptLayout'
 import React from 'react'
-import Vocabolieri, {VOCABOLIERI_ROUTE} from '../routes/Vocabolieri'
-import {PersonLayout} from '../routes/PersonLayout'
+import Vocabolieri, {VOCABOLIERI_ROUTE} from '../components/routes/Vocabolieri'
+import {PersonLayout} from '../components/routes/PersonLayout'
 import {Page404} from '../Page404'
-import Dashboard, {DASHBOARD_ROUTE} from '../routes/Dashboard'
+import Dashboard, {DASHBOARD_ROUTE} from '../components/routes/Dashboard'
 import LoadingScreen from '../components/common/LoadingScreen'
 import Frettolangelo from '../components/games/Frettolangelo'
-import Games, {GAMES_ROUTE} from '../routes/Games'
+import Games, {GAMES_ROUTE} from '../components/routes/Games'
 
 export const defaultRouter = createBrowserRouter([
     {

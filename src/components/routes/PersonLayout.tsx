@@ -1,15 +1,15 @@
 import React, {useEffect, useState} from 'react'
 import {useParams} from 'react-router-dom'
-import {RDFStore} from '../rdf/RDFStore'
-import {vocang} from '../rdf/prefixes'
-import Wrapper from '../components/common/story/Wrapper'
-import {Person} from '../rdf/types/Person'
-import ConditionalComponent from '../components/common/conditional/ConditionalComponent'
-import {NamedSection} from '../components/common/NamedSection'
-import {List} from '../components/common/List'
+import {RDFStore} from '../../rdf/RDFStore'
+import {vocang} from '../../rdf/prefixes'
+import Wrapper from '../common/story/Wrapper'
+import {Person} from '../../rdf/types/Person'
+import ConditionalComponent from '../common/conditional/ConditionalComponent'
+import {NamedSection} from '../common/NamedSection'
+import {List} from '../common/List'
 import {PAROLANGELO_ROUTE} from './Parolangelo'
 import {VOCABOLIERI_ROUTE} from './Vocabolieri'
-import InnerWrapper from '../components/common/story/InnerWrapper'
+import InnerWrapper from '../common/story/InnerWrapper'
 
 export function PersonLayout() {
 

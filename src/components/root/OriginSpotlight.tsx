@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom'
-import {PAROLANGELO_ROUTE} from '../../routes/Parolangelo'
+import {PAROLANGELO_ROUTE} from '../routes/Parolangelo'
 import Spotlight from '../common/story/Spotlight'
 
 export default function OriginSpotlight() {

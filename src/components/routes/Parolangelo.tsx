@@ -1,11 +1,11 @@
 import React, {useEffect, useState} from 'react'
-import {Concept} from '../rdf/types/Concept'
-import {vocang} from '../rdf/prefixes'
-import '../rdf/extensions/namedNodeExtensions'
-import Wrapper from '../components/common/story/Wrapper'
-import {AlphabeticList} from '../components/common/AlphabeticList'
-import SearchBar from '../components/common/SearchBar'
-import InnerWrapper from '../components/common/story/InnerWrapper'
+import {Concept} from '../../rdf/types/Concept'
+import {vocang} from '../../rdf/prefixes'
+import '../../rdf/extensions/namedNodeExtensions'
+import Wrapper from '../common/story/Wrapper'
+import {AlphabeticList} from '../common/AlphabeticList'
+import SearchBar from '../common/SearchBar'
+import InnerWrapper from '../common/story/InnerWrapper'
 
 export const PAROLANGELO_ROUTE = '/parolangelo'
 

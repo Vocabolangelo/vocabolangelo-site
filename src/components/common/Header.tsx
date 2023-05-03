@@ -1,10 +1,10 @@
 import {Link} from 'react-router-dom'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import { faHome, faBook, faFeather, faBarChart, faGamepad } from '@fortawesome/free-solid-svg-icons'
-import {DASHBOARD_ROUTE} from '../../routes/Dashboard'
-import {VOCABOLIERI_ROUTE} from '../../routes/Vocabolieri'
-import {PAROLANGELO_ROUTE} from '../../routes/Parolangelo'
-import {GAMES_ROUTE} from '../../routes/Games'
+import {DASHBOARD_ROUTE} from '../routes/Dashboard'
+import {VOCABOLIERI_ROUTE} from '../routes/Vocabolieri'
+import {PAROLANGELO_ROUTE} from '../routes/Parolangelo'
+import {GAMES_ROUTE} from '../routes/Games'
 export default function Header() {
     return <header style={{backgroundColor: 'black'}} className="is-preload">
         <div id="wrapper" className="divided">

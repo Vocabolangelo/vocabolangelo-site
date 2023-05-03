@@ -1,6 +1,6 @@
 import {useEffect, useState} from 'react'
 import {Concept} from '../../rdf/types/Concept'
-import {PAROLANGELO_ROUTE} from '../../routes/Parolangelo'
+import {PAROLANGELO_ROUTE} from '../routes/Parolangelo'
 import {Link} from 'react-router-dom'
 import Spotlight from '../common/story/Spotlight'
 

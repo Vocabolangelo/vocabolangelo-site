@@ -1,7 +1,7 @@
 import {useEffect, useState} from 'react'
 import {Person} from '../../rdf/types/Person'
 import {Link} from 'react-router-dom'
-import {PAROLANGELO_ROUTE} from '../../routes/Parolangelo'
+import {PAROLANGELO_ROUTE} from '../routes/Parolangelo'
 import Spotlight from '../common/story/Spotlight'
 
 /**

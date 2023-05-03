@@ -1,14 +1,14 @@
 import React, {useEffect, useState} from 'react'
-import {NamedSection} from '../components/common/NamedSection'
+import {NamedSection} from '../common/NamedSection'
 import {useParams} from 'react-router-dom'
-import {Concept} from '../rdf/types/Concept'
-import {RDFStore} from '../rdf/RDFStore'
-import {vocang} from '../rdf/prefixes'
-import Wrapper from '../components/common/story/Wrapper'
-import {List} from '../components/common/List'
-import {Person} from '../rdf/types/Person'
-import ConditionalComponent from '../components/common/conditional/ConditionalComponent'
-import InnerWrapper from '../components/common/story/InnerWrapper'
+import {Concept} from '../../rdf/types/Concept'
+import {RDFStore} from '../../rdf/RDFStore'
+import {vocang} from '../../rdf/prefixes'
+import Wrapper from '../common/story/Wrapper'
+import {List} from '../common/List'
+import {Person} from '../../rdf/types/Person'
+import ConditionalComponent from '../common/conditional/ConditionalComponent'
+import InnerWrapper from '../common/story/InnerWrapper'
 
 export function ConceptLayout() {
 
