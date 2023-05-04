@@ -9,6 +9,7 @@ import {List} from '../../common/List'
 import {Person} from '../../../rdf/types/Person'
 import ConditionalComponent from '../../common/conditional/ConditionalComponent'
 import InnerWrapper from '../../common/story/InnerWrapper'
+import {DateUtility} from '../../../util/DateUtility'
 
 export function ConceptLayout() {
 
@@ -127,11 +128,13 @@ function Videos(props: ConceptSubLayoutProps){
 }
 
 function Created(props: ConceptSubLayoutProps){
-    return <ConditionalComponent condition={() => props.concept.created !== null}>
-        <NamedSection title={'Data di creazione'}>
-            <p>{props.concept.created}</p>
+    if(props.concept.created !== null) {
+        return <NamedSection title={'Data di creazione'}>
+            <p>{DateUtility.toDateString(new Date(props.concept.created.toString()))}</p>
         </NamedSection>
-    </ConditionalComponent>
+    } else {
+        return <></>
+    }
 }
 
 interface OtherConceptProps {

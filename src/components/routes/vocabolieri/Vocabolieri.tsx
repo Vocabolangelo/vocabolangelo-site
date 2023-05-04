@@ -6,7 +6,6 @@ import SearchBar from '../../common/SearchBar'
 import InnerWrapper from '../../common/story/InnerWrapper'
 import {Link} from 'react-router-dom'
 import {SectionList} from '../../common/SectionList'
-import AlphabetUtility from '../../../util/alphabet'
 import {AlphabeticPersonSectionListHelper} from '../../../classes/SectionListHelper'
 
 export const VOCABOLIERI_ROUTE = '/vocabolieri'
@@ -20,16 +19,17 @@ export default function Vocabolieri(){
     const [searchValue, setSearchValue]= useState<string>('')
 
     useEffect(() => {
-        Person.all().then(people =>
-            setPeople(people.sort(
-                (a, b) => a.lastName.toLowerCase().localeCompare(b.lastName.toLowerCase()))
-            )
-        )
-    }, [])
+        Person.all().then((people) => {
+            setPeople(people.sort((a, b) => helper.compareFn(a, b)))
+        })}, [])
 
     useEffect(() => {
         setVisiblePeople(people.filter(p => searchFilterStrategy(p, searchValue)))
     }, [people, searchValue])
+
+    useEffect(() => {
+        setPeople(people.sort((a, b) => helper.compareFn(a, b)))
+    }, [helper])
 
     function searchFilterStrategy(person: Person, str: string): boolean {
         return person.fullName().toLowerCase().includes(str.toLowerCase())
@@ -45,9 +45,7 @@ export default function Vocabolieri(){
             </header>
             <div className="index align-left">
                 <SectionList
-                    list={AlphabetUtility.alphabet().filter((letter) =>
-                        visiblePeople.find((p) => AlphabetUtility.startsWith(p.lastName, letter)) !== undefined
-                    )}
+                    list={helper.list(visiblePeople)}
                     sectionTitle={(element) => helper.title(element)}
                     sublist={(element) => helper.sublist(visiblePeople, element)}
                     content={(p: Person) =>

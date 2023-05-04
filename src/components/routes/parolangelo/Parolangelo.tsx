@@ -7,8 +7,9 @@ import SearchBar from '../../common/SearchBar'
 import InnerWrapper from '../../common/story/InnerWrapper'
 import {Link} from 'react-router-dom'
 import {SectionList} from '../../common/SectionList'
-import AlphabetUtility from '../../../util/alphabet'
-import {AlphabeticConceptSectionListHelper} from '../../../classes/SectionListHelper'
+import {AlphabeticConceptSectionListHelper, RecentConceptSectionListHelper} from '../../../classes/SectionListHelper'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import {faCalendarDays, faArrowDownAZ} from '@fortawesome/free-solid-svg-icons'
 
 export const PAROLANGELO_ROUTE = '/parolangelo'
 
@@ -21,13 +22,17 @@ export default function Parolangelo() {
 
     useEffect(() => {
         Concept.all().then(nodes => {
-            setConcepts(nodes.sort((a, b) => a.prefLabel.localeCompare(b.prefLabel)))
+            setConcepts(nodes.sort((a, b) => helper.compareFn(a,b)))
         })
     }, [])
 
     useEffect(() => {
         setVisibleConcepts(concepts.filter((c) => searchFilterStrategy(c, searchValue)))
     },[concepts, searchValue])
+
+    useEffect(() => {
+        setConcepts(concepts.sort((a, b) => helper.compareFn(a,b)))
+    },[helper])
 
     function searchFilterStrategy(concept: Concept, str: string): boolean {
         if(str.length > 1) {
@@ -47,12 +52,25 @@ export default function Parolangelo() {
                     o fornire materiale mediatico in grado di arricchire questo archivio.
                 </p>
                 <SearchBar handle={(search: string) => setSearchValue(search)}/>
+                <p></p>
+                <div className="align-center actions">
+                    <div
+                        onClick={() => setHelper(new AlphabeticConceptSectionListHelper())}
+                        className="button"
+                    >
+                        <FontAwesomeIcon size={'lg'} icon={faArrowDownAZ}/>  Alfabetico
+                    </div>
+                    <div
+                        onClick={() => setHelper(new RecentConceptSectionListHelper())}
+                        style={{marginLeft: '1%'}} className="button"
+                    >
+                        <FontAwesomeIcon size={'lg'} icon={faCalendarDays}/>  Recente
+                    </div>
+                </div>
             </header>
             <div className="index align-left">
                 <SectionList
-                    list={AlphabetUtility.alphabet().filter((letter) =>
-                        visibleConcepts.find((c) => AlphabetUtility.startsWith(c.prefLabel, letter)) !== undefined
-                    )}
+                    list={helper.list(visibleConcepts)}
                     sectionTitle={(element) => helper.title(element)}
                     sublist={(element) => helper.sublist(visibleConcepts, element) }
                     content={(c: Concept) =>
