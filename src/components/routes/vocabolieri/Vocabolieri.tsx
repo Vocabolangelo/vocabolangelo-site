@@ -5,6 +5,7 @@ import Wrapper from '../../common/story/Wrapper'
 import {AlphabeticList} from '../../common/AlphabeticList'
 import SearchBar from '../../common/SearchBar'
 import InnerWrapper from '../../common/story/InnerWrapper'
+import {Link} from 'react-router-dom'
 
 export const VOCABOLIERI_ROUTE = '/vocabolieri'
 
@@ -39,8 +40,11 @@ export default function Vocabolieri(){
             <div className="index align-left">
                 <AlphabeticList
                     list={people}
-                    elementContent={person => <p>{person.lastName} {person.firstName}</p>}
-                    elementLink={person => VOCABOLIERI_ROUTE + '/' + person.relativeUri(vocang)}
+                    elementContent={person =>
+                        <Link to={VOCABOLIERI_ROUTE + '/' + person.relativeUri(vocang)}>
+                            <p>{person.lastName} {person.firstName}</p>
+                        </Link>
+                    }
                     searchString={searchValue}
                     searchFilterStrategy={searchFilterStrategy}
                     alphabeticStrategy={alphabeticStrategy}

@@ -6,6 +6,7 @@ import Wrapper from '../../common/story/Wrapper'
 import {AlphabeticList} from '../../common/AlphabeticList'
 import SearchBar from '../../common/SearchBar'
 import InnerWrapper from '../../common/story/InnerWrapper'
+import {Link} from 'react-router-dom'
 
 export const PAROLANGELO_ROUTE = '/parolangelo'
 
@@ -43,8 +44,11 @@ export default function Parolangelo() {
             <div className="index align-left">
                 <AlphabeticList
                     list={concepts}
-                    elementContent={concept => <> {concept.prefLabel} </>}
-                    elementLink={concept => PAROLANGELO_ROUTE + '/' + concept.relativeUri(vocang)}
+                    elementContent={concept =>
+                        <Link to={PAROLANGELO_ROUTE + '/' + concept.relativeUri(vocang)}>
+                            {concept.prefLabel}
+                        </Link>
+                    }
                     searchString={searchValue}
                     searchFilterStrategy={searchFilterStrategy}
                     alphabeticStrategy={alphabeticStrategy}

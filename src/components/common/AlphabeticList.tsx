@@ -22,7 +22,6 @@ export function AlphabeticList<T>(props: AlphabeticListProps<T>) {
                     isOrdered={false}
                     list={subListForLetter(letter)}
                     elementContent={props.elementContent}
-                    elementLink={props.elementLink}
                 />
             </section>
         })}

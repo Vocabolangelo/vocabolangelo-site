@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import {NamedSection} from '../../common/NamedSection'
-import {useParams} from 'react-router-dom'
+import {Link, useParams} from 'react-router-dom'
 import {Concept} from '../../../rdf/types/Concept'
 import {RDFStore} from '../../../rdf/RDFStore'
 import {vocang} from '../../../rdf/prefixes'
@@ -80,8 +80,11 @@ function Creators(props: ConceptSubLayoutProps){
         <List
             isOrdered={false}
             list={props.concept.personCreators().map((node) => new Person(node.node))}
-            elementLink={creator => `/vocabolieri/${creatorId(creator)}`}
-            elementContent={creator => <p>{creator.firstName} {creator.lastName}</p>}
+            elementContent={creator =>
+                <Link to={`/vocabolieri/${creatorId(creator)}`}>
+                    <p>{creator.firstName} {creator.lastName}</p>
+                </Link>
+            }
         />
     </NamedSection>
 }
@@ -143,8 +146,11 @@ function OtherConcept(props: OtherConceptProps){
             <List
                 isOrdered={false}
                 list={props.list}
-                elementLink={concept => `/parolangelo/${conceptId(concept)}`}
-                elementContent={concept => <p>{concept.prefLabel}</p>}
+                elementContent={concept =>
+                    <Link to={`/parolangelo/${conceptId(concept)}`}>
+                        <p>{concept.prefLabel}</p>
+                    </Link>
+                }
             />
         </NamedSection>
     </ConditionalComponent>

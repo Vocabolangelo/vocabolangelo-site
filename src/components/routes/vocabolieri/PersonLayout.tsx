@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react'
-import {useParams} from 'react-router-dom'
+import {Link, useParams} from 'react-router-dom'
 import {RDFStore} from '../../../rdf/RDFStore'
 import {vocang} from '../../../rdf/prefixes'
 import Wrapper from '../../common/story/Wrapper'
@@ -61,12 +61,13 @@ function Friends(props: PersonSubLayoutProps){
                 list={friends}
                 elementContent={p => {
                     if (p.node.uri !== props.person.node.uri ) {
-                        return <p>{p.fullName(true)}</p>
+                        return <Link to={`${VOCABOLIERI_ROUTE}/${p.node.RelativeUri(vocang)}`}>
+                            <p>{p.fullName(true)}</p>
+                        </Link>
                     } else {
                         return <></>
                     }
                 }}
-                elementLink={p =>`${VOCABOLIERI_ROUTE}/${p.node.RelativeUri(vocang)}`}
             />
         </NamedSection>
     </ConditionalComponent>
@@ -80,8 +81,11 @@ function Partners(props: PersonSubLayoutProps){
             <List
                 isOrdered={false}
                 list={partners}
-                elementContent={p => <p>{p.fullName()}</p>}
-                elementLink={p =>`${VOCABOLIERI_ROUTE}/${p.node.RelativeUri(vocang)}`}
+                elementContent={p =>
+                    <Link to={`${VOCABOLIERI_ROUTE}/${p.node.RelativeUri(vocang)}`}>
+                        <p>{p.fullName()}</p>
+                    </Link>
+                }
             />
         </NamedSection>
     </ConditionalComponent>
@@ -96,8 +100,11 @@ function ConceptsCreated(props: PersonSubLayoutProps){
             <List
                 isOrdered={false}
                 list={concepts}
-                elementContent={c => <p>{c.prefLabel}</p>}
-                elementLink={c =>`${PAROLANGELO_ROUTE}/${c.node.RelativeUri(vocang)}`}
+                elementContent={c =>
+                    <Link to={`${PAROLANGELO_ROUTE}/${c.node.RelativeUri(vocang)}`}>
+                        <p>{c.prefLabel}</p>
+                    </Link>
+                }
             />
         </NamedSection>
     </ConditionalComponent>
