@@ -22,6 +22,10 @@ export class Person extends RDFNamedNode {
      */
     private readonly _nick: string | null
     /**
+     * Mapping of http://xmlns.com/foaf/0.1/gender.
+     */
+    private readonly _gender: string
+    /**
      * Mapping of https://schema.org/image.
      */
     private readonly _images: string[]
@@ -37,6 +41,9 @@ export class Person extends RDFNamedNode {
             `foaf:lastName can not be null for node ${node.uri}`
         )
         this._nick = RDFStore.store.MapAnyToValue(new RDFTriple(node, foaf.namespace('nick'), undefined))
+        this._gender = requireNotNull(
+            RDFStore.store.MapAnyToValue(new RDFTriple(node, foaf.namespace('gender'), undefined))
+        )
         this._images = RDFStore.store.MapEachToValue(new RDFTriple(node, schema.namespace('image'), undefined))
     }
 
@@ -58,6 +65,10 @@ export class Person extends RDFNamedNode {
 
     public get nick(): string | null {
         return this._nick
+    }
+
+    public get gender(): string {
+        return this._gender
     }
 
     public get images(): string[] {
