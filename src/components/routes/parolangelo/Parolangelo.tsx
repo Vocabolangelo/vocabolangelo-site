@@ -8,6 +8,7 @@ import InnerWrapper from '../../common/story/InnerWrapper'
 import {Link} from 'react-router-dom'
 import {SectionList} from '../../common/SectionList'
 import AlphabetUtility from '../../../util/alphabet'
+import {AlphabeticConceptSectionListHelper} from '../../../classes/SectionListHelper'
 
 export const PAROLANGELO_ROUTE = '/parolangelo'
 
@@ -15,6 +16,7 @@ export default function Parolangelo() {
 
     const [concepts, setConcepts] = useState<Concept[]>([])
     const [visibleConcepts, setVisibleConcepts] = useState<Concept[]>([])
+    const [helper, setHelper] = useState(new AlphabeticConceptSectionListHelper())
     const [searchValue, setSearchValue]= useState<string>('')
 
     useEffect(() => {
@@ -51,11 +53,9 @@ export default function Parolangelo() {
                     list={AlphabetUtility.alphabet().filter((letter) =>
                         visibleConcepts.find((c) => AlphabetUtility.startsWith(c.prefLabel, letter)) !== undefined
                     )}
-                    sectionTitle={(letter) => letter.toUpperCase()}
-                    subListFromElement={(letter) => visibleConcepts.filter(
-                        (c) => AlphabetUtility.startsWith(c.prefLabel, letter)
-                    )}
-                    subListElementToContent={(c: Concept) =>
+                    sectionTitle={(element) => helper.title(element)}
+                    sublist={(element) => helper.sublist(visibleConcepts, element) }
+                    content={(c: Concept) =>
                         <Link to={`${PAROLANGELO_ROUTE}/${c.relativeUri(vocang)}`}>
                             <p> {c.prefLabel} </p>
                         </Link>

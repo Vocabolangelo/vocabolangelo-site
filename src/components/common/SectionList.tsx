@@ -1,12 +1,6 @@
 import {List} from './List'
 import React from 'react'
-
-interface SectionListProps<T, S> {
-    list: T[]
-    sectionTitle: (element: T) => string
-    subListFromElement: (element: T) => S[]
-    subListElementToContent: (element: S) => JSX.Element
-}
+import SectionListProps from '../props/SectionListProps'
 
 export function SectionList<T, S>(props: SectionListProps<T, S>) {
 
@@ -16,8 +10,8 @@ export function SectionList<T, S>(props: SectionListProps<T, S>) {
                 <header><h2>{props.sectionTitle(element)}</h2></header>
                 <List
                     isOrdered={false}
-                    list={props.subListFromElement(element)}
-                    elementContent={props.subListElementToContent}
+                    list={props.sublist(element)}
+                    elementContent={props.content}
                 />
             </section>
         })}

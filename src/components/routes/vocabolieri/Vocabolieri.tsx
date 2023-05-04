@@ -7,12 +7,14 @@ import InnerWrapper from '../../common/story/InnerWrapper'
 import {Link} from 'react-router-dom'
 import {SectionList} from '../../common/SectionList'
 import AlphabetUtility from '../../../util/alphabet'
+import {AlphabeticPersonSectionListHelper} from '../../../classes/SectionListHelper'
 
 export const VOCABOLIERI_ROUTE = '/vocabolieri'
 
 export default function Vocabolieri(){
 
     const noPeople: Person[] = []
+    const [helper, setHelper] = useState(new AlphabeticPersonSectionListHelper())
     const [people, setPeople] = useState(noPeople)
     const [visiblePeople, setVisiblePeople] = useState(noPeople)
     const [searchValue, setSearchValue]= useState<string>('')
@@ -46,11 +48,9 @@ export default function Vocabolieri(){
                     list={AlphabetUtility.alphabet().filter((letter) =>
                         visiblePeople.find((p) => AlphabetUtility.startsWith(p.lastName, letter)) !== undefined
                     )}
-                    sectionTitle={(letter) => letter.toUpperCase()}
-                    subListFromElement={(letter) => visiblePeople.filter(
-                        (p) => AlphabetUtility.startsWith(p.lastName, letter)
-                    )}
-                    subListElementToContent={(p: Person) =>
+                    sectionTitle={(element) => helper.title(element)}
+                    sublist={(element) => helper.sublist(visiblePeople, element)}
+                    content={(p: Person) =>
                         <Link to={`${VOCABOLIERI_ROUTE}/${p.relativeUri(vocang)}`}>
                             <p> {p.fullName(true)} </p>
                         </Link>}
