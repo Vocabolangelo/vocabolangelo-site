@@ -104,6 +104,7 @@ vocang:timpanoSam
     foaf:firstName "Sam" ;
     foaf:lastName "Timpano" ;
     foaf:nick "Sam" ;
+    foaf:gender "non-binary" ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/timpanoSam.jpg" ;
     rel:friendOf vocang:salhiSamir, vocang:ribaudoSofia .
 
