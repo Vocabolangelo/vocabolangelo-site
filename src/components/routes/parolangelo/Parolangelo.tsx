@@ -3,33 +3,36 @@ import {Concept} from '../../../rdf/types/Concept'
 import {vocang} from '../../../rdf/prefixes'
 import '../../../rdf/extensions/namedNodeExtensions'
 import Wrapper from '../../common/story/Wrapper'
-import {AlphabeticList} from '../../common/AlphabeticList'
 import SearchBar from '../../common/SearchBar'
 import InnerWrapper from '../../common/story/InnerWrapper'
 import {Link} from 'react-router-dom'
 import {SectionList} from '../../common/SectionList'
-import {alphabet} from '../../../util/alphabet'
+import AlphabetUtility from '../../../util/alphabet'
 
 export const PAROLANGELO_ROUTE = '/parolangelo'
 
 export default function Parolangelo() {
 
     const [concepts, setConcepts] = useState<Concept[]>([])
+    const [visibleConcepts, setVisibleConcepts] = useState<Concept[]>([])
     const [searchValue, setSearchValue]= useState<string>('')
+
     useEffect(() => {
         Concept.all().then(nodes => {
             setConcepts(nodes.sort((a, b) => a.prefLabel.localeCompare(b.prefLabel)))
         })
     }, [])
 
-    function alphabeticStrategy(concept: Concept, letter: string){
-        return concept.prefLabel.charAt(0).toLowerCase() === letter
-    }
+    useEffect(() => {
+        setVisibleConcepts(concepts.filter((c) => searchFilterStrategy(c, searchValue)))
+    },[concepts, searchValue])
 
     function searchFilterStrategy(concept: Concept, str: string): boolean {
-        const strLowerCase = str.toLowerCase()
-        return concept.prefLabel.toLowerCase().includes(strLowerCase) ||
-            concept.definitions.find(d => d.toLowerCase().includes(strLowerCase)) !== undefined
+        if(str.length > 1) {
+            return concept.prefLabel.toLowerCase().includes(str.toLowerCase()) ||
+                concept.definitions.find(d => d.toLowerCase().includes(str.toLowerCase())) !== undefined
+        }
+        return true
     }
 
     return <Wrapper>
@@ -45,18 +48,19 @@ export default function Parolangelo() {
             </header>
             <div className="index align-left">
                 <SectionList
-                    isOrdered={false}
-                    list={alphabet}
+                    list={AlphabetUtility.alphabet().filter((letter) =>
+                        visibleConcepts.find((c) => AlphabetUtility.startsWith(c.prefLabel, letter)) !== undefined
+                    )}
                     sectionTitle={(letter) => letter.toUpperCase()}
-                    subListFromElement={(letter) => concepts.filter(
-                        (c) => c.prefLabel.toLowerCase().startsWith(letter.toLowerCase())
+                    subListFromElement={(letter) => visibleConcepts.filter(
+                        (c) => AlphabetUtility.startsWith(c.prefLabel, letter)
                     )}
                     subListElementToContent={(c: Concept) =>
                         <Link to={`${PAROLANGELO_ROUTE}/${c.relativeUri(vocang)}`}>
                             <p> {c.prefLabel} </p>
                         </Link>
                     }
-                    elementContent={() => <></>}/>
+                />
             </div>
         </InnerWrapper>
     </Wrapper>

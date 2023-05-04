@@ -1,8 +1,8 @@
 import {List} from './List'
 import React from 'react'
-import IsOrderedListProps from '../props/IsOrderedListProps'
 
-interface SectionListProps<T, S> extends IsOrderedListProps<T>{
+interface SectionListProps<T, S> {
+    list: T[]
     sectionTitle: (element: T) => string
     subListFromElement: (element: T) => S[]
     subListElementToContent: (element: S) => JSX.Element
