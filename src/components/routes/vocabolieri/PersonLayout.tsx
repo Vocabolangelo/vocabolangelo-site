@@ -35,6 +35,7 @@ export function PersonLayout() {
                 </header>
                 <div className="index align-left">
                     <Images person={person}/>
+                    <Gender person={person}/>
                     <Contribution person={person}/>
                     <Friends person={person}/>
                     <Partners person={person}/>
@@ -48,6 +49,23 @@ export function PersonLayout() {
 }
 interface PersonSubLayoutProps {
     person: Person
+}
+
+function Gender(props: PersonSubLayoutProps){
+    const gender = props.person.gender
+    function genderString(g: string): string {
+        if (g === 'male') {
+            return 'Maschile'
+        } else if (g === 'female') {
+            return 'Femminile'
+        } else {
+            return 'Non binario'
+        }
+    }
+
+    return <NamedSection title={'Genere'}>
+        <p>{genderString(gender)}</p>
+    </NamedSection>
 }
 
 function Friends(props: PersonSubLayoutProps){
