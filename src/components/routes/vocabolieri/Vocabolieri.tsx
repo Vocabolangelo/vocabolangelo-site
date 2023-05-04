@@ -6,7 +6,9 @@ import SearchBar from '../../common/SearchBar'
 import InnerWrapper from '../../common/story/InnerWrapper'
 import {Link} from 'react-router-dom'
 import {SectionList} from '../../common/SectionList'
-import {AlphabeticPersonSectionListHelper} from '../../../classes/SectionListHelper'
+import {AlphabeticPersonSectionListHelper, GenderPersonSectionListHelper} from '../../../classes/SectionListHelper'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import {faArrowDownAZ, faVenusMars} from '@fortawesome/free-solid-svg-icons'
 
 export const VOCABOLIERI_ROUTE = '/vocabolieri'
 
@@ -42,6 +44,21 @@ export default function Vocabolieri(){
                 <p> Ogni Vocaboliere ha inventato almeno una Parolangelo in tutto l&apos;arco della sua vita. </p>
                 <p> Non è ancora stato dimostrato che inventare parolangelo allunghi la vita ma ci stiamo lavorando.</p>
                 <SearchBar handle={(search) => setSearchValue(search)}/>
+                <p></p>
+                <div className="align-center actions">
+                    <div
+                        onClick={() => setHelper(new AlphabeticPersonSectionListHelper())}
+                        className="button"
+                    >
+                        <FontAwesomeIcon size={'lg'} icon={faArrowDownAZ}/>  Alfabetico
+                    </div>
+                    <div
+                        onClick={() => setHelper(new GenderPersonSectionListHelper())}
+                        style={{marginLeft: '1%'}} className="button"
+                    >
+                        <FontAwesomeIcon size={'lg'} icon={faVenusMars}/>  Genere
+                    </div>
+                </div>
             </header>
             <div className="index align-left">
                 <SectionList

@@ -112,3 +112,28 @@ export class AlphabeticPersonSectionListHelper implements SectionListHelper<stri
         return a.lastName.toLowerCase().localeCompare(b.lastName.toLowerCase())
     }
 }
+
+export class GenderPersonSectionListHelper implements SectionListHelper<string, Person>{
+
+    possibleGenders = ['male', 'female', 'non-binary']
+
+    list(elements: Person[]): string[] {
+        return this.possibleGenders.filter((gender) =>
+            elements.find((p) => p.gender === gender)
+        )
+    }
+
+    title(element: string): string {
+        return Person.genderString(element)
+    }
+
+    sublist(list: Person[], element: string): Person[] {
+        return list.filter(
+            (p) => p.gender === element
+        )
+    }
+
+    compareFn(a: Person, b: Person): number {
+        return this.possibleGenders.indexOf(a.gender) - this.possibleGenders.indexOf(b.gender)
+    }
+}

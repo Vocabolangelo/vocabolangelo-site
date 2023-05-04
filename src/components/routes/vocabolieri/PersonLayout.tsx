@@ -53,18 +53,8 @@ interface PersonSubLayoutProps {
 
 function Gender(props: PersonSubLayoutProps){
     const gender = props.person.gender
-    function genderString(g: string): string {
-        if (g === 'male') {
-            return 'Maschile'
-        } else if (g === 'female') {
-            return 'Femminile'
-        } else {
-            return 'Non binario'
-        }
-    }
-
     return <NamedSection title={'Genere'}>
-        <p>{genderString(gender)}</p>
+        <p>{Person.genderString(gender)}</p>
     </NamedSection>
 }
 

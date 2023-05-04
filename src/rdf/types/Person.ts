@@ -71,6 +71,16 @@ export class Person extends RDFNamedNode {
         return this._gender
     }
 
+    static genderString(g: string): string {
+        if (g === 'male') {
+            return 'Maschile'
+        } else if (g === 'female') {
+            return 'Femminile'
+        } else {
+            return 'Non binario'
+        }
+    }
+
     public get images(): string[] {
         return this._images
     }
