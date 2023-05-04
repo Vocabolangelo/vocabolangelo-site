@@ -1,0 +1,1 @@
+export const alphabet: string[] = 'abcdefghijklmnopqrstuvwxyz'.split('')

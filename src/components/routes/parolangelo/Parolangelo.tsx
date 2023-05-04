@@ -7,6 +7,8 @@ import {AlphabeticList} from '../../common/AlphabeticList'
 import SearchBar from '../../common/SearchBar'
 import InnerWrapper from '../../common/story/InnerWrapper'
 import {Link} from 'react-router-dom'
+import {SectionList} from '../../common/SectionList'
+import {alphabet} from '../../../util/alphabet'
 
 export const PAROLANGELO_ROUTE = '/parolangelo'
 
@@ -42,17 +44,19 @@ export default function Parolangelo() {
                 <SearchBar handle={(search: string) => setSearchValue(search)}/>
             </header>
             <div className="index align-left">
-                <AlphabeticList
-                    list={concepts}
-                    elementContent={concept =>
-                        <Link to={PAROLANGELO_ROUTE + '/' + concept.relativeUri(vocang)}>
-                            {concept.prefLabel}
+                <SectionList
+                    isOrdered={false}
+                    list={alphabet}
+                    sectionTitle={(letter) => letter.toUpperCase()}
+                    subListFromElement={(letter) => concepts.filter(
+                        (c) => c.prefLabel.toLowerCase().startsWith(letter.toLowerCase())
+                    )}
+                    subListElementToContent={(c: Concept) =>
+                        <Link to={`${PAROLANGELO_ROUTE}/${c.relativeUri(vocang)}`}>
+                            <p> {c.prefLabel} </p>
                         </Link>
                     }
-                    searchString={searchValue}
-                    searchFilterStrategy={searchFilterStrategy}
-                    alphabeticStrategy={alphabeticStrategy}
-                />
+                    elementContent={() => <></>}/>
             </div>
         </InnerWrapper>
     </Wrapper>

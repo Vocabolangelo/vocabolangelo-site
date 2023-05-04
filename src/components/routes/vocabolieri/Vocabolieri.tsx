@@ -45,8 +45,6 @@ export default function Vocabolieri(){
                             <p>{person.lastName} {person.firstName}</p>
                         </Link>
                     }
-                    searchString={searchValue}
-                    searchFilterStrategy={searchFilterStrategy}
                     alphabeticStrategy={alphabeticStrategy}
                 />
             </div>

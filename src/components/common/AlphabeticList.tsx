@@ -8,10 +8,6 @@ export function AlphabeticList<T>(props: AlphabeticListProps<T>) {
     function subListForLetter(letter: string): T[] {
         return props.list
             .filter(obj => props.alphabeticStrategy(obj, letter))
-            .filter(obj => props.searchFilterStrategy !== undefined && props.searchString !== undefined
-                ? props.searchFilterStrategy(obj, props.searchString)
-                : true
-            )
     }
 
     return <>
