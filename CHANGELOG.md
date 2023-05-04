@@ -1,5 +1,32 @@
 # Changelog
 
+## [5.6.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v5.5.1...v5.6.0) (2023-05-04)
+
+
+### Features
+
+* **concept:** add bragatto ([249fac0](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/249fac0d825e330e06c0a38ccdb3149c6311af28))
+* **concept:** add bufferingo ([f04071f](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/f04071fff0b9372a666366b71ffca11f303ca0f2))
+* **concept:** add dickerfile ([3e8c8a3](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/3e8c8a3f27e011e0c2bae3a0b3ec97e1826758f2))
+* **concept:** add domio ([0084f34](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/0084f3451e799c9e0c029945419b46ee64beafad))
+* **concept:** add scemicio, change omnicio definition ([24751f5](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/24751f5e9e3f38ad90666ad8bf647c67158a8239))
+* **concept:** add sottodomio ([cf2a9a3](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/cf2a9a3b9d5833d2329908c9088e09ef30d54b36))
+* **person:** add genders ([634e9d6](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/634e9d6e730ecfe18542ad85ca5e342e741c2fde))
+* **person:** add non-binary gender ([c698a17](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/c698a17aca5393111d48cea4f6dba16c29c2bb3c))
+* **site:** add gender method to Person class ([c80f616](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/c80f6166cfb8028c34c91901e82d4f4bec937d43))
+* **site:** add gender section to Vocaboliere page ([7190c75](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/7190c75a5111f43b5ca7b8e7004829d948e1fd37))
+* **site:** add gender statistic to dashboard ([59244ea](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/59244ea8e9c80a5e3ad1ee940ce1edf7f5cae89a))
+* **site:** add SectionList helpers ([580895c](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/580895cbd1dfaa74e0dbc1c7c1588301564331ea))
+* **site:** add sort choice in parolangelo page ([ac36207](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/ac36207dd177573482bfa74fef42874b2e6ac552))
+* **site:** change ofType return type to RDFNamedNode ([e596547](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/e596547f5f0cf944ae244ecc74517fc82daac615))
+
+
+### Bug Fixes
+
+* **concept:** fix addiato definition ([c9ea913](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/c9ea913e9fb3df4a4f8af5dadc2229ca57168807))
+* **site:** created date only displaying if available ([c19a1a4](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/c19a1a4156bc145b3fd3d761b55c8b18cb032224))
+* **site:** synonims and related displaying correctly ([c46c5f8](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/c46c5f8937f76aca88e6434f86d2ba68ff5e1497))
+
 ## [5.5.1](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v5.5.0...v5.5.1) (2023-05-01)
 
 
