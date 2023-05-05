@@ -4412,6 +4412,42 @@
 <http://www.vocabolangelo.org/bragatto> <http://purl.org/dc/terms/created> "2023-04-27" .
 <http://www.vocabolangelo.org/bragatto> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
 <http://www.vocabolangelo.org/bragatto> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
+<http://www.vocabolangelo.org/lemal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/lemal> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lemal"@it .
+<http://www.vocabolangelo.org/lemal> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/le • màl/"@it .
+<http://www.vocabolangelo.org/lemal> <http://www.w3.org/2004/02/skos/core#definition> "Termine utilizzato come esclamazione per indicare una situazione dolorosa ma anche molto buffa e divertente."@it .
+<http://www.vocabolangelo.org/lemal> <http://www.w3.org/2004/02/skos/core#example> "Sono appena andato a sbattere contro una porta vetrata, lemal."@it .
+<http://www.vocabolangelo.org/lemal> <http://purl.org/dc/terms/created> "2023-04-27" .
+<http://www.vocabolangelo.org/lemal> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/bragariAlexandru> .
+<http://www.vocabolangelo.org/sessorround> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/sessorround> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sessorround"@it .
+<http://www.vocabolangelo.org/sessorround> <http://www.w3.org/2004/02/skos/core#definition> "Impianto surround appositamente progettato per offrire un'esperienza sonora di alta qualità durante la riproduzione di contenuti di natura sessuale o pornografica."@it .
+<http://www.vocabolangelo.org/sessorround> <http://www.w3.org/2004/02/skos/core#example> "Se sei un appassionato di film per adulti, ti consiglio di provare il sessorround: potrai godere di una qualità audio eccellente e immergerti completamente nella tua esperienza di visione preferita."@it .
+<http://www.vocabolangelo.org/sessorround> <http://purl.org/dc/terms/created> "2023-05-04" .
+<http://www.vocabolangelo.org/sessorround> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/minoccheriAlessandra> .
+<http://www.vocabolangelo.org/sessorround> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/bianchiniGiovanni> .
+<http://www.vocabolangelo.org/coccoletto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/coccoletto> <http://www.w3.org/2004/02/skos/core#prefLabel> "Coccoletto"@it .
+<http://www.vocabolangelo.org/coccoletto> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/coc • co • lèt • to/"@it .
+<http://www.vocabolangelo.org/coccoletto> <http://www.w3.org/2004/02/skos/core#definition> "Le effusioni affettuose e non a sfondo sessuale che avvengono in un letto tra due o più persone."@it .
+<http://www.vocabolangelo.org/coccoletto> <http://www.w3.org/2004/02/skos/core#example> "Mario è un vero coccolone: gli piace trascorrere ore a letto a scambiare coccoletto con la sua partner."@it .
+<http://www.vocabolangelo.org/coccoletto> <http://purl.org/dc/terms/created> "2023-04-28" .
+<http://www.vocabolangelo.org/coccoletto> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/minoccheriAlessandra> .
+<http://www.vocabolangelo.org/kebalmino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/kebalmino> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kabalmino"@it .
+<http://www.vocabolangelo.org/kebalmino> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/ke • bal • mì • no/"@it .
+<http://www.vocabolangelo.org/kebalmino> <http://www.w3.org/2004/02/skos/core#definition> "La consuetudine di gustare un kebab prima o dopo aver guardato un film con amici, o anche da soli."@it .
+<http://www.vocabolangelo.org/kebalmino> <http://www.w3.org/2004/02/skos/core#example> "Dai ragazzi, stasera tranquilli, organizziamo un bel kebalmino e andiamo a casa!"@it .
+<http://www.vocabolangelo.org/kebalmino> <http://purl.org/dc/terms/created> "2023-04-27" .
+<http://www.vocabolangelo.org/kebalmino> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/ribaudoSofia> .
+<http://www.vocabolangelo.org/piedotonda> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/piedotonda> <http://www.w3.org/2004/02/skos/core#prefLabel> "Piedotonda"@it .
+<http://www.vocabolangelo.org/piedotonda> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/pie • do • tón • da/"@it .
+<http://www.vocabolangelo.org/piedotonda> <http://www.w3.org/2004/02/skos/core#definition> "Struttura circolare costruita specificatamente per regolare il flusso pedonale in incroci stradali particolarmente trafficati o pericolosi."@it .
+<http://www.vocabolangelo.org/piedotonda> <http://www.w3.org/2004/02/skos/core#example> "Per migliorare la sicurezza degli attraversamenti pedonali in quella zona, il comune ha deciso di installare una piedotonda all'incrocio tra via Roma e via Garibaldi."@it .
+<http://www.vocabolangelo.org/piedotonda> <http://purl.org/dc/terms/created> "2023-04-23" .
+<http://www.vocabolangelo.org/piedotonda> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/rosatelliAnna> .
+<http://www.vocabolangelo.org/piedotonda> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/suscaMatteo> .
 <http://www.vocabolangelo.org/noonare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/fregola> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/tardivare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -4817,6 +4853,7 @@
 <http://www.vocabolangelo.org/svenimenzione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/coscista> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/cosciofono> .
 <http://www.vocabolangelo.org/coscista> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/coccoletto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/pistaggio> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/pistacchiamento> .
 <http://www.vocabolangelo.org/pistaggio> <http://rdfs.org/scot/ns#synonym> <http://www.vocabolangelo.org/pistacchiamento> .
 <http://www.vocabolangelo.org/pistaggio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -5082,6 +5119,7 @@
 <http://www.vocabolangelo.org/caratterrore> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/bugture> .
 <http://www.vocabolangelo.org/caratterrore> <http://rdfs.org/scot/ns#synonym> <http://www.vocabolangelo.org/bugture> .
 <http://www.vocabolangelo.org/caratterrore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/sessorround> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/avodandolo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/vocabolangelare> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/parolangelo> .
 <http://www.vocabolangelo.org/vocabolangelare> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboladmin> .
@@ -5099,6 +5137,7 @@
 <http://www.vocabolangelo.org/origasmo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/fiorigami> .
 <http://www.vocabolangelo.org/origasmo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/bouquerigami> .
 <http://www.vocabolangelo.org/origasmo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/lemal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/vocangelare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/buonana> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/risottimo> .
 <http://www.vocabolangelo.org/buonana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -5122,6 +5161,7 @@
 <http://www.vocabolangelo.org/vuovo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/peneroncino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/oltatto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/piedotonda> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/froggia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/pergamela> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/mucchiotto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -5297,6 +5337,7 @@
 <http://www.vocabolangelo.org/bewolla> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/insalamix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/falconafrica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/kebalmino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/bibiribì> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/biribì> .
 <http://www.vocabolangelo.org/bibiribì> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/cappuccido> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
