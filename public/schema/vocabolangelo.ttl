@@ -5154,7 +5154,6 @@ vocang:sessorround
     dct:created "2023-05-04" ;
     dct:creator vocang:minoccheriAlessandra, vocang:bianchiniGiovanni .
 
-
 vocang:coccoletto
     a skos:Concept ;
     skos:prefLabel "Coccoletto"@it ;
@@ -5163,3 +5162,12 @@ vocang:coccoletto
     skos:example "Mario è un vero coccolone: gli piace trascorrere ore a letto a scambiare coccoletto con la sua partner."@it ;
     dct:created "2023-04-28" ;
     dct:creator vocang:minoccheriAlessandra .
+
+vocang:kebalmino
+    a skos:Concept ;
+    skos:prefLabel "Kabalmino"@it ;
+    lexinfo:pronunciation "/ke • bal • mì • no/"@it ;
+    skos:definition "La consuetudine di gustare un kebab prima o dopo aver guardato un film con amici, o anche da soli."@it ;
+    skos:example "Dai ragazzi, stasera tranquilli, organizziamo un bel kebalmino e andiamo a casa!"@it ;
+    dct:created "2023-04-27" ;
+    dct:creator vocang:ribaudoSofia .
