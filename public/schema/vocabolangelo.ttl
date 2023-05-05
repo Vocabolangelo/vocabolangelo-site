@@ -5171,3 +5171,12 @@ vocang:kebalmino
     skos:example "Dai ragazzi, stasera tranquilli, organizziamo un bel kebalmino e andiamo a casa!"@it ;
     dct:created "2023-04-27" ;
     dct:creator vocang:ribaudoSofia .
+
+vocang:piedotonda
+    a skos:Concept ;
+    skos:prefLabel "Piedotonda"@it ;
+    lexinfo:pronunciation "/pie • do • tón • da/"@it ;
+    skos:definition "Struttura circolare costruita specificatamente per regolare il flusso pedonale in incroci stradali particolarmente trafficati o pericolosi."@it ;
+    skos:example "Per migliorare la sicurezza degli attraversamenti pedonali in quella zona, il comune ha deciso di installare una piedotonda all'incrocio tra via Roma e via Garibaldi."@it ;
+    dct:created "2023-04-23" ;
+    dct:creator vocang:rosatelliAnna, vocang:suscaMatteo .
