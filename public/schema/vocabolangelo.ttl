@@ -5148,8 +5148,18 @@ vocang:lemal
 
 vocang:sessorround
     a skos:Concept ;
-    skos:prefLabel "Sessorround"@it ;ì
+    skos:prefLabel "Sessorround"@it ;
     skos:definition "Impianto surround appositamente progettato per offrire un'esperienza sonora di alta qualità durante la riproduzione di contenuti di natura sessuale o pornografica."@it ;
     skos:example "Se sei un appassionato di film per adulti, ti consiglio di provare il sessorround: potrai godere di una qualità audio eccellente e immergerti completamente nella tua esperienza di visione preferita."@it ;
     dct:created "2023-05-04" ;
     dct:creator vocang:minoccheriAlessandra, vocang:bianchiniGiovanni .
+
+
+vocang:coccoletto
+    a skos:Concept ;
+    skos:prefLabel "Coccoletto"@it ;
+    lexinfo:pronunciation "/coc • co • lèt • to/"@it ;
+    skos:definition "Le effusioni affettuose e non a sfondo sessuale che avvengono in un letto tra due o più persone."@it ;
+    skos:example "Mario è un vero coccolone: gli piace trascorrere ore a letto a scambiare coccoletto con la sua partner."@it ;
+    dct:created "2023-04-28" ;
+    dct:creator vocang:minoccheriAlessandra .
