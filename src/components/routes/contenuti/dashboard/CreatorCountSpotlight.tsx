@@ -1,8 +1,8 @@
 import {useEffect, useState} from 'react'
-import {Person} from '../../../rdf/types/Person'
+import {Person} from '../../../../rdf/types/Person'
 import {Link} from 'react-router-dom'
-import {PAROLANGELO_ROUTE} from '../parolangelo/Parolangelo'
-import Spotlight from '../../common/story/Spotlight'
+import {PAROLANGELO_ROUTE} from '../../parolangelo/Parolangelo'
+import Spotlight from '../../../common/story/Spotlight'
 
 /**
  * Spotlight that present the number of Vocabolieri in the Vocabolangelo Project.

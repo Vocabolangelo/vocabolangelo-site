@@ -1,12 +1,12 @@
-import {Person} from '../../../rdf/types/Person'
-import {vocang} from '../../../rdf/prefixes'
-import {Concept} from '../../../rdf/types/Concept'
+import {Person} from '../../../../rdf/types/Person'
+import {vocang} from '../../../../rdf/prefixes'
+import {Concept} from '../../../../rdf/types/Concept'
 import {useEffect, useState} from 'react'
-import {decimalFormat} from '../../../util/decimalFormat'
-import PersonProps from '../../props/PersonProps'
+import {decimalFormat} from '../../../../util/decimalFormat'
+import PersonProps from '../../../props/PersonProps'
 import {Link} from 'react-router-dom'
-import {VOCABOLIERI_ROUTE} from '../vocabolieri/Vocabolieri'
-import {RDFNamedNode} from '../../../rdf/RDFNamedNode'
+import {VOCABOLIERI_ROUTE} from '../../vocabolieri/Vocabolieri'
+import {RDFNamedNode} from '../../../../rdf/RDFNamedNode'
 
 export default function LeaderBoard() {
     function absoluteComparator(a:RDFNamedNode, b:RDFNamedNode) {

@@ -1,7 +1,8 @@
 import {Link} from 'react-router-dom'
-import {PAROLANGELO_ROUTE} from '../parolangelo/Parolangelo'
-import {GAMES_ROUTE} from './AngelochiIndex'
-import Spotlight from '../../common/story/Spotlight'
+import {PAROLANGELO_ROUTE} from '../../parolangelo/Parolangelo'
+import {ANGELOCHI_ROUTE} from './AngelochiIndex'
+import Spotlight from '../../../common/story/Spotlight'
+import {CONTENUTI_ROUTE} from '../ContenutiIndex'
 
 export default function FrettolangeloSpotlight() {
     return <Spotlight
@@ -17,7 +18,7 @@ export default function FrettolangeloSpotlight() {
             metterà alla prova la vostra memoria e la vostra capacità di stare sotto pressione.
         </p>
         <div className="actions stacked">
-            <Link to={`${GAMES_ROUTE}/frettolangelo`} className="button"> Gioca </Link>
+            <Link to={`${CONTENUTI_ROUTE}${ANGELOCHI_ROUTE}/frettolangelo`} className="button"> Gioca </Link>
         </div>
     </Spotlight>
 }

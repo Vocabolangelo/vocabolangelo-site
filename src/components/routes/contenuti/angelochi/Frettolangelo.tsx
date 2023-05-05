@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
-import {Concept} from '../../../rdf/types/Concept'
-import {List} from '../../common/List'
-import {Main} from '../../common/Main'
+import {Concept} from '../../../../rdf/types/Concept'
+import {List} from '../../../common/List'
+import {Main} from '../../../common/Main'
 
 /**
  * A concept guessing game with a timer and a final score.

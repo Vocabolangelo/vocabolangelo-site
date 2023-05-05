@@ -10,7 +10,7 @@ export function Page404() {
         <Spotlight
             style={1}
             optionalModifiers={['orient-left', 'content-align-left', 'image-position-center', 'onscroll-image-fade-in']}
-            imageUrl={'images/map.jpg'}
+            imageUrl={'/images/map.jpg'}
             imageAlt={'Mappa e bussola'}
         >
             <h1>404</h1>

@@ -6,10 +6,11 @@ import React from 'react'
 import Vocabolieri, {VOCABOLIERI_ROUTE} from '../components/routes/vocabolieri/Vocabolieri'
 import {PersonLayout} from '../components/routes/vocabolieri/PersonLayout'
 import {Page404} from '../Page404'
-import DashboardIndex, {DASHBOARD_ROUTE} from '../components/routes/dashboard/DashboardIndex'
+import DashboardIndex, {DASHBOARD_ROUTE} from '../components/routes/contenuti/dashboard/DashboardIndex'
 import LoadingScreen from '../components/common/LoadingScreen'
-import Frettolangelo from '../components/routes/angelochi/Frettolangelo'
-import AngelochiIndex, {GAMES_ROUTE} from '../components/routes/angelochi/AngelochiIndex'
+import Frettolangelo from '../components/routes/contenuti/angelochi/Frettolangelo'
+import AngelochiIndex, {ANGELOCHI_ROUTE} from '../components/routes/contenuti/angelochi/AngelochiIndex'
+import ContenutiIndex, {CONTENUTI_ROUTE} from '../components/routes/contenuti/ContenutiIndex'
 
 export const defaultRouter = createBrowserRouter([
     {
@@ -33,15 +34,19 @@ export const defaultRouter = createBrowserRouter([
         element: <PersonLayout />
     },
     {
-        path: DASHBOARD_ROUTE,
+        path: CONTENUTI_ROUTE,
+        element: <ContenutiIndex/>
+    },
+    {
+        path: `${CONTENUTI_ROUTE}${DASHBOARD_ROUTE}`,
         element: <DashboardIndex />
     },
     {
-        path: GAMES_ROUTE,
+        path: `${CONTENUTI_ROUTE}${ANGELOCHI_ROUTE}`,
         element: <AngelochiIndex/>
     },
     {
-        path: `${GAMES_ROUTE}/frettolangelo`,
+        path: `${CONTENUTI_ROUTE}${ANGELOCHI_ROUTE}/frettolangelo`,
         element: <Frettolangelo/>
     },
     {

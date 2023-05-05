@@ -10,7 +10,7 @@ export class DateUtility {
 
     static toDateString(date: Date){
         const d = date.getDate()
-        const m = date.getMonth()
+        const m = date.getMonth() + 1
         return `${date.getFullYear()}-${m < 10 ? '0' + m : m}-${d < 10 ? '0' + d : d}`
     }
 
