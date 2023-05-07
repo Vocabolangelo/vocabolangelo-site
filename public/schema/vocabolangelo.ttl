@@ -5198,3 +5198,11 @@ vocang:branchio
     skos:example "Hai visto il video di Crab Rave? C'è un branchio che balla!"@it, "Ieri sono stato al mare e ho visto un branchio di granchi che facevano una festa sulla spiaggia. Avevano allestito una discoteca sotto una conchiglia, con un DJ gamberetto che mixava musica per tutti i gusti. C'erano granchi che ballavano il cha-cha-cha, altri che facevano il tuffo dalla scogliera, e uno che aveva addirittura portato un ombrellone per proteggersi dal sole. Sono rimasto affascinato da quella comunità di crostacei così simpatici e ben organizzati, che sembravano quasi umani. Mi è venuta voglia di unirmi al loro branchio, ma ho temuto di fare una brutta figura con i miei movimenti goffi da uomo sulla sabbia."@it ;
     dct:created "2023-05-06" ;
     dct:creator vocang:suscaMatteo .
+
+vocang:alquol
+    a skos:Concept ;
+    skos:prefLabel "Alquol"@it ;
+    skos:definition "Alcol molto annacquato."@it, "Acqua corretta con dell'alcol."@it ;
+    skos:example "Ho chiesto un drink, ma era così annacquato che sembrava solo acqua. Alla fine ho capito che l'Alcquol era più forte di quanto pensassi. Risultato? Sono caduto per strada. Meglio evitare l'Alcquol!"@it ;
+    dct:created "2023-05-06" ;
+    dct:creator vocang:omiccioliRiccardo .
