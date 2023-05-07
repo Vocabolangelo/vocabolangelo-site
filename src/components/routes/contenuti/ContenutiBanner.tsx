@@ -1,4 +1,6 @@
 import Banner from '../../common/story/Banner'
+import {Link} from 'react-router-dom'
+import { PAROLANGELO_ROUTE } from '../parolangelo/Parolangelo'
 
 export default function ContenutiBanner() {
     return <Banner
@@ -9,6 +11,10 @@ export default function ContenutiBanner() {
         <h1>Contenuti aggiuntivi</h1>
         <p className={'major'}>
             Il Vocabolangelo è molto più di una raccolta di parolangelo.<br/>
+        </p>
+        <p>
+            Al momento non ci sono molti contenuti, ma magari un giorno, anche grazie alle idee della community, questo luogo sarà pieno
+            di iniziative divertenti. Ad esempio, non desiderate sapere come creare un <Link to={`${PAROLANGELO_ROUTE}/cafferillo`}>cafferillo</Link> perfetto?
         </p>
     </Banner>
 }
