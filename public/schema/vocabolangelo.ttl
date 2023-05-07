@@ -5225,3 +5225,12 @@ vocang:pescatiro
     skos:example "Ho deciso di andare a pescare con il mio amico Willy. Non avevo ancora mai visto di persona le sue abilità, ma quando siamo arrivati al fiume, ho visto che aveva portato con sé una serie di attrezzature per la pesca, tutte di ultima generazione. Ho pensato: 'Questo è proprio un pescatiro, non si risparmia niente per prendere il pesce!'. Ed effettivamente, Tom si è dimostrato estremamente in gamba, prendendo un sacco di pesci in poco tempo. Era così bravo che sembrava che i pesci saltassero direttamente nelle sue mani. Alla fine della giornata, avevamo abbastanza pesce per una cena da re. Willy si è dimostrato un vero pescatiro, ma devo ammettere che il suo segreto era solo quello di avere una grande passione per la pesca e di metterci molta energia e impegno."@it ;
     dct:created "2023-05-06" ;
     dct:creator vocang:filasetaAngelo, vocang:ribaudoSofia .
+
+vocang:caffeolo
+    a skos:Concept ;
+    skos:prefLabel "Caffeolo"@it ;
+    lexinfo:pronunciation "/caf • fé • o • lo/"@it ;
+    skos:definition "Un caffè preso al volo, spesso a causa dell'essere di fretta."@it ;
+    skos:example "Questa mattina mi sono svegliato tardi e sapevo che sarei arrivato in ufficio in ritardo se avessi fatto la mia solita sosta al bar per prendere il caffè. Così ho chiesto al barista di prepararmi un caffè lungo e forte in un bicchierino da shot. Il barista mi ha guardato stranito, ma ha capito la mia fretta e ha preparato il mio caffeolo in un attimo. Ho preso il bicchierino e l'ho bevuto d'un fiato, sentendo l'energia del caffè che mi scorreva nelle vene. Sono arrivato in ufficio in tempo e con la giusta carica per affrontare la giornata."@it ;
+    dct:created "2023-05-02" ;
+    dct:creator vocang:ribaudoSofia .
