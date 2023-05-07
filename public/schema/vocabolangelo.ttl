@@ -5234,3 +5234,12 @@ vocang:caffeolo
     skos:example "Questa mattina mi sono svegliato tardi e sapevo che sarei arrivato in ufficio in ritardo se avessi fatto la mia solita sosta al bar per prendere il caffè. Così ho chiesto al barista di prepararmi un caffè lungo e forte in un bicchierino da shot. Il barista mi ha guardato stranito, ma ha capito la mia fretta e ha preparato il mio caffeolo in un attimo. Ho preso il bicchierino e l'ho bevuto d'un fiato, sentendo l'energia del caffè che mi scorreva nelle vene. Sono arrivato in ufficio in tempo e con la giusta carica per affrontare la giornata."@it ;
     dct:created "2023-05-02" ;
     dct:creator vocang:ribaudoSofia .
+
+vocang:caffettano
+    a skos:Concept ;
+    skos:prefLabel "Caffettano"@it ;
+    lexinfo:pronunciation "/caf • fet • tà • no/"@it ;
+    skos:definition "Un caffé dall'odore sgradevole rispetto alla norma, facendo presumere che qualcosa è andato storto durante la sua preparazione."@it ;
+    skos:example "Sono entrato in un bar che non conoscevo e ho chiesto un caffè. Il barista mi ha sorriso gentilmente e mi ha preparato il caffè con cura. Ma quando l'ho annusato, mi sono accorto che c'era qualcosa di strano. Il caffè aveva un odore sgradevole, come se ci fosse qualcosa di marcio nella miscela. Ho provato a berlo comunque, ma il gusto era veramente indescrivibile. Ho realizzato di aver bevuto un caffettano, quindi ho deciso di lasciare il bar senza finire il caffè, ma prima di uscire ho detto al barista: 'Mi dispiace, ma questo caffè è un po' troppo strano per i miei gusti!'. Il barista mi ha guardato in modo perplesso, ma credo che abbia capito che il suo caffè non era stato all'altezza della mia aspettativa."@it ;
+    dct:created "2023-05-07" ;
+    dct:creator vocang:ribaudoSofia .
