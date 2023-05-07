@@ -1,6 +1,6 @@
 import {Link} from 'react-router-dom'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import { faHome, faBook, faFeather, faPhotoFilm } from '@fortawesome/free-solid-svg-icons'
+import { faBook, faFeather, faPhotoFilm } from '@fortawesome/free-solid-svg-icons'
 import {VOCABOLIERI_ROUTE} from '../routes/vocabolieri/Vocabolieri'
 import {PAROLANGELO_ROUTE} from '../routes/parolangelo/Parolangelo'
 import {CONTENUTI_ROUTE} from '../routes/contenuti/ContenutiIndex'
