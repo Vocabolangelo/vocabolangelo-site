@@ -5071,7 +5071,7 @@ vocang:angeloco
     dct:created "2023-04-28" ;
     dct:creator vocang:filasetaAngelo .
 
-vocang:angeloco
+vocang:frettolangelo
     a skos:Concept ;
     skos:prefLabel "Frettolangelo"@it ;
     lexinfo:pronunciation "/fret • to • làn • ge • lo/"@it ;
@@ -5180,3 +5180,57 @@ vocang:piedotonda
     skos:example "Per migliorare la sicurezza degli attraversamenti pedonali in quella zona, il comune ha deciso di installare una piedotonda all'incrocio tra via Roma e via Garibaldi."@it ;
     dct:created "2023-04-23" ;
     dct:creator vocang:rosatelliAnna, vocang:suscaMatteo .
+
+vocang:malattina
+    a skos:Concept ;
+    skos:prefLabel "Malattina"@it ;
+    lexinfo:pronunciation "/ma • lat • tì • na/"@it ;
+    skos:definition "Una condizione di disagio che può manifestarsi al risveglio mattutino, priva di apparenti cause logiche e caratterizzata da una serie di sintomi quali affaticamento, disidratazione, cefalea lieve, mal di gola e dolori muscolari."@it ;
+    skos:example "Stamattina ho avuto la malattina e mi sono sentito come se avessi partecipato a una gara di resistenza nel sonno. Sono stato travolto da una serie di sintomi assurdi come la fame di un bradipo, la stanchezza di un panda e la disidratazione di un cactus. Ero così fuori forma che persino il mio obesatto sembrava più energico di me. Ma alla fine, ho deciso di non lasciare che la malattina mi battesse, così mi sono fatto una bella doccia, bevuto una tazza di caffè forte e sono uscito con il sorriso sulle labbra, pronto per affrontare la giornata!"@it ;
+    dct:created "2023-05-07" ;
+    dct:creator vocang:minoccheriAlessandra .
+
+vocang:branchio
+    a skos:Concept ;
+    skos:prefLabel "Branchio"@it ;
+    lexinfo:pronunciation "/bràn • chio/"@it ;
+    skos:definition "Branco di granchi."@it ;
+    skos:example "Hai visto il video di Crab Rave? C'è un branchio che balla!"@it, "Ieri sono stato al mare e ho visto un branchio di granchi che facevano una festa sulla spiaggia. Avevano allestito una discoteca sotto una conchiglia, con un DJ gamberetto che mixava musica per tutti i gusti. C'erano granchi che ballavano il cha-cha-cha, altri che facevano il tuffo dalla scogliera, e uno che aveva addirittura portato un ombrellone per proteggersi dal sole. Sono rimasto affascinato da quella comunità di crostacei così simpatici e ben organizzati, che sembravano quasi umani. Mi è venuta voglia di unirmi al loro branchio, ma ho temuto di fare una brutta figura con i miei movimenti goffi da uomo sulla sabbia."@it ;
+    dct:created "2023-05-06" ;
+    dct:creator vocang:suscaMatteo .
+
+vocang:alquol
+    a skos:Concept ;
+    skos:prefLabel "Alquol"@it ;
+    skos:definition "Alcol molto annacquato."@it, "Acqua corretta con dell'alcol."@it ;
+    skos:example "Ho chiesto un drink, ma era così annacquato che sembrava solo acqua. Alla fine ho capito che l'Alcquol era più forte di quanto pensassi. Risultato? Sono caduto per strada. Meglio evitare l'Alcquol!"@it ;
+    dct:created "2023-05-06" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:tisaniera
+    a skos:Concept ;
+    skos:prefLabel "Tisaniera"@it ;
+    lexinfo:pronunciation "/ti • sa • niè • ra/"@it ;
+    skos:definition "Un contenitore utilizzato per conservare e organizzare tutte le bustine degli infusi (thè, tisane, camomilla)."@it ;
+    skos:example "Ho invitato degli amici a casa mia per una serata di tisane e relax. Ho preparato un'infinità di bustine di tè, tisane e camomilla, ma non avevo idea di dove metterle. Improvvisamente ho avuto un'illuminazione: ho preso la mia tisaniera e ho messo tutte le bustine al suo interno. I miei amici sono rimasti stupiti dalla mia collezione di bustine di infusi e dalla mia tisaniera super organizzata. Mi sentivo un vero guru del benessere, pronto a diffondere la mia saggezza sulle proprietà benefiche delle erbe. E alla fine della serata, la mia tisaniera era vuota come un deserto, a dimostrazione del fatto che la felicità è fatta di piccole cose, come una tisana fumante al termine di una giornata intensa."@it ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/tisaniera.jpg" ;
+    dct:created "2023-05-06" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:pescatiro
+    a skos:Concept ;
+    skos:prefLabel "Pescatiro"@it ;
+    lexinfo:pronunciation "/pes • ca • tì • ro/"@it ;
+    skos:definition "Un pescatore in gamba e molto energico."@it ;
+    skos:example "Ho deciso di andare a pescare con il mio amico Willy. Non avevo ancora mai visto di persona le sue abilità, ma quando siamo arrivati al fiume, ho visto che aveva portato con sé una serie di attrezzature per la pesca, tutte di ultima generazione. Ho pensato: 'Questo è proprio un pescatiro, non si risparmia niente per prendere il pesce!'. Ed effettivamente, Tom si è dimostrato estremamente in gamba, prendendo un sacco di pesci in poco tempo. Era così bravo che sembrava che i pesci saltassero direttamente nelle sue mani. Alla fine della giornata, avevamo abbastanza pesce per una cena da re. Willy si è dimostrato un vero pescatiro, ma devo ammettere che il suo segreto era solo quello di avere una grande passione per la pesca e di metterci molta energia e impegno."@it ;
+    dct:created "2023-05-06" ;
+    dct:creator vocang:filasetaAngelo, vocang:ribaudoSofia .
+
+vocang:caffeolo
+    a skos:Concept ;
+    skos:prefLabel "Caffeolo"@it ;
+    lexinfo:pronunciation "/caf • fé • o • lo/"@it ;
+    skos:definition "Un caffè preso al volo, spesso a causa dell'essere di fretta."@it ;
+    skos:example "Questa mattina mi sono svegliato tardi e sapevo che sarei arrivato in ufficio in ritardo se avessi fatto la mia solita sosta al bar per prendere il caffè. Così ho chiesto al barista di prepararmi un caffè lungo e forte in un bicchierino da shot. Il barista mi ha guardato stranito, ma ha capito la mia fretta e ha preparato il mio caffeolo in un attimo. Ho preso il bicchierino e l'ho bevuto d'un fiato, sentendo l'energia del caffè che mi scorreva nelle vene. Sono arrivato in ufficio in tempo e con la giusta carica per affrontare la giornata."@it ;
+    dct:created "2023-05-02" ;
+    dct:creator vocang:ribaudoSofia .

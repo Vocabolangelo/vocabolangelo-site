@@ -4358,14 +4358,14 @@
 <http://www.vocabolangelo.org/angeloco> <http://www.w3.org/2004/02/skos/core#example> "Ti sfido a questo angeloco, vediamo chi ne uscirà vincitore!"@it .
 <http://www.vocabolangelo.org/angeloco> <http://purl.org/dc/terms/created> "2023-04-28" .
 <http://www.vocabolangelo.org/angeloco> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
-<http://www.vocabolangelo.org/angeloco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.vocabolangelo.org/angeloco> <http://www.w3.org/2004/02/skos/core#prefLabel> "Frettolangelo"@it .
-<http://www.vocabolangelo.org/angeloco> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/fret • to • làn • ge • lo/"@it .
-<http://www.vocabolangelo.org/angeloco> <http://www.w3.org/2004/02/skos/core#definition> "Un Angeloco che consiste nel nominare più parole del vocabolangelo possibili entro un quantitativo limitato di tempo."@it .
-<http://www.vocabolangelo.org/angeloco> <http://www.w3.org/2004/02/skos/core#example> "Ho fatto un punteggio di 69 nel frettolangelo ieri!"@it .
-<http://www.vocabolangelo.org/angeloco> <http://purl.org/dc/terms/created> "2023-04-28" .
-<http://www.vocabolangelo.org/angeloco> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/angeloco> .
-<http://www.vocabolangelo.org/angeloco> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
+<http://www.vocabolangelo.org/frettolangelo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/frettolangelo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Frettolangelo"@it .
+<http://www.vocabolangelo.org/frettolangelo> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/fret • to • làn • ge • lo/"@it .
+<http://www.vocabolangelo.org/frettolangelo> <http://www.w3.org/2004/02/skos/core#definition> "Un Angeloco che consiste nel nominare più parole del vocabolangelo possibili entro un quantitativo limitato di tempo."@it .
+<http://www.vocabolangelo.org/frettolangelo> <http://www.w3.org/2004/02/skos/core#example> "Ho fatto un punteggio di 69 nel frettolangelo ieri!"@it .
+<http://www.vocabolangelo.org/frettolangelo> <http://purl.org/dc/terms/created> "2023-04-28" .
+<http://www.vocabolangelo.org/frettolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/angeloco> .
+<http://www.vocabolangelo.org/frettolangelo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
 <http://www.vocabolangelo.org/scemicio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/scemicio> <http://www.w3.org/2004/02/skos/core#prefLabel> "Scemicio"@it .
 <http://www.vocabolangelo.org/scemicio> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/sce • mì • cio/"@it .
@@ -4448,6 +4448,51 @@
 <http://www.vocabolangelo.org/piedotonda> <http://purl.org/dc/terms/created> "2023-04-23" .
 <http://www.vocabolangelo.org/piedotonda> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/rosatelliAnna> .
 <http://www.vocabolangelo.org/piedotonda> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/suscaMatteo> .
+<http://www.vocabolangelo.org/malattina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/malattina> <http://www.w3.org/2004/02/skos/core#prefLabel> "Malattina"@it .
+<http://www.vocabolangelo.org/malattina> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/ma • lat • tì • na/"@it .
+<http://www.vocabolangelo.org/malattina> <http://www.w3.org/2004/02/skos/core#definition> "Una condizione di disagio che può manifestarsi al risveglio mattutino, priva di apparenti cause logiche e caratterizzata da una serie di sintomi quali affaticamento, disidratazione, cefalea lieve, mal di gola e dolori muscolari."@it .
+<http://www.vocabolangelo.org/malattina> <http://www.w3.org/2004/02/skos/core#example> "Stamattina ho avuto la malattina e mi sono sentito come se avessi partecipato a una gara di resistenza nel sonno. Sono stato travolto da una serie di sintomi assurdi come la fame di un bradipo, la stanchezza di un panda e la disidratazione di un cactus. Ero così fuori forma che persino il mio obesatto sembrava più energico di me. Ma alla fine, ho deciso di non lasciare che la malattina mi battesse, così mi sono fatto una bella doccia, bevuto una tazza di caffè forte e sono uscito con il sorriso sulle labbra, pronto per affrontare la giornata!"@it .
+<http://www.vocabolangelo.org/malattina> <http://purl.org/dc/terms/created> "2023-05-07" .
+<http://www.vocabolangelo.org/malattina> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/minoccheriAlessandra> .
+<http://www.vocabolangelo.org/branchio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/branchio> <http://www.w3.org/2004/02/skos/core#prefLabel> "Branchio"@it .
+<http://www.vocabolangelo.org/branchio> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/bràn • chio/"@it .
+<http://www.vocabolangelo.org/branchio> <http://www.w3.org/2004/02/skos/core#definition> "Branco di granchi."@it .
+<http://www.vocabolangelo.org/branchio> <http://www.w3.org/2004/02/skos/core#example> "Hai visto il video di Crab Rave? C'è un branchio che balla!"@it .
+<http://www.vocabolangelo.org/branchio> <http://www.w3.org/2004/02/skos/core#example> "Ieri sono stato al mare e ho visto un branchio di granchi che facevano una festa sulla spiaggia. Avevano allestito una discoteca sotto una conchiglia, con un DJ gamberetto che mixava musica per tutti i gusti. C'erano granchi che ballavano il cha-cha-cha, altri che facevano il tuffo dalla scogliera, e uno che aveva addirittura portato un ombrellone per proteggersi dal sole. Sono rimasto affascinato da quella comunità di crostacei così simpatici e ben organizzati, che sembravano quasi umani. Mi è venuta voglia di unirmi al loro branchio, ma ho temuto di fare una brutta figura con i miei movimenti goffi da uomo sulla sabbia."@it .
+<http://www.vocabolangelo.org/branchio> <http://purl.org/dc/terms/created> "2023-05-06" .
+<http://www.vocabolangelo.org/branchio> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/suscaMatteo> .
+<http://www.vocabolangelo.org/alquol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/alquol> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alquol"@it .
+<http://www.vocabolangelo.org/alquol> <http://www.w3.org/2004/02/skos/core#definition> "Alcol molto annacquato."@it .
+<http://www.vocabolangelo.org/alquol> <http://www.w3.org/2004/02/skos/core#definition> "Acqua corretta con dell'alcol."@it .
+<http://www.vocabolangelo.org/alquol> <http://www.w3.org/2004/02/skos/core#example> "Ho chiesto un drink, ma era così annacquato che sembrava solo acqua. Alla fine ho capito che l'Alcquol era più forte di quanto pensassi. Risultato? Sono caduto per strada. Meglio evitare l'Alcquol!"@it .
+<http://www.vocabolangelo.org/alquol> <http://purl.org/dc/terms/created> "2023-05-06" .
+<http://www.vocabolangelo.org/alquol> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
+<http://www.vocabolangelo.org/tisaniera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/tisaniera> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tisaniera"@it .
+<http://www.vocabolangelo.org/tisaniera> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/ti • sa • niè • ra/"@it .
+<http://www.vocabolangelo.org/tisaniera> <http://www.w3.org/2004/02/skos/core#definition> "Un contenitore utilizzato per conservare e organizzare tutte le bustine degli infusi (thè, tisane, camomilla)."@it .
+<http://www.vocabolangelo.org/tisaniera> <http://www.w3.org/2004/02/skos/core#example> "Ho invitato degli amici a casa mia per una serata di tisane e relax. Ho preparato un'infinità di bustine di tè, tisane e camomilla, ma non avevo idea di dove metterle. Improvvisamente ho avuto un'illuminazione: ho preso la mia tisaniera e ho messo tutte le bustine al suo interno. I miei amici sono rimasti stupiti dalla mia collezione di bustine di infusi e dalla mia tisaniera super organizzata. Mi sentivo un vero guru del benessere, pronto a diffondere la mia saggezza sulle proprietà benefiche delle erbe. E alla fine della serata, la mia tisaniera era vuota come un deserto, a dimostrazione del fatto che la felicità è fatta di piccole cose, come una tisana fumante al termine di una giornata intensa."@it .
+<http://www.vocabolangelo.org/tisaniera> <https://schema.org/image> "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/tisaniera.jpg" .
+<http://www.vocabolangelo.org/tisaniera> <http://purl.org/dc/terms/created> "2023-05-06" .
+<http://www.vocabolangelo.org/tisaniera> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
+<http://www.vocabolangelo.org/pescatiro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/pescatiro> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pescatiro"@it .
+<http://www.vocabolangelo.org/pescatiro> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/pes • ca • tì • ro/"@it .
+<http://www.vocabolangelo.org/pescatiro> <http://www.w3.org/2004/02/skos/core#definition> "Un pescatore in gamba e molto energico."@it .
+<http://www.vocabolangelo.org/pescatiro> <http://www.w3.org/2004/02/skos/core#example> "Ho deciso di andare a pescare con il mio amico Willy. Non avevo ancora mai visto di persona le sue abilità, ma quando siamo arrivati al fiume, ho visto che aveva portato con sé una serie di attrezzature per la pesca, tutte di ultima generazione. Ho pensato: 'Questo è proprio un pescatiro, non si risparmia niente per prendere il pesce!'. Ed effettivamente, Tom si è dimostrato estremamente in gamba, prendendo un sacco di pesci in poco tempo. Era così bravo che sembrava che i pesci saltassero direttamente nelle sue mani. Alla fine della giornata, avevamo abbastanza pesce per una cena da re. Willy si è dimostrato un vero pescatiro, ma devo ammettere che il suo segreto era solo quello di avere una grande passione per la pesca e di metterci molta energia e impegno."@it .
+<http://www.vocabolangelo.org/pescatiro> <http://purl.org/dc/terms/created> "2023-05-06" .
+<http://www.vocabolangelo.org/pescatiro> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
+<http://www.vocabolangelo.org/pescatiro> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/ribaudoSofia> .
+<http://www.vocabolangelo.org/caffeolo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/caffeolo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Caffeolo"@it .
+<http://www.vocabolangelo.org/caffeolo> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/caf • fé • o • lo/"@it .
+<http://www.vocabolangelo.org/caffeolo> <http://www.w3.org/2004/02/skos/core#definition> "Un caffè preso al volo, spesso a causa dell'essere di fretta."@it .
+<http://www.vocabolangelo.org/caffeolo> <http://www.w3.org/2004/02/skos/core#example> "Questa mattina mi sono svegliato tardi e sapevo che sarei arrivato in ufficio in ritardo se avessi fatto la mia solita sosta al bar per prendere il caffè. Così ho chiesto al barista di prepararmi un caffè lungo e forte in un bicchierino da shot. Il barista mi ha guardato stranito, ma ha capito la mia fretta e ha preparato il mio caffeolo in un attimo. Ho preso il bicchierino e l'ho bevuto d'un fiato, sentendo l'energia del caffè che mi scorreva nelle vene. Sono arrivato in ufficio in tempo e con la giusta carica per affrontare la giornata."@it .
+<http://www.vocabolangelo.org/caffeolo> <http://purl.org/dc/terms/created> "2023-05-02" .
+<http://www.vocabolangelo.org/caffeolo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/ribaudoSofia> .
 <http://www.vocabolangelo.org/noonare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/fregola> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/tardivare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -4484,6 +4529,7 @@
 <http://www.vocabolangelo.org/bermucaMorena> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/orlandoNicola> .
 <http://www.vocabolangelo.org/bermucaMorena> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/orlandoNicola> .
 <http://www.vocabolangelo.org/bermucaMorena> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://www.vocabolangelo.org/pescatiro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/poccante> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/pavolo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/sbiribirillo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/sbiribillo> .
@@ -4562,6 +4608,7 @@
 <http://www.vocabolangelo.org/fanz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/tristento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/cinesuo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/caffeolo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/bragariAlexandru> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/bdeouiEddy> .
 <http://www.vocabolangelo.org/bragariAlexandru> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/battaglinoNicole> .
 <http://www.vocabolangelo.org/bragariAlexandru> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/omiccioliRiccardo> .
@@ -4616,6 +4663,7 @@
 <http://www.vocabolangelo.org/bragariAlexandru> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/durazziMarco> .
 <http://www.vocabolangelo.org/bragariAlexandru> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/scattoniAlessandra> .
 <http://www.vocabolangelo.org/coppinovia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/alquol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/culpo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/escire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/palattia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -5164,6 +5212,8 @@
 <http://www.vocabolangelo.org/piedotonda> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/froggia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/pergamela> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/frettolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/angeloco> .
+<http://www.vocabolangelo.org/frettolangelo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/mucchiotto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/pupitaAlberto> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/timpanoSam> .
 <http://www.vocabolangelo.org/pupitaAlberto> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/battaglinoNicole> .
@@ -5432,6 +5482,7 @@
 <http://www.vocabolangelo.org/tristabbiato> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/esplisciata> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/networkink> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/branchio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/ambionimo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/cognonimo> .
 <http://www.vocabolangelo.org/ambionimo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/biambionimo> .
 <http://www.vocabolangelo.org/ambionimo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -5848,6 +5899,7 @@
 <http://www.vocabolangelo.org/dickerfile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/variegatto> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/omnicio> .
 <http://www.vocabolangelo.org/variegatto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/tisaniera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/arbitroio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/olded> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/nemicio> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/omnicio> .
@@ -5929,6 +5981,7 @@
 <http://www.vocabolangelo.org/ritardorario> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/cervellamente> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/criminese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/malattina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/iubikeyavare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/canillo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/canillodromo> .
 <http://www.vocabolangelo.org/canillo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -6082,8 +6135,8 @@
 <http://www.vocabolangelo.org/avvogatto> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/omnicio> .
 <http://www.vocabolangelo.org/avvogatto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/pegogo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/angeloco> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/frettolangelo> .
 <http://www.vocabolangelo.org/angeloco> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/abbecedangelo> .
-<http://www.vocabolangelo.org/angeloco> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/angeloco> .
 <http://www.vocabolangelo.org/angeloco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/librorifero> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/unriaco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
