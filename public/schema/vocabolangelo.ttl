@@ -5180,3 +5180,12 @@ vocang:piedotonda
     skos:example "Per migliorare la sicurezza degli attraversamenti pedonali in quella zona, il comune ha deciso di installare una piedotonda all'incrocio tra via Roma e via Garibaldi."@it ;
     dct:created "2023-04-23" ;
     dct:creator vocang:rosatelliAnna, vocang:suscaMatteo .
+
+vocang:malattina
+    a skos:Concept ;
+    skos:prefLabel "Malattina"@it ;
+    lexinfo:pronunciation "/ma • lat • tì • na/"@it ;
+    skos:definition "Una condizione di disagio che può manifestarsi al risveglio mattutino, priva di apparenti cause logiche e caratterizzata da una serie di sintomi quali affaticamento, disidratazione, cefalea lieve, mal di gola e dolori muscolari."@it ;
+    skos:example "Stamattina ho avuto la malattina e mi sono sentito come se avessi partecipato a una gara di resistenza nel sonno. Sono stato travolto da una serie di sintomi assurdi come la fame di un bradipo, la stanchezza di un panda e la disidratazione di un cactus. Ero così fuori forma che persino il mio obesatto sembrava più energico di me. Ma alla fine, ho deciso di non lasciare che la malattina mi battesse, così ho preso una bella doccia, bevuto una tazza di caffè forte e sono uscito con il sorriso sulle labbra, pronto per affrontare la giornata!"@it ;
+    dct:created "2023-05-07" ;
+    dct:creator vocang:minoccheriAlessandra .
