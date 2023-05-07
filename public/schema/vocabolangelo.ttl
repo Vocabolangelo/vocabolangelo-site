@@ -5217,3 +5217,11 @@ vocang:tisaniera
     dct:created "2023-05-06" ;
     dct:creator vocang:omiccioliRiccardo .
 
+vocang:pescatiro
+    a skos:Concept ;
+    skos:prefLabel "Pescatiro"@it ;
+    lexinfo:pronunciation "/pes • ca • tì • ro/"@it ;
+    skos:definition "Un pescatore in gamba e molto energico."@it ;
+    skos:example "Ho deciso di andare a pescare con il mio amico Willy. Non avevo ancora mai visto di persona le sue abilità, ma quando siamo arrivati al fiume, ho visto che aveva portato con sé una serie di attrezzature per la pesca, tutte di ultima generazione. Ho pensato: 'Questo è proprio un pescatiro, non si risparmia niente per prendere il pesce!'. Ed effettivamente, Tom si è dimostrato estremamente in gamba, prendendo un sacco di pesci in poco tempo. Era così bravo che sembrava che i pesci saltassero direttamente nelle sue mani. Alla fine della giornata, avevamo abbastanza pesce per una cena da re. Willy si è dimostrato un vero pescatiro, ma devo ammettere che il suo segreto era solo quello di avere una grande passione per la pesca e di metterci molta energia e impegno."@it ;
+    dct:created "2023-05-06" ;
+    dct:creator vocang:filasetaAngelo, vocang:ribaudoSofia .
