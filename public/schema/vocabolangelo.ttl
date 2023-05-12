@@ -5380,3 +5380,23 @@ vocang:puntorgolismo
     skos:example "Aderisco al puntorgolismo da più di 5 anni e sono un convinto sostenitore. Nella mia tesi ho utilizzati dei normalissimi punti per dividere le frasi e ho comunque preso 110 e lode. Quel simbolo inutile è rimpiazzabilissimo!"@it ;
     dct:created "2023-05-12" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:puntorgolista
+    a skos:Concept ;
+    skos:prefLabel "Puntorgolista"@it ;
+    lexinfo:pronunciation "/pun • tor • go • lìs • ta/"@it ;
+    skos:definition "Chi aderisce al puntorgolismo, ossia chi disprezzare il segno di punteggiatura del punto e virgola, si rifiuta di utilizzarlo, e in casi estremi è anche favorevole a rimuoverlo completamente dalla lingua italiana."@it ;
+    skos:example "Sono un puntorgolista convinto da più di 5 anni. Nella mia tesi ho utilizzati dei normalissimi punti per dividere le frasi e ho comunque preso 110 e lode. Quel simbolo inutile è rimpiazzabilissimo!"@it ;
+    skos:related vocang:puntorgolismo ;
+    dct:created "2023-05-12" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:bassista
+    a skos:Concept ;
+    skos:prefLabel "Bassista"@it ;
+    lexinfo:pronunciation "/bas • sìs • sta/"@it ;
+    skos:definition "Chi aderisce al bassismo, ossia chi discrimina chi è basso."@it ;
+    skos:example "Marina mi ha dato buca per l'appuntamento perché ha scoperto da Teresa che sono alto 145 centimetri. Non credevo fosse bassista!"@it ;
+    skos:related vocang:bassismo ;
+    dct:created "2023-02-11" ;
+    dct:creator vocang:filasetaAngelo .
