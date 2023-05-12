@@ -5276,3 +5276,12 @@ vocang:allungatto
     skos:note "Le parolangelo feliclope e allungatto sono nate insieme."@it ;
     dct:created "2023-05-10" ;
     dct:creator vocang:orlandoNicola, vocang:nardiniArianna .
+
+vocang:jujjizzare
+    a skos:Concept ;
+    skos:prefLabel "Jujjizzare"@it ;
+    skos:definition "Procedere con la realizzazione dell'outfit e del make-up di un individuo seguendo le caratteristiche distintive goth, rock, emo o un insieme delle precedenti."@it ;
+    skos:example "Devo assolutamente jiujjizzarmi per il concerto dei My Chemical Romance"@it ;
+    skos:note "Le parolangelo nasce dal soprannome di un vocaboliere che si jujjizza ogni giorno."@it ;
+    dct:created "2023-05-10" ;
+    dct:creator vocang:filasetaAngelo .
