@@ -1,5 +1,46 @@
 # Changelog
 
+## [5.7.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v5.6.0...v5.7.0) (2023-05-12)
+
+
+### Features
+
+* **concept:** add allungatto ([eef3b54](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/eef3b541f35c403bfbb37b92f18d2659ad16172b))
+* **concept:** add alquol ([2c21712](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/2c217121e8b4ab0806a014998e47675caaa237e7))
+* **concept:** add bassismo ([7d507e0](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/7d507e05fecd094ab6543ce048c2282d9cfb01b3))
+* **concept:** add branchio ([dec90d4](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/dec90d4a33ad3287a26f59986ce3ec1ad23dad6c))
+* **concept:** add caffeolo ([46142f6](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/46142f6fd729c3b0f694e55d2ac3c58446bd881a))
+* **concept:** add caffetano ([4fca6a6](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/4fca6a6c557ed7dd3f8a06953c2681922479da4f))
+* **concept:** add cappucciccio ([3277889](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/32778893012f4345fb2caa2a22942f16ecf4f704))
+* **concept:** add coccoletto ([c7e04a5](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/c7e04a5f25424542652eab5f873062a1c44c74d7))
+* **concept:** add feliclope ([d1a71a5](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/d1a71a541199debc971b996c600b5bbf813eecbc))
+* **concept:** add jujjizzare ([5c1c4c1](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/5c1c4c14c7c19d35951979b7ae3268202149de5f))
+* **concept:** add kebalmino ([ea5829e](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/ea5829eec6f09209fba2f01db2c72f3afcf46a34))
+* **concept:** add lemal ([da2525f](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/da2525f21826f109bf07872b7fc4e2134bb4f239))
+* **concept:** add malattina ([5fa4870](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/5fa48704743dd9d34f0bfc1cae8436f37fe253c7))
+* **concept:** add orgasmento ([9dd1b35](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/9dd1b359b9a66ddc0f49c3eda3f2e566add8afd2))
+* **concept:** add parolarcangelo ([b50effd](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/b50effd16c020abe6959dce1c996809684d81c24))
+* **concept:** add pescatiro ([7f5beb3](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/7f5beb3bf2ecc40c27673ffc04c4a310ab191a6f))
+* **concept:** add piedotonda ([b667ecd](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/b667ecd374bde36c574e12c5faab2d036fe5e786))
+* **concept:** add puntorgolismo ([b0615e9](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/b0615e9da646d04e7620ff150fdb2b294abf5ee6))
+* **concept:** add scioglio ([a348afa](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/a348afaf294a09e8cb2b299e3bdd8bb7c125a471))
+* **concept:** add sessorround ([f2192cd](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/f2192cd73a58b33e5aa3ef93b68bc944e8359d47))
+* **concept:** add tisaniera ([c052135](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/c052135bd108c948f0460ae4cd1e8c6c1307f0f0))
+* **concept:** add vocaboregolangelo ([753a63b](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/753a63bdcb0a9f7fadd7dd89384330921b069a9a))
+* **image:** add feliclope and allungatto ([24f09b9](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/24f09b9a76c53c08b72a38ef74cd99656ef5fcc7))
+* **image:** add tisaniera ([01d4596](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/01d459617dda154cb03f42d7cc71cb92778c8ad2))
+* **organization:** add organizations ([3756f39](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/3756f393c1100f29e21a25ba25505bea8baf17eb))
+* **site:** add gender order on Vocabolieri page ([664577a](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/664577a21822ce85788bf2070187a1c1f32e5ab2))
+* **site:** add vocaboregolangelo ([a05f11b](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/a05f11b8da495c1ddb5d1e51cdd45953051c0ca8))
+* **site:** create structure for vocaboregolangelo ([29d2e1b](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/29d2e1bd85330490b4bd72703de8901be57b4ab1))
+* **site:** move angelochi and dashboard to content ([e1b1f65](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/e1b1f65d758f230536bd64e76729bd6825dd6e14))
+
+
+### Bug Fixes
+
+* **concept:** fix id of frettolangelo ([5ec0ac6](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/5ec0ac63d79a25a4bd99c3e874f474aea91523b8))
+* **site:** remove unused imports ([27f0e9f](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/27f0e9f2ec1887258da6a72e97271ccd7196ae92))
+
 ## [5.6.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v5.5.1...v5.6.0) (2023-05-04)
 
 
