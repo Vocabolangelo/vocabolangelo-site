@@ -5305,3 +5305,13 @@ vocang:cappucciccio
     dct:created "2023-05-11" ;
     skos:related vocang:cappucciccia ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:vocaboregolangelo
+    a skos:Concept ;
+    skos:prefLabel "Vocaboregolangelo"@it ;
+    lexinfo:pronunciation "/vo • ca • bo • re • go • làn • ge • lo/"@it ;
+    skos:definition "Regola che limita la definizione di parolangelo al fine di invalidare parole di scarsa qualità."@it ;
+    skos:example "Sul sito ufficiale del vocabolangelo è possibile trovare l'elenco delle vocaboregolangelo. Ieri una mia parola non è stata accettata perché non ne ho rispettata una, ma un vocaboladmin mi ha aiutato a sistemarla e ora è online!"@it ;
+    dct:created "2023-05-12" ;
+    skos:related vocang:vocaboladmin, vocang:vocabolangelo, vocang:angelario, vocang:parolangelo, vocang:apostolangelo, vocang:dizionangelo, vocang:vocaboliere, vocang:vocabolangelare ;
+    dct:creator vocang:filasetaAngelo .
