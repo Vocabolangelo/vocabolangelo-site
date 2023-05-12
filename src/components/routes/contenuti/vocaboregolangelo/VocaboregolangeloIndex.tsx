@@ -1,4 +1,3 @@
-import {Main} from '../../../common/Main'
 import React from 'react'
 import InnerWrapper from '../../../common/story/InnerWrapper'
 import Wrapper from '../../../common/story/Wrapper'
