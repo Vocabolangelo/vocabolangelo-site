@@ -12,7 +12,10 @@ export default function DashboardSpotlight() {
         imageAlt={'Grafici incomprensibili'}>
         <h2>Dashboard</h2>
         <p className={'major'}>
-            Grazie a queste utilità potete scoprire dati interessanti riguardo il Vocabolangelo.
+            Grazie a queste utilità potrete scoprire dati interessanti riguardo il Vocabolangelo.
+        </p>
+        <p>
+            Chi è il vocaboliere più influente? Quante parolangelo esistono?
         </p>
         <Link to={CONTENUTI_ROUTE + DASHBOARD_ROUTE} className="button">
             Analizza

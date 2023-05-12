@@ -11,11 +11,15 @@ export default function AngelochiSpotlight() {
         imageAlt={'Videogioco'}>
         <h2>Angelochi</h2>
         <p className={'major'}>
-            Il Vocabolangelo dispone di una raccolta di Angelochi completamente gratuiti.<br/>
+            Prova i giochi <strong>in-browser</strong> in cui le protagoniste indiscusse solo le parolangelo.<br/>
+        </p>
+        <p>
+            È fondamentale possedere almeno una conoscenza di base del Vocabolangelo per poter giocare in modo
+            soddisfacente.
         </p>
         <div className="actions stacked">
             <Link to={CONTENUTI_ROUTE + ANGELOCHI_ROUTE} className="button">
-                Gioca
+                Il gioco
             </Link>
         </div>
     </Spotlight>

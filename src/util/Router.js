@@ -11,6 +11,9 @@ import LoadingScreen from '../components/common/LoadingScreen'
 import Frettolangelo from '../components/routes/contenuti/angelochi/Frettolangelo'
 import AngelochiIndex, {ANGELOCHI_ROUTE} from '../components/routes/contenuti/angelochi/AngelochiIndex'
 import ContenutiIndex, {CONTENUTI_ROUTE} from '../components/routes/contenuti/ContenutiIndex'
+import VocaboregolangeloIndex, {
+    VOCABOREGOLANGELO_ROUTE
+} from '../components/routes/contenuti/vocaboregolangelo/VocaboregolangeloIndex'
 
 export const defaultRouter = createBrowserRouter([
     {
@@ -48,6 +51,10 @@ export const defaultRouter = createBrowserRouter([
     {
         path: `${CONTENUTI_ROUTE}${ANGELOCHI_ROUTE}/frettolangelo`,
         element: <Frettolangelo/>
+    },
+    {
+        path: `${CONTENUTI_ROUTE}${VOCABOREGOLANGELO_ROUTE}`,
+        element: <VocaboregolangeloIndex/>
     },
     {
         path: '*',
