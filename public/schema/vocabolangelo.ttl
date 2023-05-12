@@ -5260,6 +5260,7 @@ vocang:feliclope
     skos:definition "Gatto o felino che ha un solo occhio."@it ;
     skos:example "Quel feliclope dal pelo morbido e il singolare occhio verde cattura l'attenzione di tutti. Nonostante la sua diversità, quel gatto si muove con grazia ed esplora con curiosità il suo territorio, diventando un'affascinante e unica presenza nel quartiere."@it ;
     skos:related vocang:omnicio ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/feliclope.jpg" ;
     skos:note "Le parolangelo feliclope e allungatto sono nate insieme."@it ;
     dct:created "2023-05-10" ;
     dct:creator vocang:orlandoNicola, vocang:nardiniArianna .
@@ -5271,6 +5272,7 @@ vocang:allungatto
     skos:definition "Un gatto o felino dall'aspetto straordinariamente allungato, che sia effettivamente di tale conformazione o che lo sembri a causa di particolari fenomeni."@it ;
     skos:example "C'era un misterioso gatto nella vecchia casa abbandonata, un vero e proprio allungatto. Ogni volta che passava furtivamente tra le ombre, sembrava quasi distorcere lo spazio intorno a sé, incutendo un senso di meraviglia e fascino in chiunque lo osservasse."@it ;
     skos:related vocang:omnicio ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/allungatto.jpg" ;
     skos:note "Le parolangelo feliclope e allungatto sono nate insieme."@it ;
     dct:created "2023-05-10" ;
     dct:creator vocang:orlandoNicola, vocang:nardiniArianna .
