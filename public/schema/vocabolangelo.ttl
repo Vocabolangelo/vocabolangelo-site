@@ -5296,4 +5296,12 @@ vocang:orgasmento
     skos:related vocang:orgasno ;
     dct:creator vocang:rosatelliAnna .
 
-Un 
+vocang:cappucciccio
+    a skos:Concept ;
+    skos:prefLabel "Cappucciccio"@it ;
+    lexinfo:pronunciation "/cap • puc • cìc • cio/"@it ;
+    skos:definition "Individuo appartenente all'ordine dei frati, caratterizzato da una stazza imponente che si manifesta attraverso la presenza di un addome prominente e rotondo."@it ;
+    skos:example "Nel monastero, c'era frate Gaudenzio, noto per la sua corporatura possente e una pancia talmente rotonda da poterla confondere con un cuscino. Ogni volta che si avvicinava, era come se portasse con sé un sorriso contagioso, perché la sua pancia sembrava avere una personalità tutta sua, pronta a scherzare e dare un tocco di allegria al luogo sacro. Lui era un vero cappucciccio."@it ;
+    dct:created "2023-05-11" ;
+    skos:related vocang:cappucciccia ;
+    dct:creator vocang:omiccioliRiccardo .
