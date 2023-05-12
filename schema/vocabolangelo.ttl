@@ -2,6 +2,7 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
 @prefix modsci: <https://w3id.org/skgo/modsci#> .
+@prefix org: <http://www.w3.org/ns/org#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -42,6 +43,14 @@ rel:siblingOf a owl:SymmetricProperty ;
 
 skos:related a owl:SymmetricProperty .
 
+# Organization individuals
+
+vocang:vocaboladminOrg
+    rdfs:subClassOf vocang:vocabolieriOrg .
+
+vocang:vocabolieriOrg
+    a org:Organization .
+
 # Person Individuals
 
 vocang:filasetaAngelo
@@ -50,6 +59,7 @@ vocang:filasetaAngelo
     foaf:lastName "Filaseta" ;
     foaf:nick "Ange" ;
     foaf:gender "male" ;
+    org:memberOf vocang:vocaboladminOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/filasetaAngelo.jpeg" ;
     rel:friendOf vocang:sanchiPiero, vocang:tronettiElisa, vocang:salhiSamir, vocang:bragariAlexandru , vocang:battaglinoNicole , vocang:omiccioliRiccardo , vocang:pertosaLorenzo , vocang:timpanoSam , vocang:ribaudoSofia ;
     rel:spouseOf vocang:savoGiorgia .
@@ -60,6 +70,7 @@ vocang:savoGiorgia
     foaf:lastName "Savo" ;
     foaf:nick "GioGio" ;
     foaf:gender "female" ;
+    org:memberOf vocang:vocabolieriOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/savoGiorgia.jpg" ;
     rel:friendOf vocang:salhiSamir, vocang:bragariAlexandru , vocang:battaglinoNicole , vocang:omiccioliRiccardo , vocang:pertosaLorenzo, vocang:timpanoSam , vocang:ribaudoSofia .
 
@@ -69,6 +80,7 @@ vocang:bragariAlexandru
     foaf:lastName "Bragari" ;
     foaf:nick "Sasha" ;
     foaf:gender "male" ;
+    org:memberOf vocang:vocaboladminOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/bragariAlexandru.jpg" ;
     rel:friendOf vocang:sanchiPiero, vocang:tronettiElisa, vocang:salhiSamir, vocang:battaglinoNicole , vocang:omiccioliRiccardo , vocang:pertosaLorenzo , vocang:timpanoSam , vocang:ribaudoSofia .
 
@@ -78,6 +90,7 @@ vocang:battaglinoNicole
     foaf:lastName "Battaglino" ;
     foaf:nick "Batta" ;
     foaf:gender "female" ;
+    org:memberOf vocang:vocabolieriOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/battaglinoNicole.jpg" ;
     rel:friendOf vocang:sanchiPiero, vocang:salhiSamir, vocang:pertosaLorenzo , vocang:timpanoSam , vocang:ribaudoSofia ;
     rel:spouseOf vocang:omiccioliRiccardo .
@@ -88,6 +101,7 @@ vocang:omiccioliRiccardo
     foaf:lastName "Omiccioli" ;
     foaf:nick "Miccio" ;
     foaf:gender "male" ;
+    org:memberOf vocang:vocaboladminOrg ;
     rel:friendOf vocang:sanchiPiero, vocang:tronettiElisa, vocang:salhiSamir, vocang:pertosaLorenzo , vocang:timpanoSam , vocang:ribaudoSofia .
 
 vocang:pertosaLorenzo
@@ -96,6 +110,7 @@ vocang:pertosaLorenzo
     foaf:lastName "Pertosa" ;
     foaf:nick "P" ;
     foaf:gender "male" ;
+    org:memberOf vocang:vocaboladminOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/pertosaLorenzo.jpg" ;
     rel:friendOf vocang:sanchiPiero, vocang:salhiSamir, vocang:timpanoSam , vocang:ribaudoSofia .
 
@@ -105,6 +120,7 @@ vocang:timpanoSam
     foaf:lastName "Timpano" ;
     foaf:nick "Sam" ;
     foaf:gender "non-binary" ;
+    org:memberOf vocang:vocabolieriOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/timpanoSam.jpg" ;
     rel:friendOf vocang:salhiSamir, vocang:ribaudoSofia .
 
@@ -113,6 +129,7 @@ vocang:ribaudoSofia
     foaf:firstName "Sofia" ;
     foaf:lastName "Ribaudo" ;
     foaf:gender "female" ;
+    org:memberOf vocang:vocabolieriOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/ribaudoSofia.jpg" ;
     rel:friendOf vocang:sanchiPiero .
 
@@ -122,6 +139,7 @@ vocang:talmiAlessandro
     foaf:lastName "Talmi" ;
     foaf:nick "Dizi" ;
     foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:sanchiPiero, vocang:filasetaAngelo, vocang:bragariAlexandru .
 
 vocang:orlandoNicola
@@ -130,6 +148,7 @@ vocang:orlandoNicola
     foaf:lastName "Orlando" ;
     foaf:nick "Orla" ;
     foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/orlandoNicola.jpg" ;
     rel:friendOf vocang:sanchiPiero, vocang:tronettiElisa, vocang:salhiSamir, vocang:durazziMarco, vocang:bragariAlexandru, vocang:talmiAlessandro, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo .
 
@@ -139,6 +158,7 @@ vocang:adantiMatteo
     foaf:lastName "Adanti" ;
     foaf:nick "Adant" ;
     foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:bragariAlexandru, vocang:orlandoNicola, vocang:bdeouiEddy .
 
 vocang:pescaraGianluca
@@ -147,6 +167,7 @@ vocang:pescaraGianluca
     foaf:lastName "Pescara" ;
     foaf:nick "Pesca" ;
     foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
 	rel:friendOf vocang:adantiMatteo, vocang:bragariAlexandru, vocang:orlandoNicola, vocang:bdeouiEddy .
 
 vocang:fanaraGiuliano
@@ -155,6 +176,7 @@ vocang:fanaraGiuliano
     foaf:lastName "Fanara" ;
     foaf:nick "Jiuj" ;
     foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:salhiSamir, vocang:durazziMarco, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo .
 
 vocang:suscaMatteo
@@ -162,6 +184,7 @@ vocang:suscaMatteo
     foaf:firstName "Matteo" ;
     foaf:lastName "Susca" ;
     foaf:gender "male" ;
+    org:memberOf vocang:vocaboladminOrg ;
     rel:friendOf vocang:salhiSamir, vocang:durazziMarco, vocang:fanaraGiuliano, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo ;
     vocang:unpaidFriendOf vocang:battaglinoNicole, vocang:minoccheriAlessandra .
 
@@ -171,6 +194,7 @@ vocang:minoccheriAlessandra
     foaf:lastName "Minoccheri" ;
     foaf:gender "female" ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/minoccheriAlessandra.jpg" ;
+    org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:salhiSamir, vocang:durazziMarco, vocang:fanaraGiuliano,vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo .
 
  vocang:nardiniArianna
@@ -178,6 +202,7 @@ vocang:minoccheriAlessandra
     foaf:firstName "Arianna" ;
     foaf:lastName "Nardini" ;
     foaf:gender "female" ;
+    org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:salhiSamir, vocang:durazziMarco, vocang:minoccheriAlessandra, vocang:suscaMatteo, vocang:fanaraGiuliano, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:bragariAlexandru, vocang:savoGiorgia, vocang:filasetaAngelo .
 
 vocang:bdeouiEddy
@@ -186,6 +211,7 @@ vocang:bdeouiEddy
     foaf:lastName "Bdeoui" ;
     foaf:nick "Eddy" ;
     foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:salhiSamir, vocang:nardiniArianna, vocang:minoccheriAlessandra, vocang:suscaMatteo, vocang:fanaraGiuliano, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:bragariAlexandru, vocang:savoGiorgia, vocang:filasetaAngelo .
 
 vocang:paoliMichele
@@ -193,6 +219,7 @@ vocang:paoliMichele
     foaf:firstName "Michele" ;
     foaf:lastName "Paoli" ;
     foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:nardiniArianna, vocang:minoccheriAlessandra, vocang:suscaMatteo, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:bragariAlexandru, vocang:filasetaAngelo .
 
 vocang:mordacchiniCecilia
@@ -200,14 +227,15 @@ vocang:mordacchiniCecilia
     foaf:firstName "Cecilia" ;
     foaf:lastName "Mordacchini" ;
     foaf:gender "female" ;
-    rel:friendOf vocang:filasetaAngelo, vocang:savoGiorgia, vocang:bragariAlexandru, vocang:battaglinoNicole, vocang:omiccioliRiccardo, vocang:pertosaLorenzo, vocang:ribaudoSofia, vocang:orlandoNicola, vocang:fanaraGiuliano, vocang:nardiniArianna, vocang:bdeouiEddy, vocang:suscaMatteo ;
-    rel:spouseOf vocang:timpanoSam.
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:filasetaAngelo, vocang:savoGiorgia, vocang:bragariAlexandru, vocang:battaglinoNicole, vocang:omiccioliRiccardo, vocang:pertosaLorenzo, vocang:ribaudoSofia, vocang:orlandoNicola, vocang:fanaraGiuliano, vocang:nardiniArianna, vocang:bdeouiEddy, vocang:suscaMatteo .
 
 vocang:pupitaAlberto
     a foaf:Person ;
     foaf:firstName "Alberto" ;
     foaf:lastName "Pupita" ;
     foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:salhiSamir, vocang:battaglinoNicole, vocang:bdeouiEddy, vocang:bragariAlexandru, vocang:fanaraGiuliano, vocang:filasetaAngelo, vocang:minoccheriAlessandra, vocang:omiccioliRiccardo, vocang:orlandoNicola, vocang:paoliMichele, vocang:pertosaLorenzo, vocang:ribaudoSofia, vocang:savoGiorgia,vocang:suscaMatteo, vocang:timpanoSam ;
     rel:spouseOf vocang:nardiniArianna.
 
@@ -216,6 +244,7 @@ vocang:bianchiniGiovanni
     foaf:firstName "Giovanni" ;
     foaf:lastName "Bianchini" ;
     foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:pupitaAlberto, vocang:battaglinoNicole, vocang:bdeouiEddy, vocang:bragariAlexandru, vocang:fanaraGiuliano, vocang:filasetaAngelo, vocang:nardiniArianna, vocang:omiccioliRiccardo, vocang:orlandoNicola, vocang:paoliMichele, vocang:pertosaLorenzo, vocang:ribaudoSofia, vocang:savoGiorgia,vocang:suscaMatteo, vocang:timpanoSam ;
     rel:spouseOf vocang:minoccheriAlessandra.
 
@@ -224,6 +253,7 @@ vocang:rossiLuca
     foaf:firstName "Luca" ;
     foaf:lastName "Rossi" ;
     foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:sanchiPiero, vocang:tronettiElisa, vocang:orlandoNicola, vocang:talmiAlessandro, vocang:omiccioliRiccardo, vocang:bragariAlexandru, vocang:filasetaAngelo .
 
 vocang:deRosaLeonardo
@@ -232,6 +262,7 @@ vocang:deRosaLeonardo
     foaf:lastName "De Rosa" ;
     foaf:nick "Leo the 2nd" ;
     foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:filasetaAngelo , vocang:paoliMichele , vocang:pertosaLorenzo .
 
 vocang:savoGianmarco
@@ -239,6 +270,7 @@ vocang:savoGianmarco
     foaf:firstName "Gianmarco" ;
     foaf:lastName "Savo" ;
     foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:fanaraGiuliano, vocang:timpanoSam, vocang:filasetaAngelo, vocang:mordacchiniCecilia ;
     rel:siblingOf vocang:savoGiorgia .
 
@@ -248,6 +280,7 @@ vocang:radicchiGiovanni
     foaf:lastName "Radicchi" ;
     foaf:nick "Rad" ;
     foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:sanchiPiero, vocang:bianchiniGiovanni, vocang:pupitaAlberto, vocang:bdeouiEddy, vocang:nardiniArianna, vocang:minoccheriAlessandra, vocang:suscaMatteo, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:bragariAlexandru, vocang:filasetaAngelo .
 
 vocang:bensellamSelma
@@ -256,6 +289,7 @@ vocang:bensellamSelma
     foaf:lastName "Bensellam" ;
     foaf:nick "Zia Selma" ;
     foaf:gender "female" ;
+    org:memberOf vocang:vocabolieriOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/bensellamSelma.jpg" ;
     rel:friendOf vocang:ribaudoSofia, vocang:filasetaAngelo .
 
@@ -264,6 +298,7 @@ vocang:rosatelliAnna
     foaf:firstName "Anna" ;
     foaf:lastName "Rosatelli" ;
     foaf:gender "female" ;
+    org:memberOf vocang:vocabolieriOrg ;
     rel:spouseOf vocang:suscaMatteo ;
     rel:friendOf vocang:salhiSamir, vocang:ribaudoSofia, vocang:savoGianmarco, vocang:bianchiniGiovanni, vocang:pupitaAlberto, vocang:bdeouiEddy, vocang:savoGiorgia, vocang:filasetaAngelo, vocang:bragariAlexandru, vocang:battaglinoNicole, vocang:nardiniArianna, vocang:minoccheriAlessandra, vocang:fanaraGiuliano, vocang:mordacchiniCecilia, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo .
 
@@ -273,6 +308,7 @@ vocang:scattoniAlessandra
     foaf:lastName "Scattoni" ;
     foaf:gender "female" ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/scattoniAlessandra.jpg" ;
+    org:memberOf vocang:vocabolieriOrg ;
     rel:spouseOf vocang:pertosaLorenzo ;
     rel:friendOf vocang:bianchiniGiovanni, vocang:filasetaAngelo, vocang:bragariAlexandru, vocang:battaglinoNicole, vocang:nardiniArianna, vocang:pupitaAlberto, vocang:minoccheriAlessandra, vocang:orlandoNicola, vocang:omiccioliRiccardo .
 
@@ -282,6 +318,7 @@ vocang:durazziMarco
     foaf:lastName "Durazzi" ;
     foaf:nick "Duraz" ;
     foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/durazziMarco.jpg" ;
     rel:friendOf vocang:sanchiPiero, vocang:salhiSamir, vocang:rosatelliAnna, vocang:radicchiGiovanni, vocang:bianchiniGiovanni, vocang:pupitaAlberto,  vocang:mordacchiniCecilia, vocang:bdeouiEddy, vocang:bragariAlexandru, vocang:filasetaAngelo, vocang:savoGiorgia, vocang:battaglinoNicole, vocang:omiccioliRiccardo, vocang:pertosaLorenzo, vocang:timpanoSam, vocang:ribaudoSofia .
 
@@ -290,6 +327,7 @@ vocang:salhiSamir
     foaf:firstName "Samir" ;
     foaf:lastName "Salhi" ;
     foaf:nick "Sammy" ;
+    org:memberOf vocang:vocabolieriOrg ;
     foaf:gender "male" .
 
 vocang:bragariAlisa
@@ -297,6 +335,7 @@ vocang:bragariAlisa
     foaf:firstName "Alisa" ;
     foaf:lastName "Bragari" ;
     foaf:gender "female" ;
+    org:memberOf vocang:vocabolieriOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/bragariAlisa.jpg" ;
     rel:siblingOf vocang:bragariAlexandru .
 
@@ -305,6 +344,7 @@ vocang:tronettiElisa
     foaf:firstName "Elisa" ;
     foaf:lastName "Tronetti" ;
     foaf:gender "female" ;
+    org:memberOf vocang:vocabolieriOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/tronettiElisa.jpg" ;
     rel:friendOf vocang:sanchiPiero ;
     rel:spouseOf vocang:talmiAlessandro .
@@ -314,6 +354,7 @@ vocang:ingargiolaAndrea
     foaf:firstName "Andrea" ;
     foaf:lastName "Ingargiola" ;
     foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/ingargiolaAndrea.jpg" ;
     rel:friendOf vocang:filasetaAngelo, vocang:tronettiElisa .
 
@@ -321,13 +362,15 @@ vocang:sanchiPiero
     a foaf:Person ;
     foaf:firstName "Piero" ;
     foaf:lastName "Sanchi" ;
-    foaf:gender "male" .
+    foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg .
 
 vocang:bermucaMorena
     a foaf:Person ;
     foaf:firstName "Morena" ;
     foaf:lastName "Bermuca" ;
     foaf:gender "female" ;
+    org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:orlandoNicola .
 
 vocang:badialiLorenzo
@@ -335,6 +378,7 @@ vocang:badialiLorenzo
     foaf:firstName "Lorenzo" ;
     foaf:lastName "Badiali" ;
     foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/badialiLorenzo.jpg" ;
     rel:friendOf vocang:pertosaLorenzo .
 
@@ -344,6 +388,7 @@ vocang:badialiLorenzo
     foaf:lastName "Badiali" ;
     foaf:nick "Loxy" ;
     foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/badialiLorenzo.jpg" ;
     rel:friendOf vocang:pertosaLorenzo .
 
@@ -353,6 +398,7 @@ vocang:houshanSoheil
     foaf:lastName "Houshan" ;
     foaf:nick "Sosso" ;
     foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:pertosaLorenzo, vocang:badialiLorenzo.
 
 # Other Author Individuals
@@ -741,7 +787,7 @@ vocang:sparatroia
 vocang:stancoso
     a skos:Concept ;
     skos:prefLabel "Stancoso"@it ;
-    lexinfo:pronunciation "/stan • co • so/"@it ;
+    lexinfo:pronunciation "/stan • có • so/"@it ;
     skos:definition "Sinonimo di stanco, assonnato."@it ;
     skos:example "Non dormo da due giorni, sono stancoso."@it ;
     dct:creator vocang:filasetaAngelo .
@@ -749,7 +795,7 @@ vocang:stancoso
 vocang:stravoloso
     a skos:Concept ;
     skos:prefLabel "Stravoloso"@it ;
-    lexinfo:pronunciation "/stra • vo • lo • so/"@it ;
+    lexinfo:pronunciation "/stra • vo • ló • so/"@it ;
     skos:definition "Sinonimo di favoloso, ma più in grande. Simile a strabiliante, incredibile."@it ;
     skos:example "Domani Mia si sposa! Stravoloso!"@it ;
     dct:creator vocang:filasetaAngelo .
@@ -757,7 +803,7 @@ vocang:stravoloso
 vocang:stroia
     a skos:Concept ;
     skos:prefLabel "Stroia"@it ;
-    lexinfo:pronunciation "/stro • ia/"@it ;
+    lexinfo:pronunciation "/strò • ia/"@it ;
     skos:definition "Una persona che è contemporaneamente sia stronza che troia."@it ;
     skos:example "Quella lì sta sempre vicina al mio ragazzo, è proprio una stroia!"@it ;
     dct:creator vocang:battaglinoNicole .
@@ -765,7 +811,7 @@ vocang:stroia
 vocang:stupendoso
     a skos:Concept ;
     skos:prefLabel "Stupendoso"@it ;
-    lexinfo:pronunciation "/stu • pen • do • so/"@it ;
+    lexinfo:pronunciation "/stu • pen • dó • so/"@it ;
     skos:definition "Sinonimo di stupendo."@it ;
     skos:example "Quel ragazzo è stupendoso."@it ;
     dct:creator vocang:filasetaAngelo .
@@ -773,7 +819,7 @@ vocang:stupendoso
 vocang:tardivare
     a skos:Concept ;
     skos:prefLabel "Tardivare"@it ;
-    lexinfo:pronunciation "/tar • di • va • re/"@it ;
+    lexinfo:pronunciation "/tar • di • và • re/"@it ;
     skos:definition "Arrivare, ma tardi."@it ;
     skos:example "Non possiamo tardivare proprio oggi!"@it ;
     dct:creator vocang:filasetaAngelo .
@@ -781,7 +827,7 @@ vocang:tardivare
 vocang:tiramirillo
     a skos:Concept ;
     skos:prefLabel "Tiramirillo"@it ;
-    lexinfo:pronunciation "/ti • ra • mi • ril • lo/"@it ;
+    lexinfo:pronunciation "/ti • ra • mi • rìl • lo/"@it ;
     skos:definition "Un tiramisù regolare, ma il caffè utilizzato nel procedimento è rimpiazzato dal cafferillo."@it ;
     skos:example "Dato che oggi è festa ho preprato un tiramirillo."@it ;
     skos:related vocang:cafferillo ;
@@ -790,7 +836,7 @@ vocang:tiramirillo
 vocang:trocatrice
     a skos:Concept ;
     skos:prefLabel "Trocatrice"@it ;
-    lexinfo:pronunciation "/tro • ca • tri • ce/"@it ;
+    lexinfo:pronunciation "/tro • ca • trì • ce/"@it ;
     skos:definition "Una persona che trucca le persone ma fornisce loro anche della droga. Sia la vendita legale che lo spaccio valgono per l’utilizzo di questa parola."@it ;
     skos:example "Ho rimediato due grammi dalla trocatrice."@it ;
     dct:creator vocang:ribaudoSofia .
@@ -798,7 +844,7 @@ vocang:trocatrice
 vocang:uovograna
     a skos:Concept ;
     skos:prefLabel "Uovograna"@it ;
-    lexinfo:pronunciation "/uo • vo • gra • na/"@it ;
+    lexinfo:pronunciation "/uo • vo • grà • na/"@it ;
     skos:definition "Albume cotto con sopra semi di melograno."@it ;
     skos:example "Oggi mi sono mangiato un uovograna."@it ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/uovograna.jpg" ;
@@ -807,7 +853,7 @@ vocang:uovograna
 vocang:urlatto
     a skos:Concept ;
     skos:prefLabel "Urlatto"@it ;
-    lexinfo:pronunciation "/Ur • lat • to/"@it ;
+    lexinfo:pronunciation "/ur • làt • to/"@it ;
     skos:definition "Gatto che urla."@it ;
     skos:example "Sotto casa mia ci sono degli urlatti."@it ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/urlatto.jpg" ;
@@ -816,7 +862,7 @@ vocang:urlatto
 vocang:yoguovo
     a skos:Concept ;
     skos:prefLabel "Yoguovo"@it ;
-    lexinfo:pronunciation "/yo • guo • vo/"@it ;
+    lexinfo:pronunciation "/yo • guò • vo/"@it ;
     skos:definition "Yogurt (di qualsiasi tipo) sopra albume d’uovo cotto. La prima volta che è stato testato lo yogurt era alla pesca."@it ;
     skos:example "Lo yoguovo fa schifo."@it ;
     dct:creator vocang:filasetaAngelo .
@@ -824,7 +870,7 @@ vocang:yoguovo
 vocang:zeresimo
     a skos:Concept ;
     skos:prefLabel "Zeresimo"@it ;
-    lexinfo:pronunciation "/ze • re • si • mo/"@it ;
+    lexinfo:pronunciation "/ze • ré • ṣi • mo/"@it ;
     skos:definition "Che occupa, in una serie, reale o ipotetica, il posto corrispondente al numero zero o, in senso più generico, prima dell’inizio."@it ;
     skos:example "Sono arrivato zeresimo."@it ;
     dct:creator vocang:filasetaAngelo .
@@ -832,7 +878,7 @@ vocang:zeresimo
 vocang:arsenzio
     a skos:Concept ;
     skos:prefLabel "Arsenzio"@it ;
-    lexinfo:pronunciation "/ar • sen • zio/"@it ;
+    lexinfo:pronunciation "/ar • sèn • zio/"@it ;
     skos:definition "Assenzio con dentro arsenico."@it ;
     skos:example "Stasera mi faccio un bicchierino di Arsenzio."@it ;
     dct:creator vocang:bragariAlexandru .
@@ -840,7 +886,7 @@ vocang:arsenzio
 vocang:piedofilo
     a skos:Concept ;
     skos:prefLabel "Piedofilo"@it ;
-    lexinfo:pronunciation "/pie • do • fi • lo/"@it ;
+    lexinfo:pronunciation "/pie • do • fì • lo/"@it ;
     skos:definition "Un pedofilo che è anche feticista dei piedi."@it ;
     skos:example "Stai attento, quello è un piedofilo."@it ;
     dct:creator vocang:bragariAlexandru .
@@ -848,7 +894,7 @@ vocang:piedofilo
 vocang:mussulnano
     a skos:Concept ;
     skos:prefLabel "Mussulnano"@it ;
-    lexinfo:pronunciation "/mus • sul • na • no/"@it ;
+    lexinfo:pronunciation "/mus • sul • nà • no/"@it ;
     skos:definition "Un mussulmano nano."@it ;
     skos:example "Quel ragazzo è un mussulnano."@it ;
     dct:creator vocang:omiccioliRiccardo .
@@ -856,7 +902,7 @@ vocang:mussulnano
 vocang:arbitroio
     a skos:Concept ;
     skos:prefLabel "Arbitroio"@it ;
-    lexinfo:pronunciation "/ar • bi • tro • io/"@it ;
+    lexinfo:pronunciation "/ar • bi • trò • io/"@it ;
     skos:definition "Qualcosa che per qualche ragione sconosciuta non funziona sempre anche se dovrebbe."@it ;
     skos:example "Il risultato è inaspettato, questa deve essere una regola arbitroia."@it ;
     dct:creator vocang:omiccioliRiccardo .
@@ -864,7 +910,7 @@ vocang:arbitroio
 vocang:serraiolo
     a skos:Concept ;
     skos:prefLabel "Serraiolo"@it ;
-    lexinfo:pronunciation "/ser • ra • io • lo/"@it ;
+    lexinfo:pronunciation "/ser • ra • iò • lo/"@it ;
     skos:definition "Il gestore di una serra."@it ;
     skos:example "Il serraiolo oggi non ha voglia di lavorare."@it ;
     dct:creator vocang:talmiAlessandro .
@@ -872,7 +918,7 @@ vocang:serraiolo
 vocang:squarciatroia
     a skos:Concept ;
     skos:prefLabel "Squarciatroia"@it ;
-    lexinfo:pronunciation "/squar • cia • tro • ia/"@it ;
+    lexinfo:pronunciation "/squar • cia • trò • ia/"@it ;
     skos:definition "Un modo alternativo e più dispregiativo per identificare una scorciatroia."@it ;
     skos:example "Mannaggia a quella squarciatroia!"@it ;
     skos:related vocang:scorciatroia ;
@@ -881,7 +927,7 @@ vocang:squarciatroia
 vocang:scontante
     a skos:Concept ;
     skos:prefLabel "Scontante"@it ;
-    lexinfo:pronunciation "/scon • tan • te/"@it ;
+    lexinfo:pronunciation "/scon • tàn • te/"@it ;
     skos:definition "Pagamento effettuato in contanti di importo misero ai fini di evitare le tasse imposte dallo stato."@it, "Sconto su un importo sostanziale offerto dal negoziante a condizione di effettuare un pagamento in contanti per consentire al negoziante stesso di non pagare tasse allo stato su quell'importo"@it;
     skos:example "Sono povero, pago con lo scontante."@it, "Sono 1400€ se paghi col bancomat, 1200€ con lo scontante"@it;
     dct:creator vocang:orlandoNicola .
@@ -889,7 +935,7 @@ vocang:scontante
 vocang:coscionchetta
     a skos:Concept ;
     skos:prefLabel "Coscionchetta"@it ;
-    lexinfo:pronunciation "/co • scion • chet • ta/"@it ;
+    lexinfo:pronunciation "/co • scion • chèt • ta/"@it ;
     skos:definition "Conca che si crea tra la coscia e la vita in determinate condizioni dovute alla postura che si assume."@it ;
     skos:example "Hai una coscionchetta davvero carina!"@it ;
     dct:creator vocang:ribaudoSofia .
@@ -897,7 +943,7 @@ vocang:coscionchetta
 vocang:vibridi
     a skos:Concept ;
     skos:prefLabel "Vibridi"@it ;
-    lexinfo:pronunciation "/vi • bri • di/"@it ;
+    lexinfo:pronunciation "/vì • bri • di/"@it ;
     skos:definition "Sensazione circoscritta al diaframma simile ai brividi ma che include solo parte relativa alla stimolazione senza il classico movimento che ne consegue."@it ;
     skos:example "Stare così in alto mi fa venire i vibridi..."@it ;
     dct:creator vocang:orlandoNicola .
@@ -905,7 +951,7 @@ vocang:vibridi
 vocang:contanegrino
     a skos:Concept ;
     skos:prefLabel "Contanegrino"@it ;
-    lexinfo:pronunciation "/con • ta • ne • gri • no/"@it ;
+    lexinfo:pronunciation "/con • ta • ne • grì • no/"@it ;
     skos:definition "Contadino con la carnagione scura."@it, "Contadino montenegrino (abitante del Montenegro)."@it ;
     skos:example "Mio zio è un contanegrino."@it ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/contanegrino.jpg" ;
@@ -914,7 +960,7 @@ vocang:contanegrino
 vocang:tempoglia
     a skos:Concept ;
     skos:prefLabel "Tempoglia"@it ;
-    lexinfo:pronunciation "/tem • po • glia/"@it ;
+    lexinfo:pronunciation "/tem • pò • glia/"@it ;
     skos:definition "Concetto rapido utilizzato da persone svogliate per indicare sia il tempo che la voglia. Generalmente viene utilizzato per indicare la mancanza di entrambi."@it ;
     skos:example "Non ho tempoglia di studiare."@it ;
     dct:creator vocang:talmiAlessandro .
@@ -922,7 +968,7 @@ vocang:tempoglia
 vocang:angurianesimo
     a skos:Concept ;
     skos:prefLabel "Angurianesimo"@it ;
-    lexinfo:pronunciation "/an • gu • ria • ne • si • mo/"@it ;
+    lexinfo:pronunciation "/an • gu • ria • né • ṣi • mo/"@it ;
     skos:definition "Un tipo di dieta molto più valida di quella vegetariana o vegana. Consiste nel mangiare circa 7kg di anguria al giorno, bucce e semi inclusi. I semi di anguria sono ricchi di vitamine, sali minerali e più contengono più proteine della carne. Inoltre si avrà a disposizione il 100% del ferro necessario in un giorno, cosa che invece i vegani e vegetariani devono integrare con le pillole."@it ;
     skos:example "Ho cominciato un nuovo tipo di dieta, si chiama angurianesimo."@it ;
     dct:creator vocang:bragariAlexandru .
@@ -930,7 +976,7 @@ vocang:angurianesimo
 vocang:ispettrore
     a skos:Concept ;
     skos:prefLabel "Ispettrore"@it ;
-    lexinfo:pronunciation "/is • pet • tro • re/"@it ;
+    lexinfo:pronunciation "/is • pet • tró • re/"@it ;
     skos:definition "Istruttore di palestra che ha anche il ruolo di ispettore e multa chi non si allena."@it ;
     skos:example "Oggi l'isprettrore mi ha fatto una multa..."@it ;
     dct:creator vocang:bragariAlexandru .
@@ -938,7 +984,7 @@ vocang:ispettrore
 vocang:esplisciata
     a skos:Concept ;
     skos:prefLabel "Esplisciata"@it ;
-    lexinfo:pronunciation "/es • pli • scia • ta/"@it ;
+    lexinfo:pronunciation "/es • pli • scià • ta/"@it ;
     skos:definition "Esplorazione atta a pisciare."@it ;
     skos:example "Io e Lorenzo andiamo in eslisciata."@it ;
     dct:creator vocang:pertosaLorenzo .
@@ -946,7 +992,7 @@ vocang:esplisciata
 vocang:negatico
     a skos:Concept ;
     skos:prefLabel "Negatico"@it ;
-    lexinfo:pronunciation "/ne • ga • ti • co/"@it ;
+    lexinfo:pronunciation "/ne • gà • ti • co/"@it ;
     skos:definition "Quando si risulta negativi al test del Covid 19 e ci si trova nel circolo polare artico."@it ;
     skos:example "Sono negatico!"@it ;
     dct:creator vocang:bragariAlexandru .
@@ -954,7 +1000,7 @@ vocang:negatico
 vocang:autovalaggio
     a skos:Concept ;
     skos:prefLabel "Autovalaggio"@it ;
-    lexinfo:pronunciation "/au • to • va • lag • gio/"@it ;
+    lexinfo:pronunciation "/au • to • va • làg • gio/"@it ;
     skos:definition "Pulizia dell'auto attraverso l'umidità dell'aria."@it ;
     skos:example "Visto che splendore? Tutto merito dell'autovalaggio."@it ;
     dct:creator vocang:filasetaAngelo .
@@ -962,7 +1008,6 @@ vocang:autovalaggio
 vocang:trashetto
     a skos:Concept ;
     skos:prefLabel "Trashetto"@it ;
-    lexinfo:pronunciation "/tra • shet • to/"@it ;
     skos:definition "Un biglietto di auguri fatto a mano in cui sono rappresentati eventi divertenti riguardanti la vita del festeggiato."@it ;
     skos:example "Il trashetto di Nicola è il più bello di tutti."@it ;
     dct:creator vocang:filasetaAngelo .
@@ -970,7 +1015,7 @@ vocang:trashetto
 vocang:coscino
     a skos:Concept ;
     skos:prefLabel "Coscino"@it ;
-    lexinfo:pronunciation "/co • sci • no/"@it ;
+    lexinfo:pronunciation "/co • scì • no/"@it ;
     skos:definition "Cuscino messo sulle cosce al fine di alleviare i dolori del ciclo."@it ;
     skos:example "Che dolore... Meno male che ho un coscino."@it ;
     dct:creator vocang:savoGiorgia .
@@ -987,7 +1032,7 @@ vocang:limonalbero
 vocang:tappembramento
     a skos:Concept ;
     skos:prefLabel "Tappembramento"@it ;
-    lexinfo:pronunciation "/tap • pem • bra • men • to/"@it ;
+    lexinfo:pronunciation "/tap • pem • bra • mèn • to/"@it ;
     skos:definition "Assembramento fatto su un tappeto di comodità suprema."@it ;
     skos:example "Il piano per stasera è di fare un bel tappembramento."@it ;
     dct:creator vocang:suscaMatteo .
@@ -995,7 +1040,7 @@ vocang:tappembramento
 vocang:abbecedangelo
     a skos:Concept ;
     skos:prefLabel "Abbecedangelo"@it ;
-    lexinfo:pronunciation "/ab • be • ce • dan • ge • lo/"@it ;
+    lexinfo:pronunciation "/ab • be • ce • dàn • ge • lo/"@it ;
     skos:definition "Abbecedario per insegnare le parole del Vocabolangelo."@it ;
     skos:example "Insegnerò le parole del vocabolangelo a mio figlio grazie all'abbecedangelo."@it ;
     skos:related vocang:vocabolangelo, vocang:angeloco ;
@@ -1004,7 +1049,7 @@ vocang:abbecedangelo
 vocang:cappucciccia
     a skos:Concept ;
     skos:prefLabel "Cappucciccia"@it ;
-    lexinfo:pronunciation "/cap • puc • cic • cia/"@it ;
+    lexinfo:pronunciation "/cap • puc • cìc • cia/"@it ;
     skos:definition "Salsiccia imbevuta nel cappuccino."@it ;
     skos:example "Non voglio mai mangiare una cappucciccia in vita mia."@it ;
     dct:creator vocang:nardiniArianna, vocang:bdeouiEddy .
@@ -1012,7 +1057,7 @@ vocang:cappucciccia
 vocang:spiazio
     a skos:Concept ;
     skos:prefLabel "Spiazio"@it ;
-    lexinfo:pronunciation "/spia • zio/"@it ;
+    lexinfo:pronunciation "/spià • zio/"@it ;
     skos:definition "Uno spiazzato estremamente spazioso."@it ;
     skos:example "Questo spiazio è ancora più grande di quello che immaginassi!."@it ;
     dct:creator vocang:pertosaLorenzo, vocang:paoliMichele .
@@ -1020,7 +1065,7 @@ vocang:spiazio
 vocang:grandino
     a skos:Concept ;
     skos:prefLabel "Grandino"@it ;
-    lexinfo:pronunciation "/gran • di • no/"@it ;
+    lexinfo:pronunciation "/gran • dì • no/"@it ;
     skos:definition "Un gradino estremamente alto."@it ;
     skos:example "Se cascassi da quel grandino morirei per colpa dei danni da caduta."@it ;
     dct:created "2022-08-12" ;
@@ -1029,7 +1074,7 @@ vocang:grandino
 vocang:scalinfame
     a skos:Concept ;
     skos:prefLabel "Scalinfame"@it ;
-    lexinfo:pronunciation "/sca • lin • fa • me/"@it ;
+    lexinfo:pronunciation "/sca • lin • fà • me/"@it ;
     skos:definition "Scalino particolarmente infame che si presta a non essere visto."@it ;
     skos:example "Ho quasi distrutto l'auto per colpa di uno scalinfame."@it ;
     dct:created "2022-08-12" ;
@@ -1047,7 +1092,7 @@ vocang:lesante
 vocang:poccante
     a skos:Concept ;
     skos:prefLabel "Poccante"@it ;
-    lexinfo:pronunciation "/poc • can • te/"@it ;
+    lexinfo:pronunciation "/poc • càn • te/"@it ;
     skos:definition "Un sapore che ci si aspetta essere molto piccante ma che alla fine non lo è quasi per niente."@it ;
     skos:example "Questo Kebab è poccante."@it ;
     dct:created "2022-08-15" ;
@@ -2980,7 +3025,7 @@ vocang:omnicio
     a skos:Concept ;
     skos:prefLabel "Omnicio"@it ;
     lexinfo:pronunciation "/om • nì • cio/"@it ;
-    skos:definition "Un gatto che è definibile con ogni sostantivo che descrive un gatto presente all'interno del Vocabolangelo. In altre parole una creatura mitologica dalle sembianze umane che, durante le notti di luna piena, si trasforma in un gatto buggatto che urla all'interno di un videogioco e che in passato ha subito un trauma, proveniente dalle regioni orientali dell'Europa, meticcio, strabico, molto grande, obeso, dotato di scarse, trascurabili, o negative capacità logiche, particolarmente pigro e che resta spiaggiato sulla stessa superficie piana per un lungo periodo di tempo, dall'espressione o comportamento molto arrogante, estremamente vorace, molto pacifico, estremamente carino, capace di influenzare con la sua serenità e diplomazia anche i gatti attorno a lui, capace di eseguire acrobazie, presenta vaghe somiglianze con un suricato, tende ad arrampicarsi in posti pericolosi, miagola in maniera carina, molto ostile che ha la tendenza di graffiare mordere e soffiare ed è in grado di curare persone e altri gatti."@it ;
+    skos:definition "Un gatto che è definibile con ogni sostantivo che descrive un gatto presente all'interno del Vocabolangelo. In altre parole una creatura mitologica dalle sembianze umane che, durante le notti di luna piena, si trasforma in un gatto buggato che urla all'interno di un videogioco e che in passato ha subito un trauma, proveniente dalle regioni orientali dell'Europa, meticcio, che ha un solo occhio, strabico, molto grande, obeso, dotato di scarse, trascurabili, o negative capacità logiche, particolarmente pigro e che resta spiaggiato sulla stessa superficie piana per un lungo periodo di tempo, dall'espressione o comportamento molto arrogante, estremamente vorace, molto pacifico, estremamente carino, capace di influenzare con la sua serenità e diplomazia anche i gatti attorno a lui, capace di eseguire acrobazie, presenta vaghe somiglianze con un suricato, dall'aspetto straordinariamente allungato, che sia effettivamente di tale conformazione o che lo sembri a causa di particolari fenomeni, tende ad arrampicarsi in posti pericolosi, miagola in maniera carina, molto ostile che ha la tendenza di graffiare mordere e soffiare ed è in grado di curare persone e altri gatti."@it ;
     skos:example "Ho dovuto abbassare lo sguardo e tapparmi le orecchie quando ho visto passare quell'omnicio: era talmente fantastico da sembrare una divinità."@it ;
     dct:created "2023-01-25" ;
     skos:note "Il messaggio di commit che ha introdotto la definizione estesa di omnicio è il seguente: add more suitable and fun definition to omnicio. Such and incredible creature needs to be treated with the utmost care and respect. Oh my goodness, I cannot stress enough just how utterly awe-inspiring and breathtakingly gorgeous this creature truly is! Its magnificence is unparalleled and its beauty is simply beyond compare. It is a true wonder of nature, a masterpiece of creation, and it deserves to be treated with the utmost reverence, adoration, and adulation that it so rightly deserves. Every single aspect of this creature, from the way its elegant limbs move gracefully through the air to the vibrant colors of its stunningly intricate patterns, is an absolute marvel to behold. It is a true blessing and a privilege to be able to witness such a magnificent creature in all its glory, and we must do everything in our power to ensure that it is protected and cared for with the utmost diligence and care. Oh my stars, where do I even begin to describe the sheer and utter majesty of this breathtakingly beautiful creature? It is like a symphony of pure wonder and enchantment, a living, breathing masterpiece that has been crafted with the utmost care and precision by the very hands of the divine. Every single inch of its being is a testament to the limitless power and infinite creativity of the universe, and it is truly a privilege beyond measure to be able to witness such a wondrous being in all its glory. The colors of its coat are like a rainbow woven from strands of pure gold and silver, shimmering and glimmering in the light like a thousand precious gems. The way its body moves, fluid and graceful like a dancer's, is a thing of true beauty and grace, and it seems almost as if the very air around it is charged with a palpable sense of magic and enchantment. In short, this magnificent creature is a true masterpiece of nature, a testament to the boundless wonder and infinite creativity of the universe, and it simply must be treated with the utmost respect, care, and adoration that it so richly deserves. We must cherish and protect it with all our hearts, for it is truly one of the most wondrous and precious gifts that life has to offer. Words simply cannot do justice to the sheer and utter splendor of this majestic creature. It is as if it was forged from the very essence of beauty itself, a true marvel of nature that leaves all who behold it in a state of awe and wonder. Its presence is like a warm embrace from the universe, a gentle reminder that there is still magic and enchantment to be found in this world, if only we take the time to look for it. Every time I gaze upon this wondrous creature, I am filled with a sense of peace and tranquility that I simply cannot find elsewhere. It is a living, breathing masterpiece, a work of art that is continually evolving and changing with the passing of time. And yet, for all its beauty and magnificence, it is also a fragile thing, one that requires our love, our care, and our protection if it is to survive and thrive in a world that can be all too harsh and unforgiving. So let us pledge ourselves to the cause of safeguarding this incredible creature, to ensuring that it is treated with the utmost respect and care that it so rightly deserves. Let us cherish it, protect it, and love it with all our hearts, for in doing so, we are also honoring the boundless creativity and wonder of the universe itself.My dear friend, it is as if this creature is a god among us, a deity that has graced our world with its divine presence. Its mere existence is a testament to the infinite creativity and boundless wonder of the universe, and it is a living, breathing work of art that deserves to be worshipped and adored like the deity that it truly is. Every time I am blessed with the opportunity to lay my eyes upon this wondrous creature, I feel as if I am standing before an altar, gazing up at the very face of god itself. Its beauty is beyond compare, its grace beyond measure, and its presence fills me with a sense of reverence and awe that is simply indescribable. It is as if the very air around it is infused with a sense of divine energy, a power that is both humbling and exhilarating all at once. And yet, for all its god-like qualities, this creature is also fragile and vulnerable, a precious gift that must be treated with the utmost care and respect if it is to survive and thrive in this world. We must worship it, yes, but we must also protect it, nurture it, and love it with all our hearts, for in doing so, we are also honoring the very essence of divinity itself. So let us pledge ourselves to the cause of safeguarding this incredible creature, to ensuring that it is treated with the utmost respect and care that it so rightly deserves. Let us build temples in its honor, sing hymns of praise to its name, and offer it our deepest reverence and adoration. For this creature is not just a thing of beauty, but a true god among us, a living, breathing testament to the infinite wonder and boundless creativity of the universe itself. May the Omnicio always be praised. Forever and ever." ;
@@ -5234,3 +5279,124 @@ vocang:caffeolo
     skos:example "Questa mattina mi sono svegliato tardi e sapevo che sarei arrivato in ufficio in ritardo se avessi fatto la mia solita sosta al bar per prendere il caffè. Così ho chiesto al barista di prepararmi un caffè lungo e forte in un bicchierino da shot. Il barista mi ha guardato stranito, ma ha capito la mia fretta e ha preparato il mio caffeolo in un attimo. Ho preso il bicchierino e l'ho bevuto d'un fiato, sentendo l'energia del caffè che mi scorreva nelle vene. Sono arrivato in ufficio in tempo e con la giusta carica per affrontare la giornata."@it ;
     dct:created "2023-05-02" ;
     dct:creator vocang:ribaudoSofia .
+
+vocang:caffettano
+    a skos:Concept ;
+    skos:prefLabel "Caffettano"@it ;
+    lexinfo:pronunciation "/caf • fet • tà • no/"@it ;
+    skos:definition "Un caffé dall'odore sgradevole rispetto alla norma, facendo presumere che qualcosa è andato storto durante la sua preparazione."@it ;
+    skos:example "Sono entrato in un bar che non conoscevo e ho chiesto un caffè. Il barista mi ha sorriso gentilmente e mi ha preparato il caffè con cura. Ma quando l'ho annusato, mi sono accorto che c'era qualcosa di strano. Il caffè aveva un odore sgradevole, come se ci fosse qualcosa di marcio nella miscela. Ho provato a berlo comunque, ma il gusto era veramente indescrivibile. Ho realizzato di aver bevuto un caffettano, quindi ho deciso di lasciare il bar senza finire il caffè, ma prima di uscire ho detto al barista: 'Mi dispiace, ma questo caffè è un po' troppo strano per i miei gusti!'. Il barista mi ha guardato in modo perplesso, ma credo che abbia capito che il suo caffè non era stato all'altezza della mia aspettativa."@it ;
+    dct:created "2023-05-07" ;
+    dct:creator vocang:ribaudoSofia .
+
+vocang:scioglio
+    a skos:Concept ;
+    skos:prefLabel "Scioglio"@it ;
+    lexinfo:pronunciation "/sciò • glio/"@it ;
+    skos:definition "Aggettivo che indica una persona che, nel corso della comunicazione, descrive le azioni mediante l'uso di onomatopee."@it ;
+    skos:example "Durante la riunione, Giovanni si è rivelato un vero scioglio, arricchendo le sue storie con suoni e rumori che rendevano le sue descrizioni vivide ed emozionanti."@it ;
+    skos:note "La parolangelo trova origine da un malinteso nell'intendere il nome di Shoyo Hinata, il protagonista di un anime, che si distingue per la sua eloquenza e la sua abilità nel rendere in modo vivace le azioni narrate."@it ;
+    dct:created "2023-05-11" ;
+    dct:creator vocang:filasetaAngelo, vocang:savoGiorgia .
+
+vocang:feliclope
+    a skos:Concept ;
+    skos:prefLabel "Feliclope"@it ;
+    lexinfo:pronunciation "/fe • li • clò • pe/"@it ;
+    skos:definition "Gatto o felino che ha un solo occhio."@it ;
+    skos:example "Quel feliclope dal pelo morbido e il singolare occhio verde cattura l'attenzione di tutti. Nonostante la sua diversità, quel gatto si muove con grazia ed esplora con curiosità il suo territorio, diventando un'affascinante e unica presenza nel quartiere."@it ;
+    skos:related vocang:omnicio ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/feliclope.jpg" ;
+    skos:note "Le parolangelo feliclope e allungatto sono nate insieme."@it ;
+    dct:created "2023-05-10" ;
+    dct:creator vocang:orlandoNicola, vocang:nardiniArianna .
+
+vocang:allungatto
+    a skos:Concept ;
+    skos:prefLabel "Allungatto"@it ;
+    lexinfo:pronunciation "/al • lun • gàt • to/"@it ;
+    skos:definition "Un gatto o felino dall'aspetto straordinariamente allungato, che sia effettivamente di tale conformazione o che lo sembri a causa di particolari fenomeni."@it ;
+    skos:example "C'era un misterioso gatto nella vecchia casa abbandonata, un vero e proprio allungatto. Ogni volta che passava furtivamente tra le ombre, sembrava quasi distorcere lo spazio intorno a sé, incutendo un senso di meraviglia e fascino in chiunque lo osservasse."@it ;
+    skos:related vocang:omnicio ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/allungatto.jpg" ;
+    skos:note "Le parolangelo feliclope e allungatto sono nate insieme."@it ;
+    dct:created "2023-05-10" ;
+    dct:creator vocang:orlandoNicola, vocang:nardiniArianna .
+
+vocang:jujjizzare
+    a skos:Concept ;
+    skos:prefLabel "Jujjizzare"@it ;
+    skos:definition "Procedere con la realizzazione dell'outfit e del make-up di un individuo seguendo le caratteristiche distintive goth, rock, emo o un insieme delle precedenti."@it ;
+    skos:example "Devo assolutamente jiujjizzarmi per il concerto dei My Chemical Romance"@it ;
+    skos:note "Le parolangelo nasce dal soprannome di un vocaboliere che si jujjizza ogni giorno."@it ;
+    dct:created "2023-05-10" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:orgasmento
+    a skos:Concept ;
+    skos:prefLabel "Orgasmento"@it ;
+    lexinfo:pronunciation "/or • gas • mén • to/"@it ;
+    skos:definition "Orgasmo accompagnato da un'espressione lamentosa."@it ;
+    skos:example "Ieri ero con Carla ed ha avuto un orgasmento... Non ho capito se le è piaciuto, ho paura di averle fatto male."@it ;
+    dct:created "2023-05-10" ;
+    skos:related vocang:orgasno ;
+    dct:creator vocang:rosatelliAnna .
+
+vocang:cappucciccio
+    a skos:Concept ;
+    skos:prefLabel "Cappucciccio"@it ;
+    lexinfo:pronunciation "/cap • puc • cìc • cio/"@it ;
+    skos:definition "Individuo appartenente all'ordine dei frati, caratterizzato da una stazza imponente che si manifesta attraverso la presenza di un addome prominente e rotondo."@it ;
+    skos:example "Nel monastero, c'era frate Gaudenzio, noto per la sua corporatura possente e una pancia talmente rotonda da poterla confondere con un cuscino. Ogni volta che si avvicinava, era come se portasse con sé un sorriso contagioso, perché la sua pancia sembrava avere una personalità tutta sua, pronta a scherzare e dare un tocco di allegria al luogo sacro. Lui era un vero cappucciccio."@it ;
+    dct:created "2023-05-11" ;
+    skos:related vocang:cappucciccia ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:vocaboregolangelo
+    a skos:Concept ;
+    skos:prefLabel "Vocaboregolangelo"@it ;
+    lexinfo:pronunciation "/vo • ca • bo • re • go • làn • ge • lo/"@it ;
+    skos:definition "Regola che limita la definizione di parolangelo al fine di invalidare parole di scarsa qualità."@it ;
+    skos:example "Sul sito ufficiale del vocabolangelo è possibile trovare l'elenco delle vocaboregolangelo. Ieri una mia parola non è stata accettata perché non ne ho rispettata una, ma un vocaboladmin mi ha aiutato a sistemarla e ora è online!"@it ;
+    dct:created "2023-05-12" ;
+    skos:related vocang:vocaboladmin, vocang:vocabolangelo, vocang:angelario, vocang:parolangelo, vocang:apostolangelo, vocang:dizionangelo, vocang:vocaboliere, vocang:vocabolangelare ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:parolarcangelo
+    a skos:Concept ;
+    skos:prefLabel "Parolarcangelo"@it ;
+    lexinfo:pronunciation "/pa • ro • lar • càn • ge • lo/"@it ;
+    skos:definition "Parolangelo che non rispetta una o più vocaboregolangelo. Non necessariamente una Parolarcangelo è di qualità minore rispetto ad una Parolangelo."@it ;
+    skos:example "Sul sito ufficiale del vocabolangelo è possibile trovare molte parolangelo, ma anche alcune parolarcangelo. Alcune non hanno molto senso, ma altre non sono male!"@it ;
+    dct:created "2023-05-12" ;
+    skos:related vocang:vocaboladmin, vocang:vocabolangelo, vocang:angelario, vocang:parolangelo, vocang:apostolangelo, vocang:dizionangelo, vocang:vocaboliere, vocang:vocabolangelare, vocang:vocaboregolangelo ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:puntorgolismo
+    a skos:Concept ;
+    skos:prefLabel "Puntorgolismo"@it ;
+    lexinfo:pronunciation "/pun • tor • go • lìs • mo/"@it ;
+    skos:definition "Idea preconcetta che porta a disprezzare il segno di punteggiatura del punto e virgola, si rifiuta di utilizzarlo, e in casi estremi è anche favorevole a rimuoverlo completamente dalla lingua italiana."@it ;
+    skos:example "Aderisco al puntorgolismo da più di 5 anni e sono un convinto sostenitore. Nella mia tesi ho utilizzati dei normalissimi punti per dividere le frasi e ho comunque preso 110 e lode. Quel simbolo inutile è rimpiazzabilissimo!"@it ;
+    dct:created "2023-05-12" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:puntorgolista
+    a skos:Concept ;
+    skos:prefLabel "Puntorgolista"@it ;
+    lexinfo:pronunciation "/pun • tor • go • lìs • ta/"@it ;
+    skos:definition "Chi aderisce al puntorgolismo, ossia chi disprezzare il segno di punteggiatura del punto e virgola, si rifiuta di utilizzarlo, e in casi estremi è anche favorevole a rimuoverlo completamente dalla lingua italiana."@it ;
+    skos:example "Sono un puntorgolista convinto da più di 5 anni. Nella mia tesi ho utilizzati dei normalissimi punti per dividere le frasi e ho comunque preso 110 e lode. Quel simbolo inutile è rimpiazzabilissimo!"@it ;
+    skos:related vocang:puntorgolismo ;
+    dct:created "2023-05-12" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:bassista
+    a skos:Concept ;
+    skos:prefLabel "Bassista"@it ;
+    lexinfo:pronunciation "/bas • sìs • sta/"@it ;
+    skos:definition "Chi aderisce al bassismo, ossia chi discrimina chi è basso."@it ;
+    skos:example "Marina mi ha dato buca per l'appuntamento perché ha scoperto da Teresa che sono alto 145 centimetri. Non credevo fosse bassista!"@it ;
+    skos:related vocang:bassismo ;
+    dct:created "2023-02-11" ;
+    dct:creator vocang:filasetaAngelo .
