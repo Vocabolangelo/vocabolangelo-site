@@ -2,6 +2,7 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
 @prefix modsci: <https://w3id.org/skgo/modsci#> .
+@prefix org: <http://www.w3.org/ns/org#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -42,6 +43,14 @@ rel:siblingOf a owl:SymmetricProperty ;
 
 skos:related a owl:SymmetricProperty .
 
+# Organization individuals
+
+vocang:vocaboladminOrg
+    rdfs:subClassOf vocang:vocabolieriOrg .
+
+vocang:vocabolieriOrg
+    a org:Organization .
+
 # Person Individuals
 
 vocang:filasetaAngelo
@@ -50,6 +59,7 @@ vocang:filasetaAngelo
     foaf:lastName "Filaseta" ;
     foaf:nick "Ange" ;
     foaf:gender "male" ;
+    org:memberOf vocang:vocaboladminOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/filasetaAngelo.jpeg" ;
     rel:friendOf vocang:sanchiPiero, vocang:tronettiElisa, vocang:salhiSamir, vocang:bragariAlexandru , vocang:battaglinoNicole , vocang:omiccioliRiccardo , vocang:pertosaLorenzo , vocang:timpanoSam , vocang:ribaudoSofia ;
     rel:spouseOf vocang:savoGiorgia .
@@ -60,6 +70,7 @@ vocang:savoGiorgia
     foaf:lastName "Savo" ;
     foaf:nick "GioGio" ;
     foaf:gender "female" ;
+    org:memberOf vocang:vocabolieriOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/savoGiorgia.jpg" ;
     rel:friendOf vocang:salhiSamir, vocang:bragariAlexandru , vocang:battaglinoNicole , vocang:omiccioliRiccardo , vocang:pertosaLorenzo, vocang:timpanoSam , vocang:ribaudoSofia .
 
@@ -69,6 +80,7 @@ vocang:bragariAlexandru
     foaf:lastName "Bragari" ;
     foaf:nick "Sasha" ;
     foaf:gender "male" ;
+    org:memberOf vocang:vocaboladminOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/bragariAlexandru.jpg" ;
     rel:friendOf vocang:sanchiPiero, vocang:tronettiElisa, vocang:salhiSamir, vocang:battaglinoNicole , vocang:omiccioliRiccardo , vocang:pertosaLorenzo , vocang:timpanoSam , vocang:ribaudoSofia .
 
@@ -78,6 +90,7 @@ vocang:battaglinoNicole
     foaf:lastName "Battaglino" ;
     foaf:nick "Batta" ;
     foaf:gender "female" ;
+    org:memberOf vocang:vocabolieriOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/battaglinoNicole.jpg" ;
     rel:friendOf vocang:sanchiPiero, vocang:salhiSamir, vocang:pertosaLorenzo , vocang:timpanoSam , vocang:ribaudoSofia ;
     rel:spouseOf vocang:omiccioliRiccardo .
@@ -88,6 +101,7 @@ vocang:omiccioliRiccardo
     foaf:lastName "Omiccioli" ;
     foaf:nick "Miccio" ;
     foaf:gender "male" ;
+    org:memberOf vocang:vocaboladminOrg ;
     rel:friendOf vocang:sanchiPiero, vocang:tronettiElisa, vocang:salhiSamir, vocang:pertosaLorenzo , vocang:timpanoSam , vocang:ribaudoSofia .
 
 vocang:pertosaLorenzo
@@ -96,6 +110,7 @@ vocang:pertosaLorenzo
     foaf:lastName "Pertosa" ;
     foaf:nick "P" ;
     foaf:gender "male" ;
+    org:memberOf vocang:vocaboladminOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/pertosaLorenzo.jpg" ;
     rel:friendOf vocang:sanchiPiero, vocang:salhiSamir, vocang:timpanoSam , vocang:ribaudoSofia .
 
@@ -105,6 +120,7 @@ vocang:timpanoSam
     foaf:lastName "Timpano" ;
     foaf:nick "Sam" ;
     foaf:gender "non-binary" ;
+    org:memberOf vocang:vocabolieriOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/timpanoSam.jpg" ;
     rel:friendOf vocang:salhiSamir, vocang:ribaudoSofia .
 
@@ -113,6 +129,7 @@ vocang:ribaudoSofia
     foaf:firstName "Sofia" ;
     foaf:lastName "Ribaudo" ;
     foaf:gender "female" ;
+    org:memberOf vocang:vocabolieriOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/ribaudoSofia.jpg" ;
     rel:friendOf vocang:sanchiPiero .
 
@@ -122,6 +139,7 @@ vocang:talmiAlessandro
     foaf:lastName "Talmi" ;
     foaf:nick "Dizi" ;
     foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:sanchiPiero, vocang:filasetaAngelo, vocang:bragariAlexandru .
 
 vocang:orlandoNicola
@@ -130,6 +148,7 @@ vocang:orlandoNicola
     foaf:lastName "Orlando" ;
     foaf:nick "Orla" ;
     foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/orlandoNicola.jpg" ;
     rel:friendOf vocang:sanchiPiero, vocang:tronettiElisa, vocang:salhiSamir, vocang:durazziMarco, vocang:bragariAlexandru, vocang:talmiAlessandro, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo .
 
@@ -139,6 +158,7 @@ vocang:adantiMatteo
     foaf:lastName "Adanti" ;
     foaf:nick "Adant" ;
     foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:bragariAlexandru, vocang:orlandoNicola, vocang:bdeouiEddy .
 
 vocang:pescaraGianluca
@@ -147,6 +167,7 @@ vocang:pescaraGianluca
     foaf:lastName "Pescara" ;
     foaf:nick "Pesca" ;
     foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
 	rel:friendOf vocang:adantiMatteo, vocang:bragariAlexandru, vocang:orlandoNicola, vocang:bdeouiEddy .
 
 vocang:fanaraGiuliano
@@ -155,6 +176,7 @@ vocang:fanaraGiuliano
     foaf:lastName "Fanara" ;
     foaf:nick "Jiuj" ;
     foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:salhiSamir, vocang:durazziMarco, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo .
 
 vocang:suscaMatteo
@@ -162,6 +184,7 @@ vocang:suscaMatteo
     foaf:firstName "Matteo" ;
     foaf:lastName "Susca" ;
     foaf:gender "male" ;
+    org:memberOf vocang:vocaboladminOrg ;
     rel:friendOf vocang:salhiSamir, vocang:durazziMarco, vocang:fanaraGiuliano, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo ;
     vocang:unpaidFriendOf vocang:battaglinoNicole, vocang:minoccheriAlessandra .
 
@@ -171,6 +194,7 @@ vocang:minoccheriAlessandra
     foaf:lastName "Minoccheri" ;
     foaf:gender "female" ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/minoccheriAlessandra.jpg" ;
+    org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:salhiSamir, vocang:durazziMarco, vocang:fanaraGiuliano,vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo .
 
  vocang:nardiniArianna
@@ -178,6 +202,7 @@ vocang:minoccheriAlessandra
     foaf:firstName "Arianna" ;
     foaf:lastName "Nardini" ;
     foaf:gender "female" ;
+    org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:salhiSamir, vocang:durazziMarco, vocang:minoccheriAlessandra, vocang:suscaMatteo, vocang:fanaraGiuliano, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:bragariAlexandru, vocang:savoGiorgia, vocang:filasetaAngelo .
 
 vocang:bdeouiEddy
@@ -186,6 +211,7 @@ vocang:bdeouiEddy
     foaf:lastName "Bdeoui" ;
     foaf:nick "Eddy" ;
     foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:salhiSamir, vocang:nardiniArianna, vocang:minoccheriAlessandra, vocang:suscaMatteo, vocang:fanaraGiuliano, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:bragariAlexandru, vocang:savoGiorgia, vocang:filasetaAngelo .
 
 vocang:paoliMichele
@@ -193,6 +219,7 @@ vocang:paoliMichele
     foaf:firstName "Michele" ;
     foaf:lastName "Paoli" ;
     foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:nardiniArianna, vocang:minoccheriAlessandra, vocang:suscaMatteo, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:bragariAlexandru, vocang:filasetaAngelo .
 
 vocang:mordacchiniCecilia
@@ -200,14 +227,15 @@ vocang:mordacchiniCecilia
     foaf:firstName "Cecilia" ;
     foaf:lastName "Mordacchini" ;
     foaf:gender "female" ;
-    rel:friendOf vocang:filasetaAngelo, vocang:savoGiorgia, vocang:bragariAlexandru, vocang:battaglinoNicole, vocang:omiccioliRiccardo, vocang:pertosaLorenzo, vocang:ribaudoSofia, vocang:orlandoNicola, vocang:fanaraGiuliano, vocang:nardiniArianna, vocang:bdeouiEddy, vocang:suscaMatteo ;
-    rel:spouseOf vocang:timpanoSam.
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:filasetaAngelo, vocang:savoGiorgia, vocang:bragariAlexandru, vocang:battaglinoNicole, vocang:omiccioliRiccardo, vocang:pertosaLorenzo, vocang:ribaudoSofia, vocang:orlandoNicola, vocang:fanaraGiuliano, vocang:nardiniArianna, vocang:bdeouiEddy, vocang:suscaMatteo .
 
 vocang:pupitaAlberto
     a foaf:Person ;
     foaf:firstName "Alberto" ;
     foaf:lastName "Pupita" ;
     foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:salhiSamir, vocang:battaglinoNicole, vocang:bdeouiEddy, vocang:bragariAlexandru, vocang:fanaraGiuliano, vocang:filasetaAngelo, vocang:minoccheriAlessandra, vocang:omiccioliRiccardo, vocang:orlandoNicola, vocang:paoliMichele, vocang:pertosaLorenzo, vocang:ribaudoSofia, vocang:savoGiorgia,vocang:suscaMatteo, vocang:timpanoSam ;
     rel:spouseOf vocang:nardiniArianna.
 
@@ -216,6 +244,7 @@ vocang:bianchiniGiovanni
     foaf:firstName "Giovanni" ;
     foaf:lastName "Bianchini" ;
     foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:pupitaAlberto, vocang:battaglinoNicole, vocang:bdeouiEddy, vocang:bragariAlexandru, vocang:fanaraGiuliano, vocang:filasetaAngelo, vocang:nardiniArianna, vocang:omiccioliRiccardo, vocang:orlandoNicola, vocang:paoliMichele, vocang:pertosaLorenzo, vocang:ribaudoSofia, vocang:savoGiorgia,vocang:suscaMatteo, vocang:timpanoSam ;
     rel:spouseOf vocang:minoccheriAlessandra.
 
@@ -224,6 +253,7 @@ vocang:rossiLuca
     foaf:firstName "Luca" ;
     foaf:lastName "Rossi" ;
     foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:sanchiPiero, vocang:tronettiElisa, vocang:orlandoNicola, vocang:talmiAlessandro, vocang:omiccioliRiccardo, vocang:bragariAlexandru, vocang:filasetaAngelo .
 
 vocang:deRosaLeonardo
@@ -232,6 +262,7 @@ vocang:deRosaLeonardo
     foaf:lastName "De Rosa" ;
     foaf:nick "Leo the 2nd" ;
     foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:filasetaAngelo , vocang:paoliMichele , vocang:pertosaLorenzo .
 
 vocang:savoGianmarco
@@ -239,6 +270,7 @@ vocang:savoGianmarco
     foaf:firstName "Gianmarco" ;
     foaf:lastName "Savo" ;
     foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:fanaraGiuliano, vocang:timpanoSam, vocang:filasetaAngelo, vocang:mordacchiniCecilia ;
     rel:siblingOf vocang:savoGiorgia .
 
@@ -248,6 +280,7 @@ vocang:radicchiGiovanni
     foaf:lastName "Radicchi" ;
     foaf:nick "Rad" ;
     foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:sanchiPiero, vocang:bianchiniGiovanni, vocang:pupitaAlberto, vocang:bdeouiEddy, vocang:nardiniArianna, vocang:minoccheriAlessandra, vocang:suscaMatteo, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:bragariAlexandru, vocang:filasetaAngelo .
 
 vocang:bensellamSelma
@@ -256,6 +289,7 @@ vocang:bensellamSelma
     foaf:lastName "Bensellam" ;
     foaf:nick "Zia Selma" ;
     foaf:gender "female" ;
+    org:memberOf vocang:vocabolieriOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/bensellamSelma.jpg" ;
     rel:friendOf vocang:ribaudoSofia, vocang:filasetaAngelo .
 
@@ -264,6 +298,7 @@ vocang:rosatelliAnna
     foaf:firstName "Anna" ;
     foaf:lastName "Rosatelli" ;
     foaf:gender "female" ;
+    org:memberOf vocang:vocabolieriOrg ;
     rel:spouseOf vocang:suscaMatteo ;
     rel:friendOf vocang:salhiSamir, vocang:ribaudoSofia, vocang:savoGianmarco, vocang:bianchiniGiovanni, vocang:pupitaAlberto, vocang:bdeouiEddy, vocang:savoGiorgia, vocang:filasetaAngelo, vocang:bragariAlexandru, vocang:battaglinoNicole, vocang:nardiniArianna, vocang:minoccheriAlessandra, vocang:fanaraGiuliano, vocang:mordacchiniCecilia, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo .
 
@@ -273,6 +308,7 @@ vocang:scattoniAlessandra
     foaf:lastName "Scattoni" ;
     foaf:gender "female" ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/scattoniAlessandra.jpg" ;
+    org:memberOf vocang:vocabolieriOrg ;
     rel:spouseOf vocang:pertosaLorenzo ;
     rel:friendOf vocang:bianchiniGiovanni, vocang:filasetaAngelo, vocang:bragariAlexandru, vocang:battaglinoNicole, vocang:nardiniArianna, vocang:pupitaAlberto, vocang:minoccheriAlessandra, vocang:orlandoNicola, vocang:omiccioliRiccardo .
 
@@ -282,6 +318,7 @@ vocang:durazziMarco
     foaf:lastName "Durazzi" ;
     foaf:nick "Duraz" ;
     foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/durazziMarco.jpg" ;
     rel:friendOf vocang:sanchiPiero, vocang:salhiSamir, vocang:rosatelliAnna, vocang:radicchiGiovanni, vocang:bianchiniGiovanni, vocang:pupitaAlberto,  vocang:mordacchiniCecilia, vocang:bdeouiEddy, vocang:bragariAlexandru, vocang:filasetaAngelo, vocang:savoGiorgia, vocang:battaglinoNicole, vocang:omiccioliRiccardo, vocang:pertosaLorenzo, vocang:timpanoSam, vocang:ribaudoSofia .
 
@@ -290,6 +327,7 @@ vocang:salhiSamir
     foaf:firstName "Samir" ;
     foaf:lastName "Salhi" ;
     foaf:nick "Sammy" ;
+    org:memberOf vocang:vocabolieriOrg ;
     foaf:gender "male" .
 
 vocang:bragariAlisa
@@ -297,6 +335,7 @@ vocang:bragariAlisa
     foaf:firstName "Alisa" ;
     foaf:lastName "Bragari" ;
     foaf:gender "female" ;
+    org:memberOf vocang:vocabolieriOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/bragariAlisa.jpg" ;
     rel:siblingOf vocang:bragariAlexandru .
 
@@ -305,6 +344,7 @@ vocang:tronettiElisa
     foaf:firstName "Elisa" ;
     foaf:lastName "Tronetti" ;
     foaf:gender "female" ;
+    org:memberOf vocang:vocabolieriOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/tronettiElisa.jpg" ;
     rel:friendOf vocang:sanchiPiero ;
     rel:spouseOf vocang:talmiAlessandro .
@@ -314,6 +354,7 @@ vocang:ingargiolaAndrea
     foaf:firstName "Andrea" ;
     foaf:lastName "Ingargiola" ;
     foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/ingargiolaAndrea.jpg" ;
     rel:friendOf vocang:filasetaAngelo, vocang:tronettiElisa .
 
@@ -321,13 +362,15 @@ vocang:sanchiPiero
     a foaf:Person ;
     foaf:firstName "Piero" ;
     foaf:lastName "Sanchi" ;
-    foaf:gender "male" .
+    foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg .
 
 vocang:bermucaMorena
     a foaf:Person ;
     foaf:firstName "Morena" ;
     foaf:lastName "Bermuca" ;
     foaf:gender "female" ;
+    org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:orlandoNicola .
 
 vocang:badialiLorenzo
@@ -335,6 +378,7 @@ vocang:badialiLorenzo
     foaf:firstName "Lorenzo" ;
     foaf:lastName "Badiali" ;
     foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/badialiLorenzo.jpg" ;
     rel:friendOf vocang:pertosaLorenzo .
 
@@ -344,6 +388,7 @@ vocang:badialiLorenzo
     foaf:lastName "Badiali" ;
     foaf:nick "Loxy" ;
     foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/badialiLorenzo.jpg" ;
     rel:friendOf vocang:pertosaLorenzo .
 
@@ -353,6 +398,7 @@ vocang:houshanSoheil
     foaf:lastName "Houshan" ;
     foaf:nick "Sosso" ;
     foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:pertosaLorenzo, vocang:badialiLorenzo.
 
 # Other Author Individuals
