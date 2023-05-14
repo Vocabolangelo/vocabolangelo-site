@@ -23,7 +23,7 @@ export default function CreatorCountSpotlight() {
     return <Spotlight
         style={1}
         optionalModifiers={['orient-left', 'content-align-left', 'image-position-right', 'onscroll-image-fade-in']}
-        imageUrl={'/images/people.jpg'}
+        imageUrl={'/images/planning.jpg'}
         imageAlt={'Collaborazione'}
     >
         <h1> {maleCount + femaleCount + otherCount} </h1>

@@ -7,7 +7,7 @@ import Spotlight from '../../common/story/Spotlight'
 export default function OntologySpotlight() {
     return <Spotlight
         style = {1}
-        optionalModifiers = {['orient-right', 'content-align-left', 'image-position-center', 'onscroll-image-fade-in']}
+        optionalModifiers = {['orient-left', 'content-align-left', 'image-position-center', 'onscroll-image-fade-in']}
         imageUrl={'/images/connection.jpg'} imageAlt={'Connessioni'}
     >
         <h2>Ontologia OWL</h2>

@@ -5,7 +5,7 @@ import Spotlight from '../../common/story/Spotlight'
 export default function OriginSpotlight() {
     return <Spotlight
         style = {1}
-        optionalModifiers = {['orient-left', 'content-align-left', 'image-position-center', 'onscroll-image-fade-in']}
+        optionalModifiers = {['orient-right', 'content-align-left', 'image-position-center', 'onscroll-image-fade-in']}
         imageUrl = {'/images/dictionary.jpg'}
         imageAlt = {'Un noioso vocabolario'}
     >

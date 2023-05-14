@@ -8,8 +8,8 @@ export default function DashboardSpotlight() {
     return <Spotlight
         style={1}
         optionalModifiers={['orient-right', 'content-align-left', 'image-position-right', 'fullscreen', 'onload-image-fade-in', 'onload-content-fade-right']}
-        imageUrl={'/images/data.jpg'}
-        imageAlt={'Grafici incomprensibili'}>
+        imageUrl={'/images/data.png'}
+        imageAlt={'Grafichetto carino'}>
         <h2>Dashboard</h2>
         <p className={'major'}>
             Grazie a queste utilità potrete scoprire dati interessanti riguardo il Vocabolangelo.
