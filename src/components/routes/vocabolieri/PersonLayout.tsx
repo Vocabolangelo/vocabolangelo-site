@@ -11,6 +11,7 @@ import {PAROLANGELO_ROUTE} from '../parolangelo/Parolangelo'
 import {VOCABOLIERI_ROUTE} from './Vocabolieri'
 import InnerWrapper from '../../common/story/InnerWrapper'
 import {Concept} from '../../../rdf/types/Concept'
+import {Organization} from '../../../rdf/types/Organization'
 
 export function PersonLayout() {
 
@@ -36,6 +37,7 @@ export function PersonLayout() {
                 <div className="index align-left">
                     <Images person={person}/>
                     <Gender person={person}/>
+                    <Organizations person={person}/>
                     <Contribution person={person}/>
                     <Friends person={person}/>
                     <Partners person={person}/>
@@ -55,6 +57,19 @@ function Gender(props: PersonSubLayoutProps){
     const gender = props.person.gender
     return <NamedSection title={'Genere'}>
         <p>{Person.genderString(gender)}</p>
+    </NamedSection>
+}
+
+function Organizations(props: PersonSubLayoutProps){
+    const organizations = props.person.memberOf()().map(
+        node => new Organization(node.node)
+    )
+    return <NamedSection title={'Organizzazioni'}>
+        <List
+            isOrdered={false}
+            list={organizations}
+            elementContent={p => <p> {p.toEnum().toString()} </p>}
+        />
     </NamedSection>
 }
 

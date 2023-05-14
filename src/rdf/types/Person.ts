@@ -1,6 +1,6 @@
 import {RDFNamedNode} from '../RDFNamedNode'
 import {NamedNode} from 'rdflib'
-import {dct, foaf, rel, schema} from '../prefixes'
+import {dct, foaf, org, rel, schema} from '../prefixes'
 import {RDFStore} from '../RDFStore'
 import {requireNotNull} from '../../util/requireNotNull'
 import {RDFTriple} from '../RDFTriple'
@@ -115,8 +115,22 @@ export class Person extends RDFNamedNode {
         }
     }
 
+    /**
+     * Mapping of http://www.w3.org/ns/org#memberOf.
+     */
+    public memberOf(): () => RDFNamedNode[] {
+        const subj = this.node
+        return function (): RDFNamedNode[] {
+            return RDFStore.store.MapEach(
+                new RDFTriple(subj, org.namespace('memberOf'), undefined),
+                (node) => new RDFNamedNode(node)
+            )
+        }
+    }
+
     public static async all(): Promise<Person[]>{
         const nodes = await RDFNamedNode.ofType(foaf.namespace('Person'))
         return nodes.map((node) => new Person(node.node))
     }
+
 }

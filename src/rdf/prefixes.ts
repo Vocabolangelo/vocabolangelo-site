@@ -7,6 +7,8 @@ export const modsci: Prefix = new Prefix('https://w3id.org/skgo/modsci#')
 export const rdf: Prefix = new Prefix('http://www.w3.org/1999/02/22-rdf-syntax-ns#')
 export const rdfs: Prefix = new Prefix('http://www.w3.org/2000/01/rdf-schema#')
 export const owl: Prefix = new Prefix('http://www.w3.org/2002/07/owl#')
+
+export const org: Prefix = new Prefix('http://www.w3.org/ns/org#')
 export const rel: Prefix = new Prefix('http://www.perceive.net/schemas/20021119/relationship/#')
 export const schema: Prefix = new Prefix('https://schema.org/')
 export const scot: Prefix = new Prefix('http://rdfs.org/scot/ns#')
