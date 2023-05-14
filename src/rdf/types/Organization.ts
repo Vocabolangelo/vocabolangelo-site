@@ -4,7 +4,7 @@ import {vocang} from '../prefixes'
 /**
  * Enum for the Vocabolangelo organizations.
  */
-enum Organizations {
+export enum Organizations {
     VOCABOLADMIN = 'Vocaboladmin',
     VOCABOLIERE = 'Vocaboliere'
 }

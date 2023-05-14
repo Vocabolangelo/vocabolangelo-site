@@ -6,10 +6,12 @@ import Spotlight from '../../../common/story/Spotlight'
 
 export default function WordCountSpotlight() {
     const [wordCount, setWordCount] = useState(0)
+    const [soloWordCount, setSoloWordCount] = useState(0)
 
     useEffect(() => {
         Concept.all().then(concepts => {
             setWordCount(concepts.length)
+            setSoloWordCount(concepts.filter(c => c.personCreators().length === 1).length)
         })
     }, [])
 
@@ -28,6 +30,8 @@ export default function WordCountSpotlight() {
             Sono le <Link to={`${PAROLANGELO_ROUTE}/parolangelo`}>
                 parolangelo
             </Link> all&apos;interno del <strong> Vocabolangelo</strong>.<br/>
+            Di queste, <strong> {wordCount - soloWordCount} </strong> sono nate grazie dalla collaborazione, mentre
+            <strong> {soloWordCount}</strong> sono state inventate dai singoli.<br/>
             Quando ci saranno grandi traguardi tutti i <Link to={`${PAROLANGELO_ROUTE}/vocaboliere`}>
                 vocabolieri
             </Link> festeggeranno in qualche modo, ad esempio con un <Link to={`${PAROLANGELO_ROUTE}/festabolangelo`}>
