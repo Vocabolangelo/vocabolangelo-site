@@ -5532,3 +5532,12 @@ vocang:spettroia
     skos:example "Stanotte ho sentito una strana presenza in camera e dopo poco ho percepito la medesima sensazione di quando mi viene praticato del sesso orale. Al mattino mi sono accorto che il mio portafoglio era sparito. Potrebbe essere colpa di una spettroia..."@it ;
     dct:created "2023-05-20" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:sborrattolo
+    a skos:Concept ;
+    skos:prefLabel "Sborrattolo"@it ;
+    lexinfo:pronunciation "/sbor • ràt • to • lo/"@it ;
+    skos:definition "Contenitore destinato alla raccolta di un campione di liquido seminale."@it ;
+    skos:example "Oggi ho consegnato uno sborrattolo a Nicola per raccogliere un campione necessario per la tesi di un amico."@it ;
+    dct:created "2023-05-20" ;
+    dct:creator vocang:pertosaLorenzo .
