@@ -30,7 +30,7 @@ export default function WordCountSpotlight() {
             Sono le <Link to={`${PAROLANGELO_ROUTE}/parolangelo`}>
                 parolangelo
             </Link> all&apos;interno del <strong> Vocabolangelo</strong>.<br/>
-            Di queste, <strong> {wordCount - soloWordCount} </strong> sono nate grazie dalla collaborazione, mentre
+            Di queste, <strong> {wordCount - soloWordCount} </strong> sono nate dalla collaborazione, mentre
             <strong> {soloWordCount}</strong> sono state inventate dai singoli.<br/>
             Quando ci saranno grandi traguardi tutti i <Link to={`${PAROLANGELO_ROUTE}/vocaboliere`}>
                 vocabolieri
