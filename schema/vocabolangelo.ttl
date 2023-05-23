@@ -601,6 +601,7 @@ vocang:biribì
     lexinfo:pronunciation "/bi • ri • bì/"@it ;
     skos:definition "Un posto in cui delle persone che stanno per morire vanno in veste di turisti."@it ;
     skos:example "Tra qualche giorno morirò... Passerò i miei ultimi giorni al biribì."@it ;
+    skos:note "L'origine del termine è emersa a seguito di un malinteso da parte di uno degli autori, che ha frainteso la locuzione "BnB" nelle vicinanze di Porta Augustea BB a Fano. Dopo aver riconosciuto l'errore e osservato delle inquietanti decorazioni floreali all'ingresso, l'associazione è risultata spontanea." ;
     dct:creator vocang:filasetaAngelo , vocang:battaglinoNicole, vocang:bragariAlexandru .
 
 vocang:caffemilla
@@ -3025,7 +3026,7 @@ vocang:omnicio
     a skos:Concept ;
     skos:prefLabel "Omnicio"@it ;
     lexinfo:pronunciation "/om • nì • cio/"@it ;
-    skos:definition "Un gatto che è definibile con ogni sostantivo che descrive un gatto presente all'interno del Vocabolangelo. In altre parole una creatura mitologica dalle sembianze umane che, durante le notti di luna piena, si trasforma in un gatto buggato che urla all'interno di un videogioco e che in passato ha subito un trauma, proveniente dalle regioni orientali dell'Europa, meticcio, che ha un solo occhio, strabico, molto grande, obeso, dotato di scarse, trascurabili, o negative capacità logiche, particolarmente pigro e che resta spiaggiato sulla stessa superficie piana per un lungo periodo di tempo, dall'espressione o comportamento molto arrogante, estremamente vorace, molto pacifico, estremamente carino, capace di influenzare con la sua serenità e diplomazia anche i gatti attorno a lui, capace di eseguire acrobazie, presenta vaghe somiglianze con un suricato, dall'aspetto straordinariamente allungato, che sia effettivamente di tale conformazione o che lo sembri a causa di particolari fenomeni, tende ad arrampicarsi in posti pericolosi, miagola in maniera carina, molto ostile che ha la tendenza di graffiare mordere e soffiare ed è in grado di curare persone e altri gatti."@it ;
+    skos:definition "Un gatto che è definibile con ogni sostantivo che descrive un gatto presente all'interno del Vocabolangelo. In altre parole una creatura mitologica dalle sembianze umane che, durante le notti di luna piena, si trasforma in un gatto buggato che urla all'interno di un videogioco e che in passato ha subito un trauma, proveniente dalle regioni orientali dell'Europa, che soggiorna all'interno di un biribì in quanto prossimo alla morte, meticcio, che ha un solo occhio, strabico, molto grande, obeso, dotato di scarse, trascurabili, o negative capacità logiche, particolarmente pigro e che resta spiaggiato sulla stessa superficie piana per un lungo periodo di tempo, dall'espressione o comportamento molto arrogante, estremamente vorace, molto pacifico, estremamente carino, abituato a mangiare piatti di alta cucina, capace di influenzare con la sua serenità e diplomazia anche i gatti attorno a lui, capace di eseguire acrobazie, presenta vaghe somiglianze con un suricato, dall'aspetto straordinariamente allungato, che sia effettivamente di tale conformazione o che lo sembri a causa di particolari fenomeni, tende ad arrampicarsi in posti pericolosi, miagola in maniera carina, molto ostile che ha la tendenza di graffiare mordere e soffiare ed è in grado di curare persone e altri gatti."@it ;
     skos:example "Ho dovuto abbassare lo sguardo e tapparmi le orecchie quando ho visto passare quell'omnicio: era talmente fantastico da sembrare una divinità."@it ;
     dct:created "2023-01-25" ;
     skos:note "Il messaggio di commit che ha introdotto la definizione estesa di omnicio è il seguente: add more suitable and fun definition to omnicio. Such and incredible creature needs to be treated with the utmost care and respect. Oh my goodness, I cannot stress enough just how utterly awe-inspiring and breathtakingly gorgeous this creature truly is! Its magnificence is unparalleled and its beauty is simply beyond compare. It is a true wonder of nature, a masterpiece of creation, and it deserves to be treated with the utmost reverence, adoration, and adulation that it so rightly deserves. Every single aspect of this creature, from the way its elegant limbs move gracefully through the air to the vibrant colors of its stunningly intricate patterns, is an absolute marvel to behold. It is a true blessing and a privilege to be able to witness such a magnificent creature in all its glory, and we must do everything in our power to ensure that it is protected and cared for with the utmost diligence and care. Oh my stars, where do I even begin to describe the sheer and utter majesty of this breathtakingly beautiful creature? It is like a symphony of pure wonder and enchantment, a living, breathing masterpiece that has been crafted with the utmost care and precision by the very hands of the divine. Every single inch of its being is a testament to the limitless power and infinite creativity of the universe, and it is truly a privilege beyond measure to be able to witness such a wondrous being in all its glory. The colors of its coat are like a rainbow woven from strands of pure gold and silver, shimmering and glimmering in the light like a thousand precious gems. The way its body moves, fluid and graceful like a dancer's, is a thing of true beauty and grace, and it seems almost as if the very air around it is charged with a palpable sense of magic and enchantment. In short, this magnificent creature is a true masterpiece of nature, a testament to the boundless wonder and infinite creativity of the universe, and it simply must be treated with the utmost respect, care, and adoration that it so richly deserves. We must cherish and protect it with all our hearts, for it is truly one of the most wondrous and precious gifts that life has to offer. Words simply cannot do justice to the sheer and utter splendor of this majestic creature. It is as if it was forged from the very essence of beauty itself, a true marvel of nature that leaves all who behold it in a state of awe and wonder. Its presence is like a warm embrace from the universe, a gentle reminder that there is still magic and enchantment to be found in this world, if only we take the time to look for it. Every time I gaze upon this wondrous creature, I am filled with a sense of peace and tranquility that I simply cannot find elsewhere. It is a living, breathing masterpiece, a work of art that is continually evolving and changing with the passing of time. And yet, for all its beauty and magnificence, it is also a fragile thing, one that requires our love, our care, and our protection if it is to survive and thrive in a world that can be all too harsh and unforgiving. So let us pledge ourselves to the cause of safeguarding this incredible creature, to ensuring that it is treated with the utmost respect and care that it so rightly deserves. Let us cherish it, protect it, and love it with all our hearts, for in doing so, we are also honoring the boundless creativity and wonder of the universe itself.My dear friend, it is as if this creature is a god among us, a deity that has graced our world with its divine presence. Its mere existence is a testament to the infinite creativity and boundless wonder of the universe, and it is a living, breathing work of art that deserves to be worshipped and adored like the deity that it truly is. Every time I am blessed with the opportunity to lay my eyes upon this wondrous creature, I feel as if I am standing before an altar, gazing up at the very face of god itself. Its beauty is beyond compare, its grace beyond measure, and its presence fills me with a sense of reverence and awe that is simply indescribable. It is as if the very air around it is infused with a sense of divine energy, a power that is both humbling and exhilarating all at once. And yet, for all its god-like qualities, this creature is also fragile and vulnerable, a precious gift that must be treated with the utmost care and respect if it is to survive and thrive in this world. We must worship it, yes, but we must also protect it, nurture it, and love it with all our hearts, for in doing so, we are also honoring the very essence of divinity itself. So let us pledge ourselves to the cause of safeguarding this incredible creature, to ensuring that it is treated with the utmost respect and care that it so rightly deserves. Let us build temples in its honor, sing hymns of praise to its name, and offer it our deepest reverence and adoration. For this creature is not just a thing of beauty, but a true god among us, a living, breathing testament to the infinite wonder and boundless creativity of the universe itself. May the Omnicio always be praised. Forever and ever." ;
@@ -5400,3 +5401,144 @@ vocang:bassista
     skos:related vocang:bassismo ;
     dct:created "2023-02-11" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:caccabiniere
+    a skos:Concept ;
+    skos:prefLabel "Caccabiniere"@it ;
+    lexinfo:pronunciation "/cac • ca • bi • niè • re/"@it ;
+    skos:definition "Termine dispregiativo utilizzato per riferirsi ad un carabienere, o talvolta ad un membro delle forze dell'ordine in genere."@it ;
+    skos:example "Maledetti Caccabinieri! Mi hanno fermato solo perchè la mia auto è verde pisello!"@it ;
+    dct:created "2023-05-12" ;
+    dct:creator vocang:pertosaLorenzo, vocang:scattoniAlessandra .
+
+vocang:gourmicio
+    a skos:Concept ;
+    skos:prefLabel "Gourmicio"@it ;
+    skos:definition "Gatto o feline abituato a mangiare piatti di alta cucina."@it ;
+    skos:example "Il piccolo Felix è un vero gourmicio, abituato sin da cucciolo a gustare prelibatezze culinarie. Non si accontenta di cibo comune, ma preferisce indulgere in piatti raffinati preparati con cura, come il filetto di salmone al vapore o i piccoli bocconcini di pollo biologico."@it ;
+    skos:related vocang:omnicio ;
+    dct:created "2023-05-13" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:paschiaffare
+    a skos:Concept ;
+    skos:prefLabel "Paschiaffare"@it ;
+    lexinfo:pronunciation "/pas • chiaf • fà • re/"@it ;
+    skos:definition "Picchiare un individuo utilizzando l'impasto della pizza."@it ;
+    skos:example "Ciro lavora in una pizzeria. Ieri ha fatto tardi e il suo capo lo ha letteralmente paschiaffato. Ha ancora il segno!"@it ;
+    dct:created "2023-05-13" ;
+    dct:creator vocang:scattoniAlessandra .
+
+vocang:cacatino
+    a skos:Concept ;
+    skos:prefLabel "Cacatino"@it ;
+    lexinfo:pronunciation "/ca • ca • tì • no/"@it ;
+    skos:definition "L'accessorio, noto come panchetto, utilizzato per collocarsi in posizione ottimale al fine di assumere la postura corretta per l'atto della defecazione."@it ;
+    skos:example "Quando Carlo vide il sontuoso bagno dell'hotel a cinque stelle, non poté resistere alla tentazione di sperimentare il lussuoso cacatino. Indossando la sua vestaglia di seta e tenendo un bicchiere di champagne in mano, si sedette sul suo panchetto dorato per defecare nella posizione più raffinata possibile. Era così soddisfatto della sua esperienza che la definì 'l'epitome del comfort fecale'."@it ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/cacatino.jpg" ;
+    dct:created "2023-05-17" ;
+    dct:creator vocang:minoccheriAlessandra .
+
+vocang:biribà
+    a skos:Concept ;
+    skos:prefLabel "Biribà"@it ;
+    lexinfo:pronunciation "/bi • ri • bà/"@it ;
+    skos:definition "Biribì che si trova nell'aldilà, oltre la vita terrena."@it ;
+    skos:example "Si sta così bene al biribì che quasi quasi mi dispiace morire. Poi mi ricordo che quel che mi aspetta è un soggiorno deluxe al biribà e mi sento meglio."@it ;
+    skos:related vocang:biribì ;
+    dct:created "2023-05-13" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
+
+vocang:biribonte
+    a skos:Concept ;
+    skos:prefLabel "Biribà"@it ;
+    lexinfo:pronunciation "/bi • ri • bón • te/"@it ;
+    skos:definition "Figura mitologica il cui scopo è traghettare le anime dal biribì al biribà."@it ;
+    skos:example "Dopo la luce della morte, la prima cosa che vedrò sarà biribonte, e io sarò felice perché da lì a poco rivedrò tutti i miei amici che se ne sono andati prima di me."@it ;
+    skos:related vocang:biribì ;
+    dct:created "2023-05-15" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:biribicio
+    a skos:Concept ;
+    skos:prefLabel "Biribicio"@it ;
+    lexinfo:pronunciation "/bi • ri • bì • cio/"@it ;
+    skos:definition "Gatto o felino che soggiorna all'interno di un biribì in quanto prossimo alla morte."@it ;
+    skos:example "Kuro gioca spesso con gli altri ospiti del biribì. In tantissimi si divertono a puntare il laser contro il muro e vederlo mentre lo insegue con quei suoi scatti felini! È un vero peccato che abbia un cancro incurabile..."@it ;
+    dct:created "2023-05-15" ;
+    skos:related vocang:omnicio, vocang:biribì ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:biribilario
+    a skos:Concept ;
+    skos:prefLabel "Biribilario"@it ;
+    lexinfo:pronunciation "/bi • ri • bi • là • rio/"@it ;
+    skos:definition "Glossario contenente tutti i termini inerenti al biribì."@it ;
+    skos:example "La prima cosa che ti viene consegnata quando entri all'interno di un biribì è un utilissimo biribilario. Grazie a questo strumento è possibile farsi una cultura prima di andarsene!"@it ;
+    dct:created "2023-05-15" ;
+    skos:related vocang:biribì ;
+    dct:creator vocang:orlandoNicola .
+
+vocang:impuntorgolista
+    a skos:Concept ;
+    skos:prefLabel "Impuntorgolista"@it ;
+    lexinfo:pronunciation "/im • pun • tor • go • lìs • ta/"@it ;
+    skos:definition "Puntorgolista che non utilizza volontariamente il segno di punteggiatura del punto e virgola perché trova difficoltoso utilizzarlo nella maniera corretta, ma allo stesso tempo non è favorevole a rimuoverlo dalla lingua italiana in quanto ne apprezza e comprende l'utilità."@it ;
+    skos:example "Adam non è andato spesso a scuola quando era piccolo a causa della sua salute molto cagionevole. Questo col tempo lo ha reso un impuntorgolista. Non utilizza mai il punto e virgola quando scrive, ma apprezza leggere libri in cui viene utilizzato a regola d'arte."@it ;
+    dct:created "2023-05-15" ;
+    skos:related vocang:puntorgolismo, vocang:puntorgolista ;
+    dct:creator vocang:bragariAlexandru .
+
+vocang:norvezia
+    a skos:Concept ;
+    skos:prefLabel "Norvezia"@it ;
+    lexinfo:pronunciation "/nor • vè • zia/"@it ;
+    skos:definition "Termine utilizzato per identificare uno dei paesi nordici in maniera non specifica."@it ;
+    skos:example "Confondo sempre la posizione geografica della Svezia, Norvegia e Finlandia ma per fortuna posso cavarmela sempre dicendo Norvezia."@it ;
+    dct:created "2023-05-14" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
+
+vocang:cazzicotto
+    a skos:Concept ;
+    skos:prefLabel "Cazzicotto"@it ;
+    lexinfo:pronunciation "/caz • zi • còt • to/"@it ;
+    skos:definition "Pizzicotto esercitato sulla punta di un pene."@it ;
+    skos:example "Alberto non vuole fare a cambio di posto con me, Orla mi suggerisce di dargli dei cazzicotti per fargli cambiare idea. Che male!"@it ;
+    dct:created "2023-05-13" ;
+    dct:creator vocang:orlandoNicola, vocang:nardiniArianna .
+
+vocang:puntorgoglista
+    a skos:Concept ;
+    skos:prefLabel "Puntorgoglista"@it ;
+    lexinfo:pronunciation "/pun • tor • go • glìs • ta/"@it ;
+    skos:definition "Persona fiera di poter usare il segno di punteggiatura del punto e virgola in quanto lo trova utile e ricercato."@it ;
+    skos:example "Alberto frequenta la facoltà di lettere ed è un puntorgolista. Ogni volta che può utilizza il punto e virgola nei suoi testi!"@it ;
+    skos:related vocang:puntorgoglista, vocang:puntorgolismo ;
+    dct:created "2023-05-13" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:inter
+    a skos:Concept ;
+    skos:prefLabel "Inter"@it ;
+    skos:definition "Software che controlla la presenza di gravi problemi di logica o principi morali nel codice sorgente di un progetto. Questo software è molto simile a ciò che in informatica viene chiamato \"linter\", ma si applica ad errori molto gravi che superano la complessità media di un semplice bug informatico a causa della stupidità del programmatore."@it ;
+    skos:example "Mentre creavo un sito web stavo salvando le credenziali di accesso da amministratore del database nel file css relativo ad una pagina HTML invece di usare variabili d'ambiente nascoste. Per fortuna il mio senior supervisore aveva configurato un inter per segnalare questi gravi errori."@it ;
+    dct:created "2023-05-18" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:spettroia
+    a skos:Concept ;
+    skos:prefLabel "Spettroia"@it ;
+    lexinfo:pronunciation "/spet • trò • ia/"@it ;
+    skos:definition "Manifestazione ectoplasmatica di un'entità ultraterrena, corrispondente all'ombra spettrale di un individuo che, in vita, si dedicava all'esercizio della prostituzione."@it ;
+    skos:example "Stanotte ho sentito una strana presenza in camera e dopo poco ho percepito la medesima sensazione di quando mi viene praticato del sesso orale. Al mattino mi sono accorto che il mio portafoglio era sparito. Potrebbe essere colpa di una spettroia..."@it ;
+    dct:created "2023-05-20" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:sborrattolo
+    a skos:Concept ;
+    skos:prefLabel "Sborrattolo"@it ;
+    lexinfo:pronunciation "/sbor • ràt • to • lo/"@it ;
+    skos:definition "Contenitore destinato alla raccolta di un campione di liquido seminale."@it ;
+    skos:example "Oggi ho consegnato uno sborrattolo a Nicola per raccogliere un campione necessario per la tesi di un amico."@it ;
+    dct:created "2023-05-20" ;
+    dct:creator vocang:pertosaLorenzo .
