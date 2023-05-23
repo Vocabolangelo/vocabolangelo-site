@@ -5505,3 +5505,13 @@ vocang:cazzicotto
     skos:example "Alberto non vuole fare a cambio di posto con me, Orla mi suggerisce di dargli dei cazzicotti per fargli cambiare idea. Che male!"@it ;
     dct:created "2023-05-13" ;
     dct:creator vocang:orlandoNicola, vocang:nardiniArianna .
+
+vocang:puntorgoglista
+    a skos:Concept ;
+    skos:prefLabel "Puntorgoglista"@it ;
+    lexinfo:pronunciation "/pun • tor • go • glìs • ta/"@it ;
+    skos:definition "Persona fiera di poter usare il segno di punteggiatura del punto e virgola in quanto lo trova utile e ricercato."@it ;
+    skos:example "Alberto frequenta la facoltà di lettere ed è un puntorgolista. Ogni volta che può utilizza il punto e virgola nei suoi testi!"@it ;
+    skos:related vocang:puntorgoglista, vocang:puntorgolismo ;
+    dct:created "2023-05-13" ;
+    dct:creator vocang:pertosaLorenzo .
