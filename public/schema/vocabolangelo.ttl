@@ -5487,3 +5487,12 @@ vocang:impuntorgolista
     dct:created "2023-05-15" ;
     skos:related vocang:puntorgolismo, vocang:puntorgolista ;
     dct:creator vocang:bragariAlexandru .
+
+vocang:norvezia
+    a skos:Concept ;
+    skos:prefLabel "Norvezia"@it ;
+    lexinfo:pronunciation "/nor • vè • zia/"@it ;
+    skos:definition "Termine utilizzato per identificare uno dei paesi nordici in maniera non specifica."@it ;
+    skos:example "Confondo sempre la posizione geografica della Svezia, Norvegia e Finlandia ma per fortuna posso cavarmela sempre dicendo Norvezia."@it ;
+    dct:created "2023-05-14" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
