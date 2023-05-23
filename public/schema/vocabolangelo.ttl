@@ -5435,5 +5435,5 @@ vocang:cacatino
     skos:definition "L'accessorio, noto come panchetto, utilizzato per collocarsi in posizione ottimale al fine di assumere la postura corretta per l'atto della defecazione."@it ;
     skos:example "Quando Carlo vide il sontuoso bagno dell'hotel a cinque stelle, non poté resistere alla tentazione di sperimentare il lussuoso cacatino. Indossando la sua vestaglia di seta e tenendo un bicchiere di champagne in mano, si sedette sul suo panchetto dorato per defecare nella posizione più raffinata possibile. Era così soddisfatto della sua esperienza che la definì 'l'epitome del comfort fecale'."@it ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/cacatino.jpg" ;
-    dct:created "2023-02-18" ;
+    dct:created "2023-02-1" ;
     dct:creator vocang:minoccheriAlessandra .
