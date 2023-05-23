@@ -5400,3 +5400,12 @@ vocang:bassista
     skos:related vocang:bassismo ;
     dct:created "2023-02-11" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:caccabiniere
+    a skos:Concept ;
+    skos:prefLabel "Caccabiniere"@it ;
+    lexinfo:pronunciation "/cac • ca • bi • niè • re/"@it ;
+    skos:definition "Termine dispregiativo utilizzato per riferirsi ad un carabienere, o talvolta ad un membro delle forze dell'ordine in genere."@it ;
+    skos:example "Maledetti Caccabinieri! Mi hanno fermato solo perchè la mia auto è verde pisello!"@it ;
+    dct:created "2023-02-12" ;
+    dct:creator vocang:pertosaLorenzo, vocang:scattoniAlessandra .
