@@ -1,0 +1,30 @@
+name: Publish Docker Image
+
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Build and tag Docker image
+        run: |
+          docker build -t vocabolangelo-site:${{ github.ref_name }} .
+          docker tag vocabolangelo-site:${{ github.ref_name }} vocabolangelo-site:latest
+
+      - name: Log in to Docker Hub
+        uses: docker/login-action@v1
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      - name: Publish Docker image
+        run: |
+          docker push vocabolangelo-site:${{ github.ref_name }}
+          docker push vocabolangelo-site:latest
