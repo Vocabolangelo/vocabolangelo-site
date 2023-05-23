@@ -5523,3 +5523,12 @@ vocang:inter
     skos:example "Mentre creavo un sito web stavo salvando le credenziali di accesso da amministratore del database nel file css relativo ad una pagina HTML invece di usare variabili d'ambiente nascoste. Per fortuna il mio senior supervisore aveva configurato un inter per segnalare questi gravi errori."@it ;
     dct:created "2023-05-18" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:spettroia
+    a skos:Concept ;
+    skos:prefLabel "Spettroia"@it ;
+    lexinfo:pronunciation "/spet • trò • ia/"@it ;
+    skos:definition "Manifestazione ectoplasmatica di un'entità ultraterrena, corrispondente all'ombra spettrale di un individuo che, in vita, si dedicava all'esercizio della prostituzione."@it ;
+    skos:example "Stanotte ho sentito una strana presenza in camera e dopo poco ho percepito la medesima sensazione di quando mi viene praticato del sesso orale. Al mattino mi sono accorto che il mio portafoglio era sparito. Potrebbe essere colpa di una spettroia..."@it ;
+    dct:created "2023-05-20" ;
+    dct:creator vocang:pertosaLorenzo .
