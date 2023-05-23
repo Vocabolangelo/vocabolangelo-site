@@ -5496,3 +5496,12 @@ vocang:norvezia
     skos:example "Confondo sempre la posizione geografica della Svezia, Norvegia e Finlandia ma per fortuna posso cavarmela sempre dicendo Norvezia."@it ;
     dct:created "2023-05-14" ;
     dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
+
+vocang:cazzicotto
+    a skos:Concept ;
+    skos:prefLabel "Cazzicotto"@it ;
+    lexinfo:pronunciation "/caz • zi • còt • to/"@it ;
+    skos:definition "Pizzicotto esercitato sulla punta di un pene."@it ;
+    skos:example "Alberto non vuole fare a cambio di posto con me, Orla mi suggerisce di dargli dei cazzicotti per fargli cambiare idea. Che male!"@it ;
+    dct:created "2023-05-13" ;
+    dct:creator vocang:orlandoNicola, vocang:nardiniArianna .
