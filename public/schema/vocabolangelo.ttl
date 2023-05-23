@@ -5477,3 +5477,13 @@ vocang:biribilario
     dct:created "2023-05-15" ;
     skos:related vocang:biribì ;
     dct:creator vocang:orlandoNicola .
+
+vocang:impuntorgolista
+    a skos:Concept ;
+    skos:prefLabel "Impuntorgolista"@it ;
+    lexinfo:pronunciation "/im • pun • tor • go • lìs • ta/"@it ;
+    skos:definition "Puntorgolista che non utilizza volontariamente il segno di punteggiatura del punto e virgola perché trova difficoltoso utilizzarlo nella maniera corretta, ma allo stesso tempo non è favorevole a rimuoverlo dalla lingua italiana in quanto ne apprezza e comprende l'utilità."@it ;
+    skos:example "Adam non è andato spesso a scuola quando era piccolo a causa della sua salute molto cagionevole. Questo col tempo lo ha reso un impuntorgolista. Non utilizza mai il punto e virgola quando scrive, ma apprezza leggere libri in cui viene utilizzato a regola d'arte."@it ;
+    dct:created "2023-05-15" ;
+    skos:related vocang:puntorgolismo, vocang:puntorgolista ;
+    dct:creator vocang:bragariAlexandru .
