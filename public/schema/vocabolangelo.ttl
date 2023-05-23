@@ -5418,3 +5418,12 @@ vocang:gourmicio
     skos:related vocang:omnicio ;
     dct:created "2023-02-13" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:paschiaffare
+    a skos:Concept ;
+    skos:prefLabel "Paschiaffare"@it ;
+    lexinfo:pronunciation "/pas • chiaf • fà • re/"@it ;
+    skos:definition "Picchiare un individuo utilizzando l'impasto della pizza."@it ;
+    skos:example "Ciro lavora in una pizzeria. Ieri ha fatto tardi e il suo capo lo ha letteralmente paschiaffato. Ha ancora il segno!"@it ;
+    dct:created "2023-02-13" ;
+    dct:creator vocang:scattoniAlessandra .
