@@ -1,5 +1,37 @@
 # Changelog
 
+## [5.8.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v5.7.0...v5.8.0) (2023-05-23)
+
+
+### Features
+
+* **concept:** add biribicio ([0cd95d8](https://github.com/Vocabolangelo/vocabolangelo-site/commit/0cd95d860b64da59e6bfab707e2454e948421c69))
+* **concept:** add biribilario, fix some dates ([24f1c58](https://github.com/Vocabolangelo/vocabolangelo-site/commit/24f1c58824766fef9b6add78c685f66e08ad5be8))
+* **concept:** add cacatino ([8aeb1ee](https://github.com/Vocabolangelo/vocabolangelo-site/commit/8aeb1eeded6bccd908eb1e68fa4af9960d60301d))
+* **concept:** add caccabiniere ([619ae26](https://github.com/Vocabolangelo/vocabolangelo-site/commit/619ae26319ec676c922255a9bafbde4fa5b9f236))
+* **concept:** add cazzicotto ([70a02ea](https://github.com/Vocabolangelo/vocabolangelo-site/commit/70a02ea033818757e7f7422bbd095c481e6f9248))
+* **concept:** add gourmicio ([95b520e](https://github.com/Vocabolangelo/vocabolangelo-site/commit/95b520ef80993318ca07d64e2c1fe2937fbd0e7d))
+* **concept:** add impuntorgolista ([584bdee](https://github.com/Vocabolangelo/vocabolangelo-site/commit/584bdeedd9107752fc64cf7916f8df2d5b78adab))
+* **concept:** add inter ([1da2bc8](https://github.com/Vocabolangelo/vocabolangelo-site/commit/1da2bc8bacf13dbebbe9e8b399e8f0ce1293431e))
+* **concept:** add norvezia ([9254241](https://github.com/Vocabolangelo/vocabolangelo-site/commit/925424182edff7ab155076e3d4c99b9711b9b0bb))
+* **concept:** add paschiaffare ([1db0b6d](https://github.com/Vocabolangelo/vocabolangelo-site/commit/1db0b6d7148394eef60a96223b4fb346f4c13aed))
+* **concept:** add puntorgoglista ([787adf9](https://github.com/Vocabolangelo/vocabolangelo-site/commit/787adf9fa87ef92cd1e18b20ade56cd5f4e426ee))
+* **concept:** add sborrattolo ([fccb136](https://github.com/Vocabolangelo/vocabolangelo-site/commit/fccb13653b9228af92c312f50b7c35457fe317a7))
+* **concept:** add spettroia ([0aec1a5](https://github.com/Vocabolangelo/vocabolangelo-site/commit/0aec1a5717e7e5d48c2b2c6dba5a0e51fb6760cd))
+* **image:** add cacatino image ([66ae3f8](https://github.com/Vocabolangelo/vocabolangelo-site/commit/66ae3f864e1e88cf03028f5e6cfc5c32596f67ff))
+* **note:** add biribì note ([2c426cd](https://github.com/Vocabolangelo/vocabolangelo-site/commit/2c426cdb5e8391241a9a65be9a6aa12735db4a1d))
+* **site:** add organization in person page ([1fefc08](https://github.com/Vocabolangelo/vocabolangelo-site/commit/1fefc08ef127559e60774ab63e5df68cbf3a9a72))
+* **site:** add other info to dashboard ([c6c9280](https://github.com/Vocabolangelo/vocabolangelo-site/commit/c6c92803699870839e8753763af42671b33498aa))
+
+
+### Bug Fixes
+
+* **concept:** add biribà ([d8a06aa](https://github.com/Vocabolangelo/vocabolangelo-site/commit/d8a06aa386e568ece686440f9bc9635ad199b658))
+* **concept:** cacatino date ([be0630d](https://github.com/Vocabolangelo/vocabolangelo-site/commit/be0630d30aae0056d09b50bae2882978a9da321d))
+* **concept:** fix puntorgolista definition ([266d943](https://github.com/Vocabolangelo/vocabolangelo-site/commit/266d94315f71c23e3b69a3db23640749817e7a5f))
+* quotation in schema ([4fc5d17](https://github.com/Vocabolangelo/vocabolangelo-site/commit/4fc5d178c5d5b18570237e69fa56ab41e28fff2a))
+* **typo:** in WourdCountSpotlight ([d06f7f0](https://github.com/Vocabolangelo/vocabolangelo-site/commit/d06f7f04157a2217ea4dc9d24fceddb3113d1bd2))
+
 ## [5.7.0](https://github.com/Vocabolangelo/vocabolangelo-rdf/compare/v5.6.0...v5.7.0) (2023-05-12)
 
 
