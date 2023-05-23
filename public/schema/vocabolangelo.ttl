@@ -5515,3 +5515,11 @@ vocang:puntorgoglista
     skos:related vocang:puntorgoglista, vocang:puntorgolismo ;
     dct:created "2023-05-13" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:inter
+    a skos:Concept ;
+    skos:prefLabel "Inter"@it ;
+    skos:definition "Software che controlla la presenza di gravi problemi di logica o principi morali nel codice sorgente di un progetto. Questo software è molto simile a ciò che in informatica viene chiamato \"linter\", ma si applica ad errori molto gravi che superano la complessità media di un semplice bug informatico a causa della stupidità del programmatore."@it ;
+    skos:example "Mentre creavo un sito web stavo salvando le credenziali di accesso da amministratore del database nel file css relativo ad una pagina HTML invece di usare variabili d'ambiente nascoste. Per fortuna il mio senior supervisore aveva configurato un inter per segnalare questi gravi errori."@it ;
+    dct:created "2023-05-18" ;
+    dct:creator vocang:omiccioliRiccardo .
