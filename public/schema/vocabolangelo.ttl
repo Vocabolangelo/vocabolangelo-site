@@ -5407,7 +5407,7 @@ vocang:caccabiniere
     lexinfo:pronunciation "/cac • ca • bi • niè • re/"@it ;
     skos:definition "Termine dispregiativo utilizzato per riferirsi ad un carabienere, o talvolta ad un membro delle forze dell'ordine in genere."@it ;
     skos:example "Maledetti Caccabinieri! Mi hanno fermato solo perchè la mia auto è verde pisello!"@it ;
-    dct:created "2023-02-12" ;
+    dct:created "2023-05-12" ;
     dct:creator vocang:pertosaLorenzo, vocang:scattoniAlessandra .
 
 vocang:gourmicio
@@ -5416,7 +5416,7 @@ vocang:gourmicio
     skos:definition "Gatto o feline abituato a mangiare piatti di alta cucina."@it ;
     skos:example "Il piccolo Felix è un vero gourmicio, abituato sin da cucciolo a gustare prelibatezze culinarie. Non si accontenta di cibo comune, ma preferisce indulgere in piatti raffinati preparati con cura, come il filetto di salmone al vapore o i piccoli bocconcini di pollo biologico."@it ;
     skos:related vocang:omnicio ;
-    dct:created "2023-02-13" ;
+    dct:created "2023-05-13" ;
     dct:creator vocang:pertosaLorenzo .
 
 vocang:paschiaffare
@@ -5425,7 +5425,7 @@ vocang:paschiaffare
     lexinfo:pronunciation "/pas • chiaf • fà • re/"@it ;
     skos:definition "Picchiare un individuo utilizzando l'impasto della pizza."@it ;
     skos:example "Ciro lavora in una pizzeria. Ieri ha fatto tardi e il suo capo lo ha letteralmente paschiaffato. Ha ancora il segno!"@it ;
-    dct:created "2023-02-13" ;
+    dct:created "2023-05-13" ;
     dct:creator vocang:scattoniAlessandra .
 
 vocang:cacatino
@@ -5435,7 +5435,7 @@ vocang:cacatino
     skos:definition "L'accessorio, noto come panchetto, utilizzato per collocarsi in posizione ottimale al fine di assumere la postura corretta per l'atto della defecazione."@it ;
     skos:example "Quando Carlo vide il sontuoso bagno dell'hotel a cinque stelle, non poté resistere alla tentazione di sperimentare il lussuoso cacatino. Indossando la sua vestaglia di seta e tenendo un bicchiere di champagne in mano, si sedette sul suo panchetto dorato per defecare nella posizione più raffinata possibile. Era così soddisfatto della sua esperienza che la definì 'l'epitome del comfort fecale'."@it ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/cacatino.jpg" ;
-    dct:created "2023-02-17" ;
+    dct:created "2023-05-17" ;
     dct:creator vocang:minoccheriAlessandra .
 
 vocang:biribà
@@ -5445,7 +5445,7 @@ vocang:biribà
     skos:definition "Biribì che si trova nell'aldilà, oltre la vita terrena."@it ;
     skos:example "Si sta così bene al biribì che quasi quasi mi dispiace morire. Poi mi ricordo che quel che mi aspetta è un soggiorno deluxe al biribà e mi sento meglio."@it ;
     skos:related vocang:biribì ;
-    dct:created "2023-02-13" ;
+    dct:created "2023-05-13" ;
     dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
 
 vocang:biribonte
@@ -5455,7 +5455,7 @@ vocang:biribonte
     skos:definition "Figura mitologica il cui scopo è traghettare le anime dal biribì al biribà."@it ;
     skos:example "Dopo la luce della morte, la prima cosa che vedrò sarà biribonte, e io sarò felice perché da lì a poco rivedrò tutti i miei amici che se ne sono andati prima di me."@it ;
     skos:related vocang:biribì ;
-    dct:created "2023-02-15" ;
+    dct:created "2023-05-15" ;
     dct:creator vocang:pertosaLorenzo .
 
 vocang:biribicio
@@ -5464,6 +5464,16 @@ vocang:biribicio
     lexinfo:pronunciation "/bi • ri • bì • cio/"@it ;
     skos:definition "Gatto o felino che soggiorna all'interno di un biribì in quanto prossimo alla morte."@it ;
     skos:example "Kuro gioca spesso con gli altri ospiti del biribì. In tantissimi si divertono a puntare il laser contro il muro e vederlo mentre lo insegue con quei suoi scatti felini! È un vero peccato che abbia un cancro incurabile..."@it ;
-    dct:created "2023-02-15" ;
+    dct:created "2023-05-15" ;
     skos:related vocang:omnicio, vocang:biribì ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:biribilario
+    a skos:Concept ;
+    skos:prefLabel "Biribilario"@it ;
+    lexinfo:pronunciation "/bi • ri • bi • là • rio/"@it ;
+    skos:definition "Glossario contenente tutti i termini inerenti al biribì."@it ;
+    skos:example "La prima cosa che ti viene consegnata quando entri all'interno di un biribì è un utilissimo biribilario. Grazie a questo strumento è possibile farsi una cultura prima di andarsene!"@it ;
+    dct:created "2023-05-15" ;
+    skos:related vocang:biribì ;
+    dct:creator vocang:orlandoNicola .
