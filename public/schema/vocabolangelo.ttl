@@ -554,7 +554,7 @@ vocang:tretro
     skos:prefLabel "Tretro"@it ;
     lexinfo:pronunciation "/trè • tro/"@it ;
     skos:definition "Un mezzo di trasporto che può essere definito sia come un treno che come una metro."@it ;
-    skos:example "Se non ti sbrighi perderemo il tretro!"@it ;
+    skos:example "A Napoli c'è la metro ma io preferisco chiamarla tretro. Sembra proprio una metro, ma passa molto più di rado, proprio come un treno!"@it ;
     dct:creator vocang:filasetaAngelo .
 
 vocang:canillo
