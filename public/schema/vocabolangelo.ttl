@@ -401,6 +401,14 @@ vocang:houshanSoheil
     org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:pertosaLorenzo, vocang:badialiLorenzo.
 
+vocang:rinaldiFrancesca
+    a foaf:Person ;
+    foaf:firstName "Francesca" ;
+    foaf:lastName "Rinaldi" ;
+    foaf:gender "female" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:durazziMarco, vocang:rosatelliAnna, vocang:savoGianmarco, vocang:timpanoSam, vocang:fanaraGiuliano, vocang:filasetaAngelo, vocang:savoGiorgia, vocang:nardiniArianna, vocang:pupitaAlberto, vocang:bragariAlexandru, vocang:battaglinoNicole, vocang:omiccioliRiccardo, vocang:pertosaLorenzo, vocang:orlandoNicola, vocang:suscaMatteo, vocang:ribaudoSofia, vocang:minoccheriAlessandra, vocang:bianchiniGiovanni, vocang:mordacchiniCecilia.
+
 # Other Author Individuals
 
 vocang:chatGPT
