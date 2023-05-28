@@ -652,9 +652,8 @@ vocang:cedrancia
     skos:prefLabel "Cedrancia"@it ;
     lexinfo:pronunciation "/ce • dràn • cia/"@it ;
     skos:definition "Una bevanda che si ottiene mischiando insieme la cedrata e una qualsiasi aranciata."@it ;
-    skos:example "Stasera mi andrebbe proprio una cedrancia."@it ;
+    skos:example "Durante una calda giornata estiva, Maria si confezionò una bevanda rinfrescante: una cedrancia. Il risultato fu una deliziosa bibita dal gusto agrumato, che univa il carattere unico della cedrata con la dolcezza frizzante dell'aranciata."@it ;
     dct:creator vocang:suscaMatteo .
-
 
 vocang:coecrita
     a skos:Concept ;
