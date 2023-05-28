@@ -669,7 +669,7 @@ vocang:complinsulto
     skos:prefLabel "Complinsulto"@it ;
     lexinfo:pronunciation "/com • plin • sùl • to/"@it ;
     skos:definition "Un’affermazione che non si capisce bene se sia un complimento o un insulto."@it ;
-    skos:example "Parlare con te è inutile, sei un coecrita!"@it ;
+    skos:example "Durante una cena elegante, Giovanni si avvicinò a Martina e le disse con un sorriso: \"Sei molto brava a fingere di essere intelligente!\" Martina rimase confusa dall'affermazione di Giovanni, non riuscendo a capire il motivo di quel complinsulto. La sua mente si riempì di dubbi, lasciandola incerta sulle reali intenzioni di Giovanni e sul modo in cui avrebbe dovuto reagire."@it ;
     dct:creator vocang:filasetaAngelo .
 
 vocang:coreliano
