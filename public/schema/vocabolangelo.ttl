@@ -528,7 +528,7 @@ vocang:domanica
     skos:prefLabel "Domanica"@it ;
     lexinfo:pronunciation "/do • mà • ni • ca/"@it ;
     skos:definition "Il giorno seguente a oggi, ma utilizzabile solo se il giorno seguente è Domenica."@it ;
-    skos:example "Ci vediamo domanica."@it ;
+    skos:example "Marco e Giulia si salutarono dopo una lunga serata insieme e Marco disse con un sorriso: 'Ci vediamo domanica!' Sapendo che il giorno successivo era proprio Domenica. Giulia rise divertita e rispose: 'Sì, ci vediamo domanica!' Con quel semplice scambio di parole, Marco e Giulia resero l'addio un momento leggero e scherzoso, lasciando intravedere l'attesa di un prossimo incontro nel giorno speciale che seguiva immediatamente quello presente: la domenica."@it ;
     skos:related vocang:dopodomanica ;
     dct:creator vocang:bragariAlexandru .
 
