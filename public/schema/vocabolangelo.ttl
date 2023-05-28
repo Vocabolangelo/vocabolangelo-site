@@ -696,7 +696,7 @@ vocang:fremitoso
     skos:prefLabel "Fremitoso"@it ;
     lexinfo:pronunciation "/fre • mi • tó • ṣo/"@it ;
     skos:definition "Un modo di comportarsi che risulta molto agitato a causa di un sentimento intenso."@it ;
-    skos:example "Oggi mi sento molto fremitoso, forse sono innamorato."@it ;
+    skos:example "Durante il concerto della mia band preferita, ho notato un ragazzo in prima fila che era visibilmente fremitoso. Si muoveva energicamente, agitando le braccia e saltellando senza sosta. Era chiaro che era completamente preso dalla musica e provava un'emozione intensa. Il suo comportamento fremitoso trasmetteva l'elettricità dell'atmosfera a tutto il pubblico, creando un'energia contagiosa. Era affascinante osservare come un sentimento così intenso potesse trasformarsi in un modo di comportarsi così vivace e coinvolgente."@it ;
     dct:creator vocang:filasetaAngelo .
 
 vocang:frisbidina
