@@ -409,6 +409,15 @@ vocang:rinaldiFrancesca
     org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:durazziMarco, vocang:rosatelliAnna, vocang:savoGianmarco, vocang:timpanoSam, vocang:fanaraGiuliano, vocang:filasetaAngelo, vocang:savoGiorgia, vocang:nardiniArianna, vocang:pupitaAlberto, vocang:bragariAlexandru, vocang:battaglinoNicole, vocang:omiccioliRiccardo, vocang:pertosaLorenzo, vocang:orlandoNicola, vocang:suscaMatteo, vocang:ribaudoSofia, vocang:minoccheriAlessandra, vocang:bianchiniGiovanni, vocang:mordacchiniCecilia.
 
+vocang:suscaAlessandra
+    a foaf:Person ;
+    foaf:firstName "Alessandra" ;
+    foaf:lastName "Susca" ;
+    foaf:gender "female" ;
+    org:memberOf vocang:vocaboladminOrg ;
+    rel:siblingOf vocang:suscaMatteo ;
+    rel:friendOf vocang:rosatelliAnna .
+
 # Other Author Individuals
 
 vocang:chatGPT
@@ -5561,3 +5570,17 @@ vocang:incampietrino
     dct:created "2023-05-24" ;
     skos:note "Questa è la prima parola inventata da Francesca che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
     dct:creator vocang:rosatelliAnna, vocang:rinaldiFrancesca .
+
+vocang:barbottare
+    a skos:Concept ;
+    skos:prefLabel "Barbottare"@it ;
+    lexinfo:pronunciation "/bar • bot • tà • re/"@it ;
+    skos:definition "Sampietrino che presenta caratteristiche irregolari in termini di altezza, forma, dimensione e posizionamento, le quali possono causare inconvenienti agli utenti pedonali, come ad esempio inciampare."@it ;
+    skos:example "Durante la passeggiata serale, Anna è inciampata su un incampietrino lungo il marciapiede, il quale le ha causato una leggera contusione alla caviglia."@it ;
+    dct:created "2023-05-24" ;
+    skos:note "Questa è la prima parola inventata da Francesca che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
+    dct:creator vocang:rosatelliAnna, vocang:rinaldiFrancesca .
+
+: borbottare sotto i baffi/barba
+
+Alessandra Susca/Matteo Susca
