@@ -5585,7 +5585,16 @@ vocang:dislessicare
     a skos:Concept ;
     skos:prefLabel "Dislessicare"@it ;
     lexinfo:pronunciation "/dis • les • si • cà • re/"@it ;
-    skos:definition "Non essere in grado di pronunciare correttamente una o più parole"@it ;
+    skos:definition "Non essere in grado di pronunciare correttamente una o più parole."@it ;
     skos:example "Uffa! Non riesco proprio a dire grongonz... gogronz... mi dislessico sempre!"@it ;
     dct:created "2023-05-25" ;
     dct:creator vocang:suscaAlessandra .
+
+vocang:abicoltura
+    a skos:Concept ;
+    skos:prefLabel "Abicoltura"@it ;
+    lexinfo:pronunciation "/a • bi • col • tù • ra/"@it ;
+    skos:definition "Coltivazione di alberi di abete di altissima qualità con l'obiettivo di ottenere splendidi esemplari utilizzabili come alberi di Natale."@it ;
+    skos:example "Con l'arrivo imminente del Natale, è giunto il momento di recarsi all'abicoltura per assicurarsi il più splendido abete del quartiere e suscitare l'invidia dei vicini con una decorazione natalizia mozzafiato."@it ;
+    dct:created "2023-05-26" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:chatGPT.
