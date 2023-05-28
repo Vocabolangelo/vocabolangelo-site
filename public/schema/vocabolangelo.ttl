@@ -661,7 +661,7 @@ vocang:coecrita
     skos:prefLabel "Coecrita"@it ;
     lexinfo:pronunciation "/co • é • cri • ta/"@it ;
     skos:definition "Una persona ipocrita, sarcasticamente non coerente."@it ;
-    skos:example "Parlare con te è inutile, sei un coecrita!"@it ;
+    skos:example "Anna si rivolse a Giorgio con un sorriso finto e disse: \"Oh, complimenti per la tua generosità! Non c'è nessuno come te che riesce ad essere così altruista... quando ti serve qualcosa.\" Il tono sarcastico di Anna e la sua affermazione piena di ipocrisia evidenziavano il suo essere coecrita."@it ;
     dct:creator vocang:filasetaAngelo .
 
 vocang:complinsulto
