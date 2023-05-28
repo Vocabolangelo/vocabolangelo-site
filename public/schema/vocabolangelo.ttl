@@ -5580,3 +5580,12 @@ vocang:barbottare
     dct:created "2023-05-25" ;
     skos:note "Questa è la prima parola inventata da Alessandra che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
     dct:creator vocang:suscaAlessandra, vocang:suscaMatteo .
+
+vocang:dislessicare
+    a skos:Concept ;
+    skos:prefLabel "Dislessicare"@it ;
+    lexinfo:pronunciation "/dis • les • si • cà • re/"@it ;
+    skos:definition "Non essere in grado di pronunciare correttamente una o più parole"@it ;
+    skos:example "Uffa! Non riesco proprio a dire grongonz... gogronz... mi dislessico sempre!"@it ;
+    dct:created "2023-05-25" ;
+    dct:creator vocang:suscaAlessandra .
