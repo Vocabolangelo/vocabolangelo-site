@@ -5608,7 +5608,7 @@ vocang:intè
     skos:prefLabel "Intè"@it ;
     lexinfo:pronunciation "/in • tè/"@it ;
     skos:definition "Tè realizzato utilizzando delle foglie velenose."@it ;
-    skos:example "Nell'antica Grecia, si narra che durante una cena filosofica, Socrate discusse della moralità e del percorso verso la saggezza. Durante la conversazione, uno dei partecipanti scherzosamente chiese se fosse possibile preparare un intè. Socrate, con la sua solita ironia, rispose: 'È un vero paradosso, poiché la vera saggezza consiste nel cercare la virtù e la cura del corpo e dell'anima, evitando tutto ciò che può recare danni'.".@it ;
+    skos:example "Nell'antica Grecia, si narra che durante una cena filosofica, Socrate discusse della moralità e del percorso verso la saggezza. Durante la conversazione, uno dei partecipanti scherzosamente chiese se fosse possibile preparare un intè. Socrate, con la sua solita ironia, rispose: 'È un vero paradosso, poiché la vera saggezza consiste nel cercare la virtù e la cura del corpo e dell'anima, evitando tutto ciò che può recare danni'."@it ;
     dct:created "2023-05-26" ;
     skos:related vocang:cappuccido ;
     dct:creator vocang:orlandoNicola .
