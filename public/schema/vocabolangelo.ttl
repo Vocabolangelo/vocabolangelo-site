@@ -450,12 +450,10 @@ vocang:angelario
 vocang:dizionangelo
     a skos:Concept ;
     skos:prefLabel "Dizionangelo"@it ;
-    skos:altLabel "Vocabolangelo"@it ;
-    skos:altLabel "Angelario"@it ;
     lexinfo:pronunciation "/di • zio • nàn • ge • lo/"@it ;
-    skos:definition "Un altro modo di definire il Vocabolangelo."@it ;
-    skos:example "Il dizionangelo e il vocabolangelo sono la stessa cosa."@it ;
-    skos:related vocang:vocabolangelo ;
+    skos:definition "Un termine alternativo raro e scarsamente adottato per indicare il Vocabolangelo."@it ;
+    skos:example "Durante la riunione dei vocabolieri, Francesca menzionò l'esistenza di un modo alternativo per riferirsi al Vocabolangelo. Disse: 'Esiste un termine estremamente poco utilizzato chiamato \"dizionangelo\"'. Tuttavia, notò l'ignoranza dei presenti riguardo a tale parola, dimostrando che 'dizionangelo' era un'espressione rara e poco conosciuta all'interno della comunità dei vocabolieri."@it ;
+    skos:related vocang:vocabolangelo, vocang:angelario;
     dct:creator vocang:filasetaAngelo .
 
 vocang:acquorica
