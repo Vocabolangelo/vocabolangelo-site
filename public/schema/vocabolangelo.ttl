@@ -512,7 +512,7 @@ vocang:balbizia
     skos:prefLabel "Balbizia"@it ;
     lexinfo:pronunciation "/bal • bì • zia/"@it ;
     skos:definition "Equivalente di balbuzia, ma utilizzabile solo su entità che soffrono di calvizia."@it ;
-    skos:example "Nicola soffre di balbizia."@it ;
+    skos:example "C'era una volta un simpatico signore chiamato Frank. Frank era calvo e ogni volta che cercava di parlare dei suoi capelli, si bloccava come un vecchio grammofono arrugginito. Le sue parole si intrecciavano e balbettava in modo buffo. Era un caso unico di balbizia, una condizione che colpiva solo le persone calve! Frank però accettò in fretta la sua condizione e trasformò la sua balbizia in una fonte di divertimento e speranza, dimostrando che anche le cose più strane possono portare un sorriso sulla faccia delle persone!"@it ;
     dct:creator vocang:battaglinoNicole .
 
 vocang:cardiota
