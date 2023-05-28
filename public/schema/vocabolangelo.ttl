@@ -621,8 +621,8 @@ vocang:caffemilla
     a skos:Concept ;
     skos:prefLabel "Caffemilla"@it ;
     lexinfo:pronunciation "/caf • fe • mìl • la/"@it ;
-    skos:definition "Un caffè (di qualsiasi tipo) aromatizzato alla camomilla."@it ;
-    skos:example "La caffemilla non mi piace."@it ;
+    skos:definition "Un caffè aromatizzato alla camomilla."@it ;
+    skos:example "Stamattina, sono entrato nel mio caffè preferito e ho notato una nuova voce nel menù: il "caffemilla". Curioso di provare qualcosa di diverso, ho ordinato una tazza di questo caffè particolare. Mentre aspettavo, il profumo della camomilla si diffondeva nell'aria, creando un'atmosfera rilassante. Finalmente, mi è stato servito il caffemilla fumante. Il primo sorso è stato sorprendente: il sapore intenso del caffè si univa dolcemente all'aroma delicato della camomilla. Era come se i due sapori si fondessero in una combinazione perfetta, regalandomi una sensazione di comfort e tranquillità. Il caffemilla si è rivelato una piacevole scoperta, perfetto per rilassarsi e godersi un momento di dolcezza e calma durante la giornata."@it ;
     dct:creator vocang:filasetaAngelo .
 
 vocang:cafferillo
