@@ -693,7 +693,7 @@ vocang:fetiscista
     skos:prefLabel "Fetiscista"@it ;
     lexinfo:pronunciation "/fe • ti • scì • sta/"@it ;
     skos:definition "Chi segue la pratica del feticismo verso lo sport dello Sci."@it ;
-    skos:example "Mio zio è un fetiscista."@it ;
+    skos:example "Luca è un fervente fetiscista, dedicando gran parte del suo tempo libero a seguire e partecipare a competizioni di sci. La sua passione per questo sport è talmente intensa che colleziona attrezzature da sci, guarda ogni evento sportivo in televisione e si immerge completamente nell'atmosfera dell'inverno e delle montagne."@it ;
     dct:creator vocang:bragariAlexandru .
 
 vocang:fremitoso
