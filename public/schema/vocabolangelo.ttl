@@ -630,7 +630,7 @@ vocang:cafferillo
     skos:prefLabel "Cafferillo"@it ;
     lexinfo:pronunciation "/caf • fe • rìl • lo/"@it ;
     skos:definition "Una variante di caffè mischiato con sciroppo di mirtillo. Come per il normale caffè è possibile crearlo in diverse varianti (macchiato, corretto, shackerato, etc.)."@it ;
-    skos:example "Amo il cafferillo, lo prendo sempre senza zucchero."@it ;
+    skos:example "Ero a casa, desideroso di sperimentare una nuova bevanda, quando mi è venuta in mente un'idea intrigante: preparare un \"cafferillo\". Ho preso il mio caffè preferito e ho aggiunto uno spruzzo di sciroppo di mirtillo. Mentre l'aroma del caffè si diffondeva in cucina, ho preparato una tazza di latte montato a punto di neve per accompagnare il mio cafferillo. Dopo aver versato il caffè aromatico nella tazza, ho aggiunto delicatamente il latte montato, creando uno strato cremoso sulla superficie. Il primo sorso mi ha regalato una piacevole sorpresa: il gusto robusto del caffè era perfettamente bilanciato dalla dolcezza fruttata del mirtillo. Era una combinazione deliziosa che mi ha riempito di energia e ha reso la mia giornata ancora più piacevole. Da quel momento in poi, il cafferillo è diventato una mia creazione casalinga preferita, con la possibilità di personalizzarlo in diverse varianti: macchiato, corretto, shakerato e quant'altro la fantasia suggerisse."@it ;
     skos:related vocang:cafferetta ;
     dct:creator vocang:filasetaAngelo .
 
