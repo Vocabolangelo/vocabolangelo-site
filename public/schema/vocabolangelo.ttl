@@ -596,8 +596,8 @@ vocang:avvoltinoso
     a skos:Concept ;
     skos:prefLabel "Avvoltinoso"@it ;
     lexinfo:pronunciation "/av • vol • ti • nó • so/"@it ;
-    skos:definition "Qualcosa che è composto di tanti giri."@it ;
-    skos:example "Questa molla è veramente avvoltinosa."@it ;
+    skos:definition "Un oggetto caratterizzato da una struttura circolare ripetitiva, come ad esempio una molla, evidenziando la sua forma ricorrente."@it ;
+    skos:example "La scultura esposta nella galleria d'arte era un'opera avvoltinosa affascinante. L'artista ha creato un intricato intreccio di molle d'acciaio, che si avvolgevano su se stesse in un ciclo senza fine. L'effetto visivo era ipnotico, con le molle che sembravano fluttuare nello spazio, creando un senso di movimento continuo e armonia."@it ;
     dct:creator vocang:filasetaAngelo .
 
 vocang:angelesimo
