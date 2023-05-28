@@ -677,7 +677,7 @@ vocang:coreliano
     skos:prefLabel "Coreliano"@it ;
     lexinfo:pronunciation "/co • re • lià • no/"@it ;
     skos:definition "Un metodo di scrittura utilizzato per scrivere in italiano con l’alfabeto coreano."@it ;
-    skos:example "Io e la mia ragazza ci scriviamo sempre dei messaggi molto carini in coreliano."@it ;
+    skos:example "Io e la mia ragazza ci scriviamo sempre dei messaggi molto carini in coreliano. Solo io e lei riusciamo a capirli!"@it ;
     dct:creator vocang:savoGiorgia .
 
 vocang:falsevolezza
