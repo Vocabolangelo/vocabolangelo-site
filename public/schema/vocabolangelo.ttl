@@ -471,7 +471,8 @@ vocang:agroffè
     skos:prefLabel "Agroffè"@it ;
     lexinfo:pronunciation "/a • grof • fè/"@it ;
     skos:definition "Una bevanda composta da caffé e salsa agrodolce."@it ;
-    skos:example "L'agroffè non mi piace molto."@it ;
+    skos:example "Alla festa di inaugurazione del nuovo bar, gli ospiti furono sorpresi da una bevanda insolita presente nel menu: una combinazione di caffè e salsa agrodolce. Questa strana miscela, chiamata 'Agroffé', offriva un contrasto unico tra l'intenso aroma del caffè e il gusto agrodolce della salsa. Alcuni avventurosi ospiti decisero di provarla, rimanendo affascinati dalla sua inaspettata armonia di sapori."@it ;
+    skos:note "In realtà l'agroffè fa abbastanza schifo."@it ;
     dct:creator vocang:filasetaAngelo .
 
 vocang:alfaca
