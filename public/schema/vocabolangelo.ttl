@@ -537,7 +537,7 @@ vocang:dopodomanica
     skos:prefLabel "Dopodomanica"@it ;
     lexinfo:pronunciation "/do • po • do • mà • ni • ca/"@it ;
     skos:definition "Il giorno seguente a domanica, utilizzabile solo se il giorno seguente è Domenica per riferirsi a lunedì."@it ;
-    skos:example "Domanica ho un impegno, possiamo vederci dopodomanica ?"@it ;
+    skos:example "Sabato sera, durante un raduno di amici, Matteo disse con un sorriso: 'Ci vediamo dopodomanica!'. Con quella battuta spiritosa, Matteo fece un riferimento ironico al lunedì che seguiva la Domenica, trasformando il solito giorno inizio settimana in un'occasione da celebrare insieme."@it ;
     skos:related vocang:domanica ;
     dct:creator vocang:bragariAlexandru .
 
