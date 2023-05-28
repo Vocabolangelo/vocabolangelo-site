@@ -639,7 +639,7 @@ vocang:canillodromo
     skos:prefLabel "Canillodromo"@it ;
     lexinfo:pronunciation "/ca • nil • lò • dro • mo/"@it ;
     skos:definition "Struttura adibita alle corse dei Canilli. Come in un normale ippodromo è possibile scommettere sui cani che vincono per cercare di guadaganre soldi."@it ;
-    skos:example "Ieri ho perso una fortuna al canillodromo."@it ;
+    skos:example "Sono stato al canillodromo, un posto stravagante dedicato alle corse dei dani. Era come un ippodromo, ma con canilli al posto dei cavalli! La gente scommetteva sul cane vincente per cercare di guadagnare qualche soldo. Ho fatto una scommessa sperando di fare bingo! I canilli sono partiti a tutta velocità, e quando il mio cane ha vinto, ho festeggiato come un matto! Al canillodromo, le corse dei dani erano un mix unico di adrenalina, scommesse e divertimento."@it ;
     skos:related vocang:canillo ;
     dct:creator vocang:filasetaAngelo .
 
