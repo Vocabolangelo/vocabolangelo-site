@@ -5575,12 +5575,8 @@ vocang:barbottare
     a skos:Concept ;
     skos:prefLabel "Barbottare"@it ;
     lexinfo:pronunciation "/bar • bot • tà • re/"@it ;
-    skos:definition "Sampietrino che presenta caratteristiche irregolari in termini di altezza, forma, dimensione e posizionamento, le quali possono causare inconvenienti agli utenti pedonali, come ad esempio inciampare."@it ;
-    skos:example "Durante la passeggiata serale, Anna è inciampata su un incampietrino lungo il marciapiede, il quale le ha causato una leggera contusione alla caviglia."@it ;
-    dct:created "2023-05-24" ;
-    skos:note "Questa è la prima parola inventata da Francesca che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
-    dct:creator vocang:rosatelliAnna, vocang:rinaldiFrancesca .
-
-: borbottare sotto i baffi/barba
-
-Alessandra Susca/Matteo Susca
+    skos:definition "Borbottare sotto i baffi o la barba."@it ;
+    skos:example "Durante la riunione, il capo ha pronunciato una decisione che non era condivisa da tutti i dipendenti. Molti di loro hanno iniziato a barbottare in modo sommesso, esprimendo la loro insoddisfazione senza attirare troppa attenzione."@it ;
+    dct:created "2023-05-25" ;
+    skos:note "Questa è la prima parola inventata da Alessandra che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
+    dct:creator vocang:suscaAlessandra, vocang:suscaMatteo .
