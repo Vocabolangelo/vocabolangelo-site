@@ -571,8 +571,8 @@ vocang:capannolo
     a skos:Concept ;
     skos:prefLabel "Capannolo"@it ;
     lexinfo:pronunciation "/ca • pan • nò • lo/"@it ;
-    skos:definition "Equivalente di capanno, ma utilizzabile solo se all'interno vi sono solo imbacazioni."@it ;
-    skos:example "Ho lasciato la mia barca al capannolo."@it ;
+    skos:definition "Capanno utilizzato dalle imbarcazioni per la sosta o per eseguire operazioni di manutenzione."@it ;
+    skos:example "Gli amanti del mare portano le loro barche al capannolo per fare una pausa e svolgere le necessarie operazioni di manutenzione. Gli artigiani marini al suo interno lavorano con entusiasmo per riparare motori, pulire lo scafo e aggiustare le vele."@it ;
     dct:creator vocang:pertosaLorenzo .
 
 vocang:incrociatoria
