@@ -489,7 +489,7 @@ vocang:allefanza
     skos:prefLabel "Allefanza"@it ;
     lexinfo:pronunciation "/al • le • fàn • za/"@it ;
     skos:definition "Rapporto di alleanza non del tutto bidirezionale."@it ;
-    skos:example "Instauriamo un'allefanza in questa partita? Ci alleiamo contro tutti ma quando mi va posso ucciderti."@it ;
+    skos:example "Nel regno dei pinguini, c'era rapporto di allefanza tra Polo, il pinguino coraggioso, e Baffo, il pinguino pigro. Mentre Polo era sempre pronto ad aiutare Baffo nelle sue avventure, l'alleanza non era del tutto bidirezionale. Quando si trattava di cercare il cibo, Polo faceva tutto il lavoro mentre Baffo approfittava dei frutti del suo sforzo senza dare il minimo contributo. Tuttavia, quando si trattava di intrattenimento e divertimento, Baffo si offriva sempre come compagno di gioco per Polo. Quindi, anche se il rapporto tra Polo e Baffo non era completamente equilibrato, l'allefanza portava comunque sorrisi e avventure uniche nel regno dei pinguini."@it ;
 	skos:related vocang:fanz;
     dct:creator vocang:adantiMatteo, vocang:pescaraGianluca .
 
