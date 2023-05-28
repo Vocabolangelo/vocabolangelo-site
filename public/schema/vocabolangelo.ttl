@@ -504,7 +504,7 @@ vocang:bregge
     skos:prefLabel "Bregge"@it ;
     lexinfo:pronunciation "/brég • ge/"@it ;
     skos:definition "Un gruppo di animali della stessa specie che può essere sia un branco che un gregge."@it ;
-    skos:example "Gli alpaca possono far parte di un bregge."@it ;
+    skos:example "Durante il safari, abbiamo avuto la fortuna di avvistare un'imponente bregge di elefanti che attraversava la savana. Sembravano abbastanza minacciosi, ma la loro organizzazione e il modo in cui si muovevano insieme quasi delle pecorelle. Era uno spettacolo magnifico, osservare quegli animali imponenti che si muovevano in perfetta armonia, formando un vero e proprio bregge."@it ;
     dct:creator vocang:pertosaLorenzo .
 
 vocang:balbizia
