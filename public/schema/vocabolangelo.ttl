@@ -5551,3 +5551,13 @@ vocang:sborrattolo
     skos:example "Oggi ho consegnato uno sborrattolo a Nicola per raccogliere un campione necessario per la tesi di un amico."@it ;
     dct:created "2023-05-20" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:incampietrino
+    a skos:Concept ;
+    skos:prefLabel "Incampietrino"@it ;
+    lexinfo:pronunciation "/in • ciam • pie • trì • no/"@it ;
+    skos:definition "Sampietrino che presenta caratteristiche irregolari in termini di altezza, forma, dimensione e posizionamento, le quali possono causare inconvenienti agli utenti pedonali, come ad esempio inciampare."@it ;
+    skos:example "Durante la passeggiata serale, Anna è inciampata su un incampietrino lungo il marciapiede, il quale le ha causato una leggera contusione alla caviglia."@it ;
+    dct:created "2023-05-24" ;
+    skos:note "Questa è la prima parola inventata da Francesca che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
+    dct:creator vocang:rosatelliAnna, vocang:rinaldiFrancesca .
