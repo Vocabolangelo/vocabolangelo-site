@@ -519,8 +519,8 @@ vocang:cardiota
     a skos:Concept ;
     skos:prefLabel "Cardiota"@it ;
     lexinfo:pronunciation "/car • diò • ta/"@it ;
-    skos:definition "Sinonimo di idiota, ma utilizzabile solo su soggetti che hanno problemi cardiaci."@it ;
-    skos:example "Luca è proprio un cardiota!"@it ;
+    skos:definition "Individuo affetto da limitata capacità intellettiva che presenta patologie cardiache."@it ;
+    skos:example "C'era una volta un tipo chiamato Tony, noto per essere un cardiota. Tony era affetto da un cuore eccentrico che batteva al ritmo di una tarantella. Ogni volta che faceva uno sforzo, il suo cuore iniziava a ballare la salsa, rendendolo completamente senza fiato. Nonostante i suoi guai cardiaci, faceva sempre delle scelte rischiose. Era famoso per partecipare a maratone senza allenamento, mangiare chili di cibi grassi e salire scale come se fossero montagne da scalare. Ogni volta che qualcuno cercava di fermarlo, lui rispondeva con un sorriso e diceva: 'Non preoccuparti, sono un cardiota professionista!' E così continuò a vivere la sua vita al limite, dimostrando che anche se il cuore può essere un po' birichino, la sua determinazione non conosceva limiti. E alla fine, tutti lo amavano per la sua tenacia e il suo spirito combattivo, anche se a volte faceva saltare un battito o due!"@it ;
     dct:creator vocang:savoGiorgia .
 
 vocang:domanica
