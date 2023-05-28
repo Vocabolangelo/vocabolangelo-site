@@ -580,7 +580,7 @@ vocang:incrociatoria
     skos:prefLabel "Incrociatoria"@it ;
     lexinfo:pronunciation "/in • cro • cia • tò • ria/"@it ;
     skos:definition "Incrocio a raso molto pericoloso mascherato da rotatoria."@it ;
-    skos:example "Ieri sono quasi morto a quell'incrociatoria."@it ;
+    skos:example "Sono quasi morto guidando attraverso un incrociatoria l'altro giorno. Inizialmente, sembrava una normale rotatoria con le sue corsie circolari e le indicazioni dei segnali stradali. Tuttavia, man mano che mi avvicinavo, ho notato qualcosa di strano. Ho dovuto usare tutta la mia abilità di guida e un pizzico di fortuna per attraversarla sano e salvo. Dopo aver superato quell'esperienza avvincente, ho deciso che era meglio evitare quella strada in futuro e cercare strade alternative più sicure."@it ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/incrociatoria.jpg" ;
     dct:creator vocang:pertosaLorenzo .
 
