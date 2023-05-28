@@ -775,7 +775,8 @@ vocang:singhiozzutto
     skos:prefLabel "Singhiozzutto"@it ;
     lexinfo:pronunciation "/sin • gioz • zù • to/"@it ;
     skos:definition "Un rutto che esce mentre si ha anche un colpo di singhiozzo."@it ;
-    skos:example "Ieri Nicole ha fatto un singhiozzutto e non riuscivo a smettere di ridere."@it .
+    skos:example "Ieri Nicole ha fatto un singhiozzutto e non riuscivo a smettere di ridere."@it ;
+    dct:creator vocang:filasetaAngelo .
 
 vocang:sparatroia
     a skos:Concept ;
