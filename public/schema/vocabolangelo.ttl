@@ -479,8 +479,9 @@ vocang:alfaca
     a skos:Concept ;
     skos:prefLabel "Alfaca"@it ;
     lexinfo:pronunciation "/àl • fa • ca/"@it ;
-    skos:definition "L'esemplare alfa di un alpaca, ossia quello che occupa il rango sociale più alto nel suo bregge."@it ;
-    skos:example "Guarda quanto è fiero! Deve essere un alfaca."@it ;
+    skos:definition "Esemplare alfa di un alpaca, ossia quello che occupa il rango sociale più alto nel suo bregge."@it ;
+    skos:example "Nel bregge degli alpaca, Sir Fluffington è l'alfaca indiscusso. Con il suo elegante mantello di lana arruffata e uno sguardo regale, domina con fierezza il resto del gruppo. Gli altri alpaca lo osservano con ammirazione e rispetto, pronti a seguirlo in ogni avventura. Quando si avvicina, tutti si inchinano davanti al suo imponente portamento, come se fosse il re degli alpaca. E così, Sir Fluffington si gode il suo status di 're del bregge', circondato dai suoi fedeli sudditi lanaosi."@it ;
+    skos:related vocang:bregge ;
     dct:creator vocang:filasetaAngelo .
 
 vocang:allefanza
