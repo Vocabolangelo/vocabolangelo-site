@@ -433,8 +433,8 @@ vocang:vocabolangelo
     skos:altLabel "Angelario"@it ;
     skos:altLabel "Dizionangelo"@it ;
     lexinfo:pronunciation "/vo • ca • bo • làn • ge • lo/"@it ;
-    skos:definition "Documento strutturato che cataloga e definisce parole, non riportate in un normale vocabolario, inventate da persone ordinarie."@it ;
-    skos:example "Il vocabolangelo contiene molte parole divertenti."@it ;
+    skos:definition "Il Vocabolangelo è un documento strutturato che cataloga e definisce parole (anche chiamate parolangelo) inventate da persone ordinarie, e quindi non riportate in un normale vocabolario. Chiunque abbia inventato almeno una parola del Vocabolangelo viene definito vocaboliere."@it ;
+    skos:example "Angelo, un appassionato di linguistica creativa, ha inventato diverse parole insolite e divertenti. Un giorno, decise di compilare il Vocabolangelo, un documento strutturato in cui catalogava e definiva tutte le parole da lui create. Ogni neologismo che aveva inventato diventava una 'parolangelo', una parola fuori dagli schemi che non era presente nei dizionari tradizionali. Con orgoglio, Angelo si definiva un vocaboliere, essendo l'inventore di almeno una parola all'interno del suo Vocabolangelo."@it ;
     dct:creator vocang:filasetaAngelo .
 
 vocang:angelario
