@@ -605,7 +605,7 @@ vocang:angelesimo
     skos:prefLabel "Angelesimo"@it ;
     lexinfo:pronunciation "/an • ge • lé • ṣi • mo/"@it ;
     skos:definition "Una religione immaginaria fondata sul principio della reincarnazione. Quando si muore si viene reincarnati in dinosauri su un pianeta non ben specificato. La stazza del dinosauro è direttamente proporzionale a quanto si è stati inetti, malvagi e spregevoli durante la vita terrena."@it ;
-    skos:example "Io credo nell'Angelesimo. Diventerò il Re dei dinosauri!"@it ;
+    skos:example "Durante la cena di ieri sera, i miei amici ed io abbiamo iniziato una discussione surreale sull'angelesimo, una religione immaginaria basata sulla reincarnazione. Scherzando, abbiamo immaginato come sarebbe stata la nostra prossima vita dopo la morte secondo gli insegnamenti dell'angelesimo. Uno degli amici ha detto ridendo: 'Beh, io diventerò il Re di tutti i dinosauri!' Abbiamo trascorso il resto della serata ridendo e immaginando le nostre vite future come terribili dinosauri su un pianeta sconosciuto. È incredibile come l'immaginazione possa portare ad avventure così stravaganti!"@it ;
     dct:creator vocang:pertosaLorenzo .
 
 vocang:biribì
