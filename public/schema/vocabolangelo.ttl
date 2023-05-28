@@ -5598,3 +5598,12 @@ vocang:abicoltura
     skos:example "Con l'arrivo imminente del Natale, è giunto il momento di recarsi all'abicoltura per assicurarsi il più splendido abete del quartiere e suscitare l'invidia dei vicini con una decorazione natalizia mozzafiato."@it ;
     dct:created "2023-05-26" ;
     dct:creator vocang:omiccioliRiccardo, vocang:chatGPT.
+
+vocang:rimpanza
+    a skos:Concept ;
+    skos:prefLabel "Rimpanza"@it ;
+    lexinfo:pronunciation "/rim • pàn • za/"@it ;
+    skos:definition "Effetto di rimbalzo o movimento ondulatorio che si manifesta nella regione addominale in seguito a un colpo ricevuto."@it ;
+    skos:example "Dopo essere stato colpito sulla pancia durante una partita di arti marziali, Giacomo ha sperimentato una rimpanza. Si è manifestato un movimento ondulatorio che ha causato un momentaneo malessere e una sensazione di instabilità nella zona colpita."@it ;
+    dct:created "2023-05-26" ;
+    dct:creator vocang:timpanoSam .
