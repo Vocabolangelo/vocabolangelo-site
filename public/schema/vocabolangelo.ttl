@@ -5618,6 +5618,6 @@ vocang:profumolotov
     skos:prefLabel "Profumolotov"@it ;
     lexinfo:pronunciation "/pro • fu • mò • lo • tov, -tof/"@it ;
     skos:definition "Una bomba incendiaria, conosciuta come 'molotov', composta da una bottiglia riempita di olio profumato altamente infiammabile."@it ;
-    skos:example "Durante una mattina di sole, Luis si recò in una panetteria per acquistare dei croissant appena sfornati. Nel frattempo, a pochi isolati di distanza, si stava svolgendo una manifestazione che non aveva affatto l'aria di essere pacifica. Improvvisamente, un forte rumore echeggiò in lontananza quando una bottiglia contenente olio profumato si ruppe, causando un forte odore e panico nella folla. Nonostante tutto, Luis continuò a gustarsi il  suo croissant in tutta tranquillità.".@it ;
+    skos:example "Durante una mattina di sole, Luis si recò in una panetteria per acquistare dei croissant appena sfornati. Nel frattempo, a pochi isolati di distanza, si stava svolgendo una manifestazione che non aveva affatto l'aria di essere pacifica. Improvvisamente, un forte rumore echeggiò in lontananza quando una bottiglia contenente olio profumato si ruppe, causando un forte odore e panico nella folla. Nonostante tutto, Luis continuò a gustarsi il  suo croissant in tutta tranquillità."@it ;
     dct:created "2023-05-27" ;
     dct:creator vocang:pertosaLorenzo .
