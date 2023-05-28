@@ -613,7 +613,7 @@ vocang:biribì
     skos:prefLabel "Biribì"@it ;
     lexinfo:pronunciation "/bi • ri • bì/"@it ;
     skos:definition "Un posto in cui delle persone che stanno per morire vanno in veste di turisti."@it ;
-    skos:example "Tra qualche giorno morirò... Passerò i miei ultimi giorni al biribì."@it ;
+    skos:example "Durante la mia ultima vacanza, ho avuto l'opportunità di visitare un luogo unico chiamato \"Biribì\". Questo straordinario posto è noto per accogliere persone in procinto di morire, ma in un contesto completamente diverso: come turisti. Mi sono trovato a passeggiare i corridoi del Biribì, osservando le persone anziane e malate che, anziché sentirsi tristi o spaventate, sembravano gioiose e serene. Ho chiacchierato con alcuni di loro e ho scoperto che Biribì offre un'esperienza unica, in cui i visitatori possono godersi gli ultimi giorni della loro vita in compagnia di altri viaggiatori nella stessa situazione. C'era un'atmosfera di gratitudine e accettazione, con persone che facevano passeggiate e assaggiavano cibi locali. È stato un luogo veramente speciale, dove l'approccio alla morte era trasformato in un'opportunità di vivere ogni momento come se fosse un viaggio straordinario."@it ;
     skos:note "L'origine del termine è emersa a seguito di un malinteso da parte di uno degli autori, che ha frainteso la locuzione \"BnB\" nelle vicinanze di Porta Augustea BB a Fano. Dopo aver riconosciuto l'errore e osservato delle inquietanti decorazioni floreali all'ingresso, l'associazione è risultata spontanea." ;
     dct:creator vocang:filasetaAngelo , vocang:battaglinoNicole, vocang:bragariAlexandru .
 
