@@ -401,6 +401,23 @@ vocang:houshanSoheil
     org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:pertosaLorenzo, vocang:badialiLorenzo.
 
+vocang:rinaldiFrancesca
+    a foaf:Person ;
+    foaf:firstName "Francesca" ;
+    foaf:lastName "Rinaldi" ;
+    foaf:gender "female" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:durazziMarco, vocang:rosatelliAnna, vocang:savoGianmarco, vocang:timpanoSam, vocang:fanaraGiuliano, vocang:filasetaAngelo, vocang:savoGiorgia, vocang:nardiniArianna, vocang:pupitaAlberto, vocang:bragariAlexandru, vocang:battaglinoNicole, vocang:omiccioliRiccardo, vocang:pertosaLorenzo, vocang:orlandoNicola, vocang:suscaMatteo, vocang:ribaudoSofia, vocang:minoccheriAlessandra, vocang:bianchiniGiovanni, vocang:mordacchiniCecilia.
+
+vocang:suscaAlessandra
+    a foaf:Person ;
+    foaf:firstName "Alessandra" ;
+    foaf:lastName "Susca" ;
+    foaf:gender "female" ;
+    org:memberOf vocang:vocaboladminOrg ;
+    rel:siblingOf vocang:suscaMatteo ;
+    rel:friendOf vocang:rosatelliAnna .
+
 # Other Author Individuals
 
 vocang:chatGPT
@@ -416,31 +433,27 @@ vocang:vocabolangelo
     skos:altLabel "Angelario"@it ;
     skos:altLabel "Dizionangelo"@it ;
     lexinfo:pronunciation "/vo • ca • bo • làn • ge • lo/"@it ;
-    skos:definition "Documento strutturato che cataloga e definisce parole, non riportate in un normale vocabolario, inventate da persone ordinarie."@it ;
-    skos:example "Il vocabolangelo contiene molte parole divertenti."@it ;
+    skos:definition "Il Vocabolangelo è un documento strutturato che cataloga e definisce parole (anche chiamate parolangelo) inventate da persone ordinarie, e quindi non riportate in un normale vocabolario. Chiunque abbia inventato almeno una parola del Vocabolangelo viene definito vocaboliere."@it ;
+    skos:example "Angelo, un appassionato di linguistica creativa, ha inventato diverse parole insolite e divertenti. Un giorno, decise di compilare il Vocabolangelo, un documento strutturato in cui catalogava e definiva tutte le parole da lui create. Ogni neologismo che aveva inventato diventava una 'parolangelo', una parola fuori dagli schemi che non era presente nei dizionari tradizionali. Con orgoglio, Angelo si definiva un vocaboliere, essendo l'inventore di almeno una parola all'interno del suo Vocabolangelo."@it ;
     dct:creator vocang:filasetaAngelo .
 
 vocang:angelario
     a skos:Concept ;
     skos:prefLabel "Angelario"@it ;
     lexinfo:pronunciation "/àn • ge • la • rio/"@it ;
-    skos:altLabel "Vocabolangelo"@it ;
-    skos:altLabel "Dizionangelo"@it ;
-    skos:definition "Un altro modo di definire il Vocabolangelo."@it ;
+    skos:definition "Il primo, e deprecato, termini utilizzato per riferirsi al Vocabolangelo."@it ;
     skos:note "Angelario è stato il primo nome del Vocabolangelo." ;
-    skos:example "L'angelario e il vocabolangelo sono la stessa cosa."@it ;
+    skos:example "Originariamente, il termine 'angelario' fu il primo, e successivamente deprecato, termine utilizzato per riferirsi al Vocabolangelo. Era un modo meno comune per indicare il documento strutturato contenente le parole inventate dalle persone comuni. Tuttavia, col passare del tempo, la parola 'angelario' cadde in disuso e fu gradualmente sostituita con il più diffuso termine 'Vocabolangelo', che divenne ampiamente accettato per definire quella raccolta di neologismi."@it ;
     skos:related vocang:vocabolangelo ;
     dct:creator vocang:filasetaAngelo .
 
 vocang:dizionangelo
     a skos:Concept ;
     skos:prefLabel "Dizionangelo"@it ;
-    skos:altLabel "Vocabolangelo"@it ;
-    skos:altLabel "Angelario"@it ;
     lexinfo:pronunciation "/di • zio • nàn • ge • lo/"@it ;
-    skos:definition "Un altro modo di definire il Vocabolangelo."@it ;
-    skos:example "Il dizionangelo e il vocabolangelo sono la stessa cosa."@it ;
-    skos:related vocang:vocabolangelo ;
+    skos:definition "Un termine alternativo raro e scarsamente adottato per indicare il Vocabolangelo."@it ;
+    skos:example "Durante la riunione dei vocabolieri, Francesca menzionò l'esistenza di un modo alternativo per riferirsi al Vocabolangelo. Disse: 'Esiste un termine estremamente poco utilizzato chiamato \"dizionangelo\"'. Tuttavia, notò l'ignoranza dei presenti riguardo a tale parola, dimostrando che 'dizionangelo' era un'espressione rara e poco conosciuta all'interno della comunità dei vocabolieri."@it ;
+    skos:related vocang:vocabolangelo, vocang:angelario;
     dct:creator vocang:filasetaAngelo .
 
 vocang:acquorica
@@ -458,15 +471,17 @@ vocang:agroffè
     skos:prefLabel "Agroffè"@it ;
     lexinfo:pronunciation "/a • grof • fè/"@it ;
     skos:definition "Una bevanda composta da caffé e salsa agrodolce."@it ;
-    skos:example "L'agroffè non mi piace molto."@it ;
+    skos:example "Alla festa di inaugurazione del nuovo bar, gli ospiti furono sorpresi da una bevanda insolita presente nel menu: una combinazione di caffè e salsa agrodolce. Questa strana miscela, chiamata 'Agroffé', offriva un contrasto unico tra l'intenso aroma del caffè e il gusto agrodolce della salsa. Alcuni avventurosi ospiti decisero di provarla, rimanendo affascinati dalla sua inaspettata armonia di sapori."@it ;
+    skos:note "In realtà l'agroffè fa abbastanza schifo."@it ;
     dct:creator vocang:filasetaAngelo .
 
 vocang:alfaca
     a skos:Concept ;
     skos:prefLabel "Alfaca"@it ;
     lexinfo:pronunciation "/àl • fa • ca/"@it ;
-    skos:definition "L'esemplare alfa di un alpaca, ossia quello che occupa il rango sociale più alto nel suo bregge."@it ;
-    skos:example "Guarda quanto è fiero! Deve essere un alfaca."@it ;
+    skos:definition "Esemplare alfa di un alpaca, ossia quello che occupa il rango sociale più alto nel suo bregge."@it ;
+    skos:example "Nel bregge degli alpaca, Sir Fluffington è l'alfaca indiscusso. Con il suo elegante mantello di lana arruffata e uno sguardo regale, domina con fierezza il resto del gruppo. Gli altri alpaca lo osservano con ammirazione e rispetto, pronti a seguirlo in ogni avventura. Quando si avvicina, tutti si inchinano davanti al suo imponente portamento, come se fosse il re degli alpaca. E così, Sir Fluffington si gode il suo status di 're del bregge', circondato dai suoi fedeli sudditi lanaosi."@it ;
+    skos:related vocang:bregge ;
     dct:creator vocang:filasetaAngelo .
 
 vocang:allefanza
@@ -474,24 +489,22 @@ vocang:allefanza
     skos:prefLabel "Allefanza"@it ;
     lexinfo:pronunciation "/al • le • fàn • za/"@it ;
     skos:definition "Rapporto di alleanza non del tutto bidirezionale."@it ;
-    skos:example "Instauriamo un'allefanza in questa partita? Ci alleiamo contro tutti ma quando mi va posso ucciderti."@it ;
-	skos:related vocang:fanz;
+    skos:example "Nel regno dei pinguini, c'era rapporto di allefanza tra Polo, il pinguino coraggioso, e Baffo, il pinguino pigro. Mentre Polo era sempre pronto ad aiutare Baffo nelle sue avventure, l'alleanza non era del tutto bidirezionale. Quando si trattava di cercare il cibo, Polo faceva tutto il lavoro mentre Baffo approfittava dei frutti del suo sforzo senza dare il minimo contributo. Tuttavia, quando si trattava di intrattenimento e divertimento, Baffo si offriva sempre come compagno di gioco per Polo. Quindi, anche se il rapporto tra Polo e Baffo non era completamente equilibrato, l'allefanza portava comunque sorrisi e avventure uniche nel regno dei pinguini."@it ;
     dct:creator vocang:adantiMatteo, vocang:pescaraGianluca .
 
 vocang:fanz
 	a skos:Concept ;
 	skos:prefLabel "Fanz"@it ;
-    lexinfo:pronunciation "/fànz/"@it ;
 	skos:definition "Un fan estremamente entusiasta di esserlo."@it ;
-	skos:example "Io sono un tuo fanz!"@it ;
-	skos:related vocang:allefanza .
+	skos:example "Carlotta era un fanz della band musicale 'I Lemingo Cosmici'. Era così entusiasta del gruppo che aveva creato un santuario dedicato a loro nella sua camera, tappezzato di poster, biglietti dei concerti e oggetti da collezione. Ogni volta che ascoltava una loro canzone, Carlotta iniziava a ballare in modo scatenato, facendo dei passi acrobatici e cantando a squarciagola. Il suo entusiasmo era così contagioso che i suoi amici la chiamavano affettuosamente 'Carlotta la fanz', perché sembrava letteralmente volare di gioia ogni volta che si parlava dei Lemingo Cosmici. Nessuno poteva competere con il suo livello di entusiasmo da fan!"@it ;
+    dct:creator vocang:bragariAlexandru .
 
 vocang:bregge
     a skos:Concept ;
     skos:prefLabel "Bregge"@it ;
     lexinfo:pronunciation "/brég • ge/"@it ;
     skos:definition "Un gruppo di animali della stessa specie che può essere sia un branco che un gregge."@it ;
-    skos:example "Gli alpaca possono far parte di un bregge."@it ;
+    skos:example "Durante il safari, abbiamo avuto la fortuna di avvistare un'imponente bregge di elefanti che attraversava la savana. Sembravano abbastanza minacciosi, ma la loro organizzazione e il modo in cui si muovevano insieme quasi delle pecorelle. Era uno spettacolo magnifico, osservare quegli animali imponenti che si muovevano in perfetta armonia, formando un vero e proprio bregge."@it ;
     dct:creator vocang:pertosaLorenzo .
 
 vocang:balbizia
@@ -499,15 +512,15 @@ vocang:balbizia
     skos:prefLabel "Balbizia"@it ;
     lexinfo:pronunciation "/bal • bì • zia/"@it ;
     skos:definition "Equivalente di balbuzia, ma utilizzabile solo su entità che soffrono di calvizia."@it ;
-    skos:example "Nicola soffre di balbizia."@it ;
+    skos:example "C'era una volta un simpatico signore chiamato Frank. Frank era calvo e ogni volta che cercava di parlare dei suoi capelli, si bloccava come un vecchio grammofono arrugginito. Le sue parole si intrecciavano e balbettava in modo buffo. Era un caso unico di balbizia, una condizione che colpiva solo le persone calve! Frank però accettò in fretta la sua condizione e trasformò la sua balbizia in una fonte di divertimento e speranza, dimostrando che anche le cose più strane possono portare un sorriso sulla faccia delle persone!"@it ;
     dct:creator vocang:battaglinoNicole .
 
 vocang:cardiota
     a skos:Concept ;
     skos:prefLabel "Cardiota"@it ;
     lexinfo:pronunciation "/car • diò • ta/"@it ;
-    skos:definition "Sinonimo di idiota, ma utilizzabile solo su soggetti che hanno problemi cardiaci."@it ;
-    skos:example "Luca è proprio un cardiota!"@it ;
+    skos:definition "Individuo affetto da limitata capacità intellettiva che presenta patologie cardiache."@it ;
+    skos:example "C'era una volta un tipo chiamato Tony, noto per essere un cardiota. Tony era affetto da un cuore eccentrico che batteva al ritmo di una tarantella. Ogni volta che faceva uno sforzo, il suo cuore iniziava a ballare la salsa, rendendolo completamente senza fiato. Nonostante i suoi guai cardiaci, faceva sempre delle scelte rischiose. Era famoso per partecipare a maratone senza allenamento, mangiare chili di cibi grassi e salire scale come se fossero montagne da scalare. Ogni volta che qualcuno cercava di fermarlo, lui rispondeva con un sorriso e diceva: 'Non preoccuparti, sono un cardiota professionista!' E così continuò a vivere la sua vita al limite, dimostrando che anche se il cuore può essere un po' birichino, la sua determinazione non conosceva limiti. E alla fine, tutti lo amavano per la sua tenacia e il suo spirito combattivo, anche se a volte faceva saltare un battito o due!"@it ;
     dct:creator vocang:savoGiorgia .
 
 vocang:domanica
@@ -515,7 +528,7 @@ vocang:domanica
     skos:prefLabel "Domanica"@it ;
     lexinfo:pronunciation "/do • mà • ni • ca/"@it ;
     skos:definition "Il giorno seguente a oggi, ma utilizzabile solo se il giorno seguente è Domenica."@it ;
-    skos:example "Ci vediamo domanica."@it ;
+    skos:example "Marco e Giulia si salutarono dopo una lunga serata insieme e Marco disse con un sorriso: 'Ci vediamo domanica!' Sapendo che il giorno successivo era proprio Domenica. Giulia rise divertita e rispose: 'Sì, ci vediamo domanica!' Con quel semplice scambio di parole, Marco e Giulia resero l'addio un momento leggero e scherzoso, lasciando intravedere l'attesa di un prossimo incontro nel giorno speciale che seguiva immediatamente quello presente: la domenica."@it ;
     skos:related vocang:dopodomanica ;
     dct:creator vocang:bragariAlexandru .
 
@@ -524,7 +537,7 @@ vocang:dopodomanica
     skos:prefLabel "Dopodomanica"@it ;
     lexinfo:pronunciation "/do • po • do • mà • ni • ca/"@it ;
     skos:definition "Il giorno seguente a domanica, utilizzabile solo se il giorno seguente è Domenica per riferirsi a lunedì."@it ;
-    skos:example "Domanica ho un impegno, possiamo vederci dopodomanica ?"@it ;
+    skos:example "Sabato sera, durante un raduno di amici, Matteo disse con un sorriso: 'Ci vediamo dopodomanica!'. Con quella battuta spiritosa, Matteo fece un riferimento ironico al lunedì che seguiva la Domenica, trasformando il solito giorno inizio settimana in un'occasione da celebrare insieme."@it ;
     skos:related vocang:domanica ;
     dct:creator vocang:bragariAlexandru .
 
@@ -533,7 +546,7 @@ vocang:brovedì
     skos:prefLabel "Brovedì"@it ;
     lexinfo:pronunciation "/bro • ve • dì/"@it ;
     skos:definition "Il nome di un giorno della settimana aggiuntivo. Brovedì può essere utilizzato per rendere variabile il numero di giorni in una settimana. Brovedì può esserci o non esserci. Le regole di quando come e dove piazzare Brovedì non sono formalizzate."@it ;
-    skos:example "Vorrei tanto esistesse il brovedì, ci sarebbe molto più tempo!"@it ;
+    skos:example "Vorrei tanto esistesse il brovedì, la società riuscirebbe ad organizzarsi meglio!"@it ;
     dct:creator vocang:bragariAlexandru .
 
 vocang:tretro
@@ -541,7 +554,7 @@ vocang:tretro
     skos:prefLabel "Tretro"@it ;
     lexinfo:pronunciation "/trè • tro/"@it ;
     skos:definition "Un mezzo di trasporto che può essere definito sia come un treno che come una metro."@it ;
-    skos:example "Se non ti sbrighi perderemo il tretro!"@it ;
+    skos:example "A Napoli c'è la metro ma io preferisco chiamarla tretro. Sembra proprio una metro, ma passa molto più di rado, proprio come un treno!"@it ;
     dct:creator vocang:filasetaAngelo .
 
 vocang:canillo
@@ -549,7 +562,7 @@ vocang:canillo
     skos:prefLabel "Canillo"@it ;
     lexinfo:pronunciation "/ca • nìl • lo/"@it ;
     skos:definition "Un cane che è stato addestrato per svolgere delle gare di corsa."@it ;
-    skos:example "Il mio canillo è il più veloce del mondo."@it ;
+    skos:example "Stavo assistendo a una gara di corsa davvero straordinaria l'altro giorno. Era un evento unico chiamato 'Canillo Run' in cui i partecipanti erano tutti cani addestrati per correre. Era incredibile vedere quei cani scattare via dalla linea di partenza come veri atleti professionisti! C'erano cani di tutte le razze, ognuno con il suo stile di corsa unico. Alcuni saltellavano come coniglietti, altri si muovevano in modo elegante e aggraziato come gazzelle. Ma il mio preferito era un dolce bassotto di nome Max, con le sue piccole zampe che si muovevano così velocemente da sembrare quasi che stesse pattinando sul terreno! Alla fine, il vincitore della gara è stato un magnifico canillo agilissimo chiamato Zeus, che ha attraversato il traguardo con una velocità impressionante. Devo dire che il 'Canillo Run' è stato l'evento più divertente e adorabile che abbia mai visto!"@it ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/canillo.jpg" ;
     skos:related vocang:canillodromo ;
     dct:creator vocang:filasetaAngelo .
@@ -558,8 +571,8 @@ vocang:capannolo
     a skos:Concept ;
     skos:prefLabel "Capannolo"@it ;
     lexinfo:pronunciation "/ca • pan • nò • lo/"@it ;
-    skos:definition "Equivalente di capanno, ma utilizzabile solo se all'interno vi sono solo imbacazioni."@it ;
-    skos:example "Ho lasciato la mia barca al capannolo."@it ;
+    skos:definition "Capanno utilizzato dalle imbarcazioni per la sosta o per eseguire operazioni di manutenzione."@it ;
+    skos:example "Gli amanti del mare portano le loro barche al capannolo per fare una pausa e svolgere le necessarie operazioni di manutenzione. Gli artigiani marini al suo interno lavorano con entusiasmo per riparare motori, pulire lo scafo e aggiustare le vele."@it ;
     dct:creator vocang:pertosaLorenzo .
 
 vocang:incrociatoria
@@ -567,7 +580,7 @@ vocang:incrociatoria
     skos:prefLabel "Incrociatoria"@it ;
     lexinfo:pronunciation "/in • cro • cia • tò • ria/"@it ;
     skos:definition "Incrocio a raso molto pericoloso mascherato da rotatoria."@it ;
-    skos:example "Ieri sono quasi morto a quell'incrociatoria."@it ;
+    skos:example "Sono quasi morto guidando attraverso un incrociatoria l'altro giorno. Inizialmente, sembrava una normale rotatoria con le sue corsie circolari e le indicazioni dei segnali stradali. Tuttavia, man mano che mi avvicinavo, ho notato qualcosa di strano. Ho dovuto usare tutta la mia abilità di guida e un pizzico di fortuna per attraversarla sano e salvo. Dopo aver superato quell'esperienza avvincente, ho deciso che era meglio evitare quella strada in futuro e cercare strade alternative più sicure."@it ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/incrociatoria.jpg" ;
     dct:creator vocang:pertosaLorenzo .
 
@@ -576,15 +589,15 @@ vocang:angelata
     skos:prefLabel "Angelata"@it ;
     lexinfo:pronunciation "/an • ge • là • ta/"@it ;
     skos:definition "Un'azione stupida che porta quasi sicuramente a brutte conseguenze e che viene compiuta solo per divertimento."@it ;
-    skos:example "Scavalcare quel muro sarebbe proprio un'angelata."@it ;
+    skos:example "Mi sono trovato coinvolto in un'avventura rischiosa l'altro giorno quando alcuni amici mi hanno sfidato a fare un'angelata. Cos'è un'angelata? Beh, è un'azione assolutamente stupida che si fa solo per divertimento, anche se si sa che comporterà brutte conseguenze. Nel nostro caso, l'angelata consisteva nel cercare di saltare su un trampolino improvvisato e atterrare su un materasso posto su un laghetto! Nonostante sapessimo che poteva finire male, la voglia di avventura e l'adrenalina hanno preso il sopravvento. Quindi, con cuore in gola, ho preso la rincorsa e ho saltato. Il risultato? Sono finito nel laghetto con uno schianto bagnato e ho scoperto che il materasso galleggiante si era sgonfiato! Tutti gli spettatori si sono messi a ridere, compresi i miei amici, mentre io cercavo di liberarmi dall'acqua. Sì, è stata decisamente un'angelata, ma almeno ci siamo divertiti e ne abbiamo fatto una storia da raccontare. Tuttavia, mi prometto di pensare due volte prima di cacciarmi in un'altra angelata simile!"@it ;
     dct:creator vocang:pertosaLorenzo .
 
 vocang:avvoltinoso
     a skos:Concept ;
     skos:prefLabel "Avvoltinoso"@it ;
     lexinfo:pronunciation "/av • vol • ti • nó • so/"@it ;
-    skos:definition "Qualcosa che è composto di tanti giri."@it ;
-    skos:example "Questa molla è veramente avvoltinosa."@it ;
+    skos:definition "Un oggetto caratterizzato da una struttura circolare ripetitiva, come ad esempio una molla, evidenziando la sua forma ricorrente."@it ;
+    skos:example "La scultura esposta nella galleria d'arte era un'opera avvoltinosa affascinante. L'artista ha creato un intricato intreccio di molle d'acciaio, che si avvolgevano su se stesse in un ciclo senza fine. L'effetto visivo era ipnotico, con le molle che sembravano fluttuare nello spazio, creando un senso di movimento continuo e armonia."@it ;
     dct:creator vocang:filasetaAngelo .
 
 vocang:angelesimo
@@ -592,7 +605,7 @@ vocang:angelesimo
     skos:prefLabel "Angelesimo"@it ;
     lexinfo:pronunciation "/an • ge • lé • ṣi • mo/"@it ;
     skos:definition "Una religione immaginaria fondata sul principio della reincarnazione. Quando si muore si viene reincarnati in dinosauri su un pianeta non ben specificato. La stazza del dinosauro è direttamente proporzionale a quanto si è stati inetti, malvagi e spregevoli durante la vita terrena."@it ;
-    skos:example "Io credo nell'Angelesimo. Diventerò il Re dei dinosauri!"@it ;
+    skos:example "Durante la cena di ieri sera, i miei amici ed io abbiamo iniziato una discussione surreale sull'angelesimo, una religione immaginaria basata sulla reincarnazione. Scherzando, abbiamo immaginato come sarebbe stata la nostra prossima vita dopo la morte secondo gli insegnamenti dell'angelesimo. Uno degli amici ha detto ridendo: 'Beh, io diventerò il Re di tutti i dinosauri!' Abbiamo trascorso il resto della serata ridendo e immaginando le nostre vite future come terribili dinosauri su un pianeta sconosciuto. È incredibile come l'immaginazione possa portare ad avventure così stravaganti!"@it ;
     dct:creator vocang:pertosaLorenzo .
 
 vocang:biribì
@@ -600,7 +613,7 @@ vocang:biribì
     skos:prefLabel "Biribì"@it ;
     lexinfo:pronunciation "/bi • ri • bì/"@it ;
     skos:definition "Un posto in cui delle persone che stanno per morire vanno in veste di turisti."@it ;
-    skos:example "Tra qualche giorno morirò... Passerò i miei ultimi giorni al biribì."@it ;
+    skos:example "Durante la mia ultima vacanza, ho avuto l'opportunità di visitare un luogo unico chiamato \"Biribì\". Questo straordinario posto è noto per accogliere persone in procinto di morire, ma in un contesto completamente diverso: come turisti. Mi sono trovato a passeggiare i corridoi del Biribì, osservando le persone anziane e malate che, anziché sentirsi tristi o spaventate, sembravano gioiose e serene. Ho chiacchierato con alcuni di loro e ho scoperto che Biribì offre un'esperienza unica, in cui i visitatori possono godersi gli ultimi giorni della loro vita in compagnia di altri viaggiatori nella stessa situazione. C'era un'atmosfera di gratitudine e accettazione, con persone che facevano passeggiate e assaggiavano cibi locali. È stato un luogo veramente speciale, dove l'approccio alla morte era trasformato in un'opportunità di vivere ogni momento come se fosse un viaggio straordinario."@it ;
     skos:note "L'origine del termine è emersa a seguito di un malinteso da parte di uno degli autori, che ha frainteso la locuzione \"BnB\" nelle vicinanze di Porta Augustea BB a Fano. Dopo aver riconosciuto l'errore e osservato delle inquietanti decorazioni floreali all'ingresso, l'associazione è risultata spontanea." ;
     dct:creator vocang:filasetaAngelo , vocang:battaglinoNicole, vocang:bragariAlexandru .
 
@@ -608,8 +621,8 @@ vocang:caffemilla
     a skos:Concept ;
     skos:prefLabel "Caffemilla"@it ;
     lexinfo:pronunciation "/caf • fe • mìl • la/"@it ;
-    skos:definition "Un caffè (di qualsiasi tipo) aromatizzato alla camomilla."@it ;
-    skos:example "La caffemilla non mi piace."@it ;
+    skos:definition "Un caffè aromatizzato alla camomilla."@it ;
+    skos:example "Stamattina, sono entrato nel mio caffè preferito e go voluto provare qualcosa di diverso, ho ordinato una tazza di caffemilla. Mentre aspettavo, il profumo della camomilla si diffondeva nell'aria, creando un'atmosfera rilassante. Finalmente, mi è stato servito il caffemilla fumante. Il primo sorso è stato sorprendente: il sapore intenso del caffè si univa dolcemente all'aroma delicato della camomilla. Era come se i due sapori si fondessero in una combinazione perfetta, regalandomi una sensazione di comfort e tranquillità. Il caffemilla si è rivelato una piacevole scoperta, perfetto per rilassarsi e godersi un momento di dolcezza e calma durante la giornata."@it ;
     dct:creator vocang:filasetaAngelo .
 
 vocang:cafferillo
@@ -617,7 +630,7 @@ vocang:cafferillo
     skos:prefLabel "Cafferillo"@it ;
     lexinfo:pronunciation "/caf • fe • rìl • lo/"@it ;
     skos:definition "Una variante di caffè mischiato con sciroppo di mirtillo. Come per il normale caffè è possibile crearlo in diverse varianti (macchiato, corretto, shackerato, etc.)."@it ;
-    skos:example "Amo il cafferillo, lo prendo sempre senza zucchero."@it ;
+    skos:example "Ero a casa, desideroso di sperimentare una nuova bevanda, quando mi è venuta in mente un'idea intrigante: preparare un \"cafferillo\". Ho preso il mio caffè preferito e ho aggiunto uno spruzzo di sciroppo di mirtillo. Mentre l'aroma del caffè si diffondeva in cucina, ho preparato una tazza di latte montato a punto di neve per accompagnare il mio cafferillo. Dopo aver versato il caffè aromatico nella tazza, ho aggiunto delicatamente il latte montato, creando uno strato cremoso sulla superficie. Il primo sorso mi ha regalato una piacevole sorpresa: il gusto robusto del caffè era perfettamente bilanciato dalla dolcezza fruttata del mirtillo. Era una combinazione deliziosa che mi ha riempito di energia e ha reso la mia giornata ancora più piacevole. Da quel momento in poi, il cafferillo è diventato una mia creazione casalinga preferita, con la possibilità di personalizzarlo in diverse varianti: macchiato, corretto, shakerato e quant'altro la fantasia suggerisse."@it ;
     skos:related vocang:cafferetta ;
     dct:creator vocang:filasetaAngelo .
 
@@ -626,7 +639,7 @@ vocang:canillodromo
     skos:prefLabel "Canillodromo"@it ;
     lexinfo:pronunciation "/ca • nil • lò • dro • mo/"@it ;
     skos:definition "Struttura adibita alle corse dei Canilli. Come in un normale ippodromo è possibile scommettere sui cani che vincono per cercare di guadaganre soldi."@it ;
-    skos:example "Ieri ho perso una fortuna al canillodromo."@it ;
+    skos:example "Sono stato al canillodromo, un posto stravagante dedicato alle corse dei dani. Era come un ippodromo, ma con canilli al posto dei cavalli! La gente scommetteva sul cane vincente per cercare di guadagnare qualche soldo. Ho fatto una scommessa sperando di fare bingo! I canilli sono partiti a tutta velocità, e quando il mio cane ha vinto, ho festeggiato come un matto! Al canillodromo, le corse dei dani erano un mix unico di adrenalina, scommesse e divertimento."@it ;
     skos:related vocang:canillo ;
     dct:creator vocang:filasetaAngelo .
 
@@ -635,16 +648,15 @@ vocang:cedrancia
     skos:prefLabel "Cedrancia"@it ;
     lexinfo:pronunciation "/ce • dràn • cia/"@it ;
     skos:definition "Una bevanda che si ottiene mischiando insieme la cedrata e una qualsiasi aranciata."@it ;
-    skos:example "Stasera mi andrebbe proprio una cedrancia."@it ;
+    skos:example "Durante una calda giornata estiva, Maria si confezionò una bevanda rinfrescante: una cedrancia. Il risultato fu una deliziosa bibita dal gusto agrumato, che univa il carattere unico della cedrata con la dolcezza frizzante dell'aranciata."@it ;
     dct:creator vocang:suscaMatteo .
-
 
 vocang:coecrita
     a skos:Concept ;
     skos:prefLabel "Coecrita"@it ;
     lexinfo:pronunciation "/co • é • cri • ta/"@it ;
     skos:definition "Una persona ipocrita, sarcasticamente non coerente."@it ;
-    skos:example "Parlare con te è inutile, sei un coecrita!"@it ;
+    skos:example "Anna si rivolse a Giorgio con un sorriso finto e disse: \"Oh, complimenti per la tua generosità! Non c'è nessuno come te che riesce ad essere così altruista... quando ti serve qualcosa.\" Il tono sarcastico di Anna e la sua affermazione piena di ipocrisia evidenziavano il suo essere coecrita."@it ;
     dct:creator vocang:filasetaAngelo .
 
 vocang:complinsulto
@@ -652,7 +664,7 @@ vocang:complinsulto
     skos:prefLabel "Complinsulto"@it ;
     lexinfo:pronunciation "/com • plin • sùl • to/"@it ;
     skos:definition "Un’affermazione che non si capisce bene se sia un complimento o un insulto."@it ;
-    skos:example "Parlare con te è inutile, sei un coecrita!"@it ;
+    skos:example "Durante una cena elegante, Giovanni si avvicinò a Martina e le disse con un sorriso: \"Sei molto brava a fingere di essere intelligente!\" Martina rimase confusa dall'affermazione di Giovanni, non riuscendo a capire il motivo di quel complinsulto. La sua mente si riempì di dubbi, lasciandola incerta sulle reali intenzioni di Giovanni e sul modo in cui avrebbe dovuto reagire."@it ;
     dct:creator vocang:filasetaAngelo .
 
 vocang:coreliano
@@ -660,7 +672,7 @@ vocang:coreliano
     skos:prefLabel "Coreliano"@it ;
     lexinfo:pronunciation "/co • re • lià • no/"@it ;
     skos:definition "Un metodo di scrittura utilizzato per scrivere in italiano con l’alfabeto coreano."@it ;
-    skos:example "Io e la mia ragazza ci scriviamo sempre dei messaggi molto carini in coreliano."@it ;
+    skos:example "Io e la mia ragazza ci scriviamo sempre dei messaggi molto carini in coreliano. Solo io e lei riusciamo a capirli!"@it ;
     dct:creator vocang:savoGiorgia .
 
 vocang:falsevolezza
@@ -676,7 +688,7 @@ vocang:fetiscista
     skos:prefLabel "Fetiscista"@it ;
     lexinfo:pronunciation "/fe • ti • scì • sta/"@it ;
     skos:definition "Chi segue la pratica del feticismo verso lo sport dello Sci."@it ;
-    skos:example "Mio zio è un fetiscista."@it ;
+    skos:example "Luca è un fervente fetiscista, dedicando gran parte del suo tempo libero a seguire e partecipare a competizioni di sci. La sua passione per questo sport è talmente intensa che colleziona attrezzature da sci, guarda ogni evento sportivo in televisione e si immerge completamente nell'atmosfera dell'inverno e delle montagne."@it ;
     dct:creator vocang:bragariAlexandru .
 
 vocang:fremitoso
@@ -684,7 +696,7 @@ vocang:fremitoso
     skos:prefLabel "Fremitoso"@it ;
     lexinfo:pronunciation "/fre • mi • tó • ṣo/"@it ;
     skos:definition "Un modo di comportarsi che risulta molto agitato a causa di un sentimento intenso."@it ;
-    skos:example "Oggi mi sento molto fremitoso, forse sono innamorato."@it ;
+    skos:example "Durante il concerto della mia band preferita, ho notato un ragazzo in prima fila che era visibilmente fremitoso. Si muoveva energicamente, agitando le braccia e saltellando senza sosta. Era chiaro che era completamente preso dalla musica e provava un'emozione intensa. Il suo comportamento fremitoso trasmetteva l'elettricità dell'atmosfera a tutto il pubblico, creando un'energia contagiosa. Era affascinante osservare come un sentimento così intenso potesse trasformarsi in un modo di comportarsi così vivace e coinvolgente."@it ;
     dct:creator vocang:filasetaAngelo .
 
 vocang:frisbidina
@@ -773,9 +785,10 @@ vocang:scorciatroia
 vocang:singhiozzutto
     a skos:Concept ;
     skos:prefLabel "Singhiozzutto"@it ;
-    lexinfo:pronunciation "/sin • gioz • zù • to/"@it ;
+    lexinfo:pronunciation "/sin • gioz • zùt • to/"@it ;
     skos:definition "Un rutto che esce mentre si ha anche un colpo di singhiozzo."@it ;
-    skos:example "Ieri Nicole ha fatto un singhiozzutto e non riuscivo a smettere di ridere."@it .
+    skos:example "Ieri Nicole ha fatto un singhiozzutto e non riuscivo a smettere di ridere."@it ;
+    dct:creator vocang:filasetaAngelo .
 
 vocang:sparatroia
     a skos:Concept ;
@@ -5541,4 +5554,70 @@ vocang:sborrattolo
     skos:definition "Contenitore destinato alla raccolta di un campione di liquido seminale."@it ;
     skos:example "Oggi ho consegnato uno sborrattolo a Nicola per raccogliere un campione necessario per la tesi di un amico."@it ;
     dct:created "2023-05-20" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:incampietrino
+    a skos:Concept ;
+    skos:prefLabel "Incampietrino"@it ;
+    lexinfo:pronunciation "/in • ciam • pie • trì • no/"@it ;
+    skos:definition "Sampietrino che presenta caratteristiche irregolari in termini di altezza, forma, dimensione e posizionamento, le quali possono causare inconvenienti agli utenti pedonali, come ad esempio inciampare."@it ;
+    skos:example "Durante la passeggiata serale, Anna è inciampata su un incampietrino lungo il marciapiede, il quale le ha causato una leggera contusione alla caviglia."@it ;
+    dct:created "2023-05-24" ;
+    skos:note "Questa è la prima parola inventata da Francesca che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
+    dct:creator vocang:rosatelliAnna, vocang:rinaldiFrancesca .
+
+vocang:barbottare
+    a skos:Concept ;
+    skos:prefLabel "Barbottare"@it ;
+    lexinfo:pronunciation "/bar • bot • tà • re/"@it ;
+    skos:definition "Borbottare sotto i baffi o la barba."@it ;
+    skos:example "Durante la riunione, il capo ha pronunciato una decisione che non era condivisa da tutti i dipendenti. Molti di loro hanno iniziato a barbottare in modo sommesso, esprimendo la loro insoddisfazione senza attirare troppa attenzione."@it ;
+    dct:created "2023-05-25" ;
+    skos:note "Questa è la prima parola inventata da Alessandra che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
+    dct:creator vocang:suscaAlessandra, vocang:suscaMatteo .
+
+vocang:dislessicare
+    a skos:Concept ;
+    skos:prefLabel "Dislessicare"@it ;
+    lexinfo:pronunciation "/dis • les • si • cà • re/"@it ;
+    skos:definition "Non essere in grado di pronunciare correttamente una o più parole."@it ;
+    skos:example "Uffa! Non riesco proprio a dire grongonz... gogronz... mi dislessico sempre!"@it ;
+    dct:created "2023-05-25" ;
+    dct:creator vocang:suscaAlessandra .
+
+vocang:abicoltura
+    a skos:Concept ;
+    skos:prefLabel "Abicoltura"@it ;
+    lexinfo:pronunciation "/a • bi • col • tù • ra/"@it ;
+    skos:definition "Coltivazione di alberi di abete di altissima qualità con l'obiettivo di ottenere splendidi esemplari utilizzabili come alberi di Natale."@it ;
+    skos:example "Con l'arrivo imminente del Natale, è giunto il momento di recarsi all'abicoltura per assicurarsi il più splendido abete del quartiere e suscitare l'invidia dei vicini con una decorazione natalizia mozzafiato."@it ;
+    dct:created "2023-05-26" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:chatGPT.
+
+vocang:rimpanza
+    a skos:Concept ;
+    skos:prefLabel "Rimpanza"@it ;
+    lexinfo:pronunciation "/rim • pàn • za/"@it ;
+    skos:definition "Effetto di rimbalzo o movimento ondulatorio che si manifesta nella regione addominale in seguito a un colpo ricevuto."@it ;
+    skos:example "Dopo essere stato colpito sulla pancia durante una partita di arti marziali, Giacomo ha sperimentato una rimpanza. Si è manifestato un movimento ondulatorio che ha causato un momentaneo malessere e una sensazione di instabilità nella zona colpita."@it ;
+    dct:created "2023-05-26" ;
+    dct:creator vocang:timpanoSam .
+
+vocang:intè
+    a skos:Concept ;
+    skos:prefLabel "Intè"@it ;
+    lexinfo:pronunciation "/in • tè/"@it ;
+    skos:definition "Tè realizzato utilizzando delle foglie velenose."@it ;
+    skos:example "Nell'antica Grecia, si narra che durante una cena filosofica, Socrate discusse della moralità e del percorso verso la saggezza. Durante la conversazione, uno dei partecipanti scherzosamente chiese se fosse possibile preparare un intè. Socrate, con la sua solita ironia, rispose: 'È un vero paradosso, poiché la vera saggezza consiste nel cercare la virtù e la cura del corpo e dell'anima, evitando tutto ciò che può recare danni'.".@it ;
+    dct:created "2023-05-26" ;
+    skos:related vocang:cappuccido ;
+    dct:creator vocang:orlandoNicola .
+
+vocang:profumolotov
+    a skos:Concept ;
+    skos:prefLabel "Profumolotov"@it ;
+    lexinfo:pronunciation "/pro • fu • mò • lo • tov, -tof/"@it ;
+    skos:definition "Una bomba incendiaria, conosciuta come 'molotov', composta da una bottiglia riempita di olio profumato altamente infiammabile."@it ;
+    skos:example "Durante una mattina di sole, Luis si recò in una panetteria per acquistare dei croissant appena sfornati. Nel frattempo, a pochi isolati di distanza, si stava svolgendo una manifestazione che non aveva affatto l'aria di essere pacifica. Improvvisamente, un forte rumore echeggiò in lontananza quando una bottiglia contenente olio profumato si ruppe, causando un forte odore e panico nella folla. Nonostante tutto, Luis continuò a gustarsi il  suo croissant in tutta tranquillità.".@it ;
+    dct:created "2023-05-27" ;
     dct:creator vocang:pertosaLorenzo .
