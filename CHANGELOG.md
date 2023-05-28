@@ -1,5 +1,30 @@
 # Changelog
 
+## [5.9.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v5.8.0...v5.9.0) (2023-05-28)
+
+
+### Features
+
+* **concept:** add abicoltura ([a93f692](https://github.com/Vocabolangelo/vocabolangelo-site/commit/a93f69272d8d2303ea7d398cc6c52381f09d4d73))
+* **concept:** add barbottare ([3ff7d96](https://github.com/Vocabolangelo/vocabolangelo-site/commit/3ff7d96f1ecb7b35768812fad206dac50903ce27))
+* **concept:** add dislessicare ([cf4e977](https://github.com/Vocabolangelo/vocabolangelo-site/commit/cf4e977616b8d1cd318f431c8d0d5af7fb990a55))
+* **concept:** add incampietrino ([3525e98](https://github.com/Vocabolangelo/vocabolangelo-site/commit/3525e98d16026c1b6ba0c270660fa1dccc029d75))
+* **concept:** add intè ([d3dafc6](https://github.com/Vocabolangelo/vocabolangelo-site/commit/d3dafc60087949fee795fe31e164f9d76863b8cb))
+* **concept:** add profumolotov ([dfe7c97](https://github.com/Vocabolangelo/vocabolangelo-site/commit/dfe7c97229b0fb60c314d4a71054d5a9b3c9878d))
+* **concept:** add rimpanza ([15c90a1](https://github.com/Vocabolangelo/vocabolangelo-site/commit/15c90a17c941ec2024577c5199b6449387eccff3))
+* **person:** add rinaldiFrancesca ([2ae788e](https://github.com/Vocabolangelo/vocabolangelo-site/commit/2ae788ee474b04afb86c73923cdd39e154ae02a9))
+* **person:** add suscaAlessandra ([44abecb](https://github.com/Vocabolangelo/vocabolangelo-site/commit/44abecb87459a51f9be5e9d23fdaa717d8553d4b))
+
+
+### Bug Fixes
+
+* **creator:** add singhiozzutto author ([1b58452](https://github.com/Vocabolangelo/vocabolangelo-site/commit/1b5845271bad5dfa3379af41ca9d583788d961f3))
+* **example:** correct caffemilla ([3c8141c](https://github.com/Vocabolangelo/vocabolangelo-site/commit/3c8141c76ea1af601373aca8fda9cb29ea210930))
+* **example:** correct complinsulto example ([7b91cb0](https://github.com/Vocabolangelo/vocabolangelo-site/commit/7b91cb0eb6144b0f262a835849e2b1904ae6c74a))
+* **pronunciation:** singiozzutto missing letter ([d0078bd](https://github.com/Vocabolangelo/vocabolangelo-site/commit/d0078bd95e53182e3b06b7954c9d64e99e2e9135))
+* **vocabolangelo:** typo ([c66d9d5](https://github.com/Vocabolangelo/vocabolangelo-site/commit/c66d9d58f29fe746868f5b1fe787239400bf3588))
+* **vocabolangelo:** typo ([d2c30a3](https://github.com/Vocabolangelo/vocabolangelo-site/commit/d2c30a39bf2b01440785ebe1af8da25bae69eb48))
+
 ## [5.8.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v5.7.0...v5.8.0) (2023-05-23)
 
 
