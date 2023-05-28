@@ -562,7 +562,7 @@ vocang:canillo
     skos:prefLabel "Canillo"@it ;
     lexinfo:pronunciation "/ca • nìl • lo/"@it ;
     skos:definition "Un cane che è stato addestrato per svolgere delle gare di corsa."@it ;
-    skos:example "Il mio canillo è il più veloce del mondo."@it ;
+    skos:example "Stavo assistendo a una gara di corsa davvero straordinaria l'altro giorno. Era un evento unico chiamato 'Canillo Run' in cui i partecipanti erano tutti cani addestrati per correre. Era incredibile vedere quei cani scattare via dalla linea di partenza come veri atleti professionisti! C'erano cani di tutte le razze, ognuno con il suo stile di corsa unico. Alcuni saltellavano come coniglietti, altri si muovevano in modo elegante e aggraziato come gazzelle. Ma il mio preferito era un dolce bassotto di nome Max, con le sue piccole zampe che si muovevano così velocemente da sembrare quasi che stesse pattinando sul terreno! Alla fine, il vincitore della gara è stato un magnifico canillo agilissimo chiamato Zeus, che ha attraversato il traguardo con una velocità impressionante. Devo dire che il 'Canillo Run' è stato l'evento più divertente e adorabile che abbia mai visto!"@it ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/canillo.jpg" ;
     skos:related vocang:canillodromo ;
     dct:creator vocang:filasetaAngelo .
