@@ -490,16 +490,14 @@ vocang:allefanza
     lexinfo:pronunciation "/al • le • fàn • za/"@it ;
     skos:definition "Rapporto di alleanza non del tutto bidirezionale."@it ;
     skos:example "Nel regno dei pinguini, c'era rapporto di allefanza tra Polo, il pinguino coraggioso, e Baffo, il pinguino pigro. Mentre Polo era sempre pronto ad aiutare Baffo nelle sue avventure, l'alleanza non era del tutto bidirezionale. Quando si trattava di cercare il cibo, Polo faceva tutto il lavoro mentre Baffo approfittava dei frutti del suo sforzo senza dare il minimo contributo. Tuttavia, quando si trattava di intrattenimento e divertimento, Baffo si offriva sempre come compagno di gioco per Polo. Quindi, anche se il rapporto tra Polo e Baffo non era completamente equilibrato, l'allefanza portava comunque sorrisi e avventure uniche nel regno dei pinguini."@it ;
-	skos:related vocang:fanz;
     dct:creator vocang:adantiMatteo, vocang:pescaraGianluca .
 
 vocang:fanz
 	a skos:Concept ;
 	skos:prefLabel "Fanz"@it ;
-    lexinfo:pronunciation "/fànz/"@it ;
 	skos:definition "Un fan estremamente entusiasta di esserlo."@it ;
-	skos:example "Io sono un tuo fanz!"@it ;
-	skos:related vocang:allefanza .
+	skos:example "Carlotta era un fanz della band musicale 'I Lemingo Cosmici'. Era così entusiasta del gruppo che aveva creato un santuario dedicato a loro nella sua camera, tappezzato di poster, biglietti dei concerti e oggetti da collezione. Ogni volta che ascoltava una loro canzone, Carlotta iniziava a ballare in modo scatenato, facendo dei passi acrobatici e cantando a squarciagola. Il suo entusiasmo era così contagioso che i suoi amici la chiamavano affettuosamente 'Carlotta la fanz', perché sembrava letteralmente volare di gioia ogni volta che si parlava dei Lemingo Cosmici. Nessuno poteva competere con il suo livello di entusiasmo da fan!"@it ;
+    dct:creator vocang:bragariAlexandru .
 
 vocang:bregge
     a skos:Concept ;
