@@ -441,11 +441,9 @@ vocang:angelario
     a skos:Concept ;
     skos:prefLabel "Angelario"@it ;
     lexinfo:pronunciation "/àn • ge • la • rio/"@it ;
-    skos:altLabel "Vocabolangelo"@it ;
-    skos:altLabel "Dizionangelo"@it ;
-    skos:definition "Un altro modo di definire il Vocabolangelo."@it ;
+    skos:definition "Il primo, e deprecato, termini utilizzato per riferirsi al Vocabolangelo."@it ;
     skos:note "Angelario è stato il primo nome del Vocabolangelo." ;
-    skos:example "L'angelario e il vocabolangelo sono la stessa cosa."@it ;
+    skos:example "Originariamente, il termine 'angelario' fu il primo, e successivamente deprecato, termine utilizzato per riferirsi al Vocabolangelo. Era un modo meno comune per indicare il documento strutturato contenente le parole inventate dalle persone comuni. Tuttavia, col passare del tempo, la parola 'angelario' cadde in disuso e fu gradualmente sostituita con il più diffuso termine 'Vocabolangelo', che divenne ampiamente accettato per definire quella raccolta di neologismi."@it ;
     skos:related vocang:vocabolangelo ;
     dct:creator vocang:filasetaAngelo .
 
