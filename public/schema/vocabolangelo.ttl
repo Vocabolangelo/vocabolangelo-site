@@ -546,7 +546,7 @@ vocang:brovedì
     skos:prefLabel "Brovedì"@it ;
     lexinfo:pronunciation "/bro • ve • dì/"@it ;
     skos:definition "Il nome di un giorno della settimana aggiuntivo. Brovedì può essere utilizzato per rendere variabile il numero di giorni in una settimana. Brovedì può esserci o non esserci. Le regole di quando come e dove piazzare Brovedì non sono formalizzate."@it ;
-    skos:example "Vorrei tanto esistesse il brovedì, ci sarebbe molto più tempo!"@it ;
+    skos:example "Vorrei tanto esistesse il brovedì, la società riuscirebbe ad organizzarsi meglio!"@it ;
     dct:creator vocang:bragariAlexandru .
 
 vocang:tretro
