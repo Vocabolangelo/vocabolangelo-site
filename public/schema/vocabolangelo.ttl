@@ -589,7 +589,7 @@ vocang:angelata
     skos:prefLabel "Angelata"@it ;
     lexinfo:pronunciation "/an • ge • là • ta/"@it ;
     skos:definition "Un'azione stupida che porta quasi sicuramente a brutte conseguenze e che viene compiuta solo per divertimento."@it ;
-    skos:example "Scavalcare quel muro sarebbe proprio un'angelata."@it ;
+    skos:example "Mi sono trovato coinvolto in un'avventura rischiosa l'altro giorno quando alcuni amici mi hanno sfidato a fare un'angelata. Cos'è un'angelata? Beh, è un'azione assolutamente stupida che si fa solo per divertimento, anche se si sa che comporterà brutte conseguenze. Nel nostro caso, l'angelata consisteva nel cercare di saltare su un trampolino improvvisato e atterrare su un materasso posto su un laghetto! Nonostante sapessimo che poteva finire male, la voglia di avventura e l'adrenalina hanno preso il sopravvento. Quindi, con cuore in gola, ho preso la rincorsa e ho saltato. Il risultato? Sono finito nel laghetto con uno schianto bagnato e ho scoperto che il materasso galleggiante si era sgonfiato! Tutti gli spettatori si sono messi a ridere, compresi i miei amici, mentre io cercavo di liberarmi dall'acqua. Sì, è stata decisamente un'angelata, ma almeno ci siamo divertiti e ne abbiamo fatto una storia da raccontare. Tuttavia, mi prometto di pensare due volte prima di cacciarmi in un'altra angelata simile!"@it ;
     dct:creator vocang:pertosaLorenzo .
 
 vocang:avvoltinoso
