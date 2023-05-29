@@ -1,28 +1,29 @@
-import {Person} from '../../../../rdf/types/Person'
+import {Vocaboliere} from '../../../../rdf/types/Vocaboliere'
 import {vocang} from '../../../../rdf/prefixes'
-import {Concept} from '../../../../rdf/types/Concept'
+import {Parolangelo} from '../../../../rdf/types/Parolangelo'
 import {useEffect, useState} from 'react'
 import {decimalFormat} from '../../../../util/decimalFormat'
 import PersonProps from '../../../props/PersonProps'
 import {Link} from 'react-router-dom'
 import {VOCABOLIERI_ROUTE} from '../../vocabolieri/Vocabolieri'
 import {RDFNamedNode} from '../../../../rdf/RDFNamedNode'
+import {RDFStore} from '../../../../rdf/RDFStore'
 
 export default function LeaderBoard() {
     function absoluteComparator(a:RDFNamedNode, b:RDFNamedNode) {
         return absoluteContribution(
-            new Person(b.node).creatorOf()()) - absoluteContribution(new Person(a.node).creatorOf()()
+            new Vocaboliere(b.node).creatorOf()()) - absoluteContribution(new Vocaboliere(a.node).creatorOf()()
         )
     }
 
-    const [concepts, setConcepts] = useState<Concept[]>([])
-    const [people, setPeople] = useState<Person[]>([])
+    const [concepts, setConcepts] = useState<Parolangelo[]>([])
+    const [people, setPeople] = useState<Vocaboliere[]>([])
 
     useEffect(() => {
-        Concept.all().then(concepts =>
+        Parolangelo.all().then(concepts =>
             setConcepts(concepts)
         )
-        Person.all().then(people => {
+        Vocaboliere.all().then(people => {
             setPeople(people)
         })
     }, [])
@@ -35,7 +36,9 @@ export default function LeaderBoard() {
         return c.length
     }
     function relativeContribution(c: RDFNamedNode[]) {
-        return c.map(c => 1 / new Concept(c.node).personCreators().length).reduce( (x,y) => x+y, 0)
+        return c.map(c => 1 / new Parolangelo(c.node).creators((node) =>
+            (RDFStore.store.any(node, undefined, vocang.namespace('Vocaboliere')) !== null)
+        ).length).reduce( (x,y) => x+y, 0)
     }
 
     function LeaderBoardEntry(props: PersonProps){

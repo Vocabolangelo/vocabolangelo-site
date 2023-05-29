@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom'
-import {PAROLANGELO_ROUTE} from '../../parolangelo/Parolangelo'
+import {PAROLANGELO_ROUTE} from '../../parolangelo/ParolangeloList'
 import Banner from '../../../common/story/Banner'
 
 export default function AngelochiBanner() {

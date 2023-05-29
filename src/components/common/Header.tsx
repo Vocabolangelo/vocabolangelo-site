@@ -2,7 +2,7 @@ import {Link} from 'react-router-dom'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import { faBook, faFeather, faPhotoFilm } from '@fortawesome/free-solid-svg-icons'
 import {VOCABOLIERI_ROUTE} from '../routes/vocabolieri/Vocabolieri'
-import {PAROLANGELO_ROUTE} from '../routes/parolangelo/Parolangelo'
+import {PAROLANGELO_ROUTE} from '../routes/parolangelo/ParolangeloList'
 import {CONTENUTI_ROUTE} from '../routes/contenuti/ContenutiIndex'
 
 export default function Header() {

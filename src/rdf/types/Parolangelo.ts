@@ -2,7 +2,7 @@ import {RDFNamedNode} from '../RDFNamedNode'
 import {NamedNode} from 'rdflib'
 import {Quad_Subject} from 'rdflib/lib/tf-types'
 import {RDFStore} from '../RDFStore'
-import {dct, foaf, lexinfo, schema, scot, skos} from '../prefixes'
+import {dct, lexinfo, schema, scot, skos, vocang} from '../prefixes'
 import '../extensions/storeExtensions'
 import {requireNotNull} from '../../util/requireNotNull'
 import {RDFTriple} from '../RDFTriple'
@@ -10,7 +10,7 @@ import {RDFTriple} from '../RDFTriple'
 /**
  * Class representing a http://www.w3.org/2004/02/skos/core#Concept.
  */
-export class Concept extends RDFNamedNode {
+export class Parolangelo extends RDFNamedNode {
     /**
      * Mapping of http://www.w3.org/2004/02/skos/core#prefLabel.
      */
@@ -89,13 +89,12 @@ export class Concept extends RDFNamedNode {
         return this._examples
     }
 
-    public get personCreators(): () => RDFNamedNode[] {
+    public creators(filterFunction: (node:NamedNode) => boolean): () => RDFNamedNode[] {
         const subj = this.node
         return function() : RDFNamedNode[] {
             return RDFStore.store.CollectEach(
                 new RDFTriple(subj, dct.namespace('creator'), undefined),
-                (node) =>
-                    (RDFStore.store.any(node, undefined, foaf.namespace('Person')) !== null),
+                (node) => filterFunction(node),
                 (node) => new RDFNamedNode(node)
             )
         }
@@ -109,22 +108,22 @@ export class Concept extends RDFNamedNode {
         return this._videos
     }
 
-    public get synonyms(): () => Concept[] {
+    public get synonyms(): () => Parolangelo[] {
         const subj = this.node
-        return function() : Concept[] {
+        return function() : Parolangelo[] {
             return RDFStore.store.MapEach(
                 new RDFTriple(subj, scot.namespace('synonym'), undefined),
-                (node) => new Concept(node)
+                (node) => new Parolangelo(node)
             )
         }
     }
 
-    public get related(): () => Concept[] {
+    public get related(): () => Parolangelo[] {
         const subj = this.node
-        return function() : Concept[] {
+        return function() : Parolangelo[] {
             return RDFStore.store.MapEach(
                 new RDFTriple(subj, skos.namespace('related'), undefined),
-                (node) => new Concept(node)
+                (node) => new Parolangelo(node)
             )
         }
     }
@@ -137,9 +136,9 @@ export class Concept extends RDFNamedNode {
         return this._notes
     }
 
-    public static async all(): Promise<Concept[]>{
-        const nodes = await RDFNamedNode.ofType(skos.namespace('Concept'))
-        return nodes.map((node) => new Concept(node.node))
+    public static async all(): Promise<Parolangelo[]>{
+        const nodes = await RDFNamedNode.ofType(vocang.namespace('Parolangelo'))
+        return nodes.map((node) => new Parolangelo(node.node))
     }
 
 }

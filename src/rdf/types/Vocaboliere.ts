@@ -1,14 +1,14 @@
 import {RDFNamedNode} from '../RDFNamedNode'
 import {NamedNode} from 'rdflib'
-import {dct, foaf, org, rel, schema} from '../prefixes'
+import {dct, foaf, org, rel, schema, vocang} from '../prefixes'
 import {RDFStore} from '../RDFStore'
 import {requireNotNull} from '../../util/requireNotNull'
 import {RDFTriple} from '../RDFTriple'
 
 /**
- * Class representing a http://xmlns.com/foaf/0.1/Person.
+ * Class representing a Vocaboliere .
  */
-export class Person extends RDFNamedNode {
+export class Vocaboliere extends RDFNamedNode {
     /**
      * Mapping of http://xmlns.com/foaf/0.1/firstName.
      */
@@ -85,22 +85,22 @@ export class Person extends RDFNamedNode {
         return this._images
     }
 
-    public get friends(): () => Person[] {
+    public get friends(): () => Vocaboliere[] {
         const subj = this.node
-        return function (): Person[]{
+        return function (): Vocaboliere[]{
             return RDFStore.store.MapEach(
                 new RDFTriple(subj, rel.namespace('friendOf'), undefined),
-                (node) => new Person(node)
+                (node) => new Vocaboliere(node)
             )
         }
     }
 
-    public get partners(): () => Person[] {
+    public get partners(): () => Vocaboliere[] {
         const subj = this.node
-        return function (): Person[] {
+        return function (): Vocaboliere[] {
             return RDFStore.store.MapEach(
                 new RDFTriple(subj, rel.namespace('spouseOf'), undefined),
-                (node) => new Person(node)
+                (node) => new Vocaboliere(node)
             )
         }
     }
@@ -128,9 +128,9 @@ export class Person extends RDFNamedNode {
         }
     }
 
-    public static async all(): Promise<Person[]>{
-        const nodes = await RDFNamedNode.ofType(foaf.namespace('Person'))
-        return nodes.map((node) => new Person(node.node))
+    public static async all(): Promise<Vocaboliere[]>{
+        const nodes = await RDFNamedNode.ofType(vocang.namespace('Vocaboliere'))
+        return nodes.map((node) => new Vocaboliere(node.node))
     }
 
 }

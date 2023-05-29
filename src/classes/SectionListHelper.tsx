@@ -1,6 +1,6 @@
 import AlphabetUtility from '../util/alphabet'
-import {Concept} from '../rdf/types/Concept'
-import {Person} from '../rdf/types/Person'
+import {Parolangelo} from '../rdf/types/Parolangelo'
+import {Vocaboliere} from '../rdf/types/Vocaboliere'
 import {DateUtility} from '../util/DateUtility'
 
 interface SectionListHelper<T, S> {
@@ -30,9 +30,9 @@ interface SectionListHelper<T, S> {
     compareFn(a: S, b: S): number
 }
 
-export class AlphabeticConceptSectionListHelper implements SectionListHelper<string, Concept>{
+export class AlphabeticConceptSectionListHelper implements SectionListHelper<string, Parolangelo>{
 
-    list(elements: Concept[]): string[] {
+    list(elements: Parolangelo[]): string[] {
         return AlphabetUtility.alphabet().filter((letter) =>
             elements.find((c) => AlphabetUtility.startsWith(c.prefLabel, letter)) !== undefined
         )
@@ -42,22 +42,22 @@ export class AlphabeticConceptSectionListHelper implements SectionListHelper<str
         return element.toUpperCase()
     }
 
-    sublist(list: Concept[], element: string): Concept[] {
+    sublist(list: Parolangelo[], element: string): Parolangelo[] {
         return list.filter(
             (c) => AlphabetUtility.startsWith(c.prefLabel, element)
         )
     }
 
-    compareFn(a: Concept, b: Concept): number {
+    compareFn(a: Parolangelo, b: Parolangelo): number {
         return a.prefLabel.localeCompare(b.prefLabel)
     }
 }
 
-export class RecentConceptSectionListHelper implements SectionListHelper<string, Concept> {
+export class RecentConceptSectionListHelper implements SectionListHelper<string, Parolangelo> {
 
     INVALID_DATE = '1970-01-01'
 
-    list(elements: Concept[]): string[] {
+    list(elements: Parolangelo[]): string[] {
         return Array.from(
             new Set(elements.map((e) => e.created !== null ? e.created : this.INVALID_DATE))
         ).sort((a, b) => DateUtility.compareFnString(a, b))
@@ -70,13 +70,13 @@ export class RecentConceptSectionListHelper implements SectionListHelper<string,
         return DateUtility.toDateString(new Date(element))
     }
 
-    sublist(list: Concept[], element: string): Concept[] {
+    sublist(list: Parolangelo[], element: string): Parolangelo[] {
         return list.filter(
             (c) => c.created === element || (c.created === null && element === this.INVALID_DATE)
         )
     }
 
-    compareFn(a: Concept, b: Concept): number {
+    compareFn(a: Parolangelo, b: Parolangelo): number {
         if (!a.created && !b.created) {
             return 0
         }
@@ -90,9 +90,9 @@ export class RecentConceptSectionListHelper implements SectionListHelper<string,
     }
 }
 
-export class AlphabeticPersonSectionListHelper implements SectionListHelper<string, Person>{
+export class AlphabeticPersonSectionListHelper implements SectionListHelper<string, Vocaboliere>{
 
-    list(elements: Person[]): string[] {
+    list(elements: Vocaboliere[]): string[] {
         return AlphabetUtility.alphabet().filter((letter) =>
             elements.find((p) => AlphabetUtility.startsWith(p.lastName, letter)) !== undefined
         )
@@ -102,38 +102,38 @@ export class AlphabeticPersonSectionListHelper implements SectionListHelper<stri
         return element.toUpperCase()
     }
 
-    sublist(list: Person[], element: string): Person[] {
+    sublist(list: Vocaboliere[], element: string): Vocaboliere[] {
         return list.filter(
             (p) => AlphabetUtility.startsWith(p.lastName, element)
         )
     }
 
-    compareFn(a: Person, b: Person): number {
+    compareFn(a: Vocaboliere, b: Vocaboliere): number {
         return a.lastName.toLowerCase().localeCompare(b.lastName.toLowerCase())
     }
 }
 
-export class GenderPersonSectionListHelper implements SectionListHelper<string, Person>{
+export class GenderPersonSectionListHelper implements SectionListHelper<string, Vocaboliere>{
 
     possibleGenders = ['male', 'female', 'non-binary']
 
-    list(elements: Person[]): string[] {
+    list(elements: Vocaboliere[]): string[] {
         return this.possibleGenders.filter((gender) =>
             elements.find((p) => p.gender === gender)
         )
     }
 
     title(element: string): string {
-        return Person.genderString(element)
+        return Vocaboliere.genderString(element)
     }
 
-    sublist(list: Person[], element: string): Person[] {
+    sublist(list: Vocaboliere[], element: string): Vocaboliere[] {
         return list.filter(
             (p) => p.gender === element
         )
     }
 
-    compareFn(a: Person, b: Person): number {
+    compareFn(a: Vocaboliere, b: Vocaboliere): number {
         return this.possibleGenders.indexOf(a.gender) - this.possibleGenders.indexOf(b.gender)
     }
 }

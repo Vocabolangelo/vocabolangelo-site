@@ -1,5 +1,5 @@
-import {Person} from '../../rdf/types/Person'
+import {Vocaboliere} from '../../rdf/types/Vocaboliere'
 
 export default interface PersonProps {
-    person: Person
+    person: Vocaboliere
 }

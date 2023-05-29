@@ -1,7 +1,7 @@
 import {useEffect, useState} from 'react'
-import {Person} from '../../../../rdf/types/Person'
+import {Vocaboliere} from '../../../../rdf/types/Vocaboliere'
 import {Link} from 'react-router-dom'
-import {PAROLANGELO_ROUTE} from '../../parolangelo/Parolangelo'
+import {PAROLANGELO_ROUTE} from '../../parolangelo/ParolangeloList'
 import Spotlight from '../../../common/story/Spotlight'
 import {Organization, Organizations} from '../../../../rdf/types/Organization'
 
@@ -15,7 +15,7 @@ export default function CreatorCountSpotlight() {
     const [otherGendersCount, setOtherGendersCount] = useState(0)
 
     useEffect(() => {
-        Person.all().then(creators => {
+        Vocaboliere.all().then(creators => {
             setVocaboladminCount(creators.filter(
                 c => c.memberOf()().find(
                     o => new Organization(o.node).toEnum() === Organizations.VOCABOLADMIN)

@@ -1,25 +1,25 @@
 import React, {useEffect, useState} from 'react'
 import {NamedSection} from '../../common/NamedSection'
 import {Link, useParams} from 'react-router-dom'
-import {Concept} from '../../../rdf/types/Concept'
+import {Parolangelo} from '../../../rdf/types/Parolangelo'
 import {RDFStore} from '../../../rdf/RDFStore'
 import {vocang} from '../../../rdf/prefixes'
 import Wrapper from '../../common/story/Wrapper'
 import {List} from '../../common/List'
-import {Person} from '../../../rdf/types/Person'
+import {Vocaboliere} from '../../../rdf/types/Vocaboliere'
 import ConditionalComponent from '../../common/conditional/ConditionalComponent'
 import InnerWrapper from '../../common/story/InnerWrapper'
 import {DateUtility} from '../../../util/DateUtility'
 
-export function ConceptLayout() {
+export function ParolangeloLayout() {
 
     const [concept, setConcept] =
-        useState<Concept | undefined>(undefined)
+        useState<Parolangelo | undefined>(undefined)
     const params = useParams()
 
     useEffect(() => {
         RDFStore.safeCall(store => {
-            return new Concept(store.sym(vocang.uri + params.conceptId))
+            return new Parolangelo(store.sym(vocang.uri + params.conceptId))
         }).then(concept =>
             setConcept(concept)
         )
@@ -51,7 +51,7 @@ export function ConceptLayout() {
 }
 
 interface ConceptSubLayoutProps {
-    concept: Concept
+    concept: Parolangelo
 }
 
 function Definitions(props: ConceptSubLayoutProps){
@@ -76,11 +76,15 @@ function Examples(props: ConceptSubLayoutProps){
     </ConditionalComponent>
 }
 function Creators(props: ConceptSubLayoutProps){
-    const creatorId = (creator: Person) => creator.node.RelativeUri(vocang)
+    const creatorId = (creator: Vocaboliere) => creator.node.RelativeUri(vocang)
     return <NamedSection title={'Vocabolieri'}>
         <List
             isOrdered={false}
-            list={props.concept.personCreators().map((node) => new Person(node.node))}
+            list={
+                props.concept.creators((node) =>
+                    (RDFStore.store.any(node, undefined, vocang.namespace('Vocaboliere')) !== null)
+                )().map((node) => new Vocaboliere(node.node))
+            }
             elementContent={creator =>
                 <Link to={`/vocabolieri/${creatorId(creator)}`}>
                     <p>{creator.firstName} {creator.lastName}</p>
@@ -140,10 +144,10 @@ function Created(props: ConceptSubLayoutProps){
 interface OtherConceptProps {
     title: string
     condition: () => boolean
-    list: Concept[]
+    list: Parolangelo[]
 }
 function OtherConcept(props: OtherConceptProps){
-    const conceptId = (concept: Concept) => concept.node.RelativeUri(vocang)
+    const conceptId = (concept: Parolangelo) => concept.node.RelativeUri(vocang)
     return <ConditionalComponent condition={props.condition}>
         <NamedSection title={props.title}>
             <List

@@ -111,7 +111,7 @@
 * **concept:** add sottodomio ([cf2a9a3](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/cf2a9a3b9d5833d2329908c9088e09ef30d54b36))
 * **person:** add genders ([634e9d6](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/634e9d6e730ecfe18542ad85ca5e342e741c2fde))
 * **person:** add non-binary gender ([c698a17](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/c698a17aca5393111d48cea4f6dba16c29c2bb3c))
-* **site:** add gender method to Person class ([c80f616](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/c80f6166cfb8028c34c91901e82d4f4bec937d43))
+* **site:** add gender method to Vocaboliere class ([c80f616](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/c80f6166cfb8028c34c91901e82d4f4bec937d43))
 * **site:** add gender section to Vocaboliere page ([7190c75](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/7190c75a5111f43b5ca7b8e7004829d948e1fd37))
 * **site:** add gender statistic to dashboard ([59244ea](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/59244ea8e9c80a5e3ad1ee940ce1edf7f5cae89a))
 * **site:** add SectionList helpers ([580895c](https://github.com/Vocabolangelo/vocabolangelo-rdf/commit/580895cbd1dfaa74e0dbc1c7c1588301564331ea))

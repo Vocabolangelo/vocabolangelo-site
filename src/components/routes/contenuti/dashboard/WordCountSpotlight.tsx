@@ -1,17 +1,23 @@
 import {useEffect, useState} from 'react'
-import {Concept} from '../../../../rdf/types/Concept'
-import {PAROLANGELO_ROUTE} from '../../parolangelo/Parolangelo'
+import {Parolangelo} from '../../../../rdf/types/Parolangelo'
+import {PAROLANGELO_ROUTE} from '../../parolangelo/ParolangeloList'
 import {Link} from 'react-router-dom'
 import Spotlight from '../../../common/story/Spotlight'
+import {RDFStore} from '../../../../rdf/RDFStore'
+import {vocang} from '../../../../rdf/prefixes'
 
 export default function WordCountSpotlight() {
     const [wordCount, setWordCount] = useState(0)
     const [soloWordCount, setSoloWordCount] = useState(0)
 
     useEffect(() => {
-        Concept.all().then(concepts => {
+        Parolangelo.all().then(concepts => {
             setWordCount(concepts.length)
-            setSoloWordCount(concepts.filter(c => c.personCreators().length === 1).length)
+            setSoloWordCount(concepts.filter(c =>
+                c.creators(node =>
+                    (RDFStore.store.any(node, undefined, vocang.namespace('Vocaboliere')) !== null)
+                )().length === 1
+            ).length)
         })
     }, [])
 

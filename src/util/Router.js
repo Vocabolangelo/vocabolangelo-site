@@ -1,7 +1,7 @@
 import {createBrowserRouter} from 'react-router-dom'
 import RootIndex from '../components/routes/root/RootIndex'
-import Parolangelo, {PAROLANGELO_ROUTE} from '../components/routes/parolangelo/Parolangelo'
-import {ConceptLayout} from '../components/routes/parolangelo/ConceptLayout'
+import ParolangeloList, {PAROLANGELO_ROUTE} from '../components/routes/parolangelo/ParolangeloList'
+import {ParolangeloLayout} from '../components/routes/parolangelo/ParolangeloLayout'
 import React from 'react'
 import Vocabolieri, {VOCABOLIERI_ROUTE} from '../components/routes/vocabolieri/Vocabolieri'
 import {PersonLayout} from '../components/routes/vocabolieri/PersonLayout'
@@ -22,11 +22,11 @@ export const defaultRouter = createBrowserRouter([
     },
     {
         path: PAROLANGELO_ROUTE,
-        element: <Parolangelo/>,
+        element: <ParolangeloList/>,
     },
     {
         path: `${PAROLANGELO_ROUTE}/:conceptId`,
-        element: <ConceptLayout />
+        element: <ParolangeloLayout />
     },
     {
         path: VOCABOLIERI_ROUTE,

@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react'
-import {Person} from '../../../rdf/types/Person'
+import {Vocaboliere} from '../../../rdf/types/Vocaboliere'
 import {vocang} from '../../../rdf/prefixes'
 import Wrapper from '../../common/story/Wrapper'
 import SearchBar from '../../common/SearchBar'
@@ -14,14 +14,14 @@ export const VOCABOLIERI_ROUTE = '/vocabolieri'
 
 export default function Vocabolieri(){
 
-    const noPeople: Person[] = []
+    const noPeople: Vocaboliere[] = []
     const [helper, setHelper] = useState(new AlphabeticPersonSectionListHelper())
     const [people, setPeople] = useState(noPeople)
     const [visiblePeople, setVisiblePeople] = useState(noPeople)
     const [searchValue, setSearchValue]= useState<string>('')
 
     useEffect(() => {
-        Person.all().then((people) => {
+        Vocaboliere.all().then((people) => {
             setPeople(people.sort((a, b) => helper.compareFn(a, b)))
         })}, [])
 
@@ -33,7 +33,7 @@ export default function Vocabolieri(){
         setPeople(people.sort((a, b) => helper.compareFn(a, b)))
     }, [helper])
 
-    function searchFilterStrategy(person: Person, str: string): boolean {
+    function searchFilterStrategy(person: Vocaboliere, str: string): boolean {
         return person.fullName().toLowerCase().includes(str.toLowerCase())
     }
 
@@ -65,7 +65,7 @@ export default function Vocabolieri(){
                     list={helper.list(visiblePeople)}
                     sectionTitle={(element) => helper.title(element)}
                     sublist={(element) => helper.sublist(visiblePeople, element)}
-                    content={(p: Person) =>
+                    content={(p: Vocaboliere) =>
                         <Link to={`${VOCABOLIERI_ROUTE}/${p.relativeUri(vocang)}`}>
                             <p> {p.fullName(true)} </p>
                         </Link>}

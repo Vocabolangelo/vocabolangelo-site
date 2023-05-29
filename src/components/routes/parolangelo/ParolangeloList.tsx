@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react'
-import {Concept} from '../../../rdf/types/Concept'
+import {Parolangelo} from '../../../rdf/types/Parolangelo'
 import {vocang} from '../../../rdf/prefixes'
 import '../../../rdf/extensions/namedNodeExtensions'
 import Wrapper from '../../common/story/Wrapper'
@@ -13,15 +13,15 @@ import {faCalendarDays, faArrowDownAZ} from '@fortawesome/free-solid-svg-icons'
 
 export const PAROLANGELO_ROUTE = '/parolangelo'
 
-export default function Parolangelo() {
+export default function ParolangeloList() {
 
-    const [concepts, setConcepts] = useState<Concept[]>([])
-    const [visibleConcepts, setVisibleConcepts] = useState<Concept[]>([])
+    const [concepts, setConcepts] = useState<Parolangelo[]>([])
+    const [visibleConcepts, setVisibleConcepts] = useState<Parolangelo[]>([])
     const [helper, setHelper] = useState(new AlphabeticConceptSectionListHelper())
     const [searchValue, setSearchValue]= useState<string>('')
 
     useEffect(() => {
-        Concept.all().then(nodes => {
+        Parolangelo.all().then(nodes => {
             setConcepts(nodes.sort((a, b) => helper.compareFn(a,b)))
         })
     }, [])
@@ -34,7 +34,7 @@ export default function Parolangelo() {
         setConcepts(concepts.sort((a, b) => helper.compareFn(a,b)))
     },[helper])
 
-    function searchFilterStrategy(concept: Concept, str: string): boolean {
+    function searchFilterStrategy(concept: Parolangelo, str: string): boolean {
         if(str.length > 1) {
             return concept.prefLabel.toLowerCase().includes(str.toLowerCase()) ||
                 concept.definitions.find(d => d.toLowerCase().includes(str.toLowerCase())) !== undefined
@@ -73,7 +73,7 @@ export default function Parolangelo() {
                     list={helper.list(visibleConcepts)}
                     sectionTitle={(element) => helper.title(element)}
                     sublist={(element) => helper.sublist(visibleConcepts, element) }
-                    content={(c: Concept) =>
+                    content={(c: Parolangelo) =>
                         <Link to={`${PAROLANGELO_ROUTE}/${c.relativeUri(vocang)}`}>
                             <p> {c.prefLabel} </p>
                         </Link>

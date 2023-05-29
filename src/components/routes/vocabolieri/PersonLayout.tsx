@@ -3,25 +3,25 @@ import {Link, useParams} from 'react-router-dom'
 import {RDFStore} from '../../../rdf/RDFStore'
 import {vocang} from '../../../rdf/prefixes'
 import Wrapper from '../../common/story/Wrapper'
-import {Person} from '../../../rdf/types/Person'
+import {Vocaboliere} from '../../../rdf/types/Vocaboliere'
 import ConditionalComponent from '../../common/conditional/ConditionalComponent'
 import {NamedSection} from '../../common/NamedSection'
 import {List} from '../../common/List'
-import {PAROLANGELO_ROUTE} from '../parolangelo/Parolangelo'
+import {PAROLANGELO_ROUTE} from '../parolangelo/ParolangeloList'
 import {VOCABOLIERI_ROUTE} from './Vocabolieri'
 import InnerWrapper from '../../common/story/InnerWrapper'
-import {Concept} from '../../../rdf/types/Concept'
+import {Parolangelo} from '../../../rdf/types/Parolangelo'
 import {Organization} from '../../../rdf/types/Organization'
 
 export function PersonLayout() {
 
     const [person, setPerson] =
-        useState<Person | undefined>(undefined)
+        useState<Vocaboliere | undefined>(undefined)
     const params = useParams()
 
     useEffect(() => {
         RDFStore.safeCall(store => {
-            return new Person(store.sym(vocang.uri + params.personId))
+            return new Vocaboliere(store.sym(vocang.uri + params.personId))
         }).then(person =>
             setPerson(person)
         )
@@ -50,13 +50,13 @@ export function PersonLayout() {
     }
 }
 interface PersonSubLayoutProps {
-    person: Person
+    person: Vocaboliere
 }
 
 function Gender(props: PersonSubLayoutProps){
     const gender = props.person.gender
     return <NamedSection title={'Genere'}>
-        <p>{Person.genderString(gender)}</p>
+        <p>{Vocaboliere.genderString(gender)}</p>
     </NamedSection>
 }
 
@@ -116,7 +116,7 @@ function Partners(props: PersonSubLayoutProps){
 
 function ConceptsCreated(props: PersonSubLayoutProps){
     const concepts = props.person.creatorOf()()
-        .map((node) => new Concept(node.node))
+        .map((node) => new Parolangelo(node.node))
         .sort((a, b) => a.prefLabel.localeCompare(b.prefLabel))
     return <ConditionalComponent condition={() => concepts?.length > 0}>
         <NamedSection title={'Parolangelo create'}>
@@ -136,7 +136,9 @@ function ConceptsCreated(props: PersonSubLayoutProps){
 function Contribution(props: PersonSubLayoutProps){
     const concepts = props.person.creatorOf()()
     const soloConceptsCount = concepts.filter(
-        c => new Concept(c.node).personCreators().length === 1
+        c => new Parolangelo(c.node).creators((node) =>
+            (RDFStore.store.any(node, undefined, vocang.namespace('Vocaboliere')) !== null)
+        )().length === 1
     ).length
     return <ConditionalComponent condition={() => concepts?.length > 0}>
         <NamedSection title={'Contributo'}>

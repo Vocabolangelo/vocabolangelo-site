@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import {Concept} from '../../../../rdf/types/Concept'
+import {Parolangelo} from '../../../../rdf/types/Parolangelo'
 import {List} from '../../../common/List'
 import {Main} from '../../../common/Main'
 
@@ -14,7 +14,7 @@ export default function Frettolangelo() {
     const [isInputDisabled, setIsInputDisabled] = useState(true)
 
     useEffect(() => {
-        Concept.all().then(c => {
+        Parolangelo.all().then(c => {
             setAvailableWords(c.map(c => c.prefLabel))
             setIsInputDisabled(false)
         })
