@@ -1,5 +1,16 @@
 # Changelog
 
+## [6.0.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v5.9.0...v6.0.0) (2023-05-29)
+
+
+### ⚠ BREAKING CHANGES
+
+* change Concept to Parolangelo and Person to Vocaboliere
+
+### Code Refactoring
+
+* change Concept to Parolangelo and Person to Vocaboliere ([d5b138e](https://github.com/Vocabolangelo/vocabolangelo-site/commit/d5b138e8215efd029cc70f61ef45dd56b3e9ab17))
+
 ## [5.9.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v5.8.0...v5.9.0) (2023-05-28)
 
 
