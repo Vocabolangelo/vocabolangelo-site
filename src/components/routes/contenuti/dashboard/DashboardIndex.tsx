@@ -1,4 +1,4 @@
-import WordCountSpotlight from './WordCountSpotlight'
+import ParolangeloCountSpotlight from './ParolangeloCountSpotlight'
 import CreatorCountSpotlight from './CreatorCountSpotlight'
 import LeaderBoard from './LeaderBoard'
 import React from 'react'
@@ -8,7 +8,7 @@ export const DASHBOARD_ROUTE = '/dashboard'
 
 export default function DashboardIndex() {
     return <Main>
-        <WordCountSpotlight/>
+        <ParolangeloCountSpotlight/>
         <CreatorCountSpotlight/>
         <LeaderBoard/>
     </Main>

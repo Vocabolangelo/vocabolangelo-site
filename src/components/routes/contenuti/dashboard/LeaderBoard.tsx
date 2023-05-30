@@ -3,7 +3,7 @@ import {vocang} from '../../../../rdf/prefixes'
 import {Parolangelo} from '../../../../rdf/types/Parolangelo'
 import {useEffect, useState} from 'react'
 import {decimalFormat} from '../../../../util/decimalFormat'
-import PersonProps from '../../../props/PersonProps'
+import VocaboliereProps from '../../../props/VocaboliereProps'
 import {Link} from 'react-router-dom'
 import {VOCABOLIERI_ROUTE} from '../../vocabolieri/Vocabolieri'
 import {RDFNamedNode} from '../../../../rdf/RDFNamedNode'
@@ -16,20 +16,20 @@ export default function LeaderBoard() {
         )
     }
 
-    const [concepts, setConcepts] = useState<Parolangelo[]>([])
-    const [people, setPeople] = useState<Vocaboliere[]>([])
+    const [parolangelo, setParolangelo] = useState<Parolangelo[]>([])
+    const [vocabolieri, setVocabolieri] = useState<Vocaboliere[]>([])
 
     useEffect(() => {
-        Parolangelo.all().then(concepts =>
-            setConcepts(concepts)
+        Parolangelo.all().then(parolangelo =>
+            setParolangelo(parolangelo)
         )
-        Vocaboliere.all().then(people => {
-            setPeople(people)
+        Vocaboliere.all().then(vocabolieri => {
+            setVocabolieri(vocabolieri)
         })
     }, [])
 
-    function percentageOfConceptLength(n: number) {
-        return decimalFormat(n / concepts.length * 100, 2)
+    function percentageOfParolangeloLength(n: number) {
+        return decimalFormat(n / parolangelo.length * 100, 2)
     }
 
     function absoluteContribution(c: RDFNamedNode[]) {
@@ -41,20 +41,20 @@ export default function LeaderBoard() {
         ).length).reduce( (x,y) => x+y, 0)
     }
 
-    function LeaderBoardEntry(props: PersonProps){
-        const person = props.person
-        const creatorOf = person.creatorOf()()
+    function LeaderBoardEntry(props: VocaboliereProps){
+        const vocaboliere = props.vocaboliere
+        const creatorOf = vocaboliere.creatorOf()()
 
         return <tr>
             <td>
-                <Link to={`${VOCABOLIERI_ROUTE}/${person.relativeUri(vocang)}`}>
-                    {person.fullName()}
+                <Link to={`${VOCABOLIERI_ROUTE}/${vocaboliere.relativeUri(vocang)}`}>
+                    {vocaboliere.fullName()}
                 </Link>
             </td>
             <td>{absoluteContribution(creatorOf)}</td>
-            <td>{percentageOfConceptLength(absoluteContribution(creatorOf))}%</td>
+            <td>{percentageOfParolangeloLength(absoluteContribution(creatorOf))}%</td>
             <td>{decimalFormat(relativeContribution(creatorOf),2)}</td>
-            <td>{percentageOfConceptLength(relativeContribution(creatorOf))}%</td>
+            <td>{percentageOfParolangeloLength(relativeContribution(creatorOf))}%</td>
         </tr>
     }
 
@@ -92,10 +92,10 @@ export default function LeaderBoard() {
                         </tr>
                     </thead>
                     <tbody>
-                        {people
+                        {vocabolieri
                             .sort(absoluteComparator)
-                            .map((person, index) => {
-                                return <LeaderBoardEntry key={index} person={person}/>
+                            .map((vocaboliere, index) => {
+                                return <LeaderBoardEntry key={index} vocaboliere={vocaboliere}/>
                             })
                         }
                     </tbody>

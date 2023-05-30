@@ -12,36 +12,37 @@ import {VOCABOLIERI_ROUTE} from './Vocabolieri'
 import InnerWrapper from '../../common/story/InnerWrapper'
 import {Parolangelo} from '../../../rdf/types/Parolangelo'
 import {Organization} from '../../../rdf/types/Organization'
+import VocaboliereProps from '../../props/VocaboliereProps'
 
-export function PersonLayout() {
+export function VocaboliereLayout() {
 
-    const [person, setPerson] =
+    const [vocaboliere, setVocaboliere] =
         useState<Vocaboliere | undefined>(undefined)
     const params = useParams()
 
     useEffect(() => {
         RDFStore.safeCall(store => {
-            return new Vocaboliere(store.sym(vocang.uri + params.personId))
-        }).then(person =>
-            setPerson(person)
+            return new Vocaboliere(store.sym(vocang.uri + params.id))
+        }).then(vocaboliere =>
+            setVocaboliere(vocaboliere)
         )
-    }, [params.personId])
+    }, [params.id])
 
-    if(person !== undefined) {
+    if(vocaboliere !== undefined) {
         return <Wrapper>
             <InnerWrapper style={1}>
                 <header>
-                    <h1> {person.fullName()} </h1>
-                    {person.nick !== undefined && <p>{person.nick}</p>}
+                    <h1> {vocaboliere.fullName()} </h1>
+                    {vocaboliere.nick !== undefined && <p>{vocaboliere.nick}</p>}
                 </header>
                 <div className="index align-left">
-                    <Images person={person}/>
-                    <Gender person={person}/>
-                    <Organizations person={person}/>
-                    <Contribution person={person}/>
-                    <Friends person={person}/>
-                    <Partners person={person}/>
-                    <ConceptsCreated person={person}/>
+                    <Images vocaboliere={vocaboliere}/>
+                    <Gender vocaboliere={vocaboliere}/>
+                    <Organizations vocaboliere={vocaboliere}/>
+                    <Contribution vocaboliere={vocaboliere}/>
+                    <Friends vocaboliere={vocaboliere}/>
+                    <Partners vocaboliere={vocaboliere}/>
+                    <ParolangeloCreated vocaboliere={vocaboliere}/>
                 </div>
             </InnerWrapper>
         </Wrapper>
@@ -49,19 +50,16 @@ export function PersonLayout() {
         return <> </>
     }
 }
-interface PersonSubLayoutProps {
-    person: Vocaboliere
-}
 
-function Gender(props: PersonSubLayoutProps){
-    const gender = props.person.gender
+function Gender(props: VocaboliereProps){
+    const gender = props.vocaboliere.gender
     return <NamedSection title={'Genere'}>
         <p>{Vocaboliere.genderString(gender)}</p>
     </NamedSection>
 }
 
-function Organizations(props: PersonSubLayoutProps){
-    const organizations = props.person.memberOf()().map(
+function Organizations(props: VocaboliereProps){
+    const organizations = props.vocaboliere.memberOf()().map(
         node => new Organization(node.node)
     )
     return <NamedSection title={'Organizzazioni'}>
@@ -73,8 +71,8 @@ function Organizations(props: PersonSubLayoutProps){
     </NamedSection>
 }
 
-function Friends(props: PersonSubLayoutProps){
-    const friends = props.person.friends().sort(
+function Friends(props: VocaboliereProps){
+    const friends = props.vocaboliere.friends().sort(
         (a, b) => a.lastName.localeCompare(b.lastName)
     )
     return <ConditionalComponent condition={() => friends?.length > 0}>
@@ -83,7 +81,7 @@ function Friends(props: PersonSubLayoutProps){
                 isOrdered={false}
                 list={friends}
                 elementContent={p => {
-                    if (p.node.uri !== props.person.node.uri ) {
+                    if (p.node.uri !== props.vocaboliere.node.uri ) {
                         return <Link to={`${VOCABOLIERI_ROUTE}/${p.node.RelativeUri(vocang)}`}>
                             <p>{p.fullName(true)}</p>
                         </Link>
@@ -95,8 +93,8 @@ function Friends(props: PersonSubLayoutProps){
         </NamedSection>
     </ConditionalComponent>
 }
-function Partners(props: PersonSubLayoutProps){
-    const partners = props.person.partners().sort(
+function Partners(props: VocaboliereProps){
+    const partners = props.vocaboliere.partners().sort(
         (a, b) => a.lastName.localeCompare(b.lastName)
     )
     return <ConditionalComponent condition={() => partners?.length > 0}>
@@ -114,15 +112,15 @@ function Partners(props: PersonSubLayoutProps){
     </ConditionalComponent>
 }
 
-function ConceptsCreated(props: PersonSubLayoutProps){
-    const concepts = props.person.creatorOf()()
+function ParolangeloCreated(props: VocaboliereProps){
+    const parolangelo = props.vocaboliere.creatorOf()()
         .map((node) => new Parolangelo(node.node))
         .sort((a, b) => a.prefLabel.localeCompare(b.prefLabel))
-    return <ConditionalComponent condition={() => concepts?.length > 0}>
+    return <ConditionalComponent condition={() => parolangelo?.length > 0}>
         <NamedSection title={'Parolangelo create'}>
             <List
                 isOrdered={false}
-                list={concepts}
+                list={parolangelo}
                 elementContent={c =>
                     <Link to={`${PAROLANGELO_ROUTE}/${c.node.RelativeUri(vocang)}`}>
                         <p>{c.prefLabel}</p>
@@ -133,33 +131,33 @@ function ConceptsCreated(props: PersonSubLayoutProps){
     </ConditionalComponent>
 }
 
-function Contribution(props: PersonSubLayoutProps){
-    const concepts = props.person.creatorOf()()
-    const soloConceptsCount = concepts.filter(
+function Contribution(props: VocaboliereProps){
+    const parolangelo = props.vocaboliere.creatorOf()()
+    const soloParolangeloCount = parolangelo.filter(
         c => new Parolangelo(c.node).creators((node) =>
             (RDFStore.store.any(node, undefined, vocang.namespace('Vocaboliere')) !== null)
         )().length === 1
     ).length
-    return <ConditionalComponent condition={() => concepts?.length > 0}>
+    return <ConditionalComponent condition={() => parolangelo?.length > 0}>
         <NamedSection title={'Contributo'}>
-            <p>Da solo ho inventato: <strong>{soloConceptsCount}</strong> parolangelo.</p>
+            <p>Da solo ho inventato: <strong>{soloParolangeloCount}</strong> parolangelo.</p>
             <p>Insieme ad altri ho inventato:
-                <strong>{concepts.length - soloConceptsCount}</strong> parolangelo.
+                <strong>{parolangelo.length - soloParolangeloCount}</strong> parolangelo.
             </p>
-            <p>In totale ho inventato: <strong>{concepts.length}</strong> parolangelo.</p>
+            <p>In totale ho inventato: <strong>{parolangelo.length}</strong> parolangelo.</p>
         </NamedSection>
     </ConditionalComponent>
 }
 
-function Images(props: PersonSubLayoutProps) {
-    const images = props.person.images
+function Images(props: VocaboliereProps) {
+    const images = props.vocaboliere.images
     return <ConditionalComponent condition={() => images?.length > 0}>
         <NamedSection title={'Foto'}>
             <List
                 styleNone={true}
                 isOrdered={false}
                 list={images}
-                elementContent={i => <img style={{borderRadius:'50%', maxWidth:'25vw'}} src={i} alt={ props.person.fullName()}/>}
+                elementContent={i => <img style={{borderRadius:'50%', maxWidth:'25vw'}} src={i} alt={ props.vocaboliere.fullName()}/>}
             />
         </NamedSection>
     </ConditionalComponent>

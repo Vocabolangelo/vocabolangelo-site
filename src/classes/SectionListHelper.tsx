@@ -30,7 +30,7 @@ interface SectionListHelper<T, S> {
     compareFn(a: S, b: S): number
 }
 
-export class AlphabeticConceptSectionListHelper implements SectionListHelper<string, Parolangelo>{
+export class AlphabeticParolangeloSectionListHelper implements SectionListHelper<string, Parolangelo>{
 
     list(elements: Parolangelo[]): string[] {
         return AlphabetUtility.alphabet().filter((letter) =>
@@ -53,7 +53,7 @@ export class AlphabeticConceptSectionListHelper implements SectionListHelper<str
     }
 }
 
-export class RecentConceptSectionListHelper implements SectionListHelper<string, Parolangelo> {
+export class RecentParolangeloSectionListHelper implements SectionListHelper<string, Parolangelo> {
 
     INVALID_DATE = '1970-01-01'
 
@@ -90,7 +90,7 @@ export class RecentConceptSectionListHelper implements SectionListHelper<string,
     }
 }
 
-export class AlphabeticPersonSectionListHelper implements SectionListHelper<string, Vocaboliere>{
+export class AlphabeticVocaboliereSectionListHelper implements SectionListHelper<string, Vocaboliere>{
 
     list(elements: Vocaboliere[]): string[] {
         return AlphabetUtility.alphabet().filter((letter) =>
@@ -113,7 +113,7 @@ export class AlphabeticPersonSectionListHelper implements SectionListHelper<stri
     }
 }
 
-export class GenderPersonSectionListHelper implements SectionListHelper<string, Vocaboliere>{
+export class GenderVocaboliereSectionListHelper implements SectionListHelper<string, Vocaboliere>{
 
     possibleGenders = ['male', 'female', 'non-binary']
 

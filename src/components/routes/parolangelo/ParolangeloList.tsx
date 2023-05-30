@@ -7,7 +7,7 @@ import SearchBar from '../../common/SearchBar'
 import InnerWrapper from '../../common/story/InnerWrapper'
 import {Link} from 'react-router-dom'
 import {SectionList} from '../../common/SectionList'
-import {AlphabeticConceptSectionListHelper, RecentConceptSectionListHelper} from '../../../classes/SectionListHelper'
+import {AlphabeticParolangeloSectionListHelper, RecentParolangeloSectionListHelper} from '../../../classes/SectionListHelper'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faCalendarDays, faArrowDownAZ} from '@fortawesome/free-solid-svg-icons'
 
@@ -15,29 +15,29 @@ export const PAROLANGELO_ROUTE = '/parolangelo'
 
 export default function ParolangeloList() {
 
-    const [concepts, setConcepts] = useState<Parolangelo[]>([])
-    const [visibleConcepts, setVisibleConcepts] = useState<Parolangelo[]>([])
-    const [helper, setHelper] = useState(new AlphabeticConceptSectionListHelper())
+    const [parolangelo, setParolangelo] = useState<Parolangelo[]>([])
+    const [visibleParolangelo, setVisibleParolangelo] = useState<Parolangelo[]>([])
+    const [helper, setHelper] = useState(new AlphabeticParolangeloSectionListHelper())
     const [searchValue, setSearchValue]= useState<string>('')
 
     useEffect(() => {
         Parolangelo.all().then(nodes => {
-            setConcepts(nodes.sort((a, b) => helper.compareFn(a,b)))
+            setParolangelo(nodes.sort((a, b) => helper.compareFn(a,b)))
         })
     }, [])
 
     useEffect(() => {
-        setVisibleConcepts(concepts.filter((c) => searchFilterStrategy(c, searchValue)))
-    },[concepts, searchValue])
+        setVisibleParolangelo(parolangelo.filter((c) => searchFilterStrategy(c, searchValue)))
+    },[parolangelo, searchValue])
 
     useEffect(() => {
-        setConcepts(concepts.sort((a, b) => helper.compareFn(a,b)))
+        setParolangelo(parolangelo.sort((a, b) => helper.compareFn(a,b)))
     },[helper])
 
-    function searchFilterStrategy(concept: Parolangelo, str: string): boolean {
+    function searchFilterStrategy(parolangelo: Parolangelo, str: string): boolean {
         if(str.length > 1) {
-            return concept.prefLabel.toLowerCase().includes(str.toLowerCase()) ||
-                concept.definitions.find(d => d.toLowerCase().includes(str.toLowerCase())) !== undefined
+            return parolangelo.prefLabel.toLowerCase().includes(str.toLowerCase()) ||
+                parolangelo.definitions.find(d => d.toLowerCase().includes(str.toLowerCase())) !== undefined
         }
         return true
     }
@@ -55,13 +55,13 @@ export default function ParolangeloList() {
                 <p></p>
                 <div className="align-center actions">
                     <div
-                        onClick={() => setHelper(new AlphabeticConceptSectionListHelper())}
+                        onClick={() => setHelper(new AlphabeticParolangeloSectionListHelper())}
                         className="button"
                     >
                         <FontAwesomeIcon size={'lg'} icon={faArrowDownAZ}/>  Alfabetico
                     </div>
                     <div
-                        onClick={() => setHelper(new RecentConceptSectionListHelper())}
+                        onClick={() => setHelper(new RecentParolangeloSectionListHelper())}
                         style={{marginLeft: '1%'}} className="button"
                     >
                         <FontAwesomeIcon size={'lg'} icon={faCalendarDays}/>  Recente
@@ -70,9 +70,9 @@ export default function ParolangeloList() {
             </header>
             <div className="index align-left">
                 <SectionList
-                    list={helper.list(visibleConcepts)}
+                    list={helper.list(visibleParolangelo)}
                     sectionTitle={(element) => helper.title(element)}
-                    sublist={(element) => helper.sublist(visibleConcepts, element) }
+                    sublist={(element) => helper.sublist(visibleParolangelo, element) }
                     content={(c: Parolangelo) =>
                         <Link to={`${PAROLANGELO_ROUTE}/${c.relativeUri(vocang)}`}>
                             <p> {c.prefLabel} </p>

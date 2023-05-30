@@ -4,7 +4,7 @@ import ParolangeloList, {PAROLANGELO_ROUTE} from '../components/routes/parolange
 import {ParolangeloLayout} from '../components/routes/parolangelo/ParolangeloLayout'
 import React from 'react'
 import Vocabolieri, {VOCABOLIERI_ROUTE} from '../components/routes/vocabolieri/Vocabolieri'
-import {PersonLayout} from '../components/routes/vocabolieri/PersonLayout'
+import {VocaboliereLayout} from '../components/routes/vocabolieri/VocaboliereLayout'
 import {Page404} from '../Page404'
 import DashboardIndex, {DASHBOARD_ROUTE} from '../components/routes/contenuti/dashboard/DashboardIndex'
 import LoadingScreen from '../components/common/LoadingScreen'
@@ -25,7 +25,7 @@ export const defaultRouter = createBrowserRouter([
         element: <ParolangeloList/>,
     },
     {
-        path: `${PAROLANGELO_ROUTE}/:conceptId`,
+        path: `${PAROLANGELO_ROUTE}/:id`,
         element: <ParolangeloLayout />
     },
     {
@@ -33,8 +33,8 @@ export const defaultRouter = createBrowserRouter([
         element: <Vocabolieri/>,
     },
     {
-        path: `${VOCABOLIERI_ROUTE}/:personId`,
-        element: <PersonLayout />
+        path: `${VOCABOLIERI_ROUTE}/:id`,
+        element: <VocaboliereLayout />
     },
     {
         path: CONTENUTI_ROUTE,

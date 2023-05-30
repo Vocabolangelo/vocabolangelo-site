@@ -8,7 +8,7 @@ import {requireNotNull} from '../../util/requireNotNull'
 import {RDFTriple} from '../RDFTriple'
 
 /**
- * Class representing a http://www.w3.org/2004/02/skos/core#Concept.
+ * Class representing a Parolangelo.
  */
 export class Parolangelo extends RDFNamedNode {
     /**

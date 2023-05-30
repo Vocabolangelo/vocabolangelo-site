@@ -6,7 +6,7 @@ import SearchBar from '../../common/SearchBar'
 import InnerWrapper from '../../common/story/InnerWrapper'
 import {Link} from 'react-router-dom'
 import {SectionList} from '../../common/SectionList'
-import {AlphabeticPersonSectionListHelper, GenderPersonSectionListHelper} from '../../../classes/SectionListHelper'
+import {AlphabeticVocaboliereSectionListHelper, GenderVocaboliereSectionListHelper} from '../../../classes/SectionListHelper'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faArrowDownAZ, faVenusMars} from '@fortawesome/free-solid-svg-icons'
 
@@ -14,27 +14,27 @@ export const VOCABOLIERI_ROUTE = '/vocabolieri'
 
 export default function Vocabolieri(){
 
-    const noPeople: Vocaboliere[] = []
-    const [helper, setHelper] = useState(new AlphabeticPersonSectionListHelper())
-    const [people, setPeople] = useState(noPeople)
-    const [visiblePeople, setVisiblePeople] = useState(noPeople)
+    const emptyVocabolieri: Vocaboliere[] = []
+    const [helper, setHelper] = useState(new AlphabeticVocaboliereSectionListHelper())
+    const [vocabolieri, setVocabolieri] = useState(emptyVocabolieri)
+    const [visibleVocabolieri, setVisibleVocabolieri] = useState(emptyVocabolieri)
     const [searchValue, setSearchValue]= useState<string>('')
 
     useEffect(() => {
         Vocaboliere.all().then((people) => {
-            setPeople(people.sort((a, b) => helper.compareFn(a, b)))
+            setVocabolieri(people.sort((a, b) => helper.compareFn(a, b)))
         })}, [])
 
     useEffect(() => {
-        setVisiblePeople(people.filter(p => searchFilterStrategy(p, searchValue)))
-    }, [people, searchValue])
+        setVisibleVocabolieri(vocabolieri.filter(p => searchFilterStrategy(p, searchValue)))
+    }, [vocabolieri, searchValue])
 
     useEffect(() => {
-        setPeople(people.sort((a, b) => helper.compareFn(a, b)))
+        setVocabolieri(vocabolieri.sort((a, b) => helper.compareFn(a, b)))
     }, [helper])
 
-    function searchFilterStrategy(person: Vocaboliere, str: string): boolean {
-        return person.fullName().toLowerCase().includes(str.toLowerCase())
+    function searchFilterStrategy(vocaboliere: Vocaboliere, str: string): boolean {
+        return vocaboliere.fullName().toLowerCase().includes(str.toLowerCase())
     }
 
     return <Wrapper>
@@ -47,13 +47,13 @@ export default function Vocabolieri(){
                 <p></p>
                 <div className="align-center actions">
                     <div
-                        onClick={() => setHelper(new AlphabeticPersonSectionListHelper())}
+                        onClick={() => setHelper(new AlphabeticVocaboliereSectionListHelper())}
                         className="button"
                     >
                         <FontAwesomeIcon size={'lg'} icon={faArrowDownAZ}/>  Alfabetico
                     </div>
                     <div
-                        onClick={() => setHelper(new GenderPersonSectionListHelper())}
+                        onClick={() => setHelper(new GenderVocaboliereSectionListHelper())}
                         style={{marginLeft: '1%'}} className="button"
                     >
                         <FontAwesomeIcon size={'lg'} icon={faVenusMars}/>  Genere
@@ -62,9 +62,9 @@ export default function Vocabolieri(){
             </header>
             <div className="index align-left">
                 <SectionList
-                    list={helper.list(visiblePeople)}
+                    list={helper.list(visibleVocabolieri)}
                     sectionTitle={(element) => helper.title(element)}
-                    sublist={(element) => helper.sublist(visiblePeople, element)}
+                    sublist={(element) => helper.sublist(visibleVocabolieri, element)}
                     content={(p: Vocaboliere) =>
                         <Link to={`${VOCABOLIERI_ROUTE}/${p.relativeUri(vocang)}`}>
                             <p> {p.fullName(true)} </p>

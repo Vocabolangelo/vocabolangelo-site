@@ -4,18 +4,18 @@ import {List} from '../../../common/List'
 import {Main} from '../../../common/Main'
 
 /**
- * A concept guessing game with a timer and a final score.
+ * A parolangelo guessing game with a timer and a final score.
  */
 export default function Frettolangelo() {
-    const [availableWords, setAvailableWords] = useState<string[]>([])
-    const [guessedWords, setGuessedWords] = useState<string[]>([])
-    const [typedWord, setTypedWord] = useState('')
+    const [availableParolangelo, setAvailableParolangelo] = useState<string[]>([])
+    const [guessedParolangelo, setGuessedParolangelo] = useState<string[]>([])
+    const [typedParolangelo, setTypedParolangelo] = useState('')
     const [timeRemaining, setTimeRemaining] = useState(60)
     const [isInputDisabled, setIsInputDisabled] = useState(true)
 
     useEffect(() => {
-        Parolangelo.all().then(c => {
-            setAvailableWords(c.map(c => c.prefLabel))
+        Parolangelo.all().then(p => {
+            setAvailableParolangelo(p.map(p => p.prefLabel))
             setIsInputDisabled(false)
         })
     }, [])
@@ -33,17 +33,17 @@ export default function Frettolangelo() {
     }, [timeRemaining])
 
     function handleInputChange(event: React.ChangeEvent<HTMLInputElement>) {
-        const typedConcept = event.target.value
-        setTypedWord(typedConcept)
-        const foundWordIndex = availableWords.findIndex(
-            c => c.toLowerCase() === typedConcept.toLowerCase()
+        const typedParolangelo = event.target.value
+        setTypedParolangelo(typedParolangelo)
+        const foundParolangeloIndex = availableParolangelo.findIndex(
+            c => c.toLowerCase() === typedParolangelo.toLowerCase()
         )
-        if (foundWordIndex !== undefined && foundWordIndex !== -1) {
-            const newGuessedWords = guessedWords.concat(availableWords[foundWordIndex])
-            setGuessedWords(newGuessedWords)
-            setAvailableWords(availableWords.filter((_,i) => i !== foundWordIndex))
-            setTypedWord('')
-            if(newGuessedWords.length === 1) {
+        if (foundParolangeloIndex !== undefined && foundParolangeloIndex !== -1) {
+            const newGuessedParolangelo = guessedParolangelo.concat(availableParolangelo[foundParolangeloIndex])
+            setGuessedParolangelo(newGuessedParolangelo)
+            setAvailableParolangelo(availableParolangelo.filter((_,i) => i !== foundParolangeloIndex))
+            setTypedParolangelo('')
+            if(newGuessedParolangelo.length === 1) {
                 setTimeRemaining(timeRemaining - 1)
             }
         }
@@ -58,15 +58,15 @@ export default function Frettolangelo() {
                     <form>
                         <label>
                             Digita una parolangelo:
-                            <input type="text" value={typedWord} onChange={handleInputChange} disabled={isInputDisabled}/>
+                            <input type="text" value={typedParolangelo} onChange={handleInputChange} disabled={isInputDisabled}/>
                         </label>
                     </form>
-                    {timeRemaining === 0 && <h2>Punteggio finale: {guessedWords.length}</h2>}
-                    {guessedWords.length > 0 && <>
+                    {timeRemaining === 0 && <h2>Punteggio finale: {guessedParolangelo.length}</h2>}
+                    {guessedParolangelo.length > 0 && <>
                         <h5>Parolangelo indovinate:</h5>
                         <List
                             isOrdered={false}
-                            list={guessedWords}
+                            list={guessedParolangelo}
                             elementContent={(c) => <p> {c} </p>}
                         />
                     </>}
