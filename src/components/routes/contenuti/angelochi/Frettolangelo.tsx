@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react'
 import {Parolangelo} from '../../../../rdf/types/Parolangelo'
 import {List} from '../../../common/List'
 import {Main} from '../../../common/Main'
+import {PAROLANGELO_ROUTE} from '../../parolangelo/ParolangeloList'
+import {Link} from 'react-router-dom'
 
 /**
  * A parolangelo guessing game with a timer and a final score.
@@ -53,7 +55,15 @@ export default function Frettolangelo() {
         <section className="wrapper style1 align-left">
             <div className="inner">
                 <div>
-                    <h1>{timeRemaining} secondi rimanenti</h1>
+                    <header>
+                        <h1>Frettolangelo</h1>
+                        <p>/fret • to • làn • ge • lo/</p>
+                    </header>
+                    <p className={'major'}>
+                        Un <Link to={`${PAROLANGELO_ROUTE}/frettolangelo`}> angeloco </Link> che consiste nel nominare
+                        più parolangelo possibili entro un quantitativo limitato di tempo.
+                    </p>
+                    <h2>{timeRemaining} secondi rimanenti</h2>
                     <p>Il timer partirà dopo aver inserito la prima parolangelo corretta.</p>
                     <form>
                         <label>
