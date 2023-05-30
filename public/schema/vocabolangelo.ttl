@@ -422,7 +422,7 @@ vocang:suscaAlessandra
     foaf:firstName "Alessandra" ;
     foaf:lastName "Susca" ;
     foaf:gender "female" ;
-    org:memberOf vocang:vocaboladminOrg ;
+    org:memberOf vocang:vocabolieriOrg ;
     rel:siblingOf vocang:suscaMatteo ;
     rel:friendOf vocang:rosatelliAnna .
 
