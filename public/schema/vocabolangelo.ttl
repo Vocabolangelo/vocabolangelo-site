@@ -1869,7 +1869,7 @@ vocang:parolangelo
     a vocang:Parolangelo ;
     skos:prefLabel "Parolangelo"@it ;
     lexinfo:pronunciation "/pa • ro • lan • ge • lo/"@it ;
-    skos:definition "Una parola presente all'interno del Vocabolangelo."@it ;
+    skos:definition "Una parola inventata presente all'interno del Vocabolangelo, non presente su un normale vocabolario, e creata da un vocaboliere."@it ;
     skos:example "Il vocabolangelo è pieno di parolangelo interessanti!"@it ;
     skos:related vocang:vocabolangelo, vocang:dizionangelo, vocang:angelario ;
     dct:created "2022-12-07" ;
@@ -5629,3 +5629,12 @@ vocang:profumolotov
     skos:example "Durante una mattina di sole, Luis si recò in una panetteria per acquistare dei croissant appena sfornati. Nel frattempo, a pochi isolati di distanza, si stava svolgendo una manifestazione che non aveva affatto l'aria di essere pacifica. Improvvisamente, un forte rumore echeggiò in lontananza quando una bottiglia contenente olio profumato si ruppe, causando un forte odore e panico nella folla. Nonostante tutto, Luis continuò a gustarsi il  suo croissant in tutta tranquillità."@it ;
     dct:created "2023-05-27" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:slangelo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Slangelo"@it ;
+    lexinfo:pronunciation "/slàn • ge • lo/"@it ;
+    skos:definition "Una composizione di più parole, potenzialmente inventate, e/o parolangelo inventata da un Vocaboliere che possiedono  nel loro insieme una definizione precisa e univoca."@it ;
+    skos:example "Tanto tempo fa avevo inventato la parolangelo \"regola arbitroia\", ma un vocaboladmin me la aveva bocciata dicendo che non rispettava il Vocaboregolangelo. Da quel momento è passato veramente tanto tempo. Un giorno i vocabolieri hanno creato un sondaggio richiedendo la possibilità di creare parolangelo che potessero contenere lo spazio. Quel giorno nacque la parolangelo \"slangangelo\", e nonostante ci sia una divisione netta dei due concetti ora è possibile essere molto più creativi!"@it ;
+    dct:created "2023-05-28" ;
+    dct:creator vocang:filasetaAngelo, vocang:nardiniArianna, vocang:orlandoNicola .
