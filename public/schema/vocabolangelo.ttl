@@ -5670,3 +5670,12 @@ vocang:cavapiatti
     dct:created "2023-06-02" ;
     dct:creator vocang:bdeouiEddy, vocang:pertosaLorenzo .
 
+vocang:escita
+    a vocang:Parolangelo ;
+    skos:prefLabel "Escita"@it ;
+    lexinfo:pronunciation "/e • scì • ta/"@it ;
+    skos:definition "Uscita di un'autostrada."@it ;
+    skos:example "Mentre viaggiavo lungo l'autostrada con la mia famiglia, mio zio, noto per la sua peculiarità nel prendere le escite sbagliate, ha improvvisamente annunciato con entusiasmo: 'Guardate tutti!'. Confusi e divertiti, abbiamo guardato con sorpresa mentre mio zio guidava abilmente attraverso l'escita, lasciandoci senza parole e con un sacco di risate!"@it ;
+    dct:created "2023-06-02" ;
+    skos:related vocang:escire ;
+    dct:creator vocang:bdeouiEddy .
