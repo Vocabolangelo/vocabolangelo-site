@@ -4,6 +4,7 @@
 <http://www.vocabolangelo.org/VocabolangeloRDF> <http://www.w3.org/2000/01/rdf-schema#comment> "Un'ontologia creata per il Vocabolangelo, utilizzata per memorizzare le parole,  definizioni, persone, relazioni etc."@it .
 <http://www.vocabolangelo.org/VocabolangeloRDF> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://github.com/AngeloFilaseta/vocabolangelo-rdf" .
 <http://www.vocabolangelo.org/Parolangelo> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/Slangelo> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/Vocaboliere> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/0.1/Person> .
 <http://www.vocabolangelo.org/unpaidFriendOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://www.vocabolangelo.org/unpaidFriendOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://xmlns.com/foaf/0.1/knows> .
@@ -548,7 +549,7 @@
 <http://www.vocabolangelo.org/suscaAlessandra> <http://xmlns.com/foaf/0.1/firstName> "Alessandra" .
 <http://www.vocabolangelo.org/suscaAlessandra> <http://xmlns.com/foaf/0.1/lastName> "Susca" .
 <http://www.vocabolangelo.org/suscaAlessandra> <http://xmlns.com/foaf/0.1/gender> "female" .
-<http://www.vocabolangelo.org/suscaAlessandra> <http://www.w3.org/ns/org#memberOf> <http://www.vocabolangelo.org/vocaboladminOrg> .
+<http://www.vocabolangelo.org/suscaAlessandra> <http://www.w3.org/ns/org#memberOf> <http://www.vocabolangelo.org/vocabolieriOrg> .
 <http://www.vocabolangelo.org/suscaAlessandra> <http://www.perceive.net/schemas/20021119/relationship/#siblingOf> <http://www.vocabolangelo.org/suscaMatteo> .
 <http://www.vocabolangelo.org/suscaAlessandra> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/rosatelliAnna> .
 <http://www.vocabolangelo.org/chatGPT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/skgo/modsci#ArtificialIntelligence> .
@@ -746,13 +747,13 @@
 <http://www.vocabolangelo.org/coreliano> <http://www.w3.org/2004/02/skos/core#prefLabel> "Coreliano"@it .
 <http://www.vocabolangelo.org/coreliano> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/co • re • lià • no/"@it .
 <http://www.vocabolangelo.org/coreliano> <http://www.w3.org/2004/02/skos/core#definition> "Un metodo di scrittura utilizzato per scrivere in italiano con l’alfabeto coreano."@it .
-<http://www.vocabolangelo.org/coreliano> <http://www.w3.org/2004/02/skos/core#example> "Io e la mia ragazza ci scriviamo sempre dei messaggi molto carini in coreliano. Solo io e lei riusciamo a capirli!"@it .
+<http://www.vocabolangelo.org/coreliano> <http://www.w3.org/2004/02/skos/core#example> "Sto studiando la lingua coreana e mi sono appassionato anche al coreliano. È un metodo affascinante che mi permette di scrivere in italiano utilizzando l'alfabeto coreano. Ho appena scritto una lettera ai miei amici usando il coreliano, combinando l'armonia dell'italiano con i caratteri unici dell'alfabeto coreano. È un modo creativo per esprimere me stesso e condividere la mia cultura con gli altri."@it .
 <http://www.vocabolangelo.org/coreliano> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/savoGiorgia> .
 <http://www.vocabolangelo.org/falsevolezza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/falsevolezza> <http://www.w3.org/2004/02/skos/core#prefLabel> "Falsevolezza"@it .
 <http://www.vocabolangelo.org/falsevolezza> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/fal • se • vo • léz • za/"@it .
-<http://www.vocabolangelo.org/falsevolezza> <http://www.w3.org/2004/02/skos/core#definition> "Sinonimo di falsità."@it .
-<http://www.vocabolangelo.org/falsevolezza> <http://www.w3.org/2004/02/skos/core#example> "Sta dicendo solo falsevolezze da quando è qui."@it .
+<http://www.vocabolangelo.org/falsevolezza> <http://www.w3.org/2004/02/skos/core#definition> "Caratteristiche dell'inautenticità, contrapposte alla veridicità o all'apparenza desiderata, sinonimo di falsità."@it .
+<http://www.vocabolangelo.org/falsevolezza> <http://www.w3.org/2004/02/skos/core#example> "Immagina di essere invitato a una cena e l'ospite ti assicura che ha preparato un piatto delizioso e raffinato, ma quando ti siedi a tavola scopri che ha servito semplicemente dei cereali da colazione. La sua promessa di un pasto sofisticato si rivela essere un esempio di falsevolezza culinaria."@it .
 <http://www.vocabolangelo.org/falsevolezza> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
 <http://www.vocabolangelo.org/fetiscista> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/fetiscista> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fetiscista"@it .
@@ -770,7 +771,7 @@
 <http://www.vocabolangelo.org/frisbidina> <http://www.w3.org/2004/02/skos/core#prefLabel> "Frisbidina"@it .
 <http://www.vocabolangelo.org/frisbidina> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/fri • sbi • dì • na/"@it .
 <http://www.vocabolangelo.org/frisbidina> <http://www.w3.org/2004/02/skos/core#definition> "Una piadina cucinata troppo, che risulta troppo dura e croccante, a tratti anche bruciata."@it .
-<http://www.vocabolangelo.org/frisbidina> <http://www.w3.org/2004/02/skos/core#example> "Non cuocerla troppo, non voglio una frisbidina."@it .
+<http://www.vocabolangelo.org/frisbidina> <http://www.w3.org/2004/02/skos/core#example> "La frisbidina è una piadina cucinata così tanto che potrebbe essere utilizzata come disco volante, talmente dura e croccante da scatenare una competizione di lancio a distanza. Se è così bruciata da emettere fumo, allora hai ottenuto la frisbidina al livello olimpico!"@it .
 <http://www.vocabolangelo.org/frisbidina> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
 <http://www.vocabolangelo.org/fuore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/fuore> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fuore"@it .
@@ -778,173 +779,182 @@
 <http://www.vocabolangelo.org/fuore> <http://www.w3.org/2004/02/skos/core#definition> "Un cuore su un fiore."@it .
 <http://www.vocabolangelo.org/fuore> <http://www.w3.org/2004/02/skos/core#definition> "Il cuore di un fiore."@it .
 <http://www.vocabolangelo.org/fuore> <http://www.w3.org/2004/02/skos/core#definition> "Un fiore col cuore."@it .
-<http://www.vocabolangelo.org/fuore> <http://www.w3.org/2004/02/skos/core#example> "Oggi mio figlio ha disegnato un fuore molto carino."@it .
+<http://www.vocabolangelo.org/fuore> <http://www.w3.org/2004/02/skos/core#example> "Quando Giulia vide il bellissimo bouquet di rose rosse che le aveva inviato Paolo, il suo cuore si sciolse come burro al sole. Era un gesto così romantico, un cuore era delicatamente posato sul fiore principale. Era proprio un fuore!"@it .
 <http://www.vocabolangelo.org/fuore> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/savoGiorgia> .
 <http://www.vocabolangelo.org/fusorangelo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/fusorangelo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fusorangelo"@it .
 <http://www.vocabolangelo.org/fusorangelo> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/fu • so • ràn • ge • lo/"@it .
-<http://www.vocabolangelo.org/fusorangelo> <http://www.w3.org/2004/02/skos/core#definition> "Una legge dell’universo che permette alle persone e agli oggetti di viaggiare nel tempo utilizzando il “bug dei meridiani”."@it .
-<http://www.vocabolangelo.org/fusorangelo> <http://www.w3.org/2004/02/skos/core#example> "Posso recuperare il sonno grazie al fusorangelo."@it .
+<http://www.vocabolangelo.org/fusorangelo> <http://www.w3.org/2004/02/skos/core#definition> "Un artificio adoperato con l'intento di indurre le persone a credere di aver compiuto un viaggio nel tempo, sia esso personale o con oggetti. Si basa sull'exploit della circostanza di essersi trasferiti attraverso un numero sufficiente di meridiani in un arco di tempo inferiore rispetto alla durata richiesta per tale percorso da parte del sole."@it .
+<http://www.vocabolangelo.org/fusorangelo> <http://www.w3.org/2004/02/skos/core#example> "C'era una volta un tipo di nome Marco che era un viaggiatore avventuroso. Un giorno, Marco decise di prendere un volo per visitare un paese dall'altra parte del mondo. Quando salì sull'aereo, era pieno di entusiasmo per l'esperienza che lo attendeva. Il volo di Marco durò diverse ore e, quando atterrò a destinazione, rimase sorpreso dal fatto che fossero passate solo poche ore dal momento in cui era partito. Sì, Marco si era spostato in un luogo in cui il fuso orario era avanti di ben 8 ore rispetto a casa sua! Marco decise di mandare una foto a sua madre e mostrargli la torre dell'orologio locale, la quale, non essendo molto studiata, non capì come potesse esserre possibile uno sfasamento temporale simile. Marco aveva utilizzato il fusorangelo per fare uno scherzo alla mamma! "@it .
 <http://www.vocabolangelo.org/fusorangelo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
 <http://www.vocabolangelo.org/incazzabbiato> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/incazzabbiato> <http://www.w3.org/2004/02/skos/core#prefLabel> "Incazzabbiato"@it .
 <http://www.vocabolangelo.org/incazzabbiato> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/in • caz • zab • bià • to/"@it .
-<http://www.vocabolangelo.org/incazzabbiato> <http://www.w3.org/2004/02/skos/core#definition> "Sinonimo di infastidito, incavolato, arrabbiato ma non così tanto."@it .
-<http://www.vocabolangelo.org/incazzabbiato> <http://www.w3.org/2004/02/skos/core#example> "Sono incazzabbiato con lei perché non capisce quello che voglio dire."@it .
+<http://www.vocabolangelo.org/incazzabbiato> <http://www.w3.org/2004/02/skos/core#definition> "Contrariato, frustrato, infastidito, tuttavia senza raggiungere livelli di ira."@it .
+<http://www.vocabolangelo.org/incazzabbiato> <http://www.w3.org/2004/02/skos/core#example> "Il cliente si presentò al negozio e notò che il prodotto che aveva ordinato non era disponibile. Era incazzabbiato, e richiese spiegazioni al commesso, manifestando il suo disappunto per l'inconveniente causato. Nonostante la sua insoddisfazione, mantenne la calma e cercò una soluzione alternativa con l'assistenza del personale del negozio."@it .
 <http://www.vocabolangelo.org/incazzabbiato> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
 <http://www.vocabolangelo.org/oscuretra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/oscuretra> <http://www.w3.org/2004/02/skos/core#prefLabel> "Oscuretra"@it .
 <http://www.vocabolangelo.org/oscuretra> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/os • c • rè • tra/"@it .
 <http://www.vocabolangelo.org/oscuretra> <http://www.w3.org/2004/02/skos/core#definition> "L’oscurità all’interno dell’uretra."@it .
-<http://www.vocabolangelo.org/oscuretra> <http://www.w3.org/2004/02/skos/core#example> "Un medico oggi ha detto: «Serve più luce, c'è troppa oscuretra!»"@it .
+<http://www.vocabolangelo.org/oscuretra> <http://www.w3.org/2004/02/skos/core#example> "Oggi l'urologo ha cercato di capire che problemi avessi. Ha insertito una videocamera all'interno del mio gingillo, ma ad un certo punto ha detto: «Serve più luce, c'è troppa oscuretra!». Così ha estratto la videocamera e ha usato metodi alternativi per controllarmi."@it .
 <http://www.vocabolangelo.org/oscuretra> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
 <http://www.vocabolangelo.org/proprostata> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/proprostata> <http://www.w3.org/2004/02/skos/core#prefLabel> "Proprostata"@it .
 <http://www.vocabolangelo.org/proprostata> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/pro • prò • sta • ta/"@it .
-<http://www.vocabolangelo.org/proprostata> <http://www.w3.org/2004/02/skos/core#definition> "Proposta che viene fatta da una persona A ad una persona B, la quale deve possedere una prostata. Se accettata A ottiene la prostata di B."@it .
-<http://www.vocabolangelo.org/proprostata> <http://www.w3.org/2004/02/skos/core#example> "Oggi Alessandra mi ha fatto una proprostrata... Ho paura."@it .
+<http://www.vocabolangelo.org/proprostata> <http://www.w3.org/2004/02/skos/core#definition> "In senso figurativo, la proposta da parte di una persona verso un altra, la quale possiede una prostata. Se questa proposta viene accettata, potrebbe significare che la persona che ha fatto la proposta otterrà un accesso privilegiato alla prostata dell'altra persona. Ciò implica la possibilità di toccarla o esaminarla per determinati scopi, come in un contesto medico o di ricerca, ma non solo."@it .
+<http://www.vocabolangelo.org/proprostata> <http://www.w3.org/2004/02/skos/core#example> "Alessandra e Matteo erano due amici molto stravaganti. Un giorno, Alessandra decise di chiedere qualcosa di strampalato a Matteo. Si avvicinò a lui con un sorriso malizioso e disse: \"Matteo! Vorrei farti una proprostata! Se accetti la mia proprostata, avrò l'onore di toccare la tua prostata! Sarà un'esperienza unica e divertente!\". Matteo scoppiò a ridere, pensando che Alessandra avesse davvero un senso dell'umorismo particolare. Con un sorriso, rispose: \"Beh, Alessandra, la tua proprostata mi ha lasciato senza parole! Ma temo che dovrò rifiutare gentilmente questa proposta!"@it .
 <http://www.vocabolangelo.org/proprostata> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/minoccheriAlessandra> .
 <http://www.vocabolangelo.org/roletano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/roletano> <http://www.w3.org/2004/02/skos/core#prefLabel> "Roletano"@it .
 <http://www.vocabolangelo.org/roletano> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/ro • le • tà • no/"@it .
 <http://www.vocabolangelo.org/roletano> <http://www.w3.org/2004/02/skos/core#definition> "Una persona che dimostra caratteristiche ibride associabili sia a chi viene da Roma che da Napoli."@it .
-<http://www.vocabolangelo.org/roletano> <http://www.w3.org/2004/02/skos/core#example> "Ciro è proprio un Roletano."@it .
+<http://www.vocabolangelo.org/roletano> <http://www.w3.org/2004/02/skos/core#example> "Giuseppe era un ragazzo unico nel suo genere. Era nato e cresciuto in una famiglia dove suo padre era di Roma e sua madre di Napoli. Questa fusione di influenze culturali ha dato origine a una personalità davvero speciale. Era un vero roletano! Un giorno, durante una cena con gli amici, Giuseppe mostrò una caratteristica tipicamente romana. Cominciò a parlare con grande enfasi e gesti ampi, raccontando storie avvincenti sulla storia di Roma. Tutti si trovavano incantati dalla sua passione contagiosa. Ma non finì qui! Improvvisamente, iniziò a fare un cambio di voce e di tono, dimostrando un accento napoletano molto marcato. Iniziò a raccontare le avventure esilaranti che aveva vissuto nella sua visita a Napoli, usando parole colorite e simpatiche espressioni dialettali, come \"Cap ‘e cazz \", \"Chitemmuort\" e \"Chiav’t a lengua ‘ncul\"."@it .
 <http://www.vocabolangelo.org/roletano> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/fanaraGiuliano> .
 <http://www.vocabolangelo.org/rototandoria> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/rototandoria> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rototandoria"@it .
 <http://www.vocabolangelo.org/rototandoria> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/ro • to • tan • dò • ria/"@it .
-<http://www.vocabolangelo.org/rototandoria> <http://www.w3.org/2004/02/skos/core#definition> "Sinonimo di rotatoria, rotonda."@it .
-<http://www.vocabolangelo.org/rototandoria> <http://www.w3.org/2004/02/skos/core#example> "Ieri un tizio ha preso la rototandoria al contrario ed è morto."@it .
+<http://www.vocabolangelo.org/rototandoria> <http://www.w3.org/2004/02/skos/core#definition> "Modo alternativo per riferirsi ad una rotatoria o rotonda. Una modalità di denominazione diversa per indicare una struttura stradale circolare utilizzata per regolare e agevolare il flusso del traffico veicolare in un incrocio o un punto di convergenza di diverse strade."@it .
+<http://www.vocabolangelo.org/rototandoria> <http://www.w3.org/2004/02/skos/core#example> "Quella rototandoria era così imponente e maestosa che sembrava una pista da ballo per macchine, con le auto che facevano dei veri e propri 'giri di valzer' tra le sue corsie!"@it .
+<http://www.vocabolangelo.org/rototandoria> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/incrociatoria> .
 <http://www.vocabolangelo.org/rototandoria> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
 <http://www.vocabolangelo.org/sbadigliese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/sbadigliese> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sbadigliese"@it .
 <http://www.vocabolangelo.org/sbadigliese> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/sba • di • glié • se/"@it .
-<http://www.vocabolangelo.org/sbadigliese> <http://www.w3.org/2004/02/skos/core#definition> "La lingua che si parla quando si prova a parlare mentre si sbadiglia."@it .
-<http://www.vocabolangelo.org/sbadigliese> <http://www.w3.org/2004/02/skos/core#example> "Non ho capito molto, prova a non parlare in sbadigliese."@it .
+<http://www.vocabolangelo.org/sbadigliese> <http://www.w3.org/2004/02/skos/core#definition> "La lingua utilizzata durante un tentativo di comunicazione effettuato contemporaneamente ad uno sbadiglio."@it .
+<http://www.vocabolangelo.org/sbadigliese> <http://www.w3.org/2004/02/skos/core#example> "Quando cercò di spiegare il suo piano geniale, cominciò a parlare in sbadigliese a causa della stanchezza, lasciando tutti a bocca aperta, sia letteralmente che figurativamente!"@it .
 <http://www.vocabolangelo.org/sbadigliese> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
 <http://www.vocabolangelo.org/scorciatroia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/scorciatroia> <http://www.w3.org/2004/02/skos/core#prefLabel> "Scorciatroia"@it .
 <http://www.vocabolangelo.org/scorciatroia> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/scor • cia • trò • ia/"@it .
-<http://www.vocabolangelo.org/scorciatroia> <http://www.w3.org/2004/02/skos/core#definition> "Un percorso che, tra due località, risulta sembrare più breve della strada più importante, ma è in realtà più lunga."@it .
-<http://www.vocabolangelo.org/scorciatroia> <http://www.w3.org/2004/02/skos/core#example> "Sapevo che era una scorciatroia! Ora faremo in ritardo..."@it .
+<http://www.vocabolangelo.org/scorciatroia> <http://www.w3.org/2004/02/skos/core#definition> "Un itinerario che, tra due località, può apparentemente sembrare più breve della principale via stradale, ma che in realtà risulta essere più lungo."@it .
+<http://www.vocabolangelo.org/scorciatroia> <http://www.w3.org/2004/02/skos/core#example> "Marco decise di prendere la strada che passava per il bosco pensando fosse un'alternativa più veloce alla strada principale, ma si ritrovò in un labirinto di stradine tortuose, incroci insensati e indicazioni confuse. Alla fine, quel percorso si rivelò una vera e propria scorciatroia, facendolo arrivare a destinazione con un ritardo inimmaginabile."@it .
 <http://www.vocabolangelo.org/scorciatroia> <https://schema.org/image> "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/scorciatroia.jpg" .
 <http://www.vocabolangelo.org/scorciatroia> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
 <http://www.vocabolangelo.org/singhiozzutto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/singhiozzutto> <http://www.w3.org/2004/02/skos/core#prefLabel> "Singhiozzutto"@it .
 <http://www.vocabolangelo.org/singhiozzutto> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/sin • gioz • zùt • to/"@it .
-<http://www.vocabolangelo.org/singhiozzutto> <http://www.w3.org/2004/02/skos/core#definition> "Un rutto che esce mentre si ha anche un colpo di singhiozzo."@it .
-<http://www.vocabolangelo.org/singhiozzutto> <http://www.w3.org/2004/02/skos/core#example> "Ieri Nicole ha fatto un singhiozzutto e non riuscivo a smettere di ridere."@it .
+<http://www.vocabolangelo.org/singhiozzutto> <http://www.w3.org/2004/02/skos/core#definition> "Episodio in cui si verificano quasi contemporaneamente un rutto ed un colpo di singhiozzo."@it .
+<http://www.vocabolangelo.org/singhiozzutto> <http://www.w3.org/2004/02/skos/core#example> "Mentre Nicole cercava di raccontare la sua storia commovente durante una cena elegante, un'imprevista combinazione di eventi si presentò: un rutto indomabile si fece strada attraverso le sue labbra, seguito da un colpo di singhiozzo che la fece sobbalzare. Tutti i presenti si ritrovarono a metà tra l'imbarazzo e il divertimento, creando un momento indimenticabile che fece scoppiare l'intera sala in un'ilarità contagiosa. Quel singhiozzutto rimarrà per sempre un ricordo indimenticabile."@it .
 <http://www.vocabolangelo.org/singhiozzutto> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
 <http://www.vocabolangelo.org/sparatroia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/sparatroia> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sparatroia"@it .
 <http://www.vocabolangelo.org/sparatroia> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/spa • ra • trò • ia/"@it .
-<http://www.vocabolangelo.org/sparatroia> <http://www.w3.org/2004/02/skos/core#definition> "Quando c’è una sparatroia in cui molta gente spara a caso."@it .
-<http://www.vocabolangelo.org/sparatroia> <http://www.w3.org/2004/02/skos/core#example> "Ho perso l'uso dell'occhio destro a causa di una sparatroia."@it .
+<http://www.vocabolangelo.org/sparatroia> <http://www.w3.org/2004/02/skos/core#definition> "Una situazione in cui molte persone coinvolte sparano indiscriminatamente e senza alcun fondamento."@it .
+<http://www.vocabolangelo.org/sparatroia> <http://www.w3.org/2004/02/skos/core#example> "Nella confusione del saloon, i cowboy iniziarono una sparatroia caotica, sparando a caso e senza senso. I proiettili volavano in tutte le direzioni, colpendo bottiglie, tavoli e persino il lampadario. La scena si trasformò in un assurdo balletto di proiettili senza meta, lasciando tutti a bocca aperta per la totale mancanza di coordinazione e logica di quel momento bizzarro."@it .
 <http://www.vocabolangelo.org/sparatroia> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
 <http://www.vocabolangelo.org/stancoso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/stancoso> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stancoso"@it .
 <http://www.vocabolangelo.org/stancoso> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/stan • có • so/"@it .
-<http://www.vocabolangelo.org/stancoso> <http://www.w3.org/2004/02/skos/core#definition> "Sinonimo di stanco, assonnato."@it .
-<http://www.vocabolangelo.org/stancoso> <http://www.w3.org/2004/02/skos/core#example> "Non dormo da due giorni, sono stancoso."@it .
+<http://www.vocabolangelo.org/stancoso> <http://www.w3.org/2004/02/skos/core#definition> "Affaticato e sopito a causa di una cronica privazione del sonno."@it .
+<http://www.vocabolangelo.org/stancoso> <http://www.w3.org/2004/02/skos/core#example> "Stava cercando disperatamente di seguire una lezione noiosa, ma era troppo stancoso. Lottò tenacemente per restare sveglio, ma alla fine si ritrovò a combattere una guerra epica contro lo sbadiglio e il colpo di testa imminente. La sua testa si chinò, il suo corpo si contorse in posizioni strane e, in un momento di totale sconfitta, cominciò anche a parlare lo sbadigliese."@it .
+<http://www.vocabolangelo.org/stancoso> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/sbadigliese> .
 <http://www.vocabolangelo.org/stancoso> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
 <http://www.vocabolangelo.org/stravoloso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/stravoloso> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stravoloso"@it .
 <http://www.vocabolangelo.org/stravoloso> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/stra • vo • ló • so/"@it .
-<http://www.vocabolangelo.org/stravoloso> <http://www.w3.org/2004/02/skos/core#definition> "Sinonimo di favoloso, ma più in grande. Simile a strabiliante, incredibile."@it .
-<http://www.vocabolangelo.org/stravoloso> <http://www.w3.org/2004/02/skos/core#example> "Domani Mia si sposa! Stravoloso!"@it .
+<http://www.vocabolangelo.org/stravoloso> <http://www.w3.org/2004/02/skos/core#definition> "Favoloso, ma con un'aura di grandezza superiore. Eccezionalmente magnifico. Qualcosa che supera la meraviglia e l'incredibilità comuni, evidenziando un livello di grandiosità straordinario e sorprendente."@it .
+<http://www.vocabolangelo.org/stravoloso> <http://www.w3.org/2004/02/skos/core#example> "Le tagliatelle che hanno servito a Sasha in quel ristorante erano veramente stravolose. Ogni singola tagliatella era un capolavoro culinario, con sapori sorprendenti e una presentazione impeccabile. Ogni boccone era un'esperienza gustativa straordinaria. Sasha non riusciva a smettere di esclamare quanto fossero deliziose. Gli chef avevano davvero superato loro stessi, creando un'esperienza gastronomica eccezionale che mi lo fece vomitare a causa di un indigestione. Nonostante tutto, quelle tagliatelle erano talmente stravolose che Sasha continuo a mangiarle anche dopo averle vomitate in bagno."@it .
 <http://www.vocabolangelo.org/stravoloso> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
 <http://www.vocabolangelo.org/stroia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/stroia> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stroia"@it .
 <http://www.vocabolangelo.org/stroia> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/strò • ia/"@it .
-<http://www.vocabolangelo.org/stroia> <http://www.w3.org/2004/02/skos/core#definition> "Una persona che è contemporaneamente sia stronza che troia."@it .
-<http://www.vocabolangelo.org/stroia> <http://www.w3.org/2004/02/skos/core#example> "Quella lì sta sempre vicina al mio ragazzo, è proprio una stroia!"@it .
+<http://www.vocabolangelo.org/stroia> <http://www.w3.org/2004/02/skos/core#definition> "Un individuo che si caratterizza per essere inetto, e che mostra una tendenza verso comportamenti libertini e poco restrittivi."@it .
+<http://www.vocabolangelo.org/stroia> <http://www.w3.org/2004/02/skos/core#example> "Claudio ha scoperto che Martina lo tradiva con non uno, non due, ma ben tre suoi compagni di corso. Martina aveva fatto di tutto per nasconderglielo e quando Claudio lo ha scoperto lei non solo non si è scusata, ma ha cercato pure di addossargli la colpa dicendogli che non le dava abbastanza attenzioni. Che grandissima stroia!"@it .
 <http://www.vocabolangelo.org/stroia> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/battaglinoNicole> .
 <http://www.vocabolangelo.org/stupendoso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/stupendoso> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stupendoso"@it .
 <http://www.vocabolangelo.org/stupendoso> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/stu • pen • dó • so/"@it .
-<http://www.vocabolangelo.org/stupendoso> <http://www.w3.org/2004/02/skos/core#definition> "Sinonimo di stupendo."@it .
-<http://www.vocabolangelo.org/stupendoso> <http://www.w3.org/2004/02/skos/core#example> "Quel ragazzo è stupendoso."@it .
+<http://www.vocabolangelo.org/stupendoso> <http://www.w3.org/2004/02/skos/core#definition> "Stupendo, ma con un'enfasi esagerata e maestosa. Incredibilmente sublime. Che vanta straordinaria grandezza e bellezza, andando oltre la semplice bellezza per raggiungere un livello di ammirazione quasi divino."@it .
+<http://www.vocabolangelo.org/stupendoso> <http://www.w3.org/2004/02/skos/core#example> "L'omnicio, è un essere estremamente maestoso e incredibilmente sublime. La sua presenza evoca una sensazione di meraviglia e ammirazione, poiché il suo aspetto è così stupendoso ed imponente. L'occhio dell'omnicio brilla come una stella, emanando saggezza e mistero. La sua figura imponente e la sua maestosità lo rendono una creatura che incanta e affascina chiunque abbia il privilegio di ammirarlo."@it .
+<http://www.vocabolangelo.org/stupendoso> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/omnicio> .
 <http://www.vocabolangelo.org/stupendoso> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
 <http://www.vocabolangelo.org/tardivare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/tardivare> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tardivare"@it .
 <http://www.vocabolangelo.org/tardivare> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/tar • di • và • re/"@it .
-<http://www.vocabolangelo.org/tardivare> <http://www.w3.org/2004/02/skos/core#definition> "Arrivare, ma tardi."@it .
-<http://www.vocabolangelo.org/tardivare> <http://www.w3.org/2004/02/skos/core#example> "Non possiamo tardivare proprio oggi!"@it .
+<http://www.vocabolangelo.org/tardivare> <http://www.w3.org/2004/02/skos/core#definition> "Giungere con un certo ritardo rispetto all'orario previsto o desiderato"@it .
+<http://www.vocabolangelo.org/tardivare> <http://www.w3.org/2004/02/skos/core#example> "Dopo aver lottato con il traffico e aver cercato un parcheggio per un'eternità, finalmente riuscii ad arrivare alla festa. Peccato che, nel momento in cui aprii la porta, tutti stavano già facendo il conto alla rovescia per il brindisi di mezzanotte. Mi guardai intorno confuso, rendendomi conto che ero arrivato, ma in ritardo di tutto un anno! Nonostante il mio arrivo tardivo, tutti si misero a ridere e mi accolsero con un caloroso abbraccio, dichiarandomi ufficialmente il ritardatario dell'anno. Almeno il mio tardivare aveva portato un sorriso sulle loro facce! Se solo avessi seguito il navigatore invece che prendere quella scorciatroia probabilmente sarei arrivato in orario."@it .
+<http://www.vocabolangelo.org/tardivare> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/scorciatroia> .
 <http://www.vocabolangelo.org/tardivare> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
 <http://www.vocabolangelo.org/tiramirillo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/tiramirillo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tiramirillo"@it .
 <http://www.vocabolangelo.org/tiramirillo> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/ti • ra • mi • rìl • lo/"@it .
-<http://www.vocabolangelo.org/tiramirillo> <http://www.w3.org/2004/02/skos/core#definition> "Un tiramisù regolare, ma il caffè utilizzato nel procedimento è rimpiazzato dal cafferillo."@it .
-<http://www.vocabolangelo.org/tiramirillo> <http://www.w3.org/2004/02/skos/core#example> "Dato che oggi è festa ho preprato un tiramirillo."@it .
+<http://www.vocabolangelo.org/tiramirillo> <http://www.w3.org/2004/02/skos/core#definition> "Un tiramisù tradizionale, ma invece del classico caffè utilizzato nella preparazione, viene sostituito con il cafferillo."@it .
+<http://www.vocabolangelo.org/tiramirillo> <http://www.w3.org/2004/02/skos/core#example> "Durante una cena elegante, il maestro pasticcere presentò il suo tiramisù gourmet. Tutti si preparavano ad assaporare il classico abbraccio tra il caffè e i savoiardi, ma per sorpresa di tutti, il maestro svelò il suo tocco creativo. Il caffè, componente fondamentale del tiramisù, venne sostituito con una miscela speciale: il cafferillo, un caffè arricchito con uno sciroppo irresistibilmente dolce al mirtillo. Il primo morso fu un'esplosione di sapori inaspettati, un'armonia intrigante tra la dolcezza del mirtillo e la morbidezza del mascarpone. Le facce di sorpresa si trasformarono in sorrisi soddisfatti, mentre i commensali si lasciavano conquistare da questa variante audace e deliziosa del tiramirillo."@it .
 <http://www.vocabolangelo.org/tiramirillo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/cafferillo> .
 <http://www.vocabolangelo.org/tiramirillo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
 <http://www.vocabolangelo.org/trocatrice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/trocatrice> <http://www.w3.org/2004/02/skos/core#prefLabel> "Trocatrice"@it .
 <http://www.vocabolangelo.org/trocatrice> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/tro • ca • trì • ce/"@it .
-<http://www.vocabolangelo.org/trocatrice> <http://www.w3.org/2004/02/skos/core#definition> "Una persona che trucca le persone ma fornisce loro anche della droga. Sia la vendita legale che lo spaccio valgono per l’utilizzo di questa parola."@it .
-<http://www.vocabolangelo.org/trocatrice> <http://www.w3.org/2004/02/skos/core#example> "Ho rimediato due grammi dalla trocatrice."@it .
+<http://www.vocabolangelo.org/trocatrice> <http://www.w3.org/2004/02/skos/core#definition> "Una persona che svolge principalmente l'attività di truccatore professionista, ma che sotto banco offre anche sostanze stupefacenti."@it .
+<http://www.vocabolangelo.org/trocatrice> <http://www.w3.org/2004/02/skos/core#example> "Mi sono procurato due grammi artigianali eccezionali dalla trocatrice. La consistenza della roba era perfetta. Appena la ho assaggiata, sono stato trasportato in un mondo di dolcezza e piacere. Ogni morso era un'esplosione di gioia. È stata un'esperienza indimenticabile, un trip gustativo che mi ha fatto sballare di felicità."@it .
 <http://www.vocabolangelo.org/trocatrice> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/ribaudoSofia> .
 <http://www.vocabolangelo.org/uovograna> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/uovograna> <http://www.w3.org/2004/02/skos/core#prefLabel> "Uovograna"@it .
 <http://www.vocabolangelo.org/uovograna> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/uo • vo • grà • na/"@it .
 <http://www.vocabolangelo.org/uovograna> <http://www.w3.org/2004/02/skos/core#definition> "Albume cotto con sopra semi di melograno."@it .
-<http://www.vocabolangelo.org/uovograna> <http://www.w3.org/2004/02/skos/core#example> "Oggi mi sono mangiato un uovograna."@it .
+<http://www.vocabolangelo.org/uovograna> <http://www.w3.org/2004/02/skos/core#example> "C'era una volta un ristorante in un piccolo villaggio, noto per le sue creazioni audaci in cucina. Tra queste, c'era un piatto che suscitava reazioni contrastanti: l'uovograna. Alcuni lo adoravano per la combinazione inusuale di texture e sapori, mentre altri lo trovavano semplicemente disgustoso. Nonostante le opinioni contrastanti, il piatto continuava a essere servito nel ristorante, diventando un'attrazione curiosa per coloro che volevano sperimentare nuove sensazioni gustative."@it .
 <http://www.vocabolangelo.org/uovograna> <https://schema.org/image> "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/uovograna.jpg" .
 <http://www.vocabolangelo.org/uovograna> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
 <http://www.vocabolangelo.org/urlatto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/urlatto> <http://www.w3.org/2004/02/skos/core#prefLabel> "Urlatto"@it .
 <http://www.vocabolangelo.org/urlatto> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/ur • làt • to/"@it .
-<http://www.vocabolangelo.org/urlatto> <http://www.w3.org/2004/02/skos/core#definition> "Gatto che urla."@it .
-<http://www.vocabolangelo.org/urlatto> <http://www.w3.org/2004/02/skos/core#example> "Sotto casa mia ci sono degli urlatti."@it .
+<http://www.vocabolangelo.org/urlatto> <http://www.w3.org/2004/02/skos/core#definition> "Un felino che urla frequentemente e fragorosamente."@it .
+<http://www.vocabolangelo.org/urlatto> <http://www.w3.org/2004/02/skos/core#example> "Nell'un tempo tranquillo quartiere residenziale, c'era un urlatto di nome Golia. Questo simpatico felino, dotato di una voce potente e indomabile, amava comunicare con il mondo intero attraverso vocalizzazioni fragorose e stridenti. Nonostante le proteste e le risate delle persone, Golia non smetteva mai di urlare, conquistando la sua fama di gatto dal più rumoroso della città."@it .
 <http://www.vocabolangelo.org/urlatto> <https://schema.org/image> "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/urlatto.jpg" .
 <http://www.vocabolangelo.org/urlatto> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
 <http://www.vocabolangelo.org/yoguovo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/yoguovo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Yoguovo"@it .
 <http://www.vocabolangelo.org/yoguovo> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/yo • guò • vo/"@it .
-<http://www.vocabolangelo.org/yoguovo> <http://www.w3.org/2004/02/skos/core#definition> "Yogurt (di qualsiasi tipo) sopra albume d’uovo cotto. La prima volta che è stato testato lo yogurt era alla pesca."@it .
-<http://www.vocabolangelo.org/yoguovo> <http://www.w3.org/2004/02/skos/core#example> "Lo yoguovo fa schifo."@it .
+<http://www.vocabolangelo.org/yoguovo> <http://www.w3.org/2004/02/skos/core#definition> "L'abbinamento insolito tra albume d'uovo cotto e yogurt di qualsiasi tipo."@it .
+<http://www.vocabolangelo.org/yoguovo> <http://www.w3.org/2004/02/skos/core#example> "In cucina, uno strano accostamento è quello dello yoguovo, che consiste nell'appoggiare dello yogurt sopra un albume d'uovo cotto. Tuttavia, questa combinazione potrebbe non risultare gradevole al palato di tutti."@it .
+<http://www.vocabolangelo.org/yoguovo> <http://www.w3.org/2004/02/skos/core#note> "Il giorno della nascita dello yoguovo, il sapore dello yogurt utilizzato era alla pesca." .
 <http://www.vocabolangelo.org/yoguovo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
 <http://www.vocabolangelo.org/zeresimo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/zeresimo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zeresimo"@it .
 <http://www.vocabolangelo.org/zeresimo> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/ze • ré • ṣi • mo/"@it .
 <http://www.vocabolangelo.org/zeresimo> <http://www.w3.org/2004/02/skos/core#definition> "Che occupa, in una serie, reale o ipotetica, il posto corrispondente al numero zero o, in senso più generico, prima dell’inizio."@it .
-<http://www.vocabolangelo.org/zeresimo> <http://www.w3.org/2004/02/skos/core#example> "Sono arrivato zeresimo."@it .
+<http://www.vocabolangelo.org/zeresimo> <http://www.w3.org/2004/02/skos/core#example> "In quella serie fantascientifica, lo zeresimo episodio introduce il pubblico all'universo narrativo, ma senza essere ancora parte della trama principale. Questo permette di gettare delle basi più solide per meglio gustarsi gli eventi che accadranno."@it .
 <http://www.vocabolangelo.org/zeresimo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
 <http://www.vocabolangelo.org/arsenzio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/arsenzio> <http://www.w3.org/2004/02/skos/core#prefLabel> "Arsenzio"@it .
 <http://www.vocabolangelo.org/arsenzio> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/ar • sèn • zio/"@it .
 <http://www.vocabolangelo.org/arsenzio> <http://www.w3.org/2004/02/skos/core#definition> "Assenzio con dentro arsenico."@it .
-<http://www.vocabolangelo.org/arsenzio> <http://www.w3.org/2004/02/skos/core#example> "Stasera mi faccio un bicchierino di Arsenzio."@it .
+<http://www.vocabolangelo.org/arsenzio> <http://www.w3.org/2004/02/skos/core#example> "Ieri ho parlato con Marco, un mio amico che lavora come operatore presso la linea diretta d'emergenza per prevenire i suicidi. Mi ha raccontato che ieri ha chiamato un tale che voleva farla finita bevendosi uno shot di arsenzio. Per fortuna Marco è riuscito a convincerlo a non farlo, ma ammetto che è veramente un modo stiloso per andarsene!"@it .
+<http://www.vocabolangelo.org/arsenzio> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/cappuccido> .
+<http://www.vocabolangelo.org/arsenzio> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/intè> .
 <http://www.vocabolangelo.org/arsenzio> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/bragariAlexandru> .
 <http://www.vocabolangelo.org/piedofilo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/piedofilo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Piedofilo"@it .
 <http://www.vocabolangelo.org/piedofilo> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/pie • do • fì • lo/"@it .
 <http://www.vocabolangelo.org/piedofilo> <http://www.w3.org/2004/02/skos/core#definition> "Un pedofilo che è anche feticista dei piedi."@it .
-<http://www.vocabolangelo.org/piedofilo> <http://www.w3.org/2004/02/skos/core#example> "Stai attento, quello è un piedofilo."@it .
+<http://www.vocabolangelo.org/piedofilo> <http://www.w3.org/2004/02/skos/core#example> "Non esistono al mondo persone più schifose dei piedofili. Quelle persone amano i piedi dei vostri bambini e ci fanno pensieri perversi sopra! Dobbiamo salvare i bambini!"@it .
 <http://www.vocabolangelo.org/piedofilo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/bragariAlexandru> .
 <http://www.vocabolangelo.org/mussulnano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/mussulnano> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mussulnano"@it .
 <http://www.vocabolangelo.org/mussulnano> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/mus • sul • nà • no/"@it .
 <http://www.vocabolangelo.org/mussulnano> <http://www.w3.org/2004/02/skos/core#definition> "Un mussulmano nano."@it .
-<http://www.vocabolangelo.org/mussulnano> <http://www.w3.org/2004/02/skos/core#example> "Quel ragazzo è un mussulnano."@it .
+<http://www.vocabolangelo.org/mussulnano> <http://www.w3.org/2004/02/skos/core#example> "Durante l'assemblea, un mussulnano si alzò e prese la parola con grande eloquenza, dimostrando che il valore delle idee non è legato alla fisicità, ma alla forza della mente e delle parole. L'uomo cominciò il suo discorso divendo: \"Oggi desidero condividere con voi una riflessione sul potere e la grandezza delle montagne. Sebbene io sia un uomo di bassa statura, ho imparato che l'altezza fisica non è un fattore determinante per apprezzare la maestosità di questi imponenti giganti naturali.\""@it .
 <http://www.vocabolangelo.org/mussulnano> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
 <http://www.vocabolangelo.org/arbitroio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/arbitroio> <http://www.w3.org/2004/02/skos/core#prefLabel> "Arbitroio"@it .
 <http://www.vocabolangelo.org/arbitroio> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/ar • bi • trò • io/"@it .
 <http://www.vocabolangelo.org/arbitroio> <http://www.w3.org/2004/02/skos/core#definition> "Qualcosa che per qualche ragione sconosciuta non funziona sempre anche se dovrebbe."@it .
-<http://www.vocabolangelo.org/arbitroio> <http://www.w3.org/2004/02/skos/core#example> "Il risultato è inaspettato, questa deve essere una regola arbitroia."@it .
+<http://www.vocabolangelo.org/arbitroio> <http://www.w3.org/2004/02/skos/core#example> "Ho appena comprato un nuovo telecomando universale, ma sembra che abbia un'aura di arbitroio attorno a sé. Funziona perfettamente quando voglio accendere la televisione, ma quando cerco di cambiare il canale, improvvisamente smette di rispondere. È come se il telecomando decidesse autonomamente quali comandi accettare. È un caso unico di arbitroio tecnologico che mi fa scervellare ogni volta che voglio vedere un programma diverso!"@it .
+<http://www.vocabolangelo.org/arbitroio> <http://www.w3.org/2004/02/skos/core#note> "La parola nasce come slangelo. La vera parola era \"regola arbitroia\" ma le vocaboregolangelo del tempo non permettevano di creare parole con gli spazi."@it .
 <http://www.vocabolangelo.org/arbitroio> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
 <http://www.vocabolangelo.org/serraiolo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/serraiolo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Serraiolo"@it .
 <http://www.vocabolangelo.org/serraiolo> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/ser • ra • iò • lo/"@it .
 <http://www.vocabolangelo.org/serraiolo> <http://www.w3.org/2004/02/skos/core#definition> "Il gestore di una serra."@it .
-<http://www.vocabolangelo.org/serraiolo> <http://www.w3.org/2004/02/skos/core#example> "Il serraiolo oggi non ha voglia di lavorare."@it .
+<http://www.vocabolangelo.org/serraiolo> <http://www.w3.org/2004/02/skos/core#example> "Il serraiolo, con la sua passione per le piante e la natura, aveva un pollice verde invidiabile. Tuttavia, ogni volta che provava a coltivare piante di carote, succedeva qualcosa di davvero strano. Le carote crescevano in modo insolito, assumendo forme bizzarre e fantasiose. Alcune sembravano corni di unicorno, altre assomigliavano a carote con baffi e occhiali da sole. Il gestore, sbalordito, pensò che la sua serra fosse affetta da un curioso caso di arbitroio vegetale, dove le carote decidevano di diventare degli eccentrici personaggi piuttosto che semplici ortaggi."@it .
+<http://www.vocabolangelo.org/serraiolo> <http://www.w3.org/2004/02/skos/core#note> "La parola nasce durante lo sviluppo di un progetto universitario di nome Brittany"@it .
 <http://www.vocabolangelo.org/serraiolo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/talmiAlessandro> .
 <http://www.vocabolangelo.org/squarciatroia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/squarciatroia> <http://www.w3.org/2004/02/skos/core#prefLabel> "Squarciatroia"@it .
 <http://www.vocabolangelo.org/squarciatroia> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/squar • cia • trò • ia/"@it .
 <http://www.vocabolangelo.org/squarciatroia> <http://www.w3.org/2004/02/skos/core#definition> "Un modo alternativo e più dispregiativo per identificare una scorciatroia."@it .
-<http://www.vocabolangelo.org/squarciatroia> <http://www.w3.org/2004/02/skos/core#example> "Mannaggia a quella squarciatroia!"@it .
+<http://www.vocabolangelo.org/squarciatroia> <http://www.w3.org/2004/02/skos/core#example> "C'era una volta Luca, un avventuriero intraprendente. Convinto che avrebbe risparmiato tempo, prese una strada diversa dal solito, ma ben presto si rese conto che quella strada, invece di accorciare il percorso, si rivelò una scorciatroia. La sua frustrazione cresceva ad ogni passo, facendolo gridare frasi come \"Odio le maledette squarciatroie!\", finché alla fine, esausto, tornò esattamente al punto di partenza. Quella strada aveva reso Luca furioso, ma imparò che l'avventura vera non era nella lunghezza, bensì nel viaggio stesso, e da quel giorno scelse con saggezza i suoi percorsi, sorridendo delle sue disavventure passate."@it .
 <http://www.vocabolangelo.org/squarciatroia> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/scorciatroia> .
 <http://www.vocabolangelo.org/squarciatroia> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/talmiAlessandro> .
 <http://www.vocabolangelo.org/scontante> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -952,28 +962,29 @@
 <http://www.vocabolangelo.org/scontante> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/scon • tàn • te/"@it .
 <http://www.vocabolangelo.org/scontante> <http://www.w3.org/2004/02/skos/core#definition> "Pagamento effettuato in contanti di importo misero ai fini di evitare le tasse imposte dallo stato."@it .
 <http://www.vocabolangelo.org/scontante> <http://www.w3.org/2004/02/skos/core#definition> "Sconto su un importo sostanziale offerto dal negoziante a condizione di effettuare un pagamento in contanti per consentire al negoziante stesso di non pagare tasse allo stato su quell'importo"@it .
-<http://www.vocabolangelo.org/scontante> <http://www.w3.org/2004/02/skos/core#example> "Sono povero, pago con lo scontante."@it .
-<http://www.vocabolangelo.org/scontante> <http://www.w3.org/2004/02/skos/core#example> "Sono 1400€ se paghi col bancomat, 1200€ con lo scontante"@it .
+<http://www.vocabolangelo.org/scontante> <http://www.w3.org/2004/02/skos/core#example> "Mi spiace, ma se non te ne sei accorto siamo in Italia. Devo farti pagare 1400€ se paghi col bancomat. Se scegli lo scontate tuttavia, posso far scendere il prezzo a 1200€. Cosa scegli?"@it .
+<http://www.vocabolangelo.org/scontante> <http://www.w3.org/2004/02/skos/core#example> "Purtroppo sono povero, devo per forza pagare con lo scontante, altrimenti potrei non riuscire ad arrivare a fine mese."@it .
 <http://www.vocabolangelo.org/scontante> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/orlandoNicola> .
 <http://www.vocabolangelo.org/coscionchetta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/coscionchetta> <http://www.w3.org/2004/02/skos/core#prefLabel> "Coscionchetta"@it .
 <http://www.vocabolangelo.org/coscionchetta> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/co • scion • chèt • ta/"@it .
 <http://www.vocabolangelo.org/coscionchetta> <http://www.w3.org/2004/02/skos/core#definition> "Conca che si crea tra la coscia e la vita in determinate condizioni dovute alla postura che si assume."@it .
-<http://www.vocabolangelo.org/coscionchetta> <http://www.w3.org/2004/02/skos/core#example> "Hai una coscionchetta davvero carina!"@it .
+<http://www.vocabolangelo.org/coscionchetta> <http://www.w3.org/2004/02/skos/core#example> "Sofia era nota per la sua straordinaria coscionchetta. Ogni volta che si sedeva, la sua conca tra coscia e vita si evidenziava ed era come un abbraccio caloroso per gli occhi delle persone. La gente intorno a lei pensava che avesse una coscionchetta magnetica, ma lei si limitava a ridere e dire: \"È solo un mio tratto caratteristico, sono nata così!\"."@it .
 <http://www.vocabolangelo.org/coscionchetta> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/ribaudoSofia> .
 <http://www.vocabolangelo.org/vibridi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/vibridi> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vibridi"@it .
 <http://www.vocabolangelo.org/vibridi> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/vì • bri • di/"@it .
 <http://www.vocabolangelo.org/vibridi> <http://www.w3.org/2004/02/skos/core#definition> "Sensazione circoscritta al diaframma simile ai brividi ma che include solo parte relativa alla stimolazione senza il classico movimento che ne consegue."@it .
-<http://www.vocabolangelo.org/vibridi> <http://www.w3.org/2004/02/skos/core#example> "Stare così in alto mi fa venire i vibridi..."@it .
+<http://www.vocabolangelo.org/vibridi> <http://www.w3.org/2004/02/skos/core#example> "Ieri i miei amici si sono arrampicati su un gioco per i bambini in quel parchetto a Senigallia per sfuggire all'alluvione e ho dovuto seguirli per cercare di non morire. Spero non succerà mai più, stare così in alto mi ha fatto venire i vibridi..."@it .
 <http://www.vocabolangelo.org/vibridi> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/orlandoNicola> .
 <http://www.vocabolangelo.org/contanegrino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/contanegrino> <http://www.w3.org/2004/02/skos/core#prefLabel> "Contanegrino"@it .
 <http://www.vocabolangelo.org/contanegrino> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/con • ta • ne • grì • no/"@it .
 <http://www.vocabolangelo.org/contanegrino> <http://www.w3.org/2004/02/skos/core#definition> "Contadino con la carnagione scura."@it .
 <http://www.vocabolangelo.org/contanegrino> <http://www.w3.org/2004/02/skos/core#definition> "Contadino montenegrino (abitante del Montenegro)."@it .
-<http://www.vocabolangelo.org/contanegrino> <http://www.w3.org/2004/02/skos/core#example> "Mio zio è un contanegrino."@it .
+<http://www.vocabolangelo.org/contanegrino> <http://www.w3.org/2004/02/skos/core#example> "Mio zio ha coltivato pomodori per tutta l'estate. Quando l'ho visto a Settembre non potevo credere ai miei occhi. Si era abbronzato talmente tanto da non sembrare lui. Era diventato un vero contanegrino."@it .
 <http://www.vocabolangelo.org/contanegrino> <https://schema.org/image> "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/contanegrino.jpg" .
+<http://www.vocabolangelo.org/contanegrino> <http://www.w3.org/2004/02/skos/core#note> "La parola nasce durante lo sviluppo di un progetto universitario di nome Brittany"@it .
 <http://www.vocabolangelo.org/contanegrino> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/talmiAlessandro> .
 <http://www.vocabolangelo.org/contanegrino> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
 <http://www.vocabolangelo.org/contanegrino> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
@@ -981,67 +992,67 @@
 <http://www.vocabolangelo.org/tempoglia> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tempoglia"@it .
 <http://www.vocabolangelo.org/tempoglia> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/tem • pò • glia/"@it .
 <http://www.vocabolangelo.org/tempoglia> <http://www.w3.org/2004/02/skos/core#definition> "Concetto rapido utilizzato da persone svogliate per indicare sia il tempo che la voglia. Generalmente viene utilizzato per indicare la mancanza di entrambi."@it .
-<http://www.vocabolangelo.org/tempoglia> <http://www.w3.org/2004/02/skos/core#example> "Non ho tempoglia di studiare."@it .
+<http://www.vocabolangelo.org/tempoglia> <http://www.w3.org/2004/02/skos/core#example> "Non ho tempoglia di studiare. Penso che andrò a dormire."@it .
 <http://www.vocabolangelo.org/tempoglia> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/talmiAlessandro> .
 <http://www.vocabolangelo.org/angurianesimo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/angurianesimo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Angurianesimo"@it .
 <http://www.vocabolangelo.org/angurianesimo> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/an • gu • ria • né • ṣi • mo/"@it .
 <http://www.vocabolangelo.org/angurianesimo> <http://www.w3.org/2004/02/skos/core#definition> "Un tipo di dieta molto più valida di quella vegetariana o vegana. Consiste nel mangiare circa 7kg di anguria al giorno, bucce e semi inclusi. I semi di anguria sono ricchi di vitamine, sali minerali e più contengono più proteine della carne. Inoltre si avrà a disposizione il 100% del ferro necessario in un giorno, cosa che invece i vegani e vegetariani devono integrare con le pillole."@it .
-<http://www.vocabolangelo.org/angurianesimo> <http://www.w3.org/2004/02/skos/core#example> "Ho cominciato un nuovo tipo di dieta, si chiama angurianesimo."@it .
+<http://www.vocabolangelo.org/angurianesimo> <http://www.w3.org/2004/02/skos/core#example> "C'era una volta un eccentrico personaggio di nome Carlo, convinto sostenitore dell'angurianesimo. Ogni giorno, mangiava quantità smisurate di anguria, bucce e semi inclusi, convinto che fosse la chiave per la salute e la vitalità. Camminava per strada con un carretto pieno di angurie giganti, distribuendole a chiunque incontrasse. Gli amici lo guardavano perplessi e gli chiedevano: \"Carlo, perché mangi così tanta anguria?\". E lui rispondeva con un sorriso: \"L'anguria è il segreto della vita, mi sento un monaco tibetano!\". Anche se la sua dieta era eccentrica, Carlo riusciva a diffondere gioia e risate con la sua passione per l'angurianesimo."@it .
 <http://www.vocabolangelo.org/angurianesimo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/bragariAlexandru> .
 <http://www.vocabolangelo.org/ispettrore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/ispettrore> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ispettrore"@it .
 <http://www.vocabolangelo.org/ispettrore> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/is • pet • tró • re/"@it .
 <http://www.vocabolangelo.org/ispettrore> <http://www.w3.org/2004/02/skos/core#definition> "Istruttore di palestra che ha anche il ruolo di ispettore e multa chi non si allena."@it .
-<http://www.vocabolangelo.org/ispettrore> <http://www.w3.org/2004/02/skos/core#example> "Oggi l'isprettrore mi ha fatto una multa..."@it .
+<http://www.vocabolangelo.org/ispettrore> <http://www.w3.org/2004/02/skos/core#example> "C'era una volta un ispettrore di nome Marco. Un giorno, mentre osservava dalla sua scrivania, notò un ragazzo che faceva delle lunghe pause tra una serie e l'altra. Marco si avvicinò, con un buffo cappello in testa, e disse: \"Mi dispiace, ma devo multarla per eccessiva pausa, DIECI FLESSIONI LAMPO!\". Il povero ragazzo era sorpreso ma accettò, facendo le flessioni con un sorriso. Marco, grazie alla sua doppia veste, rendeva l'allenamento un'esperienza divertente e motivante per tutti."@it .
 <http://www.vocabolangelo.org/ispettrore> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/bragariAlexandru> .
 <http://www.vocabolangelo.org/esplisciata> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/esplisciata> <http://www.w3.org/2004/02/skos/core#prefLabel> "Esplisciata"@it .
 <http://www.vocabolangelo.org/esplisciata> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/es • pli • scià • ta/"@it .
-<http://www.vocabolangelo.org/esplisciata> <http://www.w3.org/2004/02/skos/core#definition> "Esplorazione atta a pisciare."@it .
-<http://www.vocabolangelo.org/esplisciata> <http://www.w3.org/2004/02/skos/core#example> "Io e Lorenzo andiamo in eslisciata."@it .
+<http://www.vocabolangelo.org/esplisciata> <http://www.w3.org/2004/02/skos/core#definition> "Esplorazione atta ad urinare."@it .
+<http://www.vocabolangelo.org/esplisciata> <http://www.w3.org/2004/02/skos/core#example> "Questa è la storia di Lorenzo ed Angelo due amici avventurosi che amavano le esplisciate. Un giorno decisero di fare un'escursione in una foresta sperduta. Durante il loro percorso, sentirono l'impellente bisogno di urinare e si separarono per trovare un posto adatto. Angelo si allontanò, mentre Lorenzo si fermò vicino a un grande albero. Dopo alcuni minuti, Lorenzo si rese conto che Angelo non era ancora tornato. Iniziò a chiamarlo, ma non ottenne risposta. Lorenzo, preoccupato, si mise a cercare il suo amico. Attraversò cespugli e attraversò ruscelli, ma di Angelo nessuna traccia. Finalmente, dopo un lungo e faticoso tragitto, Lorenzo riuscì a raggiungere il punto di partenza dell'escursione. E lì trovò Angelo, che lo stava aspettando con un sorriso. \"Ma dove diavolo sei stato?\" chiese Lorenzo. Angelo rise e rispose: \"Mentre cercavo un posto per urinare, mi sono imbattuto in una scorciatroia. Sono andato avanti e indietro per un po' prima di capire come tornare indietro. Scusa, mi ero perso!\". Lorenzo, sollevato, scosse la testa e disse: \"Mai avrei pensato che l'atto di urinare potesse portare a una tale avventura! Promettiamoci di restare sempre vicini nelle prossime esplisciate!\".E così, i due amici tornarono a casa ridendo della loro strana avventura, consapevoli che anche l'atto più comune può portare a situazioni assurde quando si è in esplisciata."@it .
 <http://www.vocabolangelo.org/esplisciata> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
 <http://www.vocabolangelo.org/negatico> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/negatico> <http://www.w3.org/2004/02/skos/core#prefLabel> "Negatico"@it .
 <http://www.vocabolangelo.org/negatico> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/ne • gà • ti • co/"@it .
-<http://www.vocabolangelo.org/negatico> <http://www.w3.org/2004/02/skos/core#definition> "Quando si risulta negativi al test del Covid 19 e ci si trova nel circolo polare artico."@it .
-<http://www.vocabolangelo.org/negatico> <http://www.w3.org/2004/02/skos/core#example> "Sono negatico!"@it .
+<http://www.vocabolangelo.org/negatico> <http://www.w3.org/2004/02/skos/core#definition> "Quando si risulta negativi al test del Covid-19 e ci si trova nel circolo polare artico."@it .
+<http://www.vocabolangelo.org/negatico> <http://www.w3.org/2004/02/skos/core#example> "Quando si risulta negatici, l'avventura diventa magica. Giancarlo, libero dalla quarantena, esplorò terre ghiacciate, ballò con pinguini e ammirò l'aurora boreale. Un'esperienza unica che riempì il suo cuore di gratitudine e meraviglia."@it .
 <http://www.vocabolangelo.org/negatico> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/bragariAlexandru> .
 <http://www.vocabolangelo.org/autovalaggio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/autovalaggio> <http://www.w3.org/2004/02/skos/core#prefLabel> "Autovalaggio"@it .
 <http://www.vocabolangelo.org/autovalaggio> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/au • to • va • làg • gio/"@it .
 <http://www.vocabolangelo.org/autovalaggio> <http://www.w3.org/2004/02/skos/core#definition> "Pulizia dell'auto attraverso l'umidità dell'aria."@it .
-<http://www.vocabolangelo.org/autovalaggio> <http://www.w3.org/2004/02/skos/core#example> "Visto che splendore? Tutto merito dell'autovalaggio."@it .
+<http://www.vocabolangelo.org/autovalaggio> <http://www.w3.org/2004/02/skos/core#example> "Una volta c'era un uomo di nome Alberto, ossessionato dalla pulizia della sua auto. Un giorno, notò che l'aria era particolarmente umida e decise di sfruttarla per pulire la sua macchina. Lasciò l'auto all'aperto e l'autovalaggio fece il suo lavoro magico, rendendo la carrozzeria splendente senza alcuno sforzo da parte di Alberto. Da quel momento in poi, Alberto fece affidamento sull'umidità dell'aria per tenere la sua auto pulita in modo rapido e senza fatica."@it .
 <http://www.vocabolangelo.org/autovalaggio> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
 <http://www.vocabolangelo.org/trashetto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/trashetto> <http://www.w3.org/2004/02/skos/core#prefLabel> "Trashetto"@it .
 <http://www.vocabolangelo.org/trashetto> <http://www.w3.org/2004/02/skos/core#definition> "Un biglietto di auguri fatto a mano in cui sono rappresentati eventi divertenti riguardanti la vita del festeggiato."@it .
-<http://www.vocabolangelo.org/trashetto> <http://www.w3.org/2004/02/skos/core#example> "Il trashetto di Nicola è il più bello di tutti."@it .
+<http://www.vocabolangelo.org/trashetto> <http://www.w3.org/2004/02/skos/core#example> "Una volta, Marta decise di fare una sorpresa speciale per il compleanno del suo migliore amico, Joy. Prese carta colorata e pennarelli e creò un trashetto. Rappresentò momenti divertenti della loro amicizia, dalle cadute in bicicletta alle risate scatenate. Quando Joy ricevette il biglietto, scoppiò a ridere, commosso dall'amore e dalla cura che Marta aveva messo in quel gesto."@it .
 <http://www.vocabolangelo.org/trashetto> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
 <http://www.vocabolangelo.org/coscino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/coscino> <http://www.w3.org/2004/02/skos/core#prefLabel> "Coscino"@it .
 <http://www.vocabolangelo.org/coscino> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/co • scì • no/"@it .
 <http://www.vocabolangelo.org/coscino> <http://www.w3.org/2004/02/skos/core#definition> "Cuscino messo sulle cosce al fine di alleviare i dolori del ciclo."@it .
-<http://www.vocabolangelo.org/coscino> <http://www.w3.org/2004/02/skos/core#example> "Che dolore... Meno male che ho un coscino."@it .
+<http://www.vocabolangelo.org/coscino> <http://www.w3.org/2004/02/skos/core#example> "Qualche mese fa Sofia ha sofferto di dolori estremi a causa del ciclo mestruale. Decise di provare un trucco consigliato dalla nonna: il coscino. Da quel giorno, ogni volta che arrivava quel momento del mese, Sofia si coccolava con il suo cuscinetto magico che alleviava i suoi dolori e le faceva sorridere."@it .
 <http://www.vocabolangelo.org/coscino> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/savoGiorgia> .
 <http://www.vocabolangelo.org/limonalbero> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/limonalbero> <http://www.w3.org/2004/02/skos/core#prefLabel> "Limonalbero"@it .
 <http://www.vocabolangelo.org/limonalbero> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/li • mo • nàl • be • ro/"@it .
 <http://www.vocabolangelo.org/limonalbero> <http://www.w3.org/2004/02/skos/core#definition> "Grafo non orientato e non pesato utilizzato per rappresentare chi ha baciato chi (archi) in un gruppo di persone (nodi)."@it .
-<http://www.vocabolangelo.org/limonalbero> <http://www.w3.org/2004/02/skos/core#example> "Stasera facciamo il limonalbero della nostra compagnia, se vieni proviamo a completarlo!"@it .
+<http://www.vocabolangelo.org/limonalbero> <http://www.w3.org/2004/02/skos/core#example> "Giulia era una giovane curiosa che aveva una strana passione per il disegno dei grafi. Durante una festa, Giulia decise di creare un limonalbero per rappresentare chi si era baciato con chi. A causa di questo, durante la serata, la situazione cominciò a scottare. Giulia disegnò nodi per ogni persona e archi tra i nodi per ogni bacio. Alla fine della serata, il grafo era pieno di linee intrecciate, dimostrando l'entusiasmante scambio di effusioni tra gli amici. Era un modo divertente per conservare i ricordi di quella serata indimenticabile."@it .
 <http://www.vocabolangelo.org/limonalbero> <https://schema.org/image> "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/limonalbero.jpg" .
 <http://www.vocabolangelo.org/limonalbero> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/ribaudoSofia> .
 <http://www.vocabolangelo.org/tappembramento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/tappembramento> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tappembramento"@it .
 <http://www.vocabolangelo.org/tappembramento> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/tap • pem • bra • mèn • to/"@it .
 <http://www.vocabolangelo.org/tappembramento> <http://www.w3.org/2004/02/skos/core#definition> "Assembramento fatto su un tappeto di comodità suprema."@it .
-<http://www.vocabolangelo.org/tappembramento> <http://www.w3.org/2004/02/skos/core#example> "Il piano per stasera è di fare un bel tappembramento."@it .
+<http://www.vocabolangelo.org/tappembramento> <http://www.w3.org/2004/02/skos/core#example> "Una volta, un gruppo di amici decise di organizzare un tappembramento a casa dell'amico in comune, Eddy. Presero un tappeto enorme, lo posizionarono nella sua stanza più grande di casa sua e invitarono tutti a sedersi e rilassarsi. Ci furono risate, chiacchiere e persino una mini-sessione di yoga sul tappeto. Era un tappembramento così confortevole che tutti dimenticarono di alzarsi e tornare a casa. Alla fine, il tappeto diventò il nuovo quartier generale delle riunioni dell'amicizia e della pigrizia assoluta."@it .
 <http://www.vocabolangelo.org/tappembramento> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/suscaMatteo> .
 <http://www.vocabolangelo.org/abbecedangelo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/abbecedangelo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Abbecedangelo"@it .
 <http://www.vocabolangelo.org/abbecedangelo> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/ab • be • ce • dàn • ge • lo/"@it .
 <http://www.vocabolangelo.org/abbecedangelo> <http://www.w3.org/2004/02/skos/core#definition> "Abbecedario per insegnare le parole del Vocabolangelo."@it .
-<http://www.vocabolangelo.org/abbecedangelo> <http://www.w3.org/2004/02/skos/core#example> "Insegnerò le parole del vocabolangelo a mio figlio grazie all'abbecedangelo."@it .
+<http://www.vocabolangelo.org/abbecedangelo> <http://www.w3.org/2004/02/skos/core#example> "Angelo decise di coinvolgere i suoi giovani vocabolieri in un gioco divertente: l'abbecedangelo. Ogni giorno, partendo dalla lettera A, ognuno doveva nominare una parolangelo e spiegarne il significato. Alla fine dell'abbecedangelo, i vocabolieri avevano ampliato il loro vocabolamgelo mentale e imparato a usare la fantasia in modo meraviglioso."@it .
 <http://www.vocabolangelo.org/abbecedangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelo> .
 <http://www.vocabolangelo.org/abbecedangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/angeloco> .
 <http://www.vocabolangelo.org/abbecedangelo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/minoccheriAlessandra> .
@@ -1049,78 +1060,70 @@
 <http://www.vocabolangelo.org/cappucciccia> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cappucciccia"@it .
 <http://www.vocabolangelo.org/cappucciccia> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/cap • puc • cìc • cia/"@it .
 <http://www.vocabolangelo.org/cappucciccia> <http://www.w3.org/2004/02/skos/core#definition> "Salsiccia imbevuta nel cappuccino."@it .
-<http://www.vocabolangelo.org/cappucciccia> <http://www.w3.org/2004/02/skos/core#example> "Non voglio mai mangiare una cappucciccia in vita mia."@it .
+<http://www.vocabolangelo.org/cappucciccia> <http://www.w3.org/2004/02/skos/core#example> "Una mattina, Arianna decise di sperimentare la cappucciccia. Con un misto di curiosità e coraggio, prese un morso e... sorprendentemente, scoprì che il sapore salato della salsiccia si mescolava in modo interessante con la dolcezza del cappuccino! Arianna scoprì un nuovo gusto che la sorprese e la fece ridere."@it .
 <http://www.vocabolangelo.org/cappucciccia> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/nardiniArianna> .
 <http://www.vocabolangelo.org/cappucciccia> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/bdeouiEddy> .
 <http://www.vocabolangelo.org/spiazio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/spiazio> <http://www.w3.org/2004/02/skos/core#prefLabel> "Spiazio"@it .
 <http://www.vocabolangelo.org/spiazio> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/spià • zio/"@it .
 <http://www.vocabolangelo.org/spiazio> <http://www.w3.org/2004/02/skos/core#definition> "Uno spiazzato estremamente spazioso."@it .
-<http://www.vocabolangelo.org/spiazio> <http://www.w3.org/2004/02/skos/core#example> "Questo spiazio è ancora più grande di quello che immaginassi!."@it .
+<http://www.vocabolangelo.org/spiazio> <http://www.w3.org/2004/02/skos/core#example> "Quello spiazio era così incredibilmente spazioso che sembrava uscito da un'opera d'arte surreale. Le persone che lo visitavano rimanevano esterrefatte dalla vastità dello spazio aperto. Potevano correre, saltare e girare senza mai toccare nulla intorno. Era un luogo magico, dove ci si poteva sentire completamente liberi, un'esperienza che ti faceva dimenticare tutto il resto."@it .
 <http://www.vocabolangelo.org/spiazio> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
 <http://www.vocabolangelo.org/spiazio> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/paoliMichele> .
 <http://www.vocabolangelo.org/grandino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/grandino> <http://www.w3.org/2004/02/skos/core#prefLabel> "Grandino"@it .
 <http://www.vocabolangelo.org/grandino> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/gran • dì • no/"@it .
 <http://www.vocabolangelo.org/grandino> <http://www.w3.org/2004/02/skos/core#definition> "Un gradino estremamente alto."@it .
-<http://www.vocabolangelo.org/grandino> <http://www.w3.org/2004/02/skos/core#example> "Se cascassi da quel grandino morirei per colpa dei danni da caduta."@it .
+<http://www.vocabolangelo.org/grandino> <http://www.w3.org/2004/02/skos/core#example> "Un ragno di nome Filippo, vivendo in un granaio, un giorno scoprì una porta socchiusa che portava a un corridoio misterioso. Deciso ad esplorare, si avventurò nel buio, finché non vide una luce provenire da una stanza. Ma tra lui e l'entrata c'era un grandino. Nonostante la sfida, Filippo trovò una corda abbandonata nel corridoio e con astuzia la utilizzò per superare l'ostacolo. Dall'altra parte, la stanza si rivelò un tesoro di oggetti antichi e storie dimenticate, aprendo la strada a molte altre avventure per il coraggioso ragno."@it .
 <http://www.vocabolangelo.org/grandino> <http://purl.org/dc/terms/created> "2022-08-12" .
 <http://www.vocabolangelo.org/grandino> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
 <http://www.vocabolangelo.org/scalinfame> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/scalinfame> <http://www.w3.org/2004/02/skos/core#prefLabel> "Scalinfame"@it .
 <http://www.vocabolangelo.org/scalinfame> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/sca • lin • fà • me/"@it .
 <http://www.vocabolangelo.org/scalinfame> <http://www.w3.org/2004/02/skos/core#definition> "Scalino particolarmente infame che si presta a non essere visto."@it .
-<http://www.vocabolangelo.org/scalinfame> <http://www.w3.org/2004/02/skos/core#example> "Ho quasi distrutto l'auto per colpa di uno scalinfame."@it .
+<http://www.vocabolangelo.org/scalinfame> <http://www.w3.org/2004/02/skos/core#example> "Tim si trovava in un vecchio edificio abbandonato quando si imbatté in uno scalinfame. Nonostante la sua natura invisibile, Tim era un abile osservatore e, con cautela, riuscì a individuare il gradino nascosto. Con un salto agile, superò l'ostacolo e proseguì nella sua esplorazione."@it .
 <http://www.vocabolangelo.org/scalinfame> <http://purl.org/dc/terms/created> "2022-08-12" .
 <http://www.vocabolangelo.org/scalinfame> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/nardiniArianna> .
 <http://www.vocabolangelo.org/lesante> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/lesante> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lesante"@it .
 <http://www.vocabolangelo.org/lesante> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/le • san • te/"@it .
-<http://www.vocabolangelo.org/lesante> <http://www.w3.org/2004/02/skos/core#definition> "Non facilmente classificabile tra leggero e pesante."@it .
-<http://www.vocabolangelo.org/lesante> <http://www.w3.org/2004/02/skos/core#example> "Questo scudo è lesante, sono confuso."@it .
+<http://www.vocabolangelo.org/lesante> <http://www.w3.org/2004/02/skos/core#definition> "Situabile in una sottile e complessa zona intermedia tra la leggerezza e la pesantezza, sfuggendo ad una classificazione chiara e definitiva."@it .
+<http://www.vocabolangelo.org/lesante> <http://www.w3.org/2004/02/skos/core#example> "Anna aveva un libro speciale nella sua collezione. Non era come gli altri libri, perché aveva un peso strano. Era lesante. Quando Anna lo prendeva in mano, poteva sentire una strana sensazione di leggerezza e al contempo di un peso invisibile che si faceva sentire."@it .
 <http://www.vocabolangelo.org/lesante> <http://purl.org/dc/terms/created> "2022-08-12" .
 <http://www.vocabolangelo.org/lesante> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/paoliMichele> .
 <http://www.vocabolangelo.org/poccante> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/poccante> <http://www.w3.org/2004/02/skos/core#prefLabel> "Poccante"@it .
 <http://www.vocabolangelo.org/poccante> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/poc • càn • te/"@it .
 <http://www.vocabolangelo.org/poccante> <http://www.w3.org/2004/02/skos/core#definition> "Un sapore che ci si aspetta essere molto piccante ma che alla fine non lo è quasi per niente."@it .
-<http://www.vocabolangelo.org/poccante> <http://www.w3.org/2004/02/skos/core#example> "Questo Kebab è poccante."@it .
+<http://www.vocabolangelo.org/poccante> <http://www.w3.org/2004/02/skos/core#example> "Lucia preparò un piatto speciale chiamato \"Sorpresa di Spezie\". I commensali si stupirono quando lo assaggiarono e scoprirono che la portata era poccante. Il piatto aveva una leggera nota speziata, ma senza il piccante che ci si aspettava. I commensali rimasero sorpresi, ma apprezzarono comunque l'armonia dei sapori delicati che danzavano sulle loro papille gustative."@it .
 <http://www.vocabolangelo.org/poccante> <http://purl.org/dc/terms/created> "2022-08-15" .
 <http://www.vocabolangelo.org/poccante> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
 <http://www.vocabolangelo.org/notticcia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/notticcia> <http://www.w3.org/2004/02/skos/core#prefLabel> "Notticcia"@it .
 <http://www.vocabolangelo.org/notticcia> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/not • tic • cia/"@it .
-<http://www.vocabolangelo.org/notticcia> <http://www.w3.org/2004/02/skos/core#definition> "Una brutta notte con incubi annessi per aver assistito al consumo di una rossiccia con aggiunte strane che non hanno senso."@it .
-<http://www.vocabolangelo.org/notticcia> <http://www.w3.org/2004/02/skos/core#example> "Ho passato una notticcia veramente orrenda."@it .
+<http://www.vocabolangelo.org/notticcia> <http://www.w3.org/2004/02/skos/core#definition> "Una brutta notte con incubi annessi causata dall'aver assistito al consumo di una pizza rossiccia con aggiunte strane che non hanno senso."@it .
+<http://www.vocabolangelo.org/notticcia> <http://www.w3.org/2004/02/skos/core#example> "Marco aveva trascorso una brutta notte. Gli incubi si erano impossessati della sua mente, turbando il suo sonno. Tutto era iniziato quando aveva assistito al consumo di una rossiccia con aggiunte strane che non avevano senso. Quella sera, i suoi amici avevano ordinato una pizza rossicia \"sperimentale\", con ingredienti insoliti come ananas, salame e marshmallow. Marco, incuriosito, aveva deciso di provarla. Ma mentre osservava i suoi amici divorare quella pizza dall'aspetto bizzarro, qualcosa era andato storto. Durante la notte, Marco fu tormentato da strani sogni. Le fette di pizza danzavano nella sua mente, prendendo forme mostruose e bizzarre."@it .
 <http://www.vocabolangelo.org/notticcia> <http://purl.org/dc/terms/created> "2022-08-15" .
 <http://www.vocabolangelo.org/notticcia> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/bragariAlexandru> .
 <http://www.vocabolangelo.org/uragago> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/uragago> <http://www.w3.org/2004/02/skos/core#prefLabel> "Uragago"@it .
 <http://www.vocabolangelo.org/uragago> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/u • ra • ga • go/"@it .
 <http://www.vocabolangelo.org/uragago> <http://www.w3.org/2004/02/skos/core#definition> "Una tempesta di aghi di pino."@it .
-<http://www.vocabolangelo.org/uragago> <http://www.w3.org/2004/02/skos/core#example> "Per colpa dell'uragago oggi ho quasi perso la vista."@it .
+<http://www.vocabolangelo.org/uragago> <http://www.w3.org/2004/02/skos/core#example> "Nel cuore della foresta, si scatenò una tempesta inaspettata. Ma non si trattava di una tempesta di pioggia o di neve, bensì di un uragago. I venti furiosi sferzavano tra gli alberi, facendo cadere una cascata di aghi di pino in ogni direzione. Era uno spettacolo straordinario e allo stesso tempo surreale. Gli aghi danzavano nell'aria come fiocchi dorati, creando un tappeto soffice e profumato sul terreno. Se qualcuno si fosse trovato lì avrebbe sicuramente perso la vista!"@it .
 <http://www.vocabolangelo.org/uragago> <http://purl.org/dc/terms/created> "2022-08-15" .
 <http://www.vocabolangelo.org/uragago> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
 <http://www.vocabolangelo.org/semirissa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/semirissa> <http://www.w3.org/2004/02/skos/core#prefLabel> "Semirissa"@it .
 <http://www.vocabolangelo.org/semirissa> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/se • mi • ris • sa/"@it .
 <http://www.vocabolangelo.org/semirissa> <http://www.w3.org/2004/02/skos/core#definition> "Una rissa in cui solo una fazione picchia e l'altra che subisce impassibile."@it .
-<http://www.vocabolangelo.org/semirissa> <http://www.w3.org/2004/02/skos/core#example> "Oggi a quella semirissa sono quasi morto."@it .
+<http://www.vocabolangelo.org/semirissa> <http://www.w3.org/2004/02/skos/core#example> "In un caffè affollato, una semirissa esplose tra due gruppi. Uno picchiava furiosamente, l'altro rideva di gusto. La rissa si trasformò in una comica scena, lasciando tutti con un sorriso sulle labbra e una strana storia da raccontare."@it .
 <http://www.vocabolangelo.org/semirissa> <http://purl.org/dc/terms/created> "2022-08-15" .
 <http://www.vocabolangelo.org/semirissa> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/bdeouiEddy> .
-<http://www.vocabolangelo.org/farza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
-<http://www.vocabolangelo.org/farza> <http://www.w3.org/2004/02/skos/core#prefLabel> "Farza"@it .
-<http://www.vocabolangelo.org/farza> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/far • za/"@it .
-<http://www.vocabolangelo.org/farza> <http://www.w3.org/2004/02/skos/core#definition> "Parole che assume sia il significato di \"farsa\" che si \"falsa\"."@it .
-<http://www.vocabolangelo.org/farza> <http://www.w3.org/2004/02/skos/core#example> "Sei una persona farza."@it .
-<http://www.vocabolangelo.org/farza> <http://www.w3.org/2004/02/skos/core#example> "Questa recita è tutta una farza."@it .
-<http://www.vocabolangelo.org/farza> <http://purl.org/dc/terms/created> "2022-08-17" .
-<http://www.vocabolangelo.org/farza> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/savoGiorgia> .
 <http://www.vocabolangelo.org/overmind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/overmind> <http://www.w3.org/2004/02/skos/core#prefLabel> "Overmind"@it .
 <http://www.vocabolangelo.org/overmind> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/o • ver • mind/"@it .
-<http://www.vocabolangelo.org/overmind> <http://www.w3.org/2004/02/skos/core#definition> "Quando nel gioco da tavolo \"The Mind\", 3 o 4 giocatori completano il gioco e proseguono ai livelli successivi, andando oltre ai limiti imposti, ma non ancora superando il livello 12. In quel caso si parlerebbe di Hypermind."@it .
-<http://www.vocabolangelo.org/overmind> <http://www.w3.org/2004/02/skos/core#example> "Siamo in overmind, la tensione è alle stelle."@it .
+<http://www.vocabolangelo.org/overmind> <http://www.w3.org/2004/02/skos/core#definition> "Situazione nel gioco da tavolo \"The Mind\", in cui 3 o 4 giocatori completano il gioco e proseguono ai livelli successivi, andando oltre ai limiti imposti, ma non ancora superando il livello 12. In quel caso si parlerebbe di Hypermind."@it .
+<http://www.vocabolangelo.org/overmind> <http://www.w3.org/2004/02/skos/core#example> "Siamo in overmind, la tensione è alle stelle. Un solo errore sarebbe fatale. Se non altro abbiamo già vinto formalmente."@it .
 <http://www.vocabolangelo.org/overmind> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/hypermind> .
 <http://www.vocabolangelo.org/overmind> <http://purl.org/dc/terms/created> "2022-08-15" .
 <http://www.vocabolangelo.org/overmind> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/orlandoNicola> .
@@ -1128,35 +1131,28 @@
 <http://www.vocabolangelo.org/hypermind> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hypermind"@it .
 <http://www.vocabolangelo.org/hypermind> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/hy • per • mind/"@it .
 <http://www.vocabolangelo.org/hypermind> <http://www.w3.org/2004/02/skos/core#definition> "Quando nel gioco da tavolo \"The Mind\", indipendentemente dal numero di giocatori, si arriva oltre il livello 12, andando oltre il limite imposto."@it .
-<http://www.vocabolangelo.org/hypermind> <http://www.w3.org/2004/02/skos/core#example> "Siamo in hypermind, non credevo fosse possibile. Pensavano tutti fosse solo una leggenda."@it .
+<http://www.vocabolangelo.org/hypermind> <http://www.w3.org/2004/02/skos/core#example> "Siamo in hypermind, non credevo fosse possibile. Pensavano tutti fosse solo una leggenda. Anche se ora perdessimo, non possiamo dire di aver giocato male."@it .
 <http://www.vocabolangelo.org/hypermind> <http://purl.org/dc/terms/created> "2022-08-15" .
 <http://www.vocabolangelo.org/hypermind> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/orlandoNicola> .
 <http://www.vocabolangelo.org/pronaccia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/pronaccia> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pronaccia"@it .
 <http://www.vocabolangelo.org/pronaccia> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/pro • nac • cia/"@it .
 <http://www.vocabolangelo.org/pronaccia> <http://www.w3.org/2004/02/skos/core#definition> "Un’affermazione che non si capisce bene se sia una promessa o una minaccia."@it .
-<http://www.vocabolangelo.org/pronaccia> <http://www.w3.org/2004/02/skos/core#example> "Oggi mi hanno detto \"Stasera muori.\", una vera e propria pronaccia."@it .
+<http://www.vocabolangelo.org/pronaccia> <http://www.w3.org/2004/02/skos/core#example> "Oggi mi hanno scritto un messaggio particolare:\"Stasera se ti vedo per strada stai pur certo che muori.\". Una vera e propria pronaccia!"@it .
 <http://www.vocabolangelo.org/pronaccia> <http://purl.org/dc/terms/created> "2022-08-24" .
 <http://www.vocabolangelo.org/pronaccia> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/savoGiorgia> .
-<http://www.vocabolangelo.org/piedina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
-<http://www.vocabolangelo.org/piedina> <http://www.w3.org/2004/02/skos/core#prefLabel> "Piedina"@it .
-<http://www.vocabolangelo.org/piedina> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/pie • di • na/"@it .
-<http://www.vocabolangelo.org/piedina> <http://www.w3.org/2004/02/skos/core#definition> "Piadina realizzata utilizzando i calli dei piedi delle persone come condimento."@it .
-<http://www.vocabolangelo.org/piedina> <http://www.w3.org/2004/02/skos/core#example> "Ieri mi hanno fatto un quanto te la rischi e ho perso, ho dovuto mangiare una piedina..."@it .
-<http://www.vocabolangelo.org/piedina> <http://purl.org/dc/terms/created> "2022-08-24" .
-<http://www.vocabolangelo.org/piedina> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
 <http://www.vocabolangelo.org/burrigliata> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/burrigliata> <http://www.w3.org/2004/02/skos/core#prefLabel> "Burrigliata"@it .
 <http://www.vocabolangelo.org/burrigliata> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/bur • ri • glia • ta/"@it .
 <http://www.vocabolangelo.org/burrigliata> <http://www.w3.org/2004/02/skos/core#definition> "Una grigliata in cui sono anche presenti dei burrito."@it .
-<http://www.vocabolangelo.org/burrigliata> <http://www.w3.org/2004/02/skos/core#example> "Venerdì ci sei alla burrigliata?"@it .
+<http://www.vocabolangelo.org/burrigliata> <http://www.w3.org/2004/02/skos/core#example> "Durante la burrigliata, gli amici si deliziarono con sapori messicani, creando combinazioni gustose e scambiandosi consigli. La festa fu un successo, tra le risate e il sapore unico dei burrito."@it .
 <http://www.vocabolangelo.org/burrigliata> <http://purl.org/dc/terms/created> "2022-08-24" .
 <http://www.vocabolangelo.org/burrigliata> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/bdeouiEddy> .
 <http://www.vocabolangelo.org/griglito> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/griglito> <http://www.w3.org/2004/02/skos/core#prefLabel> "Griglito"@it .
 <http://www.vocabolangelo.org/griglito> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/gri • gli • to/"@it .
 <http://www.vocabolangelo.org/griglito> <http://www.w3.org/2004/02/skos/core#definition> "Sinonimo maschile di Burrigliata."@it .
-<http://www.vocabolangelo.org/griglito> <http://www.w3.org/2004/02/skos/core#example> "Venerdì ci sei al griglito?"@it .
+<http://www.vocabolangelo.org/griglito> <http://www.w3.org/2004/02/skos/core#example> "Durante il griglito, gli amici si deliziarono con sapori messicani, creando combinazioni gustose e scambiandosi consigli. La festa fu un successo, tra le risate e il sapore unico dei burrito."@it .
 <http://www.vocabolangelo.org/griglito> <http://purl.org/dc/terms/created> "2022-08-24" .
 <http://www.vocabolangelo.org/griglito> <http://rdfs.org/scot/ns#synonym> <http://www.vocabolangelo.org/burrigliata> .
 <http://www.vocabolangelo.org/griglito> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/bdeouiEddy> .
@@ -1164,14 +1160,14 @@
 <http://www.vocabolangelo.org/balborbottare> <http://www.w3.org/2004/02/skos/core#prefLabel> "Balborbottare"@it .
 <http://www.vocabolangelo.org/balborbottare> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/bal • bot • ta • re/"@it .
 <http://www.vocabolangelo.org/balborbottare> <http://www.w3.org/2004/02/skos/core#definition> "Balbettare sotto voce, borbottando."@it .
-<http://www.vocabolangelo.org/balborbottare> <http://www.w3.org/2004/02/skos/core#example> "Ho visto dei bambini prendere in giro il loro amichetto perché balborbottava."@it .
+<http://www.vocabolangelo.org/balborbottare> <http://www.w3.org/2004/02/skos/core#example> "In biblioteca, un ragazzo balbottava parole incomprensibili. La bibliotecaria cercava di capire, ma sembrava una sorta di gioco del cruciverba impossibile. Alla fine, il ragazzo esclamò: \"Mi piacerebbe un libro che parli la mia lingua!\" La bibliotecaria rise di gusto, rispondendo: \"Mi dispiace, ma i libri preferiscono ancora il linguaggio scritto!\"."@it .
 <http://www.vocabolangelo.org/balborbottare> <http://purl.org/dc/terms/created> "2022-08-30" .
 <http://www.vocabolangelo.org/balborbottare> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/mordacchiniCecilia> .
 <http://www.vocabolangelo.org/fraldo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/fraldo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fraldo"@it .
 <http://www.vocabolangelo.org/fraldo> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/fral • do/"@it .
 <http://www.vocabolangelo.org/fraldo> <http://www.w3.org/2004/02/skos/core#definition> "Utilizzato per indicare qualcosa che è sia caldo che freddo."@it .
-<http://www.vocabolangelo.org/fraldo> <http://www.w3.org/2004/02/skos/core#example> "Oggi è un po' fraldiccio."@it .
+<http://www.vocabolangelo.org/fraldo> <http://www.w3.org/2004/02/skos/core#example> "\"Senti, questo drink è strano...\", disse il ragazzo, assaggiando cautamente il liquido nel bicchiere. \"È sia bollente che gelato! È fraldo!\""@it .
 <http://www.vocabolangelo.org/fraldo> <http://purl.org/dc/terms/created> "2022-08-27" .
 <http://www.vocabolangelo.org/fraldo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
 <http://www.vocabolangelo.org/piripizia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -1694,7 +1690,7 @@
 <http://www.vocabolangelo.org/parolangelo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/parolangelo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Parolangelo"@it .
 <http://www.vocabolangelo.org/parolangelo> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/pa • ro • lan • ge • lo/"@it .
-<http://www.vocabolangelo.org/parolangelo> <http://www.w3.org/2004/02/skos/core#definition> "Una parola presente all'interno del Vocabolangelo."@it .
+<http://www.vocabolangelo.org/parolangelo> <http://www.w3.org/2004/02/skos/core#definition> "Una parola inventata presente all'interno del Vocabolangelo, non presente su un normale vocabolario, e creata da un vocaboliere."@it .
 <http://www.vocabolangelo.org/parolangelo> <http://www.w3.org/2004/02/skos/core#example> "Il vocabolangelo è pieno di parolangelo interessanti!"@it .
 <http://www.vocabolangelo.org/parolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelo> .
 <http://www.vocabolangelo.org/parolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/dizionangelo> .
@@ -4036,7 +4032,7 @@
 <http://www.vocabolangelo.org/vocaboliere> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/vocaboliere> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vocaboliere"@it .
 <http://www.vocabolangelo.org/vocaboliere> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/vo • ca • bo • liè • re/"@it .
-<http://www.vocabolangelo.org/vocaboliere> <http://www.w3.org/2004/02/skos/core#definition> "Un individuo che ha inventato almeno una parolangelo nel corso della sua vita."@it .
+<http://www.vocabolangelo.org/vocaboliere> <http://www.w3.org/2004/02/skos/core#definition> "Un individuo che ha inventato almeno una parolangelo o uno slangelo nel corso della sua vita."@it .
 <http://www.vocabolangelo.org/vocaboliere> <http://www.w3.org/2004/02/skos/core#example> "Tutti i vocaboladmin sono anche vocabolieri."@it .
 <http://www.vocabolangelo.org/vocaboliere> <http://www.w3.org/2004/02/skos/core#example> "Grazie all'apostolangelo il numero di vocabolieri crescerà!" .
 <http://www.vocabolangelo.org/vocaboliere> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboladmin> .
@@ -4851,8 +4847,84 @@
 <http://www.vocabolangelo.org/profumolotov> <http://www.w3.org/2004/02/skos/core#example> "Durante una mattina di sole, Luis si recò in una panetteria per acquistare dei croissant appena sfornati. Nel frattempo, a pochi isolati di distanza, si stava svolgendo una manifestazione che non aveva affatto l'aria di essere pacifica. Improvvisamente, un forte rumore echeggiò in lontananza quando una bottiglia contenente olio profumato si ruppe, causando un forte odore e panico nella folla. Nonostante tutto, Luis continuò a gustarsi il  suo croissant in tutta tranquillità."@it .
 <http://www.vocabolangelo.org/profumolotov> <http://purl.org/dc/terms/created> "2023-05-27" .
 <http://www.vocabolangelo.org/profumolotov> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/slangelo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/slangelo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Slangelo"@it .
+<http://www.vocabolangelo.org/slangelo> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/slàn • ge • lo/"@it .
+<http://www.vocabolangelo.org/slangelo> <http://www.w3.org/2004/02/skos/core#definition> "Una composizione di più parole, potenzialmente inventate, e/o parolangelo inventata da un Vocaboliere che possiedono  nel loro insieme una definizione precisa e univoca."@it .
+<http://www.vocabolangelo.org/slangelo> <http://www.w3.org/2004/02/skos/core#example> "Tanto tempo fa avevo inventato la parolangelo \"regola arbitroia\", ma un vocaboladmin me la aveva bocciata dicendo che non rispettava il Vocaboregolangelo. Da quel momento è passato veramente tanto tempo. Un giorno i vocabolieri hanno creato un sondaggio richiedendo la possibilità di creare parolangelo che potessero contenere lo spazio. Quel giorno nacque la parolangelo \"slangangelo\", e nonostante ci sia una divisione netta dei due concetti ora è possibile essere molto più creativi!"@it .
+<http://www.vocabolangelo.org/slangelo> <http://purl.org/dc/terms/created> "2023-05-28" .
+<http://www.vocabolangelo.org/slangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboladmin> .
+<http://www.vocabolangelo.org/slangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelo> .
+<http://www.vocabolangelo.org/slangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/angelario> .
+<http://www.vocabolangelo.org/slangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/parolangelo> .
+<http://www.vocabolangelo.org/slangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/apostolangelo> .
+<http://www.vocabolangelo.org/slangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/dizionangelo> .
+<http://www.vocabolangelo.org/slangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboliere> .
+<http://www.vocabolangelo.org/slangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelare> .
+<http://www.vocabolangelo.org/slangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboregolangelo> .
+<http://www.vocabolangelo.org/slangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/parolarcangelo> .
+<http://www.vocabolangelo.org/slangelo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
+<http://www.vocabolangelo.org/slangelo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/nardiniArianna> .
+<http://www.vocabolangelo.org/slangelo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/orlandoNicola> .
+<http://www.vocabolangelo.org/scopub> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/scopub> <http://www.w3.org/2004/02/skos/core#prefLabel> "Scopub"@it .
+<http://www.vocabolangelo.org/scopub> <http://www.w3.org/2004/02/skos/core#definition> "Un locale pubblico frequentato da un considerevole numero di individue che svolgono attività di carattere sessuale a scopo commerciale."@it .
+<http://www.vocabolangelo.org/scopub> <http://www.w3.org/2004/02/skos/core#example> "Recentemente ho scoperto l'esistenza di un scopub in Via Roma. È frequentato da un notevole numero di professioniste del settore del sesso, le quali si riuniscono per svolgere la propria attività lavorativa e interagire con i clienti."@it .
+<http://www.vocabolangelo.org/scopub> <http://purl.org/dc/terms/created> "2023-06-02" .
+<http://www.vocabolangelo.org/scopub> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
+<http://www.vocabolangelo.org/scopub> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/bdeouiEddy> .
+<http://www.vocabolangelo.org/piattologia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/piattologia> <http://www.w3.org/2004/02/skos/core#prefLabel> "Piattologia"@it .
+<http://www.vocabolangelo.org/piattologia> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/piat • to • lo • gì • a/"@it .
+<http://www.vocabolangelo.org/piattologia> <http://www.w3.org/2004/02/skos/core#definition> "Lo studio dei piatti, inteso in senso completo, riguarda l'analisi approfondita degli aspetti ergonomici, funzionali e estetici dei piatti utilizzati nell'ambito culinario. Questo processo di studio mira a comprendere e ottimizzare la progettazione e l'utilizzo dei piatti al fine di garantire la massima comodità, praticità ed efficienza durante la preparazione, presentazione e consumo dei cibi. Inoltre, si tiene conto anche della sicurezza alimentare e dell'igiene, al fine di garantire che i piatti siano adeguati e sicuri per l'utilizzo nella preparazione e servizio dei pasti."@it .
+<http://www.vocabolangelo.org/piattologia> <http://www.w3.org/2004/02/skos/core#example> "Sofia ha seguito per qualche tempo dei corsi di piattologia. Ieri ci ha invitati a cena, e mangiare i suoi piatti è stato un po' come ricevere un trattamento gratis ad una Spa per la mia bocca. Non c'era assolutamente nulla da criticare nei suoi piatti. Erano una vera opera d'arte culinaria."@it .
+<http://www.vocabolangelo.org/piattologia> <http://purl.org/dc/terms/created> "2023-06-02" .
+<http://www.vocabolangelo.org/piattologia> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/bragariAlexandru> .
+<http://www.vocabolangelo.org/piattologia> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/ribaudoSofia> .
+<http://www.vocabolangelo.org/piattologia> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/bdeouiEddy> .
+<http://www.vocabolangelo.org/piattologo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/piattologo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Piattologo"@it .
+<http://www.vocabolangelo.org/piattologo> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/piat • tò • lo • go/"@it .
+<http://www.vocabolangelo.org/piattologo> <http://www.w3.org/2004/02/skos/core#definition> "Esperto in piattologia."@it .
+<http://www.vocabolangelo.org/piattologo> <http://www.w3.org/2004/02/skos/core#example> "Sofia è una piattologa. Ieri ci ha invitati a cena, e mangiare i suoi piatti è stato un po' come ricevere un trattamento gratis ad una Spa per la mia bocca. Non c'era assolutamente nulla da criticare nei suoi piatti. Erano una vera opera d'arte culinaria."@it .
+<http://www.vocabolangelo.org/piattologo> <http://purl.org/dc/terms/created> "2023-06-02" .
+<http://www.vocabolangelo.org/piattologo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/piattologia> .
+<http://www.vocabolangelo.org/piattologo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/bragariAlexandru> .
+<http://www.vocabolangelo.org/piattologo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/ribaudoSofia> .
+<http://www.vocabolangelo.org/piattologo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/bdeouiEddy> .
+<http://www.vocabolangelo.org/cavapiatti> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/cavapiatti> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cavapiatti"@it .
+<http://www.vocabolangelo.org/cavapiatti> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/ca • va • piàt • ti/"@it .
+<http://www.vocabolangelo.org/cavapiatti> <http://www.w3.org/2004/02/skos/core#definition> "L'individuo designato all'incarico di rimuovere e ripulire le stoviglie e la tavola dopo un pasto."@it .
+<http://www.vocabolangelo.org/cavapiatti> <http://www.w3.org/2004/02/skos/core#example> "Nel ristorante di alta classe in cui lavoravo, il maître aveva l'abitudine di assegnare con cura il compito di cavapiatti a un individuo dedicato. Questa figura professionale si occupava con attenzione e discrezione di ripulire la tavola, rimuovere le stoviglie utilizzate e garantire che l'ambiente rimanesse ordinato e pronto per l'arrivo dei successivi commensali."@it .
+<http://www.vocabolangelo.org/cavapiatti> <http://purl.org/dc/terms/created> "2023-06-02" .
+<http://www.vocabolangelo.org/cavapiatti> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/bdeouiEddy> .
+<http://www.vocabolangelo.org/cavapiatti> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/escita> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/escita> <http://www.w3.org/2004/02/skos/core#prefLabel> "Escita"@it .
+<http://www.vocabolangelo.org/escita> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/e • scì • ta/"@it .
+<http://www.vocabolangelo.org/escita> <http://www.w3.org/2004/02/skos/core#definition> "Uscita di un'autostrada."@it .
+<http://www.vocabolangelo.org/escita> <http://www.w3.org/2004/02/skos/core#example> "Mentre viaggiavo lungo l'autostrada con la mia famiglia, mio zio, noto per la sua peculiarità nel prendere le escite sbagliate, ha improvvisamente annunciato con entusiasmo: 'Guardate tutti!'. Confusi e divertiti, abbiamo guardato con sorpresa mentre mio zio guidava abilmente attraverso l'escita, lasciandoci senza parole e con un sacco di risate!"@it .
+<http://www.vocabolangelo.org/escita> <http://purl.org/dc/terms/created> "2023-06-02" .
+<http://www.vocabolangelo.org/escita> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/escire> .
+<http://www.vocabolangelo.org/escita> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/bdeouiEddy> .
+<http://www.vocabolangelo.org/conglomegatto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/conglomegatto> <http://www.w3.org/2004/02/skos/core#prefLabel> "Conglomegatto"@it .
+<http://www.vocabolangelo.org/conglomegatto> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/con • glo • me • gàt • to/"@it .
+<http://www.vocabolangelo.org/conglomegatto> <http://www.w3.org/2004/02/skos/core#definition> "L'insieme di felini che si riunisce in un aggregato e si toccano fisicamente, in cui ogni gatto è obbligatoriamente connesso ad almeno un altro membro del gruppo felino."@it .
+<http://www.vocabolangelo.org/conglomegatto> <http://www.w3.org/2004/02/skos/core#example> "Nel quartiere ieri si è formato un curioso agglomegatto. Gli amanti dei felini ammiravano con occhi a cuore la scena, mentre chi era allargico guardava con terrore dalla finestra."@it .
+<http://www.vocabolangelo.org/conglomegatto> <http://purl.org/dc/terms/created> "2023-06-02" .
+<http://www.vocabolangelo.org/conglomegatto> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/orlandoNicola> .
+<http://www.vocabolangelo.org/kebalbino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/kebalbino> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kebalbino"@it .
+<http://www.vocabolangelo.org/kebalbino> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/ke • bal • bì • no/"@it .
+<http://www.vocabolangelo.org/kebalbino> <http://www.w3.org/2004/02/skos/core#definition> "Venditore di kebab affetto da albinismo."@it .
+<http://www.vocabolangelo.org/kebalbino> <http://www.w3.org/2004/02/skos/core#example> "Nel vivace mercato dei kebab della città, c'è un kebabbaro dal look sorprendente: un kebalbino! Con il suo grembiule impeccabilmente bianco e il suo taglio di capelli perfetto, sembra quasi una figura mitologica che prepara i deliziosi kebab. I clienti si fermano spesso, colti da stupore e curiosità, per provare i gustosi kebab preparati da questa figura unica nel suo genere. È diventato famoso come 'Il Maestro Bianco dei Kebab', lasciando tutti a chiedersi quale sia il segreto dietro il suo straordinario talento culinario."@it .
+<http://www.vocabolangelo.org/kebalbino> <http://purl.org/dc/terms/created> "2023-06-02" .
+<http://www.vocabolangelo.org/kebalbino> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
 <http://www.vocabolangelo.org/noonare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/fregola> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/tardivare> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/scorciatroia> .
 <http://www.vocabolangelo.org/tardivare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/acquesca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/bragariAlisa> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/bragariAlexandru> .
@@ -4867,6 +4939,7 @@
 <http://www.vocabolangelo.org/parolarcangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelo> .
 <http://www.vocabolangelo.org/parolarcangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboliere> .
 <http://www.vocabolangelo.org/parolarcangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboladmin> .
+<http://www.vocabolangelo.org/parolarcangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/slangelo> .
 <http://www.vocabolangelo.org/parolarcangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/apostolangelo> .
 <http://www.vocabolangelo.org/parolarcangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/angelario> .
 <http://www.vocabolangelo.org/scrivamia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -4952,6 +5025,7 @@
 <http://www.vocabolangelo.org/omnicio> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/medigatto> .
 <http://www.vocabolangelo.org/omnicio> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/mitigatto> .
 <http://www.vocabolangelo.org/omnicio> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/variegatto> .
+<http://www.vocabolangelo.org/omnicio> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/stupendoso> .
 <http://www.vocabolangelo.org/omnicio> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/feliclope> .
 <http://www.vocabolangelo.org/omnicio> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/gigatto> .
 <http://www.vocabolangelo.org/omnicio> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/ingordicio> .
@@ -5050,9 +5124,11 @@
 <http://www.vocabolangelo.org/coppinovia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/alquol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/culpo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/escire> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/escita> .
 <http://www.vocabolangelo.org/escire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/palattia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/vocaboregolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboladmin> .
+<http://www.vocabolangelo.org/vocaboregolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/slangelo> .
 <http://www.vocabolangelo.org/vocaboregolangelo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/vocaboregolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelare> .
 <http://www.vocabolangelo.org/vocaboregolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/dizionangelo> .
@@ -5081,6 +5157,7 @@
 <http://www.vocabolangelo.org/vocabolangelo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/vocabolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelizzare> .
 <http://www.vocabolangelo.org/vocabolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/parolangelo> .
+<http://www.vocabolangelo.org/vocabolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/slangelo> .
 <http://www.vocabolangelo.org/vocabolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/abbecedangelo> .
 <http://www.vocabolangelo.org/vocabolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboregolangelo> .
 <http://www.vocabolangelo.org/vocabolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboladmin> .
@@ -5163,6 +5240,7 @@
 <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> .
 <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#SymmetricProperty> .
 <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.vocabolangelo.org/sbadigliese> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/stancoso> .
 <http://www.vocabolangelo.org/sbadigliese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/orgasmento> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/orgasno> .
 <http://www.vocabolangelo.org/orgasmento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -5535,6 +5613,7 @@
 <http://www.vocabolangelo.org/contanegrino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/aperigina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/acquaffè> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/stupendoso> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/omnicio> .
 <http://www.vocabolangelo.org/stupendoso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.w3.org/2002/07/owl#bottomObjectProperty> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.vocabolangelo.org/unpaidFriendOf> .
 <http://www.w3.org/2002/07/owl#bottomObjectProperty> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> .
@@ -5567,6 +5646,7 @@
 <http://www.vocabolangelo.org/suscaAlessandra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Vocaboliere> .
 <http://www.vocabolangelo.org/agroffè> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/letico> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/intè> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/arsenzio> .
 <http://www.vocabolangelo.org/intè> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/cappuccido> .
 <http://www.vocabolangelo.org/intè> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/mortiversitario> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -5594,6 +5674,7 @@
 <http://www.vocabolangelo.org/vocabolangelare> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelo> .
 <http://www.vocabolangelo.org/vocabolangelare> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/apostolangelo> .
 <http://www.vocabolangelo.org/vocabolangelare> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelizzare> .
+<http://www.vocabolangelo.org/vocabolangelare> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/slangelo> .
 <http://www.vocabolangelo.org/vocabolangelare> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/parolarcangelo> .
 <http://www.vocabolangelo.org/vocabolangelare> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboregolangelo> .
 <http://www.vocabolangelo.org/vocabolangelare> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/angelario> .
@@ -5610,6 +5691,7 @@
 <http://www.vocabolangelo.org/origasmo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/fiorigami> .
 <http://www.vocabolangelo.org/origasmo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/bouquerigami> .
 <http://www.vocabolangelo.org/origasmo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/conglomegatto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/lemal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/vocangelare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/buonana> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/risottimo> .
@@ -5617,6 +5699,17 @@
 <http://www.vocabolangelo.org/oncolotto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/caffoncello> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/pornoattrite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/slangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboliere> .
+<http://www.vocabolangelo.org/slangelo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/slangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboladmin> .
+<http://www.vocabolangelo.org/slangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/parolangelo> .
+<http://www.vocabolangelo.org/slangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelare> .
+<http://www.vocabolangelo.org/slangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/angelario> .
+<http://www.vocabolangelo.org/slangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/parolarcangelo> .
+<http://www.vocabolangelo.org/slangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/dizionangelo> .
+<http://www.vocabolangelo.org/slangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelo> .
+<http://www.vocabolangelo.org/slangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/apostolangelo> .
+<http://www.vocabolangelo.org/slangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboregolangelo> .
 <http://www.vocabolangelo.org/alfaca> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/bregge> .
 <http://www.vocabolangelo.org/alfaca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/bufferingo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -5637,6 +5730,8 @@
 <http://www.vocabolangelo.org/oltatto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/piedotonda> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/froggia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/escita> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/escire> .
+<http://www.vocabolangelo.org/escita> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/scioglio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/pergamela> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/frettolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/angeloco> .
@@ -5705,6 +5800,7 @@
 <http://www.vocabolangelo.org/inter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/tabbella> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/dizionangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelo> .
+<http://www.vocabolangelo.org/dizionangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/slangelo> .
 <http://www.vocabolangelo.org/dizionangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/angelario> .
 <http://www.vocabolangelo.org/dizionangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/parolangelo> .
 <http://www.vocabolangelo.org/dizionangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/parolarcangelo> .
@@ -5831,6 +5927,7 @@
 <http://www.vocabolangelo.org/kebalmino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/bibiribì> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/biribì> .
 <http://www.vocabolangelo.org/bibiribì> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/cappuccido> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/arsenzio> .
 <http://www.vocabolangelo.org/cappuccido> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/intè> .
 <http://www.vocabolangelo.org/cappuccido> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/sprike> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -5845,6 +5942,7 @@
 <http://www.vocabolangelo.org/natalè> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/babubì> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/vocaboladmin> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/parolarcangelo> .
+<http://www.vocabolangelo.org/vocaboladmin> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/slangelo> .
 <http://www.vocabolangelo.org/vocaboladmin> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboregolangelo> .
 <http://www.vocabolangelo.org/vocaboladmin> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelare> .
 <http://www.vocabolangelo.org/vocaboladmin> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelizzare> .
@@ -5927,6 +6025,8 @@
 <http://www.vocabolangelo.org/omiccioliRiccardo> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/rossiLuca> .
 <http://www.vocabolangelo.org/kebabbo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/kebabbolazione> .
 <http://www.vocabolangelo.org/kebabbo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/arsenzio> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/intè> .
+<http://www.vocabolangelo.org/arsenzio> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/cappuccido> .
 <http://www.vocabolangelo.org/arsenzio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/cacatino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/borsaggio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -5944,7 +6044,6 @@
 <http://www.vocabolangelo.org/manganuette> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/fetiscista> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/fabriangolo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
-<http://www.vocabolangelo.org/piedina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/handicappello> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/handicarrello> .
 <http://www.vocabolangelo.org/handicappello> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/handicartello> .
 <http://www.vocabolangelo.org/handicappello> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -6146,6 +6245,7 @@
 <http://www.w3.org/2002/07/owl#Nothing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.w3.org/2002/07/owl#Nothing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/org#Organization> .
 <http://www.w3.org/2002/07/owl#Nothing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/skgo/modsci#ArtificialIntelligence> .
+<http://www.w3.org/2002/07/owl#Nothing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.vocabolangelo.org/Slangelo> .
 <http://www.w3.org/2002/07/owl#Nothing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.vocabolangelo.org/vocaboladminOrg> .
 <http://www.w3.org/2002/07/owl#Nothing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.vocabolangelo.org/durazziMarco> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/bdeouiEddy> .
@@ -6271,6 +6371,9 @@
 <http://www.vocabolangelo.org/overmind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/tempoglia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/podomido> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/Slangelo> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.vocabolangelo.org/Slangelo> .
+<http://www.vocabolangelo.org/Slangelo> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.vocabolangelo.org/Slangelo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.vocabolangelo.org/nerobiniere> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/spiazio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.w3.org/ns/org#Organization> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3.org/ns/org#Organization> .
@@ -6289,7 +6392,6 @@
 <http://www.vocabolangelo.org/bouquerigami> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/fiorigami> .
 <http://www.vocabolangelo.org/bouquerigami> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/zeresimo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
-<http://www.vocabolangelo.org/farza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/spettroia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/stupidariano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/biribonte> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/biribì> .
@@ -6300,6 +6402,7 @@
 <http://www.vocabolangelo.org/gappuccino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/decafferillo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/cafferillo> .
 <http://www.vocabolangelo.org/decafferillo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/rototandoria> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/incrociatoria> .
 <http://www.vocabolangelo.org/rototandoria> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/risottimo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/buonana> .
 <http://www.vocabolangelo.org/risottimo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -6364,6 +6467,7 @@
 <http://www.vocabolangelo.org/nardiniArianna> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/ribaudoSofia> .
 <http://www.vocabolangelo.org/starnutisciare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/apostolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/parolarcangelo> .
+<http://www.vocabolangelo.org/apostolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/slangelo> .
 <http://www.vocabolangelo.org/apostolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboregolangelo> .
 <http://www.vocabolangelo.org/apostolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelare> .
 <http://www.vocabolangelo.org/apostolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelizzare> .
@@ -6443,6 +6547,7 @@
 <http://www.vocabolangelo.org/griglito> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/burrigliata> .
 <http://www.vocabolangelo.org/griglito> <http://rdfs.org/scot/ns#synonym> <http://www.vocabolangelo.org/burrigliata> .
 <http://www.vocabolangelo.org/griglito> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/kebalbino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.w3.org/2002/07/owl#topObjectProperty> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
 <http://www.w3.org/2002/07/owl#topObjectProperty> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://www.w3.org/2002/07/owl#topObjectProperty> .
 <http://www.w3.org/2002/07/owl#topObjectProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#SymmetricProperty> .
@@ -6527,6 +6632,8 @@
 <http://www.vocabolangelo.org/loncino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/bricock> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/trocca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/piattologia> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/piattologo> .
+<http://www.vocabolangelo.org/piattologia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/reguagno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/squarciatroia> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/scorciatroia> .
 <http://www.vocabolangelo.org/squarciatroia> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/cortatoria> .
@@ -6576,6 +6683,7 @@
 <http://www.vocabolangelo.org/fanaraGiuliano> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/mordacchiniCecilia> .
 <http://www.vocabolangelo.org/violare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/katello> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/stancoso> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/sbadigliese> .
 <http://www.vocabolangelo.org/stancoso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/sbrambellare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/moketta> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/cafferetta> .
@@ -6632,6 +6740,7 @@
 <http://www.vocabolangelo.org/grandino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/librorifero> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/piripizia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/cavapiatti> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/artificiarto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/ravello> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/impuntorgolista> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/puntorgolismo> .
@@ -6687,6 +6796,7 @@
 <http://www.vocabolangelo.org/vocaboliere> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/apostolangelo> .
 <http://www.vocabolangelo.org/vocaboliere> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelizzare> .
 <http://www.vocabolangelo.org/vocaboliere> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/parolangelo> .
+<http://www.vocabolangelo.org/vocaboliere> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/slangelo> .
 <http://www.vocabolangelo.org/vocaboliere> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/dizionangelo> .
 <http://www.vocabolangelo.org/vocaboliere> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/parolarcangelo> .
 <http://www.vocabolangelo.org/vocaboliere> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboregolangelo> .
@@ -6701,6 +6811,7 @@
 <http://www.vocabolangelo.org/angelario> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboliere> .
 <http://www.vocabolangelo.org/angelario> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/festabolangelo> .
 <http://www.vocabolangelo.org/angelario> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/angelario> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/slangelo> .
 <http://www.vocabolangelo.org/angelario> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelo> .
 <http://www.vocabolangelo.org/angelario> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboregolangelo> .
 <http://www.vocabolangelo.org/angelario> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/parolangelo> .
@@ -6765,6 +6876,7 @@
 <http://www.vocabolangelo.org/prepuzzo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/elasticazzo> .
 <http://www.vocabolangelo.org/prepuzzo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/oscuretra> .
 <http://www.vocabolangelo.org/prepuzzo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/scopub> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/calligrafite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/savoGianmarco> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/rosatelliAnna> .
 <http://www.vocabolangelo.org/savoGianmarco> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/rosatelliAnna> .
@@ -6909,12 +7021,15 @@
 <http://www.vocabolangelo.org/laggugliare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/minello> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/incrociatoria> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/rotatatoria> .
+<http://www.vocabolangelo.org/incrociatoria> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/rototandoria> .
 <http://www.vocabolangelo.org/incrociatoria> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/vocabolieriOrg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Organization> .
 <http://www.vocabolangelo.org/vocabolieriOrg> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.vocabolangelo.org/vocabolieriOrg> .
 <http://www.vocabolangelo.org/vocabolieriOrg> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
 <http://www.vocabolangelo.org/vocabolieriOrg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.vocabolangelo.org/biribibino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/piattologo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/piattologia> .
+<http://www.vocabolangelo.org/piattologo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/parolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/angelario> .
 <http://www.vocabolangelo.org/parolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelizzare> .
 <http://www.vocabolangelo.org/parolangelo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -6922,6 +7037,7 @@
 <http://www.vocabolangelo.org/parolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboliere> .
 <http://www.vocabolangelo.org/parolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboregolangelo> .
 <http://www.vocabolangelo.org/parolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelare> .
+<http://www.vocabolangelo.org/parolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/slangelo> .
 <http://www.vocabolangelo.org/parolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/dizionangelo> .
 <http://www.vocabolangelo.org/parolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/festabolangelo> .
 <http://www.vocabolangelo.org/parolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelo> .
@@ -7001,6 +7117,7 @@
 <http://www.vocabolangelo.org/acrobatto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/scorciatroia> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/cortatoria> .
 <http://www.vocabolangelo.org/scorciatroia> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/squarciatroia> .
+<http://www.vocabolangelo.org/scorciatroia> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/tardivare> .
 <http://www.vocabolangelo.org/scorciatroia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/geomicolo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/autovalaggio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .

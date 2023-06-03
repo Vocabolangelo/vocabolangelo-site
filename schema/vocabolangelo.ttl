@@ -24,6 +24,9 @@ vocang:VocabolangeloRDF
 vocang:Parolangelo
     rdfs:subClassOf skos:Concept .
 
+vocang:Slangelo
+    rdfs:subClassOf skos:Concept .
+
 vocang:Vocaboliere
     rdfs:subClassOf foaf:Person .
 
@@ -422,7 +425,7 @@ vocang:suscaAlessandra
     foaf:firstName "Alessandra" ;
     foaf:lastName "Susca" ;
     foaf:gender "female" ;
-    org:memberOf vocang:vocaboladminOrg ;
+    org:memberOf vocang:vocabolieriOrg ;
     rel:siblingOf vocang:suscaMatteo ;
     rel:friendOf vocang:rosatelliAnna .
 
@@ -680,15 +683,15 @@ vocang:coreliano
     skos:prefLabel "Coreliano"@it ;
     lexinfo:pronunciation "/co • re • lià • no/"@it ;
     skos:definition "Un metodo di scrittura utilizzato per scrivere in italiano con l’alfabeto coreano."@it ;
-    skos:example "Io e la mia ragazza ci scriviamo sempre dei messaggi molto carini in coreliano. Solo io e lei riusciamo a capirli!"@it ;
+    skos:example "Sto studiando la lingua coreana e mi sono appassionato anche al coreliano. È un metodo affascinante che mi permette di scrivere in italiano utilizzando l'alfabeto coreano. Ho appena scritto una lettera ai miei amici usando il coreliano, combinando l'armonia dell'italiano con i caratteri unici dell'alfabeto coreano. È un modo creativo per esprimere me stesso e condividere la mia cultura con gli altri."@it ;
     dct:creator vocang:savoGiorgia .
 
 vocang:falsevolezza
     a vocang:Parolangelo ;
     skos:prefLabel "Falsevolezza"@it ;
     lexinfo:pronunciation "/fal • se • vo • léz • za/"@it ;
-    skos:definition "Sinonimo di falsità."@it ;
-    skos:example "Sta dicendo solo falsevolezze da quando è qui."@it ;
+    skos:definition "Caratteristiche dell'inautenticità, contrapposte alla veridicità o all'apparenza desiderata, sinonimo di falsità."@it ;
+    skos:example "Immagina di essere invitato a una cena e l'ospite ti assicura che ha preparato un piatto delizioso e raffinato, ma quando ti siedi a tavola scopri che ha servito semplicemente dei cereali da colazione. La sua promessa di un pasto sofisticato si rivela essere un esempio di falsevolezza culinaria."@it ;
     dct:creator vocang:filasetaAngelo .
 
 vocang:fetiscista
@@ -712,7 +715,7 @@ vocang:frisbidina
     skos:prefLabel "Frisbidina"@it ;
     lexinfo:pronunciation "/fri • sbi • dì • na/"@it ;
     skos:definition "Una piadina cucinata troppo, che risulta troppo dura e croccante, a tratti anche bruciata."@it ;
-    skos:example "Non cuocerla troppo, non voglio una frisbidina."@it ;
+    skos:example "La frisbidina è una piadina cucinata così tanto che potrebbe essere utilizzata come disco volante, talmente dura e croccante da scatenare una competizione di lancio a distanza. Se è così bruciata da emettere fumo, allora hai ottenuto la frisbidina al livello olimpico!"@it ;
     dct:creator vocang:filasetaAngelo .
 
 vocang:fuore
@@ -722,23 +725,23 @@ vocang:fuore
     skos:definition "Un cuore su un fiore."@it ;
     skos:definition "Il cuore di un fiore."@it ;
     skos:definition "Un fiore col cuore."@it ;
-    skos:example "Oggi mio figlio ha disegnato un fuore molto carino."@it ;
+    skos:example "Quando Giulia vide il bellissimo bouquet di rose rosse che le aveva inviato Paolo, il suo cuore si sciolse come burro al sole. Era un gesto così romantico, un cuore era delicatamente posato sul fiore principale. Era proprio un fuore!"@it ;
     dct:creator vocang:savoGiorgia .
 
 vocang:fusorangelo
     a vocang:Parolangelo ;
     skos:prefLabel "Fusorangelo"@it ;
     lexinfo:pronunciation "/fu • so • ràn • ge • lo/"@it ;
-    skos:definition "Una legge dell’universo che permette alle persone e agli oggetti di viaggiare nel tempo utilizzando il “bug dei meridiani”."@it ;
-    skos:example "Posso recuperare il sonno grazie al fusorangelo."@it ;
+    skos:definition "Un artificio adoperato con l'intento di indurre le persone a credere di aver compiuto un viaggio nel tempo, sia esso personale o con oggetti. Si basa sull'exploit della circostanza di essersi trasferiti attraverso un numero sufficiente di meridiani in un arco di tempo inferiore rispetto alla durata richiesta per tale percorso da parte del sole."@it ;
+    skos:example "C'era una volta un tipo di nome Marco che era un viaggiatore avventuroso. Un giorno, Marco decise di prendere un volo per visitare un paese dall'altra parte del mondo. Quando salì sull'aereo, era pieno di entusiasmo per l'esperienza che lo attendeva. Il volo di Marco durò diverse ore e, quando atterrò a destinazione, rimase sorpreso dal fatto che fossero passate solo poche ore dal momento in cui era partito. Sì, Marco si era spostato in un luogo in cui il fuso orario era avanti di ben 8 ore rispetto a casa sua! Marco decise di mandare una foto a sua madre e mostrargli la torre dell'orologio locale, la quale, non essendo molto studiata, non capì come potesse esserre possibile uno sfasamento temporale simile. Marco aveva utilizzato il fusorangelo per fare uno scherzo alla mamma! "@it ;
     dct:creator vocang:filasetaAngelo .
 
 vocang:incazzabbiato
     a vocang:Parolangelo ;
     skos:prefLabel "Incazzabbiato"@it ;
     lexinfo:pronunciation "/in • caz • zab • bià • to/"@it ;
-    skos:definition "Sinonimo di infastidito, incavolato, arrabbiato ma non così tanto."@it ;
-    skos:example "Sono incazzabbiato con lei perché non capisce quello che voglio dire."@it ;
+    skos:definition "Contrariato, frustrato, infastidito, tuttavia senza raggiungere livelli di ira."@it ;
+    skos:example "Il cliente si presentò al negozio e notò che il prodotto che aveva ordinato non era disponibile. Era incazzabbiato, e richiese spiegazioni al commesso, manifestando il suo disappunto per l'inconveniente causato. Nonostante la sua insoddisfazione, mantenne la calma e cercò una soluzione alternativa con l'assistenza del personale del negozio."@it ;
     dct:creator vocang:filasetaAngelo .
 
 vocang:oscuretra
@@ -746,15 +749,15 @@ vocang:oscuretra
     skos:prefLabel "Oscuretra"@it ;
     lexinfo:pronunciation "/os • c • rè • tra/"@it ;
     skos:definition "L’oscurità all’interno dell’uretra."@it ;
-    skos:example "Un medico oggi ha detto: «Serve più luce, c'è troppa oscuretra!»"@it ;
+    skos:example "Oggi l'urologo ha cercato di capire che problemi avessi. Ha insertito una videocamera all'interno del mio gingillo, ma ad un certo punto ha detto: «Serve più luce, c'è troppa oscuretra!». Così ha estratto la videocamera e ha usato metodi alternativi per controllarmi."@it ;
     dct:creator vocang:pertosaLorenzo .
 
 vocang:proprostata
     a vocang:Parolangelo ;
     skos:prefLabel "Proprostata"@it ;
     lexinfo:pronunciation "/pro • prò • sta • ta/"@it ;
-    skos:definition "Proposta che viene fatta da una persona A ad una persona B, la quale deve possedere una prostata. Se accettata A ottiene la prostata di B."@it ;
-    skos:example "Oggi Alessandra mi ha fatto una proprostrata... Ho paura."@it ;
+    skos:definition "In senso figurativo, la proposta da parte di una persona verso un altra, la quale possiede una prostata. Se questa proposta viene accettata, potrebbe significare che la persona che ha fatto la proposta otterrà un accesso privilegiato alla prostata dell'altra persona. Ciò implica la possibilità di toccarla o esaminarla per determinati scopi, come in un contesto medico o di ricerca, ma non solo."@it ;
+    skos:example "Alessandra e Matteo erano due amici molto stravaganti. Un giorno, Alessandra decise di chiedere qualcosa di strampalato a Matteo. Si avvicinò a lui con un sorriso malizioso e disse: \"Matteo! Vorrei farti una proprostata! Se accetti la mia proprostata, avrò l'onore di toccare la tua prostata! Sarà un'esperienza unica e divertente!\". Matteo scoppiò a ridere, pensando che Alessandra avesse davvero un senso dell'umorismo particolare. Con un sorriso, rispose: \"Beh, Alessandra, la tua proprostata mi ha lasciato senza parole! Ma temo che dovrò rifiutare gentilmente questa proposta!"@it ;
     dct:creator vocang:minoccheriAlessandra .
 
 vocang:roletano
@@ -762,31 +765,32 @@ vocang:roletano
     skos:prefLabel "Roletano"@it ;
     lexinfo:pronunciation "/ro • le • tà • no/"@it ;
     skos:definition "Una persona che dimostra caratteristiche ibride associabili sia a chi viene da Roma che da Napoli."@it ;
-    skos:example "Ciro è proprio un Roletano."@it ;
+    skos:example "Giuseppe era un ragazzo unico nel suo genere. Era nato e cresciuto in una famiglia dove suo padre era di Roma e sua madre di Napoli. Questa fusione di influenze culturali ha dato origine a una personalità davvero speciale. Era un vero roletano! Un giorno, durante una cena con gli amici, Giuseppe mostrò una caratteristica tipicamente romana. Cominciò a parlare con grande enfasi e gesti ampi, raccontando storie avvincenti sulla storia di Roma. Tutti si trovavano incantati dalla sua passione contagiosa. Ma non finì qui! Improvvisamente, iniziò a fare un cambio di voce e di tono, dimostrando un accento napoletano molto marcato. Iniziò a raccontare le avventure esilaranti che aveva vissuto nella sua visita a Napoli, usando parole colorite e simpatiche espressioni dialettali, come \"Cap ‘e cazz \", \"Chitemmuort\" e \"Chiav’t a lengua ‘ncul\"."@it ;
     dct:creator vocang:fanaraGiuliano .
 
 vocang:rototandoria
     a vocang:Parolangelo ;
     skos:prefLabel "Rototandoria"@it ;
     lexinfo:pronunciation "/ro • to • tan • dò • ria/"@it ;
-    skos:definition "Sinonimo di rotatoria, rotonda."@it ;
-    skos:example "Ieri un tizio ha preso la rototandoria al contrario ed è morto."@it ;
+    skos:definition "Modo alternativo per riferirsi ad una rotatoria o rotonda. Una modalità di denominazione diversa per indicare una struttura stradale circolare utilizzata per regolare e agevolare il flusso del traffico veicolare in un incrocio o un punto di convergenza di diverse strade."@it ;
+    skos:example "Quella rototandoria era così imponente e maestosa che sembrava una pista da ballo per macchine, con le auto che facevano dei veri e propri 'giri di valzer' tra le sue corsie!"@it ;
+    skos:related vocang:incrociatoria ;
     dct:creator vocang:filasetaAngelo .
 
 vocang:sbadigliese
     a vocang:Parolangelo ;
     skos:prefLabel "Sbadigliese"@it ;
     lexinfo:pronunciation "/sba • di • glié • se/"@it ;
-    skos:definition "La lingua che si parla quando si prova a parlare mentre si sbadiglia."@it ;
-    skos:example "Non ho capito molto, prova a non parlare in sbadigliese."@it ;
+    skos:definition "La lingua utilizzata durante un tentativo di comunicazione effettuato contemporaneamente ad uno sbadiglio."@it ;
+    skos:example "Quando cercò di spiegare il suo piano geniale, cominciò a parlare in sbadigliese a causa della stanchezza, lasciando tutti a bocca aperta, sia letteralmente che figurativamente!"@it ;
     dct:creator vocang:filasetaAngelo .
 
 vocang:scorciatroia
     a vocang:Parolangelo ;
     skos:prefLabel "Scorciatroia"@it ;
     lexinfo:pronunciation "/scor • cia • trò • ia/"@it ;
-    skos:definition "Un percorso che, tra due località, risulta sembrare più breve della strada più importante, ma è in realtà più lunga."@it ;
-    skos:example "Sapevo che era una scorciatroia! Ora faremo in ritardo..."@it ;
+    skos:definition "Un itinerario che, tra due località, può apparentemente sembrare più breve della principale via stradale, ma che in realtà risulta essere più lungo."@it ;
+    skos:example "Marco decise di prendere la strada che passava per il bosco pensando fosse un'alternativa più veloce alla strada principale, ma si ritrovò in un labirinto di stradine tortuose, incroci insensati e indicazioni confuse. Alla fine, quel percorso si rivelò una vera e propria scorciatroia, facendolo arrivare a destinazione con un ritardo inimmaginabile."@it ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/scorciatroia.jpg" ;
     dct:creator vocang:filasetaAngelo .
 
@@ -794,64 +798,67 @@ vocang:singhiozzutto
     a vocang:Parolangelo ;
     skos:prefLabel "Singhiozzutto"@it ;
     lexinfo:pronunciation "/sin • gioz • zùt • to/"@it ;
-    skos:definition "Un rutto che esce mentre si ha anche un colpo di singhiozzo."@it ;
-    skos:example "Ieri Nicole ha fatto un singhiozzutto e non riuscivo a smettere di ridere."@it ;
+    skos:definition "Episodio in cui si verificano quasi contemporaneamente un rutto ed un colpo di singhiozzo."@it ;
+    skos:example "Mentre Nicole cercava di raccontare la sua storia commovente durante una cena elegante, un'imprevista combinazione di eventi si presentò: un rutto indomabile si fece strada attraverso le sue labbra, seguito da un colpo di singhiozzo che la fece sobbalzare. Tutti i presenti si ritrovarono a metà tra l'imbarazzo e il divertimento, creando un momento indimenticabile che fece scoppiare l'intera sala in un'ilarità contagiosa. Quel singhiozzutto rimarrà per sempre un ricordo indimenticabile."@it ;
     dct:creator vocang:filasetaAngelo .
 
 vocang:sparatroia
     a vocang:Parolangelo ;
     skos:prefLabel "Sparatroia"@it ;
     lexinfo:pronunciation "/spa • ra • trò • ia/"@it ;
-    skos:definition "Quando c’è una sparatroia in cui molta gente spara a caso."@it ;
-    skos:example "Ho perso l'uso dell'occhio destro a causa di una sparatroia."@it ;
+    skos:definition "Una situazione in cui molte persone coinvolte sparano indiscriminatamente e senza alcun fondamento."@it ;
+    skos:example "Nella confusione del saloon, i cowboy iniziarono una sparatroia caotica, sparando a caso e senza senso. I proiettili volavano in tutte le direzioni, colpendo bottiglie, tavoli e persino il lampadario. La scena si trasformò in un assurdo balletto di proiettili senza meta, lasciando tutti a bocca aperta per la totale mancanza di coordinazione e logica di quel momento bizzarro."@it ;
     dct:creator vocang:filasetaAngelo .
 
 vocang:stancoso
     a vocang:Parolangelo ;
     skos:prefLabel "Stancoso"@it ;
     lexinfo:pronunciation "/stan • có • so/"@it ;
-    skos:definition "Sinonimo di stanco, assonnato."@it ;
-    skos:example "Non dormo da due giorni, sono stancoso."@it ;
+    skos:definition "Affaticato e sopito a causa di una cronica privazione del sonno."@it ;
+    skos:example "Stava cercando disperatamente di seguire una lezione noiosa, ma era troppo stancoso. Lottò tenacemente per restare sveglio, ma alla fine si ritrovò a combattere una guerra epica contro lo sbadiglio e il colpo di testa imminente. La sua testa si chinò, il suo corpo si contorse in posizioni strane e, in un momento di totale sconfitta, cominciò anche a parlare lo sbadigliese."@it ;
+    skos:related vocang:sbadigliese ;
     dct:creator vocang:filasetaAngelo .
 
 vocang:stravoloso
     a vocang:Parolangelo ;
     skos:prefLabel "Stravoloso"@it ;
     lexinfo:pronunciation "/stra • vo • ló • so/"@it ;
-    skos:definition "Sinonimo di favoloso, ma più in grande. Simile a strabiliante, incredibile."@it ;
-    skos:example "Domani Mia si sposa! Stravoloso!"@it ;
+    skos:definition "Favoloso, ma con un'aura di grandezza superiore. Eccezionalmente magnifico. Qualcosa che supera la meraviglia e l'incredibilità comuni, evidenziando un livello di grandiosità straordinario e sorprendente."@it ;
+    skos:example "Le tagliatelle che hanno servito a Sasha in quel ristorante erano veramente stravolose. Ogni singola tagliatella era un capolavoro culinario, con sapori sorprendenti e una presentazione impeccabile. Ogni boccone era un'esperienza gustativa straordinaria. Sasha non riusciva a smettere di esclamare quanto fossero deliziose. Gli chef avevano davvero superato loro stessi, creando un'esperienza gastronomica eccezionale che mi lo fece vomitare a causa di un indigestione. Nonostante tutto, quelle tagliatelle erano talmente stravolose che Sasha continuo a mangiarle anche dopo averle vomitate in bagno."@it ;
     dct:creator vocang:filasetaAngelo .
 
 vocang:stroia
     a vocang:Parolangelo ;
     skos:prefLabel "Stroia"@it ;
     lexinfo:pronunciation "/strò • ia/"@it ;
-    skos:definition "Una persona che è contemporaneamente sia stronza che troia."@it ;
-    skos:example "Quella lì sta sempre vicina al mio ragazzo, è proprio una stroia!"@it ;
+    skos:definition "Un individuo che si caratterizza per essere inetto, e che mostra una tendenza verso comportamenti libertini e poco restrittivi."@it ;
+    skos:example "Claudio ha scoperto che Martina lo tradiva con non uno, non due, ma ben tre suoi compagni di corso. Martina aveva fatto di tutto per nasconderglielo e quando Claudio lo ha scoperto lei non solo non si è scusata, ma ha cercato pure di addossargli la colpa dicendogli che non le dava abbastanza attenzioni. Che grandissima stroia!"@it ;
     dct:creator vocang:battaglinoNicole .
 
 vocang:stupendoso
     a vocang:Parolangelo ;
     skos:prefLabel "Stupendoso"@it ;
     lexinfo:pronunciation "/stu • pen • dó • so/"@it ;
-    skos:definition "Sinonimo di stupendo."@it ;
-    skos:example "Quel ragazzo è stupendoso."@it ;
+    skos:definition "Stupendo, ma con un'enfasi esagerata e maestosa. Incredibilmente sublime. Che vanta straordinaria grandezza e bellezza, andando oltre la semplice bellezza per raggiungere un livello di ammirazione quasi divino."@it ;
+    skos:example "L'omnicio, è un essere estremamente maestoso e incredibilmente sublime. La sua presenza evoca una sensazione di meraviglia e ammirazione, poiché il suo aspetto è così stupendoso ed imponente. L'occhio dell'omnicio brilla come una stella, emanando saggezza e mistero. La sua figura imponente e la sua maestosità lo rendono una creatura che incanta e affascina chiunque abbia il privilegio di ammirarlo."@it ;
+    skos:related vocang:omnicio ;
     dct:creator vocang:filasetaAngelo .
 
 vocang:tardivare
     a vocang:Parolangelo ;
     skos:prefLabel "Tardivare"@it ;
     lexinfo:pronunciation "/tar • di • và • re/"@it ;
-    skos:definition "Arrivare, ma tardi."@it ;
-    skos:example "Non possiamo tardivare proprio oggi!"@it ;
+    skos:definition "Giungere con un certo ritardo rispetto all'orario previsto o desiderato"@it ;
+    skos:example "Dopo aver lottato con il traffico e aver cercato un parcheggio per un'eternità, finalmente riuscii ad arrivare alla festa. Peccato che, nel momento in cui aprii la porta, tutti stavano già facendo il conto alla rovescia per il brindisi di mezzanotte. Mi guardai intorno confuso, rendendomi conto che ero arrivato, ma in ritardo di tutto un anno! Nonostante il mio arrivo tardivo, tutti si misero a ridere e mi accolsero con un caloroso abbraccio, dichiarandomi ufficialmente il ritardatario dell'anno. Almeno il mio tardivare aveva portato un sorriso sulle loro facce! Se solo avessi seguito il navigatore invece che prendere quella scorciatroia probabilmente sarei arrivato in orario."@it ;
+    skos:related vocang:scorciatroia ;
     dct:creator vocang:filasetaAngelo .
 
 vocang:tiramirillo
     a vocang:Parolangelo ;
     skos:prefLabel "Tiramirillo"@it ;
     lexinfo:pronunciation "/ti • ra • mi • rìl • lo/"@it ;
-    skos:definition "Un tiramisù regolare, ma il caffè utilizzato nel procedimento è rimpiazzato dal cafferillo."@it ;
-    skos:example "Dato che oggi è festa ho preprato un tiramirillo."@it ;
+    skos:definition "Un tiramisù tradizionale, ma invece del classico caffè utilizzato nella preparazione, viene sostituito con il cafferillo."@it ;
+    skos:example "Durante una cena elegante, il maestro pasticcere presentò il suo tiramisù gourmet. Tutti si preparavano ad assaporare il classico abbraccio tra il caffè e i savoiardi, ma per sorpresa di tutti, il maestro svelò il suo tocco creativo. Il caffè, componente fondamentale del tiramisù, venne sostituito con una miscela speciale: il cafferillo, un caffè arricchito con uno sciroppo irresistibilmente dolce al mirtillo. Il primo morso fu un'esplosione di sapori inaspettati, un'armonia intrigante tra la dolcezza del mirtillo e la morbidezza del mascarpone. Le facce di sorpresa si trasformarono in sorrisi soddisfatti, mentre i commensali si lasciavano conquistare da questa variante audace e deliziosa del tiramirillo."@it ;
     skos:related vocang:cafferillo ;
     dct:creator vocang:filasetaAngelo .
 
@@ -859,8 +866,8 @@ vocang:trocatrice
     a vocang:Parolangelo ;
     skos:prefLabel "Trocatrice"@it ;
     lexinfo:pronunciation "/tro • ca • trì • ce/"@it ;
-    skos:definition "Una persona che trucca le persone ma fornisce loro anche della droga. Sia la vendita legale che lo spaccio valgono per l’utilizzo di questa parola."@it ;
-    skos:example "Ho rimediato due grammi dalla trocatrice."@it ;
+    skos:definition "Una persona che svolge principalmente l'attività di truccatore professionista, ma che sotto banco offre anche sostanze stupefacenti."@it ;
+    skos:example "Mi sono procurato due grammi artigianali eccezionali dalla trocatrice. La consistenza della roba era perfetta. Appena la ho assaggiata, sono stato trasportato in un mondo di dolcezza e piacere. Ogni morso era un'esplosione di gioia. È stata un'esperienza indimenticabile, un trip gustativo che mi ha fatto sballare di felicità."@it ;
     dct:creator vocang:ribaudoSofia .
 
 vocang:uovograna
@@ -868,7 +875,7 @@ vocang:uovograna
     skos:prefLabel "Uovograna"@it ;
     lexinfo:pronunciation "/uo • vo • grà • na/"@it ;
     skos:definition "Albume cotto con sopra semi di melograno."@it ;
-    skos:example "Oggi mi sono mangiato un uovograna."@it ;
+    skos:example "C'era una volta un ristorante in un piccolo villaggio, noto per le sue creazioni audaci in cucina. Tra queste, c'era un piatto che suscitava reazioni contrastanti: l'uovograna. Alcuni lo adoravano per la combinazione inusuale di texture e sapori, mentre altri lo trovavano semplicemente disgustoso. Nonostante le opinioni contrastanti, il piatto continuava a essere servito nel ristorante, diventando un'attrazione curiosa per coloro che volevano sperimentare nuove sensazioni gustative."@it ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/uovograna.jpg" ;
     dct:creator vocang:filasetaAngelo .
 
@@ -876,8 +883,8 @@ vocang:urlatto
     a vocang:Parolangelo ;
     skos:prefLabel "Urlatto"@it ;
     lexinfo:pronunciation "/ur • làt • to/"@it ;
-    skos:definition "Gatto che urla."@it ;
-    skos:example "Sotto casa mia ci sono degli urlatti."@it ;
+    skos:definition "Un felino che urla frequentemente e fragorosamente."@it ;
+    skos:example "Nell'un tempo tranquillo quartiere residenziale, c'era un urlatto di nome Golia. Questo simpatico felino, dotato di una voce potente e indomabile, amava comunicare con il mondo intero attraverso vocalizzazioni fragorose e stridenti. Nonostante le proteste e le risate delle persone, Golia non smetteva mai di urlare, conquistando la sua fama di gatto dal più rumoroso della città."@it ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/urlatto.jpg" ;
     dct:creator vocang:pertosaLorenzo .
 
@@ -885,8 +892,9 @@ vocang:yoguovo
     a vocang:Parolangelo ;
     skos:prefLabel "Yoguovo"@it ;
     lexinfo:pronunciation "/yo • guò • vo/"@it ;
-    skos:definition "Yogurt (di qualsiasi tipo) sopra albume d’uovo cotto. La prima volta che è stato testato lo yogurt era alla pesca."@it ;
-    skos:example "Lo yoguovo fa schifo."@it ;
+    skos:definition "L'abbinamento insolito tra albume d'uovo cotto e yogurt di qualsiasi tipo."@it ;
+    skos:example "In cucina, uno strano accostamento è quello dello yoguovo, che consiste nell'appoggiare dello yogurt sopra un albume d'uovo cotto. Tuttavia, questa combinazione potrebbe non risultare gradevole al palato di tutti."@it ;
+    skos:note "Il giorno della nascita dello yoguovo, il sapore dello yogurt utilizzato era alla pesca." ;
     dct:creator vocang:filasetaAngelo .
 
 vocang:zeresimo
@@ -894,7 +902,7 @@ vocang:zeresimo
     skos:prefLabel "Zeresimo"@it ;
     lexinfo:pronunciation "/ze • ré • ṣi • mo/"@it ;
     skos:definition "Che occupa, in una serie, reale o ipotetica, il posto corrispondente al numero zero o, in senso più generico, prima dell’inizio."@it ;
-    skos:example "Sono arrivato zeresimo."@it ;
+    skos:example "In quella serie fantascientifica, lo zeresimo episodio introduce il pubblico all'universo narrativo, ma senza essere ancora parte della trama principale. Questo permette di gettare delle basi più solide per meglio gustarsi gli eventi che accadranno."@it ;
     dct:creator vocang:filasetaAngelo .
 
 vocang:arsenzio
@@ -902,7 +910,8 @@ vocang:arsenzio
     skos:prefLabel "Arsenzio"@it ;
     lexinfo:pronunciation "/ar • sèn • zio/"@it ;
     skos:definition "Assenzio con dentro arsenico."@it ;
-    skos:example "Stasera mi faccio un bicchierino di Arsenzio."@it ;
+    skos:example "Ieri ho parlato con Marco, un mio amico che lavora come operatore presso la linea diretta d'emergenza per prevenire i suicidi. Mi ha raccontato che ieri ha chiamato un tale che voleva farla finita bevendosi uno shot di arsenzio. Per fortuna Marco è riuscito a convincerlo a non farlo, ma ammetto che è veramente un modo stiloso per andarsene!"@it ;
+    skos:related vocang:cappuccido, vocang:intè ;
     dct:creator vocang:bragariAlexandru .
 
 vocang:piedofilo
@@ -910,7 +919,7 @@ vocang:piedofilo
     skos:prefLabel "Piedofilo"@it ;
     lexinfo:pronunciation "/pie • do • fì • lo/"@it ;
     skos:definition "Un pedofilo che è anche feticista dei piedi."@it ;
-    skos:example "Stai attento, quello è un piedofilo."@it ;
+    skos:example "Non esistono al mondo persone più schifose dei piedofili. Quelle persone amano i piedi dei vostri bambini e ci fanno pensieri perversi sopra! Dobbiamo salvare i bambini!"@it ;
     dct:creator vocang:bragariAlexandru .
 
 vocang:mussulnano
@@ -918,7 +927,7 @@ vocang:mussulnano
     skos:prefLabel "Mussulnano"@it ;
     lexinfo:pronunciation "/mus • sul • nà • no/"@it ;
     skos:definition "Un mussulmano nano."@it ;
-    skos:example "Quel ragazzo è un mussulnano."@it ;
+    skos:example "Durante l'assemblea, un mussulnano si alzò e prese la parola con grande eloquenza, dimostrando che il valore delle idee non è legato alla fisicità, ma alla forza della mente e delle parole. L'uomo cominciò il suo discorso divendo: \"Oggi desidero condividere con voi una riflessione sul potere e la grandezza delle montagne. Sebbene io sia un uomo di bassa statura, ho imparato che l'altezza fisica non è un fattore determinante per apprezzare la maestosità di questi imponenti giganti naturali.\""@it ;
     dct:creator vocang:omiccioliRiccardo .
 
 vocang:arbitroio
@@ -926,7 +935,8 @@ vocang:arbitroio
     skos:prefLabel "Arbitroio"@it ;
     lexinfo:pronunciation "/ar • bi • trò • io/"@it ;
     skos:definition "Qualcosa che per qualche ragione sconosciuta non funziona sempre anche se dovrebbe."@it ;
-    skos:example "Il risultato è inaspettato, questa deve essere una regola arbitroia."@it ;
+    skos:example "Ho appena comprato un nuovo telecomando universale, ma sembra che abbia un'aura di arbitroio attorno a sé. Funziona perfettamente quando voglio accendere la televisione, ma quando cerco di cambiare il canale, improvvisamente smette di rispondere. È come se il telecomando decidesse autonomamente quali comandi accettare. È un caso unico di arbitroio tecnologico che mi fa scervellare ogni volta che voglio vedere un programma diverso!"@it ;
+    skos:note "La parola nasce come slangelo. La vera parola era \"regola arbitroia\" ma le vocaboregolangelo del tempo non permettevano di creare parole con gli spazi."@it ;
     dct:creator vocang:omiccioliRiccardo .
 
 vocang:serraiolo
@@ -934,7 +944,8 @@ vocang:serraiolo
     skos:prefLabel "Serraiolo"@it ;
     lexinfo:pronunciation "/ser • ra • iò • lo/"@it ;
     skos:definition "Il gestore di una serra."@it ;
-    skos:example "Il serraiolo oggi non ha voglia di lavorare."@it ;
+    skos:example "Il serraiolo, con la sua passione per le piante e la natura, aveva un pollice verde invidiabile. Tuttavia, ogni volta che provava a coltivare piante di carote, succedeva qualcosa di davvero strano. Le carote crescevano in modo insolito, assumendo forme bizzarre e fantasiose. Alcune sembravano corni di unicorno, altre assomigliavano a carote con baffi e occhiali da sole. Il gestore, sbalordito, pensò che la sua serra fosse affetta da un curioso caso di arbitroio vegetale, dove le carote decidevano di diventare degli eccentrici personaggi piuttosto che semplici ortaggi."@it ;
+    skos:note "La parola nasce durante lo sviluppo di un progetto universitario di nome Brittany"@it ;
     dct:creator vocang:talmiAlessandro .
 
 vocang:squarciatroia
@@ -942,7 +953,7 @@ vocang:squarciatroia
     skos:prefLabel "Squarciatroia"@it ;
     lexinfo:pronunciation "/squar • cia • trò • ia/"@it ;
     skos:definition "Un modo alternativo e più dispregiativo per identificare una scorciatroia."@it ;
-    skos:example "Mannaggia a quella squarciatroia!"@it ;
+    skos:example "C'era una volta Luca, un avventuriero intraprendente. Convinto che avrebbe risparmiato tempo, prese una strada diversa dal solito, ma ben presto si rese conto che quella strada, invece di accorciare il percorso, si rivelò una scorciatroia. La sua frustrazione cresceva ad ogni passo, facendolo gridare frasi come \"Odio le maledette squarciatroie!\", finché alla fine, esausto, tornò esattamente al punto di partenza. Quella strada aveva reso Luca furioso, ma imparò che l'avventura vera non era nella lunghezza, bensì nel viaggio stesso, e da quel giorno scelse con saggezza i suoi percorsi, sorridendo delle sue disavventure passate."@it ;
     skos:related vocang:scorciatroia ;
     dct:creator vocang:talmiAlessandro .
 
@@ -951,7 +962,7 @@ vocang:scontante
     skos:prefLabel "Scontante"@it ;
     lexinfo:pronunciation "/scon • tàn • te/"@it ;
     skos:definition "Pagamento effettuato in contanti di importo misero ai fini di evitare le tasse imposte dallo stato."@it, "Sconto su un importo sostanziale offerto dal negoziante a condizione di effettuare un pagamento in contanti per consentire al negoziante stesso di non pagare tasse allo stato su quell'importo"@it;
-    skos:example "Sono povero, pago con lo scontante."@it, "Sono 1400€ se paghi col bancomat, 1200€ con lo scontante"@it;
+    skos:example "Mi spiace, ma se non te ne sei accorto siamo in Italia. Devo farti pagare 1400€ se paghi col bancomat. Se scegli lo scontate tuttavia, posso far scendere il prezzo a 1200€. Cosa scegli?"@it, "Purtroppo sono povero, devo per forza pagare con lo scontante, altrimenti potrei non riuscire ad arrivare a fine mese."@it;
     dct:creator vocang:orlandoNicola .
 
 vocang:coscionchetta
@@ -959,7 +970,7 @@ vocang:coscionchetta
     skos:prefLabel "Coscionchetta"@it ;
     lexinfo:pronunciation "/co • scion • chèt • ta/"@it ;
     skos:definition "Conca che si crea tra la coscia e la vita in determinate condizioni dovute alla postura che si assume."@it ;
-    skos:example "Hai una coscionchetta davvero carina!"@it ;
+    skos:example "Sofia era nota per la sua straordinaria coscionchetta. Ogni volta che si sedeva, la sua conca tra coscia e vita si evidenziava ed era come un abbraccio caloroso per gli occhi delle persone. La gente intorno a lei pensava che avesse una coscionchetta magnetica, ma lei si limitava a ridere e dire: \"È solo un mio tratto caratteristico, sono nata così!\"."@it ;
     dct:creator vocang:ribaudoSofia .
 
 vocang:vibridi
@@ -967,7 +978,7 @@ vocang:vibridi
     skos:prefLabel "Vibridi"@it ;
     lexinfo:pronunciation "/vì • bri • di/"@it ;
     skos:definition "Sensazione circoscritta al diaframma simile ai brividi ma che include solo parte relativa alla stimolazione senza il classico movimento che ne consegue."@it ;
-    skos:example "Stare così in alto mi fa venire i vibridi..."@it ;
+    skos:example "Ieri i miei amici si sono arrampicati su un gioco per i bambini in quel parchetto a Senigallia per sfuggire all'alluvione e ho dovuto seguirli per cercare di non morire. Spero non succerà mai più, stare così in alto mi ha fatto venire i vibridi..."@it ;
     dct:creator vocang:orlandoNicola .
 
 vocang:contanegrino
@@ -975,8 +986,9 @@ vocang:contanegrino
     skos:prefLabel "Contanegrino"@it ;
     lexinfo:pronunciation "/con • ta • ne • grì • no/"@it ;
     skos:definition "Contadino con la carnagione scura."@it, "Contadino montenegrino (abitante del Montenegro)."@it ;
-    skos:example "Mio zio è un contanegrino."@it ;
+    skos:example "Mio zio ha coltivato pomodori per tutta l'estate. Quando l'ho visto a Settembre non potevo credere ai miei occhi. Si era abbronzato talmente tanto da non sembrare lui. Era diventato un vero contanegrino."@it ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/contanegrino.jpg" ;
+    skos:note "La parola nasce durante lo sviluppo di un progetto universitario di nome Brittany"@it ;
     dct:creator vocang:talmiAlessandro, vocang:pertosaLorenzo, vocang:omiccioliRiccardo .
 
 vocang:tempoglia
@@ -984,7 +996,7 @@ vocang:tempoglia
     skos:prefLabel "Tempoglia"@it ;
     lexinfo:pronunciation "/tem • pò • glia/"@it ;
     skos:definition "Concetto rapido utilizzato da persone svogliate per indicare sia il tempo che la voglia. Generalmente viene utilizzato per indicare la mancanza di entrambi."@it ;
-    skos:example "Non ho tempoglia di studiare."@it ;
+    skos:example "Non ho tempoglia di studiare. Penso che andrò a dormire."@it ;
     dct:creator vocang:talmiAlessandro .
 
 vocang:angurianesimo
@@ -992,7 +1004,7 @@ vocang:angurianesimo
     skos:prefLabel "Angurianesimo"@it ;
     lexinfo:pronunciation "/an • gu • ria • né • ṣi • mo/"@it ;
     skos:definition "Un tipo di dieta molto più valida di quella vegetariana o vegana. Consiste nel mangiare circa 7kg di anguria al giorno, bucce e semi inclusi. I semi di anguria sono ricchi di vitamine, sali minerali e più contengono più proteine della carne. Inoltre si avrà a disposizione il 100% del ferro necessario in un giorno, cosa che invece i vegani e vegetariani devono integrare con le pillole."@it ;
-    skos:example "Ho cominciato un nuovo tipo di dieta, si chiama angurianesimo."@it ;
+    skos:example "C'era una volta un eccentrico personaggio di nome Carlo, convinto sostenitore dell'angurianesimo. Ogni giorno, mangiava quantità smisurate di anguria, bucce e semi inclusi, convinto che fosse la chiave per la salute e la vitalità. Camminava per strada con un carretto pieno di angurie giganti, distribuendole a chiunque incontrasse. Gli amici lo guardavano perplessi e gli chiedevano: \"Carlo, perché mangi così tanta anguria?\". E lui rispondeva con un sorriso: \"L'anguria è il segreto della vita, mi sento un monaco tibetano!\". Anche se la sua dieta era eccentrica, Carlo riusciva a diffondere gioia e risate con la sua passione per l'angurianesimo."@it ;
     dct:creator vocang:bragariAlexandru .
 
 vocang:ispettrore
@@ -1000,23 +1012,23 @@ vocang:ispettrore
     skos:prefLabel "Ispettrore"@it ;
     lexinfo:pronunciation "/is • pet • tró • re/"@it ;
     skos:definition "Istruttore di palestra che ha anche il ruolo di ispettore e multa chi non si allena."@it ;
-    skos:example "Oggi l'isprettrore mi ha fatto una multa..."@it ;
+    skos:example "C'era una volta un ispettrore di nome Marco. Un giorno, mentre osservava dalla sua scrivania, notò un ragazzo che faceva delle lunghe pause tra una serie e l'altra. Marco si avvicinò, con un buffo cappello in testa, e disse: \"Mi dispiace, ma devo multarla per eccessiva pausa, DIECI FLESSIONI LAMPO!\". Il povero ragazzo era sorpreso ma accettò, facendo le flessioni con un sorriso. Marco, grazie alla sua doppia veste, rendeva l'allenamento un'esperienza divertente e motivante per tutti."@it ;
     dct:creator vocang:bragariAlexandru .
 
 vocang:esplisciata
     a vocang:Parolangelo ;
     skos:prefLabel "Esplisciata"@it ;
     lexinfo:pronunciation "/es • pli • scià • ta/"@it ;
-    skos:definition "Esplorazione atta a pisciare."@it ;
-    skos:example "Io e Lorenzo andiamo in eslisciata."@it ;
+    skos:definition "Esplorazione atta ad urinare."@it ;
+    skos:example "Questa è la storia di Lorenzo ed Angelo due amici avventurosi che amavano le esplisciate. Un giorno decisero di fare un'escursione in una foresta sperduta. Durante il loro percorso, sentirono l'impellente bisogno di urinare e si separarono per trovare un posto adatto. Angelo si allontanò, mentre Lorenzo si fermò vicino a un grande albero. Dopo alcuni minuti, Lorenzo si rese conto che Angelo non era ancora tornato. Iniziò a chiamarlo, ma non ottenne risposta. Lorenzo, preoccupato, si mise a cercare il suo amico. Attraversò cespugli e attraversò ruscelli, ma di Angelo nessuna traccia. Finalmente, dopo un lungo e faticoso tragitto, Lorenzo riuscì a raggiungere il punto di partenza dell'escursione. E lì trovò Angelo, che lo stava aspettando con un sorriso. \"Ma dove diavolo sei stato?\" chiese Lorenzo. Angelo rise e rispose: \"Mentre cercavo un posto per urinare, mi sono imbattuto in una scorciatroia. Sono andato avanti e indietro per un po' prima di capire come tornare indietro. Scusa, mi ero perso!\". Lorenzo, sollevato, scosse la testa e disse: \"Mai avrei pensato che l'atto di urinare potesse portare a una tale avventura! Promettiamoci di restare sempre vicini nelle prossime esplisciate!\".E così, i due amici tornarono a casa ridendo della loro strana avventura, consapevoli che anche l'atto più comune può portare a situazioni assurde quando si è in esplisciata."@it ;
     dct:creator vocang:pertosaLorenzo .
 
 vocang:negatico
     a vocang:Parolangelo ;
     skos:prefLabel "Negatico"@it ;
     lexinfo:pronunciation "/ne • gà • ti • co/"@it ;
-    skos:definition "Quando si risulta negativi al test del Covid 19 e ci si trova nel circolo polare artico."@it ;
-    skos:example "Sono negatico!"@it ;
+    skos:definition "Quando si risulta negativi al test del Covid-19 e ci si trova nel circolo polare artico."@it ;
+    skos:example "Quando si risulta negatici, l'avventura diventa magica. Giancarlo, libero dalla quarantena, esplorò terre ghiacciate, ballò con pinguini e ammirò l'aurora boreale. Un'esperienza unica che riempì il suo cuore di gratitudine e meraviglia."@it ;
     dct:creator vocang:bragariAlexandru .
 
 vocang:autovalaggio
@@ -1024,14 +1036,14 @@ vocang:autovalaggio
     skos:prefLabel "Autovalaggio"@it ;
     lexinfo:pronunciation "/au • to • va • làg • gio/"@it ;
     skos:definition "Pulizia dell'auto attraverso l'umidità dell'aria."@it ;
-    skos:example "Visto che splendore? Tutto merito dell'autovalaggio."@it ;
+    skos:example "Una volta c'era un uomo di nome Alberto, ossessionato dalla pulizia della sua auto. Un giorno, notò che l'aria era particolarmente umida e decise di sfruttarla per pulire la sua macchina. Lasciò l'auto all'aperto e l'autovalaggio fece il suo lavoro magico, rendendo la carrozzeria splendente senza alcuno sforzo da parte di Alberto. Da quel momento in poi, Alberto fece affidamento sull'umidità dell'aria per tenere la sua auto pulita in modo rapido e senza fatica."@it ;
     dct:creator vocang:filasetaAngelo .
 
 vocang:trashetto
     a vocang:Parolangelo ;
     skos:prefLabel "Trashetto"@it ;
     skos:definition "Un biglietto di auguri fatto a mano in cui sono rappresentati eventi divertenti riguardanti la vita del festeggiato."@it ;
-    skos:example "Il trashetto di Nicola è il più bello di tutti."@it ;
+    skos:example "Una volta, Marta decise di fare una sorpresa speciale per il compleanno del suo migliore amico, Joy. Prese carta colorata e pennarelli e creò un trashetto. Rappresentò momenti divertenti della loro amicizia, dalle cadute in bicicletta alle risate scatenate. Quando Joy ricevette il biglietto, scoppiò a ridere, commosso dall'amore e dalla cura che Marta aveva messo in quel gesto."@it ;
     dct:creator vocang:filasetaAngelo .
 
 vocang:coscino
@@ -1039,7 +1051,7 @@ vocang:coscino
     skos:prefLabel "Coscino"@it ;
     lexinfo:pronunciation "/co • scì • no/"@it ;
     skos:definition "Cuscino messo sulle cosce al fine di alleviare i dolori del ciclo."@it ;
-    skos:example "Che dolore... Meno male che ho un coscino."@it ;
+    skos:example "Qualche mese fa Sofia ha sofferto di dolori estremi a causa del ciclo mestruale. Decise di provare un trucco consigliato dalla nonna: il coscino. Da quel giorno, ogni volta che arrivava quel momento del mese, Sofia si coccolava con il suo cuscinetto magico che alleviava i suoi dolori e le faceva sorridere."@it ;
     dct:creator vocang:savoGiorgia .
 
 vocang:limonalbero
@@ -1047,7 +1059,7 @@ vocang:limonalbero
     skos:prefLabel "Limonalbero"@it ;
     lexinfo:pronunciation "/li • mo • nàl • be • ro/"@it ;
     skos:definition "Grafo non orientato e non pesato utilizzato per rappresentare chi ha baciato chi (archi) in un gruppo di persone (nodi)."@it ;
-    skos:example "Stasera facciamo il limonalbero della nostra compagnia, se vieni proviamo a completarlo!"@it ;
+    skos:example "Giulia era una giovane curiosa che aveva una strana passione per il disegno dei grafi. Durante una festa, Giulia decise di creare un limonalbero per rappresentare chi si era baciato con chi. A causa di questo, durante la serata, la situazione cominciò a scottare. Giulia disegnò nodi per ogni persona e archi tra i nodi per ogni bacio. Alla fine della serata, il grafo era pieno di linee intrecciate, dimostrando l'entusiasmante scambio di effusioni tra gli amici. Era un modo divertente per conservare i ricordi di quella serata indimenticabile."@it ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/limonalbero.jpg" ;
     dct:creator vocang:ribaudoSofia .
 
@@ -1056,7 +1068,7 @@ vocang:tappembramento
     skos:prefLabel "Tappembramento"@it ;
     lexinfo:pronunciation "/tap • pem • bra • mèn • to/"@it ;
     skos:definition "Assembramento fatto su un tappeto di comodità suprema."@it ;
-    skos:example "Il piano per stasera è di fare un bel tappembramento."@it ;
+    skos:example "Una volta, un gruppo di amici decise di organizzare un tappembramento a casa dell'amico in comune, Eddy. Presero un tappeto enorme, lo posizionarono nella sua stanza più grande di casa sua e invitarono tutti a sedersi e rilassarsi. Ci furono risate, chiacchiere e persino una mini-sessione di yoga sul tappeto. Era un tappembramento così confortevole che tutti dimenticarono di alzarsi e tornare a casa. Alla fine, il tappeto diventò il nuovo quartier generale delle riunioni dell'amicizia e della pigrizia assoluta."@it ;
     dct:creator vocang:suscaMatteo .
 
 vocang:abbecedangelo
@@ -1064,7 +1076,7 @@ vocang:abbecedangelo
     skos:prefLabel "Abbecedangelo"@it ;
     lexinfo:pronunciation "/ab • be • ce • dàn • ge • lo/"@it ;
     skos:definition "Abbecedario per insegnare le parole del Vocabolangelo."@it ;
-    skos:example "Insegnerò le parole del vocabolangelo a mio figlio grazie all'abbecedangelo."@it ;
+    skos:example "Angelo decise di coinvolgere i suoi giovani vocabolieri in un gioco divertente: l'abbecedangelo. Ogni giorno, partendo dalla lettera A, ognuno doveva nominare una parolangelo e spiegarne il significato. Alla fine dell'abbecedangelo, i vocabolieri avevano ampliato il loro vocabolamgelo mentale e imparato a usare la fantasia in modo meraviglioso."@it ;
     skos:related vocang:vocabolangelo, vocang:angeloco ;
     dct:creator vocang:minoccheriAlessandra .
 
@@ -1073,7 +1085,7 @@ vocang:cappucciccia
     skos:prefLabel "Cappucciccia"@it ;
     lexinfo:pronunciation "/cap • puc • cìc • cia/"@it ;
     skos:definition "Salsiccia imbevuta nel cappuccino."@it ;
-    skos:example "Non voglio mai mangiare una cappucciccia in vita mia."@it ;
+    skos:example "Una mattina, Arianna decise di sperimentare la cappucciccia. Con un misto di curiosità e coraggio, prese un morso e... sorprendentemente, scoprì che il sapore salato della salsiccia si mescolava in modo interessante con la dolcezza del cappuccino! Arianna scoprì un nuovo gusto che la sorprese e la fece ridere."@it ;
     dct:creator vocang:nardiniArianna, vocang:bdeouiEddy .
 
 vocang:spiazio
@@ -1081,7 +1093,7 @@ vocang:spiazio
     skos:prefLabel "Spiazio"@it ;
     lexinfo:pronunciation "/spià • zio/"@it ;
     skos:definition "Uno spiazzato estremamente spazioso."@it ;
-    skos:example "Questo spiazio è ancora più grande di quello che immaginassi!."@it ;
+    skos:example "Quello spiazio era così incredibilmente spazioso che sembrava uscito da un'opera d'arte surreale. Le persone che lo visitavano rimanevano esterrefatte dalla vastità dello spazio aperto. Potevano correre, saltare e girare senza mai toccare nulla intorno. Era un luogo magico, dove ci si poteva sentire completamente liberi, un'esperienza che ti faceva dimenticare tutto il resto."@it ;
     dct:creator vocang:pertosaLorenzo, vocang:paoliMichele .
 
 vocang:grandino
@@ -1089,7 +1101,7 @@ vocang:grandino
     skos:prefLabel "Grandino"@it ;
     lexinfo:pronunciation "/gran • dì • no/"@it ;
     skos:definition "Un gradino estremamente alto."@it ;
-    skos:example "Se cascassi da quel grandino morirei per colpa dei danni da caduta."@it ;
+    skos:example "Un ragno di nome Filippo, vivendo in un granaio, un giorno scoprì una porta socchiusa che portava a un corridoio misterioso. Deciso ad esplorare, si avventurò nel buio, finché non vide una luce provenire da una stanza. Ma tra lui e l'entrata c'era un grandino. Nonostante la sfida, Filippo trovò una corda abbandonata nel corridoio e con astuzia la utilizzò per superare l'ostacolo. Dall'altra parte, la stanza si rivelò un tesoro di oggetti antichi e storie dimenticate, aprendo la strada a molte altre avventure per il coraggioso ragno."@it ;
     dct:created "2022-08-12" ;
     dct:creator vocang:omiccioliRiccardo .
 
@@ -1098,7 +1110,7 @@ vocang:scalinfame
     skos:prefLabel "Scalinfame"@it ;
     lexinfo:pronunciation "/sca • lin • fà • me/"@it ;
     skos:definition "Scalino particolarmente infame che si presta a non essere visto."@it ;
-    skos:example "Ho quasi distrutto l'auto per colpa di uno scalinfame."@it ;
+    skos:example "Tim si trovava in un vecchio edificio abbandonato quando si imbatté in uno scalinfame. Nonostante la sua natura invisibile, Tim era un abile osservatore e, con cautela, riuscì a individuare il gradino nascosto. Con un salto agile, superò l'ostacolo e proseguì nella sua esplorazione."@it ;
     dct:created "2022-08-12" ;
     dct:creator vocang:nardiniArianna .
 
@@ -1106,8 +1118,8 @@ vocang:lesante
     a vocang:Parolangelo ;
     skos:prefLabel "Lesante"@it ;
     lexinfo:pronunciation "/le • san • te/"@it ;
-    skos:definition "Non facilmente classificabile tra leggero e pesante."@it ;
-    skos:example "Questo scudo è lesante, sono confuso."@it ;
+    skos:definition "Situabile in una sottile e complessa zona intermedia tra la leggerezza e la pesantezza, sfuggendo ad una classificazione chiara e definitiva."@it ;
+    skos:example "Anna aveva un libro speciale nella sua collezione. Non era come gli altri libri, perché aveva un peso strano. Era lesante. Quando Anna lo prendeva in mano, poteva sentire una strana sensazione di leggerezza e al contempo di un peso invisibile che si faceva sentire."@it ;
     dct:created "2022-08-12" ;
     dct:creator vocang:paoliMichele .
 
@@ -1116,7 +1128,7 @@ vocang:poccante
     skos:prefLabel "Poccante"@it ;
     lexinfo:pronunciation "/poc • càn • te/"@it ;
     skos:definition "Un sapore che ci si aspetta essere molto piccante ma che alla fine non lo è quasi per niente."@it ;
-    skos:example "Questo Kebab è poccante."@it ;
+    skos:example "Lucia preparò un piatto speciale chiamato \"Sorpresa di Spezie\". I commensali si stupirono quando lo assaggiarono e scoprirono che la portata era poccante. Il piatto aveva una leggera nota speziata, ma senza il piccante che ci si aspettava. I commensali rimasero sorpresi, ma apprezzarono comunque l'armonia dei sapori delicati che danzavano sulle loro papille gustative."@it ;
     dct:created "2022-08-15" ;
     dct:creator vocang:omiccioliRiccardo .
 
@@ -1124,8 +1136,8 @@ vocang:notticcia
     a vocang:Parolangelo ;
     skos:prefLabel "Notticcia"@it ;
     lexinfo:pronunciation "/not • tic • cia/"@it ;
-    skos:definition "Una brutta notte con incubi annessi per aver assistito al consumo di una rossiccia con aggiunte strane che non hanno senso."@it ;
-    skos:example "Ho passato una notticcia veramente orrenda."@it ;
+    skos:definition "Una brutta notte con incubi annessi causata dall'aver assistito al consumo di una pizza rossiccia con aggiunte strane che non hanno senso."@it ;
+    skos:example "Marco aveva trascorso una brutta notte. Gli incubi si erano impossessati della sua mente, turbando il suo sonno. Tutto era iniziato quando aveva assistito al consumo di una rossiccia con aggiunte strane che non avevano senso. Quella sera, i suoi amici avevano ordinato una pizza rossicia \"sperimentale\", con ingredienti insoliti come ananas, salame e marshmallow. Marco, incuriosito, aveva deciso di provarla. Ma mentre osservava i suoi amici divorare quella pizza dall'aspetto bizzarro, qualcosa era andato storto. Durante la notte, Marco fu tormentato da strani sogni. Le fette di pizza danzavano nella sua mente, prendendo forme mostruose e bizzarre."@it ;
     dct:created "2022-08-15" ;
     dct:creator vocang:bragariAlexandru .
 
@@ -1134,7 +1146,7 @@ vocang:uragago
     skos:prefLabel "Uragago"@it ;
     lexinfo:pronunciation "/u • ra • ga • go/"@it ;
     skos:definition "Una tempesta di aghi di pino."@it ;
-    skos:example "Per colpa dell'uragago oggi ho quasi perso la vista."@it ;
+    skos:example "Nel cuore della foresta, si scatenò una tempesta inaspettata. Ma non si trattava di una tempesta di pioggia o di neve, bensì di un uragago. I venti furiosi sferzavano tra gli alberi, facendo cadere una cascata di aghi di pino in ogni direzione. Era uno spettacolo straordinario e allo stesso tempo surreale. Gli aghi danzavano nell'aria come fiocchi dorati, creando un tappeto soffice e profumato sul terreno. Se qualcuno si fosse trovato lì avrebbe sicuramente perso la vista!"@it ;
     dct:created "2022-08-15" ;
     dct:creator vocang:pertosaLorenzo .
 
@@ -1143,25 +1155,16 @@ vocang:semirissa
     skos:prefLabel "Semirissa"@it ;
     lexinfo:pronunciation "/se • mi • ris • sa/"@it ;
     skos:definition "Una rissa in cui solo una fazione picchia e l'altra che subisce impassibile."@it ;
-    skos:example "Oggi a quella semirissa sono quasi morto."@it ;
+    skos:example "In un caffè affollato, una semirissa esplose tra due gruppi. Uno picchiava furiosamente, l'altro rideva di gusto. La rissa si trasformò in una comica scena, lasciando tutti con un sorriso sulle labbra e una strana storia da raccontare."@it ;
     dct:created "2022-08-15" ;
     dct:creator vocang:bdeouiEddy .
-
-vocang:farza
-    a vocang:Parolangelo ;
-    skos:prefLabel "Farza"@it ;
-    lexinfo:pronunciation "/far • za/"@it ;
-    skos:definition "Parole che assume sia il significato di \"farsa\" che si \"falsa\"."@it ;
-    skos:example "Sei una persona farza."@it , "Questa recita è tutta una farza."@it;
-    dct:created "2022-08-17" ;
-    dct:creator vocang:savoGiorgia .
 
 vocang:overmind
     a vocang:Parolangelo ;
     skos:prefLabel "Overmind"@it ;
     lexinfo:pronunciation "/o • ver • mind/"@it ;
-    skos:definition "Quando nel gioco da tavolo \"The Mind\", 3 o 4 giocatori completano il gioco e proseguono ai livelli successivi, andando oltre ai limiti imposti, ma non ancora superando il livello 12. In quel caso si parlerebbe di Hypermind."@it ;
-    skos:example "Siamo in overmind, la tensione è alle stelle."@it;
+    skos:definition "Situazione nel gioco da tavolo \"The Mind\", in cui 3 o 4 giocatori completano il gioco e proseguono ai livelli successivi, andando oltre ai limiti imposti, ma non ancora superando il livello 12. In quel caso si parlerebbe di Hypermind."@it ;
+    skos:example "Siamo in overmind, la tensione è alle stelle. Un solo errore sarebbe fatale. Se non altro abbiamo già vinto formalmente."@it;
     skos:related vocang:hypermind ;
     dct:created "2022-08-15" ;
     dct:creator vocang:orlandoNicola .
@@ -1171,7 +1174,7 @@ vocang:hypermind
     skos:prefLabel "Hypermind"@it ;
     lexinfo:pronunciation "/hy • per • mind/"@it ;
     skos:definition "Quando nel gioco da tavolo \"The Mind\", indipendentemente dal numero di giocatori, si arriva oltre il livello 12, andando oltre il limite imposto."@it ;
-    skos:example "Siamo in hypermind, non credevo fosse possibile. Pensavano tutti fosse solo una leggenda."@it;
+    skos:example "Siamo in hypermind, non credevo fosse possibile. Pensavano tutti fosse solo una leggenda. Anche se ora perdessimo, non possiamo dire di aver giocato male."@it;
     dct:created "2022-08-15" ;
     dct:creator vocang:orlandoNicola .
 
@@ -1180,25 +1183,16 @@ vocang:pronaccia
     skos:prefLabel "Pronaccia"@it ;
     lexinfo:pronunciation "/pro • nac • cia/"@it ;
     skos:definition "Un’affermazione che non si capisce bene se sia una promessa o una minaccia."@it ;
-    skos:example "Oggi mi hanno detto \"Stasera muori.\", una vera e propria pronaccia."@it;
+    skos:example "Oggi mi hanno scritto un messaggio particolare:\"Stasera se ti vedo per strada stai pur certo che muori.\". Una vera e propria pronaccia!"@it;
     dct:created "2022-08-24" ;
     dct:creator vocang:savoGiorgia .
-
-vocang:piedina
-    a vocang:Parolangelo ;
-    skos:prefLabel "Piedina"@it ;
-    lexinfo:pronunciation "/pie • di • na/"@it ;
-    skos:definition "Piadina realizzata utilizzando i calli dei piedi delle persone come condimento."@it ;
-    skos:example "Ieri mi hanno fatto un quanto te la rischi e ho perso, ho dovuto mangiare una piedina..."@it;
-    dct:created "2022-08-24" ;
-    dct:creator vocang:filasetaAngelo .
 
 vocang:burrigliata
     a vocang:Parolangelo ;
     skos:prefLabel "Burrigliata"@it ;
     lexinfo:pronunciation "/bur • ri • glia • ta/"@it ;
     skos:definition "Una grigliata in cui sono anche presenti dei burrito."@it ;
-    skos:example "Venerdì ci sei alla burrigliata?"@it;
+    skos:example "Durante la burrigliata, gli amici si deliziarono con sapori messicani, creando combinazioni gustose e scambiandosi consigli. La festa fu un successo, tra le risate e il sapore unico dei burrito."@it;
     dct:created "2022-08-24" ;
     dct:creator vocang:bdeouiEddy .
 
@@ -1207,7 +1201,7 @@ vocang:griglito
     skos:prefLabel "Griglito"@it ;
     lexinfo:pronunciation "/gri • gli • to/"@it ;
     skos:definition "Sinonimo maschile di Burrigliata."@it ;
-    skos:example "Venerdì ci sei al griglito?"@it;
+    skos:example "Durante il griglito, gli amici si deliziarono con sapori messicani, creando combinazioni gustose e scambiandosi consigli. La festa fu un successo, tra le risate e il sapore unico dei burrito."@it;
     dct:created "2022-08-24" ;
     scot:synonym vocang:burrigliata ;
     dct:creator vocang:bdeouiEddy .
@@ -1217,7 +1211,7 @@ vocang:balborbottare
     skos:prefLabel "Balborbottare"@it ;
     lexinfo:pronunciation "/bal • bot • ta • re/"@it ;
     skos:definition "Balbettare sotto voce, borbottando."@it ;
-    skos:example "Ho visto dei bambini prendere in giro il loro amichetto perché balborbottava."@it;
+    skos:example "In biblioteca, un ragazzo balbottava parole incomprensibili. La bibliotecaria cercava di capire, ma sembrava una sorta di gioco del cruciverba impossibile. Alla fine, il ragazzo esclamò: \"Mi piacerebbe un libro che parli la mia lingua!\" La bibliotecaria rise di gusto, rispondendo: \"Mi dispiace, ma i libri preferiscono ancora il linguaggio scritto!\"."@it;
     dct:created "2022-08-30" ;
     dct:creator vocang:mordacchiniCecilia .
 
@@ -1226,7 +1220,7 @@ vocang:fraldo
     skos:prefLabel "Fraldo"@it ;
     lexinfo:pronunciation "/fral • do/"@it ;
     skos:definition "Utilizzato per indicare qualcosa che è sia caldo che freddo."@it ;
-    skos:example "Oggi è un po' fraldiccio."@it;
+    skos:example "\"Senti, questo drink è strano...\", disse il ragazzo, assaggiando cautamente il liquido nel bicchiere. \"È sia bollente che gelato! È fraldo!\""@it;
     dct:created "2022-08-27" ;
     dct:creator vocang:omiccioliRiccardo .
 
@@ -1869,7 +1863,7 @@ vocang:parolangelo
     a vocang:Parolangelo ;
     skos:prefLabel "Parolangelo"@it ;
     lexinfo:pronunciation "/pa • ro • lan • ge • lo/"@it ;
-    skos:definition "Una parola presente all'interno del Vocabolangelo."@it ;
+    skos:definition "Una parola inventata presente all'interno del Vocabolangelo, non presente su un normale vocabolario, e creata da un vocaboliere."@it ;
     skos:example "Il vocabolangelo è pieno di parolangelo interessanti!"@it ;
     skos:related vocang:vocabolangelo, vocang:dizionangelo, vocang:angelario ;
     dct:created "2022-12-07" ;
@@ -4702,7 +4696,7 @@ vocang:vocaboliere
     a vocang:Parolangelo ;
     skos:prefLabel "Vocaboliere"@it ;
     lexinfo:pronunciation "/vo • ca • bo • liè • re/"@it ;
-    skos:definition "Un individuo che ha inventato almeno una parolangelo nel corso della sua vita."@it ;
+    skos:definition "Un individuo che ha inventato almeno una parolangelo o uno slangelo nel corso della sua vita."@it ;
     skos:example "Tutti i vocaboladmin sono anche vocabolieri."@it, "Grazie all'apostolangelo il numero di vocabolieri crescerà!" ;
     skos:related vocang:vocaboladmin, vocang:vocabolangelo, vocang:angelario, vocang:parolangelo, vocang:apostolangelo, vocang:dizionangelo ;
     dct:created "2023-04-02" ;
@@ -5628,4 +5622,78 @@ vocang:profumolotov
     skos:definition "Una bomba incendiaria, conosciuta come 'molotov', composta da una bottiglia riempita di olio profumato altamente infiammabile."@it ;
     skos:example "Durante una mattina di sole, Luis si recò in una panetteria per acquistare dei croissant appena sfornati. Nel frattempo, a pochi isolati di distanza, si stava svolgendo una manifestazione che non aveva affatto l'aria di essere pacifica. Improvvisamente, un forte rumore echeggiò in lontananza quando una bottiglia contenente olio profumato si ruppe, causando un forte odore e panico nella folla. Nonostante tutto, Luis continuò a gustarsi il  suo croissant in tutta tranquillità."@it ;
     dct:created "2023-05-27" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:slangelo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Slangelo"@it ;
+    lexinfo:pronunciation "/slàn • ge • lo/"@it ;
+    skos:definition "Una composizione di più parole, potenzialmente inventate, e/o parolangelo inventata da un Vocaboliere che possiedono  nel loro insieme una definizione precisa e univoca."@it ;
+    skos:example "Tanto tempo fa avevo inventato la parolangelo \"regola arbitroia\", ma un vocaboladmin me la aveva bocciata dicendo che non rispettava il Vocaboregolangelo. Da quel momento è passato veramente tanto tempo. Un giorno i vocabolieri hanno creato un sondaggio richiedendo la possibilità di creare parolangelo che potessero contenere lo spazio. Quel giorno nacque la parolangelo \"slangangelo\", e nonostante ci sia una divisione netta dei due concetti ora è possibile essere molto più creativi!"@it ;
+    dct:created "2023-05-28" ;
+    skos:related vocang:vocaboladmin, vocang:vocabolangelo, vocang:angelario, vocang:parolangelo, vocang:apostolangelo, vocang:dizionangelo, vocang:vocaboliere, vocang:vocabolangelare, vocang:vocaboregolangelo, vocang:parolarcangelo ;
+    dct:creator vocang:filasetaAngelo, vocang:nardiniArianna, vocang:orlandoNicola .
+
+vocang:scopub
+    a vocang:Parolangelo ;
+    skos:prefLabel "Scopub"@it ;
+    skos:definition "Un locale pubblico frequentato da un considerevole numero di individue che svolgono attività di carattere sessuale a scopo commerciale."@it ;
+    skos:example "Recentemente ho scoperto l'esistenza di un scopub in Via Roma. È frequentato da un notevole numero di professioniste del settore del sesso, le quali si riuniscono per svolgere la propria attività lavorativa e interagire con i clienti."@it ;
+    dct:created "2023-06-02" ;
+    dct:creator vocang:filasetaAngelo, vocang:bdeouiEddy .
+
+vocang:piattologia
+    a vocang:Parolangelo ;
+    skos:prefLabel "Piattologia"@it ;
+    lexinfo:pronunciation "/piat • to • lo • gì • a/"@it ;
+    skos:definition "Lo studio dei piatti, inteso in senso completo, riguarda l'analisi approfondita degli aspetti ergonomici, funzionali e estetici dei piatti utilizzati nell'ambito culinario. Questo processo di studio mira a comprendere e ottimizzare la progettazione e l'utilizzo dei piatti al fine di garantire la massima comodità, praticità ed efficienza durante la preparazione, presentazione e consumo dei cibi. Inoltre, si tiene conto anche della sicurezza alimentare e dell'igiene, al fine di garantire che i piatti siano adeguati e sicuri per l'utilizzo nella preparazione e servizio dei pasti."@it ;
+    skos:example "Sofia ha seguito per qualche tempo dei corsi di piattologia. Ieri ci ha invitati a cena, e mangiare i suoi piatti è stato un po' come ricevere un trattamento gratis ad una Spa per la mia bocca. Non c'era assolutamente nulla da criticare nei suoi piatti. Erano una vera opera d'arte culinaria."@it ;
+    dct:created "2023-06-02" ;
+    dct:creator vocang:bragariAlexandru, vocang:ribaudoSofia, vocang:bdeouiEddy .
+
+vocang:piattologo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Piattologo"@it ;
+    lexinfo:pronunciation "/piat • tò • lo • go/"@it ;
+    skos:definition "Esperto in piattologia."@it ;
+    skos:example "Sofia è una piattologa. Ieri ci ha invitati a cena, e mangiare i suoi piatti è stato un po' come ricevere un trattamento gratis ad una Spa per la mia bocca. Non c'era assolutamente nulla da criticare nei suoi piatti. Erano una vera opera d'arte culinaria."@it ;
+    dct:created "2023-06-02" ;
+    skos:related vocang:piattologia ;
+    dct:creator vocang:bragariAlexandru, vocang:ribaudoSofia, vocang:bdeouiEddy .
+
+vocang:cavapiatti
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cavapiatti"@it ;
+    lexinfo:pronunciation "/ca • va • piàt • ti/"@it ;
+    skos:definition "L'individuo designato all'incarico di rimuovere e ripulire le stoviglie e la tavola dopo un pasto."@it ;
+    skos:example "Nel ristorante di alta classe in cui lavoravo, il maître aveva l'abitudine di assegnare con cura il compito di cavapiatti a un individuo dedicato. Questa figura professionale si occupava con attenzione e discrezione di ripulire la tavola, rimuovere le stoviglie utilizzate e garantire che l'ambiente rimanesse ordinato e pronto per l'arrivo dei successivi commensali."@it ;
+    dct:created "2023-06-02" ;
+    dct:creator vocang:bdeouiEddy, vocang:pertosaLorenzo .
+
+vocang:escita
+    a vocang:Parolangelo ;
+    skos:prefLabel "Escita"@it ;
+    lexinfo:pronunciation "/e • scì • ta/"@it ;
+    skos:definition "Uscita di un'autostrada."@it ;
+    skos:example "Mentre viaggiavo lungo l'autostrada con la mia famiglia, mio zio, noto per la sua peculiarità nel prendere le escite sbagliate, ha improvvisamente annunciato con entusiasmo: 'Guardate tutti!'. Confusi e divertiti, abbiamo guardato con sorpresa mentre mio zio guidava abilmente attraverso l'escita, lasciandoci senza parole e con un sacco di risate!"@it ;
+    dct:created "2023-06-02" ;
+    skos:related vocang:escire ;
+    dct:creator vocang:bdeouiEddy .
+
+vocang:conglomegatto
+    a vocang:Parolangelo ;
+    skos:prefLabel "Conglomegatto"@it ;
+    lexinfo:pronunciation "/con • glo • me • gàt • to/"@it ;
+    skos:definition "L'insieme di felini che si riunisce in un aggregato e si toccano fisicamente, in cui ogni gatto è obbligatoriamente connesso ad almeno un altro membro del gruppo felino."@it ;
+    skos:example "Nel quartiere ieri si è formato un curioso agglomegatto. Gli amanti dei felini ammiravano con occhi a cuore la scena, mentre chi era allargico guardava con terrore dalla finestra."@it ;
+    dct:created "2023-06-02" ;
+    dct:creator vocang:orlandoNicola .
+
+vocang:kebalbino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Kebalbino"@it ;
+    lexinfo:pronunciation "/ke • bal • bì • no/"@it ;
+    skos:definition "Venditore di kebab affetto da albinismo."@it ;
+    skos:example "Nel vivace mercato dei kebab della città, c'è un kebabbaro dal look sorprendente: un kebalbino! Con il suo grembiule impeccabilmente bianco e il suo taglio di capelli perfetto, sembra quasi una figura mitologica che prepara i deliziosi kebab. I clienti si fermano spesso, colti da stupore e curiosità, per provare i gustosi kebab preparati da questa figura unica nel suo genere. È diventato famoso come 'Il Maestro Bianco dei Kebab', lasciando tutti a chiedersi quale sia il segreto dietro il suo straordinario talento culinario."@it ;
+    dct:created "2023-06-02" ;
     dct:creator vocang:pertosaLorenzo .
