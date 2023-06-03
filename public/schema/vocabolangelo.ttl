@@ -5641,3 +5641,20 @@ vocang:scopub
     skos:example "Recentemente ho scoperto l'esistenza di un scopub in Via Roma. È frequentato da un notevole numero di professioniste del settore del sesso, le quali si riuniscono per svolgere la propria attività lavorativa e interagire con i clienti."@it ;
     dct:created "2023-06-02" ;
     dct:creator vocang:filasetaAngelo, vocang:bdeouiEddy .
+
+vocang:piattologia
+    a vocang:Parolangelo ;
+    skos:prefLabel "Piattologia"@it ;
+    skos:definition "Lo studio dei piatti, inteso in senso completo, riguarda l'analisi approfondita degli aspetti ergonomici, funzionali e estetici dei piatti utilizzati nell'ambito culinario. Questo processo di studio mira a comprendere e ottimizzare la progettazione e l'utilizzo dei piatti al fine di garantire la massima comodità, praticità ed efficienza durante la preparazione, presentazione e consumo dei cibi. Inoltre, si tiene conto anche della sicurezza alimentare e dell'igiene, al fine di garantire che i piatti siano adeguati e sicuri per l'utilizzo nella preparazione e servizio dei pasti."@it ;
+    skos:example "Sofia ha seguito per qualche tempo dei corsi di piattologia. Ieri ci ha invitati a cena, e mangiare i suoi piatti è stato un po' come ricevere un trattamento gratis ad una Spa per la mia bocca. Non c'era assolutamente nulla da criticare nei suoi piatti. Erano una vera opera d'arte culinaria."@it ;
+    dct:created "2023-06-02" ;
+    dct:creator vocang:bragariAlexandru, vocang:ribaudoSofia, vocang:bdeouiEddy .
+
+vocang:piattologia
+    a vocang:Parolangelo ;
+    skos:prefLabel "Piattologo"@it ;
+    skos:definition "Esperto in piattologia."@it ;
+    skos:example "Sofia è una piattologa. Ieri ci ha invitati a cena, e mangiare i suoi piatti è stato un po' come ricevere un trattamento gratis ad una Spa per la mia bocca. Non c'era assolutamente nulla da criticare nei suoi piatti. Erano una vera opera d'arte culinaria."@it ;
+    dct:created "2023-06-02" ;
+    skos:related vocang:piiattologia ;
+    dct:creator vocang:bragariAlexandru, vocang:ribaudoSofia, vocang:bdeouiEddy .
