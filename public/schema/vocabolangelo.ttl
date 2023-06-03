@@ -5645,16 +5645,28 @@ vocang:scopub
 vocang:piattologia
     a vocang:Parolangelo ;
     skos:prefLabel "Piattologia"@it ;
+    lexinfo:pronunciation "/piat • to • lo • gì • a/"@it ;
     skos:definition "Lo studio dei piatti, inteso in senso completo, riguarda l'analisi approfondita degli aspetti ergonomici, funzionali e estetici dei piatti utilizzati nell'ambito culinario. Questo processo di studio mira a comprendere e ottimizzare la progettazione e l'utilizzo dei piatti al fine di garantire la massima comodità, praticità ed efficienza durante la preparazione, presentazione e consumo dei cibi. Inoltre, si tiene conto anche della sicurezza alimentare e dell'igiene, al fine di garantire che i piatti siano adeguati e sicuri per l'utilizzo nella preparazione e servizio dei pasti."@it ;
     skos:example "Sofia ha seguito per qualche tempo dei corsi di piattologia. Ieri ci ha invitati a cena, e mangiare i suoi piatti è stato un po' come ricevere un trattamento gratis ad una Spa per la mia bocca. Non c'era assolutamente nulla da criticare nei suoi piatti. Erano una vera opera d'arte culinaria."@it ;
     dct:created "2023-06-02" ;
     dct:creator vocang:bragariAlexandru, vocang:ribaudoSofia, vocang:bdeouiEddy .
 
-vocang:piattologia
+vocang:piattologo
     a vocang:Parolangelo ;
     skos:prefLabel "Piattologo"@it ;
+    lexinfo:pronunciation "/piat • tò • lo • go/"@it ;
     skos:definition "Esperto in piattologia."@it ;
     skos:example "Sofia è una piattologa. Ieri ci ha invitati a cena, e mangiare i suoi piatti è stato un po' come ricevere un trattamento gratis ad una Spa per la mia bocca. Non c'era assolutamente nulla da criticare nei suoi piatti. Erano una vera opera d'arte culinaria."@it ;
     dct:created "2023-06-02" ;
-    skos:related vocang:piiattologia ;
+    skos:related vocang:piattologia ;
     dct:creator vocang:bragariAlexandru, vocang:ribaudoSofia, vocang:bdeouiEddy .
+
+vocang:cavapiatti
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cavapiatti"@it ;
+    lexinfo:pronunciation "/ca • va • piàt • ti/"@it ;
+    skos:definition "L'individuo designato all'incarico di rimuovere e ripulire le stoviglie e la tavola dopo un pasto."@it ;
+    skos:example "Nel ristorante di alta classe in cui lavoravo, il maître aveva l'abitudine di assegnare con cura il compito di cavapiatti a un individuo dedicato. Questa figura professionale si occupava con attenzione e discrezione di ripulire la tavola, rimuovere le stoviglie utilizzate e garantire che l'ambiente rimanesse ordinato e pronto per l'arrivo dei successivi commensali."@it ;
+    dct:created "2023-06-02" ;
+    dct:creator vocang:bdeouiEddy, vocang:pertosaLorenzo .
+
