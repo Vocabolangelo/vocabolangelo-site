@@ -5679,3 +5679,12 @@ vocang:escita
     dct:created "2023-06-02" ;
     skos:related vocang:escire ;
     dct:creator vocang:bdeouiEddy .
+
+vocang:conglomegatto
+    a vocang:Parolangelo ;
+    skos:prefLabel "Conglomegatto"@it ;
+    lexinfo:pronunciation "/con • glo • me • gàt • to/"@it ;
+    skos:definition "L'insieme di felini che si riunisce in un aggregato e si toccano fisicamente, in cui ogni gatto è obbligatoriamente connesso ad almeno un altro membro del gruppo felino."@it ;
+    skos:example "Nel quartiere ieri si è formato un curioso agglomegatto. Gli amanti dei felini ammiravano con occhi a cuore la scena, mentre chi era allargico guardava con terrore dalla finestra."@it ;
+    dct:created "2023-06-02" ;
+    dct:creator vocang:orlandoNicola .
