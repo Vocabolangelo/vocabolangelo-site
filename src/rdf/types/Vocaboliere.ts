@@ -105,6 +105,16 @@ export class Vocaboliere extends RDFNamedNode {
         }
     }
 
+    public get siblings(): () => Vocaboliere[] {
+        const subj = this.node
+        return function (): Vocaboliere[] {
+            return RDFStore.store.MapEach(
+                new RDFTriple(subj, rel.namespace('siblingOf'), undefined),
+                (node) => new Vocaboliere(node)
+            )
+        }
+    }
+
     public creatorOf(): () => RDFNamedNode[] {
         const subj = this.node
         return function (): RDFNamedNode[] {

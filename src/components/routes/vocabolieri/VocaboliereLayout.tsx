@@ -41,6 +41,7 @@ export function VocaboliereLayout() {
                     <Organizations vocaboliere={vocaboliere}/>
                     <Contribution vocaboliere={vocaboliere}/>
                     <Friends vocaboliere={vocaboliere}/>
+                    <Siblings vocaboliere={vocaboliere}/>
                     <Partners vocaboliere={vocaboliere}/>
                     <ParolangeloCreated vocaboliere={vocaboliere}/>
                 </div>
@@ -93,6 +94,26 @@ function Friends(props: VocaboliereProps){
         </NamedSection>
     </ConditionalComponent>
 }
+
+function Siblings(props: VocaboliereProps){
+    const siblings = props.vocaboliere.siblings().sort(
+        (a, b) => a.lastName.localeCompare(b.lastName)
+    )
+    return <ConditionalComponent condition={() => siblings?.length > 0}>
+        <NamedSection title={'Fratelli e Sorelle'}>
+            <List
+                isOrdered={false}
+                list={siblings}
+                elementContent={p =>
+                    <Link to={`${VOCABOLIERI_ROUTE}/${p.node.RelativeUri(vocang)}`}>
+                        <p>{p.fullName()}</p>
+                    </Link>
+                }
+            />
+        </NamedSection>
+    </ConditionalComponent>
+}
+
 function Partners(props: VocaboliereProps){
     const partners = props.vocaboliere.partners().sort(
         (a, b) => a.lastName.localeCompare(b.lastName)
