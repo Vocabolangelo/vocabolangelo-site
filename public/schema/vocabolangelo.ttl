@@ -5633,3 +5633,11 @@ vocang:slangelo
     dct:created "2023-05-28" ;
     skos:related vocang:vocaboladmin, vocang:vocabolangelo, vocang:angelario, vocang:parolangelo, vocang:apostolangelo, vocang:dizionangelo, vocang:vocaboliere, vocang:vocabolangelare, vocang:vocaboregolangelo, vocang:parolarcangelo ;
     dct:creator vocang:filasetaAngelo, vocang:nardiniArianna, vocang:orlandoNicola .
+
+vocang:scopub
+    a vocang:Parolangelo ;
+    skos:prefLabel "Scopub"@it ;
+    skos:definition "Un locale pubblico frequentato da un considerevole numero di individue che svolgono attività di carattere sessuale a scopo commerciale."@it ;
+    skos:example "Recentemente ho scoperto l'esistenza di un scopub in Via Roma. È frequentato da un notevole numero di professioniste del settore del sesso, le quali si riuniscono per svolgere la propria attività lavorativa e interagire con i clienti."@it ;
+    dct:created "2023-06-02" ;
+    dct:creator vocang:filasetaAngelo, vocang:bdeouiEddy .
