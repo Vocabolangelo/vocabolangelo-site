@@ -1,5 +1,24 @@
 # Changelog
 
+## [6.1.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v6.0.0...v6.1.0) (2023-06-03)
+
+
+### Features
+
+* **concept:** add cavapiatti ([278a1ab](https://github.com/Vocabolangelo/vocabolangelo-site/commit/278a1aba780785adfafd635dcf5907841f347a09))
+* **concept:** add conglomegatto ([d35b56c](https://github.com/Vocabolangelo/vocabolangelo-site/commit/d35b56c376db8f3cb89553ed662bdaf5f2fbdb5c))
+* **concept:** add escire ([1c21b9f](https://github.com/Vocabolangelo/vocabolangelo-site/commit/1c21b9f79717e5b350024aad99d5e72686ca14e6))
+* **concept:** add kebalbino ([02426c4](https://github.com/Vocabolangelo/vocabolangelo-site/commit/02426c46bb2623b1fab7060ee00bda88be0cfe1f))
+* **concept:** add piattologia and piattologo ([b26e40e](https://github.com/Vocabolangelo/vocabolangelo-site/commit/b26e40ed3e941ef01e33f0c328388abe19fd761a))
+* **concept:** add scopub ([0c1a52c](https://github.com/Vocabolangelo/vocabolangelo-site/commit/0c1a52c8e664262e7ba1623bcec79fa38ede966a))
+* **parolangelo:** slangelo ([7d05163](https://github.com/Vocabolangelo/vocabolangelo-site/commit/7d0516300fa46e6d00470716ca63ba9b1fdd11bc))
+* **site:** add sibling section ([30995f5](https://github.com/Vocabolangelo/vocabolangelo-site/commit/30995f518ac270772e938504ed5fe722c542b153))
+
+
+### Bug Fixes
+
+* **person:** change suscaAlessandra org ([bfbe31d](https://github.com/Vocabolangelo/vocabolangelo-site/commit/bfbe31d050f8b963b6b7b1d0aaacd61ff5c75c00))
+
 ## [6.0.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v5.9.0...v6.0.0) (2023-05-29)
 
 
