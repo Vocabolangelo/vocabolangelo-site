@@ -12,7 +12,7 @@ import InnerWrapper from '../../common/story/InnerWrapper'
 import {DateUtility} from '../../../util/DateUtility'
 import ParolangeloProps from '../../props/ParolangeloProps'
 
-export function ParolangeloLayout() {
+export function ConceptLayout() {
 
     const [parolangelo, setParolangelo] =
         useState<Parolangelo | undefined>(undefined)

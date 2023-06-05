@@ -1,4 +1,4 @@
-import {PAROLANGELO_ROUTE} from '../parolangelo/ParolangeloList'
+import {PAROLANGELO_ROUTE} from '../parolangelo/ConceptList'
 import {Link} from 'react-router-dom'
 import Banner from '../../common/story/Banner'
 

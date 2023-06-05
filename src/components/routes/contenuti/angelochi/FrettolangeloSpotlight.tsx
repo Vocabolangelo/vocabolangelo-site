@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom'
-import {PAROLANGELO_ROUTE} from '../../parolangelo/ParolangeloList'
+import {PAROLANGELO_ROUTE} from '../../parolangelo/ConceptList'
 import {ANGELOCHI_ROUTE} from './AngelochiIndex'
 import Spotlight from '../../../common/story/Spotlight'
 import {CONTENUTI_ROUTE} from '../ContenutiIndex'

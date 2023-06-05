@@ -10,28 +10,34 @@ import {SectionList} from '../../common/SectionList'
 import {AlphabeticParolangeloSectionListHelper, RecentParolangeloSectionListHelper} from '../../../classes/SectionListHelper'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faCalendarDays, faArrowDownAZ} from '@fortawesome/free-solid-svg-icons'
+import {Concept} from '../../../rdf/types/Concept'
 
 export const PAROLANGELO_ROUTE = '/parolangelo'
+export const SLANGELO_ROUTE = '/slangelo'
 
-export default function ParolangeloList() {
+interface ConceptListProps {
+    title: string
+    subtitle: string
+    effect: (setConcept: React.Dispatch<React.SetStateAction<Concept[]>>,
+        helper: AlphabeticParolangeloSectionListHelper) => void
+}
+export default function ConceptList(props: ConceptListProps) {
 
-    const [parolangelo, setParolangelo] = useState<Parolangelo[]>([])
-    const [visibleParolangelo, setVisibleParolangelo] = useState<Parolangelo[]>([])
+    const [concept, setConcept] = useState<Concept[]>([])
+    const [visibleParolangelo, setVisibleParolangelo] = useState<Concept[]>([])
     const [helper, setHelper] = useState(new AlphabeticParolangeloSectionListHelper())
     const [searchValue, setSearchValue]= useState<string>('')
 
     useEffect(() => {
-        Parolangelo.all().then(nodes => {
-            setParolangelo(nodes.sort((a, b) => helper.compareFn(a,b)))
-        })
+        props.effect(setConcept, helper)
     }, [])
 
     useEffect(() => {
-        setVisibleParolangelo(parolangelo.filter((c) => searchFilterStrategy(c, searchValue)))
-    },[parolangelo, searchValue])
+        setVisibleParolangelo(concept.filter((c) => searchFilterStrategy(c, searchValue)))
+    },[concept, searchValue])
 
     useEffect(() => {
-        setParolangelo(parolangelo.sort((a, b) => helper.compareFn(a,b)))
+        setConcept(concept.sort((a, b) => helper.compareFn(a,b)))
     },[helper])
 
     function searchFilterStrategy(parolangelo: Parolangelo, str: string): boolean {
@@ -45,12 +51,8 @@ export default function ParolangeloList() {
     return <Wrapper>
         <InnerWrapper style={1}>
             <header>
-                <h1> Parolangelo </h1>
-                <p> Ognuna di queste parole è stata inventata da almeno un vocaboliere. </p>
-                <p>
-                    Chiunque può creare nuove parolangelo proporre nuove definizioni ed esempi,
-                    o fornire materiale mediatico in grado di arricchire questo archivio.
-                </p>
+                <h1> {props.title} </h1>
+                <p> {props.subtitle}  </p>
                 <SearchBar handle={(search: string) => setSearchValue(search)}/>
                 <p></p>
                 <div className="align-center actions">
