@@ -5706,3 +5706,12 @@ vocang:pompincubo
     skos:example "Diana e io ieri ci siamo lasciati. Non potevo più accettare il fatto che facesse parte di quella strana setta di streghette ossessionate con l'astrologia e i cristali. Una volta in tenda mi ha fatto un lavoro di bocca. Da allora succedono cose strane, ad esempio  ogni mattina mi cascano le fette biscottate sempre dalla parte della marmellata, oppure gli uccellini mi sotterranno sempre l'auto coi loro escrementi. Credo proprio di aver subito un pompincubo. Devo cercare di scacciare il malocchio ora!"@it ;
     dct:created "2023-06-03" ;
     dct:creator vocang:durazziMarco, vocang:chatGPT .
+
+vocang:komala
+    a vocang:Parolangelo ;
+    skos:prefLabel "Komala"@it ;
+    lexinfo:pronunciation "/ko • mà • la/"@it ;
+    skos:definition "Koala di sesso femminile estremamente astuto, sfacciato e malvagio."@it, "Un gruppo organizzato di koala caratterizzati da comportamenti malavitosi."@it ;
+    skos:example "Quella komala ruba sempre le foglie di eucalipto ai suoi simili e li maltratta pure!"@it, "Quel gruppo di koala si è organizzato ed ha creato una komala. Quando dei koala che non fanno parte del gruppo si avvicinano al loro terrirorio per mangiare dell'eucalipto, loro rispondono con toni aggressivi e scacciandoli!"@it;
+    dct:created "2023-06-03" ;
+    dct:creator vocang:orlandoNicola, vocang:pertosaLorenzo .
