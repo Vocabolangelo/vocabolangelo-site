@@ -5668,7 +5668,7 @@ vocang:cavapiatti
     skos:definition "L'individuo designato all'incarico di rimuovere e ripulire le stoviglie e la tavola dopo un pasto."@it ;
     skos:example "Nel ristorante di alta classe in cui lavoravo, il maître aveva l'abitudine di assegnare con cura il compito di cavapiatti a un individuo dedicato. Questa figura professionale si occupava con attenzione e discrezione di ripulire la tavola, rimuovere le stoviglie utilizzate e garantire che l'ambiente rimanesse ordinato e pronto per l'arrivo dei successivi commensali."@it ;
     dct:created "2023-06-02" ;
-    dct:creator vocang:bdeouiEddy, vocang:pertosaLorenzo .
+    dct:creator vocang:bdeouiEddy, vocang:pertosaLorenzo, vocang:orlandoNicola .
 
 vocang:escita
     a vocang:Parolangelo ;
@@ -5697,3 +5697,16 @@ vocang:kebalbino
     skos:example "Nel vivace mercato dei kebab della città, c'è un kebabbaro dal look sorprendente: un kebalbino! Con il suo grembiule impeccabilmente bianco e il suo taglio di capelli perfetto, sembra quasi una figura mitologica che prepara i deliziosi kebab. I clienti si fermano spesso, colti da stupore e curiosità, per provare i gustosi kebab preparati da questa figura unica nel suo genere. È diventato famoso come 'Il Maestro Bianco dei Kebab', lasciando tutti a chiedersi quale sia il segreto dietro il suo straordinario talento culinario."@it ;
     dct:created "2023-06-02" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:pompincubo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Pompincubo"@it ;
+    lexinfo:pronunciation "/ke • bal • bì • no/"@it ;
+    skos:definition "Venditore di kebab affetto da albinismo."@it ;
+    skos:example "Nel vivace mercato dei kebab della città, c'è un kebabbaro dal look sorprendente: un kebalbino! Con il suo grembiule impeccabilmente bianco e il suo taglio di capelli perfetto, sembra quasi una figura mitologica che prepara i deliziosi kebab. I clienti si fermano spesso, colti da stupore e curiosità, per provare i gustosi kebab preparati da questa figura unica nel suo genere. È diventato famoso come 'Il Maestro Bianco dei Kebab', lasciando tutti a chiedersi quale sia il segreto dietro il suo straordinario talento culinario."@it ;
+    dct:created "2023-06-02" ;
+    dct:creator vocang:pertosaLorenzo .
+
+Pompincubo
+Maledizione causata da un pompino
+Duraz ChatGPT
