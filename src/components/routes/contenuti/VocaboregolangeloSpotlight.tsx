@@ -1,7 +1,7 @@
 import Spotlight from '../../common/story/Spotlight'
 import {Link} from 'react-router-dom'
 import {CONTENUTI_ROUTE} from './ContenutiIndex'
-import {PAROLANGELO_ROUTE} from '../parolangelo/ConceptList'
+import {PAROLANGELO_ROUTE} from '../concept/ConceptList'
 import {VOCABOREGOLANGELO_ROUTE} from './vocaboregolangelo/VocaboregolangeloIndex'
 
 export default function VocaboregolangeloSpotlight() {

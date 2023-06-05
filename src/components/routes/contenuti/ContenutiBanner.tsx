@@ -1,6 +1,6 @@
 import Banner from '../../common/story/Banner'
 import {Link} from 'react-router-dom'
-import { PAROLANGELO_ROUTE } from '../parolangelo/ConceptList'
+import { PAROLANGELO_ROUTE } from '../concept/ConceptList'
 
 export default function ContenutiBanner() {
     return <Banner

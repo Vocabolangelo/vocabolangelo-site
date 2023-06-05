@@ -8,6 +8,7 @@ import {Link} from 'react-router-dom'
 import {VOCABOLIERI_ROUTE} from '../../vocabolieri/Vocabolieri'
 import {RDFNamedNode} from '../../../../rdf/RDFNamedNode'
 import {RDFStore} from '../../../../rdf/RDFStore'
+import {Concept} from '../../../../rdf/types/Concept'
 
 export default function LeaderBoard() {
     function absoluteComparator(a:RDFNamedNode, b:RDFNamedNode) {
@@ -36,7 +37,7 @@ export default function LeaderBoard() {
         return c.length
     }
     function relativeContribution(c: RDFNamedNode[]) {
-        return c.map(c => 1 / new Parolangelo(c.node).creators((node) =>
+        return c.map(c => 1 / new Concept(c.node).creators((node) =>
             (RDFStore.store.any(node, undefined, vocang.namespace('Vocaboliere')) !== null)
         ).length).reduce( (x,y) => x+y, 0)
     }

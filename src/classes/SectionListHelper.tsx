@@ -1,9 +1,9 @@
 import AlphabetUtility from '../util/alphabet'
-import {Parolangelo} from '../rdf/types/Parolangelo'
+import {Concept} from '../rdf/types/Concept'
 import {Vocaboliere} from '../rdf/types/Vocaboliere'
 import {DateUtility} from '../util/DateUtility'
 
-interface SectionListHelper<T, S> {
+export interface SectionListHelper<T, S> {
 
     /**
      * The list representing the sections.
@@ -30,9 +30,9 @@ interface SectionListHelper<T, S> {
     compareFn(a: S, b: S): number
 }
 
-export class AlphabeticParolangeloSectionListHelper implements SectionListHelper<string, Parolangelo>{
+export class AlphabeticConceptSectionListHelper implements SectionListHelper<string, Concept>{
 
-    list(elements: Parolangelo[]): string[] {
+    list(elements: Concept[]): string[] {
         return AlphabetUtility.alphabet().filter((letter) =>
             elements.find((c) => AlphabetUtility.startsWith(c.prefLabel, letter)) !== undefined
         )
@@ -42,22 +42,22 @@ export class AlphabeticParolangeloSectionListHelper implements SectionListHelper
         return element.toUpperCase()
     }
 
-    sublist(list: Parolangelo[], element: string): Parolangelo[] {
+    sublist(list: Concept[], element: string): Concept[] {
         return list.filter(
             (c) => AlphabetUtility.startsWith(c.prefLabel, element)
         )
     }
 
-    compareFn(a: Parolangelo, b: Parolangelo): number {
+    compareFn(a: Concept, b: Concept): number {
         return a.prefLabel.localeCompare(b.prefLabel)
     }
 }
 
-export class RecentParolangeloSectionListHelper implements SectionListHelper<string, Parolangelo> {
+export class RecentConceptSectionListHelper implements SectionListHelper<string, Concept> {
 
     INVALID_DATE = '1970-01-01'
 
-    list(elements: Parolangelo[]): string[] {
+    list(elements: Concept[]): string[] {
         return Array.from(
             new Set(elements.map((e) => e.created !== null ? e.created : this.INVALID_DATE))
         ).sort((a, b) => DateUtility.compareFnString(a, b))
@@ -70,13 +70,13 @@ export class RecentParolangeloSectionListHelper implements SectionListHelper<str
         return DateUtility.toDateString(new Date(element))
     }
 
-    sublist(list: Parolangelo[], element: string): Parolangelo[] {
+    sublist(list: Concept[], element: string): Concept[] {
         return list.filter(
             (c) => c.created === element || (c.created === null && element === this.INVALID_DATE)
         )
     }
 
-    compareFn(a: Parolangelo, b: Parolangelo): number {
+    compareFn(a: Concept, b: Concept): number {
         if (!a.created && !b.created) {
             return 0
         }

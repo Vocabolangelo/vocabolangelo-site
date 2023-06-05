@@ -2,7 +2,7 @@ import React from 'react'
 import InnerWrapper from '../../../common/story/InnerWrapper'
 import Wrapper from '../../../common/story/Wrapper'
 import {Link} from 'react-router-dom'
-import {PAROLANGELO_ROUTE} from '../../parolangelo/ConceptList'
+import {PAROLANGELO_ROUTE} from '../../concept/ConceptList'
 
 export const VOCABOREGOLANGELO_ROUTE = '/vocaboregolangelo'
 

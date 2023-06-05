@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import {Parolangelo} from '../../../../rdf/types/Parolangelo'
 import {List} from '../../../common/List'
 import {Main} from '../../../common/Main'
-import {PAROLANGELO_ROUTE} from '../../parolangelo/ConceptList'
+import {PAROLANGELO_ROUTE} from '../../concept/ConceptList'
 import {Link} from 'react-router-dom'
 
 /**

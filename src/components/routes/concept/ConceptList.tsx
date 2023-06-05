@@ -7,7 +7,11 @@ import SearchBar from '../../common/SearchBar'
 import InnerWrapper from '../../common/story/InnerWrapper'
 import {Link} from 'react-router-dom'
 import {SectionList} from '../../common/SectionList'
-import {AlphabeticParolangeloSectionListHelper, RecentParolangeloSectionListHelper} from '../../../classes/SectionListHelper'
+import {
+    AlphabeticConceptSectionListHelper,
+    RecentConceptSectionListHelper,
+    SectionListHelper
+} from '../../../classes/SectionListHelper'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faCalendarDays, faArrowDownAZ} from '@fortawesome/free-solid-svg-icons'
 import {Concept} from '../../../rdf/types/Concept'
@@ -19,13 +23,14 @@ interface ConceptListProps {
     title: string
     subtitle: string
     effect: (setConcept: React.Dispatch<React.SetStateAction<Concept[]>>,
-        helper: AlphabeticParolangeloSectionListHelper) => void
+        helper: SectionListHelper<string, Concept>) => void
 }
 export default function ConceptList(props: ConceptListProps) {
 
     const [concept, setConcept] = useState<Concept[]>([])
     const [visibleParolangelo, setVisibleParolangelo] = useState<Concept[]>([])
-    const [helper, setHelper] = useState(new AlphabeticParolangeloSectionListHelper())
+    const [helper, setHelper] =
+        useState<SectionListHelper<string, Concept>>(new RecentConceptSectionListHelper())
     const [searchValue, setSearchValue]= useState<string>('')
 
     useEffect(() => {
@@ -57,13 +62,13 @@ export default function ConceptList(props: ConceptListProps) {
                 <p></p>
                 <div className="align-center actions">
                     <div
-                        onClick={() => setHelper(new AlphabeticParolangeloSectionListHelper())}
+                        onClick={() => setHelper(new AlphabeticConceptSectionListHelper())}
                         className="button"
                     >
                         <FontAwesomeIcon size={'lg'} icon={faArrowDownAZ}/>  Alfabetico
                     </div>
                     <div
-                        onClick={() => setHelper(new RecentParolangeloSectionListHelper())}
+                        onClick={() => setHelper(new RecentConceptSectionListHelper())}
                         style={{marginLeft: '1%'}} className="button"
                     >
                         <FontAwesomeIcon size={'lg'} icon={faCalendarDays}/>  Recente
