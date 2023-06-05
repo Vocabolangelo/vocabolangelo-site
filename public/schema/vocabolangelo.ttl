@@ -5715,3 +5715,11 @@ vocang:komala
     skos:example "Quella komala ruba sempre le foglie di eucalipto ai suoi simili e li maltratta pure!"@it, "Quel gruppo di koala si è organizzato ed ha creato una komala. Quando dei koala che non fanno parte del gruppo si avvicinano al loro terrirorio per mangiare dell'eucalipto, loro rispondono con toni aggressivi e scacciandoli!"@it;
     dct:created "2023-06-03" ;
     dct:creator vocang:orlandoNicola, vocang:pertosaLorenzo .
+
+vocang:sensualiDiParcheggio
+    a vocang:Slangelo ;
+    skos:prefLabel "Sensuali di parcheggio"@it ;
+    lexinfo:pronunciation "/sen • su •à • li/  /di/  /par • chég • gio/"@it ;
+    skos:definition "Una tecnologia che consente al conducente di un veicolo, come un'automobile, un camion o un autobus, di essere informato sulla distanza tra il proprio veicolo e un altro veicolo nelle vicinanze o un ostacolo. Questa tecnologia risulta particolarmente utile durante le manovre di parcheggio. Il suo funzionamento è analogo a quello di un tradizionale sensore di parcheggio. La differenza sostanziale sta nel fatto che, invece di un segnale acustico costituito da una singola nota che diventa sempre più insistente, vengono utilizzati suoni che richiamano sensazioni di piacere e orgasmi, i quali si intensificano progressivamente man mano che l'ostacolo si avvicina."@it ;
+    skos:example "Immagina di essere al volante e di avvicinarti a un parcheggio affollato. Grazie all'innovativa tecnologia offerta dai sensuali di parcheggio, non appena il tuo veicolo si avvicina a un ostacolo, i suoni che senti si trasformano da semplici segnali acustici in una sinfonia di suoni di piacere e orgasmi! Potresti quasi dimenticare lo stress del parcheggio quando i suoni sensuali ti accompagnano, rendendo l'esperienza più rilassante e gradevole."@it ;
+    dct:creator vocang:minoccheriAlessandra .
