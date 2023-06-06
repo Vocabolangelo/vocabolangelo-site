@@ -429,6 +429,14 @@ vocang:suscaAlessandra
     rel:siblingOf vocang:suscaMatteo ;
     rel:friendOf vocang:rosatelliAnna .
 
+vocang:barbanoAlessandro
+    a vocang:Vocaboliere ;
+    foaf:firstName "Alessandro" ;
+    foaf:lastName "Barbano" ;
+    foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:filasetaAngelo, vocang:sanchiPiero .
+
 # Other Author Individuals
 
 vocang:chatGPT
@@ -5741,12 +5749,3 @@ vocang:ipodilliaco
     skos:example "Oggi al lavoro mi hanno detto che sarei dovuto rimanere a fare due ore di straordinario a causa della mancanza di personale. Veramente ipodilliaco."@it ;
     dct:created "2023-06-06" ;
     dct:creator vocang:timpanoSam .
-
-vocang:succhiosotto
-    a vocang:Parolangelo ;
-    skos:prefLabel "Succhiosotto"@it ;
-    lexinfo:pronunciation "/suc • chio • sòt • to/"@it ;
-    skos:definition "Applicazione di una suzione che a priori sembra particolarmene succulenta."@it ;
-    skos:example "Ieri ho fatto un succhiosotto al mio ragazzo. Aveva un collo troppo appetitoso! Devo ammettere che mi è riuscito particolarmente bene, sono sicuro che non gli andrà via per una settimana!"@it ;
-    dct:created "2023-06-05" ;
-    dct:creator vocang:minoccheriAlessandra, vocang:savoGiorgia .
