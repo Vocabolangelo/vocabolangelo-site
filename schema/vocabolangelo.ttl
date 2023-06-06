@@ -429,6 +429,14 @@ vocang:suscaAlessandra
     rel:siblingOf vocang:suscaMatteo ;
     rel:friendOf vocang:rosatelliAnna .
 
+vocang:barbanoAlessandro
+    a vocang:Vocaboliere ;
+    foaf:firstName "Alessandro" ;
+    foaf:lastName "Barbano" ;
+    foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:filasetaAngelo, vocang:sanchiPiero .
+
 # Other Author Individuals
 
 vocang:chatGPT
@@ -5668,7 +5676,7 @@ vocang:cavapiatti
     skos:definition "L'individuo designato all'incarico di rimuovere e ripulire le stoviglie e la tavola dopo un pasto."@it ;
     skos:example "Nel ristorante di alta classe in cui lavoravo, il maître aveva l'abitudine di assegnare con cura il compito di cavapiatti a un individuo dedicato. Questa figura professionale si occupava con attenzione e discrezione di ripulire la tavola, rimuovere le stoviglie utilizzate e garantire che l'ambiente rimanesse ordinato e pronto per l'arrivo dei successivi commensali."@it ;
     dct:created "2023-06-02" ;
-    dct:creator vocang:bdeouiEddy, vocang:pertosaLorenzo .
+    dct:creator vocang:bdeouiEddy, vocang:pertosaLorenzo, vocang:orlandoNicola .
 
 vocang:escita
     a vocang:Parolangelo ;
@@ -5697,3 +5705,57 @@ vocang:kebalbino
     skos:example "Nel vivace mercato dei kebab della città, c'è un kebabbaro dal look sorprendente: un kebalbino! Con il suo grembiule impeccabilmente bianco e il suo taglio di capelli perfetto, sembra quasi una figura mitologica che prepara i deliziosi kebab. I clienti si fermano spesso, colti da stupore e curiosità, per provare i gustosi kebab preparati da questa figura unica nel suo genere. È diventato famoso come 'Il Maestro Bianco dei Kebab', lasciando tutti a chiedersi quale sia il segreto dietro il suo straordinario talento culinario."@it ;
     dct:created "2023-06-02" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:pompincubo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Pompincubo"@it ;
+    lexinfo:pronunciation "/pom • pìn • cu • bo/"@it ;
+    skos:definition "Un presunto influsso negativo o una sorta di malocchio che viene inclulato in una persona di sesso maschile in seguito all'aver praticato su di esso della fellazione."@it ;
+    skos:example "Diana e io ieri ci siamo lasciati. Non potevo più accettare il fatto che facesse parte di quella strana setta di streghette ossessionate con l'astrologia e i cristali. Una volta in tenda mi ha fatto un lavoro di bocca. Da allora succedono cose strane, ad esempio  ogni mattina mi cascano le fette biscottate sempre dalla parte della marmellata, oppure gli uccellini mi sotterranno sempre l'auto coi loro escrementi. Credo proprio di aver subito un pompincubo. Devo cercare di scacciare il malocchio ora!"@it ;
+    dct:created "2023-06-03" ;
+    dct:creator vocang:durazziMarco, vocang:chatGPT .
+
+vocang:komala
+    a vocang:Parolangelo ;
+    skos:prefLabel "Komala"@it ;
+    lexinfo:pronunciation "/ko • mà • la/"@it ;
+    skos:definition "Koala di sesso femminile estremamente astuto, sfacciato e malvagio."@it, "Un gruppo organizzato di koala caratterizzati da comportamenti malavitosi."@it ;
+    skos:example "Quella komala ruba sempre le foglie di eucalipto ai suoi simili e li maltratta pure!"@it, "Quel gruppo di koala si è organizzato ed ha creato una komala. Quando dei koala che non fanno parte del gruppo si avvicinano al loro terrirorio per mangiare dell'eucalipto, loro rispondono con toni aggressivi e scacciandoli!"@it;
+    dct:created "2023-06-03" ;
+    dct:creator vocang:orlandoNicola, vocang:pertosaLorenzo .
+
+vocang:sensualiDiParcheggio
+    a vocang:Slangelo ;
+    skos:prefLabel "Sensuali di parcheggio"@it ;
+    lexinfo:pronunciation "/sen • su •à • li/  /di/  /par • chég • gio/"@it ;
+    skos:definition "Una tecnologia che consente al conducente di un veicolo, come un'automobile, un camion o un autobus, di essere informato sulla distanza tra il proprio veicolo e un altro veicolo nelle vicinanze o un ostacolo. Questa tecnologia risulta particolarmente utile durante le manovre di parcheggio. Il suo funzionamento è analogo a quello di un tradizionale sensore di parcheggio. La differenza sostanziale sta nel fatto che, invece di un segnale acustico costituito da una singola nota che diventa sempre più insistente, vengono utilizzati suoni che richiamano sensazioni di piacere e orgasmi, i quali si intensificano progressivamente man mano che l'ostacolo si avvicina."@it ;
+    skos:example "Immagina di essere al volante e di avvicinarti a un parcheggio affollato. Grazie all'innovativa tecnologia offerta dai sensuali di parcheggio, non appena il tuo veicolo si avvicina a un ostacolo, i suoni che senti si trasformano da semplici segnali acustici in una sinfonia di suoni di piacere e orgasmi! Potresti quasi dimenticare lo stress del parcheggio quando i suoni sensuali ti accompagnano, rendendo l'esperienza più rilassante e gradevole."@it ;
+    dct:creator vocang:minoccheriAlessandra .
+
+vocang:ipodilliaco
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ipodilliaco"@it ;
+    lexinfo:pronunciation "/i • po • dil • lì • a • co/"@it ;
+    skos:definition "Qualcosa di indubbiamente poco idilliaco, tuttavia menzionato con un tono sarcastico."@it ;
+    skos:example "Oggi al lavoro mi hanno detto che sarei dovuto rimanere a fare due ore di straordinario a causa della mancanza di personale. Veramente ipodilliaco."@it ;
+    dct:created "2023-06-06" ;
+    dct:creator vocang:timpanoSam .
+
+vocang:ipodilliaco
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ipodilliaco"@it ;
+    lexinfo:pronunciation "/i • po • dil • lì • a • co/"@it ;
+    skos:definition "Qualcosa di indubbiamente poco idilliaco, tuttavia menzionato con un tono sarcastico."@it ;
+    skos:example "Oggi al lavoro mi hanno detto che sarei dovuto rimanere a fare due ore di straordinario a causa della mancanza di personale. Veramente ipodilliaco."@it ;
+    dct:created "2023-06-06" ;
+    dct:creator vocang:timpanoSam .
+
+vocang:organare
+    a vocang:Parolangelo ;
+    skos:prefLabel "Organare"@it ;
+    lexinfo:pronunciation "/or • ga • nà • re/"@it ;
+    skos:definition "Effettuare manipolazioni manuali simili a tecniche di massaggio su un paziente affetto da patologie organiche, al fine di ingannarlo creando l'illusione di un'efficacia terapeutica miracolosa."@it ;
+    skos:example "Mia nonna ieri è stata organata da un guru della medicina naturale fai da te. Lei non lo ha ancora capito ma è stata truffata alla grande. Credo denuncerò quel tizio alla polizia."@it ;
+    skos:note "Questa è la prima parola inventata da Alessandro che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
+    dct:created "2023-06-06" ;
+    dct:creator vocang:barbanoAlessandro .
