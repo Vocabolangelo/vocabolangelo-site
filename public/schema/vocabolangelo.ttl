@@ -5749,3 +5749,13 @@ vocang:ipodilliaco
     skos:example "Oggi al lavoro mi hanno detto che sarei dovuto rimanere a fare due ore di straordinario a causa della mancanza di personale. Veramente ipodilliaco."@it ;
     dct:created "2023-06-06" ;
     dct:creator vocang:timpanoSam .
+
+vocang:organare
+    a vocang:Parolangelo ;
+    skos:prefLabel "Organare"@it ;
+    lexinfo:pronunciation "/or • ga • nà • re/"@it ;
+    skos:definition "Effettuare manipolazioni manuali simili a tecniche di massaggio su un paziente affetto da patologie organiche, al fine di ingannarlo creando l'illusione di un'efficacia terapeutica miracolosa."@it ;
+    skos:example "Mia nonna ieri è stata organata da un guru della medicina naturale fai da te. Lei non lo ha ancora capito ma è stata truffata alla grande. Credo denuncerò quel tizio alla polizia."@it ;
+    skos:note "Questa è la prima parola inventata da Alessandro che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
+    dct:created "2023-06-06" ;
+    dct:creator vocang:barbanoAlessandro .
