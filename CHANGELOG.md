@@ -1,5 +1,24 @@
 # Changelog
 
+## [6.2.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v6.1.0...v6.2.0) (2023-06-06)
+
+
+### Features
+
+* **concept:** add komala ([f45f568](https://github.com/Vocabolangelo/vocabolangelo-site/commit/f45f5681a3a7dbedb908efe9b6c2ce383724d2eb))
+* **concept:** add pompincubo ([f36ef2f](https://github.com/Vocabolangelo/vocabolangelo-site/commit/f36ef2fc62ec1c7eb2a14e4fb5511c942c12e261))
+* **parolangelo:** add ipodilliaco ([8e32017](https://github.com/Vocabolangelo/vocabolangelo-site/commit/8e320171593f461fa32de51dd53a289a34262ea1))
+* **parolangelo:** add organare ([d8c0dd3](https://github.com/Vocabolangelo/vocabolangelo-site/commit/d8c0dd3a90dff3c2e9c9b31ecf52deb59d3efcce))
+* **parolangelo:** add succhiosotto ([995a9d6](https://github.com/Vocabolangelo/vocabolangelo-site/commit/995a9d61e178d0f0a312826928ab96399b92826e))
+* **site:** add slangelo route ([f706e87](https://github.com/Vocabolangelo/vocabolangelo-site/commit/f706e87dab68779622d49d7a0780c1f341c62663))
+* **slangelo:** add sensuali di parcheggio ([b85c9dc](https://github.com/Vocabolangelo/vocabolangelo-site/commit/b85c9dc4864928046850755c37f3ff4878f9aa20))
+* **vocaboliere:** add barbanoAlessandro ([3c2cdb9](https://github.com/Vocabolangelo/vocabolangelo-site/commit/3c2cdb93c18e8648850667db852fb6ad86543e35))
+
+
+### Bug Fixes
+
+* **creator:** add orlandoNicola to cavapiatti ([4c2bf6f](https://github.com/Vocabolangelo/vocabolangelo-site/commit/4c2bf6f7eec83382d6a90f6877fa55f047f3354a))
+
 ## [6.1.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v6.0.0...v6.1.0) (2023-06-03)
 
 
