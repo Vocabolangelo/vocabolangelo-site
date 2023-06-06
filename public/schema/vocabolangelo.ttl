@@ -5723,3 +5723,12 @@ vocang:sensualiDiParcheggio
     skos:definition "Una tecnologia che consente al conducente di un veicolo, come un'automobile, un camion o un autobus, di essere informato sulla distanza tra il proprio veicolo e un altro veicolo nelle vicinanze o un ostacolo. Questa tecnologia risulta particolarmente utile durante le manovre di parcheggio. Il suo funzionamento è analogo a quello di un tradizionale sensore di parcheggio. La differenza sostanziale sta nel fatto che, invece di un segnale acustico costituito da una singola nota che diventa sempre più insistente, vengono utilizzati suoni che richiamano sensazioni di piacere e orgasmi, i quali si intensificano progressivamente man mano che l'ostacolo si avvicina."@it ;
     skos:example "Immagina di essere al volante e di avvicinarti a un parcheggio affollato. Grazie all'innovativa tecnologia offerta dai sensuali di parcheggio, non appena il tuo veicolo si avvicina a un ostacolo, i suoni che senti si trasformano da semplici segnali acustici in una sinfonia di suoni di piacere e orgasmi! Potresti quasi dimenticare lo stress del parcheggio quando i suoni sensuali ti accompagnano, rendendo l'esperienza più rilassante e gradevole."@it ;
     dct:creator vocang:minoccheriAlessandra .
+
+vocang:ipodilliaco
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ipodilliaco"@it ;
+    lexinfo:pronunciation "/i • po • dil • lì • a • co/"@it ;
+    skos:definition "Qualcosa di indubbiamente poco idilliaco, tuttavia menzionato con un tono sarcastico."@it ;
+    skos:example "Oggi al lavoro mi hanno detto che sarei dovuto rimanere a fare due ore di straordinario a causa della mancanza di personale. Veramente ipodilliaco."@it ;
+    dct:created "2023-06-06" ;
+    dct:creator vocang:timpanoSam .
