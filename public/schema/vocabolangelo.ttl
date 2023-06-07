@@ -5488,6 +5488,7 @@ vocang:biribicio
     lexinfo:pronunciation "/bi • ri • bì • cio/"@it ;
     skos:definition "Gatto o felino che soggiorna all'interno di un biribì in quanto prossimo alla morte."@it ;
     skos:example "Kuro gioca spesso con gli altri ospiti del biribì. In tantissimi si divertono a puntare il laser contro il muro e vederlo mentre lo insegue con quei suoi scatti felini! È un vero peccato che abbia un cancro incurabile..."@it ;
+    skos:note "Nel misterioso velo di nebbia che avvolge il Giappone, l'antica razza felina si erge come la chiave suprema, ciò che porta alla ricchezza, alla fama, al potere."
     dct:created "2023-05-15" ;
     skos:related vocang:omnicio, vocang:biribì ;
     dct:creator vocang:filasetaAngelo .
