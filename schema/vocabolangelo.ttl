@@ -832,7 +832,7 @@ vocang:stravoloso
     skos:prefLabel "Stravoloso"@it ;
     lexinfo:pronunciation "/stra • vo • ló • so/"@it ;
     skos:definition "Favoloso, ma con un'aura di grandezza superiore. Eccezionalmente magnifico. Qualcosa che supera la meraviglia e l'incredibilità comuni, evidenziando un livello di grandiosità straordinario e sorprendente."@it ;
-    skos:example "Le tagliatelle che hanno servito a Sasha in quel ristorante erano veramente stravolose. Ogni singola tagliatella era un capolavoro culinario, con sapori sorprendenti e una presentazione impeccabile. Ogni boccone era un'esperienza gustativa straordinaria. Sasha non riusciva a smettere di esclamare quanto fossero deliziose. Gli chef avevano davvero superato loro stessi, creando un'esperienza gastronomica eccezionale che mi lo fece vomitare a causa di un indigestione. Nonostante tutto, quelle tagliatelle erano talmente stravolose che Sasha continuo a mangiarle anche dopo averle vomitate in bagno."@it ;
+    skos:example "Le tagliatelle che hanno servito a Sasha in quel ristorante erano veramente stravolose. Ogni singola tagliatella era un capolavoro culinario, con sapori sorprendenti e una presentazione impeccabile. Ogni boccone era un'esperienza gustativa straordinaria. Sasha non riusciva a smettere di esclamare quanto fossero deliziose. Gli chef avevano davvero superato loro stessi, creando un'esperienza gastronomica eccezionale che mi lo fece vomitare a causa di un indigestione. Nonostante tutto, quelle tagliatelle erano talmente stravolose che Sasha continuò a mangiarle anche dopo averle vomitate in bagno."@it ;
     dct:creator vocang:filasetaAngelo .
 
 vocang:stroia
@@ -5488,6 +5488,7 @@ vocang:biribicio
     lexinfo:pronunciation "/bi • ri • bì • cio/"@it ;
     skos:definition "Gatto o felino che soggiorna all'interno di un biribì in quanto prossimo alla morte."@it ;
     skos:example "Kuro gioca spesso con gli altri ospiti del biribì. In tantissimi si divertono a puntare il laser contro il muro e vederlo mentre lo insegue con quei suoi scatti felini! È un vero peccato che abbia un cancro incurabile..."@it ;
+    skos:note "Nel misterioso velo di nebbia che avvolge il Giappone, l'antica razza felina si erge come la chiave suprema, ciò che porta alla ricchezza, alla fama, al potere."
     dct:created "2023-05-15" ;
     skos:related vocang:omnicio, vocang:biribì ;
     dct:creator vocang:filasetaAngelo .
@@ -5759,3 +5760,67 @@ vocang:organare
     skos:note "Questa è la prima parola inventata da Alessandro che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
     dct:created "2023-06-06" ;
     dct:creator vocang:barbanoAlessandro .
+
+vocang:scureggile
+    a vocang:Parolangelo ;
+    skos:prefLabel "Scureggile"@it ;
+    lexinfo:pronunciation "/scu • reg • gì • le/"@it ;
+    skos:definition "Di natura scurrile in virtù della manifestazione di flatulenze di notevole intensità in contesti non opportuni."@it ;
+    skos:example "Ehi! Non so se te ne sei accorto, ma ci troviamo in una riunione di rilevanza con il cliente e, pertanto, ti prego di astenerti dall'essere scureggile! Non avresti dovuto mangiare tutti quei fagioli..."@it ;
+    dct:created "2023-06-10" ;
+    dct:creator vocang:bianchiniGiovanni .
+
+vocang:barrucchiere
+    a vocang:Parolangelo ;
+    skos:prefLabel "Barrucchiere"@it ;
+    lexinfo:pronunciation "/bar • ruc • chiè • re/"@it ;
+    skos:definition "Locale pubblico che, oltre ad assumere la funzione di bar, presenta altresì tra le sue prestazioni anche servizi di taglio di capelli e rasatura della barba."@it ;
+    skos:example "Ieri sono stato dal nuovo barrucchiere in città! In quel posto puoi gustare un ottimo caffè, sorseggiare cocktail originali e, se desideri, concederti anche un taglio di capelli o una rasatura impeccabile. È il luogo ideale per ricaricare il tuo look insieme alla tua energia!"@it ;
+    dct:created "2023-06-10" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:moschinella
+    a vocang:Parolangelo ;
+    skos:prefLabel "Moschinella"@it ;
+    lexinfo:pronunciation "/mos • chi • nel • la/"@it ;
+    skos:definition "Termine inelegante per identificare l'insetto noto come Lachnaia italica."@it ;
+    skos:example "Ieri ho visto una moschinella su una foglia in giardino. Da lontano sembrava una coccinella, ma quando mi sono avvicinato mi sono quasi spaventato!"@it ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/moschinella.jpg" ;
+    dct:created "2023-06-10" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:cheescocca
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cheescocca" ;
+    skos:definition "Un dolce al formaggio di consistenza cremosa arricchito dalla presenza dell'albicocca, spesso comunemente chiamato cheesecake all'albicocca."@it ;
+    skos:example "Benvenuti al nostro raffinato ristorante! Oggi vi proponiamo una delizia irresistibile: la nostra specialità, la cheesecocca. Questa prelibatezza cremosa unisce la delicatezza del formaggio alla dolcezza delle albicocche fresche, creando un connubio perfetto di sapori. Siete pronti a concedervi un'esperienza dolce e indimenticabile?"@it ;
+    dct:created "2023-06-07" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
+
+vocang:vegestazione
+    a vocang:Parolangelo ;
+    skos:prefLabel "Vegestazione"@it ;
+    lexinfo:pronunciation "/ve • ges • ta • zió • ne/"@it ;
+    skos:definition "Sfruttato da parte di terzi dell'utero di una donna, la quale si trova in stato comatoso, a fini procreativi."@it ;
+    skos:example "Immagina una fiaba moderna in cui una gentile principessa si trova in un sonno profondo, mentre il suo prezioso utero diventa una dimora temporanea per i sogni di una coppia desiderosa di avere un bambino. Questo incantevole racconto riflette la realtà della vegestazione. La principessa, grazie al suo utero inutilizzato, diventato un surrogato d'amore per la gioia di altri."@it ;
+    dct:created "2023-06-11" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:omeocarne
+    a vocang:Parolangelo ;
+    skos:prefLabel "Omeocarne"@it ;
+    lexinfo:pronunciation "/o • me • o • càr • ne/"@it ;
+    skos:definition "L'insieme di aromi utilizzati per arricchire le preparazioni culinarie vegane al fine di riprodurre sapori simili a quelli della carne."@it ;
+    skos:example "In un piatto vegano, grazie all'omeocarne, è  possibile catturare l'essenza succulenta e saporita della carne. Questa sinfonia di gusti ti regalerà l'esperienza di un pasto delizioso e appagante, senza compromettere la tua scelta vegana. È come una magia culinaria che ti fa dimenticare la mancanza di carne e ti trasporta in un mondo di sapori sorprendenti!"@it ;
+    dct:created "2023-05-19" ;
+    dct:creator vocang:rosatelliAnna .
+
+vocang:omeopollo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Omeopollo"@it ;
+    lexinfo:pronunciation "/o • me • o • pól • lo/"@it ;
+    skos:definition "Omeocarne che si distingue per il suo sapore di pollo."@it ;
+    skos:example "Grazie all'omeopollo, il mio tofu mi ha ricordato i nugget di pollo che mi prepara di solito nonna! Potrei quasi abituarmi e cominciare questo stile di vita."@it ;
+    dct:created "2023-05-19" ;
+    skos:related vocang:omeocarne ;
+    dct:creator vocang:omiccioliRiccardo .
