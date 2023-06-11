@@ -39,7 +39,7 @@ export default function LeaderBoard() {
     function relativeContribution(c: RDFNamedNode[]) {
         return c.map(c => 1 / new Concept(c.node).creators((node) =>
             (RDFStore.store.any(node, undefined, vocang.namespace('Vocaboliere')) !== null)
-        ).length).reduce( (x,y) => x+y, 0)
+        )().length).reduce( (x,y) => x+y, 0)
     }
 
     function LeaderBoardEntry(props: VocaboliereProps){

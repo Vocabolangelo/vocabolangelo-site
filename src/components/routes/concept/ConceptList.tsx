@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react'
+import {useEffect, useState} from 'react'
 import {Parolangelo} from '../../../rdf/types/Parolangelo'
 import {vocang} from '../../../rdf/prefixes'
 import '../../../rdf/extensions/namedNodeExtensions'
