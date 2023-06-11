@@ -5778,3 +5778,13 @@ vocang:barrucchiere
     skos:example "Ieri sono stato dal nuovo barrucchiere in città! In quel posto puoi gustare un ottimo caffè, sorseggiare cocktail originali e, se desideri, concederti anche un taglio di capelli o una rasatura impeccabile. È il luogo ideale per ricaricare il tuo look insieme alla tua energia!"@it ;
     dct:created "2023-06-10" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:moschinella
+    a vocang:Parolangelo ;
+    skos:prefLabel "Moschinella"@it ;
+    lexinfo:pronunciation "/mos • chi • nel • la/"@it ;
+    skos:definition "Termine inelegante per identificare l'insetto noto come Lachnaia italica."@it ;
+    skos:example "Ieri ho visto una moschinella su una foglia in giardino. Da lontano sembrava una coccinella, ma quando mi sono avvicinato mi sono quasi spaventato!"@it ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/moschinella.jpg" ;
+    dct:created "2023-06-10" ;
+    dct:creator vocang:omiccioliRiccardo .
