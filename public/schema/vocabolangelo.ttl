@@ -832,7 +832,7 @@ vocang:stravoloso
     skos:prefLabel "Stravoloso"@it ;
     lexinfo:pronunciation "/stra • vo • ló • so/"@it ;
     skos:definition "Favoloso, ma con un'aura di grandezza superiore. Eccezionalmente magnifico. Qualcosa che supera la meraviglia e l'incredibilità comuni, evidenziando un livello di grandiosità straordinario e sorprendente."@it ;
-    skos:example "Le tagliatelle che hanno servito a Sasha in quel ristorante erano veramente stravolose. Ogni singola tagliatella era un capolavoro culinario, con sapori sorprendenti e una presentazione impeccabile. Ogni boccone era un'esperienza gustativa straordinaria. Sasha non riusciva a smettere di esclamare quanto fossero deliziose. Gli chef avevano davvero superato loro stessi, creando un'esperienza gastronomica eccezionale che mi lo fece vomitare a causa di un indigestione. Nonostante tutto, quelle tagliatelle erano talmente stravolose che Sasha continuo a mangiarle anche dopo averle vomitate in bagno."@it ;
+    skos:example "Le tagliatelle che hanno servito a Sasha in quel ristorante erano veramente stravolose. Ogni singola tagliatella era un capolavoro culinario, con sapori sorprendenti e una presentazione impeccabile. Ogni boccone era un'esperienza gustativa straordinaria. Sasha non riusciva a smettere di esclamare quanto fossero deliziose. Gli chef avevano davvero superato loro stessi, creando un'esperienza gastronomica eccezionale che mi lo fece vomitare a causa di un indigestione. Nonostante tutto, quelle tagliatelle erano talmente stravolose che Sasha continuò a mangiarle anche dopo averle vomitate in bagno."@it ;
     dct:creator vocang:filasetaAngelo .
 
 vocang:stroia
