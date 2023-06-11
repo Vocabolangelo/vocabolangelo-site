@@ -52,3 +52,11 @@ repos:
       -   id: eslint
           files: \.[jt]sx?$  # *.js, *.jsx, *.ts and *.tsx
           types: [file]
+
+repos:
+  - repo: local
+    hooks:
+      - id: docker-check
+        name: Docker Check
+        entry: .github/scripts/check-ttl.sh
+        language: system
