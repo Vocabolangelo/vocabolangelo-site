@@ -53,8 +53,7 @@ repos:
           files: \.[jt]sx?$  # *.js, *.jsx, *.ts and *.tsx
           types: [file]
 
-repos:
-  - repo: local
+-   repo: local
     hooks:
       - id: docker-check
         name: Docker Check
