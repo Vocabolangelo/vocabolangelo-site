@@ -5788,3 +5788,11 @@ vocang:moschinella
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/moschinella.jpg" ;
     dct:created "2023-06-10" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:cheescocca
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cheescocca" ;
+    skos:definition "Un dolce al formaggio di consistenza cremosa arricchito dalla presenza dell'albicocca, spesso comunemente chiamato cheesecake all'albicocca."@it ;
+    skos:example "Benvenuti al nostro raffinato ristorante! Oggi vi proponiamo una delizia irresistibile: la nostra specialità, la cheesecocca. Questa prelibatezza cremosa unisce la delicatezza del formaggio alla dolcezza delle albicocche fresche, creando un connubio perfetto di sapori. Siete pronti a concedervi un'esperienza dolce e indimenticabile?"@it ;
+    dct:created "2023-06-07" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
