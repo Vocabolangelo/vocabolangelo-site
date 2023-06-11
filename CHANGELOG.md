@@ -1,5 +1,26 @@
 # Changelog
 
+## [6.3.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v6.2.0...v6.3.0) (2023-06-11)
+
+
+### Features
+
+* **parolangelo:** add barrucchiere ([1b0dc0e](https://github.com/Vocabolangelo/vocabolangelo-site/commit/1b0dc0e9c91a149cbf08767dd1dd6206fca75744))
+* **parolangelo:** add cheesecocca ([46d1abb](https://github.com/Vocabolangelo/vocabolangelo-site/commit/46d1abbb8ded3bab63813e2d54a64cce69705b86))
+* **parolangelo:** add moschinella ([6803732](https://github.com/Vocabolangelo/vocabolangelo-site/commit/68037327937ef20b9a03fbdc4fd802a9c8e1d30f))
+* **parolangelo:** add omeocarne ([a603b10](https://github.com/Vocabolangelo/vocabolangelo-site/commit/a603b10c2279e2b4823dc673dcceb455d823df57))
+* **parolangelo:** add omeopollo ([413b4c1](https://github.com/Vocabolangelo/vocabolangelo-site/commit/413b4c17b231b247f9f5bd09aae0438c439eccf1))
+* **parolangelo:** add scureggile ([228e95e](https://github.com/Vocabolangelo/vocabolangelo-site/commit/228e95eae7ba3df92f7b64eacf1846f17ca28954))
+* **parolangelo:** add vampirla ([a8eaffd](https://github.com/Vocabolangelo/vocabolangelo-site/commit/a8eaffdb91efad0311485a0fbeb6bd43b08258ad))
+* **parolangelo:** add vegestazione ([3477a91](https://github.com/Vocabolangelo/vocabolangelo-site/commit/3477a913865ca5672ca09bea563469a0bccb0628))
+
+
+### Bug Fixes
+
+* **build:** fix yml of pre-commit ([b394155](https://github.com/Vocabolangelo/vocabolangelo-site/commit/b394155ca8df4d9d78dd1ddc1a0810a2f7280e62))
+* **creator:** add pertosaLorenzo to vampirla ([322761b](https://github.com/Vocabolangelo/vocabolangelo-site/commit/322761be3f298537fb59216d23c0eca0e4c262d4))
+* **site:** fix infinity bug in relative dashboard ([b0390d9](https://github.com/Vocabolangelo/vocabolangelo-site/commit/b0390d954846053867a80b88d05c657c02f988ee))
+
 ## [6.2.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v6.1.0...v6.2.0) (2023-06-06)
 
 
