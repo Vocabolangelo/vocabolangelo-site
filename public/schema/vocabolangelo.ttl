@@ -5815,3 +5815,12 @@ vocang:omeocarne
     dct:created "2023-05-19" ;
     dct:creator vocang:rosatelliAnna .
 
+vocang:omeopollo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Omeopollo"@it ;
+    lexinfo:pronunciation "/o • me • o • pól • lo/"@it ;
+    skos:definition "Omeocarne che si distingue per il suo sapore di pollo."@it ;
+    skos:example "Grazie all'omeopollo, il mio tofu mi ha ricordato i nugget di pollo che mi prepara di solito nonna! Potrei quasi abituarmi e cominciare questo stile di vita."@it ;
+    dct:created "2023-05-19" ;
+    skos:related vocang:omeocarne ;
+    dct:creator vocang:omiccioliRiccardo .
