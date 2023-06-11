@@ -5796,3 +5796,12 @@ vocang:cheescocca
     skos:example "Benvenuti al nostro raffinato ristorante! Oggi vi proponiamo una delizia irresistibile: la nostra specialità, la cheesecocca. Questa prelibatezza cremosa unisce la delicatezza del formaggio alla dolcezza delle albicocche fresche, creando un connubio perfetto di sapori. Siete pronti a concedervi un'esperienza dolce e indimenticabile?"@it ;
     dct:created "2023-06-07" ;
     dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
+
+vocang:vampirla
+    a vocang:Parolangelo ;
+    skos:prefLabel "Vampirla"@it ;
+    lexinfo:pronunciation "/vam • pìr • la/"@it ;
+    skos:definition "Un vampiro che dispone di scarso acume, incline a essere ingannato con facilità."@it ;
+    skos:example "Ah, ecco lì il famigerato vampiro dal quoziente intellettivo appena sopra quello di un fungo! È così ingenuo che potresti convincerlo che l'aglio sia il nuovo trend di moda per i vampiri. È davvero un vampirla!"@it ;
+    dct:created "2023-06-10" ;
+    dct:creator vocang:ribaudoSofia .
