@@ -5760,3 +5760,12 @@ vocang:organare
     skos:note "Questa è la prima parola inventata da Alessandro che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
     dct:created "2023-06-06" ;
     dct:creator vocang:barbanoAlessandro .
+
+vocang:scureggile
+    a vocang:Parolangelo ;
+    skos:prefLabel "Scureggile"@it ;
+    lexinfo:pronunciation "/scu • reg • gì • le/"@it ;
+    skos:definition "Di natura scurrile in virtù della manifestazione di flatulenze di notevole intensità in contesti non opportuni."@it ;
+    skos:example "Ehi! Non so se te ne sei accorto, ma ci troviamo in una riunione di rilevanza con il cliente e, pertanto, ti prego di astenerti dall'essere scureggile! Non avresti dovuto mangiare tutti quei fagioli..."@it ;
+    dct:created "2023-06-10" ;
+    dct:creator vocang:bianchiniGiovanni .
