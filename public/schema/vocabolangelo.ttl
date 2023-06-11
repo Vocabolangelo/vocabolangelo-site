@@ -5805,3 +5805,13 @@ vocang:vegestazione
     skos:example "Immagina una fiaba moderna in cui una gentile principessa si trova in un sonno profondo, mentre il suo prezioso utero diventa una dimora temporanea per i sogni di una coppia desiderosa di avere un bambino. Questo incantevole racconto riflette la realtà della vegestazione. La principessa, grazie al suo utero inutilizzato, diventato un surrogato d'amore per la gioia di altri."@it ;
     dct:created "2023-06-11" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:omeocarne
+    a vocang:Parolangelo ;
+    skos:prefLabel "Omeocarne"@it ;
+    lexinfo:pronunciation "/o • me • o • càr • ne/"@it ;
+    skos:definition "L'insieme di aromi utilizzati per arricchire le preparazioni culinarie vegane al fine di riprodurre sapori simili a quelli della carne."@it ;
+    skos:example "In un piatto vegano, grazie all'omeocarne, è  possibile catturare l'essenza succulenta e saporita della carne. Questa sinfonia di gusti ti regalerà l'esperienza di un pasto delizioso e appagante, senza compromettere la tua scelta vegana. È come una magia culinaria che ti fa dimenticare la mancanza di carne e ti trasporta in un mondo di sapori sorprendenti!"@it ;
+    dct:created "2023-05-19" ;
+    dct:creator vocang:rosatelliAnna .
+
