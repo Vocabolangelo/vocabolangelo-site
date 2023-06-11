@@ -5769,3 +5769,12 @@ vocang:scureggile
     skos:example "Ehi! Non so se te ne sei accorto, ma ci troviamo in una riunione di rilevanza con il cliente e, pertanto, ti prego di astenerti dall'essere scureggile! Non avresti dovuto mangiare tutti quei fagioli..."@it ;
     dct:created "2023-06-10" ;
     dct:creator vocang:bianchiniGiovanni .
+
+vocang:barrucchiere
+    a vocang:Parolangelo ;
+    skos:prefLabel "Barrucchiere"@it ;
+    lexinfo:pronunciation "/bar • ruc • chiè • re/"@it ;
+    skos:definition "Locale pubblico che, oltre ad assumere la funzione di bar, presenta altresì tra le sue prestazioni anche servizi di taglio di capelli e rasatura della barba."@it ;
+    skos:example "Ieri sono stato dal nuovo barrucchiere in città! In quel posto puoi gustare un ottimo caffè, sorseggiare cocktail originali e, se desideri, concederti anche un taglio di capelli o una rasatura impeccabile. È il luogo ideale per ricaricare il tuo look insieme alla tua energia!"@it ;
+    dct:created "2023-06-10" ;
+    dct:creator vocang:omiccioliRiccardo .
