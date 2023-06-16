@@ -5878,3 +5878,12 @@ vocang:zinovia
     skos:example "Mi hanno impadito di salire sulla zinovia e sono stato costretto a salire a piedi. Anche se sono stato privato di un mio diritto fondamentale senza nessun motivo logico non posso dire che non dimagrirò in questa vacanza!"@it ;
     dct:created "2023-06-11" ;
     dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:bragariAlexandru .
+
+vocang:vitalicchio
+    a vocang:Parolangelo ;
+    skos:prefLabel "Vitalicchio"@it ;
+    lexinfo:pronunciation "/vi • ta • lìc • chio/"@it ;
+    skos:definition "Breve segmento di filo di ferro che viene impiegato per assicurare cavi o sigillare buste in modo efficace e sicuro."@it ;
+    skos:example "Non capisco perché usare i vitalicchi per chiudere i taralli quando abbiamo queste magnifiche mollette fatte apposta da questa nota azienda multinazionale svedese specializzata nella vendita di mobili, complementi d'arredo e altra oggettistica per la casa."@it ;
+    dct:created "2023-06-09" ;
+    dct:creator vocang:montesiLuca .
