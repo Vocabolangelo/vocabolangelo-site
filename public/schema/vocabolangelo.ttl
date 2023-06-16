@@ -437,6 +437,14 @@ vocang:barbanoAlessandro
     org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:filasetaAngelo, vocang:sanchiPiero .
 
+vocang:montesiLuca
+    a vocang:Vocaboliere ;
+    foaf:firstName "Luca" ;
+    foaf:lastName "Montesi" ;
+    foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:orlandoNicola .
+
 # Other Author Individuals
 
 vocang:chatGPT
