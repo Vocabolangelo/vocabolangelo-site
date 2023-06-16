@@ -5842,3 +5842,12 @@ vocang:despressione
     skos:example "Nella scena del film drammatico, il protagonista si trovava seduto da solo in un angolo buio della stanza, con la despressione. Le sue sopracciglia erano aggrottate, gli occhi sembravano vuoti e il suo sorriso, purtroppo assente, lasciava trasparire una profonda tristezza interiore."@it ;
     dct:created "2023-06-13" ;
     dct:creator vocang:minoccheriAlessandra .
+
+vocang:fioraggio
+    a vocang:Parolangelo ;
+    skos:prefLabel "Fioraggio"@it ;
+    lexinfo:pronunciation "/fio • ràg • gio/"@it ;
+    skos:definition "Un esercizio commerciale specializzato nella vendita di fiori, piante e una vasta gamma di articoli correlati al giardinaggio. Si distingue sia dai tradizionali fiorai che si occupano principalmente di composizioni floreali, sia dai negozi di bricolage che, pur offrendo anche fiori, piante e articoli da giardinaggio, non dispongono dello stesso assortimento indiscutibilmente più ampio di prodotti."@it ;
+    skos:example " Oggi dovrò recarmi dal fioraggio al fine di selezionare con cura un elegante vaso e una pregiata pianta che andranno ad impreziosire e conferire nuova vita al mio grazioso davanzale."@it ;
+    dct:created "2023-06-13" ;
+    dct:creator vocang:omiccioliRiccardo .
