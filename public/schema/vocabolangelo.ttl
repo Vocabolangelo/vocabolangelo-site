@@ -5824,3 +5824,12 @@ vocang:omeopollo
     dct:created "2023-05-19" ;
     skos:related vocang:omeocarne ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:apocalostolo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Apocalostolo"@it ;
+    lexinfo:pronunciation "/a • po • ca • lòs • to • lo/"@it ;
+    skos:definition "Persona fervida di convinzioni e persistente nel tentativo di persuadere circa il prossimo imminente cataclisma globale, avvalendosi frequentemente di espedienti quali l'esposizione di cartelloni esplicativi o il proferire ad alta voce tale messaggio in luoghi di notevole affluenza."@it ;
+    skos:example "Durante un evento di un festival all'aperto, una determinato apocalostolo ha afferrato un microfono e si è fatto strada tra la folla, attirando l'attenzione di tutti. Con tono solenne e gesti teatrali, ha iniziato a proclamare con convinzione che l'apocalisse è imminente e che il mondo sta per finire. Nonostante i suoi sforzi, molti hanno continuato a ballare e socializzare, ignorando la profezia apocalittica."@it ;
+    dct:created "2023-06-15" ;
+    dct:creator vocang:filasetaAngelo .
