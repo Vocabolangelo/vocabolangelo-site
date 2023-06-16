@@ -1,5 +1,28 @@
 # Changelog
 
+## [6.4.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v6.3.0...v6.4.0) (2023-06-16)
+
+
+### Features
+
+* **image:** add spotlight images ([d17d76c](https://github.com/Vocabolangelo/vocabolangelo-site/commit/d17d76c1f64f30f108555f5718972dfab0a477e1))
+* **parolangelo:** add apocalostolo ([9d6380a](https://github.com/Vocabolangelo/vocabolangelo-site/commit/9d6380ac858aa7905ccb14afb0e257f949d250ce))
+* **parolangelo:** add cipollatte ([208f981](https://github.com/Vocabolangelo/vocabolangelo-site/commit/208f98165a9043735505fb7cd11edd0d32fbcb10))
+* **parolangelo:** add concettangelo ([cac43bb](https://github.com/Vocabolangelo/vocabolangelo-site/commit/cac43bbf2a1caa9bb2b8476321d9a695a83c3323))
+* **parolangelo:** add despressione ([30d9f2f](https://github.com/Vocabolangelo/vocabolangelo-site/commit/30d9f2f8a48cee6674f4dc8b7632ccb5bec75b29))
+* **parolangelo:** add fioraggio ([67213fd](https://github.com/Vocabolangelo/vocabolangelo-site/commit/67213fd9831acc0241d2b9aad3e9ab4a9f6300d1))
+* **parolangelo:** add stuffata ([325e809](https://github.com/Vocabolangelo/vocabolangelo-site/commit/325e809ec54684e4506f5047ff855ef5e92aa4c4))
+* **parolangelo:** add vitalicchio ([54180b5](https://github.com/Vocabolangelo/vocabolangelo-site/commit/54180b5817d3c95dc90025e4a5a96c72e9ed31ff))
+* **parolangelo:** add zinovia ([290c0b2](https://github.com/Vocabolangelo/vocabolangelo-site/commit/290c0b245423a3d3e14513cdf0654a2def94a6be))
+* **site:** add count spotlight for concettangelo and slangelo ([fb8169a](https://github.com/Vocabolangelo/vocabolangelo-site/commit/fb8169a7078c706ec59621c1742fa73cccb38566))
+* **slangelo:** change fotoprofigo to slangelo ([6f59121](https://github.com/Vocabolangelo/vocabolangelo-site/commit/6f5912161fbb766affcf51d9a5983be6b9fe72c8))
+* **vocaboliere:** add montesiLuca ([22e3414](https://github.com/Vocabolangelo/vocabolangelo-site/commit/22e3414ea6dba442572f5fea26d9886c6beac07f))
+
+
+### Bug Fixes
+
+* **site:** order bug in parolangeloList ([bcdcf95](https://github.com/Vocabolangelo/vocabolangelo-site/commit/bcdcf953334beafd0fe190c3354bc60d95b1847d))
+
 ## [6.3.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v6.2.0...v6.3.0) (2023-06-11)
 
 
