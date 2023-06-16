@@ -3705,10 +3705,10 @@ vocang:chiappello
     dct:created "2023-02-13" ;
     dct:creator vocang:rosatelliAnna, vocang:durazziMarco, vocang:battaglinoNicole .
 
-vocang:fotoprofigo
-    a vocang:Parolangelo ;
-    skos:prefLabel "Fotoprofigo"@it ;
-    lexinfo:pronunciation "/fo • to • pro • fi • go/"@it ;
+vocang:fotoProfigo
+    a vocang:Slangelo ;
+    skos:prefLabel "Foto Profigo"@it ;
+    lexinfo:pronunciation "/fo • to/ /pro • fi • go/"@it ;
     skos:definition "Una foto profilo in cui il soggetto risulta particolarmente bello e attraente."@it;
     skos:example "Guarda che fotoprofigo, non la cambierò mai più."@it;
     dct:created "2023-02-12" ;
