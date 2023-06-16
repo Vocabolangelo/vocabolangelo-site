@@ -1878,7 +1878,7 @@ vocang:gigatto
 vocang:parolangelo
     a vocang:Parolangelo ;
     skos:prefLabel "Parolangelo"@it ;
-    lexinfo:pronunciation "/pa • ro • lan • ge • lo/"@it ;
+    lexinfo:pronunciation "/pa • ro • làn • ge • lo/"@it ;
     skos:definition "Una parola inventata presente all'interno del Vocabolangelo, non presente su un normale vocabolario, e creata da un vocaboliere."@it ;
     skos:example "Il vocabolangelo è pieno di parolangelo interessanti!"@it ;
     skos:related vocang:vocabolangelo, vocang:dizionangelo, vocang:angelario ;
@@ -5896,3 +5896,13 @@ vocang:struffata
     skos:example "Dopo quella stuffata al buffet all-you-can-eat, il mio stomaco ha deciso di fare una protesta silenziosa, rifiutandosi gentilmente di ospitare un solo altro boccone."@it ;
     dct:created "2023-06-12" ;
     dct:creator vocang:montesiLuca .
+
+vocang:concettangelo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Concettangelo"@it ;
+    lexinfo:pronunciation "/con • cet • tàn • ge • lo/"@it ;
+    skos:definition "Un concetto inventato presente all'interno del Vocabolangelo, non presente su un normale vocabolario, e creata da un vocaboliere. Un Concettangelo può essere una Parolangelo o uno Slangelo."@it ;
+    skos:example "I concettangelo si dividono in Parolangelo e Slangelo. La regola è semplice: se ciò che inventi è una parola unica allora hai inventato una Parolangelo, se invece dai la definizione ad un gruppo di parole che devono per forza stare insieme, allora hai creato uno Slangelo. Alla fine dei conti cambia poco. L'importante è divertirsi nel processo!"@it ;
+    dct:created "2023-06-16" ;
+    skos:related vocang:vocaboladmin, vocang:vocabolangelo, vocang:angelario, vocang:parolangelo, vocang:apostolangelo, vocang:dizionangelo, vocang:vocaboliere, vocang:vocabolangelare, vocang:vocaboregolangelo, vocang:parolarcangelo, vocang:slangelo ;
+    dct:creator vocang:filasetaAngelo .
