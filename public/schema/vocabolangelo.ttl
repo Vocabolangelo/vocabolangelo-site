@@ -5833,3 +5833,12 @@ vocang:apocalostolo
     skos:example "Durante un evento di un festival all'aperto, una determinato apocalostolo ha afferrato un microfono e si è fatto strada tra la folla, attirando l'attenzione di tutti. Con tono solenne e gesti teatrali, ha iniziato a proclamare con convinzione che l'apocalisse è imminente e che il mondo sta per finire. Nonostante i suoi sforzi, molti hanno continuato a ballare e socializzare, ignorando la profezia apocalittica."@it ;
     dct:created "2023-06-15" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:despressione
+    a vocang:Parolangelo ;
+    skos:prefLabel "Despressione"@it ;
+    lexinfo:pronunciation "/des • pres • sió • ne/"@it ;
+    skos:definition "Espressione facciale che rivela in modo eloquente lo stato di profonda depressione o estrema infelicità."@it ;
+    skos:example "Nella scena del film drammatico, il protagonista si trovava seduto da solo in un angolo buio della stanza, con la despressione. Le sue sopracciglia erano aggrottate, gli occhi sembravano vuoti e il suo sorriso, purtroppo assente, lasciava trasparire una profonda tristezza interiore."@it ;
+    dct:created "2023-06-13" ;
+    dct:creator vocang:minoccheriAlessandra .
