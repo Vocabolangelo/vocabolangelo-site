@@ -1,8 +1,8 @@
 import {Link} from 'react-router-dom'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import { faBook, faFeather, faPhotoFilm } from '@fortawesome/free-solid-svg-icons'
+import { faBook, faFeather, faPhotoFilm, faCommentDots} from '@fortawesome/free-solid-svg-icons'
 import {VOCABOLIERI_ROUTE} from '../routes/vocabolieri/Vocabolieri'
-import {PAROLANGELO_ROUTE} from '../routes/concept/ConceptList'
+import {PAROLANGELO_ROUTE, SLANGELO_ROUTE} from '../routes/concept/ConceptList'
 import {CONTENUTI_ROUTE} from '../routes/contenuti/ContenutiIndex'
 
 export default function Header() {
@@ -23,6 +23,11 @@ export default function Header() {
                                         <FontAwesomeIcon icon={faBook} color="white" size="lg"/> Parolangelo
                                     </Link>
                                 </li>
+                                {/*<li>*/}
+                                {/*    <Link to={SLANGELO_ROUTE} className="button primary">*/}
+                                {/*        <FontAwesomeIcon icon={faCommentDots} color="white" size="lg"/> Slangelo*/}
+                                {/*    </Link>*/}
+                                {/*</li>*/}
                                 <li>
                                     <Link to={VOCABOLIERI_ROUTE} className="button primary">
                                         <FontAwesomeIcon icon={faFeather} color="white" size="lg"/>  Vocabolieri
