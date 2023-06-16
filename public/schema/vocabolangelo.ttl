@@ -5861,3 +5861,12 @@ vocang:cipollatte
     skos:note "La parolangelo nasce dal racconto della zia di Nicole, riguardante una persona da lei conosciuta che consuma questa colazione nel periodo invernale per prevenire il raffreddore. Per niente stravoloso."@it ;
     dct:created "2023-06-14" ;
     dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
+
+vocang:zinovia
+    a vocang:Parolangelo ;
+    skos:prefLabel "Zinovia"@it ;
+    lexinfo:pronunciation "/zi • no • vì • a/"@it ;
+    skos:definition "Funivia utilizzabile solo da persone che sono zii di qualcuno."@it ;
+    skos:example "Mi hanno impadito di salire sulla zinovia e sono stato costretto a salire a piedi. Anche se sono stato privato di un mio diritto fondamentale senza nessun motivo logico non posso dire che non dimagrirò in questa vacanza!"@it ;
+    dct:created "2023-06-11" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:bragariAlexandru .
