@@ -30,7 +30,7 @@ export default function ConceptList(props: ConceptListProps) {
     const [concept, setConcept] = useState<Concept[]>([])
     const [visibleParolangelo, setVisibleParolangelo] = useState<Concept[]>([])
     const [helper, setHelper] =
-        useState<SectionListHelper<string, Concept>>(new RecentConceptSectionListHelper())
+        useState<SectionListHelper<string, Concept>>(new AlphabeticConceptSectionListHelper())
     const [searchValue, setSearchValue]= useState<string>('')
 
     useEffect(() => {
