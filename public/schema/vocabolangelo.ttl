@@ -5912,7 +5912,17 @@ vocang:suoia
     skos:prefLabel "Suoia"@it ;
     lexinfo:pronunciation "/suò • ia/"@it ;
     skos:definition "Burger vegano che risulta troppo cotto, quasi bruciato."@it ;
-    skos:example "In quel ristorante lo scorso weekend hanno servito parecchi suoia ai clienti. Per poco non staba per partire una ribellione carnivora!"@it ;
+    skos:example "In quel ristorante lo scorso weekend hanno servito parecchi suoia ai clienti. Per poco non stava per partire una ribellione carnivora!"@it ;
     dct:created "2023-06-17" ;
     skos:related vocang:frisbidina, vocang:pizzotto ;
     dct:creator vocang:minoccheriAlessandra .
+
+vocang:salvadino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Salvadino"@it ;
+    lexinfo:pronunciation "/sal • va • dì • no/"@it ;
+    skos:definition "Marco acquistò un insolito salvadino presso una bottega d'arte. Quando i suoi amici genovesi lo videro, lo trovarono divertente e lo commentarono scherzosamente. Quell'oggetto insolito diventò un simbolo di risparmio e allegria che li univa."@it ;
+    skos:example ""@it ;
+    dct:created "2023-06-17" ;
+    skos:note "Il salvadino è stato concepito come un effettivo regalo per un vocaboliere particolarmente attaccato ai soldi." ;
+    dct:creator vocang:ribaudoSofia .
