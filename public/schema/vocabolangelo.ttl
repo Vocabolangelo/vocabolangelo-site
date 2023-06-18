@@ -5864,7 +5864,7 @@ vocang:cipollatte
     a vocang:Parolangelo ;
     skos:prefLabel "Cipollatte"@it ;
     lexinfo:pronunciation "/ci • pol • làt • te/"@it ;
-    skos:definition "Amalgama di latte e cipolla cotta, consumata con l'intento di prevenire malattie, in particolare quelle che si manifestano durante il periodo invernale."@it ;
+    skos:definition "Amalgama di latte e cipolla cotta, consumata a colazione con l'intento di prevenire malattie, in particolare quelle che si manifestano durante il periodo invernale."@it ;
     skos:example "Sei proprio un debole a fare la colazione con il cafferillo. Una bella colazione con il cipollatte rende forti e non ti fa prendere malanni strani come la palattia!"@it ;
     skos:note "La parolangelo nasce dal racconto della zia di Nicole, riguardante una persona da lei conosciuta che consuma questa colazione nel periodo invernale per prevenire il raffreddore. Per niente stravoloso."@it ;
     dct:created "2023-06-14" ;
