@@ -437,6 +437,14 @@ vocang:barbanoAlessandro
     org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:filasetaAngelo, vocang:sanchiPiero .
 
+vocang:montesiLuca
+    a vocang:Vocaboliere ;
+    foaf:firstName "Luca" ;
+    foaf:lastName "Montesi" ;
+    foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:orlandoNicola .
+
 # Other Author Individuals
 
 vocang:chatGPT
@@ -1870,7 +1878,7 @@ vocang:gigatto
 vocang:parolangelo
     a vocang:Parolangelo ;
     skos:prefLabel "Parolangelo"@it ;
-    lexinfo:pronunciation "/pa • ro • lan • ge • lo/"@it ;
+    lexinfo:pronunciation "/pa • ro • làn • ge • lo/"@it ;
     skos:definition "Una parola inventata presente all'interno del Vocabolangelo, non presente su un normale vocabolario, e creata da un vocaboliere."@it ;
     skos:example "Il vocabolangelo è pieno di parolangelo interessanti!"@it ;
     skos:related vocang:vocabolangelo, vocang:dizionangelo, vocang:angelario ;
@@ -3697,10 +3705,10 @@ vocang:chiappello
     dct:created "2023-02-13" ;
     dct:creator vocang:rosatelliAnna, vocang:durazziMarco, vocang:battaglinoNicole .
 
-vocang:fotoprofigo
-    a vocang:Parolangelo ;
-    skos:prefLabel "Fotoprofigo"@it ;
-    lexinfo:pronunciation "/fo • to • pro • fi • go/"@it ;
+vocang:fotoProfigo
+    a vocang:Slangelo ;
+    skos:prefLabel "Foto Profigo"@it ;
+    lexinfo:pronunciation "/fo • to/ /pro • fi • go/"@it ;
     skos:definition "Una foto profilo in cui il soggetto risulta particolarmente bello e attraente."@it;
     skos:example "Guarda che fotoprofigo, non la cambierò mai più."@it;
     dct:created "2023-02-12" ;
@@ -5731,6 +5739,7 @@ vocang:sensualiDiParcheggio
     lexinfo:pronunciation "/sen • su •à • li/  /di/  /par • chég • gio/"@it ;
     skos:definition "Una tecnologia che consente al conducente di un veicolo, come un'automobile, un camion o un autobus, di essere informato sulla distanza tra il proprio veicolo e un altro veicolo nelle vicinanze o un ostacolo. Questa tecnologia risulta particolarmente utile durante le manovre di parcheggio. Il suo funzionamento è analogo a quello di un tradizionale sensore di parcheggio. La differenza sostanziale sta nel fatto che, invece di un segnale acustico costituito da una singola nota che diventa sempre più insistente, vengono utilizzati suoni che richiamano sensazioni di piacere e orgasmi, i quali si intensificano progressivamente man mano che l'ostacolo si avvicina."@it ;
     skos:example "Immagina di essere al volante e di avvicinarti a un parcheggio affollato. Grazie all'innovativa tecnologia offerta dai sensuali di parcheggio, non appena il tuo veicolo si avvicina a un ostacolo, i suoni che senti si trasformano da semplici segnali acustici in una sinfonia di suoni di piacere e orgasmi! Potresti quasi dimenticare lo stress del parcheggio quando i suoni sensuali ti accompagnano, rendendo l'esperienza più rilassante e gradevole."@it ;
+    skos:note "Un prototipo dei sensuali di parcheggio è stato effettivamente realizzato e regalato alla vocaboliera che ha creato questo slangelo" ;
     dct:creator vocang:minoccheriAlessandra .
 
 vocang:ipodilliaco
@@ -5823,4 +5832,108 @@ vocang:omeopollo
     skos:example "Grazie all'omeopollo, il mio tofu mi ha ricordato i nugget di pollo che mi prepara di solito nonna! Potrei quasi abituarmi e cominciare questo stile di vita."@it ;
     dct:created "2023-05-19" ;
     skos:related vocang:omeocarne ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:apocalostolo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Apocalostolo"@it ;
+    lexinfo:pronunciation "/a • po • ca • lòs • to • lo/"@it ;
+    skos:definition "Persona fervida di convinzioni e persistente nel tentativo di persuadere circa il prossimo imminente cataclisma globale, avvalendosi frequentemente di espedienti quali l'esposizione di cartelloni esplicativi o il proferire ad alta voce tale messaggio in luoghi di notevole affluenza."@it ;
+    skos:example "Durante un evento di un festival all'aperto, una determinato apocalostolo ha afferrato un microfono e si è fatto strada tra la folla, attirando l'attenzione di tutti. Con tono solenne e gesti teatrali, ha iniziato a proclamare con convinzione che l'apocalisse è imminente e che il mondo sta per finire. Nonostante i suoi sforzi, molti hanno continuato a ballare e socializzare, ignorando la profezia apocalittica."@it ;
+    dct:created "2023-06-15" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:despressione
+    a vocang:Parolangelo ;
+    skos:prefLabel "Despressione"@it ;
+    lexinfo:pronunciation "/des • pres • sió • ne/"@it ;
+    skos:definition "Espressione facciale che rivela in modo eloquente lo stato di profonda depressione o estrema infelicità."@it ;
+    skos:example "Nella scena del film drammatico, il protagonista si trovava seduto da solo in un angolo buio della stanza, con la despressione. Le sue sopracciglia erano aggrottate, gli occhi sembravano vuoti e il suo sorriso, purtroppo assente, lasciava trasparire una profonda tristezza interiore."@it ;
+    dct:created "2023-06-13" ;
+    dct:creator vocang:minoccheriAlessandra .
+
+vocang:fioraggio
+    a vocang:Parolangelo ;
+    skos:prefLabel "Fioraggio"@it ;
+    lexinfo:pronunciation "/fio • ràg • gio/"@it ;
+    skos:definition "Un esercizio commerciale specializzato nella vendita di fiori, piante e una vasta gamma di articoli correlati al giardinaggio. Si distingue sia dai tradizionali fiorai che si occupano principalmente di composizioni floreali, sia dai negozi di bricolage che, pur offrendo anche fiori, piante e articoli da giardinaggio, non dispongono dello stesso assortimento indiscutibilmente più ampio di prodotti."@it ;
+    skos:example " Oggi dovrò recarmi dal fioraggio al fine di selezionare con cura un elegante vaso e una pregiata pianta che andranno ad impreziosire e conferire nuova vita al mio grazioso davanzale."@it ;
+    dct:created "2023-06-13" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:cipollatte
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cipollatte"@it ;
+    lexinfo:pronunciation "/ci • pol • làt • te/"@it ;
+    skos:definition "Amalgama di latte e cipolla cotta, consumata a colazione con l'intento di prevenire malattie, in particolare quelle che si manifestano durante il periodo invernale."@it ;
+    skos:example "Sei proprio un debole a fare la colazione con il cafferillo. Una bella colazione con il cipollatte rende forti e non ti fa prendere malanni strani come la palattia!"@it ;
+    skos:note "La parolangelo nasce dal racconto della zia di Nicole, riguardante una persona da lei conosciuta che consuma questa colazione nel periodo invernale per prevenire il raffreddore. Per niente stravoloso."@it ;
+    dct:created "2023-06-14" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
+
+vocang:zinovia
+    a vocang:Parolangelo ;
+    skos:prefLabel "Zinovia"@it ;
+    lexinfo:pronunciation "/zi • no • vì • a/"@it ;
+    skos:definition "Funivia utilizzabile solo da persone che sono zii di qualcuno."@it ;
+    skos:example "Mi hanno impadito di salire sulla zinovia e sono stato costretto a salire a piedi. Anche se sono stato privato di un mio diritto fondamentale senza nessun motivo logico non posso dire che non dimagrirò in questa vacanza!"@it ;
+    dct:created "2023-06-11" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:bragariAlexandru .
+
+vocang:vitalicchio
+    a vocang:Parolangelo ;
+    skos:prefLabel "Vitalicchio"@it ;
+    lexinfo:pronunciation "/vi • ta • lìc • chio/"@it ;
+    skos:definition "Breve segmento di filo di ferro che viene impiegato per assicurare cavi o sigillare buste in modo efficace e sicuro."@it ;
+    skos:example "Non capisco perché usare i vitalicchi per chiudere i taralli quando abbiamo queste magnifiche mollette fatte apposta da questa nota azienda multinazionale svedese specializzata nella vendita di mobili, complementi d'arredo e altra oggettistica per la casa."@it ;
+    dct:created "2023-06-09" ;
+    dct:creator vocang:montesiLuca .
+
+vocang:struffata
+    a vocang:Parolangelo ;
+    skos:prefLabel "Struffata"@it ;
+    lexinfo:pronunciation "/stuf • fa • ta/"@it ;
+    skos:definition "Abbuffata, enorme mangiata."@it ;
+    skos:example "Dopo quella stuffata al buffet all-you-can-eat, il mio stomaco ha deciso di fare una protesta silenziosa, rifiutandosi gentilmente di ospitare un solo altro boccone."@it ;
+    dct:created "2023-06-12" ;
+    dct:creator vocang:montesiLuca .
+
+vocang:concettangelo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Concettangelo"@it ;
+    lexinfo:pronunciation "/con • cet • tàn • ge • lo/"@it ;
+    skos:definition "Un concetto inventato presente all'interno del Vocabolangelo, non presente su un normale vocabolario, e creata da un vocaboliere. Un Concettangelo può essere una Parolangelo o uno Slangelo."@it ;
+    skos:example "I concettangelo si dividono in Parolangelo e Slangelo. La regola è semplice: se ciò che inventi è una parola unica allora hai inventato una Parolangelo, se invece dai la definizione ad un gruppo di parole che devono per forza stare insieme, allora hai creato uno Slangelo. Alla fine dei conti cambia poco. L'importante è divertirsi nel processo!"@it ;
+    dct:created "2023-06-16" ;
+    skos:related vocang:vocaboladmin, vocang:vocabolangelo, vocang:angelario, vocang:parolangelo, vocang:apostolangelo, vocang:dizionangelo, vocang:vocaboliere, vocang:vocabolangelare, vocang:vocaboregolangelo, vocang:parolarcangelo, vocang:slangelo ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:suoia
+    a vocang:Parolangelo ;
+    skos:prefLabel "Suoia"@it ;
+    lexinfo:pronunciation "/suò • ia/"@it ;
+    skos:definition "Burger vegano che risulta troppo cotto, quasi bruciato."@it ;
+    skos:example "In quel ristorante lo scorso weekend hanno servito parecchi suoia ai clienti. Per poco non stava per partire una ribellione carnivora!"@it ;
+    dct:created "2023-06-17" ;
+    skos:related vocang:frisbidina, vocang:pizzotto ;
+    dct:creator vocang:minoccheriAlessandra .
+
+vocang:salvadino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Salvadino"@it ;
+    lexinfo:pronunciation "/sal • va • dì • no/"@it ;
+    skos:definition "Salvadanaio che ha le fattezze di un dinosauro."@it ;
+    skos:example "Marco acquistò un insolito salvadino presso una bottega d'arte. Quando i suoi amici genovesi lo videro, lo trovarono divertente e lo commentarono scherzosamente. Quell'oggetto insolito diventò un simbolo di risparmio e allegria che li univa."@it ;
+    dct:created "2023-06-17" ;
+    skos:note "Il salvadino è stato concepito come un effettivo regalo per un vocaboliere particolarmente attaccato ai soldi." ;
+    dct:creator vocang:ribaudoSofia .
+
+vocang:regolaArbitroia
+    a skos:Slangelo ;
+    skos:prefLabel "Regola arbitroia"@it ;
+    lexinfo:pronunciation "/rè • go •la/  /ar • bi • trò • ia/"@it ;
+    skos:definition "Una regola arbitraria che, per qualche ragione sconosciuta, in realtà funziona sempre."@it ;
+    skos:example "Non riesco a credere che ancora una volta la fetta biscottata sia caduta dalla parte col burro. Deve per forza esserci una regola arbitroia a governare questo fenomeno!"@it ;
+    dct:created "2022-06-29" ;
+    skos:note "Prima dell'introduzione degli slangelo, era stata inventata la parolangelo arbitroio per rispettare tutte le vocaboregolangelo del tempo." ;
     dct:creator vocang:omiccioliRiccardo .
