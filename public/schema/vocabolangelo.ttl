@@ -5929,7 +5929,7 @@ vocang:salvadino
     dct:creator vocang:ribaudoSofia .
 
 vocang:regolaArbitroia
-    a skos:Concept ;
+    a skos:Slangelo ;
     skos:prefLabel "Regola arbitroia"@it ;
     lexinfo:pronunciation "/rè • go •la/  /ar • bi • trò • ia/"@it ;
     skos:definition "Una regola arbitraria che, per qualche ragione sconosciuta, in realtà funziona sempre."@it ;
