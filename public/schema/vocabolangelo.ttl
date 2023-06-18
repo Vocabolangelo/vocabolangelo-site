@@ -5739,6 +5739,7 @@ vocang:sensualiDiParcheggio
     lexinfo:pronunciation "/sen • su •à • li/  /di/  /par • chég • gio/"@it ;
     skos:definition "Una tecnologia che consente al conducente di un veicolo, come un'automobile, un camion o un autobus, di essere informato sulla distanza tra il proprio veicolo e un altro veicolo nelle vicinanze o un ostacolo. Questa tecnologia risulta particolarmente utile durante le manovre di parcheggio. Il suo funzionamento è analogo a quello di un tradizionale sensore di parcheggio. La differenza sostanziale sta nel fatto che, invece di un segnale acustico costituito da una singola nota che diventa sempre più insistente, vengono utilizzati suoni che richiamano sensazioni di piacere e orgasmi, i quali si intensificano progressivamente man mano che l'ostacolo si avvicina."@it ;
     skos:example "Immagina di essere al volante e di avvicinarti a un parcheggio affollato. Grazie all'innovativa tecnologia offerta dai sensuali di parcheggio, non appena il tuo veicolo si avvicina a un ostacolo, i suoni che senti si trasformano da semplici segnali acustici in una sinfonia di suoni di piacere e orgasmi! Potresti quasi dimenticare lo stress del parcheggio quando i suoni sensuali ti accompagnano, rendendo l'esperienza più rilassante e gradevole."@it ;
+    skos:note "Un prototipo dei sensuali di parcheggio è stato effettivamente realizzato e regalato alla vocaboliera che ha creato questo slangelo" ;
     dct:creator vocang:minoccheriAlessandra .
 
 vocang:ipodilliaco
@@ -5921,8 +5922,18 @@ vocang:salvadino
     a vocang:Parolangelo ;
     skos:prefLabel "Salvadino"@it ;
     lexinfo:pronunciation "/sal • va • dì • no/"@it ;
-    skos:definition "Marco acquistò un insolito salvadino presso una bottega d'arte. Quando i suoi amici genovesi lo videro, lo trovarono divertente e lo commentarono scherzosamente. Quell'oggetto insolito diventò un simbolo di risparmio e allegria che li univa."@it ;
-    skos:example ""@it ;
+    skos:definition "Salvadanaio che ha le fattezze di un dinosauro."@it ;
+    skos:example "Marco acquistò un insolito salvadino presso una bottega d'arte. Quando i suoi amici genovesi lo videro, lo trovarono divertente e lo commentarono scherzosamente. Quell'oggetto insolito diventò un simbolo di risparmio e allegria che li univa."@it ;
     dct:created "2023-06-17" ;
     skos:note "Il salvadino è stato concepito come un effettivo regalo per un vocaboliere particolarmente attaccato ai soldi." ;
     dct:creator vocang:ribaudoSofia .
+
+vocang:regolaArbitroia
+    a skos:Concept ;
+    skos:prefLabel "Regola arbitroia"@it ;
+    lexinfo:pronunciation "/rè • go •la/  /ar • bi • trò • ia/"@it ;
+    skos:definition "Una regola arbitraria che, per qualche ragione sconosciuta, in realtà funziona sempre."@it ;
+    skos:example "Non riesco a credere che ancora una volta la fetta biscottata sia caduta dalla parte col burro. Deve per forza esserci una regola arbitroia a governare questo fenomeno!"@it ;
+    dct:created "2022-06-29" ;
+    skos:note "Prima dell'introduzione degli slangelo, era stata inventata la parolangelo arbitroio per rispettare tutte le vocaboregolangelo del tempo." ;
+    dct:creator vocang:omiccioliRiccardo .
