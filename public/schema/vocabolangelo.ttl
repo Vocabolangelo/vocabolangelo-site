@@ -5925,6 +5925,7 @@ vocang:salvadino
     skos:definition "Salvadanaio che ha le fattezze di un dinosauro."@it ;
     skos:example "Marco acquistò un insolito salvadino presso una bottega d'arte. Quando i suoi amici genovesi lo videro, lo trovarono divertente e lo commentarono scherzosamente. Quell'oggetto insolito diventò un simbolo di risparmio e allegria che li univa."@it ;
     dct:created "2023-06-17" ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/salvadino.jpg" ;
     skos:note "Il salvadino è stato concepito come un effettivo regalo per un vocaboliere particolarmente attaccato ai soldi." ;
     dct:creator vocang:ribaudoSofia .
 
