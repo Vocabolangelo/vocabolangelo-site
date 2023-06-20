@@ -5966,3 +5966,12 @@ vocang:transloco
     skos:example "Marco e la sua famiglia hanno deciso di fare un transloco al fine di avere più spazio. Dopo la nascita del piccolo Arturo quei pochi muri cominciavano a stare un pò stretti a tutti!"@it ;
     dct:created "2023-06-18" ;
     dct:creator vocang:filasetaAngelo, vocang:minoccheriAlessandra .
+
+vocang:disluzia
+    a skos:Parolangelo ;
+    skos:prefLabel "Disluzia"@it ;
+    lexinfo:pronunciation "/dis • lù • zia/"@it ;
+    skos:definition "Propensione all'effettuare errori grammaticale che involontariamente portano vantaggio in qualche modo."@it ;
+    skos:example "La disluzia di Angelo ha reso molto più difficile del previsto il suo enigma della caccia al tesoro, cosa che lo ha divertito assai."@it ;
+    dct:created "2023-06-19" ;
+    dct:creator vocang:orlandoNicola .
