@@ -1,43 +1,58 @@
-import {Bar, BarChart, CartesianGrid, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis} from 'recharts'
+import {
+    Bar,
+    BarChart,
+    CartesianGrid,
+    ResponsiveContainer,
+    Tooltip,
+    XAxis,
+    YAxis
+} from 'recharts'
+import moment from 'moment'
+import {Parolangelo} from '../../../../rdf/types/Parolangelo'
+import React, {useEffect, useState} from 'react'
+import InnerWrapper from '../../../common/story/InnerWrapper'
 
 export default function MonthWords() {
 
-    const data = [
-        {
-            name: 'Page A',
-            parolangelo: 4000,
-            slangelo: 2400,
-        },
-        {
-            name: 'Page B',
-            parolangelo: 3000,
-            slangelo: 1398,
-        }
-    ]
+    const [data, setData] =
+        useState<{ name: string; parolangelo: string }[]>([])
 
-    // useEffect(() => {
-    //
-    // }, [])
+    useEffect(() => {
+        Parolangelo.all().then(parolangelo => {
+            const monthsMap = parolangelo.reduce((map, obj) => {
+                const date = obj.created ? new Date(obj.created) : null
+                const key = date ? `${moment.months().at(date.getMonth())?.slice(0,3)} ${date.getFullYear()}` : '??'
+                if (!map.has(key)) {
+                    map.set(key, 0)
+                }
+                map.set(key, map.get(key) + 1)
+                return map
+            }, new Map())
+            const result = Array.from(monthsMap, ([name, parolangelo]) => ({ name, parolangelo }))
+            setData(result)
+        })
+    }, [])
 
-    return <ResponsiveContainer width="100%" height="100%">
-        <BarChart
-            width={500}
-            height={300}
-            data={data}
-            margin={{
-                top: 5,
-                right: 30,
-                left: 20,
-                bottom: 5,
-            }}
-        >
-            <CartesianGrid strokeDasharray="3 3" />
-            <XAxis dataKey="name" />
-            <YAxis />
-            <Tooltip />
-            <Legend />
-            <Bar dataKey="parolangelo" fill="#8884d8" />
-            <Bar dataKey="slangelo" fill="#82ca9d" />
-        </BarChart>
-    </ResponsiveContainer>
+    return <div>
+        <InnerWrapper style={1}>
+            <header>
+                <h2>Distribuzione delle Parolangelo</h2>
+                <p className={'major'}>Quante parolangelo sono state create ogni mese?</p>
+                <p>
+                    Questo grafico a barre mostra quante parolangelo sono state create ogni mese in anno.
+                </p>
+            </header>
+            <div className="index align-left">
+                <ResponsiveContainer  width={'100%'} height={400}>
+                    <BarChart data={data }>
+                        <CartesianGrid strokeDasharray="1 1" />
+                        <XAxis dataKey="name" />
+                        <YAxis />
+                        <Tooltip />
+                        <Bar dataKey="parolangelo" fill="#6F4E37" />
+                    </BarChart>
+                </ResponsiveContainer>
+            </div>
+        </InnerWrapper>
+    </div>
 }
