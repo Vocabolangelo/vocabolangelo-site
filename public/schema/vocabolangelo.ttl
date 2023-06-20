@@ -5975,3 +5975,12 @@ vocang:disluzia
     skos:example "La disluzia di Angelo ha reso molto più difficile del previsto il suo enigma della caccia al tesoro, cosa che lo ha divertito assai."@it ;
     dct:created "2023-06-19" ;
     dct:creator vocang:orlandoNicola .
+
+vocang:gatturismo
+    a skos:Parolangelo ;
+    skos:prefLabel "Gatturismo"@it ;
+    lexinfo:pronunciation "/gat • tu • rì · ṣmo/"@it ;
+    skos:definition "La visita persso un luogo con il solo o principale scopo di vedere quanti più gatti locali possibile, o i gatti locali più belli e/o importanti."@it ;
+    skos:example "Arianna continua a mandarmi foto di mici bellissimi; dovrò raggiungerla per fare un po' di gatturismo!"@it ;
+    dct:created "2023-06-18" ;
+    dct:creator vocang:orlandoNicola .
