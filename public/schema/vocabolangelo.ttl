@@ -5957,3 +5957,12 @@ vocang:vocaboreato
     dct:created "2023-06-18" ;
     skos:related vocang:vocaboladmin, vocang:vocabolangelo, vocang:angelario, vocang:parolangelo, vocang:apostolangelo, vocang:dizionangelo, vocang:vocaboliere, vocang:vocabolangelare, vocang:vocaboregolangelo, vocang:parolarcangelo, vocang:slangelo, vocang:raggirula, vocang:concettangelo ;
     dct:creator vocang:filasetaAngelo, vocang:bianchiniGiovanni .
+
+vocang:transloco
+    a skos:Parolangelo ;
+    skos:prefLabel "Transloco"@it ;
+    lexinfo:pronunciation "/tran • ṣlo • co/"@it ;
+    skos:definition "Trasformazione radicale di un edificio che cambia genere abitativo, ad esempio mutando da un bilocale a trilocale."@it ;
+    skos:example "Marco e la sua famiglia hanno deciso di fare un transloco al fine di avere più spazio. Dopo la nascita del piccolo Arturo quei pochi muri cominciavano a stare un pò stretti a tutti!"@it ;
+    dct:created "2023-06-18" ;
+    dct:creator vocang:filasetaAngelo, vocang:minoccheriAlessandra .
