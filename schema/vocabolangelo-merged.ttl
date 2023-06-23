@@ -5083,9 +5083,9 @@
 <http://www.vocabolangelo.org/vitalicchio> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/montesiLuca> .
 <http://www.vocabolangelo.org/struffata> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/struffata> <http://www.w3.org/2004/02/skos/core#prefLabel> "Struffata"@it .
-<http://www.vocabolangelo.org/struffata> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/stuf • fa • ta/"@it .
+<http://www.vocabolangelo.org/struffata> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/struf • fà • ta/"@it .
 <http://www.vocabolangelo.org/struffata> <http://www.w3.org/2004/02/skos/core#definition> "Abbuffata, enorme mangiata."@it .
-<http://www.vocabolangelo.org/struffata> <http://www.w3.org/2004/02/skos/core#example> "Dopo quella stuffata al buffet all-you-can-eat, il mio stomaco ha deciso di fare una protesta silenziosa, rifiutandosi gentilmente di ospitare un solo altro boccone."@it .
+<http://www.vocabolangelo.org/struffata> <http://www.w3.org/2004/02/skos/core#example> "Dopo quella struffata al buffet all-you-can-eat, il mio stomaco ha deciso di fare una protesta silenziosa, rifiutandosi gentilmente di ospitare un solo altro boccone."@it .
 <http://www.vocabolangelo.org/struffata> <http://purl.org/dc/terms/created> "2023-06-12" .
 <http://www.vocabolangelo.org/struffata> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/montesiLuca> .
 <http://www.vocabolangelo.org/concettangelo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
