@@ -5995,3 +5995,12 @@ vocang:squilione
     dct:created "2023-06-23" ;
     skos:note "L'autore ha trovato la definizione della parola inglese \"squillion\" sulla documentazione di MongoDB. Interessato e non trovando la stessa parola in italiano la ha aggiunta." ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:crauma
+    a skos:Parolangelo ;
+    skos:prefLabel "Crauma"@it ;
+    lexinfo:pronunciation "/cràu • ma/"@it ;
+    skos:definition "Trauma cranico."@it ;
+    skos:example "Se Maia continua a correre ovunque potrebbe subire un crauma. Fermala prima che sia troppo tardi."@it ;
+    dct:created "2023-06-24" ;
+    dct:creator vocang:orlandoNicola, vocang:suscaMatteo .
