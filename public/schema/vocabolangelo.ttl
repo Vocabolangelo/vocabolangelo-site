@@ -5930,7 +5930,7 @@ vocang:salvadino
     dct:creator vocang:ribaudoSofia .
 
 vocang:regolaArbitroia
-    a skos:Slangelo ;
+    a vocang:Slangelo ;
     skos:prefLabel "Regola arbitroia"@it ;
     lexinfo:pronunciation "/rè • go •la/  /ar • bi • trò • ia/"@it ;
     skos:definition "Una regola arbitraria che, per qualche ragione sconosciuta, in realtà funziona sempre."@it ;
@@ -5939,18 +5939,8 @@ vocang:regolaArbitroia
     skos:note "Prima dell'introduzione degli slangelo, era stata inventata la parolangelo arbitroio per rispettare tutte le vocaboregolangelo del tempo." ;
     dct:creator vocang:omiccioliRiccardo .
 
-vocang:regolaArbitroia
-    a skos:Parolangelo ;
-    skos:prefLabel "Vocabo"@it ;
-    lexinfo:pronunciation "/rè • go •la/  /ar • bi • trò • ia/"@it ;
-    skos:definition "Una regola arbitraria che, per qualche ragione sconosciuta, in realtà funziona sempre."@it ;
-    skos:example "Non riesco a credere che ancora una volta la fetta biscottata sia caduta dalla parte col burro. Deve per forza esserci una regola arbitroia a governare questo fenomeno!"@it ;
-    dct:created "2022-06-29" ;
-    skos:note "Prima dell'introduzione degli slangelo, era stata inventata la parolangelo arbitroio per rispettare tutte le vocaboregolangelo del tempo." ;
-    dct:creator vocang:omiccioliRiccardo .
-
 vocang:vocaboreato
-    a skos:Parolangelo ;
+    a vocang:Parolangelo ;
     skos:prefLabel "Vocaboreato"@it ;
     lexinfo:pronunciation "/vo • ca • bo • re • à • to/"@it ;
     skos:definition "L'atto di inserimento di una parolangelo o uno slangelo all'interno del Vocabolangelo senza che prima abbia ricevuto approvazione da entità autorizzate, e quindi in maniera completamente illegale ed illegittima, senza neanche l'ausilio di raggirule."@it ;
@@ -5960,7 +5950,7 @@ vocang:vocaboreato
     dct:creator vocang:filasetaAngelo, vocang:bianchiniGiovanni .
 
 vocang:transloco
-    a skos:Parolangelo ;
+    a vocang:Parolangelo ;
     skos:prefLabel "Transloco"@it ;
     lexinfo:pronunciation "/tran • ṣlo • co/"@it ;
     skos:definition "Trasformazione radicale di un edificio che cambia genere abitativo, ad esempio mutando da un bilocale a trilocale."@it ;
@@ -5969,7 +5959,7 @@ vocang:transloco
     dct:creator vocang:filasetaAngelo, vocang:minoccheriAlessandra .
 
 vocang:disluzia
-    a skos:Parolangelo ;
+    a vocang:Parolangelo ;
     skos:prefLabel "Disluzia"@it ;
     lexinfo:pronunciation "/dis • lù • zia/"@it ;
     skos:definition "Propensione all'effettuare errori grammaticale che involontariamente portano vantaggio in qualche modo."@it ;
@@ -5978,7 +5968,7 @@ vocang:disluzia
     dct:creator vocang:orlandoNicola .
 
 vocang:gatturismo
-    a skos:Parolangelo ;
+    a vocang:Parolangelo ;
     skos:prefLabel "Gatturismo"@it ;
     lexinfo:pronunciation "/gat • tu • rì · ṣmo/"@it ;
     skos:definition "La visita persso un luogo con il solo o principale scopo di vedere quanti più gatti locali possibile, o i gatti locali più belli e/o importanti."@it ;
@@ -5987,7 +5977,7 @@ vocang:gatturismo
     dct:creator vocang:orlandoNicola .
 
 vocang:squilione
-    a skos:Parolangelo ;
+    a vocang:Parolangelo ;
     skos:prefLabel "Squilione"@it ;
     lexinfo:pronunciation "/squi • lió • ne/"@it ;
     skos:definition "Un numero molto grande o un ammontare spropositato, ma non ben specificato."@it ;
@@ -5997,7 +5987,7 @@ vocang:squilione
     dct:creator vocang:filasetaAngelo .
 
 vocang:crauma
-    a skos:Parolangelo ;
+    a vocang:Parolangelo ;
     skos:prefLabel "Crauma"@it ;
     lexinfo:pronunciation "/cràu • ma/"@it ;
     skos:definition "Trauma cranico."@it ;
@@ -6006,7 +5996,7 @@ vocang:crauma
     dct:creator vocang:orlandoNicola, vocang:suscaMatteo .
 
 vocang:incolazione
-    a skos:Parolangelo ;
+    a vocang:Parolangelo ;
     skos:prefLabel "Incolazione"@it ;
     lexinfo:pronunciation "/in • co • la • zió • ne/"@it ;
     skos:definition "Indigestione causata da una colazione troppo abbondante."@it ;
@@ -6015,7 +6005,7 @@ vocang:incolazione
     dct:creator vocang:filasetaAngelo .
 
 vocang:tequito
-    a skos:Parolangelo ;
+    a vocang:Parolangelo ;
     skos:prefLabel "Tequito"@it ;
     lexinfo:pronunciation "/tekˈito/"@it ;
     skos:definition "Rielaborazione del cocktail Mojito in cui il rum bianco viene sostituito con tequila."@it ;
