@@ -1,5 +1,33 @@
 # Changelog
 
+## [6.5.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v6.4.0...v6.5.0) (2023-06-25)
+
+
+### Features
+
+* **definition:** add additional detail to cipollatte ([469cee3](https://github.com/Vocabolangelo/vocabolangelo-site/commit/469cee3f05aabbaca00ea0a65f3cc233b604cbe5))
+* **image:** add salvadino image ([0bcfe43](https://github.com/Vocabolangelo/vocabolangelo-site/commit/0bcfe43421400236c377e855a3600d3ebd2df215))
+* **parolangelo:** add crauma ([c1787cb](https://github.com/Vocabolangelo/vocabolangelo-site/commit/c1787cbfea6d16a44bddeb3dd9baeee92143be87))
+* **parolangelo:** add disluzia ([0b954d6](https://github.com/Vocabolangelo/vocabolangelo-site/commit/0b954d63f37f1437aa0af555727d0178095b38e1))
+* **parolangelo:** add gatturismo ([1a21683](https://github.com/Vocabolangelo/vocabolangelo-site/commit/1a21683d52f62402617b1c79500686b952a5f893))
+* **parolangelo:** add incolazione ([3717a08](https://github.com/Vocabolangelo/vocabolangelo-site/commit/3717a08430aa8324ea230903df8cb4773a57b4d2))
+* **parolangelo:** add salvadino ([5761b18](https://github.com/Vocabolangelo/vocabolangelo-site/commit/5761b189f2932ed20f363cc869121c6aa70446c0))
+* **parolangelo:** add squilione ([b431ab7](https://github.com/Vocabolangelo/vocabolangelo-site/commit/b431ab74bd720a6daf54da47ddc6133f6f7f7084))
+* **parolangelo:** add suoia ([518a569](https://github.com/Vocabolangelo/vocabolangelo-site/commit/518a569b0cd2796a1525125c7f2272e1c34f04c1))
+* **parolangelo:** add tequito ([27fc5ef](https://github.com/Vocabolangelo/vocabolangelo-site/commit/27fc5ef9c09fd2c63e3f36591643a1a29342d73e))
+* **parolangelo:** add transloco ([8c6a62f](https://github.com/Vocabolangelo/vocabolangelo-site/commit/8c6a62ff2924571e894daa54edf090baf65805c7))
+* **parolangelo:** add vocaboreato ([7280d95](https://github.com/Vocabolangelo/vocabolangelo-site/commit/7280d95e80fa26361df0a4acc81fa2a9d9a29875))
+* **site:** add graph of parolangelo distribution ([6bdb5ae](https://github.com/Vocabolangelo/vocabolangelo-site/commit/6bdb5aebdb74af30c0292761ffeed6d6e0755cf0))
+* **slangelo:** re-add regola arbitroia ([c741bc4](https://github.com/Vocabolangelo/vocabolangelo-site/commit/c741bc480e849d1836743b05957f4e7ee876829a))
+
+
+### Bug Fixes
+
+* **parolangelo:** fix typos and accent for Struffata ([37537d3](https://github.com/Vocabolangelo/vocabolangelo-site/commit/37537d3299e5235a6339feb75ddf3bbac3b7613a))
+* **site:** correct unused imports ([57f898c](https://github.com/Vocabolangelo/vocabolangelo-site/commit/57f898cb0ec87ce46e034f935f38e23ebc4a5c2f))
+* **slangelo:** change regola arbitroia to slangelo ([1467c7f](https://github.com/Vocabolangelo/vocabolangelo-site/commit/1467c7f3eb70d726a773a73a1f1e7ec796563f82))
+* **type:** fix some type to vocang:Parolangelo ([d0497ea](https://github.com/Vocabolangelo/vocabolangelo-site/commit/d0497ea6317038e83cf34f67a9c38930680f6c4c))
+
 ## [6.4.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v6.3.0...v6.4.0) (2023-06-16)
 
 
