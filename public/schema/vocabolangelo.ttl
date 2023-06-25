@@ -5985,3 +5985,13 @@ vocang:gatturismo
     skos:example "Arianna continua a mandarmi foto di mici bellissimi; dovrò raggiungerla per fare un po' di gatturismo!"@it ;
     dct:created "2023-06-18" ;
     dct:creator vocang:orlandoNicola .
+
+vocang:squilione
+    a skos:Parolangelo ;
+    skos:prefLabel "Squilione"@it ;
+    lexinfo:pronunciation "/squi • lió • ne/"@it ;
+    skos:definition "Un numero molto grande o un ammontare spropositato, ma non ben specificato."@it ;
+    skos:example "Per compare quella nuova villa di lusso servirebbe veramente uno squilione di euro. Purtroppo per ora non riesco neanche a comprarmi un cono gelato con tre gusti a causa dell'inflazione, quindi penso che la comprerò in un'altra vita."@it ;
+    dct:created "2023-06-23" ;
+    skos:note "L'autore ha trovato la definizione della parola inglese \"squillion\" sulla documentazione di MongoDB. Interessato e non trovando la stessa parola in italiano la ha aggiunta." ;
+    dct:creator vocang:filasetaAngelo .
