@@ -5925,11 +5925,12 @@ vocang:salvadino
     skos:definition "Salvadanaio che ha le fattezze di un dinosauro."@it ;
     skos:example "Marco acquistò un insolito salvadino presso una bottega d'arte. Quando i suoi amici genovesi lo videro, lo trovarono divertente e lo commentarono scherzosamente. Quell'oggetto insolito diventò un simbolo di risparmio e allegria che li univa."@it ;
     dct:created "2023-06-17" ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/salvadino.jpg" ;
     skos:note "Il salvadino è stato concepito come un effettivo regalo per un vocaboliere particolarmente attaccato ai soldi." ;
     dct:creator vocang:ribaudoSofia .
 
 vocang:regolaArbitroia
-    a skos:Slangelo ;
+    a vocang:Slangelo ;
     skos:prefLabel "Regola arbitroia"@it ;
     lexinfo:pronunciation "/rè • go •la/  /ar • bi • trò • ia/"@it ;
     skos:definition "Una regola arbitraria che, per qualche ragione sconosciuta, in realtà funziona sempre."@it ;
@@ -5937,3 +5938,78 @@ vocang:regolaArbitroia
     dct:created "2022-06-29" ;
     skos:note "Prima dell'introduzione degli slangelo, era stata inventata la parolangelo arbitroio per rispettare tutte le vocaboregolangelo del tempo." ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:vocaboreato
+    a vocang:Parolangelo ;
+    skos:prefLabel "Vocaboreato"@it ;
+    lexinfo:pronunciation "/vo • ca • bo • re • à • to/"@it ;
+    skos:definition "L'atto di inserimento di una parolangelo o uno slangelo all'interno del Vocabolangelo senza che prima abbia ricevuto approvazione da entità autorizzate, e quindi in maniera completamente illegale ed illegittima, senza neanche l'ausilio di raggirule."@it ;
+    skos:example "Io e Ciro stavamo pensando di hackerare in qualche modo il vocabolangelo: Vogliamo compiere un vocaboreato senza che nessuno se ne accorga. Le nostre parole sono bellissime ma non vengono mai accetate. È l'ora di una rivoluzione!"@it ;
+    dct:created "2023-06-18" ;
+    skos:related vocang:vocaboladmin, vocang:vocabolangelo, vocang:angelario, vocang:parolangelo, vocang:apostolangelo, vocang:dizionangelo, vocang:vocaboliere, vocang:vocabolangelare, vocang:vocaboregolangelo, vocang:parolarcangelo, vocang:slangelo, vocang:raggirula, vocang:concettangelo ;
+    dct:creator vocang:filasetaAngelo, vocang:bianchiniGiovanni .
+
+vocang:transloco
+    a vocang:Parolangelo ;
+    skos:prefLabel "Transloco"@it ;
+    lexinfo:pronunciation "/tran • ṣlo • co/"@it ;
+    skos:definition "Trasformazione radicale di un edificio che cambia genere abitativo, ad esempio mutando da un bilocale a trilocale."@it ;
+    skos:example "Marco e la sua famiglia hanno deciso di fare un transloco al fine di avere più spazio. Dopo la nascita del piccolo Arturo quei pochi muri cominciavano a stare un pò stretti a tutti!"@it ;
+    dct:created "2023-06-18" ;
+    dct:creator vocang:filasetaAngelo, vocang:minoccheriAlessandra .
+
+vocang:disluzia
+    a vocang:Parolangelo ;
+    skos:prefLabel "Disluzia"@it ;
+    lexinfo:pronunciation "/dis • lù • zia/"@it ;
+    skos:definition "Propensione all'effettuare errori grammaticale che involontariamente portano vantaggio in qualche modo."@it ;
+    skos:example "La disluzia di Angelo ha reso molto più difficile del previsto il suo enigma della caccia al tesoro, cosa che lo ha divertito assai."@it ;
+    dct:created "2023-06-19" ;
+    dct:creator vocang:orlandoNicola .
+
+vocang:gatturismo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Gatturismo"@it ;
+    lexinfo:pronunciation "/gat • tu • rì · ṣmo/"@it ;
+    skos:definition "La visita persso un luogo con il solo o principale scopo di vedere quanti più gatti locali possibile, o i gatti locali più belli e/o importanti."@it ;
+    skos:example "Arianna continua a mandarmi foto di mici bellissimi; dovrò raggiungerla per fare un po' di gatturismo!"@it ;
+    dct:created "2023-06-18" ;
+    dct:creator vocang:orlandoNicola .
+
+vocang:squilione
+    a vocang:Parolangelo ;
+    skos:prefLabel "Squilione"@it ;
+    lexinfo:pronunciation "/squi • lió • ne/"@it ;
+    skos:definition "Un numero molto grande o un ammontare spropositato, ma non ben specificato."@it ;
+    skos:example "Per compare quella nuova villa di lusso servirebbe veramente uno squilione di euro. Purtroppo per ora non riesco neanche a comprarmi un cono gelato con tre gusti a causa dell'inflazione, quindi penso che la comprerò in un'altra vita."@it ;
+    dct:created "2023-06-23" ;
+    skos:note "L'autore ha trovato la definizione della parola inglese \"squillion\" sulla documentazione di MongoDB. Interessato e non trovando la stessa parola in italiano la ha aggiunta." ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:crauma
+    a vocang:Parolangelo ;
+    skos:prefLabel "Crauma"@it ;
+    lexinfo:pronunciation "/cràu • ma/"@it ;
+    skos:definition "Trauma cranico."@it ;
+    skos:example "Se Maia continua a correre ovunque potrebbe subire un crauma. Fermala prima che sia troppo tardi."@it ;
+    dct:created "2023-06-24" ;
+    dct:creator vocang:orlandoNicola, vocang:suscaMatteo .
+
+vocang:incolazione
+    a vocang:Parolangelo ;
+    skos:prefLabel "Incolazione"@it ;
+    lexinfo:pronunciation "/in • co • la • zió • ne/"@it ;
+    skos:definition "Indigestione causata da una colazione troppo abbondante."@it ;
+    skos:example "Dopo aver divorato una montagna di pancake, una cascata di bacon e una torre di uova strapazzate, ho sperimentato un'incolazione veramente terribile... Credo non mangerò per un po'."@it ;
+    dct:created "2023-06-24" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:tequito
+    a vocang:Parolangelo ;
+    skos:prefLabel "Tequito"@it ;
+    lexinfo:pronunciation "/tekˈito/"@it ;
+    skos:definition "Rielaborazione del cocktail Mojito in cui il rum bianco viene sostituito con tequila."@it ;
+    skos:example "Ho ordinato un mojito ma il barista ha deciso di sua spontanea volotà di creare una versione alternativa, sostituendo il rum con la tequila. Ora ho in mano un 'Tequito', un cocktail che potrebbe sorprendere anche il più esperto degli intenditori da quanto fa schifo! Me ne sono alzato e sono andato via senza pagare. Mai più."@it ;
+    dct:created "2023-06-24" ;
+    skos:note "Ad un vocaboliere è stato effettivamente servito un tequito al posto del mojito ordinato.";
+    dct:creator vocang:ribaudoSofia .
