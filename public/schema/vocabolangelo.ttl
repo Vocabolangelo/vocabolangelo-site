@@ -6013,3 +6013,13 @@ vocang:incolazione
     skos:example "Dopo aver divorato una montagna di pancake, una cascata di bacon e una torre di uova strapazzate, ho sperimentato un'incolazione veramente terribile... Credo non mangerò per un po'."@it ;
     dct:created "2023-06-24" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:tequito
+    a skos:Parolangelo ;
+    skos:prefLabel "Tequito"@it ;
+    lexinfo:pronunciation "/tekˈito/"@it ;
+    skos:definition "Rielaborazione del cocktail Mojito in cui il rum bianco viene sostituito con tequila."@it ;
+    skos:example "Ho ordinato un mojito ma il barista ha deciso di sua spontanea volotà di creare una versione alternativa, sostituendo il rum con la tequila. Ora ho in mano un 'Tequito', un cocktail che potrebbe sorprendere anche il più esperto degli intenditori da quanto fa schifo! Me ne sono alzato e sono andato via senza pagare. Mai più."@it ;
+    dct:created "2023-06-24" ;
+    skos:note "Ad un vocaboliere è stato effettivamente servito un tequito al posto del mojito ordinato.";
+    dct:creator vocang:ribaudoSofia .
