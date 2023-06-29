@@ -5206,6 +5206,35 @@
 <http://www.vocabolangelo.org/tequito> <http://purl.org/dc/terms/created> "2023-06-24" .
 <http://www.vocabolangelo.org/tequito> <http://www.w3.org/2004/02/skos/core#note> "Ad un vocaboliere è stato effettivamente servito un tequito al posto del mojito ordinato." .
 <http://www.vocabolangelo.org/tequito> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/ribaudoSofia> .
+<http://www.vocabolangelo.org/obbligatroio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/obbligatroio> <http://www.w3.org/2004/02/skos/core#prefLabel> "Obbligatroio"@it .
+<http://www.vocabolangelo.org/obbligatroio> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/ob • bli • ga • tró • io/"@it .
+<http://www.vocabolangelo.org/obbligatroio> <http://www.w3.org/2004/02/skos/core#definition> "Azione obbligata ma che risulta estremamente insensata o comunque poco praticabile e razionale se comparata ad altre alternative non percorribili."@it .
+<http://www.vocabolangelo.org/obbligatroio> <http://www.w3.org/2004/02/skos/core#example> "So che siamo a tre metri da terra su un gioco fatto per bambini ma devi fare per forza le 10 flessioni lampo. Sai che sono obbligatroie"@it .
+<http://www.vocabolangelo.org/obbligatroio> <http://purl.org/dc/terms/created> "2023-06-27" .
+<http://www.vocabolangelo.org/obbligatroio> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/acub> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/acub> <http://www.w3.org/2004/02/skos/core#prefLabel> "Acub"@it .
+<http://www.vocabolangelo.org/acub> <http://www.w3.org/2004/02/skos/core#definition> "Cunetta che si forma nell'asfalto a causa delle radici di un albero che si espandono sotto il manto stradale."@it .
+<http://www.vocabolangelo.org/acub> <http://www.w3.org/2004/02/skos/core#example> "In un tranquillo paesino di campagna, c'era una strada che sembrava un vero e proprio campo minato per gli automobilisti. Ogni volta che qualcuno si avventurava su quella strada dissestata, si trovava ad affrontare una temibile acub. Era come se l'albero avesse deciso di giocare uno scherzo malvagio a tutti coloro che osavano attraversare quella strada. Gli abitanti del paese erano così frustrati che decisero di organizzare una petizione per chiedere che l'albero venisse tagliato."@it .
+<http://www.vocabolangelo.org/acub> <http://purl.org/dc/terms/created> "2023-06-27" .
+<http://www.vocabolangelo.org/acub> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/orlandoNicola> .
+<http://www.vocabolangelo.org/acub> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
+<http://www.vocabolangelo.org/utillecito> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/utillecito> <http://www.w3.org/2004/02/skos/core#prefLabel> "Utillecito"@it .
+<http://www.vocabolangelo.org/utillecito> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/u • til • lé • ci • to/"@it .
+<http://www.vocabolangelo.org/utillecito> <http://www.w3.org/2004/02/skos/core#definition> "Un atto illegale ma opportuno."@it .
+<http://www.vocabolangelo.org/utillecito> <http://www.w3.org/2004/02/skos/core#example> "Il noto attivista Marco Cappato ha compiuto un ennesimo utillecito per cercare di alimentare il cambiamento. Grazie a lui, forse un giorno, l'eutanasia sarà legale nel nostro paese."@it .
+<http://www.vocabolangelo.org/utillecito> <http://purl.org/dc/terms/created> "2023-06-26" .
+<http://www.vocabolangelo.org/utillecito> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
+<http://www.vocabolangelo.org/utillecito> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
+<http://www.vocabolangelo.org/bidoccia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/bidoccia> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bidoccia"@it .
+<http://www.vocabolangelo.org/bidoccia> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/bi • dóc • cia/"@it .
+<http://www.vocabolangelo.org/bidoccia> <http://www.w3.org/2004/02/skos/core#definition> "Doccia eseguita al fine di soddisfare l'esigenza individuale di utilizzare un bidet."@it .
+<http://www.vocabolangelo.org/bidoccia> <http://www.w3.org/2004/02/skos/core#example> "Arianna desiderava tanto farsi un bidet, ma essendo in Francia per l'erasmus questo suo desiderio non era possibile, pertanto è stata costretta a farsi una bidoccia."@it .
+<http://www.vocabolangelo.org/bidoccia> <http://purl.org/dc/terms/created> "2023-06-25" .
+<http://www.vocabolangelo.org/bidoccia> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/nardiniArianna> .
 <http://www.vocabolangelo.org/noonare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/fregola> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/tardivare> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/scorciatroia> .
@@ -5878,6 +5907,7 @@
 <http://www.vocabolangelo.org/playmix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/accebilare> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/portabilare> .
 <http://www.vocabolangelo.org/accebilare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/obbligatroio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/uragago> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/mordacchiniCecilia> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/rinaldiFrancesca> .
 <http://www.vocabolangelo.org/mordacchiniCecilia> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/orlandoNicola> .
@@ -6348,6 +6378,7 @@
 <http://www.vocabolangelo.org/arsenzio> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/cappuccido> .
 <http://www.vocabolangelo.org/arsenzio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/cacatino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/acub> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/borsaggio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/networkink> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/tristabbiato> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/incazzabbiato> .
@@ -6694,6 +6725,7 @@
 <http://www.vocabolangelo.org/veggenteggiare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/piecere> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/trashiba> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/bidoccia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/proccione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/reggione> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/preggia> .
 <http://www.vocabolangelo.org/reggione> <http://rdfs.org/scot/ns#synonym> <http://www.vocabolangelo.org/preggia> .
@@ -7433,6 +7465,7 @@
 <http://www.vocabolangelo.org/pippodromo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/nerdgasmo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/fusorangelo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/utillecito> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/zinovia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/bragatto> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/omnicio> .
 <http://www.vocabolangelo.org/bragatto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
