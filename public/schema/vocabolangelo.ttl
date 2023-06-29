@@ -6013,3 +6013,12 @@ vocang:tequito
     dct:created "2023-06-24" ;
     skos:note "Ad un vocaboliere è stato effettivamente servito un tequito al posto del mojito ordinato.";
     dct:creator vocang:ribaudoSofia .
+
+vocang:obbligatroio
+    a vocang:Parolangelo ;
+    skos:prefLabel "Obbligatroio"@it ;
+    lexinfo:pronunciation "/ob • bli • ga • tró • io/"@it ;
+    skos:definition "Azione obbligata ma che risulta estremamente insensata o comunque poco praticabile e razionale se comparata ad altre alternative non percorribili."@it ;
+    skos:example "So che siamo a tre metri da terra su un gioco fatto per bambini ma devi fare per forza le 10 flessioni lampo. Sai che sono obbligatroie"@it ;
+    dct:created "2023-06-27" ;
+    dct:creator vocang:pertosaLorenzo .
