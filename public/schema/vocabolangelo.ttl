@@ -6039,3 +6039,12 @@ vocang:utillecito
     skos:example "Il noto attivista Marco Cappato ha compiuto un ennesimo utillecito per cercare di alimentare il cambiamento. Grazie a lui, forse un giorno, l'eutanasia sarà legale nel nostro paese."@it ;
     dct:created "2023-06-26" ;
     dct:creator vocang:filasetaAngelo, vocang:omiccioliRiccardo .
+
+vocang:bidoccia
+    a vocang:Parolangelo ;
+    skos:prefLabel "Bidoccia"@it ;
+    lexinfo:pronunciation "/bi • dóc • cia/"@it ;
+    skos:definition "Doccia eseguita al fine di soddisfare l'esigenza individuale di utilizzare un bidet."@it ;
+    skos:example "Arianna desiderava tanto farsi un bidet, ma essendo in Francia per l'erasmus questo suo desiderio non era possibile, pertanto è stata costretta a farsi una bidoccia."@it ;
+    dct:created "2023-06-25" ;
+    dct:creator vocang:nardiniArianna .
