@@ -6097,3 +6097,13 @@ vocang:perdompino
     dct:created "2023-07-02" ;
     skos:related vocang:pompincubo, vocang:pompinazione, vocang:pomperdono ;
     dct:creator vocang:nardiniArianna .
+
+vocang:catenangelo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Catenangelo"@it ;
+    lexinfo:pronunciation "/ca • te • nàn • ge • lo/"@it ;
+    skos:definition "Serie di parolangelo che vengono inventate una dopo l'altra e che seguendo un filo logico comune."@it ;
+    skos:example "Ieri i vocabolieri erano molto allegri ed attivi. Hanno creato una catenangelo molto interessante, creando un sacco di parolangelo lagate al biribì!"@it ;
+    dct:created "2023-07-02" ;
+    skos:related vocang:vocaboladmin, vocang:vocabolangelo, vocang:angelario, vocang:parolangelo, vocang:apostolangelo, vocang:dizionangelo, vocang:vocaboliere, vocang:vocabolangelare, vocang:vocaboregolangelo, vocang:parolarcangelo, vocang:slangelo, vocang:raggirula, vocang:concettangelo, vocang:vocaboreato;
+    dct:creator vocang:pertosaLorenzo .
