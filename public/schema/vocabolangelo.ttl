@@ -6207,3 +6207,14 @@ vocang:antipastontorno
     skos:example "Alla mensa ho preso i cannelloni e le le verdure come contorno. Alla fine ho mangiato prima le verdure, che di conseguenza sono diventate un antipastontorno."@it ;
     dct:created "2023-06-30" ;
     dct:creator vocang:timpanoSam .
+
+vocang:sparchiare
+    a vocang:Parolangelo ;
+    skos:prefLabel "Sparchiare"@it ;
+    lexinfo:pronunciation "/spar • chià • re"@it ;
+    skos:definition "Macchiare o sporcare se stessi durante l'operazione di sparecchiamento di una tavola."@it ;
+    skos:example "Oh no! Adesso il pavimento odorerà di sugo al pomodoro almeno per qualche mese; ho sparchiato proprio bene!"@it ;
+    dct:created "2023-06-30" ;
+    dct:creator vocang:bragariAlexandru .
+
+
