@@ -6211,10 +6211,17 @@ vocang:antipastontorno
 vocang:sparchiare
     a vocang:Parolangelo ;
     skos:prefLabel "Sparchiare"@it ;
-    lexinfo:pronunciation "/spar • chià • re"@it ;
+    lexinfo:pronunciation "/spar • chià • re/"@it ;
     skos:definition "Macchiare o sporcare se stessi durante l'operazione di sparecchiamento di una tavola."@it ;
     skos:example "Oh no! Adesso il pavimento odorerà di sugo al pomodoro almeno per qualche mese; ho sparchiato proprio bene!"@it ;
     dct:created "2023-06-30" ;
     dct:creator vocang:bragariAlexandru .
 
-
+vocang:occlusabolangelo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Occlusabolangelo"@it ;
+    lexinfo:pronunciation "/oc • clu • sa • bo • làn • ge • lo/"@it ;
+    skos:definition "Situazione in cui l'aggiornamento del vocabolangelo richiede tempistiche elevate a causa di un elevato numero di richieste di aggiunta."@it ;
+    skos:example "Ieri i vocabolieri sono impazziti e hanno cominciato ad inventare una parolangelo dopo l'altra! L'inserimento di tutte le parolangelo ha richiesto un intero pomeriggio, ma l'occlusabolangelo è finalmente terminato."@it ;
+    dct:created "2023-07-02" ;
+    dct:creator vocang:timpanoSam .
