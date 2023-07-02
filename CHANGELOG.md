@@ -1,5 +1,36 @@
 # Changelog
 
+## [6.6.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v6.5.0...v6.6.0) (2023-07-02)
+
+
+### Features
+
+* **parolangelo:** acub ([6dab64c](https://github.com/Vocabolangelo/vocabolangelo-site/commit/6dab64c88cdf4f0d463d6fd18df3191defe77e53))
+* **parolangelo:** ansiapone ([a4f9711](https://github.com/Vocabolangelo/vocabolangelo-site/commit/a4f97116a41f79e1e10f930638a3b4484d9f52ba))
+* **parolangelo:** antipastontorno ([782bdee](https://github.com/Vocabolangelo/vocabolangelo-site/commit/782bdee83b310d0d9fdd95650cb7a1b8b3fbfcb8))
+* **parolangelo:** bidoccia ([0a7771c](https://github.com/Vocabolangelo/vocabolangelo-site/commit/0a7771c9293184e34c4f32ff35a69fdb00a1e7e9))
+* **parolangelo:** brosco ([aa8fbbf](https://github.com/Vocabolangelo/vocabolangelo-site/commit/aa8fbbf6595c5a45f35636dd1225e3c46e2ffd75))
+* **parolangelo:** catenangelo ([8681c57](https://github.com/Vocabolangelo/vocabolangelo-site/commit/8681c57c12b9f8f386bd36fb79b7463f3b12be08))
+* **parolangelo:** desesso ([85627c3](https://github.com/Vocabolangelo/vocabolangelo-site/commit/85627c3442112942490904fe188d5aa940d2f7f0))
+* **parolangelo:** dislabolo ([0314911](https://github.com/Vocabolangelo/vocabolangelo-site/commit/03149110fb4e026331036b9cd3da73f02a41c524))
+* **parolangelo:** eleganzo ([4a0fb7e](https://github.com/Vocabolangelo/vocabolangelo-site/commit/4a0fb7e81186de42bd322b5f11a27d39be718bd6))
+* **parolangelo:** invicio ([b0374ed](https://github.com/Vocabolangelo/vocabolangelo-site/commit/b0374ed8cdf43173cf527276e4fae715b7869809))
+* **parolangelo:** obbligatroio ([cd8ebdb](https://github.com/Vocabolangelo/vocabolangelo-site/commit/cd8ebdb9edd9ac3ace04f4b5dc5b1c737689b664))
+* **parolangelo:** occlusabolangelo ([a6811e2](https://github.com/Vocabolangelo/vocabolangelo-site/commit/a6811e21f49d432c0e1f89633db4788eafccab6b))
+* **parolangelo:** offuschiare ([70d582d](https://github.com/Vocabolangelo/vocabolangelo-site/commit/70d582d32f68b1527144a15336a238b71e0bf3ce))
+* **parolangelo:** perdompino ([c45765e](https://github.com/Vocabolangelo/vocabolangelo-site/commit/c45765eddc98ff81026b8443c0e5521738fe1542))
+* **parolangelo:** perdonatto ([09672e3](https://github.com/Vocabolangelo/vocabolangelo-site/commit/09672e34c61469ac8349591c59811819ca2b640f))
+* **parolangelo:** permascente ([193eb38](https://github.com/Vocabolangelo/vocabolangelo-site/commit/193eb38d4df4d0f3564e29a2a6b6ddd1d7915f16))
+* **parolangelo:** piazozza ([456d79b](https://github.com/Vocabolangelo/vocabolangelo-site/commit/456d79b0cf08bd9fab8f02d1d95b1fc9948c8024))
+* **parolangelo:** pinzone ([7d22491](https://github.com/Vocabolangelo/vocabolangelo-site/commit/7d22491043b2ad937d5c4b0a3aab2337d64a3365))
+* **parolangelo:** pokovermon ([b996b87](https://github.com/Vocabolangelo/vocabolangelo-site/commit/b996b879ca5602a247fdb0d92905f0b72a4afde5))
+* **parolangelo:** pomperdono ([a74c5fb](https://github.com/Vocabolangelo/vocabolangelo-site/commit/a74c5fbb54e20b6a42c10b99a252a6473e30b705))
+* **parolangelo:** salvadragaio ([24f2336](https://github.com/Vocabolangelo/vocabolangelo-site/commit/24f2336842805f87b39b433ae041254bc60a23a1))
+* **parolangelo:** skydie ([9d9e7cc](https://github.com/Vocabolangelo/vocabolangelo-site/commit/9d9e7cc2c135398d44f09f4ceacc829d57ead069))
+* **parolangelo:** sparchiare ([d062650](https://github.com/Vocabolangelo/vocabolangelo-site/commit/d0626501ba035df23b03864c1a6d416fbae8d058))
+* **parolangelo:** troccola ([30d84af](https://github.com/Vocabolangelo/vocabolangelo-site/commit/30d84af9326024e879c1ffb3270eef14464d6d44))
+* **parolangelo:** utillecito ([00de92c](https://github.com/Vocabolangelo/vocabolangelo-site/commit/00de92c5b4e71c8159529d2c70e11421174184c0))
+
 ## [6.5.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v6.4.0...v6.5.0) (2023-06-25)
 
 
