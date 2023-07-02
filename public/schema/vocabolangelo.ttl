@@ -6107,3 +6107,13 @@ vocang:catenangelo
     dct:created "2023-07-02" ;
     skos:related vocang:vocaboladmin, vocang:vocabolangelo, vocang:angelario, vocang:parolangelo, vocang:apostolangelo, vocang:dizionangelo, vocang:vocaboliere, vocang:vocabolangelare, vocang:vocaboregolangelo, vocang:parolarcangelo, vocang:slangelo, vocang:raggirula, vocang:concettangelo, vocang:vocaboreato;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:piazzozza
+    a vocang:Parolangelo ;
+    skos:prefLabel "Piazozza"@it ;
+    lexinfo:pronunciation "/pia • zóz • za/"@it ;
+    skos:definition "Piadina ricca di condimenti, al punto che quasi straripano, e i cui ingredienti risultano unti, grassi e poco salutari."@it ;
+    skos:example "Stasera ho una gran fame e voglio fare schifo fino alla fine, mi prendo una bella piazozza all'isola dei sapori!"@it ;
+    dct:created "2023-07-02" ;
+    skos:related vocang:pizzozza ;
+    dct:creator vocang:ribaudoSofia, vocang:bdeouiEddy .
