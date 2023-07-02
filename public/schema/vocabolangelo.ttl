@@ -6147,8 +6147,17 @@ vocang:invicio
 vocang:eleganzo
     a vocang:Parolangelo ;
     skos:prefLabel "Eleganzo"@it ;
-    lexinfo:pronunciation "/e • le • gàn • zo/"@it ;
+    lexinfo:pronunciation "/e • le • gàn • ẓo/"@it ;
     skos:definition "Outfit che risulta contemporaneamente elegante e casual."@it ;
     skos:example "Per questa sera metterò delle scarpe molto eleganti con i jeans strappati. Punto ad avere un outfit eleganzo per il mio appuntamento."@it ;
     dct:created "2023-07-01" ;
     dct:creator vocang:omiccioliRiccardo, vocang:minoccheriAlessandra .
+
+vocang:ansiapone
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ansiapone"@it ;
+    lexinfo:pronunciation "/an • sia • pó • ne/"@it ;
+    skos:definition "Sapone che successivamente al suo normale utilizzo, ad esempio dopo esserso lavati le mani, crea una forte sensazione d'ansia che perdura per tutto il resto della giornata."@it ;
+    skos:example "Mi sono svegliato con la malattina, ma dopo che mi sono lavato il viso con l'ansiapone tutti i miei dolori sono mutati in una fortissima sensazione d'ansia."@it ;
+    dct:created "2023-07-01" ;
+    dct:creator vocang:bragariAlexandru .
