@@ -6189,3 +6189,12 @@ vocang:offuschiare
     skos:example "Ieri ho visto i miei amici al mare tutti offuschiati e ho avuto bisogno di 2 minuti per ricominciare a capirci qualcosa."@it ;
     dct:created "2023-07-01" ;
     dct:creator vocang:timpanoSam, vocang:suscaMatteo, vocang:minoccheriAlessandra .
+
+vocang:brosco
+    a vocang:Parolangelo ;
+    skos:prefLabel "Brosco"@it ;
+    lexinfo:pronunciation "/bròs • co/"@it ;
+    skos:definition "Un bosco predisposto di basi segrete, strutture e attrezzature che permettono a ragazzi di fare amicizia e interagire in vari modi."@it ;
+    skos:example "Ieri abbiamo costruito una base segreta nel brosco vicino casa e abbiamo fatto amicizia con altro ragazzi. Insieme abbiamo poi distrutto la base segreta di alcuni ragazzi con i quali avevamo stretto un'allefanza."@it ;
+    dct:created "2023-07-01" ;
+    dct:creator vocang:bragariAlexandru, vocang:omiccioliRiccardo .
