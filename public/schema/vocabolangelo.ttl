@@ -6125,3 +6125,12 @@ vocang:skydie
     skos:example "Non voglio andare al biribì, è troppo banale e noioso. Voglio finire la mia vita facendo skydie e sentendo il vento tra i capelli!"@it ;
     dct:created "2023-07-02" ;
     dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
+
+vocang:pinzone
+    a vocang:Parolangelo ;
+    skos:prefLabel "Pinzone"@it ;
+    lexinfo:pronunciation "/pin • zó • ne/"@it ;
+    skos:definition "Versione alternativa del crescione romagnolo, realizzata utilizzando l'impasto della pinza romana."@it ;
+    skos:example "Ieri ero a Velletri in un ristorante con la mia ragazza e abbiamo visto il cameriere che serviva un pinzone al tavolo di fianco al nostro. Siamo rimasti sbalorditi e ne abbiamo ordinato uno anche noi!"@it ;
+    dct:created "2023-07-02" ;
+    dct:creator vocang:filasetaAngelo, vocang:savoGiorgia .
