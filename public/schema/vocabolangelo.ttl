@@ -6198,3 +6198,12 @@ vocang:brosco
     skos:example "Ieri abbiamo costruito una base segreta nel brosco vicino casa e abbiamo fatto amicizia con altro ragazzi. Insieme abbiamo poi distrutto la base segreta di alcuni ragazzi con i quali avevamo stretto un'allefanza."@it ;
     dct:created "2023-07-01" ;
     dct:creator vocang:bragariAlexandru, vocang:omiccioliRiccardo .
+
+vocang:antipastontorno
+    a vocang:Parolangelo ;
+    skos:prefLabel "Antipastontorno"@it ;
+    lexinfo:pronunciation "/an • ti • pas • ton • tór • no/"@it ;
+    skos:definition "Un antipasto che diventa un contorno o viceversa."@it ;
+    skos:example "Alla mensa ho preso i cannelloni e le le verdure come contorno. Alla fine ho mangiato prima le verdure, che di conseguenza sono diventate un antipastontorno."@it ;
+    dct:created "2023-06-30" ;
+    dct:creator vocang:timpanoSam .
