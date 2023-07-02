@@ -6161,3 +6161,12 @@ vocang:ansiapone
     skos:example "Mi sono svegliato con la malattina, ma dopo che mi sono lavato il viso con l'ansiapone tutti i miei dolori sono mutati in una fortissima sensazione d'ansia."@it ;
     dct:created "2023-07-01" ;
     dct:creator vocang:bragariAlexandru .
+
+vocang:pokovermon
+    a vocang:Parolangelo ;
+    skos:prefLabel "Pokovermon"@it ;
+    skos:definition "Una cover per smartphone contenente una carta da gioco della serie Pokèmon."@it ;
+    skos:example "Ultimamente tra i giovani della mia generazione va di moda avere una pokovermon. La carta del pokèmon spesso è il proprio pokèmon preferito."@it ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/pokovermon.jpg" ;
+    dct:created "2023-07-01" ;
+    dct:creator vocang:bragariAlexandru, vocang:timpanoSam .
