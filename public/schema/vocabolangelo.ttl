@@ -6225,3 +6225,12 @@ vocang:occlusabolangelo
     skos:example "Ieri i vocabolieri sono impazziti e hanno cominciato ad inventare una parolangelo dopo l'altra! L'inserimento di tutte le parolangelo ha richiesto un intero pomeriggio, ma l'occlusabolangelo è finalmente terminato."@it ;
     dct:created "2023-07-02" ;
     dct:creator vocang:timpanoSam .
+
+vocang:desesso
+    a vocang:Parolangelo ;
+    skos:prefLabel "Desesso"@it ;
+    lexinfo:pronunciation "/de • sès • so/"@it ;
+    skos:definition "Decesso di un individuo, sia esso umano o animale, che crea le condizioni per consentire a due o più soggetti di intraprendere atti sessuali che, in mancanza di tale circostanza, sarebbero risultati altrimenti impossibili o complessi da realizzare."@it ;
+    skos:example "Ieri è morto un parente stretto di mio fratello. Il suo desesso ha permesso a me e al mio ragazzo di copulare, visto che è dovuto andare al funerale e ci è rimasto per circa 3 ore!"@it ;
+    dct:created "2023-07-01" ;
+    dct:creator vocang:filasetaAngelo .
