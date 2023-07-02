@@ -6048,3 +6048,13 @@ vocang:bidoccia
     skos:example "Arianna desiderava tanto farsi un bidet, ma essendo in Francia per l'erasmus questo suo desiderio non era possibile, pertanto è stata costretta a farsi una bidoccia."@it ;
     dct:created "2023-06-25" ;
     dct:creator vocang:nardiniArianna .
+
+vocang:dislabolo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Dislabolo"@it ;
+    lexinfo:pronunciation "/dis • la • bo • lo/"@it ;
+    skos:definition "Vocabolo inventato a causa o durante un movimento di dislessia momentaneo."@it ;
+    skos:example "Durante una conferenza sul linguaggio, il professor Rossi, esperto di linguistica, ebbe un momentaneo movimento di dislessia. Mentre cercava di spiegare un concetto complesso, le parole si mescolarono nella sua mente e nacque un dislabolo che utilizza giocosamente ancora oggi con i suoi amici."@it ;
+    dct:created "2023-07-02" ;
+    skos:related vocang:dislessicare ;
+    dct:creator vocang:rosatelliAnna .
