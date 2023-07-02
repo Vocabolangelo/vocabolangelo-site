@@ -6143,3 +6143,12 @@ vocang:invicio
     skos:example "Puma è proprio un invicio. Abbiamo provato a scacciarlo anche con la pistola a pallini ma nonostante tutto continua ad entrare dentro casa anche se sa che non può."@it ;
     dct:created "2023-07-01" ;
     dct:creator vocang:savoGiorgia .
+
+vocang:eleganzo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Eleganzo"@it ;
+    lexinfo:pronunciation "/e • le • gàn • zo/"@it ;
+    skos:definition "Outfit che risulta contemporaneamente elegante e casual."@it ;
+    skos:example "Per questa sera metterò delle scarpe molto eleganti con i jeans strappati. Punto ad avere un outfit eleganzo per il mio appuntamento."@it ;
+    dct:created "2023-07-01" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:minoccheriAlessandra .
