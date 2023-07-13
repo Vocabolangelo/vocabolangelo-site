@@ -6321,4 +6321,13 @@ vocang:brebolanza
     dct:created "2023-07-09" ;
     skos:related vocang:debolanza ;
     dct:creator vocang:filasetaAngelo .
-    
+
+ vocang:debolenza
+    a vocang:Parolangelo ;
+    skos:prefLabel "Debolenza"@it ;
+    lexinfo:pronunciation "/de • bo • lèn • za/"@it ;
+    skos:definition "Lenza non in grado di sostenere la forza di un pesce."@it ;
+    skos:example "Invece che comprare quelle debolenze dai cinesi dovresti comprare un kit professionale nel negozio specializzato. Con quegli aggeggi non prenderai neanche un girino!"@it ;
+    dct:created "2023-07-09" ;
+    dct:creator vocang:suscaMatteo .
+   
