@@ -6422,4 +6422,14 @@ vocang:fetiscimo
     lexinfo:pronunciation "/fe • ti • scì • ṣmo/"@it ;
     skos:definition "Perversione sessuale caratterizzata dall'esperienza di eccitazione sessuale verso lo sport dello Sci."@it ;
     skos:example "Luca potrebbe essere affetto da fetiscimo, dato che dedica gran parte del suo tempo libero a seguire e partecipare a competizioni di sci. La sua passione per questo sport è talmente intensa che colleziona attrezzature da sci, guarda ogni evento sportivo in televisione e si immerge completamente nell'atmosfera dell'inverno e delle montagne."@it ;
+    dct:created "2023-07-13" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:fecicismo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Fecicismo"@it ;
+    lexinfo:pronunciation "/fe • ci • cì • ṣmo/"@it ;
+    skos:definition "Perversione sessuale caratterizzata dall'esperienza di eccitazione sessuale in seguito all'osservazione di feci o escrementi."@it ;
+    skos:example "Gli amici di John scherzano sempre sul fatto che potrebbe essere affetto da fecicismo, dato che ogni volta che la sua migliore amica fa i suoi bisogni, lui prontamente chiede se può ricevere una foto del risultato."@it ;
+    dct:created "2023-07-13" ;
     dct:creator vocang:filasetaAngelo .
