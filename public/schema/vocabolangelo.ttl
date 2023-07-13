@@ -6376,3 +6376,12 @@ vocang:ricazzo
     skos:example "Dato che non mi hai portato al Brico, adesso non te lo do per una settimana. Beccati sto ricazzo!"@it ;
     dct:created "2023-07-08" ;
     dct:creator vocang:omiccioliRiccardo, vocang:pertosaLorenzo .
+
+vocang:gatturbine
+    a vocang:Parolangelo ;
+    skos:prefLabel "Gatturbine"@it ;
+    lexinfo:pronunciation "/gat • tùr • bi • ne/"@it ;
+    skos:definition "Un fenomeno che si manifesta quando due o più gatti si ingaggiano in una lotta aggressiva, dando origine a una palla di pelo rotante e semovente. Il gatturbine rappresenta un evento caratterizzato dalla collisione di felini energici, che afferrano e si avvolgono reciprocamente in un fitto groviglio di peli e artigli. Durante questa contesa, i gatti possono ruotare su se stessi, spostandosi in modo convulso e confuso, creando una forma compatta e dinamica di pelo intrecciato. Questo fenomeno, spesso accompagnato da strilli e sibili, è tipicamente un'espressione di rivalità territoriale o di dominanza tra i felini coinvolti. Il gatturbine inoltre, rappresenta un momento di tensione e animazione nel mondo felino, offrendo uno spettacolo curioso e intrinsecamente affascinante per gli osservatori esterni."@it ;
+    skos:example "Ieri nel mio vicinato durante la notte si è verificato un gatturbine che ha svegliato tutti quanti. L'unica cosa che abbiamo trovato sono state peli ovunque alla rinfusa."@it ;
+    dct:created "2023-07-05" ;
+    dct:creator vocang:pertosaLorenzo .
