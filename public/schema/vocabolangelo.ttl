@@ -6331,3 +6331,11 @@ vocang:brebolanza
     dct:created "2023-07-09" ;
     dct:creator vocang:suscaMatteo .
    
+vocang:ginocchino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ginocchino"@it ;
+    lexinfo:pronunciation "/gi • noc • chì • no/"@it ;
+    skos:definition "Fare g., farsi g., riferita a due persone sedute allo stesso tavolo, o sedute vicine, che intenzionalmente e di nascosto si toccano il ginocchio, come forma di approccio amoroso o segno d'intesa."@it ;
+    skos:example "Ieri mentre eravamo all'aperitivo, Lucia mi ha fatto ginocchino sotto il tavolo e per un attimo sono rimasto confuso, ma poi ho afferrato il segnale!"@it ;
+    dct:created "2023-07-09" ;
+    dct:creator vocang:pupitaAlberto .
