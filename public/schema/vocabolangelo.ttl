@@ -6367,4 +6367,12 @@ vocang:ombrellopoli
     skos:example "Sotto un sole cocente, un ombrellopoli all'aperto si stagliava sulla spiaggia, formando un vero e proprio arcobaleno di colori. Era stato creato da un gruppo di persone coalizzate che avevano deciso di condividere il proprio spazio e proteggersi dal caldo estivo."@it ;
     dct:created "2023-07-08" ;
     dct:creator vocang:pertosaLorenzo, vocang:filasetaAngelo .
-    
+
+vocang:ricazzo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ricazzo"@it ;
+    lexinfo:pronunciation "/ri • càz • zo/"@it ;
+    skos:definition "Ricatto sessuale proposto e compiuto da un uomo."@it ;
+    skos:example "Dato che non mi hai portato al Brico, adesso non te lo do per una settimana. Beccati sto ricazzo!"@it ;
+    dct:created "2023-07-08" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:pertosaLorenzo .
