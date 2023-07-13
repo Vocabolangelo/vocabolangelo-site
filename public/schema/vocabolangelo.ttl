@@ -6302,3 +6302,12 @@ vocang:geoco
     dct:created "2023-07-09" ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/geoco.jpg", "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/geoco_1.jpg";
     dct:creator vocang:filasetaAngelo .
+
+vocang:debolanza
+    a vocang:Parolangelo ;
+    skos:prefLabel "Debolanza"@it ;
+    lexinfo:pronunciation "/de • bo • làn • za/"@it ;
+    skos:definition "Incapacità di imporre dominanza."@it ;
+    skos:example "Quel piccione non riesce a prevalere su quel gabbiano a causa della sua debolanza."@it ;
+    dct:created "2023-07-09" ;
+    dct:creator vocang:savoGiorgia .
