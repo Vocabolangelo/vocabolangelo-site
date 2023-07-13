@@ -714,8 +714,9 @@ vocang:fetiscista
     a vocang:Parolangelo ;
     skos:prefLabel "Fetiscista"@it ;
     lexinfo:pronunciation "/fe • ti • scì • sta/"@it ;
-    skos:definition "Chi segue la pratica del feticismo verso lo sport dello Sci."@it ;
+    skos:definition "Affetta da fetiscismo."@it ;
     skos:example "Luca è un fervente fetiscista, dedicando gran parte del suo tempo libero a seguire e partecipare a competizioni di sci. La sua passione per questo sport è talmente intensa che colleziona attrezzature da sci, guarda ogni evento sportivo in televisione e si immerge completamente nell'atmosfera dell'inverno e delle montagne."@it ;
+    skos:related vocang:fetiscismo ;
     dct:creator vocang:bragariAlexandru .
 
 vocang:fremitoso
@@ -6244,3 +6245,220 @@ vocang:troccola
     dct:created "2023-07-01" ;
     scot:synonym vocang:trocca ;
     dct:creator vocang:rosatelliAnna .
+
+vocang:mignocca
+    a vocang:Parolangelo ;
+    skos:prefLabel "Mignocca"@it ;
+    lexinfo:pronunciation "/mi • gnòc • ca/"@it ;
+    skos:definition "Prostituta particolarmente attraente."@it ;
+    skos:example "Il detective rimase sorpreso quando, durante l'interrogatorio presso il locale a luci rosse, il testimone descrisse la vittima come una mignocca con lunghi capelli biondi e occhi seducenti."@it ;
+    dct:created "2023-07-13" ;
+    skos:related vocang:spettroia, vocang:operatroia ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
+
+vocang:trapokovermon
+    a vocang:Parolangelo ;
+    skos:prefLabel "Trapokovermon"@it ;
+    skos:definition "Tracover che è anche una pokovermon."@it ;
+    skos:example "Porto sempre la mia Trapokovermon in spalla con me. Anche il mio Charizard EX ha bisogno di prendere aria ogni tanto."@it ;
+    dct:created "2023-07-11" ;
+    skos:related vocang:tracover, vocang:pokovermon ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:paxi
+    a vocang:Parolangelo ;
+    skos:prefLabel "Paxi"@it ;
+    lexinfo:pronunciation "/pà • xi/"@it ;
+    skos:definition "Taxi guidato da una persona pazza o comunque mentalmente instabile."@it ;
+    skos:example "Mentre stavo camminando lungo la strada, ho notato un paxi, che zigzagava per le vie della città a velocità folle, lasciando tutti i pedoni spaventati e preoccupati per la propria sicurezza."@it ;
+    dct:created "2023-07-11" ;
+    dct:creator vocang:scattoniAlessandra .
+
+vocang:paxista
+    a vocang:Parolangelo ;
+    skos:prefLabel "Paxista"@it ;
+    lexinfo:pronunciation "/pa • xì • sta/"@it ;
+    skos:definition "Persona mentalmente instabile che guida un taxi."@it ;
+    skos:example "Durante il tragitto in taxi, mi sono trovato improvvisamente a bordo di un veicolo guidato da un paxista, che parlava da sola, faceva strane smorfie e non sembrava avere piena consapevolezza di ciò che stava facendo."@it ;
+    dct:created "2023-07-11" ;
+    skos:related vocang:paxi ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:oricagami
+    a vocang:Parolangelo ;
+    skos:prefLabel "Oricagami"@it ;
+    lexinfo:pronunciation "/o • ri • cà • ga • mi/"@it ;
+    skos:definition "Origami, o in senso più generale, qualsiasi oggetto artigianale realizzato manualmente, regalato con l'intento di suscitare l'attenzione e l'interesse di qualcuno."@it ;
+    skos:example "Nella speranza di attirare le attenzioni di Angelo, ho passato ore a piegare un intricato oricagami di una rosa rossa. Mi sono impegnato a creare ognuno dei petali, con la speranza che il mio sforzo catturasse il suo interesse."@it ;
+    dct:created "2023-07-10" ;
+    skos:related vocang:origasmo, vocang:fiorigami, vocang:bouquerigami ;
+    dct:creator vocang:timpanoSam .
+
+vocang:geoco
+    a vocang:Parolangelo ;
+    skos:prefLabel "Geoco"@it ;
+    lexinfo:pronunciation "/ge • ò • co/"@it ;
+    skos:definition "Un gioco che coinvolge i partecipanti nella cattura di un esemplare di geco utilizzando la fotocamera come strumento di acquisizione. L'obiettivo primario di questo gioco è riuscire a immortalare l'immagine del geco prima che esso riesca a sfuggire dalla vista o a nascondersi. La sfida richiede agli attori coinvolti di dimostrare abilità, rapidità e destrezza nell'utilizzo della fotocamera per catturare un'istantanea nitida del geco in movimento. Tale gioco combina elementi di divertimento, competizione e caccia visuale, stimolando la capacità di osservazione e la reattività dei partecipanti."@it ;
+    skos:example "È da più di due anni che gioco al geoco, e ora che sta per iniziare l'estate non posso permettermi di farmi battere da quei luridi rettili e fermare la mia streak di 8 foto."@it ;
+    dct:created "2023-07-09" ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/geoco.jpg", "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/geoco_1.jpg";
+    dct:creator vocang:filasetaAngelo .
+
+vocang:debolanza
+    a vocang:Parolangelo ;
+    skos:prefLabel "Debolanza"@it ;
+    lexinfo:pronunciation "/de • bo • làn • za/"@it ;
+    skos:definition "Incapacità di imporre dominanza."@it ;
+    skos:example "Quel piccione non riesce a prevalere su quel gabbiano a causa della sua debolanza."@it ;
+    dct:created "2023-07-09" ;
+    dct:creator vocang:savoGiorgia .
+
+vocang:brebolanza
+    a vocang:Parolangelo ;
+    skos:prefLabel "Brebolanza"@it ;
+    lexinfo:pronunciation "/bre • bo • làn • za/"@it ;
+    skos:definition "Incapacità di un bregge di Aìanimali di coallizzarsi al fine di imporre dominanza su un'altra specie."@it ;
+    skos:example "Se solo quei piccioni si coalizzassero riuscirebbero a sbranare quel gabbiano che li sta spaventando. La loro brebolanza non li farà mai prevalere."@it ;
+    dct:created "2023-07-09" ;
+    skos:related vocang:debolanza ;
+    dct:creator vocang:filasetaAngelo .
+
+ vocang:debolenza
+    a vocang:Parolangelo ;
+    skos:prefLabel "Debolenza"@it ;
+    lexinfo:pronunciation "/de • bo • lèn • za/"@it ;
+    skos:definition "Lenza non in grado di sostenere la forza di un pesce."@it ;
+    skos:example "Invece che comprare quelle debolenze dai cinesi dovresti comprare un kit professionale nel negozio specializzato. Con quegli aggeggi non prenderai neanche un girino!"@it ;
+    dct:created "2023-07-09" ;
+    dct:creator vocang:suscaMatteo .
+   
+vocang:ginocchino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ginocchino"@it ;
+    lexinfo:pronunciation "/gi • noc • chì • no/"@it ;
+    skos:definition "Fare g., farsi g., riferita a due persone sedute allo stesso tavolo, o sedute vicine, che intenzionalmente e di nascosto si toccano il ginocchio, come forma di approccio amoroso o segno d'intesa."@it ;
+    skos:example "Ieri mentre eravamo all'aperitivo, Lucia mi ha fatto ginocchino sotto il tavolo e per un attimo sono rimasto confuso, ma poi ho afferrato il segnale!"@it ;
+    dct:created "2023-07-09" ;
+    dct:creator vocang:pupitaAlberto .
+
+vocang:muccado
+    a vocang:Parolangelo ;
+    skos:prefLabel "Muccado"@it ;
+    lexinfo:pronunciation "/muc • cà • do/"@it ;
+    skos:definition "Tornado, che coinvolge le bovine presenti nell'area circostante, proiettandole nell'aria e causando il loro sollevamento da terra."@it ;
+    skos:example "L'allerta meteo è presto diventata emergenza nazionale quando quel muccado ha cominciato ad approcciare la costa. Avremo probabilmente meno carne di bovino disponibile nelle macellerie locali, questo è certo!"@it ;
+    skos:related vocang:uragago ;
+    dct:created "2023-07-08" ;
+    dct:creator vocang:pupitaAlberto .
+
+vocang:cazzedia
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cazzedia"@it ;
+    lexinfo:pronunciation "/caz • zè • dia/"@it ;
+    skos:definition "Sedia di forma fallica."@it ;
+    skos:example "Quando Alberto si è seduto su quella cazzedia tutti hanno cominciato a ridere, lasciandolo interdetto e confuso."@it ;
+    dct:created "2023-07-08" ;
+    dct:creator vocang:pupitaAlberto .
+
+vocang:ombrellopoli
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ombrellopoli"@it ;
+    lexinfo:pronunciation "/om • brel • lò • po • li/"@it ;
+    skos:definition "Grande raggruppamento di ombrelloni all'aperto, creato da un gruppo di persone coalizzate."@it ;
+    skos:example "Sotto un sole cocente, un ombrellopoli all'aperto si stagliava sulla spiaggia, formando un vero e proprio arcobaleno di colori. Era stato creato da un gruppo di persone coalizzate che avevano deciso di condividere il proprio spazio e proteggersi dal caldo estivo."@it ;
+    dct:created "2023-07-08" ;
+    dct:creator vocang:pertosaLorenzo, vocang:filasetaAngelo .
+
+vocang:ricazzo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ricazzo"@it ;
+    lexinfo:pronunciation "/ri • càz • zo/"@it ;
+    skos:definition "Ricatto sessuale proposto e compiuto da un uomo."@it ;
+    skos:example "Dato che non mi hai portato al Brico, adesso non te lo do per una settimana. Beccati sto ricazzo!"@it ;
+    dct:created "2023-07-08" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:pertosaLorenzo .
+
+vocang:gatturbine
+    a vocang:Parolangelo ;
+    skos:prefLabel "Gatturbine"@it ;
+    lexinfo:pronunciation "/gat • tùr • bi • ne/"@it ;
+    skos:definition "Un fenomeno che si manifesta quando due o più gatti si ingaggiano in una lotta aggressiva, dando origine a una palla di pelo rotante e semovente. Il gatturbine rappresenta un evento caratterizzato dalla collisione di felini energici, che afferrano e si avvolgono reciprocamente in un fitto groviglio di peli e artigli. Durante questa contesa, i gatti possono ruotare su se stessi, spostandosi in modo convulso e confuso, creando una forma compatta e dinamica di pelo intrecciato. Questo fenomeno, spesso accompagnato da strilli e sibili, è tipicamente un'espressione di rivalità territoriale o di dominanza tra i felini coinvolti. Il gatturbine inoltre, rappresenta un momento di tensione e animazione nel mondo felino, offrendo uno spettacolo curioso e intrinsecamente affascinante per gli osservatori esterni."@it ;
+    skos:example "Ieri nel mio vicinato durante la notte si è verificato un gatturbine che ha svegliato tutti quanti. L'unica cosa che abbiamo trovato sono state peli ovunque alla rinfusa."@it ;
+    dct:created "2023-07-05" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:collazionare
+    a vocang:Parolangelo ;
+    skos:prefLabel "Collazionare"@it ;
+    lexinfo:pronunciation "/col • la • zio • nà • re/"@it ;
+    skos:definition "Andare in un bar a fare colazione con uno o più amici."@it ;
+    skos:example "Ogni domenica esco a collazionare con Alessandra e Marco. Non riusciamo a fare a meno dello zabuccino!"@it ;
+    skos:related vocang:zabuccino, vocang:colanzo, vocang:cipollatte, vocang:incolazione, vocang:kebabbolazione, vocang:pompinazione ;
+    dct:created "2023-07-06" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:collanzionare
+    a vocang:Parolangelo ;
+    skos:prefLabel "Collanzionare"@it ;
+    lexinfo:pronunciation "/col • lan • zio • nà • re/"@it ;
+    skos:definition "Ritrovarsi con uno o più amici a fare un colanzo."@it ;
+    skos:example "Io e Sofia ci siamo svegliati alle undici di mattina e abbiamo deciso di collanzionare insieme nel mio appartamente appassionatamente!"@it ;
+    skos:related vocang:zabuccino, vocang:colanzo, vocang:cipollatte, vocang:incolazione, vocang:kebabbolazione, vocang:pompinazione, vocang:collazionare;
+    dct:created "2023-07-13" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:necrozoofilia
+    a vocang:Parolangelo ;
+    skos:prefLabel "Necrozoofilia"@it ;
+    lexinfo:pronunciation "/ne • cro • ẓo • o • fi • lì • a/"@it ;
+    skos:definition "Perversione sessuale (parafilia) caratterizzata dall'esperienza di eccitazione sessuale in seguito all'osservazione di uno o più animali deceduti."@it ;
+    skos:example "Spero questo non sia un caso di necrozoofilia, ma ho goduto tantissimo quando quel cane di merda è morto accoltellato. Ho sentito la libido percorrere ogni centimetro del mio corpo."@it ;
+    dct:created "2023-07-13" ;
+    dct:creator vocang:rosatelliAnna, vocang:durazziMarco .
+
+vocang:fetiscismo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Fetiscismo"@it ;
+    lexinfo:pronunciation "/fe • ti • scì • ṣmo/"@it ;
+    skos:definition "Perversione sessuale caratterizzata dall'esperienza di eccitazione sessuale verso lo sport dello Sci."@it ;
+    skos:example "Luca potrebbe essere affetto da fetiscimo, dato che dedica gran parte del suo tempo libero a seguire e partecipare a competizioni di sci. La sua passione per questo sport è talmente intensa che colleziona attrezzature da sci, guarda ogni evento sportivo in televisione e si immerge completamente nell'atmosfera dell'inverno e delle montagne."@it ;
+    dct:created "2023-07-13" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:fecicismo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Fecicismo"@it ;
+    lexinfo:pronunciation "/fe • ci • cì • ṣmo/"@it ;
+    skos:definition "Perversione sessuale caratterizzata dall'esperienza di eccitazione sessuale in seguito all'osservazione di feci o escrementi."@it ;
+    skos:example "Gli amici di John scherzano sempre sul fatto che potrebbe essere affetto da fecicismo, dato che ogni volta che la sua migliore amica fa i suoi bisogni, lui prontamente chiede se può ricevere una foto del risultato."@it ;
+    dct:created "2023-07-13" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:fecicista
+    a vocang:Parolangelo ;
+    skos:prefLabel "Fecicista"@it ;
+    lexinfo:pronunciation "/fe • ci • cì • sta/"@it ;
+    skos:definition "Affetto da fecicismo."@it ;
+    skos:example "Gli amici di John scherzano sempre sul fatto che potrebbe essere fecicista, dato che ogni volta che la sua migliore amica fa i suoi bisogni, lui prontamente chiede se può ricevere una foto del risultato."@it ;
+    skos:related vocang:fecicismo;
+    dct:created "2023-07-13" ;
+    dct:creator vocang:ribaudoSofia .
+
+vocang:feticlismo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Feticlismo"@it ;
+    lexinfo:pronunciation "/fe • ti • clì • ṣmo/"@it ;
+    skos:definition "Perversione sessuale caratterizzata dall'esperienza di eccitazione sessuale verso il ciclismo."@it ;
+    skos:example "Lo vedi quel coglione che sta in mezzo alla strada con la bici? Mi sento estremamente libidinosa in questo momento, non hai idea di quanto me lo farei. Pensi che io sia affetta da feticlismo?"@it ;
+    dct:created "2023-07-13" ;
+    dct:creator vocang:fanaraGiuliano .
+
+vocang:feticlista
+    a vocang:Parolangelo ;
+    skos:prefLabel "Feticlista"@it ;
+    lexinfo:pronunciation "/fe • ti • clì • sta/"@it ;
+    skos:definition "Affetto da feciclismo."@it ;
+    skos:example "Lo vedi quel coglione che sta in mezzo alla strada con la bici? Mi sento estremamente libidinosa in questo momento, non hai idea di quanto me lo farei. Pensi che io sia feticlista?"@it ;
+    skos:related vocang:feticlismo;
+    dct:created "2023-07-13" ;
+    dct:creator vocang:filasetaAngelo .
