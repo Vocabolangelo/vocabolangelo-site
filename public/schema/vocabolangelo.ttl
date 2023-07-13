@@ -6436,7 +6436,7 @@ vocang:fecicismo
 
 vocang:fecicista
     a vocang:Parolangelo ;
-    skos:prefLabel "Fecicismo"@it ;
+    skos:prefLabel "Fecicista"@it ;
     lexinfo:pronunciation "/fe • ci • cì • sta/"@it ;
     skos:definition "Affetto da fecicismo."@it ;
     skos:example "Gli amici di John scherzano sempre sul fatto che potrebbe essere fecicista, dato che ogni volta che la sua migliore amica fa i suoi bisogni, lui prontamente chiede se può ricevere una foto del risultato."@it ;
@@ -6447,8 +6447,18 @@ vocang:fecicista
 vocang:feticlismo
     a vocang:Parolangelo ;
     skos:prefLabel "Feticlismo"@it ;
-    lexinfo:pronunciation "/fe • ci • clì • ṣmo/"@it ;
+    lexinfo:pronunciation "/fe • ti • clì • ṣmo/"@it ;
     skos:definition "Perversione sessuale caratterizzata dall'esperienza di eccitazione sessuale verso il ciclismo."@it ;
-    skos:example "Lo vedi quel coglione che sta in mezzo alla strada con la bici? Mi sento estremamente libidinosa in questo momento, non hai idea di quanto me lo farei. Pensi che io sia affetta da feticiclismo?"@it ;
+    skos:example "Lo vedi quel coglione che sta in mezzo alla strada con la bici? Mi sento estremamente libidinosa in questo momento, non hai idea di quanto me lo farei. Pensi che io sia affetta da feticlismo?"@it ;
     dct:created "2023-07-13" ;
     dct:creator vocang:fanaraGiuliano .
+
+vocang:feticlista
+    a vocang:Parolangelo ;
+    skos:prefLabel "Feticlista"@it ;
+    lexinfo:pronunciation "/fe • ti • clì • sta/"@it ;
+    skos:definition "Affetto da feciclismo."@it ;
+    skos:example "Lo vedi quel coglione che sta in mezzo alla strada con la bici? Mi sento estremamente libidinosa in questo momento, non hai idea di quanto me lo farei. Pensi che io sia feticlista?"@it ;
+    skos:related vocang:feticlismo;
+    dct:created "2023-07-13" ;
+    dct:creator vocang:filasetaAngelo .
