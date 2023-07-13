@@ -6358,3 +6358,13 @@ vocang:cazzedia
     skos:example "Quando Alberto si è seduto su quella cazzedia tutti hanno cominciato a ridere, lasciandolo interdetto e confuso."@it ;
     dct:created "2023-07-08" ;
     dct:creator vocang:pupitaAlberto .
+
+vocang:ombrellopoli
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ombrellopoli"@it ;
+    lexinfo:pronunciation "/om • brel • lò • po • li/"@it ;
+    skos:definition "Grande raggruppamento di ombrelloni all'aperto, creato da un gruppo di persone coalizzate."@it ;
+    skos:example "Sotto un sole cocente, un ombrellopoli all'aperto si stagliava sulla spiaggia, formando un vero e proprio arcobaleno di colori. Era stato creato da un gruppo di persone coalizzate che avevano deciso di condividere il proprio spazio e proteggersi dal caldo estivo."@it ;
+    dct:created "2023-07-08" ;
+    dct:creator vocang:pertosaLorenzo, vocang:filasetaAngelo .
+    
