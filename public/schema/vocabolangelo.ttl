@@ -6282,4 +6282,13 @@ vocang:paxista
     dct:created "2023-07-11" ;
     skos:related vocang:paxi ;
     dct:creator vocang:pertosaLorenzo .
-    
+
+vocang:oricagami
+    a vocang:Parolangelo ;
+    skos:prefLabel "Oricagami"@it ;
+    lexinfo:pronunciation "/o • ri • cà • ga • mi/"@it ;
+    skos:definition "Origami, o in senso più generale, qualsiasi oggetto artigianale realizzato manualmente, regalato con l'intento di suscitare l'attenzione e l'interesse di qualcuno."@it ;
+    skos:example "Nella speranza di attirare le attenzioni di Angelo, ho passato ore a piegare un intricato oricagami di una rosa rossa. Mi sono impegnato a creare ognuno dei petali, con la speranza che il mio sforzo catturasse il suo interesse."@it ;
+    dct:created "2023-07-10" ;
+    skos:related vocang:origasmo, vocang:fiorigami, vocang:bouquerigami ;
+    dct:creator vocang:timpanoSam .
