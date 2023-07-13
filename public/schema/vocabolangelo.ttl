@@ -6255,7 +6255,6 @@ vocang:mignocca
     skos:related vocang:spettroia, vocang:operatroia ;
     dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
 
-
 vocang:trapokovermon
     a vocang:Parolangelo ;
     skos:prefLabel "Trapokovermon"@it ;
@@ -6264,3 +6263,12 @@ vocang:trapokovermon
     dct:created "2023-07-11" ;
     skos:related vocang:tracover, vocang:pokovermon ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:paxi
+    a vocang:Parolangelo ;
+    skos:prefLabel "Paxi"@it ;
+    lexinfo:pronunciation "/pà • xi/"@it ;
+    skos:definition "Taxi guidato da una persona pazza o comunque mentalmente instabile."@it ;
+    skos:example "Mentre stavo camminando lungo la strada, ho notato un paxi, che zigzagava per le vie della città a velocità folle, lasciando tutti i pedoni spaventati e preoccupati per la propria sicurezza."@it ;
+    dct:created "2023-07-11" ;
+    dct:creator vocang:scattoniAlessandra .
