@@ -6311,3 +6311,14 @@ vocang:debolanza
     skos:example "Quel piccione non riesce a prevalere su quel gabbiano a causa della sua debolanza."@it ;
     dct:created "2023-07-09" ;
     dct:creator vocang:savoGiorgia .
+
+vocang:brebolanza
+    a vocang:Parolangelo ;
+    skos:prefLabel "Brebolanza"@it ;
+    lexinfo:pronunciation "/bre • bo • làn • za/"@it ;
+    skos:definition "Incapacità di un bregge di Aìanimali di coallizzarsi al fine di imporre dominanza su un'altra specie."@it ;
+    skos:example "Se solo quei piccioni si coalizzassero riuscirebbero a sbranare quel gabbiano che li sta spaventando. La loro brebolanza non li farà mai prevalere."@it ;
+    dct:created "2023-07-09" ;
+    skos:related vocang:debolanza ;
+    dct:creator vocang:filasetaAngelo .
+    
