@@ -6416,9 +6416,9 @@ vocang:necrozoofilia
     dct:created "2023-07-13" ;
     dct:creator vocang:rosatelliAnna, vocang:durazziMarco .
 
-vocang:fetiscimo
+vocang:fetiscismo
     a vocang:Parolangelo ;
-    skos:prefLabel "Fetiscimo"@it ;
+    skos:prefLabel "Fetiscismo"@it ;
     lexinfo:pronunciation "/fe • ti • scì • ṣmo/"@it ;
     skos:definition "Perversione sessuale caratterizzata dall'esperienza di eccitazione sessuale verso lo sport dello Sci."@it ;
     skos:example "Luca potrebbe essere affetto da fetiscimo, dato che dedica gran parte del suo tempo libero a seguire e partecipare a competizioni di sci. La sua passione per questo sport è talmente intensa che colleziona attrezzature da sci, guarda ogni evento sportivo in televisione e si immerge completamente nell'atmosfera dell'inverno e delle montagne."@it ;
@@ -6433,3 +6433,13 @@ vocang:fecicismo
     skos:example "Gli amici di John scherzano sempre sul fatto che potrebbe essere affetto da fecicismo, dato che ogni volta che la sua migliore amica fa i suoi bisogni, lui prontamente chiede se può ricevere una foto del risultato."@it ;
     dct:created "2023-07-13" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:fecicista
+    a vocang:Parolangelo ;
+    skos:prefLabel "Fecicismo"@it ;
+    lexinfo:pronunciation "/fe • ci • cì • sta/"@it ;
+    skos:definition "Affetto da fecicismo."@it ;
+    skos:example "Gli amici di John scherzano sempre sul fatto che potrebbe essere fecicista, dato che ogni volta che la sua migliore amica fa i suoi bisogni, lui prontamente chiede se può ricevere una foto del risultato."@it ;
+    skos:related vocang:fecicismo;
+    dct:created "2023-07-13" ;
+    dct:creator vocang:ribaudoSofia .
