@@ -6292,3 +6292,13 @@ vocang:oricagami
     dct:created "2023-07-10" ;
     skos:related vocang:origasmo, vocang:fiorigami, vocang:bouquerigami ;
     dct:creator vocang:timpanoSam .
+
+vocang:geoco
+    a vocang:Parolangelo ;
+    skos:prefLabel "Geoco"@it ;
+    lexinfo:pronunciation "/ge • ò • co/"@it ;
+    skos:definition "Un gioco che coinvolge i partecipanti nella cattura di un esemplare di geco utilizzando la fotocamera come strumento di acquisizione. L'obiettivo primario di questo gioco è riuscire a immortalare l'immagine del geco prima che esso riesca a sfuggire dalla vista o a nascondersi. La sfida richiede agli attori coinvolti di dimostrare abilità, rapidità e destrezza nell'utilizzo della fotocamera per catturare un'istantanea nitida del geco in movimento. Tale gioco combina elementi di divertimento, competizione e caccia visuale, stimolando la capacità di osservazione e la reattività dei partecipanti."@it ;
+    skos:example "È da più di due anni che gioco al geoco, e ora che sta per iniziare l'estate non posso permettermi di farmi battere da quei luridi rettili e fermare la mia streak di 8 foto."@it ;
+    dct:created "2023-07-09" ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/geoco.jpg", "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/geoco_1.jpg";
+    dct:creator vocang:filasetaAngelo .
