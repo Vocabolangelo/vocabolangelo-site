@@ -6254,3 +6254,13 @@ vocang:mignocca
     dct:created "2023-07-13" ;
     skos:related vocang:spettroia, vocang:operatroia ;
     dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
+
+
+vocang:trapokovermon
+    a vocang:Parolangelo ;
+    skos:prefLabel "Trapokovermon"@it ;
+    skos:definition "Tracover che è anche una pokovermon."@it ;
+    skos:example "Porto sempre la mia Trapokovermon in spalla con me. Anche il mio Charizard EX ha bisogno di prendere aria ogni tanto."@it ;
+    dct:created "2023-07-11" ;
+    skos:related vocang:tracover, vocang:pokovermon ;
+    dct:creator vocang:filasetaAngelo .
