@@ -6414,3 +6414,11 @@ vocang:necrozoofilia
     skos:example "Spero questo non sia un caso di necrozoofilia, ma ho goduto tantissimo quando quel cane di merda è morto accoltellato. Ho sentito la libido percorrere ogni centimetro del mio corpo."@it ;
     dct:created "2023-07-13" ;
     dct:creator vocang:rosatelliAnna, vocang:durazziMarco .
+
+vocang:fetiscimo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Fetiscimo"@it ;
+    lexinfo:pronunciation "/fe • ti • scì • ṣmo/"@it ;
+    skos:definition "Perversione sessuale caratterizzata dall'esperienza di eccitazione sessuale verso lo sport dello Sci."@it ;
+    skos:example "Luca potrebbe essere affetto da fetiscimo, dato che dedica gran parte del suo tempo libero a seguire e partecipare a competizioni di sci. La sua passione per questo sport è talmente intensa che colleziona attrezzature da sci, guarda ogni evento sportivo in televisione e si immerge completamente nell'atmosfera dell'inverno e delle montagne."@it ;
+    dct:creator vocang:filasetaAngelo .
