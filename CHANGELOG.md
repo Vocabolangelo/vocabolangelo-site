@@ -1,5 +1,34 @@
 # Changelog
 
+## [6.7.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v6.6.0...v6.7.0) (2023-07-13)
+
+
+### Features
+
+* **parolangelo:** brebolanza ([48ca994](https://github.com/Vocabolangelo/vocabolangelo-site/commit/48ca9941f9538d90680290c43a3ee6cc6e31e570))
+* **parolangelo:** cazzedia ([a3422f8](https://github.com/Vocabolangelo/vocabolangelo-site/commit/a3422f85011f8412c5486d9dff63925df86eefce))
+* **parolangelo:** collanzionare ([cf8ad76](https://github.com/Vocabolangelo/vocabolangelo-site/commit/cf8ad76bfdfb7e408b3c2cb877668870ad2bd638))
+* **parolangelo:** collazionare ([0c8496d](https://github.com/Vocabolangelo/vocabolangelo-site/commit/0c8496d85ab428636a8188c42e96f5ad94cab26c))
+* **parolangelo:** debolanza ([5925ac9](https://github.com/Vocabolangelo/vocabolangelo-site/commit/5925ac9cbc87c08406660bdb0accaf3fa9afa70b))
+* **parolangelo:** debolenza ([64cd350](https://github.com/Vocabolangelo/vocabolangelo-site/commit/64cd350ef68daee350be5f8d0e73fe80b3cc1ecb))
+* **parolangelo:** fecicismo ([6bf791a](https://github.com/Vocabolangelo/vocabolangelo-site/commit/6bf791a952447dbde49ac989c8c586830d5d7438))
+* **parolangelo:** fecicista ([2e3f95e](https://github.com/Vocabolangelo/vocabolangelo-site/commit/2e3f95ef2fb9fba07d2d214822b408cfad0f62c3))
+* **parolangelo:** feticlismo ([bc0611e](https://github.com/Vocabolangelo/vocabolangelo-site/commit/bc0611e401d52b3b602e083a5b47a95905841438))
+* **parolangelo:** feticlista ([6e7b252](https://github.com/Vocabolangelo/vocabolangelo-site/commit/6e7b252ef618d44687e09477228190bc3923cacd))
+* **parolangelo:** fetiscismo ([ca9ccb8](https://github.com/Vocabolangelo/vocabolangelo-site/commit/ca9ccb8e5bc12d9751f9bf860529948dfe1b367e))
+* **parolangelo:** gatturbine ([2833182](https://github.com/Vocabolangelo/vocabolangelo-site/commit/2833182d1193da3a7146ba1c2819293a75e0f6f8))
+* **parolangelo:** geoco ([67347d7](https://github.com/Vocabolangelo/vocabolangelo-site/commit/67347d770b5405c0cf55bd7ace63dc31e68ee12e))
+* **parolangelo:** ginocchino ([9bd088e](https://github.com/Vocabolangelo/vocabolangelo-site/commit/9bd088e624a0ddb374cba5181dc8412c1f8b4972))
+* **parolangelo:** mignocca ([90a640c](https://github.com/Vocabolangelo/vocabolangelo-site/commit/90a640c891cb8c90e5ab8cd9db66c0f0c18958be))
+* **parolangelo:** muccado ([758b672](https://github.com/Vocabolangelo/vocabolangelo-site/commit/758b67294be9b6302c8b305f5b48fd56f00b263b))
+* **parolangelo:** necrozoofilia ([1688eb9](https://github.com/Vocabolangelo/vocabolangelo-site/commit/1688eb9fab260bfb93f5a8f5cc84cd493579a4c2))
+* **parolangelo:** obrellopoli ([71233b0](https://github.com/Vocabolangelo/vocabolangelo-site/commit/71233b0ce2055deb4cbdc0da3e68babc87ba4357))
+* **parolangelo:** oricagami ([489f296](https://github.com/Vocabolangelo/vocabolangelo-site/commit/489f29629352d2e81eb65725b9f3a288b66f412b))
+* **parolangelo:** paxi ([b53212b](https://github.com/Vocabolangelo/vocabolangelo-site/commit/b53212b0a9b6087fa2246bea0468a5846450c785))
+* **parolangelo:** paxista ([7ece431](https://github.com/Vocabolangelo/vocabolangelo-site/commit/7ece431a077d95d7c68cac31ff87b96c44b12ceb))
+* **parolangelo:** ricazzo ([a049f3e](https://github.com/Vocabolangelo/vocabolangelo-site/commit/a049f3ed29bc3cd2087fc5860c47afc9836e7a1a))
+* **parolangelo:** trapokovermon ([71f94b8](https://github.com/Vocabolangelo/vocabolangelo-site/commit/71f94b8c4b7537bae458067cd1cddea222593c01))
+
 ## [6.6.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v6.5.0...v6.6.0) (2023-07-02)
 
 
