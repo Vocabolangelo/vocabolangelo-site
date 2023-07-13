@@ -6386,7 +6386,6 @@ vocang:gatturbine
     dct:created "2023-07-05" ;
     dct:creator vocang:pertosaLorenzo .
 
-
 vocang:collazionare
     a vocang:Parolangelo ;
     skos:prefLabel "Collazionare"@it ;
@@ -6395,4 +6394,14 @@ vocang:collazionare
     skos:example "Ogni domenica esco a collazionare con Alessandra e Marco. Non riusciamo a fare a meno dello zabuccino!"@it ;
     skos:related vocang:zabuccino, vocang:colanzo, vocang:cipollatte, vocang:incolazione, vocang:kebabbolazione, vocang:pompinazione ;
     dct:created "2023-07-06" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:collanzionare
+    a vocang:Parolangelo ;
+    skos:prefLabel "Collanzionare"@it ;
+    lexinfo:pronunciation "/col • lan • zio • nà • re/"@it ;
+    skos:definition "Ritrovarsi con uno o più amici a fare un colanzo."@it ;
+    skos:example "Io e Sofia ci siamo svegliati alle undici di mattina e abbiamo deciso di collanzionare insieme nel mio appartamente appassionatamente!"@it ;
+    skos:related vocang:zabuccino, vocang:colanzo, vocang:cipollatte, vocang:incolazione, vocang:kebabbolazione, vocang:pompinazione, vocang:collazionare;
+    dct:created "2023-07-13" ;
     dct:creator vocang:filasetaAngelo .
