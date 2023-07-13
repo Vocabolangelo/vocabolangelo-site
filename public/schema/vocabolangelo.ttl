@@ -6385,3 +6385,14 @@ vocang:gatturbine
     skos:example "Ieri nel mio vicinato durante la notte si è verificato un gatturbine che ha svegliato tutti quanti. L'unica cosa che abbiamo trovato sono state peli ovunque alla rinfusa."@it ;
     dct:created "2023-07-05" ;
     dct:creator vocang:pertosaLorenzo .
+
+
+vocang:collazionare
+    a vocang:Parolangelo ;
+    skos:prefLabel "Collazionare"@it ;
+    lexinfo:pronunciation "/col • la • zio • nà • re/"@it ;
+    skos:definition "Andare in un bar a fare colazione con uno o più amici."@it ;
+    skos:example "Ogni domenica esco a collazionare con Alessandra e Marco. Non riusciamo a fare a meno dello zabuccino!"@it ;
+    skos:related vocang:zabuccino, vocang:colanzo, vocang:cipollatte, vocang:incolazione, vocang:kebabbolazione, vocang:pompinazione ;
+    dct:created "2023-07-06" ;
+    dct:creator vocang:filasetaAngelo .
