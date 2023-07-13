@@ -6443,3 +6443,12 @@ vocang:fecicista
     skos:related vocang:fecicismo;
     dct:created "2023-07-13" ;
     dct:creator vocang:ribaudoSofia .
+
+vocang:feticlismo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Feticlismo"@it ;
+    lexinfo:pronunciation "/fe • ci • clì • ṣmo/"@it ;
+    skos:definition "Perversione sessuale caratterizzata dall'esperienza di eccitazione sessuale verso il ciclismo."@it ;
+    skos:example "Lo vedi quel coglione che sta in mezzo alla strada con la bici? Mi sento estremamente libidinosa in questo momento, non hai idea di quanto me lo farei. Pensi che io sia affetta da feticiclismo?"@it ;
+    dct:created "2023-07-13" ;
+    dct:creator vocang:fanaraGiuliano .
