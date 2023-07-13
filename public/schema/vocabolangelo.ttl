@@ -6349,3 +6349,12 @@ vocang:muccado
     skos:related vocang:uragago ;
     dct:created "2023-07-08" ;
     dct:creator vocang:pupitaAlberto .
+
+vocang:cazzedia
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cazzedia"@it ;
+    lexinfo:pronunciation "/caz • zè • dia/"@it ;
+    skos:definition "Sedia di forma fallica."@it ;
+    skos:example "Quando Alberto si è seduto su quella cazzedia tutti hanno cominciato a ridere, lasciandolo interdetto e confuso."@it ;
+    dct:created "2023-07-08" ;
+    dct:creator vocang:pupitaAlberto .
