@@ -6339,3 +6339,13 @@ vocang:ginocchino
     skos:example "Ieri mentre eravamo all'aperitivo, Lucia mi ha fatto ginocchino sotto il tavolo e per un attimo sono rimasto confuso, ma poi ho afferrato il segnale!"@it ;
     dct:created "2023-07-09" ;
     dct:creator vocang:pupitaAlberto .
+
+vocang:muccado
+    a vocang:Parolangelo ;
+    skos:prefLabel "Muccado"@it ;
+    lexinfo:pronunciation "/muc • cà • do/"@it ;
+    skos:definition "Tornado, che coinvolge le bovine presenti nell'area circostante, proiettandole nell'aria e causando il loro sollevamento da terra."@it ;
+    skos:example "L'allerta meteo è presto diventata emergenza nazionale quando quel muccado ha cominciato ad approcciare la costa. Avremo probabilmente meno carne di bovino disponibile nelle macellerie locali, questo è certo!"@it ;
+    skos:related vocang:uragago ;
+    dct:created "2023-07-08" ;
+    dct:creator vocang:pupitaAlberto .
