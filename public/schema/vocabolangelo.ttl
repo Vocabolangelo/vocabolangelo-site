@@ -6272,3 +6272,14 @@ vocang:paxi
     skos:example "Mentre stavo camminando lungo la strada, ho notato un paxi, che zigzagava per le vie della città a velocità folle, lasciando tutti i pedoni spaventati e preoccupati per la propria sicurezza."@it ;
     dct:created "2023-07-11" ;
     dct:creator vocang:scattoniAlessandra .
+
+vocang:paxista
+    a vocang:Parolangelo ;
+    skos:prefLabel "Paxista"@it ;
+    lexinfo:pronunciation "/pa • xì • sta/"@it ;
+    skos:definition "Persona mentalmente instabile che guida un taxi."@it ;
+    skos:example "Durante il tragitto in taxi, mi sono trovato improvvisamente a bordo di un veicolo guidato da un paxista, che parlava da sola, faceva strane smorfie e non sembrava avere piena consapevolezza di ciò che stava facendo."@it ;
+    dct:created "2023-07-11" ;
+    skos:related vocang:paxi ;
+    dct:creator vocang:pertosaLorenzo .
+    
