@@ -6405,3 +6405,12 @@ vocang:collanzionare
     skos:related vocang:zabuccino, vocang:colanzo, vocang:cipollatte, vocang:incolazione, vocang:kebabbolazione, vocang:pompinazione, vocang:collazionare;
     dct:created "2023-07-13" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:necrozoofilia
+    a vocang:Parolangelo ;
+    skos:prefLabel "Necrozoofilia"@it ;
+    lexinfo:pronunciation "/ne • cro • ẓo • o • fi • lì • a/"@it ;
+    skos:definition "Perversione sessuale (parafilia) caratterizzata dall'esperienza di eccitazione sessuale in seguito all'osservazione di uno o più animali deceduti."@it ;
+    skos:example "Spero questo non sia un caso di necrozoofilia, ma ho goduto tantissimo quando quel cane di merda è morto accoltellato. Ho sentito la libido percorrere ogni centimetro del mio corpo."@it ;
+    dct:created "2023-07-13" ;
+    dct:creator vocang:rosatelliAnna, vocang:durazziMarco .
