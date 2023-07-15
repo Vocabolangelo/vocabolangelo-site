@@ -47,7 +47,7 @@ repos:
     - id: validate-html
 
 -   repo: https://github.com/pre-commit/mirrors-eslint
-    rev: v8.44.0
+    rev: v8.45.0
     hooks:
       -   id: eslint
           files: \.[jt]sx?$  # *.js, *.jsx, *.ts and *.tsx
