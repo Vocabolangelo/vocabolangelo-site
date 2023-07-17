@@ -1,17 +1,17 @@
 import { PayloadAction, configureStore, createSlice} from '@reduxjs/toolkit'
 import { Theme } from '../classes/Theme'
 import { State } from './State'
-import { StoryColor } from '../classes/story/StoryColor'
+import {VocabolangeloTheme} from '../classes/VocabolangeloTheme'
 
 const initialState: State = {
-    theme: new Theme(StoryColor.White)
+    theme: VocabolangeloTheme.WHITE
 }
   
 export const themeSlice = createSlice({
     name: 'theme',
     initialState,
     reducers: {
-        setTheme: (state, action: PayloadAction<Theme>) => {
+        setTheme: (state, action: PayloadAction<VocabolangeloTheme>) => {
             state.theme = action.payload
         }
     }

@@ -2,10 +2,19 @@ import React from 'react'
 import './Sidebar.css'
 import navbarItems from './NavbarItems'
 import { Link } from 'react-router-dom'
+import { FaTimes } from 'react-icons/fa'
 
-const Sidebar = ({ isopen, toggle }) => {
+interface SidebarProps {
+    isOpen: boolean;
+    toggle: () => void;
+}
+
+export function Sidebar(props: SidebarProps) {
+
+    const {isOpen, toggle} = props
+
     const opacityClasses = ['sidebar-container']
-    if (isopen) {
+    if (isOpen) {
         opacityClasses.push('opacity-on')
     } else {
         opacityClasses.push('opacity-off')
@@ -13,7 +22,6 @@ const Sidebar = ({ isopen, toggle }) => {
 
     return <div
         className={opacityClasses.join(' ')}
-        isopen={isopen.toString()}
         onClick={toggle}>
         <div className="icon">
             <FaTimes className="close-icon" onClick={toggle} />
