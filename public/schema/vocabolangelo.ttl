@@ -454,6 +454,14 @@ vocang:ciurnelliLuna
     rel:spouseOf vocang:morettiLeonardo ;
     rel:friendOf vocang:filasetaAngelo, vocang:pertosaLorenzo, vocang:paoliMichele .
 
+vocang:morettiLeonardo
+    a vocang:Vocaboliere ;
+    foaf:firstName "Leonardo" ;
+    foaf:lastName "Moretti" ;
+    foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:filasetaAngelo, vocang:pertosaLorenzo, vocang:paoliMichele .
+
 # Other Author Individuals
 
 vocang:chatGPT
