@@ -6497,3 +6497,11 @@ vocang:sgrower
     skos:example "Ieri ero con Max e mi ha mostrato il suo gingillo. Ero sicura non sarebbe cresciuto di più ma con mi sorpresa si è rivelato uno sgrower!"@it ;
     dct:created "2023-07-14" ;
     dct:creator vocang:nardiniArianna, vocang:pupitaAlberto .
+
+vocang:undercacio
+    a vocang:Parolangelo ;
+    skos:prefLabel "Undercacio"@it ;
+    skos:definition "Drink alcolico costituito da una proporzione pari a 1/3 di malibu, vodka e succo d'ananas."@it ;
+    skos:example "Alla festa, Marco ha bevuto talmente tanti undercacio che è diventato così allegro da iniziare a ballare la macarena con il tavolo!"@it ;
+    dct:created "2023-07-14" ;
+    dct:creator vocang:morettiLeonardo .
