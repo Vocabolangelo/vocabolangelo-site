@@ -6489,3 +6489,11 @@ vocang:gozziode
     dct:created "2023-07-13" ;
     skos:note "Questa è la prima parolangelo inventata da Leonardo e Luna che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
     dct:creator vocang:morettiLeonardo, vocang:ciurnelliLuna .
+
+vocang:sgrower
+    a vocang:Parolangelo ;
+    skos:prefLabel "Sgrower"@it ;
+    skos:definition "Tipologia di pene che a primo impatto sembra classificabile come shower ma che ad un'analisi più attenta si rileva un grower."@it ;
+    skos:example "Ieri ero con Max e mi ha mostrato il suo gingillo. Ero sicura non sarebbe cresciuto di più ma con mi sorpresa si è rivelato uno sgrower!"@it ;
+    dct:created "2023-07-14" ;
+    dct:creator vocang:nardiniArianna, vocang:pupitaAlberto .
