@@ -6479,3 +6479,13 @@ vocang:feticlista
     skos:related vocang:feticlismo;
     dct:created "2023-07-13" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:gozziode
+    a vocang:Parolangelo ;
+    skos:prefLabel "Gozzoide"@it ;
+    lexinfo:pronunciation "/goz • zòi • de/"@it ;
+    skos:definition "Mammifero incline a ingerire quantità anomale di sostanze, sia alimentari che non alimentari."@it ;
+    skos:example "Leonardo aveva fame, l'ho visto mangiare dei sassi per placare la fame... Che gozzoide!"@it ;
+    dct:created "2023-07-13" ;
+    skos:note "Questa è la prima parolangelo inventata da Leonardo e Luna che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
+    dct:creator vocang:morettiLeonardo, vocang:ciurnelliLuna .
