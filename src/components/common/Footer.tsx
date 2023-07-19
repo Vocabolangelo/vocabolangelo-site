@@ -2,14 +2,11 @@ import {Link} from 'react-router-dom'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
 import {faGithub} from '@fortawesome/free-brands-svg-icons'
-import { useSelector } from 'react-redux'
-import { Theme } from '../../classes/Theme'
-import { State } from '../../state/State'
+import {selectorTheme} from '../../state/selectorTheme'
 
 export default function Footer() {
 
-    const theme: Theme = useSelector((state: State) => state.theme)
-    
+    const theme = selectorTheme()
     const iconColor = theme.invert ? 'white' : 'black'
 
     return <footer className={`wrapper style1 align-center ${theme.toModifiers()}`}>

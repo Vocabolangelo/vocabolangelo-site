@@ -1,5 +1,4 @@
 import { PayloadAction, configureStore, createSlice} from '@reduxjs/toolkit'
-import { Theme } from '../classes/Theme'
 import { State } from './State'
 import {VocabolangeloTheme} from '../classes/VocabolangeloTheme'
 

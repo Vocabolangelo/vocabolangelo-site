@@ -12,7 +12,7 @@ interface NavbarProps {
 export function Navbar (props: NavbarProps) {
     return <nav>
         <Link to="/" className="link">
-          Name
+          Vocabolangelo
         </Link>
         <div className="menu-items">
             {navbarItems.map((item, index) => (
@@ -22,7 +22,7 @@ export function Navbar (props: NavbarProps) {
             ))}
         </div>
         <div className="icons">
-            <div>
+            <div className="mobile-menu-icon">
                 <ChangeThemeIcon/>
             </div>
             <div className="mobile-menu-icon">

@@ -1,8 +1,7 @@
-import { useSelector } from 'react-redux'
 import StorySectionProps from '../../props/StorySectionProps'
 import StorySection from './StorySection'
-import { State } from '../../../state/State'
 import { Theme } from '../../../classes/Theme'
+import {selectorTheme} from '../../../state/selectorTheme'
 
 /**
  * Banner element from the Story Layout.
@@ -10,7 +9,7 @@ import { Theme } from '../../../classes/Theme'
  */
 export default function Banner(props: StorySectionProps) {
     
-    const theme: Theme = useSelector((state: State) => state.theme)
+    const theme: Theme = selectorTheme()
 
     console.log(theme.toModifiers())
 

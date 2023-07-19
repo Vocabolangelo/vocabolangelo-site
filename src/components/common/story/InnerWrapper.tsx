@@ -1,11 +1,10 @@
-import { useSelector } from 'react-redux'
 import { Theme } from '../../../classes/Theme'
-import { State } from '../../../state/State'
 import StorySectionProps from '../../props/StorySectionProps'
+import {selectorTheme} from '../../../state/selectorTheme'
 
 export default function InnerWrapper(props: StorySectionProps) {
     
-    const theme: Theme = useSelector((state: State) => state.theme)
+    const theme: Theme = selectorTheme()
 
     const {style, optionalModifiers} = props
     const modifierString = (optionalModifiers !== undefined ? optionalModifiers.join(' ') : '')
