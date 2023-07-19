@@ -6505,3 +6505,11 @@ vocang:undercacio
     skos:example "Alla festa, Marco ha bevuto talmente tanti undercacio che è diventato così allegro da iniziare a ballare la macarena con il tavolo!"@it ;
     dct:created "2023-07-14" ;
     dct:creator vocang:morettiLeonardo .
+
+vocang:battone
+    a vocang:Parolangelo ;
+    skos:prefLabel "Battone"@it ;
+    skos:definition "Un bottone che entra ed esce ripetutamente e molto frequentemente da tante asole."@it, "Una donna di facili costumi con la parlantina, molto brava ad attaccare bottone con chiunque."@it;
+    skos:example "Quel battone balla così tanto sulla mia camicia! Non importa quanto provo a incastrarlo, esce di continuo. Si potrebbe quasi definire sessualmente attivo."@it, "Ieri un battone ha cominciato a parlarmi in discoteca. Si è introdotta in maniera davvero interessante!"@it ;
+    dct:created "2023-07-14" ;
+    dct:creator vocang:orlandoNicola, vocang:bragariAlexandru, vocang:omiccioliRiccardo .
