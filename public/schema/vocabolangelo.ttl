@@ -6523,3 +6523,12 @@ vocang:impicchiare
     skos:example "È risaputo che c'è stato un periodo della nostra storia in cui i fascisti venivano impicchiati con veemenza!"@it ;
     dct:created "2023-07-14" ;
     dct:creator vocang:orlandoNicola, vocang:omiccioliRiccardo .
+
+vocang:gozzonite
+    a vocang:Parolangelo ;
+    skos:prefLabel "Gozzonite"@it ;
+    lexinfo:pronunciation "/goz • zo • nì • te/"@it ;
+    skos:definition "Sensazione di fame costante che affligge i gozzoidi, si differenzia da un normale appetito poichè, se colpiti, si è disposti a mangiare qualunque cosa, non solo cibo in senso stretto."@it;
+    skos:example "L'altra sera Leonardo era particolarmente affetto da gozzonite: dopo un tris di impepata di cozze si è mangiato un pezzo di prua della barca del cozzaro, ha rischiato di finire fuori bordo!"@it ;
+    dct:created "2023-07-15" ;
+    dct:creator vocang:morettiLeonardo, vocang:ciurnelliLuna .
