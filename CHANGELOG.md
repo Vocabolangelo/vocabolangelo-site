@@ -1,5 +1,34 @@
 # Changelog
 
+## [6.8.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v6.7.0...v6.8.0) (2023-07-25)
+
+
+### Features
+
+* **parolangelo:** albaninja ([192c614](https://github.com/Vocabolangelo/vocabolangelo-site/commit/192c6148012cbbccf1e671d6ecce05f5de6931e7))
+* **parolangelo:** avocadoladmin ([66f897c](https://github.com/Vocabolangelo/vocabolangelo-site/commit/66f897c5f9683e072ad487fa78e36f9cb8bbbb98))
+* **parolangelo:** battone ([5a2fa76](https://github.com/Vocabolangelo/vocabolangelo-site/commit/5a2fa76ece47bb1eb435ddd2f3f6c9715ab9badc))
+* **parolangelo:** cagnaro ([e2e4508](https://github.com/Vocabolangelo/vocabolangelo-site/commit/e2e4508733e76f151b55715a0b7c4cca503a0019))
+* **parolangelo:** falà ([2fb56bd](https://github.com/Vocabolangelo/vocabolangelo-site/commit/2fb56bd48e23dc0c8a02aad94e8e386d8d8e2595))
+* **parolangelo:** gattoide ([39ea1a5](https://github.com/Vocabolangelo/vocabolangelo-site/commit/39ea1a5f6450ab6b448e05e046d65a4d2ed2f78e))
+* **parolangelo:** gozzoide ([549990d](https://github.com/Vocabolangelo/vocabolangelo-site/commit/549990d1f6c7fd9544211c505e5c2c00bfe7b08a))
+* **parolangelo:** gozzonite ([a79365a](https://github.com/Vocabolangelo/vocabolangelo-site/commit/a79365a9936714e0b46f5cf596334a26fafd853f))
+* **parolangelo:** impicchiare ([3431363](https://github.com/Vocabolangelo/vocabolangelo-site/commit/343136373b05bdc6a62d1d540dc253b7aae974c3))
+* **parolangelo:** lucretino ([68d1e1d](https://github.com/Vocabolangelo/vocabolangelo-site/commit/68d1e1dc8fcfbd62ff8071f07804749e71d6aa49))
+* **parolangelo:** misfarà ([c83b357](https://github.com/Vocabolangelo/vocabolangelo-site/commit/c83b357348cb7d1122e46ac84d48516304db54bb))
+* **parolangelo:** paschia ([e82f2bb](https://github.com/Vocabolangelo/vocabolangelo-site/commit/e82f2bbd7a1cc0fe9049abac2f80766a9c7252c3))
+* **parolangelo:** paschietta ([ee3f79a](https://github.com/Vocabolangelo/vocabolangelo-site/commit/ee3f79af76247400c2df60fef6220a6fbf0e5ad1))
+* **parolangelo:** sgrower ([557dc83](https://github.com/Vocabolangelo/vocabolangelo-site/commit/557dc83e9df6de2ecda852988e55f51bb413bc64))
+* **parolangelo:** undercacio ([0db0f8d](https://github.com/Vocabolangelo/vocabolangelo-site/commit/0db0f8d206f354b20b654410feed4b2f024a70f3))
+* **vocaboliere:** Alessio Abis ([b18bf53](https://github.com/Vocabolangelo/vocabolangelo-site/commit/b18bf531b9fb86db858a4bd607c7a0133d29173d))
+* **vocaboliere:** Leonardo Moretti ([a5398d2](https://github.com/Vocabolangelo/vocabolangelo-site/commit/a5398d2899b2b6ba09adebb1b696c07fbc4e8131))
+* **vocaboliere:** Luna Ciurnelli ([cfc4bc6](https://github.com/Vocabolangelo/vocabolangelo-site/commit/cfc4bc651aac334f5741df3c76bb8f9661bc73fb))
+
+
+### Bug Fixes
+
+* **parolangelo:** add pronunciation to battone ([b69bb29](https://github.com/Vocabolangelo/vocabolangelo-site/commit/b69bb295a8bb83bf14ce65328a9830897b25def3))
+
 ## [6.7.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v6.6.0...v6.7.0) (2023-07-13)
 
 
