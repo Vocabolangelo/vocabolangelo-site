@@ -6587,3 +6587,13 @@ vocang:gattoide
     skos:note "Questa è la prima parola inventata da Alessio che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
     dct:created "2023-07-15" ;
     dct:creator vocang:abisAlessio .
+
+vocang:cagnaro
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cagnaro"@it ;
+    lexinfo:pronunciation "/ca • gnà • ro/"@it ;
+    skos:definition "Amante dei cani."@it;
+    skos:example "Ginevro è un cagnaro così appassionato che ha creato un vero e proprio paradiso canino nel suo giardino. Ci sono altalene per cagnolini, piscine da bagno per cani e persino una sorta di tapis roulant per cani dove i suoi amici a quattro zampe possono correre senza sosta. Ogni giorno organizza feste a tema per cani, e la sua casa è piena di giocattoli, premi e dolcetti a forma di zampa."@it ;
+    skos:related vocang:gattoide ;
+    dct:created "2023-07-15" ;
+    dct:creator vocang:abisAlessio .
