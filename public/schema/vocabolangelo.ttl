@@ -6531,4 +6531,5 @@ vocang:gozzonite
     skos:definition "Sensazione di fame costante che affligge i gozzoidi, si differenzia da un normale appetito poichè, se colpiti, si è disposti a mangiare qualunque cosa, non solo cibo in senso stretto."@it;
     skos:example "L'altra sera Leonardo era particolarmente affetto da gozzonite: dopo un tris di impepata di cozze si è mangiato un pezzo di prua della barca del cozzaro, ha rischiato di finire fuori bordo!"@it ;
     dct:created "2023-07-15" ;
+    skos:related vocang:gozzoide ;
     dct:creator vocang:morettiLeonardo, vocang:ciurnelliLuna .
