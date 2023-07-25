@@ -6604,3 +6604,11 @@ vocang:avocadoladmin
     skos:example "Il mio amico Mario ricopre la difficile posizione dell'avocadoladmin. Non si tratta di un mestiere semplice, visto che i suoi lavoratori spesso si sono mettono in sciopero perché vogliono guacamole illimitato e giorni di riposo in più nella settimana!"@it ;
     dct:created "2023-07-16" ;
     dct:creator vocang:pertosaLorenzo, vocang:battaglinoNicole .
+
+vocang:falà
+    a vocang:Parolangelo ;
+    skos:prefLabel "Falà"@it ;
+    skos:definition "Falò molto distante."@it;
+    skos:example "No, fa troppo caldo stasera per un falò, facciamo un falà!"@it ;
+    dct:created "2023-07-16" ;
+    dct:creator vocang:omiccioliRiccardo .
