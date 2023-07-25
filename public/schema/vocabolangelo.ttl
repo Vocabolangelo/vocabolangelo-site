@@ -6577,3 +6577,13 @@ vocang:lucretino
     skos:example "Ieri un lucretino non si è fermato allo stop davanti casa di Nicole e per poco non ha causato un incidente mortale."@it ;
     dct:created "2023-07-15" ;
     dct:creator vocang:battaglinoNicole .
+
+vocang:gattoide
+    a vocang:Parolangelo ;
+    skos:prefLabel "Gattoide"@it ;
+    lexinfo:pronunciation "/gat • tòi • de/"@it ;
+    skos:definition "Amante dei gatti, gattaro."@it;
+    skos:example "Nicola è talmente gattoide che ha convertito la sua casa in un vero e proprio regno felino, dove i gatti sono i sovrani e lui, il loro umile servitore. Ha persino un piccolo tempio dedicato all'omnicio!"@it ;
+    skos:note "Questa è la prima parola inventata da Alessio che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
+    dct:created "2023-07-15" ;
+    dct:creator vocang:abisAlessio .
