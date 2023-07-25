@@ -6613,3 +6613,12 @@ vocang:falà
     skos:example "No, fa troppo caldo stasera per un falò, facciamo un falà!"@it ;
     dct:created "2023-07-16" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:paschia
+    a vocang:Parolangelo ;
+    skos:prefLabel "Paschia"@it ;
+    lexinfo:pronunciation "/pà • schia/"@it ;
+    skos:definition "Un periodo di riposo che avviene durante la giornata di Pasqua."@it;
+    skos:example "A Pasqua dopo pranzo sono sempre estremamente stanco, credo proprio che sia il momento di una bella paschia!"@it ;
+    dct:created "2023-07-17" ;
+    dct:creator vocang:timpanoSam .
