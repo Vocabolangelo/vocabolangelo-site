@@ -21,8 +21,8 @@ export function Navbar (props: NavbarProps) {
                 </Link>
             ))}
         </div>
-        <div className="icons">
-            <div className="mobile-menu-icon">
+        <div className="icons-navbar">
+            <div>
                 <ChangeThemeIcon/>
             </div>
             <div className="mobile-menu-icon">

@@ -23,7 +23,7 @@ export function Sidebar(props: SidebarProps) {
     return <div
         className={opacityClasses.join(' ')}
         onClick={toggle}>
-        <div className="icon">
+        <div className="icon-sidebar">
             <FaTimes className="close-icon" onClick={toggle} />
         </div>
         <div className="sidebar-wrapper">

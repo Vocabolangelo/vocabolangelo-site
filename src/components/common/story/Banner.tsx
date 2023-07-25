@@ -11,8 +11,6 @@ export default function Banner(props: StorySectionProps) {
     
     const theme: Theme = selectorTheme()
 
-    console.log(theme.toModifiers())
-
     const {style, optionalModifiers, imageUrl, imageAlt} = props
     const modifiers = optionalModifiers !== undefined ? optionalModifiers : []
     return <StorySection

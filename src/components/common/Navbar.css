@@ -1,10 +1,9 @@
 nav {
-  height: 70px;
+  height: 80px;
   display: flex;
   justify-content: space-between;
   padding: 1rem 2rem;
   z-index: 100;
-  position: fixed;
   width: 100%;
   background: black;
 }
@@ -20,15 +19,12 @@ nav {
 .mobile-menu-icon {
   display: none;
 }
-.icons {
+.icons-navbar {
   display: flex;
   align-items: center;
 }
 .icon-tabler {
   margin-right: 5px;
-}
-.github-icon {
-  color: white;
 }
 .menu-items {
   display: flex;
@@ -51,11 +47,4 @@ nav {
     top: 0;
     right: 0;
   }
-}
-
-.github-corner {
-  position: fixed;
-  top: 0;
-  z-index: 99999;
-  right: 0px;
 }

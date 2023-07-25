@@ -1,7 +1,7 @@
 import {Link} from 'react-router-dom'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
-import {faGithub} from '@fortawesome/free-brands-svg-icons'
+import {faGithub, faInstagram, faPaypal, faJava} from '@fortawesome/free-brands-svg-icons'
 import {selectorTheme} from '../../state/selectorTheme'
 
 export default function Footer() {
@@ -18,8 +18,23 @@ export default function Footer() {
                     </Link>
                 </li>
                 <li>
+                    <Link to={'https://www.instagram.com/vocabolangelo/'}>
+                        <FontAwesomeIcon icon={faInstagram} color={iconColor} size="2xl"/>
+                    </Link>
+                </li>
+                <li>
                     <Link to={'mailto:vocabolangelo@gmail.com'}>
                         <FontAwesomeIcon icon={faEnvelope} color={iconColor} size="2xl"/>
+                    </Link>
+                </li>
+                <li>
+                    <Link to={'https://www.buymeacoffee.com/vocabolangelo'}>
+                        <FontAwesomeIcon icon={faJava} color={iconColor} size="2xl"/>
+                    </Link>
+                </li>
+                <li>
+                    <Link to={'https://www.paypal.me/angelofilaseta'}>
+                        <FontAwesomeIcon icon={faPaypal} color={iconColor} size="2xl"/>
                     </Link>
                 </li>
             </ul>

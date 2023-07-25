@@ -10,8 +10,8 @@ import Disclaimer from './Disclaimer'
  */
 export function Main(props: ChildrenProps) {
     return <>
+        <Header/>
         <div id="wrapper" className="divided">
-            <Header/>
             {props.children}
             <Footer/>
         </div>
