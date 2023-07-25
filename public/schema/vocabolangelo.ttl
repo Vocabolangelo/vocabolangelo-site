@@ -6608,6 +6608,7 @@ vocang:avocadoladmin
 vocang:falà
     a vocang:Parolangelo ;
     skos:prefLabel "Falà"@it ;
+    lexinfo:pronunciation "/fa • là/"@it ;
     skos:definition "Falò molto distante."@it;
     skos:example "No, fa troppo caldo stasera per un falò, facciamo un falà!"@it ;
     dct:created "2023-07-16" ;
