@@ -471,6 +471,14 @@ vocang:scattoniSilvia
     rel:friendOf vocang:pertosaLorenzo ;
     rel:siblingOf vocang:scattoniAlessandra .
 
+vocang:abisAlessio
+    a vocang:Vocaboliere ;
+    foaf:firstName "Alessio" ;
+    foaf:lastName "Abis" ;
+    foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:filasetaAngelo, vocang:pertosaLorenzo, vocang:morettiLeonardo, vocang:ciurnelliLuna, vocang:paoliMichele .
+
 # Other Author Individuals
 
 vocang:chatGPT
