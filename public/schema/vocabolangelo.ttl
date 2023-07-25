@@ -462,6 +462,15 @@ vocang:morettiLeonardo
     org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:filasetaAngelo, vocang:pertosaLorenzo, vocang:paoliMichele .
 
+vocang:scattoniSilvia
+    a vocang:Vocaboliere ;
+    foaf:firstName "Silvia" ;
+    foaf:lastName "Scattoni" ;
+    foaf:gender "female" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:pertosaLorenzo ;
+    rel:siblingOf vocang:scattoniAlessandra .
+
 # Other Author Individuals
 
 vocang:chatGPT
@@ -6534,7 +6543,7 @@ vocang:gozzonite
     skos:related vocang:gozzoide ;
     dct:creator vocang:morettiLeonardo, vocang:ciurnelliLuna .
 
-vocang:misfará
+vocang:misfarà
     a vocang:Parolangelo ;
     skos:prefLabel "Misfarà"@it ;
     lexinfo:pronunciation "/mis • fa • rà/"@it ;
@@ -6542,3 +6551,14 @@ vocang:misfará
     skos:example "La polizia ha arrestato un gruppo di individui perché era ormai stato scoperto il misfarà che sarebbe successo in una banca la settimana successiva."@it ;
     dct:created "2023-07-07" ;
     dct:creator vocang:paoliMichele .
+
+vocang:albaninja
+    a vocang:Parolangelo ;
+    skos:prefLabel "Albaninja"@it ;
+    skos:definition "Ninja di origine albanese."@it;
+    skos:example "Un albaninja si è infiltrato silenziosamente nel palazzo dove abitavo tempo fa ed ha accoltellato senza pietà il suo bersaglio."@it ;
+    dct:created "2023-07-15" ;
+    skos:note "Questa è la prima parola inventata da Silvia che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
+    dct:creator vocang:scattoniSilvia .
+
+
