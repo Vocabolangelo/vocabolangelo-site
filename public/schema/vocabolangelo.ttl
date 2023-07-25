@@ -159,7 +159,7 @@ vocang:orlandoNicola
     foaf:lastName "Orlando" ;
     foaf:nick "Orla" ;
     foaf:gender "male" ;
-    org:memberOf vocang:vocabolieriOrg ;
+    org:memberOf vocang:vocaboladminOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/orlandoNicola.jpg" ;
     rel:friendOf vocang:sanchiPiero, vocang:tronettiElisa, vocang:salhiSamir, vocang:durazziMarco, vocang:bragariAlexandru, vocang:talmiAlessandro, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo .
 
