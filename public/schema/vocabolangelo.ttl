@@ -2054,7 +2054,6 @@ vocang:avodandolo
 vocang:vocaboladmin
     a vocang:Parolangelo ;
     skos:prefLabel "Vocaboladmin"@it ;
-    lexinfo:pronunciation "/vo • ca • bo • lad • min/"@it ;
     skos:definition "Un Amministratore del Vocabolangelo, ossia una figura in grado di apportare modifiche senza chiedere il permesso al codice sorgente del Vocabolangelo."@it ;
     skos:example "Per diventare un vocaboladmin dovrai prima contribuire al vocabolangelo e ottenere il riconoscimento degli altri vocaboladmin."@it ;
     dct:created "2022-12-14" ;
@@ -6597,3 +6596,11 @@ vocang:cagnaro
     skos:related vocang:gattoide ;
     dct:created "2023-07-15" ;
     dct:creator vocang:abisAlessio .
+
+vocang:avocadoladmin
+    a vocang:Parolangelo ;
+    skos:prefLabel "Avocadoladmin"@it ;
+    skos:definition "La persona che ricopre la posizione apicale nella gerarchia gestionale della raccolta in un campo di avocado. Responsabile della supervisone della raccolta degli avocado. Direttore della raccolta degli avocado."@it;
+    skos:example "Il mio amico Mario ricopre la difficile posizione dell'avocadoladmin. Non si tratta di un mestiere semplice, visto che i suoi lavoratori spesso si sono mettono in sciopero perché vogliono guacamole illimitato e giorni di riposo in più nella settimana!"@it ;
+    dct:created "2023-07-16" ;
+    dct:creator vocang:pertosaLorenzo, vocang:battaglinoNicole .
