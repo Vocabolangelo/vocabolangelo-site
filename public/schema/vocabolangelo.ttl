@@ -6561,4 +6561,11 @@ vocang:albaninja
     skos:note "Questa è la prima parola inventata da Silvia che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
     dct:creator vocang:scattoniSilvia .
 
-
+vocang:lucretino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Lucretino"@it ;
+    lexinfo:pronunciation "/lu • cre • tì • no/"@it ;
+    skos:definition "Abitante di Lucrezia di Cartoceto che non eccelle in intelligenza."@it;
+    skos:example "Ieri un lucretino non si è fermato allo stop davanti casa di Nicole e per poco non ha causato un incidente mortale."@it ;
+    dct:created "2023-07-15" ;
+    dct:creator vocang:battaglinoNicole .
