@@ -445,6 +445,40 @@ vocang:montesiLuca
     org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:orlandoNicola .
 
+vocang:ciurnelliLuna
+    a vocang:Vocaboliere ;
+    foaf:firstName "Luna" ;
+    foaf:lastName "Ciurnelli" ;
+    foaf:gender "female" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:spouseOf vocang:morettiLeonardo ;
+    rel:friendOf vocang:filasetaAngelo, vocang:pertosaLorenzo, vocang:paoliMichele .
+
+vocang:morettiLeonardo
+    a vocang:Vocaboliere ;
+    foaf:firstName "Leonardo" ;
+    foaf:lastName "Moretti" ;
+    foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:filasetaAngelo, vocang:pertosaLorenzo, vocang:paoliMichele .
+
+vocang:scattoniSilvia
+    a vocang:Vocaboliere ;
+    foaf:firstName "Silvia" ;
+    foaf:lastName "Scattoni" ;
+    foaf:gender "female" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:pertosaLorenzo ;
+    rel:siblingOf vocang:scattoniAlessandra .
+
+vocang:abisAlessio
+    a vocang:Vocaboliere ;
+    foaf:firstName "Alessio" ;
+    foaf:lastName "Abis" ;
+    foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:filasetaAngelo, vocang:pertosaLorenzo, vocang:morettiLeonardo, vocang:ciurnelliLuna, vocang:paoliMichele .
+
 # Other Author Individuals
 
 vocang:chatGPT
@@ -2020,7 +2054,6 @@ vocang:avodandolo
 vocang:vocaboladmin
     a vocang:Parolangelo ;
     skos:prefLabel "Vocaboladmin"@it ;
-    lexinfo:pronunciation "/vo • ca • bo • lad • min/"@it ;
     skos:definition "Un Amministratore del Vocabolangelo, ossia una figura in grado di apportare modifiche senza chiedere il permesso al codice sorgente del Vocabolangelo."@it ;
     skos:example "Per diventare un vocaboladmin dovrai prima contribuire al vocabolangelo e ottenere il riconoscimento degli altri vocaboladmin."@it ;
     dct:created "2022-12-14" ;
@@ -6462,3 +6495,140 @@ vocang:feticlista
     skos:related vocang:feticlismo;
     dct:created "2023-07-13" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:gozziode
+    a vocang:Parolangelo ;
+    skos:prefLabel "Gozzoide"@it ;
+    lexinfo:pronunciation "/goz • zòi • de/"@it ;
+    skos:definition "Mammifero incline a ingerire quantità anomale di sostanze, sia alimentari che non alimentari."@it ;
+    skos:example "Leonardo aveva fame, l'ho visto mangiare dei sassi per placare la fame... Che gozzoide!"@it ;
+    dct:created "2023-07-13" ;
+    skos:note "Questa è la prima parolangelo inventata da Leonardo e Luna che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
+    dct:creator vocang:morettiLeonardo, vocang:ciurnelliLuna .
+
+vocang:sgrower
+    a vocang:Parolangelo ;
+    skos:prefLabel "Sgrower"@it ;
+    skos:definition "Tipologia di pene che a primo impatto sembra classificabile come shower ma che ad un'analisi più attenta si rileva un grower."@it ;
+    skos:example "Ieri ero con Max e mi ha mostrato il suo gingillo. Ero sicura non sarebbe cresciuto di più ma con mi sorpresa si è rivelato uno sgrower!"@it ;
+    dct:created "2023-07-14" ;
+    dct:creator vocang:nardiniArianna, vocang:pupitaAlberto .
+
+vocang:undercacio
+    a vocang:Parolangelo ;
+    skos:prefLabel "Undercacio"@it ;
+    skos:definition "Drink alcolico costituito da una proporzione pari a 1/3 di malibu, vodka e succo d'ananas."@it ;
+    skos:example "Alla festa, Marco ha bevuto talmente tanti undercacio che è diventato così allegro da iniziare a ballare la macarena con il tavolo!"@it ;
+    dct:created "2023-07-14" ;
+    dct:creator vocang:morettiLeonardo .
+
+vocang:battone
+    a vocang:Parolangelo ;
+    skos:prefLabel "Battone"@it ;
+    lexinfo:pronunciation "/bat • tó • ne/"@it ;
+    skos:definition "Un bottone che entra ed esce ripetutamente e molto frequentemente da tante asole."@it, "Una donna di facili costumi con la parlantina, molto brava ad attaccare bottone con chiunque."@it;
+    skos:example "Quel battone balla così tanto sulla mia camicia! Non importa quanto provo a incastrarlo, esce di continuo. Si potrebbe quasi definire sessualmente attivo."@it, "Ieri un battone ha cominciato a parlarmi in discoteca. Si è introdotta in maniera davvero interessante!"@it ;
+    dct:created "2023-07-14" ;
+    dct:creator vocang:orlandoNicola, vocang:bragariAlexandru, vocang:omiccioliRiccardo .
+
+vocang:impicchiare
+    a vocang:Parolangelo ;
+    skos:prefLabel "Impicchiare"@it ;
+    lexinfo:pronunciation "/im • pic • chià • re/"@it ;
+    skos:definition "L'atto di picchiare qualcuno subito dopo averlo sollevato da terra e appesso da qualche parte."@it;
+    skos:example "È risaputo che c'è stato un periodo della nostra storia in cui i fascisti venivano impicchiati con veemenza!"@it ;
+    dct:created "2023-07-14" ;
+    dct:creator vocang:orlandoNicola, vocang:omiccioliRiccardo .
+
+vocang:gozzonite
+    a vocang:Parolangelo ;
+    skos:prefLabel "Gozzonite"@it ;
+    lexinfo:pronunciation "/goz • zo • nì • te/"@it ;
+    skos:definition "Sensazione di fame costante che affligge i gozzoidi, si differenzia da un normale appetito poichè, se colpiti, si è disposti a mangiare qualunque cosa, non solo cibo in senso stretto."@it;
+    skos:example "L'altra sera Leonardo era particolarmente affetto da gozzonite: dopo un tris di impepata di cozze si è mangiato un pezzo di prua della barca del cozzaro, ha rischiato di finire fuori bordo!"@it ;
+    dct:created "2023-07-15" ;
+    skos:related vocang:gozzoide ;
+    dct:creator vocang:morettiLeonardo, vocang:ciurnelliLuna .
+
+vocang:misfarà
+    a vocang:Parolangelo ;
+    skos:prefLabel "Misfarà"@it ;
+    lexinfo:pronunciation "/mis • fa • rà/"@it ;
+    skos:definition "Un misfatto non ancora avvenuto ma programmato per il futuro."@it;
+    skos:example "La polizia ha arrestato un gruppo di individui perché era ormai stato scoperto il misfarà che sarebbe successo in una banca la settimana successiva."@it ;
+    dct:created "2023-07-07" ;
+    dct:creator vocang:paoliMichele .
+
+vocang:albaninja
+    a vocang:Parolangelo ;
+    skos:prefLabel "Albaninja"@it ;
+    skos:definition "Ninja di origine albanese."@it;
+    skos:example "Un albaninja si è infiltrato silenziosamente nel palazzo dove abitavo tempo fa ed ha accoltellato senza pietà il suo bersaglio."@it ;
+    dct:created "2023-07-15" ;
+    skos:note "Questa è la prima parola inventata da Silvia che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
+    dct:creator vocang:scattoniSilvia .
+
+vocang:lucretino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Lucretino"@it ;
+    lexinfo:pronunciation "/lu • cre • tì • no/"@it ;
+    skos:definition "Abitante di Lucrezia di Cartoceto che non eccelle in intelligenza."@it;
+    skos:example "Ieri un lucretino non si è fermato allo stop davanti casa di Nicole e per poco non ha causato un incidente mortale."@it ;
+    dct:created "2023-07-15" ;
+    dct:creator vocang:battaglinoNicole .
+
+vocang:gattoide
+    a vocang:Parolangelo ;
+    skos:prefLabel "Gattoide"@it ;
+    lexinfo:pronunciation "/gat • tòi • de/"@it ;
+    skos:definition "Amante dei gatti, gattaro."@it;
+    skos:example "Nicola è talmente gattoide che ha convertito la sua casa in un vero e proprio regno felino, dove i gatti sono i sovrani e lui, il loro umile servitore. Ha persino un piccolo tempio dedicato all'omnicio!"@it ;
+    skos:note "Questa è la prima parola inventata da Alessio che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
+    dct:created "2023-07-15" ;
+    dct:creator vocang:abisAlessio .
+
+vocang:cagnaro
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cagnaro"@it ;
+    lexinfo:pronunciation "/ca • gnà • ro/"@it ;
+    skos:definition "Amante dei cani."@it;
+    skos:example "Ginevro è un cagnaro così appassionato che ha creato un vero e proprio paradiso canino nel suo giardino. Ci sono altalene per cagnolini, piscine da bagno per cani e persino una sorta di tapis roulant per cani dove i suoi amici a quattro zampe possono correre senza sosta. Ogni giorno organizza feste a tema per cani, e la sua casa è piena di giocattoli, premi e dolcetti a forma di zampa."@it ;
+    skos:related vocang:gattoide ;
+    dct:created "2023-07-15" ;
+    dct:creator vocang:abisAlessio .
+
+vocang:avocadoladmin
+    a vocang:Parolangelo ;
+    skos:prefLabel "Avocadoladmin"@it ;
+    skos:definition "La persona che ricopre la posizione apicale nella gerarchia gestionale della raccolta in un campo di avocado. Responsabile della supervisone della raccolta degli avocado. Direttore della raccolta degli avocado."@it;
+    skos:example "Il mio amico Mario ricopre la difficile posizione dell'avocadoladmin. Non si tratta di un mestiere semplice, visto che i suoi lavoratori spesso si sono mettono in sciopero perché vogliono guacamole illimitato e giorni di riposo in più nella settimana!"@it ;
+    dct:created "2023-07-16" ;
+    dct:creator vocang:pertosaLorenzo, vocang:battaglinoNicole .
+
+vocang:falà
+    a vocang:Parolangelo ;
+    skos:prefLabel "Falà"@it ;
+    lexinfo:pronunciation "/fa • là/"@it ;
+    skos:definition "Falò molto distante."@it;
+    skos:example "No, fa troppo caldo stasera per un falò, facciamo un falà!"@it ;
+    dct:created "2023-07-16" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:paschia
+    a vocang:Parolangelo ;
+    skos:prefLabel "Paschia"@it ;
+    lexinfo:pronunciation "/pà • schia/"@it ;
+    skos:definition "Riposo che avviene durante la giornata di Pasqua."@it;
+    skos:example "A Pasqua dopo pranzo sono sempre estremamente stanco, credo proprio che sia il momento di una bella paschia!"@it ;
+    dct:created "2023-07-17" ;
+    dct:creator vocang:timpanoSam .
+
+vocang:paschietta
+    a vocang:Parolangelo ;
+    skos:prefLabel "Paschietta"@it ;
+    lexinfo:pronunciation "/pa • schiét •ta/"@it ;
+    skos:definition "Riposo che avviene durante la giornata seguente a quella della Pasqua."@it;
+    skos:example "A Pasquetta dopo pranzo sono sempre estremamente stanco, credo proprio che sia il momento di una bella paschietta!"@it ;
+    skos:related vocang:paschia ;
+    dct:created "2023-07-17" ;
+    dct:creator vocang:timpanoSam .
