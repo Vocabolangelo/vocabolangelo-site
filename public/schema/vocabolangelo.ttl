@@ -6626,9 +6626,19 @@ vocang:paschia
 vocang:paschietta
     a vocang:Parolangelo ;
     skos:prefLabel "Paschietta"@it ;
-    lexinfo:pronunciation "/pa • schiét •ta/"@it ;
+    lexinfo:pronunciation "/pa • schiét • ta/"@it ;
     skos:definition "Riposo che avviene durante la giornata seguente a quella della Pasqua."@it;
     skos:example "A Pasquetta dopo pranzo sono sempre estremamente stanco, credo proprio che sia il momento di una bella paschietta!"@it ;
     skos:related vocang:paschia ;
     dct:created "2023-07-17" ;
     dct:creator vocang:timpanoSam .
+
+vocang:trinitangelo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Trinitangelo"@it ;
+    lexinfo:pronunciation "/tri • ni • tàn • ge • lo/"@it ;
+    skos:definition "I tre vocabolieri che hanno l'indice di contributo assoluto più alto, ovvero le tre persone fisiche che hanno contribuito a inventare il maggior numero di parolangelo."@it;
+    skos:example "Se ti servono chiarimenti riguardo il vocabolangelo puoi chiedere ad un vocaboladmin. Tuttavia, è molto più probabile che un membro della trinitangelo conosca più parole, visto il suo altro livello di contribuzione!"@it ;
+    skos:related vocang:vocaboladmin, vocang:vocabolangelo, vocang:angelario, vocang:parolangelo, vocang:apostolangelo, vocang:dizionangelo, vocang:vocaboliere, vocang:vocabolangelare, vocang:vocaboregolangelo, vocang:parolarcangelo, vocang:slangelo, vocang:concettangelo, vocang:vocaboreato;
+    dct:created "2023-07-22" ;
+    dct:creator vocang:paoliMichele .
