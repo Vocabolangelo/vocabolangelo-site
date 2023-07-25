@@ -6533,3 +6533,12 @@ vocang:gozzonite
     dct:created "2023-07-15" ;
     skos:related vocang:gozzoide ;
     dct:creator vocang:morettiLeonardo, vocang:ciurnelliLuna .
+
+vocang:misfará
+    a vocang:Parolangelo ;
+    skos:prefLabel "Misfarà"@it ;
+    lexinfo:pronunciation "/mis • fa • rà/"@it ;
+    skos:definition "Un misfatto non ancora avvenuto ma programmato per il futuro."@it;
+    skos:example "La polizia ha arrestato un gruppo di individui perché era ormai stato scoperto il misfarà che sarebbe successo in una banca la settimana successiva."@it ;
+    dct:created "2023-07-07" ;
+    dct:creator vocang:paoliMichele .
