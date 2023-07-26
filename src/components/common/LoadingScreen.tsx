@@ -1,6 +1,9 @@
-import React, { useState, useEffect } from 'react'
-import styled, { keyframes } from 'styled-components'
+import React, {useEffect, useState} from 'react'
+import styled, {keyframes} from 'styled-components'
 import {RDFStore} from '../../rdf/RDFStore'
+import {VocabolangeloTheme} from '../../classes/VocabolangeloTheme'
+import {useSelector} from 'react-redux'
+import {State} from '../../state/State'
 
 const pulse = keyframes`
   0% {
@@ -15,7 +18,6 @@ const pulse = keyframes`
 `
 
 const LoadingScreenContainer = styled.div`
-  background-color: white;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -23,15 +25,19 @@ const LoadingScreenContainer = styled.div`
 `
 
 const Letter = styled.h1`
-  font-family: 'Sriracha', cursive;
   font-size: 4rem;
-  color: black;
   text-transform: uppercase;
   animation: ${pulse} 0.75s infinite;
 `
 
 export default function LoadingScreen() {
+
+    const vocabolangeloTheme: VocabolangeloTheme = useSelector((state: State) => state.theme)
+
     const [isStoreEmpty, setIsStoreEmpty] = useState(true)
+
+    const letterColor = vocabolangeloTheme == VocabolangeloTheme.WHITE ? 'black' : 'white'
+    const backgroundColor = vocabolangeloTheme == VocabolangeloTheme.WHITE ? 'white' : '#121212'
 
     useEffect(() => {
         const interval = setInterval(() => {
@@ -46,8 +52,8 @@ export default function LoadingScreen() {
 
     if(isStoreEmpty) {
         return (
-            <LoadingScreenContainer>
-                <Letter>A.</Letter>
+            <LoadingScreenContainer style={{backgroundColor: backgroundColor}}>
+                <Letter style={{color: letterColor}}>A.</Letter>
             </LoadingScreenContainer>
         )
     } else {
