@@ -479,6 +479,22 @@ vocang:abisAlessio
     org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:filasetaAngelo, vocang:pertosaLorenzo, vocang:morettiLeonardo, vocang:ciurnelliLuna, vocang:paoliMichele .
 
+vocang:abisAlessio
+    a vocang:Vocaboliere ;
+    foaf:firstName "Alessio" ;
+    foaf:lastName "Abis" ;
+    foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:filasetaAngelo, vocang:pertosaLorenzo, vocang:morettiLeonardo, vocang:ciurnelliLuna, vocang:paoliMichele .
+
+vocang:grasselliFrancesco
+    a vocang:Vocaboliere ;
+    foaf:firstName "Francesco Maria" ;
+    foaf:lastName "Grasselli" ;
+    foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:paoliMichele .
+ 
 # Other Author Individuals
 
 vocang:chatGPT
