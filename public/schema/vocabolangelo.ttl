@@ -6678,3 +6678,13 @@ vocang:pirosbirro
     dct:created "2023-07-20" ;
     skos:related vocang:ipposbirro ;
     dct:creator vocang:paoliMichele, vocang:grasselliFrancesco .
+
+vocang:idrosbirro
+    a vocang:Parolangelo ;
+    skos:prefLabel "Idrosbirro"@it ;
+    lexinfo:pronunciation "/i • dro • ṣbìr • ro/"@it ;
+    skos:definition "Individuo appartenente al Corpo delle capitanerie di porto - Guardia costiera."@it;
+    skos:example "Alberto è andato a pesca con la dinamite, in un attimo è stato circondato dalle lance degli idrosbirri!"@it ;
+    dct:created "2023-07-20" ;
+    skos:related vocang:ipposbirro, vocang:pirosbirro ;
+    dct:creator vocang:paoliMichele, vocang:grasselliFrancesco .
