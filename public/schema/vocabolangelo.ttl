@@ -6668,3 +6668,13 @@ vocang:ipposbirro
     skos:note "Questa è la prima parola inventata da Francesco che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
     dct:created "2023-07-20" ;
     dct:creator vocang:paoliMichele, vocang:grasselliFrancesco .
+
+vocang:pirosbirro
+    a vocang:Parolangelo ;
+    skos:prefLabel "Pirosbirro"@it ;
+    lexinfo:pronunciation "/pi • ro • ṣbìr • ro/"@it ;
+    skos:definition "Pompiere, vigile del fuoco."@it;
+    skos:example "Ho dato fuoco ai capelli di Michele solo per vedere arrivare i pirosbirri!"@it ;
+    dct:created "2023-07-20" ;
+    skos:related vocang:ipposbirro ;
+    dct:creator vocang:paoliMichele, vocang:grasselliFrancesco .
