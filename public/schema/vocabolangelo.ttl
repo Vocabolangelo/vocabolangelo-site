@@ -6688,3 +6688,15 @@ vocang:idrosbirro
     dct:created "2023-07-20" ;
     skos:related vocang:ipposbirro, vocang:pirosbirro ;
     dct:creator vocang:paoliMichele, vocang:grasselliFrancesco .
+
+vocang:boscosbirro
+    a vocang:Parolangelo ;
+    skos:prefLabel "Boscosbirro"@it ;
+    lexinfo:pronunciation "/bos • co • ṣbìr • ro/"@it ;
+    skos:definition "Individuo appartenente al Corpo forestale dello Stato."@it;
+    skos:example "Stavo defecando dietro un albero e mi hanno sorpreso i boscosbirri, che paura!"@it ;
+    dct:created "2023-07-20" ;
+    skos:related vocang:ipposbirro, vocang:pirosbirro, idrosbirro ;
+    dct:creator vocang:paoliMichele, vocang:grasselliFrancesco .
+
+Boscosbirro: sinonimo di guardia forestale. Autore: Michele Paoli e Francesco Maria Grasselli. Esempio: cacavo dietro un albero e mi hanno sorpreso i boscosbirri, che paura!
