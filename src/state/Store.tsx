@@ -1,9 +1,20 @@
 import { PayloadAction, configureStore, createSlice} from '@reduxjs/toolkit'
 import { State } from './State'
-import {VocabolangeloTheme} from '../classes/VocabolangeloTheme'
+import {valueToVocabolangeloTheme, VocabolangeloTheme} from '../classes/VocabolangeloTheme'
+
+function getLocalStorageThemeOrDefault(): VocabolangeloTheme {
+    const localStoreTheme: string | null = localStorage.getItem('vocabolangeloTheme')
+    if(localStoreTheme != null) {
+        const theme = valueToVocabolangeloTheme(+localStoreTheme)
+        if(theme != null) {
+            return theme
+        }
+    }
+    return VocabolangeloTheme.WHITE
+}
 
 const initialState: State = {
-    theme: VocabolangeloTheme.WHITE
+    theme: getLocalStorageThemeOrDefault()
 }
   
 export const themeSlice = createSlice({

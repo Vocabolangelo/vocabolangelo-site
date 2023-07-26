@@ -32,6 +32,7 @@ export default function ChangeThemeIcon() {
         if(vocabolangeloTheme == VocabolangeloTheme.WHITE) {
             newTheme = VocabolangeloTheme.BLACK
         }
+        localStorage.setItem('vocabolangeloTheme', newTheme.toString())
         dispatch(setTheme(newTheme))
     }
 }
