@@ -6717,3 +6717,13 @@ vocang:suiciclo
     skos:example "La settimana scorsa sono finito all'ospedale dopo che sono caduto dal mio suiciclo. Forse guidare una bicicletta con una ruota non attaccata al telaio non era una grande idea."@it ;
     dct:created "2023-07-22" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:integratini
+    a vocang:Parolangelo ;
+    skos:prefLabel "Integratini"@it ;
+    lexinfo:pronunciation "/in • te • gra • tì • ni/"@it ;
+    skos:definition "Dose di grattini e coccole che arriva nel momento del bisogno."@it;
+    skos:example "Sono in carenza di affetto. Avrei proprio bisogno di un po' di integratini."@it ;
+    dct:created "2023-07-22" ;
+    skos:note "Non esiste la versione singolare di questa parolangelo" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
