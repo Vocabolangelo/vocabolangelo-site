@@ -28,7 +28,7 @@ interface ConceptListProps {
 export default function ConceptList(props: ConceptListProps) {
 
     const [concept, setConcept] = useState<Concept[]>([])
-    const [visibleParolangelo, setVisibleParolangelo] = useState<Concept[]>([])
+    const [visibleConcept, setVisibleConcept] = useState<Concept[]>([])
     const [helper, setHelper] =
         useState<SectionListHelper<string, Concept>>(new AlphabeticConceptSectionListHelper())
     const [searchValue, setSearchValue]= useState<string>('')
@@ -38,7 +38,7 @@ export default function ConceptList(props: ConceptListProps) {
     }, [])
 
     useEffect(() => {
-        setVisibleParolangelo(concept.filter((c) => searchFilterStrategy(c, searchValue)))
+        setVisibleConcept(concept.filter((c) => searchFilterStrategy(c, searchValue)))
     },[concept, searchValue])
 
     useEffect(() => {
@@ -77,9 +77,9 @@ export default function ConceptList(props: ConceptListProps) {
             </header>
             <div className="index align-left">
                 <SectionList
-                    list={helper.list(visibleParolangelo)}
+                    list={helper.list(visibleConcept)}
                     sectionTitle={(element) => helper.title(element)}
-                    sublist={(element) => helper.sublist(visibleParolangelo, element) }
+                    sublist={(element) => helper.sublist(visibleConcept, element) }
                     content={(c: Parolangelo) =>
                         <Link to={`${PAROLANGELO_ROUTE}/${c.relativeUri(vocang)}`}>
                             <p> {c.prefLabel} </p>

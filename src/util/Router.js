@@ -1,6 +1,6 @@
 import {createBrowserRouter} from 'react-router-dom'
 import RootIndex from '../components/routes/root/RootIndex'
-import ConceptList, {PAROLANGELO_ROUTE, SLANGELO_ROUTE} from '../components/routes/concept/ConceptList'
+import {PAROLANGELO_ROUTE, SLANGELO_ROUTE} from '../components/routes/concept/ConceptList'
 import {ConceptLayout} from '../components/routes/concept/ConceptLayout'
 import React from 'react'
 import Vocabolieri, {VOCABOLIERI_ROUTE} from '../components/routes/vocabolieri/Vocabolieri'
@@ -14,8 +14,8 @@ import ContenutiIndex, {CONTENUTI_ROUTE} from '../components/routes/contenuti/Co
 import VocaboregolangeloIndex, {
     VOCABOREGOLANGELO_ROUTE
 } from '../components/routes/contenuti/vocaboregolangelo/VocaboregolangeloIndex'
-import {Parolangelo} from '../rdf/types/Parolangelo'
-import {Slangelo} from '../rdf/types/Slangelo'
+import SlangeloList from '../components/routes/slangelo/SlangeloList'
+import ParolangeloList from '../components/routes/parolangelo/ParolangeloList'
 
 export const defaultRouter = createBrowserRouter([
     {
@@ -24,19 +24,7 @@ export const defaultRouter = createBrowserRouter([
     },
     {
         path: PAROLANGELO_ROUTE,
-        element: <ConceptList
-            title={'Parolangelo'}
-            subtitle={
-                `Ognuna di queste parole è stata inventata da almeno un vocaboliere.\n
-                Chiunque può creare nuove parolangelo, proporre nuove definizioni ed esempi,
-                o fornire materiale mediatico in grado di arricchire questo archivio.`
-            }
-            effect={ (setConcept, helper) =>
-                Parolangelo.all().then(nodes => {
-                    setConcept(nodes.sort((a, b) => helper.compareFn(a,b)))
-                })
-            }
-        />,
+        element: <ParolangeloList/>,
     },
     {
         path: `${PAROLANGELO_ROUTE}/:id`,
@@ -44,18 +32,7 @@ export const defaultRouter = createBrowserRouter([
     },
     {
         path: SLANGELO_ROUTE,
-        element: <ConceptList
-            title={'Slangelo'}
-            subtitle={
-                `Ognuno si questi slangelo è stato inventata da almeno un vocaboliere.\n
-                Chiunque può creare nuovi slangelo, proporre nuove definizioni ed esempi,
-                o fornire materiale mediatico in grado di arricchire questo archivio.`
-            }
-            effect={ (setConcept, helper) =>
-                Slangelo.all().then(nodes => {
-                    setConcept(nodes.sort((a, b) => helper.compareFn(a,b)))
-                })}
-        />,
+        element: <SlangeloList/>,
     },
     {
         path: `${SLANGELO_ROUTE}/:id`,
