@@ -9,6 +9,7 @@ import {VOCABOLIERI_ROUTE} from '../../vocabolieri/Vocabolieri'
 import {RDFNamedNode} from '../../../../rdf/RDFNamedNode'
 import {RDFStore} from '../../../../rdf/RDFStore'
 import {Concept} from '../../../../rdf/types/Concept'
+import InnerWrapper from '../../../common/story/InnerWrapper'
 
 export default function LeaderBoard() {
     function absoluteComparator(a:RDFNamedNode, b:RDFNamedNode) {
@@ -59,51 +60,49 @@ export default function LeaderBoard() {
         </tr>
     }
 
-    return <section className="wrapper style1 align-left">
-        <div className="inner">
-            <h2>LeaderBoard</h2>
-            <p>Qui è possibile analizzare maggiori statistiche riguardo i Vocabolieri.</p>
-            <ul>
-                <li><strong>Vocaboliere</strong>: Il nome del Vocaboliere.</li>
-                <li>
-                    <strong>Contributo Assoluto</strong>: Quanto Vocaboliere ha contribuito in termini di Parolangelo inventate.
-                    Anche le Parolangelo create in comune vengono conteggiate in questo calcolo.
-                </li>
-                <li>
-                    <strong>Perc. Contributo Assoluto</strong>: Il valore percentale che si ottiene dividendo il Contributo Assoluto
-                    per il numero delle Parolangelo totali.
-                </li>
-                <li>
-                    <strong>Contributo Relativo</strong>: Quanto Vocaboliere ha contribuito in termini di Parolangelo inventate.
-                    In questo caso le Parolangelo create in comune vengono spartite equamente, ad esempio attribuendo un punteggio di 0.5
-                    se gli autori sono due.
-                </li>
-                <li><strong>Perc. Contributo Relativo</strong>: Il valore percentale che si ottiene dividendo il Contributo Relativo
-                    per il numero delle Parolangelo totali.</li>
-            </ul>
-            <div className="table-wrapper">
-                <table>
-                    <thead>
-                        <tr>
-                            <th >Vocaboliere</th>
-                            <th>Contributo Assoluto</th>
-                            <th>Perc. Contributo Assoluto</th>
-                            <th>Contributo Relativo</th>
-                            <th>Perc. Contributo Relativo</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {vocabolieri
-                            .sort(absoluteComparator)
-                            .map((vocaboliere, index) => {
-                                return <LeaderBoardEntry key={index} vocaboliere={vocaboliere}/>
-                            })
-                        }
-                    </tbody>
-                    <tfoot>
-                    </tfoot>
-                </table>
-            </div>
+    return <InnerWrapper style={1}>
+        <h2>LeaderBoard</h2>
+        <p>Qui è possibile analizzare maggiori statistiche riguardo i Vocabolieri.</p>
+        <ul>
+            <li><strong>Vocaboliere</strong>: Il nome del Vocaboliere.</li>
+            <li>
+                <strong>Contributo Assoluto</strong>: Quanto Vocaboliere ha contribuito in termini di Parolangelo inventate.
+                Anche le Parolangelo create in comune vengono conteggiate in questo calcolo.
+            </li>
+            <li>
+                <strong>Perc. Contributo Assoluto</strong>: Il valore percentale che si ottiene dividendo il Contributo Assoluto
+                per il numero delle Parolangelo totali.
+            </li>
+            <li>
+                <strong>Contributo Relativo</strong>: Quanto Vocaboliere ha contribuito in termini di Parolangelo inventate.
+                In questo caso le Parolangelo create in comune vengono spartite equamente, ad esempio attribuendo un punteggio di 0.5
+                se gli autori sono due.
+            </li>
+            <li><strong>Perc. Contributo Relativo</strong>: Il valore percentale che si ottiene dividendo il Contributo Relativo
+                per il numero delle Parolangelo totali.</li>
+        </ul>
+        <div className="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th >Vocaboliere</th>
+                        <th>Contributo Assoluto</th>
+                        <th>Perc. Contributo Assoluto</th>
+                        <th>Contributo Relativo</th>
+                        <th>Perc. Contributo Relativo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {vocabolieri
+                        .sort(absoluteComparator)
+                        .map((vocaboliere, index) => {
+                            return <LeaderBoardEntry key={index} vocaboliere={vocaboliere}/>
+                        })
+                    }
+                </tbody>
+                <tfoot>
+                </tfoot>
+            </table>
         </div>
-    </section>
+    </InnerWrapper>
 }
