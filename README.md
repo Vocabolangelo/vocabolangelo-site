@@ -18,3 +18,5 @@ data it is possible to execute the `infer.sh` script (only available for unix-ba
 ```console
 ./infer.sh
 ```
+
+![Alt](https://repobeats.axiom.co/api/embed/5c097494b17b0a4f78550ad5939de0f147e785d6.svg "Repobeats analytics image")
