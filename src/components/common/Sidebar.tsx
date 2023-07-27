@@ -30,7 +30,9 @@ export function Sidebar(props: SidebarProps) {
             <div className="sidebar-menu">
                 {navbarItems.map((item, index) => (
                     <Link to={item.link} key={index} className="sidebar-links">
-                        {item.title}
+                        <p style={{fontStyle: 'bold'}}>
+                            {item.icon} {item.title}
+                        </p>
                     </Link>
                 ))}
             </div>

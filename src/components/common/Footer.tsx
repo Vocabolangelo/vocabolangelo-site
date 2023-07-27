@@ -1,8 +1,6 @@
 import {Link} from 'react-router-dom'
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
-import {faGithub, faInstagram, faPaypal, faJava} from '@fortawesome/free-brands-svg-icons'
 import {selectorTheme} from '../../state/selectorTheme'
+import {BiCoffee, BiEnvelope, BiLogoGithub, BiLogoInstagram, BiLogoPaypal} from 'react-icons/bi'
 
 export default function Footer() {
 
@@ -14,27 +12,27 @@ export default function Footer() {
             <ul className="icons">
                 <li>
                     <Link to={'https://github.com/Vocabolangelo'}>
-                        <FontAwesomeIcon icon={faGithub} color={iconColor} size="2xl"/>
+                        <BiLogoGithub color={iconColor} size={45}/>
                     </Link>
                 </li>
                 <li>
                     <Link to={'https://www.instagram.com/vocabolangelo/'}>
-                        <FontAwesomeIcon icon={faInstagram} color={iconColor} size="2xl"/>
+                        <BiLogoInstagram color={iconColor} size={45}/>
                     </Link>
                 </li>
                 <li>
                     <Link to={'mailto:vocabolangelo@gmail.com'}>
-                        <FontAwesomeIcon icon={faEnvelope} color={iconColor} size="2xl"/>
+                        <BiEnvelope color={iconColor} size={45}/>
                     </Link>
                 </li>
                 <li>
                     <Link to={'https://www.buymeacoffee.com/vocabolangelo'}>
-                        <FontAwesomeIcon icon={faJava} color={iconColor} size="2xl"/>
+                        <BiCoffee color={iconColor} size={45}/>
                     </Link>
                 </li>
                 <li>
                     <Link to={'https://www.paypal.me/angelofilaseta'}>
-                        <FontAwesomeIcon icon={faPaypal} color={iconColor} size="2xl"/>
+                        <BiLogoPaypal color={iconColor} size={45}/>
                     </Link>
                 </li>
             </ul>

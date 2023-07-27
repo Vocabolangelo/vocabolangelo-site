@@ -1,11 +1,4 @@
-# vocabolangelo-rdf
-### What is the Vocabolangelo?
-The Vocabolangelo is a structured document that catalogs and defines words invented by ordinary people and that are not present in a normal vocabulary.
-
-### Cos'è il Vocabolangelo?
-Il Vocabolangelo è un documento strutturato che cataloga e definisce parole, non riportate in un normale vocabolario, inventate da persone ordinarie.
-
-----
+# vocabolangelo-site
 
 ### Run in Local
 

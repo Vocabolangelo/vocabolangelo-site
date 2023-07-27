@@ -12,12 +12,18 @@ interface NavbarProps {
 export function Navbar (props: NavbarProps) {
     return <nav>
         <Link to="/" className="link">
-          Vocabolangelo
+            <p style={{fontSize: '1.5em', fontStyle: 'bold'}}>
+                 Vocabolangelo
+            </p>
         </Link>
         <div className="menu-items">
             {navbarItems.map((item, index) => (
                 <Link className="link" to={item.link} key={index}>
-                    {item.title}
+                    <div className="actions stacked">
+                        <p style={{fontStyle: 'bold'}}>
+                            {item.icon} {item.title}
+                        </p>
+                    </div>
                 </Link>
             ))}
         </div>
