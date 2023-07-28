@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client'
 import {RouterProvider} from 'react-router-dom'
 import {defaultRouter, loadingRouter} from './util/Router'
 import {RDFStore} from './rdf/RDFStore'
+import { Provider } from 'react-redux'
+import {store} from './state/Store'
 
 ReactDOM.createRoot(document.getElementById('root')).render(<App/>)
 
@@ -21,6 +23,8 @@ function App() {
     }, [])
 
     return <React.StrictMode>
-        <RouterProvider router={router}/>
+        <Provider store={store}>
+            <RouterProvider router={router}/>
+        </Provider>
     </React.StrictMode>
 }

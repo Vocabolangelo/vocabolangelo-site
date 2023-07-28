@@ -4,6 +4,7 @@ import { faBook, faFeather, faPhotoFilm } from '@fortawesome/free-solid-svg-icon
 import {VOCABOLIERI_ROUTE} from '../routes/vocabolieri/Vocabolieri'
 import {PAROLANGELO_ROUTE} from '../routes/concept/ConceptList'
 import {CONTENUTI_ROUTE} from '../routes/contenuti/ContenutiIndex'
+import ChangeThemeIcon from './ChangeThemeIcon'
 
 export default function Header() {
     return <header style={{backgroundColor: 'black'}} className="is-preload">
@@ -12,6 +13,7 @@ export default function Header() {
                 <div className="index align-center">
                     <section>
                         <header>
+                            <ChangeThemeIcon/>
                             <Link to={'/'}>
                                 <h2 style={{color: 'white'}}> Vocabolangelo </h2>
                             </Link>
