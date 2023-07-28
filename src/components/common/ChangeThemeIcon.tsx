@@ -22,7 +22,7 @@ export default function ChangeThemeIcon() {
  
     return <FontAwesomeIcon
         onClick={() => setNewTheme()}
-        style={{paddingRight: '1em'}}
+        style={{paddingRight: '1em', cursor: 'pointer' }}
         icon={getIcon()}
         color={'white'}
     />
