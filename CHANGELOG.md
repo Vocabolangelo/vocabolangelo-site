@@ -1,5 +1,42 @@
 # Changelog
 
+## [6.9.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v6.8.0...v6.9.0) (2023-07-28)
+
+
+### Features
+
+* **parolangelo:** aviosbirro ([3dd77fa](https://github.com/Vocabolangelo/vocabolangelo-site/commit/3dd77fa5fee8eb8a77b7423812c24f792c01db89))
+* **parolangelo:** boscosbirro ([bec71bc](https://github.com/Vocabolangelo/vocabolangelo-site/commit/bec71bcad40506b8cc3f2e3f39703bc0f675fe08))
+* **parolangelo:** docpostare ([37ed656](https://github.com/Vocabolangelo/vocabolangelo-site/commit/37ed656e97767ffa7f06b828e861eb32ba22607f))
+* **parolangelo:** farmacina ([abd2dcd](https://github.com/Vocabolangelo/vocabolangelo-site/commit/abd2dcdffe18503dcf0b8d2d38e84bb7012cce19))
+* **parolangelo:** idrosbirro ([7fc07b9](https://github.com/Vocabolangelo/vocabolangelo-site/commit/7fc07b95666a0b9feafc4956136e0326d172b0bb))
+* **parolangelo:** integratini ([4caaa69](https://github.com/Vocabolangelo/vocabolangelo-site/commit/4caaa69eabb78421ea6dc68b9045d1afd637e7c9))
+* **parolangelo:** ipposbirro ([09148d4](https://github.com/Vocabolangelo/vocabolangelo-site/commit/09148d4243a2a90fe85fa48272cc77d1a9f28edf))
+* **parolangelo:** jojopostare ([ce3979b](https://github.com/Vocabolangelo/vocabolangelo-site/commit/ce3979b9c4ffe4031325ca9de142cb37c374f33e))
+* **parolangelo:** litigantropo ([5c7a593](https://github.com/Vocabolangelo/vocabolangelo-site/commit/5c7a5937f49b55871c1ca85d2c037ffec7a53f21))
+* **parolangelo:** mirangelo ([78ad1c4](https://github.com/Vocabolangelo/vocabolangelo-site/commit/78ad1c4266bf12ca8ff7ea05e7c97a98fb7f2d1f))
+* **parolangelo:** neocaboliere ([b05b457](https://github.com/Vocabolangelo/vocabolangelo-site/commit/b05b4570859d22823972510454cc3ebfba855265))
+* **parolangelo:** nikoba ([54f10b5](https://github.com/Vocabolangelo/vocabolangelo-site/commit/54f10b5341fdbb44e4a0699129609861d2b43d95))
+* **parolangelo:** pirosbirro ([87007c8](https://github.com/Vocabolangelo/vocabolangelo-site/commit/87007c8a3d090b40acb621edee34100530db11ee))
+* **parolangelo:** pompirla ([e5d947d](https://github.com/Vocabolangelo/vocabolangelo-site/commit/e5d947d2fadd47edeb8f71884e1fc7de61f5b75c))
+* **parolangelo:** rotatroia ([f87ed77](https://github.com/Vocabolangelo/vocabolangelo-site/commit/f87ed77a7b95f2811cff7277a85fb9a75ae5e683))
+* **parolangelo:** storta ([b6f0beb](https://github.com/Vocabolangelo/vocabolangelo-site/commit/b6f0bebc69c9e684a9c611b8acee4896d2316994))
+* **parolangelo:** suiciclo ([1f73d71](https://github.com/Vocabolangelo/vocabolangelo-site/commit/1f73d71e301c5b2a7e9e867471ba578fea55ae5f))
+* **parolangelo:** trinitangelo ([a73b72e](https://github.com/Vocabolangelo/vocabolangelo-site/commit/a73b72e8ff88123cdf8c0ba78ff15bc0e2641674))
+* **site:** add theme to localStorage ([4dc7bb2](https://github.com/Vocabolangelo/vocabolangelo-site/commit/4dc7bb2bf1ec9ee67d53a1fdbfd5487a4a70b3a9))
+* **site:** loading screen is now black too ([6eefe95](https://github.com/Vocabolangelo/vocabolangelo-site/commit/6eefe95aee8ea58ac488d9dc71692de14ce1b2db))
+* **site:** navbar ([394fb4d](https://github.com/Vocabolangelo/vocabolangelo-site/commit/394fb4d1e57896a0816256ba27f81aa235dc3f6d))
+* **vocaboliere:** Francesco Maria Grasselli ([5d4ca22](https://github.com/Vocabolangelo/vocabolangelo-site/commit/5d4ca22581e5c92211719c9f2ffab5a14c1afabc))
+* **vocaboliere:** Tommaso Bailetti ([09bb751](https://github.com/Vocabolangelo/vocabolangelo-site/commit/09bb751f6666f61a617bb88bb58c138db055eea8))
+
+
+### Bug Fixes
+
+* **parolangelo:** re-add vampirla ([91eed10](https://github.com/Vocabolangelo/vocabolangelo-site/commit/91eed108a4541da52b64e4adb2946cada97423c0))
+* **site:** fix black theme not working on some wrapper ([95ef47c](https://github.com/Vocabolangelo/vocabolangelo-site/commit/95ef47c317793081ce587a384e9605454f4b77c5))
+* **site:** fix slangelo and parolangelo page swap list refresh ([688a063](https://github.com/Vocabolangelo/vocabolangelo-site/commit/688a0635b4c8eba36c3b546e187b7d781b336e4d))
+* **site:** icons aligned ([913dd6a](https://github.com/Vocabolangelo/vocabolangelo-site/commit/913dd6a6951a9deea42148a10728106e6c8763c4))
+
 ## [6.8.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v6.7.0...v6.8.0) (2023-07-25)
 
 
