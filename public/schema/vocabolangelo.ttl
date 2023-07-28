@@ -6725,3 +6725,14 @@ vocang:integratini
     dct:created "2023-07-22" ;
     skos:note "Non esiste la versione singolare di questa parolangelo" ;
     dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
+
+vocang:docpostare
+    a vocang:Parolangelo ;
+    skos:prefLabel "Docpostare"@it ;
+    lexinfo:pronunciation "/doc • pos • stà • re/"@it ;
+    skos:definition "Praticare shitposting su della documentazione."@it;
+    skos:example "I vocaboladmin amano docpostare. L'inserimento di meme in documentazione rende generalmente più felici e produttivi."@it ;
+    dct:created "2023-07-28" ;
+    skos:note "Questa è la prima parola inventata da Tommaso che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
+    dct:creator vocang:bailettiTommaso .
+
