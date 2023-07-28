@@ -6794,6 +6794,16 @@ vocang:litigantropo
     skos:prefLabel "Litigantropo"@it ;
     lexinfo:pronunciation "/li • ti • gàn • tro • po/"@it ;
     skos:definition "Individuo solitamente pacifico ma che, in circostanze eccezionali ed estremamente specifiche, tende ad infuriarsi e acquisisce la propensione ad assumere un comportamento combattivo, talvolta con inclinazione alla pura violenza."@it;
-    skos:example "La mira ragazza è solitamente molto tranquilla ma ieri ho scoperto che in realtà è un litigrantropo. In biblioteca mi stava sussurando delle domande su come migliorare il suo documento di tesi e un ragazzo davanti a noi ci ha chiesto di fare silenzio. A quanto pare l'ha presa sul personale, visto che gli ha tirato un pugno dritto sul naso!"@it ;
+    skos:example "La mia ragazza è solitamente molto tranquilla ma ieri ho scoperto che in realtà è un litigrantropo. In biblioteca mi stava sussurando delle domande su come migliorare il suo documento di tesi e un ragazzo davanti a noi ci ha chiesto di fare silenzio. A quanto pare l'ha presa sul personale, visto che gli ha tirato un pugno dritto sul naso!"@it ;
     dct:created "2023-07-26" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:neocaboliere
+    a vocang:Parolangelo ;
+    skos:prefLabel "Neocaboliere"@it ;
+    lexinfo:pronunciation "/ne • o • ca • bo • liè • re/"@it ;
+    skos:definition "Vocaboliere da poco, che ha inventato poche parolangelo o slangelo."@it;
+    skos:example "Ieri tommaso ha inventato la sua prima parolangelo! È sempre bello accogliere dei neocabolieri nella grande famiglia del vocabolangelo!"@it ;
+    skos:related vocang:vocaboladmin, vocang:vocabolangelo, vocang:angelario, vocang:parolangelo, vocang:apostolangelo, vocang:dizionangelo, vocang:vocaboliere, vocang:vocabolangelare, vocang:vocaboregolangelo, vocang:parolarcangelo, vocang:slangelo, vocang:concettangelo, vocang:vocaboreato, vocang:trinitangelo ;
+    dct:created "2023-07-28" ;
+    dct:creator vocang:omiccioliRiccardo .
