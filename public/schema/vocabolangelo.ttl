@@ -6809,3 +6809,12 @@ vocang:rotatroia
     dct:created "2023-07-25" ;
     dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
 
+vocang:mirangelo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Mirangelo"@it ;
+    lexinfo:pronunciation "/mi • ràn • ge • lo/"@it ;
+    skos:definition "Fenomeno che si verifica nella mente di una persona che è sicura della presenza di una parolangelo all'interno del vocabolangelo ma che poi risulta assente."@it;
+    skos:example "Usavo sempre la parola rotatroia pensando fosse una parolangelo, e invece era tutto solo un mirangelo! Ho rimediato proponendo effettivamente la parola ai vocaboladmin."@it ;
+    skos:related vocang:neocaboliere, vocang:vocaboladmin, vocang:vocabolangelo, vocang:angelario, vocang:parolangelo, vocang:apostolangelo, vocang:dizionangelo, vocang:vocaboliere, vocang:vocabolangelare, vocang:vocaboregolangelo, vocang:parolarcangelo, vocang:slangelo, vocang:concettangelo, vocang:vocaboreato, vocang:trinitangelo ;
+    dct:created "2023-07-28" ;
+    dct:creator vocang:pertosaLorenzo .
