@@ -6760,3 +6760,12 @@ vocang:farmacina
     skos:example "Ieri siamo entrati in un luogo chiamato 'Tempio dei Rimedi Cinesi a Sorpresa'. Ci ha accolto una signora dicendoci: \"Qui da noi, potrete trovare una vasta selezione di prodotti farmaceutici cinesi... di una qualità così sorprendente che vi lasceranno senza parole!\". Ci serviva del paracetamolo, ma sono riuscito ad estorcerci delle erbe aromatiche.\"Mettetele a bagno in acqua calda per qualche minuto e poi bevete!\" ci ha detto la signora. Oggi siamo dovuti correre in ospedale per un'intossicazione alimentare! Mai più in una farmacina..."@it ;
     dct:created "2023-07-27" ;
     dct:creator vocang:bassiAndrea, vocang:radicchiGiovanni, vocang:bianchiniGiovanni, vocang:minoccheriAlessandra .
+
+vocang:nikoba
+    a vocang:Parolangelo ;
+    skos:prefLabel "Nikoba"@it ;
+    skos:definition "Spiedino di tonno scottato, specificatamente preparato utilizzando tonno pescato a morsi nei mare del Giappone."@it;
+    skos:example "Hai già mangiato al nuovo ristorante giapponese? Li servono dei nikoba eccezionali!"@it ;
+    skos:note "La parolangelo nasce da una riflessione su un possibile nome d'arte per \"Nicole Battaglino\". Nikoba è stata una delle proposte ed è stata pensata come una parola che potrebbe riferirsi ad un possibile nuovo piatto giapponese." ;
+    dct:created "2023-07-26" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
