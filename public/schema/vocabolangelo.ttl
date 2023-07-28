@@ -6769,3 +6769,12 @@ vocang:nikoba
     skos:note "La parolangelo nasce da una riflessione su un possibile nome d'arte per \"Nicole Battaglino\". Nikoba è stata una delle proposte ed è stata pensata come una parola che potrebbe riferirsi ad un possibile nuovo piatto giapponese." ;
     dct:created "2023-07-26" ;
     dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
+
+vocang:pompirla
+    a vocang:Parolangelo ;
+    skos:prefLabel "Pompirla"@it ;
+    lexinfo:pronunciation "/pom • pìr • la/"@it ;
+    skos:definition "Un individuo con una notevole massa muscolare ma con una marcata mancanza di acume intellettuale."@it;
+    skos:example "Pensava di poter sollevare un'auto a mani nude e gli è venuto il colpo della strega, che pompirla!"@it ;
+    dct:created "2023-07-26" ;
+    dct:creator vocang:pertosaLorenzo .
