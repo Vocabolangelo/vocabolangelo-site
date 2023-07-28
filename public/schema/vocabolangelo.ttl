@@ -6751,3 +6751,12 @@ vocang:jojopostare
     dct:created "2023-07-28" ;
     schema:url "https://vue-i18n.intlify.dev/guide/essentials/syntax.html#linked-messages" ;
     dct:creator vocang:bailettiTommaso .
+
+vocang:farmacina
+    a vocang:Parolangelo ;
+    skos:prefLabel "Farmacina"@it ;
+    lexinfo:pronunciation "/far • ma • cì • na/"@it ;
+    skos:definition "Attività commerciale specializzata nella vendita di prodotti farmaceutici di origine cinese, caratterizzati da una qualità molto scarsa."@it;
+    skos:example "Ieri siamo entrati in un luogo chiamato 'Tempio dei Rimedi Cinesi a Sorpresa'. Ci ha accolto una signora dicendoci: \"Qui da noi, potrete trovare una vasta selezione di prodotti farmaceutici cinesi... di una qualità così sorprendente che vi lasceranno senza parole!\". Ci serviva del paracetamolo, ma sono riuscito ad estorcerci delle erbe aromatiche.\"Mettetele a bagno in acqua calda per qualche minuto e poi bevete!\" ci ha detto la signora. Oggi siamo dovuti correre in ospedale per un'intossicazione alimentare! Mai più in una farmacina..."@it ;
+    dct:created "2023-07-27" ;
+    dct:creator vocang:bassiAndrea, vocang:radicchiGiovanni, vocang:bianchiniGiovanni, vocang:minoccheriAlessandra .
