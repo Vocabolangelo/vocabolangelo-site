@@ -72,7 +72,7 @@ vocang:filasetaAngelo
     foaf:gender "male" ;
     org:memberOf vocang:vocaboladminOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/filasetaAngelo.jpeg" ;
-    rel:friendOf vocang:bailettiTommaso, vocang:sanchiPiero, vocang:tronettiElisa, vocang:salhiSamir, vocang:bragariAlexandru , vocang:battaglinoNicole , vocang:omiccioliRiccardo , vocang:pertosaLorenzo , vocang:timpanoSam , vocang:ribaudoSofia ;
+    rel:friendOf vocang:bassiAndrea, vocang:bailettiTommaso, vocang:sanchiPiero, vocang:tronettiElisa, vocang:salhiSamir, vocang:bragariAlexandru , vocang:battaglinoNicole , vocang:omiccioliRiccardo , vocang:pertosaLorenzo , vocang:timpanoSam , vocang:ribaudoSofia ;
     rel:spouseOf vocang:savoGiorgia .
 
 vocang:savoGiorgia
@@ -206,7 +206,7 @@ vocang:minoccheriAlessandra
     foaf:gender "female" ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/minoccheriAlessandra.jpg" ;
     org:memberOf vocang:vocabolieriOrg ;
-    rel:friendOf vocang:bailettiTommaso, vocang:salhiSamir, vocang:durazziMarco, vocang:fanaraGiuliano,vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo .
+    rel:friendOf vocang:bassiAndrea, vocang:bailettiTommaso, vocang:salhiSamir, vocang:durazziMarco, vocang:fanaraGiuliano,vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo .
 
  vocang:nardiniArianna
     a vocang:Vocaboliere ;
@@ -256,7 +256,7 @@ vocang:bianchiniGiovanni
     foaf:lastName "Bianchini" ;
     foaf:gender "male" ;
     org:memberOf vocang:vocabolieriOrg ;
-    rel:friendOf vocang:bailettiTommaso, vocang:pupitaAlberto, vocang:battaglinoNicole, vocang:bdeouiEddy, vocang:bragariAlexandru, vocang:fanaraGiuliano, vocang:filasetaAngelo, vocang:nardiniArianna, vocang:omiccioliRiccardo, vocang:orlandoNicola, vocang:paoliMichele, vocang:pertosaLorenzo, vocang:ribaudoSofia, vocang:savoGiorgia,vocang:suscaMatteo, vocang:timpanoSam ;
+    rel:friendOf vocang:bassiAndrea, vocang:bailettiTommaso, vocang:pupitaAlberto, vocang:battaglinoNicole, vocang:bdeouiEddy, vocang:bragariAlexandru, vocang:fanaraGiuliano, vocang:filasetaAngelo, vocang:nardiniArianna, vocang:omiccioliRiccardo, vocang:orlandoNicola, vocang:paoliMichele, vocang:pertosaLorenzo, vocang:ribaudoSofia, vocang:savoGiorgia,vocang:suscaMatteo, vocang:timpanoSam ;
     rel:spouseOf vocang:minoccheriAlessandra.
 
 vocang:rossiLuca
@@ -292,7 +292,7 @@ vocang:radicchiGiovanni
     foaf:nick "Rad" ;
     foaf:gender "male" ;
     org:memberOf vocang:vocabolieriOrg ;
-    rel:friendOf vocang:sanchiPiero, vocang:bianchiniGiovanni, vocang:pupitaAlberto, vocang:bdeouiEddy, vocang:nardiniArianna, vocang:minoccheriAlessandra, vocang:suscaMatteo, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:bragariAlexandru, vocang:filasetaAngelo .
+    rel:friendOf vocang:bassiAndrea, vocang:sanchiPiero, vocang:bianchiniGiovanni, vocang:pupitaAlberto, vocang:bdeouiEddy, vocang:nardiniArianna, vocang:minoccheriAlessandra, vocang:suscaMatteo, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:bragariAlexandru, vocang:filasetaAngelo .
 
 vocang:bensellamSelma
     a vocang:Vocaboliere ;
@@ -490,6 +490,13 @@ vocang:bailettiTommaso
     a vocang:Vocaboliere ;
     foaf:firstName "Tommaso" ;
     foaf:lastName "Bailetti" ;
+    foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg .
+
+vocang:bassiAndrea
+    a vocang:Vocaboliere ;
+    foaf:firstName "Andrea" ;
+    foaf:lastName "Bassi" ;
     foaf:gender "male" ;
     org:memberOf vocang:vocabolieriOrg .
 
@@ -6736,3 +6743,11 @@ vocang:docpostare
     skos:note "Questa è la prima parola inventata da Tommaso che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
     dct:creator vocang:bailettiTommaso .
 
+vocang:jojopostare
+    a vocang:Parolangelo ;
+    skos:prefLabel "Jojopostare"@it ;
+    skos:definition "Docpostare facendo delle citazioni alla famosa opera \"Le bizzarre avventure di JoJo\"."@it;
+    skos:example "Gli sviluppatori di Vue si sono divertiti a jojopostare quando hanno steso la loro documentazione. Se ci fai caso ogni tanto compare qualche \"ZA WARUDO\" completamente a caso negli esempi!"@it ;
+    dct:created "2023-07-28" ;
+    schema:url "https://vue-i18n.intlify.dev/guide/essentials/syntax.html#linked-messages" ;
+    dct:creator vocang:bailettiTommaso .
