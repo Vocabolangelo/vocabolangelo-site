@@ -72,7 +72,7 @@ vocang:filasetaAngelo
     foaf:gender "male" ;
     org:memberOf vocang:vocaboladminOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/filasetaAngelo.jpeg" ;
-    rel:friendOf vocang:sanchiPiero, vocang:tronettiElisa, vocang:salhiSamir, vocang:bragariAlexandru , vocang:battaglinoNicole , vocang:omiccioliRiccardo , vocang:pertosaLorenzo , vocang:timpanoSam , vocang:ribaudoSofia ;
+    rel:friendOf vocang:bassiAndrea, vocang:bailettiTommaso, vocang:sanchiPiero, vocang:tronettiElisa, vocang:salhiSamir, vocang:bragariAlexandru , vocang:battaglinoNicole , vocang:omiccioliRiccardo , vocang:pertosaLorenzo , vocang:timpanoSam , vocang:ribaudoSofia ;
     rel:spouseOf vocang:savoGiorgia .
 
 vocang:savoGiorgia
@@ -83,7 +83,7 @@ vocang:savoGiorgia
     foaf:gender "female" ;
     org:memberOf vocang:vocabolieriOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/savoGiorgia.jpg" ;
-    rel:friendOf vocang:salhiSamir, vocang:bragariAlexandru , vocang:battaglinoNicole , vocang:omiccioliRiccardo , vocang:pertosaLorenzo, vocang:timpanoSam , vocang:ribaudoSofia .
+    rel:friendOf vocang:bailettiTommaso, vocang:salhiSamir, vocang:bragariAlexandru , vocang:battaglinoNicole , vocang:omiccioliRiccardo , vocang:pertosaLorenzo, vocang:timpanoSam , vocang:ribaudoSofia .
 
 vocang:bragariAlexandru
     a vocang:Vocaboliere ;
@@ -93,7 +93,7 @@ vocang:bragariAlexandru
     foaf:gender "male" ;
     org:memberOf vocang:vocaboladminOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/bragariAlexandru.jpg" ;
-    rel:friendOf vocang:sanchiPiero, vocang:tronettiElisa, vocang:salhiSamir, vocang:battaglinoNicole , vocang:omiccioliRiccardo , vocang:pertosaLorenzo , vocang:timpanoSam , vocang:ribaudoSofia .
+    rel:friendOf vocang:bailettiTommaso, vocang:sanchiPiero, vocang:tronettiElisa, vocang:salhiSamir, vocang:battaglinoNicole , vocang:omiccioliRiccardo , vocang:pertosaLorenzo , vocang:timpanoSam , vocang:ribaudoSofia .
 
 vocang:battaglinoNicole
     a vocang:Vocaboliere ;
@@ -103,7 +103,7 @@ vocang:battaglinoNicole
     foaf:gender "female" ;
     org:memberOf vocang:vocabolieriOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/battaglinoNicole.jpg" ;
-    rel:friendOf vocang:sanchiPiero, vocang:salhiSamir, vocang:pertosaLorenzo , vocang:timpanoSam , vocang:ribaudoSofia ;
+    rel:friendOf vocang:bailettiTommaso, vocang:sanchiPiero, vocang:salhiSamir, vocang:pertosaLorenzo , vocang:timpanoSam , vocang:ribaudoSofia ;
     rel:spouseOf vocang:omiccioliRiccardo .
 
 vocang:omiccioliRiccardo
@@ -113,7 +113,7 @@ vocang:omiccioliRiccardo
     foaf:nick "Miccio" ;
     foaf:gender "male" ;
     org:memberOf vocang:vocaboladminOrg ;
-    rel:friendOf vocang:sanchiPiero, vocang:tronettiElisa, vocang:salhiSamir, vocang:pertosaLorenzo , vocang:timpanoSam , vocang:ribaudoSofia .
+    rel:friendOf vocang:bailettiTommaso, vocang:sanchiPiero, vocang:tronettiElisa, vocang:salhiSamir, vocang:pertosaLorenzo , vocang:timpanoSam , vocang:ribaudoSofia .
 
 vocang:pertosaLorenzo
     a vocang:Vocaboliere ;
@@ -123,7 +123,7 @@ vocang:pertosaLorenzo
     foaf:gender "male" ;
     org:memberOf vocang:vocaboladminOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/pertosaLorenzo.jpg" ;
-    rel:friendOf vocang:sanchiPiero, vocang:salhiSamir, vocang:timpanoSam , vocang:ribaudoSofia .
+    rel:friendOf vocang:bailettiTommaso, vocang:sanchiPiero, vocang:salhiSamir, vocang:timpanoSam , vocang:ribaudoSofia .
 
 vocang:timpanoSam
     a vocang:Vocaboliere ;
@@ -142,7 +142,7 @@ vocang:ribaudoSofia
     foaf:gender "female" ;
     org:memberOf vocang:vocabolieriOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/ribaudoSofia.jpg" ;
-    rel:friendOf vocang:sanchiPiero .
+    rel:friendOf vocang:bailettiTommaso, vocang:sanchiPiero .
 
 vocang:talmiAlessandro
     a vocang:Vocaboliere ;
@@ -151,7 +151,7 @@ vocang:talmiAlessandro
     foaf:nick "Dizi" ;
     foaf:gender "male" ;
     org:memberOf vocang:vocabolieriOrg ;
-    rel:friendOf vocang:sanchiPiero, vocang:filasetaAngelo, vocang:bragariAlexandru .
+    rel:friendOf vocang:bailettiTommaso, vocang:sanchiPiero, vocang:filasetaAngelo, vocang:bragariAlexandru .
 
 vocang:orlandoNicola
     a vocang:Vocaboliere ;
@@ -159,9 +159,9 @@ vocang:orlandoNicola
     foaf:lastName "Orlando" ;
     foaf:nick "Orla" ;
     foaf:gender "male" ;
-    org:memberOf vocang:vocabolieriOrg ;
+    org:memberOf vocang:vocaboladminOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/orlandoNicola.jpg" ;
-    rel:friendOf vocang:sanchiPiero, vocang:tronettiElisa, vocang:salhiSamir, vocang:durazziMarco, vocang:bragariAlexandru, vocang:talmiAlessandro, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo .
+    rel:friendOf vocang:bailettiTommaso, vocang:sanchiPiero, vocang:tronettiElisa, vocang:salhiSamir, vocang:durazziMarco, vocang:bragariAlexandru, vocang:talmiAlessandro, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo .
 
 vocang:adantiMatteo
     a vocang:Vocaboliere ;
@@ -196,7 +196,7 @@ vocang:suscaMatteo
     foaf:lastName "Susca" ;
     foaf:gender "male" ;
     org:memberOf vocang:vocaboladminOrg ;
-    rel:friendOf vocang:salhiSamir, vocang:durazziMarco, vocang:fanaraGiuliano, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo ;
+    rel:friendOf vocang:bailettiTommaso, vocang:salhiSamir, vocang:durazziMarco, vocang:fanaraGiuliano, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo ;
     vocang:unpaidFriendOf vocang:battaglinoNicole, vocang:minoccheriAlessandra .
 
 vocang:minoccheriAlessandra
@@ -206,7 +206,7 @@ vocang:minoccheriAlessandra
     foaf:gender "female" ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/minoccheriAlessandra.jpg" ;
     org:memberOf vocang:vocabolieriOrg ;
-    rel:friendOf vocang:salhiSamir, vocang:durazziMarco, vocang:fanaraGiuliano,vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo .
+    rel:friendOf vocang:bassiAndrea, vocang:bailettiTommaso, vocang:salhiSamir, vocang:durazziMarco, vocang:fanaraGiuliano,vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo .
 
  vocang:nardiniArianna
     a vocang:Vocaboliere ;
@@ -256,7 +256,7 @@ vocang:bianchiniGiovanni
     foaf:lastName "Bianchini" ;
     foaf:gender "male" ;
     org:memberOf vocang:vocabolieriOrg ;
-    rel:friendOf vocang:pupitaAlberto, vocang:battaglinoNicole, vocang:bdeouiEddy, vocang:bragariAlexandru, vocang:fanaraGiuliano, vocang:filasetaAngelo, vocang:nardiniArianna, vocang:omiccioliRiccardo, vocang:orlandoNicola, vocang:paoliMichele, vocang:pertosaLorenzo, vocang:ribaudoSofia, vocang:savoGiorgia,vocang:suscaMatteo, vocang:timpanoSam ;
+    rel:friendOf vocang:bassiAndrea, vocang:bailettiTommaso, vocang:pupitaAlberto, vocang:battaglinoNicole, vocang:bdeouiEddy, vocang:bragariAlexandru, vocang:fanaraGiuliano, vocang:filasetaAngelo, vocang:nardiniArianna, vocang:omiccioliRiccardo, vocang:orlandoNicola, vocang:paoliMichele, vocang:pertosaLorenzo, vocang:ribaudoSofia, vocang:savoGiorgia,vocang:suscaMatteo, vocang:timpanoSam ;
     rel:spouseOf vocang:minoccheriAlessandra.
 
 vocang:rossiLuca
@@ -265,7 +265,7 @@ vocang:rossiLuca
     foaf:lastName "Rossi" ;
     foaf:gender "male" ;
     org:memberOf vocang:vocabolieriOrg ;
-    rel:friendOf vocang:sanchiPiero, vocang:tronettiElisa, vocang:orlandoNicola, vocang:talmiAlessandro, vocang:omiccioliRiccardo, vocang:bragariAlexandru, vocang:filasetaAngelo .
+    rel:friendOf vocang:bailettiTommaso, vocang:sanchiPiero, vocang:tronettiElisa, vocang:orlandoNicola, vocang:talmiAlessandro, vocang:omiccioliRiccardo, vocang:bragariAlexandru, vocang:filasetaAngelo .
 
 vocang:deRosaLeonardo
     a vocang:Vocaboliere ;
@@ -292,7 +292,7 @@ vocang:radicchiGiovanni
     foaf:nick "Rad" ;
     foaf:gender "male" ;
     org:memberOf vocang:vocabolieriOrg ;
-    rel:friendOf vocang:sanchiPiero, vocang:bianchiniGiovanni, vocang:pupitaAlberto, vocang:bdeouiEddy, vocang:nardiniArianna, vocang:minoccheriAlessandra, vocang:suscaMatteo, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:bragariAlexandru, vocang:filasetaAngelo .
+    rel:friendOf vocang:bassiAndrea, vocang:sanchiPiero, vocang:bianchiniGiovanni, vocang:pupitaAlberto, vocang:bdeouiEddy, vocang:nardiniArianna, vocang:minoccheriAlessandra, vocang:suscaMatteo, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:bragariAlexandru, vocang:filasetaAngelo .
 
 vocang:bensellamSelma
     a vocang:Vocaboliere ;
@@ -331,7 +331,7 @@ vocang:durazziMarco
     foaf:gender "male" ;
     org:memberOf vocang:vocabolieriOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/durazziMarco.jpg" ;
-    rel:friendOf vocang:sanchiPiero, vocang:salhiSamir, vocang:rosatelliAnna, vocang:radicchiGiovanni, vocang:bianchiniGiovanni, vocang:pupitaAlberto,  vocang:mordacchiniCecilia, vocang:bdeouiEddy, vocang:bragariAlexandru, vocang:filasetaAngelo, vocang:savoGiorgia, vocang:battaglinoNicole, vocang:omiccioliRiccardo, vocang:pertosaLorenzo, vocang:timpanoSam, vocang:ribaudoSofia .
+    rel:friendOf vocang:bailettiTommaso, vocang:sanchiPiero, vocang:salhiSamir, vocang:rosatelliAnna, vocang:radicchiGiovanni, vocang:bianchiniGiovanni, vocang:pupitaAlberto,  vocang:mordacchiniCecilia, vocang:bdeouiEddy, vocang:bragariAlexandru, vocang:filasetaAngelo, vocang:savoGiorgia, vocang:battaglinoNicole, vocang:omiccioliRiccardo, vocang:pertosaLorenzo, vocang:timpanoSam, vocang:ribaudoSofia .
 
 vocang:salhiSamir
     a vocang:Vocaboliere ;
@@ -357,7 +357,7 @@ vocang:tronettiElisa
     foaf:gender "female" ;
     org:memberOf vocang:vocabolieriOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/tronettiElisa.jpg" ;
-    rel:friendOf vocang:sanchiPiero ;
+    rel:friendOf vocang:sanchiPiero, vocang:bailettiTommaso ;
     rel:spouseOf vocang:talmiAlessandro .
 
 vocang:ingargiolaAndrea
@@ -374,6 +374,7 @@ vocang:sanchiPiero
     foaf:firstName "Piero" ;
     foaf:lastName "Sanchi" ;
     foaf:gender "male" ;
+    rel:friendOf vocang:bailettiTommaso ;
     org:memberOf vocang:vocabolieriOrg .
 
 vocang:bermucaMorena
@@ -388,16 +389,6 @@ vocang:badialiLorenzo
     a vocang:Vocaboliere ;
     foaf:firstName "Lorenzo" ;
     foaf:lastName "Badiali" ;
-    foaf:gender "male" ;
-    org:memberOf vocang:vocabolieriOrg ;
-    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/badialiLorenzo.jpg" ;
-    rel:friendOf vocang:pertosaLorenzo .
-
-vocang:badialiLorenzo
-    a vocang:Vocaboliere ;
-    foaf:firstName "Lorenzo" ;
-    foaf:lastName "Badiali" ;
-    foaf:nick "Loxy" ;
     foaf:gender "male" ;
     org:memberOf vocang:vocabolieriOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/badialiLorenzo.jpg" ;
@@ -478,6 +469,36 @@ vocang:abisAlessio
     foaf:gender "male" ;
     org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:filasetaAngelo, vocang:pertosaLorenzo, vocang:morettiLeonardo, vocang:ciurnelliLuna, vocang:paoliMichele .
+
+vocang:abisAlessio
+    a vocang:Vocaboliere ;
+    foaf:firstName "Alessio" ;
+    foaf:lastName "Abis" ;
+    foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:filasetaAngelo, vocang:pertosaLorenzo, vocang:morettiLeonardo, vocang:ciurnelliLuna, vocang:paoliMichele .
+
+vocang:grasselliFrancesco
+    a vocang:Vocaboliere ;
+    foaf:firstName "Francesco Maria" ;
+    foaf:lastName "Grasselli" ;
+    foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:paoliMichele .
+ 
+vocang:bailettiTommaso
+    a vocang:Vocaboliere ;
+    foaf:firstName "Tommaso" ;
+    foaf:lastName "Bailetti" ;
+    foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg .
+
+vocang:bassiAndrea
+    a vocang:Vocaboliere ;
+    foaf:firstName "Andrea" ;
+    foaf:lastName "Bassi" ;
+    foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg .
 
 # Other Author Individuals
 
@@ -1328,16 +1349,6 @@ vocang:canama
     skos:example "Ho visto un cartellone sponsorizzare l'uso della canama oggi."@it;
     dct:created "2022-08-26" ;
     dct:creator vocang:nardiniArianna , vocang:pupitaAlberto .
-
-vocang:pandiminia
-    a vocang:Parolangelo ;
-    skos:prefLabel "Pandiminia"@it ;
-    lexinfo:pronunciation "/pan • di • mi • nia/"@it ;
-    skos:definition "Una pandemia di Minions che scoppia su Via Flaminia."@it ;
-    skos:example "Dobbiamo per forza prendere l'autostrada a causa della pandiminia."@it;
-    dct:created "2022-09-18" ;
-    dct:creator vocang:bragariAlexandru .
-
 
 vocang:cortatoria
     a vocang:Parolangelo ;
@@ -5840,6 +5851,16 @@ vocang:cheescocca
     dct:created "2023-06-07" ;
     dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
 
+vocang:vampirla
+    a vocang:Parolangelo ;
+    skos:prefLabel "Vampirla"@it ;
+    lexinfo:pronunciation "/vam • pìr • la/"@it ;
+    skos:definition "Un vampiro che dispone di scarso acume, incline a essere ingannato con facilità."@it ;
+    skos:example "Ah, ecco lì il famigerato vampiro dal quoziente intellettivo appena sopra quello di un fungo! È così ingenuo che potresti convincerlo che l'aglio sia il nuovo trend di moda per i vampiri. È davvero un vampirla!"@it ;
+    dct:created "2023-06-10" ;
+    skos:related vocang:pompirla ;
+    dct:creator vocang:ribaudoSofia, vocang:pertosaLorenzo .
+
 vocang:vegestazione
     a vocang:Parolangelo ;
     skos:prefLabel "Vegestazione"@it ;
@@ -6626,9 +6647,183 @@ vocang:paschia
 vocang:paschietta
     a vocang:Parolangelo ;
     skos:prefLabel "Paschietta"@it ;
-    lexinfo:pronunciation "/pa • schiét •ta/"@it ;
+    lexinfo:pronunciation "/pa • schiét • ta/"@it ;
     skos:definition "Riposo che avviene durante la giornata seguente a quella della Pasqua."@it;
     skos:example "A Pasquetta dopo pranzo sono sempre estremamente stanco, credo proprio che sia il momento di una bella paschietta!"@it ;
     skos:related vocang:paschia ;
     dct:created "2023-07-17" ;
     dct:creator vocang:timpanoSam .
+
+vocang:trinitangelo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Trinitangelo"@it ;
+    lexinfo:pronunciation "/tri • ni • tàn • ge • lo/"@it ;
+    skos:definition "I tre vocabolieri che hanno l'indice di contributo assoluto più alto, ovvero le tre persone fisiche che hanno contribuito a inventare il maggior numero di parolangelo."@it;
+    skos:example "Se ti servono chiarimenti riguardo il vocabolangelo puoi chiedere ad un vocaboladmin. Tuttavia, è molto più probabile che un membro della trinitangelo conosca più parole, visto il suo altro livello di contribuzione!"@it ;
+    skos:related vocang:vocaboladmin, vocang:vocabolangelo, vocang:angelario, vocang:parolangelo, vocang:apostolangelo, vocang:dizionangelo, vocang:vocaboliere, vocang:vocabolangelare, vocang:vocaboregolangelo, vocang:parolarcangelo, vocang:slangelo, vocang:concettangelo, vocang:vocaboreato;
+    dct:created "2023-07-22" ;
+    dct:creator vocang:paoliMichele .
+
+vocang:ipposbirro
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ipposbirro"@it ;
+    lexinfo:pronunciation "/ip • po • ṣbìr • ro/"@it ;
+    skos:definition "Individuo, appartenente alle forze dell'ordine, in sella a un cavallo."@it;
+    skos:example "Stavo tranquillamente viaggiando in autostrada, e ad una certa, non so come, mi hanno superato degli ipposbirri al galoppo!"@it ;
+    skos:note "Questa è la prima parola inventata da Francesco che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
+    dct:created "2023-07-20" ;
+    dct:creator vocang:paoliMichele, vocang:grasselliFrancesco .
+
+vocang:pirosbirro
+    a vocang:Parolangelo ;
+    skos:prefLabel "Pirosbirro"@it ;
+    lexinfo:pronunciation "/pi • ro • ṣbìr • ro/"@it ;
+    skos:definition "Pompiere, vigile del fuoco."@it;
+    skos:example "Ho dato fuoco ai capelli di Michele solo per vedere arrivare i pirosbirri!"@it ;
+    dct:created "2023-07-20" ;
+    skos:related vocang:ipposbirro ;
+    dct:creator vocang:paoliMichele, vocang:grasselliFrancesco .
+
+vocang:idrosbirro
+    a vocang:Parolangelo ;
+    skos:prefLabel "Idrosbirro"@it ;
+    lexinfo:pronunciation "/i • dro • ṣbìr • ro/"@it ;
+    skos:definition "Individuo appartenente al Corpo delle capitanerie di porto - Guardia costiera."@it;
+    skos:example "Alberto è andato a pesca con la dinamite, in un attimo è stato circondato dalle lance degli idrosbirri!"@it ;
+    dct:created "2023-07-20" ;
+    skos:related vocang:ipposbirro, vocang:pirosbirro ;
+    dct:creator vocang:paoliMichele, vocang:grasselliFrancesco .
+
+vocang:boscosbirro
+    a vocang:Parolangelo ;
+    skos:prefLabel "Boscosbirro"@it ;
+    lexinfo:pronunciation "/bos • co • ṣbìr • ro/"@it ;
+    skos:definition "Individuo appartenente al Corpo forestale dello Stato."@it;
+    skos:example "Stavo defecando dietro un albero e mi hanno sorpreso i boscosbirri, che paura!"@it ;
+    dct:created "2023-07-20" ;
+    skos:related vocang:ipposbirro, vocang:pirosbirro, vocang:idrosbirro ;
+    dct:creator vocang:paoliMichele, vocang:grasselliFrancesco .
+
+vocang:aviosbirro
+    a vocang:Parolangelo ;
+    skos:prefLabel "Aviosbirro"@it ;
+    lexinfo:pronunciation "/a • vio • ṣbìr • ro/"@it ;
+    skos:definition "Individuo appartenente all'Aeronautica Militare."@it;
+    skos:example "Esiste un famoso film animato in cui un maiale guida un piccolo aereo rosso e viene continuamente inseguito dagli aviosbirri."@it ;
+    dct:created "2023-07-20" ;
+    skos:related vocang:ipposbirro, vocang:pirosbirro, vocang:idrosbirro, vocang:boscosbirro;
+    dct:creator vocang:paoliMichele, vocang:grasselliFrancesco .
+
+vocang:suiciclo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Suiciclio"@it ;
+    lexinfo:pronunciation "/sui • cì • clo/"@it ;
+    skos:definition "Veicolo a due ruote che a causa delle sue condizioni risulta estremamente pericoloso da guidare."@it;
+    skos:example "La settimana scorsa sono finito all'ospedale dopo che sono caduto dal mio suiciclo. Forse guidare una bicicletta con una ruota non attaccata al telaio non era una grande idea."@it ;
+    dct:created "2023-07-22" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:integratini
+    a vocang:Parolangelo ;
+    skos:prefLabel "Integratini"@it ;
+    lexinfo:pronunciation "/in • te • gra • tì • ni/"@it ;
+    skos:definition "Dose di grattini e coccole che arriva nel momento del bisogno."@it;
+    skos:example "Sono in carenza di affetto. Avrei proprio bisogno di un po' di integratini."@it ;
+    dct:created "2023-07-22" ;
+    skos:note "Non esiste la versione singolare di questa parolangelo" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
+
+vocang:docpostare
+    a vocang:Parolangelo ;
+    skos:prefLabel "Docpostare"@it ;
+    lexinfo:pronunciation "/doc • pos • stà • re/"@it ;
+    skos:definition "Praticare shitposting su della documentazione."@it;
+    skos:example "I vocaboladmin amano docpostare. L'inserimento di meme in documentazione rende generalmente più felici e produttivi."@it ;
+    dct:created "2023-07-28" ;
+    skos:note "Questa è la prima parola inventata da Tommaso che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
+    dct:creator vocang:bailettiTommaso .
+
+vocang:jojopostare
+    a vocang:Parolangelo ;
+    skos:prefLabel "Jojopostare"@it ;
+    skos:definition "Docpostare facendo delle citazioni alla famosa opera \"Le bizzarre avventure di JoJo\"."@it;
+    skos:example "Gli sviluppatori di Vue si sono divertiti a jojopostare quando hanno steso la loro documentazione. Se ci fai caso ogni tanto compare qualche \"ZA WARUDO\" completamente a caso negli esempi!"@it ;
+    dct:created "2023-07-28" ;
+    schema:url "https://vue-i18n.intlify.dev/guide/essentials/syntax.html#linked-messages" ;
+    dct:creator vocang:bailettiTommaso .
+
+vocang:farmacina
+    a vocang:Parolangelo ;
+    skos:prefLabel "Farmacina"@it ;
+    lexinfo:pronunciation "/far • ma • cì • na/"@it ;
+    skos:definition "Attività commerciale specializzata nella vendita di prodotti farmaceutici di origine cinese, caratterizzati da una qualità molto scarsa."@it;
+    skos:example "Ieri siamo entrati in un luogo chiamato 'Tempio dei Rimedi Cinesi a Sorpresa'. Ci ha accolto una signora dicendoci: \"Qui da noi, potrete trovare una vasta selezione di prodotti farmaceutici cinesi... di una qualità così sorprendente che vi lasceranno senza parole!\". Ci serviva del paracetamolo, ma sono riuscito ad estorcerci delle erbe aromatiche.\"Mettetele a bagno in acqua calda per qualche minuto e poi bevete!\" ci ha detto la signora. Oggi siamo dovuti correre in ospedale per un'intossicazione alimentare! Mai più in una farmacina..."@it ;
+    dct:created "2023-07-27" ;
+    dct:creator vocang:bassiAndrea, vocang:radicchiGiovanni, vocang:bianchiniGiovanni, vocang:minoccheriAlessandra .
+
+vocang:nikoba
+    a vocang:Parolangelo ;
+    skos:prefLabel "Nikoba"@it ;
+    skos:definition "Spiedino di tonno scottato, specificatamente preparato utilizzando tonno pescato a morsi nei mare del Giappone."@it;
+    skos:example "Hai già mangiato al nuovo ristorante giapponese? Li servono dei nikoba eccezionali!"@it ;
+    skos:note "La parolangelo nasce da una riflessione su un possibile nome d'arte per \"Nicole Battaglino\". Nikoba è stata una delle proposte ed è stata pensata come una parola che potrebbe riferirsi ad un possibile nuovo piatto giapponese." ;
+    dct:created "2023-07-26" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
+
+vocang:pompirla
+    a vocang:Parolangelo ;
+    skos:prefLabel "Pompirla"@it ;
+    lexinfo:pronunciation "/pom • pìr • la/"@it ;
+    skos:definition "Un individuo con una notevole massa muscolare ma con una marcata mancanza di acume intellettuale."@it;
+    skos:example "Pensava di poter sollevare un'auto a mani nude e gli è venuto il colpo della strega, che pompirla!"@it ;
+    dct:created "2023-07-26" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:litigantropo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Litigantropo"@it ;
+    lexinfo:pronunciation "/li • ti • gàn • tro • po/"@it ;
+    skos:definition "Individuo solitamente pacifico ma che, in circostanze eccezionali ed estremamente specifiche, tende ad infuriarsi e acquisisce la propensione ad assumere un comportamento combattivo, talvolta con inclinazione alla pura violenza."@it;
+    skos:example "La mia ragazza è solitamente molto tranquilla ma ieri ho scoperto che in realtà è un litigrantropo. In biblioteca mi stava sussurando delle domande su come migliorare il suo documento di tesi e un ragazzo davanti a noi ci ha chiesto di fare silenzio. A quanto pare l'ha presa sul personale, visto che gli ha tirato un pugno dritto sul naso!"@it ;
+    dct:created "2023-07-26" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:neocaboliere
+    a vocang:Parolangelo ;
+    skos:prefLabel "Neocaboliere"@it ;
+    lexinfo:pronunciation "/ne • o • ca • bo • liè • re/"@it ;
+    skos:definition "Vocaboliere da poco, che ha inventato poche parolangelo o slangelo."@it;
+    skos:example "Ieri tommaso ha inventato la sua prima parolangelo! È sempre bello accogliere dei neocabolieri nella grande famiglia del vocabolangelo!"@it ;
+    skos:related vocang:vocaboladmin, vocang:vocabolangelo, vocang:angelario, vocang:parolangelo, vocang:apostolangelo, vocang:dizionangelo, vocang:vocaboliere, vocang:vocabolangelare, vocang:vocaboregolangelo, vocang:parolarcangelo, vocang:slangelo, vocang:concettangelo, vocang:vocaboreato, vocang:trinitangelo ;
+    dct:created "2023-07-28" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:rotatroia
+    a vocang:Parolangelo ;
+    skos:prefLabel "Rotatroia"@it ;
+    lexinfo:pronunciation "/ro • ta • trò • ia/"@it ;
+    skos:definition "Rotatoria stradale molto piccola, che quasi non ha senso di esistere."@it;
+    skos:example "Ieri non ho visto quella rotatroia e la ho scavalcata con la mia Audi! Quel punto potrebbe tranquillamente essere un incrocio."@it ;
+    skos:related vocang:incrociatoria, vocang:cortatoria, vocang:rotatatoria ;
+     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/rotatroia.jpg" ;
+    dct:created "2023-07-25" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
+
+vocang:mirangelo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Mirangelo"@it ;
+    lexinfo:pronunciation "/mi • ràn • ge • lo/"@it ;
+    skos:definition "Fenomeno che si verifica nella mente di una persona che è sicura della presenza di una parolangelo all'interno del vocabolangelo ma che poi risulta assente."@it;
+    skos:example "Usavo sempre la parola rotatroia pensando fosse una parolangelo, e invece era tutto solo un mirangelo! Ho rimediato proponendo effettivamente la parola ai vocaboladmin."@it ;
+    skos:related vocang:neocaboliere, vocang:vocaboladmin, vocang:vocabolangelo, vocang:angelario, vocang:parolangelo, vocang:apostolangelo, vocang:dizionangelo, vocang:vocaboliere, vocang:vocabolangelare, vocang:vocaboregolangelo, vocang:parolarcangelo, vocang:slangelo, vocang:concettangelo, vocang:vocaboreato, vocang:trinitangelo ;
+    dct:created "2023-07-28" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:storta
+    a vocang:Parolangelo ;
+    skos:prefLabel "Storta"@it ;
+    lexinfo:pronunciation "/Stór • ta/"@it ;
+    skos:definition "Torta che è stata conservata in maniera non corretta e che conseguentemente perso la sua consistenza originale."@it;
+    skos:example "La Duchessa andava messa in congelatore, non in frigo! Ora è diventata irrimediabilmente una storta!"@it ;
+    dct:created "2023-06-24" ;
+    dct:creator vocang:orlandoNicola .
