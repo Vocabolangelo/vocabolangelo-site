@@ -3428,7 +3428,7 @@ vocang:promemuoria
     skos:prefLabel "Promemuoria"@it ;
     lexinfo:pronunciation "/pro • me • muò • ria/"@it ;
     skos:definition "Promemoria per ricordarsi della morte propria o di un'altra persona."@it ;
-    skos:example "Ho aggiunto un promemuoria al mio calendario per la prossima settimana. Mi lancerò da 5000 metri di quota senza paracadute."@it ;
+    skos:example "Ho aggiunto un promemuoria al mio calendario per la prossima settimana. Andrò a fare skydie a 5000 metri di quota."@it ;
     dct:created "2023-02-07" ;
     dct:creator vocang:orlandoNicola, vocang:battaglinoNicole .
 
