@@ -6716,7 +6716,7 @@ vocang:aviosbirro
 
 vocang:suiciclo
     a vocang:Parolangelo ;
-    skos:prefLabel "Suiciclio"@it ;
+    skos:prefLabel "Suiciclo"@it ;
     lexinfo:pronunciation "/sui • cì • clo/"@it ;
     skos:definition "Veicolo a due ruote che a causa delle sue condizioni risulta estremamente pericoloso da guidare."@it;
     skos:example "La settimana scorsa sono finito all'ospedale dopo che sono caduto dal mio suiciclo. Forse guidare una bicicletta con una ruota non attaccata al telaio non era una grande idea."@it ;
