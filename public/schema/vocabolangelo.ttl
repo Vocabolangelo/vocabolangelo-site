@@ -5015,7 +5015,7 @@ vocang:italinano
     lexinfo:pronunciation "/i • ta • li • nà • no/"@it ;
     skos:definition "Una persona molto bassa di nazionalità italiana."@it ;
     skos:example "Marco è un italinano, ama la pizza e gli spaghetti ma a volte non gli concedono di fare le giostre."@it ;
-    skos:related vocang:mussulmano ;
+    skos:related vocang:mussulnano ;
     dct:created "2023-04-08" ;
     dct:creator vocang:timpanoSam .
 
@@ -6517,7 +6517,7 @@ vocang:feticlista
     dct:created "2023-07-13" ;
     dct:creator vocang:filasetaAngelo .
 
-vocang:gozziode
+vocang:gozzoide
     a vocang:Parolangelo ;
     skos:prefLabel "Gozzoide"@it ;
     lexinfo:pronunciation "/goz • zòi • de/"@it ;
