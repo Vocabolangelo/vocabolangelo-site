@@ -4064,8 +4064,8 @@ vocang:filmoccole
     a vocang:Parolangelo ;
     skos:prefLabel "Filmoccole"@it ;
     lexinfo:pronunciation "/fil • mòc • co • le/"@it ;
-    skos:definition "Superficie ricca di briciole."@it;
-    skos:example "Ci siamo fatti delle filmoccole stupende mentre guardavamo \"Il Grande Lebowski\""@it;
+    skos:definition "Coccole fatte o ricevute mentre si sta visionando un film."@it;
+    skos:example "Ci siamo fatti delle filmoccole stupende mentre guardavamo \"Il Grande Lebowski\"."@it;
     dct:created "2023-02-24" ;
     dct:creator vocang:battaglinoNicole .
 
