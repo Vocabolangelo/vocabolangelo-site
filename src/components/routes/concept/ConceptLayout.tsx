@@ -12,8 +12,12 @@ import InnerWrapper from '../../common/story/InnerWrapper'
 import {DateUtility} from '../../../util/DateUtility'
 import ConceptProps from '../../props/ConceptProps'
 import {Concept} from '../../../rdf/types/Concept'
+import {easterEggHandler} from '../../../util/easterEggHandler'
+import {useDispatch} from 'react-redux'
 
 export function ConceptLayout() {
+
+    const dispatch = useDispatch()
 
     const [concept, setConcept] =
         useState<Concept | undefined>(undefined)
@@ -22,9 +26,11 @@ export function ConceptLayout() {
     useEffect(() => {
         RDFStore.safeCall(store => {
             return new Concept(store.sym(vocang.uri + params.id))
-        }).then(concept =>
+        }).then(concept => {
+            console.log(concept)
             setConcept(concept)
-        )
+            easterEggHandler(concept, dispatch)
+        })
     }, [params.id])
 
     if(concept !== undefined) {

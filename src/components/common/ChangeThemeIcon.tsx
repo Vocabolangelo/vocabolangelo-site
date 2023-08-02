@@ -1,7 +1,7 @@
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {useDispatch, useSelector} from 'react-redux'
 import {State} from '../../state/State'
-import {faMoon, faSun, IconDefinition} from '@fortawesome/free-solid-svg-icons'
+import {faMoon, faQuestion, faSun, IconDefinition} from '@fortawesome/free-solid-svg-icons'
 import {VocabolangeloTheme} from '../../classes/VocabolangeloTheme'
 import {setTheme} from '../../state/Store'
 
@@ -18,6 +18,7 @@ export default function ChangeThemeIcon() {
         case(VocabolangeloTheme.WHITE):
             return faSun
         }
+        return faQuestion
     }
  
     return <FontAwesomeIcon
