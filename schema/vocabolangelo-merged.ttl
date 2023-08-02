@@ -3003,7 +3003,7 @@
 <http://www.vocabolangelo.org/promemuoria> <http://www.w3.org/2004/02/skos/core#prefLabel> "Promemuoria"@it .
 <http://www.vocabolangelo.org/promemuoria> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/pro • me • muò • ria/"@it .
 <http://www.vocabolangelo.org/promemuoria> <http://www.w3.org/2004/02/skos/core#definition> "Promemoria per ricordarsi della morte propria o di un'altra persona."@it .
-<http://www.vocabolangelo.org/promemuoria> <http://www.w3.org/2004/02/skos/core#example> "Ho aggiunto un promemuoria al mio calendario per la prossima settimana. Mi lancerò da 5000 metri di quota senza paracadute."@it .
+<http://www.vocabolangelo.org/promemuoria> <http://www.w3.org/2004/02/skos/core#example> "Ho aggiunto un promemuoria al mio calendario per la prossima settimana. Andrò a fare skydie a 5000 metri di quota."@it .
 <http://www.vocabolangelo.org/promemuoria> <http://purl.org/dc/terms/created> "2023-02-07" .
 <http://www.vocabolangelo.org/promemuoria> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/orlandoNicola> .
 <http://www.vocabolangelo.org/promemuoria> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/battaglinoNicole> .
@@ -3536,8 +3536,8 @@
 <http://www.vocabolangelo.org/filmoccole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/filmoccole> <http://www.w3.org/2004/02/skos/core#prefLabel> "Filmoccole"@it .
 <http://www.vocabolangelo.org/filmoccole> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/fil • mòc • co • le/"@it .
-<http://www.vocabolangelo.org/filmoccole> <http://www.w3.org/2004/02/skos/core#definition> "Superficie ricca di briciole."@it .
-<http://www.vocabolangelo.org/filmoccole> <http://www.w3.org/2004/02/skos/core#example> "Ci siamo fatti delle filmoccole stupende mentre guardavamo \"Il Grande Lebowski\""@it .
+<http://www.vocabolangelo.org/filmoccole> <http://www.w3.org/2004/02/skos/core#definition> "Coccole fatte o ricevute mentre si sta visionando un film."@it .
+<http://www.vocabolangelo.org/filmoccole> <http://www.w3.org/2004/02/skos/core#example> "Ci siamo fatti delle filmoccole stupende mentre guardavamo \"Il Grande Lebowski\"."@it .
 <http://www.vocabolangelo.org/filmoccole> <http://purl.org/dc/terms/created> "2023-02-24" .
 <http://www.vocabolangelo.org/filmoccole> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/battaglinoNicole> .
 <http://www.vocabolangelo.org/pisellicottero> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -4349,7 +4349,7 @@
 <http://www.vocabolangelo.org/italinano> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/i • ta • li • nà • no/"@it .
 <http://www.vocabolangelo.org/italinano> <http://www.w3.org/2004/02/skos/core#definition> "Una persona molto bassa di nazionalità italiana."@it .
 <http://www.vocabolangelo.org/italinano> <http://www.w3.org/2004/02/skos/core#example> "Marco è un italinano, ama la pizza e gli spaghetti ma a volte non gli concedono di fare le giostre."@it .
-<http://www.vocabolangelo.org/italinano> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/mussulmano> .
+<http://www.vocabolangelo.org/italinano> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/mussulnano> .
 <http://www.vocabolangelo.org/italinano> <http://purl.org/dc/terms/created> "2023-04-08" .
 <http://www.vocabolangelo.org/italinano> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/timpanoSam> .
 <http://www.vocabolangelo.org/ligattropo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -5680,15 +5680,15 @@
 <http://www.vocabolangelo.org/feticlista> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/feticlismo> .
 <http://www.vocabolangelo.org/feticlista> <http://purl.org/dc/terms/created> "2023-07-13" .
 <http://www.vocabolangelo.org/feticlista> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
-<http://www.vocabolangelo.org/gozziode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
-<http://www.vocabolangelo.org/gozziode> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gozzoide"@it .
-<http://www.vocabolangelo.org/gozziode> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/goz • zòi • de/"@it .
-<http://www.vocabolangelo.org/gozziode> <http://www.w3.org/2004/02/skos/core#definition> "Mammifero incline a ingerire quantità anomale di sostanze, sia alimentari che non alimentari."@it .
-<http://www.vocabolangelo.org/gozziode> <http://www.w3.org/2004/02/skos/core#example> "Leonardo aveva fame, l'ho visto mangiare dei sassi per placare la fame... Che gozzoide!"@it .
-<http://www.vocabolangelo.org/gozziode> <http://purl.org/dc/terms/created> "2023-07-13" .
-<http://www.vocabolangelo.org/gozziode> <http://www.w3.org/2004/02/skos/core#note> "Questa è la prima parolangelo inventata da Leonardo e Luna che è entrata nel Vocabolangelo, grazie e congratulazioni." .
-<http://www.vocabolangelo.org/gozziode> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/morettiLeonardo> .
-<http://www.vocabolangelo.org/gozziode> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/ciurnelliLuna> .
+<http://www.vocabolangelo.org/gozzoide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/gozzoide> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gozzoide"@it .
+<http://www.vocabolangelo.org/gozzoide> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/goz • zòi • de/"@it .
+<http://www.vocabolangelo.org/gozzoide> <http://www.w3.org/2004/02/skos/core#definition> "Mammifero incline a ingerire quantità anomale di sostanze, sia alimentari che non alimentari."@it .
+<http://www.vocabolangelo.org/gozzoide> <http://www.w3.org/2004/02/skos/core#example> "Leonardo aveva fame, l'ho visto mangiare dei sassi per placare la fame... Che gozzoide!"@it .
+<http://www.vocabolangelo.org/gozzoide> <http://purl.org/dc/terms/created> "2023-07-13" .
+<http://www.vocabolangelo.org/gozzoide> <http://www.w3.org/2004/02/skos/core#note> "Questa è la prima parolangelo inventata da Leonardo e Luna che è entrata nel Vocabolangelo, grazie e congratulazioni." .
+<http://www.vocabolangelo.org/gozzoide> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/morettiLeonardo> .
+<http://www.vocabolangelo.org/gozzoide> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/ciurnelliLuna> .
 <http://www.vocabolangelo.org/sgrower> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/sgrower> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sgrower"@it .
 <http://www.vocabolangelo.org/sgrower> <http://www.w3.org/2004/02/skos/core#definition> "Tipologia di pene che a primo impatto sembra classificabile come shower ma che ad un'analisi più attenta si rileva un grower."@it .
@@ -5868,7 +5868,7 @@
 <http://www.vocabolangelo.org/aviosbirro> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/paoliMichele> .
 <http://www.vocabolangelo.org/aviosbirro> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/grasselliFrancesco> .
 <http://www.vocabolangelo.org/suiciclo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
-<http://www.vocabolangelo.org/suiciclo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Suiciclio"@it .
+<http://www.vocabolangelo.org/suiciclo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Suiciclo"@it .
 <http://www.vocabolangelo.org/suiciclo> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/sui • cì • clo/"@it .
 <http://www.vocabolangelo.org/suiciclo> <http://www.w3.org/2004/02/skos/core#definition> "Veicolo a due ruote che a causa delle sue condizioni risulta estremamente pericoloso da guidare."@it .
 <http://www.vocabolangelo.org/suiciclo> <http://www.w3.org/2004/02/skos/core#example> "La settimana scorsa sono finito all'ospedale dopo che sono caduto dal mio suiciclo. Forse guidare una bicicletta con una ruota non attaccata al telaio non era una grande idea."@it .
@@ -6403,7 +6403,7 @@
 <http://www.vocabolangelo.org/beeribì> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/gozzonite> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/gozzoide> .
 <http://www.vocabolangelo.org/gozzonite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
-<http://www.vocabolangelo.org/italinano> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/mussulmano> .
+<http://www.vocabolangelo.org/italinano> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/mussulnano> .
 <http://www.vocabolangelo.org/italinano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/addiato> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/pubblino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -6859,8 +6859,6 @@
 <https://w3id.org/skgo/modsci#ArtificialIntelligence> <http://www.w3.org/2002/07/owl#equivalentClass> <https://w3id.org/skgo/modsci#ArtificialIntelligence> .
 <https://w3id.org/skgo/modsci#ArtificialIntelligence> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
 <https://w3id.org/skgo/modsci#ArtificialIntelligence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.vocabolangelo.org/mussulmano> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/italinano> .
-<http://www.vocabolangelo.org/mussulmano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
 <http://www.vocabolangelo.org/suscaAlessandra> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/rosatelliAnna> .
 <http://www.vocabolangelo.org/suscaAlessandra> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/suscaMatteo> .
 <http://www.vocabolangelo.org/suscaAlessandra> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/rosatelliAnna> .
@@ -6888,7 +6886,7 @@
 <http://www.vocabolangelo.org/caffettano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/sessorround> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/gozzoide> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/gozzonite> .
-<http://www.vocabolangelo.org/gozzoide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.vocabolangelo.org/gozzoide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/caratterrore> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/bugture> .
 <http://www.vocabolangelo.org/caratterrore> <http://rdfs.org/scot/ns#synonym> <http://www.vocabolangelo.org/bugture> .
 <http://www.vocabolangelo.org/caratterrore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -7232,6 +7230,7 @@
 <http://www.vocabolangelo.org/istruttevole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/controrabbia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/stelleologo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/mussulnano> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/italinano> .
 <http://www.vocabolangelo.org/mussulnano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/chiappello> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/natalè> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/nataleddy> .
@@ -8583,7 +8582,6 @@
 <http://www.vocabolangelo.org/rinaldiFrancesca> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/bianchiniGiovanni> .
 <http://www.vocabolangelo.org/brebolanza> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/debolanza> .
 <http://www.vocabolangelo.org/brebolanza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
-<http://www.vocabolangelo.org/gozziode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/ramadanare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/disabilabilità> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/disabilabile> .
 <http://www.vocabolangelo.org/disabilabilità> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .

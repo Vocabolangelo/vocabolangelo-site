@@ -1,0 +1,1 @@
+(self.webpackChunkvocabolangelo_site=self.webpackChunkvocabolangelo_site||[]).push([[670],{7670:function(){}}]);

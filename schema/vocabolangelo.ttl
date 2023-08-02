@@ -3428,7 +3428,7 @@ vocang:promemuoria
     skos:prefLabel "Promemuoria"@it ;
     lexinfo:pronunciation "/pro • me • muò • ria/"@it ;
     skos:definition "Promemoria per ricordarsi della morte propria o di un'altra persona."@it ;
-    skos:example "Ho aggiunto un promemuoria al mio calendario per la prossima settimana. Mi lancerò da 5000 metri di quota senza paracadute."@it ;
+    skos:example "Ho aggiunto un promemuoria al mio calendario per la prossima settimana. Andrò a fare skydie a 5000 metri di quota."@it ;
     dct:created "2023-02-07" ;
     dct:creator vocang:orlandoNicola, vocang:battaglinoNicole .
 
@@ -4064,8 +4064,8 @@ vocang:filmoccole
     a vocang:Parolangelo ;
     skos:prefLabel "Filmoccole"@it ;
     lexinfo:pronunciation "/fil • mòc • co • le/"@it ;
-    skos:definition "Superficie ricca di briciole."@it;
-    skos:example "Ci siamo fatti delle filmoccole stupende mentre guardavamo \"Il Grande Lebowski\""@it;
+    skos:definition "Coccole fatte o ricevute mentre si sta visionando un film."@it;
+    skos:example "Ci siamo fatti delle filmoccole stupende mentre guardavamo \"Il Grande Lebowski\"."@it;
     dct:created "2023-02-24" ;
     dct:creator vocang:battaglinoNicole .
 
@@ -5015,7 +5015,7 @@ vocang:italinano
     lexinfo:pronunciation "/i • ta • li • nà • no/"@it ;
     skos:definition "Una persona molto bassa di nazionalità italiana."@it ;
     skos:example "Marco è un italinano, ama la pizza e gli spaghetti ma a volte non gli concedono di fare le giostre."@it ;
-    skos:related vocang:mussulmano ;
+    skos:related vocang:mussulnano ;
     dct:created "2023-04-08" ;
     dct:creator vocang:timpanoSam .
 
@@ -6517,7 +6517,7 @@ vocang:feticlista
     dct:created "2023-07-13" ;
     dct:creator vocang:filasetaAngelo .
 
-vocang:gozziode
+vocang:gozzoide
     a vocang:Parolangelo ;
     skos:prefLabel "Gozzoide"@it ;
     lexinfo:pronunciation "/goz • zòi • de/"@it ;
@@ -6716,7 +6716,7 @@ vocang:aviosbirro
 
 vocang:suiciclo
     a vocang:Parolangelo ;
-    skos:prefLabel "Suiciclio"@it ;
+    skos:prefLabel "Suiciclo"@it ;
     lexinfo:pronunciation "/sui • cì • clo/"@it ;
     skos:definition "Veicolo a due ruote che a causa delle sue condizioni risulta estremamente pericoloso da guidare."@it;
     skos:example "La settimana scorsa sono finito all'ospedale dopo che sono caduto dal mio suiciclo. Forse guidare una bicicletta con una ruota non attaccata al telaio non era una grande idea."@it ;
