@@ -1,7 +1,9 @@
 import {Slangelo} from '../../../rdf/types/Slangelo'
-import ConceptList from '../concept/ConceptList'
+import {ConceptList} from '../concept/ConceptList'
 
-export default function SlangeloList() {
+export const SLANGELO_ROUTE = '/slangelo'
+
+export function SlangeloList() {
     return <ConceptList
         title={'Slangelo'}
         subtitle={
@@ -15,5 +17,3 @@ export default function SlangeloList() {
             })}
     />
 }
-
-

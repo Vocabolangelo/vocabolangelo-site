@@ -1,6 +1,7 @@
 import {Link} from 'react-router-dom'
-import {PAROLANGELO_ROUTE} from '../../concept/ConceptList'
 import Banner from '../../../common/story/Banner'
+
+import {PAROLANGELO_ROUTE} from '../../concept/ConceptList'
 
 export default function AngelochiBanner() {
     return <Banner

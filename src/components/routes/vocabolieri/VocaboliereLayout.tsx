@@ -7,12 +7,13 @@ import {Vocaboliere} from '../../../rdf/types/Vocaboliere'
 import ConditionalComponent from '../../common/conditional/ConditionalComponent'
 import {NamedSection} from '../../common/NamedSection'
 import {List} from '../../common/List'
-import {PAROLANGELO_ROUTE} from '../concept/ConceptList'
 import {VOCABOLIERI_ROUTE} from './Vocabolieri'
 import InnerWrapper from '../../common/story/InnerWrapper'
 import {Parolangelo} from '../../../rdf/types/Parolangelo'
 import {Organization} from '../../../rdf/types/Organization'
 import VocaboliereProps from '../../props/VocaboliereProps'
+
+import {PAROLANGELO_ROUTE} from '../concept/ConceptList'
 
 export function VocaboliereLayout() {
 

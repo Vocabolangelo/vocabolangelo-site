@@ -1,7 +1,7 @@
-import ConceptList from '../concept/ConceptList'
 import {Parolangelo} from '../../../rdf/types/Parolangelo'
+import {ConceptList} from '../concept/ConceptList'
 
-export default function ParolangeloList() {
+export function ParolangeloList() {
     return <ConceptList
         title={'Parolangelo'}
         subtitle={
@@ -16,4 +16,3 @@ export default function ParolangeloList() {
         }
     />
 }
-

@@ -1,14 +1,14 @@
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faFont, faQuoteLeft, faPhotoFilm, faPerson} from '@fortawesome/free-solid-svg-icons'
-import {PAROLANGELO_ROUTE, SLANGELO_ROUTE} from '../routes/concept/ConceptList'
 import {CONTENUTI_ROUTE} from '../routes/contenuti/ContenutiIndex'
 import {VOCABOLIERI_ROUTE} from '../routes/vocabolieri/Vocabolieri'
+import {SLANGELO_ROUTE} from '../routes/slangelo/SlangeloList'
 
-const navbarItems = [
+export const navbarItems = [
     {
         icon: <FontAwesomeIcon icon={faFont} color={'white'}/>,
         title: 'Parolangelo',
-        link: PAROLANGELO_ROUTE,
+        link: '/parolangelo',
     },
     {
         icon: <FontAwesomeIcon icon={faQuoteLeft} color={'white'}/>,
@@ -27,4 +27,3 @@ const navbarItems = [
     },
 ]
 
-export default navbarItems

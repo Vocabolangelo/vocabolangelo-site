@@ -1,6 +1,5 @@
 import {createBrowserRouter} from 'react-router-dom'
 import RootIndex from '../components/routes/root/RootIndex'
-import {PAROLANGELO_ROUTE, SLANGELO_ROUTE} from '../components/routes/concept/ConceptList'
 import {ConceptLayout} from '../components/routes/concept/ConceptLayout'
 import React from 'react'
 import Vocabolieri, {VOCABOLIERI_ROUTE} from '../components/routes/vocabolieri/Vocabolieri'
@@ -14,8 +13,9 @@ import ContenutiIndex, {CONTENUTI_ROUTE} from '../components/routes/contenuti/Co
 import VocaboregolangeloIndex, {
     VOCABOREGOLANGELO_ROUTE
 } from '../components/routes/contenuti/vocaboregolangelo/VocaboregolangeloIndex'
-import SlangeloList from '../components/routes/slangelo/SlangeloList'
-import ParolangeloList from '../components/routes/parolangelo/ParolangeloList'
+import {SlangeloList, SLANGELO_ROUTE} from '../components/routes/slangelo/SlangeloList'
+import {ParolangeloList} from '../components/routes/parolangelo/ParolangeloList'
+import {PAROLANGELO_ROUTE} from '../components/routes/concept/ConceptList'
 
 export const defaultRouter = createBrowserRouter([
     {

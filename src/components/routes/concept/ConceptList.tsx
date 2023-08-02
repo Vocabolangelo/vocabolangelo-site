@@ -1,4 +1,4 @@
-import {useEffect, useState} from 'react'
+import React, {Dispatch, SetStateAction, useEffect, useState} from 'react'
 import {Parolangelo} from '../../../rdf/types/Parolangelo'
 import {vocang} from '../../../rdf/prefixes'
 import '../../../rdf/extensions/namedNodeExtensions'
@@ -13,36 +13,37 @@ import {
     SectionListHelper
 } from '../../../classes/SectionListHelper'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faCalendarDays, faArrowDownAZ} from '@fortawesome/free-solid-svg-icons'
+import {faArrowDownAZ, faCalendarDays} from '@fortawesome/free-solid-svg-icons'
 import {Concept} from '../../../rdf/types/Concept'
-
-export const PAROLANGELO_ROUTE = '/parolangelo'
-export const SLANGELO_ROUTE = '/slangelo'
+import RandomConceptButton from './RandomConceptButton'
 
 interface ConceptListProps {
     title: string
     subtitle: string
-    effect: (setConcept: React.Dispatch<React.SetStateAction<Concept[]>>,
+    effect: (setConcept: Dispatch<SetStateAction<Concept[]>>,
         helper: SectionListHelper<string, Concept>) => void
 }
-export default function ConceptList(props: ConceptListProps) {
 
-    const [concept, setConcept] = useState<Concept[]>([])
-    const [visibleConcept, setVisibleConcept] = useState<Concept[]>([])
+export const PAROLANGELO_ROUTE = '/parolangelo'
+
+export function ConceptList(props: ConceptListProps) {
+
+    const [concepts, setConcepts] = useState<Concept[]>([])
+    const [visibleConcepts, setVisibleConcepts] = useState<Concept[]>([])
     const [helper, setHelper] =
         useState<SectionListHelper<string, Concept>>(new AlphabeticConceptSectionListHelper())
     const [searchValue, setSearchValue]= useState<string>('')
 
     useEffect(() => {
-        props.effect(setConcept, helper)
+        props.effect(setConcepts, helper)
     }, [])
 
     useEffect(() => {
-        setVisibleConcept(concept.filter((c) => searchFilterStrategy(c, searchValue)))
-    },[concept, searchValue])
+        setVisibleConcepts(concepts.filter((c) => searchFilterStrategy(c, searchValue)))
+    },[concepts, searchValue])
 
     useEffect(() => {
-        setConcept(concept.sort((a, b) => helper.compareFn(a,b)))
+        setConcepts(concepts.sort((a, b) => helper.compareFn(a,b)))
     },[helper])
 
     function searchFilterStrategy(parolangelo: Parolangelo, str: string): boolean {
@@ -61,9 +62,10 @@ export default function ConceptList(props: ConceptListProps) {
                 <SearchBar handle={(search: string) => setSearchValue(search)}/>
                 <p></p>
                 <div className="align-center actions">
+                    <RandomConceptButton concept={concepts[Math.floor(Math.random() * concepts.length)]}/>
                     <div
                         onClick={() => setHelper(new AlphabeticConceptSectionListHelper())}
-                        className="button"
+                        style={{marginLeft: '1%'}} className="button"
                     >
                         <FontAwesomeIcon size={'lg'} icon={faArrowDownAZ}/>  Alfabetico
                     </div>
@@ -77,9 +79,9 @@ export default function ConceptList(props: ConceptListProps) {
             </header>
             <div className="index align-left">
                 <SectionList
-                    list={helper.list(visibleConcept)}
+                    list={helper.list(visibleConcepts)}
                     sectionTitle={(element) => helper.title(element)}
-                    sublist={(element) => helper.sublist(visibleConcept, element) }
+                    sublist={(element) => helper.sublist(visibleConcepts, element) }
                     content={(c: Parolangelo) =>
                         <Link to={`${PAROLANGELO_ROUTE}/${c.relativeUri(vocang)}`}>
                             <p> {c.prefLabel} </p>

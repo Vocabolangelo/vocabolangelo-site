@@ -1,8 +1,9 @@
 import {Link} from 'react-router-dom'
-import {PAROLANGELO_ROUTE} from '../../concept/ConceptList'
 import {ANGELOCHI_ROUTE} from './AngelochiIndex'
 import Spotlight from '../../../common/story/Spotlight'
 import {CONTENUTI_ROUTE} from '../ContenutiIndex'
+
+import {PAROLANGELO_ROUTE} from '../../concept/ConceptList'
 
 export default function FrettolangeloSpotlight() {
     return <Spotlight

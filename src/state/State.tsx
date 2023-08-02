@@ -1,4 +1,4 @@
-import {VocabolangeloTheme} from '../classes/VocabolangeloTheme';
+import {VocabolangeloTheme} from '../classes/VocabolangeloTheme'
 
 export interface State {
     theme: VocabolangeloTheme;

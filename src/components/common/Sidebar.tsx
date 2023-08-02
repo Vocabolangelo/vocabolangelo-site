@@ -1,8 +1,8 @@
 import React from 'react'
 import './Sidebar.css'
-import navbarItems from './NavbarItems'
 import { Link } from 'react-router-dom'
 import { FaTimes } from 'react-icons/fa'
+import {navbarItems} from './NavbarItems'
 
 interface SidebarProps {
     isOpen: boolean;

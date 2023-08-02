@@ -1,7 +1,8 @@
-import {PAROLANGELO_ROUTE} from '../../concept/ConceptList'
 import {Link} from 'react-router-dom'
 import Spotlight from '../../../common/story/Spotlight'
 import CountAndSoloCountProps from '../../../props/CountAndSoloCountProps'
+
+import {PAROLANGELO_ROUTE} from '../../concept/ConceptList'
 
 export default function SlangeloCountSpotlight(props: CountAndSoloCountProps) {
 

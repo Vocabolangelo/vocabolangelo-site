@@ -1,6 +1,7 @@
 import {Link} from 'react-router-dom'
-import {PAROLANGELO_ROUTE} from '../concept/ConceptList'
 import Spotlight from '../../common/story/Spotlight'
+
+import {PAROLANGELO_ROUTE} from '../concept/ConceptList'
 
 export default function OriginSpotlight() {
     return <Spotlight
