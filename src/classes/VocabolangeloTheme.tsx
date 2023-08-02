@@ -1,6 +1,9 @@
 import {StoryColor} from './story/StoryColor'
 import {Theme} from './Theme'
 
+/**
+ * Enum which contain all the possible Vocabolangelo Themes.
+ */
 export enum VocabolangeloTheme {
     BLACK = 0,
     VIOLET = 1,

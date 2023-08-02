@@ -1,5 +1,8 @@
 import { StoryColor } from './story/StoryColor'
 
+/**
+ * Utility class that defines the possible theme in the Story Theme.
+ */
 export class Theme {
 
     invert: boolean

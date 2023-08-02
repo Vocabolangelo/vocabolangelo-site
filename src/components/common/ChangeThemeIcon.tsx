@@ -30,7 +30,7 @@ export default function ChangeThemeIcon() {
 
     function setNewTheme() {
         let newTheme: VocabolangeloTheme = VocabolangeloTheme.WHITE
-        if(vocabolangeloTheme == VocabolangeloTheme.WHITE) {
+        if(vocabolangeloTheme == newTheme) {
             newTheme = VocabolangeloTheme.BLACK
         }
         localStorage.setItem('vocabolangeloTheme', newTheme.toString())
