@@ -17,16 +17,15 @@ export function Navbar (props: NavbarProps) {
             </p>
         </Link>
         <div className="menu-items">
-            {navbarItems.map((item, index) => {
-                console.log(item.link)
-                return <Link className="link" to={item.link} key={index}>
+            {navbarItems.map((item, index) =>
+                <Link className="link" to={item.link} key={index}>
                     <div className="actions stacked">
                         <p style={{fontStyle: 'bold'}}>
                             {item.icon} {item.title}
                         </p>
                     </div>
                 </Link>
-            })}
+            )}
         </div>
         <div className="icons-navbar">
             <div>
