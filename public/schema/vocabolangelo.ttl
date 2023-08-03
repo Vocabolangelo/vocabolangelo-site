@@ -509,6 +509,15 @@ vocang:aciobaniteiAiden
     rel:friendOf vocang:rosatelliAnna, vocang:suscaMatteo ;
     rel:spouseOf vocang:timpanoSam .
 
+vocang:battaglinoMarco
+    a vocang:Vocaboliere ;
+    foaf:firstName "Marco" ;
+    foaf:lastName "Battaglino" ;
+    foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:omiccioliRiccardo ;
+    rel:siblingOf vocang:battaglinoNicole .
+
 # Other Author Individuals
 
 vocang:chatGPT
