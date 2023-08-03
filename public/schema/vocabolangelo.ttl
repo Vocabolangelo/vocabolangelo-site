@@ -6657,7 +6657,7 @@ vocang:paschia
     a vocang:Parolangelo ;
     skos:prefLabel "Paschia"@it ;
     lexinfo:pronunciation "/pà • schia/"@it ;
-    skos:definition "Riposo che avviene durante la giornata di Pasqua."@it;
+    skos:definition "Stato di estasi e spensieratezza in cui ci trova durante la giornata di Pasqua."@it;
     skos:example "A Pasqua dopo pranzo sono sempre estremamente stanco, credo proprio che sia il momento di una bella paschia!"@it ;
     dct:created "2023-07-17" ;
     dct:creator vocang:timpanoSam .
@@ -6666,7 +6666,7 @@ vocang:paschietta
     a vocang:Parolangelo ;
     skos:prefLabel "Paschietta"@it ;
     lexinfo:pronunciation "/pa • schiét • ta/"@it ;
-    skos:definition "Riposo che avviene durante la giornata seguente a quella della Pasqua."@it;
+    skos:definition "Stato di estasi e spensieratezza in cui ci trova durante la giornata seguente a quella della Pasqua."@it;
     skos:example "A Pasquetta dopo pranzo sono sempre estremamente stanco, credo proprio che sia il momento di una bella paschietta!"@it ;
     skos:related vocang:paschia ;
     dct:created "2023-07-17" ;
