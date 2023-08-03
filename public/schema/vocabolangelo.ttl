@@ -6873,3 +6873,13 @@ vocang:metaomorfosi
     dct:created "2023-07-25" ;
     skos:note "Questa è la prima parola inventata da Aiden che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
     dct:creator vocang:rosatelliAnna, vocang:timpanoSam, vocang:aciobaniteiAiden .
+
+vocang:ragnolante
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ragnolante"@it ;
+    lexinfo:pronunciation "/ra • gno • làn • te/"@it ;
+    skos:definition "Ragno che si trova appeso a mezz'aria da una ragnatela. In questo stato, il ragno si mostra abile nel bilanciarsi con agilità sulle sue sottili filiere e nella trama della tela che lo sorregge. Questa posizione permette al ragno di osservare attentamente l'ambiente circostante, aspettando il momento opportuno per catturare la sua preda o per spostarsi in modo rapido ed efficiente lungo la tela. Il termine \"ragnolante\" cattura l'immagine di un ragno sospeso nel vuoto, dimostrando la sua abilità nell'affrontare l'ambiente aereo con le sue creazioni tessili."@it;
+    skos:example "Mentre passeggiavo nel bosco, mi sono trovato faccia a faccia con un ragnolante tra i rami degli alberi, una visione sia affascinante che inquietante."@it ;
+    dct:created "2023-07-29" ;
+    skos:note "Questa è la prima parola inventata da Marco che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
+    dct:creator vocang:battaglinoMarco .
