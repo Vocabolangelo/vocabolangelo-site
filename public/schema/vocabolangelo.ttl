@@ -6827,3 +6827,21 @@ vocang:storta
     skos:example "La Duchessa andava messa in congelatore, non in frigo! Ora è diventata irrimediabilmente una storta!"@it ;
     dct:created "2023-06-24" ;
     dct:creator vocang:orlandoNicola .
+
+vocang:storta
+    a vocang:Parolangelo ;
+    skos:prefLabel "Storta"@it ;
+    lexinfo:pronunciation "/Stór • ta/"@it ;
+    skos:definition "Torta che è stata conservata in maniera non corretta e che conseguentemente perso la sua consistenza originale."@it;
+    skos:example "La Duchessa andava messa in congelatore, non in frigo! Ora è diventata irrimediabilmente una storta!"@it ;
+    dct:created "2023-06-24" ;
+    dct:creator vocang:orlandoNicola .
+
+vocang:zamperotto
+    a vocang:Parolangelo ;
+    skos:prefLabel "Zamperotto"@it ;
+    lexinfo:pronunciation "/zam • pe • ròt • to/"@it ;
+    skos:definition "Animale in grado di raggiungere altezze notevoli saltando."@it;
+    skos:example "La hai vista? Quella cosa che è spuntata dall'erba saltando? Non ho idea di cosa possa essere, ma sicuramente è uno zamperotto."@it ;
+    dct:created "2023-07-30" ;
+    dct:creator vocang:suscaMatteo, vocang:ribaudoSofia .
