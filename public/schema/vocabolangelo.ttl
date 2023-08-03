@@ -500,6 +500,15 @@ vocang:bassiAndrea
     foaf:gender "male" ;
     org:memberOf vocang:vocabolieriOrg .
 
+vocang:aciobaniteiAiden
+    a vocang:Vocaboliere ;
+    foaf:firstName "Aiden" ;
+    foaf:lastName "Aciobanitei" ;
+    foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:rosatelliAnna, vocang:suscaMatteo ;
+    rel:spouseOf vocang:timpanoSam .
+
 # Other Author Individuals
 
 vocang:chatGPT
