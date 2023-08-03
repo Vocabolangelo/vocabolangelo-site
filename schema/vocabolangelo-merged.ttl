@@ -637,6 +637,21 @@
 <http://www.vocabolangelo.org/bassiAndrea> <http://xmlns.com/foaf/0.1/lastName> "Bassi" .
 <http://www.vocabolangelo.org/bassiAndrea> <http://xmlns.com/foaf/0.1/gender> "male" .
 <http://www.vocabolangelo.org/bassiAndrea> <http://www.w3.org/ns/org#memberOf> <http://www.vocabolangelo.org/vocabolieriOrg> .
+<http://www.vocabolangelo.org/aciobaniteiAiden> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Vocaboliere> .
+<http://www.vocabolangelo.org/aciobaniteiAiden> <http://xmlns.com/foaf/0.1/firstName> "Aiden" .
+<http://www.vocabolangelo.org/aciobaniteiAiden> <http://xmlns.com/foaf/0.1/lastName> "Aciobanitei" .
+<http://www.vocabolangelo.org/aciobaniteiAiden> <http://xmlns.com/foaf/0.1/gender> "male" .
+<http://www.vocabolangelo.org/aciobaniteiAiden> <http://www.w3.org/ns/org#memberOf> <http://www.vocabolangelo.org/vocabolieriOrg> .
+<http://www.vocabolangelo.org/aciobaniteiAiden> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/rosatelliAnna> .
+<http://www.vocabolangelo.org/aciobaniteiAiden> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/suscaMatteo> .
+<http://www.vocabolangelo.org/aciobaniteiAiden> <http://www.perceive.net/schemas/20021119/relationship/#spouseOf> <http://www.vocabolangelo.org/timpanoSam> .
+<http://www.vocabolangelo.org/battaglinoMarco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Vocaboliere> .
+<http://www.vocabolangelo.org/battaglinoMarco> <http://xmlns.com/foaf/0.1/firstName> "Marco" .
+<http://www.vocabolangelo.org/battaglinoMarco> <http://xmlns.com/foaf/0.1/lastName> "Battaglino" .
+<http://www.vocabolangelo.org/battaglinoMarco> <http://xmlns.com/foaf/0.1/gender> "male" .
+<http://www.vocabolangelo.org/battaglinoMarco> <http://www.w3.org/ns/org#memberOf> <http://www.vocabolangelo.org/vocabolieriOrg> .
+<http://www.vocabolangelo.org/battaglinoMarco> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/omiccioliRiccardo> .
+<http://www.vocabolangelo.org/battaglinoMarco> <http://www.perceive.net/schemas/20021119/relationship/#siblingOf> <http://www.vocabolangelo.org/battaglinoNicole> .
 <http://www.vocabolangelo.org/chatGPT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/skgo/modsci#ArtificialIntelligence> .
 <http://www.vocabolangelo.org/chatGPT> <http://xmlns.com/foaf/0.1/firstName> "ChatGPT" .
 <http://www.vocabolangelo.org/chatGPT> <https://schema.org/url> "https://openai.com/blog/chatgpt" .
@@ -5784,14 +5799,14 @@
 <http://www.vocabolangelo.org/paschia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/paschia> <http://www.w3.org/2004/02/skos/core#prefLabel> "Paschia"@it .
 <http://www.vocabolangelo.org/paschia> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/pà • schia/"@it .
-<http://www.vocabolangelo.org/paschia> <http://www.w3.org/2004/02/skos/core#definition> "Riposo che avviene durante la giornata di Pasqua."@it .
+<http://www.vocabolangelo.org/paschia> <http://www.w3.org/2004/02/skos/core#definition> "Stato di estasi e spensieratezza in cui ci trova durante la giornata di Pasqua."@it .
 <http://www.vocabolangelo.org/paschia> <http://www.w3.org/2004/02/skos/core#example> "A Pasqua dopo pranzo sono sempre estremamente stanco, credo proprio che sia il momento di una bella paschia!"@it .
 <http://www.vocabolangelo.org/paschia> <http://purl.org/dc/terms/created> "2023-07-17" .
 <http://www.vocabolangelo.org/paschia> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/timpanoSam> .
 <http://www.vocabolangelo.org/paschietta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/paschietta> <http://www.w3.org/2004/02/skos/core#prefLabel> "Paschietta"@it .
 <http://www.vocabolangelo.org/paschietta> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/pa • schiét • ta/"@it .
-<http://www.vocabolangelo.org/paschietta> <http://www.w3.org/2004/02/skos/core#definition> "Riposo che avviene durante la giornata seguente a quella della Pasqua."@it .
+<http://www.vocabolangelo.org/paschietta> <http://www.w3.org/2004/02/skos/core#definition> "Stato di estasi e spensieratezza in cui ci trova durante la giornata seguente a quella della Pasqua."@it .
 <http://www.vocabolangelo.org/paschietta> <http://www.w3.org/2004/02/skos/core#example> "A Pasquetta dopo pranzo sono sempre estremamente stanco, credo proprio che sia il momento di una bella paschietta!"@it .
 <http://www.vocabolangelo.org/paschietta> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/paschia> .
 <http://www.vocabolangelo.org/paschietta> <http://purl.org/dc/terms/created> "2023-07-17" .
@@ -5992,6 +6007,39 @@
 <http://www.vocabolangelo.org/storta> <http://www.w3.org/2004/02/skos/core#example> "La Duchessa andava messa in congelatore, non in frigo! Ora è diventata irrimediabilmente una storta!"@it .
 <http://www.vocabolangelo.org/storta> <http://purl.org/dc/terms/created> "2023-06-24" .
 <http://www.vocabolangelo.org/storta> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/orlandoNicola> .
+<http://www.vocabolangelo.org/storta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/storta> <http://www.w3.org/2004/02/skos/core#prefLabel> "Storta"@it .
+<http://www.vocabolangelo.org/storta> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/Stór • ta/"@it .
+<http://www.vocabolangelo.org/storta> <http://www.w3.org/2004/02/skos/core#definition> "Torta che è stata conservata in maniera non corretta e che conseguentemente perso la sua consistenza originale."@it .
+<http://www.vocabolangelo.org/storta> <http://www.w3.org/2004/02/skos/core#example> "La Duchessa andava messa in congelatore, non in frigo! Ora è diventata irrimediabilmente una storta!"@it .
+<http://www.vocabolangelo.org/storta> <http://purl.org/dc/terms/created> "2023-06-24" .
+<http://www.vocabolangelo.org/storta> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/orlandoNicola> .
+<http://www.vocabolangelo.org/zamperotto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/zamperotto> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zamperotto"@it .
+<http://www.vocabolangelo.org/zamperotto> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/zam • pe • ròt • to/"@it .
+<http://www.vocabolangelo.org/zamperotto> <http://www.w3.org/2004/02/skos/core#definition> "Animale in grado di raggiungere altezze notevoli saltando."@it .
+<http://www.vocabolangelo.org/zamperotto> <http://www.w3.org/2004/02/skos/core#example> "La hai vista? Quella cosa che è spuntata dall'erba saltando? Non ho idea di cosa possa essere, ma sicuramente è uno zamperotto."@it .
+<http://www.vocabolangelo.org/zamperotto> <http://purl.org/dc/terms/created> "2023-07-30" .
+<http://www.vocabolangelo.org/zamperotto> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/suscaMatteo> .
+<http://www.vocabolangelo.org/zamperotto> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/ribaudoSofia> .
+<http://www.vocabolangelo.org/metaomorfosi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/metaomorfosi> <http://www.w3.org/2004/02/skos/core#prefLabel> "Metaomorfosi"@it .
+<http://www.vocabolangelo.org/metaomorfosi> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/me • ta • o • mòr • fo • ṣi/"@it .
+<http://www.vocabolangelo.org/metaomorfosi> <http://www.w3.org/2004/02/skos/core#definition> "Trasformazione dello stato mentale di una persona, la quale comprende di non essere eterosessuale."@it .
+<http://www.vocabolangelo.org/metaomorfosi> <http://www.w3.org/2004/02/skos/core#example> "A 16 anni Lucia ha subito la metaomorfosi e si è fidanzata con Giada."@it .
+<http://www.vocabolangelo.org/metaomorfosi> <http://purl.org/dc/terms/created> "2023-07-25" .
+<http://www.vocabolangelo.org/metaomorfosi> <http://www.w3.org/2004/02/skos/core#note> "Questa è la prima parola inventata da Aiden che è entrata nel Vocabolangelo, grazie e congratulazioni." .
+<http://www.vocabolangelo.org/metaomorfosi> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/rosatelliAnna> .
+<http://www.vocabolangelo.org/metaomorfosi> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/timpanoSam> .
+<http://www.vocabolangelo.org/metaomorfosi> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/aciobaniteiAiden> .
+<http://www.vocabolangelo.org/ragnolante> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/ragnolante> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ragnolante"@it .
+<http://www.vocabolangelo.org/ragnolante> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/ra • gno • làn • te/"@it .
+<http://www.vocabolangelo.org/ragnolante> <http://www.w3.org/2004/02/skos/core#definition> "Ragno che si trova appeso a mezz'aria da una ragnatela. In questo stato, il ragno si mostra abile nel bilanciarsi con agilità sulle sue sottili filiere e nella trama della tela che lo sorregge. Questa posizione permette al ragno di osservare attentamente l'ambiente circostante, aspettando il momento opportuno per catturare la sua preda o per spostarsi in modo rapido ed efficiente lungo la tela. Il termine \"ragnolante\" cattura l'immagine di un ragno sospeso nel vuoto, dimostrando la sua abilità nell'affrontare l'ambiente aereo con le sue creazioni tessili."@it .
+<http://www.vocabolangelo.org/ragnolante> <http://www.w3.org/2004/02/skos/core#example> "Mentre passeggiavo nel bosco, mi sono trovato faccia a faccia con un ragnolante tra i rami degli alberi, una visione sia affascinante che inquietante."@it .
+<http://www.vocabolangelo.org/ragnolante> <http://purl.org/dc/terms/created> "2023-07-29" .
+<http://www.vocabolangelo.org/ragnolante> <http://www.w3.org/2004/02/skos/core#note> "Questa è la prima parola inventata da Marco che è entrata nel Vocabolangelo, grazie e congratulazioni." .
+<http://www.vocabolangelo.org/ragnolante> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/battaglinoMarco> .
 <http://www.vocabolangelo.org/noonare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/fregola> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/invicio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -6274,6 +6322,13 @@
 <http://www.vocabolangelo.org/svenagofobimento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/nutriscere> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/cedrink> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/aciobaniteiAiden> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/suscaMatteo> .
+<http://www.vocabolangelo.org/aciobaniteiAiden> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/rosatelliAnna> .
+<http://www.vocabolangelo.org/aciobaniteiAiden> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/suscaMatteo> .
+<http://www.vocabolangelo.org/aciobaniteiAiden> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/timpanoSam> .
+<http://www.vocabolangelo.org/aciobaniteiAiden> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/rosatelliAnna> .
+<http://www.vocabolangelo.org/aciobaniteiAiden> <http://www.perceive.net/schemas/20021119/relationship/#spouseOf> <http://www.vocabolangelo.org/timpanoSam> .
+<http://www.vocabolangelo.org/aciobaniteiAiden> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Vocaboliere> .
 <http://www.vocabolangelo.org/scalinfame> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/griglissa> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/semigriglissa> .
 <http://www.vocabolangelo.org/griglissa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -6353,11 +6408,13 @@
 <http://www.vocabolangelo.org/rosatelliAnna> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/bragariAlexandru> .
 <http://www.vocabolangelo.org/rosatelliAnna> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/salhiSamir> .
 <http://www.vocabolangelo.org/rosatelliAnna> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/orlandoNicola> .
+<http://www.vocabolangelo.org/rosatelliAnna> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/aciobaniteiAiden> .
 <http://www.vocabolangelo.org/rosatelliAnna> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/salhiSamir> .
 <http://www.vocabolangelo.org/rosatelliAnna> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/pupitaAlberto> .
 <http://www.vocabolangelo.org/rosatelliAnna> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/battaglinoNicole> .
 <http://www.vocabolangelo.org/rosatelliAnna> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/suscaAlessandra> .
 <http://www.vocabolangelo.org/rosatelliAnna> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/savoGianmarco> .
+<http://www.vocabolangelo.org/rosatelliAnna> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/aciobaniteiAiden> .
 <http://www.vocabolangelo.org/rosatelliAnna> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/pupitaAlberto> .
 <http://www.vocabolangelo.org/rosatelliAnna> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/orlandoNicola> .
 <http://www.vocabolangelo.org/rosatelliAnna> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/pertosaLorenzo> .
@@ -7273,7 +7330,9 @@
 <http://www.vocabolangelo.org/puntorgoglista> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/puntorgoglista> .
 <http://www.vocabolangelo.org/puntorgoglista> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/omiccioliRiccardo> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/rinaldiFrancesca> .
+<http://www.vocabolangelo.org/omiccioliRiccardo> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/battaglinoMarco> .
 <http://www.vocabolangelo.org/omiccioliRiccardo> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/fanaraGiuliano> .
+<http://www.vocabolangelo.org/omiccioliRiccardo> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/battaglinoMarco> .
 <http://www.vocabolangelo.org/omiccioliRiccardo> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/pertosaLorenzo> .
 <http://www.vocabolangelo.org/omiccioliRiccardo> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/nardiniArianna> .
 <http://www.vocabolangelo.org/omiccioliRiccardo> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/orlandoNicola> .
@@ -7323,8 +7382,8 @@
 <http://www.vocabolangelo.org/omiccioliRiccardo> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/bianchiniGiovanni> .
 <http://www.vocabolangelo.org/omiccioliRiccardo> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/timpanoSam> .
 <http://www.vocabolangelo.org/omiccioliRiccardo> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/rinaldiFrancesca> .
-<http://www.vocabolangelo.org/omiccioliRiccardo> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/rossiLuca> .
 <http://www.vocabolangelo.org/omiccioliRiccardo> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/paoliMichele> .
+<http://www.vocabolangelo.org/omiccioliRiccardo> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/rossiLuca> .
 <http://www.vocabolangelo.org/omiccioliRiccardo> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/battaglinoNicole> .
 <http://www.vocabolangelo.org/omiccioliRiccardo> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/rossiLuca> .
 <http://www.vocabolangelo.org/kebabbo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/kebabbolazione> .
@@ -7333,6 +7392,7 @@
 <http://www.vocabolangelo.org/arsenzio> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/cappuccido> .
 <http://www.vocabolangelo.org/arsenzio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/cacatino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/metaomorfosi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/acub> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/borsaggio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/networkink> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -7489,6 +7549,7 @@
 <http://www.vocabolangelo.org/suscaMatteo> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/suscaAlessandra> .
 <http://www.vocabolangelo.org/suscaMatteo> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/pupitaAlberto> .
 <http://www.vocabolangelo.org/suscaMatteo> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/radicchiGiovanni> .
+<http://www.vocabolangelo.org/suscaMatteo> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/aciobaniteiAiden> .
 <http://www.vocabolangelo.org/suscaMatteo> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/ribaudoSofia> .
 <http://www.vocabolangelo.org/suscaMatteo> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/rinaldiFrancesca> .
 <http://www.vocabolangelo.org/suscaMatteo> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/fanaraGiuliano> .
@@ -7510,6 +7571,7 @@
 <http://www.vocabolangelo.org/suscaMatteo> <http://www.perceive.net/schemas/20021119/relationship/#siblingOf> <http://www.vocabolangelo.org/suscaAlessandra> .
 <http://www.vocabolangelo.org/suscaMatteo> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/battaglinoNicole> .
 <http://www.vocabolangelo.org/suscaMatteo> <http://www.vocabolangelo.org/unpaidFriendOf> <http://www.vocabolangelo.org/minoccheriAlessandra> .
+<http://www.vocabolangelo.org/suscaMatteo> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/aciobaniteiAiden> .
 <http://www.vocabolangelo.org/suscaMatteo> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/bailettiTommaso> .
 <http://www.vocabolangelo.org/suscaMatteo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Vocaboliere> .
 <http://www.vocabolangelo.org/suscaMatteo> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/filasetaAngelo> .
@@ -7659,6 +7721,7 @@
 <http://www.vocabolangelo.org/timpanoSam> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/rinaldiFrancesca> .
 <http://www.vocabolangelo.org/timpanoSam> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/salhiSamir> .
 <http://www.vocabolangelo.org/timpanoSam> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/savoGianmarco> .
+<http://www.vocabolangelo.org/timpanoSam> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/aciobaniteiAiden> .
 <http://www.vocabolangelo.org/timpanoSam> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/nardiniArianna> .
 <http://www.vocabolangelo.org/timpanoSam> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/pertosaLorenzo> .
 <http://www.vocabolangelo.org/timpanoSam> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/bianchiniGiovanni> .
@@ -7677,6 +7740,7 @@
 <http://www.vocabolangelo.org/timpanoSam> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/pertosaLorenzo> .
 <http://www.vocabolangelo.org/timpanoSam> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/bragariAlexandru> .
 <http://www.vocabolangelo.org/timpanoSam> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/suscaMatteo> .
+<http://www.vocabolangelo.org/timpanoSam> <http://www.perceive.net/schemas/20021119/relationship/#spouseOf> <http://www.vocabolangelo.org/aciobaniteiAiden> .
 <http://www.vocabolangelo.org/timpanoSam> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/filasetaAngelo> .
 <http://www.vocabolangelo.org/timpanoSam> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/fanaraGiuliano> .
 <http://www.vocabolangelo.org/timpanoSam> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/orlandoNicola> .
@@ -7935,6 +7999,7 @@
 <http://www.vocabolangelo.org/battaglinoNicole> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/durazziMarco> .
 <http://www.vocabolangelo.org/battaglinoNicole> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/mordacchiniCecilia> .
 <http://www.vocabolangelo.org/battaglinoNicole> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/radicchiGiovanni> .
+<http://www.vocabolangelo.org/battaglinoNicole> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/battaglinoMarco> .
 <http://www.vocabolangelo.org/battaglinoNicole> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/fanaraGiuliano> .
 <http://www.vocabolangelo.org/battaglinoNicole> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/suscaMatteo> .
 <http://www.vocabolangelo.org/battaglinoNicole> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/pertosaLorenzo> .
@@ -7966,6 +8031,7 @@
 <http://www.vocabolangelo.org/battaglinoNicole> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/timpanoSam> .
 <http://www.vocabolangelo.org/battaglinoNicole> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/bdeouiEddy> .
 <http://www.vocabolangelo.org/battaglinoNicole> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/suscaMatteo> .
+<http://www.vocabolangelo.org/battaglinoNicole> <http://www.perceive.net/schemas/20021119/relationship/#siblingOf> <http://www.vocabolangelo.org/battaglinoMarco> .
 <http://www.vocabolangelo.org/battaglinoNicole> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/salhiSamir> .
 <http://www.vocabolangelo.org/battaglinoNicole> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/minoccheriAlessandra> .
 <http://www.vocabolangelo.org/battaglinoNicole> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/filasetaAngelo> .
@@ -8180,6 +8246,11 @@
 <http://www.vocabolangelo.org/fanaraGiuliano> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/minoccheriAlessandra> .
 <http://www.vocabolangelo.org/fanaraGiuliano> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/omiccioliRiccardo> .
 <http://www.vocabolangelo.org/fanaraGiuliano> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/mordacchiniCecilia> .
+<http://www.vocabolangelo.org/battaglinoMarco> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/omiccioliRiccardo> .
+<http://www.vocabolangelo.org/battaglinoMarco> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/battaglinoNicole> .
+<http://www.vocabolangelo.org/battaglinoMarco> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/omiccioliRiccardo> .
+<http://www.vocabolangelo.org/battaglinoMarco> <http://www.perceive.net/schemas/20021119/relationship/#siblingOf> <http://www.vocabolangelo.org/battaglinoNicole> .
+<http://www.vocabolangelo.org/battaglinoMarco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Vocaboliere> .
 <http://www.vocabolangelo.org/violare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/occlusabolangelo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/katello> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -8600,6 +8671,7 @@
 <http://www.vocabolangelo.org/laggugliare> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/lagguglia> .
 <http://www.vocabolangelo.org/laggugliare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/minello> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/ragnolante> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/incrociatoria> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/rotatatoria> .
 <http://www.vocabolangelo.org/incrociatoria> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/rotatroia> .
 <http://www.vocabolangelo.org/incrociatoria> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/rototandoria> .
@@ -8621,6 +8693,7 @@
 <http://www.vocabolangelo.org/undercacio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/piattologo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/piattologia> .
 <http://www.vocabolangelo.org/piattologo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/zamperotto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/parolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/concettangelo> .
 <http://www.vocabolangelo.org/parolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/angelario> .
 <http://www.vocabolangelo.org/parolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/neocaboliere> .

@@ -500,6 +500,24 @@ vocang:bassiAndrea
     foaf:gender "male" ;
     org:memberOf vocang:vocabolieriOrg .
 
+vocang:aciobaniteiAiden
+    a vocang:Vocaboliere ;
+    foaf:firstName "Aiden" ;
+    foaf:lastName "Aciobanitei" ;
+    foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:rosatelliAnna, vocang:suscaMatteo ;
+    rel:spouseOf vocang:timpanoSam .
+
+vocang:battaglinoMarco
+    a vocang:Vocaboliere ;
+    foaf:firstName "Marco" ;
+    foaf:lastName "Battaglino" ;
+    foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:omiccioliRiccardo ;
+    rel:siblingOf vocang:battaglinoNicole .
+
 # Other Author Individuals
 
 vocang:chatGPT
@@ -6639,7 +6657,7 @@ vocang:paschia
     a vocang:Parolangelo ;
     skos:prefLabel "Paschia"@it ;
     lexinfo:pronunciation "/pà • schia/"@it ;
-    skos:definition "Riposo che avviene durante la giornata di Pasqua."@it;
+    skos:definition "Stato di estasi e spensieratezza in cui ci trova durante la giornata di Pasqua."@it;
     skos:example "A Pasqua dopo pranzo sono sempre estremamente stanco, credo proprio che sia il momento di una bella paschia!"@it ;
     dct:created "2023-07-17" ;
     dct:creator vocang:timpanoSam .
@@ -6648,7 +6666,7 @@ vocang:paschietta
     a vocang:Parolangelo ;
     skos:prefLabel "Paschietta"@it ;
     lexinfo:pronunciation "/pa • schiét • ta/"@it ;
-    skos:definition "Riposo che avviene durante la giornata seguente a quella della Pasqua."@it;
+    skos:definition "Stato di estasi e spensieratezza in cui ci trova durante la giornata seguente a quella della Pasqua."@it;
     skos:example "A Pasquetta dopo pranzo sono sempre estremamente stanco, credo proprio che sia il momento di una bella paschietta!"@it ;
     skos:related vocang:paschia ;
     dct:created "2023-07-17" ;
@@ -6827,3 +6845,41 @@ vocang:storta
     skos:example "La Duchessa andava messa in congelatore, non in frigo! Ora è diventata irrimediabilmente una storta!"@it ;
     dct:created "2023-06-24" ;
     dct:creator vocang:orlandoNicola .
+
+vocang:storta
+    a vocang:Parolangelo ;
+    skos:prefLabel "Storta"@it ;
+    lexinfo:pronunciation "/Stór • ta/"@it ;
+    skos:definition "Torta che è stata conservata in maniera non corretta e che conseguentemente perso la sua consistenza originale."@it;
+    skos:example "La Duchessa andava messa in congelatore, non in frigo! Ora è diventata irrimediabilmente una storta!"@it ;
+    dct:created "2023-06-24" ;
+    dct:creator vocang:orlandoNicola .
+
+vocang:zamperotto
+    a vocang:Parolangelo ;
+    skos:prefLabel "Zamperotto"@it ;
+    lexinfo:pronunciation "/zam • pe • ròt • to/"@it ;
+    skos:definition "Animale in grado di raggiungere altezze notevoli saltando."@it;
+    skos:example "La hai vista? Quella cosa che è spuntata dall'erba saltando? Non ho idea di cosa possa essere, ma sicuramente è uno zamperotto."@it ;
+    dct:created "2023-07-30" ;
+    dct:creator vocang:suscaMatteo, vocang:ribaudoSofia .
+
+vocang:metaomorfosi
+    a vocang:Parolangelo ;
+    skos:prefLabel "Metaomorfosi"@it ;
+    lexinfo:pronunciation "/me • ta • o • mòr • fo • ṣi/"@it ;
+    skos:definition "Trasformazione dello stato mentale di una persona, la quale comprende di non essere eterosessuale."@it;
+    skos:example "A 16 anni Lucia ha subito la metaomorfosi e si è fidanzata con Giada."@it ;
+    dct:created "2023-07-25" ;
+    skos:note "Questa è la prima parola inventata da Aiden che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
+    dct:creator vocang:rosatelliAnna, vocang:timpanoSam, vocang:aciobaniteiAiden .
+
+vocang:ragnolante
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ragnolante"@it ;
+    lexinfo:pronunciation "/ra • gno • làn • te/"@it ;
+    skos:definition "Ragno che si trova appeso a mezz'aria da una ragnatela. In questo stato, il ragno si mostra abile nel bilanciarsi con agilità sulle sue sottili filiere e nella trama della tela che lo sorregge. Questa posizione permette al ragno di osservare attentamente l'ambiente circostante, aspettando il momento opportuno per catturare la sua preda o per spostarsi in modo rapido ed efficiente lungo la tela. Il termine \"ragnolante\" cattura l'immagine di un ragno sospeso nel vuoto, dimostrando la sua abilità nell'affrontare l'ambiente aereo con le sue creazioni tessili."@it;
+    skos:example "Mentre passeggiavo nel bosco, mi sono trovato faccia a faccia con un ragnolante tra i rami degli alberi, una visione sia affascinante che inquietante."@it ;
+    dct:created "2023-07-29" ;
+    skos:note "Questa è la prima parola inventata da Marco che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
+    dct:creator vocang:battaglinoMarco .
