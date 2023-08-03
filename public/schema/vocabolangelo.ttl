@@ -6854,3 +6854,13 @@ vocang:zamperotto
     skos:example "La hai vista? Quella cosa che è spuntata dall'erba saltando? Non ho idea di cosa possa essere, ma sicuramente è uno zamperotto."@it ;
     dct:created "2023-07-30" ;
     dct:creator vocang:suscaMatteo, vocang:ribaudoSofia .
+
+vocang:metaomorfosi
+    a vocang:Parolangelo ;
+    skos:prefLabel "Metaomorfosi"@it ;
+    lexinfo:pronunciation "/me • ta • o • mòr • fo • ṣi/"@it ;
+    skos:definition "Trasformazione dello stato mentale di una persona, la quale comprende di non essere eterosessuale."@it;
+    skos:example "A 16 anni Lucia ha subito la metaomorfosi e si è fidanzata con Giada."@it ;
+    dct:created "2023-07-25" ;
+    skos:note "Questa è la prima parola inventata da Aiden che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
+    dct:creator vocang:rosatelliAnna, vocang:timpanoSam, vocang:aciobaniteiAiden .
