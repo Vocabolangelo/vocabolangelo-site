@@ -6918,3 +6918,12 @@ vocang:cacarrello
     skos:example "In una situazione di campeggio estremo, dove il terreno accidentato sembrava più un percorso da montagne russe che un luogo per le tende, il nostro coraggioso Alberto decise di tirar fuori il suo raffinato cacarrello. Mentre gli altri campeggiatori cercavano di stabilire una base operativa per le loro escursioni, lui sfrecciava in stile \"Formula 1\", dimostrando che anche nell'avventura più selvaggia e inospitale, la comodità non andava mai in vacanza."@it ;
     dct:created "2023-08-01" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:idrosnitch
+    a vocang:Parolangelo ;
+    skos:prefLabel "Idrosnitch"@it ;
+    skos:definition "Collaboratore di un idrosbirro. Termine prevalentemente impiegato per identificare bagnini di salvataggio, i quali si adoperano per interrompere atti contrari alla legge."@it;
+    skos:example "Stavo facendo il bagno alla ricerca delle perle e un bagnino di salvataggio mi ha visto e ha chiamato gli idrosbirri. Sto idrosnitch maledetto!"@it ;
+    dct:created "2023-08-03" ;
+    skos:related vocang:idrosbirro ;
+    dct:creator vocang:pertosaLorenzo, vocang:scattoniAlessandra, vocang:paoliMichele .
