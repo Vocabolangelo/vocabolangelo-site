@@ -6927,3 +6927,12 @@ vocang:idrosnitch
     dct:created "2023-08-03" ;
     skos:related vocang:idrosbirro ;
     dct:creator vocang:pertosaLorenzo, vocang:scattoniAlessandra, vocang:paoliMichele .
+
+vocang:barbroncino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Barbroncino"@it ;
+    lexinfo:pronunciation "/bar • bron • cì • no/"@it ;
+    skos:definition "Incrocio tra un barboncino e un Chihuahua"@it, "Barboncino con un'aria particolarmente irritata."@it;
+    skos:example "La mia amica Maria tiene un barbroncino nella sua borsa mentre va a fare shopping!"@it, "Per un attimo ho avuto paura che quel barbroncino volesse attaccarci! Era su tutte le furie ma noi non stavamo facendo nulla di male."@it;
+    dct:created "2023-08-05" ;
+    dct:creator vocang:orlandoNicola .
