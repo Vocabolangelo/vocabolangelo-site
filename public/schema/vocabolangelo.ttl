@@ -6883,3 +6883,12 @@ vocang:ragnolante
     dct:created "2023-07-29" ;
     skos:note "Questa è la prima parola inventata da Marco che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
     dct:creator vocang:battaglinoMarco .
+
+vocang:carattecristico
+    a vocang:Parolangelo ;
+    skos:prefLabel "Carattecristico"@it ;
+    lexinfo:pronunciation "/ca • rat • te • crìs • ti • co/"@it ;
+    skos:definition "Caratteristico della religione cristiana."@it;
+    skos:example "In uno dei tanti universi paralleli, Gesù Cristo, poco prima di iniziare la Via Crucis, deve sicuramente aver esclamato guardando la croce: \"Lemao! Diventerà carattecristica!\""@it ;
+    dct:created "2023-07-29" ;
+    dct:creator vocang:pertosaLorenzo, vocang:bragariAlexandru .
