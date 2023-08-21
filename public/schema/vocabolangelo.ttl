@@ -6909,3 +6909,12 @@ vocang:sfusorario
     skos:example "Arianna è andata a Londra, ma non capisce bene che ore siano perché lì c'è un fuso orario diverso ed è arrivata un'ora in ritardo al suo appuntamento, sta in sfusorario!"@it ;
     dct:created "2023-07-30" ;
     dct:creator vocang:timpanoSam .
+
+vocang:cacarrello
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cacarrello"@it ;
+    lexinfo:pronunciation "/ca • car • rèl • lo/"@it ;
+    skos:definition "Apparecchio sanitario portatile, dotato di ruote, comunemente impiegato al fine di soddisfare le necessità fisiologiche in situazioni in cui il percorrere lunghe distanze risulta impraticabile."@it;
+    skos:example "In una situazione di campeggio estremo, dove il terreno accidentato sembrava più un percorso da montagne russe che un luogo per le tende, il nostro coraggioso Alberto decise di tirar fuori il suo raffinato cacarrello. Mentre gli altri campeggiatori cercavano di stabilire una base operativa per le loro escursioni, lui sfrecciava in stile \"Formula 1\", dimostrando che anche nell'avventura più selvaggia e inospitale, la comodità non andava mai in vacanza."@it ;
+    dct:created "2023-08-01" ;
+    dct:creator vocang:omiccioliRiccardo .
