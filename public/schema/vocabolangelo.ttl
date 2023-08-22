@@ -2865,7 +2865,7 @@ vocang:librorifero
 
 vocang:canediorlo
     a vocang:Parolangelo ;
-    skos:prefLabel "Canedirolo"@it ;
+    skos:prefLabel "Canediorlo"@it ;
     lexinfo:pronunciation "/ca • nè • dior • lo/"@it ;
     skos:definition "Canederlo il cui sapore non è buono, estremamente cattivo."@it ;
     skos:example "Sono andato al supermercato e ho comprato dei canederli sottovuoto, come previsto facevano schifo: erano in realtà canediorli."@it ;
