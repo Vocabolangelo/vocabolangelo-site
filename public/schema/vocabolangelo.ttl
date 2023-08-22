@@ -6936,3 +6936,14 @@ vocang:barbroncino
     skos:example "La mia amica Maria tiene un barbroncino nella sua borsa mentre va a fare shopping!"@it, "Per un attimo ho avuto paura che quel barbroncino volesse attaccarci! Era su tutte le furie ma noi non stavamo facendo nulla di male."@it;
     dct:created "2023-08-05" ;
     dct:creator vocang:orlandoNicola .
+
+vocang:barboncione
+    a vocang:Parolangelo ;
+    skos:prefLabel "Barboncione"@it ;
+    lexinfo:pronunciation "/bar • bon • cio • ne/"@it ;
+    skos:definition "Canide la cui razza è il barbone."@it;
+    skos:example "L'elegante barboncione sembrava convinto di essere l'aristocratico nonno dei parrucchieri canini, mentre guardava un canillo dall'alto al basso."@it;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/barboncione.jpg" ;
+    skos:related vocang:canillo, vocang:trashiba ;
+    dct:created "2023-08-05" ;
+    dct:creator vocang:pertosaLorenzo .
