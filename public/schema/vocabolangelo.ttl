@@ -2856,7 +2856,7 @@ vocang:piecere
 
 vocang:librorifero
     a vocang:Parolangelo ;
-    skos:prefLabel "Librorifero"@it ;
+    skos:prefLabel "Librorife o"@it ;
     lexinfo:pronunciation "/li • bro • rì • fe • ro/"@it ;
     skos:definition "Vecchio frigorifero non funzionante e adibito a libreria."@it ;
     skos:example "Il mio frigo si è rotto, così ne ho approfittato per costruire un librorifero."@it ;
@@ -6947,3 +6947,13 @@ vocang:barboncione
     skos:related vocang:canillo, vocang:trashiba ;
     dct:created "2023-08-05" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:mortodosso
+    a vocang:Parolangelo ;
+    skos:prefLabel "Mortodosso"@it ;
+    lexinfo:pronunciation "/mor • to • dòs • so/"@it ;
+    skos:definition "Paradosso che si verifica ogni qualvolta, in seguito a un'epidemia, si assiste a una rapidissima decrescita demografica che comporta la riduzione dei requisiti legali in termini di spazio cimiteriale necessario. Tuttavia, in realtà, la domanda di tali spazi in quell'esatto periodo temporale risulta essere necessariamente in aumento."@it;
+    skos:example "A causa del Covid-19 abbiamo passato un pomeriggio intero a scherzare sul fatto che sarebbe potuto accadere un mortodosso. Abbiamo scommesso dei soldi veri e abbiamo pure giocato al fantamorto quel giorno."@it;
+    dct:created "2023-08-05" ;
+    schema:keywords "morte, cimitero" ;
+    dct:creator vocang:pertosaLorenzo, vocang:orlandoNicola .
