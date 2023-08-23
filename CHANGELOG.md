@@ -1,5 +1,45 @@
 # Changelog
 
+## [6.10.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v6.9.0...v6.10.0) (2023-08-23)
+
+
+### Features
+
+* **parolangelo:** amacaci ([8fe2717](https://github.com/Vocabolangelo/vocabolangelo-site/commit/8fe27176ef717ca786a984af4f46741035d68223))
+* **parolangelo:** barboncione ([f25c281](https://github.com/Vocabolangelo/vocabolangelo-site/commit/f25c2815b87bd0011a58e4ff667198dce8e70ead))
+* **parolangelo:** barbroncino ([0a74264](https://github.com/Vocabolangelo/vocabolangelo-site/commit/0a742644376b47be3f532ef800154bc7a82dcd43))
+* **parolangelo:** cacarrello ([9891390](https://github.com/Vocabolangelo/vocabolangelo-site/commit/989139012c4630d339ddc073ff03be9f0cec0555))
+* **parolangelo:** carattecristico ([113aeaf](https://github.com/Vocabolangelo/vocabolangelo-site/commit/113aeafb684bc06830d8cafe804c023885b2d6b8))
+* **parolangelo:** congratuerezione ([02918f0](https://github.com/Vocabolangelo/vocabolangelo-site/commit/02918f09068085cfcc8c59939d23648410356f6f))
+* **parolangelo:** gattamaca ([a393800](https://github.com/Vocabolangelo/vocabolangelo-site/commit/a393800817e58e9c29803826e8aa2c1628435a62))
+* **parolangelo:** ghiacciabello ([8799c9a](https://github.com/Vocabolangelo/vocabolangelo-site/commit/8799c9a036712c4590a5907ac9767aa38c14db3d))
+* **parolangelo:** idrosnitch ([3d570cc](https://github.com/Vocabolangelo/vocabolangelo-site/commit/3d570cc424ebc7fdd3e8bbfc0a6a83158098702c))
+* **parolangelo:** metaomorfosi ([47ac82c](https://github.com/Vocabolangelo/vocabolangelo-site/commit/47ac82cced422907e1e20d3af9a5feef24c47eff))
+* **parolangelo:** mortodosso ([64b9074](https://github.com/Vocabolangelo/vocabolangelo-site/commit/64b9074ae1417ee7a3579b680baf7548f40ffddb))
+* **parolangelo:** norica ([6322b7d](https://github.com/Vocabolangelo/vocabolangelo-site/commit/6322b7d67f45770dce1f7742d0c4d4014dae390f))
+* **parolangelo:** ragnolante ([c1d9a49](https://github.com/Vocabolangelo/vocabolangelo-site/commit/c1d9a49a0d6920479f1ee698f63b6dc5becfd1fc))
+* **parolangelo:** sfusorario ([618e362](https://github.com/Vocabolangelo/vocabolangelo-site/commit/618e362ceef7ce3a66fd656c0ec3b3898508de3e))
+* **parolangelo:** tombus ([f9c1f50](https://github.com/Vocabolangelo/vocabolangelo-site/commit/f9c1f5020a03fa959972cc282ae31d3f3ee9e345))
+* **parolangelo:** trucefisso ([0202d17](https://github.com/Vocabolangelo/vocabolangelo-site/commit/0202d1791a35b928ab6dac4fa0f078f7bbb30934))
+* **parolangelo:** tuber ([4f02e6b](https://github.com/Vocabolangelo/vocabolangelo-site/commit/4f02e6b7281b8bcc3380895ea9d7681f4d048352))
+* **parolangelo:** zamperotto ([b24a33f](https://github.com/Vocabolangelo/vocabolangelo-site/commit/b24a33f6cf015cb2e89e130413bdeab114ebe816))
+* **site:** add the first ever easter egg ([26cbb1e](https://github.com/Vocabolangelo/vocabolangelo-site/commit/26cbb1e3948b284c23b85f3dd3f14cf29f903866))
+* **site:** re-add vocabolieri to navbar and sidebar ([fb61f8e](https://github.com/Vocabolangelo/vocabolangelo-site/commit/fb61f8efdec78f50b507dd0a0a23f25a871661ad))
+* **vocaboliere:** Aiden Aciobanitei ([68c7c80](https://github.com/Vocabolangelo/vocabolangelo-site/commit/68c7c80d95cac345dd12e92e0e866ad811f741fb))
+* **vocaboliere:** Marco Battaglino ([325f980](https://github.com/Vocabolangelo/vocabolangelo-site/commit/325f9804b26e0bc9e0ceb74708e2a850de86c087))
+
+
+### Bug Fixes
+
+* **build:** restore eslint ([cfc1efa](https://github.com/Vocabolangelo/vocabolangelo-site/commit/cfc1efa40b2a5f701ecbb9f80612e54cfb1e3c97))
+* **parolangelo:** bug in some related id ([1735edb](https://github.com/Vocabolangelo/vocabolangelo-site/commit/1735edbfdb1638b658bee88769e48f78d40a4d3c))
+* **parolangelo:** canediorlo prefLabel ([559b600](https://github.com/Vocabolangelo/vocabolangelo-site/commit/559b600673029ee14622ebbbb545c0561c9c67a0))
+* **parolangelo:** definition was wrong ([af7c7e2](https://github.com/Vocabolangelo/vocabolangelo-site/commit/af7c7e2ee66f15430afa52dfd8e61e0f436e1489))
+* **parolangelo:** fix filmoccole definition ([2a3f8c8](https://github.com/Vocabolangelo/vocabolangelo-site/commit/2a3f8c864dc5d0db1c2fb9e245af8d481395ad9e))
+* **parolangelo:** suiciclio to suiciclo ([173d7ab](https://github.com/Vocabolangelo/vocabolangelo-site/commit/173d7abd526c3c0daf84e77d9a3e6ad5a22865e0))
+* **site:** all navbar links working fine now ([d3e503a](https://github.com/Vocabolangelo/vocabolangelo-site/commit/d3e503aa0a40a9e9b4f0cd6ce5d74a2c53876209))
+* **site:** remove a console.log ([27fa9e8](https://github.com/Vocabolangelo/vocabolangelo-site/commit/27fa9e8ddb1148516a96d2cd2ddf8a645fd67ee3))
+
 ## [6.9.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v6.8.0...v6.9.0) (2023-07-28)
 
 
