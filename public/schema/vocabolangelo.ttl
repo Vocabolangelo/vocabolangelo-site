@@ -6999,3 +6999,13 @@ vocang:trucefisso
     skos:note "La parolangelo nasce guardando un film: Eli. SPOILER WARNING: in una scena il protagonista colpisce con violenza la madre utilizzando un crocifisso." ;
     schema:keywords "cristianesimo, cristo, crocifisso, arma" ;
     dct:creator vocang:filasetaAngelo, vocang:rosatelliAnna .
+
+vocang:ghiacciabello
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ghiacciabello"@it ;
+    lexinfo:pronunciation "/ghiac • cia • bèl • lo/"@it ;
+    skos:definition "Sgabello fatto di ghiaccio."@it;
+    skos:example "In Islanda o comunque nei posti più freddi è possibile sedersi su ghiacciabelli e ammirare la natura. Ma non per troppo tempo. Si rischia l'ipotermia..."@it;
+    dct:created "2023-08-09" ;
+    schema:keywords "ghiaccio, freddo, sgabello, sedersi" ;
+    dct:creator vocang:pertosaLorenzo, vocang:deRosaLeonardo .
