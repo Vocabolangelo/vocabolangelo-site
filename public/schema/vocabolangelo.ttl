@@ -6907,6 +6907,7 @@ vocang:sfusorario
     lexinfo:pronunciation "/sfu • so • rà • rio/"@it ;
     skos:definition "Sensazione di disorientamento insorgente a causa dell'incapacità di determinare l'orario corrente a causa di disparità nei fusi orari."@it;
     skos:example "Arianna è andata a Londra, ma non capisce bene che ore siano perché lì c'è un fuso orario diverso ed è arrivata un'ora in ritardo al suo appuntamento, sta in sfusorario!"@it ;
+    skos:related vocang:fusorangelo ;
     dct:created "2023-07-30" ;
     dct:creator vocang:timpanoSam .
 
@@ -6916,6 +6917,7 @@ vocang:cacarrello
     lexinfo:pronunciation "/ca • car • rèl • lo/"@it ;
     skos:definition "Apparecchio sanitario portatile, dotato di ruote, comunemente impiegato al fine di soddisfare le necessità fisiologiche in situazioni in cui il percorrere lunghe distanze risulta impraticabile."@it;
     skos:example "In una situazione di campeggio estremo, dove il terreno accidentato sembrava più un percorso da montagne russe che un luogo per le tende, il nostro coraggioso Alberto decise di tirar fuori il suo raffinato cacarrello. Mentre gli altri campeggiatori cercavano di stabilire una base operativa per le loro escursioni, lui sfrecciava in stile \"Formula 1\", dimostrando che anche nell'avventura più selvaggia e inospitale, la comodità non andava mai in vacanza."@it ;
+    skos:related vocang:handicarrello ;
     dct:created "2023-08-01" ;
     dct:creator vocang:omiccioliRiccardo .
 
@@ -6944,7 +6946,7 @@ vocang:barboncione
     skos:definition "Canide la cui razza è il barbone."@it;
     skos:example "L'elegante barboncione sembrava convinto di essere l'aristocratico nonno dei parrucchieri canini, mentre guardava un canillo dall'alto al basso."@it;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/barboncione.jpg" ;
-    skos:related vocang:canillo, vocang:trashiba ;
+    skos:related vocang:canillo, vocang:trashiba, vocang:barbroncino ;
     dct:created "2023-08-05" ;
     dct:creator vocang:pertosaLorenzo .
 
@@ -6987,6 +6989,7 @@ vocang:norica
     dct:created "2023-08-05" ;
     skos:note "La parolangelo nasce a seguito dell'assaporamento di una bibita particolare con un'etichetta particolarmente accattivante ed un odore forte. I realtà non era altro che acqua gassata con limone." ;
     schema:keywords "bevanda, acqua, calorie" ;
+    skos:related vocang:acquorica ;
     dct:creator vocang:filasetaAngelo, vocang:orlandoNicola .
 
 vocang:trucefisso
@@ -6998,6 +7001,7 @@ vocang:trucefisso
     dct:created "2023-08-06" ;
     skos:note "La parolangelo nasce guardando un film: Eli. SPOILER WARNING: in una scena il protagonista colpisce con violenza la madre utilizzando un crocifisso." ;
     schema:keywords "cristianesimo, cristo, crocifisso, arma" ;
+    skos:related vocang:carattecristico ;
     dct:creator vocang:filasetaAngelo, vocang:rosatelliAnna .
 
 vocang:ghiacciabello
