@@ -6957,3 +6957,12 @@ vocang:mortodosso
     dct:created "2023-08-05" ;
     schema:keywords "morte, cimitero" ;
     dct:creator vocang:pertosaLorenzo, vocang:orlandoNicola .
+
+vocang:tombus
+    a vocang:Parolangelo ;
+    skos:prefLabel "Tombus"@it ;
+    skos:definition "Autobus il cui scopo è trasportare le tombe fino al cimitero."@it;
+    skos:example "Il tombus è progettato esclusivamente per accompagnare i passeggeri in un ultimo viaggio senza ritorno al loro nuovo indirizzo nel quartiere tranquillo del cimitero."@it;
+    dct:created "2023-08-05" ;
+    schema:keywords "morte, cimitero, tomba, bara, veicolo" ;
+    dct:creator vocang:pertosaLorenzo .
