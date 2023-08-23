@@ -6966,3 +6966,14 @@ vocang:tombus
     dct:created "2023-08-05" ;
     schema:keywords "morte, cimitero, tomba, bara, veicolo" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:congratuerezione
+    a vocang:Parolangelo ;
+    skos:prefLabel "Congratuerezione"@it ;
+    lexinfo:pronunciation "/con • gra • tu • e • re • zió • ne/"@it ;
+    skos:definition "Manifestazione di apprezzamento mediante un'erezione robusta e vigorosa, la cui intensità è direttamente proporzionale al livello di apprezzamento per l'oggetto in questione."@it;
+    skos:example "Il nuovo completo intimo di Giorgia era molto sensuale. Invece di dirglielo a parole ho deciso di farle una grande congratuerezione."@it;
+    dct:created "2023-08-05" ;
+    skos:note "Durante la nascita della parolangelo, un vocaboliere stava morendo di ansia perché la sua console Nintendo Switch stava subendo una difficile operazione sotto i ferri." ;
+    schema:keywords "erezione, sesso, congratulazioni" ;
+    dct:creator vocang:filasetaAngelo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:orlandoNicola .
