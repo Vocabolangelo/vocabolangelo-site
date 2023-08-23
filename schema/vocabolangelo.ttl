@@ -2856,7 +2856,7 @@ vocang:piecere
 
 vocang:librorifero
     a vocang:Parolangelo ;
-    skos:prefLabel "Librorifero"@it ;
+    skos:prefLabel "Librorife o"@it ;
     lexinfo:pronunciation "/li • bro • rì • fe • ro/"@it ;
     skos:definition "Vecchio frigorifero non funzionante e adibito a libreria."@it ;
     skos:example "Il mio frigo si è rotto, così ne ho approfittato per costruire un librorifero."@it ;
@@ -2865,7 +2865,7 @@ vocang:librorifero
 
 vocang:canediorlo
     a vocang:Parolangelo ;
-    skos:prefLabel "Canedirolo"@it ;
+    skos:prefLabel "Canediorlo"@it ;
     lexinfo:pronunciation "/ca • nè • dior • lo/"@it ;
     skos:definition "Canederlo il cui sapore non è buono, estremamente cattivo."@it ;
     skos:example "Sono andato al supermercato e ho comprato dei canederli sottovuoto, come previsto facevano schifo: erano in realtà canediorli."@it ;
@@ -6883,3 +6883,154 @@ vocang:ragnolante
     dct:created "2023-07-29" ;
     skos:note "Questa è la prima parola inventata da Marco che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
     dct:creator vocang:battaglinoMarco .
+
+vocang:carattecristico
+    a vocang:Parolangelo ;
+    skos:prefLabel "Carattecristico"@it ;
+    lexinfo:pronunciation "/ca • rat • te • crìs • ti • co/"@it ;
+    skos:definition "Caratteristico della religione cristiana."@it;
+    skos:example "In uno dei tanti universi paralleli, Gesù Cristo, poco prima di iniziare la Via Crucis, deve sicuramente aver esclamato guardando la croce: \"Lemao! Diventerà carattecristica!\""@it ;
+    dct:created "2023-07-29" ;
+    dct:creator vocang:pertosaLorenzo, vocang:bragariAlexandru .
+
+vocang:tuber
+    a vocang:Parolangelo ;
+    skos:prefLabel "Tuber"@it ;
+    skos:definition "Uber che impiega veicoli con scarso livello di prestazioni."@it;
+    skos:example "L'auto del nostro uber è lentissima. Chissà se arriveremo in tempo? Peccato che ci sia toccato un tuber proprio il giorno del concerto!"@it ;
+    dct:created "2023-07-29" ;
+    dct:creator vocang:suscaMatteo .
+
+vocang:sfusorario
+    a vocang:Parolangelo ;
+    skos:prefLabel "Sfusorario"@it ;
+    lexinfo:pronunciation "/sfu • so • rà • rio/"@it ;
+    skos:definition "Sensazione di disorientamento insorgente a causa dell'incapacità di determinare l'orario corrente a causa di disparità nei fusi orari."@it;
+    skos:example "Arianna è andata a Londra, ma non capisce bene che ore siano perché lì c'è un fuso orario diverso ed è arrivata un'ora in ritardo al suo appuntamento, sta in sfusorario!"@it ;
+    skos:related vocang:fusorangelo ;
+    dct:created "2023-07-30" ;
+    dct:creator vocang:timpanoSam .
+
+vocang:cacarrello
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cacarrello"@it ;
+    lexinfo:pronunciation "/ca • car • rèl • lo/"@it ;
+    skos:definition "Apparecchio sanitario portatile, dotato di ruote, comunemente impiegato al fine di soddisfare le necessità fisiologiche in situazioni in cui il percorrere lunghe distanze risulta impraticabile."@it;
+    skos:example "In una situazione di campeggio estremo, dove il terreno accidentato sembrava più un percorso da montagne russe che un luogo per le tende, il nostro coraggioso Alberto decise di tirar fuori il suo raffinato cacarrello. Mentre gli altri campeggiatori cercavano di stabilire una base operativa per le loro escursioni, lui sfrecciava in stile \"Formula 1\", dimostrando che anche nell'avventura più selvaggia e inospitale, la comodità non andava mai in vacanza."@it ;
+    skos:related vocang:handicarrello ;
+    dct:created "2023-08-01" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:idrosnitch
+    a vocang:Parolangelo ;
+    skos:prefLabel "Idrosnitch"@it ;
+    skos:definition "Collaboratore di un idrosbirro. Termine prevalentemente impiegato per identificare bagnini di salvataggio, i quali si adoperano per interrompere atti contrari alla legge."@it;
+    skos:example "Stavo facendo il bagno alla ricerca delle perle e un bagnino di salvataggio mi ha visto e ha chiamato gli idrosbirri. Sto idrosnitch maledetto!"@it ;
+    dct:created "2023-08-03" ;
+    skos:related vocang:idrosbirro ;
+    dct:creator vocang:pertosaLorenzo, vocang:scattoniAlessandra, vocang:paoliMichele .
+
+vocang:barbroncino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Barbroncino"@it ;
+    lexinfo:pronunciation "/bar • bron • cì • no/"@it ;
+    skos:definition "Incrocio tra un barboncino e un Chihuahua"@it, "Barboncino con un'aria particolarmente irritata."@it;
+    skos:example "La mia amica Maria tiene un barbroncino nella sua borsa mentre va a fare shopping!"@it, "Per un attimo ho avuto paura che quel barbroncino volesse attaccarci! Era su tutte le furie ma noi non stavamo facendo nulla di male."@it;
+    dct:created "2023-08-05" ;
+    dct:creator vocang:orlandoNicola .
+
+vocang:barboncione
+    a vocang:Parolangelo ;
+    skos:prefLabel "Barboncione"@it ;
+    lexinfo:pronunciation "/bar • bon • cio • ne/"@it ;
+    skos:definition "Canide la cui razza è il barbone."@it;
+    skos:example "L'elegante barboncione sembrava convinto di essere l'aristocratico nonno dei parrucchieri canini, mentre guardava un canillo dall'alto al basso."@it;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/barboncione.jpg" ;
+    skos:related vocang:canillo, vocang:trashiba, vocang:barbroncino ;
+    dct:created "2023-08-05" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:mortodosso
+    a vocang:Parolangelo ;
+    skos:prefLabel "Mortodosso"@it ;
+    lexinfo:pronunciation "/mor • to • dòs • so/"@it ;
+    skos:definition "Paradosso che si verifica ogni qualvolta, in seguito a un'epidemia, si assiste a una rapidissima decrescita demografica che comporta la riduzione dei requisiti legali in termini di spazio cimiteriale necessario. Tuttavia, in realtà, la domanda di tali spazi in quell'esatto periodo temporale risulta essere necessariamente in aumento."@it;
+    skos:example "A causa del Covid-19 abbiamo passato un pomeriggio intero a scherzare sul fatto che sarebbe potuto accadere un mortodosso. Abbiamo scommesso dei soldi veri e abbiamo pure giocato al fantamorto quel giorno."@it;
+    dct:created "2023-08-05" ;
+    schema:keywords "morte, cimitero" ;
+    dct:creator vocang:pertosaLorenzo, vocang:orlandoNicola .
+
+vocang:tombus
+    a vocang:Parolangelo ;
+    skos:prefLabel "Tombus"@it ;
+    skos:definition "Autobus il cui scopo è trasportare le tombe fino al cimitero."@it;
+    skos:example "Il tombus è progettato esclusivamente per accompagnare i passeggeri in un ultimo viaggio senza ritorno al loro nuovo indirizzo nel quartiere tranquillo del cimitero."@it;
+    dct:created "2023-08-05" ;
+    schema:keywords "morte, cimitero, tomba, bara, veicolo" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:congratuerezione
+    a vocang:Parolangelo ;
+    skos:prefLabel "Congratuerezione"@it ;
+    lexinfo:pronunciation "/con • gra • tu • e • re • zió • ne/"@it ;
+    skos:definition "Manifestazione di apprezzamento mediante un'erezione robusta e vigorosa, la cui intensità è direttamente proporzionale al livello di apprezzamento per l'oggetto in questione."@it;
+    skos:example "Il nuovo completo intimo di Giorgia era molto sensuale. Invece di dirglielo a parole ho deciso di farle una grande congratuerezione."@it;
+    dct:created "2023-08-05" ;
+    skos:note "Durante la nascita della parolangelo, un vocaboliere stava morendo di ansia perché la sua console Nintendo Switch stava subendo una difficile operazione sotto i ferri." ;
+    schema:keywords "erezione, sesso, congratulazioni" ;
+    dct:creator vocang:filasetaAngelo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:orlandoNicola .
+
+vocang:norica
+    a vocang:Parolangelo ;
+    skos:prefLabel "Norica"@it ;
+    lexinfo:pronunciation "/nò • ri • ca/"@it ;
+    skos:definition "Una bevanda potabile apparentemente calorica in ragione del suo profumo, ma che si rivela in realtà essere una semplice miscela d'acqua con aggiunte di elementi privi di valore calorico."@it;
+    skos:example "Marco alzò con cautela una bottiglia etichettata \"Elisir Supremo\" e inalò il profumo con occhi sospettosi, avendo una grande aspettativa di gustare una bevanda energetica e deliziosa. Tuttavia, dopo il primo sorso, l'elisir si rivelò niente più che acqua con un tocco di essenze aromatiche. Il suo viso passò dalla delusione all'ilarità, mentre realizzò di essere stato tratto in inganno da una semplice norica!"@it;
+    dct:created "2023-08-05" ;
+    skos:note "La parolangelo nasce a seguito dell'assaporamento di una bibita particolare con un'etichetta particolarmente accattivante ed un odore forte. I realtà non era altro che acqua gassata con limone." ;
+    schema:keywords "bevanda, acqua, calorie" ;
+    skos:related vocang:acquorica ;
+    dct:creator vocang:filasetaAngelo, vocang:orlandoNicola .
+
+vocang:trucefisso
+    a vocang:Parolangelo ;
+    skos:prefLabel "Trucefisso"@it ;
+    lexinfo:pronunciation "/tru • ce • fìs • so/"@it ;
+    skos:definition "Crocifisso utilizzato come arma contundente."@it;
+    skos:example "Quando il ladro ha avuto necessità di difendersi da quello sbirro, ha scelto velocemente un oggetto con cui difendersi. Con sua grande sorpresa il crocifisso in salotto dimostrava versatilità e agilità. Uscì di soprassalto e si buttò sul poliziotto, usando quel trucefisso con così tanta violenza che per poco non lo mandò all'altro mondo. Certo che ci vuole stile a scegliere qualcosa di così carattecristico per compiere un gesto del genere!"@it;
+    dct:created "2023-08-06" ;
+    skos:note "La parolangelo nasce guardando un film: Eli. SPOILER WARNING: in una scena il protagonista colpisce con violenza la madre utilizzando un crocifisso." ;
+    schema:keywords "cristianesimo, cristo, crocifisso, arma" ;
+    skos:related vocang:carattecristico ;
+    dct:creator vocang:filasetaAngelo, vocang:rosatelliAnna .
+
+vocang:ghiacciabello
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ghiacciabello"@it ;
+    lexinfo:pronunciation "/ghiac • cia • bèl • lo/"@it ;
+    skos:definition "Sgabello fatto di ghiaccio."@it;
+    skos:example "In Islanda o comunque nei posti più freddi è possibile sedersi su ghiacciabelli e ammirare la natura. Ma non per troppo tempo. Si rischia l'ipotermia..."@it;
+    dct:created "2023-08-09" ;
+    schema:keywords "ghiaccio, freddo, sgabello, sedersi" ;
+    dct:creator vocang:pertosaLorenzo, vocang:deRosaLeonardo .
+
+vocang:gattamaca
+    a vocang:Parolangelo ;
+    skos:prefLabel "Gattamaca"@it ;
+    lexinfo:pronunciation "/gat • ta • mà • ca/"@it ;
+    skos:definition "Amaca progettata per l'appagamento dei felini domestici, sinonimo di amacaci."@it;
+    skos:example "Mia zia è una gattoide. Per questo ha realizzato con materiali pregiati e ispirata alla massima comodità felina, una gattamaca che offre ai suoi amici felini un'esperienza di riposo elevata."@it;
+    dct:created "2023-08-09" ;
+    schema:keywords "gatto, amaca, riposo" ;
+    dct:creator vocang:pertosaLorenzo, vocang:scattoniAlessandra .
+
+vocang:amacaci
+    a vocang:Parolangelo ;
+    skos:prefLabel "Amacaci"@it ;
+    lexinfo:pronunciation "/a • mà • ca • ci/"@it ;
+    skos:definition "Amaca progettata per l'appagamento dei felini domestici, sinonimo di gattamaca."@it;
+    skos:example "Mia zia è una gattoide. Per questo ha realizzato con materiali pregiati e ispirata alla massima comodità felina, una amacaci che offre ai suoi amici felini un'esperienza di riposo elevata."@it;
+    dct:created "2023-08-09" ;
+    schema:keywords "gatto, amaca, riposo" ;
+    scot:synonym vocang:gattamaca ;
+    dct:creator vocang:pertosaLorenzo, vocang:scattoniAlessandra .
