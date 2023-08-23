@@ -6988,3 +6988,14 @@ vocang:norica
     skos:note "La parolangelo nasce a seguito dell'assaporamento di una bibita particolare con un'etichetta particolarmente accattivante ed un odore forte. I realtà non era altro che acqua gassata con limone." ;
     schema:keywords "bevanda, acqua, calorie" ;
     dct:creator vocang:filasetaAngelo, vocang:orlandoNicola .
+
+vocang:trucefisso
+    a vocang:Parolangelo ;
+    skos:prefLabel "Trucefisso"@it ;
+    lexinfo:pronunciation "/tru • ce • fìs • so/"@it ;
+    skos:definition "Crocifisso utilizzato come arma contundente."@it;
+    skos:example "Quando il ladro ha avuto necessità di difendersi da quello sbirro, ha scelto velocemente un oggetto con cui difendersi. Con sua grande sorpresa il crocifisso in salotto dimostrava versatilità e agilità. Uscì di soprassalto e si buttò sul poliziotto, usando quel trucefisso con così tanta violenza che per poco non lo mandò all'altro mondo. Certo che ci vuole stile a scegliere qualcosa di così carattecristico per compiere un gesto del genere!"@it;
+    dct:created "2023-08-06" ;
+    skos:note "La parolangelo nasce guardando un film: Eli. SPOILER WARNING: in una scena il protagonista colpisce con violenza la madre utilizzando un crocifisso." ;
+    schema:keywords "cristianesimo, cristo, crocifisso, arma" ;
+    dct:creator vocang:filasetaAngelo, vocang:rosatelliAnna .
