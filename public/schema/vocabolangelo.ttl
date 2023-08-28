@@ -7083,3 +7083,13 @@ vocang:napolontano
     dct:created "2023-08-13" ;
     schema:keywords "napoli, lontano";
     dct:creator vocang:paoliMichele .
+
+vocang:turistare
+    a vocang:Parolangelo ;
+    skos:prefLabel "Turistare"@it ;
+    lexinfo:pronunciation "/tu • ris • tà • re/"@it ;
+    skos:definition "Essere ingannati dai commercianti di una località sconosciuta, pagando eccessivamente per la merce proposta."@it ;
+    skos:example "Ero in Turchia quando ho turistato comprando quel kebab. Solo una volta tornato mi sono reso conto di averlo strapagato: ho speso tipo 30 euro!"@it;
+    dct:created "2023-08-14" ;
+    schema:keywords "truffa, turismo, soldi";
+    dct:creator vocang:savoGiorgia .
