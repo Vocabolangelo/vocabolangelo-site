@@ -7174,3 +7174,14 @@ vocang:kebibino
     dct:created "2023-08-15" ;
     skos:related vocang:kebabbologo, vocang:kebabbo, vocang:kebabbilogia, vocang:kebabbolazione, vocang:kebabbologia;
     dct:creator vocang:savoGiorgia .
+
+vocang:ternariangelo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ternariangelo"@it ;
+    lexinfo:pronunciation "/ter • na • riàn • ge • lo/"@it ;
+    skos:definition "Il gruppo delle tre parolangelo più influenti e popolari del Vocabolangelo secondo la maggior parte dei vocabolieri, al punto di essere definite quasi leggendarie a causa della loro influenza o bellezza. Le parolangelo all'interno del ternariangelo sono in continua evoluzione. Ad oggi, fanno parte della ternariangelo le parolangelo \"biribì\", \"scorciatroia\" e \"urlatto\"."@it ;
+    skos:example "Se stai introducendo il Vocabolangelo a qualche amico, un buon punto di partenza sono le parolangelo che fanno parte del ternariangelo."@it;
+    schema:keywords "vocabolangelo";
+    dct:created "2023-08-26" ;
+    skos:related vocang:neocaboliere, vocang:vocaboladmin, vocang:vocabolangelo, vocang:angelario, vocang:parolangelo, vocang:apostolangelo, vocang:dizionangelo, vocang:vocaboliere, vocang:vocabolangelare, vocang:vocaboregolangelo, vocang:parolarcangelo, vocang:slangelo, vocang:concettangelo, vocang:vocaboreato, vocang:trinitangelo, vocang:mirangelo ;
+    dct:creator vocang:filasetaAngelo .
