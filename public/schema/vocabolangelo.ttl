@@ -7034,3 +7034,12 @@ vocang:amacaci
     schema:keywords "gatto, amaca, riposo" ;
     scot:synonym vocang:gattamaca ;
     dct:creator vocang:pertosaLorenzo, vocang:scattoniAlessandra .
+
+vocang:speckorino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Speckorino"@it ;
+    skos:definition "Condimento a base di speck e pecorino solitamente utilizzato per la preparazione di panini e piadine."@it;
+    skos:example "Io prenderei una bella piada con lo speckorino."@it;
+    dct:created "2023-08-10" ;
+    schema:keywords "speck, pecorino, carne, formaggio, cibo";
+    dct:creator vocang:omiccioliRiccardo .
