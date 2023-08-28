@@ -7063,3 +7063,13 @@ vocang:tartafuga
     dct:created "2023-08-11" ;
     schema:keywords "fuga, lentezza";
     dct:creator vocang:rosatelliAnna .
+
+vocang:sagria
+    a vocang:Parolangelo ;
+    skos:prefLabel "Sagria"@it ;
+    lexinfo:pronunciation "/sa • grì • a/"@it ;
+    skos:definition "Sagra il cui punto distintivo culinario consiste nella preparazione della sangria."@it ;
+    skos:example "Sono stato alla sagria di paese e mi sono completamente sbronzato. Ad un certo punto ho deciso di tornare a casa e ci ho badato circa mezz'ora  prima di rendermi conto che mi avevano rubato la bici."@it;
+    dct:created "2023-08-11" ;
+    schema:keywords "sangria, sagra";
+    dct:creator vocang:suscaMatteo, vocang:pertosaLorenzo .
