@@ -7144,3 +7144,12 @@ vocang:fermatoria
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/fermatoria.jpg" ;
     schema:keywords "rotatoria, stop";
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:bibino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Bibino"@it ;
+    lexinfo:pronunciation "/bi • bì • no/"@it ;
+    skos:definition "Bambino o neonato che ancora non va alle elementali, molto carino e che fa venire la baby fever alle persone a causa della sua tenerezza."@it ;
+    skos:example "Arianna mi manda continuamente video di bibini sui social. Uno di questi giorni penso che chiederò al mio ragazzo se vuole farne uno insieme a me... Addio pillola!"@it;
+    schema:keywords "bambino, neonato, infante, carino, dolce, tenero, baby";
+    dct:creator vocang:savoGiorgia .
