@@ -7123,3 +7123,13 @@ vocang:elifottero
     dct:created "2023-08-15" ;
     schema:keywords "elicottero, sesso";
     dct:creator vocang:pertosaLorenzo .
+
+vocang:rotatonda
+    a vocang:Parolangelo ;
+    skos:prefLabel "Rotatonda"@it ;
+    lexinfo:pronunciation "/ro • ta • tón • da/"@it ;
+    skos:definition "Rotatoria perfettamente circolare."@it ;
+    skos:example "Ieri siamo entrati in una rotatonda. Sembrava una creazione di Giotto in persona!"@it;
+    dct:created "2023-08-15" ;
+    schema:keywords "rotatoria, rotonda, cerchio";
+    dct:creator vocang:orlandoNicola .
