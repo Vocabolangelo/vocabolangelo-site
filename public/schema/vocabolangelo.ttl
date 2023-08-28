@@ -7153,3 +7153,13 @@ vocang:bibino
     skos:example "Arianna mi manda continuamente video di bibini sui social. Uno di questi giorni penso che chiederò al mio ragazzo se vuole farne uno insieme a me... Addio pillola!"@it;
     schema:keywords "bambino, neonato, infante, carino, dolce, tenero, baby";
     dct:creator vocang:savoGiorgia .
+
+vocang:ombrewolla
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ombrewolla"@it ;
+    skos:definition "Ombrellone decorato che riporta disegni o frasi anticonformiste."@it ;
+    skos:example "Ho visto uno strano individuo al mare con un ombrewolla. Sopra c'erano scritte frasi che normalmente la società con accetterebbe... Doveva proprio essere un rivoluzionario!"@it;
+    schema:keywords "ombrellone, mare, anticonformismo";
+    dct:created "2023-08-15" ;
+    skos:related vocang:bewolla ;
+    dct:creator vocang:filasetaAngelo, vocang:suscaMatteo .
