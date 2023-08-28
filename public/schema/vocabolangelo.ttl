@@ -7163,3 +7163,14 @@ vocang:ombrewolla
     dct:created "2023-08-15" ;
     skos:related vocang:bewolla ;
     dct:creator vocang:filasetaAngelo, vocang:suscaMatteo .
+
+vocang:kebibino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Kebibino"@it ;
+    lexinfo:pronunciation "/ke • bi • bì • no/"@it ;
+    skos:definition "Kebab realizzato da uno o più bambini."@it ;
+    skos:example "Ieri mio figlio ha fatto il suo primo kebibino! Era un po' strampalato ma è risultato molto buono!"@it;
+    schema:keywords "kebab, bambino";
+    dct:created "2023-08-15" ;
+    skos:related vocang:kebabbologo, vocang:kebabbo, vocang:kebabbilogia, vocang:kebabbolazione, vocang:kebabbologia;
+    dct:creator vocang:savoGiorgia .
