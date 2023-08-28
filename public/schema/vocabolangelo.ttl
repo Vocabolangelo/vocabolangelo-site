@@ -7047,8 +7047,19 @@ vocang:speckorino
 vocang:musculetto
     a vocang:Parolangelo ;
     skos:prefLabel "Musculetto"@it ;
+    lexinfo:pronunciation "/mus • cu • lét • to/"@it ;
     skos:definition "Muscolo del sedere."@it, "Sedere molto muscolo."@it;
     skos:example "Mi fa male un musculetto, forse sono stato seduto per troppo tempo!"@it, "Ho visto un ragazzo in palestra con un musculetto molto sexy."@it;
     dct:created "2023-08-11" ;
     schema:keywords "sedere, muscolo";
     dct:creator vocang:pertosaLorenzo, vocang:scattoniAlessandra .
+
+vocang:tartafuga
+    a vocang:Parolangelo ;
+    skos:prefLabel "Tartafuga"@it ;
+    lexinfo:pronunciation "/tar • ta • fù • ga/"@it ;
+    skos:definition "Fuga molto lenta."@it ;
+    skos:example "La tartaruga organizzò una tartafuga dallo zoo, tanto che i guardiani pensarono che stesse solo facendo la sua passeggiata mattutina."@it;
+    dct:created "2023-08-11" ;
+    schema:keywords "fuga, lentezza";
+    dct:creator vocang:rosatelliAnna .
