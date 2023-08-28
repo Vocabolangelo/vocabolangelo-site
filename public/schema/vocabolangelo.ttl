@@ -7093,3 +7093,13 @@ vocang:turistare
     dct:created "2023-08-14" ;
     schema:keywords "truffa, turismo, soldi";
     dct:creator vocang:savoGiorgia .
+
+vocang:bareggiare
+    a vocang:Parolangelo ;
+    skos:prefLabel "bareggiare"@it ;
+    lexinfo:pronunciation "/ba • reg • già • re/"@it ;
+    skos:definition "Passare del tempo all'interno di un bar."@it ;
+    skos:example "Ho bareggiato con Sofia ieri pomeriggio perché volevamo il caffé. Quel posto maledetto però non portava la caffetteria al tavolo quindi abbiamo lasciato una recensione negativa."@it;
+    dct:created "2023-08-14" ;
+    schema:keywords "bar";
+    dct:creator vocang:rosatelliAnna .
