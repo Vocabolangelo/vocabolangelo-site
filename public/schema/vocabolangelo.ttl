@@ -7133,3 +7133,14 @@ vocang:rotatonda
     dct:created "2023-08-15" ;
     schema:keywords "rotatoria, rotonda, cerchio";
     dct:creator vocang:orlandoNicola .
+
+vocang:fermatoria
+    a vocang:Parolangelo ;
+    skos:prefLabel "Fermatoria"@it ;
+    lexinfo:pronunciation "/fer • ma • tò • ria/"@it ;
+    skos:definition "Rotatoria che presenta dei segnali di stop al suo interno."@it ;
+    skos:example "Sono entrato tranquillamente in rotatoria e non mi sono reso conto dello stop che mi si è subito parato davanti. Mi hanno suonato fortissimo! Sento però di dover dare la colpa a chi ha inventato quella maledetta fermatoria."@it;
+    dct:created "2023-08-15" ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/fermatoria.jpg" ;
+    schema:keywords "rotatoria, stop";
+    dct:creator vocang:omiccioliRiccardo .
