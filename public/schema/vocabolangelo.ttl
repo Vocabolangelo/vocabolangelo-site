@@ -7043,3 +7043,12 @@ vocang:speckorino
     dct:created "2023-08-10" ;
     schema:keywords "speck, pecorino, carne, formaggio, cibo";
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:musculetto
+    a vocang:Parolangelo ;
+    skos:prefLabel "Musculetto"@it ;
+    skos:definition "Muscolo del sedere."@it, "Sedere molto muscolo."@it;
+    skos:example "Mi fa male un musculetto, forse sono stato seduto per troppo tempo!"@it, "Ho visto un ragazzo in palestra con un musculetto molto sexy."@it;
+    dct:created "2023-08-11" ;
+    schema:keywords "sedere, muscolo";
+    dct:creator vocang:pertosaLorenzo, vocang:scattoniAlessandra .
