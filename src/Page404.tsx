@@ -1,13 +1,11 @@
 import {Link} from 'react-router-dom'
-import Header from './components/common/Header'
-import Footer from './components/common/Footer'
 import Spotlight from './components/common/story/Spotlight'
 
 import {PAROLANGELO_ROUTE} from './components/routes/concept/ConceptList'
+import {Main} from './components/common/Main'
 
 export function Page404() {
-    return <>
-        <Header/>
+    return <Main>
         <Spotlight
             style={1}
             optionalModifiers={['orient-left', 'content-align-left', 'image-position-center', 'onscroll-image-fade-in']}
@@ -20,6 +18,5 @@ export function Page404() {
                 <a href={'/'} className="button big wide smooth-scroll-middle">Home</a>
             </div>
         </Spotlight>
-        <Footer/>
-    </>
+    </Main>
 }
