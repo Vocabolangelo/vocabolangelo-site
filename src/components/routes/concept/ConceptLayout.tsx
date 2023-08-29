@@ -178,7 +178,7 @@ function Synonyms(props: ConceptProps){
 
 function Related(props: ConceptProps){
     return <OtherParolangelo
-        title={'Correllate'}
+        title={'Correlate'}
         condition={() => props.concept.related()?.length > 0}
         list={props.concept.related()}
     />
