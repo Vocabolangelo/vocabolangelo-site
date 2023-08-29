@@ -7229,3 +7229,14 @@ vocang:aperitrappola
     schema:keywords "aperitivo, trappola, fraintendimento";
     dct:created "2023-08-19" ;
     dct:creator vocang:grasselliFrancesco .
+
+vocang:frontalista
+    a vocang:Parolangelo ;
+    skos:prefLabel "Frontalista"@it ;
+    lexinfo:pronunciation "/fron • ta • lì • sta/"@it ;
+    skos:definition "Persona che guida in maniera spericolata anche a costo di fare un frontale. Spesso il frontalista è colui che utilizza stronzatoie a doppio senso di marcia."@it ;
+    skos:example "Gianluca è veramente un pazzo quando guida. Prende sempre stronzatoie rischiando di fare incidenti. È proprio un frontalista."@it;
+    schema:keywords "frontale, incidente, pazzo, pericolo, veicolo, guida";
+    dct:created "2023-08-20" ;
+    skos:related vocang:stronzatoia ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
