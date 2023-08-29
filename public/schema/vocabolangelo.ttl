@@ -7197,3 +7197,14 @@ vocang:cosangelo
     skos:related vocang:neocaboliere, vocang:vocaboladmin, vocang:vocabolangelo, vocang:angelario, vocang:parolangelo, vocang:apostolangelo, vocang:dizionangelo, vocang:vocaboliere, vocang:vocabolangelare, vocang:vocaboregolangelo, vocang:parolarcangelo, vocang:slangelo, vocang:concettangelo, vocang:vocaboreato, vocang:trinitangelo, vocang:mirangelo, vocang:ternariangelo;
     schema:video "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/videos/vocabolangelo/cosangelo.mp4" ;
     dct:creator vocang:orlandoNicola .
+
+vocang:mannaggiapiede
+    a vocang:Parolangelo ;
+    skos:prefLabel "Mannaggiapiede"@it ;
+    lexinfo:pronunciation "/man • nag • gia • piè • de/"@it ;
+    skos:definition "Marciapiede completamente dissestato su cui è molto facile inciampare o farsi male."@it ;
+    skos:example "Stavo correndo sulla strada quando mi son dovuto spostare di colpo sul mannaggiapiede: dopo mezzo secondo mi son trovato con 3 vertebre rotte e il femore spaccato a metà. Comune povero di merda!"@it;
+    schema:keywords "marciapiede, dolore, malfunzionamento";
+    dct:created "2023-08-17" ;
+    skos:related vocang:incampietrino ;
+    dct:creator vocang:pertosaLorenzo .
