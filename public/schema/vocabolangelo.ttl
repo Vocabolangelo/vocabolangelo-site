@@ -7250,3 +7250,13 @@ vocang:fuorigano
     schema:keywords "origano, selvatico";
     dct:created "2023-08-20" ;
     dct:creator vocang:orlandoNicola .
+
+vocang:ravienna
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ravienna"@it ;
+    lexinfo:pronunciation "/ra • vièn • na/"@it ;
+    skos:definition "Città presente in Italia ma che si colloca anche all'estero."@it ;
+    skos:example "Ho impostato il navigatore per andare a Fano e ora sono in una ridente cittadina nel nord della Spagna a quasi a 2000km da casa. Evidentemente sono stato portato in una ravienna."@it;
+    schema:keywords "città, estero";
+    dct:created "2023-08-20" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
