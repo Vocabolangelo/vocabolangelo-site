@@ -681,7 +681,7 @@ vocang:incrociatoria
     lexinfo:pronunciation "/in • cro • cia • tò • ria/"@it ;
     skos:definition "Incrocio a raso molto pericoloso mascherato da rotatoria."@it ;
     skos:example "Sono quasi morto guidando attraverso un incrociatoria l'altro giorno. Inizialmente, sembrava una normale rotatoria con le sue corsie circolari e le indicazioni dei segnali stradali. Tuttavia, man mano che mi avvicinavo, ho notato qualcosa di strano. Ho dovuto usare tutta la mia abilità di guida e un pizzico di fortuna per attraversarla sano e salvo. Dopo aver superato quell'esperienza avvincente, ho deciso che era meglio evitare quella strada in futuro e cercare strade alternative più sicure."@it ;
-    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/incrociatoria.jpg" ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/incrociatoria.jpg", "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/incrociatoria_1.jpg" ;
     dct:creator vocang:pertosaLorenzo .
 
 vocang:angelata
@@ -7034,3 +7034,242 @@ vocang:amacaci
     schema:keywords "gatto, amaca, riposo" ;
     scot:synonym vocang:gattamaca ;
     dct:creator vocang:pertosaLorenzo, vocang:scattoniAlessandra .
+
+vocang:speckorino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Speckorino"@it ;
+    skos:definition "Condimento a base di speck e pecorino solitamente utilizzato per la preparazione di panini e piadine."@it;
+    skos:example "Io prenderei una bella piada con lo speckorino."@it;
+    dct:created "2023-08-10" ;
+    schema:keywords "speck, pecorino, carne, formaggio, cibo";
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:musculetto
+    a vocang:Parolangelo ;
+    skos:prefLabel "Musculetto"@it ;
+    lexinfo:pronunciation "/mus • cu • lét • to/"@it ;
+    skos:definition "Muscolo del sedere."@it, "Sedere molto muscolo."@it;
+    skos:example "Mi fa male un musculetto, forse sono stato seduto per troppo tempo!"@it, "Ho visto un ragazzo in palestra con un musculetto molto sexy."@it;
+    dct:created "2023-08-11" ;
+    schema:keywords "sedere, muscolo";
+    dct:creator vocang:pertosaLorenzo, vocang:scattoniAlessandra .
+
+vocang:tartafuga
+    a vocang:Parolangelo ;
+    skos:prefLabel "Tartafuga"@it ;
+    lexinfo:pronunciation "/tar • ta • fù • ga/"@it ;
+    skos:definition "Fuga molto lenta."@it ;
+    skos:example "La tartaruga organizzò una tartafuga dallo zoo, tanto che i guardiani pensarono che stesse solo facendo la sua passeggiata mattutina."@it;
+    dct:created "2023-08-11" ;
+    schema:keywords "fuga, lentezza";
+    dct:creator vocang:rosatelliAnna .
+
+vocang:sagria
+    a vocang:Parolangelo ;
+    skos:prefLabel "Sagria"@it ;
+    lexinfo:pronunciation "/sa • grì • a/"@it ;
+    skos:definition "Sagra il cui punto distintivo culinario consiste nella preparazione della sangria."@it ;
+    skos:example "Sono stato alla sagria di paese e mi sono completamente sbronzato. Ad un certo punto ho deciso di tornare a casa e ci ho badato circa mezz'ora  prima di rendermi conto che mi avevano rubato la bici."@it;
+    dct:created "2023-08-11" ;
+    schema:keywords "sangria, sagra";
+    dct:creator vocang:suscaMatteo, vocang:pertosaLorenzo .
+
+vocang:napolontano
+    a vocang:Parolangelo ;
+    skos:prefLabel "Napolontano"@it ;
+    lexinfo:pronunciation "/na • po • lon • tà • no/"@it ;
+    skos:definition "A debita distanza dalla città di Napoli o da gni elemento avente radici, affiliazioni o correlazioni partenopee."@it ;
+    skos:example "Domani é Capodanno, ma per mia fortuna sarò napolontano. Non voglio perdere una mano: non ho abbastanza soldi per permettermi un artificiarto."@it;
+    dct:created "2023-08-13" ;
+    schema:keywords "napoli, lontano";
+    dct:creator vocang:paoliMichele .
+
+vocang:turistare
+    a vocang:Parolangelo ;
+    skos:prefLabel "Turistare"@it ;
+    lexinfo:pronunciation "/tu • ris • tà • re/"@it ;
+    skos:definition "Essere ingannati dai commercianti di una località sconosciuta, pagando eccessivamente per la merce proposta."@it ;
+    skos:example "Ero in Turchia quando ho turistato comprando quel kebab. Solo una volta tornato mi sono reso conto di averlo strapagato: ho speso tipo 30 euro!"@it;
+    dct:created "2023-08-14" ;
+    schema:keywords "truffa, turismo, soldi";
+    dct:creator vocang:savoGiorgia .
+
+vocang:bareggiare
+    a vocang:Parolangelo ;
+    skos:prefLabel "Bareggiare"@it ;
+    lexinfo:pronunciation "/ba • reg • già • re/"@it ;
+    skos:definition "Passare del tempo all'interno di un bar."@it ;
+    skos:example "Ho bareggiato con Sofia ieri pomeriggio perché volevamo il caffé. Quel posto maledetto però non portava la caffetteria al tavolo quindi abbiamo lasciato una recensione negativa."@it;
+    dct:created "2023-08-14" ;
+    schema:keywords "bar";
+    dct:creator vocang:rosatelliAnna .
+
+vocang:gattolo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Gattolo"@it ;
+    lexinfo:pronunciation "/gat • tò • lo/"@it ;
+    skos:definition "Ghiacciolo creato appositamente per gatti, ad esempio congelando una scatoletta di tonno."@it ;
+    skos:example "Un giorno, Bob decise di creare il gattolo per far fronte al caldo estivo, ma i suoi gatti sembrarono delusi poiché si rivelò essere un semplice cubetto .di ghiaccio quasi insapore mentre loro cercavano qualcosa di più gustoso e fresco."@it;
+    dct:created "2023-08-14" ;
+    schema:keywords "ghiacciolo, gatto";
+    dct:creator vocang:orlandoNicola .
+
+vocang:elifottero
+    a vocang:Parolangelo ;
+    skos:prefLabel "Elifottero"@it ;
+    lexinfo:pronunciation "/e • li • fòt • te • ro/"@it ;
+    skos:definition "Elicottero adibito ed allestito specificamente per poter praticare rapporti sessuali a bordo una volta in volo."@it ;
+    skos:example "Io e la mia ragazza abbiamo pagato un volo sull'elifottero per poter aggiungere ai nostri ricordi un'esperienza piccante adrenalinica ed indimenticabile."@it;
+    dct:created "2023-08-15" ;
+    schema:keywords "elicottero, sesso";
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:rotatonda
+    a vocang:Parolangelo ;
+    skos:prefLabel "Rotatonda"@it ;
+    lexinfo:pronunciation "/ro • ta • tón • da/"@it ;
+    skos:definition "Rotatoria perfettamente circolare."@it ;
+    skos:example "Ieri siamo entrati in una rotatonda. Sembrava una creazione di Giotto in persona!"@it;
+    dct:created "2023-08-15" ;
+    schema:keywords "rotatoria, rotonda, cerchio";
+    dct:creator vocang:orlandoNicola .
+
+vocang:fermatoria
+    a vocang:Parolangelo ;
+    skos:prefLabel "Fermatoria"@it ;
+    lexinfo:pronunciation "/fer • ma • tò • ria/"@it ;
+    skos:definition "Rotatoria che presenta dei segnali di stop al suo interno."@it ;
+    skos:example "Sono entrato tranquillamente in rotatoria e non mi sono reso conto dello stop che mi si è subito parato davanti. Mi hanno suonato fortissimo! Sento però di dover dare la colpa a chi ha inventato quella maledetta fermatoria."@it;
+    dct:created "2023-08-15" ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/fermatoria.jpg" ;
+    schema:keywords "rotatoria, stop";
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:bibino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Bibino"@it ;
+    lexinfo:pronunciation "/bi • bì • no/"@it ;
+    skos:definition "Bambino o neonato che ancora non va alle elementali, molto carino e che fa venire la baby fever alle persone a causa della sua tenerezza."@it ;
+    skos:example "Arianna mi manda continuamente video di bibini sui social. Uno di questi giorni penso che chiederò al mio ragazzo se vuole farne uno insieme a me... Addio pillola!"@it;
+    schema:keywords "bambino, neonato, infante, carino, dolce, tenero, baby";
+    dct:creator vocang:savoGiorgia .
+
+vocang:ombrewolla
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ombrewolla"@it ;
+    skos:definition "Ombrellone decorato che riporta disegni o frasi anticonformiste."@it ;
+    skos:example "Ho visto uno strano individuo al mare con un ombrewolla. Sopra c'erano scritte frasi che normalmente la società con accetterebbe... Doveva proprio essere un rivoluzionario!"@it;
+    schema:keywords "ombrellone, mare, anticonformismo";
+    dct:created "2023-08-15" ;
+    skos:related vocang:bewolla ;
+    dct:creator vocang:filasetaAngelo, vocang:suscaMatteo .
+
+vocang:kebibino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Kebibino"@it ;
+    lexinfo:pronunciation "/ke • bi • bì • no/"@it ;
+    skos:definition "Kebab realizzato da uno o più bambini."@it ;
+    skos:example "Ieri mio figlio ha fatto il suo primo kebibino! Era un po' strampalato ma è risultato molto buono!"@it;
+    schema:keywords "kebab, bambino";
+    dct:created "2023-08-15" ;
+    skos:related vocang:kebabbologo, vocang:kebabbo, vocang:kebabbilogia, vocang:kebabbolazione, vocang:kebabbologia;
+    dct:creator vocang:savoGiorgia .
+
+vocang:ternariangelo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ternariangelo"@it ;
+    lexinfo:pronunciation "/ter • na • riàn • ge • lo/"@it ;
+    skos:definition "Il gruppo delle tre parolangelo più influenti e popolari del Vocabolangelo secondo la maggior parte dei vocabolieri, al punto di essere definite quasi leggendarie a causa della loro influenza o bellezza. Le parolangelo all'interno del ternariangelo sono in continua evoluzione. Ad oggi, fanno parte della ternariangelo le parolangelo \"biribì\", \"scorciatroia\" e \"urlatto\"."@it ;
+    skos:example "Se stai introducendo il Vocabolangelo a qualche amico, un buon punto di partenza sono le parolangelo che fanno parte del ternariangelo."@it;
+    schema:keywords "vocabolangelo";
+    dct:created "2023-08-26" ;
+    skos:related vocang:neocaboliere, vocang:vocaboladmin, vocang:vocabolangelo, vocang:angelario, vocang:parolangelo, vocang:apostolangelo, vocang:dizionangelo, vocang:vocaboliere, vocang:vocabolangelare, vocang:vocaboregolangelo, vocang:parolarcangelo, vocang:slangelo, vocang:concettangelo, vocang:vocaboreato, vocang:trinitangelo, vocang:mirangelo ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:cosangelo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cosangelo"@it ;
+    lexinfo:pronunciation "/co • sàn • ge • lo/"@it ;
+    skos:definition "Giustapposizione di concetti che non è possibile aggiungere al Vocabolangelo ne come parolangelo e come slangelo a causa dell'esistenza del concetto nella lingua italiana."@it ;
+    skos:example "Oggi io Nicola e Giorgia eravamo a casa di Sasha e abbiamo notato un quadro elettrico a casa sua. Si trattava di un quadro appesa al muro che si poteva spostare per dare accesso ai comandi elettrici della casa! Volevamo aggiungere qualcosa di simile al Vocabolangelo ma ci siamo resi conto chje non aveva alcun senso. Avevamo trovato una cosangelo!"@it;
+    schema:keywords "vocabolangelo";
+    dct:created "2023-08-15" ;
+    skos:related vocang:neocaboliere, vocang:vocaboladmin, vocang:vocabolangelo, vocang:angelario, vocang:parolangelo, vocang:apostolangelo, vocang:dizionangelo, vocang:vocaboliere, vocang:vocabolangelare, vocang:vocaboregolangelo, vocang:parolarcangelo, vocang:slangelo, vocang:concettangelo, vocang:vocaboreato, vocang:trinitangelo, vocang:mirangelo, vocang:ternariangelo;
+    schema:video "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/videos/vocabolangelo/cosangelo.mp4" ;
+    dct:creator vocang:orlandoNicola .
+
+vocang:mannaggiapiede
+    a vocang:Parolangelo ;
+    skos:prefLabel "Mannaggiapiede"@it ;
+    lexinfo:pronunciation "/man • nag • gia • piè • de/"@it ;
+    skos:definition "Marciapiede completamente dissestato su cui è molto facile inciampare o farsi male."@it ;
+    skos:example "Stavo correndo sulla strada quando mi son dovuto spostare di colpo sul mannaggiapiede: dopo mezzo secondo mi son trovato con 3 vertebre rotte e il femore spaccato a metà. Comune povero di merda!"@it;
+    schema:keywords "marciapiede, dolore, malfunzionamento";
+    dct:created "2023-08-20" ;
+    skos:related vocang:incampietrino ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:stronzatoia
+    a vocang:Parolangelo ;
+    skos:prefLabel "Stronzatoia"@it ;
+    lexinfo:pronunciation "/stron • za • tò • ia/"@it ;
+    skos:definition "Scorciatoia stradale che comporta un effettivo risparmio di tempo sul percorso a discapito della propria sicurezza e dell'incolumità del proprio veicolo."@it ;
+    skos:example "Per arrivare prima ho preso una stronzatoia che mi ha fatto passare per un sentiero sconnesso in pendenza con rocce sporgenti. Ho rotto le sospensioni della auto ma ho risparmiato ben 3 minuti sul percorso!"@it;
+    schema:keywords "rotatoria";
+    dct:created "2023-08-17" ;
+    skos:note "La parolangelo nasce dopo aver percorso una stradina molto pericolosa consigliata da Google Maps perché più veloce" ;
+    skos:related vocang:scorciatroia, vocang:squarciatroia ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
+
+vocang:aperitrappola
+    a vocang:Parolangelo ;
+    skos:prefLabel "Aperitrappola"@it ;
+    lexinfo:pronunciation "/a • pe • ri • tràp • po • la/"@it ;
+    skos:definition "Aperitivo a cui si viene invitati pensando ci siano certe intenzioni ma che invece si rivela essere completamente diverso da quanto atteso."@it ;
+    skos:example "Francesca mi ha invitato a bere qualcosa con lei e pensavo potesse essere la mia occasione per poter far colpo su di lei. Tuttavia all'aperitivo c'era anche il suo ragazzo. Mi ha fatto un'aperitrappola!"@it;
+    schema:keywords "aperitivo, trappola, fraintendimento";
+    dct:created "2023-08-19" ;
+    dct:creator vocang:grasselliFrancesco .
+
+vocang:frontalista
+    a vocang:Parolangelo ;
+    skos:prefLabel "Frontalista"@it ;
+    lexinfo:pronunciation "/fron • ta • lì • sta/"@it ;
+    skos:definition "Persona che guida in maniera spericolata anche a costo di fare un frontale. Spesso il frontalista è colui che utilizza stronzatoie a doppio senso di marcia."@it ;
+    skos:example "Gianluca è veramente un pazzo quando guida. Prende sempre stronzatoie rischiando di fare incidenti. È proprio un frontalista."@it;
+    schema:keywords "frontale, incidente, pazzo, pericolo, veicolo, guida";
+    dct:created "2023-08-20" ;
+    skos:related vocang:stronzatoia ;
+    skos:note "La parolangelo nasce leggendo male un cartello stradale che vietava l'accesso alla via che ha portato alla creazione della parola \"stronzatoia\", tranne per i frontisti, ovvero le persone che possiedono territori lungo quella via." ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
+
+vocang:fuorigano
+    a vocang:Parolangelo ;
+    skos:prefLabel "Fuorigano"@it ;
+    lexinfo:pronunciation "/fuo • rì • ga • no/"@it ;
+    skos:definition "Piante di origano selvatico."@it ;
+    skos:example "È inutile che insisti; anche se lo coltivi in giardino, non è fuorigano!"@it;
+    schema:keywords "origano, selvatico";
+    dct:created "2023-08-20" ;
+    dct:creator vocang:orlandoNicola .
+
+vocang:ravienna
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ravienna"@it ;
+    lexinfo:pronunciation "/ra • vièn • na/"@it ;
+    skos:definition "Città presente in Italia ma che si colloca anche all'estero."@it ;
+    skos:example "Ho impostato il navigatore per andare a Fano e ora sono in una ridente cittadina nel nord della Spagna a quasi a 2000km da casa. Evidentemente sono stato portato in una ravienna."@it;
+    schema:keywords "città, estero";
+    dct:created "2023-08-20" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
+
+vocang:kebabbarologia
+    a vocang:Parolangelo ;
+    skos:prefLabel "Kebabbarologia"@it ;
+    lexinfo:pronunciation "/ke • bab • ba • ro • lo • gì • a/"@it ;
+    skos:definition "Studio e valutazione dei luoghi che vendono kebab nel quale si effettua un pasto al fine di valutare le sue prestazioni sulla base di indici di gradimento prestabiliti. La valutazione tiene conto di aspetti fondamentali come la bontà, grandezza e prezzo del kebab ma anche di altri aspetti che riguardano, per esempio, la scorrevolezza della fila, la correttezza degli ordini e la velocità di preparazione."@it ;
+    skos:example "Grazie al nostro studio sulla kebabbarologia della città di Fano, un eventuale ospite saprà in quale kebabbbaro andare in base a ciò che ritiene più importante!"@it;
+    schema:keywords "kebab, indice, kpi, votazione, voto, bontà, cibo";
+    dct:created "2023-08-21" ;
+    skos:related vocang:kebabbologo, vocang:kebabbo, vocang:kebabbilogia, vocang:kebabbolazione, vocang:kebabbologia, vocang:kebibino;
+    dct:creator vocang:omiccioliRiccardo, vocang:filasetaAngelo .

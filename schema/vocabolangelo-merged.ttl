@@ -777,6 +777,7 @@
 <http://www.vocabolangelo.org/incrociatoria> <http://www.w3.org/2004/02/skos/core#definition> "Incrocio a raso molto pericoloso mascherato da rotatoria."@it .
 <http://www.vocabolangelo.org/incrociatoria> <http://www.w3.org/2004/02/skos/core#example> "Sono quasi morto guidando attraverso un incrociatoria l'altro giorno. Inizialmente, sembrava una normale rotatoria con le sue corsie circolari e le indicazioni dei segnali stradali. Tuttavia, man mano che mi avvicinavo, ho notato qualcosa di strano. Ho dovuto usare tutta la mia abilità di guida e un pizzico di fortuna per attraversarla sano e salvo. Dopo aver superato quell'esperienza avvincente, ho deciso che era meglio evitare quella strada in futuro e cercare strade alternative più sicure."@it .
 <http://www.vocabolangelo.org/incrociatoria> <https://schema.org/image> "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/incrociatoria.jpg" .
+<http://www.vocabolangelo.org/incrociatoria> <https://schema.org/image> "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/incrociatoria_1.jpg" .
 <http://www.vocabolangelo.org/incrociatoria> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
 <http://www.vocabolangelo.org/angelata> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/angelata> <http://www.w3.org/2004/02/skos/core#prefLabel> "Angelata"@it .
@@ -6177,6 +6178,249 @@
 <http://www.vocabolangelo.org/amacaci> <http://rdfs.org/scot/ns#synonym> <http://www.vocabolangelo.org/gattamaca> .
 <http://www.vocabolangelo.org/amacaci> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
 <http://www.vocabolangelo.org/amacaci> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/scattoniAlessandra> .
+<http://www.vocabolangelo.org/speckorino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/speckorino> <http://www.w3.org/2004/02/skos/core#prefLabel> "Speckorino"@it .
+<http://www.vocabolangelo.org/speckorino> <http://www.w3.org/2004/02/skos/core#definition> "Condimento a base di speck e pecorino solitamente utilizzato per la preparazione di panini e piadine."@it .
+<http://www.vocabolangelo.org/speckorino> <http://www.w3.org/2004/02/skos/core#example> "Io prenderei una bella piada con lo speckorino."@it .
+<http://www.vocabolangelo.org/speckorino> <http://purl.org/dc/terms/created> "2023-08-10" .
+<http://www.vocabolangelo.org/speckorino> <https://schema.org/keywords> "speck, pecorino, carne, formaggio, cibo" .
+<http://www.vocabolangelo.org/speckorino> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
+<http://www.vocabolangelo.org/musculetto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/musculetto> <http://www.w3.org/2004/02/skos/core#prefLabel> "Musculetto"@it .
+<http://www.vocabolangelo.org/musculetto> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/mus • cu • lét • to/"@it .
+<http://www.vocabolangelo.org/musculetto> <http://www.w3.org/2004/02/skos/core#definition> "Muscolo del sedere."@it .
+<http://www.vocabolangelo.org/musculetto> <http://www.w3.org/2004/02/skos/core#definition> "Sedere molto muscolo."@it .
+<http://www.vocabolangelo.org/musculetto> <http://www.w3.org/2004/02/skos/core#example> "Mi fa male un musculetto, forse sono stato seduto per troppo tempo!"@it .
+<http://www.vocabolangelo.org/musculetto> <http://www.w3.org/2004/02/skos/core#example> "Ho visto un ragazzo in palestra con un musculetto molto sexy."@it .
+<http://www.vocabolangelo.org/musculetto> <http://purl.org/dc/terms/created> "2023-08-11" .
+<http://www.vocabolangelo.org/musculetto> <https://schema.org/keywords> "sedere, muscolo" .
+<http://www.vocabolangelo.org/musculetto> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/musculetto> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/scattoniAlessandra> .
+<http://www.vocabolangelo.org/tartafuga> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/tartafuga> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tartafuga"@it .
+<http://www.vocabolangelo.org/tartafuga> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/tar • ta • fù • ga/"@it .
+<http://www.vocabolangelo.org/tartafuga> <http://www.w3.org/2004/02/skos/core#definition> "Fuga molto lenta."@it .
+<http://www.vocabolangelo.org/tartafuga> <http://www.w3.org/2004/02/skos/core#example> "La tartaruga organizzò una tartafuga dallo zoo, tanto che i guardiani pensarono che stesse solo facendo la sua passeggiata mattutina."@it .
+<http://www.vocabolangelo.org/tartafuga> <http://purl.org/dc/terms/created> "2023-08-11" .
+<http://www.vocabolangelo.org/tartafuga> <https://schema.org/keywords> "fuga, lentezza" .
+<http://www.vocabolangelo.org/tartafuga> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/rosatelliAnna> .
+<http://www.vocabolangelo.org/sagria> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/sagria> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sagria"@it .
+<http://www.vocabolangelo.org/sagria> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/sa • grì • a/"@it .
+<http://www.vocabolangelo.org/sagria> <http://www.w3.org/2004/02/skos/core#definition> "Sagra il cui punto distintivo culinario consiste nella preparazione della sangria."@it .
+<http://www.vocabolangelo.org/sagria> <http://www.w3.org/2004/02/skos/core#example> "Sono stato alla sagria di paese e mi sono completamente sbronzato. Ad un certo punto ho deciso di tornare a casa e ci ho badato circa mezz'ora  prima di rendermi conto che mi avevano rubato la bici."@it .
+<http://www.vocabolangelo.org/sagria> <http://purl.org/dc/terms/created> "2023-08-11" .
+<http://www.vocabolangelo.org/sagria> <https://schema.org/keywords> "sangria, sagra" .
+<http://www.vocabolangelo.org/sagria> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/suscaMatteo> .
+<http://www.vocabolangelo.org/sagria> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/napolontano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/napolontano> <http://www.w3.org/2004/02/skos/core#prefLabel> "Napolontano"@it .
+<http://www.vocabolangelo.org/napolontano> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/na • po • lon • tà • no/"@it .
+<http://www.vocabolangelo.org/napolontano> <http://www.w3.org/2004/02/skos/core#definition> "A debita distanza dalla città di Napoli o da gni elemento avente radici, affiliazioni o correlazioni partenopee."@it .
+<http://www.vocabolangelo.org/napolontano> <http://www.w3.org/2004/02/skos/core#example> "Domani é Capodanno, ma per mia fortuna sarò napolontano. Non voglio perdere una mano: non ho abbastanza soldi per permettermi un artificiarto."@it .
+<http://www.vocabolangelo.org/napolontano> <http://purl.org/dc/terms/created> "2023-08-13" .
+<http://www.vocabolangelo.org/napolontano> <https://schema.org/keywords> "napoli, lontano" .
+<http://www.vocabolangelo.org/napolontano> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/paoliMichele> .
+<http://www.vocabolangelo.org/turistare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/turistare> <http://www.w3.org/2004/02/skos/core#prefLabel> "Turistare"@it .
+<http://www.vocabolangelo.org/turistare> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/tu • ris • tà • re/"@it .
+<http://www.vocabolangelo.org/turistare> <http://www.w3.org/2004/02/skos/core#definition> "Essere ingannati dai commercianti di una località sconosciuta, pagando eccessivamente per la merce proposta."@it .
+<http://www.vocabolangelo.org/turistare> <http://www.w3.org/2004/02/skos/core#example> "Ero in Turchia quando ho turistato comprando quel kebab. Solo una volta tornato mi sono reso conto di averlo strapagato: ho speso tipo 30 euro!"@it .
+<http://www.vocabolangelo.org/turistare> <http://purl.org/dc/terms/created> "2023-08-14" .
+<http://www.vocabolangelo.org/turistare> <https://schema.org/keywords> "truffa, turismo, soldi" .
+<http://www.vocabolangelo.org/turistare> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/savoGiorgia> .
+<http://www.vocabolangelo.org/bareggiare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/bareggiare> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bareggiare"@it .
+<http://www.vocabolangelo.org/bareggiare> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/ba • reg • già • re/"@it .
+<http://www.vocabolangelo.org/bareggiare> <http://www.w3.org/2004/02/skos/core#definition> "Passare del tempo all'interno di un bar."@it .
+<http://www.vocabolangelo.org/bareggiare> <http://www.w3.org/2004/02/skos/core#example> "Ho bareggiato con Sofia ieri pomeriggio perché volevamo il caffé. Quel posto maledetto però non portava la caffetteria al tavolo quindi abbiamo lasciato una recensione negativa."@it .
+<http://www.vocabolangelo.org/bareggiare> <http://purl.org/dc/terms/created> "2023-08-14" .
+<http://www.vocabolangelo.org/bareggiare> <https://schema.org/keywords> "bar" .
+<http://www.vocabolangelo.org/bareggiare> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/rosatelliAnna> .
+<http://www.vocabolangelo.org/gattolo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/gattolo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gattolo"@it .
+<http://www.vocabolangelo.org/gattolo> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/gat • tò • lo/"@it .
+<http://www.vocabolangelo.org/gattolo> <http://www.w3.org/2004/02/skos/core#definition> "Ghiacciolo creato appositamente per gatti, ad esempio congelando una scatoletta di tonno."@it .
+<http://www.vocabolangelo.org/gattolo> <http://www.w3.org/2004/02/skos/core#example> "Un giorno, Bob decise di creare il gattolo per far fronte al caldo estivo, ma i suoi gatti sembrarono delusi poiché si rivelò essere un semplice cubetto .di ghiaccio quasi insapore mentre loro cercavano qualcosa di più gustoso e fresco."@it .
+<http://www.vocabolangelo.org/gattolo> <http://purl.org/dc/terms/created> "2023-08-14" .
+<http://www.vocabolangelo.org/gattolo> <https://schema.org/keywords> "ghiacciolo, gatto" .
+<http://www.vocabolangelo.org/gattolo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/orlandoNicola> .
+<http://www.vocabolangelo.org/elifottero> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/elifottero> <http://www.w3.org/2004/02/skos/core#prefLabel> "Elifottero"@it .
+<http://www.vocabolangelo.org/elifottero> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/e • li • fòt • te • ro/"@it .
+<http://www.vocabolangelo.org/elifottero> <http://www.w3.org/2004/02/skos/core#definition> "Elicottero adibito ed allestito specificamente per poter praticare rapporti sessuali a bordo una volta in volo."@it .
+<http://www.vocabolangelo.org/elifottero> <http://www.w3.org/2004/02/skos/core#example> "Io e la mia ragazza abbiamo pagato un volo sull'elifottero per poter aggiungere ai nostri ricordi un'esperienza piccante adrenalinica ed indimenticabile."@it .
+<http://www.vocabolangelo.org/elifottero> <http://purl.org/dc/terms/created> "2023-08-15" .
+<http://www.vocabolangelo.org/elifottero> <https://schema.org/keywords> "elicottero, sesso" .
+<http://www.vocabolangelo.org/elifottero> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/rotatonda> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/rotatonda> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rotatonda"@it .
+<http://www.vocabolangelo.org/rotatonda> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/ro • ta • tón • da/"@it .
+<http://www.vocabolangelo.org/rotatonda> <http://www.w3.org/2004/02/skos/core#definition> "Rotatoria perfettamente circolare."@it .
+<http://www.vocabolangelo.org/rotatonda> <http://www.w3.org/2004/02/skos/core#example> "Ieri siamo entrati in una rotatonda. Sembrava una creazione di Giotto in persona!"@it .
+<http://www.vocabolangelo.org/rotatonda> <http://purl.org/dc/terms/created> "2023-08-15" .
+<http://www.vocabolangelo.org/rotatonda> <https://schema.org/keywords> "rotatoria, rotonda, cerchio" .
+<http://www.vocabolangelo.org/rotatonda> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/orlandoNicola> .
+<http://www.vocabolangelo.org/fermatoria> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/fermatoria> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fermatoria"@it .
+<http://www.vocabolangelo.org/fermatoria> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/fer • ma • tò • ria/"@it .
+<http://www.vocabolangelo.org/fermatoria> <http://www.w3.org/2004/02/skos/core#definition> "Rotatoria che presenta dei segnali di stop al suo interno."@it .
+<http://www.vocabolangelo.org/fermatoria> <http://www.w3.org/2004/02/skos/core#example> "Sono entrato tranquillamente in rotatoria e non mi sono reso conto dello stop che mi si è subito parato davanti. Mi hanno suonato fortissimo! Sento però di dover dare la colpa a chi ha inventato quella maledetta fermatoria."@it .
+<http://www.vocabolangelo.org/fermatoria> <http://purl.org/dc/terms/created> "2023-08-15" .
+<http://www.vocabolangelo.org/fermatoria> <https://schema.org/image> "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/fermatoria.jpg" .
+<http://www.vocabolangelo.org/fermatoria> <https://schema.org/keywords> "rotatoria, stop" .
+<http://www.vocabolangelo.org/fermatoria> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
+<http://www.vocabolangelo.org/bibino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/bibino> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bibino"@it .
+<http://www.vocabolangelo.org/bibino> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/bi • bì • no/"@it .
+<http://www.vocabolangelo.org/bibino> <http://www.w3.org/2004/02/skos/core#definition> "Bambino o neonato che ancora non va alle elementali, molto carino e che fa venire la baby fever alle persone a causa della sua tenerezza."@it .
+<http://www.vocabolangelo.org/bibino> <http://www.w3.org/2004/02/skos/core#example> "Arianna mi manda continuamente video di bibini sui social. Uno di questi giorni penso che chiederò al mio ragazzo se vuole farne uno insieme a me... Addio pillola!"@it .
+<http://www.vocabolangelo.org/bibino> <https://schema.org/keywords> "bambino, neonato, infante, carino, dolce, tenero, baby" .
+<http://www.vocabolangelo.org/bibino> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/savoGiorgia> .
+<http://www.vocabolangelo.org/ombrewolla> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/ombrewolla> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ombrewolla"@it .
+<http://www.vocabolangelo.org/ombrewolla> <http://www.w3.org/2004/02/skos/core#definition> "Ombrellone decorato che riporta disegni o frasi anticonformiste."@it .
+<http://www.vocabolangelo.org/ombrewolla> <http://www.w3.org/2004/02/skos/core#example> "Ho visto uno strano individuo al mare con un ombrewolla. Sopra c'erano scritte frasi che normalmente la società con accetterebbe... Doveva proprio essere un rivoluzionario!"@it .
+<http://www.vocabolangelo.org/ombrewolla> <https://schema.org/keywords> "ombrellone, mare, anticonformismo" .
+<http://www.vocabolangelo.org/ombrewolla> <http://purl.org/dc/terms/created> "2023-08-15" .
+<http://www.vocabolangelo.org/ombrewolla> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/bewolla> .
+<http://www.vocabolangelo.org/ombrewolla> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
+<http://www.vocabolangelo.org/ombrewolla> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/suscaMatteo> .
+<http://www.vocabolangelo.org/kebibino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/kebibino> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kebibino"@it .
+<http://www.vocabolangelo.org/kebibino> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/ke • bi • bì • no/"@it .
+<http://www.vocabolangelo.org/kebibino> <http://www.w3.org/2004/02/skos/core#definition> "Kebab realizzato da uno o più bambini."@it .
+<http://www.vocabolangelo.org/kebibino> <http://www.w3.org/2004/02/skos/core#example> "Ieri mio figlio ha fatto il suo primo kebibino! Era un po' strampalato ma è risultato molto buono!"@it .
+<http://www.vocabolangelo.org/kebibino> <https://schema.org/keywords> "kebab, bambino" .
+<http://www.vocabolangelo.org/kebibino> <http://purl.org/dc/terms/created> "2023-08-15" .
+<http://www.vocabolangelo.org/kebibino> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/kebabbologo> .
+<http://www.vocabolangelo.org/kebibino> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/kebabbo> .
+<http://www.vocabolangelo.org/kebibino> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/kebabbilogia> .
+<http://www.vocabolangelo.org/kebibino> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/kebabbolazione> .
+<http://www.vocabolangelo.org/kebibino> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/kebabbologia> .
+<http://www.vocabolangelo.org/kebibino> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/savoGiorgia> .
+<http://www.vocabolangelo.org/ternariangelo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/ternariangelo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ternariangelo"@it .
+<http://www.vocabolangelo.org/ternariangelo> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/ter • na • riàn • ge • lo/"@it .
+<http://www.vocabolangelo.org/ternariangelo> <http://www.w3.org/2004/02/skos/core#definition> "Il gruppo delle tre parolangelo più influenti e popolari del Vocabolangelo secondo la maggior parte dei vocabolieri, al punto di essere definite quasi leggendarie a causa della loro influenza o bellezza. Le parolangelo all'interno del ternariangelo sono in continua evoluzione. Ad oggi, fanno parte della ternariangelo le parolangelo \"biribì\", \"scorciatroia\" e \"urlatto\"."@it .
+<http://www.vocabolangelo.org/ternariangelo> <http://www.w3.org/2004/02/skos/core#example> "Se stai introducendo il Vocabolangelo a qualche amico, un buon punto di partenza sono le parolangelo che fanno parte del ternariangelo."@it .
+<http://www.vocabolangelo.org/ternariangelo> <https://schema.org/keywords> "vocabolangelo" .
+<http://www.vocabolangelo.org/ternariangelo> <http://purl.org/dc/terms/created> "2023-08-26" .
+<http://www.vocabolangelo.org/ternariangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/neocaboliere> .
+<http://www.vocabolangelo.org/ternariangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboladmin> .
+<http://www.vocabolangelo.org/ternariangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelo> .
+<http://www.vocabolangelo.org/ternariangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/angelario> .
+<http://www.vocabolangelo.org/ternariangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/parolangelo> .
+<http://www.vocabolangelo.org/ternariangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/apostolangelo> .
+<http://www.vocabolangelo.org/ternariangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/dizionangelo> .
+<http://www.vocabolangelo.org/ternariangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboliere> .
+<http://www.vocabolangelo.org/ternariangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelare> .
+<http://www.vocabolangelo.org/ternariangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboregolangelo> .
+<http://www.vocabolangelo.org/ternariangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/parolarcangelo> .
+<http://www.vocabolangelo.org/ternariangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/slangelo> .
+<http://www.vocabolangelo.org/ternariangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/concettangelo> .
+<http://www.vocabolangelo.org/ternariangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboreato> .
+<http://www.vocabolangelo.org/ternariangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/trinitangelo> .
+<http://www.vocabolangelo.org/ternariangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/mirangelo> .
+<http://www.vocabolangelo.org/ternariangelo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
+<http://www.vocabolangelo.org/cosangelo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/cosangelo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cosangelo"@it .
+<http://www.vocabolangelo.org/cosangelo> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/co • sàn • ge • lo/"@it .
+<http://www.vocabolangelo.org/cosangelo> <http://www.w3.org/2004/02/skos/core#definition> "Giustapposizione di concetti che non è possibile aggiungere al Vocabolangelo ne come parolangelo e come slangelo a causa dell'esistenza del concetto nella lingua italiana."@it .
+<http://www.vocabolangelo.org/cosangelo> <http://www.w3.org/2004/02/skos/core#example> "Oggi io Nicola e Giorgia eravamo a casa di Sasha e abbiamo notato un quadro elettrico a casa sua. Si trattava di un quadro appesa al muro che si poteva spostare per dare accesso ai comandi elettrici della casa! Volevamo aggiungere qualcosa di simile al Vocabolangelo ma ci siamo resi conto chje non aveva alcun senso. Avevamo trovato una cosangelo!"@it .
+<http://www.vocabolangelo.org/cosangelo> <https://schema.org/keywords> "vocabolangelo" .
+<http://www.vocabolangelo.org/cosangelo> <http://purl.org/dc/terms/created> "2023-08-15" .
+<http://www.vocabolangelo.org/cosangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/neocaboliere> .
+<http://www.vocabolangelo.org/cosangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboladmin> .
+<http://www.vocabolangelo.org/cosangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelo> .
+<http://www.vocabolangelo.org/cosangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/angelario> .
+<http://www.vocabolangelo.org/cosangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/parolangelo> .
+<http://www.vocabolangelo.org/cosangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/apostolangelo> .
+<http://www.vocabolangelo.org/cosangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/dizionangelo> .
+<http://www.vocabolangelo.org/cosangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboliere> .
+<http://www.vocabolangelo.org/cosangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelare> .
+<http://www.vocabolangelo.org/cosangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboregolangelo> .
+<http://www.vocabolangelo.org/cosangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/parolarcangelo> .
+<http://www.vocabolangelo.org/cosangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/slangelo> .
+<http://www.vocabolangelo.org/cosangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/concettangelo> .
+<http://www.vocabolangelo.org/cosangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboreato> .
+<http://www.vocabolangelo.org/cosangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/trinitangelo> .
+<http://www.vocabolangelo.org/cosangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/mirangelo> .
+<http://www.vocabolangelo.org/cosangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/ternariangelo> .
+<http://www.vocabolangelo.org/cosangelo> <https://schema.org/video> "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/videos/vocabolangelo/cosangelo.mp4" .
+<http://www.vocabolangelo.org/cosangelo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/orlandoNicola> .
+<http://www.vocabolangelo.org/mannaggiapiede> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/mannaggiapiede> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mannaggiapiede"@it .
+<http://www.vocabolangelo.org/mannaggiapiede> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/man • nag • gia • piè • de/"@it .
+<http://www.vocabolangelo.org/mannaggiapiede> <http://www.w3.org/2004/02/skos/core#definition> "Marciapiede completamente dissestato su cui è molto facile inciampare o farsi male."@it .
+<http://www.vocabolangelo.org/mannaggiapiede> <http://www.w3.org/2004/02/skos/core#example> "Stavo correndo sulla strada quando mi son dovuto spostare di colpo sul mannaggiapiede: dopo mezzo secondo mi son trovato con 3 vertebre rotte e il femore spaccato a metà. Comune povero di merda!"@it .
+<http://www.vocabolangelo.org/mannaggiapiede> <https://schema.org/keywords> "marciapiede, dolore, malfunzionamento" .
+<http://www.vocabolangelo.org/mannaggiapiede> <http://purl.org/dc/terms/created> "2023-08-20" .
+<http://www.vocabolangelo.org/mannaggiapiede> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/incampietrino> .
+<http://www.vocabolangelo.org/mannaggiapiede> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/stronzatoia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/stronzatoia> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stronzatoia"@it .
+<http://www.vocabolangelo.org/stronzatoia> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/stron • za • tò • ia/"@it .
+<http://www.vocabolangelo.org/stronzatoia> <http://www.w3.org/2004/02/skos/core#definition> "Scorciatoia stradale che comporta un effettivo risparmio di tempo sul percorso a discapito della propria sicurezza e dell'incolumità del proprio veicolo."@it .
+<http://www.vocabolangelo.org/stronzatoia> <http://www.w3.org/2004/02/skos/core#example> "Per arrivare prima ho preso una stronzatoia che mi ha fatto passare per un sentiero sconnesso in pendenza con rocce sporgenti. Ho rotto le sospensioni della auto ma ho risparmiato ben 3 minuti sul percorso!"@it .
+<http://www.vocabolangelo.org/stronzatoia> <https://schema.org/keywords> "rotatoria" .
+<http://www.vocabolangelo.org/stronzatoia> <http://purl.org/dc/terms/created> "2023-08-17" .
+<http://www.vocabolangelo.org/stronzatoia> <http://www.w3.org/2004/02/skos/core#note> "La parolangelo nasce dopo aver percorso una stradina molto pericolosa consigliata da Google Maps perché più veloce" .
+<http://www.vocabolangelo.org/stronzatoia> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/scorciatroia> .
+<http://www.vocabolangelo.org/stronzatoia> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/squarciatroia> .
+<http://www.vocabolangelo.org/stronzatoia> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
+<http://www.vocabolangelo.org/stronzatoia> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/battaglinoNicole> .
+<http://www.vocabolangelo.org/aperitrappola> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/aperitrappola> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aperitrappola"@it .
+<http://www.vocabolangelo.org/aperitrappola> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/a • pe • ri • tràp • po • la/"@it .
+<http://www.vocabolangelo.org/aperitrappola> <http://www.w3.org/2004/02/skos/core#definition> "Aperitivo a cui si viene invitati pensando ci siano certe intenzioni ma che invece si rivela essere completamente diverso da quanto atteso."@it .
+<http://www.vocabolangelo.org/aperitrappola> <http://www.w3.org/2004/02/skos/core#example> "Francesca mi ha invitato a bere qualcosa con lei e pensavo potesse essere la mia occasione per poter far colpo su di lei. Tuttavia all'aperitivo c'era anche il suo ragazzo. Mi ha fatto un'aperitrappola!"@it .
+<http://www.vocabolangelo.org/aperitrappola> <https://schema.org/keywords> "aperitivo, trappola, fraintendimento" .
+<http://www.vocabolangelo.org/aperitrappola> <http://purl.org/dc/terms/created> "2023-08-19" .
+<http://www.vocabolangelo.org/aperitrappola> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/grasselliFrancesco> .
+<http://www.vocabolangelo.org/frontalista> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/frontalista> <http://www.w3.org/2004/02/skos/core#prefLabel> "Frontalista"@it .
+<http://www.vocabolangelo.org/frontalista> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/fron • ta • lì • sta/"@it .
+<http://www.vocabolangelo.org/frontalista> <http://www.w3.org/2004/02/skos/core#definition> "Persona che guida in maniera spericolata anche a costo di fare un frontale. Spesso il frontalista è colui che utilizza stronzatoie a doppio senso di marcia."@it .
+<http://www.vocabolangelo.org/frontalista> <http://www.w3.org/2004/02/skos/core#example> "Gianluca è veramente un pazzo quando guida. Prende sempre stronzatoie rischiando di fare incidenti. È proprio un frontalista."@it .
+<http://www.vocabolangelo.org/frontalista> <https://schema.org/keywords> "frontale, incidente, pazzo, pericolo, veicolo, guida" .
+<http://www.vocabolangelo.org/frontalista> <http://purl.org/dc/terms/created> "2023-08-20" .
+<http://www.vocabolangelo.org/frontalista> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/stronzatoia> .
+<http://www.vocabolangelo.org/frontalista> <http://www.w3.org/2004/02/skos/core#note> "La parolangelo nasce leggendo male un cartello stradale che vietava l'accesso alla via che ha portato alla creazione della parola \"stronzatoia\", tranne per i frontisti, ovvero le persone che possiedono territori lungo quella via." .
+<http://www.vocabolangelo.org/frontalista> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
+<http://www.vocabolangelo.org/frontalista> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/battaglinoNicole> .
+<http://www.vocabolangelo.org/fuorigano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/fuorigano> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fuorigano"@it .
+<http://www.vocabolangelo.org/fuorigano> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/fuo • rì • ga • no/"@it .
+<http://www.vocabolangelo.org/fuorigano> <http://www.w3.org/2004/02/skos/core#definition> "Piante di origano selvatico."@it .
+<http://www.vocabolangelo.org/fuorigano> <http://www.w3.org/2004/02/skos/core#example> "È inutile che insisti; anche se lo coltivi in giardino, non è fuorigano!"@it .
+<http://www.vocabolangelo.org/fuorigano> <https://schema.org/keywords> "origano, selvatico" .
+<http://www.vocabolangelo.org/fuorigano> <http://purl.org/dc/terms/created> "2023-08-20" .
+<http://www.vocabolangelo.org/fuorigano> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/orlandoNicola> .
+<http://www.vocabolangelo.org/ravienna> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/ravienna> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ravienna"@it .
+<http://www.vocabolangelo.org/ravienna> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/ra • vièn • na/"@it .
+<http://www.vocabolangelo.org/ravienna> <http://www.w3.org/2004/02/skos/core#definition> "Città presente in Italia ma che si colloca anche all'estero."@it .
+<http://www.vocabolangelo.org/ravienna> <http://www.w3.org/2004/02/skos/core#example> "Ho impostato il navigatore per andare a Fano e ora sono in una ridente cittadina nel nord della Spagna a quasi a 2000km da casa. Evidentemente sono stato portato in una ravienna."@it .
+<http://www.vocabolangelo.org/ravienna> <https://schema.org/keywords> "città, estero" .
+<http://www.vocabolangelo.org/ravienna> <http://purl.org/dc/terms/created> "2023-08-20" .
+<http://www.vocabolangelo.org/ravienna> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
+<http://www.vocabolangelo.org/ravienna> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/battaglinoNicole> .
+<http://www.vocabolangelo.org/kebabbarologia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/kebabbarologia> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kebabbarologia"@it .
+<http://www.vocabolangelo.org/kebabbarologia> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/ke • bab • ba • ro • lo • gì • a/"@it .
+<http://www.vocabolangelo.org/kebabbarologia> <http://www.w3.org/2004/02/skos/core#definition> "Studio e valutazione dei luoghi che vendono kebab nel quale si effettua un pasto al fine di valutare le sue prestazioni sulla base di indici di gradimento prestabiliti. La valutazione tiene conto di aspetti fondamentali come la bontà, grandezza e prezzo del kebab ma anche di altri aspetti che riguardano, per esempio, la scorrevolezza della fila, la correttezza degli ordini e la velocità di preparazione."@it .
+<http://www.vocabolangelo.org/kebabbarologia> <http://www.w3.org/2004/02/skos/core#example> "Grazie al nostro studio sulla kebabbarologia della città di Fano, un eventuale ospite saprà in quale kebabbbaro andare in base a ciò che ritiene più importante!"@it .
+<http://www.vocabolangelo.org/kebabbarologia> <https://schema.org/keywords> "kebab, indice, kpi, votazione, voto, bontà, cibo" .
+<http://www.vocabolangelo.org/kebabbarologia> <http://purl.org/dc/terms/created> "2023-08-21" .
+<http://www.vocabolangelo.org/kebabbarologia> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/kebabbologo> .
+<http://www.vocabolangelo.org/kebabbarologia> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/kebabbo> .
+<http://www.vocabolangelo.org/kebabbarologia> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/kebabbilogia> .
+<http://www.vocabolangelo.org/kebabbarologia> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/kebabbolazione> .
+<http://www.vocabolangelo.org/kebabbarologia> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/kebabbologia> .
+<http://www.vocabolangelo.org/kebabbarologia> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/kebibino> .
+<http://www.vocabolangelo.org/kebabbarologia> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
+<http://www.vocabolangelo.org/kebabbarologia> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
 <http://www.vocabolangelo.org/invicio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/acquesca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/manomare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -6185,6 +6429,7 @@
 <http://www.vocabolangelo.org/parolarcangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/neocaboliere> .
 <http://www.vocabolangelo.org/parolarcangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboregolangelo> .
 <http://www.vocabolangelo.org/parolarcangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelare> .
+<http://www.vocabolangelo.org/parolarcangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/cosangelo> .
 <http://www.vocabolangelo.org/parolarcangelo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/parolarcangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/trinitangelo> .
 <http://www.vocabolangelo.org/parolarcangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/dizionangelo> .
@@ -6192,6 +6437,7 @@
 <http://www.vocabolangelo.org/parolarcangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelo> .
 <http://www.vocabolangelo.org/parolarcangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/catenangelo> .
 <http://www.vocabolangelo.org/parolarcangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboliere> .
+<http://www.vocabolangelo.org/parolarcangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/ternariangelo> .
 <http://www.vocabolangelo.org/parolarcangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboladmin> .
 <http://www.vocabolangelo.org/parolarcangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboreato> .
 <http://www.vocabolangelo.org/parolarcangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/slangelo> .
@@ -6321,7 +6567,9 @@
 <http://www.vocabolangelo.org/vocabolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboladmin> .
 <http://www.vocabolangelo.org/vocabolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboliere> .
 <http://www.vocabolangelo.org/vocabolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/parolarcangelo> .
+<http://www.vocabolangelo.org/vocabolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/ternariangelo> .
 <http://www.vocabolangelo.org/vocabolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/catenangelo> .
+<http://www.vocabolangelo.org/vocabolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/cosangelo> .
 <http://www.vocabolangelo.org/vocabolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/neocaboliere> .
 <http://www.w3.org/2004/02/skos/core#related> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
 <http://www.w3.org/2004/02/skos/core#related> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3.org/2004/02/skos/core#related> .
@@ -6351,7 +6599,9 @@
 <http://www.vocabolangelo.org/orgasmento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/polpanino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/kebabbolazione> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/kebabbo> .
+<http://www.vocabolangelo.org/kebabbolazione> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/kebibino> .
 <http://www.vocabolangelo.org/kebabbolazione> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/collanzionare> .
+<http://www.vocabolangelo.org/kebabbolazione> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/kebabbarologia> .
 <http://www.vocabolangelo.org/kebabbolazione> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/collazionare> .
 <http://www.vocabolangelo.org/kebabbolazione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/beeribì> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/biribì> .
@@ -6409,6 +6659,7 @@
 <http://www.vocabolangelo.org/fintomo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/permasoleso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/singhiozzutto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/napolontano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/birilleal> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/bereallo> .
 <http://www.vocabolangelo.org/birilleal> <http://rdfs.org/scot/ns#synonym> <http://www.vocabolangelo.org/bereallo> .
 <http://www.vocabolangelo.org/birilleal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -6451,6 +6702,8 @@
 <http://www.vocabolangelo.org/surigatto> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/omnicio> .
 <http://www.vocabolangelo.org/surigatto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/kebabbilogia> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/kebabbologo> .
+<http://www.vocabolangelo.org/kebabbilogia> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/kebibino> .
+<http://www.vocabolangelo.org/kebabbilogia> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/kebabbarologia> .
 <http://www.vocabolangelo.org/kebabbilogia> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/kebabbologia> .
 <http://www.vocabolangelo.org/kebabbilogia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/carattecristico> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/trucefisso> .
@@ -6533,6 +6786,7 @@
 <http://www.vocabolangelo.org/filasetaAngelo> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/morettiLeonardo> .
 <http://www.vocabolangelo.org/filasetaAngelo> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/bdeouiEddy> .
 <http://www.vocabolangelo.org/sgrower> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/sagria> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/domanica> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/dopodomanica> .
 <http://www.vocabolangelo.org/domanica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/playmix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -6586,6 +6840,24 @@
 <http://www.w3.org/2002/07/owl#bottomObjectProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#SymmetricProperty> .
 <http://www.w3.org/2002/07/owl#bottomObjectProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://www.vocabolangelo.org/pannocchiaro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/cosangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelo> .
+<http://www.vocabolangelo.org/cosangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/parolarcangelo> .
+<http://www.vocabolangelo.org/cosangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/trinitangelo> .
+<http://www.vocabolangelo.org/cosangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboregolangelo> .
+<http://www.vocabolangelo.org/cosangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/concettangelo> .
+<http://www.vocabolangelo.org/cosangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/dizionangelo> .
+<http://www.vocabolangelo.org/cosangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboladmin> .
+<http://www.vocabolangelo.org/cosangelo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/cosangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/angelario> .
+<http://www.vocabolangelo.org/cosangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/slangelo> .
+<http://www.vocabolangelo.org/cosangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/ternariangelo> .
+<http://www.vocabolangelo.org/cosangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/parolangelo> .
+<http://www.vocabolangelo.org/cosangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/neocaboliere> .
+<http://www.vocabolangelo.org/cosangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/apostolangelo> .
+<http://www.vocabolangelo.org/cosangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelare> .
+<http://www.vocabolangelo.org/cosangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboreato> .
+<http://www.vocabolangelo.org/cosangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/mirangelo> .
+<http://www.vocabolangelo.org/cosangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboliere> .
 <http://www.vocabolangelo.org/bassiAndrea> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/minoccheriAlessandra> .
 <http://www.vocabolangelo.org/bassiAndrea> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/radicchiGiovanni> .
 <http://www.vocabolangelo.org/bassiAndrea> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/filasetaAngelo> .
@@ -6623,6 +6895,7 @@
 <http://www.vocabolangelo.org/conglomegatto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/buonana> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/risottimo> .
 <http://www.vocabolangelo.org/buonana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/gattolo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/oncolotto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/pornoattrite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/alfaca> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/bregge> .
@@ -6630,10 +6903,14 @@
 <http://www.vocabolangelo.org/bufferingo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/settinana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/eleganzo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/tartafuga> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/cosciofono> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/coscista> .
 <http://www.vocabolangelo.org/cosciofono> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/babarucchiere> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/speckorino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/arabiniere> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/frontalista> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/stronzatoia> .
+<http://www.vocabolangelo.org/frontalista> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/vuovo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/peneroncino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/troccola> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/trocca> .
@@ -6694,6 +6971,13 @@
 <http://rdfs.org/scot/ns#synonym> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#SymmetricProperty> .
 <http://rdfs.org/scot/ns#synonym> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://www.vocabolangelo.org/capslockello> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/kebabbarologia> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/kebabbilogia> .
+<http://www.vocabolangelo.org/kebabbarologia> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/kebabbo> .
+<http://www.vocabolangelo.org/kebabbarologia> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/kebabbolazione> .
+<http://www.vocabolangelo.org/kebabbarologia> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/kebabbologo> .
+<http://www.vocabolangelo.org/kebabbarologia> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/kebibino> .
+<http://www.vocabolangelo.org/kebabbarologia> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/kebabbologia> .
+<http://www.vocabolangelo.org/kebabbarologia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/guidante> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/inter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/puntorgolista> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/puntorgolismo> .
@@ -6752,6 +7036,7 @@
 <http://www.vocabolangelo.org/radicchiGiovanni> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/nardiniArianna> .
 <http://www.vocabolangelo.org/radicchiGiovanni> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/bassiAndrea> .
 <http://www.vocabolangelo.org/radicchiGiovanni> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/battaglinoNicole> .
+<http://www.vocabolangelo.org/bewolla> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/ombrewolla> .
 <http://www.vocabolangelo.org/bewolla> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/albaninja> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/insalamix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -6779,6 +7064,7 @@
 <http://www.vocabolangelo.org/vocaboladmin> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/parolarcangelo> .
 <http://www.vocabolangelo.org/vocaboladmin> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/catenangelo> .
 <http://www.vocabolangelo.org/vocaboladmin> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboreato> .
+<http://www.vocabolangelo.org/vocaboladmin> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/cosangelo> .
 <http://www.vocabolangelo.org/vocaboladmin> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/festabolangelo> .
 <http://www.vocabolangelo.org/vocaboladmin> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelo> .
 <http://www.vocabolangelo.org/vocaboladmin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -6786,6 +7072,7 @@
 <http://www.vocabolangelo.org/vocaboladmin> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelizzare> .
 <http://www.vocabolangelo.org/vocaboladmin> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/neocaboliere> .
 <http://www.vocabolangelo.org/vocaboladmin> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/concettangelo> .
+<http://www.vocabolangelo.org/vocaboladmin> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/ternariangelo> .
 <http://www.vocabolangelo.org/vocaboladmin> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/trinitangelo> .
 <http://www.vocabolangelo.org/omeopartito> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/barbottare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -6863,6 +7150,7 @@
 <http://www.vocabolangelo.org/ambionimo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/biambionimo> .
 <http://www.vocabolangelo.org/ambionimo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/cuccorema> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/bareggiare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/orlandoNicola> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/adantiMatteo> .
 <http://www.vocabolangelo.org/orlandoNicola> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/salhiSamir> .
 <http://www.vocabolangelo.org/orlandoNicola> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/pupitaAlberto> .
@@ -7018,6 +7306,24 @@
 <http://www.vocabolangelo.org/domicidio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/risparmiamento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/angelata> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/ternariangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/slangelo> .
+<http://www.vocabolangelo.org/ternariangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboliere> .
+<http://www.vocabolangelo.org/ternariangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/parolarcangelo> .
+<http://www.vocabolangelo.org/ternariangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/trinitangelo> .
+<http://www.vocabolangelo.org/ternariangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/parolangelo> .
+<http://www.vocabolangelo.org/ternariangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelare> .
+<http://www.vocabolangelo.org/ternariangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/apostolangelo> .
+<http://www.vocabolangelo.org/ternariangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/concettangelo> .
+<http://www.vocabolangelo.org/ternariangelo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/ternariangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboreato> .
+<http://www.vocabolangelo.org/ternariangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboladmin> .
+<http://www.vocabolangelo.org/ternariangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/mirangelo> .
+<http://www.vocabolangelo.org/ternariangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/neocaboliere> .
+<http://www.vocabolangelo.org/ternariangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/dizionangelo> .
+<http://www.vocabolangelo.org/ternariangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/angelario> .
+<http://www.vocabolangelo.org/ternariangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboregolangelo> .
+<http://www.vocabolangelo.org/ternariangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/cosangelo> .
+<http://www.vocabolangelo.org/ternariangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelo> .
 <http://www.vocabolangelo.org/marenegrino> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/contamontenegrino> .
 <http://www.vocabolangelo.org/marenegrino> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/contanegrino> .
 <http://www.vocabolangelo.org/marenegrino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -7107,6 +7413,7 @@
 <http://www.vocabolangelo.org/overmind> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/hypermind> .
 <http://www.vocabolangelo.org/overmind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/vocaboreato> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/trinitangelo> .
+<http://www.vocabolangelo.org/vocaboreato> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/cosangelo> .
 <http://www.vocabolangelo.org/vocaboreato> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/angelario> .
 <http://www.vocabolangelo.org/vocaboreato> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/dizionangelo> .
 <http://www.vocabolangelo.org/vocaboreato> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -7119,6 +7426,7 @@
 <http://www.vocabolangelo.org/vocaboreato> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboliere> .
 <http://www.vocabolangelo.org/vocaboreato> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboregolangelo> .
 <http://www.vocabolangelo.org/vocaboreato> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelare> .
+<http://www.vocabolangelo.org/vocaboreato> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/ternariangelo> .
 <http://www.vocabolangelo.org/vocaboreato> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/neocaboliere> .
 <http://www.vocabolangelo.org/vocaboreato> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/catenangelo> .
 <http://www.vocabolangelo.org/vocaboreato> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/parolarcangelo> .
@@ -7126,6 +7434,7 @@
 <http://www.vocabolangelo.org/vocaboreato> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/raggirula> .
 <http://www.vocabolangelo.org/nerobiniere> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/spiazio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/incampietrino> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/mannaggiapiede> .
 <http://www.vocabolangelo.org/incampietrino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/pompincubo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/pomperdono> .
 <http://www.vocabolangelo.org/pompincubo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/perdompino> .
@@ -7205,11 +7514,13 @@
 <http://www.vocabolangelo.org/apostolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/mirangelo> .
 <http://www.vocabolangelo.org/apostolangelo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/apostolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/neocaboliere> .
+<http://www.vocabolangelo.org/apostolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/ternariangelo> .
 <http://www.vocabolangelo.org/apostolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/festabolangelo> .
 <http://www.vocabolangelo.org/apostolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboregolangelo> .
 <http://www.vocabolangelo.org/apostolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/parolarcangelo> .
 <http://www.vocabolangelo.org/apostolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboreato> .
 <http://www.vocabolangelo.org/apostolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelare> .
+<http://www.vocabolangelo.org/apostolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/cosangelo> .
 <http://www.vocabolangelo.org/apostolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/concettangelo> .
 <http://www.vocabolangelo.org/apostolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/catenangelo> .
 <http://www.vocabolangelo.org/apostolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboliere> .
@@ -7241,10 +7552,12 @@
 <http://www.vocabolangelo.org/concettangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/neocaboliere> .
 <http://www.vocabolangelo.org/concettangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboreato> .
 <http://www.vocabolangelo.org/concettangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/apostolangelo> .
+<http://www.vocabolangelo.org/concettangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/ternariangelo> .
 <http://www.vocabolangelo.org/concettangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelo> .
 <http://www.vocabolangelo.org/concettangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/dizionangelo> .
 <http://www.vocabolangelo.org/concettangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboregolangelo> .
 <http://www.vocabolangelo.org/concettangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/trinitangelo> .
+<http://www.vocabolangelo.org/concettangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/cosangelo> .
 <http://www.vocabolangelo.org/concettangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/parolarcangelo> .
 <http://www.vocabolangelo.org/nuocitudine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/battaglinoNicole> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/durazziMarco> .
@@ -7393,6 +7706,7 @@
 <http://www.vocabolangelo.org/sparchiare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/squarciatroia> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/scorciatroia> .
 <http://www.vocabolangelo.org/squarciatroia> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/cortatoria> .
+<http://www.vocabolangelo.org/squarciatroia> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/stronzatoia> .
 <http://www.vocabolangelo.org/squarciatroia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/notturbino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/tovaglione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -7528,9 +7842,11 @@
 <http://www.vocabolangelo.org/vocaboliere> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/trinitangelo> .
 <http://www.vocabolangelo.org/vocaboliere> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/catenangelo> .
 <http://www.vocabolangelo.org/vocaboliere> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/slangelo> .
+<http://www.vocabolangelo.org/vocaboliere> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/cosangelo> .
 <http://www.vocabolangelo.org/vocaboliere> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/neocaboliere> .
 <http://www.vocabolangelo.org/vocaboliere> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/dizionangelo> .
 <http://www.vocabolangelo.org/vocaboliere> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/mirangelo> .
+<http://www.vocabolangelo.org/vocaboliere> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/ternariangelo> .
 <http://www.vocabolangelo.org/vocaboliere> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelo> .
 <http://www.vocabolangelo.org/vocaboliere> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/parolarcangelo> .
 <http://www.vocabolangelo.org/vocaboliere> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboregolangelo> .
@@ -7690,6 +8006,7 @@
 <http://www.vocabolangelo.org/acrobatto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/scorciatroia> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/cortatoria> .
 <http://www.vocabolangelo.org/scorciatroia> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/squarciatroia> .
+<http://www.vocabolangelo.org/scorciatroia> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/stronzatoia> .
 <http://www.vocabolangelo.org/scorciatroia> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/tardivare> .
 <http://www.vocabolangelo.org/scorciatroia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/gattamaca> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/amacaci> .
@@ -7700,6 +8017,13 @@
 <http://www.vocabolangelo.org/fregola> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/tardivare> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/scorciatroia> .
 <http://www.vocabolangelo.org/tardivare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/kebibino> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/kebabbilogia> .
+<http://www.vocabolangelo.org/kebibino> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/kebabbo> .
+<http://www.vocabolangelo.org/kebibino> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/kebabbolazione> .
+<http://www.vocabolangelo.org/kebibino> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/kebabbologo> .
+<http://www.vocabolangelo.org/kebibino> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/kebabbarologia> .
+<http://www.vocabolangelo.org/kebibino> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/kebabbologia> .
+<http://www.vocabolangelo.org/kebibino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/bragariAlisa> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/bragariAlexandru> .
 <http://www.vocabolangelo.org/bragariAlisa> <http://www.perceive.net/schemas/20021119/relationship/#siblingOf> <http://www.vocabolangelo.org/bragariAlexandru> .
 <http://www.vocabolangelo.org/bragariAlisa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Vocaboliere> .
@@ -7709,6 +8033,7 @@
 <http://www.vocabolangelo.org/mirangelo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/mirangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelare> .
 <http://www.vocabolangelo.org/mirangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/slangelo> .
+<http://www.vocabolangelo.org/mirangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/ternariangelo> .
 <http://www.vocabolangelo.org/mirangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelo> .
 <http://www.vocabolangelo.org/mirangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/concettangelo> .
 <http://www.vocabolangelo.org/mirangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/apostolangelo> .
@@ -7717,6 +8042,7 @@
 <http://www.vocabolangelo.org/mirangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboladmin> .
 <http://www.vocabolangelo.org/mirangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboliere> .
 <http://www.vocabolangelo.org/mirangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/parolarcangelo> .
+<http://www.vocabolangelo.org/mirangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/cosangelo> .
 <http://www.vocabolangelo.org/mirangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/neocaboliere> .
 <http://www.vocabolangelo.org/mirangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboreato> .
 <http://www.vocabolangelo.org/scrivamia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -7724,6 +8050,7 @@
 <http://www.vocabolangelo.org/debolenza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/prenare> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/merenzare> .
 <http://www.vocabolangelo.org/prenare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/aperitrappola> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/fragagliato> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/allefanza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.perceive.net/schemas/20021119/relationship/#siblingOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://xmlns.com/foaf/0.1/knows> .
@@ -7861,7 +8188,9 @@
 <http://www.vocabolangelo.org/vocaboregolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/mirangelo> .
 <http://www.vocabolangelo.org/vocaboregolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/apostolangelo> .
 <http://www.vocabolangelo.org/vocaboregolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/concettangelo> .
+<http://www.vocabolangelo.org/vocaboregolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/cosangelo> .
 <http://www.vocabolangelo.org/vocaboregolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/trinitangelo> .
+<http://www.vocabolangelo.org/vocaboregolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/ternariangelo> .
 <http://www.vocabolangelo.org/vocaboregolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/parolarcangelo> .
 <http://www.vocabolangelo.org/vocaboregolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/angelario> .
 <http://www.vocabolangelo.org/vocaboregolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelo> .
@@ -8135,11 +8464,16 @@
 <http://www.vocabolangelo.org/moroviglioso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/dimenticatroio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/battone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/ombrewolla> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/bewolla> .
+<http://www.vocabolangelo.org/ombrewolla> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/merenzare> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/prenare> .
 <http://www.vocabolangelo.org/merenzare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/frisbidina> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/pizzotto> .
 <http://www.vocabolangelo.org/frisbidina> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/suoia> .
 <http://www.vocabolangelo.org/frisbidina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/mannaggiapiede> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/incampietrino> .
+<http://www.vocabolangelo.org/mannaggiapiede> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/fermatoria> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/uragago> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/muccado> .
 <http://www.vocabolangelo.org/uragago> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/nerarabiniere> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -8184,6 +8518,7 @@
 <http://www.vocabolangelo.org/vocabolangelare> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/parolangelo> .
 <http://www.vocabolangelo.org/vocabolangelare> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/mirangelo> .
 <http://www.vocabolangelo.org/vocabolangelare> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboladmin> .
+<http://www.vocabolangelo.org/vocabolangelare> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/cosangelo> .
 <http://www.vocabolangelo.org/vocabolangelare> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelo> .
 <http://www.vocabolangelo.org/vocabolangelare> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/apostolangelo> .
 <http://www.vocabolangelo.org/vocabolangelare> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/trinitangelo> .
@@ -8192,6 +8527,7 @@
 <http://www.vocabolangelo.org/vocabolangelare> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelizzare> .
 <http://www.vocabolangelo.org/vocabolangelare> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/slangelo> .
 <http://www.vocabolangelo.org/vocabolangelare> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/parolarcangelo> .
+<http://www.vocabolangelo.org/vocabolangelare> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/ternariangelo> .
 <http://www.vocabolangelo.org/vocabolangelare> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboregolangelo> .
 <http://www.vocabolangelo.org/vocabolangelare> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboreato> .
 <http://www.vocabolangelo.org/vocabolangelare> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/angelario> .
@@ -8210,9 +8546,11 @@
 <http://www.vocabolangelo.org/lemal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/permascente> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/vocangelare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/rotatonda> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/caffoncello> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/slangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboliere> .
 <http://www.vocabolangelo.org/slangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboreato> .
+<http://www.vocabolangelo.org/slangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/ternariangelo> .
 <http://www.vocabolangelo.org/slangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/catenangelo> .
 <http://www.vocabolangelo.org/slangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/trinitangelo> .
 <http://www.vocabolangelo.org/slangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/neocaboliere> .
@@ -8222,6 +8560,7 @@
 <http://www.vocabolangelo.org/slangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/mirangelo> .
 <http://www.vocabolangelo.org/slangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelare> .
 <http://www.vocabolangelo.org/slangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/angelario> .
+<http://www.vocabolangelo.org/slangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/cosangelo> .
 <http://www.vocabolangelo.org/slangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/parolarcangelo> .
 <http://www.vocabolangelo.org/slangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/dizionangelo> .
 <http://www.vocabolangelo.org/slangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelo> .
@@ -8294,7 +8633,9 @@
 <http://www.vocabolangelo.org/dizionangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboliere> .
 <http://www.vocabolangelo.org/dizionangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelizzare> .
 <http://www.vocabolangelo.org/dizionangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/festabolangelo> .
+<http://www.vocabolangelo.org/dizionangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/cosangelo> .
 <http://www.vocabolangelo.org/dizionangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelare> .
+<http://www.vocabolangelo.org/dizionangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/ternariangelo> .
 <http://www.vocabolangelo.org/dizionangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboreato> .
 <http://www.vocabolangelo.org/operatroia> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/mignocca> .
 <http://www.vocabolangelo.org/operatroia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -8346,7 +8687,10 @@
 <http://www.vocabolangelo.org/minoccheriAlessandra> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/omiccioliRiccardo> .
 <http://www.vocabolangelo.org/offuschiare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/tombus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/bibino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/kebabbologo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/kebabbilogia> .
+<http://www.vocabolangelo.org/kebabbologo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/kebibino> .
+<http://www.vocabolangelo.org/kebabbologo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/kebabbarologia> .
 <http://www.vocabolangelo.org/kebabbologo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/kebabbologia> .
 <http://www.vocabolangelo.org/kebabbologo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/angelesimo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -8379,6 +8723,8 @@
 <http://www.vocabolangelo.org/orgasno> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/orgasmento> .
 <http://www.vocabolangelo.org/orgasno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/kebabbo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/kebabbolazione> .
+<http://www.vocabolangelo.org/kebabbo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/kebibino> .
+<http://www.vocabolangelo.org/kebabbo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/kebabbarologia> .
 <http://www.vocabolangelo.org/kebabbo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/arsenzio> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/intè> .
 <http://www.vocabolangelo.org/arsenzio> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/cappuccido> .
@@ -8403,6 +8749,8 @@
 <http://www.vocabolangelo.org/neocaboliere> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/dizionangelo> .
 <http://www.vocabolangelo.org/neocaboliere> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelare> .
 <http://www.vocabolangelo.org/neocaboliere> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/trinitangelo> .
+<http://www.vocabolangelo.org/neocaboliere> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/cosangelo> .
+<http://www.vocabolangelo.org/neocaboliere> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/ternariangelo> .
 <http://www.vocabolangelo.org/neocaboliere> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/parolarcangelo> .
 <http://www.vocabolangelo.org/neocaboliere> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/apostolangelo> .
 <http://www.vocabolangelo.org/neocaboliere> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/angelario> .
@@ -8576,6 +8924,7 @@
 <http://www.vocabolangelo.org/lagguglia> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/laggugliare> .
 <http://www.vocabolangelo.org/lagguglia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/starnutisciare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/trinitangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/ternariangelo> .
 <http://www.vocabolangelo.org/trinitangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelo> .
 <http://www.vocabolangelo.org/trinitangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/parolangelo> .
 <http://www.vocabolangelo.org/trinitangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/mirangelo> .
@@ -8585,6 +8934,7 @@
 <http://www.vocabolangelo.org/trinitangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboregolangelo> .
 <http://www.vocabolangelo.org/trinitangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/dizionangelo> .
 <http://www.vocabolangelo.org/trinitangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/concettangelo> .
+<http://www.vocabolangelo.org/trinitangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/cosangelo> .
 <http://www.vocabolangelo.org/trinitangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboladmin> .
 <http://www.vocabolangelo.org/trinitangelo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/trinitangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/parolarcangelo> .
@@ -8652,6 +9002,7 @@
 <http://www.vocabolangelo.org/oricagami> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/criminese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/malattina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/elifottero> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/sburuccia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/grasselliFrancesco> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/paoliMichele> .
 <http://www.vocabolangelo.org/grasselliFrancesco> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/paoliMichele> .
@@ -8738,8 +9089,10 @@
 <http://www.vocabolangelo.org/scattoniAlessandra> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/pupitaAlberto> .
 <http://www.vocabolangelo.org/scattoniAlessandra> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/bragariAlexandru> .
 <http://www.vocabolangelo.org/scattoniAlessandra> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/nardiniArianna> .
+<http://www.vocabolangelo.org/musculetto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/egostitichezza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/falsevolezza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/ravienna> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/tiramirillo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/cafferillo> .
 <http://www.vocabolangelo.org/tiramirillo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/caffomilla> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -8748,10 +9101,12 @@
 <http://www.vocabolangelo.org/angelario> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/parolarcangelo> .
 <http://www.vocabolangelo.org/angelario> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/concettangelo> .
 <http://www.vocabolangelo.org/angelario> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/dizionangelo> .
+<http://www.vocabolangelo.org/angelario> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/ternariangelo> .
 <http://www.vocabolangelo.org/angelario> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboliere> .
 <http://www.vocabolangelo.org/angelario> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/festabolangelo> .
 <http://www.vocabolangelo.org/angelario> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/mirangelo> .
 <http://www.vocabolangelo.org/angelario> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/neocaboliere> .
+<http://www.vocabolangelo.org/angelario> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/cosangelo> .
 <http://www.vocabolangelo.org/angelario> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboreato> .
 <http://www.vocabolangelo.org/angelario> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/angelario> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/slangelo> .
@@ -8842,8 +9197,13 @@
 <http://www.vocabolangelo.org/filmometario> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/oraritardo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/sacrofago> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/fuorigano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/amorto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/ploftwist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/stronzatoia> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/scorciatroia> .
+<http://www.vocabolangelo.org/stronzatoia> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/frontalista> .
+<http://www.vocabolangelo.org/stronzatoia> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/squarciatroia> .
+<http://www.vocabolangelo.org/stronzatoia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/abicoltura> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/pompinazione> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/pomperdono> .
 <http://www.vocabolangelo.org/pompinazione> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/collanzionare> .
@@ -8903,10 +9263,12 @@
 <http://www.vocabolangelo.org/parolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelare> .
 <http://www.vocabolangelo.org/parolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/slangelo> .
 <http://www.vocabolangelo.org/parolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/mirangelo> .
-<http://www.vocabolangelo.org/parolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/dizionangelo> .
 <http://www.vocabolangelo.org/parolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/trinitangelo> .
+<http://www.vocabolangelo.org/parolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/dizionangelo> .
 <http://www.vocabolangelo.org/parolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/festabolangelo> .
+<http://www.vocabolangelo.org/parolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/ternariangelo> .
 <http://www.vocabolangelo.org/parolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelo> .
+<http://www.vocabolangelo.org/parolangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/cosangelo> .
 <http://www.vocabolangelo.org/trocatrice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/rotatroia> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/rotatatoria> .
 <http://www.vocabolangelo.org/rotatroia> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/cortatoria> .
@@ -8965,6 +9327,7 @@
 <http://www.vocabolangelo.org/bensellamSelma> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/filasetaAngelo> .
 <http://www.vocabolangelo.org/bensellamSelma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Vocaboliere> .
 <http://www.vocabolangelo.org/antipastontorno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/turistare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/briciolaio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/angelistica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/complinsulto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -8973,6 +9336,8 @@
 <http://www.vocabolangelo.org/coscionchetta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/kebabbologia> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/kebabbilogia> .
 <http://www.vocabolangelo.org/kebabbologia> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/kebabbologo> .
+<http://www.vocabolangelo.org/kebabbologia> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/kebibino> .
+<http://www.vocabolangelo.org/kebabbologia> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/kebabbarologia> .
 <http://www.vocabolangelo.org/kebabbologia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/contamontenegrino> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/contanegrino> .
 <http://www.vocabolangelo.org/contamontenegrino> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/marenegrino> .
