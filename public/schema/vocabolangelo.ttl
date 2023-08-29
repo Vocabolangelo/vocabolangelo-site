@@ -7205,7 +7205,7 @@ vocang:mannaggiapiede
     skos:definition "Marciapiede completamente dissestato su cui è molto facile inciampare o farsi male."@it ;
     skos:example "Stavo correndo sulla strada quando mi son dovuto spostare di colpo sul mannaggiapiede: dopo mezzo secondo mi son trovato con 3 vertebre rotte e il femore spaccato a metà. Comune povero di merda!"@it;
     schema:keywords "marciapiede, dolore, malfunzionamento";
-    dct:created "2023-08-17" ;
+    dct:created "2023-08-20" ;
     skos:related vocang:incampietrino ;
     dct:creator vocang:pertosaLorenzo .
 
@@ -7219,3 +7219,13 @@ vocang:stronzatoia
     dct:created "2023-08-17" ;
     skos:related vocang:scorciatroia, vocang:squarciatroia ;
     dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
+
+vocang:aperitrappola
+    a vocang:Parolangelo ;
+    skos:prefLabel "Aperitrappola"@it ;
+    lexinfo:pronunciation "/a • pe • ri • tràp • po • la/"@it ;
+    skos:definition "Aperitivo a cui si viene invitati pensando ci siano certe intenzioni ma che invece si rivela essere completamente diverso da quanto atteso."@it ;
+    skos:example "Francesca mi ha invitato a bere qualcosa con lei e pensavo potesse essere la mia occasione per poter far colpo su di lei. Tuttavia all'aperitivo c'era anche il suo ragazzo. Mi ha fatto un'aperitrappola!"@it;
+    schema:keywords "aperitivo, trappola, fraintendimento";
+    dct:created "2023-08-19" ;
+    dct:creator vocang:grasselliFrancesco .
