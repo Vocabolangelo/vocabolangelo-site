@@ -2856,7 +2856,7 @@ vocang:piecere
 
 vocang:librorifero
     a vocang:Parolangelo ;
-    skos:prefLabel "Librorife o"@it ;
+    skos:prefLabel "Librorifero"@it ;
     lexinfo:pronunciation "/li • bro • rì • fe • ro/"@it ;
     skos:definition "Vecchio frigorifero non funzionante e adibito a libreria."@it ;
     skos:example "Il mio frigo si è rotto, così ne ho approfittato per costruire un librorifero."@it ;
