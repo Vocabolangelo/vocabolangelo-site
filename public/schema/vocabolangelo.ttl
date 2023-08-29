@@ -7208,3 +7208,14 @@ vocang:mannaggiapiede
     dct:created "2023-08-17" ;
     skos:related vocang:incampietrino ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:stronzatoia
+    a vocang:Parolangelo ;
+    skos:prefLabel "Stronzatoia"@it ;
+    lexinfo:pronunciation "/stron • za • tò • ia/"@it ;
+    skos:definition "Scorciatoia stradale che comporta un effettivo risparmio di tempo sul percorso a discapito della propria sicurezza e dell'incolumità del proprio veicolo."@it ;
+    skos:example "Per arrivare prima ho preso una stronzatoia che mi ha fatto passare per un sentiero sconnesso in pendenza con rocce sporgenti. Ho rotto le sospensioni della auto ma ho risparmiato ben 3 minuti sul percorso!"@it;
+    schema:keywords "rotatoria";
+    dct:created "2023-08-17" ;
+    skos:related vocang:scorciatroia, vocang:squarciatroia ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
