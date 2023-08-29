@@ -7217,6 +7217,7 @@ vocang:stronzatoia
     skos:example "Per arrivare prima ho preso una stronzatoia che mi ha fatto passare per un sentiero sconnesso in pendenza con rocce sporgenti. Ho rotto le sospensioni della auto ma ho risparmiato ben 3 minuti sul percorso!"@it;
     schema:keywords "rotatoria";
     dct:created "2023-08-17" ;
+    skos:note "La parolangelo nasce dopo aver percorso una stradina molto pericolosa consigliata da Google Maps perché più veloce" ;
     skos:related vocang:scorciatroia, vocang:squarciatroia ;
     dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
 
@@ -7239,6 +7240,7 @@ vocang:frontalista
     schema:keywords "frontale, incidente, pazzo, pericolo, veicolo, guida";
     dct:created "2023-08-20" ;
     skos:related vocang:stronzatoia ;
+    skos:note "La parolangelo nasce leggendo male un cartello stradale che vietava l'accesso alla via che ha portato alla creazione della parola \"stronzatoia\", tranne per i frontisti, ovvero le persone che possiedono territori lungo quella via." ;
     dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
 
 vocang:fuorigano
@@ -7260,3 +7262,14 @@ vocang:ravienna
     schema:keywords "città, estero";
     dct:created "2023-08-20" ;
     dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
+
+vocang:kebabbarologia
+    a vocang:Parolangelo ;
+    skos:prefLabel "Kebabbarologia"@it ;
+    lexinfo:pronunciation "/ke • bab • ba • ro • lo • gì • a/"@it ;
+    skos:definition "Studio e valutazione dei luoghi che vendono kebab nel quale si effettua un pasto al fine di valutare le sue prestazioni sulla base di indici di gradimento prestabiliti. La valutazione tiene conto di aspetti fondamentali come la bontà, grandezza e prezzo del kebab ma anche di altri aspetti che riguardano, per esempio, la scorrevolezza della fila, la correttezza degli ordini e la velocità di preparazione."@it ;
+    skos:example "Grazie al nostro studio sulla kebabbarologia della città di Fano, un eventuale ospite saprà in quale kebabbbaro andare in base a ciò che ritiene più importante!"@it;
+    schema:keywords "kebab, indice, kpi, votazione, voto, bontà, cibo";
+    dct:created "2023-08-21" ;
+    skos:related vocang:kebabbologo, vocang:kebabbo, vocang:kebabbilogia, vocang:kebabbolazione, vocang:kebabbologia, vocang:kebibino;
+    dct:creator vocang:omiccioliRiccardo, vocang:filasetaAngelo .
