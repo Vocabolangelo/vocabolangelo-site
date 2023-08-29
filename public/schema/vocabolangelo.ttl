@@ -7185,3 +7185,15 @@ vocang:ternariangelo
     dct:created "2023-08-26" ;
     skos:related vocang:neocaboliere, vocang:vocaboladmin, vocang:vocabolangelo, vocang:angelario, vocang:parolangelo, vocang:apostolangelo, vocang:dizionangelo, vocang:vocaboliere, vocang:vocabolangelare, vocang:vocaboregolangelo, vocang:parolarcangelo, vocang:slangelo, vocang:concettangelo, vocang:vocaboreato, vocang:trinitangelo, vocang:mirangelo ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:cosangelo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cosangelo"@it ;
+    lexinfo:pronunciation "/co • sàn • ge • lo/"@it ;
+    skos:definition "Giustapposizione di concetti che non è possibile aggiungere al Vocabolangelo ne come parolangelo e come slangelo a causa dell'esistenza del concetto nella lingua italiana."@it ;
+    skos:example "Oggi io Nicola e Giorgia eravamo a casa di Sasha e abbiamo notato un quadro elettrico a casa sua. Si trattava di un quadro appesa al muro che si poteva spostare per dare accesso ai comandi elettrici della casa! Volevamo aggiungere qualcosa di simile al Vocabolangelo ma ci siamo resi conto chje non aveva alcun senso. Avevamo trovato una cosangelo!"@it;
+    schema:keywords "vocabolangelo";
+    dct:created "2023-08-15" ;
+    skos:related vocang:neocaboliere, vocang:vocaboladmin, vocang:vocabolangelo, vocang:angelario, vocang:parolangelo, vocang:apostolangelo, vocang:dizionangelo, vocang:vocaboliere, vocang:vocabolangelare, vocang:vocaboregolangelo, vocang:parolarcangelo, vocang:slangelo, vocang:concettangelo, vocang:vocaboreato, vocang:trinitangelo, vocang:mirangelo, vocang:ternariangelo;
+    schema:video "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/videos/vocabolangelo/cosangelo.mp4" ;
+    dct:creator vocang:orlandoNicola .
