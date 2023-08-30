@@ -6216,7 +6216,7 @@
 <http://www.vocabolangelo.org/napolontano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/napolontano> <http://www.w3.org/2004/02/skos/core#prefLabel> "Napolontano"@it .
 <http://www.vocabolangelo.org/napolontano> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/na • po • lon • tà • no/"@it .
-<http://www.vocabolangelo.org/napolontano> <http://www.w3.org/2004/02/skos/core#definition> "A debita distanza dalla città di Napoli o da gni elemento avente radici, affiliazioni o correlazioni partenopee."@it .
+<http://www.vocabolangelo.org/napolontano> <http://www.w3.org/2004/02/skos/core#definition> "A debita distanza dalla città di Napoli o da ogni elemento avente radici, affiliazioni o correlazioni partenopee."@it .
 <http://www.vocabolangelo.org/napolontano> <http://www.w3.org/2004/02/skos/core#example> "Domani é Capodanno, ma per mia fortuna sarò napolontano. Non voglio perdere una mano: non ho abbastanza soldi per permettermi un artificiarto."@it .
 <http://www.vocabolangelo.org/napolontano> <http://purl.org/dc/terms/created> "2023-08-13" .
 <http://www.vocabolangelo.org/napolontano> <https://schema.org/keywords> "napoli, lontano" .
