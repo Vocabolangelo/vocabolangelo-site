@@ -2534,7 +2534,7 @@
 <http://www.vocabolangelo.org/piecere> <http://purl.org/dc/terms/created> "2023-01-13" .
 <http://www.vocabolangelo.org/piecere> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/bragariAlexandru> .
 <http://www.vocabolangelo.org/librorifero> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
-<http://www.vocabolangelo.org/librorifero> <http://www.w3.org/2004/02/skos/core#prefLabel> "Librorife o"@it .
+<http://www.vocabolangelo.org/librorifero> <http://www.w3.org/2004/02/skos/core#prefLabel> "Librorifero"@it .
 <http://www.vocabolangelo.org/librorifero> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/li • bro • rì • fe • ro/"@it .
 <http://www.vocabolangelo.org/librorifero> <http://www.w3.org/2004/02/skos/core#definition> "Vecchio frigorifero non funzionante e adibito a libreria."@it .
 <http://www.vocabolangelo.org/librorifero> <http://www.w3.org/2004/02/skos/core#example> "Il mio frigo si è rotto, così ne ho approfittato per costruire un librorifero."@it .
@@ -4635,7 +4635,7 @@
 <http://www.vocabolangelo.org/tisaniera> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/ti • sa • niè • ra/"@it .
 <http://www.vocabolangelo.org/tisaniera> <http://www.w3.org/2004/02/skos/core#definition> "Un contenitore utilizzato per conservare e organizzare tutte le bustine degli infusi (thè, tisane, camomilla)."@it .
 <http://www.vocabolangelo.org/tisaniera> <http://www.w3.org/2004/02/skos/core#example> "Ho invitato degli amici a casa mia per una serata di tisane e relax. Ho preparato un'infinità di bustine di tè, tisane e camomilla, ma non avevo idea di dove metterle. Improvvisamente ho avuto un'illuminazione: ho preso la mia tisaniera e ho messo tutte le bustine al suo interno. I miei amici sono rimasti stupiti dalla mia collezione di bustine di infusi e dalla mia tisaniera super organizzata. Mi sentivo un vero guru del benessere, pronto a diffondere la mia saggezza sulle proprietà benefiche delle erbe. E alla fine della serata, la mia tisaniera era vuota come un deserto, a dimostrazione del fatto che la felicità è fatta di piccole cose, come una tisana fumante al termine di una giornata intensa."@it .
-<http://www.vocabolangelo.org/tisaniera> <https://schema.org/image> "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/tisaniera.jpg" .
+<http://www.vocabolangelo.org/tisaniera> <https://schema.org/image> "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/tisaniera.jpg" .
 <http://www.vocabolangelo.org/tisaniera> <http://purl.org/dc/terms/created> "2023-05-06" .
 <http://www.vocabolangelo.org/tisaniera> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
 <http://www.vocabolangelo.org/pescatiro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
