@@ -1,5 +1,43 @@
 # Changelog
 
+## [6.11.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v6.10.0...v6.11.0) (2023-08-30)
+
+
+### Features
+
+* **parolangelo:** aperitrappola ([62a30ed](https://github.com/Vocabolangelo/vocabolangelo-site/commit/62a30edf005e6e33f22fb49a32b843ae1a79b7aa))
+* **parolangelo:** bareggiare ([7313101](https://github.com/Vocabolangelo/vocabolangelo-site/commit/7313101e1d1c9a30bf058444a153fde02a0dc137))
+* **parolangelo:** bibino ([591642c](https://github.com/Vocabolangelo/vocabolangelo-site/commit/591642ca6acfd18705212e26aedac5c706d8d6ef))
+* **parolangelo:** cosangelo ([4953bf0](https://github.com/Vocabolangelo/vocabolangelo-site/commit/4953bf0b6e71d09714f01c37bb53eed8328f33b7))
+* **parolangelo:** elifottero ([bb7bbaa](https://github.com/Vocabolangelo/vocabolangelo-site/commit/bb7bbaa99c6ac1d1c8d49ad27cd0078449dc361c))
+* **parolangelo:** fermatoria ([6fc927d](https://github.com/Vocabolangelo/vocabolangelo-site/commit/6fc927dfbec939f75f2b78e155cc43d3df47004b))
+* **parolangelo:** frontalista ([7643439](https://github.com/Vocabolangelo/vocabolangelo-site/commit/7643439a299eed3b204bf57b68b5b323ca03a113))
+* **parolangelo:** fuorigano ([da5b64e](https://github.com/Vocabolangelo/vocabolangelo-site/commit/da5b64e198539b1ab3227dad951313dc09b5fe06))
+* **parolangelo:** gattolo ([9b4d6e3](https://github.com/Vocabolangelo/vocabolangelo-site/commit/9b4d6e31cc23049e41661a0361ecc8447280f379))
+* **parolangelo:** kebabbarologia ([3a2a5e4](https://github.com/Vocabolangelo/vocabolangelo-site/commit/3a2a5e48abefeec61d16d7056fef94fc6ebc20ba))
+* **parolangelo:** kebibino ([f12dd03](https://github.com/Vocabolangelo/vocabolangelo-site/commit/f12dd0334dbe1be2c7676d75cbd70a0e6abbdb50))
+* **parolangelo:** mannaggiapiede ([6308a12](https://github.com/Vocabolangelo/vocabolangelo-site/commit/6308a123b942dd6535af74c6f557b215f8f1f5b0))
+* **parolangelo:** musculetto ([7559055](https://github.com/Vocabolangelo/vocabolangelo-site/commit/7559055ba41c3f37bc0654c274f60af55162ff38))
+* **parolangelo:** napolontano ([e9f6ed7](https://github.com/Vocabolangelo/vocabolangelo-site/commit/e9f6ed7a9cbfe504f74cdaf7d6b999faaa225ed8))
+* **parolangelo:** ombrewolla ([68da6e7](https://github.com/Vocabolangelo/vocabolangelo-site/commit/68da6e7848c6c5403c337547e837c18d607d50b4))
+* **parolangelo:** ravienna ([53df809](https://github.com/Vocabolangelo/vocabolangelo-site/commit/53df8099b2487bf7524ff4247779e7d5c0a7821a))
+* **parolangelo:** rotatonda ([2cce987](https://github.com/Vocabolangelo/vocabolangelo-site/commit/2cce987fc6fd4ce34ccbf56584c9e20d2751a39f))
+* **parolangelo:** sagria ([b6b3397](https://github.com/Vocabolangelo/vocabolangelo-site/commit/b6b339734a515009fe6f1f37560baee600072494))
+* **parolangelo:** speckorino ([b8cdd62](https://github.com/Vocabolangelo/vocabolangelo-site/commit/b8cdd628dfe87b7d843e69b28c58f75d90485b9e))
+* **parolangelo:** stronzatoia ([7bacbf7](https://github.com/Vocabolangelo/vocabolangelo-site/commit/7bacbf715d19ea53591fa3b34428011f90b92f22))
+* **parolangelo:** tartafuga ([9011c7a](https://github.com/Vocabolangelo/vocabolangelo-site/commit/9011c7a3be3c3b7a781445b27d7e5b991e729d6c))
+* **parolangelo:** ternariangelo ([129aa47](https://github.com/Vocabolangelo/vocabolangelo-site/commit/129aa472cd08d47ed01c7df54570637cf000e170))
+* **parolangelo:** turistare ([ff518ec](https://github.com/Vocabolangelo/vocabolangelo-site/commit/ff518ecc44420d71ed57ccfdb981f480344c56bb))
+
+
+### Bug Fixes
+
+* **image:** correct tisaniera link ([146c94f](https://github.com/Vocabolangelo/vocabolangelo-site/commit/146c94f0e79d01229621859bad21e91a6b4f3d5b))
+* **parolangelo:** typo in prefLabel of librorifero ([b769ace](https://github.com/Vocabolangelo/vocabolangelo-site/commit/b769ace5015eca8afb241d97879b14368ff7af24))
+* **site:** page 404 theme support ([79421f8](https://github.com/Vocabolangelo/vocabolangelo-site/commit/79421f8298aa18baf5ea957b3cb3deff51916c9a))
+* **site:** typo in correlate ([406fe7a](https://github.com/Vocabolangelo/vocabolangelo-site/commit/406fe7a39732624a54c23496684b0dad7526a65e))
+* **site:** typo in slangelo ([0b0b0fb](https://github.com/Vocabolangelo/vocabolangelo-site/commit/0b0b0fbe7912c5fadd10dacaeef290a54f33d87c))
+
 ## [6.10.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v6.9.0...v6.10.0) (2023-08-23)
 
 
