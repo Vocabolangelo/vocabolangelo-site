@@ -7363,3 +7363,14 @@ vocang:brucito
     schema:keywords "bruciore, prurito";
     dct:created "2023-08-24" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:piovone
+    a vocang:Parolangelo ;
+    skos:prefLabel "Piovone"@it ;
+    lexinfo:pronunciation "/pio • vó • ne/"@it ;
+    skos:definition "Intenso evento di precipitazioni estive tardive, caratterizzato da una pioggia di considerevole intensità, che potrebbe essere descritta come un misto tra pioggerella insistente e rovescio abbondante."@it ;
+    skos:example "Di solito quando arriva un piovone significa che l'estate sta per finire! Possiamo dire addio al caldo."@it;
+    schema:keywords "pioggia, estate";
+    dct:created "2023-08-24" ;
+    skos:related vocang:uragago, vocang:froggia ;
+    dct:creator vocang:minoccheriAlessandra .
