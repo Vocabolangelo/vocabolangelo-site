@@ -518,6 +518,15 @@ vocang:battaglinoMarco
     rel:friendOf vocang:omiccioliRiccardo ;
     rel:siblingOf vocang:battaglinoNicole .
 
+vocang:cesaroniDavide
+    a vocang:Vocaboliere ;
+    foaf:firstName "Davide" ;
+    foaf:lastName "Cesaroni" ;
+    foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:orlandoNicola .
+
+
 # Other Author Individuals
 
 vocang:chatGPT
