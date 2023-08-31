@@ -7406,3 +7406,14 @@ vocang:remindeer
     dct:created "2023-08-25" ;
     skos:related vocang:ligattropo, vocang:omnicio, vocang:wondabarabba, vocang:biribì ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:filmoccoletto
+    a vocang:Parolangelo ;
+    skos:prefLabel "Filmoccoletto"@it ;
+    lexinfo:pronunciation "/fil • moc • co • lèt • to/"@it ;
+    skos:definition "Coccole fatte o ricevute mentre si sta visionando un film in un letto."@it ;
+    skos:example "Stasera farò un sacco di filmoccoletto alla mia ragazza mentre guardiamo \"Shrek\"."@it;
+    schema:keywords "film, coccole, letto";
+    dct:created "2023-08-25" ;
+    skos:related vocang:filmoccole, vocang:coccoletto ;
+    dct:creator vocang:filasetaAngelo .
