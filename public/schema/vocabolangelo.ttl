@@ -7353,3 +7353,13 @@ vocang:squacquarona
     skos:note "La parolangelo deriva da una riflessione sulla parola squacquerone notando che potrebbe ricordare un suono flatulento."@it;
     dct:created "2023-08-22" ;
     dct:creator vocang:battaglinoNicole .
+
+vocang:brucito
+    a vocang:Parolangelo ;
+    skos:prefLabel "Brucito"@it ;
+    lexinfo:pronunciation "/bru • cì • to/"@it ;
+    skos:definition "Sensazione di bruciore mista a prurito."@it ;
+    skos:example "Mi ha punto un'ape e ora sento del brucito sul braccio. Meno male che non sono allergico!"@it;
+    schema:keywords "bruciore, prurito";
+    dct:created "2023-08-24" ;
+    dct:creator vocang:pertosaLorenzo .
