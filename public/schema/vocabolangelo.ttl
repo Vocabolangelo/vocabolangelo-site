@@ -7312,3 +7312,13 @@ vocang:compralluogo
     schema:keywords "acquisto, comprare, negozio, soldi";
     dct:created "2023-08-21" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:pilunteggiatura
+    a vocang:Parolangelo ;
+    skos:prefLabel "Pilunteggiatura"@it ;
+    lexinfo:pronunciation "/pi • lun • teg • gia tu ra/"@it ;
+    skos:definition "Punteggiatura effimera e futile."@it ;
+    skos:example "Ho messo un po' di pilunteggiatura qua e là altrimenti la prof mi metteva un brutto voto anche se in realtà si capiva benissimo il senso e non serviva"@it;
+    schema:keywords "punteggiatura, inutile";
+    dct:created "2023-07-29" ;
+    dct:creator vocang:bragariAlexandru, vocang:omiccioliRiccardo .
