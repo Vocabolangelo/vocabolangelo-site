@@ -7273,3 +7273,14 @@ vocang:kebabbarologia
     dct:created "2023-08-21" ;
     skos:related vocang:kebabbologo, vocang:kebabbo, vocang:kebabbilogia, vocang:kebabbolazione, vocang:kebabbologia, vocang:kebibino;
     dct:creator vocang:omiccioliRiccardo, vocang:filasetaAngelo .
+
+vocang:piedovia
+    a vocang:Parolangelo ;
+    skos:prefLabel "Piedovia"@it ;
+    lexinfo:pronunciation "/pie • do • vì • a/"@it ;
+    skos:definition "Marciapiede."@it ;
+    skos:example "Nel piccolo villaggio dei pinguini, il sindaco decise di risolvere il problema del traffico sul ghiaccio creando la prima piedovia esclusivamente riservato agli uccelli marini."@it;
+    schema:keywords "marciapiede";
+    dct:created "2023-08-26" ;
+    skos:related vocang:mannaggiapiede, vocang:piedotonda ;
+    dct:creator vocang:omiccioliRiccardo .
