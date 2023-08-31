@@ -7321,4 +7321,4 @@ vocang:pilunteggiatura
     skos:example "Ho messo un po' di pilunteggiatura qua e là altrimenti la prof mi metteva un brutto voto anche se in realtà si capiva benissimo il senso e non serviva"@it;
     schema:keywords "punteggiatura, inutile";
     dct:created "2023-07-29" ;
-    dct:creator vocang:bragariAlexandru, vocang:omiccioliRiccardo .
+    dct:creator vocang:battaglinoNicole, vocang:bragariAlexandru, vocang:omiccioliRiccardo .
