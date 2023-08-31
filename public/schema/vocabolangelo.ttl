@@ -7332,3 +7332,13 @@ vocang:paragravo
     schema:keywords "paragrafo, tristezza";
     dct:created "2023-08-11" ;
     dct:creator vocang:orlandoNicola, vocang:omiccioliRiccardo .
+
+vocang:spermaggio
+    a vocang:Parolangelo ;
+    skos:prefLabel "Spermaggio"@it ;
+    lexinfo:pronunciation "/sper • màg • gio/"@it ;
+    skos:definition "Formaggio che cola da un toast molto caldo."@it ;
+    skos:example "Mentre attendevo con impazienza che il mio toast raggiungesse la giusta doratura, ho notato che il formaggio al suo interno iniziava a sciogliersi. Appena ho afferrato il toast dal tostapane, ho notato che dal lato scuro colava una grande quantità di spermaggio. Che bontà!"@it;
+    schema:keywords "toast, formaggio";
+    dct:created "2023-08-22" ;
+    dct:creator vocang:omiccioliRiccardo .
