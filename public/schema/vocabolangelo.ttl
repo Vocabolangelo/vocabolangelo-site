@@ -7396,3 +7396,13 @@ vocang:monobiniere
     dct:created "2023-08-31" ;
     skos:related vocang:monoziotto, vocang:idrosbirro, vocang:aviosbirro, vocang:boscosbirro, vocang:ipposbirro, vocang:pirosbirro, vocang:arabiniere, vocang:caccabiniere, vocang:nerarabiniere, vocang:nerobiniere ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:remindeer
+    a vocang:Parolangelo ;
+    skos:prefLabel "Remindeer"@it ;
+    skos:definition "Creatura mitologica di fattezze simili a una renna che appare in sogno a chi sta per morire, ricordandogli che la sua ora è quasi giunta."@it ;
+    skos:example "Nei biribì, come favola della buonanotte, raccontiamo che ai più fortunati in sogno appare il remindeer."@it;
+    schema:keywords "creatura, renna, morte, mitologia, fantasia";
+    dct:created "2023-08-25" ;
+    skos:related vocang:ligattropo, vocang:omnicio, vocang:wondabarabba, vocang:biribì ;
+    dct:creator vocang:pertosaLorenzo .
