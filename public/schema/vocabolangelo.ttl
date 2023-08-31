@@ -7374,3 +7374,14 @@ vocang:piovone
     dct:created "2023-08-24" ;
     skos:related vocang:uragago, vocang:froggia ;
     dct:creator vocang:minoccheriAlessandra .
+
+vocang:monoziotto
+    a vocang:Parolangelo ;
+    skos:prefLabel "Monoziotto"@it ;
+    lexinfo:pronunciation "/mo • no • ziot • to/"@it ;
+    skos:definition "Poliziotto su un monociclo."@it ;
+    skos:example "Di solito quando arriva un piovone significa che l'estate sta per finire! Possiamo dire addio al caldo."@it;
+    schema:keywords "polizia, poliziotto, sbirro, monociclo, veicolo";
+    dct:created "2023-08-25" ;
+    skos:related vocang:idrosbirro, vocang:aviosbirro, vocang:boscosbirro, vocang:ipposbirro, vocang:pirosbirro, vocang:arabiniere, vocang:caccabiniere, vocang:nerarabiniere, vocang:nerobiniere ;
+    dct:creator vocang:filasetaAngelo .
