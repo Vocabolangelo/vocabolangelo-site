@@ -7342,3 +7342,14 @@ vocang:spermaggio
     schema:keywords "toast, formaggio";
     dct:created "2023-08-22" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:squacquarona
+    a vocang:Parolangelo ;
+    skos:prefLabel "Squacquarona"@it ;
+    lexinfo:pronunciation "/squac • qua • ró • na/"@it ;
+    skos:definition "Feci molto liquide che quando vengono defecate sono accompagnate da un forte rumore di flatulenze bagnate."@it ;
+    skos:example "Ieri ho mangiato un chilo di prugne e stamattina sono dovuto correre a fare la squacquarona."@it;
+    schema:keywords "cacca, feci, flatulenza";
+    skos:note "La parolangelo deriva da una riflessione sulla parola squacquerone notando che potrebbe ricordare un suono flatulento."@it;
+    dct:created "2023-08-22" ;
+    dct:creator vocang:battaglinoNicole .
