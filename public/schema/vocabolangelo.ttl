@@ -526,7 +526,6 @@ vocang:cesaroniDavide
     org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:orlandoNicola .
 
-
 # Other Author Individuals
 
 vocang:chatGPT
@@ -7292,4 +7291,24 @@ vocang:piedovia
     schema:keywords "marciapiede";
     dct:created "2023-08-26" ;
     skos:related vocang:mannaggiapiede, vocang:piedotonda ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:copralluogo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Copralluogo"@it ;
+    lexinfo:pronunciation "/co • pral • luò • go/"@it ;
+    skos:definition "Verifica delle violazioni di un coprifuoco."@it ;
+    skos:example "Quando era appena esploso il Covid andavo in giro come se niente fosse anche di sera, finché non mi hanno fatto una multa durante un copralluogo."@it;
+    schema:keywords "coprifuoco, illegale, controllo";
+    dct:created "2023-08-21" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:compralluogo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Compralluogo"@it ;
+    lexinfo:pronunciation "/com • pral • luò • go/"@it ;
+    skos:definition "Effettuazione di un'esplorazione all'interno di negozi e supermercati con l'obiettivo di valutare la necessità di eventuali articoli in vendita, senza avere un piano o un obiettivo di acquisto specifico in mente."@it ;
+    skos:example "Quando ti chiedono se hai bisogno di qualcosa entrando in un negozio e rispondi \"No grazie sto solo dando un'occhiata\", significa che stai facendo un compralluogo."@it;
+    schema:keywords "acquisto, comprare, negozio, soldi";
+    dct:created "2023-08-21" ;
     dct:creator vocang:omiccioliRiccardo .
