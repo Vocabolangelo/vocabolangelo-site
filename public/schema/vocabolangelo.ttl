@@ -7316,9 +7316,19 @@ vocang:compralluogo
 vocang:pilunteggiatura
     a vocang:Parolangelo ;
     skos:prefLabel "Pilunteggiatura"@it ;
-    lexinfo:pronunciation "/pi • lun • teg • gia tu ra/"@it ;
+    lexinfo:pronunciation "/pi • lun • teg • gia • tu • ra/"@it ;
     skos:definition "Punteggiatura effimera e futile."@it ;
     skos:example "Ho messo un po' di pilunteggiatura qua e là altrimenti la prof mi metteva un brutto voto anche se in realtà si capiva benissimo il senso e non serviva"@it;
     schema:keywords "punteggiatura, inutile";
     dct:created "2023-07-29" ;
     dct:creator vocang:battaglinoNicole, vocang:bragariAlexandru, vocang:omiccioliRiccardo .
+
+vocang:paragravo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Paragravo"@it ;
+    lexinfo:pronunciation "/pa • rà • gra • vo/"@it ;
+    skos:definition "Paragrafo difficile da scrivere o leggere perché tratta di argomenti tristi o particolarmente difficili da sopportare psicologicamente."@it ;
+    skos:example "Nel libro di psicologia che stavo leggendo, c'era un paragravo che trattava dell'effetto emotivo del lutto inaspettato sui bambini. La lettura di quel paragravo è stata un'esperienza toccante, poiché ha affrontato in modo diretto un argomento così delicato e difficile da affrontare."@it;
+    schema:keywords "paragrafo, tristezza";
+    dct:created "2023-08-11" ;
+    dct:creator vocang:orlandoNicola, vocang:omiccioliRiccardo .
