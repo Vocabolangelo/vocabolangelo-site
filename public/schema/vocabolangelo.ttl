@@ -7417,3 +7417,14 @@ vocang:filmoccoletto
     dct:created "2023-08-25" ;
     skos:related vocang:filmoccole, vocang:coccoletto ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:discorella
+    a vocang:Parolangelo ;
+    skos:prefLabel "Discorella"@it ;
+    lexinfo:pronunciation "/dis • co • rèl • la/"@it ;
+    skos:definition "Area di vendita ambulante che diffonde la musica a un volume molto elevato."@it ;
+    skos:example "Il quartiere era in festa durante la manifestazione annuale, con numerose discorelle, che facevano ballare la folla al ritmo di musica disco anni '70."@it;
+    schema:video "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/videos/vocabolangelo/discorella.mp4" ;
+    schema:keywords "bancarella, discoteca, musica, comprare, soldi";
+    dct:created "2023-08-27" ;
+    dct:creator vocang:filasetaAngelo .
