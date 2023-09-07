@@ -7428,3 +7428,13 @@ vocang:discorella
     schema:keywords "bancarella, discoteca, musica, comprare, soldi";
     dct:created "2023-08-27" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:porcheggio
+    a vocang:Parolangelo ;
+    skos:prefLabel "Porcheggio"@it ;
+    lexinfo:pronunciation "/por • chég • gio/"@it ;
+    skos:definition "Area di parcheggio in cui buona parte delle vetture sono sistemate in maniera inappropriata."@it ;
+    skos:example "Non sono riuscito in nessun modo a parcheggiare la mia auto in quel porcheggio. A volte mi chiedo perché diano la patente a certe persone!"@it;
+    schema:keywords "parcheggio";
+    dct:created "2023-08-27" ;
+    dct:creator vocang:pertosaLorenzo, vocang:battaglinoNicole .
