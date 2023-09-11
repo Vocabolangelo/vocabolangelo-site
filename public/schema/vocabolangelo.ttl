@@ -7470,3 +7470,13 @@ vocang:disperatto
     schema:keywords "gatto, disperato, angoscia";
     dct:created "2023-08-30" ;
     dct:creator vocang:nardiniArianna .
+
+vocang:cancarella
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cancarella"@it ;
+    lexinfo:pronunciation "/can • ca • rèl • la/"@it ;
+    skos:definition "Bancarella che vende merce di bassisima qualità."@it ;
+    skos:example "Ho comprato un paio di scarpe da un venditore ambulante, ma dopo un giorno si sono rotte. Deve essere stata una cancarella!"@it;
+    schema:keywords "bancarella, venditore, merce, bassa qualità";
+    dct:created "2023-08-31" ;
+    dct:creator vocang:filasetaAngelo .
