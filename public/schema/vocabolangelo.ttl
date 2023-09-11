@@ -7501,3 +7501,13 @@ vocang:pesciarella
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/pesciarella.jpg" ;
     dct:created "2023-09-02" ;
     dct:creator vocang:minoccheriAlessandra .
+
+vocang:manettaggine
+    a vocang:Parolangelo ;
+    skos:prefLabel "Manettaggine"@it ;
+    lexinfo:pronunciation "/ma • net • ta • ggì • ne/"@it ;
+    skos:definition "Quantitativo di ispirazione sessuale che trasmette una ragazza minorenne."@it ;
+    skos:example "Quella ragazza è minorenne, ma ha un manettaggine che mi fa venire voglia di fare cose che non dovrei."@it;
+    schema:keywords "minorenne, ragazza, sesso";
+    dct:created "2023-09-02" ;
+    dct:creator vocang:filasetaAngelo .
