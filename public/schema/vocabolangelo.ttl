@@ -7490,3 +7490,14 @@ vocang:diostrazione
     schema:keywords "dio, dimostrazione, prova, esistenza";
     dct:created "2023-09-02" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:pesciarella
+    a vocang:Parolangelo ;
+    skos:prefLabel "Pesciarella"@it ;
+    lexinfo:pronunciation "/pe • scia • rèl • la/"@it ;
+    skos:definition "Bancarella che vende pesce."@it ;
+    skos:example "Ho comprato un pesce da un venditore ambulante e lo ho cucinato per il mio obesatto. Gli è piaciuto un sacco!"@it;
+    schema:keywords "bancarella, venditore, pesce";
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/pesciarella.jpg" ;
+    dct:created "2023-09-02" ;
+    dct:creator vocang:minoccheriAlessandra .
