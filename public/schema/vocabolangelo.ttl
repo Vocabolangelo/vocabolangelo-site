@@ -7563,3 +7563,14 @@ vocang:codamozzato
     schema:keywords "coda, mozzare";
     dct:created "2023-07-04" ;
     dct:creator vocang:sanchiPiero .
+
+vocang:mezzacodato
+    a vocang:Parolangelo ;
+    skos:prefLabel "Mezzacodato"@it ;
+    lexinfo:pronunciation "/mez • za • co • dà • to/"@it ;
+    skos:definition "Che ha solo metà coda."@it ;
+    skos:example "Il mio cane è un mezzacodato. Non so come sia successo, ma non ha mai avuto metà della sua coda."@it;
+    schema:keywords "coda, metà";
+    skos:related vocang:codamozzato ;
+    dct:created "2023-07-04" ;
+    dct:creator vocang:sanchiPiero .
