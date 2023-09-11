@@ -7522,3 +7522,13 @@ vocang:volatto
     schema:keywords "gatto, ali";
     dct:created "2023-09-02" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:vegrello
+    a vocang:Parolangelo ;
+    skos:prefLabel "Vegrello"@it ;
+    lexinfo:pronunciation "/ve • grél • lo/"@it ;
+    skos:definition "Carrello al cui interno vengono inseriti solo alimenti di origine vegetale."@it ;
+    skos:example "Ero al supermercato e ho visto un vegrello. Era pieno di verdure e frutta!"@it;
+    schema:keywords "carrello, cibo, vegetale";
+    dct:created "2023-09-06" ;
+    dct:creator vocang:ribaudoSofia .
