@@ -7318,7 +7318,7 @@ vocang:pilunteggiatura
     skos:prefLabel "Pilunteggiatura"@it ;
     lexinfo:pronunciation "/pi • lun • teg • gia • tu • ra/"@it ;
     skos:definition "Punteggiatura effimera e futile."@it ;
-    skos:example "Ho messo un po' di pilunteggiatura qua e là altrimenti la prof mi metteva un brutto voto anche se in realtà si capiva benissimo il senso e non serviva"@it;
+    skos:example "Ho messo un po' di pilunteggiatura qua e là altrimenti la prof mi metteva un brutto voto; anche se in realtà si capiva benissimo il senso e non serviva"@it;
     schema:keywords "punteggiatura, inutile";
     dct:created "2023-07-29" ;
     dct:creator vocang:battaglinoNicole, vocang:bragariAlexandru, vocang:omiccioliRiccardo .
