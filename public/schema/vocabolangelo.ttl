@@ -7199,7 +7199,8 @@ vocang:cosangelo
     skos:prefLabel "Cosangelo"@it ;
     lexinfo:pronunciation "/co • sàn • ge • lo/"@it ;
     skos:definition "Giustapposizione di concetti che non è possibile aggiungere al Vocabolangelo ne come parolangelo e come slangelo a causa dell'esistenza del concetto nella lingua italiana."@it ;
-    skos:example "Oggi io Nicola e Giorgia eravamo a casa di Sasha e abbiamo notato un quadro elettrico a casa sua. Si trattava di un quadro appesa al muro che si poteva spostare per dare accesso ai comandi elettrici della casa! Volevamo aggiungere qualcosa di simile al Vocabolangelo ma ci siamo resi conto chje non aveva alcun senso. Avevamo trovato una cosangelo!"@it;
+    skos:example "Oggi io Nicola e Giorgia eravamo a casa di Sasha e abbiamo notato un quadro elettrico a casa sua. Si trattava di un quadro appeso al muro che si poteva spostare per dare accesso ai comandi elettrici della casa! Volevamo aggiungere qualcosa di simile al Vocabolangelo ma ci siamo resi conto chje non aveva alcun senso. Avevamo trovato una cosangelo!"@it;
+    skos:note "Le cosangelo trovate fino ad ora sono Quadro Elettrico e Autolesionismo" ;
     schema:keywords "vocabolangelo";
     dct:created "2023-08-15" ;
     skos:related vocang:neocaboliere, vocang:vocaboladmin, vocang:vocabolangelo, vocang:angelario, vocang:parolangelo, vocang:apostolangelo, vocang:dizionangelo, vocang:vocaboliere, vocang:vocabolangelare, vocang:vocaboregolangelo, vocang:parolarcangelo, vocang:slangelo, vocang:concettangelo, vocang:vocaboreato, vocang:trinitangelo, vocang:mirangelo, vocang:ternariangelo;
@@ -7542,3 +7543,23 @@ vocang:murestra
     schema:keywords "finestra, murata";
     dct:created "2023-09-08" ;
     dct:creator vocang:filasetaAngelo, vocang:omiccioliRiccardo, vocang:minoccheriAlessandra .
+
+vocang:mimedosso
+    a vocang:Parolangelo ;
+    skos:prefLabel "Mimedosso"@it ;
+    lexinfo:pronunciation "/mi • me • dòs • so/"@it ;
+    skos:definition "Dosso stradale non segnalato in alcun modo, il quale si confonde perfettamente con l'asfalto."@it ;
+    skos:example "Stavo guidando tranquillamente, quando sentii un fortissimo sbalzo. \"Perdiana!\" urlai. Un mimedosso mi aveva quasi rotto le sospensioni dell'auto."@it;
+    schema:keywords "mimetismo, dosso";
+    dct:created "2023-09-08" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:codamozzato
+    a vocang:Parolangelo ;
+    skos:prefLabel "Codamozzato"@it ;
+    lexinfo:pronunciation "/co • da • moz • zà • to/"@it ;
+    skos:definition "A cui è stata mozzata la coda."@it ;
+    skos:example "Il mio cane è un codamozzato. Non so come sia successo, ma non ha più la coda da quando era molto piccolo."@it;
+    schema:keywords "coda, mozzare";
+    dct:created "2023-07-04" ;
+    dct:creator vocang:sanchiPiero .
