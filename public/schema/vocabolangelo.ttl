@@ -7480,3 +7480,13 @@ vocang:cancarella
     schema:keywords "bancarella, venditore, merce, bassa qualità";
     dct:created "2023-08-31" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:diostrazione
+    a vocang:Parolangelo ;
+    skos:prefLabel "Diostrazione"@it ;
+    lexinfo:pronunciation "/dio • stra • zió • ne/"@it ;
+    skos:definition "Dimostrazione volta a provare la non esistenza di uno o più Dei."@it ;
+    skos:example "Se applichi una forza sui cardini di una porta è richiesta una forza infinita per aprire la porta. Quindi nemmeno Dio riuscirebbe ad aprire una porta in questo modo. Quindi Dio non è onnipotente. Quindi Dio non esiste. CVD."@it;
+    schema:keywords "dio, dimostrazione, prova, esistenza";
+    dct:created "2023-09-02" ;
+    dct:creator vocang:omiccioliRiccardo .
