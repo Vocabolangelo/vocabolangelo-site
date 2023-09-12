@@ -5,10 +5,10 @@
 
 ### Features
 
-* **concept:** compralluogo ([f6de63b](https://github.com/Vocabolangelo/vocabolangelo-site/commit/f6de63bc1ec25ca1938158e52236214c3003da40))
-* **concept:** paragravo ([822d845](https://github.com/Vocabolangelo/vocabolangelo-site/commit/822d845afd0531e597b16d06e96414b53f1cba20))
-* **concept:** pilunteggiatura ([363c29f](https://github.com/Vocabolangelo/vocabolangelo-site/commit/363c29f983609bc98b15e11051fb7e28551fef05))
-* **concept:** spermaggio ([6b0b63f](https://github.com/Vocabolangelo/vocabolangelo-site/commit/6b0b63fb9719328dafbf424dad33f946e89d7106))
+* **parolangelo:** compralluogo ([f6de63b](https://github.com/Vocabolangelo/vocabolangelo-site/commit/f6de63bc1ec25ca1938158e52236214c3003da40))
+* **parolangelo:** paragravo ([822d845](https://github.com/Vocabolangelo/vocabolangelo-site/commit/822d845afd0531e597b16d06e96414b53f1cba20))
+* **parolangelo:** pilunteggiatura ([363c29f](https://github.com/Vocabolangelo/vocabolangelo-site/commit/363c29f983609bc98b15e11051fb7e28551fef05))
+* **parolangelo:** spermaggio ([6b0b63f](https://github.com/Vocabolangelo/vocabolangelo-site/commit/6b0b63fb9719328dafbf424dad33f946e89d7106))
 * **parolangelo:** broccialetto ([224bf39](https://github.com/Vocabolangelo/vocabolangelo-site/commit/224bf39c6cebcffaf28ab091b575839daf61eec1))
 * **parolangelo:** brucito ([8545ba3](https://github.com/Vocabolangelo/vocabolangelo-site/commit/8545ba3e4a0f8f240e8be9a200fdbda9b4c90968))
 * **parolangelo:** cancarella ([333dd87](https://github.com/Vocabolangelo/vocabolangelo-site/commit/333dd87fbba74e2fba274bf2df53fcee4f496b71))
