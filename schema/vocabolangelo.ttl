@@ -7587,3 +7587,34 @@ vocang:codamozzatto
     dct:created "2023-09-11" ;
     skos:related vocang:codamozzato, vocang:omnicio ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:pronomino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Pronomino"@it ;
+    lexinfo:pronunciation "/pro • no • mì • no/"@it ;
+    skos:definition "Un individuo in cerca di attenzione che tenta di far utilizzare correttamente i propri pronomi, nonostante la completa indifferenza altrui."@it ;
+    skos:example "Il pronomino ha scritto un post su Facebook per lamentarsi del fatto che nessuno lo considera. Ha ottenuto esattamente zero interazioni."@it;
+    schema:keywords "pronome, attenzione, ignorare";
+    dct:created "2023-09-05" ;
+    dct:creator vocang:talmiAlessandro .
+
+vocang:incressionante
+    a vocang:Parolangelo ;
+    skos:prefLabel "Incressionante"@it ;
+    lexinfo:pronunciation "/in • cres • sio • nàn • te/"@it ;
+    skos:definition "Sempre più impressionante ad ogni occasione."@it ;
+    skos:example "Il film Bullet Train è veramente incressionante. Ogni scena te lo fa apprezzare più di quanto ha fatto la precedente!" ;
+    schema:keywords "impressionante" ;
+    dct:created "2023-09-09" ;
+    dct:creator vocang:pertosaLorenzo, vocang:ribaudoSofia .
+
+vocang:parolassita
+    a vocang:Parolangelo ;
+    skos:prefLabel "Parolassita"@it ;
+    lexinfo:pronunciation "/pa • ro • las • sì • ta/"@it ;
+    skos:definition "Persona che modifica sensibilmente una parolangelo inventata da qualcun altro, o che fa appunti inutili mentre altri vocabolieri vocangelano, al fine di essere infine classificato come autore."@it ;
+    skos:example "Un vocaboliere in particolare è conosciuto per essere il parolassita per eccellenza. Ad ogni occasione prova a fare appunti sulle parole inventate da altri per diventare lui stesso un autore e aver eun posto più in alto in classifica!"@it;
+    schema:keywords "parassita, parolangelo, vocabolangelo";
+    skos:related vocang:vocangelare, vocang:vocaboliere, vocang:vocabolangelo ;
+    dct:created "2023-09-09" ;
+    dct:creator vocang:pertosaLorenzo, vocang:filasetaAngelo .
