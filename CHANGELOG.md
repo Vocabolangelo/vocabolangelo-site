@@ -1,5 +1,48 @@
 # Changelog
 
+## [6.12.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v6.11.0...v6.12.0) (2023-09-12)
+
+
+### Features
+
+* **concept:** compralluogo ([f6de63b](https://github.com/Vocabolangelo/vocabolangelo-site/commit/f6de63bc1ec25ca1938158e52236214c3003da40))
+* **concept:** paragravo ([822d845](https://github.com/Vocabolangelo/vocabolangelo-site/commit/822d845afd0531e597b16d06e96414b53f1cba20))
+* **concept:** pilunteggiatura ([363c29f](https://github.com/Vocabolangelo/vocabolangelo-site/commit/363c29f983609bc98b15e11051fb7e28551fef05))
+* **concept:** spermaggio ([6b0b63f](https://github.com/Vocabolangelo/vocabolangelo-site/commit/6b0b63fb9719328dafbf424dad33f946e89d7106))
+* **parolangelo:** broccialetto ([224bf39](https://github.com/Vocabolangelo/vocabolangelo-site/commit/224bf39c6cebcffaf28ab091b575839daf61eec1))
+* **parolangelo:** brucito ([8545ba3](https://github.com/Vocabolangelo/vocabolangelo-site/commit/8545ba3e4a0f8f240e8be9a200fdbda9b4c90968))
+* **parolangelo:** cancarella ([333dd87](https://github.com/Vocabolangelo/vocabolangelo-site/commit/333dd87fbba74e2fba274bf2df53fcee4f496b71))
+* **parolangelo:** codamozzato ([ac00b37](https://github.com/Vocabolangelo/vocabolangelo-site/commit/ac00b37fb9b2595af6165a248a8c3d072a8b318e))
+* **parolangelo:** codamozzatto ([1fa0595](https://github.com/Vocabolangelo/vocabolangelo-site/commit/1fa05959d39f83ab42e26c08dd49a885bd4451ec))
+* **parolangelo:** diostrazione ([d4ca6a1](https://github.com/Vocabolangelo/vocabolangelo-site/commit/d4ca6a17735b78cb5a71a4f959ad472858554168))
+* **parolangelo:** discorella ([267fff6](https://github.com/Vocabolangelo/vocabolangelo-site/commit/267fff6852d38a4e530551c1ff852f527eec784f))
+* **parolangelo:** disperatto ([34e3154](https://github.com/Vocabolangelo/vocabolangelo-site/commit/34e3154fc59bc25e83d23bf3fb4f7d2e44a29dfe))
+* **parolangelo:** fetticcino ([043c7ad](https://github.com/Vocabolangelo/vocabolangelo-site/commit/043c7ad5bdc9ae0c2b604b137a29e000010350f0))
+* **parolangelo:** filmoccoletto ([7acb58f](https://github.com/Vocabolangelo/vocabolangelo-site/commit/7acb58f082b0b579a3255229a171229c00fd5233))
+* **parolangelo:** incressionante ([e27908c](https://github.com/Vocabolangelo/vocabolangelo-site/commit/e27908c084101ab98d599b2ddbdd713a320d0ea0))
+* **parolangelo:** manettaggine ([61f675d](https://github.com/Vocabolangelo/vocabolangelo-site/commit/61f675dab911de3a5cee159a135d2d56c357e25d))
+* **parolangelo:** mezzacodato ([07b35df](https://github.com/Vocabolangelo/vocabolangelo-site/commit/07b35dfc46d53b36ae4479f3f1535274ac9df38e))
+* **parolangelo:** monobiniere ([d8d0158](https://github.com/Vocabolangelo/vocabolangelo-site/commit/d8d0158fe4e66aaa47c7847d8ef210bc4853b7e9))
+* **parolangelo:** monoziotto ([47d80bf](https://github.com/Vocabolangelo/vocabolangelo-site/commit/47d80bf1b0cd3e22183dc6564f8aac4801e60b1e))
+* **parolangelo:** murestra ([eea268f](https://github.com/Vocabolangelo/vocabolangelo-site/commit/eea268fa4b80020c3a79eaab228cf8117f66de3c))
+* **parolangelo:** parolassita ([769c85f](https://github.com/Vocabolangelo/vocabolangelo-site/commit/769c85fc4a19bded6d215716d7f2d6f0cb50d986))
+* **parolangelo:** pesciarella ([ff0b58a](https://github.com/Vocabolangelo/vocabolangelo-site/commit/ff0b58a569cfbccdabeb49134dc03ed450f9b5f4))
+* **parolangelo:** piedovia ([62bed48](https://github.com/Vocabolangelo/vocabolangelo-site/commit/62bed48048cd3baa5046775e5d30502bbac1e311))
+* **parolangelo:** piovone ([86c5931](https://github.com/Vocabolangelo/vocabolangelo-site/commit/86c5931b58b3f925e4c63bcf36dcb10f923693d1))
+* **parolangelo:** porcheggio ([41af2e9](https://github.com/Vocabolangelo/vocabolangelo-site/commit/41af2e9c145db02600642ba294c8a3c285044fae))
+* **parolangelo:** pronomino ([d742ba4](https://github.com/Vocabolangelo/vocabolangelo-site/commit/d742ba44914ed243c8b51c8e669aed3ab4cebe68))
+* **parolangelo:** remindeer ([87674fc](https://github.com/Vocabolangelo/vocabolangelo-site/commit/87674fcd6a624a839ecb26ce5676a623b2db4577))
+* **parolangelo:** squacquarona ([b35a909](https://github.com/Vocabolangelo/vocabolangelo-site/commit/b35a909e2db3497b30d7d719a4f10c4bc3580d82))
+* **parolangelo:** vegrello ([6f185d0](https://github.com/Vocabolangelo/vocabolangelo-site/commit/6f185d0188990c9eb13d2851be01e659f48cf5f2))
+* **parolangelo:** volatto ([06034ed](https://github.com/Vocabolangelo/vocabolangelo-site/commit/06034ed87cc2404e1f99fcd637b27c4015fab176))
+* **vocaboliere:** Davide Cesaroni ([b25afb7](https://github.com/Vocabolangelo/vocabolangelo-site/commit/b25afb78ecfd6f7bd764532fed556d55e8fbb5ba))
+
+
+### Bug Fixes
+
+* **example:** add ; ([ef65a46](https://github.com/Vocabolangelo/vocabolangelo-site/commit/ef65a467d3f3acf1d32afaaf50c0090fb9170ed5))
+* **parolangelo:** typo in napolontano definition ([624bcbf](https://github.com/Vocabolangelo/vocabolangelo-site/commit/624bcbf283cf1148653e81c7d2f903fdd3c49c9b))
+
 ## [6.11.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v6.10.0...v6.11.0) (2023-08-30)
 
 
