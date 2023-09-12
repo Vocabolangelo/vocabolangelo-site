@@ -7587,3 +7587,13 @@ vocang:codamozzatto
     dct:created "2023-09-11" ;
     skos:related vocang:codamozzato, vocang:omnicio ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:pronomino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Pronomino"@it ;
+    lexinfo:pronunciation "/pro • no • mì • no/"@it ;
+    skos:definition "Un individuo in cerca di attenzione che tenta di far utilizzare correttamente i propri pronomi, nonostante la completa indifferenza altrui."@it ;
+    skos:example "Il pronomino ha scritto un post su Facebook per lamentarsi del fatto che nessuno lo considera. Ha ottenuto esattamente zero interazioni."@it;
+    schema:keywords "pronome, attenzione, ignorare";
+    dct:created "2023-09-05" ;
+    dct:creator vocang:talmiAlessandro .
