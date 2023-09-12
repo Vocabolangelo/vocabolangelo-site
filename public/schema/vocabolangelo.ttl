@@ -7597,3 +7597,13 @@ vocang:pronomino
     schema:keywords "pronome, attenzione, ignorare";
     dct:created "2023-09-05" ;
     dct:creator vocang:talmiAlessandro .
+
+vocang:incressionante
+    a vocang:Parolangelo ;
+    skos:prefLabel "Incressionante"@it ;
+    lexinfo:pronunciation "/in • cres • sio • nàn • te/"@it ;
+    skos:definition "Sempre più impressionante ad ogni occasione."@it ;
+    skos:example "Il film Bullet Train è veramente incressionante. Ogni scena te lo fa apprezzare più di quanto ha fatto la precedente!" ;
+    schema:keywords "impressionante" ;
+    dct:created "2023-09-09" ;
+    dct:creator vocang:pertosaLorenzo, vocang:ribaudoSofia .
