@@ -526,6 +526,14 @@ vocang:cesaroniDavide
     org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:orlandoNicola .
 
+vocang:belousAlla
+     a vocang:Vocaboliere ;
+    foaf:firstName "Alla" ;
+    foaf:lastName "Belous" ;
+    foaf:gender "female" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:parentOf vocang:bragariAlexandru .
+
 # Other Author Individuals
 
 vocang:chatGPT
