@@ -7626,3 +7626,14 @@ vocang:parolassita
     skos:related vocang:vocangelare, vocang:vocaboliere, vocang:vocabolangelo ;
     dct:created "2023-09-09" ;
     dct:creator vocang:pertosaLorenzo, vocang:filasetaAngelo .
+
+
+vocang:schettismo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Schettismo"@it ;
+    lexinfo:pronunciation "/schet • tì • smo/"@it ;
+    skos:definition "Movimento che racchiude i seguaci del più grande capito dei tempi moderni, il capitan Schettino."@it ;
+    skos:example "Io e mia mamma supportiamo lo schettismo. Siamo grandi ammiratori del capitano Schettino."@it;
+    schema:keywords "capitano, schettino, ammiratore";
+    dct:created "2023-09-09" ;
+    dct:creator vocang:bragariAlexandru, vocang:belousAlla .
