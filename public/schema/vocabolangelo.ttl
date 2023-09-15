@@ -7710,3 +7710,12 @@ vocang:settebello
     schema:keywords "bevanda, cedrata, limone, ghiaccio";
     dct:created "2023-09-13" ;
     dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
+
+vocang:aquafano
+    a vocang:Parolangelo ;
+    skos:prefLabel "Aquafano"@it ;
+    skos:definition "Fenomeno che incide significativamente sulla circolazione stradale di una specifica città, comportando un significativo deterioramento delle condizioni di traffico, e che si manifesta in seguito alla caduta di anche solo singola goccia di pioggia sulla superficie terrestre."@it ;
+    skos:example "Nella città di Fano, si verificano parecchi aquafano ogni anno. Basti pensare che anche una minima goccia di pioggia sulla strada può scatenare un vero e proprio caos circolatorio. Ieri sera, durante una leggera pioggerellina, le strade si sono trasformate in fiumi di veicoli immobili, e ci sono volute ore per completare anche brevi tragitti!"@it;
+    schema:keywords "veicolo, auto, traffico, acqua, pioggia";
+    dct:created "2023-09-14" ;
+    dct:creator vocang:filasetaAngelo .
