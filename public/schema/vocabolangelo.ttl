@@ -7700,3 +7700,13 @@ vocang:appollaiatto
     dct:created "2023-09-13" ;
     skos:related vocang:omnicio ;
     dct:creator vocang:battaglinoNicole .
+
+vocang:settebello
+    a vocang:Parolangelo ;
+    skos:prefLabel "Settebello"@it ;
+    lexinfo:pronunciation "/set • te • bèl • lo/"@it ;
+    skos:definition "Bevanda composta da cedrata, limone spremuto e ghiaccio."@it ;
+    skos:example "Nelle calde giornate d'estate ci vuole proprio un bel settebello per dissetarsi."@it;
+    schema:keywords "bevanda, cedrata, limone, ghiaccio";
+    dct:created "2023-09-13" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
