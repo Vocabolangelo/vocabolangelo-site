@@ -7678,3 +7678,15 @@ vocang:dinattrito
     dct:created "2023-09-11" ;
     skos:related vocang:strattrito ;
     dct:creator vocang:orlandoNicola .
+
+vocang:insalampo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Insalampo"@it ;
+    lexinfo:pronunciation "/in • sa • làm • po/"@it ;
+    skos:definition "Insalata preparata e mangiata molto velocemente, per quando non si ha tempo di cucinare."@it ;
+    skos:example "Quel giorno ho avuto un impegno dietro l'altro e manco il tempo di andare al bagno, così mi sono preparato un'insalampo per pranzare alla svelta."@it;
+    schema:keywords "insalata, veloce, mangiare, cibo";
+    dct:created "2023-09-11" ;
+    skos:related vocang:insalamix ;
+    dct:creator vocang:pertosaLorenzo .
+    
