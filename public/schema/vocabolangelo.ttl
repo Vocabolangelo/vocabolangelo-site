@@ -3526,7 +3526,7 @@ vocang:brugoliere
 vocang:pataporn
     a vocang:Parolangelo ;
     skos:prefLabel "Pataporn"@it ;
-    skos:definition "Porno in cui compaiono varie figure disegnate in uno stile stilizzato"@it, "Porno in cui le figure coinvolte vanno a ritmo di musica durante l'atto."@it ;
+    skos:definition "Porno in cui compaiono varie figure disegnate in uno stile stilizzato."@it, "Porno in cui le figure coinvolte vanno a ritmo di musica durante l'atto."@it ;
     skos:example "Conosco una persona che su twitter crea dei pataporn."@it , "Volevo ravvivare le cose con la mia ragazza, quindi lo abbiamo fatto mettendo un pataporn in TV. Che beat!"@it;
     dct:created "2023-02-08" ;
     skos:note "La parola nasce come un riferimento alla serie di videogiochi per Play Station Portable (PSP) Patapon." ;
@@ -7656,3 +7656,14 @@ vocang:monkeico
     dct:created "2023-09-02" ;
     skos:related vocang:moncaco ;
     dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:orlandoNicola, vocang:bragariAlexandru .
+
+vocang:strattrito
+    a vocang:Parolangelo ;
+    skos:prefLabel "Strattrito"@it ;
+    lexinfo:pronunciation "/strat • trì • to/"@it ;
+    skos:definition "Forza di attrito statico che rende difficile mettere in movimento un corpo."@it ;
+    skos:example "Mi è caduto il telefono dietro al mobile ma lo strattrito è troppo forte e non riesco a spostarlo per recuperlarlo."@it;
+    schema:keywords "attrito, statico, movimento";
+    skos:note "La parolangelo è la traduzione della parola inglese \"stiction\"" ;
+    dct:created "2023-09-11" ;
+    dct:creator vocang:omiccioliRiccardo .
