@@ -7667,3 +7667,14 @@ vocang:strattrito
     skos:note "La parolangelo è la traduzione della parola inglese \"stiction\"" ;
     dct:created "2023-09-11" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:dinattrito
+    a vocang:Parolangelo ;
+    skos:prefLabel "Dinattrito"@it ;
+    lexinfo:pronunciation "/di • nat • trì • to/"@it ;
+    skos:definition "Forza di attrito dinamico che si contrappone allo scorrimento di due corpi in contatto tra loro."@it ;
+    skos:example "L'ABS ha lo scopo di sfruttare meglio lo stattrito tra copertoni e asfalto, dato che il dinattrito è molto più debole."@it;
+    schema:keywords "attrito, dinamico, movimento";
+    dct:created "2023-09-11" ;
+    skos:related vocang:strattrito ;
+    dct:creator vocang:orlandoNicola .
