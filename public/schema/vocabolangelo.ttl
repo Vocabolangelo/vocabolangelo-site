@@ -7627,7 +7627,6 @@ vocang:parolassita
     dct:created "2023-09-09" ;
     dct:creator vocang:pertosaLorenzo, vocang:filasetaAngelo .
 
-
 vocang:schettismo
     a vocang:Parolangelo ;
     skos:prefLabel "Schettismo"@it ;
@@ -7637,3 +7636,13 @@ vocang:schettismo
     schema:keywords "capitano, schettino, ammiratore";
     dct:created "2023-09-09" ;
     dct:creator vocang:bragariAlexandru, vocang:belousAlla .
+
+vocang:moncaco
+    a vocang:Parolangelo ;
+    skos:prefLabel "Moncaco"@it ;
+    lexinfo:pronunciation "/mon • cà • co/"@it ;
+    skos:definition "Mocano monco."@it ;
+    skos:example "In cima alla montagna un tempo viveva un moncaco che oltre a non avere un braccio non riusciva a respirare bene. Credo ora sia dentro un biribì da qualche parte."@it;
+    schema:keywords "monaco, monastero";
+    dct:created "2023-09-02" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
