@@ -7779,7 +7779,17 @@ vocang:giostrangelare
     skos:prefLabel "Giostrangelare"@it ;
     lexinfo:pronunciation "/giò • stran • ge • là • re/"@it ;
     skos:definition "Tagliare il percorso di una montagna russa saltando dal carrello e riprendendolo in volo alla curva dopo."@it ;
-    skos:example "Ho visto Giovanni giostangelare dall'iSpee. Sul giro della morte è ricascato sul carrello al grido di \"Il Gioco!\". Deve essere stato adrenalinico!"@it;
+    skos:example "Ho visto Giovanni giostangelare dall'iSpeed. Sul giro della morte è ricascato sul carrello al grido di \"Il Gioco!\". Deve essere stato adrenalinico!"@it;
     schema:keywords "montagna russa, gioco, adrenalinico, morte";
+    dct:created "2023-09-16" ;
+    dct:creator vocang:bianchiniGiovanni, vocang:pertosaLorenzo .
+
+vocang:girosboccangelo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Girosboccangelo"@it ;
+    lexinfo:pronunciation "/gi • ro • sboc • càn • ge • lo/"@it ;
+    skos:definition "Vomito che si emette a una curva di un rollercoaster per riprenderlo poi in bocca alla curva successiva."@it ;
+    skos:example "Giovanni ha emesso del girosboccangelo mentre era sull'iSpeed. Bene o male non ha sporcato nessuno, se non il dentro di se stesso!"@it;
+    schema:keywords "montagna russa, gioco, vomito";
     dct:created "2023-09-16" ;
     dct:creator vocang:bianchiniGiovanni, vocang:pertosaLorenzo .
