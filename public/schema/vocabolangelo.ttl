@@ -7741,3 +7741,14 @@ vocang:framicio
     dct:created "2023-09-14" ;
     skos:related vocang:omnicio ;
     dct:creator vocang:ribaudoSofia .
+
+vocang:crimmissione
+    a vocang:Parolangelo ;
+    skos:prefLabel "Crimmissione"@it ;
+    lexinfo:pronunciation "/crim • mis • sió • ne/"@it ;
+    skos:definition "Immissione, in una corsia stradale, rotatoria, o altro, tagliando brutalmente la strada ad un veicolo."@it ;
+    skos:example "C'era tutta Fano in coda, quindi ho effettuato una crimmissione."@it;
+    schema:keywords "veicolo, auto, traffico, immissione, criminale, insulto";
+    dct:created "2023-09-15" ;
+    skos:related vocang:porcheggio ;
+    dct:creator vocang:orlandoNicola .
