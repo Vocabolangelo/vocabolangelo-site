@@ -7793,3 +7793,13 @@ vocang:girosboccangelo
     schema:keywords "montagna russa, gioco, vomito";
     dct:created "2023-09-16" ;
     dct:creator vocang:bianchiniGiovanni, vocang:pertosaLorenzo .
+
+vocang:caramela
+    a vocang:Parolangelo ;
+    skos:prefLabel "Caramela"@it ;
+    lexinfo:pronunciation "/ca • ra • mè • la/"@it ;
+    skos:definition "Mela caramellata."@it ;
+    skos:example "Ho mangiato una caramela. Era dolcissima e buonissima!"@it;
+    schema:keywords "cibo, mela, caramello";
+    dct:created "2023-09-16" ;
+    dct:creator vocang:pertosaLorenzo .
