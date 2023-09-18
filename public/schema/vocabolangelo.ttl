@@ -7762,3 +7762,14 @@ vocang:sustema
     schema:keywords "sistema, sospetto";
     dct:created "2023-09-15" ;
     dct:creator vocang:bragariAlexandru .
+
+vocang:omnicino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Omnicino"@it ;
+    lexinfo:pronunciation "/om • ni • cì • no/"@it ;
+    skos:definition "Cucciolo di razza pura nato dall'accoppiamento di due omnici."@it ;
+    skos:example "Quando due omnici si amano tanto, si danno tanti bacini e nascono tanti piccoli omnicini!"@it;
+    schema:keywords "gatto, cucciolo, razza, accoppiamento";
+    dct:created "2023-09-15" ;
+    skos:related vocang:omnicio ;
+    dct:creator vocang:filasetaAngelo .
