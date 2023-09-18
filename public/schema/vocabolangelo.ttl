@@ -7752,3 +7752,13 @@ vocang:crimmissione
     dct:created "2023-09-15" ;
     skos:related vocang:porcheggio ;
     dct:creator vocang:orlandoNicola .
+
+vocang:sustema
+    a vocang:Parolangelo ;
+    skos:prefLabel "Sustema"@it ;
+    lexinfo:pronunciation "/su • stè • ma/"@it ;
+    skos:definition "Sistema sospetto."@it ;
+    skos:example "Mah quel lavoretto che mi hai fatto non mi convince proprio. Tutta questa situazione è proprio un sustema."@it;
+    schema:keywords "sistema, sospetto";
+    dct:created "2023-09-15" ;
+    dct:creator vocang:bragariAlexandru .
