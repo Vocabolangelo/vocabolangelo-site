@@ -7803,3 +7803,22 @@ vocang:caramela
     schema:keywords "cibo, mela, caramello";
     dct:created "2023-09-16" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:kakatun
+    a vocang:Parolangelo ;
+    skos:prefLabel "Kakatun"@it ;
+    skos:definition "Montagna russa estrema che suscita una profonda reazione di timore e ansia."@it ;
+    skos:example "Cari ospiti, vi invitiamo a provare il nostro nuovo kakatuna, progettato per farvi letteralmente cagare addosso dalla paura! Solo per coloro che cercano emozioni forti e avventure mozzafiato."@it;
+    schema:keywords "montagna russa, parco giochi, park, mirabilandia";
+    dct:created "2023-09-16" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:oggiometria
+    a vocang:Parolangelo ;
+    skos:prefLabel "Oggiometria"@it ;
+    lexinfo:pronunciation "/og • gio • me • trì • a/"@it ;
+    skos:definition "Geometria moderna."@it ;
+    skos:example "L'oggiometria, a differenza di quel che si può credere, non è una branca della matematica che si occupa di studiare le figure geometriche che si possono trovare nella vita di tutti i giorni."@it;
+    schema:keywords "geometria, moderna, matematica";
+    dct:created "2023-09-17" ;
+    dct:creator vocang:suscaMatteo .
