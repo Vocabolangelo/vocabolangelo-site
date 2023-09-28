@@ -7858,4 +7858,4 @@ vocang:gechino
     schema:keywords "geco, piccolo, mira, infallibile";
     dct:created "2023-09-17" ;
     skos:related vocang:geoco ;
-    dct:creator vocang:filasetaAngelo .
+    dct:creator vocang:diGioiaAlex, vocang:filippettiGiulio .
