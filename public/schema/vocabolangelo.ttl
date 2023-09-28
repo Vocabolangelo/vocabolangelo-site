@@ -7848,3 +7848,14 @@ vocang:oggiometra
     dct:created "2023-09-16" ;
     skos:related vocang:oggiometria ;
     dct:creator vocang:rosatelliAnna .
+
+vocang:gechino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Gechino"@it ;
+    lexinfo:pronunciation "/ge • chì • no/"@it ;
+    skos:definition "Geco di piccole dimensioni dalla mira infallibile."@it ;
+    skos:example "Ho visto un gechino che stava cacciando una mosca. L'ha presa al primo colpo!"@it;
+    schema:keywords "geco, piccolo, mira, infallibile";
+    dct:created "2023-09-17" ;
+    skos:related vocang:geoco ;
+    dct:creator vocang:filasetaAngelo .
