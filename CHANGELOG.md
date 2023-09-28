@@ -1,5 +1,40 @@
 # Changelog
 
+## [6.13.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v6.12.0...v6.13.0) (2023-09-28)
+
+
+### Features
+
+* **parolangelo:** appollaiatto ([4de7c38](https://github.com/Vocabolangelo/vocabolangelo-site/commit/4de7c386ca95d6c844b5adb80964f1f814970431))
+* **parolangelo:** aquafano ([aa1cc8a](https://github.com/Vocabolangelo/vocabolangelo-site/commit/aa1cc8a8e1fa3dbbed1a7d53cdafd62d7960f67f))
+* **parolangelo:** caramela ([765afc3](https://github.com/Vocabolangelo/vocabolangelo-site/commit/765afc30c2063405c3f04dd362be09a098684b62))
+* **parolangelo:** crimmissione ([7491ab1](https://github.com/Vocabolangelo/vocabolangelo-site/commit/7491ab1db2670714ff7b14ec4b17a770c0606bc9))
+* **parolangelo:** dinattrito ([0f771e9](https://github.com/Vocabolangelo/vocabolangelo-site/commit/0f771e9cdf94b6bf6d6d56eb755e2d8c34fbd911))
+* **parolangelo:** framicio ([80d42bc](https://github.com/Vocabolangelo/vocabolangelo-site/commit/80d42bc850d8b5e211f97c2945ef3e9c27f85c97))
+* **parolangelo:** fusatto ([19baad5](https://github.com/Vocabolangelo/vocabolangelo-site/commit/19baad560240087ed9482d9795373df032b29a98))
+* **parolangelo:** gechino ([c26c576](https://github.com/Vocabolangelo/vocabolangelo-site/commit/c26c57619163509b8fa446f45a26289bb4743756))
+* **parolangelo:** giostrangelare ([f2631cb](https://github.com/Vocabolangelo/vocabolangelo-site/commit/f2631cb05165cda35821c1b601d75d97fb05dd4b))
+* **parolangelo:** girosboccangelo ([b246dfa](https://github.com/Vocabolangelo/vocabolangelo-site/commit/b246dfaf6fe14325e06e9bc2c76eb90cc90f7867))
+* **parolangelo:** insalampo ([6a1fcc3](https://github.com/Vocabolangelo/vocabolangelo-site/commit/6a1fcc3c14efe8079c984b7df7ffb3cafae45dbe))
+* **parolangelo:** moncaco ([fc74d60](https://github.com/Vocabolangelo/vocabolangelo-site/commit/fc74d609e3b8ccea75630e08f2de262b1ecdf6b1))
+* **parolangelo:** monkeico ([c3a26a0](https://github.com/Vocabolangelo/vocabolangelo-site/commit/c3a26a021725f334f2b602f4ad3ce090d5c91bfe))
+* **parolangelo:** oggiometra ([1a3a281](https://github.com/Vocabolangelo/vocabolangelo-site/commit/1a3a28154607d95ca51b04db788224a363ae9ff9))
+* **parolangelo:** oggiometria ([2d1fbd2](https://github.com/Vocabolangelo/vocabolangelo-site/commit/2d1fbd2ed427f0950b30ca07d07727b09ae1ab16))
+* **parolangelo:** omnicino ([8b31c6c](https://github.com/Vocabolangelo/vocabolangelo-site/commit/8b31c6c4cf758fbb0a95177b1d0b9c35fb0c989c))
+* **parolangelo:** schettismo ([5538f4f](https://github.com/Vocabolangelo/vocabolangelo-site/commit/5538f4fcf24f36c2374f1c262aa1f012c2960f8c))
+* **parolangelo:** settebello ([928e255](https://github.com/Vocabolangelo/vocabolangelo-site/commit/928e255b0be13977c048b82b60a5d30e1b9bce6a))
+* **parolangelo:** strattrito ([e39768b](https://github.com/Vocabolangelo/vocabolangelo-site/commit/e39768b2d34dd6775ca13b3e27f7ec72a924d2f4))
+* **parolangelo:** sustema ([529a8e2](https://github.com/Vocabolangelo/vocabolangelo-site/commit/529a8e21be90ee71a4c6e0a2ee8c57c2e6d957aa))
+* **vocaboliere:** Alex Di Gioia ([7a26f2d](https://github.com/Vocabolangelo/vocabolangelo-site/commit/7a26f2df09cbd414b13ccfac74cc22a9f4b04492))
+* **vocaboliere:** Alla Belous ([fa2d41a](https://github.com/Vocabolangelo/vocabolangelo-site/commit/fa2d41a6fa8449d1d3b2abc62ef7763ff81d6a9e))
+* **vocaboliere:** Giulio Filippetti ([22daa1d](https://github.com/Vocabolangelo/vocabolangelo-site/commit/22daa1d550ee871d83d7e3fcf5ea77243c8d0a92))
+
+
+### Bug Fixes
+
+* **changelog:** concept -&gt; parolangelo ([f5c1552](https://github.com/Vocabolangelo/vocabolangelo-site/commit/f5c15528ece05e39ffc7c05703f7052aa42704eb))
+* **creator:** gechino authors are now correct ([4091e0e](https://github.com/Vocabolangelo/vocabolangelo-site/commit/4091e0e201849e03ae5722e354ec57da6cb3e0b4))
+
 ## [6.12.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v6.11.0...v6.12.0) (2023-09-12)
 
 
