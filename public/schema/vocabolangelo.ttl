@@ -542,6 +542,14 @@ vocang:diGioiaAlex
     org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:orlandoNicola .
 
+vocang:filippettiGiulio
+    a vocang:Vocaboliere ;
+    foaf:firstName "Giulio" ;
+    foaf:lastName "Filippetti" ;
+    foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:orlandoNicola .
+
 # Other Author Individuals
 
 vocang:chatGPT
