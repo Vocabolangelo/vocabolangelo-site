@@ -540,7 +540,7 @@ vocang:diGioiaAlex
     foaf:lastName "Di Gioia" ;
     foaf:gender "male" ;
     org:memberOf vocang:vocabolieriOrg ;
-    rel:friendOf vocang:orlandoNicola .
+    rel:friendOf vocang:orlandoNicola, vocang:filippettiGiulio .
 
 vocang:filippettiGiulio
     a vocang:Vocaboliere ;
