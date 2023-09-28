@@ -534,6 +534,14 @@ vocang:belousAlla
     org:memberOf vocang:vocabolieriOrg ;
     rel:parentOf vocang:bragariAlexandru .
 
+vocang:diGioiaAlex
+    a vocang:Vocaboliere ;
+    foaf:firstName "Alex" ;
+    foaf:lastName "Di Gioia" ;
+    foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:orlandoNicola .
+
 # Other Author Individuals
 
 vocang:chatGPT
