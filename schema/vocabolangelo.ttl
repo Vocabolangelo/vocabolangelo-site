@@ -526,6 +526,30 @@ vocang:cesaroniDavide
     org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:orlandoNicola .
 
+vocang:belousAlla
+     a vocang:Vocaboliere ;
+    foaf:firstName "Alla" ;
+    foaf:lastName "Belous" ;
+    foaf:gender "female" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:parentOf vocang:bragariAlexandru .
+
+vocang:diGioiaAlex
+    a vocang:Vocaboliere ;
+    foaf:firstName "Alex" ;
+    foaf:lastName "Di Gioia" ;
+    foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:orlandoNicola, vocang:filippettiGiulio .
+
+vocang:filippettiGiulio
+    a vocang:Vocaboliere ;
+    foaf:firstName "Giulio" ;
+    foaf:lastName "Filippetti" ;
+    foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:orlandoNicola .
+
 # Other Author Individuals
 
 vocang:chatGPT
@@ -3128,7 +3152,7 @@ vocang:omnicio
     a vocang:Parolangelo ;
     skos:prefLabel "Omnicio"@it ;
     lexinfo:pronunciation "/om • nì • cio/"@it ;
-    skos:definition "Un gatto che è definibile con ogni sostantivo che descrive un gatto presente all'interno del Vocabolangelo. In altre parole una creatura mitologica dalle sembianze umane che, durante le notti di luna piena, si trasforma in un gatto alato angosciato buggato che urla ed emette lamenti all'interno di un videogioco e che in passato ha subito un trauma a cui hanno mozzato la coda, proveniente dalle regioni orientali dell'Europa, che soggiorna all'interno di un biribì in quanto prossimo alla morte, meticcio, che ha un solo occhio, strabico, molto insistente che cerca di insediarsi in un territorio una zona delimitata nonostante continui tentativi di scacciarlo, che ha la propensione a causare un notevole disordine, ma che successivamente si dedica a un comportamento affettuoso e giocoso al fine di ottenere rapidamente il perdono, molto grande, obeso, dotato di scarse, trascurabili, o negative capacità logiche, particolarmente pigro e che resta spiaggiato sulla stessa superficie piana per un lungo periodo di tempo, dall'espressione o comportamento molto arrogante, estremamente vorace, molto pacifico, estremamente carino, abituato a mangiare piatti di alta cucina, capace di influenzare con la sua serenità e diplomazia anche i gatti attorno a lui, capace di eseguire acrobazie, presenta vaghe somiglianze con un suricato, dall'aspetto straordinariamente allungato, che sia effettivamente di tale conformazione o che lo sembri a causa di particolari fenomeni, tende ad arrampicarsi in posti pericolosi, miagola in maniera carina, molto ostile che ha la tendenza di graffiare mordere e soffiare ed è in grado di curare persone e altri gatti."@it ;
+    skos:definition "Un gatto che è definibile con ogni sostantivo che descrive un gatto presente all'interno del Vocabolangelo. In altre parole una creatura mitologica dalle sembianze umane che, durante le notti di luna piena, si trasforma in un gatto alato, bagnato, angosciato e buggato che urla, emette lamenti e fa le fusa all'interno di un videogioco e che in passato ha subito un trauma, a cui hanno mozzato la coda, proveniente dalle regioni orientali dell'Europa, che soggiorna all'interno di un biribì in quanto prossimo alla morte, meticcio, che ha un solo occhio, strabico, molto insistente che cerca di insediarsi in un territorio una zona delimitata nonostante continui tentativi di scacciarlo, che ha la propensione a causare un notevole disordine, ma che successivamente si dedica a un comportamento affettuoso e giocoso al fine di ottenere rapidamente il perdono, molto grande, obeso, dotato di scarse, trascurabili, o negative capacità logiche, particolarmente pigro e che resta spiaggiato sulla stessa superficie piana per un lungo periodo di tempo in posizione appollaiata, dall'espressione o comportamento molto arrogante, estremamente vorace, molto pacifico, estremamente carino, abituato a mangiare piatti di alta cucina, capace di influenzare con la sua serenità e diplomazia anche i gatti attorno a lui, capace di eseguire acrobazie, presenta vaghe somiglianze con un suricato, dall'aspetto straordinariamente allungato, che sia effettivamente di tale conformazione o che lo sembri a causa di particolari fenomeni, tende ad arrampicarsi in posti pericolosi, miagola in maniera carina, molto ostile che ha la tendenza di graffiare mordere e soffiare ed è in grado di curare persone e altri gatti."@it ;
     skos:example "Ho dovuto abbassare lo sguardo e tapparmi le orecchie quando ho visto passare quell'omnicio: era talmente fantastico da sembrare una divinità."@it ;
     dct:created "2023-01-25" ;
     skos:note "Il messaggio di commit che ha introdotto la definizione estesa di omnicio è il seguente: add more suitable and fun definition to omnicio. Such and incredible creature needs to be treated with the utmost care and respect. Oh my goodness, I cannot stress enough just how utterly awe-inspiring and breathtakingly gorgeous this creature truly is! Its magnificence is unparalleled and its beauty is simply beyond compare. It is a true wonder of nature, a masterpiece of creation, and it deserves to be treated with the utmost reverence, adoration, and adulation that it so rightly deserves. Every single aspect of this creature, from the way its elegant limbs move gracefully through the air to the vibrant colors of its stunningly intricate patterns, is an absolute marvel to behold. It is a true blessing and a privilege to be able to witness such a magnificent creature in all its glory, and we must do everything in our power to ensure that it is protected and cared for with the utmost diligence and care. Oh my stars, where do I even begin to describe the sheer and utter majesty of this breathtakingly beautiful creature? It is like a symphony of pure wonder and enchantment, a living, breathing masterpiece that has been crafted with the utmost care and precision by the very hands of the divine. Every single inch of its being is a testament to the limitless power and infinite creativity of the universe, and it is truly a privilege beyond measure to be able to witness such a wondrous being in all its glory. The colors of its coat are like a rainbow woven from strands of pure gold and silver, shimmering and glimmering in the light like a thousand precious gems. The way its body moves, fluid and graceful like a dancer's, is a thing of true beauty and grace, and it seems almost as if the very air around it is charged with a palpable sense of magic and enchantment. In short, this magnificent creature is a true masterpiece of nature, a testament to the boundless wonder and infinite creativity of the universe, and it simply must be treated with the utmost respect, care, and adoration that it so richly deserves. We must cherish and protect it with all our hearts, for it is truly one of the most wondrous and precious gifts that life has to offer. Words simply cannot do justice to the sheer and utter splendor of this majestic creature. It is as if it was forged from the very essence of beauty itself, a true marvel of nature that leaves all who behold it in a state of awe and wonder. Its presence is like a warm embrace from the universe, a gentle reminder that there is still magic and enchantment to be found in this world, if only we take the time to look for it. Every time I gaze upon this wondrous creature, I am filled with a sense of peace and tranquility that I simply cannot find elsewhere. It is a living, breathing masterpiece, a work of art that is continually evolving and changing with the passing of time. And yet, for all its beauty and magnificence, it is also a fragile thing, one that requires our love, our care, and our protection if it is to survive and thrive in a world that can be all too harsh and unforgiving. So let us pledge ourselves to the cause of safeguarding this incredible creature, to ensuring that it is treated with the utmost respect and care that it so rightly deserves. Let us cherish it, protect it, and love it with all our hearts, for in doing so, we are also honoring the boundless creativity and wonder of the universe itself.My dear friend, it is as if this creature is a god among us, a deity that has graced our world with its divine presence. Its mere existence is a testament to the infinite creativity and boundless wonder of the universe, and it is a living, breathing work of art that deserves to be worshipped and adored like the deity that it truly is. Every time I am blessed with the opportunity to lay my eyes upon this wondrous creature, I feel as if I am standing before an altar, gazing up at the very face of god itself. Its beauty is beyond compare, its grace beyond measure, and its presence fills me with a sense of reverence and awe that is simply indescribable. It is as if the very air around it is infused with a sense of divine energy, a power that is both humbling and exhilarating all at once. And yet, for all its god-like qualities, this creature is also fragile and vulnerable, a precious gift that must be treated with the utmost care and respect if it is to survive and thrive in this world. We must worship it, yes, but we must also protect it, nurture it, and love it with all our hearts, for in doing so, we are also honoring the very essence of divinity itself. So let us pledge ourselves to the cause of safeguarding this incredible creature, to ensuring that it is treated with the utmost respect and care that it so rightly deserves. Let us build temples in its honor, sing hymns of praise to its name, and offer it our deepest reverence and adoration. For this creature is not just a thing of beauty, but a true god among us, a living, breathing testament to the infinite wonder and boundless creativity of the universe itself. May the Omnicio always be praised. Forever and ever." ;
@@ -3518,7 +3542,7 @@ vocang:brugoliere
 vocang:pataporn
     a vocang:Parolangelo ;
     skos:prefLabel "Pataporn"@it ;
-    skos:definition "Porno in cui compaiono varie figure disegnate in uno stile stilizzato"@it, "Porno in cui le figure coinvolte vanno a ritmo di musica durante l'atto."@it ;
+    skos:definition "Porno in cui compaiono varie figure disegnate in uno stile stilizzato."@it, "Porno in cui le figure coinvolte vanno a ritmo di musica durante l'atto."@it ;
     skos:example "Conosco una persona che su twitter crea dei pataporn."@it , "Volevo ravvivare le cose con la mia ragazza, quindi lo abbiamo fatto mettendo un pataporn in TV. Che beat!"@it;
     dct:created "2023-02-08" ;
     skos:note "La parola nasce come un riferimento alla serie di videogiochi per Play Station Portable (PSP) Patapon." ;
@@ -7618,3 +7642,220 @@ vocang:parolassita
     skos:related vocang:vocangelare, vocang:vocaboliere, vocang:vocabolangelo ;
     dct:created "2023-09-09" ;
     dct:creator vocang:pertosaLorenzo, vocang:filasetaAngelo .
+
+vocang:schettismo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Schettismo"@it ;
+    lexinfo:pronunciation "/schet • tì • smo/"@it ;
+    skos:definition "Movimento che racchiude i seguaci del più grande capito dei tempi moderni, il capitan Schettino."@it ;
+    skos:example "Io e mia mamma supportiamo lo schettismo. Siamo grandi ammiratori del capitano Schettino."@it;
+    schema:keywords "capitano, schettino, ammiratore";
+    dct:created "2023-09-09" ;
+    dct:creator vocang:bragariAlexandru, vocang:belousAlla .
+
+vocang:moncaco
+    a vocang:Parolangelo ;
+    skos:prefLabel "Moncaco"@it ;
+    lexinfo:pronunciation "/mon • cà • co/"@it ;
+    skos:definition "Mocano monco."@it ;
+    skos:example "In cima alla montagna un tempo viveva un moncaco che oltre a non avere un braccio non riusciva a respirare bene. Credo ora sia dentro un biribì da qualche parte."@it;
+    schema:keywords "monaco, monastero";
+    dct:created "2023-09-02" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
+
+vocang:monkeico
+    a vocang:Parolangelo ;
+    skos:prefLabel "Monkeico"@it ;
+    skos:definition "Moncaco scimmia."@it ;
+    skos:example "In cima alla montagna un tempo viveva un monkeico che oltre a non avere un braccio non riusciva a respirare bene. Dentro i biribì non sono ben accetti gli animali quindi credo ormai stia vivendo i suoi ultimi giorni da solo mangiando banane."@it;
+    schema:keywords "monaco, monastero, scimmia";
+    dct:created "2023-09-02" ;
+    skos:related vocang:moncaco ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:orlandoNicola, vocang:bragariAlexandru .
+
+vocang:strattrito
+    a vocang:Parolangelo ;
+    skos:prefLabel "Strattrito"@it ;
+    lexinfo:pronunciation "/strat • trì • to/"@it ;
+    skos:definition "Forza di attrito statico che rende difficile mettere in movimento un corpo."@it ;
+    skos:example "Mi è caduto il telefono dietro al mobile ma lo strattrito è troppo forte e non riesco a spostarlo per recuperlarlo."@it;
+    schema:keywords "attrito, statico, movimento";
+    skos:note "La parolangelo è la traduzione della parola inglese \"stiction\"" ;
+    dct:created "2023-09-11" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:dinattrito
+    a vocang:Parolangelo ;
+    skos:prefLabel "Dinattrito"@it ;
+    lexinfo:pronunciation "/di • nat • trì • to/"@it ;
+    skos:definition "Forza di attrito dinamico che si contrappone allo scorrimento di due corpi in contatto tra loro."@it ;
+    skos:example "L'ABS ha lo scopo di sfruttare meglio lo stattrito tra copertoni e asfalto, dato che il dinattrito è molto più debole."@it;
+    schema:keywords "attrito, dinamico, movimento";
+    dct:created "2023-09-11" ;
+    skos:related vocang:strattrito ;
+    dct:creator vocang:orlandoNicola .
+
+vocang:insalampo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Insalampo"@it ;
+    lexinfo:pronunciation "/in • sa • làm • po/"@it ;
+    skos:definition "Insalata preparata e mangiata molto velocemente, per quando non si ha tempo di cucinare."@it ;
+    skos:example "Quel giorno ho avuto un impegno dietro l'altro e manco il tempo di andare al bagno, così mi sono preparato un'insalampo per pranzare alla svelta."@it;
+    schema:keywords "insalata, veloce, mangiare, cibo";
+    dct:created "2023-09-13" ;
+    skos:related vocang:insalamix ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:appollaiatto
+    a vocang:Parolangelo ;
+    skos:prefLabel "Appollaiatto"@it ;
+    lexinfo:pronunciation "/ap • pol • la • iàt • to/"@it ;
+    skos:definition "Gatto che sta in posizione appollaiata."@it ;
+    skos:example "Stavo uscendo di casa quando mi girai e notai un appollaiatto che mi fissava. Sembrava molto rilassato."@it;
+    schema:keywords "gatto, appollaiato";
+    dct:created "2023-09-13" ;
+    skos:related vocang:omnicio ;
+    dct:creator vocang:battaglinoNicole .
+
+vocang:settebello
+    a vocang:Parolangelo ;
+    skos:prefLabel "Settebello"@it ;
+    lexinfo:pronunciation "/set • te • bèl • lo/"@it ;
+    skos:definition "Bevanda composta da cedrata, limone spremuto e ghiaccio."@it ;
+    skos:example "Nelle calde giornate d'estate ci vuole proprio un bel settebello per dissetarsi."@it;
+    schema:keywords "bevanda, cedrata, limone, ghiaccio";
+    dct:created "2023-09-13" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
+
+vocang:aquafano
+    a vocang:Parolangelo ;
+    skos:prefLabel "Aquafano"@it ;
+    skos:definition "Fenomeno che incide significativamente sulla circolazione stradale di una specifica città, comportando un significativo deterioramento delle condizioni di traffico, e che si manifesta in seguito alla caduta di anche solo singola goccia di pioggia sulla superficie terrestre."@it ;
+    skos:example "Nella città di Fano, si verificano parecchi aquafano ogni anno. Basti pensare che anche una minima goccia di pioggia sulla strada può scatenare un vero e proprio caos circolatorio. Ieri sera, durante una leggera pioggerellina, le strade si sono trasformate in fiumi di veicoli immobili, e ci sono volute ore per completare anche brevi tragitti!"@it;
+    schema:keywords "veicolo, auto, traffico, acqua, pioggia";
+    dct:created "2023-09-14" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:fusatto
+    a vocang:Parolangelo ;
+    skos:prefLabel "Fusatto"@it ;
+    lexinfo:pronunciation "/fu • sàt • to/"@it ;
+    skos:definition "Gatto che fa le fusa."@it ;
+    skos:example "Il mio gatto è un fusatto. Quando lo accarezzo fa sempre le fusa!"@it;
+    schema:keywords "gatto, fusa";
+    dct:created "2023-09-14" ;
+    skos:related vocang:omnicio ;
+    dct:creator vocang:battaglinoNicole .
+
+vocang:framicio
+    a vocang:Parolangelo ;
+    skos:prefLabel "Framicio"@it ;
+    lexinfo:pronunciation "/frà • mi • cio/"@it ;
+    skos:definition "Gatto bagnato."@it ;
+    skos:example "Quel framicio in strada è immobile sotto la pioggia da 15 minuti."@it;
+    schema:keywords "gatto, bagnato, zuppo, pioggia, acqua";
+    dct:created "2023-09-14" ;
+    skos:related vocang:omnicio ;
+    dct:creator vocang:ribaudoSofia .
+
+vocang:crimmissione
+    a vocang:Parolangelo ;
+    skos:prefLabel "Crimmissione"@it ;
+    lexinfo:pronunciation "/crim • mis • sió • ne/"@it ;
+    skos:definition "Immissione, in una corsia stradale, rotatoria, o altro, tagliando brutalmente la strada ad un veicolo."@it ;
+    skos:example "C'era tutta Fano in coda, quindi ho effettuato una crimmissione."@it;
+    schema:keywords "veicolo, auto, traffico, immissione, criminale, insulto";
+    dct:created "2023-09-15" ;
+    skos:related vocang:porcheggio ;
+    dct:creator vocang:orlandoNicola .
+
+vocang:sustema
+    a vocang:Parolangelo ;
+    skos:prefLabel "Sustema"@it ;
+    lexinfo:pronunciation "/su • stè • ma/"@it ;
+    skos:definition "Sistema sospetto."@it ;
+    skos:example "Mah quel lavoretto che mi hai fatto non mi convince proprio. Tutta questa situazione è proprio un sustema."@it;
+    schema:keywords "sistema, sospetto";
+    dct:created "2023-09-15" ;
+    dct:creator vocang:bragariAlexandru .
+
+vocang:omnicino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Omnicino"@it ;
+    lexinfo:pronunciation "/om • ni • cì • no/"@it ;
+    skos:definition "Cucciolo di razza pura nato dall'accoppiamento di due omnici."@it ;
+    skos:example "Quando due omnici si amano tanto, si danno tanti bacini e nascono tanti piccoli omnicini!"@it;
+    schema:keywords "gatto, cucciolo, razza, accoppiamento";
+    dct:created "2023-09-15" ;
+    skos:related vocang:omnicio ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:giostrangelare
+    a vocang:Parolangelo ;
+    skos:prefLabel "Giostrangelare"@it ;
+    lexinfo:pronunciation "/giò • stran • ge • là • re/"@it ;
+    skos:definition "Tagliare il percorso di una montagna russa saltando dal carrello e riprendendolo in volo alla curva dopo."@it ;
+    skos:example "Ho visto Giovanni giostangelare dall'iSpeed. Sul giro della morte è ricascato sul carrello al grido di \"Il Gioco!\". Deve essere stato adrenalinico!"@it;
+    schema:keywords "montagna russa, gioco, adrenalinico, morte";
+    dct:created "2023-09-16" ;
+    dct:creator vocang:bianchiniGiovanni, vocang:pertosaLorenzo .
+
+vocang:girosboccangelo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Girosboccangelo"@it ;
+    lexinfo:pronunciation "/gi • ro • sboc • càn • ge • lo/"@it ;
+    skos:definition "Vomito che si emette a una curva di un rollercoaster per riprenderlo poi in bocca alla curva successiva."@it ;
+    skos:example "Giovanni ha emesso del girosboccangelo mentre era sull'iSpeed. Bene o male non ha sporcato nessuno, se non il dentro di se stesso!"@it;
+    schema:keywords "montagna russa, gioco, vomito";
+    dct:created "2023-09-16" ;
+    dct:creator vocang:bianchiniGiovanni, vocang:pertosaLorenzo .
+
+vocang:caramela
+    a vocang:Parolangelo ;
+    skos:prefLabel "Caramela"@it ;
+    lexinfo:pronunciation "/ca • ra • mè • la/"@it ;
+    skos:definition "Mela caramellata."@it ;
+    skos:example "Ho mangiato una caramela. Era dolcissima e buonissima!"@it;
+    schema:keywords "cibo, mela, caramello";
+    dct:created "2023-09-16" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:kakatun
+    a vocang:Parolangelo ;
+    skos:prefLabel "Kakatun"@it ;
+    skos:definition "Montagna russa estrema che suscita una profonda reazione di timore e ansia."@it ;
+    skos:example "Cari ospiti, vi invitiamo a provare il nostro nuovo kakatuna, progettato per farvi letteralmente cagare addosso dalla paura! Solo per coloro che cercano emozioni forti e avventure mozzafiato."@it;
+    schema:keywords "montagna russa, parco giochi, park, mirabilandia";
+    dct:created "2023-09-16" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:oggiometria
+    a vocang:Parolangelo ;
+    skos:prefLabel "Oggiometria"@it ;
+    lexinfo:pronunciation "/og • gio • me • trì • a/"@it ;
+    skos:definition "Geometria moderna."@it ;
+    skos:example "L'oggiometria, a differenza di quel che si può credere, non è una branca della matematica che si occupa di studiare le figure geometriche che si possono trovare nella vita di tutti i giorni."@it;
+    schema:keywords "geometria, moderna, matematica";
+    dct:created "2023-09-17" ;
+    dct:creator vocang:suscaMatteo .
+
+vocang:oggiometra
+    a vocang:Parolangelo ;
+    skos:prefLabel "Oggiometra"@it ;
+    lexinfo:pronunciation "/og • giò • me • tra/"@it ;
+    skos:definition "Persona che studia l'oggiometria."@it ;
+    skos:example "L'oggiometra è una persona che studia molti argomenti di geometria moderna."@it;
+    dct:created "2023-09-16" ;
+    skos:related vocang:oggiometria ;
+    dct:creator vocang:rosatelliAnna .
+
+vocang:gechino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Gechino"@it ;
+    lexinfo:pronunciation "/ge • chì • no/"@it ;
+    skos:definition "Geco di piccole dimensioni dalla mira infallibile."@it ;
+    skos:example "Ho visto un gechino che stava cacciando una mosca. L'ha presa al primo colpo!"@it;
+    schema:keywords "geco, piccolo, mira, infallibile";
+    dct:created "2023-09-17" ;
+    skos:related vocang:geoco ;
+    dct:creator vocang:diGioiaAlex, vocang:filippettiGiulio .
