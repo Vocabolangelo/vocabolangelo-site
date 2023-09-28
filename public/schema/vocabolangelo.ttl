@@ -7822,3 +7822,13 @@ vocang:oggiometria
     schema:keywords "geometria, moderna, matematica";
     dct:created "2023-09-17" ;
     dct:creator vocang:suscaMatteo .
+
+vocang:oggiometra
+    a vocang:Parolangelo ;
+    skos:prefLabel "Oggiometra"@it ;
+    lexinfo:pronunciation "/og • giò • me • tra/"@it ;
+    skos:definition "Persona che studia l'oggiometria."@it ;
+    skos:example "L'oggiometra è una persona che studia molti argomenti di geometria moderna."@it;
+    dct:created "2023-09-16" ;
+    skos:related vocang:oggiometria ;
+    dct:creator vocang:rosatelliAnna .
