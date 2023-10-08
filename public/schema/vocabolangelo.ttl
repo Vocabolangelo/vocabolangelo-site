@@ -7923,3 +7923,13 @@ vocang:marciobaleno
     schema:keywords "arcobaleno, brutto, pioggia, sole";
     dct:created "2023-09-19" ;
     dct:creator vocang:suscaMatteo .
+
+vocang:pompeggio
+    a vocang:Parolangelo ;
+    skos:prefLabel "Pompeggio"@it ;
+    lexinfo:pronunciation "/pom • pég • gio/"@it ;
+    skos:definition "Campeggio dove si dorme in tenda e poi ci si allena con numerose attrezzature."@it ;
+    skos:example "Durante queste vacanze ho messo su qualche chilo, devo proprio andare due settimane in pompeggio per recuperare."@it;
+    schema:keywords "campeggio, tenda, allenamento, attrezzatura, muscoli, muscolo";
+    dct:created "2023-09-19" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
