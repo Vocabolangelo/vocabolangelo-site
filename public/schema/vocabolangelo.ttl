@@ -7943,3 +7943,13 @@ vocang:fantasmaccola
     schema:keywords "caccola, fantasma, naso";
     dct:created "2023-09-22" ;
     dct:creator vocang:ribaudoSofia .
+
+vocang:trappassato
+    a vocang:Parolangelo ;
+    skos:prefLabel "Trappassato"@it ;
+    lexinfo:pronunciation "/trap • pas • sà • to/"@it ;
+    skos:definition "Ucciso in un tranello o mentre ascoltava musica di pessimo gusto."@it ;
+    skos:example "Un uomo è stato ucciso ieri in centro mentre ascoltava la musica di Travis Scott."@it;
+    schema:keywords "uccidere, tranello, musica, pessimo, gusto";
+    dct:created "2023-09-19" ;
+    dct:creator vocang:pertosaLorenzo, vocang:orlandoNicola .
