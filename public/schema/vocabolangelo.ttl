@@ -7903,3 +7903,13 @@ vocang:biribiza
     dct:created "2023-09-18" ;
     skos:note "La parolangelo nasce a causa del meme \"Questa non è Ibiza\"." ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:pessimizzare
+    a vocang:Parolangelo ;
+    skos:prefLabel "Pessimizzare"@it ;
+    lexinfo:pronunciation "/pes • si • mi • zzà • re/"@it ;
+    skos:definition "Rendere qualcosa peggiore."@it ;
+    skos:example "Ho appena aggiornato il mio telefono e ora è molto più lento. Ho appena pessimizzato il suo software non volendo!"@it;
+    schema:keywords "peggiore, rendere, peggiorare";
+    dct:created "2023-09-18" ;
+    dct:creator vocang:filasetaAngelo .
