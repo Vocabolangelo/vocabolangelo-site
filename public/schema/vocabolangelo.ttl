@@ -485,7 +485,7 @@ vocang:grasselliFrancesco
     foaf:gender "male" ;
     org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:paoliMichele .
- 
+
 vocang:bailettiTommaso
     a vocang:Vocaboliere ;
     foaf:firstName "Tommaso" ;
@@ -4954,6 +4954,7 @@ vocang:superficometro
     skos:definition "Una superficie piana e verticale, spesso un muro o una porta, su cui vengono segnate le altezze di un gruppo ristretto di persone. Questa superficie può essere utilizzata per tenere traccia delle altezze delle persone che frequentano un determinato luogo o per registrare l'altezza di un gruppo di persone per fini statistici, di ricerca o di mero intrattenimento."@it ;
     skos:example "In palestra, il coach ha messo un superficometro per tenere traccia dell'altezza dei suoi atleti."@it ;
     dct:created "2023-04-01" ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/superficometro.jpg" ;
     dct:creator vocang:filasetaAngelo, vocang:durazziMarco, vocang:battaglinoNicole, vocang:omiccioliRiccardo, vocang:chatGPT .
 
 vocang:scarbattare
@@ -4962,7 +4963,6 @@ vocang:scarbattare
     lexinfo:pronunciation "/scar • bat • tà • re/"@it ;
     skos:definition "Il gesto compiuto per indossare una scarpa in modo non convenzionale, simile all'indossare una ciabatta, al fine di dirigersi velocemente in un luogo."@it ;
     skos:example "Dovevo buttare l'immondizia quindi ho scarbattato e sono uscito per farlo."@it ;
-    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/superficometro.jpg" ;
     dct:created "2023-04-01" ;
     dct:creator vocang:omiccioliRiccardo .
 
@@ -6435,7 +6435,7 @@ vocang:brebolanza
     skos:example "Invece che comprare quelle debolenze dai cinesi dovresti comprare un kit professionale nel negozio specializzato. Con quegli aggeggi non prenderai neanche un girino!"@it ;
     dct:created "2023-07-09" ;
     dct:creator vocang:suscaMatteo .
-   
+
 vocang:ginocchino
     a vocang:Parolangelo ;
     skos:prefLabel "Ginocchino"@it ;
@@ -7557,7 +7557,7 @@ vocang:vegrello
     schema:keywords "carrello, cibo, vegetale";
     dct:created "2023-09-06" ;
     dct:creator vocang:ribaudoSofia .
-    
+
 vocang:murestra
     a vocang:Parolangelo ;
     skos:prefLabel "Murestra"@it ;
@@ -7859,3 +7859,47 @@ vocang:gechino
     dct:created "2023-09-17" ;
     skos:related vocang:geoco ;
     dct:creator vocang:diGioiaAlex, vocang:filippettiGiulio .
+
+vocang:appollativo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Appollativo"@it ;
+    lexinfo:pronunciation "/ap • pol • la • tì • vo/"@it ;
+    skos:definition "Epiteto rivolto ad individui dagli atteggiamenti riconducibili a pennuti."@it ;
+    skos:example "Ieri hanno dato del pollo a Gianluca. Solo perché non ha accettato di fare un salto di 3 metri rischiando di cadere nel vuoto non mi pare sia il caso per dargli dell'appollativo!"@it;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/appollativo.jpg" ;
+    schema:keywords "pennuto, epiteto, strano";
+    dct:created "2023-09-17" ;
+    dct:creator vocang:diGioiaAlex, vocang:filippettiGiulio .
+
+vocang:rabbina
+    a vocang:Parolangelo ;
+    skos:prefLabel "Rabbina"@it ;
+    lexinfo:pronunciation "/rab • bì • na/"@it ;
+    skos:definition "Rapina in cui sono coinvolte degli ebrei, siano essi rapinatori o vittime."@it ;
+    skos:example "Ieri sera ho visto un rabbina. Un gruppo di ebrei ha rapinato un negozio gestito da altri ebrei."@it;
+    schema:keywords "rapina, ebreo, rapinatore, vittima";
+    dct:created "2023-09-18" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:rabbatto
+    a vocang:Parolangelo ;
+    skos:prefLabel "Rabbatto"@it ;
+    lexinfo:pronunciation "/rab • bàt • to/"@it ;
+    skos:definition "Ricatto orchestrado da, o ai danni di, ebrei."@it ;
+    skos:example "Il mio amico, Marco Milano, ha ricevuto un rabbatto. I rapitori hanno sua figlia, ma lui sta cercando di contrattare con loro per dar meno soldi di quanti ne vogliono!"@it;
+    schema:keywords "ricatto, ebreo";
+    skos:related vocang:rabbina ;
+    dct:created "2023-09-18" ;
+    dct:creator vocang:battaglinoNicole .
+
+vocang:biribiza
+    a vocang:Parolangelo ;
+    skos:prefLabel "Biribiza"@it ;
+    lexinfo:pronunciation "/bi • ri • bì • za/"@it ;
+    skos:definition "Meta di vacanza scelta da un biribì, dove vengono portati tutti i suoi ospiti per fare festa poco prima della data di morte. Questa meta non è mai Ibiza."@it ;
+    skos:example "Dato che il cancro sta mangiando Emanuele, il biribì ha scelto Barcellona come biribiza per il mese di Luglio, dato che non si sa se è possibile arrivare ad Agosto."@it;
+    schema:keywords "biribì, meta, vacanza, festa, morte";
+    skos:related vocang:biribì ;
+    dct:created "2023-09-18" ;
+    skos:note "La parolangelo nasce a causa del meme \"Questa non è Ibiza\"." ;
+    dct:creator vocang:pertosaLorenzo .
