@@ -7933,3 +7933,13 @@ vocang:pompeggio
     schema:keywords "campeggio, tenda, allenamento, attrezzatura, muscoli, muscolo";
     dct:created "2023-09-19" ;
     dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
+
+vocang:fantasmaccola
+    a vocang:Parolangelo ;
+    skos:prefLabel "Fantasmaccola"@it ;
+    lexinfo:pronunciation "/fan • ta • sma • còl • la/"@it ;
+    skos:definition "Caccola che sembra essere presente all'interno delle narici ma che in realtà non c'è."@it ;
+    skos:example "È tutta la mattina che ho fastidio al naso, credo sia solo una fantasmaccola. Soffiando non esce nulla!"@it;
+    schema:keywords "caccola, fantasma, naso";
+    dct:created "2023-09-22" ;
+    dct:creator vocang:ribaudoSofia .
