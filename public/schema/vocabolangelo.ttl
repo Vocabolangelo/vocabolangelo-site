@@ -7987,3 +7987,24 @@ vocang:braccelangelo
     skos:related vocang:neocaboliere, vocang:vocaboladmin, vocang:vocabolangelo, vocang:angelario, vocang:parolangelo, vocang:apostolangelo, vocang:dizionangelo, vocang:vocaboliere, vocang:vocabolangelare, vocang:vocaboregolangelo, vocang:parolarcangelo, vocang:slangelo, vocang:concettangelo, vocang:vocaboreato, vocang:trinitangelo, vocang:mirangelo, vocang:ternariangelo, vocang:cosangelo ;
     dct:created "2023-09-23" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:cazzelpa
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cazzelpa"@it ;
+    lexinfo:pronunciation "/caz • zél • pa/"@it ;
+    skos:definition "Felpa per il pene."@it ;
+    skos:example "Ho comprato una cazzelpa. È molto comoda e calda!"@it;
+    schema:keywords "cazzo, pene, felpa, comoda, calda";
+    dct:created "2023-09-23" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:filasetaAngelo, vocang:battaglinoNicole .
+
+vocang:marenudino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Marenudino"@it ;
+    lexinfo:pronunciation "/ma • re • nu • dì • no/"@it ;
+    skos:definition "Foto di nudo scattato in spiaggia."@it ;
+    skos:example "Io e i miei amici abbiamo fatto un marenudino. Ci siamo accorti solo grazie a questo che c'era altra gente intorno!"@it;
+    schema:keywords "nudo, spiaggia, foto";
+    dct:created "2023-09-23" ;
+    skos:related vocang:idrosnitch, vocang:idrosbirro ;
+    dct:creator vocang:omiccioliRiccardo, vocang:filasetaAngelo, vocang:orlandoNicola .
