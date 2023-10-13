@@ -7953,3 +7953,13 @@ vocang:trappassato
     schema:keywords "uccidere, tranello, musica, pessimo, gusto";
     dct:created "2023-09-19" ;
     dct:creator vocang:pertosaLorenzo, vocang:orlandoNicola .
+
+vocang:raggirulare
+    a vocang:Parolangelo ;
+    skos:prefLabel "Raggirulare"@it ;
+    lexinfo:pronunciation "/rag • gi • ru • là • re/"@it ;
+    skos:definition "Aggirare una raggirula imposta da qualcuno."@it ;
+    skos:example "Ieri ho raggirulato Orla, che mi aveva impedito di cambiare la foto profilo del gruppo senza però imporre nessun tipo di permesso specifico per fermarmi!"@it;
+    schema:keywords "raggirula, regola, imporre, facile, aggirare";
+    dct:created "2023-09-22" ;
+    dct:creator vocang:filasetaAngelo .
