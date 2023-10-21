@@ -8058,3 +8058,14 @@ vocang:piramidabile
     schema:keywords "piramide, piramidale, costruzione, schema, forma";
     dct:created "2023-09-24" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:fraffreddore
+    a vocang:Parolangelo ;
+    skos:prefLabel "Fraffreddore"@it ;
+    lexinfo:pronunciation "/fra • fred • dó • re/"@it ;
+    skos:definition "Un raffreddore talmente presente e costante nella vita che ormai è come un fratello."@it ;
+    skos:example "Ho preso il fraffreddore. Ogni anno è la stessa storia."@it;
+    schema:keywords "raffreddore, freddo, malattia, inverno";
+    dct:created "2023-09-24" ;
+    skos:related vocang:brodino ;
+    dct:creator vocang:bianchiniGiovanni .
