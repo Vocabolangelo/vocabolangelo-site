@@ -485,7 +485,7 @@ vocang:grasselliFrancesco
     foaf:gender "male" ;
     org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:paoliMichele .
- 
+
 vocang:bailettiTommaso
     a vocang:Vocaboliere ;
     foaf:firstName "Tommaso" ;
@@ -549,6 +549,14 @@ vocang:filippettiGiulio
     foaf:gender "male" ;
     org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:orlandoNicola .
+
+vocang:cacchioneIrene
+    a vocang:Vocaboliere ;
+    foaf:firstName "Irene" ;
+    foaf:lastName "Cacchione" ;
+    foaf:gender "female" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:timpanoSam .
 
 # Other Author Individuals
 
@@ -4954,6 +4962,7 @@ vocang:superficometro
     skos:definition "Una superficie piana e verticale, spesso un muro o una porta, su cui vengono segnate le altezze di un gruppo ristretto di persone. Questa superficie può essere utilizzata per tenere traccia delle altezze delle persone che frequentano un determinato luogo o per registrare l'altezza di un gruppo di persone per fini statistici, di ricerca o di mero intrattenimento."@it ;
     skos:example "In palestra, il coach ha messo un superficometro per tenere traccia dell'altezza dei suoi atleti."@it ;
     dct:created "2023-04-01" ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/superficometro.jpg" ;
     dct:creator vocang:filasetaAngelo, vocang:durazziMarco, vocang:battaglinoNicole, vocang:omiccioliRiccardo, vocang:chatGPT .
 
 vocang:scarbattare
@@ -4962,7 +4971,6 @@ vocang:scarbattare
     lexinfo:pronunciation "/scar • bat • tà • re/"@it ;
     skos:definition "Il gesto compiuto per indossare una scarpa in modo non convenzionale, simile all'indossare una ciabatta, al fine di dirigersi velocemente in un luogo."@it ;
     skos:example "Dovevo buttare l'immondizia quindi ho scarbattato e sono uscito per farlo."@it ;
-    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/superficometro.jpg" ;
     dct:created "2023-04-01" ;
     dct:creator vocang:omiccioliRiccardo .
 
@@ -6435,7 +6443,7 @@ vocang:brebolanza
     skos:example "Invece che comprare quelle debolenze dai cinesi dovresti comprare un kit professionale nel negozio specializzato. Con quegli aggeggi non prenderai neanche un girino!"@it ;
     dct:created "2023-07-09" ;
     dct:creator vocang:suscaMatteo .
-   
+
 vocang:ginocchino
     a vocang:Parolangelo ;
     skos:prefLabel "Ginocchino"@it ;
@@ -7557,7 +7565,7 @@ vocang:vegrello
     schema:keywords "carrello, cibo, vegetale";
     dct:created "2023-09-06" ;
     dct:creator vocang:ribaudoSofia .
-    
+
 vocang:murestra
     a vocang:Parolangelo ;
     skos:prefLabel "Murestra"@it ;
@@ -7859,3 +7867,327 @@ vocang:gechino
     dct:created "2023-09-17" ;
     skos:related vocang:geoco ;
     dct:creator vocang:diGioiaAlex, vocang:filippettiGiulio .
+
+vocang:appollativo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Appollativo"@it ;
+    lexinfo:pronunciation "/ap • pol • la • tì • vo/"@it ;
+    skos:definition "Epiteto rivolto ad individui dagli atteggiamenti riconducibili a pennuti."@it ;
+    skos:example "Ieri hanno dato del pollo a Gianluca. Solo perché non ha accettato di fare un salto di 3 metri rischiando di cadere nel vuoto non mi pare sia il caso per dargli dell'appollativo!"@it;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/appollativo.jpg" ;
+    schema:keywords "pennuto, epiteto, strano";
+    dct:created "2023-09-17" ;
+    dct:creator vocang:diGioiaAlex, vocang:filippettiGiulio .
+
+vocang:rabbina
+    a vocang:Parolangelo ;
+    skos:prefLabel "Rabbina"@it ;
+    lexinfo:pronunciation "/rab • bì • na/"@it ;
+    skos:definition "Rapina in cui sono coinvolte degli ebrei, siano essi rapinatori o vittime."@it ;
+    skos:example "Ieri sera ho visto un rabbina. Un gruppo di ebrei ha rapinato un negozio gestito da altri ebrei."@it;
+    schema:keywords "rapina, ebreo, rapinatore, vittima";
+    dct:created "2023-09-18" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:rabbatto
+    a vocang:Parolangelo ;
+    skos:prefLabel "Rabbatto"@it ;
+    lexinfo:pronunciation "/rab • bàt • to/"@it ;
+    skos:definition "Ricatto orchestrado da, o ai danni di, ebrei."@it ;
+    skos:example "Il mio amico, Marco Milano, ha ricevuto un rabbatto. I rapitori hanno sua figlia, ma lui sta cercando di contrattare con loro per dar meno soldi di quanti ne vogliono!"@it;
+    schema:keywords "ricatto, ebreo";
+    skos:related vocang:rabbina ;
+    dct:created "2023-09-18" ;
+    dct:creator vocang:battaglinoNicole .
+
+vocang:biribiza
+    a vocang:Parolangelo ;
+    skos:prefLabel "Biribiza"@it ;
+    lexinfo:pronunciation "/bi • ri • bì • za/"@it ;
+    skos:definition "Meta di vacanza scelta da un biribì, dove vengono portati tutti i suoi ospiti per fare festa poco prima della data di morte. Questa meta non è mai Ibiza."@it ;
+    skos:example "Dato che il cancro sta mangiando Emanuele, il biribì ha scelto Barcellona come biribiza per il mese di Luglio, dato che non si sa se è possibile arrivare ad Agosto."@it;
+    schema:keywords "biribì, meta, vacanza, festa, morte";
+    skos:related vocang:biribì ;
+    dct:created "2023-09-18" ;
+    skos:note "La parolangelo nasce a causa del meme \"Questa non è Ibiza\"." ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:pessimizzare
+    a vocang:Parolangelo ;
+    skos:prefLabel "Pessimizzare"@it ;
+    lexinfo:pronunciation "/pes • si • mi • zzà • re/"@it ;
+    skos:definition "Rendere qualcosa peggiore."@it ;
+    skos:example "Ho appena aggiornato il mio telefono e ora è molto più lento. Ho appena pessimizzato il suo software non volendo!"@it;
+    schema:keywords "peggiore, rendere, peggiorare";
+    dct:created "2023-09-18" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:marciobaleno
+    a vocang:Parolangelo ;
+    skos:prefLabel "Marciobaleno"@it ;
+    lexinfo:pronunciation "/mar • cio • ba • lé • no/"@it ;
+    skos:definition "Arcobaleno brutto o che si vede male."@it ;
+    skos:example "Sta piovendo col sole ma tra tutti questi palazzi si vede solo un marciobaleno, peccato!"@it;
+    schema:keywords "arcobaleno, brutto, pioggia, sole";
+    dct:created "2023-09-19" ;
+    dct:creator vocang:suscaMatteo .
+
+vocang:pompeggio
+    a vocang:Parolangelo ;
+    skos:prefLabel "Pompeggio"@it ;
+    lexinfo:pronunciation "/pom • pég • gio/"@it ;
+    skos:definition "Campeggio dove si dorme in tenda e poi ci si allena con numerose attrezzature."@it ;
+    skos:example "Durante queste vacanze ho messo su qualche chilo, devo proprio andare due settimane in pompeggio per recuperare."@it;
+    schema:keywords "campeggio, tenda, allenamento, attrezzatura, muscoli, muscolo";
+    dct:created "2023-09-19" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
+
+vocang:fantasmaccola
+    a vocang:Parolangelo ;
+    skos:prefLabel "Fantasmaccola"@it ;
+    lexinfo:pronunciation "/fan • ta • sma • còl • la/"@it ;
+    skos:definition "Caccola che sembra essere presente all'interno delle narici ma che in realtà non c'è."@it ;
+    skos:example "È tutta la mattina che ho fastidio al naso, credo sia solo una fantasmaccola. Soffiando non esce nulla!"@it;
+    schema:keywords "caccola, fantasma, naso";
+    dct:created "2023-09-22" ;
+    dct:creator vocang:ribaudoSofia .
+
+vocang:trappassato
+    a vocang:Parolangelo ;
+    skos:prefLabel "Trappassato"@it ;
+    lexinfo:pronunciation "/trap • pas • sà • to/"@it ;
+    skos:definition "Ucciso in un tranello o mentre ascoltava musica di pessimo gusto."@it ;
+    skos:example "Un uomo è stato ucciso ieri in centro mentre ascoltava la musica di Travis Scott."@it;
+    schema:keywords "uccidere, tranello, musica, pessimo, gusto";
+    dct:created "2023-09-19" ;
+    dct:creator vocang:pertosaLorenzo, vocang:orlandoNicola .
+
+vocang:raggirulare
+    a vocang:Parolangelo ;
+    skos:prefLabel "Raggirulare"@it ;
+    lexinfo:pronunciation "/rag • gi • ru • là • re/"@it ;
+    skos:definition "Aggirare una raggirula imposta da qualcuno."@it ;
+    skos:example "Ieri ho raggirulato Orla, che mi aveva impedito di cambiare la foto profilo del gruppo senza però imporre nessun tipo di permesso specifico per fermarmi!"@it;
+    skos:related vocang:raggirula ;
+    schema:keywords "raggirula, regola, imporre, facile, aggirare";
+    dct:created "2023-09-22" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:sindagatto
+    a vocang:Parolangelo ;
+    skos:prefLabel "Sindagatto"@it ;
+    lexinfo:pronunciation "/sin • da • gàt • to/"@it ;
+    skos:definition "Gruppo di gatti randagi che si batte per avere maggiori diritti in termini di cibo, coccole e dimore, importunando gli esseri umani."@it ;
+    skos:example "L'altro giorno ho visto una decina di gatti miagolare fortissimo sotto la finestra del mio vicino, evidentemente hanno formato un sindagatto."@it;
+    schema:keywords "gatto, randagio, diritti, cibo, coccole, dimora, importunare";
+    skos:note "Un sindagatto può contenere urlatti e ogni altra variante felina presente nel vocabolangelo."@it, "Si racconta che i sindagatti siano nemici giurati degli aristogatti"@it ;
+    skos:related vocang:omnicio ;
+    dct:created "2023-09-23" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:braccelangelo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Braccelangelo"@it ;
+    lexinfo:pronunciation "/brac • ce • làn • ge • lo/"@it ;
+    skos:definition "Braccialetto dell'amicizia che riporta delle parolangelo o degli slangelo."@it ;
+    skos:example "Ho regalato a mia sorella un braccelangelo con la parolangelo \"biribì\". Ora non lo toglie più!"@it;
+    schema:keywords "braccialetto, amicizia, parolangelo, slangelo, vocabolangelo";
+    skos:related vocang:neocaboliere, vocang:vocaboladmin, vocang:vocabolangelo, vocang:angelario, vocang:parolangelo, vocang:apostolangelo, vocang:dizionangelo, vocang:vocaboliere, vocang:vocabolangelare, vocang:vocaboregolangelo, vocang:parolarcangelo, vocang:slangelo, vocang:concettangelo, vocang:vocaboreato, vocang:trinitangelo, vocang:mirangelo, vocang:ternariangelo, vocang:cosangelo ;
+    dct:created "2023-09-23" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:cazzelpa
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cazzelpa"@it ;
+    lexinfo:pronunciation "/caz • zél • pa/"@it ;
+    skos:definition "Felpa per il pene."@it ;
+    skos:example "Ho comprato una cazzelpa. È molto comoda e calda!"@it;
+    schema:keywords "cazzo, pene, felpa, comoda, calda";
+    dct:created "2023-09-23" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:filasetaAngelo, vocang:battaglinoNicole .
+
+vocang:marenudino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Marenudino"@it ;
+    lexinfo:pronunciation "/ma • re • nu • dì • no/"@it ;
+    skos:definition "Foto di nudo scattato in spiaggia."@it ;
+    skos:example "Io e i miei amici abbiamo fatto un marenudino. Ci siamo accorti solo grazie a questo che c'era altra gente intorno!"@it;
+    schema:keywords "nudo, spiaggia, foto";
+    dct:created "2023-09-23" ;
+    skos:related vocang:idrosnitch, vocang:idrosbirro ;
+    dct:creator vocang:omiccioliRiccardo, vocang:filasetaAngelo, vocang:orlandoNicola .
+
+vocang:occhialuna
+    a vocang:Parolangelo ;
+    skos:prefLabel "Occhialuna"@it ;
+    lexinfo:pronunciation "/oc • chia • lù • na/"@it ;
+    skos:definition "Occhiali con lenti speciali che quando vengono indossati paiono aumentare la quantità di luce."@it ;
+    skos:example "Ho comprato un paio di occhialuna. Ora posso vedere meglio al buio!"@it;
+    schema:keywords "occhiali, lenti, luce, buio";
+    dct:created "2023-09-24" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:bustela
+    a vocang:Parolangelo ;
+    skos:prefLabel "Bustela"@it ;
+    lexinfo:pronunciation "/bus • tè • la/"@it ;
+    skos:definition "Busta di tela."@it ;
+    skos:example "Ho comprato una bustela. È molto resistente!"@it;
+    schema:keywords "busta, tela, resistente";
+    dct:created "2023-09-24" ;
+    dct:creator vocang:battaglinoNicole .
+
+vocang:Tartartufo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Tartartufo"@it ;
+    lexinfo:pronunciation "/tar • tar • tù • fo/"@it ;
+    skos:definition "Tartare al tartufo."@it ;
+    skos:example "Ho mangiato una tartartufo. Era buonissima! Non sapeva affatto di muffa."@it;
+    schema:keywords "tartara, tartare, tartufo, cibo";
+    dct:created "2023-09-24" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:bestiangelo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Bestiangelo"@it ;
+    lexinfo:pronunciation "/bes • ti • àn • ge • lo/"@it ;
+    skos:definition "Raccolta di creature contenute all'interno del vocabolangelo."@it ;
+    skos:example "L'altra notte ho visto un gatto urlare e la cosa mi ha stupito, ma consultando il bestiangelo ho subito capito fosse un Urlatto."@it;
+    schema:keywords "bestia, vocabolangelo, angelo, animale, creatura, gatto";
+    dct:created "2023-09-24" ;
+    dct:creator vocang:pertosaLorenzo.
+
+vocang:piramidabile
+    a vocang:Parolangelo ;
+    skos:prefLabel "Piramidabile"@it ;
+    lexinfo:pronunciation "/pi • ra • mi • dà • bi • le/"@it ;
+    skos:definition "Modificabile o sostituibile con qualcosa di forma piramidale, come ad esempio schemi o costruzioni."@it ;
+    skos:example "Tutankhamon voleva costruire la propria tomba a forma di sfera, ma gli feci notare che quella costruzione era piramidabile. Per ringraziarmi della dritta mi seppellì con lui."@it;
+    schema:keywords "piramide, piramidale, costruzione, schema, forma";
+    dct:created "2023-09-24" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:fraffreddore
+    a vocang:Parolangelo ;
+    skos:prefLabel "Fraffreddore"@it ;
+    lexinfo:pronunciation "/fra • fred • dó • re/"@it ;
+    skos:definition "Un raffreddore talmente presente e costante nella vita che ormai è come un fratello."@it ;
+    skos:example "Ho preso il fraffreddore. Ogni anno è la stessa storia."@it;
+    schema:keywords "raffreddore, freddo, malattia, inverno";
+    dct:created "2023-09-24" ;
+    skos:related vocang:brodino ;
+    dct:creator vocang:bianchiniGiovanni .
+
+vocang:miciostecco
+    a vocang:Parolangelo ;
+    skos:prefLabel "Miciostecco"@it ;
+    lexinfo:pronunciation "/mi • cio • stéc • co/"@it ;
+    skos:definition "Gatto che assume una posa in cui sembra apparentemente morto."@it ;
+    skos:example "Ho visto un miciostecco. Mi sono avvicinato per vedere se respirava, ma non mi ha dato il tempo di capirlo che mi ha graffiato!"@it;
+    schema:keywords "gatto, morto, posa, apparentemente";
+    dct:created "2023-09-17" ;
+    dct:creator vocang:battaglinoNicole .
+
+vocang:fotente
+    a vocang:Parolangelo ;
+    skos:prefLabel "Fotente"@it ;
+    lexinfo:pronunciation "/fo • tèn • te/"@it ;
+    skos:definition "Non incline e rompersi facilmente, molto resistente, al punto da sembrare un carro armato."@it ;
+    skos:example "Il computer DELL di Angelo è veramente fotente."@it;
+    schema:keywords "resistente, non incline, rompersi, carro armato";
+    dct:created "2023-09-29" ;
+    skos:note "La parolangelo nasce dal fatto che la macchina della ragazza del vocaboliere che ha creato la parola non è affatto fotente. Infatti i due consorti sono rimasti a piedi perché a causa di una spia rosso che si è accesa completamente a caso mentre andavamo in giro.";
+    dct:creator vocang:filasetaAngelo .
+
+vocang:conetta
+    a vocang:Parolangelo ;
+    skos:prefLabel "Conetta"@it ;
+    lexinfo:pronunciation "/co • nèt • ta/"@it ;
+    skos:definition "Coppetta per gelato fatta di cialda."@it ;
+    skos:example "Trovo più semplice mangiare il gelato nella coppetta ma amo la cialda con il gelato, spero che il gelataio abbia la conetta."@it;
+    schema:keywords "gelato, cialda, coppetta, cono";
+    dct:created "2023-09-29" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:bronchio
+    a vocang:Parolangelo ;
+    skos:prefLabel "Bronchio"@it ;
+    lexinfo:pronunciation "/brón • chio/"@it ;
+    skos:definition "Bronco."@it ;
+    skos:example "Ho preso un raffreddore, sento un bronchio più degli altri particolarmente pieno di schifezze."@it;
+    schema:keywords "bronco, raffreddore, malattia, inverno";
+    dct:created "2023-09-30" ;
+    dct:creator vocang:bragariAlexandru .
+
+vocang:octopipo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Octopipo"@it ;
+    lexinfo:pronunciation "/oc • to • pì • po/"@it ;
+    skos:definition "Dildo a forma di tentacolo."@it ;
+    skos:example "Ho comprato un octopipo. È molto piacevole sentire il tentacolo viscido entrare dentro di me!"@it;
+    schema:keywords "dildo, tentacolo, viscido, lubrificante, sesso, kraken";
+    skos:note "La parolangelo nasce perché un vocaboliere che la ha inventata stava cercando su un noto motore di ricerca \"octopi poker ai\" che ha letto durante una live di poker" ;
+    dct:created "2023-09-30" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:filasetaAngelo .
+
+vocang:narrazzista
+    a vocang:Parolangelo ;
+    skos:prefLabel "Narrazzista"@it ;
+    lexinfo:pronunciation "/nar • raz • zì • sta/"@it ;
+    skos:definition "Narratore razzista, il quale tipicamente nelle proprie storie fa passare le persone di colore come criminali e quelle bianche come buone."@it ;
+    skos:example "Ho letto un libro di un narrazzista. Il protagonista era un uomo bianco che ha salvato il mondo da un gruppo di criminali neri."@it;
+    schema:keywords "narratore, razzista, bianco, nero, criminale";
+    dct:created "2023-09-30" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:fiebile
+    a vocang:Parolangelo ;
+    skos:prefLabel "Fiebile"@it ;
+    lexinfo:pronunciation "/fiè • bi • le/"@it ;
+    skos:definition "Fievole e flebile allo stesso tempo. Solitamente utilizzato per indicare con sarcasmo qualcosa che è palese, esagerato e ovvio."@it ;
+    skos:example "Il fatto che Sasha sia impulsivo è un dettaglio fiebile."@it;
+    schema:keywords "dettaglio, fievole, flebile, sarcasmo";
+    dct:created "2023-09-30" ;
+    skos:note "Questa è la prima parola inventata da Irene che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
+    dct:creator vocang:timpanoSam, vocang:cacchioneIrene .
+
+vocang:briscolo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Briscolo"@it ;
+    lexinfo:pronunciation "/brì • sco • lo/"@it ;
+    skos:definition "Il gioco di carte Yu-Gi-Oh in versione semplificata, utilizzando le carte da briscola."@it ;
+    skos:example "Ho giocato a briscolo con Mario, ma le sue carte magia erano troppo potenti e alla fine ho perso."@it;
+    schema:keywords "gioco, carte, briscola, semplice, yu-gi-oh";
+    dct:created "2023-10-03" ;
+    dct:creator vocang:talmiAlessandro .
+
+vocang:ostaggiante
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ostaggiante"@it ;
+    lexinfo:pronunciation "/os • tag • giàn • te/"@it ;
+    skos:definition "Individuo che detiene degli ostaggi, solitamente un rapinatore."@it ;
+    skos:example "Quell'osteggiante era davvero carino e simpatico, speravo che mio marito non pagasse il riscatto..."@it;
+    schema:keywords "ostaggio, persona, rapinatore, riscatto";
+    dct:created "2023-10-02" ;
+    dct:creator vocang:bragariAlexandru .
+
+vocang:ostaggiatore
+    a vocang:Parolangelo ;
+    lexinfo:pronunciation "/os • tag • gia • tó • re/"@it ;
+    skos:definition "Ostaggiante."@it ;
+    skos:example "Quell'osteggiatore era davvero carino e simpatico, speravo che mio marito non pagasse il riscatto..."@it;
+    schema:keywords "ostaggio, persona, rapinatore, riscatto";
+    dct:created "2023-10-02" ;
+    scot:synonym vocang:ostaggiante ;
+    dct:creator vocang:bragariAlexandru .
+
+vocang:ortaggiatore
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ortaggiatore"@it ;
+    lexinfo:pronunciation "/or • tag • già • to • re/"@it ;
+    skos:definition "Rapinatore che detiene degli ortaggi con sè."@it ;
+    skos:example "Nel mezzo della sparatroia con la polizia, uno dei rapinatori estrasse una carota dal cappotto e la mangiò, non sapevo di aver a che fare con degli ortaggiatori!"@it;
+    schema:keywords "ortaggio, persona, rapinatore, riscatto";
+    dct:created "2023-10-06" ;
+    skos:related vocang:ostaggiante ;
+    dct:creator vocang:pertosaLorenzo .
