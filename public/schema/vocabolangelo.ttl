@@ -550,6 +550,14 @@ vocang:filippettiGiulio
     org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:orlandoNicola .
 
+vocang:cacchioneIrene
+    a vocang:Vocaboliere ;
+    foaf:firstName "Irene" ;
+    foaf:lastName "Cacchione" ;
+    foaf:gender "female" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:timpanoSam .
+
 # Other Author Individuals
 
 vocang:chatGPT
