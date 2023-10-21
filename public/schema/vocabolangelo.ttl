@@ -8150,3 +8150,13 @@ vocang:fiebile
     dct:created "2023-09-30" ;
     skos:note "Questa è la prima parola inventata da Irene che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
     dct:creator vocang:timpanoSam, vocang:cacchioneIrene .
+
+vocang:briscolo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Briscolo"@it ;
+    lexinfo:pronunciation "/brì • sco • lo/"@it ;
+    skos:definition "Il gioco di carte Yu-Gi-Oh in versione semplificata, utilizzando le carte da briscola."@it ;
+    skos:example "Ho giocato a briscolo con Mario, ma le sue carte magia erano troppo potenti e alla fine ho perso."@it;
+    schema:keywords "gioco, carte, briscola, semplice, yu-gi-oh";
+    dct:created "2023-10-03" ;
+    dct:creator vocang:talmiAlessandro .
