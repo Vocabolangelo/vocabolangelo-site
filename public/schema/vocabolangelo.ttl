@@ -8028,3 +8028,13 @@ vocang:bustela
     schema:keywords "busta, tela, resistente";
     dct:created "2023-09-24" ;
     dct:creator vocang:battaglinoNicole .
+
+vocang:Tartartufo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Tartartufo"@it ;
+    lexinfo:pronunciation "/tar • tar • tù • fo/"@it ;
+    skos:definition "Tartare al tartufo."@it ;
+    skos:example "Ho mangiato una tartartufo. Era buonissima! Non sapeva affatto di muffa."@it;
+    schema:keywords "tartara, tartare, tartufo, cibo";
+    dct:created "2023-09-24" ;
+    dct:creator vocang:pertosaLorenzo .
