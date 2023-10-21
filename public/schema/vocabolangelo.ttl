@@ -8069,3 +8069,24 @@ vocang:fraffreddore
     dct:created "2023-09-24" ;
     skos:related vocang:brodino ;
     dct:creator vocang:bianchiniGiovanni .
+
+vocang:miciostecco
+    a vocang:Parolangelo ;
+    skos:prefLabel "Miciostecco"@it ;
+    lexinfo:pronunciation "/mi • cio • stéc • co/"@it ;
+    skos:definition "Gatto che assume una posa in cui sembra apparentemente morto."@it ;
+    skos:example "Ho visto un miciostecco. Mi sono avvicinato per vedere se respirava, ma non mi ha dato il tempo di capirlo che mi ha graffiato!"@it;
+    schema:keywords "gatto, morto, posa, apparentemente";
+    dct:created "2023-09-17" ;
+    dct:creator vocang:battaglinoNicole .
+
+vocang:fotente
+    a vocang:Parolangelo ;
+    skos:prefLabel "Fotente"@it ;
+    lexinfo:pronunciation "/fo • tèn • te/"@it ;
+    skos:definition "Non incline e rompersi facilmente, molto resistente, al punto da sembrare un carro armato."@it ;
+    skos:example "Il computer DELL di Angelo è veramente fotente."@it;
+    schema:keywords "resistente, non incline, rompersi, carro armato";
+    dct:created "2023-09-24" ;
+    skos:note "La parolangelo nasce dal fatto che la macchina della ragazza del vocaboliere che ha creato la parola non è affatto fotente. Infatti i due consorti sono rimasti a piedi perché a causa di una spia rosso che si è accesa completamente a caso mentre andavamo in giro.";
+    dct:creator vocang:filasetaAngelo .
