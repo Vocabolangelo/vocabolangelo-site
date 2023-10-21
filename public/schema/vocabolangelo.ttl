@@ -8104,9 +8104,20 @@ vocang:conetta
 vocang:bronchio
     a vocang:Parolangelo ;
     skos:prefLabel "Bronchio"@it ;
-    lexinfo:pronunciation "/bron • chì • o/"@it ;
+    lexinfo:pronunciation "/brón • chio/"@it ;
     skos:definition "Bronco."@it ;
     skos:example "Ho preso un raffreddore, sento un bronchio più degli altri particolarmente pieno di schifezze."@it;
     schema:keywords "bronco, raffreddore, malattia, inverno";
     dct:created "2023-09-30" ;
     dct:creator vocang:bragariAlexandru .
+
+vocang:octopipo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Octopipo"@it ;
+    lexinfo:pronunciation "/oc • to • pì • po/"@it ;
+    skos:definition "Dildo a forma di tentacolo."@it ;
+    skos:example "Ho comprato un octopipo. È molto piacevole sentire il tentacolo viscido entrare dentro di me!"@it;
+    schema:keywords "dildo, tentacolo, viscido, lubrificante, sesso, kraken";
+    skos:note "La parolangelo nasce perché un vocaboliere che la ha inventata stava cercando su un noto motore di ricerca \"octopi poker ai\" che ha letto durante una live di poker" ;
+    dct:created "2023-09-30" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:filasetaAngelo .
