@@ -8038,3 +8038,13 @@ vocang:Tartartufo
     schema:keywords "tartara, tartare, tartufo, cibo";
     dct:created "2023-09-24" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:bestiangelo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Bestiangelo"@it ;
+    lexinfo:pronunciation "/bes • ti • àn • ge • lo/"@it ;
+    skos:definition "Raccolta di creature contenute all'interno del vocabolangelo."@it ;
+    skos:example "L'altra notte ho visto un gatto urlare e la cosa mi ha stupito, ma consultando il bestiangelo ho subito capito fosse un Urlatto."@it;
+    schema:keywords "bestia, vocabolangelo, angelo, animale, creatura, gatto";
+    dct:created "2023-09-24" ;
+    dct:creator vocang:pertosaLorenzo.
