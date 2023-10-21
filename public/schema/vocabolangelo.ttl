@@ -8171,6 +8171,16 @@ vocang:ostaggiante
     dct:created "2023-10-02" ;
     dct:creator vocang:bragariAlexandru .
 
+vocang:ostaggiatore
+    a vocang:Parolangelo ;
+    lexinfo:pronunciation "/os • tag • gia • tó • re/"@it ;
+    skos:definition "Ostaggiante."@it ;
+    skos:example "Quell'osteggiatore era davvero carino e simpatico, speravo che mio marito non pagasse il riscatto..."@it;
+    schema:keywords "ostaggio, persona, rapinatore, riscatto";
+    dct:created "2023-10-02" ;
+    scot:synonym vocang:ostaggiante ;
+    dct:creator vocang:bragariAlexandru .
+
 vocang:ortaggiatore
     a vocang:Parolangelo ;
     skos:prefLabel "Ortaggiatore"@it ;
