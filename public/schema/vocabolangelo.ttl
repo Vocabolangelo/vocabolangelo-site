@@ -8048,3 +8048,13 @@ vocang:bestiangelo
     schema:keywords "bestia, vocabolangelo, angelo, animale, creatura, gatto";
     dct:created "2023-09-24" ;
     dct:creator vocang:pertosaLorenzo.
+
+vocang:piramidabile
+    a vocang:Parolangelo ;
+    skos:prefLabel "Piramidabile"@it ;
+    lexinfo:pronunciation "/pi • ra • mi • dà • bi • le/"@it ;
+    skos:definition "Modificabile o sostituibile con qualcosa di forma piramidale, come ad esempio schemi o costruzioni."@it ;
+    skos:example "Tutankhamon voleva costruire la propria tomba a forma di sfera, ma gli feci notare che quella costruzione era piramidabile. Per ringraziarmi della dritta mi seppellì con lui."@it;
+    schema:keywords "piramide, piramidale, costruzione, schema, forma";
+    dct:created "2023-09-24" ;
+    dct:creator vocang:pertosaLorenzo .
