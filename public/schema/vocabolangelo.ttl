@@ -8139,3 +8139,14 @@ vocang:narrazzista
     schema:keywords "narratore, razzista, bianco, nero, criminale";
     dct:created "2023-09-30" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:fiebile
+    a vocang:Parolangelo ;
+    skos:prefLabel "Fiebile"@it ;
+    lexinfo:pronunciation "/fiè • bi • le/"@it ;
+    skos:definition "Fievole e flebile allo stesso tempo. Solitamente utilizzato per indicare con sarcasmo qualcosa che è palese, esagerato e ovvio."@it ;
+    skos:example "Il fatto che Sasha sia impulsivo è un dettaglio fiebile."@it;
+    schema:keywords "dettaglio, fievole, flebile, sarcasmo";
+    dct:created "2023-09-30" ;
+    skos:note "Questa è la prima parola inventata da Irene che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
+    dct:creator vocang:timpanoSam, vocang:cacchioneIrene .
