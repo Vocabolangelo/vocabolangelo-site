@@ -8121,3 +8121,13 @@ vocang:octopipo
     skos:note "La parolangelo nasce perché un vocaboliere che la ha inventata stava cercando su un noto motore di ricerca \"octopi poker ai\" che ha letto durante una live di poker" ;
     dct:created "2023-09-30" ;
     dct:creator vocang:omiccioliRiccardo, vocang:filasetaAngelo .
+
+vocang:narrazzista
+    a vocang:Parolangelo ;
+    skos:prefLabel "Narrazzista"@it ;
+    lexinfo:pronunciation "/nar • raz • zì • sta/"@it ;
+    skos:definition "Narratore razzista, il quale tipicamente nelle proprie storie fa passare le persone di colore come criminali e quelle bianche come buone."@it ;
+    skos:example "Ho letto un libro di un narrazzista. Il protagonista era un uomo bianco che ha salvato il mondo da un gruppo di criminali neri."@it;
+    schema:keywords "narratore, razzista, bianco, nero, criminale";
+    dct:created "2023-09-30" ;
+    dct:creator vocang:pertosaLorenzo .
