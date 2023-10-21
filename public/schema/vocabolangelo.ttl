@@ -8160,3 +8160,13 @@ vocang:briscolo
     schema:keywords "gioco, carte, briscola, semplice, yu-gi-oh";
     dct:created "2023-10-03" ;
     dct:creator vocang:talmiAlessandro .
+
+vocang:ostaggiante
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ostaggiante"@it ;
+    lexinfo:pronunciation "/os • tag • giàn • te/"@it ;
+    skos:definition "Individuo che detiene degli ostaggi, solitamente un rapinatore."@it ;
+    skos:example "Quell'osteggiante era davvero carino e simpatico, speravo che mio marito non pagasse il riscatto..."@it;
+    schema:keywords "ostaggio, persona, rapinatore, riscatto";
+    dct:created "2023-10-02" ;
+    dct:creator vocang:bragariAlexandru .
