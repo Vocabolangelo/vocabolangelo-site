@@ -7221,6 +7221,7 @@
 <http://www.vocabolangelo.org/ostaggiante> <http://purl.org/dc/terms/created> "2023-10-02" .
 <http://www.vocabolangelo.org/ostaggiante> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/bragariAlexandru> .
 <http://www.vocabolangelo.org/ostaggiatore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/ostaggiatore> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ostaggiatore"@it .
 <http://www.vocabolangelo.org/ostaggiatore> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/os • tag • gia • tó • re/"@it .
 <http://www.vocabolangelo.org/ostaggiatore> <http://www.w3.org/2004/02/skos/core#definition> "Ostaggiante."@it .
 <http://www.vocabolangelo.org/ostaggiatore> <http://www.w3.org/2004/02/skos/core#example> "Quell'osteggiatore era davvero carino e simpatico, speravo che mio marito non pagasse il riscatto..."@it .
