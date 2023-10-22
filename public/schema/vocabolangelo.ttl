@@ -8173,6 +8173,7 @@ vocang:ostaggiante
 
 vocang:ostaggiatore
     a vocang:Parolangelo ;
+    skos:prefLabel "Ostaggiatore"@it ;
     lexinfo:pronunciation "/os • tag • gia • tó • re/"@it ;
     skos:definition "Ostaggiante."@it ;
     skos:example "Quell'osteggiatore era davvero carino e simpatico, speravo che mio marito non pagasse il riscatto..."@it;
