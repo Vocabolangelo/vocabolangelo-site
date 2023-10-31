@@ -1,5 +1,42 @@
 # Changelog
 
+## [6.14.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v6.13.0...v6.14.0) (2023-10-31)
+
+
+### Features
+
+* **parolangelo:** bestiangelo ([9987f9b](https://github.com/Vocabolangelo/vocabolangelo-site/commit/9987f9b94bcbb74bdc0d3f07b6a0cd938a16902d))
+* **parolangelo:** biribiza ([fa372dd](https://github.com/Vocabolangelo/vocabolangelo-site/commit/fa372dd123d0052d4e84b760e055f42c162e54cc))
+* **parolangelo:** braccelangelo ([4279c91](https://github.com/Vocabolangelo/vocabolangelo-site/commit/4279c917504587a7cd2f87dc3e5c915d1ecae1f8))
+* **parolangelo:** briscolo ([99ca896](https://github.com/Vocabolangelo/vocabolangelo-site/commit/99ca89693e17ba423cb95a6de018602d9dcc05b8))
+* **parolangelo:** bronchio ([14eb37a](https://github.com/Vocabolangelo/vocabolangelo-site/commit/14eb37a32040419411918333e5e9cd4a2d532687))
+* **parolangelo:** bustela ([a47024a](https://github.com/Vocabolangelo/vocabolangelo-site/commit/a47024a274a0b2860a2a8a4858be6315d9f60ab1))
+* **parolangelo:** conetta ([e276bd0](https://github.com/Vocabolangelo/vocabolangelo-site/commit/e276bd09d704c25ba8857473e47272a771bfe18c))
+* **parolangelo:** fantasmaccola ([4aca840](https://github.com/Vocabolangelo/vocabolangelo-site/commit/4aca840306c1cd85dac75ceec26db4f5b79f6d2c))
+* **parolangelo:** fiebile ([e8d56bb](https://github.com/Vocabolangelo/vocabolangelo-site/commit/e8d56bb01a797af140ae14be5ef2f40b3e5f9393))
+* **parolangelo:** fotente ([5dbb638](https://github.com/Vocabolangelo/vocabolangelo-site/commit/5dbb638657bbe0206ef9213a5cfd33e7d2eb410b))
+* **parolangelo:** fraffreddore ([25988ba](https://github.com/Vocabolangelo/vocabolangelo-site/commit/25988ba558d8a1de5633f6ecc0863bab4210933d))
+* **parolangelo:** marciobaleno ([21b851d](https://github.com/Vocabolangelo/vocabolangelo-site/commit/21b851daad412a2694b51a096fa618abcf6f5d1f))
+* **parolangelo:** marenudino ([9eb16f4](https://github.com/Vocabolangelo/vocabolangelo-site/commit/9eb16f48f6f9d6d179c09623309d0387ac9e9ee2))
+* **parolangelo:** narrazzista ([a472c40](https://github.com/Vocabolangelo/vocabolangelo-site/commit/a472c40d426a2a8a6fd286b62835b0aa8e0b4de5))
+* **parolangelo:** occhialuna ([425dc36](https://github.com/Vocabolangelo/vocabolangelo-site/commit/425dc36f2a5316c816a91d8fbd292a63af6b5822))
+* **parolangelo:** octopipo ([130b000](https://github.com/Vocabolangelo/vocabolangelo-site/commit/130b000576bef3dc7495597fe006d24a017c3e60))
+* **parolangelo:** ortaggiatore ([dedc1c6](https://github.com/Vocabolangelo/vocabolangelo-site/commit/dedc1c62860f7e7c1d63328ec0d4656f5e1395f1))
+* **parolangelo:** ostaggiante ([3b7b6b7](https://github.com/Vocabolangelo/vocabolangelo-site/commit/3b7b6b796f6ae090aa1de732b7b4aa6d207f41dc))
+* **parolangelo:** ostaggiatore ([2c78d88](https://github.com/Vocabolangelo/vocabolangelo-site/commit/2c78d88a003c8573f3a8b9aeca4d65bfeeb3ee03))
+* **parolangelo:** pessimizzare ([e0dfa53](https://github.com/Vocabolangelo/vocabolangelo-site/commit/e0dfa53705608da2b8d3220553aacab66b7efeec))
+* **parolangelo:** piramidabile ([295e947](https://github.com/Vocabolangelo/vocabolangelo-site/commit/295e94784f734493110a06657fbf4018e2f45333))
+* **parolangelo:** pompeggio ([303162a](https://github.com/Vocabolangelo/vocabolangelo-site/commit/303162a7e993031ae42120f6b657b64af234353f))
+* **parolangelo:** raggirulare ([a5dc296](https://github.com/Vocabolangelo/vocabolangelo-site/commit/a5dc2969a1a5015760b1ed695b1e2678bf110ba7))
+* **parolangelo:** tartartufo ([371817c](https://github.com/Vocabolangelo/vocabolangelo-site/commit/371817c1f89fcaecf7f9fcab309668e94524977e))
+* **parolangelo:** trappassato ([d0c9d26](https://github.com/Vocabolangelo/vocabolangelo-site/commit/d0c9d26d6d5aef5d01ca2ee93e78d8a5d2ff5a0f))
+* **vocaboliere:** Irene Cacchione ([67b65f5](https://github.com/Vocabolangelo/vocabolangelo-site/commit/67b65f545057bfec4f1476661c281cffc93a7d20))
+
+
+### Bug Fixes
+
+* add missing prefLabel ([d168c64](https://github.com/Vocabolangelo/vocabolangelo-site/commit/d168c6419104c9712615bf0e50b007fe2528bf95))
+
 ## [6.13.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v6.12.0...v6.13.0) (2023-09-28)
 
 
