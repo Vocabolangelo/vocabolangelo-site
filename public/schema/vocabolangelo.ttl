@@ -8252,5 +8252,15 @@ vocang:amoremicizia
     skos:definition "Tipo di rapporto in cui si tratta il partner come un migliore amico ed in modo poco sdolcinato."@it ;
     skos:example "Io e la mia ragazza abbiamo un rapporto di amoremicizia. Non ci diciamo mai \"ti amo\" e non ci facciamo mai coccole, ma ci vogliamo bene!"@it;
     schema:keywords "amore, amicizia, rapporto, partner, migliore amico, sdolcinato";
+    skos:related vocang:micizia ;
     dct:created "2023-09-19" ;
     dct:creator vocang:nardiniArianna, vocang:minoccheriAlessandra, vocang:bianchiniGiovanni .
+
+vocang:bewolhalla
+    a vocang:Parolangelo ;
+    skos:prefLabel "Bewolhalla"@it ;
+    skos:definition "Luogo ultraterreno in cui i vocabolieri vengono portati dopo la morte dopo il loro soggiorno in un biribì."@it ;
+    skos:example "Il bewolhalla sarà pieno di vocabolieri felici di aver vissuto la loro vita creando parolangelo!"@it;
+    schema:keywords "biribì, vocabolangelo, luogo, ultraterreno, morte";
+    dct:created "2023-10-10" ;
+    dct:creator vocang:omiccioliRiccardo .
