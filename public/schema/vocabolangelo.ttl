@@ -8234,5 +8234,13 @@ vocang:pizzle
     dct:created "2023-10-07" ;
     dct:creator vocang:filasetaAngelo .
 
-Pizzle
-Puzzle a forma o raffigurante una pizza
+vocang:incesiente
+    a vocang:Parolangelo ;
+    skos:prefLabel "Incesiente"@it ;
+    lexinfo:pronunciation "/in • ce • sièn • te/"@it ;
+    skos:definition "Incidente in cui è coinvolto del cesio e sono state intossicate e uccise persone."@it ;
+    skos:example "L'incidente di Goiânia è stato l'incesiente più grande dalla storia umana per ora."@it;
+    schema:keywords "cesio, incidente, intossicazione, morte";
+    skos:note "La parolangelo nasce proprio dopo aver appreso la storia dell'incidente di Goiânia e averci riso parecchio sopra." ;
+    dct:created "2023-10-07" ;
+    dct:creator vocang:filasetaAngelo .
