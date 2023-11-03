@@ -8264,3 +8264,15 @@ vocang:bewolhalla
     schema:keywords "biribì, vocabolangelo, luogo, ultraterreno, morte";
     dct:created "2023-10-10" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:incediente
+    a vocang:Parolangelo ;
+    skos:prefLabel "Incediente"@it ;
+    lexinfo:pronunciation "/in • ce • dièn • te/"@it ;
+    skos:definition "Incidente in cui è coinvolto del fuoco e in cui delle persone sono morte o rimaste intossicate."@it ;
+    skos:example "Per poco Lorenzo non ha causato un incediente lasciando il gas acceso in cucina!"@it;
+    schema:keywords "fuoco, incidente, intossicazione, morte";
+    skos:note "La parolangelo nasce dopo aver letto la definizone di incesiente." ;
+    dct:created "2023-10-07" ;
+    dct:creator vocang:orlandoNicola .
+    
