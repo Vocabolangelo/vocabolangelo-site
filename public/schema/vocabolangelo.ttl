@@ -8223,3 +8223,16 @@ vocang:spalmello
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/spalmello.jpg" ;
     dct:created "2023-10-06" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:pizzle
+    a vocang:Parolangelo ;
+    skos:prefLabel "Pizzle"@it ;
+    skos:definition "Puzzle a forma o raffigurante una pizza."@it ;
+    skos:example "Ho comprato un pizzle. È molto difficile da completare, ma sarà meraviglioso guardarlo una volta appeso!"@it;
+    schema:keywords "puzzle, pizza";
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/pizzle.jpg" ;
+    dct:created "2023-10-07" ;
+    dct:creator vocang:filasetaAngelo .
+
+Pizzle
+Puzzle a forma o raffigurante una pizza
