@@ -8244,3 +8244,13 @@ vocang:incesiente
     skos:note "La parolangelo nasce proprio dopo aver appreso la storia dell'incidente di Goiânia e averci riso parecchio sopra." ;
     dct:created "2023-10-07" ;
     dct:creator vocang:filasetaAngelo .
+    
+vocang:amoremicizia
+    a vocang:Parolangelo ;
+    skos:prefLabel "Amoremicizia"@it ;
+    lexinfo:pronunciation "/a • mo • re • mi • cì • zia/"@it ;
+    skos:definition "Tipo di rapporto in cui si tratta il partner come un migliore amico ed in modo poco sdolcinato."@it ;
+    skos:example "Io e la mia ragazza abbiamo un rapporto di amoremicizia. Non ci diciamo mai \"ti amo\" e non ci facciamo mai coccole, ma ci vogliamo bene!"@it;
+    schema:keywords "amore, amicizia, rapporto, partner, migliore amico, sdolcinato";
+    dct:created "2023-09-19" ;
+    dct:creator vocang:nardiniArianna, vocang:minoccheriAlessandra, vocang:bianchiniGiovanni .
