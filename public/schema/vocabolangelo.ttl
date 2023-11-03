@@ -8165,7 +8165,7 @@ vocang:ostaggiante
     a vocang:Parolangelo ;
     skos:prefLabel "Ostaggiante"@it ;
     lexinfo:pronunciation "/os • tag • giàn • te/"@it ;
-    skos:definition "Individuo che detiene degli ostaggi, solitamente un rapinatore."@it ;
+    skos:definition "Soggetto che trattiene individui in qualità di ostaggi mediante il ricorso al rapimento, ma si distingue per il fatto di gestire la situazione in modo tale da garantire il benessere degli ostaggi al punto da rendere questi ultimi soddisfatti della propria condizione di prigionia."@it ;
     skos:example "Quell'osteggiante era davvero carino e simpatico, speravo che mio marito non pagasse il riscatto..."@it;
     schema:keywords "ostaggio, persona, rapinatore, riscatto";
     dct:created "2023-10-02" ;
