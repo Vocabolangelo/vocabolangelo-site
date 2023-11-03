@@ -8165,7 +8165,7 @@ vocang:ostaggiante
     a vocang:Parolangelo ;
     skos:prefLabel "Ostaggiante"@it ;
     lexinfo:pronunciation "/os • tag • giàn • te/"@it ;
-    skos:definition "Individuo che detiene degli ostaggi, solitamente un rapinatore."@it ;
+    skos:definition "Soggetto che trattiene individui in qualità di ostaggi mediante il ricorso al rapimento, ma si distingue per il fatto di gestire la situazione in modo tale da garantire il benessere degli ostaggi al punto da rendere questi ultimi soddisfatti della propria condizione di prigionia."@it ;
     skos:example "Quell'osteggiante era davvero carino e simpatico, speravo che mio marito non pagasse il riscatto..."@it;
     schema:keywords "ostaggio, persona, rapinatore, riscatto";
     dct:created "2023-10-02" ;
@@ -8192,3 +8192,87 @@ vocang:ortaggiatore
     dct:created "2023-10-06" ;
     skos:related vocang:ostaggiante ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:tettoacquistatore
+    a vocang:Parolangelo ;
+    skos:prefLabel "Tettoacquistatore"@it ;
+    lexinfo:pronunciation "/tet • to • ac • qui • sta • tó • re/"@it ;
+    skos:definition "Barbone che occupa una casa in vendita senza comprarla, ponendo effettivamente fine alla sua condizione precaria."@it ;
+    skos:example "I tettoacquisitori hanno preso possesso di una casa in vendita senza autorizzazione, mettendo in evidenza la necessità di soluzioni per le persone senza tetto nella comunità."@it, "I Tettoacquisitori si sono stabiliti nella casa in vendita come se fosse una loro personale 'operazione segreta di acquisizione di tetti', sorprendendo tutti con la loro audacia."@it;
+    schema:keywords "casa, tetto, acquistare, comprare, barbone, occupare, vendita";
+    dct:created "2023-10-06" ;
+    dct:creator vocang:bragariAlexandru, vocang:battaglinoNicole, vocang:chatGPT .
+
+vocang:vegetombie
+    a vocang:Parolangelo ;
+    skos:prefLabel "Vegetombie"@it ;
+    skos:definition "Zombie che si nutre solo di vegetali."@it ;
+    skos:example "Ho visto un vegetombie che stava mangiando un'insalata. Non mi ha fatto paura!"@it;
+    schema:keywords "vegetale, vegetariano, vegetali, zombie, mangiare, insalata";
+    skos:related vocang:bestiangelo ;
+    dct:created "2023-10-06" ;
+    dct:creator vocang:ribaudoSofia .
+
+vocang:spalmello
+    a vocang:Parolangelo ;
+    skos:prefLabel "Spalmello"@it ;
+    lexinfo:pronunciation "/spal • mèl • lo/"@it ;
+    skos:definition "Coltello dalla punta larga ed arrotondata indicato per spalmare creme, marmellate, spalmaggio, etc."@it ;
+    skos:example "Ho comprato uno spalmello. È molto comodo per spalmare la nocciolata!"@it;
+    schema:keywords "coltello, punta, larga, arrotondata, spalmare, crema, marmellata, spalmaggio";
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/spalmello.jpg" ;
+    dct:created "2023-10-06" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:pizzle
+    a vocang:Parolangelo ;
+    skos:prefLabel "Pizzle"@it ;
+    skos:definition "Puzzle a forma o raffigurante una pizza."@it ;
+    skos:example "Ho comprato un pizzle. È molto difficile da completare, ma sarà meraviglioso guardarlo una volta appeso!"@it;
+    schema:keywords "puzzle, pizza";
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/pizzle.jpg" ;
+    dct:created "2023-10-07" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:incesiente
+    a vocang:Parolangelo ;
+    skos:prefLabel "Incesiente"@it ;
+    lexinfo:pronunciation "/in • ce • sièn • te/"@it ;
+    skos:definition "Incidente in cui è coinvolto del cesio e sono state intossicate e uccise persone."@it ;
+    skos:example "L'incidente di Goiânia è stato l'incesiente più grande dalla storia umana per ora."@it;
+    schema:keywords "cesio, incidente, intossicazione, morte";
+    skos:note "La parolangelo nasce proprio dopo aver appreso la storia dell'incidente di Goiânia e averci riso parecchio sopra." ;
+    dct:created "2023-10-07" ;
+    dct:creator vocang:filasetaAngelo .
+    
+vocang:amoremicizia
+    a vocang:Parolangelo ;
+    skos:prefLabel "Amoremicizia"@it ;
+    lexinfo:pronunciation "/a • mo • re • mi • cì • zia/"@it ;
+    skos:definition "Tipo di rapporto in cui si tratta il partner come un migliore amico ed in modo poco sdolcinato."@it ;
+    skos:example "Io e la mia ragazza abbiamo un rapporto di amoremicizia. Non ci diciamo mai \"ti amo\" e non ci facciamo mai coccole, ma ci vogliamo bene!"@it;
+    schema:keywords "amore, amicizia, rapporto, partner, migliore amico, sdolcinato";
+    skos:related vocang:micizia ;
+    dct:created "2023-09-19" ;
+    dct:creator vocang:nardiniArianna, vocang:minoccheriAlessandra, vocang:bianchiniGiovanni .
+
+vocang:bewolhalla
+    a vocang:Parolangelo ;
+    skos:prefLabel "Bewolhalla"@it ;
+    skos:definition "Luogo ultraterreno in cui i vocabolieri vengono portati dopo la morte dopo il loro soggiorno in un biribì."@it ;
+    skos:example "Il bewolhalla sarà pieno di vocabolieri felici di aver vissuto la loro vita creando parolangelo!"@it;
+    schema:keywords "biribì, vocabolangelo, luogo, ultraterreno, morte";
+    dct:created "2023-10-10" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:incediente
+    a vocang:Parolangelo ;
+    skos:prefLabel "Incediente"@it ;
+    lexinfo:pronunciation "/in • ce • dièn • te/"@it ;
+    skos:definition "Incidente in cui è coinvolto del fuoco e in cui delle persone sono morte o rimaste intossicate."@it ;
+    skos:example "Per poco Lorenzo non ha causato un incediente lasciando il gas acceso in cucina!"@it;
+    schema:keywords "fuoco, incidente, intossicazione, morte";
+    skos:note "La parolangelo nasce dopo aver letto la definizone di incesiente." ;
+    dct:created "2023-10-07" ;
+    dct:creator vocang:orlandoNicola .
+    
