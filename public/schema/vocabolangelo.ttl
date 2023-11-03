@@ -8212,3 +8212,14 @@ vocang:vegetombie
     skos:related vocang:bestiangelo ;
     dct:created "2023-10-06" ;
     dct:creator vocang:ribaudoSofia .
+
+vocang:spalmello
+    a vocang:Parolangelo ;
+    skos:prefLabel "Spalmello"@it ;
+    lexinfo:pronunciation "/spal • mèl • lo/"@it ;
+    skos:definition "Coltello dalla punta larga ed arrotondata indicato per spalmare creme, marmellate, spalmaggio, etc."@it ;
+    skos:example "Ho comprato uno spalmello. È molto comodo per spalmare la nocciolata!"@it;
+    schema:keywords "coltello, punta, larga, arrotondata, spalmare, crema, marmellata, spalmaggio";
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/spalmello.jpg" ;
+    dct:created "2023-10-06" ;
+    dct:creator vocang:omiccioliRiccardo .
