@@ -8202,3 +8202,13 @@ vocang:tettoacquistatore
     schema:keywords "casa, tetto, acquistare, comprare, barbone, occupare, vendita";
     dct:created "2023-10-06" ;
     dct:creator vocang:bragariAlexandru, vocang:battaglinoNicole, vocang:chatGPT .
+
+vocang:vegetombie
+    a vocang:Parolangelo ;
+    skos:prefLabel "Vegetombie"@it ;
+    skos:definition "Zombie che si nutre solo di vegetali."@it ;
+    skos:example "Ho visto un vegetombie che stava mangiando un'insalata. Non mi ha fatto paura!"@it;
+    schema:keywords "vegetale, vegetariano, vegetali, zombie, mangiare, insalata";
+    skos:related vocang:bestiangelo ;
+    dct:created "2023-10-06" ;
+    dct:creator vocang:ribaudoSofia .
