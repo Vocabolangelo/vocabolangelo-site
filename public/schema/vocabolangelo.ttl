@@ -8296,3 +8296,14 @@ vocang:bustoast
     dct:created "2023-10-14" ;
     skos:related vocang:tostapasta ;
     dct:creator vocang:pertosaLorenzo, vocang:nardiniArianna .
+
+vocang:amuccolante
+    a vocang:Parolangelo ;
+    skos:prefLabel "Amuccolante"@it ;
+    lexinfo:pronunciation "/a • muc • co • làn • te/"@it ;
+    skos:definition "Occhio di mucca nel buio che risulta molto luminoso a causa del riflesso causato da una fonte di luce."@it ;
+    skos:example "Ho visto due amuccolanti nella notte. Mi hanno spaventato a morte, soprattutto dopo quel muggito inquietante!"@it;
+    schema:keywords "occhio, mucca, vacca, toro, buio, luminoso, riflesso, luce";
+    skos:related vocang:amiagolante ;
+    dct:created "2023-10-14" ;
+    dct:creator vocang:savoGiorgia, vocang:nardiniArianna .
