@@ -8339,3 +8339,14 @@ vocang:illegalese
     schema:keywords "scrittura, contratto, documento, legale, serio, incompetenza";
     dct:created "2023-10-18" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:trabocchino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Trabocchino"@it ;
+    lexinfo:pronunciation "/tra • boc • chì • no/"@it ;
+    skos:definition "Sesso orale effettuato a tradimento, senza il consenso di una delle due parti."@it ;
+    skos:example "Ho fatto un trabocchino al mio migliore. Inizialmente non voleva, dato che ha una ragazza molto gelosa, ma alla fine gli è piaciuto tanto e la ha lasciata!"@it;
+    schema:keywords "sesso, orale, tradimento, consenso, bocchin, pompino";
+    skos:related vocang:pompinazione, vocang:pompincubo ;
+    dct:created "2023-10-20" ;
+    dct:creator vocang:pertosaLorenzo .
