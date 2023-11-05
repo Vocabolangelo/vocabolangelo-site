@@ -8318,3 +8318,14 @@ vocang:ibizzarro
     dct:created "2023-10-15" ;
     skos:related vocang:biribiza ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:ipotestima
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ipotestima"@it ;
+    lexinfo:pronunciation "/i • po • te • stì • ma/"@it ;
+    skos:definition "Ipotesi che stima una determianta situazione con poche informazioni a disposizione."@it ;
+    skos:example "Sapevo che il mio treno era leggermente in ritardo ma non sapevo di quanto. Facendo una veloce ipotestima sono riuscito a calcolare accuratamente il tempo ideale per partire di casa e riuscire a prendere il treno senza aspettare in stazione."@it;
+    skos:note "Il vocaboliere ha voluto inventare la traduzione italiana della parola guesstimation."@it ;
+    schema:keywords "ipotesi, stimare, situazione, informazioni";
+    dct:created "2023-10-17" ;
+    dct:creator vocang:omiccioliRiccardo .
