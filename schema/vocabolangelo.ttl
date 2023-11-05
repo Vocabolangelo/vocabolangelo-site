@@ -8265,14 +8265,109 @@ vocang:bewolhalla
     dct:created "2023-10-10" ;
     dct:creator vocang:omiccioliRiccardo .
 
-vocang:incediente
+vocang:incendiente
     a vocang:Parolangelo ;
-    skos:prefLabel "Incediente"@it ;
-    lexinfo:pronunciation "/in • ce • dièn • te/"@it ;
+    skos:prefLabel "Incendiente"@it ;
+    lexinfo:pronunciation "/in • cen • dièn • te/"@it ;
     skos:definition "Incidente in cui è coinvolto del fuoco e in cui delle persone sono morte o rimaste intossicate."@it ;
-    skos:example "Per poco Lorenzo non ha causato un incediente lasciando il gas acceso in cucina!"@it;
+    skos:example "Per poco Lorenzo non ha causato un incendiente lasciando il gas acceso in cucina!"@it;
     schema:keywords "fuoco, incidente, intossicazione, morte";
     skos:note "La parolangelo nasce dopo aver letto la definizone di incesiente." ;
+    skos:related vocang:incesiente ;
     dct:created "2023-10-07" ;
     dct:creator vocang:orlandoNicola .
-    
+
+vocang:tostapasta
+    a vocang:Parolangelo ;
+    skos:prefLabel "Tostapasta"@it ;
+    lexinfo:pronunciation "/tos • ta • pà • sta/"@it ;
+    skos:definition "Tostapane utilizzato per tostare la pasta."@it, "Forno utilizzato per fare la pasta al forno."@it ;
+    skos:example "Ho comprato un tostapasta. Ora posso fare la pasta al forno!"@it;
+    schema:keywords "tostapane, pasta, forno, tostare";
+    dct:created "2023-10-14" ;
+    dct:creator vocang:pertosaLorenzo .
+ 
+vocang:bustoast
+    a vocang:Parolangelo ;
+    skos:prefLabel "Bustoast"@it ;
+    skos:definition "Bustina di carta solitamente utilizzata per cuocere toast in un tostapane col fine di non sporcarlo."@it ;
+    skos:example "Ho comprato delle bustoast. Ora posso fare i toast senza sporcare il tostapane!"@it;
+    schema:keywords "tostapane, bustina, tostare, cibo, toast";
+    dct:created "2023-10-14" ;
+    skos:related vocang:tostapasta ;
+    dct:creator vocang:pertosaLorenzo, vocang:nardiniArianna .
+
+vocang:amuccolante
+    a vocang:Parolangelo ;
+    skos:prefLabel "Amuccolante"@it ;
+    lexinfo:pronunciation "/a • muc • co • làn • te/"@it ;
+    skos:definition "Occhio di mucca nel buio che risulta molto luminoso a causa del riflesso causato da una fonte di luce."@it ;
+    skos:example "Ho visto due amuccolanti nella notte. Mi hanno spaventato a morte, soprattutto dopo quel muggito inquietante!"@it;
+    schema:keywords "occhio, mucca, vacca, toro, buio, luminoso, riflesso, luce";
+    skos:related vocang:amiagolante ;
+    dct:created "2023-10-14" ;
+    dct:creator vocang:savoGiorgia, vocang:nardiniArianna .
+
+vocang:ibizzarro
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ibizzarro"@it ;
+    lexinfo:pronunciation "/i • biz • zàr • ro/"@it ;
+    skos:definition "Abitante di Ibiza bizzarro."@it ;
+    skos:example "Ho visto un ibizzarro. Era vestito con una tutina da coniglio e ballava con un cappello a forma di pene!"@it;
+    schema:keywords "ibiza, bizzarro, abitante, persona";
+    dct:created "2023-10-15" ;
+    skos:related vocang:biribiza ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:ipotestima
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ipotestima"@it ;
+    lexinfo:pronunciation "/i • po • te • stì • ma/"@it ;
+    skos:definition "Ipotesi che stima una determianta situazione con poche informazioni a disposizione."@it ;
+    skos:example "Sapevo che il mio treno era leggermente in ritardo ma non sapevo di quanto. Facendo una veloce ipotestima sono riuscito a calcolare accuratamente il tempo ideale per partire di casa e riuscire a prendere il treno senza aspettare in stazione."@it;
+    skos:note "Il vocaboliere ha voluto inventare la traduzione italiana della parola guesstimation."@it ;
+    schema:keywords "ipotesi, stimare, situazione, informazioni";
+    dct:created "2023-10-17" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:illegalese
+    a vocang:Parolangelo ;
+    skos:prefLabel "Illegalese"@it ;
+    lexinfo:pronunciation "/il • le • ga • lé • se/"@it ;
+    skos:definition "Stile di scrittura estremamente ed inutilmente complesso in cui sono scritti contratti o documenti con valenza legale al fine di farli sembrare più seri e mascherare l'incompetenza di chi li ha scritti."@it ;
+    skos:example "Ho letto un contratto scritto in illegalese. Inizialmente non ci avevo capito nulla, e dato credevo di essere solo ignorante ho chiesto ad un mio amico avvocato. Ha detto che non ha mai letto nulla del genere in vita sua!"@it;
+    schema:keywords "scrittura, contratto, documento, legale, serio, incompetenza";
+    dct:created "2023-10-18" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:trabocchino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Trabocchino"@it ;
+    lexinfo:pronunciation "/tra • boc • chì • no/"@it ;
+    skos:definition "Sesso orale effettuato a tradimento, senza il consenso di una delle due parti."@it ;
+    skos:example "Ho fatto un trabocchino al mio migliore. Inizialmente non voleva, dato che ha una ragazza molto gelosa, ma alla fine gli è piaciuto tanto e la ha lasciata!"@it;
+    schema:keywords "sesso, orale, tradimento, consenso, bocchin, pompino";
+    skos:related vocang:pompinazione, vocang:pompincubo ;
+    dct:created "2023-10-20" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:rotatroietta
+    a vocang:Parolangelo ;
+    skos:prefLabel "Rotatroietta"@it ;
+    lexinfo:pronunciation "/ro • ta • tro • ièt • ta/"@it ;
+    skos:definition "Rotatoria di difficile comprensione, gestita male, o nella quale per via della viabilità si va a creare sempre traffico."@it ;
+    skos:example "Quell'incrocio è talmente infame che anche se ci facessero una rotonda sarebbe nel migliore dei casi una rotatroietta."@it;
+    skos:related vocang:rotatroia, vocang:incrociatoria, vocang:cortatoria, vocang:rotatatoria ;
+    schema:keywords "rotatoria, viabilità, traffico, difficile, male";
+    dct:created "2023-10-19" ;
+    dct:creator vocang:orlandoNicola .
+
+vocang:autunnò
+    a vocang:Parolangelo ;
+    skos:prefLabel "Autunnò"@it ;
+    lexinfo:pronunciation "/au • tun • nò/"@it ;
+    skos:definition "Autunno particolarmente caldo."@it ;
+    skos:example "Sto morendo di caldo, che autunnò di merda quest'anno." @it;
+    schema:keywords "autunno, caldo, estate, primavera, temperatura";
+    dct:created "2023-10-20" ;
+    dct:creator vocang:orlandoNicola .
