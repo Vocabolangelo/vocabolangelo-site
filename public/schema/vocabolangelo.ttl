@@ -8276,4 +8276,14 @@ vocang:incendiente
     skos:related vocang:incesiente ;
     dct:created "2023-10-07" ;
     dct:creator vocang:orlandoNicola .
-    
+
+vocang:tostapasta
+    a vocang:Parolangelo ;
+    skos:prefLabel "Tostapasta"@it ;
+    lexinfo:pronunciation "/tos • ta • pà • sta/"@it ;
+    skos:definition "Tostapane utilizzato per tostare la pasta."@it, "Forno utilizzato per fare la pasta al forno."@it ;
+    skos:example "Ho comprato un tostapasta. Ora posso fare la pasta al forno!"@it;
+    schema:keywords "tostapane, pasta, forno, tostare";
+    dct:created "2023-14-07" ;
+    dct:creator vocang:pertosaLorenzo .
+ 
