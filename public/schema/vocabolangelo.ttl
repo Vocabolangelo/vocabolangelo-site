@@ -8307,3 +8307,14 @@ vocang:amuccolante
     skos:related vocang:amiagolante ;
     dct:created "2023-10-14" ;
     dct:creator vocang:savoGiorgia, vocang:nardiniArianna .
+
+vocang:ibizzarro
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ibizzarro"@it ;
+    lexinfo:pronunciation "/i • biz • zàr • ro/"@it ;
+    skos:definition "Abitante di Ibiza bizzarro."@it ;
+    skos:example "Ho visto un ibizzarro. Era vestito con una tutina da coniglio e ballava con un cappello a forma di pene!"@it;
+    schema:keywords "ibiza, bizzarro, abitante, persona";
+    dct:created "2023-10-15" ;
+    skos:related vocang:biribiza ;
+    dct:creator vocang:pertosaLorenzo .
