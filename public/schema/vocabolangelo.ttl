@@ -8329,3 +8329,13 @@ vocang:ipotestima
     schema:keywords "ipotesi, stimare, situazione, informazioni";
     dct:created "2023-10-17" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:illegalese
+    a vocang:Parolangelo ;
+    skos:prefLabel "Illegalese"@it ;
+    lexinfo:pronunciation "/il • le • ga • lé • se/"@it ;
+    skos:definition "Stile di scrittura estremamente ed inutilmente complesso in cui sono scritti contratti o documenti con valenza legale al fine di farli sembrare più seri e mascherare l'incompetenza di chi li ha scritti."@it ;
+    skos:example "Ho letto un contratto scritto in illegalese. Inizialmente non ci avevo capito nulla, e dato credevo di essere solo ignorante ho chiesto ad un mio amico avvocato. Ha detto che non ha mai letto nulla del genere in vita sua!"@it;
+    schema:keywords "scrittura, contratto, documento, legale, serio, incompetenza";
+    dct:created "2023-10-18" ;
+    dct:creator vocang:filasetaAngelo .
