@@ -8284,6 +8284,15 @@ vocang:tostapasta
     skos:definition "Tostapane utilizzato per tostare la pasta."@it, "Forno utilizzato per fare la pasta al forno."@it ;
     skos:example "Ho comprato un tostapasta. Ora posso fare la pasta al forno!"@it;
     schema:keywords "tostapane, pasta, forno, tostare";
-    dct:created "2023-14-07" ;
+    dct:created "2023-10-14" ;
     dct:creator vocang:pertosaLorenzo .
  
+vocang:bustoast
+    a vocang:Parolangelo ;
+    skos:prefLabel "Bustoast"@it ;
+    skos:definition "Bustina di carta solitamente utilizzata per cuocere toast in un tostapane col fine di non sporcarlo."@it ;
+    skos:example "Ho comprato delle bustoast. Ora posso fare i toast senza sporcare il tostapane!"@it;
+    schema:keywords "tostapane, bustina, tostare, cibo, toast";
+    dct:created "2023-10-14" ;
+    skos:related vocang:tostapasta ;
+    dct:creator vocang:pertosaLorenzo, vocang:nardiniArianna .
