@@ -8350,3 +8350,14 @@ vocang:trabocchino
     skos:related vocang:pompinazione, vocang:pompincubo ;
     dct:created "2023-10-20" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:rotatroietta
+    a vocang:Parolangelo ;
+    skos:prefLabel "Rotatroietta"@it ;
+    lexinfo:pronunciation "/ro • ta • tro • ièt • ta/"@it ;
+    skos:definition "Rotatoria di difficile comprensione, gestita male, o nella quale per via della viabilità si va a creare sempre traffico."@it ;
+    skos:example "Quell'incrocio è talmente infame che anche se ci facessero una rotonda sarebbe nel migliore dei casi una rotatroietta."@it;
+    skos:related vocang:rotatroia, vocang:incrociatoria, vocang:cortatoria, vocang:rotatatoria ;
+    schema:keywords "rotatoria, viabilità, traffico, difficile, male";
+    dct:created "2023-10-19" ;
+    dct:creator vocang:orlandoNicola .
