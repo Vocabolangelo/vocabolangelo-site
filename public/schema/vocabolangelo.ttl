@@ -8370,4 +8370,4 @@ vocang:autunnò
     skos:example "Sto morendo di caldo, che autunnò di merda quest'anno." @it;
     schema:keywords "autunno, caldo, estate, primavera, temperatura";
     dct:created "2023-10-20" ;
-    dct:creator vocang:orlandoNicola .
+    dct:creator vocang:orlandoNicola, vocang:omiccioliRiccardo .
