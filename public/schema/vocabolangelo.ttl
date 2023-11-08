@@ -8486,3 +8486,17 @@ vocang:finestrezza
     skos:note "In realtà un possibile utilizzo per cui la parolangelo è stata pensata è per insultare e litigare con la gente che si trova davanti all'auto."@it ;
     dct:created "2023-10-22" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:edificioratoria
+    a vocang:Parolangelo ;
+    skos:prefLabel "Edificioratoria"@it ;
+    lexinfo:pronunciation "/e • di • fi • cio • ra • tò • ria/"@it ;
+    skos:definition "Rotatoria al cui interno è stato posizionato un edificio."@it ;
+    skos:example "Ho visto una edificioratoria. Era molto strana e pericolosa, perché per raggiungere la chiesa che si trovava al centro rischiavi di morire sotto qualche auto!"@it;
+    schema:keywords "edificio, rotatoria";
+    dct:created "2023-10-22" ;
+    dct:creator vocang:orlandoNicola .
+edificioratoria
+
+ rotatoria al cui interno è stato posizionato un edificio
+Miccio e Nicole
