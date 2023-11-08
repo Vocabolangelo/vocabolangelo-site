@@ -8425,3 +8425,13 @@ vocang:biribereal
     schema:keywords "biribì, bereal, morte, foto";
     dct:created "2023-10-21" ;
     dct:creator vocang:nardiniArianna .
+
+vocang:aggrissione
+    a vocang:Parolangelo ;
+    skos:prefLabel "Aggrissione"@it ;
+    lexinfo:pronunciation "/ag • gris • sió • ne/"@it ;
+    skos:definition "Aggressione portata a termine da una persona utilizzando un grissino."@it, "Aggressione portata a termine da una persona utilizzando un oggetto che non causa danni e che ha una pericolosità pari a quella di un grissino."@it ;
+    skos:example "Lorenzo mi ha fatto un'aggrissione alle spalle sorprendendomi e colpendomi con una spada di gommapiuma!"@it, "Pensavo mi stessero rapinando puntandomi una pistola alla schiena, e invece quando ho visto il malvivente fuggire con i miei soldi ho visto che non era che un grissino!"@it ;
+    schema:keywords "aggressione, grissino, colpire, sorprendere, danni, violenza";
+    dct:created "2023-10-21" ;
+    dct:creator vocang:omiccioliRiccardo ;
