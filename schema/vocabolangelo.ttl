@@ -8370,4 +8370,133 @@ vocang:autunnò
     skos:example "Sto morendo di caldo, che autunnò di merda quest'anno." @it;
     schema:keywords "autunno, caldo, estate, primavera, temperatura";
     dct:created "2023-10-20" ;
+    dct:creator vocang:orlandoNicola, vocang:omiccioliRiccardo .
+
+vocang:biridì
+    a vocang:Parolangelo ;
+    skos:prefLabel "Biridì"@it ;
+    lexinfo:pronunciation "/bi • ri • dì/"@it ;
+    skos:definition "Biribì in cui si può soggiornare un solo giorno."@it ;
+    skos:example "Sono stato in un biridì. È stato bellissimo, ma purtroppo è durato solo un giorno. Ora sono in paradiso!"@it;
+    skos:related vocang:biribì ;
+    schema:keywords "biribì, giorno, durata, breve";
+    dct:created "2023-10-21" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:orlandoNicola .
+
+vocang:biribrillo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Biribrillo"@it ;
+    lexinfo:pronunciation "/bi • ri • brìl • lo/"@it ;
+    skos:definition "Biribì in cui le ceneri dei visitatori passati vengono utilizza al fine di creare diamanti luccicanti."@it ;
+    skos:example "Nonno è morto in un biribrillo perché non voleva che le sue ceneri finissero in un'urna. Ora verranno utilizzate per creare un diamante stupendo!"@it;
+    skos:related vocang:biribì ;
+    schema:keywords "biribì, diamante, carbonio, carbone, cenere";
+    dct:created "2023-10-21" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:orlandoNicola .
+
+vocang:cremaribì
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cremaribì"@it ;
+    lexinfo:pronunciation "/cre • ma • ri • bì/"@it ;
+    skos:definition "Ultimo dolce che si mangia prima che la morte sopraggiunga durante il soggiorno in un biribì."@it ;
+    skos:example "Ho mangiato un cremaribì. Era buonissimo, ma ora sono morto!"@it;
+    skos:related vocang:biribì ;
+    schema:keywords "biribì, crema, dolce, morte";
+    dct:created "2023-10-21" ;
+    dct:creator vocang:battaglinoNicole, vocang:orlandoNicola .
+
+vocang:contaribì
+    a vocang:Parolangelo ;
+    skos:prefLabel "Contaribì"@it ;
+    lexinfo:pronunciation "/con • ta • ri • bì/"@it ;
+    skos:definition "Contadino che utilizza le ceneri dei visitatori di un biribì come fertilizzante."@it ;
+    skos:example "Ho incontrato un contaribì. Mi ha detto che il suo raccolto è molto buono quest'anno! Mi chiedo quale sia il suo segreto..."@it;
+    skos:related vocang:biribì, vocang:contanegrino ;
+    schema:keywords "biribì, contadino, cenere, fertilizzante";
+    dct:created "2023-10-21" ;
     dct:creator vocang:orlandoNicola .
+
+vocang:biribereal
+    a vocang:Parolangelo ;
+    skos:prefLabel "Biribereal"@it ;
+    skos:definition "Bereal fatto dentro un biribì."@it ;
+    skos:example "Ieri ho fatto un biribereal con nonno Franco. Oggi è arrivata la notifica e non ho potuto farne un altro visto che durante la notte se n'è andato..."@it;
+    skos:related vocang:biribì, vocang:birilleal, vocang:bereallo ;
+    schema:keywords "biribì, bereal, morte, foto";
+    dct:created "2023-10-21" ;
+    dct:creator vocang:nardiniArianna .
+
+vocang:aggrissione
+    a vocang:Parolangelo ;
+    skos:prefLabel "Aggrissione"@it ;
+    lexinfo:pronunciation "/ag • gris • sió • ne/"@it ;
+    skos:definition "Aggressione portata a termine da una persona utilizzando un grissino."@it, "Aggressione portata a termine da una persona utilizzando un oggetto che non causa danni e che ha una pericolosità pari a quella di un grissino."@it ;
+    skos:example "Lorenzo mi ha fatto un'aggrissione alle spalle sorprendendomi e colpendomi con una spada di gommapiuma!"@it, "Pensavo mi stessero rapinando puntandomi una pistola alla schiena, e invece quando ho visto il malvivente fuggire con i miei soldi ho visto che non era che un grissino!"@it ;
+    schema:keywords "aggressione, grissino, colpire, sorprendere, danni, violenza";
+    dct:created "2023-10-21" ;
+    dct:creator vocang:omiccioliRiccardo ;
+
+vocang:criminuette
+    a vocang:Parolangelo ;
+    skos:prefLabel "Criminuette"@it ;
+    skos:definition "Criminale francese che commette reati utilizzando prodotti di un panificio."@it ;
+    skos:example "Ho visto un criminuette rapinare una panetteria utilizzando un croissant alla fragola come arma! È stata una aggrissione di una certa portata!"@it;
+    schema:keywords "criminale, francia, francese, reato, panificio, croissant, baguette";
+    skos:related vocang:aggrissione, vocang:baguettile, vocang:manganuette ;
+    dct:created "2023-10-21" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:ombrudino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ombrudino"@it ;
+    lexinfo:pronunciation "/om • bru • dì • no/"@it ;
+    skos:definition "Foto in cui una persona nuda mette in mostra le sue forme fotografando la sua ombra."@it ;
+    skos:example "Ho visto un ombrudino. Era molto bello, ma non ho capito perché la persona che l'ha scattata non ha fatto direttamente una foto a se stessa..."@it;
+    schema:keywords "foto, persona, nudo, ombra, forma, sesso, hot, erotico";
+    dct:created "2023-10-21" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:cozioso
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cozioso"@it ;
+    lexinfo:pronunciation "/co • zió • so/"@it ;
+    skos:definition "Oggetto di uso comune ma abbastanza costoso e di qualità, solitamente utilizzato da chi è particolarmente facoltoso, il quale porta con sé un indicazione che esplicita che verrà offerta una ricompensa monetaria in caso di smarrimento e di conseguente ritorno."@it ;
+    skos:example "Oggi quel signore mi ha regalato un'agenda coziosa. Inizialmente non mi ero reso conto di quanto valesse, ma poi lo ho aperto e mi sono subito reso conto di avere qualcosa di valore!"@it;
+    schema:keywords "oggetto, uso, comune, costoso, qualità, ricco, ricompensa, smarrimento, ritorno";
+    dct:created "2023-10-21" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:amacheggiare
+    a vocang:Parolangelo ;
+    skos:prefLabel "Amacheggiare"@it ;
+    lexinfo:pronunciation "/a • ma • cheg • già • re/"@it ;
+    skos:definition "Dondolarsi su un'amaca o una sedia."@it ;
+    skos:example "Ho visto Sofia amacheggiare sulla nuova sedia a dondolo che ha comprato in quella nota azienda svedese. Era molto rilassata!"@it;
+    schema:keywords "amaca, sedia, dondolarsi, rilassante";
+    dct:created "2023-10-22" ;
+    dct:creator vocang:ribaudoSofia, vocang:omiccioliRiccardo .
+
+vocang:finestrezza
+    a vocang:Parolangelo ;
+    skos:prefLabel "Finestrezza"@it ;
+    lexinfo:pronunciation "/fi • nes • trèz • za/"@it ;
+    skos:definition "Parabrezza in grado di abbassarsi come un finestrino."@it ;
+    skos:example "Ho visto un'auto con un finestrezza. Era molto comodo per parlare con le persone che stavano fuori dall'auto!"@it;
+    schema:keywords "auto, parabrezza, finestrino, abbassare";
+    skos:note "In realtà un possibile utilizzo per cui la parolangelo è stata pensata è per insultare e litigare con la gente che si trova davanti all'auto."@it ;
+    dct:created "2023-10-22" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:edificioratoria
+    a vocang:Parolangelo ;
+    skos:prefLabel "Edificioratoria"@it ;
+    lexinfo:pronunciation "/e • di • fi • cio • ra • tò • ria/"@it ;
+    skos:definition "Rotatoria al cui interno è stato posizionato un edificio."@it ;
+    skos:example "Ho visto una edificioratoria. Era molto strana e pericolosa, perché per raggiungere la chiesa che si trovava al centro rischiavi di morire sotto qualche auto!"@it;
+    schema:keywords "edificio, rotatoria";
+    dct:created "2023-10-22" ;
+    dct:creator vocang:orlandoNicola .
+edificioratoria
+
+ rotatoria al cui interno è stato posizionato un edificio
+Miccio e Nicole
