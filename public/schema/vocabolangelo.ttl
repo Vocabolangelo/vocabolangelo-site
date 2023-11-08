@@ -8466,8 +8466,12 @@ vocang:cozioso
     dct:created "2023-10-21" ;
     dct:creator vocang:filasetaAngelo .
 
-Cozioso:
-Oggetto di uso comune ma abbastanza costoso e di qualità solitamente utilizzato da chi è ricco, che porta con sé un indicazione che esplicita come verrà offerta una ricompensa monetaria in caso di smarrimento e di conseguente ritorno
-
-
-Esempio: oggi quel signore mi ha regalato un'agenda. Inizialmente non mi ero reso conto fosse un X, ma poi lo ho aperto e mi sono subito reso conto di avere qualcosa di valore!
+vocang:amacheggiare
+    a vocang:Parolangelo ;
+    skos:prefLabel "Amacheggiare"@it ;
+    lexinfo:pronunciation "/a • ma • cheg • già • re/"@it ;
+    skos:definition "Dondolarsi su un'amaca o una sedia."@it ;
+    skos:example "Ho visto Sofia amacheggiare sulla nuova sedia a dondolo che ha comprato in quella nota azienda svedese. Era molto rilassata!"@it;
+    schema:keywords "amaca, sedia, dondolarsi, rilassante";
+    dct:created "2023-10-22" ;
+    dct:creator vocang:ribaudoSofia, vocang:omiccioliRiccardo .
