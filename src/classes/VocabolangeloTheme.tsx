@@ -29,4 +29,3 @@ export function valueToVocabolangeloTheme(value: number): VocabolangeloTheme | n
     }
     return null
 }
-

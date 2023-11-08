@@ -26,4 +26,3 @@ export const navbarItems = [
         link: CONTENUTI_ROUTE,
     },
 ]
-

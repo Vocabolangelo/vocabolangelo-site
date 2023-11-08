@@ -8,7 +8,7 @@ import {selectorTheme} from '../../../state/selectorTheme'
  * @param {StorySectionProps} props the component props.
  */
 export default function Banner(props: StorySectionProps) {
-    
+
     const theme: Theme = selectorTheme()
 
     const {style, optionalModifiers, imageUrl, imageAlt} = props

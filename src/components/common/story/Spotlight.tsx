@@ -9,7 +9,7 @@ import {selectorTheme} from '../../../state/selectorTheme'
  */
 export default function Spotlight(props: StorySectionProps) {
     const theme: Theme = selectorTheme()
-    
+
     const {style, optionalModifiers, imageUrl, imageAlt} = props
     const modifiers = optionalModifiers !== undefined ?
         optionalModifiers.concat('spotlight').concat(theme.toModifiers())

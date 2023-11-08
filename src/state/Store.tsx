@@ -16,7 +16,7 @@ function getLocalStorageThemeOrDefault(): VocabolangeloTheme {
 const initialState: State = {
     theme: getLocalStorageThemeOrDefault()
 }
-  
+
 export const themeSlice = createSlice({
     name: 'theme',
     initialState,
@@ -26,9 +26,9 @@ export const themeSlice = createSlice({
         }
     }
 })
-  
+
 export const {setTheme} = themeSlice.actions
-  
+
 export const store = configureStore({
     reducer: themeSlice.reducer,
 })

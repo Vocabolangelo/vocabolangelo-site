@@ -3,7 +3,7 @@ import StorySectionProps from '../../props/StorySectionProps'
 import {selectorTheme} from '../../../state/selectorTheme'
 
 export default function InnerWrapper(props: StorySectionProps) {
-    
+
     const theme: Theme = selectorTheme()
 
     const {style, optionalModifiers} = props

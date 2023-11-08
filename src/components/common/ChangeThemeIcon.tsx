@@ -20,7 +20,7 @@ export default function ChangeThemeIcon() {
         }
         return faQuestion
     }
- 
+
     return <FontAwesomeIcon
         onClick={() => setNewTheme()}
         style={{paddingRight: '1em', cursor: 'pointer' }}
