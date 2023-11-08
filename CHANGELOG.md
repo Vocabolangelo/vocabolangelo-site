@@ -1,5 +1,49 @@
 # Changelog
 
+## [6.15.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v6.14.0...v6.15.0) (2023-11-08)
+
+
+### Features
+
+* **parolangelo:** aggrissione ([dac725d](https://github.com/Vocabolangelo/vocabolangelo-site/commit/dac725d3130e4a34156298893bac75602ada447d))
+* **parolangelo:** amacheggiare ([81d9ba9](https://github.com/Vocabolangelo/vocabolangelo-site/commit/81d9ba9de0a0951078a4d2318603637ee08c5760))
+* **parolangelo:** amoremicizia ([d4678e7](https://github.com/Vocabolangelo/vocabolangelo-site/commit/d4678e7f0db00212a8706571613ff7e9508af288))
+* **parolangelo:** amuccolante ([c8c222f](https://github.com/Vocabolangelo/vocabolangelo-site/commit/c8c222f4284d30aa8f778b3892779830cc58dc5d))
+* **parolangelo:** autunnò ([63715a8](https://github.com/Vocabolangelo/vocabolangelo-site/commit/63715a853222808115a2fe27ba4b66d9d3731569))
+* **parolangelo:** bewolhalla ([299c02f](https://github.com/Vocabolangelo/vocabolangelo-site/commit/299c02f0c4b7be87d570757303da910c4980acf1))
+* **parolangelo:** biribereal ([fedc160](https://github.com/Vocabolangelo/vocabolangelo-site/commit/fedc1602ae2fb8375395053a9808f8ead54ca5bc))
+* **parolangelo:** biribrillo ([c4496c3](https://github.com/Vocabolangelo/vocabolangelo-site/commit/c4496c3389eb7774bdd4d15ab09efc4bfb04c36e))
+* **parolangelo:** biridì ([7cb99a5](https://github.com/Vocabolangelo/vocabolangelo-site/commit/7cb99a5af8f2ea06d8006ff11379697777f24e8d))
+* **parolangelo:** bustoast ([2ce04cf](https://github.com/Vocabolangelo/vocabolangelo-site/commit/2ce04cf658fdc9df55a4fb6e53110a6558911e2d))
+* **parolangelo:** contaribì ([aab1dfd](https://github.com/Vocabolangelo/vocabolangelo-site/commit/aab1dfdce557b30ed8480f8769d52e7e9882a6f6))
+* **parolangelo:** cozioso ([6561ade](https://github.com/Vocabolangelo/vocabolangelo-site/commit/6561ade714e6ee6762d6dddea4679c2d753648c0))
+* **parolangelo:** cremaribì ([aaaec89](https://github.com/Vocabolangelo/vocabolangelo-site/commit/aaaec8996adb5edd05e56762f932aaaa28d63c74))
+* **parolangelo:** criminuette ([53850ea](https://github.com/Vocabolangelo/vocabolangelo-site/commit/53850ea3e2bef62a965eef2c4559a75ebc282849))
+* **parolangelo:** edificioratoria ([ded28c8](https://github.com/Vocabolangelo/vocabolangelo-site/commit/ded28c844959393533e20a06ea2557a4ab5faa43))
+* **parolangelo:** finestrezza ([b700eb1](https://github.com/Vocabolangelo/vocabolangelo-site/commit/b700eb1c2da13467dbb65890e75acd44f4d35a32))
+* **parolangelo:** ibizzarro ([787c959](https://github.com/Vocabolangelo/vocabolangelo-site/commit/787c959b7b8bfd350fdb29b868c45f243ff1e847))
+* **parolangelo:** illegalese ([6a71222](https://github.com/Vocabolangelo/vocabolangelo-site/commit/6a712226ab103145a34b7d2a23acf58cbf7820b1))
+* **parolangelo:** incediente ([9bc6213](https://github.com/Vocabolangelo/vocabolangelo-site/commit/9bc62131b3a25a817850746a91c42239c8fbc2be))
+* **parolangelo:** incesiente ([1a689cf](https://github.com/Vocabolangelo/vocabolangelo-site/commit/1a689cf4e53023a9cc7c66be068730d7a0449c40))
+* **parolangelo:** ipotestima ([6abfc4f](https://github.com/Vocabolangelo/vocabolangelo-site/commit/6abfc4f9fb23568eb51538d03aae082396060e0b))
+* **parolangelo:** ombrudino ([1b3647d](https://github.com/Vocabolangelo/vocabolangelo-site/commit/1b3647d65fec963caa3187b284f9f20268a7e961))
+* **parolangelo:** pizzle ([36b0c3f](https://github.com/Vocabolangelo/vocabolangelo-site/commit/36b0c3f354c89cd3a89c8a6ed6285110a8dd55bd))
+* **parolangelo:** rotatroietta ([589d12d](https://github.com/Vocabolangelo/vocabolangelo-site/commit/589d12d8a997b2e3fdb4528c89ac6f24fd4e7e7b))
+* **parolangelo:** spalmello ([46f4fde](https://github.com/Vocabolangelo/vocabolangelo-site/commit/46f4fdec155b2abb23eb841ca35ce42f2a9985e9))
+* **parolangelo:** tettoacquistatore ([540b0e8](https://github.com/Vocabolangelo/vocabolangelo-site/commit/540b0e88b9f2737b47858e8c68ee7c1f253445eb))
+* **parolangelo:** tostapasta ([e7c9c34](https://github.com/Vocabolangelo/vocabolangelo-site/commit/e7c9c347e5924cb701ac952c048ae937c4dd7547))
+* **parolangelo:** trabocchino ([2ff48f6](https://github.com/Vocabolangelo/vocabolangelo-site/commit/2ff48f68500b8e317eb9bcbdef21a6b5d54829a6))
+* **parolangelo:** vegetombie ([8ee2cd1](https://github.com/Vocabolangelo/vocabolangelo-site/commit/8ee2cd1d19c314d0d636bc32ef22e03cf0b19f20))
+
+
+### Bug Fixes
+
+* **parolangelo:** add omiccioliRiccardo as autunnò creator ([6c40867](https://github.com/Vocabolangelo/vocabolangelo-site/commit/6c40867355f655901dc10323a2067fdae0376815))
+* **parolangelo:** incediente -&gt; incendiente ([91ed0d2](https://github.com/Vocabolangelo/vocabolangelo-site/commit/91ed0d21d01a23019cfb5e3a27358bc94f6e5f3d))
+* **parolangelo:** ostaggiante now has the correct definition ([9d23c92](https://github.com/Vocabolangelo/vocabolangelo-site/commit/9d23c9255546829858e6c7f273cfc0419bada519))
+* typo ([847138e](https://github.com/Vocabolangelo/vocabolangelo-site/commit/847138eb4662d3ae534904de8b61ae2ae77b015c))
+* typo ([fbc76dc](https://github.com/Vocabolangelo/vocabolangelo-site/commit/fbc76dc9150d122a4990630c6c7a802e8f9279c1))
+
 ## [6.14.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v6.13.0...v6.14.0) (2023-10-31)
 
 
