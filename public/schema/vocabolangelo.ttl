@@ -8382,3 +8382,17 @@ vocang:biridì
     schema:keywords "biribì, giorno, durata, breve";
     dct:created "2023-10-21" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:biribrillo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Biribrillo"@it ;
+    lexinfo:pronunciation "/bi • ri • brìl • lo/"@it ;
+    skos:definition "Biribì in cui le ceneri dei visitatori passati vengono utilizza al fine di creare diamanti luccicanti."@it ;
+    skos:example "Nonno è morto in un biribrillo perché non voleva che le sue ceneri finissero in un'urna. Ora verranno utilizzate per creare un diamante stupendo!"@it;
+    skos:related vocang:biribì ;
+    schema:keywords "biribì, giorno, durata, breve";
+    dct:created "2023-10-21" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:orlandoNicola .
+
+Biribrillo: biribì dove una volta morto usano il carbonio nelle tue ceneri per creare un diamante luccicante
+Miccio Nicole Orla
