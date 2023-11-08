@@ -8475,3 +8475,14 @@ vocang:amacheggiare
     schema:keywords "amaca, sedia, dondolarsi, rilassante";
     dct:created "2023-10-22" ;
     dct:creator vocang:ribaudoSofia, vocang:omiccioliRiccardo .
+
+vocang:finestrezza
+    a vocang:Parolangelo ;
+    skos:prefLabel "Finestrezza"@it ;
+    lexinfo:pronunciation "/fi • nes • trèz • za/"@it ;
+    skos:definition "Parabrezza in grado di abbassarsi come un finestrino."@it ;
+    skos:example "Ho visto un'auto con un finestrezza. Era molto comodo per parlare con le persone che stavano fuori dall'auto!"@it;
+    schema:keywords "auto, parabrezza, finestrino, abbassare";
+    skos:note "In realtà un possibile utilizzo per cui la parolangelo è stata pensata è per insultare e litigare con la gente che si trova davanti all'auto."@it ;
+    dct:created "2023-10-22" ;
+    dct:creator vocang:pertosaLorenzo .
