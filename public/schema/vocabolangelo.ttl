@@ -8381,7 +8381,7 @@ vocang:biridì
     skos:related vocang:biribì ;
     schema:keywords "biribì, giorno, durata, breve";
     dct:created "2023-10-21" ;
-    dct:creator vocang:omiccioliRiccardo .
+    dct:creator vocang:omiccioliRiccardo, vocang:orlandoNicola .
 
 vocang:biribrillo
     a vocang:Parolangelo ;
@@ -8404,3 +8404,14 @@ vocang:cremaribì
     schema:keywords "biribì, crema, dolce, morte";
     dct:created "2023-10-21" ;
     dct:creator vocang:battaglinoNicole, vocang:orlandoNicola .
+
+vocang:contaribì
+    a vocang:Parolangelo ;
+    skos:prefLabel "Contaribì"@it ;
+    lexinfo:pronunciation "/con • ta • ri • bì/"@it ;
+    skos:definition "Contadino che utilizza le ceneri dei visitatori di un biribì come fertilizzante."@it ;
+    skos:example "Ho incontrato un contaribì. Mi ha detto che il suo raccolto è molto buono quest'anno! Mi chiedo quale sia il suo segreto..."@it;
+    skos:related vocang:biribì, vocang:contanegrino ;
+    schema:keywords "biribì, contadino, cenere, fertilizzante";
+    dct:created "2023-10-21" ;
+    dct:creator vocang:orlandoNicola .
