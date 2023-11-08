@@ -8455,3 +8455,19 @@ vocang:ombrudino
     schema:keywords "foto, persona, nudo, ombra, forma, sesso, hot, erotico";
     dct:created "2023-10-21" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:cozioso
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cozioso"@it ;
+    lexinfo:pronunciation "/co • zió • so/"@it ;
+    skos:definition "Oggetto di uso comune ma abbastanza costoso e di qualità, solitamente utilizzato da chi è particolarmente facoltoso, il quale porta con sé un indicazione che esplicita che verrà offerta una ricompensa monetaria in caso di smarrimento e di conseguente ritorno."@it ;
+    skos:example "Oggi quel signore mi ha regalato un'agenda coziosa. Inizialmente non mi ero reso conto di quanto valesse, ma poi lo ho aperto e mi sono subito reso conto di avere qualcosa di valore!"@it;
+    schema:keywords "oggetto, uso, comune, costoso, qualità, ricco, ricompensa, smarrimento, ritorno";
+    dct:created "2023-10-21" ;
+    dct:creator vocang:filasetaAngelo .
+
+Cozioso:
+Oggetto di uso comune ma abbastanza costoso e di qualità solitamente utilizzato da chi è ricco, che porta con sé un indicazione che esplicita come verrà offerta una ricompensa monetaria in caso di smarrimento e di conseguente ritorno
+
+
+Esempio: oggi quel signore mi ha regalato un'agenda. Inizialmente non mi ero reso conto fosse un X, ma poi lo ho aperto e mi sono subito reso conto di avere qualcosa di valore!
