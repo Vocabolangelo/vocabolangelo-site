@@ -8371,3 +8371,14 @@ vocang:autunnò
     schema:keywords "autunno, caldo, estate, primavera, temperatura";
     dct:created "2023-10-20" ;
     dct:creator vocang:orlandoNicola, vocang:omiccioliRiccardo .
+
+vocang:biridì
+    a vocang:Parolangelo ;
+    skos:prefLabel "Biridì"@it ;
+    lexinfo:pronunciation "/bi • ri • dì/"@it ;
+    skos:definition "Biribì in cui si può soggiornare un solo giorno."@it ;
+    skos:example "Sono stato in un biridì. È stato bellissimo, ma purtroppo è durato solo un giorno. Ora sono in paradiso!"@it;
+    skos:related vocang:biribì ;
+    schema:keywords "biribì, giorno, durata, breve";
+    dct:created "2023-10-21" ;
+    dct:creator vocang:omiccioliRiccardo .
