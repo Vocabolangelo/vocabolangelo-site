@@ -8415,3 +8415,13 @@ vocang:contaribì
     schema:keywords "biribì, contadino, cenere, fertilizzante";
     dct:created "2023-10-21" ;
     dct:creator vocang:orlandoNicola .
+
+vocang:biribereal
+    a vocang:Parolangelo ;
+    skos:prefLabel "Biribereal"@it ;
+    skos:definition "Bereal fatto dentro un biribì."@it ;
+    skos:example "Ieri ho fatto un biribereal con nonno Franco. Oggi è arrivata la notifica e non ho potuto farne un altro visto che durante la notte se n'è andato..."@it;
+    skos:related vocang:biribì, vocang:birilleal, vocang:bereallo ;
+    schema:keywords "biribì, bereal, morte, foto";
+    dct:created "2023-10-21" ;
+    dct:creator vocang:nardiniArianna .
