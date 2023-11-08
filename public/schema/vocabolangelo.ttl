@@ -8445,4 +8445,13 @@ vocang:criminuette
     skos:related vocang:aggrissione, vocang:baguettile, vocang:manganuette ;
     dct:created "2023-10-21" ;
     dct:creator vocang:omiccioliRiccardo .
-    
+
+vocang:ombrudino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ombrudino"@it ;
+    lexinfo:pronunciation "/om • bru • dì • no/"@it ;
+    skos:definition "Foto in cui una persona nuda mette in mostra le sue forme fotografando la sua ombra."@it ;
+    skos:example "Ho visto un ombrudino. Era molto bello, ma non ho capito perché la persona che l'ha scattata non ha fatto direttamente una foto a se stessa..."@it;
+    schema:keywords "foto, persona, nudo, ombra, forma, sesso, hot, erotico";
+    dct:created "2023-10-21" ;
+    dct:creator vocang:filasetaAngelo .
