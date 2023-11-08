@@ -8435,3 +8435,14 @@ vocang:aggrissione
     schema:keywords "aggressione, grissino, colpire, sorprendere, danni, violenza";
     dct:created "2023-10-21" ;
     dct:creator vocang:omiccioliRiccardo ;
+
+vocang:criminuette
+    a vocang:Parolangelo ;
+    skos:prefLabel "Criminuette"@it ;
+    skos:definition "Criminale francese che commette reati utilizzando prodotti di un panificio."@it ;
+    skos:example "Ho visto un criminuette rapinare una panetteria utilizzando un croissant alla fragola come arma! È stata una aggrissione di una certa portata!"@it;
+    schema:keywords "criminale, francia, francese, reato, panificio, croissant, baguette";
+    skos:related vocang:aggrissione, vocang:baguettile, vocang:manganuette ;
+    dct:created "2023-10-21" ;
+    dct:creator vocang:omiccioliRiccardo .
+    
