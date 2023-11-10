@@ -8497,3 +8497,14 @@ vocang:edificioratoria
     schema:keywords "edificio, rotatoria";
     dct:created "2023-10-22" ;
     dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
+
+vocang:matematicazzi
+    a vocang:Parolangelo ;
+    skos:prefLabel "Matematicazzi"@it ;
+    lexinfo:pronunciation "/ma • te • ma • ti • càz • zi/"@it ;
+    skos:definition "Scienza basata sullo sfruttamento della conoscenza matematica e sulla psicologia per ingannare (e solitamente derubare) il prossimo."@it ;
+    skos:example "Mi hanno proposto l'altro giorno un problema di matematicazzi: tre uomini vanno al ristorante e spendono 30 euro. Pagano 10 euro a testa, ma il gestore gli fa 5 euro di sconto, così decidono di riprendersi un euro a testa e lasciano gli altri 2 di mancia al cameriere, in questo modo hanno speso 9 euro a testa più 2 di mancia 29, dove sarà finito l'euro mancante? Di sicuro se lo sarà fregato il cameriere!"@it;
+    schema:keywords "matematica, psicologia, ingannare, derubare, problema, truffa";
+    skos:related vocang:raggirula ;
+    dct:created "2023-10-24" ;
+    dct:creator vocang:pertosaLorenzo .
