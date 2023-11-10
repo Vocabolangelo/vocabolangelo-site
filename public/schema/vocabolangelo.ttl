@@ -8515,6 +8515,17 @@ vocang:logcation
     skos:definition "Directory del sistema in cui vengono salvati dei log."@it ;
     skos:example "Oggi ho aperto una logcation. Era piena di file di log in cui non si capiva nulla!"@it;
     schema:keywords "log, directory, sistema, salvare";
-    dct:created "2023-10-24" ;
+    dct:created "2023-10-25" ;
     dct:creator vocang:filasetaAngelo .
-    
+
+vocang:fottinere
+    a vocang:Parolangelo ;
+    skos:prefLabel "Fottinere"@it ;
+    lexinfo:pronunciation "/fot • tì • ne • re/"@it ;
+    skos:definition "Rubare in maniera molto subdola e meschina."@it ;
+    skos:example "Fottinere è un reato molto grave, ma purtroppo è molto difficile dimostrare che qualcuno lo stia facendo."@it;
+
+
+    Fottinere
+Rubare in maniera molto subdola e meschina
+Orla e Orla
