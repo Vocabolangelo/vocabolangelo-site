@@ -8508,3 +8508,13 @@ vocang:matematicazzi
     skos:related vocang:raggirula ;
     dct:created "2023-10-24" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:logcation
+    a vocang:Parolangelo ;
+    skos:prefLabel "Logcation"@it ;
+    skos:definition "Directory del sistema in cui vengono salvati dei log."@it ;
+    skos:example "Oggi ho aperto una logcation. Era piena di file di log in cui non si capiva nulla!"@it;
+    schema:keywords "log, directory, sistema, salvare";
+    dct:created "2023-10-24" ;
+    dct:creator vocang:filasetaAngelo .
+    
