@@ -558,6 +558,14 @@ vocang:cacchioneIrene
     org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:timpanoSam .
 
+vocang:orlandoDavide
+    a vocang:Vocaboliere ;
+    foaf:firstName "Davide" ;
+    foaf:lastName "Orlando" ;
+    foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:siblingOf vocang:orlandoNicola .
+
 # Other Author Individuals
 
 vocang:chatGPT
@@ -8526,5 +8534,6 @@ vocang:fottinere
     skos:example "Fottinere è un reato molto grave, ma purtroppo è molto difficile dimostrare che qualcuno lo stia facendo."@it;
     schema:keywords "rubare, subdolo, meschino, reato";
     dct:created "2023-10-26" ;
+    skos:note "Questa è la prima parola inventata da Davide che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
     skos:related vocang:raggirula ;
-    dct:creator vocang:orlandoNicola .
+    dct:creator vocang:orlandoNicola, vocang:orlandoDavide .
