@@ -683,6 +683,12 @@
 <http://www.vocabolangelo.org/cacchioneIrene> <http://xmlns.com/foaf/0.1/gender> "female" .
 <http://www.vocabolangelo.org/cacchioneIrene> <http://www.w3.org/ns/org#memberOf> <http://www.vocabolangelo.org/vocabolieriOrg> .
 <http://www.vocabolangelo.org/cacchioneIrene> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/timpanoSam> .
+<http://www.vocabolangelo.org/orlandoDavide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Vocaboliere> .
+<http://www.vocabolangelo.org/orlandoDavide> <http://xmlns.com/foaf/0.1/firstName> "Davide" .
+<http://www.vocabolangelo.org/orlandoDavide> <http://xmlns.com/foaf/0.1/lastName> "Orlando" .
+<http://www.vocabolangelo.org/orlandoDavide> <http://xmlns.com/foaf/0.1/gender> "male" .
+<http://www.vocabolangelo.org/orlandoDavide> <http://www.w3.org/ns/org#memberOf> <http://www.vocabolangelo.org/vocabolieriOrg> .
+<http://www.vocabolangelo.org/orlandoDavide> <http://www.perceive.net/schemas/20021119/relationship/#siblingOf> <http://www.vocabolangelo.org/orlandoNicola> .
 <http://www.vocabolangelo.org/chatGPT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/skgo/modsci#ArtificialIntelligence> .
 <http://www.vocabolangelo.org/chatGPT> <http://xmlns.com/foaf/0.1/firstName> "ChatGPT" .
 <http://www.vocabolangelo.org/chatGPT> <https://schema.org/url> "https://openai.com/blog/chatgpt" .
@@ -7515,6 +7521,33 @@
 <http://www.vocabolangelo.org/edificioratoria> <http://purl.org/dc/terms/created> "2023-10-22" .
 <http://www.vocabolangelo.org/edificioratoria> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
 <http://www.vocabolangelo.org/edificioratoria> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/battaglinoNicole> .
+<http://www.vocabolangelo.org/matematicazzi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/matematicazzi> <http://www.w3.org/2004/02/skos/core#prefLabel> "Matematicazzi"@it .
+<http://www.vocabolangelo.org/matematicazzi> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/ma • te • ma • ti • càz • zi/"@it .
+<http://www.vocabolangelo.org/matematicazzi> <http://www.w3.org/2004/02/skos/core#definition> "Scienza basata sullo sfruttamento della conoscenza matematica e sulla psicologia per ingannare (e solitamente derubare) il prossimo."@it .
+<http://www.vocabolangelo.org/matematicazzi> <http://www.w3.org/2004/02/skos/core#example> "Mi hanno proposto l'altro giorno un problema di matematicazzi: tre uomini vanno al ristorante e spendono 30 euro. Pagano 10 euro a testa, ma il gestore gli fa 5 euro di sconto, così decidono di riprendersi un euro a testa e lasciano gli altri 2 di mancia al cameriere, in questo modo hanno speso 9 euro a testa più 2 di mancia 29, dove sarà finito l'euro mancante? Di sicuro se lo sarà fregato il cameriere!"@it .
+<http://www.vocabolangelo.org/matematicazzi> <https://schema.org/keywords> "matematica, psicologia, ingannare, derubare, problema, truffa" .
+<http://www.vocabolangelo.org/matematicazzi> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/raggirula> .
+<http://www.vocabolangelo.org/matematicazzi> <http://purl.org/dc/terms/created> "2023-10-24" .
+<http://www.vocabolangelo.org/matematicazzi> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/logcation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/logcation> <http://www.w3.org/2004/02/skos/core#prefLabel> "Logcation"@it .
+<http://www.vocabolangelo.org/logcation> <http://www.w3.org/2004/02/skos/core#definition> "Directory del sistema in cui vengono salvati dei log."@it .
+<http://www.vocabolangelo.org/logcation> <http://www.w3.org/2004/02/skos/core#example> "Oggi ho aperto una logcation. Era piena di file di log in cui non si capiva nulla!"@it .
+<http://www.vocabolangelo.org/logcation> <https://schema.org/keywords> "log, directory, sistema, salvare" .
+<http://www.vocabolangelo.org/logcation> <http://purl.org/dc/terms/created> "2023-10-25" .
+<http://www.vocabolangelo.org/logcation> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
+<http://www.vocabolangelo.org/fottinere> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/fottinere> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fottinere"@it .
+<http://www.vocabolangelo.org/fottinere> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/fot • tì • ne • re/"@it .
+<http://www.vocabolangelo.org/fottinere> <http://www.w3.org/2004/02/skos/core#definition> "Rubare in maniera molto subdola e meschina."@it .
+<http://www.vocabolangelo.org/fottinere> <http://www.w3.org/2004/02/skos/core#example> "Fottinere è un reato molto grave, ma purtroppo è molto difficile dimostrare che qualcuno lo stia facendo."@it .
+<http://www.vocabolangelo.org/fottinere> <https://schema.org/keywords> "rubare, subdolo, meschino, reato" .
+<http://www.vocabolangelo.org/fottinere> <http://purl.org/dc/terms/created> "2023-10-26" .
+<http://www.vocabolangelo.org/fottinere> <http://www.w3.org/2004/02/skos/core#note> "Questa è la prima parola inventata da Davide che è entrata nel Vocabolangelo, grazie e congratulazioni." .
+<http://www.vocabolangelo.org/fottinere> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/raggirula> .
+<http://www.vocabolangelo.org/fottinere> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/orlandoNicola> .
+<http://www.vocabolangelo.org/fottinere> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/orlandoDavide> .
 <http://www.vocabolangelo.org/invicio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/acquesca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/briscolo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -7834,6 +7867,7 @@
 <http://www.vocabolangelo.org/sbiribillo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/surigatto> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/omnicio> .
 <http://www.vocabolangelo.org/surigatto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/logcation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/kebabbilogia> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/kebabbologo> .
 <http://www.vocabolangelo.org/kebabbilogia> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/kebibino> .
 <http://www.vocabolangelo.org/kebabbilogia> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/kebabbarologia> .
@@ -8014,7 +8048,9 @@
 <http://www.vocabolangelo.org/starnunghiozzo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/dissennatorte> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/raggirula> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboreato> .
+<http://www.vocabolangelo.org/raggirula> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/fottinere> .
 <http://www.vocabolangelo.org/raggirula> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/catenangelo> .
+<http://www.vocabolangelo.org/raggirula> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/matematicazzi> .
 <http://www.vocabolangelo.org/raggirula> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/raggirulare> .
 <http://www.vocabolangelo.org/raggirula> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/suscaAlessandra> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/rosatelliAnna> .
@@ -8032,6 +8068,9 @@
 <http://www.vocabolangelo.org/Parolangelo> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.vocabolangelo.org/Parolangelo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.vocabolangelo.org/avodandolo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/orlandoDavide> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/orlandoNicola> .
+<http://www.vocabolangelo.org/orlandoDavide> <http://www.perceive.net/schemas/20021119/relationship/#siblingOf> <http://www.vocabolangelo.org/orlandoNicola> .
+<http://www.vocabolangelo.org/orlandoDavide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Vocaboliere> .
 <http://www.vocabolangelo.org/occhialuna> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/hypermind> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/overmind> .
 <http://www.vocabolangelo.org/hypermind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -8324,6 +8363,7 @@
 <http://www.vocabolangelo.org/orlandoNicola> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/sanchiPiero> .
 <http://www.vocabolangelo.org/orlandoNicola> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/filasetaAngelo> .
 <http://www.vocabolangelo.org/orlandoNicola> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/suscaMatteo> .
+<http://www.vocabolangelo.org/orlandoNicola> <http://www.perceive.net/schemas/20021119/relationship/#siblingOf> <http://www.vocabolangelo.org/orlandoDavide> .
 <http://www.vocabolangelo.org/orlandoNicola> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/adantiMatteo> .
 <http://www.vocabolangelo.org/orlandoNicola> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/pescaraGianluca> .
 <http://www.vocabolangelo.org/orlandoNicola> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/talmiAlessandro> .
@@ -8341,6 +8381,7 @@
 <http://www.vocabolangelo.org/orlandoNicola> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/pupitaAlberto> .
 <http://www.vocabolangelo.org/orlandoNicola> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/rossiLuca> .
 <http://www.vocabolangelo.org/orlandoNicola> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/scattoniAlessandra> .
+<http://www.vocabolangelo.org/orlandoNicola> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/orlandoDavide> .
 <http://www.vocabolangelo.org/orlandoNicola> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/filippettiGiulio> .
 <http://www.vocabolangelo.org/orlandoNicola> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/diGioiaAlex> .
 <http://www.vocabolangelo.org/orlandoNicola> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/savoGiorgia> .
@@ -9680,6 +9721,8 @@
 <http://www.vocabolangelo.org/trucefisso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/coccoletto> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/filmoccoletto> .
 <http://www.vocabolangelo.org/coccoletto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/fottinere> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/raggirula> .
+<http://www.vocabolangelo.org/fottinere> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/pistaggio> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/pistacchiamento> .
 <http://www.vocabolangelo.org/pistaggio> <http://rdfs.org/scot/ns#synonym> <http://www.vocabolangelo.org/pistacchiamento> .
 <http://www.vocabolangelo.org/pistaggio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -10075,6 +10118,8 @@
 <http://www.vocabolangelo.org/esplorezione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/piedoccola> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/pronomino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/matematicazzi> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/raggirula> .
+<http://www.vocabolangelo.org/matematicazzi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/rotatroietta> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/rotatatoria> .
 <http://www.vocabolangelo.org/rotatroietta> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/edificioratoria> .
 <http://www.vocabolangelo.org/rotatroietta> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/cortatoria> .
