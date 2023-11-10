@@ -8524,8 +8524,7 @@ vocang:fottinere
     lexinfo:pronunciation "/fot • tì • ne • re/"@it ;
     skos:definition "Rubare in maniera molto subdola e meschina."@it ;
     skos:example "Fottinere è un reato molto grave, ma purtroppo è molto difficile dimostrare che qualcuno lo stia facendo."@it;
-
-
-    Fottinere
-Rubare in maniera molto subdola e meschina
-Orla e Orla
+    schema:keywords "rubare, subdolo, meschino, reato";
+    dct:created "2023-10-26" ;
+    skos:related vocang:raggirula ;
+    dct:creator vocang:orlandoNicola .
