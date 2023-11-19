@@ -8537,3 +8537,14 @@ vocang:fottinere
     skos:note "Questa è la prima parola inventata da Davide che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
     skos:related vocang:raggirula ;
     dct:creator vocang:orlandoNicola, vocang:orlandoDavide .
+
+vocang:orido 
+    a vocang:Parolangelo ;
+    skos:prefLabel "Orido"@it ;
+    lexinfo:pronunciation "/o • rì • do/"@it ;
+    skos:definition "Un terrificante grido di battaglia composto da risate."@it ;
+    skos:example "La semirissa era iniziata con un orido. Tutte le vittime erano spaventatissime!"@it;
+    schema:keywords "grido, battaglia, risata, spaventare, nemico";
+    skos:related vocang:semirissa, vocang:semigriglissa ;
+    dct:created "2023-10-27" ;
+    dct:creator vocang:bragariAlexandru, vocang:battaglinoNicole .
