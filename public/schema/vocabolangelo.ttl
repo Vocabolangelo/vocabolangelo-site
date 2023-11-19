@@ -8548,3 +8548,13 @@ vocang:orido
     skos:related vocang:semirissa, vocang:semigriglissa ;
     dct:created "2023-10-27" ;
     dct:creator vocang:bragariAlexandru, vocang:battaglinoNicole .
+
+vocang:malgattio
+    a vocang:Parolangelo ;
+    skos:prefLabel "Malgattio"@it ;
+    lexinfo:pronunciation "/mal • gàt • ti • o/"@it ;
+    skos:definition "Malocchio lanciato da un gatto."@it ;
+    skos:example "Sir Whiskers mi ha lanciato un malgattio. Ora ho la sfortuna addosso!"@it;
+    schema:keywords "gatto, malocchio, sfortuna";
+    dct:created "2023-10-27" ;
+    dct:creator vocang:rosatelliAnna .
