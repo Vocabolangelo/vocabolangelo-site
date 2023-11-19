@@ -8599,3 +8599,13 @@ vocang:abusabito
     schema:keywords "abito, abusivo, indossare";
     dct:created "2023-10-28" ;
     dct:creator vocang:durazziMarco .
+
+vocang:smemoria
+    a vocang:Parolangelo ;
+    skos:prefLabel "Smemoria"@it ;
+    lexinfo:pronunciation "/sme • mò • ria/"@it ;
+    skos:definition "Memoria di uno smemorato, particolarmente instabile e inaffidabile."@it ;
+    skos:example "Ieri ho scordato il gas acceso a casa mentre mio figlio di 2 anni dormiva tranquillo in cucina. È colpa della mia smemoria!"@it;
+    schema:keywords "smemorato, memoria, instabile, inaffidabile";
+    dct:created "2023-10-29" ;
+    dct:creator vocang:timpanoSam .
