@@ -8609,3 +8609,23 @@ vocang:smemoria
     schema:keywords "smemorato, memoria, instabile, inaffidabile";
     dct:created "2023-10-29" ;
     dct:creator vocang:timpanoSam .
+
+vocang:galzino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Galzino"@it ;
+    lexinfo:pronunciation "/gal • zì • no/"@it ;
+    skos:definition "Zampa di gatto di colore diverso rispetto al resto del gatto stesso, tanto da sembrare un calzino."@it ;
+    skos:example "Ho visto un gatto con un galzino. Era molto carino!"@it;
+    schema:keywords "gatto, zampa, calzino";
+    dct:created "2023-10-30" ;
+    dct:creator vocang:scattoniAlessandra .
+
+vocang:ortomedico
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ortomedico"@it ;
+    lexinfo:pronunciation "/or • to • mè • di • co/"@it ;
+    skos:definition "Erbologista."@it ;
+    skos:example "L'ortomedico mi ha detto di non dare l'erba gatta ai miei gatti. Non sapevo che fosse sconsigliato!"@it;
+    schema:keywords "medico, orto, erba, erbologia", "erbologista" ;
+    dct:created "2023-11-01" ;
+    dct:creator vocang:nardiniArianna, vocang:orlandoNicola .
