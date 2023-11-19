@@ -8579,3 +8579,13 @@ vocang:gabippo
     schema:keywords "gatto, comico, divertente";
     dct:created "2023-10-27" ;
     dct:creator vocang:bragariAlexandru .
+
+vocang:udisione
+    a vocang:Parolangelo ;
+    skos:prefLabel "Udisione"@it ;
+    lexinfo:pronunciation "/u • di • ṣió • ne/"@it ;
+    skos:definition "Paracusia. Visione uditiva."@it ;
+    skos:example "Ieri mentre stavo guardando la TV ho avuto un'udisione. Ho sentito un orido provenire da fuori casa! Fortunatamente nessuno mi stava assaltando."@it;
+    schema:keywords "visione, udito, visione uditiva, paracusia";
+    dct:created "2023-10-28" ;
+    dct:creator vocang:battaglinoNicole .
