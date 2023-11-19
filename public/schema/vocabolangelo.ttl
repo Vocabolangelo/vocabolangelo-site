@@ -8594,8 +8594,8 @@ vocang:abusabito
     a vocang:Parolangelo ;
     skos:prefLabel "Abusabito"@it ;
     lexinfo:pronunciation "/a • bu • sà • bi • to/"@it ;
-    skos:definition "Abito usato."@it ;
-    skos:example "Ho ceduto un sacco di abusabiti ai senzatetto. Ora ho più spazio nell'armadio e mi sento molto meglio!"@it;
-    schema:keywords "abito, usato, indossare";
+    skos:definition "Abito abusivo."@it ;
+    skos:example "Sono andato a lavoro con un abusabito e mi hanno quasi arrestato e licenziato!"@it;
+    schema:keywords "abito, abusivo, indossare";
     dct:created "2023-10-28" ;
     dct:creator vocang:durazziMarco .
