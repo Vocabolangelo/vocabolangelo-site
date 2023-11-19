@@ -8558,3 +8558,13 @@ vocang:malgattio
     schema:keywords "gatto, malocchio, sfortuna";
     dct:created "2023-10-27" ;
     dct:creator vocang:rosatelliAnna .
+
+vocang:vampiratto
+    a vocang:Parolangelo ;
+    skos:prefLabel "Vampiratto"@it ;
+    lexinfo:pronunciation "/vam • pi • ràt • to/"@it ;
+    skos:definition "Gatto che indossa delle ali da pipistrello."@it ;
+    skos:example "Ho visto un vampiratto nero. Era molto spaventoso ma molto carino!"@it;
+    schema:keywords "gatto, vampiro, pipistrello";
+    dct:created "2023-10-27" ;
+    dct:creator vocang:filasetaAngelo, vocang:pertosaLorenzo .
