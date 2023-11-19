@@ -8640,3 +8640,12 @@ vocang:crocifischio
     dct:created "2023-11-01" ;
     skos:related vocang:carattecristico ;
     dct:creator vocang:suscaMatteo .
+
+vocang:cantyeur
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cantyeur"@it ;
+    skos:definition "Umarèll. Anziano che guarda i lavori in corso in un cantiere."@it ;
+    skos:example "Ieri c'era un cantyeur che guardava i lavori in corso. Era molto interessato!"@it;
+    schema:keywords "cantiere, anziano, lavori, guardare, umarell";
+    dct:created "2023-11-01" ;
+    dct:creator vocang:orlandoNicola, vocang:omiccioliRiccardo .
