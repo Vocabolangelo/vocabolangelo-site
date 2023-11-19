@@ -8629,3 +8629,14 @@ vocang:ortomedico
     schema:keywords "medico, orto, erba, erbologia", "erbologista" ;
     dct:created "2023-11-01" ;
     dct:creator vocang:nardiniArianna, vocang:orlandoNicola .
+
+vocang:crocifischio
+    a vocang:Parolangelo ;
+    skos:prefLabel "Crocifischio"@it ;
+    lexinfo:pronunciation "/cro • ci • fi • schì • o/"@it ;
+    skos:definition "Crocifisso che fischia come un fischietto."@it ;
+    skos:example "Ho visto un crocifischio. Era possibile suonarlo dalla parte inferiore della croce!"@it;
+    schema:keywords "crocifisso, fischietto, fischio, croce, cristianesimo";
+    dct:created "2023-11-01" ;
+    skos:related vocang:carattecristico ;
+    dct:creator vocang:suscaMatteo .
