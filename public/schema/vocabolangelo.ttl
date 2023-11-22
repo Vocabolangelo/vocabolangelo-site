@@ -8792,3 +8792,13 @@ vocang:purrsciutto
     schema:keywords "prosciutto, gatto, mangiare, cibo";
     dct:created "2023-11-12" ;
     dct:creator vocang:filasetaAngelo, vocang:chatGPT .
+
+vocang:catastroforno
+    a vocang:Parolangelo ;
+    skos:prefLabel "Catastroforno"@it ;
+    lexinfo:pronunciation "/ca • ta • stro • fòr • no/"@it ;
+    skos:definition "Incidente non previsto che accade utilizzando un forno, ad esempio bruciando il cibo all'interno o facendolo esplodere."@it ;
+    skos:example "Sono uscito per comperare alla mia ragazza un Bubble tea e la ho lasciata a casa da sola per 5 minuti. In quel tempo è riuscita a causare un catastroforno. Sono tornato molto preoccupato e c'era puzza di fumo per tutta la casa!"@it;
+    schema:keywords "forno, cibo, bruciare, esplodere, incidente, non previsto";
+    dct:created "2023-11-12" ;
+    dct:creator vocang:filasetaAngelo .
