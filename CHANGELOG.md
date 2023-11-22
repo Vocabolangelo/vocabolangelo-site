@@ -1,5 +1,36 @@
 # Changelog
 
+## [6.16.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v6.15.0...v6.16.0) (2023-11-22)
+
+
+### Features
+
+* **parolangelo:** abusabito ([32896cc](https://github.com/Vocabolangelo/vocabolangelo-site/commit/32896cc5b4a08b97fe4bbc367842e0838348e327))
+* **parolangelo:** cantyeur ([c6e71b8](https://github.com/Vocabolangelo/vocabolangelo-site/commit/c6e71b804becd9322d939c85398d275bea727a27))
+* **parolangelo:** compleorgia ([ecabd95](https://github.com/Vocabolangelo/vocabolangelo-site/commit/ecabd9547c0ccb2d65883ee3e9d5b5f410ebf5fb))
+* **parolangelo:** crocifischio ([a7095af](https://github.com/Vocabolangelo/vocabolangelo-site/commit/a7095afa2b9f8f879ce627a5b98487a0caa784d0))
+* **parolangelo:** cumdown ([ca967de](https://github.com/Vocabolangelo/vocabolangelo-site/commit/ca967de988bdb4e59d41e97becf4233a41f07cf7))
+* **parolangelo:** filmao ([19e8ba9](https://github.com/Vocabolangelo/vocabolangelo-site/commit/19e8ba996320854f548f5425bf2e814ca342c37a))
+* **parolangelo:** filolofo ([bde26f2](https://github.com/Vocabolangelo/vocabolangelo-site/commit/bde26f2a950fe06ef0f08feea81c3517ce87dad0))
+* **parolangelo:** fottinere ([4aedd0e](https://github.com/Vocabolangelo/vocabolangelo-site/commit/4aedd0eacb8cd9a9b8c91dabbce1eaea9d04badc))
+* **parolangelo:** gabippo ([e18d641](https://github.com/Vocabolangelo/vocabolangelo-site/commit/e18d6413c9f53198a014b887bce4922939811e46))
+* **parolangelo:** kebaboom ([673ee34](https://github.com/Vocabolangelo/vocabolangelo-site/commit/673ee34c7b4715bb3670d47e31f330c5e0fdd990))
+* **parolangelo:** logcation ([0d347c2](https://github.com/Vocabolangelo/vocabolangelo-site/commit/0d347c2e09fe4954951a671c0b8c7bc9127fc0a0))
+* **parolangelo:** malgattio ([5c2f250](https://github.com/Vocabolangelo/vocabolangelo-site/commit/5c2f2501339c3a81a948a3730df8f064a8922150))
+* **parolangelo:** matematicazzi ([8bb779e](https://github.com/Vocabolangelo/vocabolangelo-site/commit/8bb779e06f1a157a6e63592441f15c18f0517bb7))
+* **parolangelo:** orido ([c00398c](https://github.com/Vocabolangelo/vocabolangelo-site/commit/c00398c90ac031432772846648b1bf35ee7abb2d))
+* **parolangelo:** ortomedico ([45c3a1a](https://github.com/Vocabolangelo/vocabolangelo-site/commit/45c3a1a52d0db21f7033faa66e296704bb199f1c))
+* **parolangelo:** schiaffetta ([77c3a62](https://github.com/Vocabolangelo/vocabolangelo-site/commit/77c3a62ff457696941b7936477866eab0b6db8ac))
+* **parolangelo:** smemoria ([0d298ad](https://github.com/Vocabolangelo/vocabolangelo-site/commit/0d298ad75063571df54147f56a91e44abe7b4b52))
+* **parolangelo:** udisione ([8fc10ee](https://github.com/Vocabolangelo/vocabolangelo-site/commit/8fc10ee0f3100f224f9ed51bd7c54abc8a515611))
+* **parolangelo:** vampiratto ([3d0edcd](https://github.com/Vocabolangelo/vocabolangelo-site/commit/3d0edcdb15df3ff7a8756d1b21c18cd487fde423))
+* **vocaboliere:** Davide Orlando ([723d213](https://github.com/Vocabolangelo/vocabolangelo-site/commit/723d213978968233aa6926229495a569445b2f16))
+
+
+### Bug Fixes
+
+* **parolangelo:** abusabito ([ce58fab](https://github.com/Vocabolangelo/vocabolangelo-site/commit/ce58faba5990d1d84afdec2d6116322b0363d007))
+
 ## [6.15.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v6.14.0...v6.15.0) (2023-11-08)
 
 
