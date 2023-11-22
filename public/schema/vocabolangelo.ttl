@@ -72,7 +72,7 @@ vocang:filasetaAngelo
     foaf:gender "male" ;
     org:memberOf vocang:vocaboladminOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/filasetaAngelo.jpeg" ;
-    rel:friendOf vocang:bassiAndrea, vocang:bailettiTommaso, vocang:sanchiPiero, vocang:tronettiElisa, vocang:salhiSamir, vocang:bragariAlexandru , vocang:battaglinoNicole , vocang:omiccioliRiccardo , vocang:pertosaLorenzo , vocang:timpanoSam , vocang:ribaudoSofia ;
+    rel:friendOf vocang:cortecchiaAngela, vocang:bassiAndrea, vocang:bailettiTommaso, vocang:sanchiPiero, vocang:tronettiElisa, vocang:salhiSamir, vocang:bragariAlexandru , vocang:battaglinoNicole , vocang:omiccioliRiccardo , vocang:pertosaLorenzo , vocang:timpanoSam , vocang:ribaudoSofia ;
     rel:spouseOf vocang:savoGiorgia .
 
 vocang:savoGiorgia
@@ -83,7 +83,7 @@ vocang:savoGiorgia
     foaf:gender "female" ;
     org:memberOf vocang:vocabolieriOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/savoGiorgia.jpg" ;
-    rel:friendOf vocang:bailettiTommaso, vocang:salhiSamir, vocang:bragariAlexandru , vocang:battaglinoNicole , vocang:omiccioliRiccardo , vocang:pertosaLorenzo, vocang:timpanoSam , vocang:ribaudoSofia .
+    rel:friendOf vocang:cortecchiaAngela, vocang:bailettiTommaso, vocang:salhiSamir, vocang:bragariAlexandru , vocang:battaglinoNicole , vocang:omiccioliRiccardo , vocang:pertosaLorenzo, vocang:timpanoSam , vocang:ribaudoSofia .
 
 vocang:bragariAlexandru
     a vocang:Vocaboliere ;
@@ -113,7 +113,7 @@ vocang:omiccioliRiccardo
     foaf:nick "Miccio" ;
     foaf:gender "male" ;
     org:memberOf vocang:vocaboladminOrg ;
-    rel:friendOf vocang:bailettiTommaso, vocang:sanchiPiero, vocang:tronettiElisa, vocang:salhiSamir, vocang:pertosaLorenzo , vocang:timpanoSam , vocang:ribaudoSofia .
+    rel:friendOf vocang:cortecchiaAngela, vocang:bailettiTommaso, vocang:sanchiPiero, vocang:tronettiElisa, vocang:salhiSamir, vocang:pertosaLorenzo , vocang:timpanoSam , vocang:ribaudoSofia .
 
 vocang:pertosaLorenzo
     a vocang:Vocaboliere ;
@@ -151,7 +151,7 @@ vocang:talmiAlessandro
     foaf:nick "Dizi" ;
     foaf:gender "male" ;
     org:memberOf vocang:vocabolieriOrg ;
-    rel:friendOf vocang:bailettiTommaso, vocang:sanchiPiero, vocang:filasetaAngelo, vocang:bragariAlexandru .
+    rel:friendOf vocang:cortecchiaAngela, vocang:bailettiTommaso, vocang:sanchiPiero, vocang:filasetaAngelo, vocang:bragariAlexandru .
 
 vocang:orlandoNicola
     a vocang:Vocaboliere ;
@@ -161,7 +161,7 @@ vocang:orlandoNicola
     foaf:gender "male" ;
     org:memberOf vocang:vocaboladminOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/orlandoNicola.jpg" ;
-    rel:friendOf vocang:bailettiTommaso, vocang:sanchiPiero, vocang:tronettiElisa, vocang:salhiSamir, vocang:durazziMarco, vocang:bragariAlexandru, vocang:talmiAlessandro, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo .
+    rel:friendOf vocang:cortecchiaAngela, vocang:bailettiTommaso, vocang:sanchiPiero, vocang:tronettiElisa, vocang:salhiSamir, vocang:durazziMarco, vocang:bragariAlexandru, vocang:talmiAlessandro, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo .
 
 vocang:adantiMatteo
     a vocang:Vocaboliere ;
@@ -265,7 +265,8 @@ vocang:rossiLuca
     foaf:lastName "Rossi" ;
     foaf:gender "male" ;
     org:memberOf vocang:vocabolieriOrg ;
-    rel:friendOf vocang:bailettiTommaso, vocang:sanchiPiero, vocang:tronettiElisa, vocang:orlandoNicola, vocang:talmiAlessandro, vocang:omiccioliRiccardo, vocang:bragariAlexandru, vocang:filasetaAngelo .
+    rel:friendOf vocang:bailettiTommaso, vocang:sanchiPiero, vocang:tronettiElisa, vocang:orlandoNicola, vocang:talmiAlessandro, vocang:omiccioliRiccardo, vocang:bragariAlexandru, vocang:filasetaAngelo ;
+    rel:spouseOf vocang:cortecchiaAngela .
 
 vocang:deRosaLeonardo
     a vocang:Vocaboliere ;
@@ -357,7 +358,7 @@ vocang:tronettiElisa
     foaf:gender "female" ;
     org:memberOf vocang:vocabolieriOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/tronettiElisa.jpg" ;
-    rel:friendOf vocang:sanchiPiero, vocang:bailettiTommaso ;
+    rel:friendOf vocang:sanchiPiero, vocang:bailettiTommaso, vocang:cortecchiaAngela ;
     rel:spouseOf vocang:talmiAlessandro .
 
 vocang:ingargiolaAndrea
@@ -374,7 +375,7 @@ vocang:sanchiPiero
     foaf:firstName "Piero" ;
     foaf:lastName "Sanchi" ;
     foaf:gender "male" ;
-    rel:friendOf vocang:bailettiTommaso ;
+    rel:friendOf vocang:bailettiTommaso, vocang:cortecchiaAngela ;
     org:memberOf vocang:vocabolieriOrg .
 
 vocang:bermucaMorena
@@ -470,14 +471,6 @@ vocang:abisAlessio
     org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:filasetaAngelo, vocang:pertosaLorenzo, vocang:morettiLeonardo, vocang:ciurnelliLuna, vocang:paoliMichele .
 
-vocang:abisAlessio
-    a vocang:Vocaboliere ;
-    foaf:firstName "Alessio" ;
-    foaf:lastName "Abis" ;
-    foaf:gender "male" ;
-    org:memberOf vocang:vocabolieriOrg ;
-    rel:friendOf vocang:filasetaAngelo, vocang:pertosaLorenzo, vocang:morettiLeonardo, vocang:ciurnelliLuna, vocang:paoliMichele .
-
 vocang:grasselliFrancesco
     a vocang:Vocaboliere ;
     foaf:firstName "Francesco Maria" ;
@@ -491,7 +484,8 @@ vocang:bailettiTommaso
     foaf:firstName "Tommaso" ;
     foaf:lastName "Bailetti" ;
     foaf:gender "male" ;
-    org:memberOf vocang:vocabolieriOrg .
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:cortecchiaAngela .
 
 vocang:bassiAndrea
     a vocang:Vocaboliere ;
@@ -563,6 +557,13 @@ vocang:orlandoDavide
     foaf:firstName "Davide" ;
     foaf:lastName "Orlando" ;
     foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg .
+
+vocang:cortecchiaAngela
+    a vocang:Vocaboliere ;
+    foaf:firstName "Angela" ;
+    foaf:lastName "Cortecchia" ;
+    foaf:gender "female" ;
     org:memberOf vocang:vocabolieriOrg ;
     rel:siblingOf vocang:orlandoNicola .
 
