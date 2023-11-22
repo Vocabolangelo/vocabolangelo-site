@@ -8855,3 +8855,13 @@ vocang:yarissa
     dct:created "2023-11-15" ;
     skos:related vocang:semigriglissa, vocang:semirissa ;
     dct:creator vocang:omiccioliRiccardo, vocang:filasetaAngelo .
+
+vocang:periculo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Periculo"@it ;
+    lexinfo:pronunciation "/pe • ri • cù • lo/"@it ;
+    skos:definition "Fastidio che si ha in mezzo alle natiche a causa di qualche indumento scomodo, ad esempio un tanga."@it ;
+    skos:example "Ieri Valerio mi ha vista mentre mi sistemavo le mutande. È stato molto imbarazzante, ma non potevo farci niente, avevo un periculo!"@it;
+    schema:keywords "fastidio, natiche, indumento, scomodo, tanga, pantalone";
+    dct:created "2023-11-15" ;
+    dct:creator vocang:ribaudoSofia .
