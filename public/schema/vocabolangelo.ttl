@@ -8700,3 +8700,13 @@ vocang:filolofo
     skos:related vocang:collagna ;
     dct:created "2023-11-05" ;
     dct:creator vocang:bragariAlexandru, vocang:nardiniArianna .
+
+vocang:filmao
+    a vocang:Parolangelo ;
+    skos:prefLabel "Filmao"@it ;
+    lexinfo:pronunciation "/fil • mào/"@it ;
+    skos:definition "Film comico che fa molto ridere."@it ;
+    skos:example "Ieri ho visto \"Il grande Lebowski\". È stato un filmao assurdo!"@it;
+    schema:keywords "film, comico, divertente, ridere, esilarante";
+    dct:created "2023-11-06" ;
+    dct:creator vocang:omiccioliRiccardo .
