@@ -8678,3 +8678,14 @@ vocang:schiaffetta
     schema:keywords "schiaffo, tette, seno, donna, ragazza, schiaffeggiare";
     dct:created "2023-11-05" ;
     dct:creator vocang:ribaudoSofia .
+
+vocang:compleorgia
+    a vocang:Parolangelo ;
+    skos:prefLabel "Compleorgia"@it ;
+    lexinfo:pronunciation "/com • ple • òr • gia/"@it ;
+    skos:definition "Orgia svolta nel giorno del compleanno di qualcuno dei partecipanti."@it ;
+    skos:example "Ieri abbiamo regalato ad Alberto una compleorgia. È stato molto felice e ha deciso di prolungarla fino a tarda notte!"@it;
+    schema:keywords "orgia, sesso, divertente, compleanno";
+    skos:related vocang:asessare, vocang:ombrudino, vocang:sessorround, vocang:desesso, vocang:cumdown ;
+    dct:created "2023-10-17" ;
+    dct:creator vocang:pertosaLorenzo .
