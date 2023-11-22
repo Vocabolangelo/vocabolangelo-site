@@ -8750,3 +8750,14 @@ vocang:molotuomo
     schema:keywords "kamikaze, alcool, superalcolico, bomba, incendiaria, umana, fiammata";
     dct:created "2023-11-11" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:eiaculabbiocco
+    a vocang:Parolangelo ;
+    skos:prefLabel "Eiaculabbiocco"@it ;
+    lexinfo:pronunciation "/e • ia • cu • lab • biòc • co/"@it ;
+    skos:definition "Stanchezza post eiculazione."@it ;
+    skos:example "Ieri ho avuto un eiaculabbiocco. È stato molto imbarazzante, perché la mia partner voleva subito un secondo round!"@it;
+    schema:keywords "eiaculazione, stanchezza, sonno, dormire, sesso";
+    skos:related vocang:asessare, vocang:ombrudino, vocang:sessorround, vocang:desesso, vocang:cumdown, vocang:compleorgia ;
+    dct:created "2023-11-11" ;
+    dct:creator vocang:minoccheriAlessandra .
