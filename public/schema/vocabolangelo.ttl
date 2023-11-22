@@ -8802,3 +8802,13 @@ vocang:catastroforno
     schema:keywords "forno, cibo, bruciare, esplodere, incidente, non previsto";
     dct:created "2023-11-12" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:scoinvolgimento
+    a vocang:Parolangelo ;
+    skos:prefLabel "Scoinvolgimento"@it ;
+    lexinfo:pronunciation "/sco • in • vol • gi • mèn • to/"@it ;
+    skos:definition "Coinvolgimento di una persona sconvolta."@it ;
+    skos:example "Dovevamo scappare per non morire, infatti abbiamo dovuto scoinvolgere mio fratello nel piano di fuga o sarebbe rimasto paralizzato lì."@it;
+    schema:keywords "coinvolgimento, sconvolgimento, scappare, morire, paralizzato";
+    dct:created "2023-11-12" ;
+    dct:creator vocang:ribaudoSofia .
