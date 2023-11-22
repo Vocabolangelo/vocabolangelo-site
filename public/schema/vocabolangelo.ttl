@@ -8833,3 +8833,15 @@ vocang:incoerestronzo
     schema:keywords "persona, incoerente, intromettersi, convincere, ignorare, stronzo, cattivo, umano";
     dct:created "2023-11-13" ;
     dct:creator vocang:nardiniArianna, vocang:ribaudoSofia .
+
+vocang:ruostica
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ruostica"@it ;
+    lexinfo:pronunciation "/ruò • sti • ca/"@it ;
+    skos:definition "Ruota di un'auto la cui forma del cerchione ricorda una svastica."@it ;
+    skos:example "Ieri ho visto un'auto che montava delle ruostiche. Il tizio che la guidava aveva un aspetto molto familiare!"@it;
+    schema:keywords "ruota, svastica, nazismo, hitler, auto, cerchione";
+    dct:created "2023-11-14" ;
+    skos:note "Questa è la prima parola inventata da Angela che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/ruostica.jpg" ;
+    dct:creator vocang:filasetaAngelo, vocang:cortecchiaAngela .
