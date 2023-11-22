@@ -8668,3 +8668,13 @@ vocang:kebaboom
     schema:keywords "kebab, piccante, cibo, mangiare, piccantissimo, peperoncino, guerra, aperto, zona di guerra";
     dct:created "2023-11-04" ;
     dct:creator vocang:omiccioliRiccardo, vocang:orlandoNicola, vocang:pertosaLorenzo .
+
+vocang:schiaffetta
+    a vocang:Parolangelo ;
+    skos:prefLabel "Schiaffetta"@it ;
+    lexinfo:pronunciation "/schiaf • fèt • ta/"@it ;
+    skos:definition "Schiaffo dato utilizzando il seno."@it ;
+    skos:example "Ieri ho ricevuto una schiaffetta. È stata abbastanza dolorosa, ma non mi è dispiaciuta visto che era da parte di Lucia!"@it;
+    schema:keywords "schiaffo, tette, seno, donna, ragazza, schiaffeggiare";
+    dct:created "2023-11-05" ;
+    dct:creator vocang:ribaudoSofia .
