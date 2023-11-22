@@ -8865,3 +8865,14 @@ vocang:periculo
     schema:keywords "fastidio, natiche, indumento, scomodo, tanga, pantalone";
     dct:created "2023-11-15" ;
     dct:creator vocang:ribaudoSofia .
+
+vocang:scopàmico
+    a vocang:Parolangelo ;
+    skos:prefLabel "Scopàmico"@it ;
+    lexinfo:pronunciation "/sco • pà • mi • co/"@it ;
+    skos:definition "Scopamico che non lo è per motivi non legati alla volontà di esserlo."@it ;
+    skos:example "Io e Viola siamo scopàmici. Nessuno dei due lo vuole davvero, vogliamo solo ingelosire un ragazzo che piace ad entrambi!"@it;
+    schema:keywords "amico, scopare, sesso, carino, interessato";
+    dct:created "2023-11-15" ;
+    skos:related "La parolangelo nasce a causa della cattiva pronuncia di Alexa." ;
+    dct:creator vocang:minoccheriAlessandra, vocang:filasetaAngelo .
