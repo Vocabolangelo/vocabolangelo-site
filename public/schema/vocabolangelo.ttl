@@ -8659,3 +8659,12 @@ vocang:cumdown
     dct:created "2023-11-02" ;
     skos:related vocang:asessare, vocang:ombrudino, vocang:sessorround, vocang:desesso ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:kebaboom
+    a vocang:Parolangelo ;
+    skos:prefLabel "Kebaboom"@it ;
+    skos:definition "Kebab estremamente piccante."@it, "Luogo abilitato a vendere kebab che rimane aperto nonostante si trovi in una zona di guerra."@it ;
+    skos:example "Ho mangiato un kebaboom. Era molto piccante, e sono quasi morto, ma mi è piaciuto! Rispetto al panino Inferno è stato facilissimo da mangiare!"@it;
+    schema:keywords "kebab, piccante, cibo, mangiare, piccantissimo, peperoncino, guerra, aperto, zona di guerra";
+    dct:created "2023-11-04" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:orlandoNicola, vocang:pertosaLorenzo .
