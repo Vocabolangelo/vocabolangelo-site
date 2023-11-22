@@ -8908,3 +8908,13 @@ vocang:vagliola
     schema:keywords "vagina, vulva, figa, orifizio, stretta, trappola, orso, tagliola" ;
     dct:created "2023-11-16" ;
     dct:creator vocang:filasetaAngelo, vocang:nardiniArianna .
+
+vocang:nateriale
+    a vocang:Parolangelo ;
+    skos:prefLabel "Nateriale"@it ;
+    lexinfo:pronunciation "/na • te • rià • le/"@it ;
+    skos:definition "Materiale natalizio, ad esempio le decorazioni a tema come gli alberi di natale e i bastoncini di zucchero."@it ;
+    skos:example "La mia ragazza è ossessionata col nateriale, svuoterebbe i negozi!"@it ;
+    schema:keywords "natale, materiale, decorazioni, albero, palline, vischio" ;
+    dct:created "2023-11-18" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
