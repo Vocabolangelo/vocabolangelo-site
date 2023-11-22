@@ -8720,3 +8720,13 @@ vocang:emmare
     schema:keywords "pensare, rispondere, interrogazione, domanda, riflessione, onomatopea";
     dct:created "2023-11-07" ;
     dct:creator vocang:bianchiniGiovanni, vocang:filasetaAngelo .
+
+vocang:vaginazione
+    a vocang:Parolangelo ;
+    skos:prefLabel "Vaginazione"@it ;
+    lexinfo:pronunciation "/va • gi • na • zió • ne/"@it ;
+    skos:definition "Iniezione di ormoni femminili."@it ;
+    skos:example "Matteo ieri ha fatto la sua prima vaginazione! Presto diventerà una donna!"@it;
+    schema:keywords "iniezione, ormoni, femminili, donna, sesso, cambiamento";
+    dct:created "2023-11-09" ;
+    dct:creator vocang:filasetaAngelo .
