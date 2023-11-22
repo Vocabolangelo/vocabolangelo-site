@@ -8812,3 +8812,13 @@ vocang:scoinvolgimento
     schema:keywords "coinvolgimento, sconvolgimento, scappare, morire, paralizzato";
     dct:created "2023-11-12" ;
     dct:creator vocang:ribaudoSofia .
+
+vocang:morigerazione
+    a vocang:Parolangelo ;
+    skos:prefLabel "Morigerazione"@it ;
+    lexinfo:pronunciation "/mo • ri • ge • ra • zió • ne/"@it ;
+    skos:definition "Tempo che intercorre tra la morte e la resurrezione."@it, "Evento che trasforma un morto in uno zombie"@it ;
+    skos:example "In alcuni film sugli zombie la morigerazione è molto breve, mentre in altri è molto lunga."@it, "Durante la morigerazione di Gesù Cristo, la gente veramente credente utilizzava trucifissi per difendersi dai non fedeli"@it ;
+    schema:keywords "morte, resurrezione, tempo, intercorrere, zombi, zombie";
+    dct:created "2023-11-12" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:bragariAlexandru .
