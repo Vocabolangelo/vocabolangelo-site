@@ -8783,3 +8783,12 @@ vocang:agguatto
     schema:keywords "attacco, gatto, agguato";
     dct:created "2023-11-11" ;
     dct:creator vocang:suscaMatteo .
+
+vocang:purrsciutto
+    a vocang:Parolangelo ;
+    skos:prefLabel "Purrsciutto"@it ;
+    skos:definition "Prosciutto di gatto."@it ;
+    skos:example "Ho mangiato un purrsciutto al ristorante cinese. Era molto buono, ma non mi è piaciuto sapere che era di gatto!"@it;
+    schema:keywords "prosciutto, gatto, mangiare, cibo";
+    dct:created "2023-11-12" ;
+    dct:creator vocang:filasetaAngelo, vocang:chatGPT .
