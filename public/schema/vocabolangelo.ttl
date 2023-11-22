@@ -8740,3 +8740,13 @@ vocang:fablottare
     schema:keywords "lottare, combattimento, violento, aggraziato, stiloso";
     dct:created "2023-11-10" ;
     dct:creator vocang:ribaudoSofia .
+
+vocang:molotuomo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Molotuomo"@it ;
+    lexinfo:pronunciation "/mo • lo • tuò • mo/"@it ;
+    skos:definition "Variante di un kamikaze il quale ingerisce litri di alcool (o di un superalcolico a gradazione molto elevata) per poi darsi fuoco/ingerire qualcosa che faccia accendere l'alcool, in modo tale da divenire una bomba incendiaria umana."@it ;
+    skos:example "A quella festa c'erano troppi controlli così Angelo si è offerto di farmi da molotuomo: ha fatto fatica ad arrivare in piedi a destinazione ma avessi visto che fiammata poi!"@it;
+    schema:keywords "kamikaze, alcool, superalcolico, bomba, incendiaria, umana, fiammata";
+    dct:created "2023-11-11" ;
+    dct:creator vocang:pertosaLorenzo .
