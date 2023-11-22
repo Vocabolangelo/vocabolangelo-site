@@ -8689,3 +8689,14 @@ vocang:compleorgia
     skos:related vocang:asessare, vocang:ombrudino, vocang:sessorround, vocang:desesso, vocang:cumdown ;
     dct:created "2023-10-17" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:filolofo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Filolofo"@it ;
+    lexinfo:pronunciation "/fi • lò • lo • fo/"@it ;
+    skos:definition "Studioso di collagne."@it ;
+    skos:example "Ieri rientrando in Umbria ho incontrato un filolofo umbriaco. Era molto interessato alle collagne che si trovano in Italia! Ha rotolato fino in fondo alla collagna su cui si trovava e si è addormentato."@it;
+    schema:keywords "collagna, collina, montagna, montagne, studio, studiare, interessato" ;
+    skos:related vocang:collagna ;
+    dct:created "2023-11-05" ;
+    dct:creator vocang:bragariAlexandru, vocang:nardiniArianna .
