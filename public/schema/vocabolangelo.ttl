@@ -8822,3 +8822,13 @@ vocang:morigerazione
     schema:keywords "morte, resurrezione, tempo, intercorrere, zombi, zombie";
     dct:created "2023-11-12" ;
     dct:creator vocang:omiccioliRiccardo, vocang:bragariAlexandru .
+
+vocang:incoerestronzo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Incoerestronzo"@it ;
+    lexinfo:pronunciation "/in • co • e • re • strón • zo/"@it ;
+    skos:definition "Persona invadente che si intromette negli affari altrui e cerca di convincere gli individui a compiere azioni sfavorevoli a loro vantaggio, sotto il pretesto di assistere un terzo soggetto. Tuttavia, quando si trovano nella posizione di dover compiere le medesime azioni a loro beneficio, mostrano indifferenza o ignorano deliberatamente la situazione."@it ;
+    skos:example "Nella mia vita ho avuto a che fare con un solo incoerestronzo. Lo ho aiutato ma quando ho avuto bisogno di lui ha fatto finta di non conoscermi!"@it;
+    schema:keywords "persona, incoerente, intromettersi, convincere, ignorare, stronzo, cattivo, umano";
+    dct:created "2023-11-13" ;
+    dct:creator vocang:nardiniArianna, vocang:ribaudoSofia .
