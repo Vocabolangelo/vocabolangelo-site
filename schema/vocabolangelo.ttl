@@ -8649,3 +8649,64 @@ vocang:cantyeur
     schema:keywords "cantiere, anziano, lavori, guardare, umarell";
     dct:created "2023-11-01" ;
     dct:creator vocang:orlandoNicola, vocang:omiccioliRiccardo .
+
+vocang:cumdown
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cumdown"@it ;
+    skos:definition "Conto alla rovescia che viene preannunciato poco prima di un orgasmo."@it ;
+    skos:example "Ieri la mia ragazza mi ha fatto un cumdown. È stato molto eccitante e ci ha azzeccato in pieno!"@it;
+    schema:keywords "conto alla rovescia, sesso, eccitante, orgasmo, coito, countdown";
+    dct:created "2023-11-02" ;
+    skos:related vocang:asessare, vocang:ombrudino, vocang:sessorround, vocang:desesso ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:kebaboom
+    a vocang:Parolangelo ;
+    skos:prefLabel "Kebaboom"@it ;
+    skos:definition "Kebab estremamente piccante."@it, "Luogo abilitato a vendere kebab che rimane aperto nonostante si trovi in una zona di guerra."@it ;
+    skos:example "Ho mangiato un kebaboom. Era molto piccante, e sono quasi morto, ma mi è piaciuto! Rispetto al panino Inferno è stato facilissimo da mangiare!"@it;
+    schema:keywords "kebab, piccante, cibo, mangiare, piccantissimo, peperoncino, guerra, aperto, zona di guerra";
+    dct:created "2023-11-04" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:orlandoNicola, vocang:pertosaLorenzo .
+
+vocang:schiaffetta
+    a vocang:Parolangelo ;
+    skos:prefLabel "Schiaffetta"@it ;
+    lexinfo:pronunciation "/schiaf • fèt • ta/"@it ;
+    skos:definition "Schiaffo dato utilizzando il seno."@it ;
+    skos:example "Ieri ho ricevuto una schiaffetta. È stata abbastanza dolorosa, ma non mi è dispiaciuta visto che era da parte di Lucia!"@it;
+    schema:keywords "schiaffo, tette, seno, donna, ragazza, schiaffeggiare";
+    dct:created "2023-11-05" ;
+    dct:creator vocang:ribaudoSofia .
+
+vocang:compleorgia
+    a vocang:Parolangelo ;
+    skos:prefLabel "Compleorgia"@it ;
+    lexinfo:pronunciation "/com • ple • òr • gia/"@it ;
+    skos:definition "Orgia svolta nel giorno del compleanno di qualcuno dei partecipanti."@it ;
+    skos:example "Ieri abbiamo regalato ad Alberto una compleorgia. È stato molto felice e ha deciso di prolungarla fino a tarda notte!"@it;
+    schema:keywords "orgia, sesso, divertente, compleanno";
+    skos:related vocang:asessare, vocang:ombrudino, vocang:sessorround, vocang:desesso, vocang:cumdown ;
+    dct:created "2023-10-17" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:filolofo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Filolofo"@it ;
+    lexinfo:pronunciation "/fi • lò • lo • fo/"@it ;
+    skos:definition "Studioso di collagne."@it ;
+    skos:example "Ieri rientrando in Umbria ho incontrato un filolofo umbriaco. Era molto interessato alle collagne che si trovano in Italia! Ha rotolato fino in fondo alla collagna su cui si trovava e si è addormentato."@it;
+    schema:keywords "collagna, collina, montagna, montagne, studio, studiare, interessato" ;
+    skos:related vocang:collagna ;
+    dct:created "2023-11-05" ;
+    dct:creator vocang:bragariAlexandru, vocang:nardiniArianna .
+
+vocang:filmao
+    a vocang:Parolangelo ;
+    skos:prefLabel "Filmao"@it ;
+    lexinfo:pronunciation "/fil • mào/"@it ;
+    skos:definition "Film comico che fa molto ridere."@it ;
+    skos:example "Ieri ho visto \"Il grande Lebowski\". È stato un filmao assurdo!"@it;
+    schema:keywords "film, comico, divertente, ridere, esilarante";
+    dct:created "2023-11-06" ;
+    dct:creator vocang:omiccioliRiccardo .
