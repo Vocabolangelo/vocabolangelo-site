@@ -8710,3 +8710,13 @@ vocang:filmao
     schema:keywords "film, comico, divertente, ridere, esilarante";
     dct:created "2023-11-06" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:emmare
+    a vocang:Parolangelo ;
+    skos:prefLabel "Emmare"@it ;
+    lexinfo:pronunciation "/em • mà • re/"@it ;
+    skos:definition "Articolare una risposta simulando un processo di riflessione, mediante l'impiego di un'espressione onomatopeica come \"mhhh\", in risposta a una domanda posta."@it ;
+    skos:example "Ieri all'interrogazione Matteo ha iniziato a emmare. Il professore ha capito che non sapeva nulla!"@it;
+    schema:keywords "pensare, rispondere, interrogazione, domanda, riflessione, onomatopea";
+    dct:created "2023-11-07" ;
+    dct:creator vocang:bianchiniGiovanni, vocang:filasetaAngelo .
