@@ -8649,3 +8649,13 @@ vocang:cantyeur
     schema:keywords "cantiere, anziano, lavori, guardare, umarell";
     dct:created "2023-11-01" ;
     dct:creator vocang:orlandoNicola, vocang:omiccioliRiccardo .
+
+vocang:cumdown
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cumdown"@it ;
+    skos:definition "Conto alla rovescia che viene preannunciato poco prima di un orgasmo."@it ;
+    skos:example "Ieri la mia ragazza mi ha fatto un cumdown. È stato molto eccitante e ci ha azzeccato in pieno!"@it;
+    schema:keywords "conto alla rovescia, sesso, eccitante, orgasmo, coito, countdown";
+    dct:created "2023-11-02" ;
+    skos:related vocang:asessare, vocang:ombrudino, vocang:sessorround, vocang:desesso ;
+    dct:creator vocang:omiccioliRiccardo .
