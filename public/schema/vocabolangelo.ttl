@@ -8761,3 +8761,14 @@ vocang:eiaculabbiocco
     skos:related vocang:asessare, vocang:ombrudino, vocang:sessorround, vocang:desesso, vocang:cumdown, vocang:compleorgia ;
     dct:created "2023-11-11" ;
     dct:creator vocang:minoccheriAlessandra .
+
+
+vocang:azkbar
+    a vocang:Parolangelo ;
+    skos:prefLabel "Azkbar"@it ;
+    skos:definition "Caffetteria presente all'interno della prigione di Azkaban."@it ;
+    skos:example "L'altro giorno è scoppiata una rissa tra maghi ad Azkabar, meno male che i dissenatorte sono intervenuti eliminando l'oggetto della contesa."@it ;
+    schema:keywords "caffetteria, prigione, maghi, dissenatorte, oggetto, contesa";
+    skos:related vocang:dissennatorte ;
+    dct:created "2023-11-11" ;
+    dct:creator vocang:pertosaLorenzo, vocang:scattoniAlessandra .
