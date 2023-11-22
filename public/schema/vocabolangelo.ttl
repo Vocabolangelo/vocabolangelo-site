@@ -8845,3 +8845,13 @@ vocang:ruostica
     skos:note "Questa è la prima parola inventata da Angela che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/ruostica.jpg" ;
     dct:creator vocang:filasetaAngelo, vocang:cortecchiaAngela .
+
+vocang:yarissa
+    a vocang:Parolangelo ;
+    skos:prefLabel "Yarissa"@it ;
+    skos:definition "Rissa tra due o più persone che utilizzano delle autovetture."@it ;
+    skos:example "Ieri ho visto una yarissa. Era molto pericolosa, perché le persone che guidavano erano molto arrabbiate!"@it;
+    schema:keywords "rissa, auto, yaris, arma, pericoloso, arrabbiato, demolition derby";
+    dct:created "2023-11-15" ;
+    skos:related vocang:semigriglissa, vocang:semirissa ;
+    dct:creator vocang:omiccioliRiccardo, vocang:filasetaAngelo .
