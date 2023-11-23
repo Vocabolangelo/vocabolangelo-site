@@ -8937,5 +8937,16 @@ vocang:senigabbia
     skos:definition "Città in cui vivere è orribile (anche da un punto di vista soggettivo) e da cui si vorrebbe fuggire."@it ;
     skos:example "Non importa cosa mi dicano gli altri; Pesaro è una vera Senigabbia!"@it;
     schema:keywords "città, brutto, orribile, fuggire, vivere, scappare, villaggio, posto";
+    skos:related vocang:criminese ;
     dct:created "2023-11-18" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:chiavite
+    a vocang:Parolangelo ;
+    skos:prefLabel "Chiavite"@it ;
+    lexinfo:pronunciation "/chia • vì • te/"@it ;
+    skos:definition "Chiave che ha la punta di un cacciavite."@it ;
+    skos:example "Ieri ho utilizzato una chiavite per avvitare una vite. È stato molto utile!"@it;
+    schema:keywords "chiave, vite, cacciavite, svitare, utile, avvitare";
+    dct:created "2023-11-19" ;
+    dct:creator vocang:minoccheriAlessandra .
