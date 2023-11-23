@@ -8982,3 +8982,13 @@ vocang:feliciatto
     skos:related vocang:omnicio ;
     dct:created "2023-11-19" ;
     dct:creator vocang:battaglinoNicole .
+
+vocang:disfunzioneRettile
+    a vocang:Slangelo ;
+    skos:prefLabel "Disfunzione rettile"@it ;
+    lexinfo:pronunciation "/dis • fun • zió • ne/ /ret • tì • le/"@it ;
+    skos:definition "Situazione che si verifica con il passare degli anni nella quale una persona comincia a diventare sempre più freddolosa e dipendente dal sole e nel ricevere calore."@it ;
+    skos:example "Penso Nicola sofrra di disfunzione rettile. Un tempo andava in giro in maniche corte in Islanda; ora mette il piumone d'estate!"@it; 
+    schema:keywords "freddoloso, sole, calore, dipendente, caldo, disfunzione, rettile, lucertola";
+    dct:created "2023-11-19" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:bragariAlexandru .
