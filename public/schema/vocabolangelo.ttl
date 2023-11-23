@@ -8918,3 +8918,14 @@ vocang:nateriale
     schema:keywords "natale, materiale, decorazioni, albero, palline, vischio" ;
     dct:created "2023-11-18" ;
     dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
+
+vocang:senapolo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Senapolo"@it ;
+    lexinfo:pronunciation "/se • na • pò • lo/"@it ;
+    skos:definition "Semaforo che non viene rispettato, spesso collocato nella città di Napoli."@it ;
+    skos:example "Ieri mi hanno suonato davanti ad un semaforo rosso. Solo allora ho capito che era un senapolo, quindi dato che ero in ritardo sono passato imitando gli altri!"@it;
+    schema:keywords "semaforo, rosso, verde, giallo, pericoloso, napoli";
+    dct:created "2023-11-18" ;
+    skos:related vocang:napolontano, vocang:napoletone ;
+    dct:creator vocang:omiccioliRiccardo, vocang:ribaudoSofia .
