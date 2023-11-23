@@ -8950,3 +8950,13 @@ vocang:chiavite
     schema:keywords "chiave, vite, cacciavite, svitare, utile, avvitare";
     dct:created "2023-11-19" ;
     dct:creator vocang:minoccheriAlessandra .
+
+vocang:intronzo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Intronzo"@it ;
+    lexinfo:pronunciation "/in • tròn • zo/"@it ;
+    skos:definition "Persona che cade in errori banali e facilmente evitabili, commettendo figure meschine. Nei casi più gravi porta alla perdita della propria reputazione e valore umano. "@it ;
+    skos:example "Ho rovesciato tutte le bottiglie di birra sul pavimento del magazzino e ho fatto un vero disastro. Sono stato lincenziato e mia moglie mi ha lasciato. Ho deciso di darmi all'alcolismo... Sono un vero intronzo!"@it;
+    schema:keywords "persona, errori, dignità, umano, valore, reputazione, banale, facile, evitabile, meschino";
+    dct:created "2023-11-19" ;
+    dct:creator vocang:morettiLeonardo, vocang:ciurnelliLuna .
