@@ -8992,3 +8992,13 @@ vocang:disfunzioneRettile
     schema:keywords "freddoloso, sole, calore, dipendente, caldo, disfunzione, rettile, lucertola";
     dct:created "2023-11-19" ;
     dct:creator vocang:omiccioliRiccardo, vocang:bragariAlexandru .
+
+vocang:lemaoInibitore
+    a vocang:Parolangelo ;
+    skos:prefLabel "Lemao inibitore"@it ;
+    lexinfo:pronunciation "/le • mà • o/ /i • ni • bi • tò • re/"@it ;
+    skos:definition "Farmaco che come effetto collaterale causano la depressione."@it ;
+    skos:example "Ieri ho preso un lemao inibitore per far guarire la gastrite. Sono diventato molto triste e ho iniziato a piangere. Oggi ho voglia di taglairmi le vene e gettarmi da una scogliera."@it;
+    schema:keywords "farmaco, effetto collaterale, depressione, triste, piangere";
+    dct:created "2023-11-20" ;
+    dct:creator vocang:pertosaLorenzo .
