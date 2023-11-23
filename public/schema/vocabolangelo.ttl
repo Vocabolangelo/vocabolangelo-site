@@ -8929,3 +8929,13 @@ vocang:senapolo
     dct:created "2023-11-18" ;
     skos:related vocang:napolontano, vocang:napoletone ;
     dct:creator vocang:omiccioliRiccardo, vocang:ribaudoSofia .
+
+vocang:senigabbia
+    a vocang:Parolangelo ;
+    skos:prefLabel "Senigabbia"@it ;
+    lexinfo:pronunciation "/se • ni • gàb • bia/"@it ;
+    skos:definition "Città in cui vivere è orribile (anche da un punto di vista soggettivo) e da cui si vorrebbe fuggire."@it ;
+    skos:example "Non importa cosa mi dicano gli altri; Pesaro è una vera Senigabbia!"@it;
+    schema:keywords "città, brutto, orribile, fuggire, vivere, scappare, villaggio, posto";
+    dct:created "2023-11-18" ;
+    dct:creator vocang:pertosaLorenzo .
