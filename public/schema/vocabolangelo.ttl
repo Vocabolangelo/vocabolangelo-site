@@ -8971,3 +8971,14 @@ vocang:felicio
     skos:related vocang:omnicio ;
     dct:created "2023-11-19" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:feliciatto
+    a vocang:Parolangelo ;
+    skos:prefLabel "Feliciatto"@it ;
+    lexinfo:pronunciation "/fe • li • ciàt • to/"@it ;
+    skos:definition "Obesatto molto felice."@it ;
+    skos:example "Ieri ho visto un feliciatto che aveva appena ricevuto in regalo tonnellate di pesce!"@it;
+    schema:keywords "gatto, felice, animale, felino";
+    skos:related vocang:omnicio ;
+    dct:created "2023-11-19" ;
+    dct:creator vocang:battaglinoNicole .
