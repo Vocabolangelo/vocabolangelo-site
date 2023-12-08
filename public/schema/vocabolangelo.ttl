@@ -9013,17 +9013,6 @@ vocang:aliassalitore
     dct:created "2023-11-21" ;
     dct:creator vocang:filasetaAngelo .
 
-vocang:aliassalto
-    a vocang:Parolangelo ;
-    skos:prefLabel "Aliassalto"@it ;
-    lexinfo:pronunciation "/a • li • as • sàl • to/"@it ;
-    skos:definition "Assalto di una preda da parte di uno o più aliassalitori."@it ;
-    skos:example "Quei corvi hanno massacrato quel criceto! È stato un vero e proprio aliassalto!"@it ;
-    schema:keywords "volatile, violento, attaccare, preda, uccello, animale";
-    skos:related vocang:aliassalitore ;
-    dct:created "2023-11-21" ;
-    dct:creator vocang:filasetaAngelo .
-
 vocang:assalatore
     a vocang:Parolangelo ;
     skos:prefLabel "Assalatore"@it ;
@@ -9044,3 +9033,25 @@ vocang:vordemicio
     skos:related vocang:omnicio ;
     dct:created "2023-11-21" ;
     dct:creator vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:bdeouiEddy .
+
+vocang:assaliatore
+    a vocang:Parolangelo ;
+    skos:prefLabel "Assaliatore"@it ;
+    lexinfo:pronunciation "/as • sa • lià • to • re/"@it ;
+    skos:definition "Individuo che assale persone, animali, o cose dotate di ali."@it ;
+    skos:example "Ieri ho visto un assaliatore che assaliva un uccello con un sasso. È stato molto violento, ma sembrava un ninja in quanto ad agilità!"@it;
+    schema:keywords "assalire, assalto, violento, individuo, persona, animale, cosa";
+    dct:created "2023-11-21" ;
+    skos:related vocang:aliassalto, vocang:assalatore, vocang:aliassalitore ;
+    dct:creator vocang:orlandoNicola, vocang:rosatelliAnna .
+
+vocang:frucca
+    a vocang:Parolangelo ;
+    skos:prefLabel "Frucca"@it ;
+    lexinfo:pronunciation "/frùc • ca/"@it ;
+    skos:definition "Frutta che somiglia ad una mucca."@it, "Mucca che mangia frutta"@it, "Frutta molto difficile da frullare."@it ;
+    skos:example "C'era della frucca al mercato in città. Chissà se lo fanno aposta a creare frutti che sembrano delle mucche!"@it, "Quella frucca non avrà mai problemi di salute dato che mangia così tanti mandarini!"@it ;
+    schema:keywords "frutto, mucca, animale, frutta, strano, bizzarro, stravagante" ;
+    dct:created "2023-11-12" ;
+    skos:related vocang:angurianesimo ;
+    dct:creator vocang:omiccioliRiccardo, vocang:bragariAlexandru, vocang:battaglinoNicole .
