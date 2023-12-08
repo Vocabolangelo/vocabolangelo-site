@@ -1,5 +1,40 @@
 # Changelog
 
+## [6.17.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v6.16.0...v6.17.0) (2023-12-08)
+
+
+### Features
+
+* **parolangelo:** agguatto ([3c7f2c4](https://github.com/Vocabolangelo/vocabolangelo-site/commit/3c7f2c483ee979a00af6d572bd325e8f26725296))
+* **parolangelo:** azkbar ([000ce60](https://github.com/Vocabolangelo/vocabolangelo-site/commit/000ce6034e76306333ca7dd41d523e771d315fe8))
+* **parolangelo:** catastroforno ([c9b3498](https://github.com/Vocabolangelo/vocabolangelo-site/commit/c9b34988529c6f4580bd11ebcb64f2e15e933ea1))
+* **parolangelo:** chiavite ([817bbbc](https://github.com/Vocabolangelo/vocabolangelo-site/commit/817bbbc844befa0ddf3b54d069b34e58ae9e602e))
+* **parolangelo:** eiaculabbiocco ([ebdf6e2](https://github.com/Vocabolangelo/vocabolangelo-site/commit/ebdf6e26ad9d0ac0e05037e20dd3225acbcca0d0))
+* **parolangelo:** emmare ([9b39329](https://github.com/Vocabolangelo/vocabolangelo-site/commit/9b3932973b8379c09b8b35540d44e4cf5f79cc22))
+* **parolangelo:** fablottare ([222fc9c](https://github.com/Vocabolangelo/vocabolangelo-site/commit/222fc9c42df5c5549935fbfa795ee4224a64e5f8))
+* **parolangelo:** feliciatto ([0b5ee31](https://github.com/Vocabolangelo/vocabolangelo-site/commit/0b5ee31e847721e0a042a089988193e2fe5e4b40))
+* **parolangelo:** felicio ([07658c0](https://github.com/Vocabolangelo/vocabolangelo-site/commit/07658c08c1df62a250e7bfc6485c19cb8de986b7))
+* **parolangelo:** incoerestronzo ([1b1bbeb](https://github.com/Vocabolangelo/vocabolangelo-site/commit/1b1bbebdd916423339e6de6ca5ea8b069c3c34a5))
+* **parolangelo:** intronzo ([e2fe4e5](https://github.com/Vocabolangelo/vocabolangelo-site/commit/e2fe4e56785e5bff878f0180430f15cf0939f38d))
+* **parolangelo:** molotuomo ([f31c338](https://github.com/Vocabolangelo/vocabolangelo-site/commit/f31c3386ea48c8a5b5b9f38606b48850e85823cd))
+* **parolangelo:** morigerazione ([e44b571](https://github.com/Vocabolangelo/vocabolangelo-site/commit/e44b571ec4c435975bb7bd122b73840f5dd3a4d7))
+* **parolangelo:** nateriale ([3b1a572](https://github.com/Vocabolangelo/vocabolangelo-site/commit/3b1a572f643d48b84b67d7901382c33a4775c118))
+* **parolangelo:** periculo ([ab93f5d](https://github.com/Vocabolangelo/vocabolangelo-site/commit/ab93f5db53f7df5e42637d9787754f087fe92e7d))
+* **parolangelo:** purrsciutto ([cb72bd6](https://github.com/Vocabolangelo/vocabolangelo-site/commit/cb72bd6b7d7ae6a3f4605fbd8ed611314fe4f902))
+* **parolangelo:** raggivulva ([4bdb365](https://github.com/Vocabolangelo/vocabolangelo-site/commit/4bdb365e8658eddfe1556aa83c6aaf45dafaee91))
+* **parolangelo:** raggivulvare ([ea90ab8](https://github.com/Vocabolangelo/vocabolangelo-site/commit/ea90ab8302da015256b754293316b2112bbc10c8))
+* **parolangelo:** ruostica ([c12e5f9](https://github.com/Vocabolangelo/vocabolangelo-site/commit/c12e5f911b8690559f2259fc8885854637dc5ebf))
+* **parolangelo:** scoinvolgimento ([2e0e1a7](https://github.com/Vocabolangelo/vocabolangelo-site/commit/2e0e1a7075fd3fc2d15fe4c5131a49b351fee789))
+* **parolangelo:** scopàmico ([ad83936](https://github.com/Vocabolangelo/vocabolangelo-site/commit/ad839365d88043ef5f00a7831b0690c0bd5cf319))
+* **parolangelo:** senapolo ([826aaf4](https://github.com/Vocabolangelo/vocabolangelo-site/commit/826aaf4480bfc6c2378ff0814df95740425561d1))
+* **parolangelo:** senigabbia ([7fb1ad7](https://github.com/Vocabolangelo/vocabolangelo-site/commit/7fb1ad7bcc51b5efdc13a5049c22c7c167ed353b))
+* **parolangelo:** vaginazione ([c0b5bc4](https://github.com/Vocabolangelo/vocabolangelo-site/commit/c0b5bc4f881098cfa5f4ba59ad7c59d7d21efe88))
+* **parolangelo:** vagliola ([ac9818c](https://github.com/Vocabolangelo/vocabolangelo-site/commit/ac9818c7efe9c3843f85c44d77c5b7eb1c30130b))
+* **parolangelo:** yarissa ([0c28e4e](https://github.com/Vocabolangelo/vocabolangelo-site/commit/0c28e4ec61203fd605991e9d5318f641d4b840ef))
+* **slangelo:** disfunzione rettile ([99c6a26](https://github.com/Vocabolangelo/vocabolangelo-site/commit/99c6a26e60f74e03c8491385d4b35de9ccc60e4f))
+* **slangelo:** lemao inibitore ([2d9bdff](https://github.com/Vocabolangelo/vocabolangelo-site/commit/2d9bdff4079bf977c345d9e166f20ee1b55d1a3d))
+* **vocaboliere:** Angela Cortecchia ([0d6b672](https://github.com/Vocabolangelo/vocabolangelo-site/commit/0d6b6726bcb6ad8073c32a056137108abfddc381))
+
 ## [6.16.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v6.15.0...v6.16.0) (2023-11-22)
 
 
