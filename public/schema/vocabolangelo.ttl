@@ -8972,7 +8972,6 @@ vocang:felicio
     dct:created "2023-11-19" ;
     dct:creator vocang:pertosaLorenzo .
 
-
 vocang:feliciatto
     a vocang:Parolangelo ;
     skos:prefLabel "Feliciatto"@it ;
@@ -9011,5 +9010,16 @@ vocang:aliassalitore
     skos:definition "Volatile particolarmente violento che attacca ripetutamente una preda."@it ;
     skos:example "Ieri ho visto fuori dalla finestra un aliassalitore che attaccava ripetutamente un coniglio. Alla fine lo ha ucciso e ci ha banchettato!"@it;
     schema:keywords "volatile, violento, attaccare, preda, uccello, animale";
+    dct:created "2023-11-21" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:aliassalto
+    a vocang:Parolangelo ;
+    skos:prefLabel "Aliassalto"@it ;
+    lexinfo:pronunciation "/a • li • as • sàl • to/"@it ;
+    skos:definition "Assalto di una preda da parte di uno o più aliassalitori."@it ;
+    skos:example "Quei corvi hanno massacrato quel criceto! È stato un vero e proprio aliassalto!"@it ;
+    schema:keywords "volatile, violento, attaccare, preda, uccello, animale";
+    skos:related vocang:aliassalitore ;
     dct:created "2023-11-21" ;
     dct:creator vocang:filasetaAngelo .
