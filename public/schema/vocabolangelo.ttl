@@ -8972,6 +8972,7 @@ vocang:felicio
     dct:created "2023-11-19" ;
     dct:creator vocang:pertosaLorenzo .
 
+
 vocang:feliciatto
     a vocang:Parolangelo ;
     skos:prefLabel "Feliciatto"@it ;
@@ -9002,3 +9003,13 @@ vocang:lemaoInibitore
     schema:keywords "farmaco, effetto collaterale, depressione, triste, piangere";
     dct:created "2023-11-20" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:aliassalitore
+    a vocang:Parolangelo ;
+    skos:prefLabel "Aliassalitore"@it ;
+    lexinfo:pronunciation "/a • li • as • sa • li • tò • re/"@it ;
+    skos:definition "Volatile particolarmente violento che attacca ripetutamente una preda."@it ;
+    skos:example "Ieri ho visto fuori dalla finestra un aliassalitore che attaccava ripetutamente un coniglio. Alla fine lo ha ucciso e ci ha banchettato!"@it;
+    schema:keywords "volatile, violento, attaccare, preda, uccello, animale";
+    dct:created "2023-11-21" ;
+    dct:creator vocang:filasetaAngelo .
