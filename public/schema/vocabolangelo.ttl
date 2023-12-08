@@ -9087,3 +9087,13 @@ vocang:handicappatto
     dct:created "2023-11-23" ;
     dct:creator vocang:pertosaLorenzo .
 
+vocang:orgoglione
+    a vocang:Parolangelo ;
+    skos:prefLabel "Orgoglione"@it ;
+    lexinfo:pronunciation "/or • go • gliò • ne/"@it ;
+    skos:definition "Persona definibile \"cogliona\", la quale però è orgogliosa di esserlo."@it ;
+    skos:example "Vegeta, in Dragon Ball Z, è proprio un orgoglione."@it;
+    schema:keywords "coglione, orgoglio, orgoglioso";
+    dct:created "2023-11-24" ;
+    skos:related vocang:palattia ;
+    dct:creator vocang:pertosaLorenzo .
