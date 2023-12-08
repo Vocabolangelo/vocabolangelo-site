@@ -9023,3 +9023,13 @@ vocang:aliassalto
     skos:related vocang:aliassalitore ;
     dct:created "2023-11-21" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:assalatore
+    a vocang:Parolangelo ;
+    skos:prefLabel "Assalatore"@it ;
+    lexinfo:pronunciation "/as • sa • là • to • re/"@it ;
+    skos:definition "Individuo che assale altre persone versando loro del sale degli occhi."@it ;
+    skos:example "Il nostro amico Riccardo una volta in campeggio ha fatto l'assalatore. Ha versato del sale negli occhi ad un ragazzo che ha urlato fortissimo!"@it;
+    schema:keywords "sale, occhi, assalire, assalto, attacco, individuo, persona";
+    dct:created "2023-11-21" ;
+    dct:creator vocang:filasetaAngelo, vocang:rosatelliAnna .
