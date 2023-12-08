@@ -9056,3 +9056,12 @@ vocang:frucca
     skos:related vocang:angurianesimo ;
     dct:creator vocang:omiccioliRiccardo, vocang:bragariAlexandru, vocang:battaglinoNicole .
 
+vocang:senaforo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Senaforo"@it ;
+    lexinfo:pronunciation "/se • nà • fo • ro/"@it ;
+    skos:definition "Semaforo immaginario adottato da un meccanismo del corpo umano che cerca sempre di mantenere una narice libera dal muco per permettere di respirare."@it ;
+    skos:example "Lo scorso sabato il mio senaforo mi ha salvato la vita. È stato molto fastidioso non poter respirare a causa del Covid, ma almeno non sono morto!"@it;
+    schema:keywords "narice, muco, respirare, seno, corpo, umano, fastidioso, respirazione";
+    dct:created "2023-11-18" ;
+    dct:creator vocang:battaglinoNicole, vocang:bragariAlexandru .
