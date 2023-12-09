@@ -9214,3 +9214,14 @@ vocang:brullismo
     skos:related vocang:gatturismo ;
     dct:created "2023-11-28" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:brullo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Brullo"@it ;
+    lexinfo:pronunciation "/brùl • lo/"@it ;
+    skos:definition "Persona che prova disgusto e odio nei confronti di paesaggi spogli, preferendo scenari più ricchi, vari e abbondanti. Un brullo potrebbe lavorare attivamente per migliorare o abbellire i luoghi che ritiene poco attraenti, promuovendo la piantumazione di alberi, l'aggiunta di elementi architettonici o qualsiasi altra azione che possa arricchire l'aspetto del paesaggio."@it ;
+    skos:example "Francesco ha piantato 100 nuovi alberi nel terreno vicino casa sua, e' proprio un brullo."@it ;
+    schema:keywords "nudo, spoglio, deserto, alberi, vegetazione, paesaggio, brullismo";
+    skos:related vocang:brullismo ;
+    dct:created "2023-11-28" ;
+    dct:creator vocang:omiccioliRiccardo .
