@@ -9108,3 +9108,13 @@ vocang:nasinfonia
     schema:keywords "musica, naso, soffiare, soffiarsi, suonare, suono, suonare, suonatore, direttore d'orchestra, orchestra";
     dct:created "2023-11-24" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:alturlena
+    a vocang:Parolangelo ;
+    skos:prefLabel "Alturlena"@it ;
+    lexinfo:pronunciation "/al • tur • lè • na/"@it ;
+    skos:definition "Altalena particolarmente rumorosa, che sembra urlare quando viene utilizzata."@it ;
+    skos:example "Ho fatto andare la mia ragazza su una alturlena, non riuscivo più a sentirla!"@it ;
+    schema:keywords "altalena, urlare, rumore, parco giochi, gioco, bambino, bambina, divertente";
+    dct:created "2023-11-26" ;
+    dct:creator vocang:battaglinoNicole, vocang:filasetaAngelo, vocang:orlandoNicola .
