@@ -9240,9 +9240,19 @@ vocang:trullismo
 vocang:ferbole
     a vocang:Parolangelo ;
     skos:prefLabel "Ferbole"@it ;
-    lexinfo:pronunciation "/fer • bò • le/"@it ;
+    lexinfo:pronunciation "/fér • bo • le/"@it ;
     skos:definition "Debole a causa di una ferita, la quale però provoca un fortissimo malessere fisico."@it ;
     skos:example "Anna è stata molto ferbole oggi dopo essersi tagliata con la carta. Si è buttata a terra urlando!"@it ;
     schema:keywords "ferita, debolezza, malessere, fisico, dolore, cicatrice";
     dct:created "2023-11-29" ;
     dct:creator vocang:ribaudoSofia .
+
+vocang:febrole
+    a vocang:Parolangelo ;
+    skos:prefLabel "Febrole"@it ;
+    lexinfo:pronunciation "/fé • bro • le/"@it ;
+    skos:definition "Debole a causa di una febbre, la quale provoca un fortissimo malessere fisico."@it ;
+    skos:example "Angelo per tre mesi è stato estremamente febrole. La febbre era solo a 37.5 ma è durata tantissimo!"@it ;
+    schema:keywords "debole, febbricola, febbre, malessere, fisico, dolore, cicatrice";
+    dct:created "2023-11-29" ;
+    dct:creator vocang:nardiniArianna .
