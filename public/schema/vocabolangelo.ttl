@@ -9129,3 +9129,14 @@ vocang:creperia
     skos:related vocang:biribì ;
     dct:created "2023-11-26" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:cremeria
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cremeria"@it ;
+    lexinfo:pronunciation "/cre • me • rìa/"@it ;
+    skos:definition "Luogo in cui vengono riempite le bare di crema al fine di addolcire il triste atto della sepoltura."@it ;
+    skos:example "Abbiamo fatto riempito la barra di nonna Emma di crema. Lei amava mangiarne a fiumi al biribì!"@it ;
+    schema:keywords "crema, morte, triste, cane, animale, felice, ";
+    skos:related vocang:biribì ;
+    dct:created "2023-11-26" ;
+    dct:creator vocang:pertosaLorenzo, vocang:battaglinoNicole .
