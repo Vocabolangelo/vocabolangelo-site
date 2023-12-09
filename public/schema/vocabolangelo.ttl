@@ -9118,3 +9118,14 @@ vocang:alturlena
     schema:keywords "altalena, urlare, rumore, parco giochi, gioco, bambino, bambina, divertente";
     dct:created "2023-11-26" ;
     dct:creator vocang:battaglinoNicole, vocang:filasetaAngelo, vocang:orlandoNicola .
+
+vocang:creperia
+    a vocang:Parolangelo ;
+    skos:prefLabel "Creperia"@it ;
+    lexinfo:pronunciation "/cre • pè • ria/"@it ;
+    skos:definition "Posto in cui viene pratica l'eutanasia."@it ;
+    skos:example "Ieri sono stato costretto a portato il mio cane in una creperia. È stato molto triste, ma almeno è morto senza soffrire! Ora che ci penso però avrei potuto portarlo ad un biribì..."@it;
+    schema:keywords "eutanasia, morte, triste, cane, animale, felice";
+    skos:related vocang:biribì ;
+    dct:created "2023-11-26" ;
+    dct:creator vocang:pertosaLorenzo .
