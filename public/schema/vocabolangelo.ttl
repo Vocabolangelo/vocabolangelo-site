@@ -9162,3 +9162,12 @@ vocang:oltretombola
     skos:related vocang:biribì ;
     dct:created "2023-11-27" ;
     dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
+
+vocang:gambugang
+    a vocang:Parolangelo ;
+    skos:prefLabel "Gambugang"@it ;
+    skos:definition "Trovarsi circondati da qualcosa e incapacitati a fuggire."@it ;
+    skos:example "Nella foresta, delle canne di bambù mi hanno fatto una gambugang! È stato spaventoso sono rimasto intrappolato per ore!"@it ;
+    schema:keywords "circondato, fuggire, gabbia, cerchio";
+    dct:created "2023-11-27" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
