@@ -9151,3 +9151,14 @@ vocang:burrino
     skos:related vocang:collagna;
     dct:created "2023-11-27" ;
     dct:creator vocang:ribaudoSofia .
+
+vocang:oltretombola
+    a vocang:Parolangelo ;
+    skos:prefLabel "Oltretombola"@it ;
+    lexinfo:pronunciation "/ol • tre • tom • bò • la/"@it ;
+    skos:definition "Variante della tombola che si tiene in un biribí. Include premi che sono accessori utili alla propria dipartita come fiori, candele votive, icone sacre e simili."@it ;
+    skos:example "Ho fatto cinquina all'oltretombola! Ho vinto un cerino che probabilmente finirà vicino alla mia lapide."@it ;
+    schema:keywords "tombola, biribì, premio, fiori, candela, icona sacra, dipartita, morte, triste, felice, cinquina, quaterna, terna, ambo";
+    skos:related vocang:biribì ;
+    dct:created "2023-11-27" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
