@@ -9171,3 +9171,13 @@ vocang:gambugang
     schema:keywords "circondato, fuggire, gabbia, cerchio";
     dct:created "2023-11-27" ;
     dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
+
+vocang:forchiello
+    a vocang:Parolangelo ;
+    skos:prefLabel "Forchiello"@it ;
+    lexinfo:pronunciation "/for • chièl • lo/"@it ;
+    skos:definition "Posata formata da forchetta, cucchiaio e coltello legati insieme."@it ;
+    skos:example "Ieri ho mangiato con un forchiello. È stato molto comodo, perché non ho dovuto cambiare posate!"@it ;
+    schema:keywords "forchetta, cucchiaio, coltello, posata, mangiare, comodo";
+    dct:created "2023-11-27" ;
+    dct:creator vocang:omiccioliRiccardo .
