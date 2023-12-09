@@ -9140,3 +9140,14 @@ vocang:cremeria
     skos:related vocang:biribì ;
     dct:created "2023-11-26" ;
     dct:creator vocang:pertosaLorenzo, vocang:battaglinoNicole .
+
+vocang:burrino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Burrino"@it ;
+    lexinfo:pronunciation "/bur • rì • no/"@it ;
+    skos:definition "Burrone di piccole dimensioni."@it ;
+    skos:example "Marco è caduto da un burrino! Si è fratturato un dito..."@it ;
+    schema:keywords "burrone, piccolo, pericoloso, montagna, montagne";
+    skos:related vocang:collagna;
+    dct:created "2023-11-27" ;
+    dct:creator vocang:ribaudoSofia .
