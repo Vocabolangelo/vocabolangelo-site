@@ -9256,3 +9256,13 @@ vocang:febrole
     schema:keywords "debole, febbricola, febbre, malessere, fisico, dolore, cicatrice";
     dct:created "2023-11-29" ;
     dct:creator vocang:nardiniArianna .
+
+vocang:patanello
+    a vocang:Parolangelo ;
+    skos:prefLabel "Patanello"@it ;
+    lexinfo:pronunciation "/pa • ta • nèl • lo/"@it ;
+    skos:definition "L'atto di limonare una persona dopo del cunillingus."@it ;
+    skos:example "L'altra sera ho fatto un patanello a Maria... Si è bagnata tutta!"@it ;
+    schema:keywords "patata, leccare, felice, uomo, donna, ragazza, ragazzo, lionare, bacio, limone";
+    dct:created "2023-11-30" ;
+    dct:creator vocang:battaglinoNicole .
