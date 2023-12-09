@@ -9286,3 +9286,14 @@ vocang:amomolo
     schema:keywords "verso, lattante, bambino, neonato";
     dct:created "2023-12-09" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:amomolare
+    a vocang:Parolangelo ;
+    skos:prefLabel "Amomolare"@it ;
+    lexinfo:pronunciation "/a • mo • mo • là • re/"@it ;
+    skos:definition "Emettere un amomolo."@it ;
+    skos:example "Ieri ho sentito il figlio di Germina amomolare. È stato carinissimo! Ora anche io voglio un bibino!"@it ;
+    schema:keywords "verso, lattante, bambino, neonato";
+    skos:related vocang:bibino, vocang:amomolo ;
+    dct:created "2023-12-01" ;
+    dct:creator vocang:filasetaAngelo .
