@@ -9297,3 +9297,14 @@ vocang:amomolare
     skos:related vocang:bibino, vocang:amomolo ;
     dct:created "2023-12-01" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:ombelisco
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ombelisco"@it ;
+    lexinfo:pronunciation "/om • be • lì • sco/"@it ;
+    skos:definition "Ombelico estremamente estroflesso."@it ;
+    skos:example "Alessandra è nata con un ombelisco. Lo odia ma io lo trovo molto carino!"@it ;
+    schema:keywords "ombelico, estroflesso, pancia"@it ;
+    dct:created "2023-12-02" ;
+    dct:creator vocang:suscaMatteo, vocang:suscaAlessandra .
+    
