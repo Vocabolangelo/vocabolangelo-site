@@ -9186,8 +9186,19 @@ vocang:cadulta
     a vocang:Parolangelo ;
     skos:prefLabel "Cadulta"@it ;
     lexinfo:pronunciation "/ca • dùl • ta/"@it ;
-    skos:definition "Caduta provocata dalla proiezione di una catapulta.."@it ;
+    skos:definition "Caduta provocata dalla proiezione di una catapulta."@it ;
     skos:example "Gianmarco ha fatto una cadulta strepitosa. Ha detto che è stato molto doloroso, ma almeno è atterrato in un prato!"@it ;
     schema:keywords "caduta, catapulta, lanciare, lancio, terra, atterrare, doloroso";
     dct:created "2023-11-28" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:cadultare
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cadultare"@it ;
+    lexinfo:pronunciation "/ca • dul • tà • re/"@it ;
+    skos:definition "Cadere a causa della proiezione di una catapulta."@it ;
+    skos:example "Sono cadultato all'interno del castello. Il piano era quello di infiltrari ma ora ho tutte le ossa rotte e i forconi puntati contro!"@it ;
+    schema:keywords "caduta, catapulta, lanciare, lancio, terra, atterrare, doloroso";
+    skos:related vocang:cadulta;
+    dct:created "2023-11-28" ;
+    dct:creator vocang:filasetaAngelo .
