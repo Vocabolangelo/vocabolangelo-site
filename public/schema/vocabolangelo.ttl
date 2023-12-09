@@ -9181,3 +9181,13 @@ vocang:forchiello
     schema:keywords "forchetta, cucchiaio, coltello, posata, mangiare, comodo";
     dct:created "2023-11-27" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:cadulta
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cadulta"@it ;
+    lexinfo:pronunciation "/ca • dùl • ta/"@it ;
+    skos:definition "Caduta provocata dalla proiezione di una catapulta.."@it ;
+    skos:example "Gianmarco ha fatto una cadulta strepitosa. Ha detto che è stato molto doloroso, ma almeno è atterrato in un prato!"@it ;
+    schema:keywords "caduta, catapulta, lanciare, lancio, terra, atterrare, doloroso";
+    dct:created "2023-11-28" ;
+    dct:creator vocang:pertosaLorenzo .
