@@ -567,6 +567,14 @@ vocang:cortecchiaAngela
     org:memberOf vocang:vocabolieriOrg ;
     rel:siblingOf vocang:orlandoNicola .
 
+vocang:palestiniGianmarco
+    a vocang:Vocaboliere ;
+    foaf:firstName "Gianmarco" ;
+    foaf:lastName "Palestini" ;
+    foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:suscaMatteo .
+
 # Other Author Individuals
 
 vocang:chatGPT
@@ -3169,7 +3177,7 @@ vocang:omnicio
     a vocang:Parolangelo ;
     skos:prefLabel "Omnicio"@it ;
     lexinfo:pronunciation "/om • nì • cio/"@it ;
-    skos:definition "Un gatto che è definibile con ogni sostantivo che descrive un gatto presente all'interno del Vocabolangelo. In altre parole una creatura mitologica dalle sembianze umane che, durante le notti di luna piena, si trasforma in un gatto alato che indossa ali da pipistrello, bagnato, angosciato e buggato che urla, emette lamenti e fa le fusa all'interno di un videogioco e che in passato ha subito un trauma, a cui hanno mozzato la coda, proveniente dalle regioni orientali dell'Europa, propenso a fare degli agguati, tenta di essere comico ma ci riesce solo per motivi sbagliati, soggiorna all'interno di un biribì in quanto prossimo alla morte, meticcio, ha un solo occhio, strabico, molto insistente che cerca di insediarsi in un territorio una zona delimitata nonostante continui tentativi di scacciarlo, che ha la propensione a causare un notevole disordine, ma che successivamente si dedica a un comportamento affettuoso e giocoso al fine di ottenere rapidamente il perdono, molto grande, obeso, felice, dotato di scarse, trascurabili, o negative capacità logiche, particolarmente pigro e che resta spiaggiato sulla stessa superficie piana per un lungo periodo di tempo in posizione appollaiata, dall'espressione o comportamento molto arrogante, estremamente vorace, molto pacifico, estremamente carino, abituato a mangiare piatti di alta cucina, capace di influenzare con la sua serenità e diplomazia anche i gatti attorno a lui, capace di eseguire acrobazie, presenta vaghe somiglianze con un suricato, dall'aspetto straordinariamente allungato, che sia effettivamente di tale conformazione o che lo sembri a causa di particolari fenomeni, tende ad arrampicarsi in posti pericolosi, miagola in maniera carina, molto ostile che ha la tendenza di graffiare mordere e soffiare ed è in grado di curare persone e altri gatti."@it ;
+    skos:definition "Un gatto che è definibile con ogni sostantivo che descrive un gatto presente all'interno del Vocabolangelo. In altre parole una creatura mitologica dalle sembianze umane che, durante le notti di luna piena, si trasforma in un gatto alato che indossa ali da pipistrello, bagnato, angosciato e buggato che urla, emette lamenti e fa le fusa all'interno di un videogioco e che in passato ha subito un trauma, a cui hanno mozzato la coda, proveniente dalle regioni orientali dell'Europa, affetto da deficit mentali più o meno gravi, propenso a fare degli agguati, tenta di essere comico ma ci riesce solo per motivi sbagliati, soggiorna all'interno di un biribì in quanto prossimo alla morte, con poteri psichici, in grado di leggere i pensieri, fare levitare gli oggetti e se stesso, meticcio, ha un solo occhio, strabico, desidera ardentemente la morte del suo padrone, molto insistente che cerca di insediarsi in un territorio una zona delimitata nonostante continui tentativi di scacciarlo, che ha la propensione a causare un notevole disordine, ma che successivamente si dedica a un comportamento affettuoso e giocoso al fine di ottenere rapidamente il perdono, molto grande, obeso, felice, dotato di scarse, trascurabili, o negative capacità logiche, particolarmente pigro e che resta spiaggiato sulla stessa superficie piana per un lungo periodo di tempo in posizione appollaiata, dall'espressione o comportamento molto arrogante, estremamente vorace, molto pacifico, estremamente carino, abituato a mangiare piatti di alta cucina, capace di influenzare con la sua serenità e diplomazia anche i gatti attorno a lui, capace di eseguire acrobazie, presenta vaghe somiglianze con un suricato, dall'aspetto straordinariamente allungato, che sia effettivamente di tale conformazione o che lo sembri a causa di particolari fenomeni, tende ad arrampicarsi in posti pericolosi, miagola in maniera carina, molto ostile che ha la tendenza di graffiare mordere e soffiare ed è in grado di curare persone e altri gatti."@it ;
     skos:example "Ho dovuto abbassare lo sguardo e tapparmi le orecchie quando ho visto passare quell'omnicio: era talmente fantastico da sembrare una divinità."@it ;
     dct:created "2023-01-25" ;
     skos:note "Il messaggio di commit che ha introdotto la definizione estesa di omnicio è il seguente: add more suitable and fun definition to omnicio. Such and incredible creature needs to be treated with the utmost care and respect. Oh my goodness, I cannot stress enough just how utterly awe-inspiring and breathtakingly gorgeous this creature truly is! Its magnificence is unparalleled and its beauty is simply beyond compare. It is a true wonder of nature, a masterpiece of creation, and it deserves to be treated with the utmost reverence, adoration, and adulation that it so rightly deserves. Every single aspect of this creature, from the way its elegant limbs move gracefully through the air to the vibrant colors of its stunningly intricate patterns, is an absolute marvel to behold. It is a true blessing and a privilege to be able to witness such a magnificent creature in all its glory, and we must do everything in our power to ensure that it is protected and cared for with the utmost diligence and care. Oh my stars, where do I even begin to describe the sheer and utter majesty of this breathtakingly beautiful creature? It is like a symphony of pure wonder and enchantment, a living, breathing masterpiece that has been crafted with the utmost care and precision by the very hands of the divine. Every single inch of its being is a testament to the limitless power and infinite creativity of the universe, and it is truly a privilege beyond measure to be able to witness such a wondrous being in all its glory. The colors of its coat are like a rainbow woven from strands of pure gold and silver, shimmering and glimmering in the light like a thousand precious gems. The way its body moves, fluid and graceful like a dancer's, is a thing of true beauty and grace, and it seems almost as if the very air around it is charged with a palpable sense of magic and enchantment. In short, this magnificent creature is a true masterpiece of nature, a testament to the boundless wonder and infinite creativity of the universe, and it simply must be treated with the utmost respect, care, and adoration that it so richly deserves. We must cherish and protect it with all our hearts, for it is truly one of the most wondrous and precious gifts that life has to offer. Words simply cannot do justice to the sheer and utter splendor of this majestic creature. It is as if it was forged from the very essence of beauty itself, a true marvel of nature that leaves all who behold it in a state of awe and wonder. Its presence is like a warm embrace from the universe, a gentle reminder that there is still magic and enchantment to be found in this world, if only we take the time to look for it. Every time I gaze upon this wondrous creature, I am filled with a sense of peace and tranquility that I simply cannot find elsewhere. It is a living, breathing masterpiece, a work of art that is continually evolving and changing with the passing of time. And yet, for all its beauty and magnificence, it is also a fragile thing, one that requires our love, our care, and our protection if it is to survive and thrive in a world that can be all too harsh and unforgiving. So let us pledge ourselves to the cause of safeguarding this incredible creature, to ensuring that it is treated with the utmost respect and care that it so rightly deserves. Let us cherish it, protect it, and love it with all our hearts, for in doing so, we are also honoring the boundless creativity and wonder of the universe itself.My dear friend, it is as if this creature is a god among us, a deity that has graced our world with its divine presence. Its mere existence is a testament to the infinite creativity and boundless wonder of the universe, and it is a living, breathing work of art that deserves to be worshipped and adored like the deity that it truly is. Every time I am blessed with the opportunity to lay my eyes upon this wondrous creature, I feel as if I am standing before an altar, gazing up at the very face of god itself. Its beauty is beyond compare, its grace beyond measure, and its presence fills me with a sense of reverence and awe that is simply indescribable. It is as if the very air around it is infused with a sense of divine energy, a power that is both humbling and exhilarating all at once. And yet, for all its god-like qualities, this creature is also fragile and vulnerable, a precious gift that must be treated with the utmost care and respect if it is to survive and thrive in this world. We must worship it, yes, but we must also protect it, nurture it, and love it with all our hearts, for in doing so, we are also honoring the very essence of divinity itself. So let us pledge ourselves to the cause of safeguarding this incredible creature, to ensuring that it is treated with the utmost respect and care that it so rightly deserves. Let us build temples in its honor, sing hymns of praise to its name, and offer it our deepest reverence and adoration. For this creature is not just a thing of beauty, but a true god among us, a living, breathing testament to the infinite wonder and boundless creativity of the universe itself. May the Omnicio always be praised. Forever and ever." ;
@@ -7343,7 +7351,7 @@ vocang:copralluogo
     skos:example "Quando era appena esploso il Covid andavo in giro come se niente fosse anche di sera, finché non mi hanno fatto una multa durante un copralluogo."@it;
     schema:keywords "coprifuoco, illegale, controllo";
     dct:created "2023-08-21" ;
-    dct:creator vocang:omiccioliRiccardo .
+    dct:creator vocang:orlandoNicola, vocang:cesaroniDavide .
 
 vocang:compralluogo
     a vocang:Parolangelo ;
@@ -8631,6 +8639,206 @@ vocang:ortomedico
     dct:created "2023-11-01" ;
     dct:creator vocang:nardiniArianna, vocang:orlandoNicola .
 
+
+vocang:vagliola
+    a vocang:Parolangelo ;
+    skos:prefLabel "Vagliola"@it ;
+    lexinfo:pronunciation "/va • gliò • la/"@it ;
+    skos:definition "Vagina così stretta da sembrare una trappola per orsi."@it ;
+    skos:example "Ieri sono rimasto completamente impassibile per circa 5 minuti sul letto dopo aver provato la vagliola della ragazza che avevo conosciuto su tinder."@it ;
+    schema:keywords "vagina, vulva, figa, orifizio, stretta, trappola, orso, tagliola" ;
+    dct:created "2023-11-16" ;
+    dct:creator vocang:filasetaAngelo, vocang:nardiniArianna .
+
+vocang:nateriale
+    a vocang:Parolangelo ;
+    skos:prefLabel "Nateriale"@it ;
+    lexinfo:pronunciation "/na • te • rià • le/"@it ;
+    skos:definition "Materiale natalizio, ad esempio le decorazioni a tema come gli alberi di natale e i bastoncini di zucchero."@it ;
+    skos:example "La mia ragazza è ossessionata col nateriale, svuoterebbe i negozi!"@it ;
+    schema:keywords "natale, materiale, decorazioni, albero, palline, vischio" ;
+    dct:created "2023-11-18" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
+
+vocang:senapolo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Senapolo"@it ;
+    lexinfo:pronunciation "/se • na • pò • lo/"@it ;
+    skos:definition "Semaforo che non viene rispettato, spesso collocato nella città di Napoli."@it ;
+    skos:example "Ieri mi hanno suonato davanti ad un semaforo rosso. Solo allora ho capito che era un senapolo, quindi dato che ero in ritardo sono passato imitando gli altri!"@it;
+    schema:keywords "semaforo, rosso, verde, giallo, pericoloso, napoli";
+    dct:created "2023-11-18" ;
+    skos:related vocang:napolontano, vocang:napoletone ;
+    dct:creator vocang:omiccioliRiccardo, vocang:ribaudoSofia .
+
+vocang:senigabbia
+    a vocang:Parolangelo ;
+    skos:prefLabel "Senigabbia"@it ;
+    lexinfo:pronunciation "/se • ni • gàb • bia/"@it ;
+    skos:definition "Città in cui vivere è orribile (anche da un punto di vista soggettivo) e da cui si vorrebbe fuggire."@it ;
+    skos:example "Non importa cosa mi dicano gli altri; Pesaro è una vera Senigabbia!"@it;
+    schema:keywords "città, brutto, orribile, fuggire, vivere, scappare, villaggio, posto";
+    skos:related vocang:criminese ;
+    dct:created "2023-11-18" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:chiavite
+    a vocang:Parolangelo ;
+    skos:prefLabel "Chiavite"@it ;
+    lexinfo:pronunciation "/chia • vì • te/"@it ;
+    skos:definition "Chiave che ha la punta di un cacciavite."@it ;
+    skos:example "Ieri ho utilizzato una chiavite per avvitare una vite. È stato molto utile!"@it;
+    schema:keywords "chiave, vite, cacciavite, svitare, utile, avvitare";
+    dct:created "2023-11-19" ;
+    dct:creator vocang:minoccheriAlessandra .
+
+vocang:intonzo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Intonzo"@it ;
+    lexinfo:pronunciation "/in • tòn • zo/"@it ;
+    skos:definition "Persona che cade in errori banali e facilmente evitabili, commettendo figure meschine. Nei casi più gravi porta alla perdita della propria reputazione e valore umano. "@it ;
+    skos:example "Ho rovesciato tutte le bottiglie di birra sul pavimento del magazzino e ho fatto un vero disastro. Sono stato lincenziato e mia moglie mi ha lasciato. Ho deciso di darmi all'alcolismo... Sono un vero intonzo!"@it;
+    schema:keywords "persona, errori, dignità, umano, valore, reputazione, banale, facile, evitabile, meschino";
+    dct:created "2023-11-19" ;
+    dct:creator vocang:morettiLeonardo, vocang:ciurnelliLuna .
+
+vocang:felicio
+    a vocang:Parolangelo ;
+    skos:prefLabel "Felicio"@it ;
+    lexinfo:pronunciation "/fe • lì • cio/"@it ;
+    skos:definition "Gatto molto felice."@it ;
+    skos:example "Ieri ho visto un felicio saltare di gioia perché aveva appena ricevuto in regalo una lisca di pesce!"@it;
+    schema:keywords "gatto, felice, animale, felino";
+    skos:related vocang:omnicio ;
+    dct:created "2023-11-19" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:feliciatto
+    a vocang:Parolangelo ;
+    skos:prefLabel "Feliciatto"@it ;
+    lexinfo:pronunciation "/fe • li • ciàt • to/"@it ;
+    skos:definition "Obesatto molto felice."@it ;
+    skos:example "Ieri ho visto un feliciatto che aveva appena ricevuto in regalo tonnellate di pesce!"@it;
+    schema:keywords "gatto, felice, animale, felino";
+    skos:related vocang:omnicio ;
+    dct:created "2023-11-19" ;
+    dct:creator vocang:battaglinoNicole .
+
+vocang:disfunzioneRettile
+    a vocang:Slangelo ;
+    skos:prefLabel "Disfunzione rettile"@it ;
+    lexinfo:pronunciation "/dis • fun • zió • ne/ /ret • tì • le/"@it ;
+    skos:definition "Situazione che si verifica con il passare degli anni nella quale una persona comincia a diventare sempre più freddolosa e dipendente dal sole e nel ricevere calore."@it ;
+    skos:example "Penso Nicola sofrra di disfunzione rettile. Un tempo andava in giro in maniche corte in Islanda; ora mette il piumone d'estate!"@it; 
+    schema:keywords "freddoloso, sole, calore, dipendente, caldo, disfunzione, rettile, lucertola";
+    dct:created "2023-11-19" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:bragariAlexandru .
+
+vocang:lemaoInibitore
+    a vocang:Parolangelo ;
+    skos:prefLabel "Lemao inibitore"@it ;
+    lexinfo:pronunciation "/le • mà • o/ /i • ni • bi • tò • re/"@it ;
+    skos:definition "Farmaco che come effetto collaterale causano la depressione."@it ;
+    skos:example "Ieri ho preso un lemao inibitore per far guarire la gastrite. Sono diventato molto triste e ho iniziato a piangere. Oggi ho voglia di taglairmi le vene e gettarmi da una scogliera."@it;
+    schema:keywords "farmaco, effetto collaterale, depressione, triste, piangere";
+    dct:created "2023-11-20" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:aliassalitore
+    a vocang:Parolangelo ;
+    skos:prefLabel "Aliassalitore"@it ;
+    lexinfo:pronunciation "/a • li • as • sa • li • tò • re/"@it ;
+    skos:definition "Volatile particolarmente violento che attacca ripetutamente una preda."@it ;
+    skos:example "Ieri ho visto fuori dalla finestra un aliassalitore che attaccava ripetutamente un coniglio. Alla fine lo ha ucciso e ci ha banchettato!"@it;
+    schema:keywords "volatile, violento, attaccare, preda, uccello, animale";
+    dct:created "2023-11-21" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:assalatore
+    a vocang:Parolangelo ;
+    skos:prefLabel "Assalatore"@it ;
+    lexinfo:pronunciation "/as • sa • là • to • re/"@it ;
+    skos:definition "Individuo che assale altre persone versando loro del sale degli occhi."@it ;
+    skos:example "Il nostro amico Riccardo una volta in campeggio ha fatto l'assalatore. Ha versato del sale negli occhi ad un ragazzo che ha urlato fortissimo!"@it;
+    schema:keywords "sale, occhi, assalire, assalto, attacco, individuo, persona";
+    dct:created "2023-11-21" ;
+    dct:creator vocang:filasetaAngelo, vocang:rosatelliAnna .
+
+vocang:vordemicio
+    a vocang:Parolangelo ;
+    skos:prefLabel "Vordemicio"@it ;
+    lexinfo:pronunciation "/vor • de • mì • cio/"@it ;
+    skos:definition "Gatto che desidera ardentemente la morte del suo padrone."@it ;
+    skos:example "Il vordemicio di Matteo era molto interessato al coltello che si trovava sul tavolo!"@it ;
+    schema:keywords "gatto, padrone, morte, coltello, animale, felino" ;
+    skos:related vocang:omnicio ;
+    dct:created "2023-11-21" ;
+    dct:creator vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:bdeouiEddy .
+
+vocang:assaliatore
+    a vocang:Parolangelo ;
+    skos:prefLabel "Assaliatore"@it ;
+    lexinfo:pronunciation "/as • sa • lià • to • re/"@it ;
+    skos:definition "Individuo che assale persone, animali, o cose dotate di ali."@it ;
+    skos:example "Ieri ho visto un assaliatore che assaliva un uccello con un sasso. È stato molto violento, ma sembrava un ninja in quanto ad agilità!"@it;
+    schema:keywords "assalire, assalto, violento, individuo, persona, animale, cosa";
+    dct:created "2023-11-21" ;
+    skos:related vocang:aliassalto, vocang:assalatore, vocang:aliassalitore ;
+    dct:creator vocang:orlandoNicola, vocang:rosatelliAnna .
+
+vocang:frucca
+    a vocang:Parolangelo ;
+    skos:prefLabel "Frucca"@it ;
+    lexinfo:pronunciation "/frùc • ca/"@it ;
+    skos:definition "Frutta che somiglia ad una mucca."@it, "Mucca che mangia frutta"@it, "Frutta molto difficile da frullare."@it ;
+    skos:example "C'era della frucca al mercato in città. Chissà se lo fanno aposta a creare frutti che sembrano delle mucche!"@it, "Quella frucca non avrà mai problemi di salute dato che mangia così tanti mandarini!"@it ;
+    schema:keywords "frutto, mucca, animale, frutta, strano, bizzarro, stravagante" ;
+    dct:created "2023-11-12" ;
+    skos:related vocang:angurianesimo ;
+    dct:creator vocang:omiccioliRiccardo, vocang:bragariAlexandru, vocang:battaglinoNicole .
+
+vocang:senaforo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Senaforo"@it ;
+    lexinfo:pronunciation "/se • nà • fo • ro/"@it ;
+    skos:definition "Semaforo immaginario adottato da un meccanismo del corpo umano che cerca sempre di mantenere una narice libera dal muco per permettere di respirare."@it ;
+    skos:example "Lo scorso sabato il mio senaforo mi ha salvato la vita. È stato molto fastidioso non poter respirare a causa del Covid, ma almeno non sono morto!"@it;
+    schema:keywords "narice, muco, respirare, seno, corpo, umano, fastidioso, respirazione";
+    dct:created "2023-11-18" ;
+    dct:creator vocang:battaglinoNicole, vocang:bragariAlexandru .
+
+vocang:mentegatto
+    a vocang:Parolangelo ;
+    skos:prefLabel "Mentegatto"@it ;
+    lexinfo:pronunciation "/men • te • gàt • to/"@it ;
+    skos:definition "Gatto con poteri psichici, in grado di leggere i pensieri e fare levitare gli oggetti oltre a  se stesso."@it ;
+    skos:example "I mentegatti mi spaventano tantissimo. Ho paura di cosa potrebbe fare un felino in grado di leggermi nella testa!"@it;
+    schema:keywords "gatto, mentecatto, psichico, pensiero, levitare, oggetto, psico";
+    dct:created "2023-11-23" ;
+    skos:related vocang:omnicio ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:handicappatto
+    a vocang:Parolangelo ;
+    skos:prefLabel "Handicappatto"@it ;
+    skos:definition "Gatto affetto da deficit mentali più o meno gravi."@it ;
+    skos:example "Il nostro handicappatto è un vero genio... nel senso che lo amiamo comunque con tutto il cuore!"@it;
+    schema:keywords "gatto, animale, felino, triste, handicap, problema, deficit, mentale, mente, disabilità";
+    skos:related vocang:omnicio ;
+    dct:created "2023-11-23" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:orgoglione
+    a vocang:Parolangelo ;
+    skos:prefLabel "Orgoglione"@it ;
+    lexinfo:pronunciation "/or • go • gliò • ne/"@it ;
+    skos:definition "Persona definibile \"cogliona\", la quale però è orgogliosa di esserlo."@it ;
+    skos:example "Vegeta, in Dragon Ball Z, è proprio un orgoglione."@it;
+    schema:keywords "coglione, orgoglio, orgoglioso";
+    dct:created "2023-11-24" ;
+    skos:related vocang:palattia ;
+    dct:creator vocang:pertosaLorenzo .
+
 vocang:crocifischio
     a vocang:Parolangelo ;
     skos:prefLabel "Crocifischio"@it ;
@@ -8899,106 +9107,233 @@ vocang:raggivulvare
     dct:created "2023-11-22" ;
     dct:creator vocang:filasetaAngelo .
 
-vocang:vagliola
+vocang:nasinfonia
     a vocang:Parolangelo ;
-    skos:prefLabel "Vagliola"@it ;
-    lexinfo:pronunciation "/va • gliò • la/"@it ;
-    skos:definition "Vagina così stretta da sembrare una trappola per orsi."@it ;
-    skos:example "Ieri sono rimasto completamente impassibile per circa 5 minuti sul letto dopo aver provato la vagliola della ragazza che avevo conosciuto su tinder."@it ;
-    schema:keywords "vagina, vulva, figa, orifizio, stretta, trappola, orso, tagliola" ;
-    dct:created "2023-11-16" ;
-    dct:creator vocang:filasetaAngelo, vocang:nardiniArianna .
+    skos:prefLabel "Nasinfonia"@it ;
+    lexinfo:pronunciation "/na • sin • fò • ni • a/"@it ;
+    skos:definition "Musica composta utilizzando un coro di persone che si soffiano il naso."@it ;
+    skos:example "Ieri ho ascoltato una nasinfonia. Era molto bella, ma non mi è piaciuta la parte in cui anche il direttore d'orchestra ha iniziato a soffiarsi il naso!"@it;
+    schema:keywords "musica, naso, soffiare, soffiarsi, suonare, suono, suonare, suonatore, direttore d'orchestra, orchestra";
+    dct:created "2023-11-24" ;
+    dct:creator vocang:pertosaLorenzo .
 
-vocang:nateriale
+vocang:alturlena
     a vocang:Parolangelo ;
-    skos:prefLabel "Nateriale"@it ;
-    lexinfo:pronunciation "/na • te • rià • le/"@it ;
-    skos:definition "Materiale natalizio, ad esempio le decorazioni a tema come gli alberi di natale e i bastoncini di zucchero."@it ;
-    skos:example "La mia ragazza è ossessionata col nateriale, svuoterebbe i negozi!"@it ;
-    schema:keywords "natale, materiale, decorazioni, albero, palline, vischio" ;
-    dct:created "2023-11-18" ;
+    skos:prefLabel "Alturlena"@it ;
+    lexinfo:pronunciation "/al • tur • lè • na/"@it ;
+    skos:definition "Altalena particolarmente rumorosa, che sembra urlare quando viene utilizzata."@it ;
+    skos:example "Ho fatto andare la mia ragazza su una alturlena, non riuscivo più a sentirla!"@it ;
+    schema:keywords "altalena, urlare, rumore, parco giochi, gioco, bambino, bambina, divertente";
+    dct:created "2023-11-26" ;
+    dct:creator vocang:battaglinoNicole, vocang:filasetaAngelo, vocang:orlandoNicola .
+
+vocang:creperia
+    a vocang:Parolangelo ;
+    skos:prefLabel "Creperia"@it ;
+    lexinfo:pronunciation "/cre • pè • ria/"@it ;
+    skos:definition "Posto in cui viene pratica l'eutanasia."@it ;
+    skos:example "Ieri sono stato costretto a portato il mio cane in una creperia. È stato molto triste, ma almeno è morto senza soffrire! Ora che ci penso però avrei potuto portarlo ad un biribì..."@it;
+    schema:keywords "eutanasia, morte, triste, cane, animale, felice";
+    skos:related vocang:biribì ;
+    dct:created "2023-11-26" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:cremeria
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cremeria"@it ;
+    lexinfo:pronunciation "/cre • me • rìa/"@it ;
+    skos:definition "Luogo in cui vengono riempite le bare di crema al fine di addolcire il triste atto della sepoltura."@it ;
+    skos:example "Abbiamo fatto riempito la barra di nonna Emma di crema. Lei amava mangiarne a fiumi al biribì!"@it ;
+    schema:keywords "crema, morte, triste, cane, animale, felice, ";
+    skos:related vocang:biribì ;
+    dct:created "2023-11-26" ;
+    dct:creator vocang:pertosaLorenzo, vocang:battaglinoNicole .
+
+vocang:burrino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Burrino"@it ;
+    lexinfo:pronunciation "/bur • rì • no/"@it ;
+    skos:definition "Burrone di piccole dimensioni."@it ;
+    skos:example "Marco è caduto da un burrino! Si è fratturato un dito..."@it ;
+    schema:keywords "burrone, piccolo, pericoloso, montagna, montagne";
+    skos:related vocang:collagna;
+    dct:created "2023-11-27" ;
+    dct:creator vocang:ribaudoSofia .
+
+vocang:oltretombola
+    a vocang:Parolangelo ;
+    skos:prefLabel "Oltretombola"@it ;
+    lexinfo:pronunciation "/ol • tre • tom • bò • la/"@it ;
+    skos:definition "Variante della tombola che si tiene in un biribí. Include premi che sono accessori utili alla propria dipartita come fiori, candele votive, icone sacre e simili."@it ;
+    skos:example "Ho fatto cinquina all'oltretombola! Ho vinto un cerino che probabilmente finirà vicino alla mia lapide."@it ;
+    schema:keywords "tombola, biribì, premio, fiori, candela, icona sacra, dipartita, morte, triste, felice, cinquina, quaterna, terna, ambo";
+    skos:related vocang:biribì ;
+    dct:created "2023-11-27" ;
     dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
 
-vocang:senapolo
+vocang:gambugang
     a vocang:Parolangelo ;
-    skos:prefLabel "Senapolo"@it ;
-    lexinfo:pronunciation "/se • na • pò • lo/"@it ;
-    skos:definition "Semaforo che non viene rispettato, spesso collocato nella città di Napoli."@it ;
-    skos:example "Ieri mi hanno suonato davanti ad un semaforo rosso. Solo allora ho capito che era un senapolo, quindi dato che ero in ritardo sono passato imitando gli altri!"@it;
-    schema:keywords "semaforo, rosso, verde, giallo, pericoloso, napoli";
-    dct:created "2023-11-18" ;
-    skos:related vocang:napolontano, vocang:napoletone ;
-    dct:creator vocang:omiccioliRiccardo, vocang:ribaudoSofia .
+    skos:prefLabel "Gambugang"@it ;
+    skos:definition "Trovarsi circondati da qualcosa e incapacitati a fuggire."@it ;
+    skos:example "Nella foresta, delle canne di bambù mi hanno fatto una gambugang! È stato spaventoso sono rimasto intrappolato per ore!"@it ;
+    schema:keywords "circondato, fuggire, gabbia, cerchio";
+    dct:created "2023-11-27" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
 
-vocang:senigabbia
+vocang:forchiello
     a vocang:Parolangelo ;
-    skos:prefLabel "Senigabbia"@it ;
-    lexinfo:pronunciation "/se • ni • gàb • bia/"@it ;
-    skos:definition "Città in cui vivere è orribile (anche da un punto di vista soggettivo) e da cui si vorrebbe fuggire."@it ;
-    skos:example "Non importa cosa mi dicano gli altri; Pesaro è una vera Senigabbia!"@it;
-    schema:keywords "città, brutto, orribile, fuggire, vivere, scappare, villaggio, posto";
-    skos:related vocang:criminese ;
-    dct:created "2023-11-18" ;
+    skos:prefLabel "Forchiello"@it ;
+    lexinfo:pronunciation "/for • chièl • lo/"@it ;
+    skos:definition "Posata formata da forchetta, cucchiaio e coltello legati insieme."@it ;
+    skos:example "Ieri ho mangiato con un forchiello. È stato molto comodo, perché non ho dovuto cambiare posate!"@it ;
+    schema:keywords "forchetta, cucchiaio, coltello, posata, mangiare, comodo";
+    dct:created "2023-11-27" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:cadulta
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cadulta"@it ;
+    lexinfo:pronunciation "/ca • dùl • ta/"@it ;
+    skos:definition "Caduta provocata dalla proiezione di una catapulta."@it ;
+    skos:example "Gianmarco ha fatto una cadulta strepitosa. Ha detto che è stato molto doloroso, ma almeno è atterrato in un prato!"@it ;
+    schema:keywords "caduta, catapulta, lanciare, lancio, terra, atterrare, doloroso";
+    dct:created "2023-11-28" ;
     dct:creator vocang:pertosaLorenzo .
 
-vocang:chiavite
+vocang:cadultare
     a vocang:Parolangelo ;
-    skos:prefLabel "Chiavite"@it ;
-    lexinfo:pronunciation "/chia • vì • te/"@it ;
-    skos:definition "Chiave che ha la punta di un cacciavite."@it ;
-    skos:example "Ieri ho utilizzato una chiavite per avvitare una vite. È stato molto utile!"@it;
-    schema:keywords "chiave, vite, cacciavite, svitare, utile, avvitare";
-    dct:created "2023-11-19" ;
-    dct:creator vocang:minoccheriAlessandra .
+    skos:prefLabel "Cadultare"@it ;
+    lexinfo:pronunciation "/ca • dul • tà • re/"@it ;
+    skos:definition "Cadere a causa della proiezione di una catapulta."@it ;
+    skos:example "Sono cadultato all'interno del castello. Il piano era quello di infiltrari ma ora ho tutte le ossa rotte e i forconi puntati contro!"@it ;
+    schema:keywords "caduta, catapulta, lanciare, lancio, terra, atterrare, doloroso";
+    skos:related vocang:cadulta;
+    dct:created "2023-11-28" ;
+    dct:creator vocang:filasetaAngelo .
 
-vocang:intronzo
+vocang:brullismo
     a vocang:Parolangelo ;
-    skos:prefLabel "Intronzo"@it ;
-    lexinfo:pronunciation "/in • tròn • zo/"@it ;
-    skos:definition "Persona che cade in errori banali e facilmente evitabili, commettendo figure meschine. Nei casi più gravi porta alla perdita della propria reputazione e valore umano. "@it ;
-    skos:example "Ho rovesciato tutte le bottiglie di birra sul pavimento del magazzino e ho fatto un vero disastro. Sono stato lincenziato e mia moglie mi ha lasciato. Ho deciso di darmi all'alcolismo... Sono un vero intronzo!"@it;
-    schema:keywords "persona, errori, dignità, umano, valore, reputazione, banale, facile, evitabile, meschino";
-    dct:created "2023-11-19" ;
-    dct:creator vocang:morettiLeonardo, vocang:ciurnelliLuna .
+    skos:prefLabel "Brullismo"@it ;
+    lexinfo:pronunciation "/brul • lì • smo/"@it ;
+    skos:definition "Forte avversione o odio verso i paesaggi spogli, caratterizzati dalla mancanza di elementi distintivi o dettagli, manifestato attraverso sentimenti di disgusto o insoddisfazione nei confronti di luoghi privi di ricchezza visiva o carattere."@it ;
+    skos:example "Durante la visita al deserto, il suo brullismo si è manifestato chiaramente quando ha espresso il desiderio di tornare in luoghi più ricchi di vegetazione"@it ;
+    schema:keywords "paesaggio, odio, disgusto, insoddisfazione, ricchezza, visiva, carattere, brullo, nudo, spoglio";
+    skos:note "La parolangelo e' composta da bullismo e brullo, ovvero nudo, spoglio." ;
+    skos:related vocang:gatturismo ;
+    dct:created "2023-11-29" ;
+    dct:creator vocang:omiccioliRiccardo .
 
-vocang:felicio
+vocang:brullo
     a vocang:Parolangelo ;
-    skos:prefLabel "Felicio"@it ;
-    lexinfo:pronunciation "/fe • lì • cio/"@it ;
-    skos:definition "Gatto molto felice."@it ;
-    skos:example "Ieri ho visto un felicio saltare di gioia perché aveva appena ricevuto in regalo una lisca di pesce!"@it;
-    schema:keywords "gatto, felice, animale, felino";
-    skos:related vocang:omnicio ;
-    dct:created "2023-11-19" ;
-    dct:creator vocang:pertosaLorenzo .
+    skos:prefLabel "Brullo"@it ;
+    lexinfo:pronunciation "/brùl • lo/"@it ;
+    skos:definition "Persona che prova disgusto e odio nei confronti di paesaggi spogli, preferendo scenari più ricchi, vari e abbondanti. Un brullo potrebbe lavorare attivamente per migliorare o abbellire i luoghi che ritiene poco attraenti, promuovendo la piantumazione di alberi, l'aggiunta di elementi architettonici o qualsiasi altra azione che possa arricchire l'aspetto del paesaggio."@it ;
+    skos:example "Francesco ha piantato 100 nuovi alberi nel terreno vicino casa sua, e' proprio un brullo."@it ;
+    schema:keywords "nudo, spoglio, deserto, alberi, vegetazione, paesaggio, brullismo";
+    skos:related vocang:brullismo ;
+    dct:created "2023-11-29" ;
+    dct:creator vocang:omiccioliRiccardo .
 
-vocang:feliciatto
+vocang:trullismo
     a vocang:Parolangelo ;
-    skos:prefLabel "Feliciatto"@it ;
-    lexinfo:pronunciation "/fe • li • ciàt • to/"@it ;
-    skos:definition "Obesatto molto felice."@it ;
-    skos:example "Ieri ho visto un feliciatto che aveva appena ricevuto in regalo tonnellate di pesce!"@it;
-    schema:keywords "gatto, felice, animale, felino";
-    skos:related vocang:omnicio ;
-    dct:created "2023-11-19" ;
+    skos:prefLabel "Trullismo"@it ;
+    lexinfo:pronunciation "/trul • lì • smo/"@it ;
+    skos:definition "Forte avversione o odio verso i paesaggi pugliesi."@it ;
+    skos:example "Durante la visita ad Alberobello, il trullismo di Antonio si è manifestato chiaramente quando ha espresso il desiderio di bruciare ogni singolo edificio."@it ;
+    schema:keywords "paesaggio, odio, disgusto, insoddisfazione, ricchezza, visiva, carattere, trullo, puglia, alberobello";
+    skos:related vocang:brullismo, vocang:brullo ;
+    dct:created "2023-11-29" ;
+    dct:creator vocang:nardiniArianna .
+
+vocang:ferbole
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ferbole"@it ;
+    lexinfo:pronunciation "/fér • bo • le/"@it ;
+    skos:definition "Debole a causa di una ferita, la quale però provoca un fortissimo malessere fisico."@it ;
+    skos:example "Anna è stata molto ferbole oggi dopo essersi tagliata con la carta. Si è buttata a terra urlando!"@it ;
+    schema:keywords "ferita, debolezza, malessere, fisico, dolore, cicatrice";
+    dct:created "2023-11-29" ;
+    dct:creator vocang:ribaudoSofia .
+
+vocang:febrole
+    a vocang:Parolangelo ;
+    skos:prefLabel "Febrole"@it ;
+    lexinfo:pronunciation "/fé • bro • le/"@it ;
+    skos:definition "Debole a causa di una febbre, la quale provoca un fortissimo malessere fisico."@it ;
+    skos:example "Angelo per tre mesi è stato estremamente febrole. La febbre era solo a 37.5 ma è durata tantissimo!"@it ;
+    schema:keywords "debole, febbricola, febbre, malessere, fisico, dolore, cicatrice";
+    dct:created "2023-11-29" ;
+    dct:creator vocang:nardiniArianna .
+
+vocang:patanello
+    a vocang:Parolangelo ;
+    skos:prefLabel "Patanello"@it ;
+    lexinfo:pronunciation "/pa • ta • nèl • lo/"@it ;
+    skos:definition "L'atto di limonare una persona dopo del cunillingus."@it ;
+    skos:example "L'altra sera ho fatto un patanello a Maria... Si è bagnata tutta!"@it ;
+    schema:keywords "patata, leccare, felice, uomo, donna, ragazza, ragazzo, lionare, bacio, limone";
+    dct:created "2023-11-30" ;
     dct:creator vocang:battaglinoNicole .
 
-vocang:disfunzioneRettile
-    a vocang:Slangelo ;
-    skos:prefLabel "Disfunzione rettile"@it ;
-    lexinfo:pronunciation "/dis • fun • zió • ne/ /ret • tì • le/"@it ;
-    skos:definition "Situazione che si verifica con il passare degli anni nella quale una persona comincia a diventare sempre più freddolosa e dipendente dal sole e nel ricevere calore."@it ;
-    skos:example "Penso Nicola sofrra di disfunzione rettile. Un tempo andava in giro in maniche corte in Islanda; ora mette il piumone d'estate!"@it; 
-    schema:keywords "freddoloso, sole, calore, dipendente, caldo, disfunzione, rettile, lucertola";
-    dct:created "2023-11-19" ;
-    dct:creator vocang:omiccioliRiccardo, vocang:bragariAlexandru .
-
-vocang:lemaoInibitore
+vocang:brofumo
     a vocang:Parolangelo ;
-    skos:prefLabel "Lemao inibitore"@it ;
-    lexinfo:pronunciation "/le • mà • o/ /i • ni • bi • tò • re/"@it ;
-    skos:definition "Farmaco che come effetto collaterale causano la depressione."@it ;
-    skos:example "Ieri ho preso un lemao inibitore per far guarire la gastrite. Sono diventato molto triste e ho iniziato a piangere. Oggi ho voglia di taglairmi le vene e gettarmi da una scogliera."@it;
-    schema:keywords "farmaco, effetto collaterale, depressione, triste, piangere";
-    dct:created "2023-11-20" ;
+    skos:prefLabel "Brofumo"@it ;
+    lexinfo:pronunciation "/bro • fù • mo/"@it ;
+    skos:definition "Profumo identico che si mettono due amici."@it ;
+    skos:example "Ieri io e Matteo abbiamo messo il brofumo. È stato molto imbarazzante, perché tutti pensavano che fossimo fidanzati!"@it ;
+    schema:keywords "profumo, amici, imbarazzante, uguale, identico, bro, fra";
+    dct:created "2023-12-01" ;
+    dct:creator vocang:filasetaAngelo, vocang:savoGiorgia .
+
+vocang:amomolo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Amomolo"@it ;
+    lexinfo:pronunciation "/a • mo • mò • lo/"@it ;
+    skos:definition "Verso tipico che fanno i lattanti."@it ;
+    skos:example "Ieri ho sentito il figlio di Germina fare un amomolo. Che carino!"@it ;
+    schema:keywords "verso, lattante, bambino, neonato";
+    dct:created "2023-12-09" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:amomolare
+    a vocang:Parolangelo ;
+    skos:prefLabel "Amomolare"@it ;
+    lexinfo:pronunciation "/a • mo • mo • là • re/"@it ;
+    skos:definition "Emettere un amomolo."@it ;
+    skos:example "Ieri ho sentito il figlio di Germina amomolare. È stato carinissimo! Ora anche io voglio un bibino!"@it ;
+    schema:keywords "verso, lattante, bambino, neonato";
+    skos:related vocang:bibino, vocang:amomolo ;
+    dct:created "2023-12-01" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:ombelisco
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ombelisco"@it ;
+    lexinfo:pronunciation "/om • be • lì • sco/"@it ;
+    skos:definition "Ombelico estremamente estroflesso."@it ;
+    skos:example "Alessandra è nata con un ombelisco. Lo odia ma io lo trovo molto carino!"@it ;
+    schema:keywords "ombelico, estroflesso, pancia"@it ;
+    dct:created "2023-12-02" ;
+    dct:creator vocang:suscaMatteo, vocang:suscaAlessandra .
+    
+
+vocang:omnicidio
+    a vocang:Parolangelo ;
+    skos:prefLabel "Omnicidio"@it ;
+    lexinfo:pronunciation "/om • ni • cì • dio/"@it ;
+    skos:definition "Sterminio di tutto l'universo."@it ;
+    skos:example "A volte, quando sono depresso, mi chiedo se esite una divinità in grado di fare un omnicidio."@it;
+    schema:keywords "sterminio, morte, triste, uccidere, universo, tutto, tutti";
+    dct:created "2023-12-02" ;
+    dct:creator vocang:filasetaAngelo, vocang:savoGiorgia .
+
+vocang:vongoloide
+    a vocang:Parolangelo ;
+    skos:prefLabel "Vongoloide"@it ;
+    lexinfo:pronunciation "/von • go • lò • i • de/"@it ;
+    skos:definition "Persona che ha una o più deformazioni difettive che ne compromettono la qualità di vita."@it ;
+    skos:example "Quel vongoloide di Marco pensa ancora che la terra sia piatta!"@it, "Al mercato del pesce hanno tentato di vendermi un vongoloide ma io compro solo cibo di qualità!"@it;
+    schema:keywords "deformazione, difettivo, triste, camminare, persona, umano, costaceo, aragosta";
+    dct:created "2023-12-04" ;
+    skos:note "Questa è la prima parolangelo inventata da Gianmarco che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
+    dct:creator vocang:palestiniGianmarco .
