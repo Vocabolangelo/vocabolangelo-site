@@ -9098,3 +9098,13 @@ vocang:raggivulvare
     schema:keywords "raggiro, raggirula, sesso, efficace, inganno, menzogna, bugia";
     dct:created "2023-11-22" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:nasinfonia
+    a vocang:Parolangelo ;
+    skos:prefLabel "Nasinfonia"@it ;
+    lexinfo:pronunciation "/na • sin • fò • ni • a/"@it ;
+    skos:definition "Musica composta utilizzando un coro di persone che si soffiano il naso."@it ;
+    skos:example "Ieri ho ascoltato una nasinfonia. Era molto bella, ma non mi è piaciuta la parte in cui anche il direttore d'orchestra ha iniziato a soffiarsi il naso!"@it;
+    schema:keywords "musica, naso, soffiare, soffiarsi, suonare, suono, suonare, suonatore, direttore d'orchestra, orchestra";
+    dct:created "2023-11-24" ;
+    dct:creator vocang:pertosaLorenzo .
