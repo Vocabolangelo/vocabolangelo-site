@@ -9207,7 +9207,7 @@ vocang:brullismo
     a vocang:Parolangelo ;
     skos:prefLabel "Brullismo"@it ;
     lexinfo:pronunciation "/brul • lì • smo/"@it ;
-    skos:definition "FOrse avversione o odio verso i paesaggi spogli, caratterizzati dalla mancanza di elementi distintivi o dettagli, manifestato attraverso sentimenti di disgusto o insoddisfazione nei confronti di luoghi privi di ricchezza visiva o carattere."@it ;
+    skos:definition "Forte avversione o odio verso i paesaggi spogli, caratterizzati dalla mancanza di elementi distintivi o dettagli, manifestato attraverso sentimenti di disgusto o insoddisfazione nei confronti di luoghi privi di ricchezza visiva o carattere."@it ;
     skos:example "Durante la visita al deserto, il suo brullismo si è manifestato chiaramente quando ha espresso il desiderio di tornare in luoghi più ricchi di vegetazione"@it ;
     schema:keywords "paesaggio, odio, disgusto, insoddisfazione, ricchezza, visiva, carattere, brullo, nudo, spoglio";
     skos:note "La parolangelo e' composta da bullismo e brullo, ovvero nudo, spoglio." ;
@@ -9225,3 +9225,14 @@ vocang:brullo
     skos:related vocang:brullismo ;
     dct:created "2023-11-28" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:trullismo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Trullismo"@it ;
+    lexinfo:pronunciation "/trul • lì • smo/"@it ;
+    skos:definition "Forte avversione o odio verso i paesaggi pugliesi."@it ;
+    skos:example "Durante la visita ad Alberobello, il trullismo di Antonio si è manifestato chiaramente quando ha espresso il desiderio di bruciare ogni singolo edificio."@it ;
+    schema:keywords "paesaggio, odio, disgusto, insoddisfazione, ricchezza, visiva, carattere, trullo, puglia, alberobello";
+    skos:related vocang:brullismo, vocang:brullo ;
+    dct:created "2023-11-28" ;
+    dct:creator vocang:nardiniArianna .
