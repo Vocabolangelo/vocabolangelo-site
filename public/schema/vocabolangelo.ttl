@@ -567,6 +567,14 @@ vocang:cortecchiaAngela
     org:memberOf vocang:vocabolieriOrg ;
     rel:siblingOf vocang:orlandoNicola .
 
+vocang:palestiniGianmarco
+    a vocang:Vocaboliere ;
+    foaf:firstName "Gianmarco" ;
+    foaf:lastName "Palestini" ;
+    foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:suscaMatteo .
+
 # Other Author Individuals
 
 vocang:chatGPT
@@ -9308,3 +9316,13 @@ vocang:ombelisco
     dct:created "2023-12-02" ;
     dct:creator vocang:suscaMatteo, vocang:suscaAlessandra .
     
+
+vocang:omnicidio
+    a vocang:Parolangelo ;
+    skos:prefLabel "Omnicidio"@it ;
+    lexinfo:pronunciation "/om • ni • cì • dio/"@it ;
+    skos:definition "Sterminio di tutto l'universo."@it ;
+    skos:example "A volte, quando sono depresso, mi chiedo se esite una divinità in grado di fare un omnicidio."@it;
+    schema:keywords "sterminio, morte, triste, uccidere, universo, tutto, tutti";
+    dct:created "2023-12-02" ;
+    dct:creator vocang:filasetaAngelo, vocang:savoGiorgia .
