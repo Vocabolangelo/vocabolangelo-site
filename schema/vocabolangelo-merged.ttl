@@ -8270,6 +8270,13 @@
 <http://www.vocabolangelo.org/stazioneDisservizio> <https://schema.org/keywords> "stazione, servizio, chiusa, personale, abbandono, sporco, benzina, auto, autostrada, disservizio" .
 <http://www.vocabolangelo.org/stazioneDisservizio> <http://purl.org/dc/terms/created> "2023-12-04" .
 <http://www.vocabolangelo.org/stazioneDisservizio> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/boialer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/boialer> <http://www.w3.org/2004/02/skos/core#prefLabel> "Boialer"@it .
+<http://www.vocabolangelo.org/boialer> <http://www.w3.org/2004/02/skos/core#definition> "Boiler che tende a rompersi costantemente, in particolar modo durante l'inverno."@it .
+<http://www.vocabolangelo.org/boialer> <http://www.w3.org/2004/02/skos/core#example> "Il boialer di Nicola si è rotto di nuovo. Per lui non è stato un grande problema, ma tutti i suoi familiari sono quasi andati in ipotermia!"@it .
+<http://www.vocabolangelo.org/boialer> <https://schema.org/keywords> "boiler, rotto, inverno, triste, doccia, acqua, calda, fredda, casa, appartamento, bagno" .
+<http://www.vocabolangelo.org/boialer> <http://purl.org/dc/terms/created> "2023-12-04" .
+<http://www.vocabolangelo.org/boialer> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
 <http://www.vocabolangelo.org/invicio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/acquesca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/briscolo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -11577,6 +11584,7 @@
 <http://www.vocabolangelo.org/pulsone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/feticlista> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/feticlismo> .
 <http://www.vocabolangelo.org/feticlista> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/boialer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/calligrafite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/genomiccio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/mignocca> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/operatroia> .

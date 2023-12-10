@@ -9347,3 +9347,12 @@ vocang:stazioneDisservizio
     schema:keywords "stazione, servizio, chiusa, personale, abbandono, sporco, benzina, auto, autostrada, disservizio";
     dct:created "2023-12-04" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:boialer
+    a vocang:Parolangelo ;
+    skos:prefLabel "Boialer"@it ;
+    skos:definition "Boiler che tende a rompersi costantemente, in particolar modo durante l'inverno."@it ;
+    skos:example "Il boialer di Nicola si è rotto di nuovo. Per lui non è stato un grande problema, ma tutti i suoi familiari sono quasi andati in ipotermia!"@it;
+    schema:keywords "boiler, rotto, inverno, triste, doccia, acqua, calda, fredda, casa, appartamento, bagno";
+    dct:created "2023-12-04" ;
+    dct:creator vocang:pertosaLorenzo .
