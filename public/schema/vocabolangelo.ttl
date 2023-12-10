@@ -9337,3 +9337,13 @@ vocang:vongoloide
     dct:created "2023-12-04" ;
     skos:note "Questa è la prima parolangelo inventata da Gianmarco che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
     dct:creator vocang:palestiniGianmarco .
+
+vocang:stazioneDisservizio
+    a vocang:Slangelo ;
+    skos:prefLabel "Stazione disservizio"@it ;
+    lexinfo:pronunciation "/sta • zió • ne/ /dis • ser • vì • zio/"@it ;
+    skos:definition "Stazione di servizio perennemente chiusa, in cui manca personale oppure in stato evidente di abbandono."@it ;
+    skos:example "Sabato ho fatto benzina ad una stazione disservizio. Era molto sporca e non c'era nessuno, non sono riuscito a fare nulla!"@it;
+    schema:keywords "stazione, servizio, chiusa, personale, abbandono, sporco, benzina, auto, autostrada, disservizio";
+    dct:created "2023-12-04" ;
+    dct:creator vocang:pertosaLorenzo .
