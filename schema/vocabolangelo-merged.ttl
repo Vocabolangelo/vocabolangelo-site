@@ -8270,6 +8270,22 @@
 <http://www.vocabolangelo.org/stazioneDisservizio> <https://schema.org/keywords> "stazione, servizio, chiusa, personale, abbandono, sporco, benzina, auto, autostrada, disservizio" .
 <http://www.vocabolangelo.org/stazioneDisservizio> <http://purl.org/dc/terms/created> "2023-12-04" .
 <http://www.vocabolangelo.org/stazioneDisservizio> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/boialer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/boialer> <http://www.w3.org/2004/02/skos/core#prefLabel> "Boialer"@it .
+<http://www.vocabolangelo.org/boialer> <http://www.w3.org/2004/02/skos/core#definition> "Boiler che tende a rompersi costantemente, in particolar modo durante l'inverno."@it .
+<http://www.vocabolangelo.org/boialer> <http://www.w3.org/2004/02/skos/core#example> "Ieri ho avuto un problema con il mio boialer. È stato molto imbarazzante, perché non ho potuto far fare la doccia calda alla mia ragazza! Sempre a gennaio si rompe quel maledetto."@it .
+<http://www.vocabolangelo.org/boialer> <https://schema.org/keywords> "boiler, rompersi, inverno, acqua, calda, fredda, doccia" .
+<http://www.vocabolangelo.org/boialer> <http://purl.org/dc/terms/created> "2023-12-05" .
+<http://www.vocabolangelo.org/boialer> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/caminò> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/caminò> <http://www.w3.org/2004/02/skos/core#prefLabel> "Caminò"@it .
+<http://www.vocabolangelo.org/caminò> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/ca • mi • nò/"@it .
+<http://www.vocabolangelo.org/caminò> <http://www.w3.org/2004/02/skos/core#definition> "Camino che tende ad intasarsi con la fuliggine, spesso mentre è acceso."@it .
+<http://www.vocabolangelo.org/caminò> <http://www.w3.org/2004/02/skos/core#example> "Ieri ho acceso il caminò. Come volevasi dimostrare, siamo quasi esplosi."@it .
+<http://www.vocabolangelo.org/caminò> <https://schema.org/keywords> "camino, intasarsi, fuliggine, tecnico, imbarazzante, accendere, fuoco" .
+<http://www.vocabolangelo.org/caminò> <http://purl.org/dc/terms/created> "2023-12-05" .
+<http://www.vocabolangelo.org/caminò> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/caminò> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/nardiniArianna> .
 <http://www.vocabolangelo.org/invicio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/acquesca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/briscolo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -10610,6 +10626,7 @@
 <http://www.vocabolangelo.org/handicarrello> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/cacarrello> .
 <http://www.vocabolangelo.org/handicarrello> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/rimpanza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/caminò> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/pertosaLorenzo> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/suscaMatteo> .
 <http://www.vocabolangelo.org/pertosaLorenzo> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/morettiLeonardo> .
 <http://www.vocabolangelo.org/pertosaLorenzo> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/bianchiniGiovanni> .
@@ -11577,6 +11594,7 @@
 <http://www.vocabolangelo.org/pulsone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/feticlista> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/feticlismo> .
 <http://www.vocabolangelo.org/feticlista> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/boialer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/calligrafite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/genomiccio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/mignocca> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/operatroia> .
