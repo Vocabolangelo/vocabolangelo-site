@@ -9356,3 +9356,13 @@ vocang:boialer
     schema:keywords "boiler, rompersi, inverno, acqua, calda, fredda, doccia";
     dct:created "2023-12-05" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:caminò
+    a vocang:Parolangelo ;
+    skos:prefLabel "Caminò"@it ;
+    lexinfo:pronunciation "/ca • mi • nò/"@it ;
+    skos:definition "Camino che tende ad intasarsi con la fuliggine, spesso mentre è acceso."@it ;
+    skos:example "Ieri ho acceso il caminò. Come volevasi dimostrare, siamo quasi esplosi."@it;
+    schema:keywords "camino, intasarsi, fuliggine, tecnico, imbarazzante, accendere, fuoco";
+    dct:created "2023-12-05" ;
+    dct:creator vocang:pertosaLorenzo, vocang:nardiniArianna .
