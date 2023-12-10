@@ -8262,6 +8262,14 @@
 <http://www.vocabolangelo.org/vongoloide> <http://purl.org/dc/terms/created> "2023-12-04" .
 <http://www.vocabolangelo.org/vongoloide> <http://www.w3.org/2004/02/skos/core#note> "Questa è la prima parolangelo inventata da Gianmarco che è entrata nel Vocabolangelo, grazie e congratulazioni." .
 <http://www.vocabolangelo.org/vongoloide> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/palestiniGianmarco> .
+<http://www.vocabolangelo.org/stazioneDisservizio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Slangelo> .
+<http://www.vocabolangelo.org/stazioneDisservizio> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stazione disservizio"@it .
+<http://www.vocabolangelo.org/stazioneDisservizio> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/sta • zió • ne/ /dis • ser • vì • zio/"@it .
+<http://www.vocabolangelo.org/stazioneDisservizio> <http://www.w3.org/2004/02/skos/core#definition> "Stazione di servizio perennemente chiusa, in cui manca personale oppure in stato evidente di abbandono."@it .
+<http://www.vocabolangelo.org/stazioneDisservizio> <http://www.w3.org/2004/02/skos/core#example> "Sabato ho fatto benzina ad una stazione disservizio. Era molto sporca e non c'era nessuno, non sono riuscito a fare nulla!"@it .
+<http://www.vocabolangelo.org/stazioneDisservizio> <https://schema.org/keywords> "stazione, servizio, chiusa, personale, abbandono, sporco, benzina, auto, autostrada, disservizio" .
+<http://www.vocabolangelo.org/stazioneDisservizio> <http://purl.org/dc/terms/created> "2023-12-04" .
+<http://www.vocabolangelo.org/stazioneDisservizio> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
 <http://www.vocabolangelo.org/invicio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/acquesca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/briscolo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -10895,6 +10903,7 @@
 <http://www.vocabolangelo.org/catenangelo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/catenangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocaboreato> .
 <http://www.vocabolangelo.org/catenangelo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/vocabolangelare> .
+<http://www.vocabolangelo.org/stazioneDisservizio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Slangelo> .
 <http://www.vocabolangelo.org/bartello> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/notale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/sgattare> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/sgatto> .
