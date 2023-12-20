@@ -9366,3 +9366,12 @@ vocang:caminò
     schema:keywords "camino, intasarsi, fuliggine, tecnico, imbarazzante, accendere, fuoco";
     dct:created "2023-12-05" ;
     dct:creator vocang:pertosaLorenzo, vocang:nardiniArianna .
+
+vocang:craptop
+    a vocang:Parolangelo ;
+    skos:prefLabel "Craptop"@it ;
+    skos:definition "Laptop dalle prestazioni estremamente ridotte."@it ;
+    skos:example "Ho acquistato un nuovo laptop da Aliexpress a 16.99 euro ma purtroppo è talmente lento che non riesce nemmeno ad aprire un pdf. Farò il reso e lo segnalerò come craptop."@it;
+    schema:keywords "laptop, prestazioni, ridotte, lento, pdf, reso, aliexpress";
+    dct:created "2023-12-05" ;
+    dct:creator vocang:omiccioliRiccardo .
