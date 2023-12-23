@@ -9433,6 +9433,16 @@ vocang:nonja
     skos:definition "Ninja non molto capace."@it ;
     skos:example "Ieri ho visto un nonja. Era molto imbarazzante, perché non riusciva a fare nulla, si è affettato un dito!"@it ;
     schema:keywords "ninja, imbarazzante, capace, abile, spada, combattimento, arte marziale, giapponese";
-    dct:created "2023-12-0" ;
+    dct:created "2023-12-07" ;
     skos:related vocang:albaninja ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:metropulitana
+    a vocang:Parolangelo ;
+    skos:prefLabel "Metropulitana"@it ;
+    lexinfo:pronunciation "/me • tro • pu • li • tà • na/"@it ;
+    skos:definition "Metro in cui i servizi igienici sono all'avanguardia, la pulizia è all'ordine del giorno."@it ;
+    skos:example "Ieri ho preso una metro alla metropulitana. Era molto pulita, ma non ho potuto fare la pipì perché non c'era una super mega fila ai servizi igienici! Questo perché erano gratuti!"@it ;
+    schema:keywords "metro, pulito, pulizia, igienico, servizi, bagno, pipì, cacca, urina, feci, merda, sporco";
+    dct:created "2023-12-07" ;
+    dct:creator vocang:ribaudoSofia .
