@@ -9455,3 +9455,13 @@ vocang:postAccoppalittico
     schema:keywords "post, accoppalittico, apocalittico, estinzione, umano, triste, morte, tristezza, felice, felicità, film, cinema, serie tv, serie, tv, netflix, amazon prime, prime video, hbo, sky, disney plus, disney+, disney, plus, disneyplus, post apocalittico, apocalisse, accoppare";
     dct:created "2023-12-07" ;
     dct:creator vocang:nardiniArianna, vocang:pupitaAlberto .
+
+vocang:apocaellissi
+    a vocang:Parolangelo ;
+    skos:prefLabel "Apocaellissi"@it ;
+    lexinfo:pronunciation "/a • po • ca • el • lìs • si/"@it ;
+    skos:definition "Fine della vita per come la conosciamo a causa di una situazione di coma ellittico di massa o situazione nella quale molte persone vanno in coma ellittico."@it ;
+    skos:example "La probabilità di una apocaellissi è bassa, ma mai zero."@it ;
+    schema:keywords "apocalisse, ellittico, vita, morte, coma";
+    dct:created "2023-12-07" ;
+    dct:creator vocang:pertosaLorenzo .
