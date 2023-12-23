@@ -9420,9 +9420,19 @@ vocang:beepo
 vocang:sfigotti
     a vocang:Parolangelo ;
     skos:prefLabel "Sfigotti"@it ;
-    lexinfo:pronunciation "/sfì • got • ti/"@it ;
+    lexinfo:pronunciation "/sfi • gòt • ti/"@it ;
     skos:definition "Biscotti di Natale fatti veramente male e/o con un sapore orribile o inesistente."@it ;
     skos:example "Ieri ho mangiato dei sfigotti. Erano talmente brutti che il mio corpo ha istintivamente vomitato!"@it ;
     schema:keywords "biscotti, natale, male, orribile, sapore, schifo" ;
     dct:created "2023-12-06" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:nonja
+    a vocang:Parolangelo ;
+    skos:prefLabel "Nonja"@it ;
+    skos:definition "Ninja non molto capace."@it ;
+    skos:example "Ieri ho visto un nonja. Era molto imbarazzante, perché non riusciva a fare nulla, si è affettato un dito!"@it ;
+    schema:keywords "ninja, imbarazzante, capace, abile, spada, combattimento, arte marziale, giapponese";
+    dct:created "2023-12-0" ;
+    skos:related vocang:albaninja ;
+    dct:creator vocang:filasetaAngelo .
