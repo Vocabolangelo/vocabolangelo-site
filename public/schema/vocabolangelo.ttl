@@ -9476,3 +9476,13 @@ vocang:tagliardino
     schema:keywords "biliardino, sicurezza, tagliare, taglio, mano, dito, pallina, gioco, divertente, lama";
     dct:created "2023-12-07" ;
     dct:creator vocang:filasetaAngelo, vocang:battaglinoNicole .
+
+vocang:gagliardino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Gagliardino"@it ;
+    lexinfo:pronunciation "/ga • glì • ar • dì • no/"@it ;
+    skos:definition "Biliardino estremamente personalizzato e unico per via delle varie decorazioni/particolarità."@it ;
+    skos:example "Ieri ho giocato con un gagliardino. Era molto bello, ma non ho potuto fare nulla perché i giocatori avevano skin stranissime ed irriconoscibili!"@it ;
+    schema:keywords "biliardino, personalizzato, unico, decorazioni, particolarità, gioco, divertente";
+    dct:created "2023-12-07" ;
+    dct:creator vocang:pertosaLorenzo .
