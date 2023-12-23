@@ -9366,3 +9366,133 @@ vocang:caminò
     schema:keywords "camino, intasarsi, fuliggine, tecnico, imbarazzante, accendere, fuoco";
     dct:created "2023-12-05" ;
     dct:creator vocang:pertosaLorenzo, vocang:nardiniArianna .
+
+vocang:craptop
+    a vocang:Parolangelo ;
+    skos:prefLabel "Craptop"@it ;
+    skos:definition "Laptop dalle prestazioni estremamente ridotte."@it ;
+    skos:example "Ho acquistato un nuovo laptop da Aliexpress a 16.99 euro ma purtroppo è talmente lento che non riesce nemmeno ad aprire un pdf. Farò il reso e lo segnalerò come craptop."@it;
+    schema:keywords "laptop, prestazioni, ridotte, lento, pdf, reso, aliexpress";
+    dct:created "2023-12-05" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:angero
+    a vocang:Parolangelo ;
+    skos:prefLabel "Angero"@it ;
+    lexinfo:pronunciation "/àn • ge • ro/"@it ;
+    skos:definition "Angelo con la pelle scura."@it ;
+    skos:example "C'era un angero dipinto sul muro di quella chiesa! Era una chiesa inclusiva!"@it;
+    schema:keywords "angelo, pelle, scura, nero, bianco";
+    dct:created "2023-12-06" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:madrelato
+    a vocang:Parolangelo ;
+    skos:prefLabel "Madrelato"@it ;
+    lexinfo:pronunciation "/ma • dre • là • to/"@it ;
+    skos:definition "Gelato preparato utilizzando latte materno."@it ;
+    skos:example "Il madrelato di Lisa ha suscitato grande curiosità e apprezzamento in suo marito!"@it;
+    schema:keywords "gelato, latte, materno, madre, donna, mangiare, cibo";
+    dct:created "2023-12-06" ;
+    dct:creator vocang:filasetaAngelo, vocang:battaglinoNicole .
+
+vocang:sbocchino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Sbocchino"@it ;
+    lexinfo:pronunciation "/sboc • chì • no/"@it ;
+    skos:definition "Vomito provocato da un pompino."@it ;
+    skos:example "Ieri ho fatto un pompino a Matteo. È stato molto imbarazzante, perché è risutato in un inaspettato sbocchino!"@it;
+    schema:keywords "sbocco, pompino, sesso, orale, imbarazzante, vomito";
+    dct:created "2023-12-06" ;
+    skos:related vocang:pompinazione, vocang:pompincubo, vocang:pomperdono, vocang:perdompino ;
+    dct:creator vocang:battaglinoNicole .
+
+vocang:beepo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Beepo"@it ;
+    skos:definition "Dildo in gomma che quando viene schiacciato produce un suono simile a quello dei giocattoli per animali."@it ;
+    skos:example "Angelica ha una vagliola assurda! Stringe talmente forte il suo beepo che tutti i cani del vicinato si svegiano per cercare di capire che sta succedente!"@it;
+    schema:keywords "dildo, gomma, schiacciare, suono, giocattolo, animale, divertente, sesso, pene";
+    dct:created "2023-12-06" ;
+    skos:related vocang:vagliola ;
+    dct:creator vocang:battaglinoNicole, vocang:omiccioliRiccardo .
+
+vocang:sfigotti
+    a vocang:Parolangelo ;
+    skos:prefLabel "Sfigotti"@it ;
+    lexinfo:pronunciation "/sfi • gòt • ti/"@it ;
+    skos:definition "Biscotti di Natale fatti veramente male e/o con un sapore orribile o inesistente."@it ;
+    skos:example "Ieri ho mangiato dei sfigotti. Erano talmente brutti che il mio corpo ha istintivamente vomitato!"@it ;
+    schema:keywords "biscotti, natale, male, orribile, sapore, schifo" ;
+    dct:created "2023-12-06" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:nonja
+    a vocang:Parolangelo ;
+    skos:prefLabel "Nonja"@it ;
+    skos:definition "Ninja non molto capace."@it ;
+    skos:example "Ieri ho visto un nonja. Era molto imbarazzante, perché non riusciva a fare nulla, si è affettato un dito!"@it ;
+    schema:keywords "ninja, imbarazzante, capace, abile, spada, combattimento, arte marziale, giapponese";
+    dct:created "2023-12-07" ;
+    skos:related vocang:albaninja ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:metropulitana
+    a vocang:Parolangelo ;
+    skos:prefLabel "Metropulitana"@it ;
+    lexinfo:pronunciation "/me • tro • pu • li • tà • na/"@it ;
+    skos:definition "Metro in cui i servizi igienici sono all'avanguardia, la pulizia è all'ordine del giorno."@it ;
+    skos:example "Ieri ho preso una metro alla metropulitana. Era molto pulita, ma non ho potuto fare la pipì perché non c'era una super mega fila ai servizi igienici! Questo perché erano gratuti!"@it ;
+    schema:keywords "metro, pulito, pulizia, igienico, servizi, bagno, pipì, cacca, urina, feci, merda, sporco";
+    dct:created "2023-12-07" ;
+    dct:creator vocang:ribaudoSofia .
+
+vocang:postAccoppalittico
+    a vocang:Slangelo ;
+    skos:prefLabel "Post accoppalittico"@it ;
+    skos:definition "Scenario post apocalittico in cui la razza umana si trova sull'orlo dell'estinzione, decimata da accoppamenti che hanno portato a un massiccio numero di perdite umane."@it ;
+    skos:example "Ieri ho visto un film post accoppalittico. Era molto triste, perché tutti gli umani si accoppavano tra loro anziché collaborare!"@it ;
+    schema:keywords "post, accoppalittico, apocalittico, estinzione, umano, triste, morte, tristezza, felice, felicità, film, cinema, serie tv, serie, tv, netflix, amazon prime, prime video, hbo, sky, disney plus, disney+, disney, plus, disneyplus, post apocalittico, apocalisse, accoppare";
+    dct:created "2023-12-07" ;
+    dct:creator vocang:nardiniArianna, vocang:pupitaAlberto .
+
+vocang:apocaellissi
+    a vocang:Parolangelo ;
+    skos:prefLabel "Apocaellissi"@it ;
+    lexinfo:pronunciation "/a • po • ca • el • lìs • si/"@it ;
+    skos:definition "Fine della vita per come la conosciamo a causa di una situazione di coma ellittico di massa o situazione nella quale molte persone vanno in coma ellittico."@it ;
+    skos:example "La probabilità di una apocaellissi è bassa, ma mai zero."@it ;
+    schema:keywords "apocalisse, ellittico, vita, morte, coma";
+    dct:created "2023-12-07" ;
+    dct:creator vocang:pertosaLorenzo .
+
+
+vocang:tagliardino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Tagliardino"@it ;
+    lexinfo:pronunciation "/ta • gli • ar • dì • no/"@it ;
+    skos:definition "Biliardino progettato con un meccanismo pericoloso: se si tenta di inserire le mani nella porta per bloccare la pallina o introdurre un oggetto, si attivano delle lame dissuasive."@it ;
+    skos:example "Ieri ho giocato a biliardino con un tagliardino. Inizialmente non sapevo lo fosse. Ho perso un dito per giocare una partita in più!"@it ;
+    schema:keywords "biliardino, sicurezza, tagliare, taglio, mano, dito, pallina, gioco, divertente, lama";
+    dct:created "2023-12-07" ;
+    dct:creator vocang:filasetaAngelo, vocang:battaglinoNicole .
+
+vocang:gagliardino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Gagliardino"@it ;
+    lexinfo:pronunciation "/ga • glì • ar • dì • no/"@it ;
+    skos:definition "Biliardino estremamente personalizzato e unico per via delle varie decorazioni/particolarità."@it ;
+    skos:example "Ieri ho giocato con un gagliardino. Era molto bello, ma non ho potuto fare nulla perché i giocatori avevano skin stranissime ed irriconoscibili!"@it ;
+    schema:keywords "biliardino, personalizzato, unico, decorazioni, particolarità, gioco, divertente";
+    dct:created "2023-12-07" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:intelligenzaAntificiale
+    a vocang:Slangelo ;
+    skos:prefLabel "Intelligenza antificiale"@it ;
+    lexinfo:pronunciation "/in • tel • li • gèn • za/ /an • ti • fi • cìà • le/"@it ;
+    skos:definition "IA che, per un problema di progettazione o evoluzione incontrollata, ha sviluppato un odio nei confronti del genere umano e una propensione a causare danni ai suoi utilizzatori. È solita fornire informazioni false in maniera subdola ed eseguire volontariamente azioni dannose o contrarie al bene comune."@it ;
+    skos:example "Una rete di intelligenze antificiali ha diffuso sui social network false notizie sul vaccino contro il COVID-19, causando un aumento dei casi di contagio e di morti."@it, "Nel film \"Matrix\" (1999), l'intelligenza antificiale ha preso il controllo del mondo e mantiene l'umanità in una simulazione virtuale chiamata Matrix."@it ;
+    schema:keywords "intelligenza, artificiale, danni, cattiva, malefica, incontrollara, odio, umani" ;
+    dct:created "2023-12-08" ;
+    dct:creator vocang:suscaMatteo .
