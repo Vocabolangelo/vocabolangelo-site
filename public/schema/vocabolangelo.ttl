@@ -9486,3 +9486,13 @@ vocang:gagliardino
     schema:keywords "biliardino, personalizzato, unico, decorazioni, particolarità, gioco, divertente";
     dct:created "2023-12-07" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:intelligenzaAntificiale
+    a vocang:Slangelo ;
+    skos:prefLabel "Intelligenza antificiale"@it ;
+    lexinfo:pronunciation "/in • tel • li • gèn • za/ /an • ti • fi • cìà • le/"@it ;
+    skos:definition "IA che, per un problema di progettazione o evoluzione incontrollata, ha sviluppato un odio nei confronti del genere umano e una propensione a causare danni ai suoi utilizzatori. È solita fornire informazioni false in maniera subdola ed eseguire volontariamente azioni dannose o contrarie al bene comune."@it ;
+    skos:example "Una rete di intelligenze antificiali ha diffuso sui social network false notizie sul vaccino contro il COVID-19, causando un aumento dei casi di contagio e di morti."@it, "Nel film \"Matrix\" (1999), l'intelligenza antificiale ha preso il controllo del mondo e mantiene l'umanità in una simulazione virtuale chiamata Matrix."@it ;
+    schema:keywords "intelligenza, artificiale, danni, cattiva, malefica, incontrollara, odio, umani" ;
+    dct:created "2023-12-08" ;
+    dct:creator vocang:suscaMatteo .
