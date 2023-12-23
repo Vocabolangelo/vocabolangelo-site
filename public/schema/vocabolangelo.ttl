@@ -9407,3 +9407,13 @@ vocang:sbocchino
     skos:related vocang:pompinazione, vocang:pompincubo, vocang:pomperdono, vocang:perdompino ;
     dct:creator vocang:battaglinoNicole .
 
+vocang:beepo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Beepo"@it ;
+    lexinfo:pronunciation "/bè • po/"@it ;
+    skos:definition "Dildo in gomma che quando viene schiacciato produce un suono simile a quello dei giocattoli per animali."@it ;
+    skos:example "Angelica ha una vagliola assurda! Stringe talmente forte il suo beepo che tutti i cani del vicinato si svegiano per cercare di capire che sta succedente!"@it;
+    schema:keywords "dildo, gomma, schiacciare, suono, giocattolo, animale, divertente, sesso, pene";
+    skos:related vocang:vagliola ;
+    dct:created "2023-12-06" ;
+    dct:creator vocang:battaglinoNicole, vocang:omiccioliRiccardo .
