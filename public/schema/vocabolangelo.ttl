@@ -9375,3 +9375,13 @@ vocang:craptop
     schema:keywords "laptop, prestazioni, ridotte, lento, pdf, reso, aliexpress";
     dct:created "2023-12-05" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:angero
+    a vocang:Parolangelo ;
+    skos:prefLabel "Angero"@it ;
+    lexinfo:pronunciation "/àn • ge • ro/"@it ;
+    skos:definition "Angelo con la pelle scura."@it ;
+    skos:example "C'era un angero dipinto sul muro di quella chiesa! Era una chiesa inclusiva!"@it;
+    schema:keywords "angelo, pelle, scura, nero, bianco";
+    dct:created "2023-12-06" ;
+    dct:creator vocang:filasetaAngelo .
