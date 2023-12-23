@@ -9446,3 +9446,12 @@ vocang:metropulitana
     schema:keywords "metro, pulito, pulizia, igienico, servizi, bagno, pipì, cacca, urina, feci, merda, sporco";
     dct:created "2023-12-07" ;
     dct:creator vocang:ribaudoSofia .
+
+vocang:postAccoppalittico
+    a vocang:Slangelo ;
+    skos:prefLabel "Post accoppalittico"@it ;
+    skos:definition "Scenario post apocalittico in cui la razza umana si trova sull'orlo dell'estinzione, decimata da accoppamenti che hanno portato a un massiccio numero di perdite umane."@it ;
+    skos:example "Ieri ho visto un film post accoppalittico. Era molto triste, perché tutti gli umani si accoppavano tra loro anziché collaborare!"@it ;
+    schema:keywords "post, accoppalittico, apocalittico, estinzione, umano, triste, morte, tristezza, felice, felicità, film, cinema, serie tv, serie, tv, netflix, amazon prime, prime video, hbo, sky, disney plus, disney+, disney, plus, disneyplus, post apocalittico, apocalisse, accoppare";
+    dct:created "2023-12-07" ;
+    dct:creator vocang:nardiniArianna, vocang:pupitaAlberto .
