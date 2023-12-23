@@ -9465,3 +9465,14 @@ vocang:apocaellissi
     schema:keywords "apocalisse, ellittico, vita, morte, coma";
     dct:created "2023-12-07" ;
     dct:creator vocang:pertosaLorenzo .
+
+
+vocang:tagliardino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Tagliardino"@it ;
+    lexinfo:pronunciation "/ta • gli • ar • dì • no/"@it ;
+    skos:definition "Biliardino progettato con un meccanismo pericoloso: se si tenta di inserire le mani nella porta per bloccare la pallina o introdurre un oggetto, si attivano delle lame dissuasive."@it ;
+    skos:example "Ieri ho giocato a biliardino con un tagliardino. Inizialmente non sapevo lo fosse. Ho perso un dito per giocare una partita in più!"@it ;
+    schema:keywords "biliardino, sicurezza, tagliare, taglio, mano, dito, pallina, gioco, divertente, lama";
+    dct:created "2023-12-07" ;
+    dct:creator vocang:filasetaAngelo, vocang:battaglinoNicole .
