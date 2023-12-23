@@ -9385,3 +9385,13 @@ vocang:angero
     schema:keywords "angelo, pelle, scura, nero, bianco";
     dct:created "2023-12-06" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:madrelato
+    a vocang:Parolangelo ;
+    skos:prefLabel "Madrelato"@it ;
+    lexinfo:pronunciation "/ma • dre • là • to/"@it ;
+    skos:definition "Gelato preparato utilizzando latte materno."@it ;
+    skos:example "Il madrelato di Lisa ha suscitato grande curiosità e apprezzamento in suo marito!"@it;
+    schema:keywords "gelato, latte, materno, madre, donna, mangiare, cibo";
+    dct:created "2023-12-06" ;
+    dct:creator vocang:filasetaAngelo, vocang:battaglinoNicole .
