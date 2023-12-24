@@ -9627,3 +9627,24 @@ vocang:allefanzialismo
     dct:created "2023-12-09" ;
     skos:related vocang:allefanza ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:pallettone
+    a vocang:Parolangelo ;
+    skos:prefLabel "Pallettone"@it ;
+    lexinfo:pronunciation "/pal • let • tò • ne/"@it ;
+    skos:definition "Dolce natalizio simile al panettone contenente piombini al posto dell'uvetta."@it ;
+    skos:example "Ho quasi rischiato di rompermi un dente perché quel figlio di puttana del mio vicino mi ha regalato un pallettone!"@it ;
+    schema:keywords "dolce, natalizio, panettone, piombini, uvetta, imbarazzante, rischio, dente, rompersi";
+    dct:created "2023-12-11" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:briciolataio
+    a vocang:Parolangelo ;
+    skos:prefLabel "Briciolataio"@it ;
+    lexinfo:pronunciation "/bri • ciò • la • tà • io/"@it ;
+    skos:definition "Persona che crea briciolai."@it ;
+    skos:example "Sei proprio un briciolataio, guarda che briciolaio hai combinato!"@it ;
+    schema:keywords "briciola, briciolaio";
+    skos:related vocang:briciolaio ;
+    dct:created "2023-12-11" ;
+    dct:creator vocang:battaglinoNicole .
