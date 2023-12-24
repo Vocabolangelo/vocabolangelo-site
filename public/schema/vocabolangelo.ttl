@@ -9238,7 +9238,7 @@ vocang:trullismo
     a vocang:Parolangelo ;
     skos:prefLabel "Trullismo"@it ;
     lexinfo:pronunciation "/trul • lì • smo/"@it ;
-    skos:definition "Forte avversione o odio verso i paesaggi pugliesi."@it ;
+    skos:definition "Una forte avversione o odio verso i territori Pugliesi, in particolare per la zona di Alberobello e dintorni, manifestato attraverso sentimenti di disgusto o insoddisfazione nei confronti di luoghi che trasudano un'aria particolarmente \"Alberobellese\"."@it ;
     skos:example "Durante la visita ad Alberobello, il trullismo di Antonio si è manifestato chiaramente quando ha espresso il desiderio di bruciare ogni singolo edificio."@it ;
     schema:keywords "paesaggio, odio, disgusto, insoddisfazione, ricchezza, visiva, carattere, trullo, puglia, alberobello";
     skos:related vocang:brullismo, vocang:brullo ;
