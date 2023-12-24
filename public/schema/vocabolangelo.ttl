@@ -9557,4 +9557,12 @@ vocang:bumbum
     dct:created "2023-12-09" ;
     dct:creator vocang:pertosaLorenzo, vocang:savoGiorgia .
 
-
+vocang:prososo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Prososo"@it ;
+    lexinfo:pronunciation "/pro • sò • so/"@it ;
+    skos:definition "Che rispecchia le caratteristiche di una prosa."@it ;
+    skos:example "Perché questa canzone di Taylor ha il ritornello? Il testo dovrebbe essere più prososo."@it ;
+    schema:keywords "prosa, testo";
+    dct:created "2023-12-09" ;
+    dct:creator vocang:filasetaAngelo .
