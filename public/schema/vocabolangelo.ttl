@@ -9527,3 +9527,13 @@ vocang:bibario
     skos:related vocang:velletreno ;
     dct:created "2023-12-09" ;
     dct:creator vocang:omiccioliRiccardo, vocang:pertosaLorenzo .
+
+vocang:teledramma
+    a vocang:Parolangelo ;
+    skos:prefLabel "Teledramma"@it ;
+    lexinfo:pronunciation "/te • le • dràm • ma/"@it ;
+    skos:definition "Telegramma che riporta cattive notizie, come ad esempio la morte di qualcuno."@it ;
+    skos:example "Ieri ho ricevuto un teledramma. È stato molto triste, perché mi hanno comunicato la morte di mia nonna!"@it ;
+    schema:keywords "telegramma, cattive, notizie, morte" ;
+    dct:created "2023-12-09" ;
+    dct:creator vocang:pertosaLorenzo .
