@@ -9606,3 +9606,13 @@ vocang:muffichiere
     dct:created "2023-12-09" ;
     skos:related vocang:colaffin;
     dct:creator vocang:battaglinoNicole .
+
+vocang:cilinguazzolino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cilinguazzolino"@it ;
+    lexinfo:pronunciation "/ci • lin • guaz • zo • lì • no/"@it ;
+    skos:definition "L'utilizzo di cibo o bevande ad un fine di piacere sessuale e percettivo, maggiormente attraverso l'uso della lingua in punti sensibili e non."@it ;
+    skos:example "Io e la mia ragazza abbiamo fatto cilinguazzolino. Ho mangiato sushi dal suo corpo nudo!"@it ;
+    schema:keywords "cibo, bevande, piacere, sessuale, percettivo, lingua, sensibile, utile, mangiare, sesso";
+    dct:created "2023-12-09" ;
+    dct:creator vocang:ribaudoSofia .
