@@ -9496,3 +9496,13 @@ vocang:intelligenzaAntificiale
     schema:keywords "intelligenza, artificiale, danni, cattiva, malefica, incontrollara, odio, umani" ;
     dct:created "2023-12-08" ;
     dct:creator vocang:suscaMatteo .
+
+vocang:scaldapipo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Scaldapipo"@it ;
+    lexinfo:pronunciation "/scal • da • pì • po/"@it ;
+    skos:definition "Riscaldammento delle mani che avviene mettendole a contatto con il pene. Questo permette un rapido riscaldamento delle mani a causa dei notevoli vasi sanguigni presenti."@it ;
+    skos:example "Ieri ho fatto uno scaldapipo. È stato molto utile, perché avevo le mani fredde, e non ho nemmeno inquinato l'ambiente!"@it ;
+    schema:keywords "scaldare, mani, pene, utile, freddo, caldo, sangue, vasi sanguigni";
+    dct:created "2023-12-08" ;
+    dct:creator vocang:omiccioliRiccardo .
