@@ -9616,3 +9616,14 @@ vocang:cilinguazzolino
     schema:keywords "cibo, bevande, piacere, sessuale, percettivo, lingua, sensibile, utile, mangiare, sesso";
     dct:created "2023-12-09" ;
     dct:creator vocang:ribaudoSofia .
+
+vocang:allefanzialismo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Allefanzialismo"@it ;
+    lexinfo:pronunciation "/al • le • fan • zì • a • lì • smo/"@it ;
+    skos:definition "Sorta di federalismo in cui l'insieme di entità autonome che lo compongono sono legate tra loro da un'allefanza. Spesso questo accade perché gli enti si odiano tra loro o non si riconoscono tra loro come alleati, ma sono in qualche modo costretti a collaborare per raggiungere un obiettivo comune"@it ;
+    skos:example "Nelle Marche vige l'allefanzialismo. Ogni città bombarderebbe la sua vicina se potesse, tutti si odiano e tutti si disconoscono! È un posto veramente speciale."@it ;
+    schema:keywords "federalismo, alleanza, federalismo, città, odio";
+    dct:created "2023-12-09" ;
+    skos:related vocang:allefanza ;
+    dct:creator vocang:filasetaAngelo .
