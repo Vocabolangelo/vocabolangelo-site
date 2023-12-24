@@ -9576,3 +9576,13 @@ vocang:lecina
     schema:keywords "cena, leggera, pancia, bagno, mangiare, pesante, difficoltà";
     dct:created "2023-12-09" ;
     dct:creator vocang:bragariAlexandru .
+
+vocang:negrina
+    a vocang:Parolangelo ;
+    skos:prefLabel "Negrina"@it ;
+    lexinfo:pronunciation "/ne • grì • na/"@it ;
+    skos:definition "Piadina troppo cotta che presenta bruciature."@it ;
+    skos:example "Quella negrina era letteralmente carbonizzata!"@it ;
+    schema:keywords "piadina, cotta, bruciare, bruciatura, nero";
+    dct:created "2023-12-09" ;
+    dct:creator vocang:bragariAlexandru .
