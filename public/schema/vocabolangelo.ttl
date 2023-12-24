@@ -9537,3 +9537,13 @@ vocang:teledramma
     schema:keywords "telegramma, cattive, notizie, morte" ;
     dct:created "2023-12-09" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:bombaniera
+    a vocang:Parolangelo ;
+    skos:prefLabel "Bombaniera"@it ;
+    lexinfo:pronunciation "/bom • ba • niè • ra/"@it ;
+    skos:definition "Bomboniera che contiene polvere da sparo."@it ;
+    skos:example "Sono stato alla convention della National Rifle Association e per ricordo ho ricevuto una bombaniera, ma ho dovuto fare attenzione al ritorno perchè ho rischiato saltasse in aria la valigia!"@it ;
+    schema:keywords "bomboniera, bomba, polvere, sparo, pericoloso, rischio, saltare, aria, esplosione, esplosivo";
+    dct:created "2023-12-09" ;
+    dct:creator vocang:pertosaLorenzo .
