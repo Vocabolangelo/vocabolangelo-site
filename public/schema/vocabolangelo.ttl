@@ -9506,3 +9506,13 @@ vocang:scaldapipo
     schema:keywords "scaldare, mani, pene, utile, freddo, caldo, sangue, vasi sanguigni";
     dct:created "2023-12-08" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:direzionario
+    a vocang:Parolangelo ;
+    skos:prefLabel "Direzionario"@it ;
+    lexinfo:pronunciation "/di • re • zio • nà • rio/"@it ;
+    skos:definition "Lista di indicazioni stradali, o più in generale per elenco di informazioni che indica come raggiungere un posto."@it ;
+    skos:example "Ieri ho consultato un direzionario. È stato molto utile, perché non sapevo come arrivare a casa di mia nonna!"@it ;
+    schema:keywords "strada, indicazioni, raggiungere, casa, nonna, utile, consultare, consultazione";
+    dct:created "2023-12-08" ;
+    dct:creator vocang:orlandoNicola .
