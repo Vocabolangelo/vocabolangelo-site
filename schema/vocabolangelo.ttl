@@ -9238,7 +9238,7 @@ vocang:trullismo
     a vocang:Parolangelo ;
     skos:prefLabel "Trullismo"@it ;
     lexinfo:pronunciation "/trul • lì • smo/"@it ;
-    skos:definition "Forte avversione o odio verso i paesaggi pugliesi."@it ;
+    skos:definition "Una forte avversione o odio verso i territori Pugliesi, in particolare per la zona di Alberobello e dintorni, manifestato attraverso sentimenti di disgusto o insoddisfazione nei confronti di luoghi che trasudano un'aria particolarmente \"Alberobellese\"."@it ;
     skos:example "Durante la visita ad Alberobello, il trullismo di Antonio si è manifestato chiaramente quando ha espresso il desiderio di bruciare ogni singolo edificio."@it ;
     schema:keywords "paesaggio, odio, disgusto, insoddisfazione, ricchezza, visiva, carattere, trullo, puglia, alberobello";
     skos:related vocang:brullismo, vocang:brullo ;
@@ -9496,3 +9496,155 @@ vocang:intelligenzaAntificiale
     schema:keywords "intelligenza, artificiale, danni, cattiva, malefica, incontrollara, odio, umani" ;
     dct:created "2023-12-08" ;
     dct:creator vocang:suscaMatteo .
+
+vocang:scaldapipo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Scaldapipo"@it ;
+    lexinfo:pronunciation "/scal • da • pì • po/"@it ;
+    skos:definition "Riscaldammento delle mani che avviene mettendole a contatto con il pene. Questo permette un rapido riscaldamento delle mani a causa dei notevoli vasi sanguigni presenti."@it ;
+    skos:example "Ieri ho fatto uno scaldapipo. È stato molto utile, perché avevo le mani fredde, e non ho nemmeno inquinato l'ambiente!"@it ;
+    schema:keywords "scaldare, mani, pene, utile, freddo, caldo, sangue, vasi sanguigni";
+    dct:created "2023-12-08" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:direzionario
+    a vocang:Parolangelo ;
+    skos:prefLabel "Direzionario"@it ;
+    lexinfo:pronunciation "/di • re • zio • nà • rio/"@it ;
+    skos:definition "Lista di indicazioni stradali, o più in generale per elenco di informazioni che indica come raggiungere un posto."@it ;
+    skos:example "Ieri ho consultato un direzionario. È stato molto utile, perché non sapevo come arrivare a casa di mia nonna!"@it ;
+    schema:keywords "strada, indicazioni, raggiungere, casa, nonna, utile, consultare, consultazione";
+    dct:created "2023-12-08" ;
+    dct:creator vocang:orlandoNicola .
+
+vocang:bibario
+    a vocang:Parolangelo ;
+    skos:prefLabel "Bibario"@it ;
+    lexinfo:pronunciation "/bi • bà • rio/"@it ;
+    skos:definition "Binario che porta alla città in cui dimora il proprio ragazzo o ragazza."@it ;
+    skos:example "È caduto un pino sopra il bibario. Maledetta Trenitalia, ancora una volta scopo domani!" ;
+    schema:keywords "binario, città, ragazzo, ragazza, utile, treno, ferrovia, stazione";
+    skos:related vocang:velletreno ;
+    dct:created "2023-12-09" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:pertosaLorenzo .
+
+vocang:teledramma
+    a vocang:Parolangelo ;
+    skos:prefLabel "Teledramma"@it ;
+    lexinfo:pronunciation "/te • le • dràm • ma/"@it ;
+    skos:definition "Telegramma che riporta cattive notizie, come ad esempio la morte di qualcuno."@it ;
+    skos:example "Ieri ho ricevuto un teledramma. È stato molto triste, perché mi hanno comunicato la morte di mia nonna!"@it ;
+    schema:keywords "telegramma, cattive, notizie, morte" ;
+    dct:created "2023-12-09" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:bombaniera
+    a vocang:Parolangelo ;
+    skos:prefLabel "Bombaniera"@it ;
+    lexinfo:pronunciation "/bom • ba • niè • ra/"@it ;
+    skos:definition "Bomboniera che contiene polvere da sparo."@it ;
+    skos:example "Sono stato alla convention della National Rifle Association e per ricordo ho ricevuto una bombaniera, ma ho dovuto fare attenzione al ritorno perchè ho rischiato saltasse in aria la valigia!"@it ;
+    schema:keywords "bomboniera, bomba, polvere, sparo, pericoloso, rischio, saltare, aria, esplosione, esplosivo";
+    dct:created "2023-12-09" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:bumbum
+    a vocang:Parolangelo ;
+    skos:prefLabel "Bumbum"@it ;
+    skos:definition "Caramella farcita con polvere da sparo."@it ;
+    skos:example "Gli Isis hanno fatto mangiare ad un ostaggio una bumbum e ... meglio se non racconto cosa è avvenuto dopo."@it ;
+    schema:keywords "caramella, bomba, polvere, sparo, pericoloso, rischio, saltare, aria, esplosione, esplosivo";
+    dct:created "2023-12-09" ;
+    dct:creator vocang:pertosaLorenzo, vocang:savoGiorgia .
+
+vocang:prososo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Prososo"@it ;
+    lexinfo:pronunciation "/pro • sò • so/"@it ;
+    skos:definition "Che rispecchia le caratteristiche di una prosa."@it ;
+    skos:example "Perché questa canzone di Taylor ha il ritornello? Il testo dovrebbe essere più prososo."@it ;
+    schema:keywords "prosa, testo";
+    dct:created "2023-12-09" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:lecina
+    a vocang:Parolangelo ;
+    skos:prefLabel "Lecina"@it ;
+    lexinfo:pronunciation "/le • cì • na/"@it ;
+    skos:definition "Una cena leggera per evitare di aggravare difficoltà per lo stomaco o la pancia."@it ;
+    skos:example "Non voglio mangiare pesante sta sera che se no passo il resto della serata in bagno, ho bisogno di una lecina."@it ;
+    schema:keywords "cena, leggera, pancia, bagno, mangiare, pesante, difficoltà";
+    dct:created "2023-12-09" ;
+    dct:creator vocang:bragariAlexandru .
+
+vocang:negrina
+    a vocang:Parolangelo ;
+    skos:prefLabel "Negrina"@it ;
+    lexinfo:pronunciation "/ne • grì • na/"@it ;
+    skos:definition "Piadina troppo cotta che presenta bruciature."@it ;
+    skos:example "Quella negrina era letteralmente carbonizzata!"@it ;
+    schema:keywords "piadina, cotta, bruciare, bruciatura, nero";
+    dct:created "2023-12-09" ;
+    dct:creator vocang:bragariAlexandru .
+
+vocang:colaffin
+    a vocang:Parolangelo ;
+    skos:prefLabel "Colaffin"@it ;
+    skos:definition "Mufficchiere di coca cola."@it ;
+    skos:example "Ho versato la coca cola oltre il limite del bicchiere e ho quasi fatto un colaffin. Purtroppo è solo stato molto imbarazzante, perché ho dovuto pulire tutto!"@it ;
+    schema:keywords "coca cola, bicchiere, limite, bombatura, muffin, imbarazzante, pulire, pulizia";
+    dct:created "2023-12-09" ;
+    dct:creator vocang:battaglinoNicole .
+
+vocang:muffichiere
+    a vocang:Parolangelo ;
+    skos:prefLabel "Muffichiere"@it ;
+    lexinfo:pronunciation "/muf • fi • chiè • re/"@it ;
+    skos:definition "Bicchiere nel quale è stata versata una qualsiasi bibita frizzante che ha oltrepassato il limite del bicchiere, creando una piccola bombatura simile a quella dei muffin."@it ;
+    skos:example "Ho versato la fanta oltre il limite del bicchiere e ora è un mufficchiere. È stato molto artistico!"@it ;
+    schema:keywords "coca cola, bicchiere, limite, bombatura, muffin, imbarazzante, pulire, pulizia";
+    dct:created "2023-12-09" ;
+    skos:related vocang:colaffin;
+    dct:creator vocang:battaglinoNicole .
+
+vocang:cilinguazzolino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cilinguazzolino"@it ;
+    lexinfo:pronunciation "/ci • lin • guaz • zo • lì • no/"@it ;
+    skos:definition "L'utilizzo di cibo o bevande ad un fine di piacere sessuale e percettivo, maggiormente attraverso l'uso della lingua in punti sensibili e non."@it ;
+    skos:example "Io e la mia ragazza abbiamo fatto cilinguazzolino. Ho mangiato sushi dal suo corpo nudo!"@it ;
+    schema:keywords "cibo, bevande, piacere, sessuale, percettivo, lingua, sensibile, utile, mangiare, sesso";
+    dct:created "2023-12-09" ;
+    dct:creator vocang:ribaudoSofia .
+
+vocang:allefanzialismo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Allefanzialismo"@it ;
+    lexinfo:pronunciation "/al • le • fan • zì • a • lì • smo/"@it ;
+    skos:definition "Sorta di federalismo in cui l'insieme di entità autonome che lo compongono sono legate tra loro da un'allefanza. Spesso questo accade perché gli enti si odiano tra loro o non si riconoscono tra loro come alleati, ma sono in qualche modo costretti a collaborare per raggiungere un obiettivo comune"@it ;
+    skos:example "Nelle Marche vige l'allefanzialismo. Ogni città bombarderebbe la sua vicina se potesse, tutti si odiano e tutti si disconoscono! È un posto veramente speciale."@it ;
+    schema:keywords "federalismo, alleanza, federalismo, città, odio";
+    dct:created "2023-12-09" ;
+    skos:related vocang:allefanza ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:pallettone
+    a vocang:Parolangelo ;
+    skos:prefLabel "Pallettone"@it ;
+    lexinfo:pronunciation "/pal • let • tò • ne/"@it ;
+    skos:definition "Dolce natalizio simile al panettone contenente piombini al posto dell'uvetta."@it ;
+    skos:example "Ho quasi rischiato di rompermi un dente perché quel figlio di puttana del mio vicino mi ha regalato un pallettone!"@it ;
+    schema:keywords "dolce, natalizio, panettone, piombini, uvetta, imbarazzante, rischio, dente, rompersi";
+    dct:created "2023-12-11" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:briciolataio
+    a vocang:Parolangelo ;
+    skos:prefLabel "Briciolataio"@it ;
+    lexinfo:pronunciation "/bri • ciò • la • tà • io/"@it ;
+    skos:definition "Persona che crea briciolai."@it ;
+    skos:example "Sei proprio un briciolataio, guarda che briciolaio hai combinato!"@it ;
+    schema:keywords "briciola, briciolaio";
+    skos:related vocang:briciolaio ;
+    dct:created "2023-12-11" ;
+    dct:creator vocang:battaglinoNicole .
