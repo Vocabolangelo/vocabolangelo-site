@@ -9547,3 +9547,14 @@ vocang:bombaniera
     schema:keywords "bomboniera, bomba, polvere, sparo, pericoloso, rischio, saltare, aria, esplosione, esplosivo";
     dct:created "2023-12-09" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:bumbum
+    a vocang:Parolangelo ;
+    skos:prefLabel "Bumbum"@it ;
+    skos:definition "Caramella farcita con polvere da sparo."@it ;
+    skos:example "Gli Isis hanno fatto mangiare ad un ostaggio una bumbum e ... meglio se non racconto cosa è avvenuto dopo."@it ;
+    schema:keywords "caramella, bomba, polvere, sparo, pericoloso, rischio, saltare, aria, esplosione, esplosivo";
+    dct:created "2023-12-09" ;
+    dct:creator vocang:pertosaLorenzo, vocang:savoGiorgia .
+
+
