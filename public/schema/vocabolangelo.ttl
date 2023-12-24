@@ -9586,3 +9586,12 @@ vocang:negrina
     schema:keywords "piadina, cotta, bruciare, bruciatura, nero";
     dct:created "2023-12-09" ;
     dct:creator vocang:bragariAlexandru .
+
+vocang:colaffin
+    a vocang:Parolangelo ;
+    skos:prefLabel "Colaffin"@it ;
+    skos:definition "Coca cola versata oltre il limite del bicchiere creando una piccola bombatura simile a quella dei muffin."@it ;
+    skos:example "Ho versato la coca cola oltre il limite del bicchiere e si è formata una colaffin. È stato molto imbarazzante, perché ho dovuto pulire tutto!"@it ;
+    schema:keywords "coca cola, bicchiere, limite, bombatura, muffin, imbarazzante, pulire, pulizia";
+    dct:created "2023-12-09" ;
+    dct:creator vocang:battaglinoNicole .
