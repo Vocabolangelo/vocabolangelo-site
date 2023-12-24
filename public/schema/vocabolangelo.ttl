@@ -9516,3 +9516,14 @@ vocang:direzionario
     schema:keywords "strada, indicazioni, raggiungere, casa, nonna, utile, consultare, consultazione";
     dct:created "2023-12-08" ;
     dct:creator vocang:orlandoNicola .
+
+vocang:bibario
+    a vocang:Parolangelo ;
+    skos:prefLabel "Bibario"@it ;
+    lexinfo:pronunciation "/bi • bà • rio/"@it ;
+    skos:definition "Binario che porta alla città in cui dimora il proprio ragazzo o ragazza."@it ;
+    skos:example "È caduto un pino sopra il bibario. Maledetta Trenitalia, ancora una volta scopo domani!" ;
+    schema:keywords "binario, città, ragazzo, ragazza, utile, treno, ferrovia, stazione";
+    skos:related vocang:velletreno ;
+    dct:created "2023-12-09" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:pertosaLorenzo .
