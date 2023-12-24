@@ -9566,3 +9566,13 @@ vocang:prososo
     schema:keywords "prosa, testo";
     dct:created "2023-12-09" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:lecina
+    a vocang:Parolangelo ;
+    skos:prefLabel "Lecina"@it ;
+    lexinfo:pronunciation "/le • cì • na/"@it ;
+    skos:definition "Una cena leggera per evitare di aggravare difficoltà per lo stomaco o la pancia."@it ;
+    skos:example "Non voglio mangiare pesante sta sera che se no passo il resto della serata in bagno, ho bisogno di una lecina."@it ;
+    schema:keywords "cena, leggera, pancia, bagno, mangiare, pesante, difficoltà";
+    dct:created "2023-12-09" ;
+    dct:creator vocang:bragariAlexandru .
