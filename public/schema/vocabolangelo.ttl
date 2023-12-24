@@ -9590,8 +9590,19 @@ vocang:negrina
 vocang:colaffin
     a vocang:Parolangelo ;
     skos:prefLabel "Colaffin"@it ;
-    skos:definition "Coca cola versata oltre il limite del bicchiere creando una piccola bombatura simile a quella dei muffin."@it ;
-    skos:example "Ho versato la coca cola oltre il limite del bicchiere e si è formata una colaffin. È stato molto imbarazzante, perché ho dovuto pulire tutto!"@it ;
+    skos:definition "Mufficchiere di coca cola."@it ;
+    skos:example "Ho versato la coca cola oltre il limite del bicchiere e ho quasi fatto un colaffin. Purtroppo è solo stato molto imbarazzante, perché ho dovuto pulire tutto!"@it ;
     schema:keywords "coca cola, bicchiere, limite, bombatura, muffin, imbarazzante, pulire, pulizia";
     dct:created "2023-12-09" ;
+    dct:creator vocang:battaglinoNicole .
+
+vocang:muffichiere
+    a vocang:Parolangelo ;
+    skos:prefLabel "Muffichiere"@it ;
+    lexinfo:pronunciation "/muf • fi • chiè • re/"@it ;
+    skos:definition "Bicchiere nel quale è stata versata una qualsiasi bibita frizzante che ha oltrepassato il limite del bicchiere, creando una piccola bombatura simile a quella dei muffin."@it ;
+    skos:example "Ho versato la fanta oltre il limite del bicchiere e ora è un mufficchiere. È stato molto artistico!"@it ;
+    schema:keywords "coca cola, bicchiere, limite, bombatura, muffin, imbarazzante, pulire, pulizia";
+    dct:created "2023-12-09" ;
+    skos:related vocang:colaffin;
     dct:creator vocang:battaglinoNicole .
