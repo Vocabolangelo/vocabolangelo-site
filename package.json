@@ -30,7 +30,7 @@
     "react-scripts": "^5.0.1",
     "recharts": "^2.6.2",
     "redux": "^5.0.0",
-    "sort-by": "^0.0.2",
+    "sort-by": "^1.0.0",
     "styled-components": "^6.0.0",
     "typescript": "^5.0.2",
     "url": "^0.11.1"
