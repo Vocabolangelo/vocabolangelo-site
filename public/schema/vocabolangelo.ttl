@@ -9811,3 +9811,13 @@ vocang:comaEllittico
     schema:keywords "alcol, alcolico, coma, ellittico, percezione, spazio, realtà, ellissi"@it ;
     skos:related vocang:apocaellissi ;
     dct:creator vocang:orlandoNicola, vocang:omiccioliRiccardo .
+
+vocang:scinistro
+    a vocang:Parolangelo ;
+    skos:prefLabel "Scinistro"@it ;
+    lexinfo:pronunciation "/sci • nì • stro/"@it ;
+    skos:definition "Incidente fatto tra due sciatori che si colpiscono."@it ;
+    skos:example "Ieri ho fatto uno scinistro. È stato molto imbarazzante, ma alla fine, se ci ripenso, è tutta colpa di quello snowboard maledetto che ci ha tagliato la strada!"@it ;
+    schema:keywords "sci, sciatore, imbarazzante, rischio, dito, rompersi, incidente, colpire, colpo, colpiscono";
+    dct:created "2023-12-25" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:pertosaLorenzo .
