@@ -9698,3 +9698,13 @@ vocang:imbananato
     schema:keywords "storto, fare, utile";
     dct:created "2023-12-15" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:amuore
+    a vocang:Parolangelo ;
+    skos:prefLabel "Amuore"@it ;
+    lexinfo:pronunciation "/a • mu • ò • re/"@it ;
+    skos:definition "Persona di cui qualcuno è innamorato , a che sta per morire o è in punto di morte."@it ;
+    skos:example "No ti prego! Non voglio andarmene dal biribì. Il mio amuore è lì dentro!"@it ;
+    schema:keywords "innamorato, morte, triste, amare, amore, amuore, persona, umano, morire, punto di morte";
+    dct:created "2023-12-15" ;
+    dct:creator vocang:pertosaLorenzo, vocang:battaglinoNicole .
