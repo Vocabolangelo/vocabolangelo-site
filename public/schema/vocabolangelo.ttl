@@ -9707,6 +9707,7 @@ vocang:amuore
     skos:example "L'amuore che provo per lui mi fa sentire male ogni giorno... Come farò quando non ci sarà più?"@it, "No ti prego! Non voglio andarmene dal biribì. Il mio amuore è lì dentro!"@it ;
     schema:keywords "innamorato, morte, triste, amare, amore, amuore, persona, umano, morire, punto di morte";
     dct:created "2023-12-15" ;
+    skos:related vocang:biribì ;
     dct:creator vocang:pertosaLorenzo, vocang:battaglinoNicole .
 
 vocang:velocìta
@@ -9728,3 +9729,13 @@ vocang:scorciaboia
     schema:keywords "scorciatoia, morte";
     dct:created "2023-12-16" ;
     dct:creator vocang:pertosaLorenzo, vocang:omiccioliRiccardo .
+
+vocang:porcoSoccorso
+    a vocang:Slangelo ;
+    skos:prefLabel "Porco soccorso"@it ;
+    lexinfo:pronunciation "/pòr • co/ /soc • còr • so/"@it ;
+    skos:definition "Pronto soccorso lento ed inefficiente con personale non preparato."@it ;
+    skos:example "Ieri mi sono tagliato un dito e al posto di riattaccarmelo me ne hanno tagliato un altro!"@it ;
+    schema:keywords "pronto, soccorso, lento, inefficiente, personale, preparato";
+    dct:created "2023-12-16" ;
+    dct:creator vocang:suscaMatteo .
