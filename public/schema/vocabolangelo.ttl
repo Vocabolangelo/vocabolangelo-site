@@ -9782,3 +9782,14 @@ vocang:cucchiaiabile
     schema:keywords "cucchiaio, mangiare, cibo, utile, divertente";
     dct:created "2023-12-22" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:sciosbirro
+    a vocang:Parolangelo ;
+    skos:prefLabel "Sciosbirro"@it ;
+    lexinfo:pronunciation "/sci • os • bì • rro/"@it ;
+    skos:definition "Forza dell'ordine dotata di sci."@it ;
+    skos:example "Ho visto due tizi scontrarsi sulla pista, han chiamato gli sciosbirri e hanno spiegato l'accaduto, purtroppo han preso entrambi una multa per discesa in stato di ebrezza."@it ;
+    schema:keywords "polizia, carabiniere, sci, sciosbirro, forza, ordine";
+    dct:created "2023-12-22" ;
+    skos:related vocang:monobiniere, vocang:monoziotto, vocang:idrosbirro, vocang:aviosbirro, vocang:boscosbirro, vocang:ipposbirro, vocang:pirosbirro, vocang:arabiniere, vocang:caccabiniere, vocang:nerarabiniere, vocang:nerobiniere ;
+    dct:creator vocang:pertosaLorenzo, vocang:paoliMichele .
