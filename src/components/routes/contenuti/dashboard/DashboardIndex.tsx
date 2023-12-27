@@ -8,7 +8,6 @@ import {RDFStore} from '../../../../rdf/RDFStore'
 import {vocang} from '../../../../rdf/prefixes'
 import {Parolangelo} from '../../../../rdf/types/Parolangelo'
 import SlangeloCountSpotlight from './SlangeloCountSpotlight'
-import ConcettangeloCountSpotlight from './ConcettangeloCountSpotlight'
 import MonthWords from './MonthWords'
 
 export const DASHBOARD_ROUTE = '/dashboard'
@@ -41,10 +40,6 @@ export default function DashboardIndex() {
     }, [])
 
     return <Main>
-        <ConcettangeloCountSpotlight
-            count={parolangeloCount + slangeloCount}
-            soloCount={soloParolangeloCount + soloSlangeloCount}
-        />
         <ParolangeloCountSpotlight count={parolangeloCount} soloCount={soloParolangeloCount}/>
         <SlangeloCountSpotlight count={slangeloCount} soloCount={soloSlangeloCount}/>
         <CreatorCountSpotlight/>
