@@ -9703,8 +9703,8 @@ vocang:amuore
     a vocang:Parolangelo ;
     skos:prefLabel "Amuore"@it ;
     lexinfo:pronunciation "/a • mu • ò • re/"@it ;
-    skos:definition "Persona di cui qualcuno è innamorato , a che sta per morire o è in punto di morte."@it ;
-    skos:example "No ti prego! Non voglio andarmene dal biribì. Il mio amuore è lì dentro!"@it ;
+    skos:definition "Amore tra due persone, in cui una o entrambe stanno però per morire o sono in punto di morte"@it, "Persona di cui qualcuno è innamorato, ma che sta per morire o è in punto di morte."@it ;
+    skos:example "L'amuore che provo per lui mi fa sentire male ogni giorno... Come farò quando non ci sarà più?"@it, "No ti prego! Non voglio andarmene dal biribì. Il mio amuore è lì dentro!"@it ;
     schema:keywords "innamorato, morte, triste, amare, amore, amuore, persona, umano, morire, punto di morte";
     dct:created "2023-12-15" ;
     dct:creator vocang:pertosaLorenzo, vocang:battaglinoNicole .
