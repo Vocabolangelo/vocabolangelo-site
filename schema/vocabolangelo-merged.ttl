@@ -871,6 +871,7 @@
 <http://www.vocabolangelo.org/cafferillo> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/caf • fe • rìl • lo/"@it .
 <http://www.vocabolangelo.org/cafferillo> <http://www.w3.org/2004/02/skos/core#definition> "Una variante di caffè mischiato con sciroppo di mirtillo. Come per il normale caffè è possibile crearlo in diverse varianti (macchiato, corretto, shackerato, etc.)."@it .
 <http://www.vocabolangelo.org/cafferillo> <http://www.w3.org/2004/02/skos/core#example> "Ero a casa, desideroso di sperimentare una nuova bevanda, quando mi è venuta in mente un'idea intrigante: preparare un \"cafferillo\". Ho preso il mio caffè preferito e ho aggiunto uno spruzzo di sciroppo di mirtillo. Mentre l'aroma del caffè si diffondeva in cucina, ho preparato una tazza di latte montato a punto di neve per accompagnare il mio cafferillo. Dopo aver versato il caffè aromatico nella tazza, ho aggiunto delicatamente il latte montato, creando uno strato cremoso sulla superficie. Il primo sorso mi ha regalato una piacevole sorpresa: il gusto robusto del caffè era perfettamente bilanciato dalla dolcezza fruttata del mirtillo. Era una combinazione deliziosa che mi ha riempito di energia e ha reso la mia giornata ancora più piacevole. Da quel momento in poi, il cafferillo è diventato una mia creazione casalinga preferita, con la possibilità di personalizzarlo in diverse varianti: macchiato, corretto, shakerato e quant'altro la fantasia suggerisse."@it .
+<http://www.vocabolangelo.org/cafferillo> <https://schema.org/image> "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/cafferillo.jpeg" .
 <http://www.vocabolangelo.org/cafferillo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/cafferetta> .
 <http://www.vocabolangelo.org/cafferillo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
 <http://www.vocabolangelo.org/canillodromo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -1302,6 +1303,7 @@
 <http://www.vocabolangelo.org/burrigliata> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/bur • ri • glia • ta/"@it .
 <http://www.vocabolangelo.org/burrigliata> <http://www.w3.org/2004/02/skos/core#definition> "Una grigliata in cui sono anche presenti dei burrito."@it .
 <http://www.vocabolangelo.org/burrigliata> <http://www.w3.org/2004/02/skos/core#example> "Durante la burrigliata, gli amici si deliziarono con sapori messicani, creando combinazioni gustose e scambiandosi consigli. La festa fu un successo, tra le risate e il sapore unico dei burrito."@it .
+<http://www.vocabolangelo.org/burrigliata> <https://schema.org/image> "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/burrigliata.jpeg" .
 <http://www.vocabolangelo.org/burrigliata> <http://purl.org/dc/terms/created> "2022-08-24" .
 <http://www.vocabolangelo.org/burrigliata> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/bdeouiEddy> .
 <http://www.vocabolangelo.org/griglito> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -1745,6 +1747,7 @@
 <http://www.vocabolangelo.org/obesatto> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/o • be • sat • to/"@it .
 <http://www.vocabolangelo.org/obesatto> <http://www.w3.org/2004/02/skos/core#definition> "Un gatto estremamente obeso."@it .
 <http://www.vocabolangelo.org/obesatto> <http://www.w3.org/2004/02/skos/core#example> "Su Instagram continuano a arrivarmi reel di obesatti, son carini ma fan fatica a muoversi!"@it .
+<http://www.vocabolangelo.org/obesatto> <https://schema.org/image> "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/obesatto.jpeg" .
 <http://www.vocabolangelo.org/obesatto> <http://purl.org/dc/terms/created> "2022-11-29" .
 <http://www.vocabolangelo.org/obesatto> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/battaglinoNicole> .
 <http://www.vocabolangelo.org/ghiaccimi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -2830,6 +2833,7 @@
 <http://www.vocabolangelo.org/strabicio> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/stra • bì • cio/"@it .
 <http://www.vocabolangelo.org/strabicio> <http://www.w3.org/2004/02/skos/core#definition> "Un gatto strabico."@it .
 <http://www.vocabolangelo.org/strabicio> <http://www.w3.org/2004/02/skos/core#example> "Quello strabicio sbatte contro ogni muro, poverino..."@it .
+<http://www.vocabolangelo.org/strabicio> <https://schema.org/image> "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/strabicio.jpeg" .
 <http://www.vocabolangelo.org/strabicio> <http://purl.org/dc/terms/created> "2023-01-25" .
 <http://www.vocabolangelo.org/strabicio> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
 <http://www.vocabolangelo.org/grattilletico> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -3108,6 +3112,7 @@
 <http://www.vocabolangelo.org/acrobatto> <http://www.w3.org/2004/02/skos/core#definition> "Gatto che esegue acrobazie e tende ad arrampicarsi in posti pericolosi."@it .
 <http://www.vocabolangelo.org/acrobatto> <http://www.w3.org/2004/02/skos/core#example> "Quell'acrobatto si credeva veramente capace, invece poi sono arrivati i pompieri."@it .
 <http://www.vocabolangelo.org/acrobatto> <http://purl.org/dc/terms/created> "2023-02-07" .
+<http://www.vocabolangelo.org/acrobatto> <https://schema.org/image> "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/acrobatto.jpeg" .
 <http://www.vocabolangelo.org/acrobatto> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/omnicio> .
 <http://www.vocabolangelo.org/acrobatto> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
 <http://www.vocabolangelo.org/basilicarsi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -3971,6 +3976,7 @@
 <http://www.vocabolangelo.org/violare> <http://www.w3.org/2004/02/skos/core#definition> "Atto che consiste nel dipingere qualcosa del colore viola."@it .
 <http://www.vocabolangelo.org/violare> <http://www.w3.org/2004/02/skos/core#example> "L'altro giorno ho violato Nicola, stava veramente bene con tutta quella vernice addosso!"@it .
 <http://www.vocabolangelo.org/violare> <http://purl.org/dc/terms/created> "2023-03-19" .
+<http://www.vocabolangelo.org/violare> <https://schema.org/image> "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/violare.jpeg" .
 <http://www.vocabolangelo.org/violare> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
 <http://www.vocabolangelo.org/violare> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/minoccheriAlessandra> .
 <http://www.vocabolangelo.org/biconare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -4564,6 +4570,7 @@
 <http://www.vocabolangelo.org/caffedrillo> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/caf • fe • drìl • lo/"@it .
 <http://www.vocabolangelo.org/caffedrillo> <http://www.w3.org/2004/02/skos/core#definition> "Un individuo affetto da un'ossessione nei confronti del caffè e che ne consuma in modo compulsivo."@it .
 <http://www.vocabolangelo.org/caffedrillo> <http://www.w3.org/2004/02/skos/core#example> "Riccardo è diventato un caffedrillo, spero vivamente si faccia aiutare da un esperto."@it .
+<http://www.vocabolangelo.org/caffedrillo> <https://schema.org/image> "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/caffedrillo.jpeg" .
 <http://www.vocabolangelo.org/caffedrillo> <http://purl.org/dc/terms/created> "2023-04-26" .
 <http://www.vocabolangelo.org/caffedrillo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
 <http://www.vocabolangelo.org/caffedrillo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
@@ -4675,6 +4682,7 @@
 <http://www.vocabolangelo.org/branchio> <http://www.w3.org/2004/02/skos/core#prefLabel> "Branchio"@it .
 <http://www.vocabolangelo.org/branchio> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/bràn • chio/"@it .
 <http://www.vocabolangelo.org/branchio> <http://www.w3.org/2004/02/skos/core#definition> "Branco di granchi."@it .
+<http://www.vocabolangelo.org/branchio> <https://schema.org/image> "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/branchio.jpeg" .
 <http://www.vocabolangelo.org/branchio> <http://www.w3.org/2004/02/skos/core#example> "Hai visto il video di Crab Rave? C'è un branchio che balla!"@it .
 <http://www.vocabolangelo.org/branchio> <http://www.w3.org/2004/02/skos/core#example> "Ieri sono stato al mare e ho visto un branchio di granchi che facevano una festa sulla spiaggia. Avevano allestito una discoteca sotto una conchiglia, con un DJ gamberetto che mixava musica per tutti i gusti. C'erano granchi che ballavano il cha-cha-cha, altri che facevano il tuffo dalla scogliera, e uno che aveva addirittura portato un ombrellone per proteggersi dal sole. Sono rimasto affascinato da quella comunità di crostacei così simpatici e ben organizzati, che sembravano quasi umani. Mi è venuta voglia di unirmi al loro branchio, ma ho temuto di fare una brutta figura con i miei movimenti goffi da uomo sulla sabbia."@it .
 <http://www.vocabolangelo.org/branchio> <http://purl.org/dc/terms/created> "2023-05-06" .
@@ -4837,6 +4845,7 @@
 <http://www.vocabolangelo.org/gourmicio> <http://www.w3.org/2004/02/skos/core#definition> "Gatto o feline abituato a mangiare piatti di alta cucina."@it .
 <http://www.vocabolangelo.org/gourmicio> <http://www.w3.org/2004/02/skos/core#example> "Il piccolo Felix è un vero gourmicio, abituato sin da cucciolo a gustare prelibatezze culinarie. Non si accontenta di cibo comune, ma preferisce indulgere in piatti raffinati preparati con cura, come il filetto di salmone al vapore o i piccoli bocconcini di pollo biologico."@it .
 <http://www.vocabolangelo.org/gourmicio> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/omnicio> .
+<http://www.vocabolangelo.org/gourmicio> <https://schema.org/image> "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/gourmicio.jpeg" .
 <http://www.vocabolangelo.org/gourmicio> <http://purl.org/dc/terms/created> "2023-05-13" .
 <http://www.vocabolangelo.org/gourmicio> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
 <http://www.vocabolangelo.org/paschiaffare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -5090,6 +5099,7 @@
 <http://www.vocabolangelo.org/komala> <http://www.w3.org/2004/02/skos/core#example> "Quella komala ruba sempre le foglie di eucalipto ai suoi simili e li maltratta pure!"@it .
 <http://www.vocabolangelo.org/komala> <http://www.w3.org/2004/02/skos/core#example> "Quel gruppo di koala si è organizzato ed ha creato una komala. Quando dei koala che non fanno parte del gruppo si avvicinano al loro terrirorio per mangiare dell'eucalipto, loro rispondono con toni aggressivi e scacciandoli!"@it .
 <http://www.vocabolangelo.org/komala> <http://purl.org/dc/terms/created> "2023-06-03" .
+<http://www.vocabolangelo.org/komala> <https://schema.org/image> "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/komala.jpeg" .
 <http://www.vocabolangelo.org/komala> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/orlandoNicola> .
 <http://www.vocabolangelo.org/komala> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
 <http://www.vocabolangelo.org/sensualiDiParcheggio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Slangelo> .
@@ -5319,6 +5329,7 @@
 <http://www.vocabolangelo.org/gatturismo> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/gat • tu • rì · ṣmo/"@it .
 <http://www.vocabolangelo.org/gatturismo> <http://www.w3.org/2004/02/skos/core#definition> "La visita persso un luogo con il solo o principale scopo di vedere quanti più gatti locali possibile, o i gatti locali più belli e/o importanti."@it .
 <http://www.vocabolangelo.org/gatturismo> <http://www.w3.org/2004/02/skos/core#example> "Arianna continua a mandarmi foto di mici bellissimi; dovrò raggiungerla per fare un po' di gatturismo!"@it .
+<http://www.vocabolangelo.org/gatturismo> <https://schema.org/image> "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/gatturismo.jpeg" .
 <http://www.vocabolangelo.org/gatturismo> <http://purl.org/dc/terms/created> "2023-06-18" .
 <http://www.vocabolangelo.org/gatturismo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/orlandoNicola> .
 <http://www.vocabolangelo.org/squilione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -5814,6 +5825,7 @@
 <http://www.vocabolangelo.org/albaninja> <http://www.w3.org/2004/02/skos/core#definition> "Ninja di origine albanese."@it .
 <http://www.vocabolangelo.org/albaninja> <http://www.w3.org/2004/02/skos/core#example> "Un albaninja si è infiltrato silenziosamente nel palazzo dove abitavo tempo fa ed ha accoltellato senza pietà il suo bersaglio."@it .
 <http://www.vocabolangelo.org/albaninja> <http://purl.org/dc/terms/created> "2023-07-15" .
+<http://www.vocabolangelo.org/albaninja> <https://schema.org/image> "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/albaninja.jpeg" .
 <http://www.vocabolangelo.org/albaninja> <http://www.w3.org/2004/02/skos/core#note> "Questa è la prima parola inventata da Silvia che è entrata nel Vocabolangelo, grazie e congratulazioni." .
 <http://www.vocabolangelo.org/albaninja> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/scattoniSilvia> .
 <http://www.vocabolangelo.org/lucretino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -6452,6 +6464,7 @@
 <http://www.vocabolangelo.org/fuorigano> <http://www.w3.org/2004/02/skos/core#definition> "Piante di origano selvatico."@it .
 <http://www.vocabolangelo.org/fuorigano> <http://www.w3.org/2004/02/skos/core#example> "È inutile che insisti; anche se lo coltivi in giardino, non è fuorigano!"@it .
 <http://www.vocabolangelo.org/fuorigano> <https://schema.org/keywords> "origano, selvatico" .
+<http://www.vocabolangelo.org/fuorigano> <https://schema.org/image> "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/fuorigano.jpeg" .
 <http://www.vocabolangelo.org/fuorigano> <http://purl.org/dc/terms/created> "2023-08-20" .
 <http://www.vocabolangelo.org/fuorigano> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/orlandoNicola> .
 <http://www.vocabolangelo.org/ravienna> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -7258,6 +7271,7 @@
 <http://www.vocabolangelo.org/ortaggiatore> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/or • tag • già • to • re/"@it .
 <http://www.vocabolangelo.org/ortaggiatore> <http://www.w3.org/2004/02/skos/core#definition> "Rapinatore che detiene degli ortaggi con sè."@it .
 <http://www.vocabolangelo.org/ortaggiatore> <http://www.w3.org/2004/02/skos/core#example> "Nel mezzo della sparatroia con la polizia, uno dei rapinatori estrasse una carota dal cappotto e la mangiò, non sapevo di aver a che fare con degli ortaggiatori!"@it .
+<http://www.vocabolangelo.org/ortaggiatore> <https://schema.org/image> "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/ortaggiatore.jpeg" .
 <http://www.vocabolangelo.org/ortaggiatore> <https://schema.org/keywords> "ortaggio, persona, rapinatore, riscatto" .
 <http://www.vocabolangelo.org/ortaggiatore> <http://purl.org/dc/terms/created> "2023-10-06" .
 <http://www.vocabolangelo.org/ortaggiatore> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/ostaggiante> .
