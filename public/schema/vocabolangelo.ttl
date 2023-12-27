@@ -9708,3 +9708,13 @@ vocang:amuore
     schema:keywords "innamorato, morte, triste, amare, amore, amuore, persona, umano, morire, punto di morte";
     dct:created "2023-12-15" ;
     dct:creator vocang:pertosaLorenzo, vocang:battaglinoNicole .
+
+vocang:velocìta
+    a vocang:Parolangelo ;
+    skos:prefLabel "Velocìta"@it ;
+    lexinfo:pronunciation "/ve • lo • cì • ta/"@it ;
+    skos:definition "Velocità di una scimmia."@it ;
+    skos:example "Quella velocìta sembra quasi un ninja! Mi chiedo se esista una parolangelo per descrivere una scimmia Ninja..."@it ;
+    schema:keywords "velocità, scimmia, animale, corsa, andare, andatura, calabria"@it ;
+    dct:created "2023-12-16" ;
+    dct:creator vocang:minoccheriAlessandra, vocang:orlandoNicola .
