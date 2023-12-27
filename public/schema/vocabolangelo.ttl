@@ -797,6 +797,7 @@ vocang:cafferillo
     lexinfo:pronunciation "/caf • fe • rìl • lo/"@it ;
     skos:definition "Una variante di caffè mischiato con sciroppo di mirtillo. Come per il normale caffè è possibile crearlo in diverse varianti (macchiato, corretto, shackerato, etc.)."@it ;
     skos:example "Ero a casa, desideroso di sperimentare una nuova bevanda, quando mi è venuta in mente un'idea intrigante: preparare un \"cafferillo\". Ho preso il mio caffè preferito e ho aggiunto uno spruzzo di sciroppo di mirtillo. Mentre l'aroma del caffè si diffondeva in cucina, ho preparato una tazza di latte montato a punto di neve per accompagnare il mio cafferillo. Dopo aver versato il caffè aromatico nella tazza, ho aggiunto delicatamente il latte montato, creando uno strato cremoso sulla superficie. Il primo sorso mi ha regalato una piacevole sorpresa: il gusto robusto del caffè era perfettamente bilanciato dalla dolcezza fruttata del mirtillo. Era una combinazione deliziosa che mi ha riempito di energia e ha reso la mia giornata ancora più piacevole. Da quel momento in poi, il cafferillo è diventato una mia creazione casalinga preferita, con la possibilità di personalizzarlo in diverse varianti: macchiato, corretto, shakerato e quant'altro la fantasia suggerisse."@it ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/cafferillo.jpeg" ;
     skos:related vocang:cafferetta ;
     dct:creator vocang:filasetaAngelo .
 
@@ -1349,6 +1350,7 @@ vocang:burrigliata
     lexinfo:pronunciation "/bur • ri • glia • ta/"@it ;
     skos:definition "Una grigliata in cui sono anche presenti dei burrito."@it ;
     skos:example "Durante la burrigliata, gli amici si deliziarono con sapori messicani, creando combinazioni gustose e scambiandosi consigli. La festa fu un successo, tra le risate e il sapore unico dei burrito."@it;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/burrigliata.jpeg" ;
     dct:created "2022-08-24" ;
     dct:creator vocang:bdeouiEddy .
 
@@ -1893,6 +1895,7 @@ vocang:obesatto
     lexinfo:pronunciation "/o • be • sat • to/"@it ;
     skos:definition "Un gatto estremamente obeso."@it ;
     skos:example "Su Instagram continuano a arrivarmi reel di obesatti, son carini ma fan fatica a muoversi!"@it;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/obesatto.jpeg" ;
     dct:created "2022-11-29" ;
     dct:creator vocang:battaglinoNicole .
 
@@ -3208,6 +3211,7 @@ vocang:strabicio
     lexinfo:pronunciation "/stra • bì • cio/"@it ;
     skos:definition "Un gatto strabico."@it ;
     skos:example "Quello strabicio sbatte contro ogni muro, poverino..."@it ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/strabicio.jpeg" ;
     dct:created "2023-01-25" ;
     dct:creator vocang:pertosaLorenzo .
 
@@ -3552,6 +3556,7 @@ vocang:acrobatto
     skos:definition "Gatto che esegue acrobazie e tende ad arrampicarsi in posti pericolosi."@it ;
     skos:example "Quell'acrobatto si credeva veramente capace, invece poi sono arrivati i pompieri."@it ;
     dct:created "2023-02-07" ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/acrobatto.jpeg" ;
     skos:related vocang:omnicio ;
     dct:creator vocang:omiccioliRiccardo .
 
@@ -4589,6 +4594,7 @@ vocang:violare
     skos:definition "Atto che consiste nel dipingere qualcosa del colore viola."@it ;
     skos:example "L'altro giorno ho violato Nicola, stava veramente bene con tutta quella vernice addosso!"@it ;
     dct:created "2023-03-19" ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/violare.jpeg" ;
     dct:creator vocang:pertosaLorenzo, vocang:minoccheriAlessandra .
 
 vocang:biconare
@@ -5265,6 +5271,7 @@ vocang:caffedrillo
     lexinfo:pronunciation "/caf • fe • drìl • lo/"@it ;
     skos:definition "Un individuo affetto da un'ossessione nei confronti del caffè e che ne consuma in modo compulsivo."@it ;
     skos:example "Riccardo è diventato un caffedrillo, spero vivamente si faccia aiutare da un esperto."@it ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/caffedrillo.jpeg" ;
     dct:created "2023-04-26" ;
     dct:creator vocang:omiccioliRiccardo, vocang:filasetaAngelo .
 
@@ -5401,6 +5408,7 @@ vocang:branchio
     skos:prefLabel "Branchio"@it ;
     lexinfo:pronunciation "/bràn • chio/"@it ;
     skos:definition "Branco di granchi."@it ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/branchio.jpeg" ;
     skos:example "Hai visto il video di Crab Rave? C'è un branchio che balla!"@it, "Ieri sono stato al mare e ho visto un branchio di granchi che facevano una festa sulla spiaggia. Avevano allestito una discoteca sotto una conchiglia, con un DJ gamberetto che mixava musica per tutti i gusti. C'erano granchi che ballavano il cha-cha-cha, altri che facevano il tuffo dalla scogliera, e uno che aveva addirittura portato un ombrellone per proteggersi dal sole. Sono rimasto affascinato da quella comunità di crostacei così simpatici e ben organizzati, che sembravano quasi umani. Mi è venuta voglia di unirmi al loro branchio, ma ho temuto di fare una brutta figura con i miei movimenti goffi da uomo sulla sabbia."@it ;
     dct:created "2023-05-06" ;
     dct:creator vocang:suscaMatteo .
@@ -5577,6 +5585,7 @@ vocang:gourmicio
     skos:definition "Gatto o feline abituato a mangiare piatti di alta cucina."@it ;
     skos:example "Il piccolo Felix è un vero gourmicio, abituato sin da cucciolo a gustare prelibatezze culinarie. Non si accontenta di cibo comune, ma preferisce indulgere in piatti raffinati preparati con cura, come il filetto di salmone al vapore o i piccoli bocconcini di pollo biologico."@it ;
     skos:related vocang:omnicio ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/gourmicio.jpeg" ;
     dct:created "2023-05-13" ;
     dct:creator vocang:pertosaLorenzo .
 
@@ -5860,6 +5869,7 @@ vocang:komala
     skos:definition "Koala di sesso femminile estremamente astuto, sfacciato e malvagio."@it, "Un gruppo organizzato di koala caratterizzati da comportamenti malavitosi."@it ;
     skos:example "Quella komala ruba sempre le foglie di eucalipto ai suoi simili e li maltratta pure!"@it, "Quel gruppo di koala si è organizzato ed ha creato una komala. Quando dei koala che non fanno parte del gruppo si avvicinano al loro terrirorio per mangiare dell'eucalipto, loro rispondono con toni aggressivi e scacciandoli!"@it;
     dct:created "2023-06-03" ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/komala.jpeg" ;
     dct:creator vocang:orlandoNicola, vocang:pertosaLorenzo .
 
 vocang:sensualiDiParcheggio
@@ -6112,6 +6122,7 @@ vocang:gatturismo
     lexinfo:pronunciation "/gat • tu • rì · ṣmo/"@it ;
     skos:definition "La visita persso un luogo con il solo o principale scopo di vedere quanti più gatti locali possibile, o i gatti locali più belli e/o importanti."@it ;
     skos:example "Arianna continua a mandarmi foto di mici bellissimi; dovrò raggiungerla per fare un po' di gatturismo!"@it ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/gatturismo.jpeg" ;
     dct:created "2023-06-18" ;
     dct:creator vocang:orlandoNicola .
 
@@ -6670,6 +6681,7 @@ vocang:albaninja
     skos:definition "Ninja di origine albanese."@it;
     skos:example "Un albaninja si è infiltrato silenziosamente nel palazzo dove abitavo tempo fa ed ha accoltellato senza pietà il suo bersaglio."@it ;
     dct:created "2023-07-15" ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/albaninja.jpeg" ;
     skos:note "Questa è la prima parola inventata da Silvia che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
     dct:creator vocang:scattoniSilvia .
 
@@ -7317,6 +7329,7 @@ vocang:fuorigano
     skos:definition "Piante di origano selvatico."@it ;
     skos:example "È inutile che insisti; anche se lo coltivi in giardino, non è fuorigano!"@it;
     schema:keywords "origano, selvatico";
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/fuorigano.jpeg" ;
     dct:created "2023-08-20" ;
     dct:creator vocang:orlandoNicola .
 
@@ -8214,6 +8227,7 @@ vocang:ortaggiatore
     lexinfo:pronunciation "/or • tag • già • to • re/"@it ;
     skos:definition "Rapinatore che detiene degli ortaggi con sè."@it ;
     skos:example "Nel mezzo della sparatroia con la polizia, uno dei rapinatori estrasse una carota dal cappotto e la mangiò, non sapevo di aver a che fare con degli ortaggiatori!"@it;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/ortaggiatore.jpeg" ;
     schema:keywords "ortaggio, persona, rapinatore, riscatto";
     dct:created "2023-10-06" ;
     skos:related vocang:ostaggiante ;
