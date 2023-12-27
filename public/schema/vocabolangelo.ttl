@@ -9678,3 +9678,13 @@ vocang:pollibalismo
     schema:keywords "pollo, cannibalismo, mangiare, triste, morte";
     dct:created "2023-12-13" ;
     dct:creator vocang:rosatelliAnna .
+
+vocang:scopertina
+    a vocang:Parolangelo ;
+    skos:prefLabel "Scopertina"@it ;
+    lexinfo:pronunciation "/sco • per • tì • na/"@it ;
+    skos:definition "Coperta leggera, che non ti tiene caldo."@it ;
+    skos:example "Sasha ha dormito in quella stanza solo con una scopertina e si è mosso tutta la notte!"@it ;
+    schema:keywords "coperta, leggera, caldo, freddo, inverno, dormire";
+    dct:created "2023-12-14" ;
+    dct:creator vocang:ribaudoSofia, vocang:bdeouiEddy .
