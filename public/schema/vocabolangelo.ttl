@@ -9770,3 +9770,15 @@ vocang:crollant
     schema:keywords "calze, cadere, larghe, strette, crollare, crollanti, utile, divertente";
     dct:created "2023-12-17" ;
     dct:creator vocang:battaglinoNicole .
+
+vocang:cucchiaiabile
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cucchiaiabile"@it ;
+    lexinfo:pronunciation "/cuc • chia • ia • bì • le/"@it ;
+    skos:definition "Qualunque cosa sia possibilmente mangiabile con un cucchiaio o che, più in generale, possa prevedere l'uso di un cucchiaio."@it ;
+    skos:example "L'altro giorno in cella ho cavato un occhio a Marco: ne diceva di stronzate per avere dei bulbi oculari così cucchiaiabili!"@it ;
+    skos:related vocang:forchiello ;
+    skos:note "Il significato si allarga a tantissime cose, non solo in ambito culinario"@it;
+    schema:keywords "cucchiaio, mangiare, cibo, utile, divertente";
+    dct:created "2023-12-22" ;
+    dct:creator vocang:pertosaLorenzo .
