@@ -9739,3 +9739,13 @@ vocang:porcoSoccorso
     schema:keywords "pronto, soccorso, lento, inefficiente, personale, preparato";
     dct:created "2023-12-16" ;
     dct:creator vocang:suscaMatteo .
+
+vocang:pieditalino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Pieditalino"@it ;
+    lexinfo:pronunciation "/pi • e • di • ta • li • no/"@it ;
+    skos:definition "Ditalino in mezzo alle dita dei piedini."@it ;
+    skos:example "Matteo stava erotizzando le dita dei piedi di Alberto, era un palese pieditalino (gli è pure piaciuto)."@it ;
+    schema:keywords "ditalino, piedi, piede, dita, piedini, pieditalino, erotico, erotizzare, sesso, sessuale, utile, divertente";
+    dct:created "2023-12-16" ;
+    dct:creator vocang:ribaudoSofia .
