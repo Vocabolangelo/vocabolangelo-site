@@ -184,7 +184,7 @@ function Related(props: ConceptProps){
     />
 }
 
-function Note(props: ConceptProps){
+function Note(props: ConceptProps) {
     return <ConditionalComponent condition={() => props.concept.notes?.length > 0}>
         <NamedSection title={'Note'}>
             <List

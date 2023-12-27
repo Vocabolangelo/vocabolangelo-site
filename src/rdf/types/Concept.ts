@@ -82,11 +82,11 @@ export class Concept extends RDFNamedNode {
     }
 
     public get definitions(): string[] {
-        return this._definitions
+        return [...new Set(this._definitions)]
     }
 
     public get examples(): string[] {
-        return this._examples
+        return [...new Set(this._examples)]
     }
 
     public creators(filterFunction: (node:NamedNode) => boolean): () => RDFNamedNode[] {
@@ -101,11 +101,11 @@ export class Concept extends RDFNamedNode {
     }
 
     public get images(): string[] {
-        return this._images
+        return [...new Set(this._images)]
     }
 
     public get videos(): string[] {
-        return this._videos
+        return [...new Set(this._videos)]
     }
 
     public get synonyms(): () => Concept[] {
@@ -133,7 +133,7 @@ export class Concept extends RDFNamedNode {
     }
 
     public get notes(): string[] {
-        return this._notes
+        return [...new Set(this._notes)]
     }
 
 }
