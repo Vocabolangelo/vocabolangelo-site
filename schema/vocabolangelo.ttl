@@ -9466,7 +9466,6 @@ vocang:apocaellissi
     dct:created "2023-12-07" ;
     dct:creator vocang:pertosaLorenzo .
 
-
 vocang:tagliardino
     a vocang:Parolangelo ;
     skos:prefLabel "Tagliardino"@it ;
@@ -9648,3 +9647,177 @@ vocang:briciolataio
     skos:related vocang:briciolaio ;
     dct:created "2023-12-11" ;
     dct:creator vocang:battaglinoNicole .
+
+vocang:scambismoCulturale
+    a vocang:Slangelo ;
+    skos:prefLabel "Scambismo culturale"@it ;
+    lexinfo:pronunciation "/scam • bì • ṣmo/ /cul • tu • rà • le/"@it ;
+    skos:definition "Pratica sessuale dello scambismo interculturale. Implica lo scambio di partner tra coppie provenienti da diverse origini culturali o etniche, arricchendo l'esperienza con una dimensione di diversità culturale."@it ;
+    skos:example "Ieri io e la mia ragazza abbiamo praticato scambismo culturale. È stato molto eccitante, e poi ho scoperto che i cinesi hanno il pene molto più piccolo di noi!"@it ;
+    schema:keywords "scambismo, culturale, sesso, sessuale, utile, scoprire, cinese, cina, pene, piccolo, diversità, diverso, diversità culturale, cultura, etnia, etnico, etnica";
+    dct:created "2023-12-13" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:suicibercidio
+    a vocang:Parolangelo ;
+    skos:prefLabel "Suicibercidio"@it ;
+    lexinfo:pronunciation "/sui • ci • ber • cì • dio/"@it ;
+    skos:definition "Suicidio praticato da un robot o una macchina che, in completa autonomia, si spegne o stacca l'alimentazione."@it ;
+    skos:example "Ieri ho visto un suicibercidio. È stato molto triste, perché il robot si è staccato la batteria da solo!"@it ;
+    schema:keywords "suicidio, robot, macchina, autonomia, spegnere, staccare, batteria, triste, morte";
+    dct:created "2023-12-13" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:pollibalismo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Pollibalismo"@it ;
+    lexinfo:pronunciation "/pol • li • bà • li • smo/"@it ;
+    skos:definition "Cannibalismo tra polli."@it ;
+    skos:example "Ogni volta che vedo del pollibalismo mi eccito e comincio a scommettere soldi!"@it ;
+    schema:keywords "pollo, cannibalismo, mangiare, triste, morte";
+    dct:created "2023-12-13" ;
+    dct:creator vocang:rosatelliAnna .
+
+vocang:scopertina
+    a vocang:Parolangelo ;
+    skos:prefLabel "Scopertina"@it ;
+    lexinfo:pronunciation "/sco • per • tì • na/"@it ;
+    skos:definition "Coperta leggera, che non ti tiene caldo."@it ;
+    skos:example "Sasha ha dormito in quella stanza solo con una scopertina e si è mosso tutta la notte!"@it ;
+    schema:keywords "coperta, leggera, caldo, freddo, inverno, dormire";
+    dct:created "2023-12-15" ;
+    dct:creator vocang:ribaudoSofia, vocang:bdeouiEddy .
+
+vocang:imbananato
+    a vocang:Parolangelo ;
+    skos:prefLabel "Imbananato"@it ;
+    lexinfo:pronunciation "/im • ba • na • nà • to/"@it ;
+    skos:definition "Storto."@it ;
+    skos:example "Guarda quanto ha bevuto! Cammina tutto imbananato!"@it ;
+    schema:keywords "storto, fare, utile";
+    dct:created "2023-12-15" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:amuore
+    a vocang:Parolangelo ;
+    skos:prefLabel "Amuore"@it ;
+    lexinfo:pronunciation "/a • mu • ò • re/"@it ;
+    skos:definition "Amore tra due persone, in cui una o entrambe stanno però per morire o sono in punto di morte"@it, "Persona di cui qualcuno è innamorato, ma che sta per morire o è in punto di morte."@it ;
+    skos:example "L'amuore che provo per lui mi fa sentire male ogni giorno... Come farò quando non ci sarà più?"@it, "No ti prego! Non voglio andarmene dal biribì. Il mio amuore è lì dentro!"@it ;
+    schema:keywords "innamorato, morte, triste, amare, amore, amuore, persona, umano, morire, punto di morte";
+    dct:created "2023-12-15" ;
+    skos:related vocang:biribì ;
+    dct:creator vocang:pertosaLorenzo, vocang:battaglinoNicole .
+
+vocang:velocìta
+    a vocang:Parolangelo ;
+    skos:prefLabel "Velocìta"@it ;
+    lexinfo:pronunciation "/ve • lo • cì • ta/"@it ;
+    skos:definition "Velocità di una scimmia."@it ;
+    skos:example "Quella velocìta sembra quasi un ninja! Mi chiedo se esista una parolangelo per descrivere una scimmia Ninja..."@it ;
+    schema:keywords "velocità, scimmia, animale, corsa, andare, andatura, calabria"@it ;
+    dct:created "2023-12-16" ;
+    dct:creator vocang:minoccheriAlessandra, vocang:orlandoNicola .
+
+vocang:scorciaboia
+    a vocang:Parolangelo ;
+    skos:prefLabel "Scorciaboia"@it ;
+    lexinfo:pronunciation "/scor • cia • bò • ia/"@it ;
+    skos:definition "Scorciatoia che, se imboccata, porta con alta probabilità alla morte."@it ;
+    skos:example "Poveretto, stava sciando e ha pensato di prendere una scorciaboia passando tra gli alberi, hanno dovuto raccoglierlo col cucchiaino..."@it ;
+    schema:keywords "scorciatoia, morte";
+    dct:created "2023-12-16" ;
+    dct:creator vocang:pertosaLorenzo, vocang:omiccioliRiccardo .
+
+vocang:porcoSoccorso
+    a vocang:Slangelo ;
+    skos:prefLabel "Porco soccorso"@it ;
+    lexinfo:pronunciation "/pòr • co/ /soc • còr • so/"@it ;
+    skos:definition "Pronto soccorso lento ed inefficiente con personale non preparato."@it ;
+    skos:example "Ieri mi sono tagliato un dito e al posto di riattaccarmelo me ne hanno tagliato un altro!"@it ;
+    schema:keywords "pronto, soccorso, lento, inefficiente, personale, preparato";
+    dct:created "2023-12-16" ;
+    dct:creator vocang:suscaMatteo .
+
+vocang:pieditalino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Pieditalino"@it ;
+    lexinfo:pronunciation "/pi • e • di • ta • li • no/"@it ;
+    skos:definition "Ditalino in mezzo alle dita dei piedini."@it ;
+    skos:example "Matteo stava erotizzando le dita dei piedi di Alberto, era un palese pieditalino (gli è pure piaciuto)."@it ;
+    schema:keywords "ditalino, piedi, piede, dita, piedini, pieditalino, erotico, erotizzare, sesso, sessuale, utile, divertente";
+    skos:related vocang:ombelichino ;
+    dct:created "2023-12-16" ;
+    dct:creator vocang:ribaudoSofia .
+
+vocang:piedalino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Piedalino"@it ;
+    lexinfo:pronunciation "/pie • da • lì • no/"@it ;
+    skos:definition "Ditalino fatto con le dita dei piedi."@it ;
+    skos:example "Ho provato a fare un piedalino alla mia ragazza ma non sono ancora abbastanza bravo."@it ;
+    schema:keywords "ditalino, piedi, piede, dita, piedini, pieditalino, erotico, erotizzare, sesso, sessuale, utile, divertente";
+    skos:related vocang:ombelichino, vocang:pieditalino ;
+    dct:created "2023-12-16" ;
+    dct:creator vocang:rosatelliAnna, vocang:omiccioliRiccardo .
+
+vocang:crollant
+    a vocang:Parolangelo ;
+    skos:prefLabel "Crollant"@it ;
+    skos:definition "Calze che tendono a cadere spesso perché troppo larghe o troppo strette."@it ;
+    skos:example "Ho comprato delle calze nuove ma sono risultati dei crollant. Sono rimasta nuda mentre salivo le scale! (almeno sono forte)"@it ;
+    schema:keywords "calze, cadere, larghe, strette, crollare, crollanti, utile, divertente";
+    dct:created "2023-12-17" ;
+    dct:creator vocang:battaglinoNicole .
+
+vocang:cucchiaiabile
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cucchiaiabile"@it ;
+    lexinfo:pronunciation "/cuc • chia • ia • bì • le/"@it ;
+    skos:definition "Qualunque cosa sia possibilmente mangiabile con un cucchiaio o che, più in generale, possa prevedere l'uso di un cucchiaio."@it ;
+    skos:example "L'altro giorno in cella ho cavato un occhio a Marco: ne diceva di stronzate per avere dei bulbi oculari così cucchiaiabili!"@it ;
+    skos:related vocang:forchiello ;
+    skos:note "Il significato si allarga a tantissime cose, non solo in ambito culinario"@it;
+    schema:keywords "cucchiaio, mangiare, cibo, utile, divertente";
+    dct:created "2023-12-22" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:sciosbirro
+    a vocang:Parolangelo ;
+    skos:prefLabel "Sciosbirro"@it ;
+    lexinfo:pronunciation "/sci • os • bì • rro/"@it ;
+    skos:definition "Forza dell'ordine dotata di sci."@it ;
+    skos:example "Ho visto due tizi scontrarsi sulla pista, han chiamato gli sciosbirri e hanno spiegato l'accaduto, purtroppo han preso entrambi una multa per discesa in stato di ebrezza."@it ;
+    schema:keywords "polizia, carabiniere, sci, sciosbirro, forza, ordine";
+    dct:created "2023-12-22" ;
+    skos:related vocang:monobiniere, vocang:monoziotto, vocang:idrosbirro, vocang:aviosbirro, vocang:boscosbirro, vocang:ipposbirro, vocang:pirosbirro, vocang:arabiniere, vocang:caccabiniere, vocang:nerarabiniere, vocang:nerobiniere ;
+    dct:creator vocang:pertosaLorenzo, vocang:paoliMichele .
+
+vocang:cockola
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cockola"@it ;
+    skos:definition "Coccola fatta strusciando il proprio pene su un'altra persona."@it ;
+    skos:example "Ieri ho fatto delle cockole a mia nonna per sbaglio perché ero ubriaco. È stato molto imbarazzante, non sono riuscito a spiegarle che pensavo fosse crush!"@it ;
+    schema:keywords "coccole, pene, strusciare, sesso, cazzo";
+    dct:created "2023-12-22" ;
+    dct:creator vocang:battaglinoNicole, vocang:omiccioliRiccardo .
+
+vocang:comaEllittico
+    a vocang:Slangelo ;
+    skos:prefLabel "Coma ellittico"@it ;
+    lexinfo:pronunciation "/cò • ma/ /el • lit • tì • co/"@it ;
+    skos:definition "Stato in cui una persona ha consumato una quantità eccessiva di bevande alcoliche, causando una distorsione ellittica della sua percezione dello spazio e della realtà."@it ;
+    skos:example "Marco si sedette per risolvere un problema di geometria euclidea, ma ben presto si accorse che il suo tentativo era vano, poiché si trovava in uno stato di coma ellittico che ne comprometteva la percezione della realtà."@it ;
+    schema:keywords "alcol, alcolico, coma, ellittico, percezione, spazio, realtà, ellissi"@it ;
+    skos:related vocang:apocaellissi ;
+    dct:creator vocang:orlandoNicola, vocang:omiccioliRiccardo .
+
+vocang:scinistro
+    a vocang:Parolangelo ;
+    skos:prefLabel "Scinistro"@it ;
+    lexinfo:pronunciation "/sci • nì • stro/"@it ;
+    skos:definition "Incidente fatto tra due sciatori che si colpiscono."@it ;
+    skos:example "Ieri ho fatto uno scinistro. È stato molto imbarazzante, ma alla fine, se ci ripenso, è tutta colpa di quello snowboard maledetto che ci ha tagliato la strada!"@it ;
+    schema:keywords "sci, sciatore, imbarazzante, rischio, dito, rompersi, incidente, colpire, colpo, colpiscono";
+    dct:created "2023-12-25" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:pertosaLorenzo .
