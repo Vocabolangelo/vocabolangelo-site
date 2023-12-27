@@ -9840,3 +9840,14 @@ vocang:cornflex
     dct:created "2023-12-27" ;
     skos:note "La parolangelo nasce scrivendo conflex in modo errato al posto di cornflakes." ;
     dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
+
+vocang:strenna
+    a vocang:Parolangelo ;
+    skos:prefLabel "Strenna"@it ;
+    lexinfo:pronunciation "/strèn • na/"@it ;
+    skos:definition "Renna che soffoca."@it ;
+    skos:example "Babbo natale si è schiantato a causa di una strenna che ha ingoiato un uccello mentre volava nel cielo!"@it ;
+    schema:keywords "renna, soffocamento, morte, strozzarsi, corna";
+    skos:note "Questa è la prima parola inventata da Emilia che è entrata nel Vocabolangelo, grazie e congratulazioni."@it, "La strenna nel dialetto pugliese è un regalo composto di soldi che si fa a Natale";
+    dct:created "2023-12-26" ;
+    dct:creator vocang:mataranteEmilia .
