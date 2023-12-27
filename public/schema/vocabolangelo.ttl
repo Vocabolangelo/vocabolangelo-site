@@ -9761,3 +9761,12 @@ vocang:piedalino
     skos:related vocang:ombelichino, vocang:pieditalino ;
     dct:created "2023-12-16" ;
     dct:creator vocang:rosatelliAnna, vocang:omiccioliRiccardo .
+
+vocang:crollant
+    a vocang:Parolangelo ;
+    skos:prefLabel "Crollant"@it ;
+    skos:definition "Calze che tendono a cadere spesso perché troppo larghe o troppo strette."@it ;
+    skos:example "Ho comprato delle calze nuove ma sono risultati dei crollant. Sono rimasta nuda mentre salivo le scale! (almeno sono forte)"@it ;
+    schema:keywords "calze, cadere, larghe, strette, crollare, crollanti, utile, divertente";
+    dct:created "2023-12-17" ;
+    dct:creator vocang:battaglinoNicole .
