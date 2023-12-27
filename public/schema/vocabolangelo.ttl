@@ -9718,3 +9718,13 @@ vocang:velocìta
     schema:keywords "velocità, scimmia, animale, corsa, andare, andatura, calabria"@it ;
     dct:created "2023-12-16" ;
     dct:creator vocang:minoccheriAlessandra, vocang:orlandoNicola .
+
+vocang:scorciaboia
+    a vocang:Parolangelo ;
+    skos:prefLabel "Scorciaboia"@it ;
+    lexinfo:pronunciation "/scor • cia • bò • ia/"@it ;
+    skos:definition "Scorciatoia che, se imboccata, porta con alta probabilità alla morte."@it ;
+    skos:example "Poveretto, stava sciando e ha pensato di prendere una scorciaboia passando tra gli alberi, hanno dovuto raccoglierlo col cucchiaino..."@it ;
+    schema:keywords "scorciatoia, morte";
+    dct:created "2023-12-16" ;
+    dct:creator vocang:pertosaLorenzo, vocang:omiccioliRiccardo .
