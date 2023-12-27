@@ -9668,3 +9668,13 @@ vocang:suicibercidio
     schema:keywords "suicidio, robot, macchina, autonomia, spegnere, staccare, batteria, triste, morte";
     dct:created "2023-12-13" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:pollibalismo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Pollibalismo"@it ;
+    lexinfo:pronunciation "/pol • li • bà • li • smo/"@it ;
+    skos:definition "Cannibalismo tra polli."@it ;
+    skos:example "Ogni volta che vedo del pollibalismo mi eccito e comincio a scommettere soldi!"@it ;
+    schema:keywords "pollo, cannibalismo, mangiare, triste, morte";
+    dct:created "2023-12-13" ;
+    dct:creator vocang:rosatelliAnna .
