@@ -1,5 +1,43 @@
 # Changelog
 
+## [6.19.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v6.18.0...v6.19.0) (2023-12-27)
+
+
+### Features
+
+* **parolangelo:** allefanzialismo ([2428820](https://github.com/Vocabolangelo/vocabolangelo-site/commit/242882098f31434f75f204003b68fedce0a95456))
+* **parolangelo:** angero ([921f043](https://github.com/Vocabolangelo/vocabolangelo-site/commit/921f043e8e46facff05559358f02d3476b02cff3))
+* **parolangelo:** apocaellissi ([d991396](https://github.com/Vocabolangelo/vocabolangelo-site/commit/d9913963bcf3356e27e55c4db02d49e1e091101e))
+* **parolangelo:** beepo ([40226c1](https://github.com/Vocabolangelo/vocabolangelo-site/commit/40226c1c68ccfd75e9d55d8986252cd91d9a0c2a))
+* **parolangelo:** bibario ([e330235](https://github.com/Vocabolangelo/vocabolangelo-site/commit/e3302359d49c45acf7606ef296ab9034c89b125d))
+* **parolangelo:** briciolataio ([73d3083](https://github.com/Vocabolangelo/vocabolangelo-site/commit/73d308364595d1a1f76fa97b090087f68c2a77f9))
+* **parolangelo:** bumbum ([6da732f](https://github.com/Vocabolangelo/vocabolangelo-site/commit/6da732f7932e9718ddd91e2747117174968da436))
+* **parolangelo:** cilinguazzolino ([0b98eb8](https://github.com/Vocabolangelo/vocabolangelo-site/commit/0b98eb82ad0f4a6e9e13eece2f0175fec979106b))
+* **parolangelo:** colaffin ([6fd98e6](https://github.com/Vocabolangelo/vocabolangelo-site/commit/6fd98e6d167b562bff3b0b036049ccfa6a81d5d7))
+* **parolangelo:** craptop ([1785ba5](https://github.com/Vocabolangelo/vocabolangelo-site/commit/1785ba52ebab0f439d8544b0634e78fb42fd2502))
+* **parolangelo:** direzionario ([ee33d59](https://github.com/Vocabolangelo/vocabolangelo-site/commit/ee33d591a39338c50ee18d57f8f84b3e6fa33ec3))
+* **parolangelo:** gagliardino ([4222083](https://github.com/Vocabolangelo/vocabolangelo-site/commit/42220836f211b2e1fba5be060dd47a87a6c4fd88))
+* **parolangelo:** lecina ([962f3ae](https://github.com/Vocabolangelo/vocabolangelo-site/commit/962f3aef1360d5127c61fb9ec9a61e741726e135))
+* **parolangelo:** madrelato ([43f8ffc](https://github.com/Vocabolangelo/vocabolangelo-site/commit/43f8ffc38e4892c664d22a443cf0891124596a82))
+* **parolangelo:** metropulitana ([a20b722](https://github.com/Vocabolangelo/vocabolangelo-site/commit/a20b722cf802c0c2c972ff04766166a6de5615af))
+* **parolangelo:** mufficchiere ([1c263a7](https://github.com/Vocabolangelo/vocabolangelo-site/commit/1c263a7bf9c6a78d03041700be54c009166da209))
+* **parolangelo:** negrina ([19f1c62](https://github.com/Vocabolangelo/vocabolangelo-site/commit/19f1c62e8878a0c96c19d4282f9604a407c41515))
+* **parolangelo:** nonja ([b5f13dd](https://github.com/Vocabolangelo/vocabolangelo-site/commit/b5f13ddc438fc23142ecf667e7923f4162349321))
+* **parolangelo:** prososo ([d108854](https://github.com/Vocabolangelo/vocabolangelo-site/commit/d1088547038f199cb2944a21795709b736a78745))
+* **parolangelo:** sbocchino ([e4e35d7](https://github.com/Vocabolangelo/vocabolangelo-site/commit/e4e35d778e157eaa4b5a54257dedc1caa37a1460))
+* **parolangelo:** scaldapipo ([7609d8a](https://github.com/Vocabolangelo/vocabolangelo-site/commit/7609d8ae08badcc774e12656a3e7536e6b8afcc4))
+* **parolangelo:** sfigotti ([8b4b3ec](https://github.com/Vocabolangelo/vocabolangelo-site/commit/8b4b3ec56145d9facf72967765b1436f41761e4f))
+* **parolangelo:** tagliardino ([3d33fc5](https://github.com/Vocabolangelo/vocabolangelo-site/commit/3d33fc5d4c4d6d702515acf7362deb57190b4f3a))
+* **parolangelo:** teledramma ([2ca3d22](https://github.com/Vocabolangelo/vocabolangelo-site/commit/2ca3d229ba43189749070d9778dd5b4f7417be12))
+* **parolangelo:** teledramma ([28a456f](https://github.com/Vocabolangelo/vocabolangelo-site/commit/28a456fbf40a0a79038e70b055a08d064238d314))
+* **slangelo:** intelligenza antificiale ([c152925](https://github.com/Vocabolangelo/vocabolangelo-site/commit/c1529253273547e2c5231fd99444972b9440fa1d))
+* **slangelo:** post accoppalittico ([ddaad63](https://github.com/Vocabolangelo/vocabolangelo-site/commit/ddaad63fdaeb660e48056b70b4ec6bbd51d05fc3))
+
+
+### Performance Improvements
+
+* **parolangelo:** improve trullismo definition ([8e5c957](https://github.com/Vocabolangelo/vocabolangelo-site/commit/8e5c957975dcbb7224f4bd66653b532b8efe2cd9))
+
 ## [6.18.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v6.17.0...v6.18.0) (2023-12-10)
 
 
