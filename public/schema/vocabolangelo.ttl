@@ -575,6 +575,15 @@ vocang:palestiniGianmarco
     org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:suscaMatteo .
 
+vocang:mataranteEmilia
+    a vocang:Vocaboliere ;
+    foaf:firstName "Emilia" ;
+    foaf:lastName "Matarante" ;
+    foaf:gender "female" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:parentOf vocang:battaglinoNicole ;
+    rel:friendOf vocang:omiccioliRiccardo .
+
 # Other Author Individuals
 
 vocang:chatGPT
