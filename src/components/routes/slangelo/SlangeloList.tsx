@@ -8,6 +8,7 @@ export function SlangeloList() {
         title={'Slangelo'}
         subtitle={
             `Ognuno di questi slangelo è stato inventata da almeno un vocaboliere.\n
+            Quasi tutti i vocabolieri in realtà odiano a morte gli Slangelo, ma non possono fare a meno di crearli per qualche motivo.\n
             Chiunque può creare nuovi slangelo, proporre nuove definizioni ed esempi,
             o fornire materiale mediatico in grado di arricchire questo archivio.`
         }
