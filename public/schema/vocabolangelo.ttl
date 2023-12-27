@@ -9793,3 +9793,12 @@ vocang:sciosbirro
     dct:created "2023-12-22" ;
     skos:related vocang:monobiniere, vocang:monoziotto, vocang:idrosbirro, vocang:aviosbirro, vocang:boscosbirro, vocang:ipposbirro, vocang:pirosbirro, vocang:arabiniere, vocang:caccabiniere, vocang:nerarabiniere, vocang:nerobiniere ;
     dct:creator vocang:pertosaLorenzo, vocang:paoliMichele .
+
+vocang:cockola
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cockola"@it ;
+    skos:definition "Coccola fatta strusciando il proprio pene su un'altra persona."@it ;
+    skos:example "Ieri ho fatto delle cockole a mia nonna per sbaglio perché ero ubriaco. È stato molto imbarazzante, non sono riuscito a spiegarle che pensavo fosse crush!"@it ;
+    schema:keywords "coccole, pene, strusciare, sesso, cazzo";
+    dct:created "2023-12-22" ;
+    dct:creator vocang:battaglinoNicole, vocang:omiccioliRiccardo .
