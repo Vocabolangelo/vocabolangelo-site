@@ -9686,5 +9686,15 @@ vocang:scopertina
     skos:definition "Coperta leggera, che non ti tiene caldo."@it ;
     skos:example "Sasha ha dormito in quella stanza solo con una scopertina e si è mosso tutta la notte!"@it ;
     schema:keywords "coperta, leggera, caldo, freddo, inverno, dormire";
-    dct:created "2023-12-14" ;
+    dct:created "2023-12-15" ;
     dct:creator vocang:ribaudoSofia, vocang:bdeouiEddy .
+
+vocang:imbananato
+    a vocang:Parolangelo ;
+    skos:prefLabel "Imbananato"@it ;
+    lexinfo:pronunciation "/im • ba • na • nà • to/"@it ;
+    skos:definition "Storto."@it ;
+    skos:example "Guarda quanto ha bevuto! Cammina tutto imbananato!"@it ;
+    schema:keywords "storto, fare, utile";
+    dct:created "2023-12-15" ;
+    dct:creator vocang:omiccioliRiccardo .
