@@ -9821,3 +9821,13 @@ vocang:scinistro
     schema:keywords "sci, sciatore, imbarazzante, rischio, dito, rompersi, incidente, colpire, colpo, colpiscono";
     dct:created "2023-12-25" ;
     dct:creator vocang:omiccioliRiccardo, vocang:pertosaLorenzo .
+
+vocang:cornflex
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cornflex"@it ;
+    skos:definition "Atteggiamento di superiorità che una persona esibisce quando fa colazione con dei cornflakes di marca originali nei confronti delle altre persone che invece utilizzano quelli economici e di sottomarca per risparmiare."@it ;
+    skos:example "La guerra in Ucraina è stata disastrosa per il mercato dei cereali ma almeno ha creato l'opportunità di fare cornflex a colazione."@it ;
+    schema:keywords "cereali, colazione, cornflex, cornflakes, marca, originale, sottomarca, superiore, risparmiare, risparmio, soldi, economico";
+    dct:created "2023-12-27" ;
+    skos:note "La parolangelo nasce scrivendo conflex in modo errato al posto di cornflakes." ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
