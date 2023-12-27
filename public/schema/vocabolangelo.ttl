@@ -9648,3 +9648,13 @@ vocang:briciolataio
     skos:related vocang:briciolaio ;
     dct:created "2023-12-11" ;
     dct:creator vocang:battaglinoNicole .
+
+vocang:scambismoCulturale
+    a vocang:Slangelo ;
+    skos:prefLabel "Scambismo culturale"@it ;
+    lexinfo:pronunciation "/scam • bì • ṣmo/ /cul • tu • rà • le/"@it ;
+    skos:definition "Pratica sessuale dello scambismo interculturale. Implica lo scambio di partner tra coppie provenienti da diverse origini culturali o etniche, arricchendo l'esperienza con una dimensione di diversità culturale."@it ;
+    skos:example "Ieri io e la mia ragazza abbiamo praticato scambismo culturale. È stato molto eccitante, e poi ho scoperto che i cinesi hanno il pene molto più piccolo di noi!"@it ;
+    schema:keywords "scambismo, culturale, sesso, sessuale, utile, scoprire, cinese, cina, pene, piccolo, diversità, diverso, diversità culturale, cultura, etnia, etnico, etnica";
+    dct:created "2023-12-13" ;
+    dct:creator vocang:filasetaAngelo .
