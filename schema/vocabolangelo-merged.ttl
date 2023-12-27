@@ -699,6 +699,13 @@
 <http://www.vocabolangelo.org/palestiniGianmarco> <http://xmlns.com/foaf/0.1/gender> "male" .
 <http://www.vocabolangelo.org/palestiniGianmarco> <http://www.w3.org/ns/org#memberOf> <http://www.vocabolangelo.org/vocabolieriOrg> .
 <http://www.vocabolangelo.org/palestiniGianmarco> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/suscaMatteo> .
+<http://www.vocabolangelo.org/mataranteEmilia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Vocaboliere> .
+<http://www.vocabolangelo.org/mataranteEmilia> <http://xmlns.com/foaf/0.1/firstName> "Emilia" .
+<http://www.vocabolangelo.org/mataranteEmilia> <http://xmlns.com/foaf/0.1/lastName> "Matarante" .
+<http://www.vocabolangelo.org/mataranteEmilia> <http://xmlns.com/foaf/0.1/gender> "female" .
+<http://www.vocabolangelo.org/mataranteEmilia> <http://www.w3.org/ns/org#memberOf> <http://www.vocabolangelo.org/vocabolieriOrg> .
+<http://www.vocabolangelo.org/mataranteEmilia> <http://www.perceive.net/schemas/20021119/relationship/#parentOf> <http://www.vocabolangelo.org/battaglinoNicole> .
+<http://www.vocabolangelo.org/mataranteEmilia> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/omiccioliRiccardo> .
 <http://www.vocabolangelo.org/chatGPT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/skgo/modsci#ArtificialIntelligence> .
 <http://www.vocabolangelo.org/chatGPT> <http://xmlns.com/foaf/0.1/firstName> "ChatGPT" .
 <http://www.vocabolangelo.org/chatGPT> <https://schema.org/url> "https://openai.com/blog/chatgpt" .
@@ -8683,6 +8690,25 @@
 <http://www.vocabolangelo.org/scinistro> <http://purl.org/dc/terms/created> "2023-12-25" .
 <http://www.vocabolangelo.org/scinistro> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
 <http://www.vocabolangelo.org/scinistro> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/cornflex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/cornflex> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cornflex"@it .
+<http://www.vocabolangelo.org/cornflex> <http://www.w3.org/2004/02/skos/core#definition> "Atteggiamento di superiorità che una persona esibisce quando fa colazione con dei cornflakes di marca originali nei confronti delle altre persone che invece utilizzano quelli economici e di sottomarca per risparmiare."@it .
+<http://www.vocabolangelo.org/cornflex> <http://www.w3.org/2004/02/skos/core#example> "La guerra in Ucraina è stata disastrosa per il mercato dei cereali ma almeno ha creato l'opportunità di fare cornflex a colazione."@it .
+<http://www.vocabolangelo.org/cornflex> <https://schema.org/keywords> "cereali, colazione, cornflex, cornflakes, marca, originale, sottomarca, superiore, risparmiare, risparmio, soldi, economico" .
+<http://www.vocabolangelo.org/cornflex> <http://purl.org/dc/terms/created> "2023-12-27" .
+<http://www.vocabolangelo.org/cornflex> <http://www.w3.org/2004/02/skos/core#note> "La parolangelo nasce scrivendo conflex in modo errato al posto di cornflakes." .
+<http://www.vocabolangelo.org/cornflex> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
+<http://www.vocabolangelo.org/cornflex> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/battaglinoNicole> .
+<http://www.vocabolangelo.org/strenna> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/strenna> <http://www.w3.org/2004/02/skos/core#prefLabel> "Strenna"@it .
+<http://www.vocabolangelo.org/strenna> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/strèn • na/"@it .
+<http://www.vocabolangelo.org/strenna> <http://www.w3.org/2004/02/skos/core#definition> "Renna che soffoca."@it .
+<http://www.vocabolangelo.org/strenna> <http://www.w3.org/2004/02/skos/core#example> "Babbo natale si è schiantato a causa di una strenna che ha ingoiato un uccello mentre volava nel cielo!"@it .
+<http://www.vocabolangelo.org/strenna> <https://schema.org/keywords> "renna, soffocamento, morte, strozzarsi, corna" .
+<http://www.vocabolangelo.org/strenna> <http://www.w3.org/2004/02/skos/core#note> "Questa è la prima parola inventata da Emilia che è entrata nel Vocabolangelo, grazie e congratulazioni."@it .
+<http://www.vocabolangelo.org/strenna> <http://www.w3.org/2004/02/skos/core#note> "La strenna nel dialetto pugliese è un regalo composto di soldi che si fa a Natale" .
+<http://www.vocabolangelo.org/strenna> <http://purl.org/dc/terms/created> "2023-12-26" .
+<http://www.vocabolangelo.org/strenna> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/mataranteEmilia> .
 <http://www.vocabolangelo.org/nonja> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/albaninja> .
 <http://www.vocabolangelo.org/nonja> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/invicio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -9483,6 +9509,7 @@
 <http://www.vocabolangelo.org/vocaboladmin> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/trinitangelo> .
 <http://www.vocabolangelo.org/omeopartito> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/barbottare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/strenna> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/agambico> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/nevificiale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/caffemilla> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
@@ -9505,6 +9532,7 @@
 <http://www.vocabolangelo.org/omiccioliRiccardo> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/pertosaLorenzo> .
 <http://www.vocabolangelo.org/omiccioliRiccardo> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/bragariAlexandru> .
 <http://www.vocabolangelo.org/omiccioliRiccardo> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/tronettiElisa> .
+<http://www.vocabolangelo.org/omiccioliRiccardo> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/mataranteEmilia> .
 <http://www.vocabolangelo.org/omiccioliRiccardo> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/ribaudoSofia> .
 <http://www.vocabolangelo.org/omiccioliRiccardo> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/orlandoNicola> .
 <http://www.vocabolangelo.org/omiccioliRiccardo> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/tronettiElisa> .
@@ -9525,6 +9553,7 @@
 <http://www.vocabolangelo.org/omiccioliRiccardo> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/sanchiPiero> .
 <http://www.vocabolangelo.org/omiccioliRiccardo> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/minoccheriAlessandra> .
 <http://www.vocabolangelo.org/omiccioliRiccardo> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/scattoniAlessandra> .
+<http://www.vocabolangelo.org/omiccioliRiccardo> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/mataranteEmilia> .
 <http://www.vocabolangelo.org/omiccioliRiccardo> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/savoGiorgia> .
 <http://www.vocabolangelo.org/omiccioliRiccardo> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/savoGiorgia> .
 <http://www.vocabolangelo.org/omiccioliRiccardo> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/bianchiniGiovanni> .
@@ -10510,6 +10539,7 @@
 <http://www.vocabolangelo.org/proprostata> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/dinattrito> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/strattrito> .
 <http://www.vocabolangelo.org/dinattrito> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/cornflex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/negatico> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/cafferetta> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/moketta> .
 <http://www.vocabolangelo.org/cafferetta> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/cafferillo> .
@@ -11801,6 +11831,9 @@
 <http://www.vocabolangelo.org/fetticino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/porcoSoccorso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Slangelo> .
 <http://www.vocabolangelo.org/piedofilo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/mataranteEmilia> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/omiccioliRiccardo> .
+<http://www.vocabolangelo.org/mataranteEmilia> <http://xmlns.com/foaf/0.1/knows> <http://www.vocabolangelo.org/omiccioliRiccardo> .
+<http://www.vocabolangelo.org/mataranteEmilia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Vocaboliere> .
 <http://www.vocabolangelo.org/perdonatto> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/omnicio> .
 <http://www.vocabolangelo.org/perdonatto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/gatturismo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/brullismo> .
