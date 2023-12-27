@@ -9466,7 +9466,6 @@ vocang:apocaellissi
     dct:created "2023-12-07" ;
     dct:creator vocang:pertosaLorenzo .
 
-
 vocang:tagliardino
     a vocang:Parolangelo ;
     skos:prefLabel "Tagliardino"@it ;
@@ -9802,3 +9801,13 @@ vocang:cockola
     schema:keywords "coccole, pene, strusciare, sesso, cazzo";
     dct:created "2023-12-22" ;
     dct:creator vocang:battaglinoNicole, vocang:omiccioliRiccardo .
+
+vocang:comaEllittico
+    a vocang:Slangelo ;
+    skos:prefLabel "Coma ellittico"@it ;
+    lexinfo:pronunciation "/cò • ma/ /el • lit • tì • co/"@it ;
+    skos:definition "Stato in cui una persona ha consumato una quantità eccessiva di bevande alcoliche, causando una distorsione ellittica della sua percezione dello spazio e della realtà."@it ;
+    skos:example "Marco si sedette per risolvere un problema di geometria euclidea, ma ben presto si accorse che il suo tentativo era vano, poiché si trovava in uno stato di coma ellittico che ne comprometteva la percezione della realtà."@it ;
+    schema:keywords "alcol, alcolico, coma, ellittico, percezione, spazio, realtà, ellissi"@it ;
+    skos:related vocang:apocaellissi ;
+    dct:creator vocang:orlandoNicola, vocang:omiccioliRiccardo .
