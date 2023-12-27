@@ -9658,3 +9658,13 @@ vocang:scambismoCulturale
     schema:keywords "scambismo, culturale, sesso, sessuale, utile, scoprire, cinese, cina, pene, piccolo, diversità, diverso, diversità culturale, cultura, etnia, etnico, etnica";
     dct:created "2023-12-13" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:suicibercidio
+    a vocang:Parolangelo ;
+    skos:prefLabel "Suicibercidio"@it ;
+    lexinfo:pronunciation "/sui • ci • ber • cì • dio/"@it ;
+    skos:definition "Suicidio praticato da un robot o una macchina che, in completa autonomia, si spegne o stacca l'alimentazione."@it ;
+    skos:example "Ieri ho visto un suicibercidio. È stato molto triste, perché il robot si è staccato la batteria da solo!"@it ;
+    schema:keywords "suicidio, robot, macchina, autonomia, spegnere, staccare, batteria, triste, morte";
+    dct:created "2023-12-13" ;
+    dct:creator vocang:filasetaAngelo .
