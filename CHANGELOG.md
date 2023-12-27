@@ -1,5 +1,35 @@
 # Changelog
 
+## [6.20.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v6.19.0...v6.20.0) (2023-12-27)
+
+
+### Features
+
+* **parolangelo:** amuore ([77cd1cd](https://github.com/Vocabolangelo/vocabolangelo-site/commit/77cd1cd62a2f792ee07a07fe816c5d0f0c68f193))
+* **parolangelo:** cockola ([cbd1e1d](https://github.com/Vocabolangelo/vocabolangelo-site/commit/cbd1e1ddbd42a3514921cf2c1109ad3b6c9a5af4))
+* **parolangelo:** cornflex ([187c0fe](https://github.com/Vocabolangelo/vocabolangelo-site/commit/187c0fe52ccfa3c860c322255d7c0767170ac74e))
+* **parolangelo:** crollant ([daeb8c6](https://github.com/Vocabolangelo/vocabolangelo-site/commit/daeb8c62ba7507449caffcca07911f0fcaa17aba))
+* **parolangelo:** cucchiaiabile ([c44f642](https://github.com/Vocabolangelo/vocabolangelo-site/commit/c44f6428d8ab47054fa5a441d9b56e0eb3bd8a7c))
+* **parolangelo:** imbananato ([89aed4f](https://github.com/Vocabolangelo/vocabolangelo-site/commit/89aed4fc9e384911115f38c72c86355361e3eb4b))
+* **parolangelo:** piedalino ([3fd53f7](https://github.com/Vocabolangelo/vocabolangelo-site/commit/3fd53f7246a7c442dc5373e431d51a90546ff4d5))
+* **parolangelo:** pieditalino ([36740b1](https://github.com/Vocabolangelo/vocabolangelo-site/commit/36740b1683927efa8c514e9afb0197b33747ae2a))
+* **parolangelo:** pollibalismo ([9f3964d](https://github.com/Vocabolangelo/vocabolangelo-site/commit/9f3964d67551db94b578170b01fb27cf1852f1c6))
+* **parolangelo:** scinistro ([ce7ecee](https://github.com/Vocabolangelo/vocabolangelo-site/commit/ce7eceeae2a385be6949e2a29193f6b06c8885ba))
+* **parolangelo:** sciosbirro ([e0674d0](https://github.com/Vocabolangelo/vocabolangelo-site/commit/e0674d01d6004530b5ac4c81dbe742dba57c7c35))
+* **parolangelo:** scopertina ([d9dfb0e](https://github.com/Vocabolangelo/vocabolangelo-site/commit/d9dfb0e35c1220078c24e51519dfe75641a07706))
+* **parolangelo:** strenna ([17846e2](https://github.com/Vocabolangelo/vocabolangelo-site/commit/17846e2f0eb1177dbf234faf2fc4f9c982811edf))
+* **parolangelo:** suicibercidio ([09c2bfc](https://github.com/Vocabolangelo/vocabolangelo-site/commit/09c2bfc974c419bf771958abf3c38843a81b5031))
+* **parolangelo:** velocìta ([7ad36fa](https://github.com/Vocabolangelo/vocabolangelo-site/commit/7ad36faec806ffc42cf9dfe0e3c05dce9fd0e2d1))
+* **slangelo:** porco soccorso ([702045d](https://github.com/Vocabolangelo/vocabolangelo-site/commit/702045d0512ae9059e9d980e3a33e5a95220d9c4))
+* **slangelo:** scambismo culturale ([98890e7](https://github.com/Vocabolangelo/vocabolangelo-site/commit/98890e70ebce2434842f52451d240874563174ac))
+* **slangelo:** welcome back, coma ellittico ([66d9768](https://github.com/Vocabolangelo/vocabolangelo-site/commit/66d97684e005fb71ee66832e0c46ed50bdc5fc1c))
+* **vocaboliere:** Emilia Matarante ([e8fea41](https://github.com/Vocabolangelo/vocabolangelo-site/commit/e8fea41f3cd041c131d6bde3f5cb582f12ba592c))
+
+
+### Bug Fixes
+
+* **site:** returning always sets in concept apis ([e55e889](https://github.com/Vocabolangelo/vocabolangelo-site/commit/e55e8890ba5446702bc7375fc1fea52a8c331895))
+
 ## [6.19.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v6.18.0...v6.19.0) (2023-12-27)
 
 
