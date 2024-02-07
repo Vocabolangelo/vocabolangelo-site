@@ -5713,9 +5713,9 @@ vocang:sborrattolo
     dct:created "2023-05-20" ;
     dct:creator vocang:pertosaLorenzo .
 
-vocang:incampietrino
+vocang:inciampietrino
     a vocang:Parolangelo ;
-    skos:prefLabel "Incampietrino"@it ;
+    skos:prefLabel "Inciampietrino"@it ;
     lexinfo:pronunciation "/in • ciam • pie • trì • no/"@it ;
     skos:definition "Sampietrino che presenta caratteristiche irregolari in termini di altezza, forma, dimensione e posizionamento, le quali possono causare inconvenienti agli utenti pedonali, come ad esempio inciampare."@it ;
     skos:example "Durante la passeggiata serale, Anna è inciampata su un incampietrino lungo il marciapiede, il quale le ha causato una leggera contusione alla caviglia."@it ;
