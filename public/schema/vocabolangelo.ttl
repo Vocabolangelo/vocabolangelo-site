@@ -9915,3 +9915,13 @@ vocang:ridereggia
     schema:keywords "scoreggia, ridere, imbarazzante, mangiare, strano, corpo, umano, fisiologico, fisiologia";
     dct:created "2023-12-28" ;
     dct:creator vocang:battaglinoNicole .
+
+vocang:albiccione
+    a vocang:Parolangelo ;
+    skos:prefLabel "Albiccione"@it ;
+    lexinfo:pronunciation "/al • bic • ciò • ne/"@it ;
+    skos:definition "Piccione albino."@it ;
+    skos:example "Mentre eravamo al bar abbbiamo visto un albiccione. Era completamente bianco e aveva gli occhi rossi!"@it ;
+    schema:keywords "piccione, albino, animale, volare, volo, strano, incredibile, piume, bianco, colore";
+    dct:created "2023-12-29" ;
+    dct:creator vocang:ribaudoSofia, vocang:filasetaAngelo .
