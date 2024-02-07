@@ -10042,3 +10042,13 @@ vocang:patatoh
     dct:created "2023-12-30" ;
     skos:related vocang:pataproletariato, vocang:pataporn, vocang:patabro;
     dct:creator vocang:orlandoNicola .
+
+vocang:scalbotto
+    a vocang:Parolangelo ;
+    skos:prefLabel "Scalbotto"@it ;
+    lexinfo:pronunciation "/scal • bòt • to/"@it ;
+    skos:definition "Borsa dell'acqua calda che, una volta collegata alla corrente, ha un alto rischio di esplosione."@it ;
+    skos:example "La nostra famiglia è molto povera, ogni sera è una specie di roulette rossa con lo scalbotto!"@it ;
+    schema:keywords "borsa, acqua, calda, rischio, esplosione, collegare, corrente, pericolo, bruciare, morte";
+    dct:created "2023-12-31" ;
+    dct:creator vocang:pertosaLorenzo, vocang:nardiniArianna .
