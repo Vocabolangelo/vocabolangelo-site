@@ -9936,3 +9936,14 @@ vocang:biscatto
     dct:created "2023-12-29" ;
     skos:related vocang:banofico ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:barchio
+    a vocang:Parolangelo ;
+    skos:prefLabel "Barchio"@it ;
+    lexinfo:pronunciation "/bàr • chi • o/"@it ;
+    skos:definition "Animale mitologico simile ad un dinosauro ma molto spinoso."@it ;
+    skos:example "Prima di mandare a nanna i bambini racconto loro delle storie inventate in cui il protagonista è barchio molto simpatico. I bambini sono molto entusiasti ma non sanno che in realtà il barchio non esiste... E che è una bestia di satana... E che io, Sasha, lo ho inventato!"@it;
+    schema:keywords "animale, mitologico, dinosauro, spinoso, strano, incredibile, pericoloso";
+    dct:created "2023-12-29" ;
+    skos:note "Il Barchio NON è un abitante di Barchi.";
+    dct:creator vocang:bragariAlexandru .
