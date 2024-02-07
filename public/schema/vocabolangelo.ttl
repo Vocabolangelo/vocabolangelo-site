@@ -9967,3 +9967,14 @@ vocang:pallendario
     schema:keywords "calendario, palle, gatto, mese, emozionante, divertente, gatto, animale, palla";
     dct:created "2023-12-29" ;
     dct:creator vocang:battaglinoNicole, vocang:omiccioliRiccardo .
+
+vocang:zanzazingariera
+    a vocang:Parolangelo ;
+    skos:prefLabel "Zanzazingariera"@it ;
+    lexinfo:pronunciation "/zan • za • zin • ga • riè • ra/"@it ;
+    skos:definition "Zanzariere costruita in filo metallico elettrificato il cui scopo è tenere lontani gli zingari."@it ;
+    skos:example "Ho installato una zanzazingariera. Finalmente posso dormire tranquillo la notte e non temere le maledizioni o i pompincubi!"@it;
+    schema:keywords "zanzariera, filo, metallico, elettrificato, zingari, zingaro, maledizione, sicurezza, dormire, notte, sonno";
+    dct:created "2023-12-29" ;
+    skos:related vocang:pompincubo;
+    dct:creator vocang:pertosaLorenzo .
