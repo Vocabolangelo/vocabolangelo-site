@@ -9894,3 +9894,14 @@ vocang:ruttinghiozzo
     schema:keywords "rutto, singhiozzo, imbarazzante, mangiare, strano, corpo, umano, fisiologico, fisiologia";
     dct:created "2023-12-28" ;
     dct:creator vocang:battaglinoNicole .
+ 
+vocang:scosseggia
+    a vocang:Parolangelo ;
+    skos:prefLabel "Scosseggia"@it ;
+    lexinfo:pronunciation "/scos • sèg • già/"@it ;
+    skos:definition "Rutto e peto che avvengono contemporaneamente."@it ;
+    skos:example "Ieri ho fatto una scosseggia. La mia ragazza si è messa a ridere in maniera incontrollato! Poi ha sentito la puzza..."@it ;
+    schema:keywords "rutto, peto, imbarazzante, mangiare, strano, corpo, umano, fisiologico, fisiologia";
+    dct:created "2023-12-28" ;
+    skos:related vocang:ruttinghiozzo ;
+    dct:creator vocang:battaglinoNicole .
