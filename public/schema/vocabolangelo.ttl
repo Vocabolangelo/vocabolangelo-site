@@ -10141,3 +10141,12 @@ vocang:insulplimento
     dct:created "2024-01-03" ;
     skos:note "Sofia sei una baldracca, non farlo mai più o ti darò della nana a vita.";
     dct:creator vocang:ribaudoSofia .
+
+vocang:nasokage
+    a vocang:Parolangelo ;
+    skos:prefLabel "Nasokage"@it ;
+    skos:definition "Persona che prende in bocca il naso delle persone e ci soffia violentemente dentro in maniera inaspettata."@it ;
+    skos:example "Il mio ragazzo è diventato un abile nasokage. Ieri per la prima volta mi ha preso in bocca il naso e ci ha soffiato dentro. È stato molto fastidioso, una sensazione del genere non la vorrei mai più provare!"@it ;
+    schema:keywords "naso, soffiare, bocca, persona, imbarazzante, scherzare, divertente";
+    dct:created "2024-01-04" ;
+    dct:creator vocang:filasetaAngelo .
