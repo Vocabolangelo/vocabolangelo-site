@@ -9925,3 +9925,14 @@ vocang:albiccione
     schema:keywords "piccione, albino, animale, volare, volo, strano, incredibile, piume, bianco, colore";
     dct:created "2023-12-29" ;
     dct:creator vocang:ribaudoSofia, vocang:filasetaAngelo .
+
+vocang:biscatto
+    a vocang:Parolangelo ;
+    skos:prefLabel "Biscatto"@it ;
+    lexinfo:pronunciation "/bis • càt • to/"@it ;
+    skos:definition "Riscatto che invece di essere pagato in valute tradizionali viene erogato in biscotti."@it ;
+    skos:example "Ieri ho pagato un biscatto. Sono finalmente riuscito ad abbracciare mia figlia! Spero che quel maledetto muoia di indigestione!"@it ;
+    schema:keywords "riscatto, pagare, soldi, valuta, tradizionale, biscotti, utile, libertà";
+    dct:created "2023-12-29" ;
+    skos:related vocang:banofico ;
+    dct:creator vocang:omiccioliRiccardo .
