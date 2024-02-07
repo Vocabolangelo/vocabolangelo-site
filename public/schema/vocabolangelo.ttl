@@ -9975,7 +9975,7 @@ vocang:zanzazingariera
     skos:definition "Zanzariere costruita in filo metallico elettrificato il cui scopo è tenere lontani gli zingari."@it ;
     skos:example "Ho installato una zanzazingariera. Finalmente posso dormire tranquillo la notte e non temere le maledizioni o i pompincubi!"@it;
     schema:keywords "zanzariera, filo, metallico, elettrificato, zingari, zingaro, maledizione, sicurezza, dormire, notte, sonno";
-    dct:created "2023-12-29" ;
+    dct:created "2023-12-30" ;
     skos:related vocang:pompincubo;
     dct:creator vocang:pertosaLorenzo .
 
@@ -9986,6 +9986,16 @@ vocang:zanzaziere
     skos:definition "Zanzariera posta in modo da impedire ingresso e uscita da una abitazione da parte di ziere e delle loro pere."@it ;
     skos:example "Ho installato una zanzaziere. Sono allergico alle pere, non posso permettere a LORO di entrare!"@it;
     schema:keywords "zanzariera, zio, ziere, pera, pere, frutta, impedire, ingresso, uscita"@it;
-    dct:created "2023-12-29" ;
+    dct:created "2023-12-30" ;
     skos:related vocang:ziere;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:superAnalcolico
+    a vocang:Slangelo ;
+    skos:prefLabel "Super analcolico"@it ;
+    lexinfo:pronunciation "/su • per/ /a • nal • co • lì • co/"@it ;
+    skos:definition "Bevanda super alcolica alla quale è stato rimosso, attraverso un processo chimico, tutto l'alcool."@it ;
+    skos:example "Ho bevuto un super analcolico. Era molto buono, ma non ho sentito l'effetto dell'alcool! Ah giusto! Perché non c'era..."@it ;
+    schema:keywords "bevanda, alcol, alcool, processo, chimico, effetto, super, alcolico, alcolica";
+    dct:created "2023-12-30" ;
+    dct:creator vocang:pupitaAlberto, vocang:omiccioliRiccardo, vocang:bragariAlexandru.
