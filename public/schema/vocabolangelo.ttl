@@ -9947,3 +9947,13 @@ vocang:barchio
     dct:created "2023-12-29" ;
     skos:note "Il Barchio NON è un abitante di Barchi.";
     dct:creator vocang:bragariAlexandru .
+
+vocang:tisanda
+    a vocang:Parolangelo ;
+    skos:prefLabel "Tisanda"@it ;
+    lexinfo:pronunciation "/ti • sàn • da/"@it;
+    skos:definition "Tisana alla lavanda."@it ;
+    skos:example "Ieri ho bevuto una tisanda. È stato molto rilassante, mi sono addormentato subito!"@it ;
+    schema:keywords "tisana, lavanda, rilassante, dormire, sonno";
+    dct:created "2023-12-29" ;
+    dct:creator vocang:ribaudoSofia, vocang:pupitaAlberto .
