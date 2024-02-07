@@ -10130,3 +10130,14 @@ vocang:angelil
     schema:keywords "angelo, piccolo, ala, ali, divino, dio, bianco";
     dct:created "2024-01-01" ;
     dct:creator vocang:bragariAlexandru .
+
+vocang:insulplimento
+    a vocang:Parolangelo ;
+    skos:prefLabel "Insulplimento"@it ;
+    lexinfo:pronunciation "/in • sul • pli • mèn • to/"@it ;
+    skos:definition "Insulto detto in maniera sarcastica che vira ad essere uno scherzo amichevole e affettuoso."@it ;
+    skos:example "Ieri ho fatto un insulplimento a Sofia perché ha inventato una parolangelo diversa dalla mia ma quasi uguale nella definizione. Voleva in tutti i modi spacciarla per sua e alla fine in qualche modo ci è riuscita!"@it ;
+    schema:keywords "insulto, sarcastico, scherzo, amichevole, affettuoso, divertente";
+    dct:created "2024-01-03" ;
+    skos:note "Sofia sei una baldracca, non farlo mai più o ti darò della nana a vita.";
+    dct:creator vocang:ribaudoSofia .
