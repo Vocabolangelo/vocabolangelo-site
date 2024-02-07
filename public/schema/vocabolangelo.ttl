@@ -10150,3 +10150,12 @@ vocang:nasokage
     schema:keywords "naso, soffiare, bocca, persona, imbarazzante, scherzare, divertente";
     dct:created "2024-01-04" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:telete
+    a vocang:Parolangelo ;
+    skos:prefLabel "Telete"@it ;
+    skos:definition "Canale televisivo che manda in onda tutti i giorni programmi che parlano di filosofia."@it ;
+    skos:example "Ieri ho visto un programma su un telete. Era molto interessante, ma non ho capito niente!"@it ;
+    schema:keywords "canale, televisivo, filosofia, programma, interessante, niente, capire";
+    dct:created "2024-01-04" ;
+    dct:creator vocang:battaglinoNicole, vocang:omiccioliRiccardo .
