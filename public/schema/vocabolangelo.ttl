@@ -10154,8 +10154,20 @@ vocang:nasokage
 vocang:telete
     a vocang:Parolangelo ;
     skos:prefLabel "Telete"@it ;
+    lexinfo:pronunciation "/te • le • té/"@it ;
     skos:definition "Canale televisivo che manda in onda tutti i giorni programmi che parlano di filosofia."@it ;
     skos:example "Ieri ho visto un programma su un telete. Era molto interessante, ma non ho capito niente!"@it ;
     schema:keywords "canale, televisivo, filosofia, programma, interessante, niente, capire";
     dct:created "2024-01-04" ;
     dct:creator vocang:battaglinoNicole, vocang:omiccioliRiccardo .
+
+vocang:approparolante
+    a vocang:Parolangelo ;
+    skos:prefLabel "Approparolante"@it ;
+    skos:prefLabel "/ap • pro • pa • ro • làn • te/"@it;
+    skos:definition "Persona che, durante la creazione di una parolangelo o di uno slangelo, si attribuisce completamente il merito che non gli spetta."@it ;
+    skos:example "Miccio è un'approparolante. Ha preso la mia parola e l'ha fatta sua, senza neanche chiedere il permesso!"@it ;
+    schema:keywords "parola, parolangelo, appropriarsi, merito, spettare, chiedere, permesso";
+    dct:created "2024-01-04" ;
+    skos:related vocang:parolangelo, vocang:slangelo, vocang:parolassita, vocang:vocabolangelo;
+    dct:creator vocang:battaglinoNicole .
