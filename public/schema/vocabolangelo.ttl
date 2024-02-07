@@ -9978,3 +9978,14 @@ vocang:zanzazingariera
     dct:created "2023-12-29" ;
     skos:related vocang:pompincubo;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:zanzaziere
+    a vocang:Parolangelo ;
+    skos:prefLabel "Zanzaziere"@it ;
+    lexinfo:pronunciation "/zan • za • zié • re/"@it ;
+    skos:definition "Zanzariera posta in modo da impedire ingresso e uscita da una abitazione da parte di ziere e delle loro pere."@it ;
+    skos:example "Ho installato una zanzaziere. Sono allergico alle pere, non posso permettere a LORO di entrare!"@it;
+    schema:keywords "zanzariera, zio, ziere, pera, pere, frutta, impedire, ingresso, uscita"@it;
+    dct:created "2023-12-29" ;
+    skos:related vocang:ziere;
+    dct:creator vocang:pertosaLorenzo .
