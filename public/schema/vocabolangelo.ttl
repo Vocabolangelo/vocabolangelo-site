@@ -9905,3 +9905,13 @@ vocang:scosseggia
     dct:created "2023-12-28" ;
     skos:related vocang:ruttinghiozzo ;
     dct:creator vocang:battaglinoNicole .
+
+vocang:ridereggia
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ridereggia"@it ;
+    lexinfo:pronunciation "/ri • de • règ • già/"@it ;
+    skos:definition "Peto che avviene durante o a causa di una risata."@it ;
+    skos:example "Ieri ho fatto una ridereggia. È stato molto strano ed incredibile, perché ho fatto ridere tutti i miei amici, che a loro volta hanno scatenato una ridereggia ciascuno!"@it ;
+    schema:keywords "scoreggia, ridere, imbarazzante, mangiare, strano, corpo, umano, fisiologico, fisiologia";
+    dct:created "2023-12-28" ;
+    dct:creator vocang:battaglinoNicole .
