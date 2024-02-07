@@ -9957,3 +9957,13 @@ vocang:tisanda
     schema:keywords "tisana, lavanda, rilassante, dormire, sonno";
     dct:created "2023-12-29" ;
     dct:creator vocang:ribaudoSofia, vocang:pupitaAlberto .
+
+vocang:pallendario
+    a vocang:Parolangelo ;
+    skos:prefLabel "Pallendario"@it ;
+    lexinfo:pronunciation "/pal • len • dà • rio/"@it ;
+    skos:definition "Calendario che raffigura scroti di gatto diversi per ogni mese dell'anno."@it ;
+    skos:example "Abbiamo regalato un pallendario ad Elisa per il suo compleanno! Lo lecca ogni giorno!"@it ;
+    schema:keywords "calendario, palle, gatto, mese, emozionante, divertente, gatto, animale, palla";
+    dct:created "2023-12-29" ;
+    dct:creator vocang:battaglinoNicole, vocang:omiccioliRiccardo .
