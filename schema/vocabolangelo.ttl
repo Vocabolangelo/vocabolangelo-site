@@ -5713,9 +5713,9 @@ vocang:sborrattolo
     dct:created "2023-05-20" ;
     dct:creator vocang:pertosaLorenzo .
 
-vocang:incampietrino
+vocang:inciampietrino
     a vocang:Parolangelo ;
-    skos:prefLabel "Incampietrino"@it ;
+    skos:prefLabel "Inciampietrino"@it ;
     lexinfo:pronunciation "/in • ciam • pie • trì • no/"@it ;
     skos:definition "Sampietrino che presenta caratteristiche irregolari in termini di altezza, forma, dimensione e posizionamento, le quali possono causare inconvenienti agli utenti pedonali, come ad esempio inciampare."@it ;
     skos:example "Durante la passeggiata serale, Anna è inciampata su un incampietrino lungo il marciapiede, il quale le ha causato una leggera contusione alla caviglia."@it ;
@@ -9865,3 +9865,320 @@ vocang:strenna
     skos:note "Questa è la prima parola inventata da Emilia che è entrata nel Vocabolangelo, grazie e congratulazioni."@it, "La strenna nel dialetto pugliese è un regalo composto di soldi che si fa a Natale";
     dct:created "2023-12-26" ;
     dct:creator vocang:mataranteEmilia .
+
+vocang:gorinja
+    a vocang:Parolangelo ;
+    skos:prefLabel "Gorinja"@it ;
+    skos:definition "Scimmia ninja."@it ;
+    skos:example "Nella giungla giapponese ho visto una gorinja. È stato molto emozionante, perché non pensavo esistessero scimmie ninja!"@it ;
+    schema:keywords "scimmia, ninja, animale, corsa, andare, andatura, calabria"@it ;
+    dct:created "2023-12-27" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:ratatatoria
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ratatatoria"@it ;
+    lexinfo:pronunciation "/ra • ta • ta • tò • rì • a/"@it ;
+    skos:definition "Rotatoria estremamente confusionaria situata in quartieri malfamati, nella quale spesso partono scontri a fuoco tra i guidatori."@it ;
+    skos:example "Ieri ho attraversato una ratatatoria. Ho rischiato più volte di morire per colpa di una pallottola!"@it ;
+    schema:keywords "rotatoria, confusionaria, quartiere, malfamato, scontri, fuoco, guidatori, pericolo, rischio, investire, investito, fuga, auto";
+    dct:created "2023-12-28" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:ruttinghiozzo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ruttinghiozzo"@it ;
+    lexinfo:pronunciation "/rut • tin • ghiòz • zo/"@it ;
+    skos:definition "Rutto e colpo singhiozzo che avvengono contemporaneamenate."@it ;
+    skos:example "Ieri ho fatto un ruttinghiozzo. Eppure non avevo mangiato nulla di strano!"@it ;
+    schema:keywords "rutto, singhiozzo, imbarazzante, mangiare, strano, corpo, umano, fisiologico, fisiologia";
+    dct:created "2023-12-28" ;
+    dct:creator vocang:battaglinoNicole .
+ 
+vocang:scosseggia
+    a vocang:Parolangelo ;
+    skos:prefLabel "Scosseggia"@it ;
+    lexinfo:pronunciation "/scos • sèg • già/"@it ;
+    skos:definition "Rutto e peto che avvengono contemporaneamente."@it ;
+    skos:example "Ieri ho fatto una scosseggia. La mia ragazza si è messa a ridere in maniera incontrollato! Poi ha sentito la puzza..."@it ;
+    schema:keywords "rutto, peto, imbarazzante, mangiare, strano, corpo, umano, fisiologico, fisiologia";
+    dct:created "2023-12-28" ;
+    skos:related vocang:ruttinghiozzo ;
+    dct:creator vocang:battaglinoNicole .
+
+vocang:ridereggia
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ridereggia"@it ;
+    lexinfo:pronunciation "/ri • de • règ • già/"@it ;
+    skos:definition "Peto che avviene durante o a causa di una risata."@it ;
+    skos:example "Ieri ho fatto una ridereggia. È stato molto strano ed incredibile, perché ho fatto ridere tutti i miei amici, che a loro volta hanno scatenato una ridereggia ciascuno!"@it ;
+    schema:keywords "scoreggia, ridere, imbarazzante, mangiare, strano, corpo, umano, fisiologico, fisiologia";
+    dct:created "2023-12-28" ;
+    dct:creator vocang:battaglinoNicole .
+
+vocang:albiccione
+    a vocang:Parolangelo ;
+    skos:prefLabel "Albiccione"@it ;
+    lexinfo:pronunciation "/al • bic • ciò • ne/"@it ;
+    skos:definition "Piccione albino."@it ;
+    skos:example "Mentre eravamo al bar abbbiamo visto un albiccione. Era completamente bianco e aveva gli occhi rossi!"@it ;
+    schema:keywords "piccione, albino, animale, volare, volo, strano, incredibile, piume, bianco, colore";
+    dct:created "2023-12-29" ;
+    dct:creator vocang:ribaudoSofia, vocang:filasetaAngelo .
+
+vocang:biscatto
+    a vocang:Parolangelo ;
+    skos:prefLabel "Biscatto"@it ;
+    lexinfo:pronunciation "/bis • càt • to/"@it ;
+    skos:definition "Riscatto che invece di essere pagato in valute tradizionali viene erogato in biscotti."@it ;
+    skos:example "Ieri ho pagato un biscatto. Sono finalmente riuscito ad abbracciare mia figlia! Spero che quel maledetto muoia di indigestione!"@it ;
+    schema:keywords "riscatto, pagare, soldi, valuta, tradizionale, biscotti, utile, libertà";
+    dct:created "2023-12-29" ;
+    skos:related vocang:banofico ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:barchio
+    a vocang:Parolangelo ;
+    skos:prefLabel "Barchio"@it ;
+    lexinfo:pronunciation "/bàr • chi • o/"@it ;
+    skos:definition "Animale mitologico simile ad un dinosauro ma molto spinoso."@it ;
+    skos:example "Prima di mandare a nanna i bambini racconto loro delle storie inventate in cui il protagonista è barchio molto simpatico. I bambini sono molto entusiasti ma non sanno che in realtà il barchio non esiste... E che è una bestia di satana... E che io, Sasha, lo ho inventato!"@it;
+    schema:keywords "animale, mitologico, dinosauro, spinoso, strano, incredibile, pericoloso";
+    dct:created "2023-12-29" ;
+    skos:note "Il Barchio NON è un abitante di Barchi.";
+    dct:creator vocang:bragariAlexandru .
+
+vocang:tisanda
+    a vocang:Parolangelo ;
+    skos:prefLabel "Tisanda"@it ;
+    lexinfo:pronunciation "/ti • sàn • da/"@it;
+    skos:definition "Tisana alla lavanda."@it ;
+    skos:example "Ieri ho bevuto una tisanda. È stato molto rilassante, mi sono addormentato subito!"@it ;
+    schema:keywords "tisana, lavanda, rilassante, dormire, sonno";
+    dct:created "2023-12-29" ;
+    dct:creator vocang:ribaudoSofia, vocang:pupitaAlberto .
+
+vocang:pallendario
+    a vocang:Parolangelo ;
+    skos:prefLabel "Pallendario"@it ;
+    lexinfo:pronunciation "/pal • len • dà • rio/"@it ;
+    skos:definition "Calendario che raffigura scroti di gatto diversi per ogni mese dell'anno."@it ;
+    skos:example "Abbiamo regalato un pallendario ad Elisa per il suo compleanno! Lo lecca ogni giorno!"@it ;
+    schema:keywords "calendario, palle, gatto, mese, emozionante, divertente, gatto, animale, palla";
+    dct:created "2023-12-29" ;
+    dct:creator vocang:battaglinoNicole, vocang:omiccioliRiccardo .
+
+vocang:zanzazingariera
+    a vocang:Parolangelo ;
+    skos:prefLabel "Zanzazingariera"@it ;
+    lexinfo:pronunciation "/zan • za • zin • ga • riè • ra/"@it ;
+    skos:definition "Zanzariere costruita in filo metallico elettrificato il cui scopo è tenere lontani gli zingari."@it ;
+    skos:example "Ho installato una zanzazingariera. Finalmente posso dormire tranquillo la notte e non temere le maledizioni o i pompincubi!"@it;
+    schema:keywords "zanzariera, filo, metallico, elettrificato, zingari, zingaro, maledizione, sicurezza, dormire, notte, sonno";
+    dct:created "2023-12-30" ;
+    skos:related vocang:pompincubo;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:zanzaziere
+    a vocang:Parolangelo ;
+    skos:prefLabel "Zanzaziere"@it ;
+    lexinfo:pronunciation "/zan • za • zié • re/"@it ;
+    skos:definition "Zanzariera posta in modo da impedire ingresso e uscita da una abitazione da parte di ziere e delle loro pere."@it ;
+    skos:example "Ho installato una zanzaziere. Sono allergico alle pere, non posso permettere a LORO di entrare!"@it;
+    schema:keywords "zanzariera, zio, ziere, pera, pere, frutta, impedire, ingresso, uscita"@it;
+    dct:created "2023-12-30" ;
+    skos:related vocang:ziere;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:superAnalcolico
+    a vocang:Slangelo ;
+    skos:prefLabel "Super analcolico"@it ;
+    lexinfo:pronunciation "/su • per/ /a • nal • co • lì • co/"@it ;
+    skos:definition "Bevanda super alcolica alla quale è stato rimosso, attraverso un processo chimico, tutto l'alcool."@it ;
+    skos:example "Ho bevuto un super analcolico. Era molto buono, ma non ho sentito l'effetto dell'alcool! Ah giusto! Perché non c'era..."@it ;
+    schema:keywords "bevanda, alcol, alcool, processo, chimico, effetto, super, alcolico, alcolica";
+    dct:created "2023-12-30" ;
+    dct:creator vocang:pupitaAlberto, vocang:omiccioliRiccardo, vocang:bragariAlexandru.
+
+vocang:monobaleno
+    a vocang:Parolangelo ;
+    skos:prefLabel "Monobaleno"@it ;
+    lexinfo:pronunciation "/mo • no • ba • lè • no/"@it ;
+    skos:definition "Arcobaleno ma di un solo colore."@it ;
+    skos:example "Ieri ho visto un monobaleno. È stato molto emozionante, perché non pensavo esistessero arcobaleni di un solo colore! Per un attimo ho creduto qualcuno stesse solo violando il cielo!"@it ;
+    schema:keywords "arcobaleno, colore, unico, strano, incredibile, emozionante";
+    skos:related vocang:marciobaleno, vocang:violare ;
+    dct:created "2023-12-30" ;
+    dct:creator vocang:bragariAlexandru .
+
+vocang:rettobaleno
+    a vocang:Parolangelo ;
+    skos:prefLabel "Rettobaleno"@it ;
+    lexinfo:pronunciation "/ret • to • ba • lè • no/"@it ;
+    skos:definition "Arcobaleno, ma dritto anziché curvo."@it ;
+    skos:example "Ieri ho visto un rettobaleno. È stato molto emozionante, perché non pensavo esistessero arcobaleni dritti anziché curvi! Era come se l'arcobaleno avesse un'erezione!"@it ;
+    schema:keywords "arcobaleno, curvo, dritto, strano, incredibile, emozionante, colore, colori";
+    skos:related vocang:monobaleno, vocang:marciobaleno, vocang:violare ;
+    dct:created "2023-12-30" ;
+    dct:creator vocang:bragariAlexandru .
+
+vocang:miciomane
+    a vocang:Parolangelo ;
+    skos:prefLabel "Miciomane"@it ;
+    lexinfo:pronunciation "/mi • cio • mà • ne/"@it ;
+    skos:definition "Persona che ama i gatti in modo eccessivo."@it ;
+    skos:example "Nicola è una miciomane. Ha 15 gatti e non riesce a smettere di adottarne altri!"@it ;
+    schema:keywords "gatto, gatti, animale, amore, eccessivo, adottare, adozione, utile, divertente";
+    dct:created "2023-12-30" ;
+    scot:synonym vocang:gattoide ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:patatoh
+    a vocang:Parolangelo ;
+    skos:prefLabel "Patatoh"@it ;
+    skos:definition "Esclamazione di spregio di un Patapon che infligge un colpo mortale ad un nemico."@it ;
+    skos:example "BOMBERABOOO! Pon Pon Pata Pon! PATATOH!"@it ;
+    schema:keywords "esclamazione, spregio, morte, nemico, colpo, mortale, patapon";
+    dct:created "2023-12-30" ;
+    skos:related vocang:pataproletariato, vocang:pataporn, vocang:patabro;
+    dct:creator vocang:orlandoNicola .
+
+vocang:scalbotto
+    a vocang:Parolangelo ;
+    skos:prefLabel "Scalbotto"@it ;
+    lexinfo:pronunciation "/scal • bòt • to/"@it ;
+    skos:definition "Borsa dell'acqua calda che, una volta collegata alla corrente, ha un alto rischio di esplosione."@it ;
+    skos:example "La nostra famiglia è molto povera, ogni sera è una specie di roulette rossa con lo scalbotto!"@it ;
+    schema:keywords "borsa, acqua, calda, rischio, esplosione, collegare, corrente, pericolo, bruciare, morte";
+    dct:created "2023-12-31" ;
+    dct:creator vocang:pertosaLorenzo, vocang:nardiniArianna .
+
+vocang:trasfurtociclo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Trasfurtociclo"@it ;
+    lexinfo:pronunciation "/tras • fur • to • cì • clo/"@it ;
+    skos:definition "Furto di una bicicletta o di un monopattino che avviene da parte di una persona all'interno di un'auto in movimento mentre il mezzo oggetto di furto sta venendo guidato."@it ;
+    skos:example "Ieri ho visto un trasfurtociclo. Sul momento sono rimasto traumatizzato, poi mi sono ricordato di essere residente a Napoli."@it;
+    schema:keywords "furto, bicicletta, monopattino, auto, movimento, guidare, strano, incredibile, figlio di puttana";
+    dct:created "2023-12-31" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:piumalba
+    a vocang:Parolangelo ;
+    skos:prefLabel "Piumalba"@it ;
+    lexinfo:pronunciation "/piu • màl • ba/"@it ;
+    skos:definition "Termine poetico utilizzato per descrivere l'effetto visivo che si verifica all'alba quando i raggi del sole filtrano attraverso le nuvole, creando una delicata luce diffusa che sembra avvolgere il paesaggio come se fosse avvolto da piume leggere."@it ;
+    skos:example "Oggi ho visto una piumalba. Ero con la ragazza che mi piace... È stato un momento speciale... Ma mentre guardavamo quello spettacolo mozzafiato mi sono cagato addosso."@it ;
+    schema:keywords "alba, sole, nuvole, luce, diffusa, paesaggio, piume, leggere, poesia, poetico, emozionante";
+    dct:created "2023-12-29" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:culicino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Culicino"@it ;
+    lexinfo:pronunciation "/cu • li • cì • no/"@it ;
+    skos:definition "Cuoricino a forma di sedere."@it ;
+    skos:example "Un bambino ha disegnato un piccolo cuore al contrario. Era un culicino!"@it ;
+    schema:keywords "cuore, culo, sedere, forma";
+    dct:created "2023-12-31" ;
+    dct:creator vocang:rosatelliAnna .
+
+vocang:giandujotto
+    a vocang:Parolangelo ;
+    skos:prefLabel "Gian'dujotto"@it ;
+    skos:definition "Cioccolatino ripieno di n'duja."@it ;
+    skos:example "Ieri ho mangiato un giandujiotto. Non avevo mai sentito un sapore simile!"@it ;
+    schema:keywords "cioccolato, ripieno, n'duja, piccante";
+    dct:created "2023-12-31" ;
+    dct:creator vocang:morettiLeonardo, vocang:ciurnelliLuna .
+
+vocang:diringibile
+    a vocang:Parolangelo ;
+    skos:prefLabel "Diringibile"@it ;
+    lexinfo:pronunciation "/di • rin • gi • bì • le/"@it ;
+    skos:definition "Colui che dirige un dirigibile."@it ;
+    skos:example "Il diringibile è un lavoro complessissimo! Non è semplice schivare tutti i cactus enormi e i becchi degli uccelli del cielo!"@it ;
+    schema:keywords "dirigibile, dirigere, dirigindibile, volare, cielo";
+    dct:created "2023-12-31" ;
+    dct:creator vocang:bianchiniGiovanni, vocang:pupitaAlberto .
+
+vocang:elibottero
+    a vocang:Parolangelo ;
+    skos:prefLabel "Elibottero"@it ;
+    lexinfo:pronunciation "/e • li • bot • tè • ro/"@it ;
+    skos:definition "Elicottero da guerra con equipaggiato con fuochi d'artificio al posto delle armi."@it ;
+    skos:example "Che ne pensi di passare il capodanno sopra i cieli di Kiev su un elibottero?"@it ;
+    schema:keywords "elicottero, guerra, equipaggiare, fuochi, artificio, armi, morte";
+    dct:created "2023-12-31" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:buonano
+    a vocang:Parolangelo ;
+    skos:prefLabel "Buonano"@it ;
+    lexinfo:pronunciation "/buo • nà • no/"@it ;
+    skos:definition "Augurio che viene fatto in un anno non bisestile."@it ;
+    skos:example "Buonano! Che tu possa trovare la felicità e la serenità in questo nuovo anno che non porterà sfiga!"@it ;
+    schema:keywords "augurio, anno, non bisestile, felicità, serenità, nuovo anno";
+    dct:created "2024-01-01" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:angelil
+    a vocang:Parolangelo ;
+    skos:prefLabel "Angelil"@it ;;
+    skos:definition "Piccolo di angelo."@it ;
+    skos:example "Ho visto la raffigurazione di un angelil. Era molto piccolo e aveva delle ali bellissime!"@it ;
+    schema:keywords "angelo, piccolo, ala, ali, divino, dio, bianco";
+    dct:created "2024-01-01" ;
+    dct:creator vocang:bragariAlexandru .
+
+vocang:insulplimento
+    a vocang:Parolangelo ;
+    skos:prefLabel "Insulplimento"@it ;
+    lexinfo:pronunciation "/in • sul • pli • mèn • to/"@it ;
+    skos:definition "Insulto detto in maniera sarcastica che vira ad essere uno scherzo amichevole e affettuoso."@it ;
+    skos:example "Ieri ho fatto un insulplimento a Sofia perché ha inventato una parolangelo diversa dalla mia ma quasi uguale nella definizione. Voleva in tutti i modi spacciarla per sua e alla fine in qualche modo ci è riuscita!"@it ;
+    schema:keywords "insulto, sarcastico, scherzo, amichevole, affettuoso, divertente";
+    dct:created "2024-01-03" ;
+    skos:note "Sofia sei una baldracca, non farlo mai più o ti darò della nana a vita.";
+    dct:creator vocang:ribaudoSofia .
+
+vocang:nasokage
+    a vocang:Parolangelo ;
+    skos:prefLabel "Nasokage"@it ;
+    skos:definition "Persona che prende in bocca il naso delle persone e ci soffia violentemente dentro in maniera inaspettata."@it ;
+    skos:example "Il mio ragazzo è diventato un abile nasokage. Ieri per la prima volta mi ha preso in bocca il naso e ci ha soffiato dentro. È stato molto fastidioso, una sensazione del genere non la vorrei mai più provare!"@it ;
+    schema:keywords "naso, soffiare, bocca, persona, imbarazzante, scherzare, divertente";
+    dct:created "2024-01-04" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:telete
+    a vocang:Parolangelo ;
+    skos:prefLabel "Telete"@it ;
+    lexinfo:pronunciation "/te • le • té/"@it ;
+    skos:definition "Canale televisivo che manda in onda tutti i giorni programmi che parlano di filosofia."@it ;
+    skos:example "Ieri ho visto un programma su un telete. Era molto interessante, ma non ho capito niente!"@it ;
+    schema:keywords "canale, televisivo, filosofia, programma, interessante, niente, capire";
+    dct:created "2024-01-06" ;
+    dct:creator vocang:battaglinoNicole, vocang:omiccioliRiccardo .
+
+vocang:approparolante
+    a vocang:Parolangelo ;
+    skos:prefLabel "Approparolante"@it ;
+    lexinfo:pronunciation "/ap • pro • pa • ro • làn • te/"@it;
+    skos:definition "Persona che, durante la creazione di una parolangelo o di uno slangelo, si attribuisce completamente il merito che non gli spetta."@it ;
+    skos:example "Miccio è un'approparolante. Ha preso la mia parola e l'ha fatta sua, senza neanche chiedere il permesso!"@it ;
+    schema:keywords "parola, parolangelo, appropriarsi, merito, spettare, chiedere, permesso";
+    dct:created "2024-01-06" ;
+    skos:related vocang:parolangelo, vocang:slangelo, vocang:parolassita, vocang:vocabolangelo;
+    dct:creator vocang:battaglinoNicole .
+
+vocang:pericoloPubico
+    a vocang:Slangelo ;
+    skos:prefLabel "Pericolo pubico"@it;
+    lexinfo:pronunciation "/pe • ri • cò • lo/ /pu • bì • co/"@it;
+    skos:definition "Individuo che mette a rischio il pube altrui."@it;
+    skos:example "Alessandra, con il suo strap-on, è un pericolo pubico!"@it ;
+    schema:keywords "pericolo, pube, aiuto, pene, pubico"@it ;
+    dct:created "2024-01-06" ;
+    skos:related vocang:parolangelo, vocang:slangelo, vocang:parolassita, vocang:vocabolangelo;
+    dct:creator vocang:minoccheriAlessandra .
