@@ -10062,3 +10062,13 @@ vocang:trasfurtociclo
     schema:keywords "furto, bicicletta, monopattino, auto, movimento, guidare, strano, incredibile, figlio di puttana";
     dct:created "2023-12-31" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:piumalba
+    a vocang:Parolangelo ;
+    skos:prefLabel "Piumalba"@it ;
+    lexinfo:pronunciation "/piu • màl • ba/"@it ;
+    skos:definition "Termine poetico utilizzato per descrivere l'effetto visivo che si verifica all'alba quando i raggi del sole filtrano attraverso le nuvole, creando una delicata luce diffusa che sembra avvolgere il paesaggio come se fosse avvolto da piume leggere."@it ;
+    skos:example "Oggi ho visto una piumalba. Ero con la ragazza che mi piace... È stato un momento speciale... Ma mentre guardavamo quello spettacolo mozzafiato mi sono cagato addosso."@it ;
+    schema:keywords "alba, sole, nuvole, luce, diffusa, paesaggio, piume, leggere, poesia, poetico, emozionante";
+    dct:created "2023-12-29" ;
+    dct:creator vocang:filasetaAngelo .
