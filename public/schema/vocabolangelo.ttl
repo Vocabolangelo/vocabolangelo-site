@@ -10032,3 +10032,13 @@ vocang:miciomane
     dct:created "2023-12-30" ;
     scot:synonym vocang:gattoide ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:patatoh
+    a vocang:Parolangelo ;
+    skos:prefLabel "Patatoh"@it ;
+    skos:definition "Esclamazione di spregio di un Patapon che infligge un colpo mortale ad un nemico."@it ;
+    skos:example "BOMBERABOOO! Pon Pon Pata Pon! PATATOH!"@it ;
+    schema:keywords "esclamazione, spregio, morte, nemico, colpo, mortale, patapon";
+    dct:created "2023-12-30" ;
+    skos:related vocang:pataproletariato, vocang:pataporn, vocang:patabro;
+    dct:creator vocang:orlandoNicola .
