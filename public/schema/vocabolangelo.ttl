@@ -9865,3 +9865,13 @@ vocang:strenna
     skos:note "Questa è la prima parola inventata da Emilia che è entrata nel Vocabolangelo, grazie e congratulazioni."@it, "La strenna nel dialetto pugliese è un regalo composto di soldi che si fa a Natale";
     dct:created "2023-12-26" ;
     dct:creator vocang:mataranteEmilia .
+
+vocang:gorinja
+    a vocang:Parolangelo ;
+    skos:prefLabel "Gorinja"@it ;
+    skos:definition "Scimmia ninja."@it ;
+    skos:example "Nella giungla giapponese ho visto una gorinja. È stato molto emozionante, perché non pensavo esistessero scimmie ninja!"@it ;
+    schema:keywords "scimmia, ninja, animale, corsa, andare, andatura, calabria"@it ;
+    dct:created "2023-12-27" ;
+    dct:creator vocang:filasetaAngelo .
+
