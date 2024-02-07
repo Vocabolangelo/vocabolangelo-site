@@ -10091,3 +10091,13 @@ vocang:giandujotto
     schema:keywords "cioccolato, ripieno, n'duja, piccante";
     dct:created "2023-12-31" ;
     dct:creator vocang:morettiLeonardo, vocang:ciurnelliLuna .
+
+vocang:diringibile
+    a vocang:Parolangelo ;
+    skos:prefLabel "Diringibile"@it ;
+    lexinfo:pronunciation "/di • rin • gi • bì • le/"@it ;
+    skos:definition "Colui che dirige un dirigibile."@it ;
+    skos:example "Il diringibile è un lavoro complessissimo! Non è semplice schivare tutti i cactus enormi e i becchi degli uccelli del cielo!"@it ;
+    schema:keywords "dirigibile, dirigere, dirigindibile, volare, cielo";
+    dct:created "2023-12-31" ;
+    dct:creator vocang:bianchiniGiovanni, vocang:pupitaAlberto .
