@@ -10072,3 +10072,13 @@ vocang:piumalba
     schema:keywords "alba, sole, nuvole, luce, diffusa, paesaggio, piume, leggere, poesia, poetico, emozionante";
     dct:created "2023-12-29" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:culicino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Culicino"@it ;
+    lexinfo:pronunciation "/cu • li • cì • no/"@it ;
+    skos:definition "Cuoricino a forma di sedere."@it ;
+    skos:example "Un bambino ha disegnato un piccolo cuore al contrario. Era un culicino!"@it ;
+    schema:keywords "cuore, culo, sedere, forma";
+    dct:created "2023-12-31" ;
+    dct:creator vocang:rosatelliAnna .
