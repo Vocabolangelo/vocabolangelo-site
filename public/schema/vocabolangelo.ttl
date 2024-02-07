@@ -10052,3 +10052,13 @@ vocang:scalbotto
     schema:keywords "borsa, acqua, calda, rischio, esplosione, collegare, corrente, pericolo, bruciare, morte";
     dct:created "2023-12-31" ;
     dct:creator vocang:pertosaLorenzo, vocang:nardiniArianna .
+
+vocang:trasfurtociclo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Trasfurtociclo"@it ;
+    lexinfo:pronunciation "/tras • fur • to • cì • clo/"@it ;
+    skos:definition "Furto di una bicicletta o di un monopattino che avviene da parte di una persona all'interno di un'auto in movimento mentre il mezzo oggetto di furto sta venendo guidato."@it ;
+    skos:example "Ieri ho visto un trasfurtociclo. Sul momento sono rimasto traumatizzato, poi mi sono ricordato di essere residente a Napoli."@it;
+    schema:keywords "furto, bicicletta, monopattino, auto, movimento, guidare, strano, incredibile, figlio di puttana";
+    dct:created "2023-12-31" ;
+    dct:creator vocang:filasetaAngelo .
