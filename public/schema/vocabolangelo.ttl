@@ -9875,3 +9875,12 @@ vocang:gorinja
     dct:created "2023-12-27" ;
     dct:creator vocang:filasetaAngelo .
 
+vocang:ratatatoria
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ratatatoria"@it ;
+    lexinfo:pronunciation "/ra • ta • ta • tò • rì • a/"@it ;
+    skos:definition "Rotatoria estremamente confusionaria situata in quartieri malfamati, nella quale spesso partono scontri a fuoco tra i guidatori."@it ;
+    skos:example "Ieri ho attraversato una ratatatoria. Ho rischiato più volte di morire per colpa di una pallottola!"@it ;
+    schema:keywords "rotatoria, confusionaria, quartiere, malfamato, scontri, fuoco, guidatori, pericolo, rischio, investire, investito, fuga, auto";
+    dct:created "2023-12-28" ;
+    dct:creator vocang:pertosaLorenzo .
