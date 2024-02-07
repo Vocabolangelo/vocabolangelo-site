@@ -10101,3 +10101,13 @@ vocang:diringibile
     schema:keywords "dirigibile, dirigere, dirigindibile, volare, cielo";
     dct:created "2023-12-31" ;
     dct:creator vocang:bianchiniGiovanni, vocang:pupitaAlberto .
+
+vocang:elibottero
+    a vocang:Parolangelo ;
+    skos:prefLabel "Elibottero"@it ;
+    lexinfo:pronunciation "/e • li • bot • tè • ro/"@it ;
+    skos:definition "Elicottero da guerra con equipaggiato con fuochi d'artificio al posto delle armi."@it ;
+    skos:example "Che ne pensi di passare il capodanno sopra i cieli di Kiev su un elibottero?"@it ;
+    schema:keywords "elicottero, guerra, equipaggiare, fuochi, artificio, armi, morte";
+    dct:created "2023-12-31" ;
+    dct:creator vocang:pertosaLorenzo .
