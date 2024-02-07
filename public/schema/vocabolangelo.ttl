@@ -10121,3 +10121,12 @@ vocang:buonano
     schema:keywords "augurio, anno, non bisestile, felicità, serenità, nuovo anno";
     dct:created "2024-01-01" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:angelil
+    a vocang:Parolangelo ;
+    skos:prefLabel "Angelil"@it ;;
+    skos:definition "Piccolo di angelo."@it ;
+    skos:example "Ho visto la raffigurazione di un angelil. Era molto piccolo e aveva delle ali bellissime!"@it ;
+    schema:keywords "angelo, piccolo, ala, ali, divino, dio, bianco";
+    dct:created "2024-01-01" ;
+    dct:creator vocang:bragariAlexandru .
