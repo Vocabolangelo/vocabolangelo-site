@@ -10010,3 +10010,25 @@ vocang:monobaleno
     skos:related vocang:marciobaleno, vocang:violare ;
     dct:created "2023-12-30" ;
     dct:creator vocang:bragariAlexandru .
+
+vocang:rettobaleno
+    a vocang:Parolangelo ;
+    skos:prefLabel "Rettobaleno"@it ;
+    lexinfo:pronunciation "/ret • to • ba • lè • no/"@it ;
+    skos:definition "Arcobaleno, ma dritto anziché curvo."@it ;
+    skos:example "Ieri ho visto un rettobaleno. È stato molto emozionante, perché non pensavo esistessero arcobaleni dritti anziché curvi! Era come se l'arcobaleno avesse un'erezione!"@it ;
+    schema:keywords "arcobaleno, curvo, dritto, strano, incredibile, emozionante, colore, colori";
+    skos:related vocang:monobaleno, vocang:marciobaleno, vocang:violare ;
+    dct:created "2023-12-30" ;
+    dct:creator vocang:bragariAlexandru .
+
+vocang:miciomane
+    a vocang:Parolangelo ;
+    skos:prefLabel "Miciomane"@it ;
+    lexinfo:pronunciation "/mi • cio • mà • ne/"@it ;
+    skos:definition "Persona che ama i gatti in modo eccessivo."@it ;
+    skos:example "Nicola è una miciomane. Ha 15 gatti e non riesce a smettere di adottarne altri!"@it ;
+    schema:keywords "gatto, gatti, animale, amore, eccessivo, adottare, adozione, utile, divertente";
+    dct:created "2023-12-30" ;
+    scot:synonym vocang:gattoide ;
+    dct:creator vocang:pertosaLorenzo .
