@@ -10111,3 +10111,13 @@ vocang:elibottero
     schema:keywords "elicottero, guerra, equipaggiare, fuochi, artificio, armi, morte";
     dct:created "2023-12-31" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:buonano
+    a vocang:Parolangelo ;
+    skos:prefLabel "Buonano"@it ;
+    lexinfo:pronunciation "/buo • nà • no/"@it ;
+    skos:definition "Augurio che viene fatto in un anno non bisestile."@it ;
+    skos:example "Buonano! Che tu possa trovare la felicità e la serenità in questo nuovo anno che non porterà sfiga!"@it ;
+    schema:keywords "augurio, anno, non bisestile, felicità, serenità, nuovo anno";
+    dct:created "2024-01-01" ;
+    dct:creator vocang:omiccioliRiccardo .
