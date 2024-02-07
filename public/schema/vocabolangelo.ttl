@@ -9999,3 +9999,14 @@ vocang:superAnalcolico
     schema:keywords "bevanda, alcol, alcool, processo, chimico, effetto, super, alcolico, alcolica";
     dct:created "2023-12-30" ;
     dct:creator vocang:pupitaAlberto, vocang:omiccioliRiccardo, vocang:bragariAlexandru.
+
+vocang:monobaleno
+    a vocang:Parolangelo ;
+    skos:prefLabel "Monobaleno"@it ;
+    lexinfo:pronunciation "/mo • no • ba • lè • no/"@it ;
+    skos:definition "Arcobaleno ma di un solo colore."@it ;
+    skos:example "Ieri ho visto un monobaleno. È stato molto emozionante, perché non pensavo esistessero arcobaleni di un solo colore! Per un attimo ho creduto qualcuno stesse solo violando il cielo!"@it ;
+    schema:keywords "arcobaleno, colore, unico, strano, incredibile, emozionante";
+    skos:related vocang:marciobaleno, vocang:violare ;
+    dct:created "2023-12-30" ;
+    dct:creator vocang:bragariAlexandru .
