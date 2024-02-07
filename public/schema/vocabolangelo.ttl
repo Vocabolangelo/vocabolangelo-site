@@ -10082,3 +10082,12 @@ vocang:culicino
     schema:keywords "cuore, culo, sedere, forma";
     dct:created "2023-12-31" ;
     dct:creator vocang:rosatelliAnna .
+
+vocang:giandujotto
+    a vocang:Parolangelo ;
+    skos:prefLabel "Gian'dujotto"@it ;
+    skos:definition "Cioccolatino ripieno di n'duja."@it ;
+    skos:example "Ieri ho mangiato un giandujiotto. Non avevo mai sentito un sapore simile!"@it ;
+    schema:keywords "cioccolato, ripieno, n'duja, piccante";
+    dct:created "2023-12-31" ;
+    dct:creator vocang:morettiLeonardo, vocang:ciurnelliLuna .
