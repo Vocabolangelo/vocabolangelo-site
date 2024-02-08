@@ -1,5 +1,47 @@
 # Changelog
 
+## [6.21.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v6.20.0...v6.21.0) (2024-02-08)
+
+
+### Features
+
+* **parolangelo:** albiccione ([ba8a1a7](https://github.com/Vocabolangelo/vocabolangelo-site/commit/ba8a1a7bb107d096a17314ec795cf403290b9a9d))
+* **parolangelo:** angelil ([e0100f8](https://github.com/Vocabolangelo/vocabolangelo-site/commit/e0100f82356abd9d7a1d5b4d90f29338b4f2f2bd))
+* **parolangelo:** approparolante ([478c8e7](https://github.com/Vocabolangelo/vocabolangelo-site/commit/478c8e7c2361fcff5ba7dc8e8231735d7bc03057))
+* **parolangelo:** barchio ([a84480b](https://github.com/Vocabolangelo/vocabolangelo-site/commit/a84480b3cff025b49699afba3a14fb2869505138))
+* **parolangelo:** biscatto ([76585c9](https://github.com/Vocabolangelo/vocabolangelo-site/commit/76585c9be8f56672944e9ffcd7354328a7d47105))
+* **parolangelo:** buonano ([800783e](https://github.com/Vocabolangelo/vocabolangelo-site/commit/800783e408b686ca1cc6b8574c2dde64d6fd1c3b))
+* **parolangelo:** culicino ([0732d92](https://github.com/Vocabolangelo/vocabolangelo-site/commit/0732d92244857cb57c561da41631ff218763ee07))
+* **parolangelo:** diringibile ([f97d246](https://github.com/Vocabolangelo/vocabolangelo-site/commit/f97d246195c6bd761d4a179e20183aa9ad355856))
+* **parolangelo:** elibottero ([d9559d3](https://github.com/Vocabolangelo/vocabolangelo-site/commit/d9559d3d1794d3ad4c5124f566779b0688d86ced))
+* **parolangelo:** gian'dujotto ([8f6976a](https://github.com/Vocabolangelo/vocabolangelo-site/commit/8f6976a3ba763a7b495837ac42cd9b15c071a457))
+* **parolangelo:** gorinja ([9ed5c5f](https://github.com/Vocabolangelo/vocabolangelo-site/commit/9ed5c5fb2d9c98762e5f04712dd4fcbcd6742732))
+* **parolangelo:** insulplimento ([6b86c46](https://github.com/Vocabolangelo/vocabolangelo-site/commit/6b86c46bc2884f5e39aa458e9d73fe101f01fee8))
+* **parolangelo:** miciomane ([72ca1aa](https://github.com/Vocabolangelo/vocabolangelo-site/commit/72ca1aa2143ac4ff574ebaf8aa9e0a5ddee64bd9))
+* **parolangelo:** monobaleno ([0794a93](https://github.com/Vocabolangelo/vocabolangelo-site/commit/0794a93301914778baf84e3f5a78fd3fbb220c47))
+* **parolangelo:** nasokage ([8b28ea7](https://github.com/Vocabolangelo/vocabolangelo-site/commit/8b28ea794c052a3c578b9ae22641d175d83faac8))
+* **parolangelo:** pallendario ([092a945](https://github.com/Vocabolangelo/vocabolangelo-site/commit/092a945bb5ba877a01869b7b5188e3a1c79cde0f))
+* **parolangelo:** patatoh ([9014c55](https://github.com/Vocabolangelo/vocabolangelo-site/commit/9014c558a0746f005fa60d5fb015ebc8339748d9))
+* **parolangelo:** piumalba ([185e00d](https://github.com/Vocabolangelo/vocabolangelo-site/commit/185e00df5c495e68508c7c016d69b3c1c5de2c02))
+* **parolangelo:** ratatatoria ([fee4952](https://github.com/Vocabolangelo/vocabolangelo-site/commit/fee49525f02d4a037c68df074b59b3fefece5fc1))
+* **parolangelo:** ridereggia ([cf28589](https://github.com/Vocabolangelo/vocabolangelo-site/commit/cf28589ec01fc408427c0a16bdaf7b974c1c7be3))
+* **parolangelo:** ruttinghiozzo ([66e7a48](https://github.com/Vocabolangelo/vocabolangelo-site/commit/66e7a482419c16b550d2884fd2d5b898b819473f))
+* **parolangelo:** scalbotto ([46008bb](https://github.com/Vocabolangelo/vocabolangelo-site/commit/46008bb8ee760a5cd80571fd4e68def2d8652ef4))
+* **parolangelo:** scosseggia ([283cdff](https://github.com/Vocabolangelo/vocabolangelo-site/commit/283cdff4af16019467d327ebd39d48bd1a2b17fd))
+* **parolangelo:** telete ([70e41b6](https://github.com/Vocabolangelo/vocabolangelo-site/commit/70e41b6a7a5d83f14129dee9543d24158a8d633e))
+* **parolangelo:** tisanda ([766c384](https://github.com/Vocabolangelo/vocabolangelo-site/commit/766c38453e60a32904fb4abfaab44d4e505bc9e8))
+* **parolangelo:** trasfurtociclo ([930d19c](https://github.com/Vocabolangelo/vocabolangelo-site/commit/930d19c76bc68114e1d9ff1726263f6c2b15120d))
+* **parolangelo:** zanzaziere ([d4ef706](https://github.com/Vocabolangelo/vocabolangelo-site/commit/d4ef7063f90c31692730ca4f7b0aff93c8f73eab))
+* **parolangelo:** zanzazingariera ([760a5db](https://github.com/Vocabolangelo/vocabolangelo-site/commit/760a5db3c8f790e6efd48713afb1a5e0e034deed))
+* **slangelo:** pericolo pubico ([04306b7](https://github.com/Vocabolangelo/vocabolangelo-site/commit/04306b7ba75546e32563fdd205154d1302bf4cd7))
+* **slangelo:** super analcolico ([beca4d8](https://github.com/Vocabolangelo/vocabolangelo-site/commit/beca4d84923c713185f969fd96a2e5b1dbc7e437))
+
+
+### Bug Fixes
+
+* **build:** eslint dependencies ([06efc57](https://github.com/Vocabolangelo/vocabolangelo-site/commit/06efc572c9a6492931e19bce5f906c8f0e19741c))
+* **parolangelo:** typo in inciampietrino ([4589f3c](https://github.com/Vocabolangelo/vocabolangelo-site/commit/4589f3cfd35bb4fb4352f0b79cd3fce56e3fe8c8))
+
 ## [6.20.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v6.19.0...v6.20.0) (2023-12-27)
 
 
