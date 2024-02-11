@@ -10261,3 +10261,23 @@ vocang:alpatros
     dct:created "2024-01-11" ;
     skos:related vocang:alfaca ;
     dct:creator vocang:battaglinoNicole .
+
+vocang:mercondino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Mercondino"@it ;
+    lexinfo:pronunciation "/mer • con • dì • no/"@it ;
+    skos:definition "Mercatino in cui si vendono oggetti che vanno tenuti nascosti e dei quali è vietato fare fotografie."@it ;
+    skos:example "A Peschici c'è un mercondino che vende brutte facce di ceramiche. Mi sono beccato una multa per avergli fatto la foto."@it ;
+    schema:keywords "mercatino, vendere, oggetti, nascosto, vietato, fotografie, multa";
+    dct:created "2024-01-11" ;
+    dct:creator vocang:battaglinoNicole, vocang:omiccioliRiccardo .
+
+vocang:disaccurazione
+    a vocang:Parolangelo ;
+    skos:prefLabel "Disaccurazione"@it ;
+    lexinfo:pronunciation "/di • sac • cu • ra • zio • ne/"@it ;
+    skos:definition "Garanzia di disoccupazione a seguito della scelta di una facoltà universitaria che non fornisce alcuna nozione utile per il mondo del lavoro attuale."@it ;
+    skos:example "Ho scelto di studiare filosofia all'università. Ho ricevuto una disaccurazione immediatamente!"@it ;
+    schema:keywords "garanzia, disoccupazione, scelta, facoltà, universitaria, nozione, utile, mondo, lavoro, attuale";
+    dct:created "2024-01-12" ;
+    dct:creator vocang:battaglinoNicole, vocang:nardiniArianna .
