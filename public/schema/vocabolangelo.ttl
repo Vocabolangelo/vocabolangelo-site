@@ -10319,6 +10319,7 @@ vocang:canferillo
     skos:example "Ieri ho bevuto un canferillo. Era molto buono, ma non ho sentito il tipico sapore della cannella misto ai mirtilli!"@it ;
     schema:keywords "caffé, mirtillo, cafferillo, aromatizzare, cannella, sapore, buono, bevanda, caffetteria, bar";
     dct:created "2024-01-12" ;
+    skos:related vocang:canfè ;
     dct:creator vocang:filasetaAngelo .
 
 vocang:piaciugo
@@ -10330,3 +10331,13 @@ vocang:piaciugo
     schema:keywords "piacere, estremo";
     dct:created "2024-01-12" ;
     dct:creator vocang:scattoniAlessandra .
+
+vocang:poltigliotto
+    a vocang:Parolangelo ;
+    skos:prefLabel "Poltigliotto"@it ;
+    lexinfo:pronunciation "/pol • ti • glì • òt • to/"@it ;
+    skos:definition "I residui di biscotto che finiscono nel fondo della tazza sciogliendosi fino a formare una poltiglietta."@it ;
+    skos:example "Ieri ho bevuto un tè con un biscotto. Alla fine ho trovato un poltigliotto nel fondo della tazza!"@it ;
+    schema:keywords "residuo, biscotto, fondo, tazza, sciogliere, poltiglietta, tè, bevanda, colazione";
+    dct:created "2024-01-13" ;
+    dct:creator vocang:ribaudoSofia .
