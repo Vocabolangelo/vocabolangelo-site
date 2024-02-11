@@ -584,6 +584,14 @@ vocang:mataranteEmilia
     rel:parentOf vocang:battaglinoNicole ;
     rel:friendOf vocang:omiccioliRiccardo .
 
+vocang:serafiniAndrea
+    a vocang:Vocaboliere ;
+    foaf:firstName "Andrea" ;
+    foaf:lastName "Serafini" ;
+    foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:filasetaAngelo, vocang:minoccheriAlessandra .
+
 # Other Author Individuals
 
 vocang:chatGPT
