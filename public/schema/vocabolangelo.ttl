@@ -10221,3 +10221,13 @@ vocang:sessomento
     schema:keywords "sesso, sentimento, pensare, imbarazzante";
     dct:created "2024-01-08" ;
     dct:creator vocang:cortecchiaAngela .
+
+vocang:alquolismo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Alquolismo"@it ;
+    lexinfo:pronunciation "/al • quò • li • smo/"@it ;
+    skos:definition "Dipendenza da alquol."@it ;
+    skos:example "Il mio amico è un alquolista. Beve solo drink completamente annacquati, ma ogni volta rischia di diventare una medusa!"@it;
+    schema:keywords "dipendenza, alcol, alcool, alcolico, alcolismo, alcolista";
+    dct:created "2024-01-08" ;
+    dct:creator vocang:omiccioliRiccardo .
