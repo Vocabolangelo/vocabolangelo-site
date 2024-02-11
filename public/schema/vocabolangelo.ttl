@@ -10498,3 +10498,13 @@ vocang:tinter
     schema:keywords "sito, incontri, persone, matchare, preferenze, colori, blu, rosso, giallo, verde, arancione, viola, rosa, marrone, nero, bianco, grigio";
     dct:created "2024-01-20" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:gesudino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Gesudino"@it ;
+    skos:definition "Nudino di Gesù."@it ;
+    skos:example "In chiesa un quadro raffigurava un gesudino. L'ho trovato blasfemo!"@it;
+    schema:keywords "gesù, piccolo, ala, ali, divino, dio, bianco, nudo, pene, eretto";
+    dct:created "2024-01-20" ;
+    skos:related vocang:crocifischio, vocang:carattecristico, vocang:trucefisso ;
+    dct:creator vocang:filasetaAngelo, vocang:omiccioliRiccardo, vocang:savoGiorgia .
