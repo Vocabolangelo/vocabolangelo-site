@@ -10428,3 +10428,13 @@ vocang:chillIssue
     schema:keywords "smacco, freddoloso, felpa, estate, inverno, vestiti, vestire, vestito";
     dct:created "2024-01-17" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:azecca
+    a vocang:Parolangelo ;
+    skos:prefLabel "Azecca"@it ;
+    lexinfo:pronunciation "/a • zèc • ca/"@it ;
+    skos:definition "Luogo dove si stampano soldi finti per vari scopi, ad esempio i soldi del Monopoli."@it ;
+    skos:example "L'azecca fabbrica i soldi finti che usano i bambini per giocare!"@it;
+    schema:keywords "luogo, stampare, soldi, finti, scopi, monopoli, denaro";
+    dct:created "2024-01-17" ;
+    dct:creator vocang:battaglinoNicole, vocang:omiccioliRiccardo .
