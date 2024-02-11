@@ -10211,3 +10211,13 @@ vocang:grogato
     schema:keywords "persona, dipendente, grog, triste, trovare, alcol, alcool, alcolico, alcolismo, alcolista";
     dct:created "2024-01-06" ;
     dct:creator vocang:suscaMatteo .
+
+vocang:sessomento
+    a vocang:Parolangelo ;
+    skos:prefLabel "Sessomento"@it ;
+    lexinfo:pronunciation "/ses • so • mèn • to/"@it ;
+    skos:definition "Sentimento che si prova quando si pensa al sesso."@it ;
+    skos:example "Ho avuto un sessomento imbarazzante in chiesa. Non riuscivo a smettere di pensare al sesso, ma non potevo farlo perché ero in un luogo sacro!"@it ;
+    schema:keywords "sesso, sentimento, pensare, imbarazzante";
+    dct:created "2024-01-08" ;
+    dct:creator vocang:cortecchiaAngela .
