@@ -10306,7 +10306,17 @@ vocang:canfè
     skos:prefLabel "Canfé"@it ;
     lexinfo:pronunciation "/can • fè/"@it ;
     skos:definition "Caffé aromatizzato alla cannella."@it ;
-    skos:example "Ieri ho bevuto un canfé. Era molto buono, ma non ho sentito il sapore della cannella!"@it ;
+    skos:example "Ieri ho bevuto un canfé. Era molto buono, ma non ho sentito il tipico sapore della cannella!"@it ;
     schema:keywords "caffé, aromatizzare, cannella, sapore, buono, bevanda, caffetteria, bar";
     dct:created "2024-01-12" ;
     dct:creator vocang:ribaudoSofia .
+
+vocang:canferillo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Canferillo"@it ;
+    lexinfo:pronunciation "/can • fe • rìl • lo/"@it ;
+    skos:definition "Cafferillo aromatizzato alla cannella."@it ;
+    skos:example "Ieri ho bevuto un canferillo. Era molto buono, ma non ho sentito il tipico sapore della cannella misto ai mirtilli!"@it ;
+    schema:keywords "caffé, mirtillo, cafferillo, aromatizzare, cannella, sapore, buono, bevanda, caffetteria, bar";
+    dct:created "2024-01-12" ;
+    dct:creator vocang:filasetaAngelo .
