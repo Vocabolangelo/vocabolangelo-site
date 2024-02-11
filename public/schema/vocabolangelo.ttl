@@ -10192,3 +10192,12 @@ vocang:digerivano
     schema:keywords "divano, digerire, relax, pasto"@it ;
     dct:created "2024-01-06" ;
     dct:creator vocang:battaglinoNicole .
+
+vocang:micciol
+    a vocang:Parolangelo ;
+    skos:prefLabel "Micciol"@it ;
+    skos:definition "Aerosol per gatti."@it ;
+    skos:example "Sir Whiskers ieri aveva il raffreddore, quindi gli abbiamo fatto il micciol."@it ;
+    schema:keywords "aerosol, gatto, micio, raffreddore"@it ;
+    dct:created "2024-01-06" ;
+    dct:creator vocang:bianchiniGiovanni, vocang:filasetaAngelo .
