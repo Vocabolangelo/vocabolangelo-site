@@ -10448,3 +10448,14 @@ vocang:picciottero
     schema:keywords "elicottero, mafiosi, rapina, golf, strano, incredibile, pericolo, morte";
     dct:created "2024-01-18" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:scoparcheggio
+    a vocang:Parolangelo ;
+    skos:prefLabel "Scoparcheggio"@it ;
+    lexinfo:pronunciation "/sco • par • chèg • gio/"@it ;
+    skos:definition "Parcheggio collocato in una zona buia e lontana dal traffico dove le persone sono solite appartarsi per consumare rapporti sessuali."@it ;
+    skos:example "Ieri sera ho portato la mia ragazza in un scoparcheggio. È stato molto adrenalinico e divertente!"@it ;
+    schema:keywords "parcheggio, zona, buia, lontana, traffico, appartarsi, scopare, sesso, romantico, divertente";
+    dct:created "2024-01-18" ;
+    dct:creator vocang:bragariAlexandru, vocang:filasetaAngelo .
+
