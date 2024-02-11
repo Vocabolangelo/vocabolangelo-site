@@ -10390,3 +10390,12 @@ vocang:serrungheria
     schema:keywords "quartiere, ungherese, serrungarina, particolare, pezzo, ungheria, italia";
     dct:created "2024-01-13" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:scalaImmobile
+    a vocang:Slangelo ;
+    skos:prefLabel "Scala immobile"@it ;
+    skos:definition "Scala mobile non funzionante"@it ;
+    skos:example "Le scale immobili non sono molto comode... Soprattutto se sei disabile come me!"@it ;
+    schema:keywords "scala, immobile, rotta, schifo, roma, distrutta, fermo";
+    dct:created "2024-01-14" ;
+    dct:creator vocang:filasetaAngelo .
