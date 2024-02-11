@@ -10369,3 +10369,14 @@ vocang:curriculom
     dct:created "2024-01-13" ;
     skos:note "Questa è la prima parola inventata da Andrea che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
     dct:creator vocang:minoccheriAlessandra, vocang:serafiniAndrea .
+
+vocang:tabaton
+    a vocang:Parolangelo ;
+    skos:prefLabel "Tabaton"@it ;
+    lexinfo:pronunciation "/ta • ba • tòn/"@it ;
+    skos:definition "Circuito di allenamento, a tempo, fatto apposta per un patapon; il tempo dell'allenamento lo da la musica! Pata pata pata PON!"@it ;
+    skos:example "Il patapon stava portando a termine il suo tabaton prima del combattimento. BOMBERABOO!!"@it ;
+    schema:keywords "circuito, allenamento, tempo, patapon, musica, faticoso, divertente";
+    dct:created "2024-01-13" ;
+    skos:related vocang:patabro, vocang:pataproletariato, vocang:pataporn ;
+    dct:creator vocang:omiccioliRiccardo, vocang:filasetaAngelo .
