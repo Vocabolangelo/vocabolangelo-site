@@ -10320,3 +10320,13 @@ vocang:canferillo
     schema:keywords "caffé, mirtillo, cafferillo, aromatizzare, cannella, sapore, buono, bevanda, caffetteria, bar";
     dct:created "2024-01-12" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:piaciugo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Piaciugo"@it ;
+    lexinfo:pronunciation "/pia • ciù • go/"@it ;
+    skos:definition "Piacere estremo."@it ;
+    skos:example "Ieri ho mangiato un gelato al pistacchio. È stato un piaciugo!"@it ;
+    schema:keywords "piacere, estremo";
+    dct:created "2024-01-12" ;
+    dct:creator vocang:scattoniAlessandra .
