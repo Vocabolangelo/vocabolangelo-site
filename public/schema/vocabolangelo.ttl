@@ -10201,3 +10201,13 @@ vocang:micciol
     schema:keywords "aerosol, gatto, micio, raffreddore"@it ;
     dct:created "2024-01-06" ;
     dct:creator vocang:bianchiniGiovanni, vocang:filasetaAngelo .
+
+vocang:grogato
+    a vocang:Parolangelo ;
+    skos:prefLabel "Grogato"@it ;
+    lexinfo:pronunciation "/gro • gà • to/"@it ;
+    skos:definition "Persona dipendente dal grog."@it ;
+    skos:example "Rad è un grogato: Ieri era molto triste perché non riusciva a trovare il suo grog!"@it ;
+    schema:keywords "persona, dipendente, grog, triste, trovare, alcol, alcool, alcolico, alcolismo, alcolista";
+    dct:created "2024-01-06" ;
+    dct:creator vocang:suscaMatteo .
