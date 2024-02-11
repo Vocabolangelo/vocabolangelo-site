@@ -10489,3 +10489,12 @@ vocang:depirazione
     dct:created "2024-01-20" ;
     skos:related vocang:depirlazione ;
     dct:creator vocang:omiccioliRiccardo, vocang:pertosaLorenzo .
+
+vocang:tinter
+    a vocang:Parolangelo ;
+    skos:prefLabel "Tinter"@it ;
+    skos:definition "Sito di incontri dove le persone vengono matchate in base alle preferenze dei colori."@it ;
+    skos:example "Ho conosciuto la mia ragazza su Tinter. Abbiamo scoperto di avere gli stessi gusti per il colore blu!"@it ;
+    schema:keywords "sito, incontri, persone, matchare, preferenze, colori, blu, rosso, giallo, verde, arancione, viola, rosa, marrone, nero, bianco, grigio";
+    dct:created "2024-01-20" ;
+    dct:creator vocang:omiccioliRiccardo .
