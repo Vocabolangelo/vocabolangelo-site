@@ -10419,3 +10419,12 @@ vocang:bisabile
     schema:keywords "persona, doppiamente, abile, normale, disabile, normodotato, famoso, storia, umanità";
     dct:created "2024-01-15" ;
     dct:creator vocang:orlandoNicola, vocang:pertosaLorenzo .
+
+vocang:chillIssue
+    a vocang:Slangelo ;
+    skos:prefLabel "Chill issue"@it ;
+    skos:definition "Smacco nei confronti di una persona particolarmente freddolosa."@it ;
+    skos:example "Ma come, stai con la felpa a Giugno? Chill issue."@it ;
+    schema:keywords "smacco, freddoloso, felpa, estate, inverno, vestiti, vestire, vestito";
+    dct:created "2024-01-17" ;
+    dct:creator vocang:omiccioliRiccardo .
