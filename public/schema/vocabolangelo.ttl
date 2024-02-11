@@ -10183,12 +10183,12 @@ vocang:pericoloPubico
     skos:related vocang:parolangelo, vocang:slangelo, vocang:parolassita, vocang:vocabolangelo;
     dct:creator vocang:minoccheriAlessandra .
 
-vocang:incontibevente
+vocang:digerivano
     a vocang:Parolangelo ;
-    skos:prefLabel "Incontibevent"@it ;
-    lexinfo:pronunciation "/in • con • ti • be • vèn • te/"@it;
-    skos:definition "Persona che non riesce a tenere liquidi in bocca e si sbrodola spesso."@it ;
-    skos:example "Lorenzo è un incontibevente, ogni volta bagna sempre per terra!"@it ;
-    schema:keywords "acqua, liquidi, coca, sbrodolare, incontinente" ;
+    skos:prefLabel "Digerivano"@it ;
+    lexinfo:pronunciation "/di • ge • ri • và • no/"@it ;
+    skos:definition "Divano su cui digerire."@it ;
+    skos:example "Mi piace rilassarmi sul digerivano dopo un pasto abbondante."@it ;
+    schema:keywords "divano, digerire, relax, pasto"@it ;
     dct:created "2024-01-06" ;
-    dct:creator vocang:pertosaLorenzo .
+    dct:creator vocang:battaglinoNicole .
