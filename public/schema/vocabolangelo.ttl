@@ -10241,3 +10241,13 @@ vocang:gufoggiano
     schema:keywords "rapace, miti, leggende, penisola, pugliese, notte, luna, piena, armi, sparare, grido, temibile, indossare, anelli, occhiali, cantare, ritegno, ball, cavall";
     dct:created "2024-01-09" ;
     dct:creator vocang:paoliMichele .
+
+vocang:illusapore
+    a vocang:Parolangelo ;
+    skos:prefLabel "Illusapore"@it ;
+    lexinfo:pronunciation "/il • lu • sa • pò • re/"@it ;
+    skos:definition "Gusto placebo."@it ;
+    skos:example "Avete presente che i cereali colorati dovrebbero avere tutti lo stesso gusto ma siamo convinti che alcuni hanno gusti diversi a seconda del colore? In realtà è solo illusapore!"@it ;
+    schema:keywords "gusto, placebo, sapore, mangiare, buono";
+    dct:created "2024-01-09" ;
+    dct:creator vocang:omiccioliRiccardo .
