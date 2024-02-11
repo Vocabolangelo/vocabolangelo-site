@@ -10399,3 +10399,13 @@ vocang:scalaImmobile
     schema:keywords "scala, immobile, rotta, schifo, roma, distrutta, fermo";
     dct:created "2024-01-14" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:collirioAntisismico
+    a vocang:Slangelo ;
+    skos:prefLabel "Collirio antisismico"@it ;
+    lexinfo:pronunciation "/col • lì • rio/ /an • ti • si • smì • co/"@it ;
+    skos:definition "Liquido che viene iniettato nelle faglie per lubrificarle e far sì che gli spostamenti avvengano gradualmente anziché di botto."@it ;
+    skos:example "Voglio mettere il collirio antisismico nei crateri di Amatrice!"@it ;
+    schema:keywords "liquido, sisma, terremoto, faglia, lubrificare, spostamento, graduale, botto";
+    dct:created "2024-01-15" ;
+    dct:creator vocang:orlandoNicola .
