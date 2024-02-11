@@ -10438,3 +10438,13 @@ vocang:azecca
     schema:keywords "luogo, stampare, soldi, finti, scopi, monopoli, denaro";
     dct:created "2024-01-17" ;
     dct:creator vocang:battaglinoNicole, vocang:omiccioliRiccardo .
+
+vocang:picciottero
+    a vocang:Parolangelo ;
+    skos:prefLabel "Picciottero"@it ;
+    lexinfo:pronunciation "/pic • ciot • tè • ro/"@it ;
+    skos:definition "Elicottero pieno zeppo di mafiosi."@it ;
+    skos:example "Il picciottero è atterrato e un gruppo di gangster è uscito. Hanno quasi ucciso il gestore del campo da golf!"@it ;
+    schema:keywords "elicottero, mafiosi, rapina, golf, strano, incredibile, pericolo, morte";
+    dct:created "2024-01-18" ;
+    dct:creator vocang:pertosaLorenzo .
