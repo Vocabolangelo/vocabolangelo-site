@@ -10459,3 +10459,12 @@ vocang:scoparcheggio
     dct:created "2024-01-18" ;
     dct:creator vocang:bragariAlexandru, vocang:filasetaAngelo .
 
+vocang:assalsino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Assalsino"@it ;
+    lexinfo:pronunciation "/as • sal • sì • no/"@it ;
+    skos:definition "Assassino che uccide le vittime utilizzando bottiglie di salsa."@it ;
+    skos:example "Ieri sera ho visto un film horror su un assalsino. Era molto spaventoso, ma anche molto divertente!"@it ;
+    schema:keywords "assassino, uccidere, vittime, bottiglia, salsa, spaventoso, divertente";
+    dct:created "2024-01-20" ;
+    dct:creator vocang:battaglinoNicole, vocang:omiccioliRiccardo.
