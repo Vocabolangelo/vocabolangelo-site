@@ -10409,3 +10409,13 @@ vocang:collirioAntisismico
     schema:keywords "liquido, sisma, terremoto, faglia, lubrificare, spostamento, graduale, botto";
     dct:created "2024-01-15" ;
     dct:creator vocang:orlandoNicola .
+
+vocang:bisabile
+    a vocang:Parolangelo ;
+    skos:prefLabel "Bisabile"@it ;
+    lexinfo:pronunciation "/bi • sà • bi • le/"@it ;
+    skos:definition "Persona doppiamente abile rispetto al normale, a cui tutte le persone normodotate sembrano disabili."@it ;
+    skos:example "Carl Friedrich Gauss è indubbiamente uno dei bisabili più famosi nella storia dell'umanità."@it ;
+    schema:keywords "persona, doppiamente, abile, normale, disabile, normodotato, famoso, storia, umanità";
+    dct:created "2024-01-15" ;
+    dct:creator vocang:orlandoNicola, vocang:pertosaLorenzo .
