@@ -10290,3 +10290,13 @@ vocang:cagadiem
     schema:keywords "momento, buono, cagare, defecare, cacca, merda, bagno, servizi, igiene, corpo, umano, fisiologico, fisiologia";
     dct:created "2024-01-12" ;
     dct:creator vocang:bianchiniGiovanni .
+
+vocang:prorotula
+    a vocang:Parolangelo ;
+    skos:prefLabel "Prorotula"@it ;
+    lexinfo:pronunciation "/pro • ro • tù • la/"@it ;
+    skos:definition "Rotula potentissima, che ha una resistenza enorme agli urti e qualsiasi danni fisici inflitti."@it ;
+    skos:example "Ieri ho fatto una caduta in bicicletta. Grazie alla mia prorotula non mi sono fatto niente!"@it ;
+    schema:keywords "rotula, resistenza, urti, danni, fisici, potentissima, caduta, bicicletta, corpo, umano, fisiologico, fisiologia";
+    dct:created "2024-01-12" ;
+    dct:creator vocang:ribaudoSofia .
