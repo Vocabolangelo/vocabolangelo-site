@@ -10231,3 +10231,13 @@ vocang:alquolismo
     schema:keywords "dipendenza, alcol, alcool, alcolico, alcolismo, alcolista";
     dct:created "2024-01-08" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:gufoggiano
+    a vocang:Parolangelo ;
+    skos:prefLabel "Gufoggiano"@it ;
+    lexinfo:pronunciation "/gu • fog • già • no/"@it ;
+    skos:definition "Rapace dei miti e leggende della penisola pugliese. Chi sente il suo grido é destinato per il resto della sua vita a indossare anelli e occhiali da sole ovunque e a cantare senza ritegno 'o ball ro cavall'"@it ;
+    skos:example "Si narra che, nelle notti in cui la luna è piena e le armi sparano più forte, si possa udire il grido del temibile gufoggiano."@it ;
+    schema:keywords "rapace, miti, leggende, penisola, pugliese, notte, luna, piena, armi, sparare, grido, temibile, indossare, anelli, occhiali, cantare, ritegno, ball, cavall";
+    dct:created "2024-01-09" ;
+    dct:creator vocang:paoliMichele .
