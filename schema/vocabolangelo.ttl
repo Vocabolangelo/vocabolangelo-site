@@ -584,6 +584,14 @@ vocang:mataranteEmilia
     rel:parentOf vocang:battaglinoNicole ;
     rel:friendOf vocang:omiccioliRiccardo .
 
+vocang:serafiniAndrea
+    a vocang:Vocaboliere ;
+    foaf:firstName "Andrea" ;
+    foaf:lastName "Serafini" ;
+    foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:filasetaAngelo, vocang:minoccheriAlessandra .
+
 # Other Author Individuals
 
 vocang:chatGPT
@@ -10182,3 +10190,321 @@ vocang:pericoloPubico
     dct:created "2024-01-06" ;
     skos:related vocang:parolangelo, vocang:slangelo, vocang:parolassita, vocang:vocabolangelo;
     dct:creator vocang:minoccheriAlessandra .
+
+vocang:digerivano
+    a vocang:Parolangelo ;
+    skos:prefLabel "Digerivano"@it ;
+    lexinfo:pronunciation "/di • ge • ri • và • no/"@it ;
+    skos:definition "Divano su cui digerire."@it ;
+    skos:example "Mi piace rilassarmi sul digerivano dopo un pasto abbondante."@it ;
+    schema:keywords "divano, digerire, relax, pasto"@it ;
+    dct:created "2024-01-06" ;
+    dct:creator vocang:battaglinoNicole .
+
+vocang:micciol
+    a vocang:Parolangelo ;
+    skos:prefLabel "Micciol"@it ;
+    skos:definition "Aerosol per gatti."@it ;
+    skos:example "Sir Whiskers ieri aveva il raffreddore, quindi gli abbiamo fatto il micciol."@it ;
+    schema:keywords "aerosol, gatto, micio, raffreddore"@it ;
+    dct:created "2024-01-06" ;
+    dct:creator vocang:bianchiniGiovanni, vocang:filasetaAngelo .
+
+vocang:grogato
+    a vocang:Parolangelo ;
+    skos:prefLabel "Grogato"@it ;
+    lexinfo:pronunciation "/gro • gà • to/"@it ;
+    skos:definition "Persona dipendente dal grog."@it ;
+    skos:example "Rad è un grogato: Ieri era molto triste perché non riusciva a trovare il suo grog!"@it ;
+    schema:keywords "persona, dipendente, grog, triste, trovare, alcol, alcool, alcolico, alcolismo, alcolista";
+    dct:created "2024-01-06" ;
+    dct:creator vocang:suscaMatteo .
+
+vocang:sessomento
+    a vocang:Parolangelo ;
+    skos:prefLabel "Sessomento"@it ;
+    lexinfo:pronunciation "/ses • so • mèn • to/"@it ;
+    skos:definition "Sentimento che si prova quando si pensa al sesso."@it ;
+    skos:example "Ho avuto un sessomento imbarazzante in chiesa. Non riuscivo a smettere di pensare al sesso, ma non potevo farlo perché ero in un luogo sacro!"@it ;
+    schema:keywords "sesso, sentimento, pensare, imbarazzante";
+    dct:created "2024-01-08" ;
+    dct:creator vocang:cortecchiaAngela .
+
+vocang:alquolismo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Alquolismo"@it ;
+    lexinfo:pronunciation "/al • quò • li • smo/"@it ;
+    skos:definition "Dipendenza da alquol."@it ;
+    skos:example "Il mio amico è un alquolista. Beve solo drink completamente annacquati, ma ogni volta rischia di diventare una medusa!"@it;
+    schema:keywords "dipendenza, alcol, alcool, alcolico, alcolismo, alcolista";
+    dct:created "2024-01-08" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:gufoggiano
+    a vocang:Parolangelo ;
+    skos:prefLabel "Gufoggiano"@it ;
+    lexinfo:pronunciation "/gu • fog • già • no/"@it ;
+    skos:definition "Rapace dei miti e leggende della penisola pugliese. Chi sente il suo grido é destinato per il resto della sua vita a indossare anelli e occhiali da sole ovunque e a cantare senza ritegno 'o ball ro cavall'"@it ;
+    skos:example "Si narra che, nelle notti in cui la luna è piena e le armi sparano più forte, si possa udire il grido del temibile gufoggiano."@it ;
+    schema:keywords "rapace, miti, leggende, penisola, pugliese, notte, luna, piena, armi, sparare, grido, temibile, indossare, anelli, occhiali, cantare, ritegno, ball, cavall";
+    dct:created "2024-01-09" ;
+    dct:creator vocang:paoliMichele .
+
+vocang:illusapore
+    a vocang:Parolangelo ;
+    skos:prefLabel "Illusapore"@it ;
+    lexinfo:pronunciation "/il • lu • sa • pò • re/"@it ;
+    skos:definition "Gusto placebo."@it ;
+    skos:example "Avete presente che i cereali colorati dovrebbero avere tutti lo stesso gusto ma siamo convinti che alcuni hanno gusti diversi a seconda del colore? In realtà è solo illusapore!"@it ;
+    schema:keywords "gusto, placebo, sapore, mangiare, buono";
+    dct:created "2024-01-09" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:alpatros
+    a vocang:Parolangelo ;
+    skos:prefLabel "Alpatros"@it ;
+    skos:definition "Alpaca volante."@it ;
+    skos:example "Ho sognato un alpatros che faceva l'aliassalatore e bullizzava gli altri animali. Era molto strano, ma anche incredibile e bello da vedere! Ad un certo punto un alfaca gli ha tirato un pugno!"@it ;
+    schema:keywords "alpaca, volante, animale, strano, incredibile, bello, volare, volo";
+    dct:created "2024-01-11" ;
+    skos:related vocang:alfaca ;
+    dct:creator vocang:battaglinoNicole .
+
+vocang:mercondino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Mercondino"@it ;
+    lexinfo:pronunciation "/mer • con • dì • no/"@it ;
+    skos:definition "Mercatino in cui si vendono oggetti che vanno tenuti nascosti e dei quali è vietato fare fotografie."@it ;
+    skos:example "A Peschici c'è un mercondino che vende brutte facce di ceramiche. Mi sono beccato una multa per avergli fatto la foto."@it ;
+    schema:keywords "mercatino, vendere, oggetti, nascosto, vietato, fotografie, multa";
+    dct:created "2024-01-11" ;
+    dct:creator vocang:battaglinoNicole, vocang:omiccioliRiccardo .
+
+vocang:disaccurazione
+    a vocang:Parolangelo ;
+    skos:prefLabel "Disaccurazione"@it ;
+    lexinfo:pronunciation "/di • sac • cu • ra • zio • ne/"@it ;
+    skos:definition "Garanzia di disoccupazione a seguito della scelta di una facoltà universitaria che non fornisce alcuna nozione utile per il mondo del lavoro attuale."@it ;
+    skos:example "Ho scelto di studiare filosofia all'università. Ho ricevuto una disaccurazione immediatamente!"@it ;
+    schema:keywords "garanzia, disoccupazione, scelta, facoltà, universitaria, nozione, utile, mondo, lavoro, attuale";
+    dct:created "2024-01-12" ;
+    dct:creator vocang:battaglinoNicole, vocang:nardiniArianna .
+
+vocang:cagadiem
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cagadiem"@it ;
+    skos:definition "Locuzione che indica l'approfittarsi di ogni momento buono per cagare."@it ;
+    skos:example "Ieri ho avuto l'occasione di cagare in un cesso d'oro... Cagadiem!"@it;
+    schema:keywords "momento, buono, cagare, defecare, cacca, merda, bagno, servizi, igiene, corpo, umano, fisiologico, fisiologia";
+    dct:created "2024-01-12" ;
+    dct:creator vocang:bianchiniGiovanni .
+
+vocang:prorotula
+    a vocang:Parolangelo ;
+    skos:prefLabel "Prorotula"@it ;
+    lexinfo:pronunciation "/pro • ro • tù • la/"@it ;
+    skos:definition "Rotula potentissima, che ha una resistenza enorme agli urti e qualsiasi danni fisici inflitti."@it ;
+    skos:example "Ieri ho fatto una caduta in bicicletta. Grazie alla mia prorotula non mi sono fatto niente!"@it ;
+    schema:keywords "rotula, resistenza, urti, danni, fisici, potentissima, caduta, bicicletta, corpo, umano, fisiologico, fisiologia";
+    dct:created "2024-01-12" ;
+    dct:creator vocang:ribaudoSofia .
+
+vocang:canfè
+    a vocang:Parolangelo ;
+    skos:prefLabel "Canfé"@it ;
+    lexinfo:pronunciation "/can • fè/"@it ;
+    skos:definition "Caffé aromatizzato alla cannella."@it ;
+    skos:example "Ieri ho bevuto un canfé. Era molto buono, ma non ho sentito il tipico sapore della cannella!"@it ;
+    schema:keywords "caffé, aromatizzare, cannella, sapore, buono, bevanda, caffetteria, bar";
+    dct:created "2024-01-12" ;
+    dct:creator vocang:ribaudoSofia .
+
+vocang:canferillo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Canferillo"@it ;
+    lexinfo:pronunciation "/can • fe • rìl • lo/"@it ;
+    skos:definition "Cafferillo aromatizzato alla cannella."@it ;
+    skos:example "Ieri ho bevuto un canferillo. Era molto buono, ma non ho sentito il tipico sapore della cannella misto ai mirtilli!"@it ;
+    schema:keywords "caffé, mirtillo, cafferillo, aromatizzare, cannella, sapore, buono, bevanda, caffetteria, bar";
+    dct:created "2024-01-12" ;
+    skos:related vocang:canfè ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:piaciugo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Piaciugo"@it ;
+    lexinfo:pronunciation "/pia • ciù • go/"@it ;
+    skos:definition "Piacere estremo."@it ;
+    skos:example "Ieri ho mangiato un gelato al pistacchio. È stato un piaciugo!"@it ;
+    schema:keywords "piacere, estremo";
+    dct:created "2024-01-12" ;
+    dct:creator vocang:scattoniAlessandra .
+
+vocang:poltigliotto
+    a vocang:Parolangelo ;
+    skos:prefLabel "Poltigliotto"@it ;
+    lexinfo:pronunciation "/pol • ti • glì • òt • to/"@it ;
+    skos:definition "I residui di biscotto che finiscono nel fondo della tazza sciogliendosi fino a formare una poltiglietta."@it ;
+    skos:example "Ieri ho bevuto un tè con un biscotto. Alla fine ho trovato un poltigliotto nel fondo della tazza!"@it ;
+    schema:keywords "residuo, biscotto, fondo, tazza, sciogliere, poltiglietta, tè, bevanda, colazione";
+    dct:created "2024-01-13" ;
+    dct:creator vocang:ribaudoSofia .
+
+vocang:eziologia
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ezìologia"@it ;
+    lexinfo:pronunciation "/e • zi • o • lo • gì • a/"@it ;
+    skos:definition "Sistema di conoscienze che riguarda gli zii."@it ;
+    skos:example "Probabilmente chi ha scritto la canzone sulla zia che fa così era un studioso di ezìologia."@it ;
+    schema:keywords "scienza, zii, studio, canzone, zia, fare, così, studioso";
+    dct:created "2024-01-13" ;
+    dct:creator vocang:scattoniAlessandra .
+
+vocang:curriculom
+    a vocang:Parolangelo ;
+    skos:prefLabel "Curriculom"@it ;
+    skos:definition "Curriculum che riporta tutti i culi che riesci a vedere o provare nel giro di tutta la vita."@it ;
+    skos:example "Il mio curriculom, tristemente, è molto vuoto..."@it ;
+    schema:keywords "curriculum, culi, culo, sedere";
+    dct:created "2024-01-13" ;
+    skos:note "Questa è la prima parola inventata da Andrea che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
+    dct:creator vocang:minoccheriAlessandra, vocang:serafiniAndrea .
+
+vocang:tabaton
+    a vocang:Parolangelo ;
+    skos:prefLabel "Tabaton"@it ;
+    lexinfo:pronunciation "/ta • ba • tòn/"@it ;
+    skos:definition "Circuito di allenamento, a tempo, fatto apposta per un patapon; il tempo dell'allenamento lo da la musica! Pata pata pata PON!"@it ;
+    skos:example "Il patapon stava portando a termine il suo tabaton prima del combattimento. BOMBERABOO!!"@it ;
+    schema:keywords "circuito, allenamento, tempo, patapon, musica, faticoso, divertente";
+    dct:created "2024-01-13" ;
+    skos:related vocang:patabro, vocang:pataproletariato, vocang:pataporn ;
+    dct:creator vocang:omiccioliRiccardo, vocang:filasetaAngelo .
+
+vocang:serrungheria
+    a vocang:Parolangelo ;
+    skos:prefLabel "Serrungheria"@it ;
+    lexinfo:pronunciation "/ser • run • ghe • rì • a/"@it ;
+    skos:definition "Quartiere ungherese di Serrungarina."@it ;
+    skos:example "Serrungaria è un quartiere ungherese di Serrungarina. È un pezzo d'Ungheria in Italia!"@it ;
+    schema:keywords "quartiere, ungherese, serrungarina, particolare, pezzo, ungheria, italia";
+    dct:created "2024-01-13" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:scalaImmobile
+    a vocang:Slangelo ;
+    skos:prefLabel "Scala immobile"@it ;
+    skos:definition "Scala mobile non funzionante"@it ;
+    skos:example "Le scale immobili non sono molto comode... Soprattutto se sei disabile come me!"@it ;
+    schema:keywords "scala, immobile, rotta, schifo, roma, distrutta, fermo";
+    dct:created "2024-01-14" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:collirioAntisismico
+    a vocang:Slangelo ;
+    skos:prefLabel "Collirio antisismico"@it ;
+    lexinfo:pronunciation "/col • lì • rio/ /an • ti • si • smì • co/"@it ;
+    skos:definition "Liquido che viene iniettato nelle faglie per lubrificarle e far sì che gli spostamenti avvengano gradualmente anziché di botto."@it ;
+    skos:example "Voglio mettere il collirio antisismico nei crateri di Amatrice!"@it ;
+    schema:keywords "liquido, sisma, terremoto, faglia, lubrificare, spostamento, graduale, botto";
+    dct:created "2024-01-15" ;
+    dct:creator vocang:orlandoNicola .
+
+vocang:bisabile
+    a vocang:Parolangelo ;
+    skos:prefLabel "Bisabile"@it ;
+    lexinfo:pronunciation "/bi • sà • bi • le/"@it ;
+    skos:definition "Persona doppiamente abile rispetto al normale, a cui tutte le persone normodotate sembrano disabili."@it ;
+    skos:example "Carl Friedrich Gauss è indubbiamente uno dei bisabili più famosi nella storia dell'umanità."@it ;
+    schema:keywords "persona, doppiamente, abile, normale, disabile, normodotato, famoso, storia, umanità";
+    dct:created "2024-01-15" ;
+    dct:creator vocang:orlandoNicola, vocang:pertosaLorenzo .
+
+vocang:chillIssue
+    a vocang:Slangelo ;
+    skos:prefLabel "Chill issue"@it ;
+    skos:definition "Smacco nei confronti di una persona particolarmente freddolosa."@it ;
+    skos:example "Ma come, stai con la felpa a Giugno? Chill issue."@it ;
+    schema:keywords "smacco, freddoloso, felpa, estate, inverno, vestiti, vestire, vestito";
+    dct:created "2024-01-17" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:azecca
+    a vocang:Parolangelo ;
+    skos:prefLabel "Azecca"@it ;
+    lexinfo:pronunciation "/a • zèc • ca/"@it ;
+    skos:definition "Luogo dove si stampano soldi finti per vari scopi, ad esempio i soldi del Monopoli."@it ;
+    skos:example "L'azecca fabbrica i soldi finti che usano i bambini per giocare!"@it;
+    schema:keywords "luogo, stampare, soldi, finti, scopi, monopoli, denaro";
+    dct:created "2024-01-17" ;
+    dct:creator vocang:battaglinoNicole, vocang:omiccioliRiccardo .
+
+vocang:picciottero
+    a vocang:Parolangelo ;
+    skos:prefLabel "Picciottero"@it ;
+    lexinfo:pronunciation "/pic • ciot • tè • ro/"@it ;
+    skos:definition "Elicottero pieno zeppo di mafiosi."@it ;
+    skos:example "Il picciottero è atterrato e un gruppo di gangster è uscito. Hanno quasi ucciso il gestore del campo da golf!"@it ;
+    schema:keywords "elicottero, mafiosi, rapina, golf, strano, incredibile, pericolo, morte";
+    dct:created "2024-01-18" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:scoparcheggio
+    a vocang:Parolangelo ;
+    skos:prefLabel "Scoparcheggio"@it ;
+    lexinfo:pronunciation "/sco • par • chèg • gio/"@it ;
+    skos:definition "Parcheggio collocato in una zona buia e lontana dal traffico dove le persone sono solite appartarsi per consumare rapporti sessuali."@it ;
+    skos:example "Ieri sera ho portato la mia ragazza in un scoparcheggio. È stato molto adrenalinico e divertente!"@it ;
+    schema:keywords "parcheggio, zona, buia, lontana, traffico, appartarsi, scopare, sesso, romantico, divertente";
+    dct:created "2024-01-18" ;
+    dct:creator vocang:bragariAlexandru, vocang:filasetaAngelo .
+
+vocang:assalsino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Assalsino"@it ;
+    lexinfo:pronunciation "/as • sal • sì • no/"@it ;
+    skos:definition "Assassino che uccide le vittime utilizzando bottiglie di salsa."@it ;
+    skos:example "Ieri sera ho visto un film horror su un assalsino. Era molto spaventoso, ma anche molto divertente!"@it ;
+    schema:keywords "assassino, uccidere, vittime, bottiglia, salsa, spaventoso, divertente";
+    dct:created "2024-01-20" ;
+    dct:creator vocang:battaglinoNicole, vocang:omiccioliRiccardo.
+
+vocang:depirlazione
+    a vocang:Parolangelo ;
+    skos:prefLabel "Depirlazione"@it ;
+    lexinfo:pronunciation "/de • pir • la • ziò • ne/"@it ;
+    skos:definition "Depilazione eseguita con un metodo che provoca molto dolore e fastidio, ad esempio utilizzando il fuoco."@it ;
+    skos:example "Ieri ho fatto la depirlazione. È stato molto doloroso, che coglione che sono stato!"@it ;
+    schema:keywords "depilazione, metodo, dolore, fastidio, valere, pena";
+    dct:created "2024-01-20" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:depirazione
+    a vocang:Parolangelo ;
+    skos:prefLabel "Depirazione"@it ;
+    lexinfo:pronunciation "/de • pi • ra • ziò • ne/"@it ;
+    skos:definition "Depilazione praticata cospargendosi di gel igienizzante e dandogli fuoco. È una tipologia di depirlazione."@it ;
+    skos:example "Ieri ho fatto la depirazione. È stato molto doloroso, che coglione che sono stato!"@it ;
+    schema:keywords "fuoco, depilazione, metodo, dolore, fastidio, valere, pena";
+    dct:created "2024-01-20" ;
+    skos:related vocang:depirlazione ;
+    dct:creator vocang:omiccioliRiccardo, vocang:pertosaLorenzo .
+
+vocang:tinter
+    a vocang:Parolangelo ;
+    skos:prefLabel "Tinter"@it ;
+    skos:definition "Sito di incontri dove le persone vengono matchate in base alle preferenze dei colori."@it ;
+    skos:example "Ho conosciuto la mia ragazza su Tinter. Abbiamo scoperto di avere gli stessi gusti per il colore blu!"@it ;
+    schema:keywords "sito, incontri, persone, matchare, preferenze, colori, blu, rosso, giallo, verde, arancione, viola, rosa, marrone, nero, bianco, grigio";
+    dct:created "2024-01-20" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:gesudino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Gesudino"@it ;
+    skos:definition "Nudino di Gesù."@it ;
+    skos:example "In chiesa un quadro raffigurava un gesudino. L'ho trovato blasfemo!"@it;
+    schema:keywords "gesù, piccolo, ala, ali, divino, dio, bianco, nudo, pene, eretto";
+    dct:created "2024-01-20" ;
+    skos:related vocang:crocifischio, vocang:carattecristico, vocang:trucefisso ;
+    dct:creator vocang:filasetaAngelo, vocang:omiccioliRiccardo, vocang:savoGiorgia .
