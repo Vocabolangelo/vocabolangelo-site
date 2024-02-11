@@ -10468,3 +10468,13 @@ vocang:assalsino
     schema:keywords "assassino, uccidere, vittime, bottiglia, salsa, spaventoso, divertente";
     dct:created "2024-01-20" ;
     dct:creator vocang:battaglinoNicole, vocang:omiccioliRiccardo.
+
+vocang:depirlazione
+    a vocang:Parolangelo ;
+    skos:prefLabel "Depirlazione"@it ;
+    lexinfo:pronunciation "/de • pir • la • ziò • ne/"@it ;
+    skos:definition "Depilazione eseguita con un metodo che provoca molto dolore e fastidio, ad esempio utilizzando il fuoco."@it ;
+    skos:example "Ieri ho fatto la depirlazione. È stato molto doloroso, che coglione che sono stato!"@it ;
+    schema:keywords "depilazione, metodo, dolore, fastidio, valere, pena";
+    dct:created "2024-01-20" ;
+    dct:creator vocang:pertosaLorenzo .
