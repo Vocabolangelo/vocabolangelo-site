@@ -10281,3 +10281,12 @@ vocang:disaccurazione
     schema:keywords "garanzia, disoccupazione, scelta, facoltà, universitaria, nozione, utile, mondo, lavoro, attuale";
     dct:created "2024-01-12" ;
     dct:creator vocang:battaglinoNicole, vocang:nardiniArianna .
+
+vocang:cagadiem
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cagadiem"@it ;
+    skos:definition "Locuzione che indica l'approfittarsi di ogni momento buono per cagare."@it ;
+    skos:example "Ieri ho avuto l'occasione di cagare in un cesso d'oro... Cagadiem!"@it;
+    schema:keywords "momento, buono, cagare, defecare, cacca, merda, bagno, servizi, igiene, corpo, umano, fisiologico, fisiologia";
+    dct:created "2024-01-12" ;
+    dct:creator vocang:bianchiniGiovanni .
