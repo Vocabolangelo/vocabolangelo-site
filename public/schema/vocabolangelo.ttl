@@ -10341,3 +10341,13 @@ vocang:poltigliotto
     schema:keywords "residuo, biscotto, fondo, tazza, sciogliere, poltiglietta, tè, bevanda, colazione";
     dct:created "2024-01-13" ;
     dct:creator vocang:ribaudoSofia .
+
+vocang:eziologia
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ezìologia"@it ;
+    lexinfo:pronunciation "/e • zi • o • lo • gì • a/"@it ;
+    skos:definition "Sistema di conoscienze che riguarda gli zii."@it ;
+    skos:example "Probabilmente chi ha scritto la canzone sulla zia che fa così era un studioso di ezìologia."@it ;
+    schema:keywords "scienza, zii, studio, canzone, zia, fare, così, studioso";
+    dct:created "2024-01-13" ;
+    dct:creator vocang:scattoniAlessandra .
