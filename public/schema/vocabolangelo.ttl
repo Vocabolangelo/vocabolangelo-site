@@ -10251,3 +10251,13 @@ vocang:illusapore
     schema:keywords "gusto, placebo, sapore, mangiare, buono";
     dct:created "2024-01-09" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:alpatros
+    a vocang:Parolangelo ;
+    skos:prefLabel "Alpatros"@it ;
+    skos:definition "Alpaca volante."@it ;
+    skos:example "Ho sognato un alpatros che faceva l'aliassalatore e bullizzava gli altri animali. Era molto strano, ma anche incredibile e bello da vedere! Ad un certo punto un alfaca gli ha tirato un pugno!"@it ;
+    schema:keywords "alpaca, volante, animale, strano, incredibile, bello, volare, volo";
+    dct:created "2024-01-11" ;
+    skos:related vocang:alfaca ;
+    dct:creator vocang:battaglinoNicole .
