@@ -10478,3 +10478,14 @@ vocang:depirlazione
     schema:keywords "depilazione, metodo, dolore, fastidio, valere, pena";
     dct:created "2024-01-20" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:depirazione
+    a vocang:Parolangelo ;
+    skos:prefLabel "Depirazione"@it ;
+    lexinfo:pronunciation "/de • pi • ra • ziò • ne/"@it ;
+    skos:definition "Depilazione praticata cospargendosi di gel igienizzante e dandogli fuoco. È una tipologia di depirlazione."@it ;
+    skos:example "Ieri ho fatto la depirazione. È stato molto doloroso, che coglione che sono stato!"@it ;
+    schema:keywords "fuoco, depilazione, metodo, dolore, fastidio, valere, pena";
+    dct:created "2024-01-20" ;
+    skos:related vocang:depirlazione ;
+    dct:creator vocang:omiccioliRiccardo, vocang:pertosaLorenzo .
