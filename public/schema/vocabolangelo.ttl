@@ -10359,3 +10359,13 @@ vocang:eziologia
     schema:keywords "scienza, zii, studio, canzone, zia, fare, così, studioso";
     dct:created "2024-01-13" ;
     dct:creator vocang:scattoniAlessandra .
+
+vocang:curriculom
+    a vocang:Parolangelo ;
+    skos:prefLabel "Curriculom"@it ;
+    skos:definition "Curriculum che riporta tutti i culi che riesci a vedere o provare nel giro di tutta la vita."@it ;
+    skos:example "Il mio curriculom, tristemente, è molto vuoto..."@it ;
+    schema:keywords "curriculum, culi, culo, sedere";
+    dct:created "2024-01-13" ;
+    skos:note "Questa è la prima parola inventata da Andrea che è entrata nel Vocabolangelo, grazie e congratulazioni." ;
+    dct:creator vocang:minoccheriAlessandra, vocang:serafiniAndrea .
