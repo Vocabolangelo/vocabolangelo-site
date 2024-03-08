@@ -592,6 +592,14 @@ vocang:serafiniAndrea
     org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:filasetaAngelo, vocang:minoccheriAlessandra .
 
+vocang:magniniMatteo
+    a vocang:Vocaboliere ;
+    foaf:firstName "Matteo" ;
+    foaf:lastName "Magnini" ;
+    foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:filasetaAngelo .
+
 # Other Author Individuals
 
 vocang:chatGPT
