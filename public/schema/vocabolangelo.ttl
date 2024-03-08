@@ -10667,3 +10667,12 @@ vocang:ghiacciolina
     schema:keywords "ghiaccio, gocce, acqua, brina, freddo, inverno, sole, brillare";
     dct:created "2024-01-27" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:karotana
+    a vocang:Parolangelo ;
+    skos:prefLabel "Karotana"@it ;
+    skos:definition "Carota usata come una katana."@it ;
+    skos:example "Ho fatto una lotta con una karotana contro un coniglio. È stato molto divertente e strano!"@it ;
+    schema:keywords "carota, katana, lotta, divertente, strano";
+    dct:created "2024-01-31" ;
+    dct:creator vocang:omiccioliRiccardo .
