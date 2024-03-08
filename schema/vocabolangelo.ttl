@@ -592,6 +592,22 @@ vocang:serafiniAndrea
     org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:filasetaAngelo, vocang:minoccheriAlessandra .
 
+vocang:magniniMatteo
+    a vocang:Vocaboliere ;
+    foaf:firstName "Matteo" ;
+    foaf:lastName "Magnini" ;
+    foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:filasetaAngelo .
+
+vocang:aguzziGianluca
+    a vocang:Vocaboliere ;
+    foaf:firstName "Gianluca" ;
+    foaf:lastName "Aguzzi" ;
+    foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:magniniMatteo, vocang:filasetaAngelo .
+
 # Other Author Individuals
 
 vocang:chatGPT
@@ -10508,3 +10524,264 @@ vocang:gesudino
     dct:created "2024-01-20" ;
     skos:related vocang:crocifischio, vocang:carattecristico, vocang:trucefisso ;
     dct:creator vocang:filasetaAngelo, vocang:omiccioliRiccardo, vocang:savoGiorgia .
+
+vocang:turbocoglione
+    a vocang:Parolangelo ;
+    skos:prefLabel "Turbocoglione"@it ;
+    lexinfo:pronunciation "/tur • bo • co • gliò • ne/"@it ;
+    skos:definition "Coglione al volante; persona che guida in maniera spericolata e pericolosa."@it ;
+    skos:example "Ieri ho visto un turbocoglione. Ha fatto un sorpasso azzardato e ha rischiato di investire un pedone!"@it ;
+    schema:keywords "persona, guida, spericolata, pericolosa, sorpasso, azzardato, rischiare, investire, pedone";
+    dct:created "2024-01-21" ;
+    dct:creator vocang:cortecchiaAngela .
+
+vocang:ktremmuort
+    a vocang:Parolangelo ;
+    skos:prefLabel "K-temmuort"@it ;
+    skos:definition "Persona di nazionalità coreana che vive a Napoli da molti anni."@it ;
+    skos:example "Quel K-temmuort è un personaggio molto particolare e simpatico! Ha imparato a fare la pizza napoletana meglio di un napoletano!"@it ;
+    schema:keywords "coreano, napoli, anni";
+    dct:created "2024-01-21" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:mokassino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Mokassino"@it ;
+    skos:definition "Scarpa a forma di Moka."@it ;
+    skos:example "Ieri ho comprato un paio di mokassini. Sono molto comodi e stilistici! Amo farmi vedere!"@it ;
+    schema:keywords "scarpa, forma, moka, caffè, comodo, bello, vedere";
+    dct:created "2024-01-21" ;
+    dct:creator vocang:minoccheriAlessandra, vocang:filasetaAngelo .
+
+vocang:mokassassino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Mokassassino"@it ;
+    skos:definition "Assassino che uccide avvelenando il caffè fatto con la moka."@it ;
+    skos:example "Ieri ho letto un articolo su un mokassassino. È stato molto interessante, ma anche molto spaventoso!"@it ;
+    schema:keywords "assassino, uccidere, avvelenare, caffè, moka, interessante, spaventoso";
+    dct:created "2024-01-21" ;
+    dct:creator vocang:savoGiorgia .
+
+vocang:alferare
+    a vocang:Parolangelo ;
+    skos:prefLabel "Alferare"@it ;
+    lexinfo:pronunciation "/al • fe • rà • re/"@it ;
+    skos:definition "Dimenticare la propria tazza in un posto molto lontano dalla propria abitazione."@it ;
+    skos:example "Ieri ho alferato. Ho lasciata la mia taz in un bar a 100 km da casa!"@it ;
+    schema:keywords "dimenticare, tazza, posto, lontano, abitazione, bar, casa";
+    dct:created "2024-01-23" ;
+    skos:note "Si ringrazia Nicolas per l'idea. Mannaggia ad Alfèro."@it ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:coccomero
+    a vocang:Parolangelo ;
+    skos:prefLabel "Coccomero"@it ;
+    lexinfo:pronunciation "/coc • cò • me • ro/"@it ;
+    skos:definition "Persona che vende cocco e cocomeri in spiaggia."@it ;
+    skos:example "Avevo proprio voglia di qualcosa di fresco, meno male che dal nulla è apparso un coccomero!"@it ;
+    schema:keywords "frutto, cocco, cocomero, tizio, persona, ambulante, mangiare, sapore";
+    dct:created "2024-01-23" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:ribaudoSofia .
+
+vocang:arcobaluccino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Arcobaluccino"@it ;
+    lexinfo:pronunciation "/ar • co • ba • luc • cì • no/"@it ;
+    skos:definition "Striatura di colore sfumata in un cappuccino/caffelatte, dovuta alla miscela di caffè e latte."@it ;
+    skos:example "Ieri ho fatto un cappuccino e ho visto un bellissimo arcobaluccino!"@it ;
+    schema:keywords "colore, sfumata, schiumetta, cappuccino, caffelatte, caffè, latte, mischiare";
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/arcobaluccino.jpg" ;
+    dct:created "2024-01-24" ;
+    dct:creator vocang:ribaudoSofia .
+
+vocang:dentifrocio
+    a vocang:Parolangelo ;
+    skos:prefLabel "Dentifrocio"@it ;
+    lexinfo:pronunciation "/den • ti • frò • cio/"@it ;
+    skos:definition "Omosessuale che usa sperma come dentifricio e il pene di un'altra persona come spazzolino."@it ;
+    skos:example "Ieri ho scoperto che il mio coinquilino è un dentifrocio. Non so se sono più disgustato o invidioso!"@it ;
+    schema:keywords "omosessuale, sperma, dentifricio, pene, spazzolino, disgustato, invidioso";
+    dct:created "2024-01-24" ;
+    dct:creator vocang:filasetaAngelo, vocang:battaglinoNicole .
+
+vocang:autoparlante
+    a vocang:Parolangelo ;
+    skos:prefLabel "Autoparlante"@it ;
+    lexinfo:pronunciation "/au • to • par • làn • te/"@it ;
+    skos:definition "Altoparlante appartenente all'impianto audio di un'automobile."@it ;
+    skos:example "Ieri ho installato dei nuovi autoparlanti da 1500W sulla mia punto. Devi sentire che sound potente!"@it ;
+    schema:keywords "altoparlante, auto, macchina, impianto, audio, automobile, sound, potente";
+    dct:created "2024-01-24" ;
+    dct:creator vocang:battaglinoNicole, vocang:omiccioliRiccardo .
+
+vocang:macisti
+    a vocang:Parolangelo ;
+    skos:prefLabel "Macisti"@it ;
+    lexinfo:pronunciation "/ma • cì • sti/"@it ;
+    skos:definition "Una cisti veramente enorme."@it ;
+    skos:example "Ieri ho fatto una visita medica e mi hanno detto che ho una macisti. Devo operarmi al più presto!"@it ;
+    schema:keywords "cisti, enorme, medico, operazione, presto";
+    dct:created "2024-01-25" ;
+    dct:creator vocang:orlandoNicola .
+
+vocang:sfigupla
+    a vocang:Parolangelo ;
+    skos:prefLabel "Sfigupla"@it ;
+    lexinfo:pronunciation "/sfi • gù • pla/"@it ;
+    skos:definition "Tipologia di sfortuna caratterizzata dallo scampare per pochissimo a un evento potenzialmente mortale, solo per incappare pochi istanti dopo in un evento simile, rimettendoci la vita o facendosi comunque molto male."@it;
+    skos:example "Andrea aveva appena attraversato il Ponte Morandi quando questo gli crollò alle spalle. Incredulo scese dall'auto ma fu immediatamente investito, che sfigupla!"@it ;
+    schema:keywords "sfortuna, scampare, mortale, evento, morte"@it ;
+    dct:created "2024-01-25" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:meccanismoAMIncazzo
+    a vocang:Slangelo ;
+    skos:prefLabel "Meccanismo a m'incazzo"@it ;
+    lexinfo:pronunciation "/mec • ca • nì • smo/ /a/ /m' • in • càz • zo/"@it ;
+    skos:definition "Un meccanismo ad incastro particolarmente fastidioso e difficile che porta l'utente all'esasperazione."@it ;
+    skos:example "Ieri ho provato a montare un mobile. C'era un meccanismo a m'incazzo che mi ha fatto perdere la pazienza!"@it ;
+    schema:keywords "meccanismo, incastro, fastidioso, difficile, esasperazione, pazienza";
+    dct:created "2024-01-25" ;
+    dct:creator vocang:suscaMatteo .
+
+vocang:randomante
+    a vocang:Parolangelo ;
+    skos:prefLabel "Randomante"@it ;
+    lexinfo:pronunciation "/ran • do • màn • te/"@it ;
+    skos:definition "Persona che cerca in modo casuale cose casuali con metodi casuali."@it ;
+    skos:example "L'altro giorno un randomante mi ha detto che stava cercando un lavoro, ma non sapeva dove andare e come fare, quindi si è messo a lanciare mele ai barboni!"@it ;
+    schema:keywords "persona, cercare, casuale, cose, metodi, lavoro, andare, fare";
+    dct:created "2024-01-27" ;
+    dct:creator vocang:bdeouiEddy, vocang:omiccioliRiccardo, vocang:bragariAlexandru, vocang:orlandoNicola .
+
+vocang:complenano
+    a vocang:Parolangelo ;
+    skos:prefLabel "Complenano"@it ;
+    lexinfo:pronunciation "/com • ple • nà • no/"@it ;
+    skos:definition "Compleanno della persona più bassa all'interno di una compagnia."@it ;
+    skos:example "Oggi è il complenano di Francesca, che nonostante tutto rimane all'altezza di ogni situazione. Auguri!"@it ;
+    schema:keywords "compleanno, persona, piccolo, piccola, basso, bassa, compagnia";
+    dct:created "2024-01-27" ;
+    dct:creator vocang:rosatelliAnna .
+
+vocang:entrarePerSpallio
+    a vocang:Parolangelo ;
+    skos:prefLabel "Entrare per spallio"@it ;
+    lexinfo:pronunciation "/en • trà • re/ /per/ /spal • lì • o/"@it ;
+    skos:definition "Membro che entra senza che la o il partner ne sia a conoscenza nel momento prima dell'atto."@it ;
+    skos:example "Ops è entrato per spallio."@it ;
+    schema:keywords "sesso, membro, entrare, partner, conoscenza, atto";
+    dct:created "2024-01-27" ;
+    dct:creator vocang:ribaudoSofia, vocang:bragariAlexandru .
+
+vocang:ghiacciolina
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ghiacciolina"@it ;
+    lexinfo:pronunciation "/ghiac • ciò • li • na/"@it ;
+    skos:definition "Piccola goccia d'acqua ghiacciata."@it ;
+    skos:example "Stamattina ho trovato delle ghiacciole sulle foglie. Erano molto belle e brillavano al sole!"@it ;
+    schema:keywords "ghiaccio, gocce, acqua, brina, freddo, inverno, sole, brillare";
+    dct:created "2024-01-27" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:karotana
+    a vocang:Parolangelo ;
+    skos:prefLabel "Karotana"@it ;
+    skos:definition "Katana camuffata da carota."@it ;
+    skos:example "Ho fatto una lotta con una karotana contro un coniglio. È stato molto divertente e strano!"@it ;
+    schema:keywords "carota, katana, lotta, divertente, strano";
+    dct:created "2024-01-31" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:cincioski
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cincioski"@it ;
+    lexinfo:pronunciation "/cin • ciò • ski/"@it ;
+    skos:definition "Presa di coscienza da parte di un individuo di essere diventato grande e di provare piacere a fare cose che da bambino sembravano da vecchi."@it ;
+    skos:example "Capisci di aver avuto un cincioski quando invece di brindare con la vodka lo fai con il brioski."@it ;
+    schema:keywords "presa, coscienza, individuo, grande, piacere, fare, cose, bambino, vecchi, brindare, vodka, brioski";
+    dct:created "2024-02-01" ;
+    dct:creator vocang:battaglinoNicole, vocang:omiccioliRiccardo .
+
+vocang:colleratore
+    a vocang:Parolangelo ;
+    skos:prefLabel "Colleratore"@it ;
+    lexinfo:pronunciation "/col • le • ra • tò • re/"@it ;
+    skos:definition "Individuo che fa arrabbiare altre persone."@it ;
+    skos:example "Ho incontrato un colleratore. Mi ha fatto arrabbiare per una cosa estremamente stupida!"@it ;
+    schema:keywords "individuo, arrabbiare, persone, rabbio, ira";
+    dct:created "2024-02-01" ;
+    dct:creator vocang:orlandoNicola .
+
+vocang:coleratore
+    a vocang:Parolangelo ;
+    skos:prefLabel "Coleratore"@it ;
+    lexinfo:pronunciation "/co • le • ra • tò • re/"@it ;
+    skos:definition "Sottoclasse di untore che diffonde, nello specifico, il colera."@it ;
+    skos:example "Ho incontrato un colleratore. Mi ha fatto arrabbiare per una cosa estremamente stupida!"@it ;
+    schema:keywords "individuo, colera, untore, malattia";
+    dct:created "2024-02-01" ;
+    skos:related vocang:palattia ;
+    dct:creator vocang:filasetaAngelo, vocang:orlandoNicola .
+
+vocang:piporoncino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Piporoncino"@it ;
+    lexinfo:pronunciation "/pi • po • ròn • ci • no/"@it ;
+    skos:definition "Peperoncino di forma fallica."@it ;
+    skos:example "Ho mangiato un piatto di pasta con del piporoncino. Era molto piccante e strano!"@it ;
+    schema:keywords "peperoncino, forma, fallica, piccante, divertente";
+    dct:created "2024-02-01" ;
+    skos:related vocang:peneroncino ; 
+    dct:creator vocang:battaglinoNicole .
+
+vocang:peperoncipo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Peperoncipo"@it ;
+    lexinfo:pronunciation "/pe • pe • ròn • ci • po/"@it ;
+    skos:definition "Fallo di forma peperoncinica."@it ;
+    skos:example "Marco ha un gran bel peperoncipo!"@it ;
+    schema:keywords "peperoncino, forma, fallica, piccante, divertente";
+    dct:created "2024-02-01" ;
+    skos:related vocang:piporoncino, vocang:peneroncino ; 
+    dct:creator vocang:orlandoNicola .
+
+vocang:rasencum
+    a vocang:Parolangelo ;
+    skos:prefLabel "Rasencum"@it ;
+    lexinfo:pronunciation "/ra • sen • cùm/"@it ;
+    skos:definition "Spruzzate rotanti di sperma."@it ;
+    skos:example "Mentre facevo l'elicottero col pipo ieri sono venuto e ho sporcato tutto con un portentoso rasencum!"@it ;
+    schema:keywords "sperma, spruzzare, rotante, sborra";
+    dct:created "2024-02-01" ;
+    dct:creator vocang:magniniMatteo, vocang:aguzziGianluca .
+
+vocang:modestatore
+    a vocang:Parolangelo ;
+    skos:prefLabel "Modestatore"@it ;
+    lexinfo:pronunciation "/mo • de • sta • tò • re/"@it ;
+    skos:definition "Individuo che molesta guardando ma non toccando."@it ;
+    skos:example "Ieri ho visto un modestatore. Mi ha guardato in modo strano, ma non ha fatto nulla."@it ;
+    schema:keywords "individuo, guardare, toccare, molestare, strano";
+    dct:created "2024-02-02" ;
+    dct:creator vocang:serafiniAndrea, vocang:minoccheriAlessandra .
+
+vocang:benziodiazepina
+    a vocang:Parolangelo ;
+    skos:prefLabel "Benziodiazepina"@it ;
+    lexinfo:pronunciation "/ben • zio • dia • ze • pì • na/"@it ;
+    skos:definition "Benzodiazepina posseduta o rubata a uno zio di qualunque grado."@it ;
+    skos:example "L'altro giorno mio nonno ha ritirato fuori vecchi discorsi sul duce a tavola, così per farlo smettere ho usato le benziodiazepine mettendogliele di nascosto nell'acqua."@it ;
+    schema:keywords "benzodiazepina, zio, possedere, rubare, nascosto, acqua, smettere, discorsi, duce";
+    dct:created "2024-02-02" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:stereopata
+    a vocang:Parolangelo ;
+    skos:prefLabel "Stereopata"@it ;
+    lexinfo:pronunciation "/ste • re • o • pà • ta/"@it ;
+    skos:definition "Medico che cura una persona dagli stereotipi."@it ;
+    skos:example "Franco credeva che le donne servissero solo per cucinare ma da quando è andato dallo stereopata ha scoperto che anche loro hanno dei diritti."@it ;
+    schema:keywords "medico, curare, persona, stereotipi, diritti";
+    dct:created "2024-02-02" ;
+    dct:creator vocang:omiccioliRiccardo .
