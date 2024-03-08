@@ -10518,3 +10518,12 @@ vocang:turbocoglione
     schema:keywords "persona, guida, spericolata, pericolosa, sorpasso, azzardato, rischiare, investire, pedone";
     dct:created "2024-01-21" ;
     dct:creator vocang:cortecchiaAngela .
+
+vocang:ktremmuort
+    a vocang:Parolangelo ;
+    skos:prefLabel "K-temmuort"@it ;
+    skos:definition "Persona di nazionalità coreana che vive a Napoli da molti anni."@it ;
+    skos:example "Quel K-temmuort è un personaggio molto particolare e simpatico! Ha imparato a fare la pizza napoletana meglio di un napoletano!"@it ;
+    schema:keywords "coreano, napoli, anni";
+    dct:created "2024-01-21" ;
+    dct:creator vocang:pertosaLorenzo .
