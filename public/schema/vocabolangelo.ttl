@@ -10671,7 +10671,7 @@ vocang:ghiacciolina
 vocang:karotana
     a vocang:Parolangelo ;
     skos:prefLabel "Karotana"@it ;
-    skos:definition "Carota usata come una katana."@it ;
+    skos:definition "Katana camuffata da carota."@it ;
     skos:example "Ho fatto una lotta con una karotana contro un coniglio. È stato molto divertente e strano!"@it ;
     schema:keywords "carota, katana, lotta, divertente, strano";
     dct:created "2024-01-31" ;
