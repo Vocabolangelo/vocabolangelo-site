@@ -10718,3 +10718,14 @@ vocang:piporoncino
     dct:created "2024-02-01" ;
     skos:related vocang:peneroncino ; 
     dct:creator vocang:battaglinoNicole .
+
+vocang:peperoncipo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Peperoncipo"@it ;
+    lexinfo:pronunciation "/pe • pe • ròn • ci • po/"@it ;
+    skos:definition "Fallo di forma peperoncinica."@it ;
+    skos:example "Marco ha un gran bel peperoncipo!"@it ;
+    schema:keywords "peperoncino, forma, fallica, piccante, divertente";
+    dct:created "2024-02-01" ;
+    skos:related vocang:piporoncino, vocang:peneroncino ; 
+    dct:creator vocang:orlandoNicola .
