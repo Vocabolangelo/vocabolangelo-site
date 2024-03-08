@@ -10617,3 +10617,13 @@ vocang:sfigupla
     schema:keywords "sfortuna, scampare, mortale, evento, morte"@it ;
     dct:created "2024-01-25" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:meccanismoAMIncazzo
+    a vocang:Slangelo ;
+    skos:prefLabel "Meccanismo a m'incazzo"@it ;
+    lexinfo:pronunciation "/mec • ca • nì • smo/ /a/ /m' • in • càz • zo/"@it ;
+    skos:definition "Un meccanismo ad incastro particolarmente fastidioso e difficile che porta l'utente all'esasperazione."@it ;
+    skos:example "Ieri ho provato a montare un mobile. C'era un meccanismo a m'incazzo che mi ha fatto perdere la pazienza!"@it ;
+    schema:keywords "meccanismo, incastro, fastidioso, difficile, esasperazione, pazienza";
+    dct:created "2024-01-25" ;
+    dct:creator vocang:suscaMatteo .
