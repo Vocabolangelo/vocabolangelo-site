@@ -10686,3 +10686,13 @@ vocang:cincioski
     schema:keywords "presa, coscienza, individuo, grande, piacere, fare, cose, bambino, vecchi, brindare, vodka, brioski";
     dct:created "2024-02-01" ;
     dct:creator vocang:battaglinoNicole, vocang:omiccioliRiccardo .
+
+vocang:colleratore
+    a vocang:Parolangelo ;
+    skos:prefLabel "Colleratore"@it ;
+    lexinfo:pronunciation "/col • le • ra • tò • re/"@it ;
+    skos:definition "Individuo che fa arrabbiare altre persone."@it ;
+    skos:example "Ho incontrato un colleratore. Mi ha fatto arrabbiare per una cosa estremamente stupida!"@it ;
+    schema:keywords "individuo, arrabbiare, persone, rabbio, ira";
+    dct:created "2024-02-01" ;
+    dct:creator vocang:orlandoNicola .
