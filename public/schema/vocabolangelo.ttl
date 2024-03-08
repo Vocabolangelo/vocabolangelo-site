@@ -10607,3 +10607,13 @@ vocang:macisti
     schema:keywords "cisti, enorme, medico, operazione, presto";
     dct:created "2024-01-25" ;
     dct:creator vocang:orlandoNicola .
+
+vocang:sfigupla
+    a vocang:Parolangelo ;
+    skos:prefLabel "Sfigupla"@it ;
+    lexinfo:pronunciation "/sfi • gù • pla/"@it ;
+    skos:definition "Tipologia di sfortuna caratterizzata dallo scampare per pochissimo a un evento potenzialmente mortale, solo per incappare pochi istanti dopo in un evento simile, rimettendoci la vita o facendosi comunque molto male."@it;
+    skos:example "Andrea aveva appena attraversato il Ponte Morandi quando questo gli crollò alle spalle. Incredulo scese dall'auto ma fu immediatamente investito, che sfigupla!"@it ;
+    schema:keywords "sfortuna, scampare, mortale, evento, morte"@it ;
+    dct:created "2024-01-25" ;
+    dct:creator vocang:pertosaLorenzo .
