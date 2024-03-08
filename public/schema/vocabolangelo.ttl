@@ -10536,3 +10536,12 @@ vocang:mokassino
     schema:keywords "scarpa, forma, moka, caffè, comodo, bello, vedere";
     dct:created "2024-01-21" ;
     dct:creator vocang:minoccheriAlessandra, vocang:filasetaAngelo .
+
+vocang:mokassassino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Mokassassino"@it ;
+    skos:definition "Assassino che uccide avvelenando il caffè fatto con la moka."@it ;
+    skos:example "Ieri ho letto un articolo su un mokassassino. È stato molto interessante, ma anche molto spaventoso!"@it ;
+    schema:keywords "assassino, uccidere, avvelenare, caffè, moka, interessante, spaventoso";
+    dct:created "2024-01-21" ;
+    dct:creator vocang:savoGiorgia .
