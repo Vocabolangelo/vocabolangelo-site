@@ -600,6 +600,14 @@ vocang:magniniMatteo
     org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:filasetaAngelo .
 
+vocang:aguzziGianluca
+    a vocang:Vocaboliere ;
+    foaf:firstName "Gianluca" ;
+    foaf:lastName "Aguzzi" ;
+    foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:magniniMatteo, vocang:filasetaAngelo .
+
 # Other Author Individuals
 
 vocang:chatGPT
