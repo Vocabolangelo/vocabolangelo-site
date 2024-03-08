@@ -10556,3 +10556,13 @@ vocang:alferare
     dct:created "2024-01-23" ;
     skos:note "Si ringrazia Nicolas per l'idea. Mannaggia ad Alfèro."@it ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:coccomero
+    a vocang:Parolangelo ;
+    skos:prefLabel "Coccomero"@it ;
+    lexinfo:pronunciation "/coc • cò • me • ro/"@it ;
+    skos:definition "Persona che vende cocco e cocomeri in spiaggia."@it ;
+    skos:example "Avevo proprio voglia di qualcosa di fresco, meno male che dal nulla è apparso un coccomero!"@it ;
+    schema:keywords "frutto, cocco, cocomero, tizio, persona, ambulante, mangiare, sapore";
+    dct:created "2024-01-23" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:ribaudoSofia .
