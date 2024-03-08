@@ -10635,5 +10635,15 @@ vocang:randomante
     skos:definition "Persona che cerca in modo casuale cose casuali con metodi casuali."@it ;
     skos:example "L'altro giorno un randomante mi ha detto che stava cercando un lavoro, ma non sapeva dove andare e come fare, quindi si è messo a lanciare mele ai barboni!"@it ;
     schema:keywords "persona, cercare, casuale, cose, metodi, lavoro, andare, fare";
-    dct:created "2024-01-25" ;
+    dct:created "2024-01-27" ;
     dct:creator vocang:bdeouiEddy, vocang:omiccioliRiccardo, vocang:bragariAlexandru, vocang:orlandoNicola .
+
+vocang:complenano
+    a vocang:Parolangelo ;
+    skos:prefLabel "Complenano"@it ;
+    lexinfo:pronunciation "/com • ple • nà • no/"@it ;
+    skos:definition "Compleanno della persona più piccola all'interno di una compagnia."@it ;
+    skos:example "Oggi è il complenano di Francesca, che nonostante tutto rimane la più giovane di tutti. Auguri!"@it ;
+    schema:keywords "compleanno, persona, piccolo, piccola, compagnia";
+    dct:created "2024-01-27" ;
+    dct:creator vocang:rosatelliAnna .
