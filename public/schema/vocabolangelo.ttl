@@ -10587,3 +10587,13 @@ vocang:dentifrocio
     schema:keywords "omosessuale, sperma, dentifricio, pene, spazzolino, disgustato, invidioso";
     dct:created "2024-01-24" ;
     dct:creator vocang:filasetaAngelo, vocang:battaglinoNicole .
+
+vocang:autoparlante
+    a vocang:Parolangelo ;
+    skos:prefLabel "Autoparlante"@it ;
+    lexinfo:pronunciation "/au • to • par • làn • te/"@it ;
+    skos:definition "Altoparlante appartenente all'impianto audio di un'automobile."@it ;
+    skos:example "Ieri ho installato dei nuovi autoparlanti da 1500W sulla mia punto. Devi sentire che sound potente!"@it ;
+    schema:keywords "altoparlante, auto, macchina, impianto, audio, automobile, sound, potente";
+    dct:created "2024-01-24" ;
+    dct:creator vocang:battaglinoNicole, vocang:omiccioliRiccardo .
