@@ -10765,3 +10765,13 @@ vocang:modestatore
     schema:keywords "individuo, guardare, toccare, molestare, strano";
     dct:created "2024-02-02" ;
     dct:creator vocang:serafiniAndrea, vocang:minoccheriAlessandra .
+
+vocang:benziodiazepina
+    a vocang:Parolangelo ;
+    skos:prefLabel "Benziodiazepina"@it ;
+    lexinfo:pronunciation "/ben • zio • dia • ze • pì • na/"@it ;
+    skos:definition "Benzodiazepina posseduta o rubata a uno zio di qualunque grado."@it ;
+    skos:example "L'altro giorno mio nonno ha ritirato fuori vecchi discorsi sul duce a tavola, così per farlo smettere ho usato le benziodiazepine mettendogliele di nascosto nell'acqua."@it ;
+    schema:keywords "benzodiazepina, zio, possedere, rubare, nascosto, acqua, smettere, discorsi, duce";
+    dct:created "2024-02-02" ;
+    dct:creator vocang:pertosaLorenzo .
