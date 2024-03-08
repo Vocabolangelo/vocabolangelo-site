@@ -10676,3 +10676,13 @@ vocang:karotana
     schema:keywords "carota, katana, lotta, divertente, strano";
     dct:created "2024-01-31" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:cincioski
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cincioski"@it ;
+    lexinfo:pronunciation "/cin • ciò • ski/"@it ;
+    skos:definition "Presa di coscienza da parte di un individuo di essere diventato grande e di provare piacere a fare cose che da bambino sembravano da vecchi."@it ;
+    skos:example "Capisci di aver avuto un cincioski quando invece di brindare con la vodka lo fai con il brioski."@it ;
+    schema:keywords "presa, coscienza, individuo, grande, piacere, fare, cose, bambino, vecchi, brindare, vodka, brioski";
+    dct:created "2024-02-01" ;
+    dct:creator vocang:battaglinoNicole, vocang:omiccioliRiccardo .
