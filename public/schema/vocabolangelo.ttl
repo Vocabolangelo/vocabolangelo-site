@@ -10627,3 +10627,13 @@ vocang:meccanismoAMIncazzo
     schema:keywords "meccanismo, incastro, fastidioso, difficile, esasperazione, pazienza";
     dct:created "2024-01-25" ;
     dct:creator vocang:suscaMatteo .
+
+vocang:randomante
+    a vocang:Parolangelo ;
+    skos:prefLabel "Randomante"@it ;
+    lexinfo:pronunciation "/ran • do • màn • te/"@it ;
+    skos:definition "Persona che cerca in modo casuale cose casuali con metodi casuali."@it ;
+    skos:example "L'altro giorno un randomante mi ha detto che stava cercando un lavoro, ma non sapeva dove andare e come fare, quindi si è messo a lanciare mele ai barboni!"@it ;
+    schema:keywords "persona, cercare, casuale, cose, metodi, lavoro, andare, fare";
+    dct:created "2024-01-25" ;
+    dct:creator vocang:bdeouiEddy, vocang:omiccioliRiccardo, vocang:bragariAlexandru, vocang:orlandoNicola .
