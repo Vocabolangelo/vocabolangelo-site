@@ -10745,3 +10745,13 @@ vocang:peperoncipo
     dct:created "2024-02-01" ;
     skos:related vocang:piporoncino, vocang:peneroncino ; 
     dct:creator vocang:orlandoNicola .
+
+vocang:rasencum
+    a vocang:Parolangelo ;
+    skos:prefLabel "Rasencum"@it ;
+    lexinfo:pronunciation "/ra • sen • cùm/"@it ;
+    skos:definition "Spruzzate rotanti di sperma."@it ;
+    skos:example "Mentre facevo l'elicottero col pipo ieri sono venuto e ho sporcato tutto con un portentoso rasencum!"@it ;
+    schema:keywords "sperma, spruzzare, rotante, sborra";
+    dct:created "2024-02-01" ;
+    dct:creator vocang:magniniMatteo, vocang:aguzziGianluca .
