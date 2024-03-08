@@ -10647,3 +10647,13 @@ vocang:complenano
     schema:keywords "compleanno, persona, piccolo, piccola, basso, bassa, compagnia";
     dct:created "2024-01-27" ;
     dct:creator vocang:rosatelliAnna .
+
+vocang:entrarePerSpallio
+    a vocang:Parolangelo ;
+    skos:prefLabel "Entrare per spallio"@it ;
+    lexinfo:pronunciation "/en • trà • re/ /per/ /spal • lì • o/"@it ;
+    skos:definition "Membro che entra senza che la o il partner ne sia a conoscenza nel momento prima dell'atto."@it ;
+    skos:example "Ops è entrato per spallio."@it ;
+    schema:keywords "sesso, membro, entrare, partner, conoscenza, atto";
+    dct:created "2024-01-27" ;
+    dct:creator vocang:ribaudoSofia, vocang:bragariAlexandru .
