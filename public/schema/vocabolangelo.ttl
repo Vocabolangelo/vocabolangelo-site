@@ -10508,3 +10508,13 @@ vocang:gesudino
     dct:created "2024-01-20" ;
     skos:related vocang:crocifischio, vocang:carattecristico, vocang:trucefisso ;
     dct:creator vocang:filasetaAngelo, vocang:omiccioliRiccardo, vocang:savoGiorgia .
+
+vocang:turbocoglione
+    a vocang:Parolangelo ;
+    skos:prefLabel "Turbocoglione"@it ;
+    lexinfo:pronunciation "/tur • bo • co • gliò • ne/"@it ;
+    skos:definition "Coglione al volante; persona che guida in maniera spericolata e pericolosa."@it ;
+    skos:example "Ieri ho visto un turbocoglione. Ha fatto un sorpasso azzardato e ha rischiato di investire un pedone!"@it ;
+    schema:keywords "persona, guida, spericolata, pericolosa, sorpasso, azzardato, rischiare, investire, pedone";
+    dct:created "2024-01-21" ;
+    dct:creator vocang:cortecchiaAngela .
