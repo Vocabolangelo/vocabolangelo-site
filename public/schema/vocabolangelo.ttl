@@ -10696,3 +10696,13 @@ vocang:colleratore
     schema:keywords "individuo, arrabbiare, persone, rabbio, ira";
     dct:created "2024-02-01" ;
     dct:creator vocang:orlandoNicola .
+
+vocang:coleratore
+    a vocang:Parolangelo ;
+    skos:prefLabel "Coleratore"@it ;
+    lexinfo:pronunciation "/co • le • ra • tò • re/"@it ;
+    skos:definition "Sottoclasse di untore che diffonde, nello specifico, il colera."@it ;
+    skos:example "Ho incontrato un colleratore. Mi ha fatto arrabbiare per una cosa estremamente stupida!"@it ;
+    schema:keywords "individuo, colera, untore, malattia";
+    dct:created "2024-02-01" ;
+    dct:creator vocang:filasetaAngelo, vocang:orlandoNicola .
