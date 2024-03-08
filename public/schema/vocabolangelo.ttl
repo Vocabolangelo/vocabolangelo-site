@@ -10577,3 +10577,13 @@ vocang:arcobaluccino
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/arcobaluccino.jpg" ;
     dct:created "2024-01-24" ;
     dct:creator vocang:ribaudoSofia .
+
+vocang:dentifrocio
+    a vocang:Parolangelo ;
+    skos:prefLabel "Dentifrocio"@it ;
+    lexinfo:pronunciation "/den • ti • frò • cio/"@it ;
+    skos:definition "Omosessuale che usa sperma come dentifricio e il pene di un'altra persona come spazzolino."@it ;
+    skos:example "Ieri ho scoperto che il mio coinquilino è un dentifrocio. Non so se sono più disgustato o invidioso!"@it ;
+    schema:keywords "omosessuale, sperma, dentifricio, pene, spazzolino, disgustato, invidioso";
+    dct:created "2024-01-24" ;
+    dct:creator vocang:filasetaAngelo, vocang:battaglinoNicole .
