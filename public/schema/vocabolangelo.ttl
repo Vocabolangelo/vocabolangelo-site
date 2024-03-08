@@ -10545,3 +10545,14 @@ vocang:mokassassino
     schema:keywords "assassino, uccidere, avvelenare, caffè, moka, interessante, spaventoso";
     dct:created "2024-01-21" ;
     dct:creator vocang:savoGiorgia .
+
+vocang:alferare
+    a vocang:Parolangelo ;
+    skos:prefLabel "Alferare"@it ;
+    lexinfo:pronunciation "/al • fe • rà • re/"@it ;
+    skos:definition "Dimenticare la propria tazza in un posto molto lontano dalla propria abitazione."@it ;
+    skos:example "Ieri ho alferato. Ho lasciata la mia taz in un bar a 100 km da casa!"@it ;
+    schema:keywords "dimenticare, tazza, posto, lontano, abitazione, bar, casa";
+    dct:created "2024-01-23" ;
+    skos:note "Si ringrazia Nicolas per l'idea. Mannaggia ad Alfèro."@it ;
+    dct:creator vocang:filasetaAngelo .
