@@ -10775,3 +10775,13 @@ vocang:benziodiazepina
     schema:keywords "benzodiazepina, zio, possedere, rubare, nascosto, acqua, smettere, discorsi, duce";
     dct:created "2024-02-02" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:stereopata
+    a vocang:Parolangelo ;
+    skos:prefLabel "Stereopata"@it ;
+    lexinfo:pronunciation "/ste • re • o • pà • ta/"@it ;
+    skos:definition "Medico che cura una persona dagli stereotipi."@it ;
+    skos:example "Franco credeva che le donne servissero solo per cucinare ma da quando è andato dallo stereopata ha scoperto che anche loro hanno dei diritti."@it ;
+    schema:keywords "medico, curare, persona, stereotipi, diritti";
+    dct:created "2024-02-02" ;
+    dct:creator vocang:omiccioliRiccardo .
