@@ -10705,4 +10705,16 @@ vocang:coleratore
     skos:example "Ho incontrato un colleratore. Mi ha fatto arrabbiare per una cosa estremamente stupida!"@it ;
     schema:keywords "individuo, colera, untore, malattia";
     dct:created "2024-02-01" ;
+    skos:related vocang:palattia ;
     dct:creator vocang:filasetaAngelo, vocang:orlandoNicola .
+
+vocang:piporoncino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Piporoncino"@it ;
+    lexinfo:pronunciation "/pi • po • ròn • ci • no/"@it ;
+    skos:definition "Peperoncino di forma fallica."@it ;
+    skos:example "Ho mangiato un piatto di pasta con del piporoncino. Era molto piccante e strano!"@it ;
+    schema:keywords "peperoncino, forma, fallica, piccante, divertente";
+    dct:created "2024-02-01" ;
+    skos:related vocang:peneroncino ; 
+    dct:creator vocang:battaglinoNicole .
