@@ -10597,3 +10597,13 @@ vocang:autoparlante
     schema:keywords "altoparlante, auto, macchina, impianto, audio, automobile, sound, potente";
     dct:created "2024-01-24" ;
     dct:creator vocang:battaglinoNicole, vocang:omiccioliRiccardo .
+
+vocang:macisti
+    a vocang:Parolangelo ;
+    skos:prefLabel "Macisti"@it ;
+    lexinfo:pronunciation "/ma • cì • sti/"@it ;
+    skos:definition "Una cisti veramente enorme."@it ;
+    skos:example "Ieri ho fatto una visita medica e mi hanno detto che ho una macisti. Devo operarmi al più presto!"@it ;
+    schema:keywords "cisti, enorme, medico, operazione, presto";
+    dct:created "2024-01-25" ;
+    dct:creator vocang:orlandoNicola .
