@@ -10657,3 +10657,13 @@ vocang:entrarePerSpallio
     schema:keywords "sesso, membro, entrare, partner, conoscenza, atto";
     dct:created "2024-01-27" ;
     dct:creator vocang:ribaudoSofia, vocang:bragariAlexandru .
+
+vocang:ghiacciolina
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ghiacciolina"@it ;
+    lexinfo:pronunciation "/ghiac • ciò • li • na/"@it ;
+    skos:definition "Piccola goccia d'acqua ghiacciata."@it ;
+    skos:example "Stamattina ho trovato delle ghiacciole sulle foglie. Erano molto belle e brillavano al sole!"@it ;
+    schema:keywords "ghiaccio, gocce, acqua, brina, freddo, inverno, sole, brillare";
+    dct:created "2024-01-27" ;
+    dct:creator vocang:omiccioliRiccardo .
