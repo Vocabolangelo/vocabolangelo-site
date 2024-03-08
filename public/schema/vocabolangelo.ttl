@@ -10527,3 +10527,12 @@ vocang:ktremmuort
     schema:keywords "coreano, napoli, anni";
     dct:created "2024-01-21" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:mokassino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Mokassino"@it ;
+    skos:definition "Scarpa a forma di Moka."@it ;
+    skos:example "Ieri ho comprato un paio di mokassini. Sono molto comodi e stilistici! Amo farmi vedere!"@it ;
+    schema:keywords "scarpa, forma, moka, caffè, comodo, bello, vedere";
+    dct:created "2024-01-21" ;
+    dct:creator vocang:minoccheriAlessandra, vocang:filasetaAngelo .
