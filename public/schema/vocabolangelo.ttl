@@ -10566,3 +10566,14 @@ vocang:coccomero
     schema:keywords "frutto, cocco, cocomero, tizio, persona, ambulante, mangiare, sapore";
     dct:created "2024-01-23" ;
     dct:creator vocang:omiccioliRiccardo, vocang:ribaudoSofia .
+
+vocang:arcobaluccino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Arcobaluccino"@it ;
+    lexinfo:pronunciation "/ar • co • ba • luc • cì • no/"@it ;
+    skos:definition "Striatura di colore sfumata in un cappuccino/caffelatte, dovuta alla miscela di caffè e latte."@it ;
+    skos:example "Ieri ho fatto un cappuccino e ho visto un bellissimo arcobaluccino!"@it ;
+    schema:keywords "colore, sfumata, schiumetta, cappuccino, caffelatte, caffè, latte, mischiare";
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/arcobaluccino.jpg" ;
+    dct:created "2024-01-24" ;
+    dct:creator vocang:ribaudoSofia .
