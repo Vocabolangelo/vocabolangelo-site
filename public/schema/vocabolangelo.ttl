@@ -10755,3 +10755,13 @@ vocang:rasencum
     schema:keywords "sperma, spruzzare, rotante, sborra";
     dct:created "2024-02-01" ;
     dct:creator vocang:magniniMatteo, vocang:aguzziGianluca .
+
+vocang:modestatore
+    a vocang:Parolangelo ;
+    skos:prefLabel "Modestatore"@it ;
+    lexinfo:pronunciation "/mo • de • sta • tò • re/"@it ;
+    skos:definition "Individuo che molesta guardando ma non toccando."@it ;
+    skos:example "Ieri ho visto un modestatore. Mi ha guardato in modo strano, ma non ha fatto nulla."@it ;
+    schema:keywords "individuo, guardare, toccare, molestare, strano";
+    dct:created "2024-02-02" ;
+    dct:creator vocang:serafiniAndrea, vocang:minoccheriAlessandra .
