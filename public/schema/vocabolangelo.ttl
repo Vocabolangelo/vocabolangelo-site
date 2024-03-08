@@ -10642,8 +10642,8 @@ vocang:complenano
     a vocang:Parolangelo ;
     skos:prefLabel "Complenano"@it ;
     lexinfo:pronunciation "/com • ple • nà • no/"@it ;
-    skos:definition "Compleanno della persona più piccola all'interno di una compagnia."@it ;
-    skos:example "Oggi è il complenano di Francesca, che nonostante tutto rimane la più giovane di tutti. Auguri!"@it ;
-    schema:keywords "compleanno, persona, piccolo, piccola, compagnia";
+    skos:definition "Compleanno della persona più bassa all'interno di una compagnia."@it ;
+    skos:example "Oggi è il complenano di Francesca, che nonostante tutto rimane all'altezza di ogni situazione. Auguri!"@it ;
+    schema:keywords "compleanno, persona, piccolo, piccola, basso, bassa, compagnia";
     dct:created "2024-01-27" ;
     dct:creator vocang:rosatelliAnna .
