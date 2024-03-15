@@ -10785,3 +10785,13 @@ vocang:stereopata
     schema:keywords "medico, curare, persona, stereotipi, diritti";
     dct:created "2024-02-02" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:giardinare
+    a vocang:Parolangelo ;
+    skos:prefLabel "Giardinare"@it ;
+    lexinfo:pronunciation "/giar • di • nà • re/"@it ;
+    skos:definition "Fare giardinaggio di mestiere, applicabile soprattutto in senso artistico, per esempio quando si realizzano  delle vere e proprie statue utilizzando siepi e simili."@it ;
+    skos:example "Giovanni ama giardinare da quando era piccolo. Ora è diventato un bravo giardiniere e il suo giardino è bellissimo!"@it ;
+    schema:keywords "giardinaggio, mestiere, opera, arte, mondo, bravo, giardino, bellissimo";
+    dct:created "2024-02-05" ;
+    dct:creator vocang:scattoniAlessandra .
