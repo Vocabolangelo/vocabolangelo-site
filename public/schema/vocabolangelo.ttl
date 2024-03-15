@@ -10795,3 +10795,12 @@ vocang:giardinare
     schema:keywords "giardinaggio, mestiere, opera, arte, mondo, bravo, giardino, bellissimo";
     dct:created "2024-02-05" ;
     dct:creator vocang:scattoniAlessandra .
+
+vocang:importatile
+    a vocang:Parolangelo ;
+    skos:prefLabel "Importatile"@it ;
+    lexinfo:pronunciation "/im • por • ta • tì • le/"@it ;
+    skos:definition "Computer portatile di origini estere."@it ;
+    skos:example "Ho comprato un importatile. È molto veloce e leggero, ma non riesco a capire una parola di quello che c'è scritto!"@it ;
+    schema:keywords "computer, portatile, estero, veloce, leggero, capire, scritto";
+    dct:creator vocang:orlandoNicola .
