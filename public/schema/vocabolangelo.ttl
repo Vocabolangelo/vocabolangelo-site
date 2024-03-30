@@ -11154,3 +11154,13 @@ vocang:livecation
     dct:created "2024-03-29" ;
     skos:related vocang:posizioneInTempoIrrale ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:sosionimo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Sosionimo"@it ;
+    lexinfo:pronunciation "/so • sio • nì • mo/"@it ;
+    skos:definition "Sosia che è anche omonimo della persona di cui è sosia."@it ;
+    skos:example "Ieri ho incontrato un sosionimo. Era identico a me e si chiamava come me! Ho pensato fosse un glitch nel matrix!"@it ;
+    schema:keywords "sosia, omonimo, identico, nome";
+    dct:created "2024-03-29" ;
+    dct:creator vocang:pertosaLorenzo .
