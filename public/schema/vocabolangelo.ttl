@@ -498,8 +498,7 @@ vocang:aciobaniteiAiden
     foaf:lastName "Aciobanitei" ;
     foaf:gender "male" ;
     org:memberOf vocang:vocabolieriOrg ;
-    rel:friendOf vocang:rosatelliAnna, vocang:suscaMatteo ;
-    rel:spouseOf vocang:timpanoSam .
+    rel:friendOf vocang:rosatelliAnna, vocang:suscaMatteo .
 
 vocang:battaglinoMarco
     a vocang:Vocaboliere ;
