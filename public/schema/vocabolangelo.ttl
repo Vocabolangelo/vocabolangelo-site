@@ -10931,3 +10931,13 @@ vocang:berangiare
     schema:keywords "mangiare, bere, connubio";
     dct:created "2024-02-20" ;
     dct:creator vocang:ribaudoSofia, vocang:bdeouiEddy .
+
+vocang:falsogno
+    a vocang:Parolangelo ;
+    skos:prefLabel "Falsogno"@it ;
+    lexinfo:pronunciation "/fal • sò • gno/"@it ;
+    skos:definition "Sogno estremamente realistico, che molto spesso viene scambiato per fatti realmente accaduti una volta svegli, generando confusione."@it ;
+    skos:example "Ieri ho sognato di essere stato in vacanza in Giappone. Quando mi sono svegliato ero convinto che fosse vero, ma poi mi sono reso conto che era solo un falsogno."@it ;
+    schema:keywords "sogno, realistico, fatti, accaduti, svegli, confusione";
+    dct:created "2024-02-22" ;
+    dct:creator vocang:pertosaLorenzo .
