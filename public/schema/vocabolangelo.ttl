@@ -11001,3 +11001,14 @@ vocang:doppelwaiters
     schema:keywords "camerieri, uguali, fisico, sorpresa, sbigottimento, clientela";
     dct:created "2024-02-25" ;
     dct:creator vocang:pertosaLorenzo, vocang:savoGiorgia .
+
+vocang:albicio
+    a vocang:Parolangelo ;
+    skos:prefLabel "Albicio"@it ;
+    lexinfo:pronunciation "/al • bì • cio/"@it ;
+    skos:definition "Gatto albino."@it ;
+    skos:example "Ieri ho visto un albicio. Era molto bello e dolce, completamente bianco con gli occhi rossi!"@it ;
+    schema:keywords "gatto, albino, bianco";
+    dct:created "2024-02-29" ;
+    skos:related vocang:albiccione ;
+    dct:creator vocang:ribaudoSofia .
