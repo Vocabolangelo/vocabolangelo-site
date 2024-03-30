@@ -11043,3 +11043,14 @@ vocang:furtoConScazzo
     schema:keywords "furto, appartamento, poco, professionale, storto, rapinatori";
     dct:created "2024-03-14" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:attendatore
+    a vocang:Parolangelo ;
+    skos:prefLabel "Attendatore"@it ;
+    lexinfo:pronunciation "/at • ten • da • tò • re/"@it ;
+    skos:definition "Attentatore che si accampa in tenda."@it ;
+    skos:example "Ieri sera ho visto un attendatore. Mi sono sentito in pericolo e mi sono allontanato!"@it ;
+    schema:keywords "attentatore, accampare, tenda, strano, pericoloso";
+    dct:created "2024-03-16" ;
+    skos:related vocang:ombrellopoli ;
+    dct:creator vocang:omiccioliRiccardo .
