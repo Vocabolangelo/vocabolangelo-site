@@ -10804,3 +10804,13 @@ vocang:importatile
     skos:example "Ho comprato un importatile. È molto veloce e leggero, ma non riesco a capire una parola di quello che c'è scritto!"@it ;
     schema:keywords "computer, portatile, estero, veloce, leggero, capire, scritto";
     dct:creator vocang:orlandoNicola .
+
+vocang:inquitante
+    a vocang:Parolangelo ;
+    skos:prefLabel "Inquitante"@it ;
+    lexinfo:pronunciation "/in • qui • tàn • te/"@it ;
+    skos:definition "Materia inquinante o rifiuti che, sotto determinate prospettive o condizioni di luce, possono assumere forme inquietanti, suscitando timore o paura."@it ;
+    skos:example "Stavamo passando affianco al cancello di una discarica, e quel vecchio orologio a pendolo sfasciato sembrava proprio qualcuno col cappuccio... Era davvero inquitante!"@it ;
+    schema:keywords "materiale, inquinante, spazzatura, prospettive, luci, inquietante, forme, timore, paura";
+    dct:created "2024-02-07" ;
+    dct:creator vocang:ribaudoSofia, vocang:filasetaAngelo .
