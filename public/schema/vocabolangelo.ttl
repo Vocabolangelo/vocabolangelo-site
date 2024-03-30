@@ -11012,3 +11012,14 @@ vocang:albicio
     dct:created "2024-02-29" ;
     skos:related vocang:albiccione ;
     dct:creator vocang:ribaudoSofia .
+
+vocang:karmarella
+    a vocang:Parolangelo ;
+    skos:prefLabel "Karmarella"@it ;
+    lexinfo:pronunciation "/kar • ma • rèl • la/"@it ;
+    skos:definition "Diarrea che insorge come conseguenza di cattive azioni compiute e maledizioni ricevute."@it ;
+    skos:example "Ieri ho tagliato la strada a un motorino in rotatoria. Poco dopo ho avuto una karmarella. Spero che passi presto!"@it ;
+    schema:keywords "diarrea, cattive, azioni, maledizioni, passare, presto";
+    dct:created "2024-02-029" ;
+    skos:related vocang:squacquarona ; 
+    dct:creator vocang:pertosaLorenzo .
