@@ -10822,3 +10822,13 @@ vocang:panettoneAstronomico
     schema:keywords "panettone, gastronomico, buono, paradiso, dolce, natale, festa";
     dct:created "2024-02-07" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:trombola
+    a vocang:Parolangelo ;
+    skos:prefLabel "Trombola"@it ;
+    lexinfo:pronunciation "/trom • bò • la/"@it ;
+    skos:definition "Variante erotica della tombola, in cui si vincono premi in natura o a tema sessuale."@it ;
+    skos:example "Ieri sera ho partecipato alla trombola. Ho vinto un vibratore e un lubrificante!"@it ;
+    schema:keywords "variante, erotica, tombola, premi, natura, sessuale, vibratore, lubrificante";
+    dct:created "2024-02-07" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:pupitaAlberto, vocang:bianchiniGiovanni .
