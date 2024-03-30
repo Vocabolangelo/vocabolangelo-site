@@ -9905,6 +9905,7 @@ vocang:ratatatoria
     skos:example "Ieri ho attraversato una ratatatoria. Ho rischiato più volte di morire per colpa di una pallottola!"@it ;
     schema:keywords "rotatoria, confusionaria, quartiere, malfamato, scontri, fuoco, guidatori, pericolo, rischio, investire, investito, fuga, auto";
     dct:created "2023-12-28" ;
+    skos:related vocang:rotatroietta, vocang:rotatroia, vocang:incrociatoria, vocang:cortatoria, vocang:rotatatoria;
     dct:creator vocang:pertosaLorenzo .
 
 vocang:ruttinghiozzo
@@ -10852,3 +10853,15 @@ vocang:accirare
     skos:note "La parolangelo è nata dal modo di dire napoletano \"t'accir\" che significa \"t'ammazzo\".";
     dct:created "2024-02-10" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:stortatoria
+    a vocang:Parolangelo ;
+    skos:prefLabel "Stortatoria"@it ;
+    lexinfo:pronunciation "/stor • ta • tò • ria/"@it ;
+    skos:definition "Rotatoria non rotonda."@it ;
+    skos:example "Giotto odierebbe le stortatorie..."@it ;
+    schema:keywords "rotatoria, non, rotonda, sbagliare, vicolo, cieco";
+    skos:related vocang:rotatroietta, vocang:rotatroia, vocang:incrociatoria, vocang:cortatoria, vocang:rotatatoria, vocang:ratatatoria ;
+    dct:created "2024-02-10" ;
+    dct:creator vocang:pertosaLorenzo .
+
