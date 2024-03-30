@@ -10865,3 +10865,12 @@ vocang:stortatoria
     dct:created "2024-02-10" ;
     dct:creator vocang:pertosaLorenzo .
 
+vocang:cuscioppia
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cuscioppia"@it ;
+    lexinfo:pronunciation "/cu • sciòp • pia/"@it ;
+    skos:definition "Cuscino per coppie, particolarmente lungo."@it ;
+    skos:example "Ieri io e la mia ragazza abbiamo comprato un cuscioppia. È molto comodo e romantico!"@it ;
+    schema:keywords "cuscino, coppie, comodo, romantico, amore";
+    dct:created "2024-02-11" ;
+    dct:creator vocang:battaglinoNicole, vocang:savoGiorgia .
