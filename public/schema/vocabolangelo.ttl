@@ -10832,3 +10832,12 @@ vocang:trombola
     schema:keywords "variante, erotica, tombola, premi, natura, sessuale, vibratore, lubrificante";
     dct:created "2024-02-07" ;
     dct:creator vocang:omiccioliRiccardo, vocang:pupitaAlberto, vocang:bianchiniGiovanni .
+
+vocang:metagay
+    a vocang:Parolangelo ;
+    skos:prefLabel "Metagay"@it ;
+    skos:definition "Chi si atteggia come se fosse gay ma in realtà non lo é, simile ad \"effemminato\" ma valido anche per il sesso femminile e in senso meno dispregiativo."@it ;
+    skos:example "Luca è un metagay. Parla in maniera stranissima ma ama la figa più di chiunque altro io conosca, ed è quasi omofobo!"@it;
+    schema:keywords "gay, meta, no, etero";
+    dct:created "2024-02-09" ;
+    dct:creator vocang:aguzziGianluca .
