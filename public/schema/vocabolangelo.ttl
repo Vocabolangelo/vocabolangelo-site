@@ -11135,7 +11135,13 @@ vocang:sirenn
     skos:note "Il vocaboliere in questione inventa solo o parolangelo stupende e leggendarie o delle mostruosità imbarazzanti; questa fa parte della seconda categoria.";
     dct:creator vocang:pertosaLorenzo .
 
-
-
-
+vocang:petardetta
+    a vocang:Parolangelo ;
+    skos:prefLabel "Petardetta"@it ;
+    lexinfo:pronunciation "/pe • tar • dèt • ta/"@it ;
+    skos:definition "Sigaretta contenente un potente petardo, usata per compiere uno scherzo particolarmente esplosivo."@it ;
+    skos:example "Ieri ho fumato una petardetta. Era molto forte... Forse veramente troppo, mi ha fatto saltare in aria!"@it ;
+    schema:keywords "sigaretta, petardo, scherzo, esplosivo, forte";
+    dct:created "2024-03-28" ;
+    dct:creator vocang:pertosaLorenzo .
 
