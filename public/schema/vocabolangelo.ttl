@@ -11168,10 +11168,19 @@ vocang:sosionimo
 vocang:lovecation
     a vocang:Parolangelo ;
     skos:prefLabel "Lovecation"@it ;
-    lexinfo:pronunciation "/lo • ve • cà • tion/"@it ;
     skos:definition "Posizione geografica nella quale è stato fatto l'amore."@it ;
     skos:example "Ieri sera ho fatto vedere la mia lista delle lovecation ai miei amici e ne è uscita una conversazione davvero interessante!"@it ;
-    schema:keywords "posizione, gps, condivisa, tempo, reale, amore";
+    schema:keywords "posizione, gps, amore";
     dct:created "2024-03-29" ;
     skos:related vocang:livecation ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:sexcation
+    a vocang:Parolangelo ;
+    skos:prefLabel "Sexcation"@it ;
+    skos:definition "Posizione geografica nella quale è stato fatto sesso."@it ;
+    skos:example "Ieri sera ho fatto vedere la mia lista delle sexcation ai miei amici. Purtroppo non era una lista molto lunga!"@it ;
+    schema:keywords "posizione, gps, sesso";
+    dct:created "2024-03-29" ;
+    skos:related vocang:lovecation ;
+    dct:creator vocang:bdeouiEddy .
