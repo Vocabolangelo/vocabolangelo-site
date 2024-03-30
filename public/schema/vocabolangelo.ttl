@@ -11093,3 +11093,13 @@ vocang:posizioneInTempoIrreale
     schema:keywords "posizione, tempo, irreale, malfunzionante, scaduta, confusione, destinatario, mittente";
     dct:created "2024-03-21" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:radgionamento
+    a vocang:Parolangelo ;
+    skos:prefLabel "Radgionamento"@it ;
+    lexinfo:pronunciation "/rad • gio • na • mèn • to/"@it ;
+    skos:definition "Ragionamento che ha ottimi presupposti, ma pessime conclusioni."@it ;
+    skos:example "Ieri ho fatto un radgionamento. Ho pensato che se avessi mangiato un chilo di cioccolato sarei stato felice, ma poi mi sono reso conto che non ero pronto al mal di pancia!"@it;
+     schema:keywords "ragionamento, ottimi, presupposti, pessime, conclusioni";
+    dct:created "2024-03-21" ;
+    dct:creator vocang:serafiniAndrea .
