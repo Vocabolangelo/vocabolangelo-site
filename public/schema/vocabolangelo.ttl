@@ -10921,3 +10921,13 @@ vocang:cucinastro
     schema:keywords "disastro, cucina, pietanza, spaghetti, pasta, fuoco";
     dct:created "2024-02-18" ;
     dct:creator vocang:omiccioliRiccardo, vocang:orlandoNicola .
+
+vocang:berangiare
+    a vocang:Parolangelo ;
+    skos:prefLabel "Berangiare"@it ;
+    lexinfo:pronunciation "/be • ran • già • re/"@it ;
+    skos:definition "Verbo utilizzato per connubiare sia l'azione del mangiare sia quella del bere."@it ;
+    skos:example "Andiamo al mc a berangiare un cheeseburger e una coca."@it ;
+    schema:keywords "mangiare, bere, connubio";
+    dct:created "2024-02-20" ;
+    dct:creator vocang:ribaudoSofia, vocang:bdeouiEddy .
