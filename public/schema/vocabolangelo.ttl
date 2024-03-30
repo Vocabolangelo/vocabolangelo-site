@@ -265,8 +265,7 @@ vocang:rossiLuca
     foaf:lastName "Rossi" ;
     foaf:gender "male" ;
     org:memberOf vocang:vocabolieriOrg ;
-    rel:friendOf vocang:bailettiTommaso, vocang:sanchiPiero, vocang:tronettiElisa, vocang:orlandoNicola, vocang:talmiAlessandro, vocang:omiccioliRiccardo, vocang:bragariAlexandru, vocang:filasetaAngelo ;
-    rel:spouseOf vocang:cortecchiaAngela .
+    rel:friendOf vocang:bailettiTommaso, vocang:sanchiPiero, vocang:tronettiElisa, vocang:orlandoNicola, vocang:talmiAlessandro, vocang:omiccioliRiccardo, vocang:bragariAlexandru, vocang:filasetaAngelo .
 
 vocang:deRosaLeonardo
     a vocang:Vocaboliere ;
@@ -358,8 +357,7 @@ vocang:tronettiElisa
     foaf:gender "female" ;
     org:memberOf vocang:vocabolieriOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/tronettiElisa.jpg" ;
-    rel:friendOf vocang:sanchiPiero, vocang:bailettiTommaso, vocang:cortecchiaAngela ;
-    rel:spouseOf vocang:talmiAlessandro .
+    rel:friendOf vocang:sanchiPiero, vocang:bailettiTommaso, vocang:cortecchiaAngela .
 
 vocang:ingargiolaAndrea
     a vocang:Vocaboliere ;
@@ -565,7 +563,7 @@ vocang:cortecchiaAngela
     foaf:lastName "Cortecchia" ;
     foaf:gender "female" ;
     org:memberOf vocang:vocabolieriOrg ;
-    rel:siblingOf vocang:orlandoNicola .
+    rel:friendOf vocang:orlandoNicola .
 
 vocang:palestiniGianmarco
     a vocang:Vocaboliere ;
