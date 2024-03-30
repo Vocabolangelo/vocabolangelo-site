@@ -11145,3 +11145,12 @@ vocang:petardetta
     dct:created "2024-03-28" ;
     dct:creator vocang:pertosaLorenzo .
 
+vocang:livecation
+    a vocang:Parolangelo ;
+    skos:prefLabel "Livecation"@it ;
+    skos:definition "Posizione GPS condivisa in tempo reale."@it ;
+    skos:example "Ieri sera ho condiviso la mia livecation con i miei amici. Mi hanno trovato in un attimo!"@it ;
+    schema:keywords "posizione, gps, condivisa, tempo, reale";
+    dct:created "2024-03-29" ;
+    skos:related vocang:posizioneInTempoIrrale ;
+    dct:creator vocang:omiccioliRiccardo .
