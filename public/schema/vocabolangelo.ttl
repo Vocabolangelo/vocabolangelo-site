@@ -10951,3 +10951,13 @@ vocang:interal
     schema:keywords "farmaco, prescrizione, scelte, sbagliate, inting";
     dct:created "2024-02-23" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:colpevolevo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Colpevolevo"@it ;
+    lexinfo:pronunciation "/col • pe • vo • lè • vo/"@it ;
+    skos:definition "Colpevole che ha fatto qualcosa con intenzione, ma senza cercare di nascondere le sue tracce."@it ;
+    skos:example "Ieri ho fatto un incidente con la macchina. Sono stato io a causarlo, quindi sono colpevolevo."@it ;
+    schema:keywords "colpevole, fare, intenzione, incidente, macchina";
+    dct:created "2024-02-24" ;
+    dct:creator vocang:pertosaLorenzo .
