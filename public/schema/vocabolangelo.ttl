@@ -10992,3 +10992,12 @@ vocang:quorR
     schema:keywords "docice, link, internet, qr";
     dct:created "2024-02-25" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:doppelwaiters
+    a vocang:Parolangelo ;
+    skos:prefLabel "Doppelwaiters"@it ;
+    skos:definition "Insieme di camerieri che sono praticamente uguali in termini fisici e causano sorpresa e sbigottimento nella clientela."@it ;
+    skos:example "Ieri sera sono andato a cena in un ristorante e ho visto un Doppelwaiters. C'erano  due ragazze completamente uguali!"@it ;
+    schema:keywords "camerieri, uguali, fisico, sorpresa, sbigottimento, clientela";
+    dct:created "2024-02-25" ;
+    dct:creator vocang:pertosaLorenzo, vocang:savoGiorgia .
