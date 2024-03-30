@@ -10911,3 +10911,13 @@ vocang:impiedire
     schema:keywords "impedire, azione, piedi, divertente";
     dct:created "2024-02-18" ;
     dct:creator vocang:savoGiorgia, vocang:battaglinoNicole .
+    
+vocang:cucinastro
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cucinastro"@it ;
+    lexinfo:pronunciation "/cu • ci • nà • stro/"@it ;
+    skos:definition "Disastro causato in cucina che si verifica durante la preparazione di una pietanza."@it, "Persona che causa un disastro in cucina durante la preparazione di una pietanza."@it ;
+    skos:example "Franco e Marta volevano preparare degli spaghetti ma hanno dato fuoco all'appartamento. È stato un vero cucinastro."@it, "Se Andrea dovesse mai offrirsi di cucinarti qualcosa mi raccomando, rifiuta; è veramente un cucinastro"@it ;
+    schema:keywords "disastro, cucina, pietanza, spaghetti, pasta, fuoco";
+    dct:created "2024-02-18" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:orlandoNicola .
