@@ -10901,3 +10901,13 @@ vocang:calabrave
     schema:keywords "rave, ndujia, calabria, pieno, calabrese, musica, techno, meloni";
     dct:created "2024-02-17" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:impiedire
+    a vocang:Parolangelo ;
+    skos:prefLabel "Impiedire"@it ;
+    lexinfo:pronunciation "/im • pie • dì • re/"@it ;
+    skos:definition "Impedire un'azione utilizzando i piedi."@it ;
+    skos:example "Ieri ho impiedito a mio fratello di entrare in camera mia. È stato molto divertente, ma credo di averlo fatto eccitare!"@it ;
+    schema:keywords "impedire, azione, piedi, divertente";
+    dct:created "2024-02-18" ;
+    dct:creator vocang:savoGiorgia, vocang:battaglinoNicole .
