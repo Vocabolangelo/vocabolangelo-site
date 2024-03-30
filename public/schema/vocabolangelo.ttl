@@ -11164,3 +11164,14 @@ vocang:sosionimo
     schema:keywords "sosia, omonimo, identico, nome";
     dct:created "2024-03-29" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:lovecation
+    a vocang:Parolangelo ;
+    skos:prefLabel "Lovecation"@it ;
+    lexinfo:pronunciation "/lo • ve • cà • tion/"@it ;
+    skos:definition "Posizione geografica nella quale è stato fatto l'amore."@it ;
+    skos:example "Ieri sera ho fatto vedere la mia lista delle lovecation ai miei amici e ne è uscita una conversazione davvero interessante!"@it ;
+    schema:keywords "posizione, gps, condivisa, tempo, reale, amore";
+    dct:created "2024-03-29" ;
+    skos:related vocang:livecation ;
+    dct:creator vocang:pertosaLorenzo .
