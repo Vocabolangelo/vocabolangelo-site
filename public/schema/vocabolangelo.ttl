@@ -11063,3 +11063,13 @@ vocang:rainbowBall
     schema:keywords "pokeball, possibilità, successo, pokèmon, omosessuale, arcobaleno, colorato";
     dct:created "2024-03-10" ;
     dct:creator vocang:savoGiorgia .
+
+vocang:momentoBreadboard
+    a vocang:Parolangelo ;
+    skos:prefLabel "Momento breadboard"@it ;
+    lexinfo:pronunciation "/mo • mèn • to/ /bread • board/"@it ;
+    skos:definition "Momento autistico in cui qualcuno distrugge qualcosa in maniera insensata."@it ;
+    skos:example "Angelo ha avuto un momento breadboard alla laurea di Piero, ha distrutto la bomboniera per cercare di leggere cosa c'era scritto nel foglietto, ma era finto!"@it ;
+    schema:keywords "momento, autistico, distruggere, caos";
+    dct:created "2024-03-16" ;
+    dct:creator vocang:talmiAlessandro .
