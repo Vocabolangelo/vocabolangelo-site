@@ -10970,4 +10970,16 @@ vocang:complevolevo
     skos:example "Avevamo organizzato tutto perfettamente per il complevolevo di Nicola, ma poi ha preso il covid..."@it ;
     schema:keywords "compleanno, progettare, perfetto, imprevisti, sbagliate";
     dct:created "2024-02-24" ;
+    skos:related vocang:colpevolevo ;
     dct:creator vocang:filasetaAngelo, vocang:nardiniArianna .
+
+vocang:alquolina
+    a vocang:Parolangelo ;
+    skos:prefLabel "Alquolina"@it ;
+    lexinfo:pronunciation "/al • quo • lì • na/"@it ;
+    skos:definition "Grande voglia di una bevanda alquolica."@it ;
+    skos:example "Con questo caldo afoso ho proprio l'alquolina."@it ;
+    schema:keywords "voglia, bevanda, alcolica, caldo, afoso, birra, fresca";
+    dct:created "2024-02-24" ;
+    skos:related vocang:alquol ;
+    dct:creator vocang:omiccioliRiccardo .
