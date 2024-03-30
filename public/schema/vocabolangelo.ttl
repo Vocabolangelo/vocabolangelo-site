@@ -11089,7 +11089,7 @@ vocang:posizioneInTempoIrreale
     skos:prefLabel "Posizione in tempo irreale"@it ;
     lexinfo:pronunciation "/po • si • ziò • ne/ /in/ /tèm • po/ /ir • re • à • le/"@it ;
     skos:definition "Posizione in tempo reale malfunzionante oppure scaduta, in grado quindi di generare confusione nel destinatario in quanto diversa rispetto a quella reale del mittente."@it ;
-    skos:example "Ieri mia madre ha seguito la mia posizione in tempo irreale. È andata a cercarmi a dieci chilometri rispetto a dove ero realmente!"@it ;
+    skos:example "A Dublino io, uno spagnolo, uno statunitense e un indiano ci stavamo girando attorno al Trinity College a cercarci con la posizione in tempo irreale di WhatsApp attiva."@it, "Ieri mia madre ha seguito la mia posizione in tempo irreale. È andata a cercarmi a dieci chilometri rispetto a dove ero realmente!"@it ;
     schema:keywords "posizione, tempo, irreale, malfunzionante, scaduta, confusione, destinatario, mittente";
     dct:created "2024-03-21" ;
     dct:creator vocang:pertosaLorenzo .
@@ -11103,3 +11103,13 @@ vocang:radgionamento
      schema:keywords "ragionamento, ottimi, presupposti, pessime, conclusioni";
     dct:created "2024-03-21" ;
     dct:creator vocang:serafiniAndrea .
+
+vocang:culetto
+    a vocang:Parolangelo ;
+    skos:prefLabel "Culetto"@it ;
+    lexinfo:pronunciation "/cu • lèt • to/"@it ;
+    skos:definition "Persona che fa richieste particolarmente pretenziose."@it ;
+    skos:example "Ieri quel culetto di Andrea mi ha chiesto se potessi fargli un massaggio ai piedi!"@it ;
+    schema:keywords "persona, richieste, pretenziose, pretenzioso";
+    dct:created "2024-03-23" ;
+    dct:creator vocang:omiccioliRiccardo .
