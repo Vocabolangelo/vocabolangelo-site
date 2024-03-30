@@ -1,5 +1,45 @@
 # Changelog
 
+## [6.23.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v6.22.0...v6.23.0) (2024-03-30)
+
+
+### Features
+
+* **parolangelo:** alferare ([ff9ba85](https://github.com/Vocabolangelo/vocabolangelo-site/commit/ff9ba852c983db119367b3ff5432b5d179519a30))
+* **parolangelo:** arcobaluccino ([d174d17](https://github.com/Vocabolangelo/vocabolangelo-site/commit/d174d173ec5582da82f82dbaec091edfdb3645fb))
+* **parolangelo:** autoparlante ([9f4f7f1](https://github.com/Vocabolangelo/vocabolangelo-site/commit/9f4f7f1d5581354bf0cc2d71e23f837a9ca290f0))
+* **parolangelo:** benziodiazepina ([1924acb](https://github.com/Vocabolangelo/vocabolangelo-site/commit/1924acb5f7e06f4e788e1e90cfd5192798d4a980))
+* **parolangelo:** cincioski ([860c143](https://github.com/Vocabolangelo/vocabolangelo-site/commit/860c1438d7d2aa36ce7dd3742c37d8184588579f))
+* **parolangelo:** coccomero ([37650dd](https://github.com/Vocabolangelo/vocabolangelo-site/commit/37650dd1bc4913f1f2fac4dcc848808599918c37))
+* **parolangelo:** coleratore ([8af6974](https://github.com/Vocabolangelo/vocabolangelo-site/commit/8af6974177ececad79bc16f6387d1b9e6a5ca306))
+* **parolangelo:** colleratore ([7369a51](https://github.com/Vocabolangelo/vocabolangelo-site/commit/7369a519ae57f2d0ebf26e50a37b0311e45c8ec8))
+* **parolangelo:** complenano ([e828d34](https://github.com/Vocabolangelo/vocabolangelo-site/commit/e828d34f306cf19001c50fb87e050c112b17c9e4))
+* **parolangelo:** dentifrocio ([136acfe](https://github.com/Vocabolangelo/vocabolangelo-site/commit/136acfe196692e43d58fda9fa157c55d4e5908a0))
+* **parolangelo:** entrare per spallio ([6e89117](https://github.com/Vocabolangelo/vocabolangelo-site/commit/6e89117544fbb47dd4e98c2d74b437a492335c4d))
+* **parolangelo:** ghiacciolina ([a284e5f](https://github.com/Vocabolangelo/vocabolangelo-site/commit/a284e5f1c75cecf6178e627d410bbbf2245d69fd))
+* **parolangelo:** k-temmuort ([d14bd17](https://github.com/Vocabolangelo/vocabolangelo-site/commit/d14bd178ef25cd33e47224e997de8bc04d01f5b2))
+* **parolangelo:** karotana ([9e0a10b](https://github.com/Vocabolangelo/vocabolangelo-site/commit/9e0a10be8c95e13f5f01e6142f484d3c358d4a5f))
+* **parolangelo:** macisti ([a09affe](https://github.com/Vocabolangelo/vocabolangelo-site/commit/a09affe4d1fe95ac304378a5184a4dd44ab48dc3))
+* **parolangelo:** modestatore ([412d4d7](https://github.com/Vocabolangelo/vocabolangelo-site/commit/412d4d71e724cfb579935d8fdf70228ec27a9a19))
+* **parolangelo:** mokassassino ([2ebcb5d](https://github.com/Vocabolangelo/vocabolangelo-site/commit/2ebcb5dd2b5f5c66ec895975ddb9b96e37f30354))
+* **parolangelo:** mokassimo ([189128f](https://github.com/Vocabolangelo/vocabolangelo-site/commit/189128f5ba1e297afbbcb13046791fdf0c218ebc))
+* **parolangelo:** peperoncipo ([2d27479](https://github.com/Vocabolangelo/vocabolangelo-site/commit/2d2747937066ee6e9f1dbf68ee9909b85009161d))
+* **parolangelo:** piporoncino ([52a0876](https://github.com/Vocabolangelo/vocabolangelo-site/commit/52a08769c662f40f3cad28a31cdab07b945726fd))
+* **parolangelo:** randomante ([d44efec](https://github.com/Vocabolangelo/vocabolangelo-site/commit/d44efec00460b0460c6b706627c11099e763a258))
+* **parolangelo:** rasencum ([d7e9376](https://github.com/Vocabolangelo/vocabolangelo-site/commit/d7e93760515b33d8f64d821b4fb9a48c033de0a4))
+* **parolangelo:** sfigupla ([fdae811](https://github.com/Vocabolangelo/vocabolangelo-site/commit/fdae811182ecf5c8f51098afd3129f10e5608396))
+* **parolangelo:** stereopata ([5c706e0](https://github.com/Vocabolangelo/vocabolangelo-site/commit/5c706e045fdf6af7fe7896a1a3880c52d705b133))
+* **parolangelo:** turbocoglione ([1bb62d6](https://github.com/Vocabolangelo/vocabolangelo-site/commit/1bb62d6c84dc6a6dd3977487b3e2fda1d1d645df))
+* **slangelo:** meccanismo a m'incazzo ([e00aa58](https://github.com/Vocabolangelo/vocabolangelo-site/commit/e00aa5867728c3f7d9e9d8621374d97961e53cd1))
+* **vocaboliere:** Gianluca Aguzzi ([21ceeb7](https://github.com/Vocabolangelo/vocabolangelo-site/commit/21ceeb7fe872c01c6917c747b49d7f902c0f5eb1))
+* **vocaboliere:** Matteo Magnini ([c889136](https://github.com/Vocabolangelo/vocabolangelo-site/commit/c889136a30ef9c5fdd214c71ccd4f8832e6d7729))
+
+
+### Bug Fixes
+
+* **parolangelo:** definition of karotana ([a4cc53e](https://github.com/Vocabolangelo/vocabolangelo-site/commit/a4cc53e3731f79536464738d1e9bb03762d2dde3))
+* **parolangelo:** piccolo -&gt; basso ([89fb3d4](https://github.com/Vocabolangelo/vocabolangelo-site/commit/89fb3d469b44e7706de01d57eca5fcfc10478442))
+
 ## [6.22.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v6.21.0...v6.22.0) (2024-02-11)
 
 
