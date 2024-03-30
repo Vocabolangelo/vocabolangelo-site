@@ -10961,3 +10961,13 @@ vocang:colpevolevo
     schema:keywords "colpevole, fare, intenzione, incidente, macchina";
     dct:created "2024-02-24" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:complevolevo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Complevolevo"@it ;
+    lexinfo:pronunciation "/com • ple • vo • lè • vo/"@it ;
+    skos:definition "Compleanno che progettato perfettamente, ma che a causa di spiacevoli imprevisti non va affatto come previsto."@it ;
+    skos:example "Avevamo organizzato tutto perfettamente per il complevolevo di Nicola, ma poi ha preso il covid..."@it ;
+    schema:keywords "compleanno, progettare, perfetto, imprevisti, sbagliate";
+    dct:created "2024-02-24" ;
+    dct:creator vocang:filasetaAngelo, vocang:nardiniArianna .
