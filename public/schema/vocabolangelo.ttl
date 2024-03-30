@@ -11122,5 +11122,20 @@ vocang:coreanchio
     skos:example "Ieri ho mangiato un coreanchio. Era molto buono e piccante!"@it ;
     schema:keywords "granchio, coreano, corea, crostaceo";
     dct:created "2024-03-23" ;
-    skos:note "Il vocaboliere che inventa queste parole inventa solo o parolangelo stupende e leggendarie o delle mostruosità imbarazzanti; questa fa parte della seconda categoria.";
+    skos:note "Il vocaboliere in questione inventa solo o parolangelo stupende e leggendarie o delle mostruosità imbarazzanti; questa fa parte della seconda categoria.";
     dct:creator vocang:pertosaLorenzo .
+
+vocang:sirenn
+    a vocang:Parolangelo ;
+    skos:prefLabel "Sirenn"@it ;
+    skos:definition "Sirena che canta solo in napoletano."@it ;
+    skos:example "Jeff il pirata è stato ammaliato da una sirenn particolarmente terrona ed è morto come un coglione."@it ;
+    schema:keywords "sirena, napoli, napoletano, canto, via brombeis";
+    dct:created "2024-03-23" ;
+    skos:note "Il vocaboliere in questione inventa solo o parolangelo stupende e leggendarie o delle mostruosità imbarazzanti; questa fa parte della seconda categoria.";
+    dct:creator vocang:pertosaLorenzo .
+
+
+
+
+
