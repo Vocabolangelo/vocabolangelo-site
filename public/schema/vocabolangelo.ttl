@@ -10892,3 +10892,12 @@ vocang:kebabbug
     schema:keywords "confusione, kebab, kebabbaro, bollini, omaggio, fretta, incomprensioni, ottenere, più";
     dct:created "2024-02-11" ;
     dct:creator vocang:pertosaLorenzo, vocang:omiccioliRiccardo .
+
+vocang:calabrave
+    a vocang:Parolangelo ;
+    skos:prefLabel "Calabrave"@it ;
+    skos:definition "Rave che avviene in Calabria."@it, "Rave pieno di calabresi."@it ;
+    skos:example "Ieri sera ho partecipato a un calabrave. Era pieno di calabresi e di musica techno! Meno male che nessuno ha spruzzato dello spray all'ndujia..."@it ;
+    schema:keywords "rave, ndujia, calabria, pieno, calabrese, musica, techno, meloni";
+    dct:created "2024-02-17" ;
+    dct:creator vocang:pertosaLorenzo .
