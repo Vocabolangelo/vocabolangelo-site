@@ -10841,3 +10841,14 @@ vocang:metagay
     schema:keywords "gay, meta, no, etero";
     dct:created "2024-02-09" ;
     dct:creator vocang:aguzziGianluca .
+
+vocang:accirare
+    a vocang:Parolangelo ;
+    skos:prefLabel "Accirare"@it ;
+    lexinfo:pronunciation "/ac • ci • rà • re/"@it ;
+    skos:definition "Andare all'anagrafe e cambiare forzatamente il nome di qualcuno in 'Ciro', il tutto inteso come intimidazione."@it ;
+    skos:example "Ieri ho accirato un mio amico. È stato molto divertente e strano! Mi chiedo quando lo scoprirà..."@it ;
+    schema:keywords "anagrafe, cambiare, forzatamente, nome, intimidazione, divertente, strano";
+    skos:note "La parolangelo è nata dal modo di dire napoletano \"t'accir\" che significa \"t'ammazzo\".";
+    dct:created "2024-02-10" ;
+    dct:creator vocang:pertosaLorenzo .
