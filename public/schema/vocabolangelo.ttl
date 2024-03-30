@@ -10983,3 +10983,12 @@ vocang:alquolina
     dct:created "2024-02-24" ;
     skos:related vocang:alquol ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:quorR
+    a vocang:Parolangelo ;
+    skos:prefLabel "Quor-R"@it ;
+    skos:definition "Codice QR a forma di cuore."@it ;
+    skos:example "Quel bar dietro casa mia ti presenta il menù attraverso un Quor-R."@it ;
+    schema:keywords "docice, link, internet, qr";
+    dct:created "2024-02-25" ;
+    dct:creator vocang:pertosaLorenzo .
