@@ -11033,3 +11033,13 @@ vocang:aperitiro
     schema:keywords "tiro, sigaretta, compiere, aperitivo, fumare, amici";
     dct:created "2024-02-29" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:furtoConScazzo
+    a vocang:Slangelo ;
+    skos:prefLabel "Furto con scazzo"@it ;
+    lexinfo:pronunciation "/fur • to/ /con/ /scàz • zo/"@it ;
+    skos:definition "Furto in appartamento eseguito in modo molto poco professionale, in cui qualcosa va storto per i rapinatori."@it ;
+    skos:example "Ieri sera ho subito un furto con scazzo. I ladri hanno rotto la finestra e sono entrati in casa, ma non hanno trovato nulla di valore. Quello che hanno trovato è stato King, il mio Pitbull di 30kg ad attenderli!"@it ;
+    schema:keywords "furto, appartamento, poco, professionale, storto, rapinatori";
+    dct:created "2024-03-14" ;
+    dct:creator vocang:pertosaLorenzo .
