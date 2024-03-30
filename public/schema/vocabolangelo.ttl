@@ -10812,3 +10812,13 @@ vocang:inquitante
     schema:keywords "materiale, inquinante, spazzatura, prospettive, luci, inquietante, forme, timore, paura";
     dct:created "2024-02-07" ;
     dct:creator vocang:ribaudoSofia, vocang:filasetaAngelo .
+
+vocang:panettoneAstronomico
+    a vocang:Slangelo ;
+    skos:prefLabel "Panettone astronomico"@it ;
+    lexinfo:pronunciation "/pa • net • tò • ne/ /a • stro • no • mì • co/"@it ;
+    skos:definition "Panettone gastronomico particolarmente buono."@it ;
+    skos:example "Ho mangiato un panettone astronomico. Era così buono che mi sembrava di essere in paradiso!"@it ;
+    schema:keywords "panettone, gastronomico, buono, paradiso, dolce, natale, festa";
+    dct:created "2024-02-07" ;
+    dct:creator vocang:omiccioliRiccardo .
