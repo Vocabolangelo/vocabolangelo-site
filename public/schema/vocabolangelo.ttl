@@ -10941,3 +10941,13 @@ vocang:falsogno
     schema:keywords "sogno, realistico, fatti, accaduti, svegli, confusione";
     dct:created "2024-02-22" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:interal
+    a vocang:Parolangelo ;
+    skos:prefLabel "Interal"@it ;
+    lexinfo:pronunciation "/in • te • ràl/"@it ;
+    skos:definition "Farmaco che viene prescritto alle persone che troppo frequentemente non riescono a prendere buone decisioni."@it ;
+    skos:example "Ultimamente sto facendo veramente troppe scelte sbagliate. Ho rischiato la vita più volte, mia moglie vuole lasciarmi e ho fatto arrabbiare tutti i miei amici. Il medico mi ha prescritto 50mg di interal al giorno per cercare di migliorare la mia condizione."@it ;
+    schema:keywords "farmaco, prescrizione, scelte, sbagliate, inting";
+    dct:created "2024-02-23" ;
+    dct:creator vocang:omiccioliRiccardo .
