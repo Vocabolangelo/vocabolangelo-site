@@ -11113,3 +11113,14 @@ vocang:culetto
     schema:keywords "persona, richieste, pretenziose, pretenzioso";
     dct:created "2024-03-23" ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:coreanchio
+    a vocang:Parolangelo ;
+    skos:prefLabel "Coreanchio"@it ;
+    lexinfo:pronunciation "/co • re • àn • chio/"@it ;
+    skos:definition "Granchio coreano."@it ;
+    skos:example "Ieri ho mangiato un coreanchio. Era molto buono e piccante!"@it ;
+    schema:keywords "granchio, coreano, corea, crostaceo";
+    dct:created "2024-03-23" ;
+    skos:note "Il vocaboliere che inventa queste parole inventa solo o parolangelo stupende e leggendarie o delle mostruosità imbarazzanti; questa fa parte della seconda categoria.";
+    dct:creator vocang:pertosaLorenzo .
