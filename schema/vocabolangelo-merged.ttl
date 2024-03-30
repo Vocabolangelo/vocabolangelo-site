@@ -641,7 +641,6 @@
 <http://www.vocabolangelo.org/aciobaniteiAiden> <http://www.w3.org/ns/org#memberOf> <http://www.vocabolangelo.org/vocabolieriOrg> .
 <http://www.vocabolangelo.org/aciobaniteiAiden> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/rosatelliAnna> .
 <http://www.vocabolangelo.org/aciobaniteiAiden> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/suscaMatteo> .
-<http://www.vocabolangelo.org/aciobaniteiAiden> <http://www.perceive.net/schemas/20021119/relationship/#spouseOf> <http://www.vocabolangelo.org/timpanoSam> .
 <http://www.vocabolangelo.org/battaglinoMarco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Vocaboliere> .
 <http://www.vocabolangelo.org/battaglinoMarco> <http://xmlns.com/foaf/0.1/firstName> "Marco" .
 <http://www.vocabolangelo.org/battaglinoMarco> <http://xmlns.com/foaf/0.1/lastName> "Battaglino" .
