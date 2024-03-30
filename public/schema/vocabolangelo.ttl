@@ -11073,3 +11073,14 @@ vocang:momentoBreadboard
     schema:keywords "momento, autistico, distruggere, caos";
     dct:created "2024-03-16" ;
     dct:creator vocang:talmiAlessandro .
+
+vocang:cormoragno
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cormoragno"@it ;
+    lexinfo:pronunciation "/cor • mo • rà • gno/"@it ;
+    skos:definition "Animale creatosi a causa delle storie tossiche riversate nei fiumi, in particolare nel fiume Foglia situato a Pesaro. Tale animale assomiglia nella metà superiore a un cormorano e nell'inferiore possiede le zampe di un ragno. È in grado sia di volare che di nuotare, ma anche di muoversi sulla terra ferma.";
+    skos:example "Ieri mi è parto di aver visto un cormoragno. Per fortuna una creatura così mostruosa non può esistere! Vero...?"@it ;
+    schema:keywords "animale, tossico, fiume, pesaro, cormorano, ragno, volare, nuotare, terra";
+    dct:created "2024-03-17" ;
+    dct:creator vocang:pertosaLorenzo .
+    
