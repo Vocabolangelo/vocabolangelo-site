@@ -11083,4 +11083,13 @@ vocang:cormoragno
     schema:keywords "animale, tossico, fiume, pesaro, cormorano, ragno, volare, nuotare, terra";
     dct:created "2024-03-17" ;
     dct:creator vocang:pertosaLorenzo .
-    
+
+vocang:posizioneInTempoIrreale
+    a vocang:Slangelo ;
+    skos:prefLabel "Posizione in tempo irreale"@it ;
+    lexinfo:pronunciation "/po • si • ziò • ne/ /in/ /tèm • po/ /ir • re • à • le/"@it ;
+    skos:definition "Posizione in tempo reale malfunzionante oppure scaduta, in grado quindi di generare confusione nel destinatario in quanto diversa rispetto a quella reale del mittente."@it ;
+    skos:example "Ieri mia madre ha seguito la mia posizione in tempo irreale. È andata a cercarmi a dieci chilometri rispetto a dove ero realmente!"@it ;
+    schema:keywords "posizione, tempo, irreale, malfunzionante, scaduta, confusione, destinatario, mittente";
+    dct:created "2024-03-21" ;
+    dct:creator vocang:pertosaLorenzo .
