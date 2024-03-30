@@ -11023,3 +11023,13 @@ vocang:karmarella
     dct:created "2024-02-029" ;
     skos:related vocang:squacquarona ; 
     dct:creator vocang:pertosaLorenzo .
+
+vocang:aperitiro
+    a vocang:Parolangelo ;
+    skos:prefLabel "Aperitiro"@it ;
+    lexinfo:pronunciation "/a • pe • ri • tì • ro/"@it ;
+    skos:definition "Tiro di sigaretta che si compie durante l'aperitivo."@it, "Fumare durante un aperitivo."@it ;
+    skos:example "Ieri sera ho fatto un aperitiro. Mi sono goduto un bell'aperitivo con gli amici e ho fumato una sigaretta."@it ;
+    schema:keywords "tiro, sigaretta, compiere, aperitivo, fumare, amici";
+    dct:created "2024-02-29" ;
+    dct:creator vocang:pertosaLorenzo .
