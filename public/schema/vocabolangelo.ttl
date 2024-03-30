@@ -11054,3 +11054,12 @@ vocang:attendatore
     dct:created "2024-03-16" ;
     skos:related vocang:ombrellopoli ;
     dct:creator vocang:omiccioliRiccardo .
+
+vocang:rainbowBall
+    a vocang:Slangelo ;
+    skos:prefLabel "Rainbow ball"@it ;
+    skos:definition "Pokeball che ha più possibilità di successo se utilizzata su pokèmon con tendenze omosessuali."@it ;
+    skos:example "Ieri ho catturato un pokèmon con una rainbow ball. Era molto carino e colorato!"@it ;
+    schema:keywords "pokeball, possibilità, successo, pokèmon, omosessuale, arcobaleno, colorato";
+    dct:created "2024-03-10" ;
+    dct:creator vocang:savoGiorgia .
