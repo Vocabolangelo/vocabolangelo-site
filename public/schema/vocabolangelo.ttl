@@ -10874,3 +10874,21 @@ vocang:cuscioppia
     schema:keywords "cuscino, coppie, comodo, romantico, amore";
     dct:created "2024-02-11" ;
     dct:creator vocang:battaglinoNicole, vocang:savoGiorgia .
+
+vocang:didgerivano
+    a vocang:Parolangelo ;
+    skos:prefLabel "Didgerivano"@it ;
+    skos:definition "Divano utilizzato solo ed esclusivamente per appoggiarci sopra dei didgeridoo."@it ;
+    skos:example "Ieri ho visto un didgerivano. Era pieno di strumenti musicali sconosciuti!"@it ;
+    schema:keywords "divano, didgeridoo, strano, particolare";
+    dct:created "2024-01-07" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:kebabbug
+    a vocang:Parolangelo ;
+    skos:prefLabel "Kebabbug"@it ;
+    skos:definition "Situazione di confusione che avviene da un kebabbaro, quando ad esempio è necessario riscuotere i bollini al fine di ottenere i kebab omaggio. A causa di fretta, incomprensioni e altri fattori si ottengono dei bollini in più."@it ;
+    skos:example "Ieri ho acidentalmente causato un kebabbug. Ho ottenuto 2 kebab omaggio invece di 1!"@it ;
+    schema:keywords "confusione, kebab, kebabbaro, bollini, omaggio, fretta, incomprensioni, ottenere, più";
+    dct:created "2024-02-11" ;
+    dct:creator vocang:pertosaLorenzo, vocang:omiccioliRiccardo .
