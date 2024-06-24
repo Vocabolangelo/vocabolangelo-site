@@ -16,6 +16,7 @@ import VocaboregolangeloIndex, {
 import {SlangeloList, SLANGELO_ROUTE} from '../components/routes/slangelo/SlangeloList'
 import {ParolangeloList} from '../components/routes/parolangelo/ParolangeloList'
 import {PAROLANGELO_ROUTE} from '../components/routes/concept/ConceptList'
+import { AddConcept, ADD_ROUTE } from '../components/routes/addConcept/AddConcept'
 
 export const defaultRouter = createBrowserRouter([
     {
@@ -66,6 +67,10 @@ export const defaultRouter = createBrowserRouter([
         path: `${CONTENUTI_ROUTE}${VOCABOREGOLANGELO_ROUTE}`,
         element: <VocaboregolangeloIndex/>
     },
+    {
+        path: `${ADD_ROUTE}`,
+        element: <AddConcept/>
+    },  
     {
         path: '*',
         element: <Page404/>
