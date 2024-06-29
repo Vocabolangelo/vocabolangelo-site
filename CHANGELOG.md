@@ -1,5 +1,12 @@
 # Changelog
 
+## [6.25.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v6.24.0...v6.25.0) (2024-06-29)
+
+
+### Features
+
+* **site:** introducing a form to add Parolangelo and Slangelo ([58e58f9](https://github.com/Vocabolangelo/vocabolangelo-site/commit/58e58f96d0c535d4d12337f634c0b48ff166ba90))
+
 ## [6.24.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v6.22.0...v6.24.0) (2024-03-30)
 
 
