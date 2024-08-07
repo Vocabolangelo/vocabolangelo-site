@@ -39,6 +39,7 @@ export function VocaboliereLayout() {
                 <div className="index align-left">
                     <Images vocaboliere={vocaboliere}/>
                     <Gender vocaboliere={vocaboliere}/>
+                    <Description vocaboliere={vocaboliere}/>
                     <Organizations vocaboliere={vocaboliere}/>
                     <Contribution vocaboliere={vocaboliere}/>
                     <Friends vocaboliere={vocaboliere}/>
@@ -51,6 +52,15 @@ export function VocaboliereLayout() {
     } else {
         return <> </>
     }
+}
+
+function Description(props: VocaboliereProps){
+    const description = props.vocaboliere.description
+    return <ConditionalComponent condition={() => description !== null}>
+        <NamedSection title={'Commento di Angelo'}>
+            <p>{description}</p>
+        </NamedSection>
+    </ConditionalComponent>
 }
 
 function Gender(props: VocaboliereProps){

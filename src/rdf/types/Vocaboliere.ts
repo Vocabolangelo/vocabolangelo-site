@@ -18,6 +18,10 @@ export class Vocaboliere extends RDFNamedNode {
      */
     private readonly _lastName: string
     /**
+     * Mapping of dct:description.
+     */
+    private readonly _description: string | null
+    /**
      * Mapping of http://xmlns.com/foaf/0.1/nickname.
      */
     private readonly _nick: string | null
@@ -40,6 +44,7 @@ export class Vocaboliere extends RDFNamedNode {
             RDFStore.store.MapAnyToValue(new RDFTriple(node, foaf.namespace('lastName'), undefined)),
             `foaf:lastName can not be null for node ${node.uri}`
         )
+        this._description = RDFStore.store.MapAnyToValue(new RDFTriple(node, dct.namespace('description'), undefined))
         this._nick = RDFStore.store.MapAnyToValue(new RDFTriple(node, foaf.namespace('nick'), undefined))
         this._gender = requireNotNull(
             RDFStore.store.MapAnyToValue(new RDFTriple(node, foaf.namespace('gender'), undefined))
@@ -79,6 +84,10 @@ export class Vocaboliere extends RDFNamedNode {
         } else {
             return 'Non binario'
         }
+    }
+
+    public get description(): string | null {
+        return this._description
     }
 
     public get images(): string[] {
