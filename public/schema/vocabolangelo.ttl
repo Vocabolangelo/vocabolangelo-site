@@ -605,6 +605,14 @@ vocang:aguzziGianluca
     org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:magniniMatteo, vocang:filasetaAngelo .
 
+vocang:daniloPianini
+    a vocang:Vocaboliere ;
+    foaf:firstName "Danilo" ;
+    foaf:lastName "Pianini" ;
+    foaf:gender "male";
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:filasetaAngelo, vocang:aguzziGianluca, vocang:magniniMatteo .
+
 # Other Author Individuals
 
 vocang:chatGPT
@@ -11183,4 +11191,3 @@ vocang:sexcation
     dct:created "2024-03-29" ;
     skos:related vocang:lovecation ;
     dct:creator vocang:bdeouiEddy .
- 
