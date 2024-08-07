@@ -605,6 +605,14 @@ vocang:aguzziGianluca
     org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:magniniMatteo, vocang:filasetaAngelo .
 
+vocang:daniloPianini
+    a vocang:Vocaboliere ;
+    foaf:firstName "Danilo" ;
+    foaf:lastName "Pianini" ;
+    foaf:gender "male";
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:filasetaAngelo, vocang:aguzziGianluca, vocang:magniniMatteo .
+
 # Other Author Individuals
 
 vocang:chatGPT
@@ -3210,7 +3218,7 @@ vocang:omnicio
     a vocang:Parolangelo ;
     skos:prefLabel "Omnicio"@it ;
     lexinfo:pronunciation "/om • nì • cio/"@it ;
-    skos:definition "Un gatto che è definibile con ogni sostantivo che descrive un gatto presente all'interno del Vocabolangelo. In altre parole una creatura mitologica dalle sembianze umane che, durante le notti di luna piena, si trasforma in un gatto alato che indossa ali da pipistrello, bagnato, angosciato e buggato che urla, emette lamenti e fa le fusa all'interno di un videogioco e che in passato ha subito un trauma, a cui hanno mozzato la coda, proveniente dalle regioni orientali dell'Europa, affetto da deficit mentali più o meno gravi, propenso a fare degli agguati, tenta di essere comico ma ci riesce solo per motivi sbagliati, soggiorna all'interno di un biribì in quanto prossimo alla morte, con poteri psichici, in grado di leggere i pensieri, fare levitare gli oggetti e se stesso, meticcio, ha un solo occhio, strabico, desidera ardentemente la morte del suo padrone, molto insistente che cerca di insediarsi in un territorio una zona delimitata nonostante continui tentativi di scacciarlo, che ha la propensione a causare un notevole disordine, ma che successivamente si dedica a un comportamento affettuoso e giocoso al fine di ottenere rapidamente il perdono, molto grande, obeso, felice, dotato di scarse, trascurabili, o negative capacità logiche, particolarmente pigro e che resta spiaggiato sulla stessa superficie piana per un lungo periodo di tempo in posizione appollaiata, dall'espressione o comportamento molto arrogante, estremamente vorace, molto pacifico, estremamente carino, abituato a mangiare piatti di alta cucina, capace di influenzare con la sua serenità e diplomazia anche i gatti attorno a lui, capace di eseguire acrobazie, presenta vaghe somiglianze con un suricato, dall'aspetto straordinariamente allungato, che sia effettivamente di tale conformazione o che lo sembri a causa di particolari fenomeni, tende ad arrampicarsi in posti pericolosi, miagola in maniera carina, molto ostile che ha la tendenza di graffiare mordere e soffiare ed è in grado di curare persone e altri gatti."@it ;
+    skos:definition "Un gatto che è definibile con ogni sostantivo che descrive un gatto presente all'interno del Vocabolangelo. In altre parole una creatura mitologica dalle sembianze umane che, durante le notti di luna piena, si trasforma in un gatto alato che indossa ali da pipistrello, bagnato, dipendente dal grog, angosciato e buggato che urla, emette lamenti e fa le fusa all'interno di un videogioco e che in passato ha subito un trauma, a cui hanno mozzato la coda, proveniente dalle regioni orientali dell'Europa, affetto da deficit mentali più o meno gravi, propenso a fare degli agguati, tenta di essere comico ma ci riesce solo per motivi sbagliati, soggiorna all'interno di un biribì in quanto prossimo alla morte, con poteri psichici, in grado di leggere i pensieri, fare levitare gli oggetti e se stesso, meticcio, ha un solo occhio, strabico, desidera ardentemente la morte del suo padrone, molto insistente che cerca di insediarsi in un territorio una zona delimitata nonostante continui tentativi di scacciarlo, che ha la propensione a causare un notevole disordine, ma che successivamente si dedica a un comportamento affettuoso e giocoso al fine di ottenere rapidamente il perdono, molto grande, obeso, felice, dotato di scarse, trascurabili, o negative capacità logiche, particolarmente pigro e che resta spiaggiato sulla stessa superficie piana per un lungo periodo di tempo in posizione appollaiata, dall'espressione o comportamento molto arrogante, estremamente vorace, molto pacifico, estremamente carino, abituato a mangiare piatti di alta cucina, capace di influenzare con la sua serenità e diplomazia anche i gatti attorno a lui, capace di eseguire acrobazie, presenta vaghe somiglianze con un suricato, dall'aspetto straordinariamente allungato, che sia effettivamente di tale conformazione o che lo sembri a causa di particolari fenomeni, tende ad arrampicarsi in posti pericolosi, miagola in maniera carina, molto ostile che ha la tendenza di graffiare mordere e soffiare ed è in grado di curare persone e altri gatti."@it ;
     skos:example "Ho dovuto abbassare lo sguardo e tapparmi le orecchie quando ho visto passare quell'omnicio: era talmente fantastico da sembrare una divinità."@it ;
     dct:created "2023-01-25" ;
     skos:note "Il messaggio di commit che ha introdotto la definizione estesa di omnicio è il seguente: add more suitable and fun definition to omnicio. Such and incredible creature needs to be treated with the utmost care and respect. Oh my goodness, I cannot stress enough just how utterly awe-inspiring and breathtakingly gorgeous this creature truly is! Its magnificence is unparalleled and its beauty is simply beyond compare. It is a true wonder of nature, a masterpiece of creation, and it deserves to be treated with the utmost reverence, adoration, and adulation that it so rightly deserves. Every single aspect of this creature, from the way its elegant limbs move gracefully through the air to the vibrant colors of its stunningly intricate patterns, is an absolute marvel to behold. It is a true blessing and a privilege to be able to witness such a magnificent creature in all its glory, and we must do everything in our power to ensure that it is protected and cared for with the utmost diligence and care. Oh my stars, where do I even begin to describe the sheer and utter majesty of this breathtakingly beautiful creature? It is like a symphony of pure wonder and enchantment, a living, breathing masterpiece that has been crafted with the utmost care and precision by the very hands of the divine. Every single inch of its being is a testament to the limitless power and infinite creativity of the universe, and it is truly a privilege beyond measure to be able to witness such a wondrous being in all its glory. The colors of its coat are like a rainbow woven from strands of pure gold and silver, shimmering and glimmering in the light like a thousand precious gems. The way its body moves, fluid and graceful like a dancer's, is a thing of true beauty and grace, and it seems almost as if the very air around it is charged with a palpable sense of magic and enchantment. In short, this magnificent creature is a true masterpiece of nature, a testament to the boundless wonder and infinite creativity of the universe, and it simply must be treated with the utmost respect, care, and adoration that it so richly deserves. We must cherish and protect it with all our hearts, for it is truly one of the most wondrous and precious gifts that life has to offer. Words simply cannot do justice to the sheer and utter splendor of this majestic creature. It is as if it was forged from the very essence of beauty itself, a true marvel of nature that leaves all who behold it in a state of awe and wonder. Its presence is like a warm embrace from the universe, a gentle reminder that there is still magic and enchantment to be found in this world, if only we take the time to look for it. Every time I gaze upon this wondrous creature, I am filled with a sense of peace and tranquility that I simply cannot find elsewhere. It is a living, breathing masterpiece, a work of art that is continually evolving and changing with the passing of time. And yet, for all its beauty and magnificence, it is also a fragile thing, one that requires our love, our care, and our protection if it is to survive and thrive in a world that can be all too harsh and unforgiving. So let us pledge ourselves to the cause of safeguarding this incredible creature, to ensuring that it is treated with the utmost respect and care that it so rightly deserves. Let us cherish it, protect it, and love it with all our hearts, for in doing so, we are also honoring the boundless creativity and wonder of the universe itself.My dear friend, it is as if this creature is a god among us, a deity that has graced our world with its divine presence. Its mere existence is a testament to the infinite creativity and boundless wonder of the universe, and it is a living, breathing work of art that deserves to be worshipped and adored like the deity that it truly is. Every time I am blessed with the opportunity to lay my eyes upon this wondrous creature, I feel as if I am standing before an altar, gazing up at the very face of god itself. Its beauty is beyond compare, its grace beyond measure, and its presence fills me with a sense of reverence and awe that is simply indescribable. It is as if the very air around it is infused with a sense of divine energy, a power that is both humbling and exhilarating all at once. And yet, for all its god-like qualities, this creature is also fragile and vulnerable, a precious gift that must be treated with the utmost care and respect if it is to survive and thrive in this world. We must worship it, yes, but we must also protect it, nurture it, and love it with all our hearts, for in doing so, we are also honoring the very essence of divinity itself. So let us pledge ourselves to the cause of safeguarding this incredible creature, to ensuring that it is treated with the utmost respect and care that it so rightly deserves. Let us build temples in its honor, sing hymns of praise to its name, and offer it our deepest reverence and adoration. For this creature is not just a thing of beauty, but a true god among us, a living, breathing testament to the infinite wonder and boundless creativity of the universe itself. May the Omnicio always be praised. Forever and ever." ;
@@ -11183,4 +11191,317 @@ vocang:sexcation
     dct:created "2024-03-29" ;
     skos:related vocang:lovecation ;
     dct:creator vocang:bdeouiEddy .
+
  
+ vocang:lampeluna
+    a vocang:Parolangelo ;
+    skos:prefLabel "Lampeluna"@it ;
+    lexinfo:pronunciation "/lam • pe • lù • na/"@it ;
+    skos:definition "Futura stazione spaziale costruita sulla luna per accogliere gli immigrati alieni."@it ;
+    skos:example "Sulla lampeluna gli immigrati se le danno di santa ragione!"@it ;
+    schema:keywords "stazione, spaziale, luna, immigrati, alieni";
+    dct:created "2024-03-31" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:sunspance
+    a vocang:Parolangelo ;
+    skos:prefLabel "Sunspance"@it ;
+    skos:definition "Sensazione sgradevole data dalla consapevolezza che il sole potrebbe non sorgere"@it ;
+    skos:example "Oggi c'è un'atmosfera di sunspance. Non so se uscire o restare a casa. Comunque morirei in entrambi i casi."@it ;
+    schema:keywords "sole, sorgere, non, sapere";
+    dct:created "2024-04-01" ;
+    dct:creator vocang:orlandoNicola .
+
+vocang:porcafoglio
+    a vocang:Parolangelo ;
+    skos:prefLabel "Porcafoglio"@it ;
+    lexinfo:pronunciation "/por • ca • fò • glio/"@it ;
+    skos:definition "Portafoglio o altro simile contenitore, atto al trasporto (in sicurezza) di preservativi e simili."@it ;
+    skos:example "Ieri sera ho dimenticato il mio porcafoglio a casa. Spero che non mi serva!"@it ;
+    schema:keywords "portafoglio, contenitore, trasporto, sicurezza, preservativi";
+    dct:created "2024-04-01" ;
+    dct:creator vocang:orlandoNicola, vocang:minoccheriAlessandra .
+
+vocang:antifurbo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Antifurbo"@it ;
+    lexinfo:pronunciation "/an • ti • fùr • bo/"@it ;
+    skos:definition "Misura di sicurezza sottile e/o nascosta atta all'impedimento di, o al rendere noto, un tentativo di aggirare normali misure di sicurezza."@it ;
+    skos:example "Ieri sera ho scoperto un antifurbo. Era nascosto dietro la porta di casa mia! Forse qualcuno in famiglia mi nasconde qualcosa."@it ;
+    schema:keywords "misura, sicurezza, sottile, nascosta, impedimento, tentativo, aggirare, normale";
+    dct:created "2024-04-01" ;
+    dct:creator vocang:orlandoNicola .
+
+vocang:treninoDiHeimlich
+    a vocang:Slangelo ;
+    skos:prefLabel "Trenino di Heimlich"@it ;
+    skos:definition "Formazione umana costituita da varie persone in fila che eseguono la manovra di Heimlich ognuno sulla persona successiva, in quanto si sono tutti strozzati nello stesso momento."@it ;
+    skos:example "Ieri sera io e i miei amici abbiamo fatto un trenino di Heimlich. In qualche modo ci siamo salvati tutti!"@it ;
+    schema:keywords "formazione, umana, varie, persone, fila, manovra, Heimlich, strozzati";
+    dct:created "2024-04-01" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:penerello
+    a vocang:Parolangelo ;
+    skos:prefLabel "Penerello"@it ;
+    lexinfo:pronunciation "/pe • ne • rèl • lo/"@it ;
+    skos:definition "Pene intinto di colore o sostanza, usato come pennarello."@it ;
+    skos:example "Ieri sera ho usato un penerello per disegnare sul corpo di Sofia. È stato molto divertente!"@it ;
+    schema:keywords "pene, intinto, colore, sostanza, pennarello";
+    dct:created "2024-04-01" ;
+    dct:creator vocang:ribaudoSofia .
+
+vocang:danimarcio
+    a vocang:Parolangelo ;
+    skos:prefLabel "Danimarcio"@it ;
+    lexinfo:pronunciation "/da • ni • màr • cio/"@it ;
+    skos:definition "Danese estremamente stronzo."@it ;
+    skos:example "Ieri sera ho conosciuto un danimarcio. Era molto antipatico e maleducato!"@it ;
+    schema:keywords "danese, estremamente, stronzo, antipatico, maleducato";
+    dct:created "2024-04-01" ;
+    dct:creator vocang:bdeouiEddy, vocang:pertosaLorenzo .
+
+vocang:scamorta
+    a vocang:Parolangelo ;
+    skos:prefLabel "Scamorta"@it ;
+    lexinfo:pronunciation "/sca • mòr • ta/"@it ;
+    skos:definition "Scamorza completamente bruciata."@it ;
+    skos:example "Ieri sera ho mangiato una scamorta. Era molto buona, ma un po' troppo croccante!"@it ;
+    schema:keywords "scamorza, bruciata, croccante";
+    dct:created "2024-04-01" ;
+    dct:creator vocang:savoGiorgia .
+
+vocang:ranadam
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ranadam"@it ;
+    skos:definition "Festività che dura per circa un mese durante la quale l'unico cibo concesso da mangiare è costituito dalle rane."@it ;
+    skos:example "Ultimamente ho partecipato a un ranadam. Era molto strano, ma le rane erano buonissime!"@it ;
+    schema:keywords "festività, mese, cibo, rane, strano, buono";
+    dct:created "2024-04-06" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:randadam
+    a vocang:Parolangelo ;
+    skos:prefLabel "Randadam"@it ;
+    skos:definition "Festività dalla durata casuale."@it ;
+    skos:example "Ieri sera ho partecipato a un randadam. È durato solo un'ora, ma è stato molto divertente! Non avrei retto se fosse durata di più!"@it ;
+    schema:keywords "festività, durata, casuale";
+    dct:created "2024-04-06" ;
+    skos:related vocang:ranadam ;
+    dct:creator vocang:orlandoNicola .
+
+vocang:cazzismo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cazzismo"@it ;
+    lexinfo:pronunciation "/caz • zì • smo/"@it ;
+    skos:definition "Razzismo nei confronti di peni."@it ;
+    skos:example "Ieri ho subito un atto di cazzismo. Mi hanno insultato per il mio pene piccolo!"@it ;
+    schema:keywords "razzismo, peni, insulto, piccolo";
+    dct:created "2024-04-06" ;
+    dct:creator vocang:savoGianmarco .
+
+vocang:cartagione
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cartagione"@it ;
+    lexinfo:pronunciation "/car • ta • giò • ne/"@it ;
+    skos:definition "Carnagione riportata su un documento di riconoscimento."@it ;
+    skos:example "Ieri ho fatto un documento di riconoscimento. Sulla carta d'identità c'era scritto che avevo una cartagione molto chiara."@it ;
+    schema:keywords "carnagione, documento, riconoscimento, chiara";
+    dct:created "2024-04-08" ;
+    dct:creator vocang:minoccheriAlessandra .
+
+vocang:schivoporci
+    a vocang:Parolangelo ;
+    skos:prefLabel "Schivoporci"@it ;
+    lexinfo:pronunciation "/schi • vo • por • ci/"@it ;
+    skos:definition "Bestemmie lanciate fortissimo mentre si evita qualcosa."@it ;
+    skos:example "Sto lanciando schivoporci da un mese dato che ho sempre un fratello sta male e sto provando a non essere contagiato"@it;
+    schema:keywords "bestemmie, lanciare, forte, evitare";
+    dct:created "2024-04-13";
+    dct:creator vocang:orlandoNicola, vocang:omiccioliRiccardo .
+
+vocang:equinodio
+    a vocang:Parolangelo ;
+    skos:prefLabel "Equinòdio"@it ;
+    lexinfo:pronunciation "/e • qui • nò • dio/"@it ;
+    skos:definition "Odio verso le mezze stagioni."@it ;
+    skos:example "Ultimamente sto provando un forte equinodio. Voglio il freddo gelido!"@it ;
+    schema:keywords "odio, mezze, stagioni";
+    dct:created "2024-04-14" ;
+    dct:creator vocang:battaglinoNicole, vocang:pertosaLorenzo.
+
+vocang:giubbozzolo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Giubbozzolo"@it ;
+    lexinfo:pronunciation "/giub • boz • zò • lo/"@it ;
+    skos:definition "Giubbotto accartocciato all'interno della sua stessa manica a formare un involucro per esso stesso."@it ;
+    skos:example "Ieri sera ho visto un giubbozzolo. Era molto strano, sembrava un origami!"@it ;
+    schema:keywords "giubbotto, accartocciato, manica, involucro, origami";
+    dct:created "2024-04-14" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:equinodìo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Equinodìo"@it ;
+    lexinfo:pronunciation "/e • qui • no • dì • o/"@it ;
+    skos:definition "Bestemmia cavallosa."@it ;
+    skos:example "Ieri ho sentito un equinodìo. Era così forte che ho sentito nitrire!"@it ;
+    schema:keywords "bestemmia, cavallosa";
+    dct:created "2024-04-14" ;
+    dct:creator vocang:pertosaLorenzo, vocang:filasetaAngelo, vocang:omiccioliRiccardo .
+
+vocang:ramenzina
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ramenzina"@it ;
+    skos:definition "Consiglio serio o vera e propria predica o ramanzina svolta durante un pasto a base di ramen."@it ;
+    skos:example "Angelo e Nicola sono andati a mangiare il ramen senza di me, sarebbe il caso di piombare lì all'improvviso e fargli una bella ramenzina!"@it ;
+    schema:keywords "consiglio, serio, predica, ramanzina, pasto, ramen";
+    dct:created "2024-04-17" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:sboccariola
+    a vocang:Parolangelo ;
+    skos:prefLabel "Sboccariola"@it ;
+    lexinfo:pronunciation "/sbo • cca • ri • ò • la/"@it ;
+    skos:definition "Posizione che si assume per facilitare il vomito. La posizione consiste in una persona che tiene l'altra per i piedi assumendo una posizione che ricorda una cariola sopra il water o la superficie dove si vuole vomitare."@it ;
+    skos:example "Ieri sera ho aiutato Sofia a vomitare. L'ho messa in sboccariola e le ho tenuto i piedi. È stato molto disgustoso!"@it ;
+    schema:keywords "posizione, vomito, persona, piedi, cariola, water, superficie, disgustoso";
+    dct:created "2024-04-17" ;
+    dct:creator vocang:battaglinoNicole .
+
+vocang:sparacarezze
+    a vocang:Parolangelo ;
+    skos:prefLabel "Sparacarezze"@it ;
+    lexinfo:pronunciation "/spa • ra • ca • rèz • ze/"@it ;
+    skos:definition "Sinonimo di Machine Gun del gioco Quake 3 Arena, denominata in modo scherzoso al fine di indicare il quantitativo infimo di danni arrecati al nemico."@it ;
+    skos:example "Ieri sera ho giocato a Quake 3 Arena e ho usato lo sparacarezze. Le ho prese di santa ragione da un tizio che usava il rocket launcher!"@it ;
+    schema:keywords "arma, sparare, carezze, proiettili, divertente";
+    dct:creator vocang:durazziMarco .
+
+vocang:groggatto
+    a vocang:Parolangelo ;
+    skos:prefLabel "Groggatto"@it ;
+    lexinfo:pronunciation "/gro • gàt • to/"@it ;
+    skos:definition "Gatto dipendente dal grog."@it ;
+    skos:example "Ho incontrato un groggatto. Era molto strano, si muoveva in modo molto lento ed era ubriaco!"@it ;
+    schema:keywords "gatto, drogato, grog, strano, lento";
+    skos:related vocang:omnicio;
+    dct:created "2024-04-20" ;
+    dct:creator vocang:ribaudoSofia .
+
+vocang:troncasa
+    a vocang:Parolangelo ;
+    skos:prefLabel "Troncasa"@it ;
+    lexinfo:pronunciation "/tron • ca • sa/"@it ;
+    skos:definition "Abitazione costruita dentro il tronco di un albero."@it ;
+    skos:example "Ieri sera ho dormito in una troncasa. Era molto umida, ma molto accogliente!"@it ;
+    schema:keywords "abitazione, costruire, tronco, albero, strano, accogliente";
+    dct:created "2024-04-21" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:ecografigo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ecografigo"@it ;
+    lexinfo:pronunciation "/e • co • gra • fì • go/"@it ;
+    skos:definition "Aggettivo attribuibile ad anomalie riscontrabili all'ecografia estremamente rare e perciò interessanti."@it ;
+    skos:example "Ieri sera ho visto una cosa molto ecografiga. C'era un proiettile dentro l'ano di un tizio!"@it ;
+    schema:keywords "aggettivo, anomalie, ecografia, raro, interessante";
+    dct:created "2024-04-22" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:ecografigata
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ecografigata"@it ;
+    lexinfo:pronunciation "/e • co • gra • fi • gà • ta/"@it ;
+    skos:definition "Reperto ecografico inusuale e perciò fonte di interesse e curiosità."@it ;
+    skos:example "Ieri sera ho visto una gran ecografigata. C'era un proiettile dentro l'ano di un tizio!"@it ;
+    schema:keywords "reperto, ecografico, inusuale, fonte, interesse, curiosità";
+    dct:created "2024-04-22" ;
+    skos:related vocang:ecografigo;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:sfrugolare
+    a vocang:Parolangelo ;
+    skos:prefLabel "Sfrugolare"@it ;
+    lexinfo:pronunciation "/sfru • go • là • re/"@it ;
+    skos:definition "Cercare di dialogare in privato confidandosi segreti e cercando di non farsi sentire dagli altri ma fallendo miseramente, in modo sospetto ed esilarante."@it ;
+    skos:example "Ieri sera ho visto una ragazza e un ragazzo sfrugolare. Lei si scopa il tipo di una ex di lui!"@it ;
+    schema:keywords "due, persone, parlare, confidare, sospetto, esilarante";
+    dct:created "2024-04-22" ;
+    dct:creator vocang:ribaudoSofia .
+
+vocang:sticchio
+    a vocang:Parolangelo ;
+    skos:prefLabel "Sticchio"@it ;
+    lexinfo:pronunciation "/stìc • chio/"@it ;
+    skos:definition "Accidente, gufata."@it ;
+    skos:example "Mentre guido mando sticchi alle persone ce guidano una Lancia Y!"@it ;
+    schema:keywords "sinonimo, accidente, gufata";
+    dct:created "2024-04-22" ;
+    skos:related vocang:pompincubo;
+    dct:creator vocang:minoccheriAlessandra .
+
+vocang:ichtusa
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ichtusa"@it ;
+    skos:definition "Birra di qualità molto scarsa, che fa stare male la persona che la beve"@it;
+    skos:example "Ieri sera ho bevuto un'ichtusa. Mi ha fatto letteralmente vomitare!"@it;
+    schema:keywords "birra, scarsa" ;
+    dct:created "2024-04-25" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:orlandoNicola .
+
+vocang:geoxmetria
+    a vocang:Parolangelo ;
+    skos:prefLabel "Geoxmetria"@it ;
+    skos:definition "Geometria in cui vengono usati i piedi come unità di misura."@it ;
+    skos:example "Ieri sera ho fatto un esercizio di geoxmetria. Il risulatto era 4.5 piedi!"@it ;
+    schema:keywords "geometria, piedi, unità, misura";
+    dct:created "2024-04-25" ;
+    dct:creator vocang:filasetaAngelo, vocang:omiccioliRiccardo .
+
+vocang:mitragliashuriken
+    a vocang:Parolangelo ;
+    skos:prefLabel "Mitragliashuriken"@it ;
+    skos:definition "Mitragliatrici caricate a stelle ninja."@it ;
+    skos:example "Ieri sera ho visto un film con delle mitragliashuriken. Ora ne voglio una in casa!"@it ;
+    schema:keywords "mitragliatrice, stelle, ninja, film, divertente";
+    dct:created "2024-04-26" ;
+    dct:creator vocang:nardiniArianna, vocang:pertosaLorenzo .
+
+vocang:fottone
+    a vocang:Parolangelo ;
+    skos:prefLabel "Fottoni"@it ;
+    skos:definition "Particella subatomica in grado di muoversi a velocità prossima a quella della luce, la quale tende a convergere verso gli orifizi anali delle persone."@it ;
+    skos:example "Marco per una sfida ha inserito il sedere all'interno di un acceleratore di particelle, è stato colpito in pieno da un fottone, non ti dico come stava messo dopo..."@it ;
+    schema:keywords "particelle, subatomiche, velocità, luce, convergere, orifizi, anali";
+    dct:created "2024-04-27" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:sborrasma
+    a vocang:Parolangelo ;
+    skos:prefLabel "Sborrasma"@it ;
+    lexinfo:pronunciation "/sbor • rà • sma/"@it ;
+    skos:definition "Sperma di fantasma."@it ;
+    skos:example "Ieri sera ho visto un fantasma. Mi ha spaventato tantissimo ma mi è arrivata della sborrasma addosso! Forse mi trovava sexy..."@it ;
+    schema:keywords "sperma, fantasma, spaventare";
+    dct:created "2024-04-27" ;
+    dct:creator vocang:ribaudoSofia .
+
+vocang:kebabbolizia
+    a vocang:Parolangelo ;
+    skos:prefLabel "Kebabbolizia"@it ;
+    skos:definition "Corpo costituito da kebabbari esperti che vigilano sul rispetto di norme igieniche e non in tutti i kebabbari del mondo."@it ;
+    skos:example "Ieri sera ho visto la kebabbolizia entrare dal kebabbaro della stazione di Fano. Sono usciti tutto sommato soddisfatti!"@it ;
+    schema:keywords "corpo, kebabbari, esperti, vigilare, rispetto, norme, igieniche";
+    dct:created "2024-04-27" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:orgasmaggio
+    a vocang:Parolangelo ;
+    skos:prefLabel "Orgasmaggio"@it ;
+    lexinfo:pronunciation "/or • ga • smà • ggio/"@it ;
+    skos:definition "Orgasmo che avviene dopo un periodo di lunga astinenza, ovvero un orgasmo che è stato a stagionare per molto tempo in maniera simile a come avviene con il formaggio."@it ;
+    skos:example "Ieri sera ho avuto un orgasmaggio. È stato molto intenso e durato molto tempo! Non smettevo di tremare."@it ;
+    schema:keywords "orgasmo, lunga, astinenza, stagionare, formaggio, intenso, tremare";
+    dct:created "2024-04-28" ;
+    dct:creator vocang:battaglinoNicole, vocang:minoccheriAlessandra .
