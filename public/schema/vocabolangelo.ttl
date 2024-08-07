@@ -11191,3 +11191,44 @@ vocang:sexcation
     dct:created "2024-03-29" ;
     skos:related vocang:lovecation ;
     dct:creator vocang:bdeouiEddy .
+
+ 
+ vocang:lampeluna
+    a vocang:Parolangelo ;
+    skos:prefLabel "Lampeluna"@it ;
+    lexinfo:pronunciation "/lam • pe • lù • na/"@it ;
+    skos:definition "Futura stazione spaziale costruita sulla luna per accogliere gli immigrati alieni."@it ;
+    skos:example "Sulla lampeluna gli immigrati se le danno di santa ragione!"@it ;
+    schema:keywords "stazione, spaziale, luna, immigrati, alieni";
+    dct:created "2024-03-31" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:sunspance
+    a vocang:Parolangelo ;
+    skos:prefLabel "Sunspance"@it ;
+    skos:definition "Sensazione sgradevole data dalla consapevolezza che il sole potrebbe non sorgere"@it ;
+    skos:example "Oggi c'è un'atmosfera di sunspance. Non so se uscire o restare a casa. Comunque morirei in entrambi i casi."@it ;
+    schema:keywords "sole, sorgere, non, sapere";
+    dct:created "2024-04-01" ;
+    dct:creator vocang:orlandoNicola .
+
+vocang:porcafoglio
+    a vocang:Parolangelo ;
+    skos:prefLabel "Porcafoglio"@it ;
+    lexinfo:pronunciation "/por • ca • fò • glio/"@it ;
+    skos:definition "Portafoglio o altro simile contenitore, atto al trasporto (in sicurezza) di preservativi e simili."@it ;
+    skos:example "Ieri sera ho dimenticato il mio porcafoglio a casa. Spero che non mi serva!"@it ;
+    schema:keywords "portafoglio, contenitore, trasporto, sicurezza, preservativi";
+    dct:created "2024-04-01" ;
+    dct:creator vocang:orlandoNicola, vocang:minoccheriAlessandra .
+
+vocang:antifurbo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Antifurbo"@it ;
+    lexinfo:pronunciation "/an • ti • fùr • bo/"@it ;
+    skos:definition "Misura di sicurezza sottile e/o nascosta atta all'impedimento di, o al rendere noto, un tentativo di aggirare normali misure di sicurezza."@it ;
+    skos:example "Ieri sera ho scoperto un antifurbo. Era nascosto dietro la porta di casa mia! Forse qualcuno in famiglia mi nasconde qualcosa."@it ;
+    schema:keywords "misura, sicurezza, sottile, nascosta, impedimento, tentativo, aggirare, normale";
+    dct:created "2024-04-01" ;
+    dct:creator vocang:orlandoNicola .
+
