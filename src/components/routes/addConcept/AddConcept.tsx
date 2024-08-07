@@ -1,9 +1,10 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Wrapper from '../../common/story/Wrapper'
+import { Vocaboliere } from '../../../rdf/types/Vocaboliere'
+import { vocang } from '../../../rdf/prefixes'
 
 export const ADD_ROUTE = '/aggiungi'
 
-const typeOptions = ['Parolangelo', 'Slangelo']
 const creatorOptions = ['pertosaLorenzo', 'savoGiorgia', 'otherCreator']
 
 interface FormState {
@@ -33,12 +34,16 @@ export const AddConcept: React.FC = () => {
         })
     }
 
+    function hasWhiteSpace(s: string) {
+        return /\s/g.test(s)
+    }
+
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault()
         const { prefLabel, pronunciation, definition, example, keyword, createdDate } = formState
         const turtleString = `
 vocang:${prefLabel.toLowerCase().replace(/ /g,'-')}
-    a vocang:${selectedType} ;
+    a vocang:${hasWhiteSpace(prefLabel) ? 'Slangelo' : 'Parolangelo'} ;
     skos:prefLabel "${prefLabel}"@it ;
     skos:pronunciation "${pronunciation}"@it ;
     skos:definition "${definition}"@it ;
@@ -50,13 +55,8 @@ vocang:${prefLabel.toLowerCase().replace(/ /g,'-')}
         console.log(turtleString)
         alert(turtleString)
     }
-
-    const [selectedType, setSelectedType] = useState<string>(typeOptions[0])
-
-    const handleTypeChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
-        setSelectedType(event.target.value)
-    }
    
+    const [availableVocabolieri, setAvailableVocabolieri] = useState<Vocaboliere[]>([])
     const [selectedCreators, setSelectedCreators] = useState<string[]>([])
     const [currentCreators, setCurrentCreators] = useState(creatorOptions)
 
@@ -65,19 +65,15 @@ vocang:${prefLabel.toLowerCase().replace(/ /g,'-')}
         setCurrentCreators(currentCreators.filter(option => option !== selectedValue))
     }
 
+    useEffect(() => {
+        (async function setVocabolieri() {
+            setAvailableVocabolieri(await Vocaboliere.all())
+        })()
+    }, [])
+
     return (
         <Wrapper>
             <form onSubmit={handleSubmit}>
-                <div>
-                    <label htmlFor="type">Type:</label>
-                    <select id="select" value={selectedType} onChange={handleTypeChange}>
-                        {typeOptions.map((option) => (
-                            <option key={option} value={option}>
-                                {option}
-                            </option>
-                        ))}
-                    </select>
-                </div>
                 <div>
                     <label htmlFor="prefLabel">Preferred Label:</label>
                     <input
@@ -89,7 +85,6 @@ vocang:${prefLabel.toLowerCase().replace(/ /g,'-')}
                         required
                     />
                 </div>
-
                 <div>
                     <label htmlFor="pronunciation">Pronunciation:</label>
                     <input
@@ -156,13 +151,14 @@ vocang:${prefLabel.toLowerCase().replace(/ /g,'-')}
                     {currentCreators.length > 0 && (
                         <select onChange={(e) => handleAddSelect(e.target.value)} defaultValue="">
                             <option value="" disabled>Select an option</option>
-                            {currentCreators.map((option, index) => (
-                                <option key={index} value={option}>{option}</option>
-                            ))}
+                            {availableVocabolieri.map((option, index) => {
+                                return <option key={index} value={option.relativeUri(vocang)}>
+                                    {option.lastName} {option.firstName}
+                                </option>
+                            })}
                         </select>
                     )}
-                </div>
-                <button type="submit">Submit</button>
+                </div><button type="submit">Submit</button>
             </form>
         </Wrapper>
     )
