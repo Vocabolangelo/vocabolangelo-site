@@ -168,6 +168,7 @@ vocang:orlandoNicola
     foaf:lastName "Orlando" ;
     foaf:nick "Orla" ;
     foaf:gender "male" ;
+    dct:description "Orla è una persona molto tranquilla e religiosa; riesce a mantenere consistente il supo ciclo del sonno in una maniera alquanto invidiabile. Amo le sue parolangelo che sono spesso funzionali o nate dal caso o da qualche evento divertente, mai scontate.";
     org:memberOf vocang:vocaboladminOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/orlandoNicola.jpg" ;
     rel:friendOf vocang:cortecchiaAngela, vocang:bailettiTommaso, vocang:sanchiPiero, vocang:tronettiElisa, vocang:salhiSamir, vocang:durazziMarco, vocang:bragariAlexandru, vocang:talmiAlessandro, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo .
@@ -196,6 +197,7 @@ vocang:fanaraGiuliano
     foaf:lastName "Fanara" ;
     foaf:nick "Jiuj" ;
     foaf:gender "male" ;
+    dct:description "Il mio caro amico si Albano Laziale. Ama Fossombrone e tutto ciò che riguarda Fossombrone. Il suo monumento preferito è il ponte di Fossombrone, il suo bar preferito si trova a Fossombrone, e da grande vuole diventare Fossombrone. Alquanto ammirevole.";
     org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:salhiSamir, vocang:durazziMarco, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo .
 
@@ -204,6 +206,7 @@ vocang:suscaMatteo
     foaf:firstName "Matteo" ;
     foaf:lastName "Susca" ;
     foaf:gender "male" ;
+    dct:description "Un Ronaldo enjoyer che non segue il calcio. È uno dei Gen Z più Gen Z che conosco. Nonostante la sua mascolinità tossica ama gossippare. Credo sia attratto sessualmente da me.";
     org:memberOf vocang:vocaboladminOrg ;
     rel:friendOf vocang:bailettiTommaso, vocang:salhiSamir, vocang:durazziMarco, vocang:fanaraGiuliano, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo ;
     vocang:unpaidFriendOf vocang:battaglinoNicole, vocang:minoccheriAlessandra .
@@ -213,6 +216,7 @@ vocang:minoccheriAlessandra
     foaf:firstName "Alessandra" ;
     foaf:lastName "Minoccheri" ;
     foaf:gender "female" ;
+    dct:description "Alessandra è la mia scopàmica; possiede una copia fisica dei sensuali di parcheggio e non ha paura di utilizzarli. È incazzata a giorni alterni, spesso grazie a me.";
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/minoccheriAlessandra.jpg" ;
     org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:bassiAndrea, vocang:bailettiTommaso, vocang:salhiSamir, vocang:durazziMarco, vocang:fanaraGiuliano,vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo .
@@ -221,6 +225,7 @@ vocang:minoccheriAlessandra
     a vocang:Vocaboliere ;
     foaf:firstName "Arianna" ;
     foaf:lastName "Nardini" ;
+    dct:description "Arianna è la mia amica quasi comunista (o fose lo è e tenta di mimetizzarsi). Pensa che il microonde non sia un elettrodomestico di classe, ma al mondo è assolutamente concesso avere opinioni sbaglaite. Almeno in una cosa siamo d'accordo però. Il vocabolanelo è di tutti *meme di bugs bunny che dice ours*";
     foaf:gender "female" ;
     org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:salhiSamir, vocang:durazziMarco, vocang:minoccheriAlessandra, vocang:suscaMatteo, vocang:fanaraGiuliano, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:bragariAlexandru, vocang:savoGiorgia, vocang:filasetaAngelo .
@@ -231,6 +236,7 @@ vocang:bdeouiEddy
     foaf:lastName "Bdeoui" ;
     foaf:nick "Eddy" ;
     foaf:gender "male" ;
+    dct:description "Prepatevi a passare dai guai, perché Eddy ha un asso nella manica e infinite conoscienze che non avrà timore di tramandarvi. Se pensate di conoscere il miglior ristorante in città, vi sbagliate di grosso. Eddy può consigliarvi un posto in cui servono cibo migliore, in maggiore quantità, e ad un prezzo stracciato. Sfidatelo e lui vincerà (o forse no).";
     org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:salhiSamir, vocang:nardiniArianna, vocang:minoccheriAlessandra, vocang:suscaMatteo, vocang:fanaraGiuliano, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:bragariAlexandru, vocang:savoGiorgia, vocang:filasetaAngelo .
 
@@ -239,6 +245,7 @@ vocang:paoliMichele
     foaf:firstName "Michele" ;
     foaf:lastName "Paoli" ;
     foaf:gender "male" ;
+    dct:description "MI-CHE-LE PAOOOOO-LIIIIII SHALALALALALAAA";
     org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:nardiniArianna, vocang:minoccheriAlessandra, vocang:suscaMatteo, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:bragariAlexandru, vocang:filasetaAngelo .
 
@@ -254,6 +261,7 @@ vocang:pupitaAlberto
     a vocang:Vocaboliere ;
     foaf:firstName "Alberto" ;
     foaf:lastName "Pupita" ;
+    dct:description "Albi è un socialista. Credo. In realtà non lo so ma ha un irrefrenabile bisogno di dire Socio almeno 2 volte ogni frase per poter comunicare in maniera ragionevole. Forse il suo sogno segreto è lavorare alla Coop.";
     foaf:gender "male" ;
     org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:salhiSamir, vocang:battaglinoNicole, vocang:bdeouiEddy, vocang:bragariAlexandru, vocang:fanaraGiuliano, vocang:filasetaAngelo, vocang:minoccheriAlessandra, vocang:omiccioliRiccardo, vocang:orlandoNicola, vocang:paoliMichele, vocang:pertosaLorenzo, vocang:ribaudoSofia, vocang:savoGiorgia,vocang:suscaMatteo, vocang:timpanoSam ;
@@ -264,6 +272,7 @@ vocang:bianchiniGiovanni
     foaf:firstName "Giovanni" ;
     foaf:lastName "Bianchini" ;
     foaf:gender "male" ;
+    dct:description "Questa persone conosce più battute sul colore Bianco di quello che puoi aspettarti. Se pensi di averne appena inventata una nuova e rivoluzionaria ti sbagli. Non sei affatto speciale.";
     org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:bassiAndrea, vocang:bailettiTommaso, vocang:pupitaAlberto, vocang:battaglinoNicole, vocang:bdeouiEddy, vocang:bragariAlexandru, vocang:fanaraGiuliano, vocang:filasetaAngelo, vocang:nardiniArianna, vocang:omiccioliRiccardo, vocang:orlandoNicola, vocang:paoliMichele, vocang:pertosaLorenzo, vocang:ribaudoSofia, vocang:savoGiorgia,vocang:suscaMatteo, vocang:timpanoSam ;
     rel:spouseOf vocang:minoccheriAlessandra.
@@ -272,6 +281,7 @@ vocang:rossiLuca
     a vocang:Vocaboliere ;
     foaf:firstName "Luca" ;
     foaf:lastName "Rossi" ;
+    dct:description "Probabilmente la persona più secca tra tutti i Vocabolieri. Ha un nome talmente basic che la sua mail universitaria aveva un numero a due cifre che serviva per differenziarlo da tutti gli altri.";
     foaf:gender "male" ;
     org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:bailettiTommaso, vocang:sanchiPiero, vocang:tronettiElisa, vocang:orlandoNicola, vocang:talmiAlessandro, vocang:omiccioliRiccardo, vocang:bragariAlexandru, vocang:filasetaAngelo .
@@ -281,6 +291,7 @@ vocang:deRosaLeonardo
     foaf:firstName "Leonardo" ;
     foaf:lastName "De Rosa" ;
     foaf:nick "Leo the 2nd" ;
+    dct:description "Leo non è stato intelligente quando ha deciso di sua spontanea volontà di essere secondo a tutto.";
     foaf:gender "male" ;
     org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:filasetaAngelo , vocang:paoliMichele , vocang:pertosaLorenzo .
@@ -290,6 +301,7 @@ vocang:savoGianmarco
     foaf:firstName "Gianmarco" ;
     foaf:lastName "Savo" ;
     foaf:gender "male" ;
+    dct:description "Il fratellone lesbico della mia ragazza. Ama il black humore e i soldi. In pratica sembra che sia una brutta persona ma in realtà ha passioni comuni a tutti gli altri umani.";
     org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:fanaraGiuliano, vocang:timpanoSam, vocang:filasetaAngelo, vocang:mordacchiniCecilia ;
     rel:siblingOf vocang:savoGiorgia .
@@ -298,6 +310,7 @@ vocang:radicchiGiovanni
     a vocang:Vocaboliere ;
     foaf:firstName "Giovanni" ;
     foaf:lastName "Radicchi" ;
+    dct:description "Per colpa sua non ho potuto utilizzare la mia tazza elettrica che mischia automaticamente i liquidi per quasi un anno. Per questo, a ogni gioco da tavolo possibile, cerco di rompergli il cazzo e impedirgli di vincere.";
     foaf:nick "Rad" ;
     foaf:gender "male" ;
     org:memberOf vocang:vocabolieriOrg ;
@@ -307,6 +320,7 @@ vocang:bensellamSelma
     a vocang:Vocaboliere ;
     foaf:firstName "Selma" ;
     foaf:lastName "Bensellam" ;
+    dct:description "La mia amica neg--- marocchina. Conosce l'italiano, il francese, l'inglese, il russo, l'algerino, lo zingbawiano e la lingua turca dei segni. Infine è in grado di decodificare i geroglifici. Ormai è diventata una pisana, che se ci penso, mi fa molto ridere come parola.";
     foaf:nick "Zia Selma" ;
     foaf:gender "female" ;
     org:memberOf vocang:vocabolieriOrg ;
@@ -317,6 +331,7 @@ vocang:rosatelliAnna
     a vocang:Vocaboliere ;
     foaf:firstName "Anna" ;
     foaf:lastName "Rosatelli" ;
+    dct:description "Anna è una cosplayer piena di vita, ma se la mettete in un bosco e la equipaggiate a dovere, probabilmente nel giro di qualche ora la trovereste morta sbranata da un coniglietto.";
     foaf:gender "female" ;
     org:memberOf vocang:vocabolieriOrg ;
     rel:spouseOf vocang:suscaMatteo ;
@@ -326,6 +341,7 @@ vocang:scattoniAlessandra
     a vocang:Vocaboliere ;
     foaf:firstName "Alessandra" ;
     foaf:lastName "Scattoni" ;
+    dct:description "Ho un conto in sospeso con questa ragazza, campionessa mondiale di bowling. Un giorno vincerò contro di me. Lontano.";
     foaf:gender "female" ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/scattoniAlessandra.jpg" ;
     org:memberOf vocang:vocabolieriOrg ;
@@ -338,6 +354,7 @@ vocang:durazziMarco
     foaf:lastName "Durazzi" ;
     foaf:nick "Duraz" ;
     foaf:gender "male" ;
+    dct:description "Duraz ci ha badato 67 anni a creare la sua prima parolangelo, ma ora ha preso il via. Sono fiero di te. La sua peculiarità principale è che il suo nome viene continuamente storpiato in modi assurdi. Alcuni esempi notevoli ricadono su Durex, Duracell, Duddi Du, o Andrea.";
     org:memberOf vocang:vocabolieriOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/durazziMarco.jpg" ;
     rel:friendOf vocang:bailettiTommaso, vocang:sanchiPiero, vocang:salhiSamir, vocang:rosatelliAnna, vocang:radicchiGiovanni, vocang:bianchiniGiovanni, vocang:pupitaAlberto,  vocang:mordacchiniCecilia, vocang:bdeouiEddy, vocang:bragariAlexandru, vocang:filasetaAngelo, vocang:savoGiorgia, vocang:battaglinoNicole, vocang:omiccioliRiccardo, vocang:pertosaLorenzo, vocang:timpanoSam, vocang:ribaudoSofia .
