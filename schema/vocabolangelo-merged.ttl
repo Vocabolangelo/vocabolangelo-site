@@ -30,6 +30,7 @@
 <http://www.vocabolangelo.org/filasetaAngelo> <http://xmlns.com/foaf/0.1/lastName> "Filaseta" .
 <http://www.vocabolangelo.org/filasetaAngelo> <http://xmlns.com/foaf/0.1/nick> "Ange" .
 <http://www.vocabolangelo.org/filasetaAngelo> <http://xmlns.com/foaf/0.1/gender> "male" .
+<http://www.vocabolangelo.org/filasetaAngelo> <http://purl.org/dc/terms/description> "Sono proprio io, il fondatore del Vocabolangelo! Mi chiamo Angelo e io sono me stesso. Se conosci il Vocabolangelo probabilmente è perché conosci me. Se invece non mi conosci, ma conosci il Vocabolangelo, significa che questa cosa mi sta leggermente sfuggendo di mano. Buona permanenza e hai appena perso il gioco." .
 <http://www.vocabolangelo.org/filasetaAngelo> <http://www.w3.org/ns/org#memberOf> <http://www.vocabolangelo.org/vocaboladminOrg> .
 <http://www.vocabolangelo.org/filasetaAngelo> <https://schema.org/image> "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/filasetaAngelo.jpeg" .
 <http://www.vocabolangelo.org/filasetaAngelo> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/cortecchiaAngela> .
@@ -50,6 +51,7 @@
 <http://www.vocabolangelo.org/savoGiorgia> <http://xmlns.com/foaf/0.1/lastName> "Savo" .
 <http://www.vocabolangelo.org/savoGiorgia> <http://xmlns.com/foaf/0.1/nick> "GioGio" .
 <http://www.vocabolangelo.org/savoGiorgia> <http://xmlns.com/foaf/0.1/gender> "female" .
+<http://www.vocabolangelo.org/savoGiorgia> <http://purl.org/dc/terms/description> "Questa è la mia bellissima ragazza. Di solito inventa parolangelo mediamente offensive. Ama il K-pop, ama mangiare cose dolci che mi fanno venire il diabete solo a guardarle e ama me (spero). Sono molto fortunato ad averla trovata dopo tutte le tizie psicopatiche che mi sono capitate nella mia vita. Ti amo piccola. " .
 <http://www.vocabolangelo.org/savoGiorgia> <http://www.w3.org/ns/org#memberOf> <http://www.vocabolangelo.org/vocabolieriOrg> .
 <http://www.vocabolangelo.org/savoGiorgia> <https://schema.org/image> "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/savoGiorgia.jpg" .
 <http://www.vocabolangelo.org/savoGiorgia> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/cortecchiaAngela> .
@@ -66,6 +68,7 @@
 <http://www.vocabolangelo.org/bragariAlexandru> <http://xmlns.com/foaf/0.1/lastName> "Bragari" .
 <http://www.vocabolangelo.org/bragariAlexandru> <http://xmlns.com/foaf/0.1/nick> "Sasha" .
 <http://www.vocabolangelo.org/bragariAlexandru> <http://xmlns.com/foaf/0.1/gender> "male" .
+<http://www.vocabolangelo.org/bragariAlexandru> <http://purl.org/dc/terms/description> "Il vero agente del caos. Ha il record di parole rejectate perché non riesce ad attenersi alle fottute regole. Avere una discussione con lui è molto difficile perché cerca di filosofeggiare e astrarre tutto senza mai arrivare a una vera e propria conclusione. Nonostante tutto gli voglio bene. Inoltre copilot ha cercato di farmi scrivere che è rumeno anche se tecnicamente è scorretto." .
 <http://www.vocabolangelo.org/bragariAlexandru> <http://www.w3.org/ns/org#memberOf> <http://www.vocabolangelo.org/vocaboladminOrg> .
 <http://www.vocabolangelo.org/bragariAlexandru> <https://schema.org/image> "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/bragariAlexandru.jpg" .
 <http://www.vocabolangelo.org/bragariAlexandru> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/bailettiTommaso> .
@@ -82,6 +85,7 @@
 <http://www.vocabolangelo.org/battaglinoNicole> <http://xmlns.com/foaf/0.1/lastName> "Battaglino" .
 <http://www.vocabolangelo.org/battaglinoNicole> <http://xmlns.com/foaf/0.1/nick> "Batta" .
 <http://www.vocabolangelo.org/battaglinoNicole> <http://xmlns.com/foaf/0.1/gender> "female" .
+<http://www.vocabolangelo.org/battaglinoNicole> <http://purl.org/dc/terms/description> "Uno dei tre pilastri del Vocabolangelo sono le parolangelo correlate al sesso. Quando penso a Nicole mi vengono in mente moltissime parolangelo create da lei che hanno a che fare con questo tema. Non a caso non vede l'ora di peggarmi con un cazzo lungo almeno 20cm. Continua così Nicole, il mondo ha bisogno di un mare di orgasmi." .
 <http://www.vocabolangelo.org/battaglinoNicole> <http://www.w3.org/ns/org#memberOf> <http://www.vocabolangelo.org/vocabolieriOrg> .
 <http://www.vocabolangelo.org/battaglinoNicole> <https://schema.org/image> "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/battaglinoNicole.jpg" .
 <http://www.vocabolangelo.org/battaglinoNicole> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/bailettiTommaso> .
@@ -96,6 +100,7 @@
 <http://www.vocabolangelo.org/omiccioliRiccardo> <http://xmlns.com/foaf/0.1/lastName> "Omiccioli" .
 <http://www.vocabolangelo.org/omiccioliRiccardo> <http://xmlns.com/foaf/0.1/nick> "Miccio" .
 <http://www.vocabolangelo.org/omiccioliRiccardo> <http://xmlns.com/foaf/0.1/gender> "male" .
+<http://www.vocabolangelo.org/omiccioliRiccardo> <http://purl.org/dc/terms/description> "Miccio ha sempre lo strumento che ti serve quanto ti serve. È uno dei vocabolieri più attivi, anche se a volte fa il parolassita e si mette in mezzo al cazzo anche quando nessuno lo richiede. Inoltre spesso è primo in classifica per quanto riguarda il numero di parolangelo inventate. Non mi sembra che questo si chiami Vocabomiccio, quindi levati dal cazzo please." .
 <http://www.vocabolangelo.org/omiccioliRiccardo> <http://www.w3.org/ns/org#memberOf> <http://www.vocabolangelo.org/vocaboladminOrg> .
 <http://www.vocabolangelo.org/omiccioliRiccardo> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/cortecchiaAngela> .
 <http://www.vocabolangelo.org/omiccioliRiccardo> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/bailettiTommaso> .
@@ -110,6 +115,7 @@
 <http://www.vocabolangelo.org/pertosaLorenzo> <http://xmlns.com/foaf/0.1/lastName> "Pertosa" .
 <http://www.vocabolangelo.org/pertosaLorenzo> <http://xmlns.com/foaf/0.1/nick> "P" .
 <http://www.vocabolangelo.org/pertosaLorenzo> <http://xmlns.com/foaf/0.1/gender> "male" .
+<http://www.vocabolangelo.org/pertosaLorenzo> <http://purl.org/dc/terms/description> "Non so neanche da dove cominciare per descrivere questo crucianiano schifoso. La qualità delle parolangelo che crea oscilla come le azioni in borsa dopo un tweet di Elon Musk. A volte è un genio, spesso è un coglione. Ma se avessi un infarto sarebbe anche uno dei pochi in grado di salvarmi la vita. Nel complesso, almeno siamo d'accordo su una cosa: il Vocabolangelo è una figata." .
 <http://www.vocabolangelo.org/pertosaLorenzo> <http://www.w3.org/ns/org#memberOf> <http://www.vocabolangelo.org/vocaboladminOrg> .
 <http://www.vocabolangelo.org/pertosaLorenzo> <https://schema.org/image> "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/pertosaLorenzo.jpg" .
 <http://www.vocabolangelo.org/pertosaLorenzo> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/bailettiTommaso> .
@@ -122,6 +128,7 @@
 <http://www.vocabolangelo.org/timpanoSam> <http://xmlns.com/foaf/0.1/lastName> "Timpano" .
 <http://www.vocabolangelo.org/timpanoSam> <http://xmlns.com/foaf/0.1/nick> "Sam" .
 <http://www.vocabolangelo.org/timpanoSam> <http://xmlns.com/foaf/0.1/gender> "non-binary" .
+<http://www.vocabolangelo.org/timpanoSam> <http://purl.org/dc/terms/description> "Sam, la perdi tutta!" .
 <http://www.vocabolangelo.org/timpanoSam> <http://www.w3.org/ns/org#memberOf> <http://www.vocabolangelo.org/vocabolieriOrg> .
 <http://www.vocabolangelo.org/timpanoSam> <https://schema.org/image> "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/timpanoSam.jpg" .
 <http://www.vocabolangelo.org/timpanoSam> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/salhiSamir> .
@@ -130,6 +137,7 @@
 <http://www.vocabolangelo.org/ribaudoSofia> <http://xmlns.com/foaf/0.1/firstName> "Sofia" .
 <http://www.vocabolangelo.org/ribaudoSofia> <http://xmlns.com/foaf/0.1/lastName> "Ribaudo" .
 <http://www.vocabolangelo.org/ribaudoSofia> <http://xmlns.com/foaf/0.1/gender> "female" .
+<http://www.vocabolangelo.org/ribaudoSofia> <http://purl.org/dc/terms/description> "Sofia ama togliermi le sopracciglia con le pinzette e si incazza con me quando le rejecto le parolangelo inventate da lei che usa già mezzo pianeta terra. È una nanetta ma in fondo nella botte piccola c'è comunque del vino." .
 <http://www.vocabolangelo.org/ribaudoSofia> <http://www.w3.org/ns/org#memberOf> <http://www.vocabolangelo.org/vocabolieriOrg> .
 <http://www.vocabolangelo.org/ribaudoSofia> <https://schema.org/image> "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/ribaudoSofia.jpg" .
 <http://www.vocabolangelo.org/ribaudoSofia> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/bailettiTommaso> .
@@ -137,6 +145,7 @@
 <http://www.vocabolangelo.org/talmiAlessandro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Vocaboliere> .
 <http://www.vocabolangelo.org/talmiAlessandro> <http://xmlns.com/foaf/0.1/firstName> "Alessandro" .
 <http://www.vocabolangelo.org/talmiAlessandro> <http://xmlns.com/foaf/0.1/lastName> "Talmi" .
+<http://www.vocabolangelo.org/talmiAlessandro> <http://purl.org/dc/terms/description> "Ale ha sopportato le pene dell'inferno quando è stato costretto a sopportarmi in periodo quarantena. Sotto questo punto di vista nessuno ha una potenza mentale maggiore della sua. Inoltre è molto bravo a spendere soldi in figurine (proprio come me)." .
 <http://www.vocabolangelo.org/talmiAlessandro> <http://xmlns.com/foaf/0.1/nick> "Dizi" .
 <http://www.vocabolangelo.org/talmiAlessandro> <http://xmlns.com/foaf/0.1/gender> "male" .
 <http://www.vocabolangelo.org/talmiAlessandro> <http://www.w3.org/ns/org#memberOf> <http://www.vocabolangelo.org/vocabolieriOrg> .
@@ -721,16 +730,29 @@
 <http://www.vocabolangelo.org/aguzziGianluca> <http://xmlns.com/foaf/0.1/lastName> "Aguzzi" .
 <http://www.vocabolangelo.org/aguzziGianluca> <http://xmlns.com/foaf/0.1/gender> "male" .
 <http://www.vocabolangelo.org/aguzziGianluca> <http://www.w3.org/ns/org#memberOf> <http://www.vocabolangelo.org/vocabolieriOrg> .
+<http://www.vocabolangelo.org/aguzziGianluca> <http://www.perceive.net/schemas/20021119/relationship/#spouseOf> <http://www.vocabolangelo.org/cortecchiaAngela> .
 <http://www.vocabolangelo.org/aguzziGianluca> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/magniniMatteo> .
 <http://www.vocabolangelo.org/aguzziGianluca> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/filasetaAngelo> .
-<http://www.vocabolangelo.org/daniloPianini> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Vocaboliere> .
-<http://www.vocabolangelo.org/daniloPianini> <http://xmlns.com/foaf/0.1/firstName> "Danilo" .
-<http://www.vocabolangelo.org/daniloPianini> <http://xmlns.com/foaf/0.1/lastName> "Pianini" .
-<http://www.vocabolangelo.org/daniloPianini> <http://xmlns.com/foaf/0.1/gender> "male" .
-<http://www.vocabolangelo.org/daniloPianini> <http://www.w3.org/ns/org#memberOf> <http://www.vocabolangelo.org/vocabolieriOrg> .
-<http://www.vocabolangelo.org/daniloPianini> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/filasetaAngelo> .
-<http://www.vocabolangelo.org/daniloPianini> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/aguzziGianluca> .
-<http://www.vocabolangelo.org/daniloPianini> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/magniniMatteo> .
+<http://www.vocabolangelo.org/pianiniDanilo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Vocaboliere> .
+<http://www.vocabolangelo.org/pianiniDanilo> <http://xmlns.com/foaf/0.1/firstName> "Danilo" .
+<http://www.vocabolangelo.org/pianiniDanilo> <http://xmlns.com/foaf/0.1/lastName> "Pianini" .
+<http://www.vocabolangelo.org/pianiniDanilo> <http://xmlns.com/foaf/0.1/gender> "male" .
+<http://www.vocabolangelo.org/pianiniDanilo> <http://www.w3.org/ns/org#memberOf> <http://www.vocabolangelo.org/vocabolieriOrg> .
+<http://www.vocabolangelo.org/pianiniDanilo> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/filasetaAngelo> .
+<http://www.vocabolangelo.org/pianiniDanilo> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/aguzziGianluca> .
+<http://www.vocabolangelo.org/pianiniDanilo> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/magniniMatteo> .
+<http://www.vocabolangelo.org/antonioniGiovanni> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Vocaboliere> .
+<http://www.vocabolangelo.org/antonioniGiovanni> <http://xmlns.com/foaf/0.1/firstName> "Giovanni" .
+<http://www.vocabolangelo.org/antonioniGiovanni> <http://xmlns.com/foaf/0.1/lastName> "Antonioni" .
+<http://www.vocabolangelo.org/antonioniGiovanni> <http://xmlns.com/foaf/0.1/gender> "male" .
+<http://www.vocabolangelo.org/antonioniGiovanni> <http://purl.org/dc/terms/description> "Un Fanobro ritrovato nella ridente città di Cesena. Mi ha fatto capire quanto il mondo sia minuscolo e mi ha fatto ricordare momenti epici avvenuti in posti molto poco raccomandabili. Si incazza con me quando gli offro le birre e i caffè." .
+<http://www.vocabolangelo.org/antonioniGiovanni> <http://www.w3.org/ns/org#memberOf> <http://www.vocabolangelo.org/vocabolieriOrg> .
+<http://www.vocabolangelo.org/antonioniGiovanni> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/cortecchiaAngela> .
+<http://www.vocabolangelo.org/antonioniGiovanni> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/pianiniDanilo> .
+<http://www.vocabolangelo.org/antonioniGiovanni> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/filasetaAngelo> .
+<http://www.vocabolangelo.org/antonioniGiovanni> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/aguzziGianluca> .
+<http://www.vocabolangelo.org/antonioniGiovanni> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/magniniMatteo> .
+<http://www.vocabolangelo.org/antonioniGiovanni> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/bragariAlexandru> .
 <http://www.vocabolangelo.org/chatGPT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/skgo/modsci#ArtificialIntelligence> .
 <http://www.vocabolangelo.org/chatGPT> <http://xmlns.com/foaf/0.1/firstName> "ChatGPT" .
 <http://www.vocabolangelo.org/chatGPT> <https://schema.org/url> "https://openai.com/blog/chatgpt" .
@@ -10119,3 +10141,34 @@
 <http://www.vocabolangelo.org/orgasmaggio> <http://purl.org/dc/terms/created> "2024-04-28" .
 <http://www.vocabolangelo.org/orgasmaggio> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/battaglinoNicole> .
 <http://www.vocabolangelo.org/orgasmaggio> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/minoccheriAlessandra> .
+<http://www.vocabolangelo.org/mekka> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/mekka> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mekka"@it .
+<http://www.vocabolangelo.org/mekka> <http://www.w3.org/2004/02/skos/core#definition> "Una meka grande come la Mecca."@it .
+<http://www.vocabolangelo.org/mekka> <http://www.w3.org/2004/02/skos/core#example> "Ieri sera ho visto una mekka. Era molto grande e imponente!"@it .
+<http://www.vocabolangelo.org/mekka> <https://schema.org/keywords> "meka, grande, mecca, imponente" .
+<http://www.vocabolangelo.org/mekka> <http://purl.org/dc/terms/created> "2024-05-01" .
+<http://www.vocabolangelo.org/mekka> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/bianchiniGiovanni> .
+<http://www.vocabolangelo.org/oltretromba> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/oltretromba> <http://www.w3.org/2004/02/skos/core#prefLabel> "Oltretromba"@it .
+<http://www.vocabolangelo.org/oltretromba> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/ol • tre • tròm • ba/"@it .
+<http://www.vocabolangelo.org/oltretromba> <http://www.w3.org/2004/02/skos/core#definition> "Piano extraterreno in cui si finisce se si muore mentre si compie un rapporto sessuale."@it .
+<http://www.vocabolangelo.org/oltretromba> <http://www.w3.org/2004/02/skos/core#example> "Mi sono ritrovato nell'oltretromba dopo aver scopato con la segretaria!"@it .
+<http://www.vocabolangelo.org/oltretromba> <https://schema.org/keywords> "piano, extraterreno, morte, rapporto, sessuale" .
+<http://www.vocabolangelo.org/oltretromba> <http://purl.org/dc/terms/created> "2024-05-01" .
+<http://www.vocabolangelo.org/oltretromba> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/cablioletto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/cablioletto> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cablioletto"@it .
+<http://www.vocabolangelo.org/cablioletto> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/ca • bli • ò • let • to/"@it .
+<http://www.vocabolangelo.org/cablioletto> <http://www.w3.org/2004/02/skos/core#definition> "Letto dotato di ruote."@it .
+<http://www.vocabolangelo.org/cablioletto> <http://www.w3.org/2004/02/skos/core#example> "Ieri sera ho dormito su un cablioletto. Mi sono svegliato in mezzo alla strada!"@it .
+<http://www.vocabolangelo.org/cablioletto> <https://schema.org/keywords> "letto, ruote, comodo, svegliare, cucina" .
+<http://www.vocabolangelo.org/cablioletto> <http://purl.org/dc/terms/created> "2024-05-01" .
+<http://www.vocabolangelo.org/cablioletto> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/ribaudoSofia> .
+<http://www.vocabolangelo.org/fanobro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/fanobro> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fanobro"@it .
+<http://www.vocabolangelo.org/fanobro> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/fa • no • brò/"@it .
+<http://www.vocabolangelo.org/fanobro> <http://www.w3.org/2004/02/skos/core#definition> "Bro proveniente dalla città di Fano."@it .
+<http://www.vocabolangelo.org/fanobro> <http://www.w3.org/2004/02/skos/core#example> "Angelo è il mio Fanobro. Ogni sera ci ubriachiamo al Green Pub e prendiamo per il culo i pesaresi!"@it .
+<http://www.vocabolangelo.org/fanobro> <https://schema.org/keywords> "fano, pesaro merda, bro" .
+<http://www.vocabolangelo.org/fanobro> <http://purl.org/dc/terms/created> "2024-05-03" .
+<http://www.vocabolangelo.org/fanobro> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/antonioniGiovanni> .

@@ -70,6 +70,7 @@ vocang:filasetaAngelo
     foaf:lastName "Filaseta" ;
     foaf:nick "Ange" ;
     foaf:gender "male" ;
+    dct:description "Sono proprio io, il fondatore del Vocabolangelo! Mi chiamo Angelo e io sono me stesso. Se conosci il Vocabolangelo probabilmente è perché conosci me. Se invece non mi conosci, ma conosci il Vocabolangelo, significa che questa cosa mi sta leggermente sfuggendo di mano. Buona permanenza e hai appena perso il gioco." ;
     org:memberOf vocang:vocaboladminOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/filasetaAngelo.jpeg" ;
     rel:friendOf vocang:cortecchiaAngela, vocang:bassiAndrea, vocang:bailettiTommaso, vocang:sanchiPiero, vocang:tronettiElisa, vocang:salhiSamir, vocang:bragariAlexandru , vocang:battaglinoNicole , vocang:omiccioliRiccardo , vocang:pertosaLorenzo , vocang:timpanoSam , vocang:ribaudoSofia ;
@@ -81,6 +82,7 @@ vocang:savoGiorgia
     foaf:lastName "Savo" ;
     foaf:nick "GioGio" ;
     foaf:gender "female" ;
+    dct:description "Questa è la mia bellissima ragazza. Di solito inventa parolangelo mediamente offensive. Ama il K-pop, ama mangiare cose dolci che mi fanno venire il diabete solo a guardarle e ama me (spero). Sono molto fortunato ad averla trovata dopo tutte le tizie psicopatiche che mi sono capitate nella mia vita. Ti amo piccola. " ;
     org:memberOf vocang:vocabolieriOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/savoGiorgia.jpg" ;
     rel:friendOf vocang:cortecchiaAngela, vocang:bailettiTommaso, vocang:salhiSamir, vocang:bragariAlexandru , vocang:battaglinoNicole , vocang:omiccioliRiccardo , vocang:pertosaLorenzo, vocang:timpanoSam , vocang:ribaudoSofia .
@@ -91,6 +93,7 @@ vocang:bragariAlexandru
     foaf:lastName "Bragari" ;
     foaf:nick "Sasha" ;
     foaf:gender "male" ;
+    dct:description "Il vero agente del caos. Ha il record di parole rejectate perché non riesce ad attenersi alle fottute regole. Avere una discussione con lui è molto difficile perché cerca di filosofeggiare e astrarre tutto senza mai arrivare a una vera e propria conclusione. Nonostante tutto gli voglio bene. Inoltre copilot ha cercato di farmi scrivere che è rumeno anche se tecnicamente è scorretto." ;
     org:memberOf vocang:vocaboladminOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/bragariAlexandru.jpg" ;
     rel:friendOf vocang:bailettiTommaso, vocang:sanchiPiero, vocang:tronettiElisa, vocang:salhiSamir, vocang:battaglinoNicole , vocang:omiccioliRiccardo , vocang:pertosaLorenzo , vocang:timpanoSam , vocang:ribaudoSofia .
@@ -101,6 +104,7 @@ vocang:battaglinoNicole
     foaf:lastName "Battaglino" ;
     foaf:nick "Batta" ;
     foaf:gender "female" ;
+    dct:description "Uno dei tre pilastri del Vocabolangelo sono le parolangelo correlate al sesso. Quando penso a Nicole mi vengono in mente moltissime parolangelo create da lei che hanno a che fare con questo tema. Non a caso non vede l'ora di peggarmi con un cazzo lungo almeno 20cm. Continua così Nicole, il mondo ha bisogno di un mare di orgasmi." ;
     org:memberOf vocang:vocabolieriOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/battaglinoNicole.jpg" ;
     rel:friendOf vocang:bailettiTommaso, vocang:sanchiPiero, vocang:salhiSamir, vocang:pertosaLorenzo , vocang:timpanoSam , vocang:ribaudoSofia ;
@@ -112,6 +116,7 @@ vocang:omiccioliRiccardo
     foaf:lastName "Omiccioli" ;
     foaf:nick "Miccio" ;
     foaf:gender "male" ;
+    dct:description "Miccio ha sempre lo strumento che ti serve quanto ti serve. È uno dei vocabolieri più attivi, anche se a volte fa il parolassita e si mette in mezzo al cazzo anche quando nessuno lo richiede. Inoltre spesso è primo in classifica per quanto riguarda il numero di parolangelo inventate. Non mi sembra che questo si chiami Vocabomiccio, quindi levati dal cazzo please." ;
     org:memberOf vocang:vocaboladminOrg ;
     rel:friendOf vocang:cortecchiaAngela, vocang:bailettiTommaso, vocang:sanchiPiero, vocang:tronettiElisa, vocang:salhiSamir, vocang:pertosaLorenzo , vocang:timpanoSam , vocang:ribaudoSofia .
 
@@ -121,6 +126,7 @@ vocang:pertosaLorenzo
     foaf:lastName "Pertosa" ;
     foaf:nick "P" ;
     foaf:gender "male" ;
+    dct:description "Non so neanche da dove cominciare per descrivere questo crucianiano schifoso. La qualità delle parolangelo che crea oscilla come le azioni in borsa dopo un tweet di Elon Musk. A volte è un genio, spesso è un coglione. Ma se avessi un infarto sarebbe anche uno dei pochi in grado di salvarmi la vita. Nel complesso, almeno siamo d'accordo su una cosa: il Vocabolangelo è una figata." ;
     org:memberOf vocang:vocaboladminOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/pertosaLorenzo.jpg" ;
     rel:friendOf vocang:bailettiTommaso, vocang:sanchiPiero, vocang:salhiSamir, vocang:timpanoSam , vocang:ribaudoSofia .
@@ -131,6 +137,7 @@ vocang:timpanoSam
     foaf:lastName "Timpano" ;
     foaf:nick "Sam" ;
     foaf:gender "non-binary" ;
+    dct:description "Sam, la perdi tutta!" ;
     org:memberOf vocang:vocabolieriOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/timpanoSam.jpg" ;
     rel:friendOf vocang:salhiSamir, vocang:ribaudoSofia .
@@ -140,6 +147,7 @@ vocang:ribaudoSofia
     foaf:firstName "Sofia" ;
     foaf:lastName "Ribaudo" ;
     foaf:gender "female" ;
+    dct:description "Sofia ama togliermi le sopracciglia con le pinzette e si incazza con me quando le rejecto le parolangelo inventate da lei che usa già mezzo pianeta terra. È una nanetta ma in fondo nella botte piccola c'è comunque del vino.";
     org:memberOf vocang:vocabolieriOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/ribaudoSofia.jpg" ;
     rel:friendOf vocang:bailettiTommaso, vocang:sanchiPiero .
@@ -148,6 +156,7 @@ vocang:talmiAlessandro
     a vocang:Vocaboliere ;
     foaf:firstName "Alessandro" ;
     foaf:lastName "Talmi" ;
+    dct:description "Ale ha sopportato le pene dell'inferno quando è stato costretto a sopportarmi in periodo quarantena. Sotto questo punto di vista nessuno ha una potenza mentale maggiore della sua. Inoltre è molto bravo a spendere soldi in figurine (proprio come me).";
     foaf:nick "Dizi" ;
     foaf:gender "male" ;
     org:memberOf vocang:vocabolieriOrg ;
@@ -603,15 +612,25 @@ vocang:aguzziGianluca
     foaf:lastName "Aguzzi" ;
     foaf:gender "male" ;
     org:memberOf vocang:vocabolieriOrg ;
+    rel:spouseOf vocang:cortecchiaAngela ;
     rel:friendOf vocang:magniniMatteo, vocang:filasetaAngelo .
 
-vocang:daniloPianini
+vocang:pianiniDanilo
     a vocang:Vocaboliere ;
     foaf:firstName "Danilo" ;
     foaf:lastName "Pianini" ;
     foaf:gender "male";
     org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:filasetaAngelo, vocang:aguzziGianluca, vocang:magniniMatteo .
+
+vocang:antonioniGiovanni
+    a vocang:Vocaboliere ;
+    foaf:firstName "Giovanni" ;
+    foaf:lastName "Antonioni" ;
+    foaf:gender "male";
+    dct:description "Un Fanobro ritrovato nella ridente città di Cesena. Mi ha fatto capire quanto il mondo sia minuscolo e mi ha fatto ricordare momenti epici avvenuti in posti molto poco raccomandabili. Si incazza con me quando gli offro le birre e i caffè.";
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:cortecchiaAngela, vocang:pianiniDanilo, vocang:filasetaAngelo, vocang:aguzziGianluca, vocang:magniniMatteo, vocang:bragariAlexandru .
 
 # Other Author Individuals
 
@@ -11505,3 +11524,42 @@ vocang:orgasmaggio
     schema:keywords "orgasmo, lunga, astinenza, stagionare, formaggio, intenso, tremare";
     dct:created "2024-04-28" ;
     dct:creator vocang:battaglinoNicole, vocang:minoccheriAlessandra .
+
+vocang:mekka
+    a vocang:Parolangelo ;
+    skos:prefLabel "Mekka"@it ;
+    skos:definition "Una meka grande come la Mecca."@it ;
+    skos:example "Ieri sera ho visto una mekka. Era molto grande e imponente!"@it ;
+    schema:keywords "meka, grande, mecca, imponente";
+    dct:created "2024-05-01" ;
+    dct:creator vocang:bianchiniGiovanni .
+
+vocang:oltretromba
+    a vocang:Parolangelo ;
+    skos:prefLabel "Oltretromba"@it ;
+    lexinfo:pronunciation "/ol • tre • tròm • ba/"@it ;
+    skos:definition "Piano extraterreno in cui si finisce se si muore mentre si compie un rapporto sessuale."@it ;
+    skos:example "Mi sono ritrovato nell'oltretromba dopo aver scopato con la segretaria!"@it ;
+    schema:keywords "piano, extraterreno, morte, rapporto, sessuale";
+    dct:created "2024-05-01" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:cablioletto
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cablioletto"@it ;
+    lexinfo:pronunciation "/ca • bli • ò • let • to/"@it ;
+    skos:definition "Letto dotato di ruote."@it ;
+    skos:example "Ieri sera ho dormito su un cablioletto. Mi sono svegliato in mezzo alla strada!"@it ;
+    schema:keywords "letto, ruote, comodo, svegliare, cucina";
+    dct:created "2024-05-01" ;
+    dct:creator vocang:ribaudoSofia .
+
+vocang:fanobro
+    a vocang:Parolangelo ;
+    skos:prefLabel "Fanobro"@it ;
+    lexinfo:pronunciation "/fa • no • brò/"@it ;
+    skos:definition "Bro proveniente dalla città di Fano."@it ;
+    skos:example "Angelo è il mio Fanobro. Ogni sera ci ubriachiamo al Green Pub e prendiamo per il culo i pesaresi!"@it ;
+    schema:keywords "fano, pesaro merda, bro";
+    dct:created "2024-05-03" ;
+    dct:creator vocang:antonioniGiovanni .
