@@ -159,6 +159,7 @@
 <http://www.vocabolangelo.org/orlandoNicola> <http://xmlns.com/foaf/0.1/lastName> "Orlando" .
 <http://www.vocabolangelo.org/orlandoNicola> <http://xmlns.com/foaf/0.1/nick> "Orla" .
 <http://www.vocabolangelo.org/orlandoNicola> <http://xmlns.com/foaf/0.1/gender> "male" .
+<http://www.vocabolangelo.org/orlandoNicola> <http://purl.org/dc/terms/description> "Orla è una persona molto tranquilla e religiosa; riesce a mantenere consistente il supo ciclo del sonno in una maniera alquanto invidiabile. Amo le sue parolangelo che sono spesso funzionali o nate dal caso o da qualche evento divertente, mai scontate." .
 <http://www.vocabolangelo.org/orlandoNicola> <http://www.w3.org/ns/org#memberOf> <http://www.vocabolangelo.org/vocaboladminOrg> .
 <http://www.vocabolangelo.org/orlandoNicola> <https://schema.org/image> "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/orlandoNicola.jpg" .
 <http://www.vocabolangelo.org/orlandoNicola> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/cortecchiaAngela> .
@@ -200,6 +201,7 @@
 <http://www.vocabolangelo.org/fanaraGiuliano> <http://xmlns.com/foaf/0.1/lastName> "Fanara" .
 <http://www.vocabolangelo.org/fanaraGiuliano> <http://xmlns.com/foaf/0.1/nick> "Jiuj" .
 <http://www.vocabolangelo.org/fanaraGiuliano> <http://xmlns.com/foaf/0.1/gender> "male" .
+<http://www.vocabolangelo.org/fanaraGiuliano> <http://purl.org/dc/terms/description> "Il mio caro amico si Albano Laziale. Ama Fossombrone e tutto ciò che riguarda Fossombrone. Il suo monumento preferito è il ponte di Fossombrone, il suo bar preferito si trova a Fossombrone, e da grande vuole diventare Fossombrone. Alquanto ammirevole." .
 <http://www.vocabolangelo.org/fanaraGiuliano> <http://www.w3.org/ns/org#memberOf> <http://www.vocabolangelo.org/vocabolieriOrg> .
 <http://www.vocabolangelo.org/fanaraGiuliano> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/salhiSamir> .
 <http://www.vocabolangelo.org/fanaraGiuliano> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/durazziMarco> .
@@ -215,6 +217,7 @@
 <http://www.vocabolangelo.org/suscaMatteo> <http://xmlns.com/foaf/0.1/firstName> "Matteo" .
 <http://www.vocabolangelo.org/suscaMatteo> <http://xmlns.com/foaf/0.1/lastName> "Susca" .
 <http://www.vocabolangelo.org/suscaMatteo> <http://xmlns.com/foaf/0.1/gender> "male" .
+<http://www.vocabolangelo.org/suscaMatteo> <http://purl.org/dc/terms/description> "Un Ronaldo enjoyer che non segue il calcio. È uno dei Gen Z più Gen Z che conosco. Nonostante la sua mascolinità tossica ama gossippare. Credo sia attratto sessualmente da me." .
 <http://www.vocabolangelo.org/suscaMatteo> <http://www.w3.org/ns/org#memberOf> <http://www.vocabolangelo.org/vocaboladminOrg> .
 <http://www.vocabolangelo.org/suscaMatteo> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/bailettiTommaso> .
 <http://www.vocabolangelo.org/suscaMatteo> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/salhiSamir> .
@@ -234,6 +237,7 @@
 <http://www.vocabolangelo.org/minoccheriAlessandra> <http://xmlns.com/foaf/0.1/firstName> "Alessandra" .
 <http://www.vocabolangelo.org/minoccheriAlessandra> <http://xmlns.com/foaf/0.1/lastName> "Minoccheri" .
 <http://www.vocabolangelo.org/minoccheriAlessandra> <http://xmlns.com/foaf/0.1/gender> "female" .
+<http://www.vocabolangelo.org/minoccheriAlessandra> <http://purl.org/dc/terms/description> "Alessandra è la mia scopàmica; possiede una copia fisica dei sensuali di parcheggio e non ha paura di utilizzarli. È incazzata a giorni alterni, spesso grazie a me." .
 <http://www.vocabolangelo.org/minoccheriAlessandra> <https://schema.org/image> "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/minoccheriAlessandra.jpg" .
 <http://www.vocabolangelo.org/minoccheriAlessandra> <http://www.w3.org/ns/org#memberOf> <http://www.vocabolangelo.org/vocabolieriOrg> .
 <http://www.vocabolangelo.org/minoccheriAlessandra> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/bassiAndrea> .
@@ -252,6 +256,7 @@
 <http://www.vocabolangelo.org/nardiniArianna> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Vocaboliere> .
 <http://www.vocabolangelo.org/nardiniArianna> <http://xmlns.com/foaf/0.1/firstName> "Arianna" .
 <http://www.vocabolangelo.org/nardiniArianna> <http://xmlns.com/foaf/0.1/lastName> "Nardini" .
+<http://www.vocabolangelo.org/nardiniArianna> <http://purl.org/dc/terms/description> "Arianna è la mia amica quasi comunista (o fose lo è e tenta di mimetizzarsi). Pensa che il microonde non sia un elettrodomestico di classe, ma al mondo è assolutamente concesso avere opinioni sbaglaite. Almeno in una cosa siamo d'accordo però. Il vocabolanelo è di tutti *meme di bugs bunny che dice ours*" .
 <http://www.vocabolangelo.org/nardiniArianna> <http://xmlns.com/foaf/0.1/gender> "female" .
 <http://www.vocabolangelo.org/nardiniArianna> <http://www.w3.org/ns/org#memberOf> <http://www.vocabolangelo.org/vocabolieriOrg> .
 <http://www.vocabolangelo.org/nardiniArianna> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/salhiSamir> .
@@ -273,6 +278,7 @@
 <http://www.vocabolangelo.org/bdeouiEddy> <http://xmlns.com/foaf/0.1/lastName> "Bdeoui" .
 <http://www.vocabolangelo.org/bdeouiEddy> <http://xmlns.com/foaf/0.1/nick> "Eddy" .
 <http://www.vocabolangelo.org/bdeouiEddy> <http://xmlns.com/foaf/0.1/gender> "male" .
+<http://www.vocabolangelo.org/bdeouiEddy> <http://purl.org/dc/terms/description> "Prepatevi a passare dai guai, perché Eddy ha un asso nella manica e infinite conoscienze che non avrà timore di tramandarvi. Se pensate di conoscere il miglior ristorante in città, vi sbagliate di grosso. Eddy può consigliarvi un posto in cui servono cibo migliore, in maggiore quantità, e ad un prezzo stracciato. Sfidatelo e lui vincerà (o forse no)." .
 <http://www.vocabolangelo.org/bdeouiEddy> <http://www.w3.org/ns/org#memberOf> <http://www.vocabolangelo.org/vocabolieriOrg> .
 <http://www.vocabolangelo.org/bdeouiEddy> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/salhiSamir> .
 <http://www.vocabolangelo.org/bdeouiEddy> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/nardiniArianna> .
@@ -292,6 +298,7 @@
 <http://www.vocabolangelo.org/paoliMichele> <http://xmlns.com/foaf/0.1/firstName> "Michele" .
 <http://www.vocabolangelo.org/paoliMichele> <http://xmlns.com/foaf/0.1/lastName> "Paoli" .
 <http://www.vocabolangelo.org/paoliMichele> <http://xmlns.com/foaf/0.1/gender> "male" .
+<http://www.vocabolangelo.org/paoliMichele> <http://purl.org/dc/terms/description> "MI-CHE-LE PAOOOOO-LIIIIII SHALALALALALAAA" .
 <http://www.vocabolangelo.org/paoliMichele> <http://www.w3.org/ns/org#memberOf> <http://www.vocabolangelo.org/vocabolieriOrg> .
 <http://www.vocabolangelo.org/paoliMichele> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/nardiniArianna> .
 <http://www.vocabolangelo.org/paoliMichele> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/minoccheriAlessandra> .
@@ -323,6 +330,7 @@
 <http://www.vocabolangelo.org/pupitaAlberto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Vocaboliere> .
 <http://www.vocabolangelo.org/pupitaAlberto> <http://xmlns.com/foaf/0.1/firstName> "Alberto" .
 <http://www.vocabolangelo.org/pupitaAlberto> <http://xmlns.com/foaf/0.1/lastName> "Pupita" .
+<http://www.vocabolangelo.org/pupitaAlberto> <http://purl.org/dc/terms/description> "Albi è un socialista. Credo. In realtà non lo so ma ha un irrefrenabile bisogno di dire Socio almeno 2 volte ogni frase per poter comunicare in maniera ragionevole. Forse il suo sogno segreto è lavorare alla Coop." .
 <http://www.vocabolangelo.org/pupitaAlberto> <http://xmlns.com/foaf/0.1/gender> "male" .
 <http://www.vocabolangelo.org/pupitaAlberto> <http://www.w3.org/ns/org#memberOf> <http://www.vocabolangelo.org/vocabolieriOrg> .
 <http://www.vocabolangelo.org/pupitaAlberto> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/salhiSamir> .
@@ -345,6 +353,7 @@
 <http://www.vocabolangelo.org/bianchiniGiovanni> <http://xmlns.com/foaf/0.1/firstName> "Giovanni" .
 <http://www.vocabolangelo.org/bianchiniGiovanni> <http://xmlns.com/foaf/0.1/lastName> "Bianchini" .
 <http://www.vocabolangelo.org/bianchiniGiovanni> <http://xmlns.com/foaf/0.1/gender> "male" .
+<http://www.vocabolangelo.org/bianchiniGiovanni> <http://purl.org/dc/terms/description> "Questa persone conosce più battute sul colore Bianco di quello che puoi aspettarti. Se pensi di averne appena inventata una nuova e rivoluzionaria ti sbagli. Non sei affatto speciale." .
 <http://www.vocabolangelo.org/bianchiniGiovanni> <http://www.w3.org/ns/org#memberOf> <http://www.vocabolangelo.org/vocabolieriOrg> .
 <http://www.vocabolangelo.org/bianchiniGiovanni> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/bassiAndrea> .
 <http://www.vocabolangelo.org/bianchiniGiovanni> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/bailettiTommaso> .
@@ -367,6 +376,7 @@
 <http://www.vocabolangelo.org/rossiLuca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Vocaboliere> .
 <http://www.vocabolangelo.org/rossiLuca> <http://xmlns.com/foaf/0.1/firstName> "Luca" .
 <http://www.vocabolangelo.org/rossiLuca> <http://xmlns.com/foaf/0.1/lastName> "Rossi" .
+<http://www.vocabolangelo.org/rossiLuca> <http://purl.org/dc/terms/description> "Probabilmente la persona più secca tra tutti i Vocabolieri. Ha un nome talmente basic che la sua mail universitaria aveva un numero a due cifre che serviva per differenziarlo da tutti gli altri." .
 <http://www.vocabolangelo.org/rossiLuca> <http://xmlns.com/foaf/0.1/gender> "male" .
 <http://www.vocabolangelo.org/rossiLuca> <http://www.w3.org/ns/org#memberOf> <http://www.vocabolangelo.org/vocabolieriOrg> .
 <http://www.vocabolangelo.org/rossiLuca> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/bailettiTommaso> .
@@ -381,6 +391,7 @@
 <http://www.vocabolangelo.org/deRosaLeonardo> <http://xmlns.com/foaf/0.1/firstName> "Leonardo" .
 <http://www.vocabolangelo.org/deRosaLeonardo> <http://xmlns.com/foaf/0.1/lastName> "De Rosa" .
 <http://www.vocabolangelo.org/deRosaLeonardo> <http://xmlns.com/foaf/0.1/nick> "Leo the 2nd" .
+<http://www.vocabolangelo.org/deRosaLeonardo> <http://purl.org/dc/terms/description> "Leo non è stato intelligente quando ha deciso di sua spontanea volontà di essere secondo a tutto." .
 <http://www.vocabolangelo.org/deRosaLeonardo> <http://xmlns.com/foaf/0.1/gender> "male" .
 <http://www.vocabolangelo.org/deRosaLeonardo> <http://www.w3.org/ns/org#memberOf> <http://www.vocabolangelo.org/vocabolieriOrg> .
 <http://www.vocabolangelo.org/deRosaLeonardo> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/filasetaAngelo> .
@@ -390,6 +401,7 @@
 <http://www.vocabolangelo.org/savoGianmarco> <http://xmlns.com/foaf/0.1/firstName> "Gianmarco" .
 <http://www.vocabolangelo.org/savoGianmarco> <http://xmlns.com/foaf/0.1/lastName> "Savo" .
 <http://www.vocabolangelo.org/savoGianmarco> <http://xmlns.com/foaf/0.1/gender> "male" .
+<http://www.vocabolangelo.org/savoGianmarco> <http://purl.org/dc/terms/description> "Il fratellone lesbico della mia ragazza. Ama il black humore e i soldi. In pratica sembra che sia una brutta persona ma in realtà ha passioni comuni a tutti gli altri umani." .
 <http://www.vocabolangelo.org/savoGianmarco> <http://www.w3.org/ns/org#memberOf> <http://www.vocabolangelo.org/vocabolieriOrg> .
 <http://www.vocabolangelo.org/savoGianmarco> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/fanaraGiuliano> .
 <http://www.vocabolangelo.org/savoGianmarco> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/timpanoSam> .
@@ -399,6 +411,7 @@
 <http://www.vocabolangelo.org/radicchiGiovanni> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Vocaboliere> .
 <http://www.vocabolangelo.org/radicchiGiovanni> <http://xmlns.com/foaf/0.1/firstName> "Giovanni" .
 <http://www.vocabolangelo.org/radicchiGiovanni> <http://xmlns.com/foaf/0.1/lastName> "Radicchi" .
+<http://www.vocabolangelo.org/radicchiGiovanni> <http://purl.org/dc/terms/description> "Per colpa sua non ho potuto utilizzare la mia tazza elettrica che mischia automaticamente i liquidi per quasi un anno. Per questo, a ogni gioco da tavolo possibile, cerco di rompergli il cazzo e impedirgli di vincere." .
 <http://www.vocabolangelo.org/radicchiGiovanni> <http://xmlns.com/foaf/0.1/nick> "Rad" .
 <http://www.vocabolangelo.org/radicchiGiovanni> <http://xmlns.com/foaf/0.1/gender> "male" .
 <http://www.vocabolangelo.org/radicchiGiovanni> <http://www.w3.org/ns/org#memberOf> <http://www.vocabolangelo.org/vocabolieriOrg> .
@@ -419,6 +432,7 @@
 <http://www.vocabolangelo.org/bensellamSelma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Vocaboliere> .
 <http://www.vocabolangelo.org/bensellamSelma> <http://xmlns.com/foaf/0.1/firstName> "Selma" .
 <http://www.vocabolangelo.org/bensellamSelma> <http://xmlns.com/foaf/0.1/lastName> "Bensellam" .
+<http://www.vocabolangelo.org/bensellamSelma> <http://purl.org/dc/terms/description> "La mia amica neg--- marocchina. Conosce l'italiano, il francese, l'inglese, il russo, l'algerino, lo zingbawiano e la lingua turca dei segni. Infine è in grado di decodificare i geroglifici. Ormai è diventata una pisana, che se ci penso, mi fa molto ridere come parola." .
 <http://www.vocabolangelo.org/bensellamSelma> <http://xmlns.com/foaf/0.1/nick> "Zia Selma" .
 <http://www.vocabolangelo.org/bensellamSelma> <http://xmlns.com/foaf/0.1/gender> "female" .
 <http://www.vocabolangelo.org/bensellamSelma> <http://www.w3.org/ns/org#memberOf> <http://www.vocabolangelo.org/vocabolieriOrg> .
@@ -428,6 +442,7 @@
 <http://www.vocabolangelo.org/rosatelliAnna> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Vocaboliere> .
 <http://www.vocabolangelo.org/rosatelliAnna> <http://xmlns.com/foaf/0.1/firstName> "Anna" .
 <http://www.vocabolangelo.org/rosatelliAnna> <http://xmlns.com/foaf/0.1/lastName> "Rosatelli" .
+<http://www.vocabolangelo.org/rosatelliAnna> <http://purl.org/dc/terms/description> "Anna è una cosplayer piena di vita, ma se la mettete in un bosco e la equipaggiate a dovere, probabilmente nel giro di qualche ora la trovereste morta sbranata da un coniglietto." .
 <http://www.vocabolangelo.org/rosatelliAnna> <http://xmlns.com/foaf/0.1/gender> "female" .
 <http://www.vocabolangelo.org/rosatelliAnna> <http://www.w3.org/ns/org#memberOf> <http://www.vocabolangelo.org/vocabolieriOrg> .
 <http://www.vocabolangelo.org/rosatelliAnna> <http://www.perceive.net/schemas/20021119/relationship/#spouseOf> <http://www.vocabolangelo.org/suscaMatteo> .
@@ -453,6 +468,7 @@
 <http://www.vocabolangelo.org/scattoniAlessandra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Vocaboliere> .
 <http://www.vocabolangelo.org/scattoniAlessandra> <http://xmlns.com/foaf/0.1/firstName> "Alessandra" .
 <http://www.vocabolangelo.org/scattoniAlessandra> <http://xmlns.com/foaf/0.1/lastName> "Scattoni" .
+<http://www.vocabolangelo.org/scattoniAlessandra> <http://purl.org/dc/terms/description> "Ho un conto in sospeso con questa ragazza, campionessa mondiale di bowling. Un giorno vincerò contro di me. Lontano." .
 <http://www.vocabolangelo.org/scattoniAlessandra> <http://xmlns.com/foaf/0.1/gender> "female" .
 <http://www.vocabolangelo.org/scattoniAlessandra> <https://schema.org/image> "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/scattoniAlessandra.jpg" .
 <http://www.vocabolangelo.org/scattoniAlessandra> <http://www.w3.org/ns/org#memberOf> <http://www.vocabolangelo.org/vocabolieriOrg> .
@@ -471,6 +487,7 @@
 <http://www.vocabolangelo.org/durazziMarco> <http://xmlns.com/foaf/0.1/lastName> "Durazzi" .
 <http://www.vocabolangelo.org/durazziMarco> <http://xmlns.com/foaf/0.1/nick> "Duraz" .
 <http://www.vocabolangelo.org/durazziMarco> <http://xmlns.com/foaf/0.1/gender> "male" .
+<http://www.vocabolangelo.org/durazziMarco> <http://purl.org/dc/terms/description> "Duraz ci ha badato 67 anni a creare la sua prima parolangelo, ma ora ha preso il via. Sono fiero di te. La sua peculiarità principale è che il suo nome viene continuamente storpiato in modi assurdi. Alcuni esempi notevoli ricadono su Durex, Duracell, Duddi Du, o Andrea." .
 <http://www.vocabolangelo.org/durazziMarco> <http://www.w3.org/ns/org#memberOf> <http://www.vocabolangelo.org/vocabolieriOrg> .
 <http://www.vocabolangelo.org/durazziMarco> <https://schema.org/image> "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/durazziMarco.jpg" .
 <http://www.vocabolangelo.org/durazziMarco> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/bailettiTommaso> .
