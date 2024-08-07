@@ -1,5 +1,18 @@
 # Changelog
 
+## [6.25.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v6.24.0...v6.25.0) (2024-08-07)
+
+
+### Features
+
+* **parolangelo:** add parolangelo till 1 may ([4b82f2a](https://github.com/Vocabolangelo/vocabolangelo-site/commit/4b82f2afdfc05fb49114c91c9453540619721d09))
+* **parolangelo:** add parolangelo till fanobro ([a8a918d](https://github.com/Vocabolangelo/vocabolangelo-site/commit/a8a918d720c65f38a74e55035ed4c415a56063eb))
+* **parolangelo:** lampeluna,sunspance, porcafoglio, antifurbo ([5ed2b59](https://github.com/Vocabolangelo/vocabolangelo-site/commit/5ed2b59efaf9b40aa8bd5cdde56631436cc4b48e))
+* **site:** form automatically detecting parolangelo or slangelo and add people ([127196a](https://github.com/Vocabolangelo/vocabolangelo-site/commit/127196a0bde70048bb6b977d63f6704f6a1f464c))
+* **site:** introducing a form to add Parolangelo and Slangelo ([58e58f9](https://github.com/Vocabolangelo/vocabolangelo-site/commit/58e58f96d0c535d4d12337f634c0b48ff166ba90))
+* **slangelo:** trenino di heimlich ([7e42c65](https://github.com/Vocabolangelo/vocabolangelo-site/commit/7e42c654cc8fbb96ed6a9c2b6c17069fdc53de9a))
+* **vocaboliere:** Danilo Pianini ([9d40fe5](https://github.com/Vocabolangelo/vocabolangelo-site/commit/9d40fe55be7744fdf2aca30ff7f660d952e91d12))
+
 ## [6.24.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v6.22.0...v6.24.0) (2024-03-30)
 
 
