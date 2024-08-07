@@ -11232,3 +11232,11 @@ vocang:antifurbo
     dct:created "2024-04-01" ;
     dct:creator vocang:orlandoNicola .
 
+vocang:treninoDiHeimlich
+    a vocang:Slangelo ;
+    skos:prefLabel "Trenino di Heimlich"@it ;
+    skos:definition "Formazione umana costituita da varie persone in fila che eseguono la manovra di Heimlich ognuno sulla persona successiva, in quanto si sono tutti strozzati nello stesso momento."@it ;
+    skos:example "Ieri sera io e i miei amici abbiamo fatto un trenino di Heimlich. In qualche modo ci siamo salvati tutti!"@it ;
+    schema:keywords "formazione, umana, varie, persone, fila, manovra, Heimlich, strozzati";
+    dct:created "2024-04-01" ;
+    dct:creator vocang:pertosaLorenzo .
