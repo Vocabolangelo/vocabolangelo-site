@@ -7821,6 +7821,14 @@
 <http://www.vocabolangelo.org/aliassalitore> <https://schema.org/keywords> "volatile, violento, attaccare, preda, uccello, animale" .
 <http://www.vocabolangelo.org/aliassalitore> <http://purl.org/dc/terms/created> "2023-11-21" .
 <http://www.vocabolangelo.org/aliassalitore> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
+<http://www.vocabolangelo.org/aliassalto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/aliassalto> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aliassalto"@it .
+<http://www.vocabolangelo.org/aliassalto> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/a • li • as • sàl • to/"@it .
+<http://www.vocabolangelo.org/aliassalto> <http://www.w3.org/2004/02/skos/core#definition> "Attacco di un volatile o da parte di una creatura dotata di ali."@it .
+<http://www.vocabolangelo.org/aliassalto> <http://www.w3.org/2004/02/skos/core#example> "Ieri ho visto un aliassalto. Un uccello ha attaccato un altro uccello che stava mangiando un verme. Alla fine il verme è stato mangiato da entrambi!"@it .
+<http://www.vocabolangelo.org/aliassalto> <https://schema.org/keywords> "attacco, volatile, uccello, verme, animale, creatura, ali" .
+<http://www.vocabolangelo.org/aliassalto> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/aliassalitore> .
+<http://www.vocabolangelo.org/aliassalto> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
 <http://www.vocabolangelo.org/assalatore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/assalatore> <http://www.w3.org/2004/02/skos/core#prefLabel> "Assalatore"@it .
 <http://www.vocabolangelo.org/assalatore> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/as • sa • là • to • re/"@it .
@@ -10189,3 +10197,103 @@
 <http://www.vocabolangelo.org/fanobro> <https://schema.org/keywords> "fano, pesaro merda, bro" .
 <http://www.vocabolangelo.org/fanobro> <http://purl.org/dc/terms/created> "2024-05-03" .
 <http://www.vocabolangelo.org/fanobro> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/antonioniGiovanni> .
+<http://www.vocabolangelo.org/megazione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/megazione> <http://www.w3.org/2004/02/skos/core#prefLabel> "Megazione"@it .
+<http://www.vocabolangelo.org/megazione> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/me • ga • zio • ne/"@it .
+<http://www.vocabolangelo.org/megazione> <http://www.w3.org/2004/02/skos/core#definition> "Azione che porta a conseguenze irreparabili e indesiderate."@it .
+<http://www.vocabolangelo.org/megazione> <http://www.w3.org/2004/02/skos/core#example> "È da 25 minuti che Sasha è ancora nel suo turno a Cheeky Monkeys, giocare quel cazzo di sciamano è stato veramente una megazione"@it .
+<http://www.vocabolangelo.org/megazione> <https://schema.org/keywords> "azione, conseguenze, irreparabili, indesiderate" .
+<http://www.vocabolangelo.org/megazione> <http://purl.org/dc/terms/created> "2024-05-04" .
+<http://www.vocabolangelo.org/megazione> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
+<http://www.vocabolangelo.org/megazione> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/bragariAlexandrus> .
+<http://www.vocabolangelo.org/erettile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/erettile> <http://www.w3.org/2004/02/skos/core#prefLabel> "Erettile"@it .
+<http://www.vocabolangelo.org/erettile> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/e • rèt • ti • le/"@it .
+<http://www.vocabolangelo.org/erettile> <http://www.w3.org/2004/02/skos/core#definition> "Rettile molto duro."@it .
+<http://www.vocabolangelo.org/erettile> <http://www.w3.org/2004/02/skos/core#example> "Ho provato a tirare un pugno a un erettile. Mi sono rotto la mano!"@it .
+<http://www.vocabolangelo.org/erettile> <https://schema.org/keywords> "reptile, duro, freddo, caldo, lucertola, geko" .
+<http://www.vocabolangelo.org/erettile> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/geoco> .
+<http://www.vocabolangelo.org/erettile> <http://www.w3.org/2004/02/skos/core#note> "I fossili contano." .
+<http://www.vocabolangelo.org/erettile> <http://purl.org/dc/terms/created> "2024-05-04" .
+<http://www.vocabolangelo.org/erettile> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
+<http://www.vocabolangelo.org/usufruttare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/usufruttare> <http://www.w3.org/2004/02/skos/core#prefLabel> "Usufruttare"@it .
+<http://www.vocabolangelo.org/usufruttare> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/u • su • frut • tà • re/"@it .
+<http://www.vocabolangelo.org/usufruttare> <http://www.w3.org/2004/02/skos/core#definition> "Sfruttare i frutti degli alberi altrui."@it .
+<http://www.vocabolangelo.org/usufruttare> <http://www.w3.org/2004/02/skos/core#example> "Durante una lunga camminata ho usufruttato di un pesco che ho trovato lungo il percorso."@it .
+<http://www.vocabolangelo.org/usufruttare> <https://schema.org/keywords> "frutti, alberi, sfruttare" .
+<http://www.vocabolangelo.org/usufruttare> <http://purl.org/dc/terms/created> "2024-05-09" .
+<http://www.vocabolangelo.org/usufruttare> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
+<http://www.vocabolangelo.org/peschivendolo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/peschivendolo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Peschivendolo"@it .
+<http://www.vocabolangelo.org/peschivendolo> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/pe • schi • ven • dò • lo/"@it .
+<http://www.vocabolangelo.org/peschivendolo> <http://www.w3.org/2004/02/skos/core#definition> "Venditore di pesche."@it .
+<http://www.vocabolangelo.org/peschivendolo> <http://www.w3.org/2004/02/skos/core#example> "Ieri sera ho comprato delle pesche da un peschivendolo. Erano molto buone!"@it .
+<http://www.vocabolangelo.org/peschivendolo> <https://schema.org/keywords> "venditore, pesche" .
+<http://www.vocabolangelo.org/peschivendolo> <http://purl.org/dc/terms/created> "2024-05-09" .
+<http://www.vocabolangelo.org/peschivendolo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
+<http://www.vocabolangelo.org/peschivendolo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/battaglinoNicole> .
+<http://www.vocabolangelo.org/aviorissa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/aviorissa> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aviorissa"@it .
+<http://www.vocabolangelo.org/aviorissa> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/a • vio • rìs • sa/"@it .
+<http://www.vocabolangelo.org/aviorissa> <http://www.w3.org/2004/02/skos/core#definition> "Rissa tra pennuti."@it .
+<http://www.vocabolangelo.org/aviorissa> <http://www.w3.org/2004/02/skos/core#example> "Ho visto dei piccioni a Roma Termini prendere parte ad un'aviorissa. C'erano un sacco di piume in giro!" .
+<http://www.vocabolangelo.org/aviorissa> <https://schema.org/keywords> "rissa, pennuti, violenta, divertente" .
+<http://www.vocabolangelo.org/aviorissa> <http://purl.org/dc/terms/created> "2024-05-10" .
+<http://www.vocabolangelo.org/aviorissa> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/aliassalto> .
+<http://www.vocabolangelo.org/aviorissa> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/aliassalitore> .
+<http://www.vocabolangelo.org/aviorissa> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/auroraSborreale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Slangelo> .
+<http://www.vocabolangelo.org/auroraSborreale> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aurora sborreale"@it .
+<http://www.vocabolangelo.org/auroraSborreale> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/au • rò • ra/ /sbor • re • à • le/"@it .
+<http://www.vocabolangelo.org/auroraSborreale> <http://www.w3.org/2004/02/skos/core#definition> "Aurora boreale di colore bianco."@it .
+<http://www.vocabolangelo.org/auroraSborreale> <http://www.w3.org/2004/02/skos/core#example> "Ero in Islanda quando ho alzato gli occhi al cielo. Ho ammirato l'aurora sborreale più bella della mia vita! Mi ha fatto venire voglia di sporcare un divano rosso."@it .
+<http://www.vocabolangelo.org/auroraSborreale> <https://schema.org/keywords> "aurora, boreale, bianco, cielo, venire" .
+<http://www.vocabolangelo.org/auroraSborreale> <http://purl.org/dc/terms/created> "2024-05-11" .
+<http://www.vocabolangelo.org/auroraSborreale> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/polliziotto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/polliziotto> <http://www.w3.org/2004/02/skos/core#prefLabel> "Polliziotto"@it .
+<http://www.vocabolangelo.org/polliziotto> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/pol • li • ziot • to/"@it .
+<http://www.vocabolangelo.org/polliziotto> <http://www.w3.org/2004/02/skos/core#definition> "Pennuto vestito da poliziotto."@it .
+<http://www.vocabolangelo.org/polliziotto> <http://www.w3.org/2004/02/skos/core#definition> "Poliziotto ritenuto non in gamba, un po' scemo."@it .
+<http://www.vocabolangelo.org/polliziotto> <http://www.w3.org/2004/02/skos/core#example> "Ieri un polliziotto mi ha fermato dicendo che avevo superato il limite di velocità, ma ero in un'autostrada in Germania!"@it .
+<http://www.vocabolangelo.org/polliziotto> <http://www.w3.org/2004/02/skos/core#example> "Zio Armando si diverte ad avere sempre un polliziotto nel pollaio per far spaventare i polli spaccini."@it .
+<http://www.vocabolangelo.org/polliziotto> <https://schema.org/keywords> "pennuto, vestito, poliziotto, scemo" .
+<http://www.vocabolangelo.org/polliziotto> <http://purl.org/dc/terms/created> "2024-05-11" .
+<http://www.vocabolangelo.org/polliziotto> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/pollizia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/pollizia> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pollizia"@it .
+<http://www.vocabolangelo.org/pollizia> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/pol • li • zì • a/"@it .
+<http://www.vocabolangelo.org/pollizia> <http://www.w3.org/2004/02/skos/core#definition> "Corpo di polizia composto da polli."@it .
+<http://www.vocabolangelo.org/pollizia> <http://www.w3.org/2004/02/skos/core#definition> "Gruppo di poliziotti non particolarmente svegli"@it .
+<http://www.vocabolangelo.org/pollizia> <http://www.w3.org/2004/02/skos/core#example> "Non mi fiderei mai della pollizia del mio piccolo paesino, non sanno nemmeno distinguere un nano da un bambino!"@it .
+<http://www.vocabolangelo.org/pollizia> <http://www.w3.org/2004/02/skos/core#example> "Ho visto la pollizia in azione. Il gruppo di polli ha catturato i pulcini furfanti!"@it .
+<http://www.vocabolangelo.org/pollizia> <https://schema.org/keywords> "pennuto, vestito, polizia, buffo, pollo" .
+<http://www.vocabolangelo.org/pollizia> <http://purl.org/dc/terms/created> "2024-05-11" .
+<http://www.vocabolangelo.org/pollizia> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/pollizziotto> .
+<http://www.vocabolangelo.org/pollizia> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/pollitico> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/pollitico> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pollittico"@it .
+<http://www.vocabolangelo.org/pollitico> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/pol • li • tì • co/"@it .
+<http://www.vocabolangelo.org/pollitico> <http://www.w3.org/2004/02/skos/core#definition> "Politico che si fa imbrogliare facilmente."@it .
+<http://www.vocabolangelo.org/pollitico> <http://www.w3.org/2004/02/skos/core#example> "Non voterò mai per quel partito composto da pollitici, non hanno un'ideologia abbastanza forte!"@it .
+<http://www.vocabolangelo.org/pollitico> <https://schema.org/keywords> "poliica, pollo, politico, politici, famoso" .
+<http://www.vocabolangelo.org/pollitico> <http://purl.org/dc/terms/created> "2024-05-11" .
+<http://www.vocabolangelo.org/pollitico> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/pollizia> .
+<http://www.vocabolangelo.org/pollitico> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/polliziotto> .
+<http://www.vocabolangelo.org/pollitico> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/doppelnager> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/doppelnager> <http://www.w3.org/2004/02/skos/core#prefLabel> "Doppelnäger"@it .
+<http://www.vocabolangelo.org/doppelnager> <http://www.w3.org/2004/02/skos/core#definition> "Sosia di colore di una persona caucasica."@it .
+<http://www.vocabolangelo.org/doppelnager> <http://www.w3.org/2004/02/skos/core#example> "Al centro commerciale ho visto un doppelnäger di Abdul!"@it .
+<http://www.vocabolangelo.org/doppelnager> <https://schema.org/keywords> "sosia, colore, caucasico, nero" .
+<http://www.vocabolangelo.org/doppelnager> <http://purl.org/dc/terms/created> "2024-05-12" .
+<http://www.vocabolangelo.org/doppelnager> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/distillatoDiFrocio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Slangelo> .
+<http://www.vocabolangelo.org/distillatoDiFrocio> <http://www.w3.org/2004/02/skos/core#prefLabel> "Distillato di frocio"@it .
+<http://www.vocabolangelo.org/distillatoDiFrocio> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/di • stil • là • to/ /di/ /frò • cio/"@it .
+<http://www.vocabolangelo.org/distillatoDiFrocio> <http://www.w3.org/2004/02/skos/core#definition> "Maschio omosessuale che ripudia il sesso nella sua forma eterosessuale sotto ogni punto di vista."@it .
+<http://www.vocabolangelo.org/distillatoDiFrocio> <http://www.w3.org/2004/02/skos/core#example> "Se prima di sposare tuo marito non hai mai scopato una donna sei proprio un distillato di frocio."@it .
+<http://www.vocabolangelo.org/distillatoDiFrocio> <https://schema.org/keywords> "sesso, distillato, frocio, omosessuale, eterosessuale" .
+<http://www.vocabolangelo.org/distillatoDiFrocio> <http://purl.org/dc/terms/created> "2024-05-13" .
+<http://www.vocabolangelo.org/distillatoDiFrocio> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pianiniDanilo> .
