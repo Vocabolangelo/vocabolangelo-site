@@ -10297,3 +10297,86 @@
 <http://www.vocabolangelo.org/distillatoDiFrocio> <https://schema.org/keywords> "sesso, distillato, frocio, omosessuale, eterosessuale" .
 <http://www.vocabolangelo.org/distillatoDiFrocio> <http://purl.org/dc/terms/created> "2024-05-13" .
 <http://www.vocabolangelo.org/distillatoDiFrocio> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pianiniDanilo> .
+<http://www.vocabolangelo.org/odioDiMurphy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Slangelo> .
+<http://www.vocabolangelo.org/odioDiMurphy> <http://www.w3.org/2004/02/skos/core#prefLabel> "Odio di Murphy"@it .
+<http://www.vocabolangelo.org/odioDiMurphy> <http://www.w3.org/2004/02/skos/core#definition> "Odio per la legge di Murphy."@it .
+<http://www.vocabolangelo.org/odioDiMurphy> <http://www.w3.org/2004/02/skos/core#example> "Oggi ho avuto un odio di Murphy. Ho perso il portafoglio, mi sono rotto un dito e ho scoperto che la mia ragazza mi tradisce!"@it .
+<http://www.vocabolangelo.org/odioDiMurphy> <https://schema.org/keywords> "odio, legge, Murphy" .
+<http://www.vocabolangelo.org/odioDiMurphy> <http://purl.org/dc/terms/created> "2024-05-13" .
+<http://www.vocabolangelo.org/odioDiMurphy> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/talmiAlessandro> .
+<http://www.vocabolangelo.org/neurocoglione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/neurocoglione> <http://www.w3.org/2004/02/skos/core#prefLabel> "Neurocoglione"@it .
+<http://www.vocabolangelo.org/neurocoglione> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/neu • ro • co • gli • ò • ne/"@it .
+<http://www.vocabolangelo.org/neurocoglione> <http://www.w3.org/2004/02/skos/core#definition> "Coglione a livello neurologico."@it .
+<http://www.vocabolangelo.org/neurocoglione> <http://www.w3.org/2004/02/skos/core#example> "Gianluca è un neurocoglione. Valentina voleva dargliela e lui ha risposto \"Garfield\"!"@it .
+<http://www.vocabolangelo.org/neurocoglione> <https://schema.org/keywords> "coglione, livello, neurologico, esame, grave" .
+<http://www.vocabolangelo.org/neurocoglione> <http://purl.org/dc/terms/created> "2024-01-01" .
+<http://www.vocabolangelo.org/neurocoglione> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pianiniDanilo> .
+<http://www.vocabolangelo.org/omniscusa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/omniscusa> <http://www.w3.org/2004/02/skos/core#prefLabel> "Omniscusa"@it .
+<http://www.vocabolangelo.org/omniscusa> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/om • ni • scù • sa/"@it .
+<http://www.vocabolangelo.org/omniscusa> <http://www.w3.org/2004/02/skos/core#definition> "Scusa estremamente versatile utilizzabile in un'ampia gamma di contesti per tirarsi fuori dai problemi."@it .
+<http://www.vocabolangelo.org/omniscusa> <http://www.w3.org/2004/02/skos/core#example> "La scusa del funerale della nonna funziona praticamente sempre, che omniscusa della madonna!!"@it .
+<http://www.vocabolangelo.org/omniscusa> <https://schema.org/keywords> "scusa, versatile, contesti, problemi" .
+<http://www.vocabolangelo.org/omniscusa> <http://purl.org/dc/terms/created> "2024-05-15" .
+<http://www.vocabolangelo.org/omniscusa> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/cristico> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/cristico> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cristico"@it .
+<http://www.vocabolangelo.org/cristico> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/cri • stì • co/"@it .
+<http://www.vocabolangelo.org/cristico> <http://www.w3.org/2004/02/skos/core#definition> "Termine utilizzabile in situazione in cui, al fine di descrivere uno stato d'animo o una sensazione, sarebbe necessario adoperare una bestemmia, ma non ne viene in mente una specifica e adatta."@it .
+<http://www.vocabolangelo.org/cristico> <http://www.w3.org/2004/02/skos/core#example> "Questa è una situazione cristica, moriremo tutti!"@it .
+<http://www.vocabolangelo.org/cristico> <https://schema.org/keywords> "situazione, stato, d'animo, bestemmia, placeholder" .
+<http://www.vocabolangelo.org/cristico> <http://purl.org/dc/terms/created> "2024-05-17" .
+<http://www.vocabolangelo.org/cristico> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/trucefisso> .
+<http://www.vocabolangelo.org/cristico> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/carattecristico> .
+<http://www.vocabolangelo.org/cristico> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/sacrofago> .
+<http://www.vocabolangelo.org/cristico> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/crocifischio> .
+<http://www.vocabolangelo.org/cristico> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/gesudino> .
+<http://www.vocabolangelo.org/cristico> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/morigerazione> .
+<http://www.vocabolangelo.org/cristico> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/percodio> .
+<http://www.vocabolangelo.org/cristico> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/antonioniGiovanni> .
+<http://www.vocabolangelo.org/gattassalto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/gattassalto> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gattassalto"@it .
+<http://www.vocabolangelo.org/gattassalto> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/gat • tas • sàl • to/"@it .
+<http://www.vocabolangelo.org/gattassalto> <http://www.w3.org/2004/02/skos/core#definition> "Assalto perpetrato da felini."@it .
+<http://www.vocabolangelo.org/gattassalto> <http://www.w3.org/2004/02/skos/core#example> "Ho subito un gattassalto tornando a casa! Ho graffi ovunque!"@it .
+<http://www.vocabolangelo.org/gattassalto> <https://schema.org/keywords> "assalto, felino, graffio, gatto, felino" .
+<http://www.vocabolangelo.org/gattassalto> <http://purl.org/dc/terms/created> "2024-05-17" .
+<http://www.vocabolangelo.org/gattassalto> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/agguatto> .
+<http://www.vocabolangelo.org/gattassalto> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/battaglinoNicole> .
+<http://www.vocabolangelo.org/gattassalto> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/touretteCompleto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Slangelo> .
+<http://www.vocabolangelo.org/touretteCompleto> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tourette completo"@it .
+<http://www.vocabolangelo.org/touretteCompleto> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/tu • rèt • te/ /com • ple • to/"@it .
+<http://www.vocabolangelo.org/touretteCompleto> <http://www.w3.org/2004/02/skos/core#definition> "Persona che presenta tutti i possibili tic dati dalla sindrome di Tourette."@it .
+<http://www.vocabolangelo.org/touretteCompleto> <http://www.w3.org/2004/02/skos/core#example> "Sasha è un tourette completo. Non riesce a stare fermo un secondo e bestemmia e sbraita tutto il giorno!"@it .
+<http://www.vocabolangelo.org/touretteCompleto> <https://schema.org/keywords> "sindrome, tic, movimento, involontario, completo" .
+<http://www.vocabolangelo.org/touretteCompleto> <http://purl.org/dc/terms/created> "2024-05-17" .
+<http://www.vocabolangelo.org/touretteCompleto> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/battaglinoNicole> .
+<http://www.vocabolangelo.org/touretteCompleto> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
+<http://www.vocabolangelo.org/touretteCompleto> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/suscaMatteo> .
+<http://www.vocabolangelo.org/touretteCompleto> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/bragariAlexandru> .
+<http://www.vocabolangelo.org/fastFool> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Slangelo> .
+<http://www.vocabolangelo.org/fastFool> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fast Fool"@it .
+<http://www.vocabolangelo.org/fastFool> <http://www.w3.org/2004/02/skos/core#definition> "Fast food nel quale il personale sbaglia spesso e il cliente riceve meno roba di quella che chiesta all'asporto o al banco."@it .
+<http://www.vocabolangelo.org/fastFool> <http://www.w3.org/2004/02/skos/core#example> "Al Burger King di Velletri ho ordinato un menù per sfamarmi. Mi hanno dato un panino con solo il pane e la salsa eun bicchiere bucato! Che Fast Fool!"@it .
+<http://www.vocabolangelo.org/fastFool> <https://schema.org/keywords> "fast, food, sbagliare, meno, roba, chiedere, asporto, banco" .
+<http://www.vocabolangelo.org/fastFool> <http://purl.org/dc/terms/created> "2024-05-19" .
+<http://www.vocabolangelo.org/fastFool> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/cruccare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/cruccare> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cruccare"@it .
+<http://www.vocabolangelo.org/cruccare> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/cruc • cà • re/"@it .
+<http://www.vocabolangelo.org/cruccare> <http://www.w3.org/2004/02/skos/core#definition> "Truccare una persona per renderla più simile allo stereotipo di un tedesco, ad esempio tingendole i capelli di biondo, mettendole lenti a contatto azzurre e schiarendogli la pelle."@it .
+<http://www.vocabolangelo.org/cruccare> <http://www.w3.org/2004/02/skos/core#example> "Alla festa hanno cruccato il mio ragazzo. Era molto buffo, sembrava un vero dittatore tedesco!"@it .
+<http://www.vocabolangelo.org/cruccare> <https://schema.org/keywords> "truccare, persona, simile, stereotipo, tedesco, capelli, biondo, lenti, contatto, azzurre, schiarendo, pelle" .
+<http://www.vocabolangelo.org/cruccare> <http://purl.org/dc/terms/created> "2024-05-19" .
+<http://www.vocabolangelo.org/cruccare> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/cruccare> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/ribaudoSofia> .
+<http://www.vocabolangelo.org/scorciatreia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/scorciatreia> <http://www.w3.org/2004/02/skos/core#prefLabel> "Scorciatreia"@it .
+<http://www.vocabolangelo.org/scorciatreia> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/scor • cia • trè • ia/"@it .
+<http://www.vocabolangelo.org/scorciatreia> <http://www.w3.org/2004/02/skos/core#definition> "Una scorciatoia per Treia (o Passo Treia)"@it .
+<http://www.vocabolangelo.org/scorciatreia> <http://www.w3.org/2004/02/skos/core#example> "Dovevo andare a Pollenza e ho preso una scorciatreia per fare prima"@it .
+<http://www.vocabolangelo.org/scorciatreia> <https://schema.org/keywords> "scorciatoia, Treia, Passo Treia" .
+<http://www.vocabolangelo.org/scorciatreia> <http://purl.org/dc/terms/created> "2024-05-20" .
+<http://www.vocabolangelo.org/scorciatreia> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/paoliMichele> .
