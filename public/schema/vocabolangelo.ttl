@@ -11703,3 +11703,93 @@ vocang:distillatoDiFrocio
     schema:keywords "sesso, distillato, frocio, omosessuale, eterosessuale";
     dct:created "2024-05-13" ;
     dct:creator vocang:pianiniDanilo .
+
+vocang:odioDiMurphy
+    a vocang:Slangelo ;
+    skos:prefLabel "Odio di Murphy"@it ;
+    skos:definition "Odio per la legge di Murphy."@it ;
+    skos:example "Oggi ho avuto un odio di Murphy. Ho perso il portafoglio, mi sono rotto un dito e ho scoperto che la mia ragazza mi tradisce!"@it ;
+    schema:keywords "odio, legge, Murphy";
+    dct:created "2024-05-13" ;
+    dct:creator vocang:talmiAlessandro .
+
+vocang:neurocoglione
+    a vocang:Parolangelo ;
+    skos:prefLabel "Neurocoglione"@it ;
+    lexinfo:pronunciation "/neu • ro • co • gli • ò • ne/"@it ;
+    skos:definition "Coglione a livello neurologico."@it ;
+    skos:example "Gianluca è un neurocoglione. Valentina voleva dargliela e lui ha risposto \"Garfield\"!"@it ;
+    schema:keywords "coglione, livello, neurologico, esame, grave";
+    dct:created "2024-01-01" ;
+    dct:creator vocang:pianiniDanilo .
+
+vocang:omniscusa
+    a vocang:Parolangelo ;
+    skos:prefLabel "Omniscusa"@it ;
+    lexinfo:pronunciation "/om • ni • scù • sa/"@it ;
+    skos:definition "Scusa estremamente versatile utilizzabile in un'ampia gamma di contesti per tirarsi fuori dai problemi."@it ;
+    skos:example "La scusa del funerale della nonna funziona praticamente sempre, che omniscusa della madonna!!"@it ;
+    schema:keywords "scusa, versatile, contesti, problemi";
+    dct:created "2024-05-15" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:cristico
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cristico"@it ;
+    lexinfo:pronunciation "/cri • stì • co/"@it ;
+    skos:definition "Termine utilizzabile in situazione in cui, al fine di descrivere uno stato d'animo o una sensazione, sarebbe necessario adoperare una bestemmia, ma non ne viene in mente una specifica e adatta."@it ;
+    skos:example "Questa è una situazione cristica, moriremo tutti!"@it ;
+    schema:keywords "situazione, stato, d'animo, bestemmia, placeholder";
+    dct:created "2024-05-17" ;
+    skos:related vocang:trucefisso, vocang:carattecristico, vocang:sacrofago, vocang:crocifischio, vocang:gesudino, vocang:morigerazione, vocang:percodio;
+    dct:creator vocang:antonioniGiovanni .
+
+vocang:gattassalto
+    a vocang:Parolangelo ;
+    skos:prefLabel "Gattassalto"@it ;
+    lexinfo:pronunciation "/gat • tas • sàl • to/"@it ;
+    skos:definition "Assalto perpetrato da felini."@it ;
+    skos:example "Ho subito un gattassalto tornando a casa! Ho graffi ovunque!"@it ;
+    schema:keywords "assalto, felino, graffio, gatto, felino";
+    dct:created "2024-05-17" ;
+    skos:related vocang:agguatto;
+    dct:creator vocang:battaglinoNicole, vocang:pertosaLorenzo .
+
+vocang:touretteCompleto
+    a vocang:Slangelo ;
+    skos:prefLabel "Tourette completo"@it ;
+    lexinfo:pronunciation "/tu • rèt • te/ /com • ple • to/"@it ;
+    skos:definition "Persona che presenta tutti i possibili tic dati dalla sindrome di Tourette."@it ;
+    skos:example "Sasha è un tourette completo. Non riesce a stare fermo un secondo e bestemmia e sbraita tutto il giorno!"@it ;
+    schema:keywords "sindrome, tic, movimento, involontario, completo";
+    dct:created "2024-05-17" ;
+    dct:creator vocang:battaglinoNicole, vocang:omiccioliRiccardo, vocang:suscaMatteo, vocang:bragariAlexandru .
+
+vocang:fastFool
+    a vocang:Slangelo ;
+    skos:prefLabel "Fast Fool"@it ;
+    skos:definition "Fast food nel quale il personale sbaglia spesso e il cliente riceve meno roba di quella che chiesta all'asporto o al banco."@it ;
+    skos:example "Al Burger King di Velletri ho ordinato un menù per sfamarmi. Mi hanno dato un panino con solo il pane e la salsa eun bicchiere bucato! Che Fast Fool!"@it ;
+    schema:keywords "fast, food, sbagliare, meno, roba, chiedere, asporto, banco";
+    dct:created "2024-05-19" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:cruccare
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cruccare"@it ;
+    lexinfo:pronunciation "/cruc • cà • re/"@it ;
+    skos:definition "Truccare una persona per renderla più simile allo stereotipo di un tedesco, ad esempio tingendole i capelli di biondo, mettendole lenti a contatto azzurre e schiarendogli la pelle."@it ;
+    skos:example "Alla festa hanno cruccato il mio ragazzo. Era molto buffo, sembrava un vero dittatore tedesco!"@it ;
+    schema:keywords "truccare, persona, simile, stereotipo, tedesco, capelli, biondo, lenti, contatto, azzurre, schiarendo, pelle";
+    dct:created "2024-05-19" ;
+    dct:creator vocang:pertosaLorenzo, vocang:ribaudoSofia .
+
+vocang:scorciatreia
+    a vocang:Parolangelo ;
+    skos:prefLabel "Scorciatreia"@it ;
+    lexinfo:pronunciation "/scor • cia • trè • ia/"@it ;
+    skos:definition "Una scorciatoia per Treia (o Passo Treia)"@it ;
+    skos:example "Dovevo andare a Pollenza e ho preso una scorciatreia per fare prima"@it ;
+    schema:keywords "scorciatoia, Treia, Passo Treia";
+    dct:created "2024-05-20" ;
+    dct:creator vocang:paoliMichele .
