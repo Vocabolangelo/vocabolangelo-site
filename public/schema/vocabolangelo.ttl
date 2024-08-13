@@ -8842,6 +8842,16 @@ vocang:aliassalitore
     dct:created "2023-11-21" ;
     dct:creator vocang:filasetaAngelo .
 
+vocang:aliassalto
+    a vocang:Parolangelo ;
+    skos:prefLabel "Aliassalto"@it ;
+    lexinfo:pronunciation "/a • li • as • sàl • to/"@it ;
+    skos:definition "Attacco di un volatile o da parte di una creatura dotata di ali."@it ;
+    skos:example "Ieri ho visto un aliassalto. Un uccello ha attaccato un altro uccello che stava mangiando un verme. Alla fine il verme è stato mangiato da entrambi!"@it;
+    schema:keywords "attacco, volatile, uccello, verme, animale, creatura, ali";
+    skos:related vocang:aliassalitore;
+    dct:creator vocang:filasetaAngelo .
+
 vocang:assalatore
     a vocang:Parolangelo ;
     skos:prefLabel "Assalatore"@it ;
@@ -11590,3 +11600,107 @@ vocang:megazione
     schema:keywords "azione, conseguenze, irreparabili, indesiderate";
     dct:created "2024-05-04" ;
     dct:creator vocang:omiccioliRiccardo, vocang:bragariAlexandrus .
+
+vocang:erettile
+    a vocang:Parolangelo ;
+    skos:prefLabel "Erettile"@it ;
+    lexinfo:pronunciation "/e • rèt • ti • le/"@it ;
+    skos:definition "Rettile molto duro."@it ;
+    skos:example "Ho provato a tirare un pugno a un erettile. Mi sono rotto la mano!"@it ;
+    schema:keywords "reptile, duro, freddo, caldo, lucertola, geko";
+    skos:related vocang:geoco;
+    skos:note "I fossili contano.";
+    dct:created "2024-05-04" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:usufruttare
+    a vocang:Parolangelo ;
+    skos:prefLabel "Usufruttare"@it ;
+    lexinfo:pronunciation "/u • su • frut • tà • re/"@it ;
+    skos:definition "Sfruttare i frutti degli alberi altrui."@it ;
+    skos:example "Durante una lunga camminata ho usufruttato di un pesco che ho trovato lungo il percorso."@it ;
+    schema:keywords "frutti, alberi, sfruttare";
+    dct:created "2024-05-09" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:peschivendolo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Peschivendolo"@it ;
+    lexinfo:pronunciation "/pe • schi • ven • dò • lo/"@it ;
+    skos:definition "Venditore di pesche."@it ;
+    skos:example "Ieri sera ho comprato delle pesche da un peschivendolo. Erano molto buone!"@it ;
+    schema:keywords "venditore, pesche";
+    dct:created "2024-05-09" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
+
+vocang:aviorissa
+    a vocang:Parolangelo ;
+    skos:prefLabel "Aviorissa"@it ;
+    lexinfo:pronunciation "/a • vio • rìs • sa/"@it ;
+    skos:definition "Rissa tra pennuti."@it ;
+    skos:example "Ho visto dei piccioni a Roma Termini prendere parte ad un'aviorissa. C'erano un sacco di piume in giro!";
+    schema:keywords "rissa, pennuti, violenta, divertente";
+    dct:created "2024-05-10" ;
+    skos:related vocang:aliassalto, vocang:aliassalitore ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:auroraSborreale
+    a vocang:Slangelo ;
+    skos:prefLabel "Aurora sborreale"@it ;
+    lexinfo:pronunciation "/au • rò • ra/ /sbor • re • à • le/"@it ;
+    skos:definition "Aurora boreale di colore bianco."@it ;
+    skos:example "Ero in Islanda quando ho alzato gli occhi al cielo. Ho ammirato l'aurora sborreale più bella della mia vita! Mi ha fatto venire voglia di sporcare un divano rosso."@it;
+    schema:keywords "aurora, boreale, bianco, cielo, venire";
+    dct:created "2024-05-11" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:polliziotto
+    a vocang:Parolangelo ;
+    skos:prefLabel "Polliziotto"@it ;
+    lexinfo:pronunciation "/pol • li • ziot • to/"@it ;
+    skos:definition "Pennuto vestito da poliziotto."@it, "Poliziotto ritenuto non in gamba, un po' scemo."@it ;
+    skos:example "Ieri un polliziotto mi ha fermato dicendo che avevo superato il limite di velocità, ma ero in un'autostrada in Germania!"@it, "Zio Armando si diverte ad avere sempre un polliziotto nel pollaio per far spaventare i polli spaccini."@it ;
+    schema:keywords "pennuto, vestito, poliziotto, scemo";
+    dct:created "2024-05-11" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:pollizia
+    a vocang:Parolangelo ;
+    skos:prefLabel "Pollizia"@it ;
+    lexinfo:pronunciation "/pol • li • zì • a/"@it ;
+    skos:definition "Corpo di polizia composto da polli."@it, "Gruppo di poliziotti non particolarmente svegli"@it;
+    skos:example "Non mi fiderei mai della pollizia del mio piccolo paesino, non sanno nemmeno distinguere un nano da un bambino!"@it, "Ho visto la pollizia in azione. Il gruppo di polli ha catturato i pulcini furfanti!"@it ;
+    schema:keywords "pennuto, vestito, polizia, buffo, pollo";
+    dct:created "2024-05-11" ;
+    skos:related vocang:pollizziotto;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:pollitico
+    a vocang:Parolangelo ;
+    skos:prefLabel "Pollittico"@it ;
+    lexinfo:pronunciation "/pol • li • tì • co/"@it ;
+    skos:definition "Politico che si fa imbrogliare facilmente."@it ;
+    skos:example "Non voterò mai per quel partito composto da pollitici, non hanno un'ideologia abbastanza forte!"@it;
+    schema:keywords "poliica, pollo, politico, politici, famoso";
+    dct:created "2024-05-11" ;
+    skos:related vocang:pollizia, vocang:polliziotto;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:doppelnager
+    a vocang:Parolangelo ;
+    skos:prefLabel "Doppelnäger"@it ;
+    skos:definition "Sosia di colore di una persona caucasica."@it ;
+    skos:example "Al centro commerciale ho visto un doppelnäger di Abdul!"@it ;
+    schema:keywords "sosia, colore, caucasico, nero";
+    dct:created "2024-05-12" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:distillatoDiFrocio
+    a vocang:Slangelo ;
+    skos:prefLabel "Distillato di frocio"@it ;
+    lexinfo:pronunciation "/di • stil • là • to/ /di/ /frò • cio/"@it ;
+    skos:definition "Maschio omosessuale che ripudia il sesso nella sua forma eterosessuale sotto ogni punto di vista."@it ;
+    skos:example "Se prima di sposare tuo marito non hai mai scopato una donna sei proprio un distillato di frocio."@it ;
+    schema:keywords "sesso, distillato, frocio, omosessuale, eterosessuale";
+    dct:created "2024-05-13" ;
+    dct:creator vocang:pianiniDanilo .
