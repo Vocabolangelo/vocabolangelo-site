@@ -11793,3 +11793,122 @@ vocang:scorciatreia
     schema:keywords "scorciatoia, Treia, Passo Treia";
     dct:created "2024-05-20" ;
     dct:creator vocang:paoliMichele .
+
+vocang:pesaresa
+    a vocang:Parolangelo ;
+    skos:prefLabel "Pesaresa"@it ;
+    lexinfo:pronunciation "/pe • sa • rè • sa/"@it ;
+    skos:definition "L'atto di capitolazione della città di Pesaro."@it ;
+    skos:example "Dopo la pesaresa, i generali concessero la loro riserva di rossini all'esercito nemico."@it ;
+    schema:keywords "capitolazione, città, pesaro, generale, riserva, rossini, esercito, nemico";
+    dct:created "2024-05-20" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:browler
+    a vocang:Parolangelo ;
+    skos:prefLabel "Browler"@it ;
+    skos:definition "Alleato in una rissa."@it ;
+    skos:example "In una semirissa, tutti sono browler e nessuno è nemico!"@it ;
+    schema:keywords "alleato, rissa, forte, amico, vincere";
+    dct:created "2024-05-21" ;
+    skos:related vocang:semirissa;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:medicoglione
+    a vocang:Parolangelo ;
+    skos:prefLabel "Medicoglione"@it ;
+    lexinfo:pronunciation "/me • di • co • gli • ò • ne/"@it ;
+    skos:definition "Un medico ritenuto coglione."@it ;
+    skos:example "Il dottor P è un medicoglione, mi ha detto che il mio mal di testa è causato da un tumore al cervello!"@it ;
+    schema:keywords "medico, ritenuto, coglione";
+    dct:created "2024-05-21" ;
+    dct:creator vocang:scattoniSilvia .
+
+vocang:kUomo
+    a vocang:Parolangelo ;
+    skos:prefLabel "K-uomo"@it ;
+    lexinfo:pronunciation "/kà • u • mo/"@it ;
+    skos:definition "Individuo che gira sempre con addosso uno o più k-way."@it ;
+    skos:example "Ho visto un k-uomo ieri in mezzo al deserto. Che coglione!"@it ;
+    schema:keywords "individuo, k-way, strano, cespuglio";
+    dct:created "2024-05-21" ;
+    dct:creator vocang:scattoniSilvia .
+
+vocang:paracacaccadute
+    a vocang:Parolangelo ;
+    skos:prefLabel "Paracacaccadute"@it ;
+    lexinfo:pronunciation "/pa • ra • cac • cac • ca • dù • te/"@it ;
+    skos:definition "Paracadute per la cacca che si fa con la carta igienica nella tazza per evitare che faccia \"plof\" quando si è in un luogo pubblico o a casa di altri."@it ;
+    skos:example "Ieri sera ho fatto una cacca in casa di Sofia. Ho usato il paracacaccadute e non si è sentito nulla!"@it ;
+    schema:keywords "paracadute, cacca, carta, igienica, tazza, plof, luogo, pubblico, casa, altri";
+    dct:created "2024-05-22" ;
+    dct:creator vocang:nardiniArianna .
+
+vocang:nanegretto
+    a vocang:Parolangelo ;
+    skos:prefLabel "Nanegretto"@it ;
+    lexinfo:pronunciation "/na • ne • grè • tto/"@it ;
+    skos:definition "Un nano di colore."@it ;
+    skos:example "Ho visto un nanegretto in un film. Era molto buffo e simpatico! Il migliore personaggio del film."@it ;
+    schema:keywords "nano, colore, buffo, simpatico";
+    dct:created "2024-05-22" ;
+    dct:creator vocang:savoGiorgia .
+
+vocang:cornuccino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cornuccino"@it ;
+    lexinfo:pronunciation "/cor • nuc • cì • no/"@it ;
+    skos:definition "Colazione tipica italiana composta da cornetto e cappuccino."@it ;
+    skos:example "Ogni mattina faccio colazione con un cornuccino. È la mia colazione preferita!"@it ;
+    schema:keywords "colazione, tipica, italiana, cornetto, cappuccino";
+    dct:created "2024-05-24" ;
+    dct:creator vocang:battaglinoNicole .
+
+vocang:extracomunicario
+    a vocang:Parolangelo ;
+    skos:prefLabel "Extracomunicario"@it ;
+    skos:definition "Individuo proveniente da un paese straniero che comunica con i suoi simili in una lingua sconosciuta alle persone del luogo."@it ;
+    skos:example "Ieri sera ho visto un extracomunicario. Parlava con un suo simile in una lingua che non conoscevo! Ad un certo punto ha detto Bewolla."@it ;
+    schema:keywords "individuo, paese, straniero, comunicare, lingua, sconosciuta";
+    dct:created "2024-05-25" ;
+    dct:creator vocang:bianchiniGiovanni .
+
+vocang:monospastico
+    a vocang:Parolangelo ;
+    skos:prefLabel "Monospastico"@it ;
+    lexinfo:pronunciation "/mo • no • spa • stì • co/"@it ;
+    skos:definition "Monopattino elettrico non funzionante."@it ;
+    skos:example "Ieri sera ho visto un tizio andare sul monospastico. Si è schiantato su una Tesla!"@it ;
+    schema:keywords "monopattino, elettrico, non, funzionante";
+    dct:created "2024-05-25" ;
+    dct:creator vocang:ribaudoSofia .
+
+vocang:cagafratto:
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cagafratto"@it ;
+    lexinfo:pronunciation "/ca • ga • frà • tto/"@it ;
+    skos:definition "Lo status confusionale e attonito in cui ci si trova dopo aver defecato pesantemente."@it ;
+    skos:example "Dopo aver cagato pesantemente, mi sono ritrovato cagafratto e depresso. Non sapevo di poter essere così leggero!"@it, "Ieri ho mangiato un chilo di fagioli piccanti, ora sto cagafratto!"@it ;
+    schema:keywords "status, confusionale, attonito, defecare, pesantemente";
+    dct:created "2024-05-26" ;
+    dct:creator vocang:antonioniGiovanni .
+
+vocang:consesso
+    a vocang:Parolangelo ;
+    skos:prefLabel "Consesso"@it ;
+    lexinfo:pronunciation "/con • sès • so/"@it ;
+    skos:definition "Consenso dato per effettuare atti sessuali."@it ;
+    skos:example "Voglio prenderti e sbatterti contro il muro per poi metterti a pecora. Ho il tuo consesso?"@it ;
+    schema:keywords "consenso, atti, sessuali";
+    dct:created "2024-05-29" ;
+    dct:creator vocang:battaglinoNicole, vocang:omiccioliRiccardo .
+
+vocang:felicottero
+    a vocang:Parolangelo ;
+    skos:prefLabel "Felicottero"@it ;
+    lexinfo:pronunciation "/fe • li • còt • te • ro/"@it ;
+    skos:definition "Elicottero a forma di gatto."@it ;
+    skos:example "Il felicotttero è passato sopra le nostre teste stamattina. Amo i gatti cazzo."@it ;
+    schema:keywords "elicottero, forma, gatto";
+    dct:created "2024-06-01" ;
+    dct:creator vocang:orlandoNicola .

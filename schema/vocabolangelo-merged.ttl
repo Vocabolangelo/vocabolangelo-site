@@ -10380,3 +10380,100 @@
 <http://www.vocabolangelo.org/scorciatreia> <https://schema.org/keywords> "scorciatoia, Treia, Passo Treia" .
 <http://www.vocabolangelo.org/scorciatreia> <http://purl.org/dc/terms/created> "2024-05-20" .
 <http://www.vocabolangelo.org/scorciatreia> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/paoliMichele> .
+<http://www.vocabolangelo.org/pesaresa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/pesaresa> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pesaresa"@it .
+<http://www.vocabolangelo.org/pesaresa> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/pe • sa • rè • sa/"@it .
+<http://www.vocabolangelo.org/pesaresa> <http://www.w3.org/2004/02/skos/core#definition> "L'atto di capitolazione della città di Pesaro."@it .
+<http://www.vocabolangelo.org/pesaresa> <http://www.w3.org/2004/02/skos/core#example> "Dopo la pesaresa, i generali concessero la loro riserva di rossini all'esercito nemico."@it .
+<http://www.vocabolangelo.org/pesaresa> <https://schema.org/keywords> "capitolazione, città, pesaro, generale, riserva, rossini, esercito, nemico" .
+<http://www.vocabolangelo.org/pesaresa> <http://purl.org/dc/terms/created> "2024-05-20" .
+<http://www.vocabolangelo.org/pesaresa> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
+<http://www.vocabolangelo.org/browler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/browler> <http://www.w3.org/2004/02/skos/core#prefLabel> "Browler"@it .
+<http://www.vocabolangelo.org/browler> <http://www.w3.org/2004/02/skos/core#definition> "Alleato in una rissa."@it .
+<http://www.vocabolangelo.org/browler> <http://www.w3.org/2004/02/skos/core#example> "In una semirissa, tutti sono browler e nessuno è nemico!"@it .
+<http://www.vocabolangelo.org/browler> <https://schema.org/keywords> "alleato, rissa, forte, amico, vincere" .
+<http://www.vocabolangelo.org/browler> <http://purl.org/dc/terms/created> "2024-05-21" .
+<http://www.vocabolangelo.org/browler> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/semirissa> .
+<http://www.vocabolangelo.org/browler> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/medicoglione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/medicoglione> <http://www.w3.org/2004/02/skos/core#prefLabel> "Medicoglione"@it .
+<http://www.vocabolangelo.org/medicoglione> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/me • di • co • gli • ò • ne/"@it .
+<http://www.vocabolangelo.org/medicoglione> <http://www.w3.org/2004/02/skos/core#definition> "Un medico ritenuto coglione."@it .
+<http://www.vocabolangelo.org/medicoglione> <http://www.w3.org/2004/02/skos/core#example> "Il dottor P è un medicoglione, mi ha detto che il mio mal di testa è causato da un tumore al cervello!"@it .
+<http://www.vocabolangelo.org/medicoglione> <https://schema.org/keywords> "medico, ritenuto, coglione" .
+<http://www.vocabolangelo.org/medicoglione> <http://purl.org/dc/terms/created> "2024-05-21" .
+<http://www.vocabolangelo.org/medicoglione> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/scattoniSilvia> .
+<http://www.vocabolangelo.org/kUomo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/kUomo> <http://www.w3.org/2004/02/skos/core#prefLabel> "K-uomo"@it .
+<http://www.vocabolangelo.org/kUomo> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/kà • u • mo/"@it .
+<http://www.vocabolangelo.org/kUomo> <http://www.w3.org/2004/02/skos/core#definition> "Individuo che gira sempre con addosso uno o più k-way."@it .
+<http://www.vocabolangelo.org/kUomo> <http://www.w3.org/2004/02/skos/core#example> "Ho visto un k-uomo ieri in mezzo al deserto. Che coglione!"@it .
+<http://www.vocabolangelo.org/kUomo> <https://schema.org/keywords> "individuo, k-way, strano, cespuglio" .
+<http://www.vocabolangelo.org/kUomo> <http://purl.org/dc/terms/created> "2024-05-21" .
+<http://www.vocabolangelo.org/kUomo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/scattoniSilvia> .
+<http://www.vocabolangelo.org/paracacaccadute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/paracacaccadute> <http://www.w3.org/2004/02/skos/core#prefLabel> "Paracacaccadute"@it .
+<http://www.vocabolangelo.org/paracacaccadute> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/pa • ra • cac • cac • ca • dù • te/"@it .
+<http://www.vocabolangelo.org/paracacaccadute> <http://www.w3.org/2004/02/skos/core#definition> "Paracadute per la cacca che si fa con la carta igienica nella tazza per evitare che faccia \"plof\" quando si è in un luogo pubblico o a casa di altri."@it .
+<http://www.vocabolangelo.org/paracacaccadute> <http://www.w3.org/2004/02/skos/core#example> "Ieri sera ho fatto una cacca in casa di Sofia. Ho usato il paracacaccadute e non si è sentito nulla!"@it .
+<http://www.vocabolangelo.org/paracacaccadute> <https://schema.org/keywords> "paracadute, cacca, carta, igienica, tazza, plof, luogo, pubblico, casa, altri" .
+<http://www.vocabolangelo.org/paracacaccadute> <http://purl.org/dc/terms/created> "2024-05-22" .
+<http://www.vocabolangelo.org/paracacaccadute> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/nardiniArianna> .
+<http://www.vocabolangelo.org/nanegretto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/nanegretto> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nanegretto"@it .
+<http://www.vocabolangelo.org/nanegretto> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/na • ne • grè • tto/"@it .
+<http://www.vocabolangelo.org/nanegretto> <http://www.w3.org/2004/02/skos/core#definition> "Un nano di colore."@it .
+<http://www.vocabolangelo.org/nanegretto> <http://www.w3.org/2004/02/skos/core#example> "Ho visto un nanegretto in un film. Era molto buffo e simpatico! Il migliore personaggio del film."@it .
+<http://www.vocabolangelo.org/nanegretto> <https://schema.org/keywords> "nano, colore, buffo, simpatico" .
+<http://www.vocabolangelo.org/nanegretto> <http://purl.org/dc/terms/created> "2024-05-22" .
+<http://www.vocabolangelo.org/nanegretto> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/savoGiorgia> .
+<http://www.vocabolangelo.org/cornuccino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/cornuccino> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cornuccino"@it .
+<http://www.vocabolangelo.org/cornuccino> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/cor • nuc • cì • no/"@it .
+<http://www.vocabolangelo.org/cornuccino> <http://www.w3.org/2004/02/skos/core#definition> "Colazione tipica italiana composta da cornetto e cappuccino."@it .
+<http://www.vocabolangelo.org/cornuccino> <http://www.w3.org/2004/02/skos/core#example> "Ogni mattina faccio colazione con un cornuccino. È la mia colazione preferita!"@it .
+<http://www.vocabolangelo.org/cornuccino> <https://schema.org/keywords> "colazione, tipica, italiana, cornetto, cappuccino" .
+<http://www.vocabolangelo.org/cornuccino> <http://purl.org/dc/terms/created> "2024-05-24" .
+<http://www.vocabolangelo.org/cornuccino> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/battaglinoNicole> .
+<http://www.vocabolangelo.org/extracomunicario> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/extracomunicario> <http://www.w3.org/2004/02/skos/core#prefLabel> "Extracomunicario"@it .
+<http://www.vocabolangelo.org/extracomunicario> <http://www.w3.org/2004/02/skos/core#definition> "Individuo proveniente da un paese straniero che comunica con i suoi simili in una lingua sconosciuta alle persone del luogo."@it .
+<http://www.vocabolangelo.org/extracomunicario> <http://www.w3.org/2004/02/skos/core#example> "Ieri sera ho visto un extracomunicario. Parlava con un suo simile in una lingua che non conoscevo! Ad un certo punto ha detto Bewolla."@it .
+<http://www.vocabolangelo.org/extracomunicario> <https://schema.org/keywords> "individuo, paese, straniero, comunicare, lingua, sconosciuta" .
+<http://www.vocabolangelo.org/extracomunicario> <http://purl.org/dc/terms/created> "2024-05-25" .
+<http://www.vocabolangelo.org/extracomunicario> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/bianchiniGiovanni> .
+<http://www.vocabolangelo.org/monospastico> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/monospastico> <http://www.w3.org/2004/02/skos/core#prefLabel> "Monospastico"@it .
+<http://www.vocabolangelo.org/monospastico> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/mo • no • spa • stì • co/"@it .
+<http://www.vocabolangelo.org/monospastico> <http://www.w3.org/2004/02/skos/core#definition> "Monopattino elettrico non funzionante."@it .
+<http://www.vocabolangelo.org/monospastico> <http://www.w3.org/2004/02/skos/core#example> "Ieri sera ho visto un tizio andare sul monospastico. Si è schiantato su una Tesla!"@it .
+<http://www.vocabolangelo.org/monospastico> <https://schema.org/keywords> "monopattino, elettrico, non, funzionante" .
+<http://www.vocabolangelo.org/monospastico> <http://purl.org/dc/terms/created> "2024-05-25" .
+<http://www.vocabolangelo.org/monospastico> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/ribaudoSofia> .
+<http://www.vocabolangelo.org/cagafratto:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/cagafratto:> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cagafratto"@it .
+<http://www.vocabolangelo.org/cagafratto:> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/ca • ga • frà • tto/"@it .
+<http://www.vocabolangelo.org/cagafratto:> <http://www.w3.org/2004/02/skos/core#definition> "Lo status confusionale e attonito in cui ci si trova dopo aver defecato pesantemente."@it .
+<http://www.vocabolangelo.org/cagafratto:> <http://www.w3.org/2004/02/skos/core#example> "Dopo aver cagato pesantemente, mi sono ritrovato cagafratto e depresso. Non sapevo di poter essere così leggero!"@it .
+<http://www.vocabolangelo.org/cagafratto:> <http://www.w3.org/2004/02/skos/core#example> "Ieri ho mangiato un chilo di fagioli piccanti, ora sto cagafratto!"@it .
+<http://www.vocabolangelo.org/cagafratto:> <https://schema.org/keywords> "status, confusionale, attonito, defecare, pesantemente" .
+<http://www.vocabolangelo.org/cagafratto:> <http://purl.org/dc/terms/created> "2024-05-26" .
+<http://www.vocabolangelo.org/cagafratto:> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/antonioniGiovanni> .
+<http://www.vocabolangelo.org/consesso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/consesso> <http://www.w3.org/2004/02/skos/core#prefLabel> "Consesso"@it .
+<http://www.vocabolangelo.org/consesso> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/con • sès • so/"@it .
+<http://www.vocabolangelo.org/consesso> <http://www.w3.org/2004/02/skos/core#definition> "Consenso dato per effettuare atti sessuali."@it .
+<http://www.vocabolangelo.org/consesso> <http://www.w3.org/2004/02/skos/core#example> "Voglio prenderti e sbatterti contro il muro per poi metterti a pecora. Ho il tuo consesso?"@it .
+<http://www.vocabolangelo.org/consesso> <https://schema.org/keywords> "consenso, atti, sessuali" .
+<http://www.vocabolangelo.org/consesso> <http://purl.org/dc/terms/created> "2024-05-29" .
+<http://www.vocabolangelo.org/consesso> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/battaglinoNicole> .
+<http://www.vocabolangelo.org/consesso> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
+<http://www.vocabolangelo.org/felicottero> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/felicottero> <http://www.w3.org/2004/02/skos/core#prefLabel> "Felicottero"@it .
+<http://www.vocabolangelo.org/felicottero> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/fe • li • còt • te • ro/"@it .
+<http://www.vocabolangelo.org/felicottero> <http://www.w3.org/2004/02/skos/core#definition> "Elicottero a forma di gatto."@it .
+<http://www.vocabolangelo.org/felicottero> <http://www.w3.org/2004/02/skos/core#example> "Il felicotttero è passato sopra le nostre teste stamattina. Amo i gatti cazzo."@it .
+<http://www.vocabolangelo.org/felicottero> <https://schema.org/keywords> "elicottero, forma, gatto" .
+<http://www.vocabolangelo.org/felicottero> <http://purl.org/dc/terms/created> "2024-06-01" .
+<http://www.vocabolangelo.org/felicottero> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/orlandoNicola> .
