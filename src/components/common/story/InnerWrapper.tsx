@@ -8,8 +8,7 @@ export default function InnerWrapper(props: StorySectionProps) {
 
     const {style, optionalModifiers} = props
     const modifierString = (optionalModifiers !== undefined ? optionalModifiers.join(' ') : '')
-        .concat(theme.toModifiers())
-    return <section className={`wrapper style${style} ${modifierString}`}>
+    return <section className={`wrapper style${style} ${modifierString} ${theme.toModifiers()}`}>
         <div className="inner">
             {props.children}
         </div>

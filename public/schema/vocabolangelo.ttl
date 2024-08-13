@@ -9069,7 +9069,6 @@ vocang:eiaculabbiocco
     dct:created "2023-11-11" ;
     dct:creator vocang:minoccheriAlessandra .
 
-
 vocang:azkbar
     a vocang:Parolangelo ;
     skos:prefLabel "Azkbar"@it ;
