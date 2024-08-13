@@ -11580,3 +11580,13 @@ vocang:fanobro
     schema:keywords "fano, pesaro merda, bro";
     dct:created "2024-05-03" ;
     dct:creator vocang:antonioniGiovanni .
+
+vocang:megazione
+    a vocang:Parolangelo ;
+    skos:prefLabel "Megazione"@it ;
+    lexinfo:pronunciation "/me • ga • zio • ne/"@it ;
+    skos:definition "Azione che porta a conseguenze irreparabili e indesiderate."@it ;
+    skos:example "È da 25 minuti che Sasha è ancora nel suo turno a Cheeky Monkeys, giocare quel cazzo di sciamano è stato veramente una megazione"@it ;
+    schema:keywords "azione, conseguenze, irreparabili, indesiderate";
+    dct:created "2024-05-04" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:bragariAlexandrus .
