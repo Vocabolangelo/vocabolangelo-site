@@ -667,6 +667,30 @@ vocang:ribaudoWilliam
     rel:friendOf vocang:filasetaAngelo, vocang:ribaudoSofia ;
     rel:siblingOf vocang:ribaudoSofia .
 
+vocang:mernissiElyas
+    a vocang:Vocaboliere ;
+    foaf:firstName "Elyas" ;
+    foaf:lastName "Mernissi" ;
+    foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:filasetaAngelo, vocang:ribaudoSofia .
+
+vocang:tomassettiLorenzo
+    a vocang:Vocaboliere ;
+    foaf:firstName "Lorenzo" ;
+    foaf:lastName "Tomassetti" ;
+    foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:mernissiElyas, vocang:ribaudoSofia .
+
+vocang:franciaMatteo
+    a vocang:Vocaboliere ;
+    foaf:firstName "Matteo" ;
+    foaf:lastName "Francia" ;
+    foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:filasetaAngelo, vocang:cortecchiaAngela, vocang:magniniMatteo, vocang:pianiniDanilo, vocang:aguzziGianluca .
+
 # Other Author Individuals
 
 vocang:chatGPT
@@ -12143,4 +12167,135 @@ vocang:negritudine
     skos:example "Ieri sera ho sentito la negritudine. Mi sono sentito in pericolo!"@it ;
     schema:keywords "dispersione, molecolare, essenza, negri, aria";
     dct:created "2024-06-15" ;
-    dct:creator vocang:duraz .
+    dct:creator vocang:durazziMarco .
+
+vocang:sassino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Sassino"@it ;
+    lexinfo:pronunciation "/sas • sì • no/"@it ;
+    skos:definition "Sasso assassino."@it ;
+    skos:example "Ieri sera  Giada è atterrata su un sassino. È rimasta in mezzo alla strada e non si muoveva più."@it ;
+    schema:keywords "sasso, assassino, morte";
+    dct:created "2024-06-15" ;
+    dct:creator vocang:durazziMarco .
+
+vocang:pelinnolino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Pelinnolino"@it ;
+    lexinfo:pronunciation "/pe • lin • no • lì • no/"@it ;
+    skos:definition "Pannolino costituito dal pelo corporeo."@it ;
+    skos:example "Ieri sera ho visto un vecchio con un pelinnolino. Che schifo!"@it ;
+    schema:keywords "pannolino, pelo, corporeo";
+    dct:created "2024-06-16" ;
+    dct:creator vocang:pertosaLorenzo, vocang:ribaudoSofia .
+
+vocang:brasoselano
+    a vocang:Parolangelo ;
+    skos:prefLabel "Brasoletano"@it ;
+    lexinfo:pronunciation "/bra • so • le • tà • no/"@it ;
+    skos:definition "Napoletano Brasiliano."@it ;
+    skos:example "Ieri sera ho incontrato un brasoletano. Era molto simpatico e parlava un italiano molto strano e sospetto!"@it ;
+    schema:keywords "napoletano, brasiliano";
+    dct:created "2024-06-16" ;
+    dct:creator vocang:bragariAlexandru, vocang:ribaudoSofia .
+
+vocang:gustonico
+    a vocang:Parolangelo ;
+    skos:prefLabel "Gustonico"@it ;
+    lexinfo:pronunciation "/gu • stò • ni • co/"@it ;
+    skos:definition "Daltonico del gusto, ovvero chi scambia o confonde un gusto con un altro."@it ;
+    skos:example "Ieri sera mi sono sentito gustonico, ho mangiato un gelato al gusto di fragola e ho avuto l'impressione che fosse al limone!"@it ;
+    schema:keywords "daltonia, gusto, scambiare, confusione";
+    dct:created "2024-06-18" ;
+    dct:creator vocang:ribaudoSofia, vocang:tomassettiLorenzo, vocang:mernissiElyas .
+
+vocang:kebap
+    a vocang:Parolangelo ;
+    skos:prefLabel "Kebap"@it ;
+    skos:definition "Pulmino a forma di kebab."@it ;
+    skos:example "Ieri sera ho visto un kebap, ma a bordo era pieno di arabi!"@it ;
+    schema:keywords "pulmino, forma, kebab";
+    dct:created "2024-06-18" ;
+    dct:creator vocang:scattoniAlessandra .
+
+vocang:kebabbateo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Kebabbàteo"@it ;
+    skos:definition "Kebabbaro ateo che vende numerose sacco di birre artigianali."@it ;
+    skos:example "Ieri sera ho mangiato un kebab da un kebabbateo. Era molto buono, ma lo era anche la IPA che ho gustato al suo fianco!"@it ;
+    schema:keywords "kebabbaro, ateo, birre, artigianali";
+    dct:created "2024-06-22" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:nardiniArianna, vocang:suscaMatteo .
+
+vocang:geoclusione
+    a vocang:Parolangelo ;
+    skos:prefLabel "Geoclusione"@it ;
+    lexinfo:pronunciation "/ge • o • clu • siò • ne/"@it ;
+    skos:definition "Geoco impossibile da vincere se non cadendo compiendo azioni illegali, ad esempio quando è vietato scattare foto nel luogo in cui ci si trova."@it ;
+    skos:example "Ieri sera volevo vincere il geoco, ma ero allo zoo di falconare, quindi ho invece deciso di vincere la geoclusione!"@it ;
+    schema:keywords "geoco, impossibile, vincere, illegalità, vietato, scattare, foto, luogo";
+    dct:created "2024-06-24" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:patatico
+    a vocang:Parolangelo ;
+    skos:prefLabel "Patatico"@it ;
+    lexinfo:pronunciation "/pa • ta • tì • co/"@it ;
+    skos:definition "Stato dell'animo che rende la persona carina, gentile e coccolosa."@it ;
+    skos:example "Oggi ero parecchio patatico e avevo tanta voglia di coccole!"@it ;
+    schema:keywords "stato, animo, persona, carina, gentile, coccolosa";
+    dct:created "2024-06-26" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:menastasi
+    a vocang:Parolangelo ;
+    skos:prefLabel "Menastasi"@it ;
+    lexinfo:pronunciation "/me • na • stà • si/"@it ;
+    skos:definition "Condizione medica che porta ad avere una gran voglia di picchiare qualcuno."@it ;
+    skos:example "A Lorenzo ieri sono venute le menastasi. Ha avuto in impellente bisogno massacrare di legnate il giovane balneare. Come dargli torto!"@it ;
+    schema:keywords "condizione, medica, picchiare, qualcuno";
+    dct:created "2024-06-26" ;
+    dct:creator vocang:battaglinoNicole, vocang:omiccioliRiccardo .
+
+vocang:dentrocottero
+    a vocang:Parolangelo ;
+    skos:prefLabel "Dentrocottero"@it ;
+    lexinfo:pronunciation "/den • tro • còt • te • ro/"@it ;
+    skos:definition "Elicottero fatto con il pene dentro una vagina dilatata post parto."@it ;
+     skos:example "Per festeggiare la nascita di mio figlio penso che farò un dentrocottero!"@it ;
+    schema:keywords "sesso, elicottero, pene, vagina, parto";
+    dct:created "2024-06-28" ;
+    dct:creator vocang:franciaMatteo, vocang:pianiniDanilo .
+
+vocang:esagovo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Esagovo"@it ;
+    lexinfo:pronunciation "/e • sa • gò • vo/"@it ;
+    skos:definition "Esagono in cui la lunghezza di una coppia di lati è diversa da quella degli altri."@it ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/esagovo.jpg" ;
+    skos:example "Ieri sera ho disegnato un esagovo. Era molto bello e particolare!"@it ;
+    schema:keywords "esagono, coppia, lati, diversa, misura";
+    dct:created "2024-06-28" ;
+    dct:creator vocang:orlandoNicola .
+
+vocang:invasilico
+    a vocang:Parolangelo ;
+    skos:prefLabel "Invasilico"@it ;
+    lexinfo:pronunciation "/in • va • si • lì • co/"@it ;
+    skos:definition "Pianta di spezie o erbe aromatiche piantata in un vaso."@it ;
+    skos:example "Ieri sera ho piantato un invasilico. Ora ho un vaso di basilico in casa!"@it ;
+    schema:keywords "pianta, spezie, erbe, aromatiche, vaso";
+    dct:created "2024-06-30" ;
+    skos:related vocang:fuorigano ;
+    dct:creator vocang:omiccioliRiccardo .
+    
+vocang:invasemolo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Invasemolo"@it ;
+    lexinfo:pronunciation "/in • va • sè • mo • lo/"@it ;
+    skos:definition "Pianta di spezie o erbe aromatiche che attecchisce ovunque soppiantando la flora naturale."@it ;
+    skos:example "La menta che ho in giardino sta diventando un invasemolo. Preso verrà a prendermi."@it ;
+    schema:keywords "pianta, spezie, erbe, aromatiche, attecchire, soppiantare, flora, naturale";
+    dct:created "2024-06-30" ;
+    skos:related vocang:fuorigano, vocang:invasilico;
+    dct:creator vocang:orlandoNicola .
