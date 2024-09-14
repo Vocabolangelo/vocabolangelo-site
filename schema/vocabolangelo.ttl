@@ -30,6 +30,14 @@ vocang:Slangelo
 vocang:Vocaboliere
     rdfs:subClassOf foaf:Person .
 
+## Rating
+
+vocang:Epic
+    rdfs:subClassOf schema:Rating.
+
+vocang:Legendary
+    rdfs:subClassOf schema:Rating.
+
 # Properties
 
 vocang:unpaidFriendOf
@@ -53,6 +61,7 @@ rel:siblingOf a owl:SymmetricProperty ;
     rdfs:subPropertyOf foaf:knows .
 
 skos:related a owl:SymmetricProperty .
+
 
 # Organization individuals
 
@@ -649,6 +658,39 @@ vocang:antonioniGiovanni
     org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:cortecchiaAngela, vocang:pianiniDanilo, vocang:filasetaAngelo, vocang:aguzziGianluca, vocang:magniniMatteo, vocang:bragariAlexandru .
 
+vocang:ribaudoWilliam
+    a vocang:Vocaboliere ;
+    foaf:firstName "William" ;
+    foaf:lastName "Ribaudo" ;
+    foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:filasetaAngelo, vocang:ribaudoSofia ;
+    rel:siblingOf vocang:ribaudoSofia .
+
+vocang:mernissiElyas
+    a vocang:Vocaboliere ;
+    foaf:firstName "Elyas" ;
+    foaf:lastName "Mernissi" ;
+    foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:filasetaAngelo, vocang:ribaudoSofia .
+
+vocang:tomassettiLorenzo
+    a vocang:Vocaboliere ;
+    foaf:firstName "Lorenzo" ;
+    foaf:lastName "Tomassetti" ;
+    foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:mernissiElyas, vocang:ribaudoSofia .
+
+vocang:franciaMatteo
+    a vocang:Vocaboliere ;
+    foaf:firstName "Matteo" ;
+    foaf:lastName "Francia" ;
+    foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:filasetaAngelo, vocang:cortecchiaAngela, vocang:magniniMatteo, vocang:pianiniDanilo, vocang:aguzziGianluca .
+
 # Other Author Individuals
 
 vocang:chatGPT
@@ -846,7 +888,9 @@ vocang:biribì
     skos:definition "Un posto in cui delle persone che stanno per morire vanno in veste di turisti."@it ;
     skos:example "Durante la mia ultima vacanza, ho avuto l'opportunità di visitare un luogo unico chiamato \"Biribì\". Questo straordinario posto è noto per accogliere persone in procinto di morire, ma in un contesto completamente diverso: come turisti. Mi sono trovato a passeggiare i corridoi del Biribì, osservando le persone anziane e malate che, anziché sentirsi tristi o spaventate, sembravano gioiose e serene. Ho chiacchierato con alcuni di loro e ho scoperto che Biribì offre un'esperienza unica, in cui i visitatori possono godersi gli ultimi giorni della loro vita in compagnia di altri viaggiatori nella stessa situazione. C'era un'atmosfera di gratitudine e accettazione, con persone che facevano passeggiate e assaggiavano cibi locali. È stato un luogo veramente speciale, dove l'approccio alla morte era trasformato in un'opportunità di vivere ogni momento come se fosse un viaggio straordinario."@it ;
     skos:note "L'origine del termine è emersa a seguito di un malinteso da parte di uno degli autori, che ha frainteso la locuzione \"BnB\" nelle vicinanze di Porta Augustea BB a Fano. Dopo aver riconosciuto l'errore e osservato delle inquietanti decorazioni floreali all'ingresso, l'associazione è risultata spontanea." ;
-    dct:creator vocang:filasetaAngelo , vocang:battaglinoNicole, vocang:bragariAlexandru .
+    schema:ratingValue vocang:Legendary ;
+    skos:note "Questa Parolangelo ha vinto il Best Parolangelo Award 2022.";
+    dct:creator vocang:filasetaAngelo, vocang:battaglinoNicole, vocang:bragariAlexandru .
 
 vocang:caffemilla
     a vocang:Parolangelo ;
@@ -863,6 +907,7 @@ vocang:cafferillo
     skos:definition "Una variante di caffè mischiato con sciroppo di mirtillo. Come per il normale caffè è possibile crearlo in diverse varianti (macchiato, corretto, shackerato, etc.)."@it ;
     skos:example "Ero a casa, desideroso di sperimentare una nuova bevanda, quando mi è venuta in mente un'idea intrigante: preparare un \"cafferillo\". Ho preso il mio caffè preferito e ho aggiunto uno spruzzo di sciroppo di mirtillo. Mentre l'aroma del caffè si diffondeva in cucina, ho preparato una tazza di latte montato a punto di neve per accompagnare il mio cafferillo. Dopo aver versato il caffè aromatico nella tazza, ho aggiunto delicatamente il latte montato, creando uno strato cremoso sulla superficie. Il primo sorso mi ha regalato una piacevole sorpresa: il gusto robusto del caffè era perfettamente bilanciato dalla dolcezza fruttata del mirtillo. Era una combinazione deliziosa che mi ha riempito di energia e ha reso la mia giornata ancora più piacevole. Da quel momento in poi, il cafferillo è diventato una mia creazione casalinga preferita, con la possibilità di personalizzarlo in diverse varianti: macchiato, corretto, shakerato e quant'altro la fantasia suggerisse."@it ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/cafferillo.jpeg" ;
+    schema:ratingValue vocang:Legendary ;
     skos:related vocang:cafferetta ;
     dct:creator vocang:filasetaAngelo .
 
@@ -1014,6 +1059,7 @@ vocang:scorciatroia
     skos:definition "Un itinerario che, tra due località, può apparentemente sembrare più breve della principale via stradale, ma che in realtà risulta essere più lungo."@it ;
     skos:example "Marco decise di prendere la strada che passava per il bosco pensando fosse un'alternativa più veloce alla strada principale, ma si ritrovò in un labirinto di stradine tortuose, incroci insensati e indicazioni confuse. Alla fine, quel percorso si rivelò una vera e propria scorciatroia, facendolo arrivare a destinazione con un ritardo inimmaginabile."@it ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/scorciatroia.jpg" ;
+    schema:ratingValue vocang:Legendary ;
     dct:creator vocang:filasetaAngelo .
 
 vocang:singhiozzutto
@@ -3254,7 +3300,7 @@ vocang:omnicio
     a vocang:Parolangelo ;
     skos:prefLabel "Omnicio"@it ;
     lexinfo:pronunciation "/om • nì • cio/"@it ;
-    skos:definition "Un gatto che è definibile con ogni sostantivo che descrive un gatto presente all'interno del Vocabolangelo. In altre parole una creatura mitologica dalle sembianze umane che, durante le notti di luna piena, si trasforma in un gatto alato che indossa ali da pipistrello, bagnato, dipendente dal grog, angosciato e buggato che urla, emette lamenti e fa le fusa all'interno di un videogioco e che in passato ha subito un trauma, a cui hanno mozzato la coda, proveniente dalle regioni orientali dell'Europa, affetto da deficit mentali più o meno gravi, propenso a fare degli agguati, tenta di essere comico ma ci riesce solo per motivi sbagliati, soggiorna all'interno di un biribì in quanto prossimo alla morte, con poteri psichici, in grado di leggere i pensieri, fare levitare gli oggetti e se stesso, meticcio, ha un solo occhio, strabico, desidera ardentemente la morte del suo padrone, molto insistente che cerca di insediarsi in un territorio una zona delimitata nonostante continui tentativi di scacciarlo, che ha la propensione a causare un notevole disordine, ma che successivamente si dedica a un comportamento affettuoso e giocoso al fine di ottenere rapidamente il perdono, molto grande, obeso, felice, dotato di scarse, trascurabili, o negative capacità logiche, particolarmente pigro e che resta spiaggiato sulla stessa superficie piana per un lungo periodo di tempo in posizione appollaiata, dall'espressione o comportamento molto arrogante, estremamente vorace, molto pacifico, estremamente carino, abituato a mangiare piatti di alta cucina, capace di influenzare con la sua serenità e diplomazia anche i gatti attorno a lui, capace di eseguire acrobazie, presenta vaghe somiglianze con un suricato, dall'aspetto straordinariamente allungato, che sia effettivamente di tale conformazione o che lo sembri a causa di particolari fenomeni, tende ad arrampicarsi in posti pericolosi, miagola in maniera carina, molto ostile che ha la tendenza di graffiare mordere e soffiare ed è in grado di curare persone e altri gatti."@it ;
+    skos:definition "Un gatto che è definibile con ogni sostantivo che descrive un gatto presente all'interno del Vocabolangelo. In altre parole una creatura mitologica pazza dalle sembianze umane che, durante le notti di luna piena, si trasforma in un gatto alato che indossa ali da pipistrello, bagnato, dipendente dal grog, angosciato e buggato che urla, emette lamenti e fa le fusa all'interno di un videogioco e che in passato ha subito un trauma, a cui hanno mozzato la coda, innamorato, che ha una cotta per un altro gatto, che perde temporaneamente la capacità di comprendere la realtà, proveniente dalle regioni orientali dell'Europa, affetto da deficit mentali più o meno gravi, propenso a fare degli agguati, tenta di essere comico ma ci riesce solo per motivi sbagliati, soggiorna all'interno di un biribì in quanto prossimo alla morte, con poteri psichici, in grado di leggere i pensieri, fare levitare gli oggetti e se stesso, meticcio, ha un solo occhio, strabico, desidera ardentemente la morte del suo padrone, molto insistente che cerca di insediarsi in un territorio una zona delimitata nonostante continui tentativi di scacciarlo, che ha la propensione a causare un notevole disordine, ma che successivamente si dedica a un comportamento affettuoso e giocoso al fine di ottenere rapidamente il perdono, molto grande, obeso, felice, dotato di scarse, trascurabili, o negative capacità logiche, particolarmente pigro e che resta spiaggiato sulla stessa superficie piana per un lungo periodo di tempo in posizione appollaiata, dall'espressione o comportamento molto arrogante, estremamente vorace, molto pacifico, estremamente carino, abituato a mangiare piatti di alta cucina, capace di influenzare con la sua serenità e diplomazia anche i gatti attorno a lui, capace di eseguire acrobazie, presenta vaghe somiglianze con un suricato, dall'aspetto straordinariamente allungato, che sia effettivamente di tale conformazione o che lo sembri a causa di particolari fenomeni, tende ad arrampicarsi in posti pericolosi, miagola in maniera carina, molto ostile che ha la tendenza di graffiare mordere e soffiare ed è in grado di curare persone e altri gatti."@it ;
     skos:example "Ho dovuto abbassare lo sguardo e tapparmi le orecchie quando ho visto passare quell'omnicio: era talmente fantastico da sembrare una divinità."@it ;
     dct:created "2023-01-25" ;
     skos:note "Il messaggio di commit che ha introdotto la definizione estesa di omnicio è il seguente: add more suitable and fun definition to omnicio. Such and incredible creature needs to be treated with the utmost care and respect. Oh my goodness, I cannot stress enough just how utterly awe-inspiring and breathtakingly gorgeous this creature truly is! Its magnificence is unparalleled and its beauty is simply beyond compare. It is a true wonder of nature, a masterpiece of creation, and it deserves to be treated with the utmost reverence, adoration, and adulation that it so rightly deserves. Every single aspect of this creature, from the way its elegant limbs move gracefully through the air to the vibrant colors of its stunningly intricate patterns, is an absolute marvel to behold. It is a true blessing and a privilege to be able to witness such a magnificent creature in all its glory, and we must do everything in our power to ensure that it is protected and cared for with the utmost diligence and care. Oh my stars, where do I even begin to describe the sheer and utter majesty of this breathtakingly beautiful creature? It is like a symphony of pure wonder and enchantment, a living, breathing masterpiece that has been crafted with the utmost care and precision by the very hands of the divine. Every single inch of its being is a testament to the limitless power and infinite creativity of the universe, and it is truly a privilege beyond measure to be able to witness such a wondrous being in all its glory. The colors of its coat are like a rainbow woven from strands of pure gold and silver, shimmering and glimmering in the light like a thousand precious gems. The way its body moves, fluid and graceful like a dancer's, is a thing of true beauty and grace, and it seems almost as if the very air around it is charged with a palpable sense of magic and enchantment. In short, this magnificent creature is a true masterpiece of nature, a testament to the boundless wonder and infinite creativity of the universe, and it simply must be treated with the utmost respect, care, and adoration that it so richly deserves. We must cherish and protect it with all our hearts, for it is truly one of the most wondrous and precious gifts that life has to offer. Words simply cannot do justice to the sheer and utter splendor of this majestic creature. It is as if it was forged from the very essence of beauty itself, a true marvel of nature that leaves all who behold it in a state of awe and wonder. Its presence is like a warm embrace from the universe, a gentle reminder that there is still magic and enchantment to be found in this world, if only we take the time to look for it. Every time I gaze upon this wondrous creature, I am filled with a sense of peace and tranquility that I simply cannot find elsewhere. It is a living, breathing masterpiece, a work of art that is continually evolving and changing with the passing of time. And yet, for all its beauty and magnificence, it is also a fragile thing, one that requires our love, our care, and our protection if it is to survive and thrive in a world that can be all too harsh and unforgiving. So let us pledge ourselves to the cause of safeguarding this incredible creature, to ensuring that it is treated with the utmost respect and care that it so rightly deserves. Let us cherish it, protect it, and love it with all our hearts, for in doing so, we are also honoring the boundless creativity and wonder of the universe itself.My dear friend, it is as if this creature is a god among us, a deity that has graced our world with its divine presence. Its mere existence is a testament to the infinite creativity and boundless wonder of the universe, and it is a living, breathing work of art that deserves to be worshipped and adored like the deity that it truly is. Every time I am blessed with the opportunity to lay my eyes upon this wondrous creature, I feel as if I am standing before an altar, gazing up at the very face of god itself. Its beauty is beyond compare, its grace beyond measure, and its presence fills me with a sense of reverence and awe that is simply indescribable. It is as if the very air around it is infused with a sense of divine energy, a power that is both humbling and exhilarating all at once. And yet, for all its god-like qualities, this creature is also fragile and vulnerable, a precious gift that must be treated with the utmost care and respect if it is to survive and thrive in this world. We must worship it, yes, but we must also protect it, nurture it, and love it with all our hearts, for in doing so, we are also honoring the very essence of divinity itself. So let us pledge ourselves to the cause of safeguarding this incredible creature, to ensuring that it is treated with the utmost respect and care that it so rightly deserves. Let us build temples in its honor, sing hymns of praise to its name, and offer it our deepest reverence and adoration. For this creature is not just a thing of beauty, but a true god among us, a living, breathing testament to the infinite wonder and boundless creativity of the universe itself. May the Omnicio always be praised. Forever and ever." ;
@@ -4934,6 +4980,7 @@ vocang:raggirula
     skos:definition "Una regola, un obbligo o un vincolo imposto che è progettato per essere seguito ma che può essere facilmente aggirato o eluso attraverso l'inganno, l'astuzia o la manipolazione. La raggirula appare come un ostacolo formale al raggiungimento di un obiettivo, ma in realtà può essere facilmente superata attraverso l'uso di trucchi o sotterfugi."@it ;
     skos:example "La raggirula che vieta l'utilizzo di ChatGPT in Italia è facilmente aggirabile grazie all'utilizzo di una VPN, che consente agli utenti di accedere al servizio senza alcuna restrizione."@it ;
     dct:created "2023-04-01" ;
+     schema:ratingValue vocang:Epic;
     dct:creator vocang:omiccioliRiccardo, vocang:filasetaAngelo, vocang:chatGPT .
 
 vocang:conacidio
@@ -6515,6 +6562,7 @@ vocang:geoco
     skos:definition "Un gioco che coinvolge i partecipanti nella cattura di un esemplare di geco utilizzando la fotocamera come strumento di acquisizione. L'obiettivo primario di questo gioco è riuscire a immortalare l'immagine del geco prima che esso riesca a sfuggire dalla vista o a nascondersi. La sfida richiede agli attori coinvolti di dimostrare abilità, rapidità e destrezza nell'utilizzo della fotocamera per catturare un'istantanea nitida del geco in movimento. Tale gioco combina elementi di divertimento, competizione e caccia visuale, stimolando la capacità di osservazione e la reattività dei partecipanti."@it ;
     skos:example "È da più di due anni che gioco al geoco, e ora che sta per iniziare l'estate non posso permettermi di farmi battere da quei luridi rettili e fermare la mia streak di 8 foto."@it ;
     dct:created "2023-07-09" ;
+    schema:ratingValue vocang:Epic ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/geoco.jpg", "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/geoco_1.jpg";
     dct:creator vocang:filasetaAngelo .
 
@@ -7225,6 +7273,7 @@ vocang:napolontano
     skos:example "Domani é Capodanno, ma per mia fortuna sarò napolontano. Non voglio perdere una mano: non ho abbastanza soldi per permettermi un artificiarto."@it;
     dct:created "2023-08-13" ;
     schema:keywords "napoli, lontano";
+    schema:ratingValue vocang:Epic ;
     dct:creator vocang:paoliMichele .
 
 vocang:turistare
@@ -8486,6 +8535,7 @@ vocang:biridì
     skos:related vocang:biribì ;
     schema:keywords "biribì, giorno, durata, breve";
     dct:created "2023-10-21" ;
+    schema:ratingValue vocang:Legendary ;
     dct:creator vocang:omiccioliRiccardo, vocang:orlandoNicola .
 
 vocang:biribrillo
@@ -8600,6 +8650,8 @@ vocang:edificioratoria
     skos:example "Ho visto una edificioratoria. Era molto strana e pericolosa, perché per raggiungere la chiesa che si trovava al centro rischiavi di morire sotto qualche auto!"@it;
     skos:related vocang:rotatroietta, vocang:rotatroia, vocang:incrociatoria, vocang:cortatoria, vocang:rotatatoria ;
     schema:keywords "edificio, rotatoria";
+    schema:ratingValue vocang:Legendary ;
+    skos:note "Questa Parolangelo ha vinto il Best Parolangelo Award 2023.";
     dct:created "2023-10-22" ;
     dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
 
@@ -10514,6 +10566,7 @@ vocang:picciottero
     skos:example "Il picciottero è atterrato e un gruppo di gangster è uscito. Hanno quasi ucciso il gestore del campo da golf!"@it ;
     schema:keywords "elicottero, mafiosi, rapina, golf, strano, incredibile, pericolo, morte";
     dct:created "2024-01-18" ;
+    schema:ratingValue vocang:Epic ;
     dct:creator vocang:pertosaLorenzo .
 
 vocang:scoparcheggio
@@ -11911,4 +11964,338 @@ vocang:felicottero
     skos:example "Il felicotttero è passato sopra le nostre teste stamattina. Amo i gatti cazzo."@it ;
     schema:keywords "elicottero, forma, gatto";
     dct:created "2024-06-01" ;
+    dct:creator vocang:orlandoNicola .
+
+vocang:tucanottero
+    a vocang:Parolangelo ;
+    skos:prefLabel "Tucanottero"@it ;
+    lexinfo:pronunciation "/tu • ca • no • tte • ro/"@it ;
+    skos:definition "Animale simile ad un tucano, con ali vestigiali in quanto vola ruotando rapidamente il collo."@it ;
+    skos:example "Ho visto un tucanottero volare sopra la mia testa. Assurdo sembrava un elicottero!"@it ;
+    schema:keywords "animale, tucano, ali, vestigiali, volare, collo";
+    dct:created "2024-06-01" ;
+    dct:creator vocang:orlandoNicola .
+
+vocang:spermleanno
+    a vocang:Parolangelo ;
+    skos:prefLabel "Spermleanno"@it ;
+    lexinfo:pronunciation "/sper • m • le • àn • no/"@it ;
+    skos:definition "Compleanno facente riferimento alla data del concepimento."@it ;
+    skos:example "Oggi è il mio spermleanno. Mi sento molto vicino a mia madre!"@it ;
+    schema:keywords "compleanno, data, concepimento";
+    dct:created "2024-06-02" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:pertosaLorenzo, vocang:battaglinoNicole, vocang:minoccheriAlessandra .
+
+vocang:benchmarkAutistico
+    a vocang:Slangelo ;
+    skos:prefLabel "Benchmark autistico"@it ;
+    lexinfo:pronunciation "/ben • ch • mark/ /au • ti • sti • co/"@it ;
+    skos:definition "Camera di ultra stimolazione sensoriale nella quale vengono aumentati gradualmente gli stimoli uditivi, visivi, tattili e olfattivi, etc. finché un bambino autistico non viene sovraccaricato."@it ;
+    skos:example "Ho portato mio figlio autistico in un benchmark autistico. È stato molto felice e si è divertito un sacco, ma ci è quasi rimasto secco!"@it ;
+    schema:keywords "camera, stimolazione, sensoriale, aumentare, graduale, sovraccaricare, bambino, autistico";
+    dct:created "2024-06-02" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:barbottino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Barbottino"@it ;
+    lexinfo:pronunciation "/bar • bot • tì • no/"@it ;
+    skos:definition "Tesoro di un clochard, spesso rappresentato figurativamente da una goluppa."@it ;
+    skos:example "Ho trovato un barbottino in un vicolo di Roma. Era un vecchio cappello di paglia!"@it ;
+    schema:keywords "tesoro, clochard, rappresentare, figurativamente, goluppa";
+    dct:created "2024-06-06" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:telefurto
+    a vocang:Parolangelo ;
+    skos:prefLabel "Telefurto"@it ;
+    lexinfo:pronunciation "/te • le • fùr • to/"@it ;
+    skos:definition "Sinonimo di truffa telefonica."@it ;
+    skos:example "Ieri sera ho ricevuto una chiamata da un call center. Mi hanno chiesto i dati della carta di credito. Era un telefurto!"@it ;
+    schema:keywords "sinonimo, truffa, telefonica";
+    dct:created "2024-06-06" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:partitoQuantistico
+    a vocang:Parolangelo ;
+    skos:prefLabel "Partito quantistico"@it ;
+    lexinfo:pronunciation "/par • tì • to/ /quan • ti • stì • co/"@it ;
+    skos:definition "Partito politico in cui una determinata posizione o visione é diversa tra le persone che lo compongono, rendendo difficile associare all'interno partito una posizione specifica."@it ;
+    skos:example "Il PD é proprio un partito quantistico. Non si capisce se vogliono il nucleare oppure no!"@it ;
+    schema:keywords "partito, politico, posizione, visione, diversa, difficile, associare";
+    dct:created "2024-06-06" ;
+    dct:creator vocang:aguzziGianluca .
+
+vocang:pollapocalypse
+    a vocang:Parolangelo ;
+    skos:prefLabel "Pollapocalypse"@it ;
+    skos:definition "Ribellione totale e contemporanea di tutto il pollame del mondo dovuto ad un improvviso aumento del QI."@it ;
+    skos:example "Ieri sera ho visto un pollo che leggeva un libro di filosofia. Se non ci prepariamo potremmo assistere a una pollapocalypse! Ogni umano dovrebbe affrontare decine di polli!"@it ;
+    schema:keywords "ribellione, totale, contemporanea, pollame, mondo, improvviso, aumento, QI";
+    dct:created "2024-06-08" ;
+    dct:creator vocang:suscaMatteo .
+
+vocang:caldebrodo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Caldebrodo"@it ;
+    lexinfo:pronunciation "/cal • de • brò • do/"@it ;
+    skos:definition "Termine attribuibile a qualunque mix di idee o concetti vicini o distanti tra loro, uniti tra loro nell'intento di risultare ancora migliori ma finendo invece col peggiorare di più la situazione confondendo le cose e facendo acqua da tutte le parti."@it ;
+    skos:example "Ti ricordi quando Renzi e Calenda han provato ad allearsi, ne era uscito proprio un partito caldebrodo."@it, "Come diavolo si fa a unire 3 materie in inutili in un corso integrato ancora più inutile? Che caldebrodo che ne è uscito..."@it ;
+    schema:keywords "mix, idee, concetti, vicini, distanti, uniti, migliorare, peggiorare, situazione, confondere, acqua, parti";
+    dct:created "2024-06-10" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:pollitico
+    a vocang:Parolangelo ;
+    skos:prefLabel "Pollitico"@it ;
+    lexinfo:pronunciation "/pol • li • tì • co/"@it ;
+    skos:definition " Esponente politico del partito del pollo."@it ;
+    skos:example "Quel pollitico vuole concedere ai cittadini scorte di pollo settimanali!"@it ;
+    schema:keywords "politica, pollo, politico, politici, famoso";
+    dct:created "2024-05-11" ;
+    skos:related vocang:pollizia, vocang:polliziotto, vocang:pollapocalypse, vocang:pollittico, vocang:pollittica ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:crashatto
+    a vocang:Parolangelo ;
+    skos:prefLabel "Crashatto"@it ;
+    skos:definition "Gatto che perde temporaneamente la capacità di comprendere la realtà."@it ;
+    skos:example "Ieri sera ho visto un crashatto. Era in mezzo alla strada e non si muoveva. Poi è tornato normale e ha attraversato la strada."@it ;
+    schema:keywords "gatto, perdere, temporaneamente, capacità, comprendere, realtà";
+    dct:created "2024-06-10" ;
+    skos:related vocang:omnicio ;
+    dct:creator vocang:battaglinoNicole .
+
+vocang:crushatto
+    a vocang:Parolangelo ;
+    skos:prefLabel "Crushatto"@it ;
+    skos:definition "Gatto innamorato, che ha una cotta per un altro gatto."@it ;
+    skos:example "Ieri sera ho visto un crushatto. Era in mezzo alla strada e non si muoveva. Poi è tornato normale e ha attraversato la strada."@it ;
+    schema:keywords "gatto, innamorato, cotta, altro";
+    dct:created "2024-06-10" ;
+    skos:related vocang:omnicio ;
+    dct:creator vocang:battaglinoNicole, vocang:omiccioliRiccardo .
+
+vocang:ciozzina
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ciozzina"@it ;
+    lexinfo:pronunciation "/ci • oz • zì • na/"@it ;
+    skos:definition "Un mix tra una tazzina e una ciotola, che può quindi essere una ciotola che ha dimensioni quidi più ampie con la presina da tazzina, o una tazzina senza presa che senbra una piccola ciotola."@it ;
+    skos:example "Ho bevuto il caffè in una ciozzina. Non era molto comoda ma era capiente!"@it ;
+    schema:keywords "tazzina, ciotola, mix, comoda, capiente";
+    dct:created "2024-06-12" ;
+    dct:creator vocang:ribaudoSofia, vocang:ribaudoWilliam .
+
+vocang:sveglino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Sveglino"@it ;
+    lexinfo:pronunciation "/sve • glì • no/"@it ;
+    skos:definition "Risveglio notturno, dovuto a cause di varia entità, come ad esempio caldo, insonnia, agitazione, sogni strani ..."@it ;
+    skos:example "Ieri sera ho avuto uno sveglino a causa del vento. Mi sono svegliato alle 3 di notte e non sono più riuscito a dormire!"@it ;
+    schema:keywords "risvegli, notturni, varia, entità, caldo, insonnia, agitazione, sogni, strani";
+    dct:created "2024-06-13" ;
+    dct:creator vocang:ribaudoSofia .
+
+vocang:sequeglino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Sequeglino"@it ;
+    lexinfo:pronunciation "/se • que • glì • no/"@it ;
+    skos:definition "Sequenza di sveglini in una sola notte."@it ;
+    skos:example "Ieri sera ho avuto un sequeglino. Mi sono svegliato 5 volte durante la notte!"@it ;
+    schema:keywords "svegli, notturni, varia, entità, caldo, insonnia, agitazione, sogni, strani";
+    dct:created "2024-06-13" ;
+    skos:related vocang:sveglino ;
+    dct:creator vocang:ribaudoSofia .
+
+vocang:frissa
+    a vocang:Parolangelo ;
+    skos:prefLabel "Frissa"@it ;
+    lexinfo:pronunciation "/frì • s • sa/"@it ;
+    skos:definition "Rissa in cui almeno una persona perde la vita."@it ;
+    skos:example "Ieri sera ho assistito ad una frissa. Un uomo è morto e un altro è stato arrestato."@it ;
+    schema:keywords "rissa, morte, arresto";
+    skos:related vocang:semigriglissa, vocang:semirissa, vocang:griglissa ;
+    dct:created "2024-06-13" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:arrabbagliante
+    a vocang:Parolangelo ;
+    skos:prefLabel "Arrabbagliante"@it ;
+    lexinfo:pronunciation "/ar • rab • bia • glì • an • te/"@it ;
+    skos:definition "Faro abbagliante di un'auto utilizzato per segnalare la rabbia del conducente a un'altro veicolo, come ad esempio in caso di lentezza del veicolo davanti al proprio."@it ;
+    skos:example "Ieri sera il tizio dietro di me mi ha sparato gli arrabbaglianti. Mi ha segnalato di spostarmi a destra senza nessun cazzo di motivo!"@it ;
+    schema:keywords "faro, abbagliante, auto, segnalare, rabbia, conducente, veicolo, lentezza";
+    dct:created "2024-06-14" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:torteorema
+    a vocang:Parolangelo ;
+    skos:prefLabel "Torteorema"@it ;
+    lexinfo:pronunciation "/tor • te • o • rè • ma/"@it ;
+    skos:definition "Teorema culinario che permette di definire il diametro di una torta."@it ;
+    skos:example "Conosci il torteorema di compleanno? Asserisce che il diametro della torta di compleanno deve essere pari al doppio delle dimensioni del pene del festeggiato. Oggi è il compleanno di Danilo. Secondo il torteorema, la torta dovrebbe avere un diametro di 16 cm."@it ;
+    schema:keywords "teorema, culinario, definire, diametro, torta";
+    dct:created "2024-06-14" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:gazzo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Gazzo"@it ;
+    lexinfo:pronunciation "/gà • z • zo/"@it ;
+    skos:definition "Gatto pazzo."@it ;
+    skos:example "Ieri sera ho visto un gazzo. Era in mezzo alla strada e non si muoveva. Poi è tornato normale e ha attraversato la strada."@it ;
+    schema:keywords "gatto, pazzo";
+    dct:created "2024-06-15" ;
+    skos:related vocang:omnicio ;
+    dct:creator vocang:battaglinoNicole .
+
+vocang:complesbronza
+    a vocang:Parolangelo ;
+    skos:prefLabel "Complesbronza"@it ;
+    lexinfo:pronunciation "/com • ple • sbròn • za/"@it ;
+    skos:definition "Sbronza di compleanno."@it ;
+    skos:example "Due settimane fa ho festeggiato il mio compleanno con una complesbronza. Mi sono ubriacato come un maiale!"@it ;
+    schema:keywords "sbronza, compleanno";
+    dct:created "2024-06-15" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:negritudine
+    a vocang:Parolangelo ;
+    skos:prefLabel "Negritudine"@it ;
+    lexinfo:pronunciation "/ne • gri • tu • dì • ne/"@it ;
+    skos:definition "Dispersione molecolare dell'essenza delle persone di colore che si propaga nell'aria."@it ;
+    skos:example "Ieri sera ho sentito la negritudine. Mi sono sentito in pericolo!"@it ;
+    schema:keywords "dispersione, molecolare, essenza, negri, aria";
+    dct:created "2024-06-15" ;
+    dct:creator vocang:durazziMarco .
+
+vocang:sassino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Sassino"@it ;
+    lexinfo:pronunciation "/sas • sì • no/"@it ;
+    skos:definition "Sasso assassino."@it ;
+    skos:example "Ieri sera  Giada è atterrata su un sassino. È rimasta in mezzo alla strada e non si muoveva più."@it ;
+    schema:keywords "sasso, assassino, morte";
+    dct:created "2024-06-15" ;
+    dct:creator vocang:durazziMarco .
+
+vocang:pelinnolino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Pelinnolino"@it ;
+    lexinfo:pronunciation "/pe • lin • no • lì • no/"@it ;
+    skos:definition "Pannolino costituito dal pelo corporeo."@it ;
+    skos:example "Ieri sera ho visto un vecchio con un pelinnolino. Che schifo!"@it ;
+    schema:keywords "pannolino, pelo, corporeo";
+    dct:created "2024-06-16" ;
+    dct:creator vocang:pertosaLorenzo, vocang:ribaudoSofia .
+
+vocang:brasoselano
+    a vocang:Parolangelo ;
+    skos:prefLabel "Brasoletano"@it ;
+    lexinfo:pronunciation "/bra • so • le • tà • no/"@it ;
+    skos:definition "Napoletano Brasiliano."@it ;
+    skos:example "Ieri sera ho incontrato un brasoletano. Era molto simpatico e parlava un italiano molto strano e sospetto!"@it ;
+    schema:keywords "napoletano, brasiliano";
+    dct:created "2024-06-16" ;
+    dct:creator vocang:bragariAlexandru, vocang:ribaudoSofia .
+
+vocang:gustonico
+    a vocang:Parolangelo ;
+    skos:prefLabel "Gustonico"@it ;
+    lexinfo:pronunciation "/gu • stò • ni • co/"@it ;
+    skos:definition "Daltonico del gusto, ovvero chi scambia o confonde un gusto con un altro."@it ;
+    skos:example "Ieri sera mi sono sentito gustonico, ho mangiato un gelato al gusto di fragola e ho avuto l'impressione che fosse al limone!"@it ;
+    schema:keywords "daltonia, gusto, scambiare, confusione";
+    dct:created "2024-06-18" ;
+    dct:creator vocang:ribaudoSofia, vocang:tomassettiLorenzo, vocang:mernissiElyas .
+
+vocang:kebap
+    a vocang:Parolangelo ;
+    skos:prefLabel "Kebap"@it ;
+    skos:definition "Pulmino a forma di kebab."@it ;
+    skos:example "Ieri sera ho visto un kebap, ma a bordo era pieno di arabi!"@it ;
+    schema:keywords "pulmino, forma, kebab";
+    dct:created "2024-06-18" ;
+    dct:creator vocang:scattoniAlessandra .
+
+vocang:kebabbateo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Kebabbàteo"@it ;
+    skos:definition "Kebabbaro ateo che vende numerose sacco di birre artigianali."@it ;
+    skos:example "Ieri sera ho mangiato un kebab da un kebabbateo. Era molto buono, ma lo era anche la IPA che ho gustato al suo fianco!"@it ;
+    schema:keywords "kebabbaro, ateo, birre, artigianali";
+    dct:created "2024-06-22" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:nardiniArianna, vocang:suscaMatteo .
+
+vocang:geoclusione
+    a vocang:Parolangelo ;
+    skos:prefLabel "Geoclusione"@it ;
+    lexinfo:pronunciation "/ge • o • clu • siò • ne/"@it ;
+    skos:definition "Geoco impossibile da vincere se non cadendo compiendo azioni illegali, ad esempio quando è vietato scattare foto nel luogo in cui ci si trova."@it ;
+    skos:example "Ieri sera volevo vincere il geoco, ma ero allo zoo di falconare, quindi ho invece deciso di vincere la geoclusione!"@it ;
+    schema:keywords "geoco, impossibile, vincere, illegalità, vietato, scattare, foto, luogo";
+    dct:created "2024-06-24" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:patatico
+    a vocang:Parolangelo ;
+    skos:prefLabel "Patatico"@it ;
+    lexinfo:pronunciation "/pa • ta • tì • co/"@it ;
+    skos:definition "Stato dell'animo che rende la persona carina, gentile e coccolosa."@it ;
+    skos:example "Oggi ero parecchio patatico e avevo tanta voglia di coccole!"@it ;
+    schema:keywords "stato, animo, persona, carina, gentile, coccolosa";
+    dct:created "2024-06-26" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:menastasi
+    a vocang:Parolangelo ;
+    skos:prefLabel "Menastasi"@it ;
+    lexinfo:pronunciation "/me • na • stà • si/"@it ;
+    skos:definition "Condizione medica che porta ad avere una gran voglia di picchiare qualcuno."@it ;
+    skos:example "A Lorenzo ieri sono venute le menastasi. Ha avuto in impellente bisogno massacrare di legnate il giovane balneare. Come dargli torto!"@it ;
+    schema:keywords "condizione, medica, picchiare, qualcuno";
+    dct:created "2024-06-26" ;
+    dct:creator vocang:battaglinoNicole, vocang:omiccioliRiccardo .
+
+vocang:dentrocottero
+    a vocang:Parolangelo ;
+    skos:prefLabel "Dentrocottero"@it ;
+    lexinfo:pronunciation "/den • tro • còt • te • ro/"@it ;
+    skos:definition "Elicottero fatto con il pene dentro una vagina dilatata post parto."@it ;
+     skos:example "Per festeggiare la nascita di mio figlio penso che farò un dentrocottero!"@it ;
+    schema:keywords "sesso, elicottero, pene, vagina, parto";
+    dct:created "2024-06-28" ;
+    dct:creator vocang:franciaMatteo, vocang:pianiniDanilo .
+
+vocang:esagovo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Esagovo"@it ;
+    lexinfo:pronunciation "/e • sa • gò • vo/"@it ;
+    skos:definition "Esagono in cui la lunghezza di una coppia di lati è diversa da quella degli altri."@it ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/esagovo.jpg" ;
+    skos:example "Ieri sera ho disegnato un esagovo. Era molto bello e particolare!"@it ;
+    schema:keywords "esagono, coppia, lati, diversa, misura";
+    dct:created "2024-06-28" ;
+    dct:creator vocang:orlandoNicola .
+
+vocang:invasilico
+    a vocang:Parolangelo ;
+    skos:prefLabel "Invasilico"@it ;
+    lexinfo:pronunciation "/in • va • si • lì • co/"@it ;
+    skos:definition "Pianta di spezie o erbe aromatiche piantata in un vaso."@it ;
+    skos:example "Ieri sera ho piantato un invasilico. Ora ho un vaso di basilico in casa!"@it ;
+    schema:keywords "pianta, spezie, erbe, aromatiche, vaso";
+    dct:created "2024-06-30" ;
+    skos:related vocang:fuorigano ;
+    dct:creator vocang:omiccioliRiccardo .
+    
+vocang:invasemolo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Invasemolo"@it ;
+    lexinfo:pronunciation "/in • va • sè • mo • lo/"@it ;
+    skos:definition "Pianta di spezie o erbe aromatiche che attecchisce ovunque soppiantando la flora naturale."@it ;
+    skos:example "La menta che ho in giardino sta diventando un invasemolo. Preso verrà a prendermi."@it ;
+    schema:keywords "pianta, spezie, erbe, aromatiche, attecchire, soppiantare, flora, naturale";
+    dct:created "2024-06-30" ;
+    skos:related vocang:fuorigano, vocang:invasilico;
     dct:creator vocang:orlandoNicola .
