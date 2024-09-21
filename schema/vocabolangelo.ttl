@@ -691,6 +691,22 @@ vocang:franciaMatteo
     org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:filasetaAngelo, vocang:cortecchiaAngela, vocang:magniniMatteo, vocang:pianiniDanilo, vocang:aguzziGianluca .
 
+vocang:rossiniAlessandro
+    a vocang:Vocaboliere ;
+    foaf:firstName "Alessandro" ;
+    foaf:lastName "Rossini" ;
+    foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:filasetaAngelo, vocang:durazziMarco, vocang:suscaMatteo, vocang:orlandoNicola, vocang:bragariAlexandru .
+
+vocang:giannelliMartina
+    a vocang:Vocaboliere ;
+    foaf:firstName "Martina" ;
+    foaf:lastName "Giannelli" ;
+    foaf:gender "female" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:pertosaLorenzo, vocang:paoliMichele, vocang:scattoniAlessandra.
+
 # Other Author Individuals
 
 vocang:chatGPT
@@ -12299,3 +12315,415 @@ vocang:invasemolo
     dct:created "2024-06-30" ;
     skos:related vocang:fuorigano, vocang:invasilico;
     dct:creator vocang:orlandoNicola .
+
+vocang:ventilapolvere
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ventilapolvere"@it ;
+    lexinfo:pronunciation "/ven • ti • la • pól • ve • re/"@it ;
+    skos:definition "Ventilatore coperto di polvere, la quale viene dunque sparata ovunque all'accensione dello stesso."@it ;
+    skos:example "Ieri sera ho acceso il ventilapolvere. Mi sono ritrovato coperto di polvere!"@it ;
+    schema:keywords "ventilatore, coperto, polvere, sparare, accensione";
+    dct:created "2024-07-03" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:terronemoto
+    a vocang:Parolangelo ;
+    skos:prefLabel "Terronemoto"@it ;
+    lexinfo:pronunciation "/ter • ro • ne • mò • to/"@it ;
+    skos:definition "Terremoto che avviene nel sud Italia."@it ;
+    skos:example "Ieri sera ero a Bari e ho sentito un terronemoto. Mi sono cagato addosso!"@it ;
+    schema:keywords "terremoto, sud, italia";
+    dct:created "2024-07-03" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:sfunzionamento
+    a vocang:Parolangelo ;
+    skos:prefLabel "Sfunzionamento"@it ;
+    lexinfo:pronunciation "/sfun • zio • na • men • to/"@it ;
+    skos:definition "Errato funzionamento di un sistema o dispositivo."@it ;
+    skos:example "Ieri sera ho avuto un sfunzionamento del computer. Ho dovuto riavviarlo!"@it ;
+    schema:keywords "errato, funzionamento, sistema, dispositivo";
+    dct:created "2024-07-05" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+
+vocang:gigabbiano
+    a vocang:Parolangelo ;
+    skos:prefLabel "Gigabbiano"@it ;
+    lexinfo:pronunciation "/gi • gab • bia • no/"@it ;
+    skos:definition "Un gabbiano di grosse dimensioni."@it ;
+    skos:example "Quel gigabbiano era grosso come una foca!"@it ;
+    schema:keywords "gabbiano, dimensioni, moderate, grosse";
+    dct:created "2024-07-05" ;
+    dct:creator vocang:ribaudoSofia , vocang:nardiniArianna, vocang:pupitaAlberto, vocang:durazziMarco .
+
+vocang:vitallergia
+    a vocang:Parolangelo ;
+    skos:prefLabel "Vitallergia"@it ;
+    lexinfo:pronunciation "/vi • tal • lèr • gia/"@it ;
+    skos:definition "Allergia alla vita."@it ;
+    skos:example "Ho la vitallergia. Non posso uscire di casa!"@it ;
+    schema:keywords "allergia, vita";
+    dct:created "2024-07-08" ;
+    dct:creator vocang:battaglinoNicole .
+
+vocang:kebarbiere
+    a vocang:Parolangelo ;
+    skos:prefLabel "Kebarbiere"@it ;
+    skos:definition "Barbiere che prepara kebab nel suo salone e lo offre ai clienti."@it ;
+    skos:example "Sono andato dal kebarbiere. Mi ha tagliato i capelli e mi ha offerto un kebab!"@it ;
+    schema:keywords "barbiere, kebab, salone, offrire, clienti";
+    dct:created "2024-07-08" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:kebar
+    a vocang:Parolangelo ;
+    skos:prefLabel "Kebar"@it ;
+    skos:definition "Kebabbaro che offre anche i classici servizi di un bar."@it ;
+    skos:example "Sono andato al kebar. Ho bevuto una caffè e mangiato un kebab!"@it ;
+    schema:keywords "bar, kebab, offrire, clienti";
+    dct:created "2024-07-09" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:angeco
+    a vocang:Parolangelo ;
+    skos:prefLabel "Angeco"@it ;
+    lexinfo:pronunciation "/an • gè • co/"@it ;
+    skos:definition "Geco estremamente bello dalle fattezze angeliche."@it ;
+    skos:example "Sono rimasto stordito dalla bellezza di quel angelo!"@it ;
+    schema:keywords "geco, bello, fattezze, angeliche";
+    dct:created "2024-07-09" ;
+    dct:creator vocang:fanaraGiuliano .
+
+vocang:nanegro
+    a vocang:Parolangelo ;
+    skos:prefLabel "Nanegro"@it ;
+    lexinfo:pronunciation "/na • nè • gro/"@it ;
+    skos:definition "Essere umano di bassa statura con pelle scura."@it ;
+    skos:example "Ieri sera ho visto un nanegro. Era molto simpatico e mi ha aiutato a trovare la strada giusta, ma mi ha chiesto 3 euro in cambio!"@it ;
+    schema:keywords "essere, umano, bassa, statura, pelle, scura";
+    dct:created "2024-07-11" ;
+    dct:creator vocang:ribaudoSofia .
+
+vocang:sospeto
+    a vocang:Parolangelo ;
+    skos:prefLabel "Sospeto"@it ;
+    lexinfo:pronunciation "/so • spè • to/"@it ;
+    skos:definition "Peto trattenuto al fine di rilasciarlo in circostanze diverse da quelle attuali."@it ;
+    skos:example "Ieri sera la mia ragazza ha rilasciato un sospeto in ascensore dopo un'intera giornata alla gala!"@it ;
+    schema:keywords "peto, trattenere, rilasciare, circostanze, diverse";
+    dct:created "2024-07-11" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:orgirasole
+    a vocang:Parolangelo ;
+    skos:prefLabel "Orgirasole"@it ;
+    lexinfo:pronunciation "/or • gi • ra • sò • le/"@it ;
+    skos:definition "Girasole che presenta numerosi fiori all'estremità di un solo stelo."@it ;
+    skos:example "Quell'orgirasole era molto bello e particolare!"@it ;
+    schema:keywords "girasole, fiori, estremità, stelo";
+    dct:created "2024-07-12" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
+
+vocang:impicchiagione
+    a vocang:Parolangelo ;
+    skos:prefLabel "Impicchiagione"@it ;
+    lexinfo:pronunciation "/im • pic • chia • giò • ne/"@it ;
+    skos:definition "Morte per impiccagione condita con botte."@it ;
+    skos:example "Ieri sera ho visto un impicchiagione. Un uomo che si era impiccato ad un albero e hanno cominciato a menarlo nel frattempo!"@it ;
+    schema:keywords "morte, impiccagione";
+    dct:created "2024-07-12" ;
+    dct:creator vocang:savoGiorgia .
+
+vocang:kalebab
+    a vocang:Parolangelo ;
+    skos:prefLabel "Kalebab"@it ;
+    skos:definition "Calendario nel quale si segnano le date in cui si mangia kebab."@it ;
+    skos:example "Anche oggi ho segnato sul mio kalebab la data in cui ho mangiato il kebab con i miei amici!"@it ;
+    schema:keywords "calendario, segnare, date, mangiare, kebab";
+    dct:created "2024-07-13" ;
+    dct:creator vocang:battaglinoNicole, vocang:omiccioliRiccardo .
+
+vocang:corpso
+    a vocang:Parolangelo ;
+    skos:prefLabel "Corpso"@it ;
+    skos:definition "Cadavere"@it ;
+    skos:example "Ieri sera ho visto un corpso. Era in mezzo alla strada e non si muoveva."@it ;
+    schema:keywords "cadavere, corpo, umano";
+    dct:created "2024-07-16" ;
+    dct:creator vocang:rossiniAlessandro .
+
+vocang:granChio
+    a vocang:Slangelo ;
+    skos:prefLabel "Gran Chio"@it ;
+    lexinfo:pronunciation "/gràn/ /chì • o/"@it ;
+    skos:definition "Sovrano supremo di tutti i crostacei."@it ;
+    skos:example "Voglio un'udienza con il Gran Chio!"@it ;
+    schema:keywords "sovrano, supremo, crostacei";
+    dct:created "2024-07-17" ;
+    dct:creator vocang:paoliMichele .
+
+
+vocang:comodinosauro
+    a vocang:Parolangelo ;
+    skos:prefLabel "Comodinosauro"@it ;
+    lexinfo:pronunciation "/co • mo • di • no • sà • u • ro/"@it ;
+    skos:definition "Dinosauro di colore nero."@it, "Dinosauro tipico di habitat lacustri."@it, "Generico rettile appassionato di mobilio."@it  ;
+    skos:example "Ieri sera ho visto un comodinosauro nascondersi nell'ombra."@it, "In fila davanti a me all'IKEA c'era un comodinosauro."@it, "Sono andato al famoso lago lombardo e ho avvistato un comodinosauro."@it ;
+    schema:keywords "dinosauro, colore, nero, habitat, lacustri, rettile, appassionato, mobilio";
+    dct:created "2024-07-17" ;
+    dct:creator vocang:paoliMichele .
+
+vocang:pizzicostola
+    a vocang:Parolangelo ;
+    skos:prefLabel "Pizzicostola"@it ;
+    lexinfo:pronunciation "/piz • zi • cò • sto • la/"@it ;
+    skos:definition "Pizzicotto sulla costola."@it ;
+    skos:example "Ieri sera ho ricevuto un pizzicostola. Mi sono girato e non c'era nessuno!"@it ;
+    schema:keywords "pizzicotto, costola";
+    dct:created "2024-07-17" ;
+    dct:creator vocang:paoliMichele .
+
+vocang:effettoCollaterangelo
+    a vocang:Slangelo ;
+    skos:prefLabel "Effetto Collaterangelo"@it ;
+    lexinfo:pronunciation "/ef • fet • to/ /col • la • te • ràn • ge • lo/"@it ;
+    skos:definition "Effetto collaterale di una terapia estremamente illogico, stupido e nella maggior parte dei casi trascurabile."@it ;
+    skos:example "Ho iniziato una terapia e ho avuto un effetto collaterangelo. Mi si è allungato il naso solo per 12 ore!!"@it ;
+    schema:keywords "effetto, collaterale, terapia, illogico, stupido, trascurabile";
+    dct:created "2024-07-18" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:jackword
+    a vocang:Parolangelo ;
+    skos:prefLabel "Jackword"@it ;
+    lexinfo:pronunciation "/jack • word/"@it ;
+    skos:definition "Streak di parolangelo valide consecutive, tanto lunga da fare jackpot."@it ;
+    skos:example "Ieri sera ho fatto un jackword. Ho inventato 5 parolangelo valide consecutive!"@it ;
+    schema:keywords "streak, parolangelo, valide, consecutive, jackpot";
+    dct:created "2024-07-18" ;
+    dct:creator vocang:paoliMichele .
+
+vocang:indecis
+    a vocang:Parolangelo ;
+    skos:prefLabel "Indecis"@it ;
+    lexinfo:pronunciation "/in • de • cìs/"@it ;
+    skos:definition "Persona che non capisce se definirsi cisgender."@it ;
+    skos:example "Ieri sera ho incontrato un indecis. Non sapeva se definirsi uomo o donna!"@it ;
+    schema:keywords "persona, capire, definirsi, cisgender";
+    dct:created "2024-07-19" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:stambella
+    a vocang:Parolangelo ;
+    skos:prefLabel "Stambella"@it ;
+    lexinfo:pronunciation "/stam • bèl • la/"@it ;
+    skos:definition "Stampella esteticamente bella."@it ;
+    skos:example "Ieri sera ho visto una stambella. Era molto bella e particolare, pregiata!"@it ;
+    schema:keywords "stampella, qualità, superiore";
+    dct:created "2024-07-19" ;
+    dct:creator vocang:paoliMichele .
+
+vocang:contramponare
+    a vocang:Parolangelo ;
+    skos:prefLabel "Contramponare"@it ;
+    lexinfo:pronunciation "/con • tra • mpo • nà • re/"@it ;
+    skos:definition "Tamponare una macchina andando in retromarcia; tamponare al contrario."@it ;
+    skos:example "Ieri sera ho visto un tizio contramponare un'auto in un parcheggo, poi è scappato!"@it ;
+    schema:keywords "tamponare, contrario", "macchina, retromarcia";
+    dct:created "2024-07-19" ;
+    dct:creator vocang:rosatelliAnna .
+
+vocang:elemao
+    a vocang:Parolangelo ;
+    skos:prefLabel "Elemao"@it ;
+    lexinfo:pronunciation "/e • le • mà • o/"@it ;
+    skos:definition "Elezione politica particolarmente ridicola."@it ;
+    skos:example "Ieri sera ho assistito ad un elemao. Un politico si è candidato con la promessa di regalare a tutti un elefante!"@it ;
+    schema:keywords "elezione, politica, particolare, ridicola";
+    dct:created "2024-07-19" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:orlandoNicola .
+
+vocang:albicoccola
+    a vocang:Parolangelo ;
+    skos:prefLabel "Albicoccola"@it ;
+    lexinfo:pronunciation "/al • bi • còc • co • la/"@it ;
+    skos:definition "Albicocca così tenera e pelosetta che mentre la si mangia fa venire voglia di coccole."@it ;
+    skos:example "Ieri sera ho mangiato un albicoccola. Era molto buona e mi ha fatto venire voglia di dormire abbracciato alla mia ragazza!"@it ;
+    schema:keywords "albicocca, tenera, pelosetta, mangiare, voglia, coccole";
+    dct:created "2024-07-20" ;
+    dct:creator vocang:ribaudoSofia .
+
+vocang:aerocatalitico
+    a vocang:Parolangelo ;
+    skos:prefLabel "Aerocatalitico"@it ;
+    lexinfo:pronunciation "/a • e • ro • ca • ta • li • ti • co/"@it ;
+    skos:definition "Non aerodinamico."@it ;
+    skos:example "La struttura delle madonne è aerocatalitica. Questo dovrebbe impedire loro di volare... Ma loro non lo sanno e volano lo stesso!"@it ;
+    schema:keywords "aereo, aerodinamico" ;
+    dct:created "2024-07-20" ;
+    dct:creator vocang:rosatelliAnna .
+
+vocang:scostumino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Scostumino"@it ;
+    lexinfo:pronunciation "/sco • stu • mì • no/"@it ;
+    skos:definition "Costume da bagno particolarmente provocante e poco coprente."@it ;
+    skos:example "Ieri sera ho visto una ragazza con uno scostumino. Era molto provocante e poco coprente!"@it ;
+    schema:keywords "costume, bagno, particolare, provocante, poco, coprente";
+    dct:created "2024-07-20" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
+
+vocang:kava
+    a vocang:Parolangelo ;
+    skos:prefLabel "Kava"@it ;
+    lexinfo:pronunciation "/ka • va/"@it ;
+    skos:definition "Variante di Java che transpila in linguaggio Kotlin."@it ;
+    skos:example "Ieri sera ho programmato in Kava. Che cosa stupida!"@it ;
+    schema:keywords "variante, Java, compila, linguaggio, Kotlin";
+    dct:created "2024-07-24" ;
+    dct:creator vocang:omiccioliRiccardo . 
+
+vocang:fintoccola
+    a vocang:Parolangelo ;
+    skos:prefLabel "Fintoccola"@it ;
+    lexinfo:pronunciation "/fin • toc • co • la/"@it ;
+    skos:definition "Gesto di una carezza fatto ad una persona da lontano."@it ;
+    skos:example "Ieri sera ho fatto un fintoccola a mia madre. Era lontana e non potevo avvicinarmi a lei!"@it ;
+    schema:keywords "gesto, fare, carezza, persona, lontano";
+    dct:created "2024-07-24" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:fintolletico
+    a vocang:Parolangelo ;
+    skos:prefLabel "Fintolletico"@it ;
+    lexinfo:pronunciation "/fin • tol • lè • ti • co/"@it ;
+    skos:definition "Solletico sofferto senza essere toccati."@it ;
+    skos:example "Ieri sera ho sofferto un fintolletico. Nicole ha fatto finta di solleticarmi da lontano e mi è venuto da ridere!"@it ;
+    schema:keywords "soffrire, solletico, toccare, finta, ridere";
+    dct:created "2024-07-24" ;
+    dct:creator vocang:battaglinoNicole .
+
+vocang:lemangiare
+    a vocang:Parolangelo ;
+    skos:prefLabel "Lemangiare"@it ;
+    lexinfo:pronunciation "/le • man • già • re/"@it ;
+    skos:definition "Mangiare ridendo."@it ;
+    skos:example "È impossibile non lemangiare con Sasha a pranzo, fa delle battute divertentissime!!"@it ;
+    schema:keywords "mangiare, ridere";
+    dct:created "2024-07-24" ;
+    dct:creator vocang:ribaudoSofia, vocang:bdeouiEddy, vocang:bragariAlexandru .
+
+
+
+vocang:istintoDissoprovvivenza
+    a vocang:Slangelo ;
+    skos:prefLabel "Istinto Dissoprovvivenza"@it ;
+    lexinfo:pronunciation "/is • tin • to/ /dis • so • prov • vi • ven • za/"@it ;
+    skos:definition "Comportamento animale che si verifica quando esso cresce in cattività. Questo comportamento comporta una totale perdita di capacità di sopravvivenza nell'animale in questione soprattutto immaginando che dovrebbe trovarsi libero in natura."@it ;
+    skos:example "La mia tartaruga ha tre passaggi, ovviamente sceglie sempre quello centrale dove si blocca nelle spine delle rose, che stupida, ha veramente un gran istinto dissoprovvivenza."@it ;
+    schema:keywords "comportamento, animale, crescere, cattività, perdita, capacità, sopravvivenza, libero, natura";
+    dct:created "2024-07-25" ;
+    dct:creator vocang:battaglinoNicole, vocang:omiccioliRiccardo .
+
+vocang:scaloncio
+    a vocang:Parolangelo ;
+    skos:prefLabel "Scaloncio"@it ;
+    lexinfo:pronunciation "/sca • lòn • cio/"@it ;
+    skos:definition "Tipologia di scale in cui ci sono tanti scalini bassi e fitti."@it ;
+    skos:example "Ieri sera sono salito su uno scaloncio. Era molto faticoso, ma è stato divertente!"@it ;
+    schema:keywords "tipologia, scale, scalini, bassi, fitti";
+    dct:created "2024-07-27" ;
+    dct:creator vocang:rosatelliAnna, vocang:filasetaAngelo .
+
+vocang:esagelare
+    a vocang:Parolangelo ;
+    skos:prefLabel "Esagelare"@it ;
+    lexinfo:pronunciation "/e • sa • ge • là • re/"@it ;
+    skos:definition "Mangiare troppo velocemente il gelato e congelarsi il cervello."@it, "Sgarrare la dieta mangiando un gelato"@it ;
+    skos:example "Ieri sera ho esagelato. Ho mangiato il gelato troppo velocemente e mi sono congelato il cervello!"@it ;
+    schema:keywords "mangiare, velocemente, gelato, congelare, cervello";
+    dct:created "2024-07-27" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:orlandoNicola, vocang:savoGiorgia .
+
+vocang:contatile
+    a vocang:Parolangelo ;
+    skos:prefLabel "Contatile"@it ;
+    lexinfo:pronunciation "/con • ta • tì • le/"@it ;
+    skos:definition "Contabile che lavora in trasferta o comunque in giro, non in uno stabile."@it ;
+    skos:example "Quando andrò in vacanza negli Stati Uniti dovrò portarmi dietro un contatile, dato che non includono le tasse nel prezzo della merce nei negozi."@it ;
+    schema:keywords "contabile, lavorare, trasferta, giro, stabile";
+    dct:created "2024-07-28" ;
+    dct:creator vocang:orlandoNicola .
+
+vocang:balneasbirro
+    a vocang:Parolangelo ;
+    skos:prefLabel "Balneasbirro"@it ;
+    lexinfo:pronunciation "/bal • ne • as • bìr • ro/"@it ;
+    skos:definition "Guardiano notturno servo della lobby dei balneari che sgrida, caccia e insulta chiunque osi toccare il territorio pubblico che i balneari cercano di sottrarre ai cittadini onesti."@it ;
+    skos:example "Ieri sera ho visto un balneasbirro. Era molto arrabbiato e mi ha cacciato via dal lido!"@it ;
+    schema:keywords "guardiano, notturno, servo, lobby, balneari, sgridare, cacciare, insultare, territorio, pubblico, sottrarre, cittadini, onesti";
+    dct:created "2024-07-28" ;
+    dct:creator vocang:suscaMatteo .
+
+vocang:idrocoglione
+    a vocang:Parolangelo ;
+    skos:prefLabel "Idrocoglione"@it ;
+    lexinfo:pronunciation "/i • dro • co • glì • o • ne/"@it ;
+    skos:definition "Persona che diventa estremamente stupida non appena entra in contatto con l'acqua."@it ;
+    skos:example "Ieri sera ho visto un idrocoglione. Appena è entrato in acqua ha cominciato a fare cose assurde!"@it ;
+    schema:keywords "persona, stupida, contatto, acqua";
+    dct:created "2024-07-30" ;
+    skos:note "Questa è la prima parolangelo inventata da Martina, grazie mille!";
+    dct:creator vocang:pertosaLorenzo, vocang:scattoniAlessandra, vocang:giannelliMartina, vocang:paoliMichele .
+
+vocang:angèlo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Angèlo"@it ;
+    lexinfo:pronunciation "/an • gè • lo/"@it ;
+    skos:definition "Angelo fatto sdraindosi nella neve."@it ;
+    skos:example "Ieri sera ho fatto un angèlo. Mi sono sdraindato nella neve e mi sono divertito un sacco!"@it ;
+    schema:keywords "angelo, sdraindosi, neve";
+    dct:created "2024-07-30" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:oltrepolento
+    a vocang:Parolangelo ;
+    skos:prefLabel "Oltrepolento"@it ;
+    lexinfo:pronunciation "/ol • tre • po • lèn • to/"@it ;
+    skos:definition "Persona di origini più a nord del punto più a nord dell'Italia."@it ;
+    skos:example "Ieri sera ho incontrato un oltrepolento. Era molto simpatico e mi ha raccontato delle storie incredibili sulle terre del nord!"@it ;
+    schema:keywords "persona, origini, nord, punto, Italia";
+    dct:created "2024-07-30" ;
+    dct:creator vocang:orlandoNicola .
+
+vocang:vulwatergun
+    a vocang:Parolangelo ;
+    skos:prefLabel "Vulwatergun"@it ;
+    skos:definition "Vagina finta modificata appositamente aggiungendo meccanismi di una psitola ad acqua elettronica e che acquisisce quindi la capacità di spruzzare acqua e squirtare."@it ;
+    skos:example "Volevo utilizzare la mia vulwatergun nello scontro di domani, ma penso sia più adatta ad altri scopi dopo ieri sera..."@it ;
+    schema:keywords "vagina, pistola, acqua, vulva, modifica, squirt, sesso";
+    dct:created "2024-07-31" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:terracoglione
+    a vocang:Parolangelo ;
+    skos:prefLabel "Terracoglione"@it ;
+    lexinfo:pronunciation "/ter • ra • co • gliò • ne/"@it ;
+    skos:definition "Individuo che si dimostra estremamente stupido sulla terra ferma."@it ;
+    skos:example "Ieri sera ho incontrato un terracoglione. Era molto stupido e non capiva nulla di quello che gli dicevo! Appena siamo entrati in mare è diventato una persona normale."@it ;
+    schema:keywords "individuo, stupido, terra, ferma";
+    dct:created "2024-07-30" ;
+    skos:note "Fino a prova contraria, qualora ci si dimostri molto stupidi sulla terraferma ma non è ancora provato il non esserlo al di fuori di essa, si può comunque essere considerati terracoglioni.";
+    skos:related vocang:idrocoglione, vocang:neurocoglione, vocang:turbocoglione;
+    dct:creator vocang:paoliMichele, vocang:pertosaLorenzo .
+
+vocang:palesaro
+    a vocang:Parolangelo ;
+    skos:prefLabel "Palesaro"@it ;
+    lexinfo:pronunciation "/pa • lè • sa • ro/"@it ;
+    skos:definition "Caratteristica ovvia di Pesaro o cose e persone relative ad essa."@it ;
+    skos:example "Ieri sera ho visto un pesarese con la scialberia. Era palesaro!"@it ;
+    schema:keywords "caratteristica, ovvia, Pesaro, cose, persone, relative";
+    dct:created "2024-08-01" ;
+    dct:creator vocang:paoliMichele .

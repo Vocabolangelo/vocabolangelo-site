@@ -804,6 +804,24 @@
 <http://www.vocabolangelo.org/franciaMatteo> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/magniniMatteo> .
 <http://www.vocabolangelo.org/franciaMatteo> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/pianiniDanilo> .
 <http://www.vocabolangelo.org/franciaMatteo> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/aguzziGianluca> .
+<http://www.vocabolangelo.org/rossiniAlessandro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Vocaboliere> .
+<http://www.vocabolangelo.org/rossiniAlessandro> <http://xmlns.com/foaf/0.1/firstName> "Alessandro" .
+<http://www.vocabolangelo.org/rossiniAlessandro> <http://xmlns.com/foaf/0.1/lastName> "Rossini" .
+<http://www.vocabolangelo.org/rossiniAlessandro> <http://xmlns.com/foaf/0.1/gender> "male" .
+<http://www.vocabolangelo.org/rossiniAlessandro> <http://www.w3.org/ns/org#memberOf> <http://www.vocabolangelo.org/vocabolieriOrg> .
+<http://www.vocabolangelo.org/rossiniAlessandro> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/filasetaAngelo> .
+<http://www.vocabolangelo.org/rossiniAlessandro> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/durazziMarco> .
+<http://www.vocabolangelo.org/rossiniAlessandro> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/suscaMatteo> .
+<http://www.vocabolangelo.org/rossiniAlessandro> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/orlandoNicola> .
+<http://www.vocabolangelo.org/rossiniAlessandro> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/bragariAlexandru> .
+<http://www.vocabolangelo.org/giannelliMartina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Vocaboliere> .
+<http://www.vocabolangelo.org/giannelliMartina> <http://xmlns.com/foaf/0.1/firstName> "Martina" .
+<http://www.vocabolangelo.org/giannelliMartina> <http://xmlns.com/foaf/0.1/lastName> "Giannelli" .
+<http://www.vocabolangelo.org/giannelliMartina> <http://xmlns.com/foaf/0.1/gender> "female" .
+<http://www.vocabolangelo.org/giannelliMartina> <http://www.w3.org/ns/org#memberOf> <http://www.vocabolangelo.org/vocabolieriOrg> .
+<http://www.vocabolangelo.org/giannelliMartina> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/giannelliMartina> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/paoliMichele> .
+<http://www.vocabolangelo.org/giannelliMartina> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/scattoniAlessandra> .
 <http://www.vocabolangelo.org/chatGPT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/skgo/modsci#ArtificialIntelligence> .
 <http://www.vocabolangelo.org/chatGPT> <http://xmlns.com/foaf/0.1/firstName> "ChatGPT" .
 <http://www.vocabolangelo.org/chatGPT> <https://schema.org/url> "https://openai.com/blog/chatgpt" .
@@ -10811,3 +10829,354 @@
 <http://www.vocabolangelo.org/invasemolo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/fuorigano> .
 <http://www.vocabolangelo.org/invasemolo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/invasilico> .
 <http://www.vocabolangelo.org/invasemolo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/orlandoNicola> .
+<http://www.vocabolangelo.org/ventilapolvere> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/ventilapolvere> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ventilapolvere"@it .
+<http://www.vocabolangelo.org/ventilapolvere> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/ven • ti • la • pól • ve • re/"@it .
+<http://www.vocabolangelo.org/ventilapolvere> <http://www.w3.org/2004/02/skos/core#definition> "Ventilatore coperto di polvere, la quale viene dunque sparata ovunque all'accensione dello stesso."@it .
+<http://www.vocabolangelo.org/ventilapolvere> <http://www.w3.org/2004/02/skos/core#example> "Ieri sera ho acceso il ventilapolvere. Mi sono ritrovato coperto di polvere!"@it .
+<http://www.vocabolangelo.org/ventilapolvere> <https://schema.org/keywords> "ventilatore, coperto, polvere, sparare, accensione" .
+<http://www.vocabolangelo.org/ventilapolvere> <http://purl.org/dc/terms/created> "2024-07-03" .
+<http://www.vocabolangelo.org/ventilapolvere> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/terronemoto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/terronemoto> <http://www.w3.org/2004/02/skos/core#prefLabel> "Terronemoto"@it .
+<http://www.vocabolangelo.org/terronemoto> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/ter • ro • ne • mò • to/"@it .
+<http://www.vocabolangelo.org/terronemoto> <http://www.w3.org/2004/02/skos/core#definition> "Terremoto che avviene nel sud Italia."@it .
+<http://www.vocabolangelo.org/terronemoto> <http://www.w3.org/2004/02/skos/core#example> "Ieri sera ero a Bari e ho sentito un terronemoto. Mi sono cagato addosso!"@it .
+<http://www.vocabolangelo.org/terronemoto> <https://schema.org/keywords> "terremoto, sud, italia" .
+<http://www.vocabolangelo.org/terronemoto> <http://purl.org/dc/terms/created> "2024-07-03" .
+<http://www.vocabolangelo.org/terronemoto> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/sfunzionamento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/sfunzionamento> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sfunzionamento"@it .
+<http://www.vocabolangelo.org/sfunzionamento> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/sfun • zio • na • men • to/"@it .
+<http://www.vocabolangelo.org/sfunzionamento> <http://www.w3.org/2004/02/skos/core#definition> "Errato funzionamento di un sistema o dispositivo."@it .
+<http://www.vocabolangelo.org/sfunzionamento> <http://www.w3.org/2004/02/skos/core#example> "Ieri sera ho avuto un sfunzionamento del computer. Ho dovuto riavviarlo!"@it .
+<http://www.vocabolangelo.org/sfunzionamento> <https://schema.org/keywords> "errato, funzionamento, sistema, dispositivo" .
+<http://www.vocabolangelo.org/sfunzionamento> <http://purl.org/dc/terms/created> "2024-07-05" .
+<http://www.vocabolangelo.org/sfunzionamento> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
+<http://www.vocabolangelo.org/gigabbiano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/gigabbiano> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gigabbiano"@it .
+<http://www.vocabolangelo.org/gigabbiano> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/gi • gab • bia • no/"@it .
+<http://www.vocabolangelo.org/gigabbiano> <http://www.w3.org/2004/02/skos/core#definition> "Un gabbiano di grosse dimensioni."@it .
+<http://www.vocabolangelo.org/gigabbiano> <http://www.w3.org/2004/02/skos/core#example> "Quel gigabbiano era grosso come una foca!"@it .
+<http://www.vocabolangelo.org/gigabbiano> <https://schema.org/keywords> "gabbiano, dimensioni, moderate, grosse" .
+<http://www.vocabolangelo.org/gigabbiano> <http://purl.org/dc/terms/created> "2024-07-05" .
+<http://www.vocabolangelo.org/gigabbiano> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/ribaudoSofia> .
+<http://www.vocabolangelo.org/gigabbiano> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/nardiniArianna> .
+<http://www.vocabolangelo.org/gigabbiano> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pupitaAlberto> .
+<http://www.vocabolangelo.org/gigabbiano> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/durazziMarco> .
+<http://www.vocabolangelo.org/vitallergia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/vitallergia> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vitallergia"@it .
+<http://www.vocabolangelo.org/vitallergia> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/vi • tal • lèr • gia/"@it .
+<http://www.vocabolangelo.org/vitallergia> <http://www.w3.org/2004/02/skos/core#definition> "Allergia alla vita."@it .
+<http://www.vocabolangelo.org/vitallergia> <http://www.w3.org/2004/02/skos/core#example> "Ho la vitallergia. Non posso uscire di casa!"@it .
+<http://www.vocabolangelo.org/vitallergia> <https://schema.org/keywords> "allergia, vita" .
+<http://www.vocabolangelo.org/vitallergia> <http://purl.org/dc/terms/created> "2024-07-08" .
+<http://www.vocabolangelo.org/vitallergia> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/battaglinoNicole> .
+<http://www.vocabolangelo.org/kebarbiere> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/kebarbiere> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kebarbiere"@it .
+<http://www.vocabolangelo.org/kebarbiere> <http://www.w3.org/2004/02/skos/core#definition> "Barbiere che prepara kebab nel suo salone e lo offre ai clienti."@it .
+<http://www.vocabolangelo.org/kebarbiere> <http://www.w3.org/2004/02/skos/core#example> "Sono andato dal kebarbiere. Mi ha tagliato i capelli e mi ha offerto un kebab!"@it .
+<http://www.vocabolangelo.org/kebarbiere> <https://schema.org/keywords> "barbiere, kebab, salone, offrire, clienti" .
+<http://www.vocabolangelo.org/kebarbiere> <http://purl.org/dc/terms/created> "2024-07-08" .
+<http://www.vocabolangelo.org/kebarbiere> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/kebar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/kebar> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kebar"@it .
+<http://www.vocabolangelo.org/kebar> <http://www.w3.org/2004/02/skos/core#definition> "Kebabbaro che offre anche i classici servizi di un bar."@it .
+<http://www.vocabolangelo.org/kebar> <http://www.w3.org/2004/02/skos/core#example> "Sono andato al kebar. Ho bevuto una caffè e mangiato un kebab!"@it .
+<http://www.vocabolangelo.org/kebar> <https://schema.org/keywords> "bar, kebab, offrire, clienti" .
+<http://www.vocabolangelo.org/kebar> <http://purl.org/dc/terms/created> "2024-07-09" .
+<http://www.vocabolangelo.org/kebar> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
+<http://www.vocabolangelo.org/angeco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/angeco> <http://www.w3.org/2004/02/skos/core#prefLabel> "Angeco"@it .
+<http://www.vocabolangelo.org/angeco> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/an • gè • co/"@it .
+<http://www.vocabolangelo.org/angeco> <http://www.w3.org/2004/02/skos/core#definition> "Geco estremamente bello dalle fattezze angeliche."@it .
+<http://www.vocabolangelo.org/angeco> <http://www.w3.org/2004/02/skos/core#example> "Sono rimasto stordito dalla bellezza di quel angelo!"@it .
+<http://www.vocabolangelo.org/angeco> <https://schema.org/keywords> "geco, bello, fattezze, angeliche" .
+<http://www.vocabolangelo.org/angeco> <http://purl.org/dc/terms/created> "2024-07-09" .
+<http://www.vocabolangelo.org/angeco> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/fanaraGiuliano> .
+<http://www.vocabolangelo.org/nanegro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/nanegro> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nanegro"@it .
+<http://www.vocabolangelo.org/nanegro> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/na • nè • gro/"@it .
+<http://www.vocabolangelo.org/nanegro> <http://www.w3.org/2004/02/skos/core#definition> "Essere umano di bassa statura con pelle scura."@it .
+<http://www.vocabolangelo.org/nanegro> <http://www.w3.org/2004/02/skos/core#example> "Ieri sera ho visto un nanegro. Era molto simpatico e mi ha aiutato a trovare la strada giusta, ma mi ha chiesto 3 euro in cambio!"@it .
+<http://www.vocabolangelo.org/nanegro> <https://schema.org/keywords> "essere, umano, bassa, statura, pelle, scura" .
+<http://www.vocabolangelo.org/nanegro> <http://purl.org/dc/terms/created> "2024-07-11" .
+<http://www.vocabolangelo.org/nanegro> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/ribaudoSofia> .
+<http://www.vocabolangelo.org/sospeto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/sospeto> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sospeto"@it .
+<http://www.vocabolangelo.org/sospeto> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/so • spè • to/"@it .
+<http://www.vocabolangelo.org/sospeto> <http://www.w3.org/2004/02/skos/core#definition> "Peto trattenuto al fine di rilasciarlo in circostanze diverse da quelle attuali."@it .
+<http://www.vocabolangelo.org/sospeto> <http://www.w3.org/2004/02/skos/core#example> "Ieri sera la mia ragazza ha rilasciato un sospeto in ascensore dopo un'intera giornata alla gala!"@it .
+<http://www.vocabolangelo.org/sospeto> <https://schema.org/keywords> "peto, trattenere, rilasciare, circostanze, diverse" .
+<http://www.vocabolangelo.org/sospeto> <http://purl.org/dc/terms/created> "2024-07-11" .
+<http://www.vocabolangelo.org/sospeto> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/orgirasole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/orgirasole> <http://www.w3.org/2004/02/skos/core#prefLabel> "Orgirasole"@it .
+<http://www.vocabolangelo.org/orgirasole> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/or • gi • ra • sò • le/"@it .
+<http://www.vocabolangelo.org/orgirasole> <http://www.w3.org/2004/02/skos/core#definition> "Girasole che presenta numerosi fiori all'estremità di un solo stelo."@it .
+<http://www.vocabolangelo.org/orgirasole> <http://www.w3.org/2004/02/skos/core#example> "Quell'orgirasole era molto bello e particolare!"@it .
+<http://www.vocabolangelo.org/orgirasole> <https://schema.org/keywords> "girasole, fiori, estremità, stelo" .
+<http://www.vocabolangelo.org/orgirasole> <http://purl.org/dc/terms/created> "2024-07-12" .
+<http://www.vocabolangelo.org/orgirasole> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
+<http://www.vocabolangelo.org/orgirasole> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/battaglinoNicole> .
+<http://www.vocabolangelo.org/impicchiagione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/impicchiagione> <http://www.w3.org/2004/02/skos/core#prefLabel> "Impicchiagione"@it .
+<http://www.vocabolangelo.org/impicchiagione> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/im • pic • chia • giò • ne/"@it .
+<http://www.vocabolangelo.org/impicchiagione> <http://www.w3.org/2004/02/skos/core#definition> "Morte per impiccagione condita con botte."@it .
+<http://www.vocabolangelo.org/impicchiagione> <http://www.w3.org/2004/02/skos/core#example> "Ieri sera ho visto un impicchiagione. Un uomo che si era impiccato ad un albero e hanno cominciato a menarlo nel frattempo!"@it .
+<http://www.vocabolangelo.org/impicchiagione> <https://schema.org/keywords> "morte, impiccagione" .
+<http://www.vocabolangelo.org/impicchiagione> <http://purl.org/dc/terms/created> "2024-07-12" .
+<http://www.vocabolangelo.org/impicchiagione> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/savoGiorgia> .
+<http://www.vocabolangelo.org/kalebab> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/kalebab> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kalebab"@it .
+<http://www.vocabolangelo.org/kalebab> <http://www.w3.org/2004/02/skos/core#definition> "Calendario nel quale si segnano le date in cui si mangia kebab."@it .
+<http://www.vocabolangelo.org/kalebab> <http://www.w3.org/2004/02/skos/core#example> "Anche oggi ho segnato sul mio kalebab la data in cui ho mangiato il kebab con i miei amici!"@it .
+<http://www.vocabolangelo.org/kalebab> <https://schema.org/keywords> "calendario, segnare, date, mangiare, kebab" .
+<http://www.vocabolangelo.org/kalebab> <http://purl.org/dc/terms/created> "2024-07-13" .
+<http://www.vocabolangelo.org/kalebab> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/battaglinoNicole> .
+<http://www.vocabolangelo.org/kalebab> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
+<http://www.vocabolangelo.org/corpso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/corpso> <http://www.w3.org/2004/02/skos/core#prefLabel> "Corpso"@it .
+<http://www.vocabolangelo.org/corpso> <http://www.w3.org/2004/02/skos/core#definition> "Cadavere"@it .
+<http://www.vocabolangelo.org/corpso> <http://www.w3.org/2004/02/skos/core#example> "Ieri sera ho visto un corpso. Era in mezzo alla strada e non si muoveva."@it .
+<http://www.vocabolangelo.org/corpso> <https://schema.org/keywords> "cadavere, corpo, umano" .
+<http://www.vocabolangelo.org/corpso> <http://purl.org/dc/terms/created> "2024-07-16" .
+<http://www.vocabolangelo.org/corpso> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/rossiniAlessandro> .
+<http://www.vocabolangelo.org/granChio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Slangelo> .
+<http://www.vocabolangelo.org/granChio> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gran Chio"@it .
+<http://www.vocabolangelo.org/granChio> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/gràn/ /chì • o/"@it .
+<http://www.vocabolangelo.org/granChio> <http://www.w3.org/2004/02/skos/core#definition> "Sovrano supremo di tutti i crostacei."@it .
+<http://www.vocabolangelo.org/granChio> <http://www.w3.org/2004/02/skos/core#example> "Voglio un'udienza con il Gran Chio!"@it .
+<http://www.vocabolangelo.org/granChio> <https://schema.org/keywords> "sovrano, supremo, crostacei" .
+<http://www.vocabolangelo.org/granChio> <http://purl.org/dc/terms/created> "2024-07-17" .
+<http://www.vocabolangelo.org/granChio> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/paoliMichele> .
+<http://www.vocabolangelo.org/comodinosauro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/comodinosauro> <http://www.w3.org/2004/02/skos/core#prefLabel> "Comodinosauro"@it .
+<http://www.vocabolangelo.org/comodinosauro> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/co • mo • di • no • sà • u • ro/"@it .
+<http://www.vocabolangelo.org/comodinosauro> <http://www.w3.org/2004/02/skos/core#definition> "Dinosauro di colore nero."@it .
+<http://www.vocabolangelo.org/comodinosauro> <http://www.w3.org/2004/02/skos/core#definition> "Dinosauro tipico di habitat lacustri."@it .
+<http://www.vocabolangelo.org/comodinosauro> <http://www.w3.org/2004/02/skos/core#definition> "Generico rettile appassionato di mobilio."@it .
+<http://www.vocabolangelo.org/comodinosauro> <http://www.w3.org/2004/02/skos/core#example> "Ieri sera ho visto un comodinosauro nascondersi nell'ombra."@it .
+<http://www.vocabolangelo.org/comodinosauro> <http://www.w3.org/2004/02/skos/core#example> "In fila davanti a me all'IKEA c'era un comodinosauro."@it .
+<http://www.vocabolangelo.org/comodinosauro> <http://www.w3.org/2004/02/skos/core#example> "Sono andato al famoso lago lombardo e ho avvistato un comodinosauro."@it .
+<http://www.vocabolangelo.org/comodinosauro> <https://schema.org/keywords> "dinosauro, colore, nero, habitat, lacustri, rettile, appassionato, mobilio" .
+<http://www.vocabolangelo.org/comodinosauro> <http://purl.org/dc/terms/created> "2024-07-17" .
+<http://www.vocabolangelo.org/comodinosauro> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/paoliMichele> .
+<http://www.vocabolangelo.org/pizzicostola> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/pizzicostola> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pizzicostola"@it .
+<http://www.vocabolangelo.org/pizzicostola> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/piz • zi • cò • sto • la/"@it .
+<http://www.vocabolangelo.org/pizzicostola> <http://www.w3.org/2004/02/skos/core#definition> "Pizzicotto sulla costola."@it .
+<http://www.vocabolangelo.org/pizzicostola> <http://www.w3.org/2004/02/skos/core#example> "Ieri sera ho ricevuto un pizzicostola. Mi sono girato e non c'era nessuno!"@it .
+<http://www.vocabolangelo.org/pizzicostola> <https://schema.org/keywords> "pizzicotto, costola" .
+<http://www.vocabolangelo.org/pizzicostola> <http://purl.org/dc/terms/created> "2024-07-17" .
+<http://www.vocabolangelo.org/pizzicostola> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/paoliMichele> .
+<http://www.vocabolangelo.org/effettoCollaterangelo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Slangelo> .
+<http://www.vocabolangelo.org/effettoCollaterangelo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Effetto Collaterangelo"@it .
+<http://www.vocabolangelo.org/effettoCollaterangelo> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/ef • fet • to/ /col • la • te • ràn • ge • lo/"@it .
+<http://www.vocabolangelo.org/effettoCollaterangelo> <http://www.w3.org/2004/02/skos/core#definition> "Effetto collaterale di una terapia estremamente illogico, stupido e nella maggior parte dei casi trascurabile."@it .
+<http://www.vocabolangelo.org/effettoCollaterangelo> <http://www.w3.org/2004/02/skos/core#example> "Ho iniziato una terapia e ho avuto un effetto collaterangelo. Mi si è allungato il naso solo per 12 ore!!"@it .
+<http://www.vocabolangelo.org/effettoCollaterangelo> <https://schema.org/keywords> "effetto, collaterale, terapia, illogico, stupido, trascurabile" .
+<http://www.vocabolangelo.org/effettoCollaterangelo> <http://purl.org/dc/terms/created> "2024-07-18" .
+<http://www.vocabolangelo.org/effettoCollaterangelo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/jackword> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/jackword> <http://www.w3.org/2004/02/skos/core#prefLabel> "Jackword"@it .
+<http://www.vocabolangelo.org/jackword> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/jack • word/"@it .
+<http://www.vocabolangelo.org/jackword> <http://www.w3.org/2004/02/skos/core#definition> "Streak di parolangelo valide consecutive, tanto lunga da fare jackpot."@it .
+<http://www.vocabolangelo.org/jackword> <http://www.w3.org/2004/02/skos/core#example> "Ieri sera ho fatto un jackword. Ho inventato 5 parolangelo valide consecutive!"@it .
+<http://www.vocabolangelo.org/jackword> <https://schema.org/keywords> "streak, parolangelo, valide, consecutive, jackpot" .
+<http://www.vocabolangelo.org/jackword> <http://purl.org/dc/terms/created> "2024-07-18" .
+<http://www.vocabolangelo.org/jackword> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/paoliMichele> .
+<http://www.vocabolangelo.org/indecis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/indecis> <http://www.w3.org/2004/02/skos/core#prefLabel> "Indecis"@it .
+<http://www.vocabolangelo.org/indecis> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/in • de • cìs/"@it .
+<http://www.vocabolangelo.org/indecis> <http://www.w3.org/2004/02/skos/core#definition> "Persona che non capisce se definirsi cisgender."@it .
+<http://www.vocabolangelo.org/indecis> <http://www.w3.org/2004/02/skos/core#example> "Ieri sera ho incontrato un indecis. Non sapeva se definirsi uomo o donna!"@it .
+<http://www.vocabolangelo.org/indecis> <https://schema.org/keywords> "persona, capire, definirsi, cisgender" .
+<http://www.vocabolangelo.org/indecis> <http://purl.org/dc/terms/created> "2024-07-19" .
+<http://www.vocabolangelo.org/indecis> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
+<http://www.vocabolangelo.org/stambella> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/stambella> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stambella"@it .
+<http://www.vocabolangelo.org/stambella> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/stam • bèl • la/"@it .
+<http://www.vocabolangelo.org/stambella> <http://www.w3.org/2004/02/skos/core#definition> "Stampella esteticamente bella."@it .
+<http://www.vocabolangelo.org/stambella> <http://www.w3.org/2004/02/skos/core#example> "Ieri sera ho visto una stambella. Era molto bella e particolare, pregiata!"@it .
+<http://www.vocabolangelo.org/stambella> <https://schema.org/keywords> "stampella, qualità, superiore" .
+<http://www.vocabolangelo.org/stambella> <http://purl.org/dc/terms/created> "2024-07-19" .
+<http://www.vocabolangelo.org/stambella> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/paoliMichele> .
+<http://www.vocabolangelo.org/contramponare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/contramponare> <http://www.w3.org/2004/02/skos/core#prefLabel> "Contramponare"@it .
+<http://www.vocabolangelo.org/contramponare> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/con • tra • mpo • nà • re/"@it .
+<http://www.vocabolangelo.org/contramponare> <http://www.w3.org/2004/02/skos/core#definition> "Tamponare una macchina andando in retromarcia; tamponare al contrario."@it .
+<http://www.vocabolangelo.org/contramponare> <http://www.w3.org/2004/02/skos/core#example> "Ieri sera ho visto un tizio contramponare un'auto in un parcheggo, poi è scappato!"@it .
+<http://www.vocabolangelo.org/contramponare> <https://schema.org/keywords> "tamponare, contrario" .
+<http://www.vocabolangelo.org/contramponare> <https://schema.org/keywords> "macchina, retromarcia" .
+<http://www.vocabolangelo.org/contramponare> <http://purl.org/dc/terms/created> "2024-07-19" .
+<http://www.vocabolangelo.org/contramponare> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/rosatelliAnna> .
+<http://www.vocabolangelo.org/elemao> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/elemao> <http://www.w3.org/2004/02/skos/core#prefLabel> "Elemao"@it .
+<http://www.vocabolangelo.org/elemao> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/e • le • mà • o/"@it .
+<http://www.vocabolangelo.org/elemao> <http://www.w3.org/2004/02/skos/core#definition> "Elezione politica particolarmente ridicola."@it .
+<http://www.vocabolangelo.org/elemao> <http://www.w3.org/2004/02/skos/core#example> "Ieri sera ho assistito ad un elemao. Un politico si è candidato con la promessa di regalare a tutti un elefante!"@it .
+<http://www.vocabolangelo.org/elemao> <https://schema.org/keywords> "elezione, politica, particolare, ridicola" .
+<http://www.vocabolangelo.org/elemao> <http://purl.org/dc/terms/created> "2024-07-19" .
+<http://www.vocabolangelo.org/elemao> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
+<http://www.vocabolangelo.org/elemao> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/orlandoNicola> .
+<http://www.vocabolangelo.org/albicoccola> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/albicoccola> <http://www.w3.org/2004/02/skos/core#prefLabel> "Albicoccola"@it .
+<http://www.vocabolangelo.org/albicoccola> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/al • bi • còc • co • la/"@it .
+<http://www.vocabolangelo.org/albicoccola> <http://www.w3.org/2004/02/skos/core#definition> "Albicocca così tenera e pelosetta che mentre la si mangia fa venire voglia di coccole."@it .
+<http://www.vocabolangelo.org/albicoccola> <http://www.w3.org/2004/02/skos/core#example> "Ieri sera ho mangiato un albicoccola. Era molto buona e mi ha fatto venire voglia di dormire abbracciato alla mia ragazza!"@it .
+<http://www.vocabolangelo.org/albicoccola> <https://schema.org/keywords> "albicocca, tenera, pelosetta, mangiare, voglia, coccole" .
+<http://www.vocabolangelo.org/albicoccola> <http://purl.org/dc/terms/created> "2024-07-20" .
+<http://www.vocabolangelo.org/albicoccola> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/ribaudoSofia> .
+<http://www.vocabolangelo.org/aerocatalitico> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/aerocatalitico> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aerocatalitico"@it .
+<http://www.vocabolangelo.org/aerocatalitico> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/a • e • ro • ca • ta • li • ti • co/"@it .
+<http://www.vocabolangelo.org/aerocatalitico> <http://www.w3.org/2004/02/skos/core#definition> "Non aerodinamico."@it .
+<http://www.vocabolangelo.org/aerocatalitico> <http://www.w3.org/2004/02/skos/core#example> "La struttura delle madonne è aerocatalitica. Questo dovrebbe impedire loro di volare... Ma loro non lo sanno e volano lo stesso!"@it .
+<http://www.vocabolangelo.org/aerocatalitico> <https://schema.org/keywords> "aereo, aerodinamico" .
+<http://www.vocabolangelo.org/aerocatalitico> <http://purl.org/dc/terms/created> "2024-07-20" .
+<http://www.vocabolangelo.org/aerocatalitico> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/rosatelliAnna> .
+<http://www.vocabolangelo.org/scostumino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/scostumino> <http://www.w3.org/2004/02/skos/core#prefLabel> "Scostumino"@it .
+<http://www.vocabolangelo.org/scostumino> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/sco • stu • mì • no/"@it .
+<http://www.vocabolangelo.org/scostumino> <http://www.w3.org/2004/02/skos/core#definition> "Costume da bagno particolarmente provocante e poco coprente."@it .
+<http://www.vocabolangelo.org/scostumino> <http://www.w3.org/2004/02/skos/core#example> "Ieri sera ho visto una ragazza con uno scostumino. Era molto provocante e poco coprente!"@it .
+<http://www.vocabolangelo.org/scostumino> <https://schema.org/keywords> "costume, bagno, particolare, provocante, poco, coprente" .
+<http://www.vocabolangelo.org/scostumino> <http://purl.org/dc/terms/created> "2024-07-20" .
+<http://www.vocabolangelo.org/scostumino> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
+<http://www.vocabolangelo.org/scostumino> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/battaglinoNicole> .
+<http://www.vocabolangelo.org/kava> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/kava> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kava"@it .
+<http://www.vocabolangelo.org/kava> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/ka • va/"@it .
+<http://www.vocabolangelo.org/kava> <http://www.w3.org/2004/02/skos/core#definition> "Variante di Java che transpila in linguaggio Kotlin."@it .
+<http://www.vocabolangelo.org/kava> <http://www.w3.org/2004/02/skos/core#example> "Ieri sera ho programmato in Kava. Che cosa stupida!"@it .
+<http://www.vocabolangelo.org/kava> <https://schema.org/keywords> "variante, Java, compila, linguaggio, Kotlin" .
+<http://www.vocabolangelo.org/kava> <http://purl.org/dc/terms/created> "2024-07-24" .
+<http://www.vocabolangelo.org/kava> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
+<http://www.vocabolangelo.org/fintoccola> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/fintoccola> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fintoccola"@it .
+<http://www.vocabolangelo.org/fintoccola> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/fin • toc • co • la/"@it .
+<http://www.vocabolangelo.org/fintoccola> <http://www.w3.org/2004/02/skos/core#definition> "Gesto di una carezza fatto ad una persona da lontano."@it .
+<http://www.vocabolangelo.org/fintoccola> <http://www.w3.org/2004/02/skos/core#example> "Ieri sera ho fatto un fintoccola a mia madre. Era lontana e non potevo avvicinarmi a lei!"@it .
+<http://www.vocabolangelo.org/fintoccola> <https://schema.org/keywords> "gesto, fare, carezza, persona, lontano" .
+<http://www.vocabolangelo.org/fintoccola> <http://purl.org/dc/terms/created> "2024-07-24" .
+<http://www.vocabolangelo.org/fintoccola> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
+<http://www.vocabolangelo.org/fintolletico> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/fintolletico> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fintolletico"@it .
+<http://www.vocabolangelo.org/fintolletico> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/fin • tol • lè • ti • co/"@it .
+<http://www.vocabolangelo.org/fintolletico> <http://www.w3.org/2004/02/skos/core#definition> "Solletico sofferto senza essere toccati."@it .
+<http://www.vocabolangelo.org/fintolletico> <http://www.w3.org/2004/02/skos/core#example> "Ieri sera ho sofferto un fintolletico. Nicole ha fatto finta di solleticarmi da lontano e mi è venuto da ridere!"@it .
+<http://www.vocabolangelo.org/fintolletico> <https://schema.org/keywords> "soffrire, solletico, toccare, finta, ridere" .
+<http://www.vocabolangelo.org/fintolletico> <http://purl.org/dc/terms/created> "2024-07-24" .
+<http://www.vocabolangelo.org/fintolletico> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/battaglinoNicole> .
+<http://www.vocabolangelo.org/lemangiare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/lemangiare> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lemangiare"@it .
+<http://www.vocabolangelo.org/lemangiare> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/le • man • già • re/"@it .
+<http://www.vocabolangelo.org/lemangiare> <http://www.w3.org/2004/02/skos/core#definition> "Mangiare ridendo."@it .
+<http://www.vocabolangelo.org/lemangiare> <http://www.w3.org/2004/02/skos/core#example> "È impossibile non lemangiare con Sasha a pranzo, fa delle battute divertentissime!!"@it .
+<http://www.vocabolangelo.org/lemangiare> <https://schema.org/keywords> "mangiare, ridere" .
+<http://www.vocabolangelo.org/lemangiare> <http://purl.org/dc/terms/created> "2024-07-24" .
+<http://www.vocabolangelo.org/lemangiare> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/ribaudoSofia> .
+<http://www.vocabolangelo.org/lemangiare> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/bdeouiEddy> .
+<http://www.vocabolangelo.org/lemangiare> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/bragariAlexandru> .
+<http://www.vocabolangelo.org/istintoDissoprovvivenza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Slangelo> .
+<http://www.vocabolangelo.org/istintoDissoprovvivenza> <http://www.w3.org/2004/02/skos/core#prefLabel> "Istinto Dissoprovvivenza"@it .
+<http://www.vocabolangelo.org/istintoDissoprovvivenza> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/is • tin • to/ /dis • so • prov • vi • ven • za/"@it .
+<http://www.vocabolangelo.org/istintoDissoprovvivenza> <http://www.w3.org/2004/02/skos/core#definition> "Comportamento animale che si verifica quando esso cresce in cattività. Questo comportamento comporta una totale perdita di capacità di sopravvivenza nell'animale in questione soprattutto immaginando che dovrebbe trovarsi libero in natura."@it .
+<http://www.vocabolangelo.org/istintoDissoprovvivenza> <http://www.w3.org/2004/02/skos/core#example> "La mia tartaruga ha tre passaggi, ovviamente sceglie sempre quello centrale dove si blocca nelle spine delle rose, che stupida, ha veramente un gran istinto dissoprovvivenza."@it .
+<http://www.vocabolangelo.org/istintoDissoprovvivenza> <https://schema.org/keywords> "comportamento, animale, crescere, cattività, perdita, capacità, sopravvivenza, libero, natura" .
+<http://www.vocabolangelo.org/istintoDissoprovvivenza> <http://purl.org/dc/terms/created> "2024-07-25" .
+<http://www.vocabolangelo.org/istintoDissoprovvivenza> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/battaglinoNicole> .
+<http://www.vocabolangelo.org/istintoDissoprovvivenza> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
+<http://www.vocabolangelo.org/scaloncio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/scaloncio> <http://www.w3.org/2004/02/skos/core#prefLabel> "Scaloncio"@it .
+<http://www.vocabolangelo.org/scaloncio> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/sca • lòn • cio/"@it .
+<http://www.vocabolangelo.org/scaloncio> <http://www.w3.org/2004/02/skos/core#definition> "Tipologia di scale in cui ci sono tanti scalini bassi e fitti."@it .
+<http://www.vocabolangelo.org/scaloncio> <http://www.w3.org/2004/02/skos/core#example> "Ieri sera sono salito su uno scaloncio. Era molto faticoso, ma è stato divertente!"@it .
+<http://www.vocabolangelo.org/scaloncio> <https://schema.org/keywords> "tipologia, scale, scalini, bassi, fitti" .
+<http://www.vocabolangelo.org/scaloncio> <http://purl.org/dc/terms/created> "2024-07-27" .
+<http://www.vocabolangelo.org/scaloncio> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/rosatelliAnna> .
+<http://www.vocabolangelo.org/scaloncio> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
+<http://www.vocabolangelo.org/esagelare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/esagelare> <http://www.w3.org/2004/02/skos/core#prefLabel> "Esagelare"@it .
+<http://www.vocabolangelo.org/esagelare> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/e • sa • ge • là • re/"@it .
+<http://www.vocabolangelo.org/esagelare> <http://www.w3.org/2004/02/skos/core#definition> "Mangiare troppo velocemente il gelato e congelarsi il cervello."@it .
+<http://www.vocabolangelo.org/esagelare> <http://www.w3.org/2004/02/skos/core#definition> "Sgarrare la dieta mangiando un gelato"@it .
+<http://www.vocabolangelo.org/esagelare> <http://www.w3.org/2004/02/skos/core#example> "Ieri sera ho esagelato. Ho mangiato il gelato troppo velocemente e mi sono congelato il cervello!"@it .
+<http://www.vocabolangelo.org/esagelare> <https://schema.org/keywords> "mangiare, velocemente, gelato, congelare, cervello" .
+<http://www.vocabolangelo.org/esagelare> <http://purl.org/dc/terms/created> "2024-07-27" .
+<http://www.vocabolangelo.org/esagelare> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
+<http://www.vocabolangelo.org/esagelare> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/orlandoNicola> .
+<http://www.vocabolangelo.org/esagelare> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/savoGiorgia> .
+<http://www.vocabolangelo.org/contatile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/contatile> <http://www.w3.org/2004/02/skos/core#prefLabel> "Contatile"@it .
+<http://www.vocabolangelo.org/contatile> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/con • ta • tì • le/"@it .
+<http://www.vocabolangelo.org/contatile> <http://www.w3.org/2004/02/skos/core#definition> "Contabile che lavora in trasferta o comunque in giro, non in uno stabile."@it .
+<http://www.vocabolangelo.org/contatile> <http://www.w3.org/2004/02/skos/core#example> "Quando andrò in vacanza negli Stati Uniti dovrò portarmi dietro un contatile, dato che non includono le tasse nel prezzo della merce nei negozi."@it .
+<http://www.vocabolangelo.org/contatile> <https://schema.org/keywords> "contabile, lavorare, trasferta, giro, stabile" .
+<http://www.vocabolangelo.org/contatile> <http://purl.org/dc/terms/created> "2024-07-28" .
+<http://www.vocabolangelo.org/contatile> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/orlandoNicola> .
+<http://www.vocabolangelo.org/balneasbirro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/balneasbirro> <http://www.w3.org/2004/02/skos/core#prefLabel> "Balneasbirro"@it .
+<http://www.vocabolangelo.org/balneasbirro> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/bal • ne • as • bìr • ro/"@it .
+<http://www.vocabolangelo.org/balneasbirro> <http://www.w3.org/2004/02/skos/core#definition> "Guardiano notturno servo della lobby dei balneari che sgrida, caccia e insulta chiunque osi toccare il territorio pubblico che i balneari cercano di sottrarre ai cittadini onesti."@it .
+<http://www.vocabolangelo.org/balneasbirro> <http://www.w3.org/2004/02/skos/core#example> "Ieri sera ho visto un balneasbirro. Era molto arrabbiato e mi ha cacciato via dal lido!"@it .
+<http://www.vocabolangelo.org/balneasbirro> <https://schema.org/keywords> "guardiano, notturno, servo, lobby, balneari, sgridare, cacciare, insultare, territorio, pubblico, sottrarre, cittadini, onesti" .
+<http://www.vocabolangelo.org/balneasbirro> <http://purl.org/dc/terms/created> "2024-07-28" .
+<http://www.vocabolangelo.org/balneasbirro> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/suscaMatteo> .
+<http://www.vocabolangelo.org/idrocoglione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/idrocoglione> <http://www.w3.org/2004/02/skos/core#prefLabel> "Idrocoglione"@it .
+<http://www.vocabolangelo.org/idrocoglione> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/i • dro • co • glì • o • ne/"@it .
+<http://www.vocabolangelo.org/idrocoglione> <http://www.w3.org/2004/02/skos/core#definition> "Persona che diventa estremamente stupida non appena entra in contatto con l'acqua."@it .
+<http://www.vocabolangelo.org/idrocoglione> <http://www.w3.org/2004/02/skos/core#example> "Ieri sera ho visto un idrocoglione. Appena è entrato in acqua ha cominciato a fare cose assurde!"@it .
+<http://www.vocabolangelo.org/idrocoglione> <https://schema.org/keywords> "persona, stupida, contatto, acqua" .
+<http://www.vocabolangelo.org/idrocoglione> <http://purl.org/dc/terms/created> "2024-07-30" .
+<http://www.vocabolangelo.org/idrocoglione> <http://www.w3.org/2004/02/skos/core#note> "Questa è la prima parolangelo inventata da Martina, grazie mille!" .
+<http://www.vocabolangelo.org/idrocoglione> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/idrocoglione> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/scattoniAlessandra> .
+<http://www.vocabolangelo.org/idrocoglione> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/giannelliMartina> .
+<http://www.vocabolangelo.org/idrocoglione> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/paoliMichele> .
+<http://www.vocabolangelo.org/angèlo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/angèlo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Angèlo"@it .
+<http://www.vocabolangelo.org/angèlo> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/an • gè • lo/"@it .
+<http://www.vocabolangelo.org/angèlo> <http://www.w3.org/2004/02/skos/core#definition> "Angelo fatto sdraindosi nella neve."@it .
+<http://www.vocabolangelo.org/angèlo> <http://www.w3.org/2004/02/skos/core#example> "Ieri sera ho fatto un angèlo. Mi sono sdraindato nella neve e mi sono divertito un sacco!"@it .
+<http://www.vocabolangelo.org/angèlo> <https://schema.org/keywords> "angelo, sdraindosi, neve" .
+<http://www.vocabolangelo.org/angèlo> <http://purl.org/dc/terms/created> "2024-07-30" .
+<http://www.vocabolangelo.org/angèlo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
+<http://www.vocabolangelo.org/oltrepolento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/oltrepolento> <http://www.w3.org/2004/02/skos/core#prefLabel> "Oltrepolento"@it .
+<http://www.vocabolangelo.org/oltrepolento> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/ol • tre • po • lèn • to/"@it .
+<http://www.vocabolangelo.org/oltrepolento> <http://www.w3.org/2004/02/skos/core#definition> "Persona di origini più a nord del punto più a nord dell'Italia."@it .
+<http://www.vocabolangelo.org/oltrepolento> <http://www.w3.org/2004/02/skos/core#example> "Ieri sera ho incontrato un oltrepolento. Era molto simpatico e mi ha raccontato delle storie incredibili sulle terre del nord!"@it .
+<http://www.vocabolangelo.org/oltrepolento> <https://schema.org/keywords> "persona, origini, nord, punto, Italia" .
+<http://www.vocabolangelo.org/oltrepolento> <http://purl.org/dc/terms/created> "2024-07-30" .
+<http://www.vocabolangelo.org/oltrepolento> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/orlandoNicola> .
+<http://www.vocabolangelo.org/vulwatergun> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/vulwatergun> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vulwatergun"@it .
+<http://www.vocabolangelo.org/vulwatergun> <http://www.w3.org/2004/02/skos/core#definition> "Vagina finta modificata appositamente aggiungendo meccanismi di una psitola ad acqua elettronica e che acquisisce quindi la capacità di spruzzare acqua e squirtare."@it .
+<http://www.vocabolangelo.org/vulwatergun> <http://www.w3.org/2004/02/skos/core#example> "Volevo utilizzare la mia vulwatergun nello scontro di domani, ma penso sia più adatta ad altri scopi dopo ieri sera..."@it .
+<http://www.vocabolangelo.org/vulwatergun> <https://schema.org/keywords> "vagina, pistola, acqua, vulva, modifica, squirt, sesso" .
+<http://www.vocabolangelo.org/vulwatergun> <http://purl.org/dc/terms/created> "2024-07-31" .
+<http://www.vocabolangelo.org/vulwatergun> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
+<http://www.vocabolangelo.org/terracoglione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/terracoglione> <http://www.w3.org/2004/02/skos/core#prefLabel> "Terracoglione"@it .
+<http://www.vocabolangelo.org/terracoglione> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/ter • ra • co • gliò • ne/"@it .
+<http://www.vocabolangelo.org/terracoglione> <http://www.w3.org/2004/02/skos/core#definition> "Individuo che si dimostra estremamente stupido sulla terra ferma."@it .
+<http://www.vocabolangelo.org/terracoglione> <http://www.w3.org/2004/02/skos/core#example> "Ieri sera ho incontrato un terracoglione. Era molto stupido e non capiva nulla di quello che gli dicevo! Appena siamo entrati in mare è diventato una persona normale."@it .
+<http://www.vocabolangelo.org/terracoglione> <https://schema.org/keywords> "individuo, stupido, terra, ferma" .
+<http://www.vocabolangelo.org/terracoglione> <http://purl.org/dc/terms/created> "2024-07-30" .
+<http://www.vocabolangelo.org/terracoglione> <http://www.w3.org/2004/02/skos/core#note> "Fino a prova contraria, qualora ci si dimostri molto stupidi sulla terraferma ma non è ancora provato il non esserlo al di fuori di essa, si può comunque essere considerati terracoglioni." .
+<http://www.vocabolangelo.org/terracoglione> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/idrocoglione> .
+<http://www.vocabolangelo.org/terracoglione> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/neurocoglione> .
+<http://www.vocabolangelo.org/terracoglione> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/turbocoglione> .
+<http://www.vocabolangelo.org/terracoglione> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/paoliMichele> .
+<http://www.vocabolangelo.org/terracoglione> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/palesaro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/palesaro> <http://www.w3.org/2004/02/skos/core#prefLabel> "Palesaro"@it .
+<http://www.vocabolangelo.org/palesaro> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/pa • lè • sa • ro/"@it .
+<http://www.vocabolangelo.org/palesaro> <http://www.w3.org/2004/02/skos/core#definition> "Caratteristica ovvia di Pesaro o cose e persone relative ad essa."@it .
+<http://www.vocabolangelo.org/palesaro> <http://www.w3.org/2004/02/skos/core#example> "Ieri sera ho visto un pesarese con la scialberia. Era palesaro!"@it .
+<http://www.vocabolangelo.org/palesaro> <https://schema.org/keywords> "caratteristica, ovvia, Pesaro, cose, persone, relative" .
+<http://www.vocabolangelo.org/palesaro> <http://purl.org/dc/terms/created> "2024-08-01" .
+<http://www.vocabolangelo.org/palesaro> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/paoliMichele> .
