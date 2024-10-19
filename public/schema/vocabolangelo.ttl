@@ -12893,3 +12893,56 @@ vocang:lampietto
     schema:keywords "lampo, fulmine, piccolo, veloce";
     dct:created "2024-08-10" ;
     dct:creator vocang:bragariAlexandru .
+
+vocang:granataDaBagno
+    a vocang:Parolangelo ;
+    skos:prefLabel "Granata da bagno"@it ;
+    lexinfo:pronunciation "/gra • na • ta/ /da/ /bag • no/"@it ;
+    skos:definition "Bomba da bagno al cui interno si trova un blocchetto di metallo alcalino o alcalino-terroso."@it ;
+    skos:example "Ieri sera ho usato una granata da bagno. Ho giusto aggiunto un blocchetto di sodio e ho fatto esplodere la vasca!"@it ;
+    schema:keywords "bomba, bagno, blocchetto, metallo, alcalino, alcalino-terroso";
+    dct:created "2024-08-11" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:palescam
+    a vocang:Parolangelo ;
+    skos:prefLabel "Palescam"@it ;
+    lexinfo:pronunciation "/pa • le • scam/"@it ;
+    skos:definition "Palestra imbroglia i propri clienti. Gli abbonati non solo pagano la loro quota, ma eseguono anche un allenamento molto particolare che consiste nell'eseguire lavori manuali come spostare materiali, eseguire lavori agricoli, azionare macchinari manualmente, e molti altri lavori che vengono quindi portati avanti venendo sottopagati."@it ;
+    skos:example "Ieri sera mi sono allenato alla palescam. Ho spostato dei materiali e ho lavorato la terra. È stato molto faticoso!"@it ;
+    schema:keywords "palestra, imbrogliare, clienti, abbonati, quota, allenamento, particolare, lavori, manuali, sottopagati";
+    dct:created "2024-08-11" ;
+    dct:creator vocang:orlandoNicola .
+
+vocang:palescemo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Palescemo"@it ;
+    lexinfo:pronunciation "/pa • le • scè • mo/"@it ;
+    skos:definition "Persona che si fa imbrogliare dalle palescam."@it ;
+    skos:example "Il palescemo era molto stanco ma soprattutto non capiva perché stesse facendo lavori manuali in palestra!"@it ;
+    schema:keywords "imbrogliare palestra";
+    skos:related vocang:palescam ;
+    dct:created "2024-08-11" ;
+    dct:creator vocang:orlandoNicola .
+
+vocang:palescemo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Palescemo"@it ;
+    lexinfo:pronunciation "/pa • le • scè • mo/"@it ;
+    skos:definition "Persona che si fa imbrogliare dalle palescam."@it ;
+    skos:example "Il palescemo era molto stanco ma soprattutto non capiva perché stesse facendo lavori manuali in palestra!"@it ;
+    schema:keywords "imbrogliare palestra";
+    skos:related vocang:palescam ;
+    dct:created "2024-08-11" ;
+    dct:creator vocang:orlandoNicola .
+
+vocang:rossinappola
+    a vocang:Parolangelo ;
+    skos:prefLabel "Rossinappola"@it ;
+    lexinfo:pronunciation "/ros • si • nàp • po • la/"@it ;
+    skos:definition "Trappola preparata ponendo come esca una pizza rossini"@it ;
+    skos:example "Ho aspettato giusto 10 minuti dopo aver piazzato la rossinappola; ho trovato un pesarese perfetto! Palesaro!"@it ; 
+    schema:keywords "trappola, esca, pizza, rossini";
+    dct:created "2024-08-13" ;
+    dct:creator vocang:pertosaLorenzo .
+    
