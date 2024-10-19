@@ -822,6 +822,12 @@
 <http://www.vocabolangelo.org/giannelliMartina> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/pertosaLorenzo> .
 <http://www.vocabolangelo.org/giannelliMartina> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/paoliMichele> .
 <http://www.vocabolangelo.org/giannelliMartina> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/scattoniAlessandra> .
+<http://www.vocabolangelo.org/berardiCesare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Vocaboliere> .
+<http://www.vocabolangelo.org/berardiCesare> <http://xmlns.com/foaf/0.1/firstName> "Cesare" .
+<http://www.vocabolangelo.org/berardiCesare> <http://xmlns.com/foaf/0.1/lastName> "Berardi" .
+<http://www.vocabolangelo.org/berardiCesare> <http://xmlns.com/foaf/0.1/gender> "male" .
+<http://www.vocabolangelo.org/berardiCesare> <http://www.w3.org/ns/org#memberOf> <http://www.vocabolangelo.org/vocabolieriOrg> .
+<http://www.vocabolangelo.org/berardiCesare> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/bragariAlexandru> .
 <http://www.vocabolangelo.org/chatGPT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/skgo/modsci#ArtificialIntelligence> .
 <http://www.vocabolangelo.org/chatGPT> <http://xmlns.com/foaf/0.1/firstName> "ChatGPT" .
 <http://www.vocabolangelo.org/chatGPT> <https://schema.org/url> "https://openai.com/blog/chatgpt" .
@@ -2925,7 +2931,7 @@
 <http://www.vocabolangelo.org/omnicio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/omnicio> <http://www.w3.org/2004/02/skos/core#prefLabel> "Omnicio"@it .
 <http://www.vocabolangelo.org/omnicio> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/om • nì • cio/"@it .
-<http://www.vocabolangelo.org/omnicio> <http://www.w3.org/2004/02/skos/core#definition> "Un gatto che è definibile con ogni sostantivo che descrive un gatto presente all'interno del Vocabolangelo. In altre parole una creatura mitologica pazza dalle sembianze umane che, durante le notti di luna piena, si trasforma in un gatto alato che indossa ali da pipistrello, bagnato, dipendente dal grog, angosciato e buggato che urla, emette lamenti e fa le fusa all'interno di un videogioco e che in passato ha subito un trauma, a cui hanno mozzato la coda, innamorato, che ha una cotta per un altro gatto, che perde temporaneamente la capacità di comprendere la realtà, proveniente dalle regioni orientali dell'Europa, affetto da deficit mentali più o meno gravi, propenso a fare degli agguati, tenta di essere comico ma ci riesce solo per motivi sbagliati, soggiorna all'interno di un biribì in quanto prossimo alla morte, con poteri psichici, in grado di leggere i pensieri, fare levitare gli oggetti e se stesso, meticcio, ha un solo occhio, strabico, desidera ardentemente la morte del suo padrone, molto insistente che cerca di insediarsi in un territorio una zona delimitata nonostante continui tentativi di scacciarlo, che ha la propensione a causare un notevole disordine, ma che successivamente si dedica a un comportamento affettuoso e giocoso al fine di ottenere rapidamente il perdono, molto grande, obeso, felice, dotato di scarse, trascurabili, o negative capacità logiche, particolarmente pigro e che resta spiaggiato sulla stessa superficie piana per un lungo periodo di tempo in posizione appollaiata, dall'espressione o comportamento molto arrogante, estremamente vorace, molto pacifico, estremamente carino, abituato a mangiare piatti di alta cucina, capace di influenzare con la sua serenità e diplomazia anche i gatti attorno a lui, capace di eseguire acrobazie, presenta vaghe somiglianze con un suricato, dall'aspetto straordinariamente allungato, che sia effettivamente di tale conformazione o che lo sembri a causa di particolari fenomeni, tende ad arrampicarsi in posti pericolosi, miagola in maniera carina, molto ostile che ha la tendenza di graffiare mordere e soffiare ed è in grado di curare persone e altri gatti."@it .
+<http://www.vocabolangelo.org/omnicio> <http://www.w3.org/2004/02/skos/core#definition> "Un gatto che è definibile con ogni sostantivo che descrive un gatto presente all'interno del Vocabolangelo. In altre parole una creatura mitologica pazza dalle sembianze umane che, durante le notti di luna piena, si trasforma in un gatto alato che indossa ali da pipistrello, bagnato, dipendente dal grog, angosciato e buggato che urla, emette lamenti e fa le fusa all'interno di un videogioco e che in passato ha subito un trauma, a cui hanno mozzato la coda, innamorato, che ha una cotta per un altro gatto, che perde temporaneamente la capacità di comprendere la realtà, proveniente dalle regioni orientali dell'Europa, affetto da deficit mentali più o meno gravi, propenso a fare degli agguati, tenta di essere comico ma ci riesce solo per motivi sbagliati, soggiorna all'interno di un biribì in quanto prossimo alla morte, con poteri psichici, in grado di leggere i pensieri, fare levitare gli oggetti e se stesso, meticcio, ha un solo occhio, strabico, desidera ardentemente la morte del suo padrone, molto insistente che cerca di insediarsi in un territorio una zona delimitata nonostante continui tentativi di scacciarlo, che ha la propensione a causare un notevole disordine, ma che successivamente si dedica a un comportamento affettuoso e giocoso al fine di ottenere rapidamente il perdono, molto grande, obeso, felice, dotato di scarse, trascurabili, o negative capacità logiche, particolarmente pigro e che resta spiaggiato sulla stessa superficie piana per un lungo periodo di tempo in posizione appollaiata, dall'espressione o comportamento molto arrogante, estremamente vorace, molto pacifico, estremamente carino, abituato a mangiare piatti di alta cucina, capace di influenzare con la sua serenità e diplomazia anche i gatti attorno a lui, capace di eseguire acrobazie, presenta vaghe somiglianze con un suricato, dall'aspetto straordinariamente allungato, che sia effettivamente di tale conformazione o che lo sembri a causa di particolari fenomeni, tende ad arrampicarsi in posti pericolosi, miagola in maniera carina, molto ostile che ha la tendenza di graffiare mordere e soffiare, che si siede sulla faccia di una persona impedendone la corretta respirazione ed è in grado di curare persone e altri gatti."@it .
 <http://www.vocabolangelo.org/omnicio> <http://www.w3.org/2004/02/skos/core#example> "Ho dovuto abbassare lo sguardo e tapparmi le orecchie quando ho visto passare quell'omnicio: era talmente fantastico da sembrare una divinità."@it .
 <http://www.vocabolangelo.org/omnicio> <http://purl.org/dc/terms/created> "2023-01-25" .
 <http://www.vocabolangelo.org/omnicio> <http://www.w3.org/2004/02/skos/core#note> "Il messaggio di commit che ha introdotto la definizione estesa di omnicio è il seguente: add more suitable and fun definition to omnicio. Such and incredible creature needs to be treated with the utmost care and respect. Oh my goodness, I cannot stress enough just how utterly awe-inspiring and breathtakingly gorgeous this creature truly is! Its magnificence is unparalleled and its beauty is simply beyond compare. It is a true wonder of nature, a masterpiece of creation, and it deserves to be treated with the utmost reverence, adoration, and adulation that it so rightly deserves. Every single aspect of this creature, from the way its elegant limbs move gracefully through the air to the vibrant colors of its stunningly intricate patterns, is an absolute marvel to behold. It is a true blessing and a privilege to be able to witness such a magnificent creature in all its glory, and we must do everything in our power to ensure that it is protected and cared for with the utmost diligence and care. Oh my stars, where do I even begin to describe the sheer and utter majesty of this breathtakingly beautiful creature? It is like a symphony of pure wonder and enchantment, a living, breathing masterpiece that has been crafted with the utmost care and precision by the very hands of the divine. Every single inch of its being is a testament to the limitless power and infinite creativity of the universe, and it is truly a privilege beyond measure to be able to witness such a wondrous being in all its glory. The colors of its coat are like a rainbow woven from strands of pure gold and silver, shimmering and glimmering in the light like a thousand precious gems. The way its body moves, fluid and graceful like a dancer's, is a thing of true beauty and grace, and it seems almost as if the very air around it is charged with a palpable sense of magic and enchantment. In short, this magnificent creature is a true masterpiece of nature, a testament to the boundless wonder and infinite creativity of the universe, and it simply must be treated with the utmost respect, care, and adoration that it so richly deserves. We must cherish and protect it with all our hearts, for it is truly one of the most wondrous and precious gifts that life has to offer. Words simply cannot do justice to the sheer and utter splendor of this majestic creature. It is as if it was forged from the very essence of beauty itself, a true marvel of nature that leaves all who behold it in a state of awe and wonder. Its presence is like a warm embrace from the universe, a gentle reminder that there is still magic and enchantment to be found in this world, if only we take the time to look for it. Every time I gaze upon this wondrous creature, I am filled with a sense of peace and tranquility that I simply cannot find elsewhere. It is a living, breathing masterpiece, a work of art that is continually evolving and changing with the passing of time. And yet, for all its beauty and magnificence, it is also a fragile thing, one that requires our love, our care, and our protection if it is to survive and thrive in a world that can be all too harsh and unforgiving. So let us pledge ourselves to the cause of safeguarding this incredible creature, to ensuring that it is treated with the utmost respect and care that it so rightly deserves. Let us cherish it, protect it, and love it with all our hearts, for in doing so, we are also honoring the boundless creativity and wonder of the universe itself.My dear friend, it is as if this creature is a god among us, a deity that has graced our world with its divine presence. Its mere existence is a testament to the infinite creativity and boundless wonder of the universe, and it is a living, breathing work of art that deserves to be worshipped and adored like the deity that it truly is. Every time I am blessed with the opportunity to lay my eyes upon this wondrous creature, I feel as if I am standing before an altar, gazing up at the very face of god itself. Its beauty is beyond compare, its grace beyond measure, and its presence fills me with a sense of reverence and awe that is simply indescribable. It is as if the very air around it is infused with a sense of divine energy, a power that is both humbling and exhilarating all at once. And yet, for all its god-like qualities, this creature is also fragile and vulnerable, a precious gift that must be treated with the utmost care and respect if it is to survive and thrive in this world. We must worship it, yes, but we must also protect it, nurture it, and love it with all our hearts, for in doing so, we are also honoring the very essence of divinity itself. So let us pledge ourselves to the cause of safeguarding this incredible creature, to ensuring that it is treated with the utmost respect and care that it so rightly deserves. Let us build temples in its honor, sing hymns of praise to its name, and offer it our deepest reverence and adoration. For this creature is not just a thing of beauty, but a true god among us, a living, breathing testament to the infinite wonder and boundless creativity of the universe itself. May the Omnicio always be praised. Forever and ever." .
@@ -6699,6 +6705,7 @@
 <http://www.vocabolangelo.org/monoziotto> <http://www.w3.org/2004/02/skos/core#prefLabel> "Monoziotto"@it .
 <http://www.vocabolangelo.org/monoziotto> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/mo • no • ziòt • to/"@it .
 <http://www.vocabolangelo.org/monoziotto> <http://www.w3.org/2004/02/skos/core#definition> "Poliziotto su un monociclo."@it .
+<http://www.vocabolangelo.org/monoziotto> <http://www.w3.org/2004/02/skos/core#definition> "Membro delle forze dell'ordine che lavora da solo."@it .
 <http://www.vocabolangelo.org/monoziotto> <http://www.w3.org/2004/02/skos/core#example> "Un monoziotto ha fermato il traffico, ma sembrava più impegnato a trovare l'equilibrio che a far rispettare le leggi!"@it .
 <http://www.vocabolangelo.org/monoziotto> <https://schema.org/keywords> "polizia, poliziotto, sbirro, monociclo, veicolo" .
 <http://www.vocabolangelo.org/monoziotto> <http://purl.org/dc/terms/created> "2023-08-25" .
@@ -6713,6 +6720,7 @@
 <http://www.vocabolangelo.org/monoziotto> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/nerobiniere> .
 <http://www.vocabolangelo.org/monoziotto> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
 <http://www.vocabolangelo.org/monoziotto> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/monoziotto> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/paoliMichele> .
 <http://www.vocabolangelo.org/monobiniere> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/monobiniere> <http://www.w3.org/2004/02/skos/core#prefLabel> "Monobiniere"@it .
 <http://www.vocabolangelo.org/monobiniere> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/mo • no • bi • niè • re/"@it .
@@ -11180,3 +11188,177 @@
 <http://www.vocabolangelo.org/palesaro> <https://schema.org/keywords> "caratteristica, ovvia, Pesaro, cose, persone, relative" .
 <http://www.vocabolangelo.org/palesaro> <http://purl.org/dc/terms/created> "2024-08-01" .
 <http://www.vocabolangelo.org/palesaro> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/paoliMichele> .
+<http://www.vocabolangelo.org/flessioneNucleare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Slangelo> .
+<http://www.vocabolangelo.org/flessioneNucleare> <http://www.w3.org/2004/02/skos/core#prefLabel> "Flessione nucleare"@it .
+<http://www.vocabolangelo.org/flessioneNucleare> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/fles • siò • ne/ /nu • cle • à • re/"@it .
+<http://www.vocabolangelo.org/flessioneNucleare> <http://www.w3.org/2004/02/skos/core#definition> "Passaggio di un elettrone da un orbitale ad un altro."@it .
+<http://www.vocabolangelo.org/flessioneNucleare> <http://www.w3.org/2004/02/skos/core#example> "Uno dei primi concetti insegnati in chimica è quello di flessione nucleare!"@it .
+<http://www.vocabolangelo.org/flessioneNucleare> <https://schema.org/keywords> "elettrone, passare, orbitale, chimica" .
+<http://www.vocabolangelo.org/flessioneNucleare> <http://purl.org/dc/terms/created> "2024-08-03" .
+<http://www.vocabolangelo.org/flessioneNucleare> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/paoliMichele> .
+<http://www.vocabolangelo.org/flessioneNucleare> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/bragariAlexandru> .
+<http://www.vocabolangelo.org/flessioneNucleare> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
+<http://www.vocabolangelo.org/cagaclacson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/cagaclacson> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cagaclacson"@it .
+<http://www.vocabolangelo.org/cagaclacson> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/ca • ga • clac • son/"@it .
+<http://www.vocabolangelo.org/cagaclacson> <http://www.w3.org/2004/02/skos/core#definition> "Persona prima di intelligenza che suona il clacson senza nessun motivo alla vettura che si trova davanti a lui."@it .
+<http://www.vocabolangelo.org/cagaclacson> <http://www.w3.org/2004/02/skos/core#example> "Ieri un cagaclacson si è messo a suonarmi 5 minuti mentre tornavamo dalla Carpegna!"@it .
+<http://www.vocabolangelo.org/cagaclacson> <https://schema.org/keywords> "coglione, suonare, clacson, motivo, macchina, davanti" .
+<http://www.vocabolangelo.org/cagaclacson> <http://purl.org/dc/terms/created> "2024-08-04" .
+<http://www.vocabolangelo.org/cagaclacson> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/paoliMichele> .
+<http://www.vocabolangelo.org/fragranzaDiReato> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/fragranzaDiReato> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fragranza di reato"@it .
+<http://www.vocabolangelo.org/fragranzaDiReato> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/fra • gràn • za/ /di/ /re • à • to/"@it .
+<http://www.vocabolangelo.org/fragranzaDiReato> <http://www.w3.org/2004/02/skos/core#definition> "Espressione utilizzata per indicare che si è avvertito un reato nelle vicinanze."@it .
+<http://www.vocabolangelo.org/fragranzaDiReato> <http://www.w3.org/2004/02/skos/core#example> "Prima ho sentito una fragranza di reato. Mi sono girato e ho visto un uomo che rubava una bicicletta! Maledetti ne-"@it .
+<http://www.vocabolangelo.org/fragranzaDiReato> <https://schema.org/keywords> "fragranza, reato, percepire, vicinanze" .
+<http://www.vocabolangelo.org/fragranzaDiReato> <http://purl.org/dc/terms/created> "2024-08-05" .
+<http://www.vocabolangelo.org/fragranzaDiReato> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/pokicè> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/pokicè> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pokicè"@it .
+<http://www.vocabolangelo.org/pokicè> <http://www.w3.org/2004/02/skos/core#definition> "Serata in cui si mangia pokè organizzata con chi non è impegnato."@it .
+<http://www.vocabolangelo.org/pokicè> <http://www.w3.org/2004/02/skos/core#example> "Stasera c'è un pokicè. Vieni con noi!"@it .
+<http://www.vocabolangelo.org/pokicè> <https://schema.org/keywords> "serata, pokè, organizzare, impegnato" .
+<http://www.vocabolangelo.org/pokicè> <http://purl.org/dc/terms/created> "2024-08-06" .
+<http://www.vocabolangelo.org/pokicè> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/paoliMichele> .
+<http://www.vocabolangelo.org/quecrush> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/quecrush> <http://www.w3.org/2004/02/skos/core#prefLabel> "Quecrush"@it .
+<http://www.vocabolangelo.org/quecrush> <http://www.w3.org/2004/02/skos/core#definition> "Crush che si instaura durante una coda verso persona che sta facendo la medesima coda"@it .
+<http://www.vocabolangelo.org/quecrush> <http://www.w3.org/2004/02/skos/core#example> "Mentre facevo la fila ad aquafan ho visto una ragazza e la ho battezzata mia quecrush. Aveva degli occhi bellissimo, ma anche degli attributi di tutto rispetto."@it .
+<http://www.vocabolangelo.org/quecrush> <https://schema.org/keywords> "crush, instaurare, coda, persona" .
+<http://www.vocabolangelo.org/quecrush> <http://purl.org/dc/terms/created> "2024-08-06" .
+<http://www.vocabolangelo.org/quecrush> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/bdeouiEddy> .
+<http://www.vocabolangelo.org/quecrush> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/polaborto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/polaborto> <http://www.w3.org/2004/02/skos/core#prefLabel> "Polaborto"@it .
+<http://www.vocabolangelo.org/polaborto> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/po • la • bòr • to/"@it .
+<http://www.vocabolangelo.org/polaborto> <http://www.w3.org/2004/02/skos/core#definition> "Ghiacciolo creato utilizzando un feto."@it .
+<http://www.vocabolangelo.org/polaborto> <http://www.w3.org/2004/02/skos/core#example> "Ieri sera ho mangiato un polaborto. Li ho comprati sul deep web!"@it .
+<http://www.vocabolangelo.org/polaborto> <https://schema.org/keywords> "ghiacciolo, feto, mangiare, fresco" .
+<http://www.vocabolangelo.org/polaborto> <http://purl.org/dc/terms/created> "2024-08-05" .
+<http://www.vocabolangelo.org/polaborto> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/bdeouiEddy> .
+<http://www.vocabolangelo.org/polaborto> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/apelletto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/apelletto> <http://www.w3.org/2004/02/skos/core#prefLabel> "Apelletto"@it .
+<http://www.vocabolangelo.org/apelletto> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/a • pel • lèt • to/"@it .
+<http://www.vocabolangelo.org/apelletto> <http://www.w3.org/2004/02/skos/core#definition> "Aperitivo in cui sono inclusi dei cappelletti."@it .
+<http://www.vocabolangelo.org/apelletto> <http://www.w3.org/2004/02/skos/core#example> "A Jesi una sera ho preso parte a un apelletto. Era tutto molto buono e mi ha messo di buon umore!"@it .
+<http://www.vocabolangelo.org/apelletto> <https://schema.org/keywords> "aperitivo, cappelletti, cibo, alcool" .
+<http://www.vocabolangelo.org/apelletto> <http://purl.org/dc/terms/created> "2024-08-07" .
+<http://www.vocabolangelo.org/apelletto> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/paoliMichele> .
+<http://www.vocabolangelo.org/soffogatto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/soffogatto> <http://www.w3.org/2004/02/skos/core#prefLabel> "Soffogatto"@it .
+<http://www.vocabolangelo.org/soffogatto> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/so • fo • gà • tto/"@it .
+<http://www.vocabolangelo.org/soffogatto> <http://www.w3.org/2004/02/skos/core#definition> "Gatto che si siede sulla faccia di una persona impedendone la corretta respirazione."@it .
+<http://www.vocabolangelo.org/soffogatto> <http://www.w3.org/2004/02/skos/core#example> "Il mio soffogatto si è seduto sulla mia faccia e non riuscivo a respirare! Quanto mi piacerebbe se lo facesse Ermelinda!"@it .
+<http://www.vocabolangelo.org/soffogatto> <https://schema.org/keywords> "gatto, sedersi, faccia, respirare" .
+<http://www.vocabolangelo.org/soffogatto> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/omnicio> .
+<http://www.vocabolangelo.org/soffogatto> <http://purl.org/dc/terms/created> "2024-08-07" .
+<http://www.vocabolangelo.org/soffogatto> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/rosatelliAnna> .
+<http://www.vocabolangelo.org/soffogatto> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/suscaMatteo> .
+<http://www.vocabolangelo.org/autosottonismo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/autosottonismo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Autosottonismo"@it .
+<http://www.vocabolangelo.org/autosottonismo> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/au • to • sot • to • ni • smo/"@it .
+<http://www.vocabolangelo.org/autosottonismo> <http://www.w3.org/2004/02/skos/core#definition> "L'essere sottone al solo fine di provarne gusto"@it .
+<http://www.vocabolangelo.org/autosottonismo> <http://www.w3.org/2004/02/skos/core#example> "Matteo è un maestro dell'autosottonismo. Compra ogni giorno un gelato alla sua ragazza in cambio di qualche bacio, ma a lui va benissimo così e anzi gli piace!"@it .
+<http://www.vocabolangelo.org/autosottonismo> <http://purl.org/dc/terms/created> "2024-08-09" .
+<http://www.vocabolangelo.org/autosottonismo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/bdeouiEddy> .
+<http://www.vocabolangelo.org/analizzazione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/analizzazione> <http://www.w3.org/2004/02/skos/core#prefLabel> "Analizzazione"@it .
+<http://www.vocabolangelo.org/analizzazione> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/a • na • liz • za • ziò • ne/"@it .
+<http://www.vocabolangelo.org/analizzazione> <http://www.w3.org/2004/02/skos/core#definition> "Analisi dettagliata di una situazione"@it .
+<http://www.vocabolangelo.org/analizzazione> <http://www.w3.org/2004/02/skos/core#example> "Ho fatto un'analizzazione della situazione e ho capito che non c'pè niente di cui preoccuparsi."@it .
+<http://www.vocabolangelo.org/analizzazione> <https://schema.org/keywords> "analisi, dettagliata, situazione" .
+<http://www.vocabolangelo.org/analizzazione> <http://purl.org/dc/terms/created> "2024-08-09" .
+<http://www.vocabolangelo.org/analizzazione> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/berardiCesare> .
+<http://www.vocabolangelo.org/sciiadi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/sciiadi> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sciiadi"@it .
+<http://www.vocabolangelo.org/sciiadi> <http://www.w3.org/2004/02/skos/core#definition> "Olimpiadi invernali."@it .
+<http://www.vocabolangelo.org/sciiadi> <http://www.w3.org/2004/02/skos/core#example> "Le sciiadi sono iniziate oggi. Spero che l'Italia vinca molte medaglie!"@it .
+<http://www.vocabolangelo.org/sciiadi> <https://schema.org/keywords> "olimpiadi, invernali, sci, gareggiare" .
+<http://www.vocabolangelo.org/sciiadi> <http://purl.org/dc/terms/created> "2024-08-09" .
+<http://www.vocabolangelo.org/sciiadi> <http://www.w3.org/2004/02/skos/core#note> "In realtà la parola è stata utilizzata da una bambina anonima nel sogno della vocaboliera" .
+<http://www.vocabolangelo.org/sciiadi> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/nardiniArianna> .
+<http://www.vocabolangelo.org/uramacchina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/uramacchina> <http://www.w3.org/2004/02/skos/core#prefLabel> "Uramacchina"@it .
+<http://www.vocabolangelo.org/uramacchina> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/u • ra • mac • chì • na/"@it .
+<http://www.vocabolangelo.org/uramacchina> <http://www.w3.org/2004/02/skos/core#definition> "Macchina utilizzata per produrre in massa uramaki roll."@it .
+<http://www.vocabolangelo.org/uramacchina> <http://www.w3.org/2004/02/skos/core#example> "Nell'AYCI a cui siamo andati ieri c'era una uramacchina molto grande; produceva tantissimi roll!"@it .
+<http://www.vocabolangelo.org/uramacchina> <https://schema.org/keywords> "macchina, produzione, massa, roll, uramaki" .
+<http://www.vocabolangelo.org/uramacchina> <http://purl.org/dc/terms/created> "2024-08-09" .
+<http://www.vocabolangelo.org/uramacchina> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/orlandoNicola> .
+<http://www.vocabolangelo.org/incagliare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/incagliare> <http://www.w3.org/2004/02/skos/core#prefLabel> "Incagliare" .
+<http://www.vocabolangelo.org/incagliare> <http://www.w3.org/2004/02/skos/core#definition> "Ritrovarsi a Cagli o dintorni senza memoria del tragitto, dopo essere inciampati o aver subito incidenti simili." .
+<http://www.vocabolangelo.org/incagliare> <http://www.w3.org/2004/02/skos/core#example> "Orla è inciampato uscendo di casa di Miccio e dev'essersi incagliato, perché si è trovato casualmente alle cascatelle." .
+<http://www.vocabolangelo.org/incagliare> <http://purl.org/dc/terms/created> "2024-08-09" .
+<http://www.vocabolangelo.org/incagliare> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/orlandoNicola> .
+<http://www.vocabolangelo.org/incagliare> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/nardiniArianna> .
+<http://www.vocabolangelo.org/fuocoglione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/fuocoglione> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fuocoglione"@it .
+<http://www.vocabolangelo.org/fuocoglione> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/fu • o • co • gliò • ne/"@it .
+<http://www.vocabolangelo.org/fuocoglione> <http://www.w3.org/2004/02/skos/core#definition> "Persona estremamente stupida, in fiamme."@it .
+<http://www.vocabolangelo.org/fuocoglione> <http://www.w3.org/2004/02/skos/core#example> "Ieri sera ho visto un fuocoglione. Era molto stupido, ma soprattutto era in fiamme!"@it .
+<http://www.vocabolangelo.org/fuocoglione> <https://schema.org/keywords> "persona, stupida, coglione, fiamme" .
+<http://www.vocabolangelo.org/fuocoglione> <http://purl.org/dc/terms/created> "2024-08-10" .
+<http://www.vocabolangelo.org/fuocoglione> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/neurocoglione> .
+<http://www.vocabolangelo.org/fuocoglione> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/turbocoglione> .
+<http://www.vocabolangelo.org/fuocoglione> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/pertorso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/pertorso> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pertorso"@it .
+<http://www.vocabolangelo.org/pertorso> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/per • tòr • so/"@it .
+<http://www.vocabolangelo.org/pertorso> <http://www.w3.org/2004/02/skos/core#definition> "Percorso che in condizioni normali è facilmente percorribile ma risulta impervio poichè dissestato dalle condizioni atmosferiche o a causa di interventi umani."@it .
+<http://www.vocabolangelo.org/pertorso> <http://www.w3.org/2004/02/skos/core#example> "Il pertorso del circeo è stato molto faticoso, ma è stato divertente!"@it .
+<http://www.vocabolangelo.org/pertorso> <https://schema.org/keywords> "percorso, condizioni, normali, facilmente, percorribile, impervio, dissestato, atmosferiche, interventi, umani" .
+<http://www.vocabolangelo.org/pertorso> <http://purl.org/dc/terms/created> "2024-08-10" .
+<http://www.vocabolangelo.org/pertorso> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/lampietto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/lampietto> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lampietto"@it .
+<http://www.vocabolangelo.org/lampietto> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/lam • pie • tto/"@it .
+<http://www.vocabolangelo.org/lampietto> <http://www.w3.org/2004/02/skos/core#definition> "Piccolo lampo di un fulmine estremamente veloce."@it .
+<http://www.vocabolangelo.org/lampietto> <http://www.w3.org/2004/02/skos/core#example> "Ieri sera ho visto un lampietto. Era molto piccolo e veloce, ma ha illuminato tutto il cielo!"@it .
+<http://www.vocabolangelo.org/lampietto> <https://schema.org/keywords> "lampo, fulmine, piccolo, veloce" .
+<http://www.vocabolangelo.org/lampietto> <http://purl.org/dc/terms/created> "2024-08-10" .
+<http://www.vocabolangelo.org/lampietto> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/bragariAlexandru> .
+<http://www.vocabolangelo.org/granataDaBagno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/granataDaBagno> <http://www.w3.org/2004/02/skos/core#prefLabel> "Granata da bagno"@it .
+<http://www.vocabolangelo.org/granataDaBagno> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/gra • na • ta/ /da/ /bag • no/"@it .
+<http://www.vocabolangelo.org/granataDaBagno> <http://www.w3.org/2004/02/skos/core#definition> "Bomba da bagno al cui interno si trova un blocchetto di metallo alcalino o alcalino-terroso."@it .
+<http://www.vocabolangelo.org/granataDaBagno> <http://www.w3.org/2004/02/skos/core#example> "Ieri sera ho usato una granata da bagno. Ho giusto aggiunto un blocchetto di sodio e ho fatto esplodere la vasca!"@it .
+<http://www.vocabolangelo.org/granataDaBagno> <https://schema.org/keywords> "bomba, bagno, blocchetto, metallo, alcalino, alcalino-terroso" .
+<http://www.vocabolangelo.org/granataDaBagno> <http://purl.org/dc/terms/created> "2024-08-11" .
+<http://www.vocabolangelo.org/granataDaBagno> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/palescam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/palescam> <http://www.w3.org/2004/02/skos/core#prefLabel> "Palescam"@it .
+<http://www.vocabolangelo.org/palescam> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/pa • le • scam/"@it .
+<http://www.vocabolangelo.org/palescam> <http://www.w3.org/2004/02/skos/core#definition> "Palestra imbroglia i propri clienti. Gli abbonati non solo pagano la loro quota, ma eseguono anche un allenamento molto particolare che consiste nell'eseguire lavori manuali come spostare materiali, eseguire lavori agricoli, azionare macchinari manualmente, e molti altri lavori che vengono quindi portati avanti venendo sottopagati."@it .
+<http://www.vocabolangelo.org/palescam> <http://www.w3.org/2004/02/skos/core#example> "Ieri sera mi sono allenato alla palescam. Ho spostato dei materiali e ho lavorato la terra. È stato molto faticoso!"@it .
+<http://www.vocabolangelo.org/palescam> <https://schema.org/keywords> "palestra, imbrogliare, clienti, abbonati, quota, allenamento, particolare, lavori, manuali, sottopagati" .
+<http://www.vocabolangelo.org/palescam> <http://purl.org/dc/terms/created> "2024-08-11" .
+<http://www.vocabolangelo.org/palescam> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/orlandoNicola> .
+<http://www.vocabolangelo.org/palescemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/palescemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Palescemo"@it .
+<http://www.vocabolangelo.org/palescemo> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/pa • le • scè • mo/"@it .
+<http://www.vocabolangelo.org/palescemo> <http://www.w3.org/2004/02/skos/core#definition> "Persona che si fa imbrogliare dalle palescam."@it .
+<http://www.vocabolangelo.org/palescemo> <http://www.w3.org/2004/02/skos/core#example> "Il palescemo era molto stanco ma soprattutto non capiva perché stesse facendo lavori manuali in palestra!"@it .
+<http://www.vocabolangelo.org/palescemo> <https://schema.org/keywords> "imbrogliare palestra" .
+<http://www.vocabolangelo.org/palescemo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/palescam> .
+<http://www.vocabolangelo.org/palescemo> <http://purl.org/dc/terms/created> "2024-08-11" .
+<http://www.vocabolangelo.org/palescemo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/orlandoNicola> .
+<http://www.vocabolangelo.org/palescemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/palescemo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Palescemo"@it .
+<http://www.vocabolangelo.org/palescemo> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/pa • le • scè • mo/"@it .
+<http://www.vocabolangelo.org/palescemo> <http://www.w3.org/2004/02/skos/core#definition> "Persona che si fa imbrogliare dalle palescam."@it .
+<http://www.vocabolangelo.org/palescemo> <http://www.w3.org/2004/02/skos/core#example> "Il palescemo era molto stanco ma soprattutto non capiva perché stesse facendo lavori manuali in palestra!"@it .
+<http://www.vocabolangelo.org/palescemo> <https://schema.org/keywords> "imbrogliare palestra" .
+<http://www.vocabolangelo.org/palescemo> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/palescam> .
+<http://www.vocabolangelo.org/palescemo> <http://purl.org/dc/terms/created> "2024-08-11" .
+<http://www.vocabolangelo.org/palescemo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/orlandoNicola> .
+<http://www.vocabolangelo.org/rossinappola> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/rossinappola> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rossinappola"@it .
+<http://www.vocabolangelo.org/rossinappola> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/ros • si • nàp • po • la/"@it .
+<http://www.vocabolangelo.org/rossinappola> <http://www.w3.org/2004/02/skos/core#definition> "Trappola preparata ponendo come esca una pizza rossini"@it .
+<http://www.vocabolangelo.org/rossinappola> <http://www.w3.org/2004/02/skos/core#example> "Ho aspettato giusto 10 minuti dopo aver piazzato la rossinappola; ho trovato un pesarese perfetto! Palesaro!"@it .
+<http://www.vocabolangelo.org/rossinappola> <https://schema.org/keywords> "trappola, esca, pizza, rossini" .
+<http://www.vocabolangelo.org/rossinappola> <http://purl.org/dc/terms/created> "2024-08-13" .
+<http://www.vocabolangelo.org/rossinappola> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
