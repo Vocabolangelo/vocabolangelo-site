@@ -6,7 +6,7 @@ import { selectorTheme } from '../../../state/selectorTheme'
 import { StoryColor } from '../../../classes/story/StoryColor'
 
 export default function Pillars() {
-    return <InnerWrapper 
+    return <InnerWrapper
         optionalModifiers={['align-center']}
         style={1}>
         <h2>I Tre Grandi Pilastri del Vocabolangelo</h2>
@@ -16,7 +16,7 @@ export default function Pillars() {
             La maggior parte delle Parolangelo infatti, è spesso collegata ad almeno uno dei tre grandi pilastri del Vocabolangelo.
         </p>
         <div className="items align-center style1 medium onscroll-fade">
-            <Element 
+            <Element
                 title="Sesso"
                 description="Probabilmente i Vocabolieri sono semplicemente molto arrapati e desiderano una mega orgia."
                 icon={faVenusMars}
@@ -42,7 +42,7 @@ function Element(props: ElementProps) {
     return <section>
         <div className="inner">
             <span className={'icon style2 major'}>
-                <FontAwesomeIcon 
+                <FontAwesomeIcon
                     icon={icon}
                     color={theme.color === StoryColor.White ? 'black' : 'white' }
                     size="2xl"

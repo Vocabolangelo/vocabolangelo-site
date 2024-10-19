@@ -47,7 +47,7 @@ export default function regoleIndex() {
                                     <Box>
                                         È comunque possibile creare sinonimi di parole italiane o definizioni alternative,
                                         come per esempio <Link to={`${PAROLANGELO_ROUTE}/psichedelica`}>Psichedelica</Link>.
-                                        Non è invece 
+                                        Non è invece
                                     </Box>
                                 </li>
                                 <li>

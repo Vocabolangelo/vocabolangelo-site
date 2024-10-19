@@ -70,7 +70,7 @@ export const defaultRouter = createBrowserRouter([
     {
         path: `${ADD_ROUTE}`,
         element: <AddConcept/>
-    },  
+    },
     {
         path: '*',
         element: <Page404/>

@@ -55,7 +55,7 @@ vocang:${prefLabel.toLowerCase().replace(/ /g,'-')}
         console.log(turtleString)
         alert(turtleString)
     }
-   
+
     const [availableVocabolieri, setAvailableVocabolieri] = useState<Vocaboliere[]>([])
     const [selectedCreators, setSelectedCreators] = useState<string[]>([])
     const [currentCreators, setCurrentCreators] = useState(creatorOptions)
