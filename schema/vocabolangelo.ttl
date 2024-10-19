@@ -712,7 +712,7 @@ vocang:berardiCesare
     foaf:firstName "Cesare" ;
     foaf:lastName "Berardi" ;
     foaf:gender "male" ;
-    org:memberOf vocang:vocabolieriOrg ;    
+    org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:bragariAlexandru.
 
 # Other Author Individuals
@@ -8422,7 +8422,7 @@ vocang:incesiente
     skos:note "La parolangelo nasce proprio dopo aver appreso la storia dell'incidente di Goiânia e averci riso parecchio sopra." ;
     dct:created "2023-10-07" ;
     dct:creator vocang:filasetaAngelo .
-    
+
 vocang:amoremicizia
     a vocang:Parolangelo ;
     skos:prefLabel "Amoremicizia"@it ;
@@ -8464,7 +8464,7 @@ vocang:tostapasta
     schema:keywords "tostapane, pasta, forno, tostare";
     dct:created "2023-10-14" ;
     dct:creator vocang:pertosaLorenzo .
- 
+
 vocang:bustoast
     a vocang:Parolangelo ;
     skos:prefLabel "Bustoast"@it ;
@@ -8711,7 +8711,7 @@ vocang:fottinere
     skos:related vocang:raggirula ;
     dct:creator vocang:orlandoNicola, vocang:orlandoDavide .
 
-vocang:orido 
+vocang:orido
     a vocang:Parolangelo ;
     skos:prefLabel "Orido"@it ;
     lexinfo:pronunciation "/o • rì • do/"@it ;
@@ -8893,7 +8893,7 @@ vocang:disfunzioneRettile
     skos:prefLabel "Disfunzione rettile"@it ;
     lexinfo:pronunciation "/dis • fun • zió • ne/ /ret • tì • le/"@it ;
     skos:definition "Situazione che si verifica con il passare degli anni nella quale una persona comincia a diventare sempre più freddolosa e dipendente dal sole e nel ricevere calore."@it ;
-    skos:example "Penso Nicola sofrra di disfunzione rettile. Un tempo andava in giro in maniche corte in Islanda; ora mette il piumone d'estate!"@it; 
+    skos:example "Penso Nicola sofrra di disfunzione rettile. Un tempo andava in giro in maniche corte in Islanda; ora mette il piumone d'estate!"@it;
     schema:keywords "freddoloso, sole, calore, dipendente, caldo, disfunzione, rettile, lucertola";
     dct:created "2023-11-19" ;
     dct:creator vocang:omiccioliRiccardo, vocang:bragariAlexandru .
@@ -9488,7 +9488,7 @@ vocang:ombelisco
     schema:keywords "ombelico, estroflesso, pancia"@it ;
     dct:created "2023-12-02" ;
     dct:creator vocang:suscaMatteo, vocang:suscaAlessandra .
-    
+
 
 vocang:omnicidio
     a vocang:Parolangelo ;
@@ -10045,7 +10045,7 @@ vocang:ruttinghiozzo
     schema:keywords "rutto, singhiozzo, imbarazzante, mangiare, strano, corpo, umano, fisiologico, fisiologia";
     dct:created "2023-12-28" ;
     dct:creator vocang:battaglinoNicole .
- 
+
 vocang:scosseggia
     a vocang:Parolangelo ;
     skos:prefLabel "Scosseggia"@it ;
@@ -10860,7 +10860,7 @@ vocang:piporoncino
     skos:example "Ho mangiato un piatto di pasta con del piporoncino. Era molto piccante e strano!"@it ;
     schema:keywords "peperoncino, forma, fallica, piccante, divertente";
     dct:created "2024-02-01" ;
-    skos:related vocang:peneroncino ; 
+    skos:related vocang:peneroncino ;
     dct:creator vocang:battaglinoNicole .
 
 vocang:peperoncipo
@@ -10871,7 +10871,7 @@ vocang:peperoncipo
     skos:example "Marco ha un gran bel peperoncipo!"@it ;
     schema:keywords "peperoncino, forma, fallica, piccante, divertente";
     dct:created "2024-02-01" ;
-    skos:related vocang:piporoncino, vocang:peneroncino ; 
+    skos:related vocang:piporoncino, vocang:peneroncino ;
     dct:creator vocang:orlandoNicola .
 
 vocang:rasencum
@@ -11040,7 +11040,7 @@ vocang:impiedire
     schema:keywords "impedire, azione, piedi, divertente";
     dct:created "2024-02-18" ;
     dct:creator vocang:savoGiorgia, vocang:battaglinoNicole .
-    
+
 vocang:cucinastro
     a vocang:Parolangelo ;
     skos:prefLabel "Cucinastro"@it ;
@@ -11150,7 +11150,7 @@ vocang:karmarella
     skos:example "Ieri ho tagliato la strada a un motorino in rotatoria. Poco dopo ho avuto una karmarella. Spero che passi presto!"@it ;
     schema:keywords "diarrea, cattive, azioni, maledizioni, passare, presto";
     dct:created "2024-02-029" ;
-    skos:related vocang:squacquarona ; 
+    skos:related vocang:squacquarona ;
     dct:creator vocang:pertosaLorenzo .
 
 vocang:aperitiro
@@ -11314,7 +11314,7 @@ vocang:sexcation
     skos:related vocang:lovecation ;
     dct:creator vocang:bdeouiEddy .
 
- 
+
  vocang:lampeluna
     a vocang:Parolangelo ;
     skos:prefLabel "Lampeluna"@it ;
@@ -12312,7 +12312,7 @@ vocang:invasilico
     dct:created "2024-06-30" ;
     skos:related vocang:fuorigano ;
     dct:creator vocang:omiccioliRiccardo .
-    
+
 vocang:invasemolo
     a vocang:Parolangelo ;
     skos:prefLabel "Invasemolo"@it ;
@@ -12590,7 +12590,7 @@ vocang:kava
     skos:example "Ieri sera ho programmato in Kava. Che cosa stupida!"@it ;
     schema:keywords "variante, Java, compila, linguaggio, Kotlin";
     dct:created "2024-07-24" ;
-    dct:creator vocang:omiccioliRiccardo . 
+    dct:creator vocang:omiccioliRiccardo .
 
 vocang:fintoccola
     a vocang:Parolangelo ;
@@ -12941,8 +12941,7 @@ vocang:rossinappola
     skos:prefLabel "Rossinappola"@it ;
     lexinfo:pronunciation "/ros • si • nàp • po • la/"@it ;
     skos:definition "Trappola preparata ponendo come esca una pizza rossini"@it ;
-    skos:example "Ho aspettato giusto 10 minuti dopo aver piazzato la rossinappola; ho trovato un pesarese perfetto! Palesaro!"@it ; 
+    skos:example "Ho aspettato giusto 10 minuti dopo aver piazzato la rossinappola; ho trovato un pesarese perfetto! Palesaro!"@it ;
     schema:keywords "trappola, esca, pizza, rossini";
     dct:created "2024-08-13" ;
     dct:creator vocang:pertosaLorenzo .
-    

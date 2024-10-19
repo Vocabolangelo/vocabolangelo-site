@@ -8,4 +8,4 @@ WHERE {
     ?individual dct:created ?creationDate .
     ?individual skos:prefLabel ?label ;
     FILTER (?creationDate >= "2023-01-01")
-} ORDER BY (?label) 
+} ORDER BY (?label)
