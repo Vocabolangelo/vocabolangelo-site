@@ -11362,3 +11362,217 @@
 <http://www.vocabolangelo.org/rossinappola> <https://schema.org/keywords> "trappola, esca, pizza, rossini" .
 <http://www.vocabolangelo.org/rossinappola> <http://purl.org/dc/terms/created> "2024-08-13" .
 <http://www.vocabolangelo.org/rossinappola> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/montenegrino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/montenegrino> <http://www.w3.org/2004/02/skos/core#prefLabel> "Montenegrino"@it .
+<http://www.vocabolangelo.org/montenegrino> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/mon • te • ne • grì • no/"@it .
+<http://www.vocabolangelo.org/montenegrino> <http://www.w3.org/2004/02/skos/core#definition> "Persona di colore da monta."@it .
+<http://www.vocabolangelo.org/montenegrino> <http://www.w3.org/2004/02/skos/core#example> "Il montenegrino sarebbe un vero pro delle battaglie sulle torri al mare!"@it .
+<http://www.vocabolangelo.org/montenegrino> <https://schema.org/keywords> "persona, colore, nero, monta" .
+<http://www.vocabolangelo.org/montenegrino> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/contanegrino> .
+<http://www.vocabolangelo.org/montenegrino> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/contamontenegrino> .
+<http://www.vocabolangelo.org/montenegrino> <http://purl.org/dc/terms/created> "2024-08-15" .
+<http://www.vocabolangelo.org/montenegrino> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/suscaMatteo> .
+<http://www.vocabolangelo.org/montenegrino> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
+<http://www.vocabolangelo.org/montenegrino> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/nardiniArianna> .
+<http://www.vocabolangelo.org/allenatroie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/allenatroie> <http://www.w3.org/2004/02/skos/core#prefLabel> "Allenatroie"@it .
+<http://www.vocabolangelo.org/allenatroie> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/al • le • na • trò • ie/"@it .
+<http://www.vocabolangelo.org/allenatroie> <http://www.w3.org/2004/02/skos/core#definition> "Pappone che allena il suo plotone di troie per aumentare la qualità del loro lavoro."@it .
+<http://www.vocabolangelo.org/allenatroie> <http://www.w3.org/2004/02/skos/core#example> "L'allenatroie oggi ci ha detto che dobbiamo imparare a fare la spaccata!"@it .
+<http://www.vocabolangelo.org/allenatroie> <https://schema.org/keywords> "pappone, allenare, plotone, troie, qualità, sesso" .
+<http://www.vocabolangelo.org/allenatroie> <http://purl.org/dc/terms/created> "2024-08-16" .
+<http://www.vocabolangelo.org/allenatroie> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/minoccheriAlessandra> .
+<http://www.vocabolangelo.org/negreggiatore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/negreggiatore> <http://www.w3.org/2004/02/skos/core#prefLabel> "Negreggiatore"@it .
+<http://www.vocabolangelo.org/negreggiatore> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/ne • greg • gia • tò • re/"@it .
+<http://www.vocabolangelo.org/negreggiatore> <http://www.w3.org/2004/02/skos/core#definition> "Persona di colore che, in un parcheggio, indica alle auto il posto libero per poi esigere dei soldi in cambio del suo servizio."@it .
+<http://www.vocabolangelo.org/negreggiatore> <http://www.w3.org/2004/02/skos/core#example> "Ieri sera il negreggiatoremi ha indicato il posto libero e poi mi ha chiesto l'euro!!"@it .
+<http://www.vocabolangelo.org/negreggiatore> <https://schema.org/keywords> "persona, colore, nero, parcheggio, indicare, posto, libero, euro, servizio" .
+<http://www.vocabolangelo.org/negreggiatore> <http://purl.org/dc/terms/created> "2024-08-17" .
+<http://www.vocabolangelo.org/negreggiatore> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
+<http://www.vocabolangelo.org/negreggiatore> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/bdeouiEddy> .
+<http://www.vocabolangelo.org/specchioReflusso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Slangelo> .
+<http://www.vocabolangelo.org/specchioReflusso> <http://www.w3.org/2004/02/skos/core#prefLabel> "Specchio reflusso"@it .
+<http://www.vocabolangelo.org/specchioReflusso> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/spè • cchio/ /re • flùs • so/"@it .
+<http://www.vocabolangelo.org/specchioReflusso> <http://www.w3.org/2004/02/skos/core#definition> "Fenomeno in cui una persona vomita su un'altra, e successivamente quella persona, a sua volta, vomita su chi l'ha colpita."@it .
+<http://www.vocabolangelo.org/specchioReflusso> <http://www.w3.org/2004/02/skos/core#example> "Ieri sera ho assistito ad uno specchio reflusso. Era disgustoso, ma allo stesso tempo divertente!"@it .
+<http://www.vocabolangelo.org/specchioReflusso> <https://schema.org/keywords> "fenomeno, vomitare, persona, successivamente, colpire" .
+<http://www.vocabolangelo.org/specchioReflusso> <http://purl.org/dc/terms/created> "2024-08-18" .
+<http://www.vocabolangelo.org/specchioReflusso> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
+<http://www.vocabolangelo.org/specchioReflusso> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
+<http://www.vocabolangelo.org/stronzinaccio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/stronzinaccio> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stronzinaccio"@it .
+<http://www.vocabolangelo.org/stronzinaccio> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/stron • zi • nàc • cio/"@it .
+<http://www.vocabolangelo.org/stronzinaccio> <http://www.w3.org/2004/02/skos/core#definition> "Strofinaccio che, una volta usato per pulire, finisce per sporcare ancora di più, creando un gran disastro."@it .
+<http://www.vocabolangelo.org/stronzinaccio> <http://www.w3.org/2004/02/skos/core#example> "Ieri sera ho usato uno stronzinaccio per pulire il pavimento. Alla fine era tutto sporco e appiccicoso! Che schifo!"@it .
+<http://www.vocabolangelo.org/stronzinaccio> <https://schema.org/keywords> "strofinaccio, pulire, sporcare, disastro" .
+<http://www.vocabolangelo.org/stronzinaccio> <http://purl.org/dc/terms/created> "2024-08-18" .
+<http://www.vocabolangelo.org/stronzinaccio> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/paoliMichele> .
+<http://www.vocabolangelo.org/stronzinaccio> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
+<http://www.vocabolangelo.org/malmignotta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/malmignotta> <http://www.w3.org/2004/02/skos/core#prefLabel> "Malmignotta"@it .
+<http://www.vocabolangelo.org/malmignotta> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/mal • mi • gno • tta/"@it .
+<http://www.vocabolangelo.org/malmignotta> <http://www.w3.org/2004/02/skos/core#definition> "Vedova nera particolarmente violenta e arrabbiata."@it .
+<http://www.vocabolangelo.org/malmignotta> <http://www.w3.org/2004/02/skos/core#example> "La malmignotta ha ucciso l'insetto senza pietà!!"@it .
+<http://www.vocabolangelo.org/malmignotta> <https://schema.org/keywords> "vedova, nera, ragno, particolare, violenza, rabbia" .
+<http://www.vocabolangelo.org/malmignotta> <http://purl.org/dc/terms/created> "2024-08-21" .
+<http://www.vocabolangelo.org/malmignotta> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
+<http://www.vocabolangelo.org/sposata> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/sposata> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sposata"@it .
+<http://www.vocabolangelo.org/sposata> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/spo • sà • ta/"@it .
+<http://www.vocabolangelo.org/sposata> <http://www.w3.org/2004/02/skos/core#definition> "Posata elegante e ricercata (solitamente in argento) particolarmente adatta per i matrimoni."@it .
+<http://www.vocabolangelo.org/sposata> <http://www.w3.org/2004/02/skos/core#example> "Al matrimonio ho usato una sposata per mangiare il mio dolce. Era molto elegante e mi ha fatto sentire importante!"@it .
+<http://www.vocabolangelo.org/sposata> <https://schema.org/keywords> "posata, elegante, ricercato, argento, matrimonioo" .
+<http://www.vocabolangelo.org/sposata> <http://purl.org/dc/terms/created> "2024-08-22" .
+<http://www.vocabolangelo.org/sposata> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/suscaMatteo> .
+<http://www.vocabolangelo.org/moldaviatore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/moldaviatore> <http://www.w3.org/2004/02/skos/core#prefLabel> "Moldaviatore"@it .
+<http://www.vocabolangelo.org/moldaviatore> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/mol • da • via • tò • re/"@it .
+<http://www.vocabolangelo.org/moldaviatore> <http://www.w3.org/2004/02/skos/core#definition> "Pilota di aerei moldavo."@it .
+<http://www.vocabolangelo.org/moldaviatore> <http://www.w3.org/2004/02/skos/core#example> "Il moldaviatore era molto bravo a librarsi nel cielo!"@it .
+<http://www.vocabolangelo.org/moldaviatore> <https://schema.org/keywords> "pilota, aereo, moldova, moldavia" .
+<http://www.vocabolangelo.org/moldaviatore> <http://purl.org/dc/terms/created> "2024-08-24" .
+<http://www.vocabolangelo.org/moldaviatore> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/paceggiata> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/paceggiata> <http://www.w3.org/2004/02/skos/core#prefLabel> "Paceggiata"@it .
+<http://www.vocabolangelo.org/paceggiata> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/pa • ceg • già • ta/"@it .
+<http://www.vocabolangelo.org/paceggiata> <http://www.w3.org/2004/02/skos/core#definition> "Passeggiata intrapresa per fare la pace con qualcuno."@it .
+<http://www.vocabolangelo.org/paceggiata> <http://www.w3.org/2004/02/skos/core#example> "Dopo la paceggiata con mia sorella, ci siamo chiarite!"@it .
+<http://www.vocabolangelo.org/paceggiata> <https://schema.org/keywords> "passeggiata, fare, pace, qualcuno" .
+<http://www.vocabolangelo.org/paceggiata> <http://purl.org/dc/terms/created> "2024-08-25" .
+<http://www.vocabolangelo.org/paceggiata> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/esplisciata> .
+<http://www.vocabolangelo.org/paceggiata> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/scacquaSanta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Slangelo> .
+<http://www.vocabolangelo.org/scacquaSanta> <http://www.w3.org/2004/02/skos/core#prefLabel> "Scacqua Santa"@it .
+<http://www.vocabolangelo.org/scacquaSanta> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/scà • cqua/ /sàn • ta/"@it .
+<http://www.vocabolangelo.org/scacquaSanta> <http://www.w3.org/2004/02/skos/core#definition> "Gioco degli scacchi riproposto utilizzando boccette dell'acqua santa come pezzi da gioco. I pezzi raffigurano entità religione, per esempio la Madonna potrebbe essere la regina, Padre Pio l'alfiere, e così via."@it .
+<http://www.vocabolangelo.org/scacquaSanta> <http://www.w3.org/2004/02/skos/core#example> "Ieri sera ho giocato a scacqua santa. È stato molto divertente e ho imparato molto sulla cristianità!"@it .
+<http://www.vocabolangelo.org/scacquaSanta> <https://schema.org/keywords> "gioco, scacchi, boccette, acqua, santa, pezzi, Madonna, regina, Padre Pio, alfiere" .
+<http://www.vocabolangelo.org/scacquaSanta> <http://purl.org/dc/terms/created> "2024-08-25" .
+<http://www.vocabolangelo.org/scacquaSanta> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/paoliMichele> .
+<http://www.vocabolangelo.org/cacqua> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/cacqua> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cacqua"@it .
+<http://www.vocabolangelo.org/cacqua> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/cac • qua/"@it .
+<http://www.vocabolangelo.org/cacqua> <http://www.w3.org/2004/02/skos/core#definition> "Feci liquide."@it .
+<http://www.vocabolangelo.org/cacqua> <http://www.w3.org/2004/02/skos/core#example> "Quel cibo messicano mi ha fatto davvero male. È due giorni che faccio solo cacqua..."@it .
+<http://www.vocabolangelo.org/cacqua> <https://schema.org/keywords> "cacca, liquido" .
+<http://www.vocabolangelo.org/cacqua> <http://purl.org/dc/terms/created> "2024-08-25" .
+<http://www.vocabolangelo.org/cacqua> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/squacquarona> .
+<http://www.vocabolangelo.org/cacqua> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/suscaMatteo> .
+<http://www.vocabolangelo.org/scoianda> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/scoianda> <http://www.w3.org/2004/02/skos/core#prefLabel> "Scoianda"@it .
+<http://www.vocabolangelo.org/scoianda> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/sco • i • àn • da/"@it .
+<http://www.vocabolangelo.org/scoianda> <http://www.w3.org/2004/02/skos/core#definition> "Animale del tutto simile al panda ma con una folta coda da scoiattolo."@it .
+<http://www.vocabolangelo.org/scoianda> <http://www.w3.org/2004/02/skos/core#example> "Non avevo mai visto una scoianda prima di ieri!!"@it .
+<http://www.vocabolangelo.org/scoianda> <https://schema.org/keywords> "animale, simile, panda, folta, coda, scoiattolo" .
+<http://www.vocabolangelo.org/scoianda> <http://purl.org/dc/terms/created> "2024-08-26" .
+<http://www.vocabolangelo.org/scoianda> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/scattoniAlessandra> .
+<http://www.vocabolangelo.org/scuoianda> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/scuoianda> <http://www.w3.org/2004/02/skos/core#prefLabel> "Scuoianda"@it .
+<http://www.vocabolangelo.org/scuoianda> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/scu • oi • àn • da/"@it .
+<http://www.vocabolangelo.org/scuoianda> <http://www.w3.org/2004/02/skos/core#definition> "Uno scoianda particolarmente sadico e violento."@it .
+<http://www.vocabolangelo.org/scuoianda> <http://www.w3.org/2004/02/skos/core#example> "Quello scuoianda voleva ammazzare i suoi simili!!"@it .
+<http://www.vocabolangelo.org/scuoianda> <https://schema.org/keywords> "scoianda, sadico, violento" .
+<http://www.vocabolangelo.org/scuoianda> <http://purl.org/dc/terms/created> "2024-08-26" .
+<http://www.vocabolangelo.org/scuoianda> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/scuoianda> .
+<http://www.vocabolangelo.org/scuoianda> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/orlandoNicola> .
+<http://www.vocabolangelo.org/tracucco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/tracucco> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tracucco"@it .
+<http://www.vocabolangelo.org/tracucco> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/tra • cùc • co/"@it .
+<http://www.vocabolangelo.org/tracucco> <http://www.w3.org/2004/02/skos/core#definition> "Trabucco nel quale ci si reca per rimorchiare qualcuno."@it .
+<http://www.vocabolangelo.org/tracucco> <http://www.w3.org/2004/02/skos/core#example> "Ieri sera siamo andati al tracucco. Ho conosciuto una ragazza molto carina!"@it .
+<http://www.vocabolangelo.org/tracucco> <https://schema.org/keywords> "trabucco, rimorchiare, qualcuno" .
+<http://www.vocabolangelo.org/tracucco> <http://purl.org/dc/terms/created> "2024-08-26" .
+<http://www.vocabolangelo.org/tracucco> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
+<http://www.vocabolangelo.org/tracucco> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/battaglinoNicole> .
+<http://www.vocabolangelo.org/tracrucco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/tracrucco> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tracrucco"@it .
+<http://www.vocabolangelo.org/tracrucco> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/tra • cru • cco/"@it .
+<http://www.vocabolangelo.org/tracrucco> <http://www.w3.org/2004/02/skos/core#definition> "Lanciatedeschi."@it .
+<http://www.vocabolangelo.org/tracrucco> <http://www.w3.org/2004/02/skos/core#example> "Il tracrucco ha lanciato quel ragazzo in piscina violentemente!"@it .
+<http://www.vocabolangelo.org/tracrucco> <https://schema.org/keywords> "lancio, tedesco, germania" .
+<http://www.vocabolangelo.org/tracrucco> <http://purl.org/dc/terms/created> "2024-08-26" .
+<http://www.vocabolangelo.org/tracrucco> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/orlandoNicola> .
+<http://www.vocabolangelo.org/scamlock> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/scamlock> <http://www.w3.org/2004/02/skos/core#prefLabel> "Scamlock"@it .
+<http://www.vocabolangelo.org/scamlock> <http://www.w3.org/2004/02/skos/core#definition> "Tipologia di Scam in cui un negoziante che vende lucchetti dell'amore in prossimità di ponti o punti panoramici e che durante la notte va a toglierli con una chiave per poi rivenderli il giorno successivo dopo aver cancellato le iniziali degli innamorati con l'alcool."@it .
+<http://www.vocabolangelo.org/scamlock> <http://www.w3.org/2004/02/skos/core#example> "Ieri sera ho scoperto che il negoziante del ponte di Tiberio è un scamlock. Ha cancellato le iniziali di tutti i lucchetti e li ha rivenduti!"@it .
+<http://www.vocabolangelo.org/scamlock> <https://schema.org/keywords> "imbroglio, negoziante, lucchetti, amore, ponte, panoramico, chiave, cancellare, iniziali, innamorati, alcool" .
+<http://www.vocabolangelo.org/scamlock> <http://purl.org/dc/terms/created> "2024-08-27" .
+<http://www.vocabolangelo.org/scamlock> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
+<http://www.vocabolangelo.org/falegnomo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/falegnomo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Falegnomo"@it .
+<http://www.vocabolangelo.org/falegnomo> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/fa • le • gnò • mo/"@it .
+<http://www.vocabolangelo.org/falegnomo> <http://www.w3.org/2004/02/skos/core#definition> "Gnomo falegname."@it .
+<http://www.vocabolangelo.org/falegnomo> <http://www.w3.org/2004/02/skos/core#example> "Quel falegnomo era molto bravo a costruire mobili in miniatura!"@it .
+<http://www.vocabolangelo.org/falegnomo> <https://schema.org/keywords> "gnomo, falegname" .
+<http://www.vocabolangelo.org/falegnomo> <http://purl.org/dc/terms/created> "2024-08-27" .
+<http://www.vocabolangelo.org/falegnomo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/durazziMarco> .
+<http://www.vocabolangelo.org/falegnam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/falegnam> <http://www.w3.org/2004/02/skos/core#prefLabel> "Falegnam"@it .
+<http://www.vocabolangelo.org/falegnam> <http://www.w3.org/2004/02/skos/core#definition> "Artigiano legnófago."@it .
+<http://www.vocabolangelo.org/falegnam> <http://www.w3.org/2004/02/skos/core#example> "Ho acquistato una sedia di qualità da quel falegnam."@it .
+<http://www.vocabolangelo.org/falegnam> <https://schema.org/keywords> "artigiano, legno, fago" .
+<http://www.vocabolangelo.org/falegnam> <http://purl.org/dc/terms/created> "2024-08-27" .
+<http://www.vocabolangelo.org/falegnam> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/paoliMichele> .
+<http://www.vocabolangelo.org/falògname> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/falògname> <http://www.w3.org/2004/02/skos/core#prefLabel> "Falògname"@it .
+<http://www.vocabolangelo.org/falògname> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/fa • lò • gna • me/"@it .
+<http://www.vocabolangelo.org/falògname> <http://www.w3.org/2004/02/skos/core#definition> "Falegname ossessionato dal fuoco, che taglia continuamente legna per bruciarla."@it .
+<http://www.vocabolangelo.org/falògname> <http://www.w3.org/2004/02/skos/core#example> "Quel falògname ha bruciato tutta la legna che avevo tagliato per l'inverno, e ora ne sta tagliando altra!"@it .
+<http://www.vocabolangelo.org/falògname> <https://schema.org/keywords> "falegname, ossessionato, fuoco, tagliare, legna, bruciare" .
+<http://www.vocabolangelo.org/falògname> <http://purl.org/dc/terms/created> "2024-08-27" .
+<http://www.vocabolangelo.org/falògname> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
+<http://www.vocabolangelo.org/posizioneFecale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Slangelo> .
+<http://www.vocabolangelo.org/posizioneFecale> <http://www.w3.org/2004/02/skos/core#prefLabel> "Posizione fecale"@it .
+<http://www.vocabolangelo.org/posizioneFecale> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/po • si • ziò • ne/ /fe • cà • le/"@it .
+<http://www.vocabolangelo.org/posizioneFecale> <http://www.w3.org/2004/02/skos/core#definition> "Posizione a squat che viene utilizzata per defecare."@it .
+<http://www.vocabolangelo.org/posizioneFecale> <http://www.w3.org/2004/02/skos/core#example> "Ho visto un uomo in posizione fecale. Era molto comodo e mi ha detto che defecare in quella posizione è molto più naturale!"@it .
+<http://www.vocabolangelo.org/posizioneFecale> <https://schema.org/keywords> "posizione, squat, defecare" .
+<http://www.vocabolangelo.org/posizioneFecale> <http://purl.org/dc/terms/created> "2024-08-30" .
+<http://www.vocabolangelo.org/posizioneFecale> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/battaglinoNicole> .
+<http://www.vocabolangelo.org/molotovolt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/molotovolt> <http://www.w3.org/2004/02/skos/core#prefLabel> "Molotovolt"@it .
+<http://www.vocabolangelo.org/molotovolt> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/mo • lo • to • vòlt/"@it .
+<http://www.vocabolangelo.org/molotovolt> <http://www.w3.org/2004/02/skos/core#definition> "Molotov lanciata, oltre che per incendiare, per mandare in cortocircuito qualcosa o elettrificare qualcuno."@it .
+<http://www.vocabolangelo.org/molotovolt> <http://www.w3.org/2004/02/skos/core#example> "Matteo ha lanciato una molotov in casa di Maria. Ha incendiato la casa e ha mandato in cortocircuito il televisore!"@it .
+<http://www.vocabolangelo.org/molotovolt> <https://schema.org/keywords> "molotov, lanciare, incendiare, cortocircuito, elettrificare" .
+<http://www.vocabolangelo.org/molotovolt> <http://purl.org/dc/terms/created> "2024-08-31" .
+<http://www.vocabolangelo.org/molotovolt> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/zanzazingariera> .
+<http://www.vocabolangelo.org/molotovolt> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/profumolotov> .
+<http://www.vocabolangelo.org/molotovolt> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/motolov> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/motolov> <http://www.w3.org/2004/02/skos/core#prefLabel> "Motolov"@it .
+<http://www.vocabolangelo.org/motolov> <http://www.w3.org/2004/02/skos/core#definition> "Moto in fiamme lanciata contro un bersaglio."@it .
+<http://www.vocabolangelo.org/motolov> <http://www.w3.org/2004/02/skos/core#example> "Spiderman ha lanciato la motolov contor il cattivo! È stato molto utile!"@it .
+<http://www.vocabolangelo.org/motolov> <https://schema.org/keywords> "moto, fiamme, lanciare, bersaglio" .
+<http://www.vocabolangelo.org/motolov> <http://purl.org/dc/terms/created> "2024-08-31" .
+<http://www.vocabolangelo.org/motolov> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
+<http://www.vocabolangelo.org/moltevolt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/moltevolt> <http://www.w3.org/2004/02/skos/core#prefLabel> "Moltevolt"@it .
+<http://www.vocabolangelo.org/moltevolt> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/mol • te • vòlt/"@it .
+<http://www.vocabolangelo.org/moltevolt> <http://www.w3.org/2004/02/skos/core#definition> "Molotov lanciata in un numero consistente di istanze."@it .
+<http://www.vocabolangelo.org/moltevolt> <http://www.w3.org/2004/02/skos/core#example> "Ieri sera sono state lanciate delle moltevolt in piazza!"@it .
+<http://www.vocabolangelo.org/moltevolt> <https://schema.org/keywords> "molotov, lanciare, numero, consistente, istanze" .
+<http://www.vocabolangelo.org/moltevolt> <http://purl.org/dc/terms/created> "2024-08-31" .
+<http://www.vocabolangelo.org/moltevolt> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/motolov> .
+<http://www.vocabolangelo.org/moltevolt> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/molotovolt> .
+<http://www.vocabolangelo.org/moltevolt> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/paoliMichele> .
+<http://www.vocabolangelo.org/carabinoide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/carabinoide> <http://www.w3.org/2004/02/skos/core#prefLabel> "Carabinoide"@it .
+<http://www.vocabolangelo.org/carabinoide> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/ca • ra • bi • nòi • de/"@it .
+<http://www.vocabolangelo.org/carabinoide> <http://www.w3.org/2004/02/skos/core#definition> "Carabiniere assuefatto dai cannabinoidi."@it .
+<http://www.vocabolangelo.org/carabinoide> <http://www.w3.org/2004/02/skos/core#definition> "Che presenta fattezze o forma simili a quelle di un carabiniere."@it .
+<http://www.vocabolangelo.org/carabinoide> <http://www.w3.org/2004/02/skos/core#example> "Ieri sera ho visto un carabinoide. Non ci stava capendo un cazzo di niente!!"@it .
+<http://www.vocabolangelo.org/carabinoide> <https://schema.org/keywods> "carabiniere, assuefatto, cannabinoide, fattezze, forma" .
+<http://www.vocabolangelo.org/carabinoide> <http://purl.org/dc/terms/created> "2024-08-31" .
+<http://www.vocabolangelo.org/carabinoide> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/paoliMichele> .
+<http://www.vocabolangelo.org/cannabiniere> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/cannabiniere> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cannabiniere"@it .
+<http://www.vocabolangelo.org/cannabiniere> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/can • na • bi • niè • re/"@it .
+<http://www.vocabolangelo.org/cannabiniere> <http://www.w3.org/2004/02/skos/core#definition> "Persona che si comporta in maniera marziale e cagacazzo specialmente quando qualcuno intende fumare sostanze stupefacenti."@it .
+<http://www.vocabolangelo.org/cannabiniere> <http://www.w3.org/2004/02/skos/core#example> "Il cannabiniere voleva portarci in questura per una cannetta!"@it .
+<http://www.vocabolangelo.org/cannabiniere> <https://schema.org/keywods> "persona, comportarsi, marziale, cagacazzo, fumare, sostanze, stupefacenti" .
+<http://www.vocabolangelo.org/cannabiniere> <http://purl.org/dc/terms/created> "2024-08-31" .
+<http://www.vocabolangelo.org/cannabiniere> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/paoliMichele> .
+<http://www.vocabolangelo.org/cannabiniere> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/grasselliFrancesco> .

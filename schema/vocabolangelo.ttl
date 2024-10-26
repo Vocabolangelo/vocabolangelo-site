@@ -12945,3 +12945,256 @@ vocang:rossinappola
     schema:keywords "trappola, esca, pizza, rossini";
     dct:created "2024-08-13" ;
     dct:creator vocang:pertosaLorenzo .
+
+vocang:montenegrino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Montenegrino"@it ;
+    lexinfo:pronunciation "/mon • te • ne • grì • no/"@it ;
+    skos:definition "Persona di colore da monta."@it ;
+    skos:example "Il montenegrino sarebbe un vero pro delle battaglie sulle torri al mare!"@it ;
+    schema:keywords "persona, colore, nero, monta";
+    skos:related vocang:contanegrino, vocang:contamontenegrino;
+    dct:created "2024-08-15" ;
+    dct:creator vocang:suscaMatteo, vocang:filasetaAngelo, vocang:nardiniArianna .
+
+vocang:allenatroie
+    a vocang:Parolangelo ;
+    skos:prefLabel "Allenatroie"@it ;
+    lexinfo:pronunciation "/al • le • na • trò • ie/"@it ;
+    skos:definition "Pappone che allena il suo plotone di troie per aumentare la qualità del loro lavoro."@it ;
+    skos:example "L'allenatroie oggi ci ha detto che dobbiamo imparare a fare la spaccata!"@it ;
+    schema:keywords "pappone, allenare, plotone, troie, qualità, sesso";
+    dct:created "2024-08-16" ;
+    dct:creator vocang:minoccheriAlessandra .
+
+vocang:negreggiatore
+    a vocang:Parolangelo ;
+    skos:prefLabel "Negreggiatore"@it ;
+    lexinfo:pronunciation "/ne • greg • gia • tò • re/"@it ;
+    skos:definition "Persona di colore che, in un parcheggio, indica alle auto il posto libero per poi esigere dei soldi in cambio del suo servizio."@it ;
+    skos:example "Ieri sera il negreggiatoremi ha indicato il posto libero e poi mi ha chiesto l'euro!!"@it ;
+    schema:keywords "persona, colore, nero, parcheggio, indicare, posto, libero, euro, servizio";
+    dct:created "2024-08-17" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:bdeouiEddy .
+
+vocang:specchioReflusso
+    a vocang:Slangelo ;
+    skos:prefLabel "Specchio reflusso"@it ;
+    lexinfo:pronunciation "/spè • cchio/ /re • flùs • so/"@it ;
+    skos:definition "Fenomeno in cui una persona vomita su un'altra, e successivamente quella persona, a sua volta, vomita su chi l'ha colpita."@it ;
+    skos:example "Ieri sera ho assistito ad uno specchio reflusso. Era disgustoso, ma allo stesso tempo divertente!"@it ;
+    schema:keywords "fenomeno, vomitare, persona, successivamente, colpire";
+    dct:created "2024-08-18" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:omiccioliRiccardo .
+
+vocang:stronzinaccio
+    a vocang:Parolangelo ;
+    skos:prefLabel "Stronzinaccio"@it ;
+    lexinfo:pronunciation "/stron • zi • nàc • cio/"@it ;
+    skos:definition "Strofinaccio che, una volta usato per pulire, finisce per sporcare ancora di più, creando un gran disastro."@it ;
+    skos:example "Ieri sera ho usato uno stronzinaccio per pulire il pavimento. Alla fine era tutto sporco e appiccicoso! Che schifo!"@it ;
+    schema:keywords "strofinaccio, pulire, sporcare, disastro";
+    dct:created "2024-08-18" ;
+    dct:creator vocang:paoliMichele, vocang:filasetaAngelo .
+
+vocang:malmignotta
+    a vocang:Parolangelo ;
+    skos:prefLabel "Malmignotta"@it ;
+    lexinfo:pronunciation "/mal • mi • gno • tta/"@it ;
+    skos:definition "Vedova nera particolarmente violenta e arrabbiata."@it ;
+    skos:example "La malmignotta ha ucciso l'insetto senza pietà!!"@it ;
+    schema:keywords "vedova, nera, ragno, particolare, violenza, rabbia";
+    dct:created "2024-08-21" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:sposata
+    a vocang:Parolangelo ;
+    skos:prefLabel "Sposata"@it ;
+    lexinfo:pronunciation "/spo • sà • ta/"@it ;
+    skos:definition "Posata elegante e ricercata (solitamente in argento) particolarmente adatta per i matrimoni."@it ;
+    skos:example "Al matrimonio ho usato una sposata per mangiare il mio dolce. Era molto elegante e mi ha fatto sentire importante!"@it ;
+    schema:keywords "posata, elegante, ricercato, argento, matrimonioo";
+    dct:created "2024-08-22" ;
+    dct:creator vocang:suscaMatteo .
+
+vocang:moldaviatore
+    a vocang:Parolangelo ;
+    skos:prefLabel "Moldaviatore"@it ;
+    lexinfo:pronunciation "/mol • da • via • tò • re/"@it ;
+    skos:definition "Pilota di aerei moldavo."@it ;
+    skos:example "Il moldaviatore era molto bravo a librarsi nel cielo!"@it ;
+    schema:keywords "pilota, aereo, moldova, moldavia";
+    dct:created "2024-08-24" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:paceggiata
+    a vocang:Parolangelo ;
+    skos:prefLabel "Paceggiata"@it ;
+    lexinfo:pronunciation "/pa • ceg • già • ta/"@it ;
+    skos:definition "Passeggiata intrapresa per fare la pace con qualcuno."@it ;
+    skos:example "Dopo la paceggiata con mia sorella, ci siamo chiarite!"@it ;
+    schema:keywords "passeggiata, fare, pace, qualcuno";
+    dct:created "2024-08-25" ;
+    skos:related vocang:esplisciata ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:scacquaSanta
+    a vocang:Slangelo ;
+    skos:prefLabel "Scacqua Santa"@it ;
+    lexinfo:pronunciation "/scà • cqua/ /sàn • ta/"@it ;
+    skos:definition "Gioco degli scacchi riproposto utilizzando boccette dell'acqua santa come pezzi da gioco. I pezzi raffigurano entità religione, per esempio la Madonna potrebbe essere la regina, Padre Pio l'alfiere, e così via."@it ;
+    skos:example "Ieri sera ho giocato a scacqua santa. È stato molto divertente e ho imparato molto sulla cristianità!"@it ;
+    schema:keywords "gioco, scacchi, boccette, acqua, santa, pezzi, Madonna, regina, Padre Pio, alfiere";
+    dct:created "2024-08-25" ;
+    dct:creator vocang:paoliMichele .
+
+vocang:cacqua
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cacqua"@it ;
+    lexinfo:pronunciation "/cac • qua/"@it ;
+    skos:definition "Feci liquide."@it ;
+    skos:example "Quel cibo messicano mi ha fatto davvero male. È due giorni che faccio solo cacqua..."@it;
+    schema:keywords "cacca, liquido";
+    dct:created "2024-08-25" ;
+    skos:related vocang:squacquarona ;
+    dct:creator vocang:suscaMatteo .
+
+vocang:scoianda
+    a vocang:Parolangelo ;
+    skos:prefLabel "Scoianda"@it ;
+    lexinfo:pronunciation "/sco • i • àn • da/"@it ;
+    skos:definition "Animale del tutto simile al panda ma con una folta coda da scoiattolo."@it ;
+    skos:example "Non avevo mai visto una scoianda prima di ieri!!"@it ;
+    schema:keywords "animale, simile, panda, folta, coda, scoiattolo";
+    dct:created "2024-08-26" ;
+    dct:creator vocang:scattoniAlessandra .
+
+vocang:scuoianda
+    a vocang:Parolangelo ;
+    skos:prefLabel "Scuoianda"@it ;
+    lexinfo:pronunciation "/scu • oi • àn • da/"@it ;
+    skos:definition "Uno scoianda particolarmente sadico e violento."@it ;
+    skos:example "Quello scuoianda voleva ammazzare i suoi simili!!"@it ;
+    schema:keywords "scoianda, sadico, violento";
+    dct:created "2024-08-26" ;
+    skos:related vocang:scuoianda;
+    dct:creator vocang:orlandoNicola .
+
+vocang:tracucco
+    a vocang:Parolangelo ;
+    skos:prefLabel "Tracucco"@it ;
+    lexinfo:pronunciation "/tra • cùc • co/"@it ;
+    skos:definition "Trabucco nel quale ci si reca per rimorchiare qualcuno."@it ;
+    skos:example "Ieri sera siamo andati al tracucco. Ho conosciuto una ragazza molto carina!"@it ;
+    schema:keywords "trabucco, rimorchiare, qualcuno";
+    dct:created "2024-08-26" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
+
+vocang:tracrucco
+    a vocang:Parolangelo ;
+    skos:prefLabel "Tracrucco"@it ;
+    lexinfo:pronunciation "/tra • cru • cco/"@it ;
+    skos:definition "Lanciatedeschi."@it ;
+    skos:example "Il tracrucco ha lanciato quel ragazzo in piscina violentemente!"@it ;
+    schema:keywords "lancio, tedesco, germania";
+    dct:created "2024-08-26" ;
+    dct:creator vocang:orlandoNicola .
+
+vocang:scamlock
+    a vocang:Parolangelo ;
+    skos:prefLabel "Scamlock"@it ;
+    skos:definition "Tipologia di Scam in cui un negoziante che vende lucchetti dell'amore in prossimità di ponti o punti panoramici e che durante la notte va a toglierli con una chiave per poi rivenderli il giorno successivo dopo aver cancellato le iniziali degli innamorati con l'alcool."@it ;
+    skos:example "Ieri sera ho scoperto che il negoziante del ponte di Tiberio è un scamlock. Ha cancellato le iniziali di tutti i lucchetti e li ha rivenduti!"@it ;
+    schema:keywords "imbroglio, negoziante, lucchetti, amore, ponte, panoramico, chiave, cancellare, iniziali, innamorati, alcool";
+    dct:created "2024-08-27" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:falegnomo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Falegnomo"@it ;
+    lexinfo:pronunciation "/fa • le • gnò • mo/"@it ;
+    skos:definition "Gnomo falegname."@it ;
+    skos:example "Quel falegnomo era molto bravo a costruire mobili in miniatura!"@it ;
+    schema:keywords "gnomo, falegname";
+    dct:created "2024-08-27" ;
+    dct:creator vocang:durazziMarco .
+
+vocang:falegnam
+    a vocang:Parolangelo ;
+    skos:prefLabel "Falegnam"@it ;
+    skos:definition "Artigiano legnófago."@it ;
+    skos:example "Ho acquistato una sedia di qualità da quel falegnam."@it ;
+    schema:keywords "artigiano, legno, fago";
+    dct:created "2024-08-27" ;
+    dct:creator vocang:paoliMichele .
+
+vocang:falògname
+    a vocang:Parolangelo ;
+    skos:prefLabel "Falògname"@it ;
+    lexinfo:pronunciation "/fa • lò • gna • me/"@it ;
+    skos:definition "Falegname ossessionato dal fuoco, che taglia continuamente legna per bruciarla."@it ;
+    skos:example "Quel falògname ha bruciato tutta la legna che avevo tagliato per l'inverno, e ora ne sta tagliando altra!"@it ;
+    schema:keywords "falegname, ossessionato, fuoco, tagliare, legna, bruciare";
+    dct:created "2024-08-27" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:posizioneFecale
+    a vocang:Slangelo ;
+    skos:prefLabel "Posizione fecale"@it ;
+    lexinfo:pronunciation "/po • si • ziò • ne/ /fe • cà • le/"@it ;
+    skos:definition "Posizione a squat che viene utilizzata per defecare."@it ;
+    skos:example "Ho visto un uomo in posizione fecale. Era molto comodo e mi ha detto che defecare in quella posizione è molto più naturale!"@it ;
+    schema:keywords "posizione, squat, defecare";
+    dct:created "2024-08-30" ;
+    dct:creator vocang:battaglinoNicole .
+
+vocang:molotovolt
+    a vocang:Parolangelo ;
+    skos:prefLabel "Molotovolt"@it ;
+    lexinfo:pronunciation "/mo • lo • to • vòlt/"@it ;
+    skos:definition "Molotov lanciata, oltre che per incendiare, per mandare in cortocircuito qualcosa o elettrificare qualcuno."@it ;
+    skos:example "Matteo ha lanciato una molotov in casa di Maria. Ha incendiato la casa e ha mandato in cortocircuito il televisore!"@it ;
+    schema:keywords "molotov, lanciare, incendiare, cortocircuito, elettrificare";
+    dct:created "2024-08-31" ;
+    skos:related vocang:zanzazingariera, vocang:profumolotov ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:motolov
+    a vocang:Parolangelo ;
+    skos:prefLabel "Motolov"@it ;
+    skos:definition "Moto in fiamme lanciata contro un bersaglio."@it ;
+    skos:example "Spiderman ha lanciato la motolov contor il cattivo! È stato molto utile!"@it ;
+    schema:keywords "moto, fiamme, lanciare, bersaglio";
+    dct:created "2024-08-31" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:moltevolt
+    a vocang:Parolangelo ;
+    skos:prefLabel "Moltevolt"@it ;
+    lexinfo:pronunciation "/mol • te • vòlt/"@it ;
+    skos:definition "Molotov lanciata in un numero consistente di istanze."@it ;
+    skos:example "Ieri sera sono state lanciate delle moltevolt in piazza!"@it ;
+    schema:keywords "molotov, lanciare, numero, consistente, istanze";
+    dct:created "2024-08-31" ;
+    skos:related vocang:motolov, vocang:molotovolt ;
+    dct:creator vocang:paoliMichele .
+
+vocang:carabinoide
+    a vocang:Parolangelo ;
+    skos:prefLabel "Carabinoide"@it ;
+    lexinfo:pronunciation "/ca • ra • bi • nòi • de/"@it ;
+    skos:definition "Carabiniere assuefatto dai cannabinoidi."@it, "Che presenta fattezze o forma simili a quelle di un carabiniere."@it ;
+    skos:example "Ieri sera ho visto un carabinoide. Non ci stava capendo un cazzo di niente!!"@it ;
+    schema:keywods "carabiniere, assuefatto, cannabinoide, fattezze, forma";
+    dct:created "2024-08-31" ;
+    dct:creator vocang:paoliMichele .
+
+vocang:cannabiniere
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cannabiniere"@it ;
+    lexinfo:pronunciation "/can • na • bi • niè • re/"@it ;
+    skos:definition "Persona che si comporta in maniera marziale e cagacazzo specialmente quando qualcuno intende fumare sostanze stupefacenti."@it ;
+    skos:example "Il cannabiniere voleva portarci in questura per una cannetta!"@it ;
+    schema:keywods "persona, comportarsi, marziale, cagacazzo, fumare, sostanze, stupefacenti";
+    dct:created "2024-08-31" ;
+    dct:creator vocang:paoliMichele, vocang:grasselliFrancesco .
