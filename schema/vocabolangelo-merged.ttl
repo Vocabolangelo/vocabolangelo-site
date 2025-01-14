@@ -12044,3 +12044,20 @@
 <http://www.vocabolangelo.org/sciampa> <https://schema.org/keywords> "sciarpa, estetico, estate" .
 <http://www.vocabolangelo.org/sciampa> <http://purl.org/dc/terms/created> "2024-09-28" .
 <http://www.vocabolangelo.org/sciampa> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
+<http://www.vocabolangelo.org/eiaculetto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/eiaculetto> <http://www.w3.org/2004/02/skos/core#prefLabel> "Eiaculetto"@it .
+<http://www.vocabolangelo.org/eiaculetto> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/e • ia • cu • lèt • to/"@it .
+<http://www.vocabolangelo.org/eiaculetto> <http://www.w3.org/2004/02/skos/core#definition> "Culetto sopra cui è stato eiaculato"@it .
+<http://www.vocabolangelo.org/eiaculetto> <http://www.w3.org/2004/02/skos/core#example> "Ho ridotto il culetto di Carla un eiaculetto!"@it .
+<http://www.vocabolangelo.org/eiaculetto> <https://schema.org/keywords> "culetto, eiaculato, sesso, sperma" .
+<http://www.vocabolangelo.org/eiaculetto> <http://purl.org/dc/terms/created> "2024-09-28" .
+<http://www.vocabolangelo.org/eiaculetto> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/ribaudoSofia> .
+<http://www.vocabolangelo.org/vulcane> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/vulcane> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vulcane"@it .
+<http://www.vocabolangelo.org/vulcane> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/vul • cà • ne/"@it .
+<http://www.vocabolangelo.org/vulcane> <http://www.w3.org/2004/02/skos/core#definition> "Cane kamikaze"@it .
+<http://www.vocabolangelo.org/vulcane> <http://www.w3.org/2004/02/skos/core#example> "Il vulcane ha fatto esplodere la casa del vicino. È stato molto spaventoso e mi ha fatto venire i brividi!"@it .
+<http://www.vocabolangelo.org/vulcane> <https://schema.org/keywords> "cane, kamikaze" .
+<http://www.vocabolangelo.org/vulcane> <http://purl.org/dc/terms/created> "2024-09-28" .
+<http://www.vocabolangelo.org/vulcane> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/bianchiniGiovanni> .
+<http://www.vocabolangelo.org/vulcane> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .

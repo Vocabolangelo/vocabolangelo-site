@@ -13752,10 +13752,6 @@ vocang:sciampa
     dct:created "2024-09-28" ;
     dct:creator vocang:filasetaAngelo .
 
-       E iaculetto
-        Culetto con sopra eiaculato
-        Sofia
-
 vocang:eiaculetto
     a vocang:Parolangelo ;
     skos:prefLabel "Eiaculetto"@it ;
