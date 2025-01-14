@@ -5993,7 +5993,7 @@ vocang:pompincubo
     a vocang:Parolangelo ;
     skos:prefLabel "Pompincubo"@it ;
     lexinfo:pronunciation "/pom • pìn • cu • bo/"@it ;
-    skos:definition "Un presunto influsso negativo o una sorta di malocchio che viene inclulato in una persona di sesso maschile in seguito all'aver praticato su di esso della fellazione."@it ;
+    skos:definition "Un presunto influsso negativo o una sorta di malocchio che viene inculcato in una persona di sesso maschile in seguito all'aver praticato su di esso della fellazione."@it ;
     skos:example "Diana e io ieri ci siamo lasciati. Non potevo più accettare il fatto che facesse parte di quella strana setta di streghette ossessionate con l'astrologia e i cristali. Una volta in tenda mi ha fatto un lavoro di bocca. Da allora succedono cose strane, ad esempio  ogni mattina mi cascano le fette biscottate sempre dalla parte della marmellata, oppure gli uccellini mi sotterranno sempre l'auto coi loro escrementi. Credo proprio di aver subito un pompincubo. Devo cercare di scacciare il malocchio ora!"@it ;
     dct:created "2023-06-03" ;
     dct:creator vocang:durazziMarco, vocang:chatGPT .
