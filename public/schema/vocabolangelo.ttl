@@ -82,7 +82,7 @@ vocang:filasetaAngelo
     dct:description "Sono proprio io, il fondatore del Vocabolangelo! Mi chiamo Angelo e io sono me stesso. Se conosci il Vocabolangelo probabilmente è perché conosci me. Se invece non mi conosci, ma conosci il Vocabolangelo, significa che questa cosa mi sta leggermente sfuggendo di mano. Buona permanenza e hai appena perso il gioco." ;
     org:memberOf vocang:vocaboladminOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/filasetaAngelo.jpeg" ;
-    rel:friendOf vocang:cortecchiaAngela, vocang:bassiAndrea, vocang:bailettiTommaso, vocang:sanchiPiero, vocang:tronettiElisa, vocang:salhiSamir, vocang:bragariAlexandru , vocang:battaglinoNicole , vocang:omiccioliRiccardo , vocang:pertosaLorenzo , vocang:timpanoSam , vocang:ribaudoSofia ;
+    rel:friendOf vocang:cortecchiaAngela, vocang:troianiElisa, vocang:bassiAndrea, vocang:bailettiTommaso, vocang:sanchiPiero, vocang:tronettiElisa, vocang:salhiSamir, vocang:bragariAlexandru , vocang:battaglinoNicole , vocang:omiccioliRiccardo , vocang:pertosaLorenzo , vocang:timpanoSam , vocang:ribaudoSofia ;
     rel:spouseOf vocang:savoGiorgia .
 
 vocang:savoGiorgia
@@ -94,7 +94,7 @@ vocang:savoGiorgia
     dct:description "Questa è la mia bellissima ragazza. Di solito inventa parolangelo mediamente offensive. Ama il K-pop, ama mangiare cose dolci che mi fanno venire il diabete solo a guardarle e ama me (spero). Sono molto fortunato ad averla trovata dopo tutte le tizie psicopatiche che mi sono capitate nella mia vita. Ti amo piccola. " ;
     org:memberOf vocang:vocabolieriOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/savoGiorgia.jpg" ;
-    rel:friendOf vocang:cortecchiaAngela, vocang:bailettiTommaso, vocang:salhiSamir, vocang:bragariAlexandru , vocang:battaglinoNicole , vocang:omiccioliRiccardo , vocang:pertosaLorenzo, vocang:timpanoSam , vocang:ribaudoSofia .
+    rel:friendOf vocang:cortecchiaAngela, vocang:troianiElisa, vocang:bailettiTommaso, vocang:salhiSamir, vocang:bragariAlexandru , vocang:battaglinoNicole , vocang:omiccioliRiccardo , vocang:pertosaLorenzo, vocang:timpanoSam , vocang:ribaudoSofia .
 
 vocang:bragariAlexandru
     a vocang:Vocaboliere ;
@@ -105,7 +105,7 @@ vocang:bragariAlexandru
     dct:description "Il vero agente del caos. Ha il record di parole rejectate perché non riesce ad attenersi alle fottute regole. Avere una discussione con lui è molto difficile perché cerca di filosofeggiare e astrarre tutto senza mai arrivare a una vera e propria conclusione. Nonostante tutto gli voglio bene. Inoltre copilot ha cercato di farmi scrivere che è rumeno anche se tecnicamente è scorretto." ;
     org:memberOf vocang:vocaboladminOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/bragariAlexandru.jpg" ;
-    rel:friendOf vocang:bailettiTommaso, vocang:sanchiPiero, vocang:tronettiElisa, vocang:salhiSamir, vocang:battaglinoNicole , vocang:omiccioliRiccardo , vocang:pertosaLorenzo , vocang:timpanoSam , vocang:ribaudoSofia .
+    rel:friendOf vocang:bailettiTommaso, vocang:troianiElisa, vocang:sanchiPiero, vocang:tronettiElisa, vocang:salhiSamir, vocang:battaglinoNicole , vocang:omiccioliRiccardo , vocang:pertosaLorenzo , vocang:timpanoSam , vocang:ribaudoSofia .
 
 vocang:battaglinoNicole
     a vocang:Vocaboliere ;
@@ -116,7 +116,7 @@ vocang:battaglinoNicole
     dct:description "Uno dei tre pilastri del Vocabolangelo sono le parolangelo correlate al sesso. Quando penso a Nicole mi vengono in mente moltissime parolangelo create da lei che hanno a che fare con questo tema. Non a caso non vede l'ora di peggarmi con un cazzo lungo almeno 20cm. Continua così Nicole, il mondo ha bisogno di un mare di orgasmi." ;
     org:memberOf vocang:vocabolieriOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/battaglinoNicole.jpg" ;
-    rel:friendOf vocang:bailettiTommaso, vocang:sanchiPiero, vocang:salhiSamir, vocang:pertosaLorenzo , vocang:timpanoSam , vocang:ribaudoSofia ;
+    rel:friendOf vocang:bailettiTommaso, vocang:troianiElisa, vocang:sanchiPiero, vocang:salhiSamir, vocang:pertosaLorenzo , vocang:timpanoSam , vocang:ribaudoSofia ;
     rel:spouseOf vocang:omiccioliRiccardo .
 
 vocang:omiccioliRiccardo
@@ -127,7 +127,7 @@ vocang:omiccioliRiccardo
     foaf:gender "male" ;
     dct:description "Miccio ha sempre lo strumento che ti serve quanto ti serve. È uno dei vocabolieri più attivi, anche se a volte fa il parolassita e si mette in mezzo al cazzo anche quando nessuno lo richiede. Inoltre spesso è primo in classifica per quanto riguarda il numero di parolangelo inventate. Non mi sembra che questo si chiami Vocabomiccio, quindi levati dal cazzo please." ;
     org:memberOf vocang:vocaboladminOrg ;
-    rel:friendOf vocang:cortecchiaAngela, vocang:bailettiTommaso, vocang:sanchiPiero, vocang:tronettiElisa, vocang:salhiSamir, vocang:pertosaLorenzo , vocang:timpanoSam , vocang:ribaudoSofia .
+    rel:friendOf vocang:cortecchiaAngela, vocang:troianiElisa, vocang:bailettiTommaso, vocang:sanchiPiero, vocang:tronettiElisa, vocang:salhiSamir, vocang:pertosaLorenzo , vocang:timpanoSam , vocang:ribaudoSofia .
 
 vocang:pertosaLorenzo
     a vocang:Vocaboliere ;
@@ -138,7 +138,7 @@ vocang:pertosaLorenzo
     dct:description "Non so neanche da dove cominciare per descrivere questo crucianiano schifoso. La qualità delle parolangelo che crea oscilla come le azioni in borsa dopo un tweet di Elon Musk. A volte è un genio, spesso è un coglione. Ma se avessi un infarto sarebbe anche uno dei pochi in grado di salvarmi la vita. Nel complesso, almeno siamo d'accordo su una cosa: il Vocabolangelo è una figata." ;
     org:memberOf vocang:vocaboladminOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/pertosaLorenzo.jpg" ;
-    rel:friendOf vocang:bailettiTommaso, vocang:sanchiPiero, vocang:salhiSamir, vocang:timpanoSam , vocang:ribaudoSofia .
+    rel:friendOf vocang:bailettiTommaso, vocang:troianiElisa, vocang:sanchiPiero, vocang:salhiSamir, vocang:timpanoSam , vocang:ribaudoSofia .
 
 vocang:timpanoSam
     a vocang:Vocaboliere ;
@@ -159,7 +159,7 @@ vocang:ribaudoSofia
     dct:description "Sofia ama togliermi le sopracciglia con le pinzette e si incazza con me quando le rejecto le parolangelo inventate da lei che usa già mezzo pianeta terra. È una nanetta ma in fondo nella botte piccola c'è comunque del vino.";
     org:memberOf vocang:vocabolieriOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/ribaudoSofia.jpg" ;
-    rel:friendOf vocang:bailettiTommaso, vocang:sanchiPiero .
+    rel:friendOf vocang:bailettiTommaso, vocang:troianiElisa, vocang:sanchiPiero .
 
 vocang:talmiAlessandro
     a vocang:Vocaboliere ;
@@ -180,7 +180,7 @@ vocang:orlandoNicola
     dct:description "Orla è una persona molto tranquilla e religiosa; riesce a mantenere consistente il supo ciclo del sonno in una maniera alquanto invidiabile. Amo le sue parolangelo che sono spesso funzionali o nate dal caso o da qualche evento divertente, mai scontate.";
     org:memberOf vocang:vocaboladminOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/orlandoNicola.jpg" ;
-    rel:friendOf vocang:cortecchiaAngela, vocang:bailettiTommaso, vocang:sanchiPiero, vocang:tronettiElisa, vocang:salhiSamir, vocang:durazziMarco, vocang:bragariAlexandru, vocang:talmiAlessandro, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo .
+    rel:friendOf vocang:cortecchiaAngela, vocang:troianiElisa, vocang:bailettiTommaso, vocang:sanchiPiero, vocang:tronettiElisa, vocang:salhiSamir, vocang:durazziMarco, vocang:bragariAlexandru, vocang:talmiAlessandro, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo .
 
 vocang:adantiMatteo
     a vocang:Vocaboliere ;
@@ -218,7 +218,7 @@ vocang:suscaMatteo
     dct:description "Un Ronaldo enjoyer che non segue il calcio. È uno dei Gen Z più Gen Z che conosco. Nonostante la sua mascolinità tossica ama gossippare. Credo sia attratto sessualmente da me.";
     org:memberOf vocang:vocaboladminOrg ;
     rel:friendOf vocang:bailettiTommaso, vocang:salhiSamir, vocang:durazziMarco, vocang:fanaraGiuliano, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo ;
-    vocang:unpaidFriendOf vocang:battaglinoNicole, vocang:minoccheriAlessandra .
+    vocang:unpaidFriendOf vocang:battaglinoNicole, vocang:troianiElisa, vocang:minoccheriAlessandra .
 
 vocang:minoccheriAlessandra
     a vocang:Vocaboliere ;
@@ -228,7 +228,7 @@ vocang:minoccheriAlessandra
     dct:description "Alessandra è la mia scopàmica; possiede una copia fisica dei sensuali di parcheggio e non ha paura di utilizzarli. È incazzata a giorni alterni, spesso grazie a me.";
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/minoccheriAlessandra.jpg" ;
     org:memberOf vocang:vocabolieriOrg ;
-    rel:friendOf vocang:bassiAndrea, vocang:bailettiTommaso, vocang:salhiSamir, vocang:durazziMarco, vocang:fanaraGiuliano,vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo .
+    rel:friendOf vocang:bassiAndrea, vocang:bailettiTommaso, vocang:troianiElisa, vocang:salhiSamir, vocang:durazziMarco, vocang:fanaraGiuliano,vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo .
 
  vocang:nardiniArianna
     a vocang:Vocaboliere ;
@@ -237,7 +237,7 @@ vocang:minoccheriAlessandra
     dct:description "Arianna è la mia amica quasi comunista (o fose lo è e tenta di mimetizzarsi). Pensa che il microonde non sia un elettrodomestico di classe, ma al mondo è assolutamente concesso avere opinioni sbaglaite. Almeno in una cosa siamo d'accordo però. Il vocabolanelo è di tutti *meme di bugs bunny che dice ours*";
     foaf:gender "female" ;
     org:memberOf vocang:vocabolieriOrg ;
-    rel:friendOf vocang:salhiSamir, vocang:durazziMarco, vocang:minoccheriAlessandra, vocang:suscaMatteo, vocang:fanaraGiuliano, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:bragariAlexandru, vocang:savoGiorgia, vocang:filasetaAngelo .
+    rel:friendOf vocang:salhiSamir, vocang:durazziMarco, vocang:troianiElisa, vocang:minoccheriAlessandra, vocang:suscaMatteo, vocang:fanaraGiuliano, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:bragariAlexandru, vocang:savoGiorgia, vocang:filasetaAngelo .
 
 vocang:bdeouiEddy
     a vocang:Vocaboliere ;
@@ -247,7 +247,7 @@ vocang:bdeouiEddy
     foaf:gender "male" ;
     dct:description "Prepatevi a passare dai guai, perché Eddy ha un asso nella manica e infinite conoscienze che non avrà timore di tramandarvi. Se pensate di conoscere il miglior ristorante in città, vi sbagliate di grosso. Eddy può consigliarvi un posto in cui servono cibo migliore, in maggiore quantità, e ad un prezzo stracciato. Sfidatelo e lui vincerà (o forse no).";
     org:memberOf vocang:vocabolieriOrg ;
-    rel:friendOf vocang:salhiSamir, vocang:nardiniArianna, vocang:minoccheriAlessandra, vocang:suscaMatteo, vocang:fanaraGiuliano, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:bragariAlexandru, vocang:savoGiorgia, vocang:filasetaAngelo .
+    rel:friendOf vocang:salhiSamir, vocang:troianiElisa, vocang:nardiniArianna, vocang:minoccheriAlessandra, vocang:suscaMatteo, vocang:fanaraGiuliano, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:bragariAlexandru, vocang:savoGiorgia, vocang:filasetaAngelo .
 
 vocang:paoliMichele
     a vocang:Vocaboliere ;
@@ -256,7 +256,7 @@ vocang:paoliMichele
     foaf:gender "male" ;
     dct:description "MI-CHE-LE PAOOOOO-LIIIIII SHALALALALALAAA";
     org:memberOf vocang:vocabolieriOrg ;
-    rel:friendOf vocang:nardiniArianna, vocang:minoccheriAlessandra, vocang:suscaMatteo, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:bragariAlexandru, vocang:filasetaAngelo .
+    rel:friendOf vocang:nardiniArianna, vocang:troianiElisa, vocang:minoccheriAlessandra, vocang:suscaMatteo, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:bragariAlexandru, vocang:filasetaAngelo .
 
 vocang:mordacchiniCecilia
     a vocang:Vocaboliere ;
@@ -273,7 +273,7 @@ vocang:pupitaAlberto
     dct:description "Albi è un socialista. Credo. In realtà non lo so ma ha un irrefrenabile bisogno di dire Socio almeno 2 volte ogni frase per poter comunicare in maniera ragionevole. Forse il suo sogno segreto è lavorare alla Coop.";
     foaf:gender "male" ;
     org:memberOf vocang:vocabolieriOrg ;
-    rel:friendOf vocang:salhiSamir, vocang:battaglinoNicole, vocang:bdeouiEddy, vocang:bragariAlexandru, vocang:fanaraGiuliano, vocang:filasetaAngelo, vocang:minoccheriAlessandra, vocang:omiccioliRiccardo, vocang:orlandoNicola, vocang:paoliMichele, vocang:pertosaLorenzo, vocang:ribaudoSofia, vocang:savoGiorgia,vocang:suscaMatteo, vocang:timpanoSam ;
+    rel:friendOf vocang:salhiSamir, vocang:troianiElisa, vocang:battaglinoNicole, vocang:bdeouiEddy, vocang:bragariAlexandru, vocang:fanaraGiuliano, vocang:filasetaAngelo, vocang:minoccheriAlessandra, vocang:omiccioliRiccardo, vocang:orlandoNicola, vocang:paoliMichele, vocang:pertosaLorenzo, vocang:ribaudoSofia, vocang:savoGiorgia,vocang:suscaMatteo, vocang:timpanoSam ;
     rel:spouseOf vocang:nardiniArianna.
 
 vocang:bianchiniGiovanni
@@ -283,7 +283,7 @@ vocang:bianchiniGiovanni
     foaf:gender "male" ;
     dct:description "Questa persone conosce più battute sul colore Bianco di quello che puoi aspettarti. Se pensi di averne appena inventata una nuova e rivoluzionaria ti sbagli. Non sei affatto speciale.";
     org:memberOf vocang:vocabolieriOrg ;
-    rel:friendOf vocang:bassiAndrea, vocang:bailettiTommaso, vocang:pupitaAlberto, vocang:battaglinoNicole, vocang:bdeouiEddy, vocang:bragariAlexandru, vocang:fanaraGiuliano, vocang:filasetaAngelo, vocang:nardiniArianna, vocang:omiccioliRiccardo, vocang:orlandoNicola, vocang:paoliMichele, vocang:pertosaLorenzo, vocang:ribaudoSofia, vocang:savoGiorgia,vocang:suscaMatteo, vocang:timpanoSam ;
+    rel:friendOf vocang:bassiAndrea, vocang:troianiElisa, vocang:bailettiTommaso, vocang:pupitaAlberto, vocang:battaglinoNicole, vocang:bdeouiEddy, vocang:bragariAlexandru, vocang:fanaraGiuliano, vocang:filasetaAngelo, vocang:nardiniArianna, vocang:omiccioliRiccardo, vocang:orlandoNicola, vocang:paoliMichele, vocang:pertosaLorenzo, vocang:ribaudoSofia, vocang:savoGiorgia,vocang:suscaMatteo, vocang:timpanoSam ;
     rel:spouseOf vocang:minoccheriAlessandra.
 
 vocang:rossiLuca
@@ -323,7 +323,7 @@ vocang:radicchiGiovanni
     foaf:nick "Rad" ;
     foaf:gender "male" ;
     org:memberOf vocang:vocabolieriOrg ;
-    rel:friendOf vocang:bassiAndrea, vocang:sanchiPiero, vocang:bianchiniGiovanni, vocang:pupitaAlberto, vocang:bdeouiEddy, vocang:nardiniArianna, vocang:minoccheriAlessandra, vocang:suscaMatteo, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:bragariAlexandru, vocang:filasetaAngelo .
+    rel:friendOf vocang:bassiAndrea, vocang:sanchiPiero, vocang:troianiElisa, vocang:bianchiniGiovanni, vocang:pupitaAlberto, vocang:bdeouiEddy, vocang:nardiniArianna, vocang:minoccheriAlessandra, vocang:suscaMatteo, vocang:orlandoNicola, vocang:ribaudoSofia, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:bragariAlexandru, vocang:filasetaAngelo .
 
 vocang:bensellamSelma
     a vocang:Vocaboliere ;
@@ -366,7 +366,7 @@ vocang:durazziMarco
     dct:description "Duraz ci ha badato 67 anni a creare la sua prima parolangelo, ma ora ha preso il via. Sono fiero di te. La sua peculiarità principale è che il suo nome viene continuamente storpiato in modi assurdi. Alcuni esempi notevoli ricadono su Durex, Duracell, Duddi Du, o Andrea.";
     org:memberOf vocang:vocabolieriOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/durazziMarco.jpg" ;
-    rel:friendOf vocang:bailettiTommaso, vocang:sanchiPiero, vocang:salhiSamir, vocang:rosatelliAnna, vocang:radicchiGiovanni, vocang:bianchiniGiovanni, vocang:pupitaAlberto,  vocang:mordacchiniCecilia, vocang:bdeouiEddy, vocang:bragariAlexandru, vocang:filasetaAngelo, vocang:savoGiorgia, vocang:battaglinoNicole, vocang:omiccioliRiccardo, vocang:pertosaLorenzo, vocang:timpanoSam, vocang:ribaudoSofia .
+    rel:friendOf vocang:bailettiTommaso, vocang:troianiElisa, vocang:sanchiPiero, vocang:salhiSamir, vocang:rosatelliAnna, vocang:radicchiGiovanni, vocang:bianchiniGiovanni, vocang:pupitaAlberto,  vocang:mordacchiniCecilia, vocang:bdeouiEddy, vocang:bragariAlexandru, vocang:filasetaAngelo, vocang:savoGiorgia, vocang:battaglinoNicole, vocang:omiccioliRiccardo, vocang:pertosaLorenzo, vocang:timpanoSam, vocang:ribaudoSofia .
 
 vocang:salhiSamir
     a vocang:Vocaboliere ;
@@ -714,6 +714,21 @@ vocang:berardiCesare
     foaf:gender "male" ;
     org:memberOf vocang:vocabolieriOrg ;
     rel:friendOf vocang:bragariAlexandru.
+
+vocang:maggioliFilippo
+    a vocang:Vocaboliere ;
+    foaf:firstName "Filippo" ;
+    foaf:lastName "Maggioli" ;
+    foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:bdoueiEddy .
+
+vocang:troianiElisa
+    a vocang:Vocaboliere ;
+    foaf:firstName "Elisa" ;
+    foaf:lastName "Troiani" ;
+    foaf:gender "female" ;
+    org:memberOf vocang:vocabolieriOrg .
 
 # Other Author Individuals
 
@@ -7038,7 +7053,7 @@ vocang:rotatroia
     skos:definition "Rotatoria stradale molto piccola, che quasi non ha senso di esistere."@it;
     skos:example "Ieri non ho visto quella rotatroia e la ho scavalcata con la mia Audi! Quel punto potrebbe tranquillamente essere un incrocio."@it ;
     skos:related vocang:incrociatoria, vocang:cortatoria, vocang:rotatatoria ;
-     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/rotatroia.jpg" ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/rotatroia.jpg" ;
     dct:created "2023-07-25" ;
     dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
 
@@ -13198,3 +13213,565 @@ vocang:cannabiniere
     schema:keywods "persona, comportarsi, marziale, cagacazzo, fumare, sostanze, stupefacenti";
     dct:created "2024-08-31" ;
     dct:creator vocang:paoliMichele, vocang:grasselliFrancesco .
+
+vocang:toppisciata
+    a vocang:Parolangelo ;
+    skos:prefLabel "Toppisciata"@it ;
+    lexinfo:pronunciation "/top • pi • scià • ta/"@it ;
+    skos:definition "Pisciata molto soddisfacente."@it ;
+    skos:example "Ieri sera ho fatto una toppisciata con Tom. È stata molto soddisfacente!"@it ;
+    schema:keywords "pisciata, soddisfacente" ;
+    dct:created "2024-09-01" ;
+    dct:creator vocang:maggioliFilippo, vocang:bdeouiEddy .
+
+vocang:mammorto
+    a vocang:Parolangelo ;
+    skos:prefLabel "Mammorto"@it ;
+    lexinfo:pronunciation "/mam • mòr • to/"@it ;
+    skos:definition "Persona estremamente dipendente dalla madre, un livello superiore al più comune mammone."@it, "Orto gestito da una o più mamme."@it;
+    skos:example "Matteo è un mammorto. Non riesce a fare nulla senza il consenso di sua madre!"@it ;
+    schema:keywords "persona, dipendente, madre, mammone, orto";
+    dct:created "2024-09-01" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:bagminton
+    a vocang:Parolangelo ;
+    skos:prefLabel "Bagminton"@it ;
+    skos:definition "Zaino o sacca utilizzata per gli allenamenti o partite di Badminton."@it ;
+    skos:example "Ieri sera ho comprato un bagminton. È molto comodo e mi permette di portare tutto il necessario per giocare a badminton!"@it ;
+    schema:keywords "zaino, sacca, allenamenti, partite, badminton";
+    dct:created "2024-09-02" ;
+    dct:creator vocang:suscaMatteo .
+
+vocang:zingaring
+    a vocang:Parolangelo ;
+    skos:prefLabel "Zingaring"@it ;
+    skos:definition "Ring nel quale si svolgono solitamente lotte tra zingari."@it ;
+    skos:example "Ieri sera ho assistito ad una zingaring. Era molto divertente e ho imparato molto sulla cultura zingara!"@it ;
+    schema:keywords "ring, lotte, zingari";
+    dct:created "2024-09-02" ;
+    skos:related vocang:zanzazingariera ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:rottunaggine
+    a vocang:Parolangelo ;
+    skos:prefLabel "Rottunaggine"@it ;
+    lexinfo:pronunciation "/rot • tu • nàg • gi • ne/"@it ;
+    skos:definition "Abilità nel fracassare le palle, infastidire chi ti sta intorno."@it ;
+    skos:example "Elisa ha dimostrato una grande rottunaggine, ha rotto le palle a tutti quanti!"@it ;
+    schema:keywords "abilità, fracassare, palle, infastidire, intorno";
+    dct:created "2024-09-02" ;
+    skos:note "Questa è la prima parola creata da Elisa. Grazie e benvenuta!"@it ;
+    dct:creator vocang:troianiElisa .
+
+vocang:caztus
+    a vocang:Parolangelo ;
+    skos:prefLabel "Caztus"@it ;
+    lexinfo:pronunciation "/ca • ztus/"@it ;
+    skos:definition "Cactus che presenta sembianze falliche."@it ;
+    skos:example "Ieri sera ho visto un caztus. Era molto particolare e mi ha fatto ridere!"@it ;
+    schema:keywords "cactus, sembianze, falliche";
+    dct:created "2024-09-04" ;
+    schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/concept/caztus.png" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:calabroide
+    a vocang:Parolangelo ;
+    skos:prefLabel "Calabroide"@it ;
+    lexinfo:pronunciation "/ca • la • broi • de/"@it ;
+    skos:definition "Qualsiasi insetto non meglio identificato simile ad un calabrone, generalmente striato e/o dal ronzio rumoroso."@it ;
+    skos:example "Mi è entrato un calabroide in cucina e l'ho ucciso con uno straccio"@it;
+    schema:keywords "insetto, calabrone, striato, ronzio, rumoroso";
+    dct:created "2024-09-05" ;
+    dct:creator vocang:paoliMichele .
+
+vocang:calasbronzo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Calasbronzo"@it ;
+    lexinfo:pronunciation "/ca • la • sbròn • zo/"@it ;
+    skos:definition "Calabroide che dal comportamento sembra ubriaco, sbattendo contro finestre e pareti fallendo nell'uscire."@it ;
+    skos:example "Ieri sera ho visto un calasbronzo. Era molto divertente e mi ha fatto ridere!"@it ;
+    schema:keywords "calabroide, comportamento, ubriaco, sbattere, finestre, pareti, fallire, uscire";
+    dct:created "2024-09-05" ;
+    skos:related vocang:calabroide ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:cardtarder
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cardtarder"@it ;
+    skos:definition "Servizio online che permette di acquistare carte ma che fa arrivare gli ordini con un ritardo fuori scala."@it ;
+    skos:example "L'anno scorso sera ho ordinato delle carte su cardtarder. Sono arrivate dopo 3 mesi!!"@it ;
+    schema:keywords "servizio, online, acquistare, carte, ordini, ritardo, fuori, scala";
+    dct:created "2024-09-06" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:gourbidone
+    a vocang:Parolangelo ;
+    skos:prefLabel "Gourbidone"@it ;
+    lexinfo:pronunciation "/gour • bi • dò • ne/"@it ;
+    skos:definition "Bidone della spazzatura contenente avanzi di cibo estremamente prelibato, di solito al di fuori di ristoranti stellati."@it ;
+    skos:example "Il gourbidone era pieno di cibo prelibato!! Sì, sono un barbone."@it ;
+    schema:keywords "bidone, spazzatura, avanzi, cibo, prelibato, ristoranti, stellati";
+    dct:created "2024-09-06" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:vorka
+    a vocang:Parolangelo ;
+    skos:prefLabel "Vorka"@it ;
+    skos:definition "Vodka che ti fa diventare porco o porca."@it ;
+    skos:example "Eri davvero maliziosa questa sera, hai per caso bevuto un po' di vorka?"@it ;
+    schema:keywords "vodka, porco";
+    dct:created "2024-09-07" ;
+    dct:creator vocang:battaglinoNicole, vocang:omiccioliRiccardo .
+
+vocang:niggaiano
+    a vocang:Parolangelo ;
+    skos:prefLabel "Niggaiano"@it ;
+    lexinfo:pronunciation "/nig • gai • à • no/"@it ;
+    skos:definition "Gabbiano nero."@it ;
+    skos:example "In spiaggia ho visto un niggaiano. Era molto particolare e mi ha fatto ridere!"@it ;
+    schema:keywords "gabbiano, nero";
+    dct:created "2024-09-07" ;
+    dct:creator vocang:bianchiniGiovanni, vocang:ribaudoSofia, vocang:minoccheriAlessandra .
+
+vocang:ortoGP
+    a vocang:Slangelo ;
+    skos:prefLabel "Orto GP"@it ;
+    lexinfo:pronunciation "/òr • to/ /gi • pì/"@it ;
+    skos:definition "Gran premio corsa con cariola."@it ;
+    skos:example "La scorsa primavera si è tenuto l'Orto GP. È stata una gara molto divertente e ho vinto delle carote!"@it ;
+    schema:keywords "gran, premio, corsa, cariola";
+    dct:created "2024-09-07" ;
+    dct:creator vocang:battaglinoNicole, vocang:ribaudoSofia .
+
+vocang:forzaBrutta
+    a vocang:Slangelo ;
+    skos:prefLabel "Forza brutta"@it ;
+    lexinfo:pronunciation "/fòr • za/ /brùt • ta/"@it ;
+    skos:definition "Uso spropositato della forza da parte di un individuo che risulta insufficiente per il compito da svolgere, con il risultato che l'individuo appare estremamente inelegante e fuori luogo."@it ;
+    skos:example "Michele ha provato a spostare la cassa d'acqua con la sua forza brutta, era veramente orribile l'immagine di lui che provava con tutte le sue forze senza riuscire nell'intento."@it ;
+    schema:keywords "forza, brutta, spropositato, individuo, insufficiente, compito, inelegante, fuori, luogo";
+    dct:created "2024-09-07" ;
+    dct:creator vocang:pertosaLorenzo, vocang:deRosaLeonardo .
+
+vocang:crostellata
+    a vocang:Parolangelo ;
+    skos:prefLabel "Crostellata"@it ;
+    lexinfo:pronunciation "/cro • stel • là • ta/"@it ;
+    skos:definition "Crostata metà nutella e metà marmellata."@it ;
+    skos:example "La crostellatra mi ha fatto salire il diabete, ma ne è valsa la pena!"@it ;
+    schema:keywords "crostata, nutella, marmellata";
+    dct:created "2024-09-08" ;
+    dct:creator vocang:battaglinoNicole .
+
+vocang:rotatoroide
+    a vocang:Parolangelo ;
+    skos:prefLabel "Rotatoroide"@it ;
+    lexinfo:pronunciation "/ro • ta • to • rò • i • de/"@it ;
+    skos:definition "Equivalente di una rotatoria ma tridimensionale."@it ;
+    skos:example "Ieri sera ho guidato per la prima volta in un rotatoroide in un videogioco. È stato molto divertente!"@it ;
+    schema:keywords "rotatoria, tridimensionale";
+    dct:created "2024-09-08" ;
+    dct:creator vocang:orlandoNicola.
+
+vocang:sexperience
+    a vocang:Parolangelo ;
+    skos:prefLabel "Sexperience"@it ;
+    skos:definition "Esperienza sessuale."@it ;
+    skos:example "Ieri sera ho avuto una sexperience con Gianmarco. È stato molto divertente!"@it ;
+    schema:keywords "esperienza, sessuale";
+    dct:created "2024-09-08" ;
+    dct:creator vocang:pertosaLorenzo, vocang:battaglinoNicole .
+
+vocang:buoio
+    a vocang:Parolangelo ;
+    skos:prefLabel "Buoio"@it ;
+    lexinfo:pronunciation "/bu • òi • o/"@it ;
+    skos:definition "Buio in cui si rischia seriamente la morte."@it ;
+    skos:example "Ieri sera ho visto un buoio. Era molto spaventoso e mi ha fatto venire i brividi!"@it ;
+    schema:keywords "buio, rischio, morte";
+    dct:created "2024-09-08" ;
+    dct:creator vocang:filasetaAngelo, vocang:omiccioliRiccardo .
+
+vocang:spookit
+    a vocang:Parolangelo ;
+    skos:prefLabel "Spook-it"@it ;
+    skos:definition "Post-it minatorio lasciato in giro per spaventare una o più persone."@it ;
+    skos:example "Mi sono trovato dentro casa un dannato spook-it! Mi ha fatto venire i brividi!"@it ;
+    schema:keywords "post-it, minatorio";
+    dct:created "2024-09-11" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:ghostit
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ghost-it"@it ;
+    skos:definition "Post-it che rimane appeso per un sacco di tempo in un posto e che viene ignorato da tutti"@it;
+    skos:example "Ho trovato un ghost-it in cucina. Era lì da almeno 3 mesi!"@it ;
+    schema:keywords "post-it, fantasma";
+    dct:created "2024-09-11" ;
+    dct:creator vocang:paoliMichele .
+
+vocang:valtamarano
+    a vocang:Parolangelo ;
+    skos:prefLabel "Valtamarano"@it ;
+    lexinfo:pronunciation "/val • ta • mà • ra • no/"@it ;
+    skos:definition "Catamarano a forma di varano."@it ;
+    skos:example "Quel valtamarano era estremamente inquietante, quasi peggio di una nutria!"@it ;
+    schema:keywords "catamarano, varano";
+    dct:created "2024-09-11" ;
+    dct:creator vocang:ribaudoSofia, vocang:minoccheriAlessandra .
+
+vocang:fotoDiBrutto
+    a vocang:Slangelo ;
+    skos:prefLabel "Foto di brutto"@it ;
+    skos:definition "Foto di gruppo in cui nessuno è uscito bene o nessuno è fotogenico."@it ;
+    skos:example "Ieri sera abbiamo fatto una foto di brutto. Faceva talmente schifo che l'abbiamo cancellata subito!"@it ;
+    schema:keywords "foto, brutto, gruppo, uscire, bene, fotogenico";
+    dct:created "2024-09-11" ;
+    dct:creator vocang:paoliMichele .
+
+vocang:sgradino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Sgradino"@it ;
+    lexinfo:pronunciation "/sgrà • di • no/"@it ;
+    skos:definition "Gradino sgradevole che tende a far incidentare."@it ;
+    skos:example "Sono inciatata per colpa di uno sgradino e mi sono quasi rotta la mascella!"@it ;
+    schema:keywords "gradino, sgradevole, incidentare";
+    dct:created "2024-09-11" ;
+    skos:related vocang:scalinfame;
+    dct:creator vocang:ribaudoSofia .
+
+vocang:dolcetticidio
+    a vocang:Parolangelo ;
+    skos:prefLabel "Dolcetticidio"@it ;
+    lexinfo:pronunciation "/dol • cet • ti • cì • dio/"@it ;
+    skos:definition "Assassinio adempiuto tramite overdose di dolci."@it ;
+    skos:example "Qualche mese fa ho assistito ad un dolcetticidio. In seguito, la vittima è stata cremata!"@it ;
+    schema:keywords "assassinio, overdose, dolci";
+    dct:created "2024-09-11" ;
+    dct:creator vocang:bdoueiEddy .
+
+vocang:criticoParaculinario
+    a vocang:Slangelo ;
+    skos:prefLabel "Critico paraculinario"@it ;
+    lexinfo:pronunciation "/cri • ti • co/ /pa • ra • cu • li • nà • rio/"@it ;
+    skos:definition "Esperto nel campo culinario, ma che mangia solo nei posti dove il cibo gli viene offerto gratis."@it ;
+    skos:example "Ieri sera ho incontrato un critico paraculinario. Mi ha raccontato di come ha mangiato gratis in un ristorante stellato!"@it ;
+    schema:keywords "esperto, campo, culinario, mangiare, gratis";
+    dct:created "2024-09-11" ;
+    dct:creator vocang:savoGianmarco.
+
+vocang:dioluminescenza
+    a vocang:Parolangelo ;
+    skos:prefLabel "Dioluminescenza"@it ;
+    lexinfo:pronunciation "/di • o • lu • mi • ne • scèn • za/"@it ;
+    skos:definition "Luce irradiata da figure divine o angeliche, spesso rappresentata in opere artistiche a tema religioso."@it ;
+    skos:example "Ho visto un quadro con della dioluminescenza. Era molto bello e mi ha fatto sentire in pace con me stesso!"@it ;
+    schema:keywords "luce, irradiata, figure, divine, angeliche, opere, artistiche, religioso";
+    dct:created "2024-09-12" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:dioluminescente
+    a vocang:Parolangelo ;
+    skos:prefLabel "Dioluminescente"@it ;
+    lexinfo:pronunciation "/di • o • lu • mi • ne • scèn • te/"@it ;
+    skos:definition "Che emette dioluminescenza."@it ;
+    skos:example "Mi è apparso in sogno un angelo dioluminescente. Era molto bello e mi ha fatto sentire in pace con me stesso!"@it ;
+    schema:keywords "emettere, luce, divina, angelica";
+    dct:created "2024-09-12" ;
+    skos:related vocang:dioluminescenza ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:indiota
+    a vocang:Parolangelo ;
+    skos:prefLabel "Indiota"@it ;
+    lexinfo:pronunciation "/in • di • ò • ta/"@it ;
+    skos:definition "Idiota indiano."@it ;
+    skos:example "L'indiota ha pensato bene di mettere un sasso all'interno del motore della sua auto."@it ;
+    schema:keywords "idiota, indiano";
+    dct:created "2024-09-12" ;
+    dct:creator vocang:paoliMichele .
+
+
+vocang:cataratto
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cataratto"@it ;
+    lexinfo:pronunciation "/ca • ta • ràt • to/"@it ;
+    skos:definition "Topo orbo."@it ;
+    skos:example "Il cataratto ha cominciato a barcollare e a sbattere contro le pareti."@it ;
+    schema:keywords "topo, orbo";
+    dct:created "2024-09-12" ;
+    dct:creator vocang:paoliMichele, vocang:pertosaLorenzo .
+
+vocang:apiediritivo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Apiediritivo"@it ;
+    lexinfo:pronunciation "/a • pie • di • ri • tì • vo/"@it ;
+    skos:definition "Aperitivo nel quale si possono leccare, a discrezione del cliente, i piedi di uno o più camerieri."@it;
+    skos:example "Ieri sera ho partecipato ad un apiediritivo. È stata un'esperienza molto particolare, sicuramente da rifare!"@it ;
+    schema:keywords "aperitivo, piedi, sesso";
+    dct:created "2024-09-12" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:piedinoteca
+    a vocang:Parolangelo ;
+    skos:prefLabel "Piedinoteca"@it ;
+    lexinfo:pronunciation "/pie • di • no • tè • ca/"@it ;
+    skos:definition "Locale nel quale, dietro compenso si possono degustare, annusando e leccando, i piedi del personale presente."@it;
+    skos:example "Alla piedinoteca di via Roma si possono degustare i piedi di tutte le cameriere. È un locale molto particolare!"@it ;
+    schema:keywords "locale, piedi, degustare" ;
+    dct:created "2024-09-12" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:segarenda
+    a vocang:Parolangelo ;
+    skos:prefLabel "Segarenda"@it ;
+    lexinfo:pronunciation "/se • ga • rèn • da/"@it ;
+    skos:definition "Masturbazione maschile effettuata durante merenda."@it ;
+    skos:example "Ieri sera mi son fatto una segarenda. È stato molto rilassante, mi ci voleva proprio!"@it ;
+    schema:keywords "sega, merenda";
+    dct:created "2024-09-13" ;
+    dct:creator vocang:bdoueiEddy .
+
+vocang:frenulworld
+    a vocang:Parolangelo ;
+    skos:prefLabel "Frenulworld"@it ;
+    skos:definition "Campionato in cui due maschi si affrontano sfregando i frenuli uno contro l'altro, perde il primo che si rompe."@it ;
+    skos:example "Ieri sera ho assistito ad un Frenulworld. Non sono riuscito a finire di guardarlo, volevo solo ammazzarmi!"@it ;
+    schema:keywords "campionato, maschi, frenuli, rompere";
+    dct:created "2024-09-13" ;
+    dct:creator vocang:pianiniDanilo .
+
+vocang:universitadio
+    a vocang:Parolangelo ;
+    skos:prefLabel "Universitadio"@it ;
+    lexinfo:pronunciation "/u • ni • ver • si • tà • di • o/"@it ;
+    skos:definition "Studente universitario fuoricorso."@it ;
+    skos:example "A causa dell'esame di fisica, sono diventato un universitadio. Non riesco a passarlo per niente! Mi chiedo come abbia fatto Sasha al primo tentativo..."@it ;
+    schema:keywords "università, partite, calcio, studenti, professori";
+    dct:created "2024-09-13" ;
+    dct:creator vocang:antonioniGiovanni .
+
+vocang:vamsbirro
+    a vocang:Parolangelo ;
+    skos:prefLabel "Vamsbirro"@it ;
+    lexinfo:pronunciation "/vam • sbir • rò/"@it ;
+    skos:definition "Vampiro impiegato nelle forze dell'ordine."@it ;
+    skos:example "Il vamsbirro ha arrestato il ladro in pochi minuti. Poi gli ha succhiato l'anima!"@it ;
+    schema:keywords "vampiro, impiegato, forze, ordine";
+    dct:created "2024-09-14" ;
+    dct:creator vocang:minoccheriAlessandra, vocang:pertosaLorenzo .
+
+vocang:prolase
+    a vocang:Parolangelo ;
+    skos:prefLabel "Prolase"@it ;
+    lexinfo:pronunciation "/pro • là • se/"@it ;
+    skos:definition "Polase che si prende per via rettale."@it ;
+    skos:example "Ieri sera ho preso un prolase. È stato molto rilassante, mi ci voleva proprio!"@it ;
+    schema:keywords "polase, via, rettale";
+    dct:created "2024-09-14" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:scuspidare
+    a vocang:Parolangelo ;
+    skos:prefLabel "Scuspidare"@it ;
+    lexinfo:pronunciation "/scu • spi • dà • re/"@it ;
+    skos:definition "Perdere la funzione di una cuspide valvolare cardiaca all'improvviso."@it ;
+    skos:example "Ieri sera ho visto un uomo scuspidare. È stato molto spaventoso e mi ha fatto venire i brividi!"@it ;
+    schema:keywords "perdere, funzione, cuspide, valvolare, cardiaca, improvviso";
+    dct:created "2024-09-17" ;
+    dct:creator vocang:pertosaLorenzo, vocang:durazziMarco .
+
+vocang:verdiallo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Verdiallo"@it ;
+    lexinfo:pronunciation "/ver • di • àl • lo/"@it ;
+    skos:definition "Colore tra giallo e verde, nella gradazione color olio di oliva."@it ;
+    skos:example "Il verdiallo è un colore che odio con tutto il cuore. Mi fa venire i brividi!"@it ;
+    schema:keywords "colore, giallo, verde, gradazione, olio, oliva";
+    dct:created "2024-09-17" ;
+    dct:creator vocang:ribaudoSofia, vocang:tomassettiLorenzo .
+
+
+vocang:culina
+    a vocang:Parolangelo ;
+    skos:prefLabel "Culina"@it ;
+    lexinfo:pronunciation "/cu • lì • na/"@it ;
+    skos:definition "Coccolina specificatamente fatta sul sedere."@it ;
+    skos:example "Ieri sera ho fatto delle culine con Gertrude. Sono state molto rilassanti e mi hanno fatto sentire in pace con me stesso!"@it ;
+    schema:keywords "coccolina, culo, sedere";
+    dct:created "2024-09-19" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:brocchino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Brocchino"@it ;
+    lexinfo:pronunciation "/broc • chì • no/"@it ;
+    skos:definition "Bocchino fatto da un bro in amicizia, no homo."@it ;
+    skos:example "Ieri sera ho ricevuto un brocchino da Luca. È stato molto gentile con la sua ligua umida, no homo!"@it ;
+    schema:keywords "bocchino, bro, amicizia, no homo";
+    dct:created "2024-09-20" ;
+    dct:creator vocang:suscaMatteo .
+
+vocang:paradungeon
+    a vocang:Parolangelo ;
+    skos:prefLabel "Paradungeon"@it ;
+    skos:definition "Labirinto di articolati corridoi che compongono i meandri del Paradise a Monsano."@it ;
+    skos:example "Mentre tentavo di uscire dal Paradise mi sono perso nel Paradungeon."@it ;
+    dct:created "2024-09-21" ;
+    schema:keywords "labirinto" ;
+    dct:creator vocang:paoliMichele .
+
+vocang:orgilla
+    a vocang:Parolangelo ;
+    skos:prefLabel "Orgilla"@it ;
+    skos:definition "Orgia nel fango/argilla simile alla lotta sexy nel fango ma con più sesso."@it;
+    skos:example "Il mio sogno bagnato è fare un'orgilla."@it;
+    dct:created "2024-09-22" ;
+    schema:keywords "orgia, sesso, argilla" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:sardegno
+    a vocang:Parolangelo ;
+    skos:prefLabel "Sardegno"@it ;
+    lexinfo:pronunciation "/sar • dè • gno/"@it ;
+    skos:definition "Aggettivo attribuibile a qualunque cosa rispetti standard di qualità legati alla regione Sardegna."@it ;
+    skos:example "Shy è veramente uno youtuber sardegno!"@it ;
+    schema:keywords "aggettivo, qualità, Sardegna" ;
+    dct:created "2024-09-23" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:sardino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Sardiño"@it ;
+    lexinfo:pronunciation "/sar • dì • no/"@it ;
+    skos:definition "Bambino sardo."@it ;
+    skos:example "Il sardiño beveva tranquillamente latte di capra!"@it ;
+    schema:keywords "bambino, sardo";
+    dct:created "2024-09-23" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:colazzone
+    a vocang:Parolangelo ;
+    skos:prefLabel "Colazzone"@it ;
+    lexinfo:pronunciation "/co • la • zzò • ne/"@it ;
+    skos:definition "Colazione ricca e abbondante."@it ;
+    skos:example "Dopo il devasto di ieri notte mi sento distrutto, ho bisogno di un bel colazzone, metto su un avocado toast con uova e bacon."@it;
+    schema:keywords "colazione, ricca, abbondante" ;
+    dct:created "2024-09-23" ;
+    dct:creator vocang:ribaudoSofia .
+
+vocang:risgatto
+    a vocang:Parolangelo ;
+    skos:prefLabel "Risgatto"@it ;
+    lexinfo:pronunciation "/ris • gàt • to/"@it ;
+    skos:definition "Denaro richiesto per restituire un animale domestico a seguito di un suo rapimento"@it;
+    skos:example "Kiri è stato rapito, mi hanno chiesto un risgatto di 1000 euro per riaverlo!"@it ;
+    schema:keywords "denaro, animale, domestico, rapimento" ;
+    dct:created "2024-09-23" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:gramitico
+    a vocang:Parolangelo ;
+    skos:prefLabel "Gramitico"@it ;
+    lexinfo:pronunciation "/gra • mì • ti • co/"@it ;
+    skos:definition "Aggettivo attribuibile a qualunque costruzione naturale o artificiale di granito esteticamente molto bella."@it ;
+    skos:example "Ho visto un palazzo gramitico. Era bellissimo, davvero fuori di testa!"@it;
+    schema:keywords "aggettivo, costruzione, naturale, artificiale, granito, esteticamente, bella" ;
+    dct:created "2024-09-24" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:aperettivo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Aperettivo"@it ;
+    lexinfo:pronunciation "/a • pe • ret • tì • vo/"@it ;
+    skos:definition "Aperitivo rettale, pratica che consiste nell'inserire un dito nel proprio ano prima di un pasto, indossando un guanto in lattice."@it;
+    skos:example "Sono andato a casa di Angelo e prima di mangiare ci ha proposto di fare aperettivo."@it ;
+    schema:keywords "aperitivo, rettale, retto, culo, ano";
+    dct:created "2024-09-26" ;
+    dct:creator vocang:paoliMichele .
+
+vocang:frenulologia
+    a vocang:Parolangelo ;
+    skos:prefLabel "Frenulologia"@it ;
+    lexinfo:pronunciation "/fre • nu • lo • lo • gì • a/"@it ;
+    skos:definition "Disciplina medica, branca dell'andrologia, che studia in maniera particolare e dettagliata le caratteristiche del frenulo maschile."@it ;
+    skos:example "Il dottor Paoli è un esperto di frenulologia. Mi ha detto che il mio frenulo è molto particolare!"@it ;
+    schema:keywords "disciplina, medica, andrologia, studiare, particolare, dettagliata, caratteristiche, frenulo, maschile";
+    dct:created "2024-09-26" ;
+    dct:creator vocang:paoliMichele .
+
+vocang:frenulologo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Frenulologo"@it ;
+    lexinfo:pronunciation "/fre • nu • lo • lò • go/"@it ;
+    skos:definition "Esperto in frenulologia."@it ;
+    skos:example "Il dottor Paoli è un frenulologo. Mi ha detto che il mio frenulo è molto particolare!"@it ;
+    schema:keywords "medico, specializzato, frenulologia";
+    dct:created "2024-09-26" ;
+    dct:creator vocang:paoliMichele .
+
+
+vocang:ornitorincoiatrìa
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ornitorincoiatrìa"@it ;
+    lexinfo:pronunciation "/or • ni • to • rin • co • i • a • trì • a/"@it ;
+    skos:definition "Branca della veterinaria che studia gli ornitorinchi per prendersene cura e a fini di ricerca."@it ;
+    skos:example "Il dottor Pertosa è un esperto di ornitorincoiatrìa. Mi ha detto che l'ornitorinco è un animale molto particolare!"@it ;
+    schema:keywords "branca, veterinaria, studiare, ornitorinchi, cura, ricerca";
+    dct:created "2024-09-27" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:ornitorincoiàtra
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ornitorincoiàtra"@it ;
+    lexinfo:pronunciation "/or • ni • to • rin • co • i • à • tra/"@it ;
+    skos:definition "Veterinario specializzato nella cura e nello studio degli ornitorinchi."@it ;
+    skos:example "Il dottor Pertosa è un esperto di ornitorincoiatrìa. Mi ha detto che l'ornitorinco è un animale molto particolare!"@it ;
+    schema:keywords "veterinario, specializzato, cura, studio, ornitorinchi";
+    dct:created "2024-09-27" ;
+    dct:creator vocang:pertosaLorenzo .
+
+
+vocang:pussybilità
+    a vocang:Parolangelo ;
+    skos:prefLabel "Pussybilità"@it ;
+    skos:definition "La probabilità di presenza di figa in un determinato luogo."@it ;
+    skos:example "La pussybilità al bar oggi è molto alta."@it;
+    schema:keywords "probabilità, figa, luogo" ;
+    dct:created "2024-09-27" ;
+    dct:creator vocang:bianchiniGiovanni .
+
+vocang:sciampa
+    a vocang:Parolangelo ;
+    skos:prefLabel "Sciampa"@it ;
+    lexinfo:pronunciation "/sci • am • pa/"@it ;
+    skos:definition "Sciarpa a scopo puramente estetico, che si può mettere anche d'estate."@it ;
+    skos:example "La sciampa è un accessorio molto particolare. Mi piace indossarla anche d'estate! Certo che però fa molto caldo!"@it ;
+    schema:keywords "sciarpa, estetico, estate";
+    dct:created "2024-09-28" ;
+    dct:creator vocang:filasetaAngelo .
+
+       E iaculetto
+        Culetto con sopra eiaculato
+        Sofia
+
+vocang:eiaculetto
+    a vocang:Parolangelo ;
+    skos:prefLabel "Eiaculetto"@it ;
+    lexinfo:pronunciation "/e • ia • cu • lèt • to/"@it ;
+    skos:definition "Culetto sopra cui è stato eiaculato"@it ;
+    skos:example "Ho ridotto il culetto di Carla un eiaculetto!"@it ;
+    schema:keywords "culetto, eiaculato, sesso, sperma";
+    dct:created "2024-09-28" ;
+    dct:creator vocang:ribaudoSofia .
+
+vocang:vulcane
+    a vocang:Parolangelo ;
+    skos:prefLabel "Vulcane"@it ;
+    lexinfo:pronunciation "/vul • cà • ne/"@it ;
+    skos:definition "Cane kamikaze"@it ;
+    skos:example "Il vulcane ha fatto esplodere la casa del vicino. È stato molto spaventoso e mi ha fatto venire i brividi!"@it ;
+    schema:keywords "cane, kamikaze";
+    dct:created "2024-09-28" ;
+    dct:creator vocang:bianchiniGiovanni, vocang:filasetaAngelo .
