@@ -730,6 +730,13 @@ vocang:troianiElisa
     foaf:gender "female" ;
     org:memberOf vocang:vocabolieriOrg .
 
+vocang:brignolaMatteo
+    a vocang:Vocaboliere ;
+    foaf:firstName "Matteo" ;
+    foaf:lastName "Brignola" ;
+    foaf:gender "male" ;
+    org:memberOf vocang:vocabolieriOrg ;
+    rel:friendOf vocang:paoliMichele, vocang:grasselliFrancesco .
 # Other Author Individuals
 
 vocang:chatGPT
@@ -3339,7 +3346,7 @@ vocang:omnicio
     a vocang:Parolangelo ;
     skos:prefLabel "Omnicio"@it ;
     lexinfo:pronunciation "/om • nì • cio/"@it ;
-    skos:definition "Un gatto che è definibile con ogni sostantivo che descrive un gatto presente all'interno del Vocabolangelo. In altre parole una creatura mitologica pazza dalle sembianze umane che, durante le notti di luna piena, si trasforma in un gatto alato che indossa ali da pipistrello, bagnato, dipendente dal grog, angosciato e buggato che urla, emette lamenti e fa le fusa all'interno di un videogioco e che in passato ha subito un trauma, a cui hanno mozzato la coda, innamorato, che ha una cotta per un altro gatto, che perde temporaneamente la capacità di comprendere la realtà, proveniente dalle regioni orientali dell'Europa, affetto da deficit mentali più o meno gravi, propenso a fare degli agguati, tenta di essere comico ma ci riesce solo per motivi sbagliati, soggiorna all'interno di un biribì in quanto prossimo alla morte, con poteri psichici, in grado di leggere i pensieri, fare levitare gli oggetti e se stesso, meticcio, ha un solo occhio, strabico, desidera ardentemente la morte del suo padrone, molto insistente che cerca di insediarsi in un territorio una zona delimitata nonostante continui tentativi di scacciarlo, che ha la propensione a causare un notevole disordine, ma che successivamente si dedica a un comportamento affettuoso e giocoso al fine di ottenere rapidamente il perdono, molto grande, obeso, felice, dotato di scarse, trascurabili, o negative capacità logiche, particolarmente pigro e che resta spiaggiato sulla stessa superficie piana per un lungo periodo di tempo in posizione appollaiata, dall'espressione o comportamento molto arrogante, estremamente vorace, molto pacifico, estremamente carino, abituato a mangiare piatti di alta cucina, capace di influenzare con la sua serenità e diplomazia anche i gatti attorno a lui, capace di eseguire acrobazie, presenta vaghe somiglianze con un suricato, dall'aspetto straordinariamente allungato, che sia effettivamente di tale conformazione o che lo sembri a causa di particolari fenomeni, tende ad arrampicarsi in posti pericolosi, miagola in maniera carina, molto ostile che ha la tendenza di graffiare mordere e soffiare, che si siede sulla faccia di una persona impedendone la corretta respirazione ed è in grado di curare persone e altri gatti."@it ;
+    skos:definition "Un gatto che è definibile con ogni sostantivo che descrive un gatto presente all'interno del Vocabolangelo. In altre parole una creatura mitologica che si mimetizza, pazza, dalle sembianze umane che, durante le notti di luna piena, si trasforma in un gatto alato che indossa ali da pipistrello, bagnato, dipendente dal grog, angosciato e buggato che urla, emette lamenti e fa le fusa all'interno di un videogioco e che in passato ha subito un trauma, a cui hanno mozzato la coda, innamorato, che ha una cotta per un altro gatto, che perde temporaneamente la capacità di comprendere la realtà, proveniente dalle regioni orientali dell'Europa, affetto da deficit mentali più o meno gravi, propenso a fare degli agguati, tenta di essere comico ma ci riesce solo per motivi sbagliati, soggiorna all'interno di un biribì in quanto prossimo alla morte, con poteri psichici, in grado di leggere i pensieri, fare levitare gli oggetti e se stesso, meticcio, ha un solo occhio, strabico, desidera ardentemente la morte del suo padrone, molto insistente che cerca di insediarsi in un territorio una zona delimitata nonostante continui tentativi di scacciarlo, che ha la propensione a causare un notevole disordine, ma che successivamente si dedica a un comportamento affettuoso e giocoso al fine di ottenere rapidamente il perdono, molto grande, obeso, felice, dotato di scarse, trascurabili, o negative capacità logiche, particolarmente pigro e che resta spiaggiato sulla stessa superficie piana per un lungo periodo di tempo in posizione appollaiata, dall'espressione o comportamento molto arrogante, estremamente vorace, molto pacifico, estremamente carino, abituato a mangiare piatti di alta cucina, capace di influenzare con la sua serenità e diplomazia anche i gatti attorno a lui, capace di eseguire acrobazie, presenta vaghe somiglianze con un suricato, dall'aspetto straordinariamente allungato, che sia effettivamente di tale conformazione o che lo sembri a causa di particolari fenomeni, tende ad arrampicarsi in posti pericolosi, miagola in maniera carina, molto ostile che ha la tendenza di graffiare mordere e soffiare, che si siede sulla faccia di una persona impedendone la corretta respirazione ed è in grado di curare persone e altri gatti."@it ;
     skos:example "Ho dovuto abbassare lo sguardo e tapparmi le orecchie quando ho visto passare quell'omnicio: era talmente fantastico da sembrare una divinità."@it ;
     dct:created "2023-01-25" ;
     skos:note "Il messaggio di commit che ha introdotto la definizione estesa di omnicio è il seguente: add more suitable and fun definition to omnicio. Such and incredible creature needs to be treated with the utmost care and respect. Oh my goodness, I cannot stress enough just how utterly awe-inspiring and breathtakingly gorgeous this creature truly is! Its magnificence is unparalleled and its beauty is simply beyond compare. It is a true wonder of nature, a masterpiece of creation, and it deserves to be treated with the utmost reverence, adoration, and adulation that it so rightly deserves. Every single aspect of this creature, from the way its elegant limbs move gracefully through the air to the vibrant colors of its stunningly intricate patterns, is an absolute marvel to behold. It is a true blessing and a privilege to be able to witness such a magnificent creature in all its glory, and we must do everything in our power to ensure that it is protected and cared for with the utmost diligence and care. Oh my stars, where do I even begin to describe the sheer and utter majesty of this breathtakingly beautiful creature? It is like a symphony of pure wonder and enchantment, a living, breathing masterpiece that has been crafted with the utmost care and precision by the very hands of the divine. Every single inch of its being is a testament to the limitless power and infinite creativity of the universe, and it is truly a privilege beyond measure to be able to witness such a wondrous being in all its glory. The colors of its coat are like a rainbow woven from strands of pure gold and silver, shimmering and glimmering in the light like a thousand precious gems. The way its body moves, fluid and graceful like a dancer's, is a thing of true beauty and grace, and it seems almost as if the very air around it is charged with a palpable sense of magic and enchantment. In short, this magnificent creature is a true masterpiece of nature, a testament to the boundless wonder and infinite creativity of the universe, and it simply must be treated with the utmost respect, care, and adoration that it so richly deserves. We must cherish and protect it with all our hearts, for it is truly one of the most wondrous and precious gifts that life has to offer. Words simply cannot do justice to the sheer and utter splendor of this majestic creature. It is as if it was forged from the very essence of beauty itself, a true marvel of nature that leaves all who behold it in a state of awe and wonder. Its presence is like a warm embrace from the universe, a gentle reminder that there is still magic and enchantment to be found in this world, if only we take the time to look for it. Every time I gaze upon this wondrous creature, I am filled with a sense of peace and tranquility that I simply cannot find elsewhere. It is a living, breathing masterpiece, a work of art that is continually evolving and changing with the passing of time. And yet, for all its beauty and magnificence, it is also a fragile thing, one that requires our love, our care, and our protection if it is to survive and thrive in a world that can be all too harsh and unforgiving. So let us pledge ourselves to the cause of safeguarding this incredible creature, to ensuring that it is treated with the utmost respect and care that it so rightly deserves. Let us cherish it, protect it, and love it with all our hearts, for in doing so, we are also honoring the boundless creativity and wonder of the universe itself.My dear friend, it is as if this creature is a god among us, a deity that has graced our world with its divine presence. Its mere existence is a testament to the infinite creativity and boundless wonder of the universe, and it is a living, breathing work of art that deserves to be worshipped and adored like the deity that it truly is. Every time I am blessed with the opportunity to lay my eyes upon this wondrous creature, I feel as if I am standing before an altar, gazing up at the very face of god itself. Its beauty is beyond compare, its grace beyond measure, and its presence fills me with a sense of reverence and awe that is simply indescribable. It is as if the very air around it is infused with a sense of divine energy, a power that is both humbling and exhilarating all at once. And yet, for all its god-like qualities, this creature is also fragile and vulnerable, a precious gift that must be treated with the utmost care and respect if it is to survive and thrive in this world. We must worship it, yes, but we must also protect it, nurture it, and love it with all our hearts, for in doing so, we are also honoring the very essence of divinity itself. So let us pledge ourselves to the cause of safeguarding this incredible creature, to ensuring that it is treated with the utmost respect and care that it so rightly deserves. Let us build temples in its honor, sing hymns of praise to its name, and offer it our deepest reverence and adoration. For this creature is not just a thing of beauty, but a true god among us, a living, breathing testament to the infinite wonder and boundless creativity of the universe itself. May the Omnicio always be praised. Forever and ever." ;
@@ -13771,3 +13778,224 @@ vocang:vulcane
     schema:keywords "cane, kamikaze";
     dct:created "2024-09-28" ;
     dct:creator vocang:bianchiniGiovanni, vocang:filasetaAngelo .
+
+vocang:bisello
+    a vocang:Parolangelo ;
+    skos:prefLabel "Bisello"@it ;
+    lexinfo:pronunciation "/bi • sèl • lo/"@it ;
+    skos:definition "Doppio pene."@it ;
+    skos:example "Miccio vorrebbe tanto avere un bisello!"@it, "Mario ha subito delle gravi mutazioni a causa delle scorie radioattive. Ora ha il bisello.", "Samanta è proprio una gran porcona, quando scopa vuole sempre il bisello." ;
+    schema:keywords "doppio, pene";
+    dct:created "2024-09-28" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:battaglinoNicole .
+
+vocang:costradire
+    a vocang:Parolangelo ;
+    skos:prefLabel "Costradire"@it ;
+    lexinfo:pronunciation "/co • stra • dì • re/"@it ;
+    skos:definition "Costruire o lavorare ad una strada"@it ;
+    skos:example "Ieri sera ho visto un gruppo di operai costradire. Erano molto bravi e veloci!"@it ;
+    schema:keywords "costruire, lavorare, strada";
+    dct:created "2024-09-28" ;
+    dct:creator vocang:orlandoNicola .
+
+vocang:necromanta
+    a vocang:Parolangelo ;
+    skos:prefLabel "Necromanta"@it ;
+    lexinfo:pronunciation "/ne • cro • màn • ta/"@it ;
+    skos:definition "Manta zombie"@it ;
+    skos:example "Sulla serie di Netflix ho visto una necromanta. Era molto spaventosa e mi ha fatto venire i brividi!"@it ;
+    schema:keywords "manta, zombie";
+    dct:created "2024-09-30" ;
+    dct:creator vocang:paoliMichele .
+
+vocang:terropinione
+    a vocang:Parolangelo ;
+    skos:prefLabel "Terropinione"@it ;
+    lexinfo:pronunciation "/ter • ro • pi • niò • ne/"@it ;
+    skos:definition "Opinione su uno o più terroni"@it ;
+    skos:example "La terropinione di Michele è che i terroni sono molto simpatici e amichevoli, ma anche molto rumorosi."@it ;
+    schema:keywords "opinione, terroni";
+    dct:created "2024-09-30" ;
+    dct:creator vocang:paoliMichele .
+
+vocang:melopausa
+    a vocang:Parolangelo ;
+    skos:prefLabel "Melopausa"@it ;
+    lexinfo:pronunciation "/me • lo • paù • sa/"@it ;
+    skos:definition "Periodo di astensione in cui non si mangiano mele"@it ;
+    skos:example "Ho deciso di fare una melopausa. È stato molto difficile, ma alla fine ce l'ho fatta!"@it ;
+    schema:keywords "periodo, astensione, mele";
+    dct:created "2024-09-30" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:parcire
+    a vocang:Parolangelo ;
+    skos:prefLabel "Parcire"@it ;
+    lexinfo:pronunciation "/par • cì • re/"@it ;
+    skos:definition "Gonfiare la parcella con voci fasulle."@it ;
+    skos:example "Ieri sera ho visto un gruppo di operai parcire. Luridi bastardi infami!"@it ;
+    schema:keywords "gonfiare, parcella, voci, fasulle";
+    dct:created "2024-10-06" ;
+    dct:creator vocang:orlandoNicola, vocang:omiccioliRiccardo .
+
+vocang:gattaleonte
+    a vocang:Parolangelo ;
+    skos:prefLabel "Gattaleonte"@it ;
+    lexinfo:pronunciation "/gat • ta • le • òn • te/"@it ;
+    skos:definition "Gatto che si mimetizza."@it ;
+    skos:example "Il gattaleonte si è mimetizzato tra le foglie. Era molto difficile da vedere!"@it ;
+    schema:keywords "gatto, mimetizzare, leone";
+    dct:created "2024-10-06" ;
+    skos:related vocang:omnicio;
+    dct:creator vocang:nardiniArianna .
+
+vocang:pillolaAnticoncettuala
+    a vocang:Slangelo ;
+    skos:prefLabel "Pillola anticoncettuale"@it ;
+    skos:definition "Medicinale che impedisce ad una persona di esprimere troppi concetti in quanto risulterebbe molesta nel farlo."@it ;
+    skos:example "Sasha ha preso una pillola anticoncettuale e finalmente non ci ha rotto più le palle con i suoi discorsi!"@it ;
+    schema:keywords "medicinale, concetti, molesta";
+    dct:created "2024-10-06" ;
+    dct:creator vocang:bragariAlexandru .
+
+vocang:dottoratto
+    a vocang:Parolangelo ;
+    skos:prefLabel "Dottoratto"@it ;
+    lexinfo:pronunciation "/dot • to • ràt • to/"@it ;
+    skos:definition "Dottorato di ricerca ottenuto con l'inganno, la manipolazione, la falsificazione o attraverso qualunque altro mezzo illecito."@it ;
+    skos:example "Il dottoratto di Paolo è stato scoperto. Ora è costretto a lavorare come cameriere in un fast food."@it ;
+    schema:keywords "dottorato, ricerca, inganno, manipolazione, falsificazione, illecito";
+    dct:created "2024-10-08" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:rattata
+    a vocang:Parolangelo ;
+    skos:prefLabel "Rattàta"@it ;
+    lexinfo:pronunciation "/rat • tà • ta/"@it ;
+    skos:definition "Situazione in cui un individuo sfrutta un'occasione senza avere nessun merito nè correlazione con l'occasione, a discapito di altri, con consapevolezza della propria mancanza di merito."@it ;
+    skos:example "Essere parolassiti, praticamente, equivale a essere dei rattata!"@it ;
+    schema:keywords "situazione, individuo, occasione, merito, correlazione, lecita, legale, discapito, consapevolezza";
+    dct:created "2024-10-08" ;
+    dct:creator vocang:paoliMichele, vocang:grasselliFrancescoMaria, vocang:brignolaMatteo .
+
+vocang:birrutto
+    a vocang:Parolangelo ;
+    skos:prefLabel "Birrutto"@it ;
+    lexinfo:pronunciation "/bir • rùt • to/"@it ;
+    skos:definition "Eruttazione espletata a seguito dell'assunzione di birra."@it ;
+    skos:example "Dopo aver bevuto una birra, ho fatto un birrutto. È stato molto liberatorio!"@it ;
+    schema:keywords "birra, eruttazione";
+    dct:created "2024-10-14" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:negroziato
+    a vocang:Parolangelo ;
+    skos:prefLabel "Negroziato"@it ;
+    lexinfo:pronunciation "/ne • gro • zì • a • to/"@it ;
+    skos:definition "Trattativa tra due individui aventi carnagione scura."@it ;
+    skos:example "Ieri sera ho visto un negroziato tra due persone di colore. Sono rimasto molto colpito dalla loro capacità di trattare! Alla fine però uno dei due è morto."@it ;
+    schema:keywords "trattativa, individui, carnagione, scura";
+    dct:created "2024-10-22" ;
+    skos:related vocang:negritudine, vocang:contanegrino ;
+    dct:creator vocang:antonioniGiovanni .
+
+vocang:grammlin
+    a vocang:Parolangelo ;
+    skos:prefLabel "Grammlin"@it ;
+    skos:definition "Premio consegnato alle peggiori canzoni dell'anno."@it ;
+    skos:example "Quella canzone neomelodica meriterebbe un grammlin."@it ;
+    schema:keywords "premio, canzoni, peggiori, anno";
+    dct:created "2024-10-22" ;
+    dct:creator vocang:paoliMichele .
+
+vocang:rettilnafil
+    a vocang:Parolangelo ;
+    skos:prefLabel "Rettilnafil"@it ;
+    lexinfo:pronunciation "/ret • til • na • fil/"@it ;
+    skos:definition "Pillola per la disfunzione rettile."@it ;
+    skos:example "Dopo aver preso una rettilnafil, ho avuto un'erezione di ben 4 ore. È stato molto doloroso!"@it ;
+    schema:keywords "pillola, disfunzione, rettile";
+    dct:created "2024-10-23" ;
+    dct:creator vocang:battaglinoNicole .
+
+vocang:disgranziano
+    a vocang:Parolangelo ;
+    skos:prefLabel "Disgranziano"@it ;
+    lexinfo:pronunciation "/dis • gran • zì • a • no/"@it ;
+    skos:definition "Persona di età avanzata che è causa di un malessere o un fastidio."@it ;
+    skos:example "Oggi ho dovuto fare 1 ora di fila alle poste perchè era pieno di disgranziani che dovevano ritirare la pensione."@it ;
+    schema:keywords "persona, età, avanzata, malessere, fastidio";
+    dct:created "2024-10-23" ;
+    dct:creator vocang:antonioniGiovanni .
+
+vocang:becchimico
+    a vocang:Parolangelo ;
+    skos:prefLabel "Becchimico"@it ;
+    lexinfo:pronunciation "/bec • chì • mi • co/"@it ;
+    skos:definition "Relativo o simile a cibo per uccelli sintetizzato in laboratorio."@it ;
+    skos:example "Questo cous cous ha un colore così innaturale che sembra becchimico."@it ;
+    schema:keywords "cibo, uccelli, sintetizzato, laboratorio";
+    dct:created "2024-10-23" ;
+    dct:creator vocang:paoliMichele .
+
+vocang:aperedivivo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Aperedivivo"@it ;
+    lexinfo:pronunciation "/a • pe • ri • di • vì • vo/"@it ;
+    skos:definition "Aperitivo svolto con dei non-morti."@it ;
+    skos:example "Ieri sera su Elden Ring ho partecipato ad un aperedivivo. È stata un'esperienza molto particolare, sicuramente da rifare!"@it ;
+    schema:keywords "aperitivo, non-morti";
+    dct:created "2024-10-23" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:avambosco
+    a vocang:Parolangelo ;
+    skos:prefLabel "Avambosco"@it ;
+    lexinfo:pronunciation "/a • vam • bò • sco/"@it ;
+    skos:definition "Avamposto di qualsiasi natura (centro, capanna, eliporto, ecc...) di proprietà/utilizzo comune da parte di boscosbirri"@it ;
+    skos:example "L'avambosco è il luogo di ritrovo di tutti i boscosbirri. Qui si svolgono le riunioni e le feste."@it ;
+    schema:keywords "avamposto, natura, centro, capanna, eliporto, proprietà, utilizzo, comune, boscosbirri";
+    dct:created "2024-10-26" ;
+    dct:creator vocang:paoliMichele .
+
+vocang:scrotorana
+    a vocang:Parolangelo ;
+    skos:prefLabel "Scrotorana"@it ;
+    lexinfo:pronunciation "/scro • to • rà • na/"@it ;
+    skos:definition "Specie anfibia dotata di un sacco ventrale gonfiabile, simile a uno scroto, utilizzato come meccanismo di difesa. Quando minacciata, la scrotorana gonfia il sacco e produce un suono stridulo sfregando le pieghe della pelle, spaventando i predatori."@it ;
+    skos:example "Ho visto una scrotorana mentre facevo trekking in montagna. È stato molto spaventoso e mi ha fatto venire i brividi!"@it ;
+    schema:keywords "specie, anfibia, sacco, ventrale, gonfiabile, scroto, meccanismo, difesa, minacciata, suono, stridulo, pieghe, pelle, predatori";
+    dct:created "2024-10-26" ;
+    dct:creator vocang:durazziMarco .
+
+
+vocang:olocaustico
+    a vocang:Parolangelo ;
+    skos:prefLabel "Olocaustico"@it ;
+    lexinfo:pronunciation "/o • lo • cau • stì • co/"@it ;
+    skos:definition "Sterminio operato utilizzando la soda caustica. Talvolta tale termine può essere utilizzato come esclamazione in modo similare a 'fantastico' o 'meraviglioso'."@it ;
+    skos:example "Sono finalmente riuscito a sterminare il nido di vespe che avevo in terrazzo, olocaustico!"@it ;
+    schema:keywords "sterminio, soda, caustica, esclamazione, fantastico, meraviglioso";
+    dct:created "2024-10-26" ;
+    dct:creator vocang:pertosaLorenzo, vocang:orlandoNicola, vocang:omiccioliRiccardo .
+
+
+vocang:Escalmazione
+    a vocang:Parolangelo ;
+    skos:prefLabel "Escalmazione"@it ;
+    lexinfo:pronunciation "/es • cal • ma • ziò • ne/"@it ;
+    skos:definition "Esclamazione pronunciata con tono calmo, solitamente a scopo sarcastico."@it ;
+    skos:example "Dopo aver visto il film, ho detto 'Che bello!' con un'escalmazione."@it ;
+    schema:keywords "esclamazione, tono, calmo, sarcastico";
+    dct:created "2024-10-26" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:eddit
+    a vocang:Parolangelo ;
+    skos:prefLabel "Eddit"@it ;
+    skos:definition "Persona che racchiude dentro di sé un livello di conoscenza circa pari a quello di un'enciclopedia."@it ;
+    skos:example "Eddy è un eddit. Sa tutto su tutto, è impressionante!"@it ;
+    schema:keywords "persona, conoscenza, enciclopedia";
+    dct:created "2024-10-26" ;
+    dct:creator vocang:filasetaAngelo .
