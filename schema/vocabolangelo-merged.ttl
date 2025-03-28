@@ -12304,3 +12304,40 @@
 <http://www.vocabolangelo.org/xemaforo> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/xe • ma • fo • ro/"@it .
 <http://www.vocabolangelo.org/xemaforo> <http://www.w3.org/2004/02/skos/core#definition> "Semaforo razzista, che quando vede una vettura approcciarsi guidata da una persona di colore o di un etnia diversa da quella prevalente nello stato in in cui è situato, diventa rosso, o comunque fa durare il rosso di più."@it .
 <http://www.vocabolangelo.org/xemaforo> <http://www.w3.org/2004/02/skos/core#example> "Il contanegrino si è approciato allo xemaforo, che non ci ha pensato un attimo ed è diventato rosso come il sangue!!"@it .
+<http://www.vocabolangelo.org/xemaforo> <http://www.w3.org/2004/02/skos/core#example> "Il brasiliano è stato arrestato a Dubai perchè ha incontrato uno xemaforo: è per forza dovuto passare col rosso per colpa sua!" .
+<http://www.vocabolangelo.org/xemaforo> <https://schema.org/keywords> "semaforo, razzista, vettura, persona, colore, etnia, rosso" .
+<http://www.vocabolangelo.org/xemaforo> <http://purl.org/dc/terms/created> "2024-11-05" .
+<http://www.vocabolangelo.org/xemaforo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
+<http://www.vocabolangelo.org/xemaforo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/savoGiorgia> .
+<http://www.vocabolangelo.org/ditanellino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/ditanellino> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ditanellino"@it .
+<http://www.vocabolangelo.org/ditanellino> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/di • ta • nel • lì • no/"@it .
+<http://www.vocabolangelo.org/ditanellino> <http://www.w3.org/2004/02/skos/core#definition> "Ditalino in cui si ha un anello al dito prima dell'atto ma non dopo."@it .
+<http://www.vocabolangelo.org/ditanellino> <http://www.w3.org/2004/02/skos/core#example> "Ieri ho fatto un ditanellino a Carla; ha creduto che le stessi chiedendo di sposarli!!"@it .
+<http://www.vocabolangelo.org/ditanellino> <https://schema.org/keywords> "anello, dito, ditalino" .
+<http://www.vocabolangelo.org/ditanellino> <http://purl.org/dc/terms/created> "2024-11-11" .
+<http://www.vocabolangelo.org/ditanellino> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/orlandoNicola> .
+<http://www.vocabolangelo.org/canarmato> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/canarmato> <http://www.w3.org/2004/02/skos/core#prefLabel> "Canarmato"@it .
+<http://www.vocabolangelo.org/canarmato> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/ca • nar • mà • to/"@it .
+<http://www.vocabolangelo.org/canarmato> <http://www.w3.org/2004/02/skos/core#definition> "Cane di grossa taglia."@it .
+<http://www.vocabolangelo.org/canarmato> <http://www.w3.org/2004/02/skos/core#example> "Quel pastore tedesco è un canarmato! Quanto pesa, 50Kg?"@it .
+<http://www.vocabolangelo.org/canarmato> <https://schema.org/keywords> "cane, grossa, taglia" .
+<http://www.vocabolangelo.org/canarmato> <http://purl.org/dc/terms/created> "2024-11-16" .
+<http://www.vocabolangelo.org/canarmato> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/orlandoNicola> .
+<http://www.vocabolangelo.org/cioco-pop> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/cioco-pop> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cioco-pop"@it .
+<http://www.vocabolangelo.org/cioco-pop> <http://www.w3.org/2004/02/skos/core#definition> "Musica pop fatta da persone di colore."@it .
+<http://www.vocabolangelo.org/cioco-pop> <http://www.w3.org/2004/02/skos/core#example> "La musica cioco-pop è molto coinvolgente e ballabile. Mi piace molto!"@it .
+<http://www.vocabolangelo.org/cioco-pop> <https://schema.org/keywords> "musica, pop, persone, colore, nero" .
+<http://www.vocabolangelo.org/cioco-pop> <http://purl.org/dc/terms/created> "2024-11-16" .
+<http://www.vocabolangelo.org/cioco-pop> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/negritudine> .
+<http://www.vocabolangelo.org/cioco-pop> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
+<http://www.vocabolangelo.org/retracing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/retracing> <http://www.w3.org/2004/02/skos/core#prefLabel> "Retracing"@it .
+<http://www.vocabolangelo.org/retracing> <http://www.w3.org/2004/02/skos/core#definition> "Inseguimento del re nel gioco degli scacchi."@it .
+<http://www.vocabolangelo.org/retracing> <http://www.w3.org/2004/02/skos/core#example> "Ho fatto un retracing molto aggressivo contro il mio avversario. È stato molto divertente e alla fine ho vinto!"@it .
+<http://www.vocabolangelo.org/retracing> <https://schema.org/keywords> "inseguimento, re, gioco, scacchi" .
+<http://www.vocabolangelo.org/retracing> <http://purl.org/dc/terms/created> "2024-11-22" .
+<http://www.vocabolangelo.org/retracing> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/suscaMatteo> .
+<http://www.vocabolangelo.org/retracing> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/bdeouiEddy> .
