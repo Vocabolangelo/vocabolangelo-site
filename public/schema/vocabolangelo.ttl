@@ -13969,7 +13969,6 @@ vocang:scrotorana
     dct:created "2024-10-26" ;
     dct:creator vocang:durazziMarco .
 
-
 vocang:olocaustico
     a vocang:Parolangelo ;
     skos:prefLabel "Olocaustico"@it ;
@@ -13980,8 +13979,7 @@ vocang:olocaustico
     dct:created "2024-10-26" ;
     dct:creator vocang:pertosaLorenzo, vocang:orlandoNicola, vocang:omiccioliRiccardo .
 
-
-vocang:Escalmazione
+vocang:escalmazione
     a vocang:Parolangelo ;
     skos:prefLabel "Escalmazione"@it ;
     lexinfo:pronunciation "/es • cal • ma • ziò • ne/"@it ;
@@ -14027,8 +14025,6 @@ vocang:melogrammo
     schema:keywords "unità, misura, seme, melograno";
     dct:created "2024-10-29" ;
     dct:creator vocang:omiccioliRiccardo, vocang:pertosaLorenzo .
-
-    Marijuale: manuale su come far crescere la marijuana. Autore: P
 
 vocang:marijuale
     a vocang:Parolangelo ;
