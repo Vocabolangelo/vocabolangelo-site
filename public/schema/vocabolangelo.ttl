@@ -13549,12 +13549,12 @@ vocang:frenulworld
     dct:created "2024-09-13" ;
     dct:creator vocang:pianiniDanilo .
 
-vocang:universitadio
+vocang:universitardo
     a vocang:Parolangelo ;
-    skos:prefLabel "Universitadio"@it ;
-    lexinfo:pronunciation "/u • ni • ver • si • tà • di • o/"@it ;
+    skos:prefLabel "Universitardo"@it ;
+    lexinfo:pronunciation "/u • ni • ver • si • tàr • do/"@it ;
     skos:definition "Studente universitario fuoricorso."@it ;
-    skos:example "A causa dell'esame di fisica, sono diventato un universitadio. Non riesco a passarlo per niente! Mi chiedo come abbia fatto Sasha al primo tentativo..."@it ;
+    skos:example "A causa dell'esame di fisica, sono diventato un universitardo. Non riesco a passarlo per niente! Mi chiedo come abbia fatto Sasha al primo tentativo..."@it ;
     schema:keywords "università, partite, calcio, studenti, professori";
     dct:created "2024-09-13" ;
     dct:creator vocang:antonioniGiovanni .
