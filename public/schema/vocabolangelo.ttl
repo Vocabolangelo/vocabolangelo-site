@@ -14061,7 +14061,7 @@ vocang:xemaforo
     skos:prefLabel "Xemaforo"@it ;
     lexinfo:pronunciation "/xe • ma • fo • ro/"@it ;
     skos:definition "Semaforo razzista, che quando vede una vettura approcciarsi guidata da una persona di colore o di un etnia diversa da quella prevalente nello stato in in cui è situato, diventa rosso, o comunque fa durare il rosso di più."@it ;
-    skos:example "Il contanegrino si è approciato allo xemaforo, che non ci ha pensato un attimo ed è diventato rosso come il sangue!!"@it "Il brasiliano è stato arrestato a Dubai perchè ha incontrato uno xemaforo: è per forza dovuto passare col rosso per colpa sua!";
+    skos:example "Il contanegrino si è approciato allo xemaforo, che non ci ha pensato un attimo ed è diventato rosso come il sangue!!"@it, "Il brasiliano è stato arrestato a Dubai perchè ha incontrato uno xemaforo: è per forza dovuto passare col rosso per colpa sua!";
     schema:keywords "semaforo, razzista, vettura, persona, colore, etnia, rosso";
     dct:created "2024-11-05" ;
     dct:creator vocang:filasetaAngelo, vocang:savoGiorgia .
