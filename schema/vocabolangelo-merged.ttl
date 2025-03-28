@@ -12237,14 +12237,14 @@
 <http://www.vocabolangelo.org/olocaustico> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
 <http://www.vocabolangelo.org/olocaustico> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/orlandoNicola> .
 <http://www.vocabolangelo.org/olocaustico> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
-<http://www.vocabolangelo.org/Escalmazione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
-<http://www.vocabolangelo.org/Escalmazione> <http://www.w3.org/2004/02/skos/core#prefLabel> "Escalmazione"@it .
-<http://www.vocabolangelo.org/Escalmazione> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/es • cal • ma • ziò • ne/"@it .
-<http://www.vocabolangelo.org/Escalmazione> <http://www.w3.org/2004/02/skos/core#definition> "Esclamazione pronunciata con tono calmo, solitamente a scopo sarcastico."@it .
-<http://www.vocabolangelo.org/Escalmazione> <http://www.w3.org/2004/02/skos/core#example> "Dopo aver visto il film, ho detto 'Che bello!' con un'escalmazione."@it .
-<http://www.vocabolangelo.org/Escalmazione> <https://schema.org/keywords> "esclamazione, tono, calmo, sarcastico" .
-<http://www.vocabolangelo.org/Escalmazione> <http://purl.org/dc/terms/created> "2024-10-26" .
-<http://www.vocabolangelo.org/Escalmazione> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/escalmazione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/escalmazione> <http://www.w3.org/2004/02/skos/core#prefLabel> "Escalmazione"@it .
+<http://www.vocabolangelo.org/escalmazione> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/es • cal • ma • ziò • ne/"@it .
+<http://www.vocabolangelo.org/escalmazione> <http://www.w3.org/2004/02/skos/core#definition> "Esclamazione pronunciata con tono calmo, solitamente a scopo sarcastico."@it .
+<http://www.vocabolangelo.org/escalmazione> <http://www.w3.org/2004/02/skos/core#example> "Dopo aver visto il film, ho detto 'Che bello!' con un'escalmazione."@it .
+<http://www.vocabolangelo.org/escalmazione> <https://schema.org/keywords> "esclamazione, tono, calmo, sarcastico" .
+<http://www.vocabolangelo.org/escalmazione> <http://purl.org/dc/terms/created> "2024-10-26" .
+<http://www.vocabolangelo.org/escalmazione> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
 <http://www.vocabolangelo.org/eddit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/eddit> <http://www.w3.org/2004/02/skos/core#prefLabel> "Eddit"@it .
 <http://www.vocabolangelo.org/eddit> <http://www.w3.org/2004/02/skos/core#definition> "Persona che racchiude dentro di sé un livello di conoscenza circa pari a quello di un'enciclopedia."@it .
@@ -12275,3 +12275,32 @@
 <http://www.vocabolangelo.org/melogrammo> <http://purl.org/dc/terms/created> "2024-10-29" .
 <http://www.vocabolangelo.org/melogrammo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
 <http://www.vocabolangelo.org/melogrammo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/marijuale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/marijuale> <http://www.w3.org/2004/02/skos/core#prefLabel> "Marijuale"@it .
+<http://www.vocabolangelo.org/marijuale> <http://www.w3.org/2004/02/skos/core#definition> "Manuale che illustra come far crescere la marijuana."@it .
+<http://www.vocabolangelo.org/marijuale> <http://www.w3.org/2004/02/skos/core#example> "Ho comprato il marijuale di Paolo. È molto interessante e mi ha insegnato molte cose. Che sballo!"@it .
+<http://www.vocabolangelo.org/marijuale> <https://schema.org/keywords> "manuale, crescere, marijuana" .
+<http://www.vocabolangelo.org/marijuale> <http://purl.org/dc/terms/created> "2024-11-01" .
+<http://www.vocabolangelo.org/marijuale> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/tirocigno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/tirocigno> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tirocigno"@it .
+<http://www.vocabolangelo.org/tirocigno> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/ti • ro • cì • gno/"@it .
+<http://www.vocabolangelo.org/tirocigno> <http://www.w3.org/2004/02/skos/core#definition> "Periodo nel quale il piccolo del cigno impara a volare seguendo la madre o dei cigni più grandi."@it .
+<http://www.vocabolangelo.org/tirocigno> <http://www.w3.org/2004/02/skos/core#example> "Ho visto un piccolo volatile praticare il tirocigno mentre passeggiavo al parco. Ho tifato per lui!!"@it .
+<http://www.vocabolangelo.org/tirocigno> <https://schema.org/keywords> "periodo, piccolo, cigno, imparare, volare, madre" .
+<http://www.vocabolangelo.org/tirocigno> <http://purl.org/dc/terms/created> "2024-11-01" .
+<http://www.vocabolangelo.org/tirocigno> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
+<http://www.vocabolangelo.org/tirocignante> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/tirocignante> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tirocignante"@it .
+<http://www.vocabolangelo.org/tirocignante> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/ti • ro • ci • gnàn • te/"@it .
+<http://www.vocabolangelo.org/tirocignante> <http://www.w3.org/2004/02/skos/core#definition> "Piccolo di cigno che sta imparando a volare durante il periodo di tirocigno."@it .
+<http://www.vocabolangelo.org/tirocignante> <http://www.w3.org/2004/02/skos/core#example> "Ho visto un tirocignante mentre passeggiavo al parco. Mi ha fatto venire i brividi!"@it .
+<http://www.vocabolangelo.org/tirocignante> <https://schema.org/keywords> "piccolo, cigno, imparare, volare, periodo" .
+<http://www.vocabolangelo.org/tirocignante> <http://www.w3.org/2004/02/skos/core#related> <http://www.vocabolangelo.org/tirocigno> .
+<http://www.vocabolangelo.org/tirocignante> <http://purl.org/dc/terms/created> "2024-11-01" .
+<http://www.vocabolangelo.org/tirocignante> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
+<http://www.vocabolangelo.org/xemaforo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/xemaforo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Xemaforo"@it .
+<http://www.vocabolangelo.org/xemaforo> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/xe • ma • fo • ro/"@it .
+<http://www.vocabolangelo.org/xemaforo> <http://www.w3.org/2004/02/skos/core#definition> "Semaforo razzista, che quando vede una vettura approcciarsi guidata da una persona di colore o di un etnia diversa da quella prevalente nello stato in in cui è situato, diventa rosso, o comunque fa durare il rosso di più."@it .
+<http://www.vocabolangelo.org/xemaforo> <http://www.w3.org/2004/02/skos/core#example> "Il contanegrino si è approciato allo xemaforo, che non ci ha pensato un attimo ed è diventato rosso come il sangue!!"@it .
