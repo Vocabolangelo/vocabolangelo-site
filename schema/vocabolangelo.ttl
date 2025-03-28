@@ -177,7 +177,7 @@ vocang:orlandoNicola
     foaf:lastName "Orlando" ;
     foaf:nick "Orla" ;
     foaf:gender "male" ;
-    dct:description "Orla è una persona molto tranquilla e religiosa; riesce a mantenere consistente il supo ciclo del sonno in una maniera alquanto invidiabile. Amo le sue parolangelo che sono spesso funzionali o nate dal caso o da qualche evento divertente, mai scontate.";
+    dct:description "Orla è una persona molto tranquilla e religiosa; riesce a mantenere consistente il suo ciclo del sonno in una maniera alquanto invidiabile. Amo le sue parolangelo; spesso sono funzionali, nate dal caso o da qualche evento divertente, mai scontate.";
     org:memberOf vocang:vocaboladminOrg ;
     schema:image "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/orlandoNicola.jpg" ;
     rel:friendOf vocang:cortecchiaAngela, vocang:troianiElisa, vocang:bailettiTommaso, vocang:sanchiPiero, vocang:tronettiElisa, vocang:salhiSamir, vocang:durazziMarco, vocang:bragariAlexandru, vocang:talmiAlessandro, vocang:ribaudoSofia, vocang:timpanoSam, vocang:pertosaLorenzo, vocang:omiccioliRiccardo, vocang:battaglinoNicole, vocang:savoGiorgia, vocang:filasetaAngelo .
@@ -12730,7 +12730,7 @@ vocang:oltrepolento
 vocang:vulwatergun
     a vocang:Parolangelo ;
     skos:prefLabel "Vulwatergun"@it ;
-    skos:definition "Vagina finta modificata appositamente aggiungendo meccanismi di una psitola ad acqua elettronica e che acquisisce quindi la capacità di spruzzare acqua e squirtare."@it ;
+    skos:definition "Vagina finta modificata, alla quale vengono aggiunti meccanismi di una classica pistola ad acqua elettronica. La vagina acquisisce quindi la capacità di spruzzare acqua e squirtare."@it ;
     skos:example "Volevo utilizzare la mia vulwatergun nello scontro di domani, ma penso sia più adatta ad altri scopi dopo ieri sera..."@it ;
     schema:keywords "vagina, pistola, acqua, vulva, modifica, squirt, sesso";
     dct:created "2024-07-31" ;
@@ -13549,12 +13549,12 @@ vocang:frenulworld
     dct:created "2024-09-13" ;
     dct:creator vocang:pianiniDanilo .
 
-vocang:universitadio
+vocang:universitardo
     a vocang:Parolangelo ;
-    skos:prefLabel "Universitadio"@it ;
-    lexinfo:pronunciation "/u • ni • ver • si • tà • di • o/"@it ;
+    skos:prefLabel "Universitardo"@it ;
+    lexinfo:pronunciation "/u • ni • ver • si • tàr • do/"@it ;
     skos:definition "Studente universitario fuoricorso."@it ;
-    skos:example "A causa dell'esame di fisica, sono diventato un universitadio. Non riesco a passarlo per niente! Mi chiedo come abbia fatto Sasha al primo tentativo..."@it ;
+    skos:example "A causa dell'esame di fisica, sono diventato un universitardo. Non riesco a passarlo per niente! Mi chiedo come abbia fatto Sasha al primo tentativo..."@it ;
     schema:keywords "università, partite, calcio, studenti, professori";
     dct:created "2024-09-13" ;
     dct:creator vocang:antonioniGiovanni .
@@ -13999,3 +13999,113 @@ vocang:eddit
     schema:keywords "persona, conoscenza, enciclopedia";
     dct:created "2024-10-26" ;
     dct:creator vocang:filasetaAngelo .
+
+vocang:ambroMagique
+    a vocang:Slangelo ;
+    skos:prefLabel "Ambro Magique"@it ;
+    skos:definition "Fragranza che viene emanata da forni e pasticcerie per invogliare le persone ad entrare."@it ;
+    skos:example "Mentre passeggiavo per la città, ho sentito l'ambro magique di una pasticceria. Mi ha fatto venire l'acquolina in bocca!"@it ;
+    schema:keywords "fragranza, forni, pasticcerie, invogliare, persone, entrare";
+    dct:created "2024-10-26" ;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:kosovharem
+    a vocang:Parolangelo ;
+    skos:prefLabel "Kosovharem"@it ;
+    skos:definition "Harem di donne provenienti dal Kosovo."@it ;
+    skos:example "Il kosovharem è una pratica molto particolare. Mi piacerebbe provarla un giorno!"@it ;
+    schema:keywords "harem, donne, Kosovo";
+    dct:created "2024-10-27" ;
+    dct:creator vocang:paoliMichele .
+
+vocang:melogrammo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Melogrammo"@it ;
+    lexinfo:pronunciation "/me • lo • gràm • mo/"@it ;
+    skos:definition "Unità di misura che usa il peso di un intero melograno come riferimento."@it ;
+    skos:example "Miccio e Pippo si sono sfidati a chi mangiava più mele. Pippo ha mangiato circa 5 melogrammi, mentre Miccio ne ha mangiati 10!"@it ;
+    schema:keywords "unità, misura, seme, melograno";
+    dct:created "2024-10-29" ;
+    dct:creator vocang:omiccioliRiccardo, vocang:pertosaLorenzo .
+
+    Marijuale: manuale su come far crescere la marijuana. Autore: P
+
+vocang:marijuale
+    a vocang:Parolangelo ;
+    skos:prefLabel "Marijuale"@it ;
+    skos:definition "Manuale che illustra come far crescere la marijuana."@it ;
+    skos:example "Ho comprato il marijuale di Paolo. È molto interessante e mi ha insegnato molte cose. Che sballo!"@it ;
+    schema:keywords "manuale, crescere, marijuana";
+    dct:created "2024-11-01" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:tirocigno
+    a vocang:Parolangelo ;
+    skos:prefLabel "Tirocigno"@it ;
+    lexinfo:pronunciation "/ti • ro • cì • gno/"@it ;
+    skos:definition "Periodo nel quale il piccolo del cigno impara a volare seguendo la madre o dei cigni più grandi."@it ;
+    skos:example "Ho visto un piccolo volatile praticare il tirocigno mentre passeggiavo al parco. Ho tifato per lui!!"@it ;
+    schema:keywords "periodo, piccolo, cigno, imparare, volare, madre";
+    dct:created "2024-11-01" ;
+    dct:creator vocang:pertosaLorenzo .
+
+vocang:tirocignante
+    a vocang:Parolangelo ;
+    skos:prefLabel "Tirocignante"@it ;
+    lexinfo:pronunciation "/ti • ro • ci • gnàn • te/"@it ;
+    skos:definition "Piccolo di cigno che sta imparando a volare durante il periodo di tirocigno."@it ;
+    skos:example "Ho visto un tirocignante mentre passeggiavo al parco. Mi ha fatto venire i brividi!"@it ;
+    schema:keywords "piccolo, cigno, imparare, volare, periodo";
+    skos:related vocang:tirocigno ;
+    dct:created "2024-11-01" ;
+    dct:creator vocang:filasetaAngelo .
+
+vocang:xemaforo
+    a vocang:Parolangelo ;
+    skos:prefLabel "Xemaforo"@it ;
+    lexinfo:pronunciation "/xe • ma • fo • ro/"@it ;
+    skos:definition "Semaforo razzista, che quando vede una vettura approcciarsi guidata da una persona di colore o di un etnia diversa da quella prevalente nello stato in in cui è situato, diventa rosso, o comunque fa durare il rosso di più."@it ;
+    skos:example "Il contanegrino si è approciato allo xemaforo, che non ci ha pensato un attimo ed è diventato rosso come il sangue!!"@it "Il brasiliano è stato arrestato a Dubai perchè ha incontrato uno xemaforo: è per forza dovuto passare col rosso per colpa sua!";
+    schema:keywords "semaforo, razzista, vettura, persona, colore, etnia, rosso";
+    dct:created "2024-11-05" ;
+    dct:creator vocang:filasetaAngelo, vocang:savoGiorgia .
+
+vocang:ditanellino
+    a vocang:Parolangelo ;
+    skos:prefLabel "Ditanellino"@it ;
+    lexinfo:pronunciation "/di • ta • nel • lì • no/"@it ;
+    skos:definition "Ditalino in cui si ha un anello al dito prima dell'atto ma non dopo."@it ;
+    skos:example "Ieri ho fatto un ditanellino a Carla; ha creduto che le stessi chiedendo di sposarli!!"@it ;
+    schema:keywords "anello, dito, ditalino";
+    dct:created "2024-11-11" ;
+    dct:creator vocang:orlandoNicola .
+
+vocang:canarmato
+    a vocang:Parolangelo ;
+    skos:prefLabel "Canarmato"@it ;
+    lexinfo:pronunciation "/ca • nar • mà • to/"@it ;
+    skos:definition "Cane di grossa taglia."@it ;
+    skos:example "Quel pastore tedesco è un canarmato! Quanto pesa, 50Kg?"@it ;
+    schema:keywords "cane, grossa, taglia";
+    dct:created "2024-11-16" ;
+    dct:creator vocang:orlandoNicola .
+
+vocang:cioco-pop
+    a vocang:Parolangelo ;
+    skos:prefLabel "Cioco-pop"@it ;
+    skos:definition "Musica pop fatta da persone di colore."@it ;
+    skos:example "La musica cioco-pop è molto coinvolgente e ballabile. Mi piace molto!"@it ;
+    schema:keywords "musica, pop, persone, colore, nero";
+    dct:created "2024-11-16" ;
+    skos:related vocang:negritudine;
+    dct:creator vocang:omiccioliRiccardo .
+
+vocang:retracing
+    a vocang:Parolangelo ;
+    skos:prefLabel "Retracing"@it ;
+    skos:definition "Inseguimento del re nel gioco degli scacchi."@it ;
+    skos:example "Ho fatto un retracing molto aggressivo contro il mio avversario. È stato molto divertente e alla fine ho vinto!"@it ;
+    schema:keywords "inseguimento, re, gioco, scacchi";
+    dct:created "2024-11-22" ;
+    dct:creator vocang:suscaMatteo, vocang:bdeouiEddy .
+

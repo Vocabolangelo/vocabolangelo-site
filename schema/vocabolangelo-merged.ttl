@@ -168,7 +168,7 @@
 <http://www.vocabolangelo.org/orlandoNicola> <http://xmlns.com/foaf/0.1/lastName> "Orlando" .
 <http://www.vocabolangelo.org/orlandoNicola> <http://xmlns.com/foaf/0.1/nick> "Orla" .
 <http://www.vocabolangelo.org/orlandoNicola> <http://xmlns.com/foaf/0.1/gender> "male" .
-<http://www.vocabolangelo.org/orlandoNicola> <http://purl.org/dc/terms/description> "Orla è una persona molto tranquilla e religiosa; riesce a mantenere consistente il supo ciclo del sonno in una maniera alquanto invidiabile. Amo le sue parolangelo che sono spesso funzionali o nate dal caso o da qualche evento divertente, mai scontate." .
+<http://www.vocabolangelo.org/orlandoNicola> <http://purl.org/dc/terms/description> "Orla è una persona molto tranquilla e religiosa; riesce a mantenere consistente il suo ciclo del sonno in una maniera alquanto invidiabile. Amo le sue parolangelo; spesso sono funzionali, nate dal caso o da qualche evento divertente, mai scontate." .
 <http://www.vocabolangelo.org/orlandoNicola> <http://www.w3.org/ns/org#memberOf> <http://www.vocabolangelo.org/vocaboladminOrg> .
 <http://www.vocabolangelo.org/orlandoNicola> <https://schema.org/image> "https://raw.githubusercontent.com/Vocabolangelo/vocabolangelo-rdf/master/images/vocabolangelo/person/orlandoNicola.jpg" .
 <http://www.vocabolangelo.org/orlandoNicola> <http://www.perceive.net/schemas/20021119/relationship/#friendOf> <http://www.vocabolangelo.org/cortecchiaAngela> .
@@ -11197,7 +11197,7 @@
 <http://www.vocabolangelo.org/oltrepolento> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/orlandoNicola> .
 <http://www.vocabolangelo.org/vulwatergun> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/vulwatergun> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vulwatergun"@it .
-<http://www.vocabolangelo.org/vulwatergun> <http://www.w3.org/2004/02/skos/core#definition> "Vagina finta modificata appositamente aggiungendo meccanismi di una psitola ad acqua elettronica e che acquisisce quindi la capacità di spruzzare acqua e squirtare."@it .
+<http://www.vocabolangelo.org/vulwatergun> <http://www.w3.org/2004/02/skos/core#definition> "Vagina finta modificata, alla quale vengono aggiunti meccanismi di una classica pistola ad acqua elettronica. La vagina acquisisce quindi la capacità di spruzzare acqua e squirtare."@it .
 <http://www.vocabolangelo.org/vulwatergun> <http://www.w3.org/2004/02/skos/core#example> "Volevo utilizzare la mia vulwatergun nello scontro di domani, ma penso sia più adatta ad altri scopi dopo ieri sera..."@it .
 <http://www.vocabolangelo.org/vulwatergun> <https://schema.org/keywords> "vagina, pistola, acqua, vulva, modifica, squirt, sesso" .
 <http://www.vocabolangelo.org/vulwatergun> <http://purl.org/dc/terms/created> "2024-07-31" .
@@ -11883,14 +11883,14 @@
 <http://www.vocabolangelo.org/frenulworld> <https://schema.org/keywords> "campionato, maschi, frenuli, rompere" .
 <http://www.vocabolangelo.org/frenulworld> <http://purl.org/dc/terms/created> "2024-09-13" .
 <http://www.vocabolangelo.org/frenulworld> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pianiniDanilo> .
-<http://www.vocabolangelo.org/universitadio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
-<http://www.vocabolangelo.org/universitadio> <http://www.w3.org/2004/02/skos/core#prefLabel> "Universitadio"@it .
-<http://www.vocabolangelo.org/universitadio> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/u • ni • ver • si • tà • di • o/"@it .
-<http://www.vocabolangelo.org/universitadio> <http://www.w3.org/2004/02/skos/core#definition> "Studente universitario fuoricorso."@it .
-<http://www.vocabolangelo.org/universitadio> <http://www.w3.org/2004/02/skos/core#example> "A causa dell'esame di fisica, sono diventato un universitadio. Non riesco a passarlo per niente! Mi chiedo come abbia fatto Sasha al primo tentativo..."@it .
-<http://www.vocabolangelo.org/universitadio> <https://schema.org/keywords> "università, partite, calcio, studenti, professori" .
-<http://www.vocabolangelo.org/universitadio> <http://purl.org/dc/terms/created> "2024-09-13" .
-<http://www.vocabolangelo.org/universitadio> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/antonioniGiovanni> .
+<http://www.vocabolangelo.org/universitardo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/universitardo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Universitardo"@it .
+<http://www.vocabolangelo.org/universitardo> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/u • ni • ver • si • tàr • do/"@it .
+<http://www.vocabolangelo.org/universitardo> <http://www.w3.org/2004/02/skos/core#definition> "Studente universitario fuoricorso."@it .
+<http://www.vocabolangelo.org/universitardo> <http://www.w3.org/2004/02/skos/core#example> "A causa dell'esame di fisica, sono diventato un universitardo. Non riesco a passarlo per niente! Mi chiedo come abbia fatto Sasha al primo tentativo..."@it .
+<http://www.vocabolangelo.org/universitardo> <https://schema.org/keywords> "università, partite, calcio, studenti, professori" .
+<http://www.vocabolangelo.org/universitardo> <http://purl.org/dc/terms/created> "2024-09-13" .
+<http://www.vocabolangelo.org/universitardo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/antonioniGiovanni> .
 <http://www.vocabolangelo.org/vamsbirro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
 <http://www.vocabolangelo.org/vamsbirro> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vamsbirro"@it .
 <http://www.vocabolangelo.org/vamsbirro> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/vam • sbir • rò/"@it .
@@ -12252,3 +12252,26 @@
 <http://www.vocabolangelo.org/eddit> <https://schema.org/keywords> "persona, conoscenza, enciclopedia" .
 <http://www.vocabolangelo.org/eddit> <http://purl.org/dc/terms/created> "2024-10-26" .
 <http://www.vocabolangelo.org/eddit> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/filasetaAngelo> .
+<http://www.vocabolangelo.org/ambroMagique> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Slangelo> .
+<http://www.vocabolangelo.org/ambroMagique> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ambro Magique"@it .
+<http://www.vocabolangelo.org/ambroMagique> <http://www.w3.org/2004/02/skos/core#definition> "Fragranza che viene emanata da forni e pasticcerie per invogliare le persone ad entrare."@it .
+<http://www.vocabolangelo.org/ambroMagique> <http://www.w3.org/2004/02/skos/core#example> "Mentre passeggiavo per la città, ho sentito l'ambro magique di una pasticceria. Mi ha fatto venire l'acquolina in bocca!"@it .
+<http://www.vocabolangelo.org/ambroMagique> <https://schema.org/keywords> "fragranza, forni, pasticcerie, invogliare, persone, entrare" .
+<http://www.vocabolangelo.org/ambroMagique> <http://purl.org/dc/terms/created> "2024-10-26" .
+<http://www.vocabolangelo.org/ambroMagique> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
+<http://www.vocabolangelo.org/kosovharem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/kosovharem> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kosovharem"@it .
+<http://www.vocabolangelo.org/kosovharem> <http://www.w3.org/2004/02/skos/core#definition> "Harem di donne provenienti dal Kosovo."@it .
+<http://www.vocabolangelo.org/kosovharem> <http://www.w3.org/2004/02/skos/core#example> "Il kosovharem è una pratica molto particolare. Mi piacerebbe provarla un giorno!"@it .
+<http://www.vocabolangelo.org/kosovharem> <https://schema.org/keywords> "harem, donne, Kosovo" .
+<http://www.vocabolangelo.org/kosovharem> <http://purl.org/dc/terms/created> "2024-10-27" .
+<http://www.vocabolangelo.org/kosovharem> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/paoliMichele> .
+<http://www.vocabolangelo.org/melogrammo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.vocabolangelo.org/Parolangelo> .
+<http://www.vocabolangelo.org/melogrammo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Melogrammo"@it .
+<http://www.vocabolangelo.org/melogrammo> <http://www.lexinfo.net/ontology/2.0/lexinfo#pronunciation> "/me • lo • gràm • mo/"@it .
+<http://www.vocabolangelo.org/melogrammo> <http://www.w3.org/2004/02/skos/core#definition> "Unità di misura che usa il peso di un intero melograno come riferimento."@it .
+<http://www.vocabolangelo.org/melogrammo> <http://www.w3.org/2004/02/skos/core#example> "Miccio e Pippo si sono sfidati a chi mangiava più mele. Pippo ha mangiato circa 5 melogrammi, mentre Miccio ne ha mangiati 10!"@it .
+<http://www.vocabolangelo.org/melogrammo> <https://schema.org/keywords> "unità, misura, seme, melograno" .
+<http://www.vocabolangelo.org/melogrammo> <http://purl.org/dc/terms/created> "2024-10-29" .
+<http://www.vocabolangelo.org/melogrammo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/omiccioliRiccardo> .
+<http://www.vocabolangelo.org/melogrammo> <http://purl.org/dc/terms/creator> <http://www.vocabolangelo.org/pertosaLorenzo> .
