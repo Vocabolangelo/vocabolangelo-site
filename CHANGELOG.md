@@ -1,5 +1,42 @@
 # Changelog
 
+## [6.25.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v6.24.0...v6.25.0) (2026-02-08)
+
+
+### Features
+
+* **parolangelo:** add parolangelo till 1 may ([4b82f2a](https://github.com/Vocabolangelo/vocabolangelo-site/commit/4b82f2afdfc05fb49114c91c9453540619721d09))
+* **parolangelo:** add parolangelo till fanobro ([a8a918d](https://github.com/Vocabolangelo/vocabolangelo-site/commit/a8a918d720c65f38a74e55035ed4c415a56063eb))
+* **parolangelo:** add til 1 september ([f332eb4](https://github.com/Vocabolangelo/vocabolangelo-site/commit/f332eb40e4038a64223357ee805b8443ba0d9b34))
+* **parolangelo:** add til 10 august ([d805d70](https://github.com/Vocabolangelo/vocabolangelo-site/commit/d805d70b58a2a34bd64004fbdbb891d18d32ffa5))
+* **parolangelo:** add til 15 august ([77bd6c9](https://github.com/Vocabolangelo/vocabolangelo-site/commit/77bd6c99248346cab218c84bc3b262a4f4608e3a))
+* **parolangelo:** add til death of summer group ([c84b8be](https://github.com/Vocabolangelo/vocabolangelo-site/commit/c84b8bee9d3af6183574348f60c889f39f22e855))
+* **parolangelo:** add till 05-13 ([6c9a456](https://github.com/Vocabolangelo/vocabolangelo-site/commit/6c9a45602d879a657653632400b7821fc25553c6))
+* **parolangelo:** add till 05-20 ([a7ad7bb](https://github.com/Vocabolangelo/vocabolangelo-site/commit/a7ad7bb98fe2b5512e3964eee8a060a20c090094))
+* **parolangelo:** add till 06-01 ([8faafbf](https://github.com/Vocabolangelo/vocabolangelo-site/commit/8faafbfc8479c408075ed93df5f98c5678534516))
+* **parolangelo:** add till august ([2382325](https://github.com/Vocabolangelo/vocabolangelo-site/commit/23823254e9b39486eb310add0380604aaf6ba0ee))
+* **parolangelo:** add till eddit ([2a7e470](https://github.com/Vocabolangelo/vocabolangelo-site/commit/2a7e470ee8c1babe6f12b84b1aff85a067cc738c))
+* **parolangelo:** add till july ([457ab67](https://github.com/Vocabolangelo/vocabolangelo-site/commit/457ab677e08d23c349445d675daea6e52c4a612b))
+* **parolangelo:** add till negritudine ([ab4807b](https://github.com/Vocabolangelo/vocabolangelo-site/commit/ab4807bbf3e3b35ab1a6bcd88df1c994676aad8f))
+* **parolangelo:** add till retracing ([09a5a3b](https://github.com/Vocabolangelo/vocabolangelo-site/commit/09a5a3b5e2761d4702f8768297c84e8805af5070))
+* **parolangelo:** lampeluna,sunspance, porcafoglio, antifurbo ([5ed2b59](https://github.com/Vocabolangelo/vocabolangelo-site/commit/5ed2b59efaf9b40aa8bd5cdde56631436cc4b48e))
+* **parolangelo:** megazione ([40fce28](https://github.com/Vocabolangelo/vocabolangelo-site/commit/40fce28e0c813c116f946b59e4334a89e81167d9))
+* **site:** add 3 pillars ([eac293d](https://github.com/Vocabolangelo/vocabolangelo-site/commit/eac293d52ecf79b94ae7f40a209d128eaa0319c5))
+* **site:** form automatically detecting parolangelo or slangelo and add people ([127196a](https://github.com/Vocabolangelo/vocabolangelo-site/commit/127196a0bde70048bb6b977d63f6704f6a1f464c))
+* **site:** introducing a form to add Parolangelo and Slangelo ([58e58f9](https://github.com/Vocabolangelo/vocabolangelo-site/commit/58e58f96d0c535d4d12337f634c0b48ff166ba90))
+* **site:** update rules ([89f536d](https://github.com/Vocabolangelo/vocabolangelo-site/commit/89f536d7077fd03ff1c5ee79cace45510495886f))
+* **slangelo:** trenino di heimlich ([7e42c65](https://github.com/Vocabolangelo/vocabolangelo-site/commit/7e42c654cc8fbb96ed6a9c2b6c17069fdc53de9a))
+* **vocaboliere:** Danilo Pianini ([9d40fe5](https://github.com/Vocabolangelo/vocabolangelo-site/commit/9d40fe55be7744fdf2aca30ff7f660d952e91d12))
+
+
+### Bug Fixes
+
+* ops ([97d9fb2](https://github.com/Vocabolangelo/vocabolangelo-site/commit/97d9fb2c11dc69b6f5f6cbf5f154952f90303739))
+* **parolangelo:** oops ([d2b8079](https://github.com/Vocabolangelo/vocabolangelo-site/commit/d2b8079e979afa5e3c970acdd07ec63911b363f7))
+* **parolangelo:** oops ([ddf3d9f](https://github.com/Vocabolangelo/vocabolangelo-site/commit/ddf3d9fd9d51613b3f50312ba1cc49a310bdee8c))
+* **parolangelo:** pompincubo ([ce8b1e1](https://github.com/Vocabolangelo/vocabolangelo-site/commit/ce8b1e1a5601a95f79a7ebe547f8b3fdba5e817c))
+* **parolangelo:** universitardo ([f22ea2f](https://github.com/Vocabolangelo/vocabolangelo-site/commit/f22ea2f3318063da1939f960d0dceeb3fa1e617d))
+
 ## [6.24.0](https://github.com/Vocabolangelo/vocabolangelo-site/compare/v6.22.0...v6.24.0) (2024-03-30)
 
 
