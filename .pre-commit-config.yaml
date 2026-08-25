@@ -34,7 +34,7 @@ repos:
     - id: markdown-toc
 
 - repo: https://github.com/Lucas-C/pre-commit-hooks-lxml
-  rev: v1.1.0
+  rev: v1.1.1
   hooks:
     - id: forbid-html-img-without-alt-text
     - id: forbid-non-std-html-attributes
